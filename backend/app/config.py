@@ -8,7 +8,8 @@ import yaml
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-BACKEND_DIR = Path(__file__).resolve().parent.parent
+from app.paths import BACKEND_DIR, get_database_path
+
 
 
 class Settings(BaseSettings):
@@ -18,7 +19,11 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    database_url: str = "sqlite:///data/notices.db"
+    environment: str = "development"
+    app_data_dir: str | None = None
+    database_url: str | None = None
+    host: str = "127.0.0.1"
+    port: int = Field(8000, ge=1, le=65535)
     log_level: str = "INFO"
     request_timeout: float = 20.0
     max_items_per_section: int = 30
@@ -33,11 +38,20 @@ class Settings(BaseSettings):
 
     @property
     def database_path(self) -> Path | None:
+        if not self.database_url:
+            return get_database_path(self.environment, self.app_data_dir)
         prefix = "sqlite:///"
         if not self.database_url.startswith(prefix):
             return None
         path = Path(self.database_url.removeprefix(prefix))
         return path if path.is_absolute() else BACKEND_DIR / path
+
+    @property
+    def effective_database_url(self) -> str:
+        if self.database_path is not None:
+            return f"sqlite:///{self.database_path.as_posix()}"
+        assert self.database_url is not None
+        return self.database_url
 
 
 @lru_cache

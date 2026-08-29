@@ -1,0 +1,6 @@
+import { CircleAlert, Inbox } from 'lucide-react'
+import { Button } from './Button'
+
+export function PageSkeleton() { return <div className="space-y-4" aria-label="正在加载">{[1,2,3,4,5].map(i => <div key={i} className="h-24 animate-pulse rounded-xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900" />)}</div> }
+export function EmptyState({ title, description }: { title: string; description: string }) { return <div className="grid min-h-64 place-items-center rounded-xl border border-dashed border-zinc-200 bg-white px-6 text-center dark:border-zinc-800 dark:bg-zinc-900"><div><Inbox className="mx-auto h-8 w-8 text-zinc-300 dark:text-zinc-600" /><h2 className="mt-3 font-semibold">{title}</h2><p className="mt-1 max-w-sm text-sm text-zinc-500">{description}</p></div></div> }
+export function ErrorState({ message, retry }: { message: string; retry?: () => void }) { return <div className="grid min-h-64 place-items-center rounded-xl border border-zinc-200 bg-white px-6 text-center dark:border-zinc-800 dark:bg-zinc-900"><div><CircleAlert className="mx-auto h-8 w-8 text-rose-500" /><h2 className="mt-3 font-semibold">无法连接本地服务</h2><p className="mt-1 text-sm text-zinc-500">{message}</p>{retry && <Button onClick={retry} className="mt-4">重新连接</Button>}</div></div> }

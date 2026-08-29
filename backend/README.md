@@ -7,8 +7,8 @@
 要求 Windows 11、PowerShell、Python 3.12+（当前开发验收使用 Python 3.13.13）。在 PowerShell 中执行：
 
 ```powershell
-Set-Location E:\jlu-notice-monitor\backend
-C:\Users\zc\AppData\Local\Programs\Python\Python313\python.exe -m venv .venv
+Set-Location backend
+python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e ".[dev]"
 Copy-Item .env.example .env
 ```
@@ -20,7 +20,7 @@ Copy-Item .env.example .env
 - `settings.yaml`：重试、User-Agent、锁文件和截止日期规则；
 - `.env`：本机数据库、超时、CORS 等覆盖项。
 
-数据库默认位于 `data/notices.db`，滚动日志位于 `logs/app.log`。两者都不会进入 Git。
+开发环境数据库默认位于 `data/notices.db`，滚动日志位于 `logs/app.log`。两者都不会进入 Git。生产环境的运行时文件统一放入 `%LOCALAPPDATA%\JLU Notice Monitor\`。
 
 ## CLI
 
@@ -30,6 +30,7 @@ Copy-Item .env.example .env
 .\.venv\Scripts\python.exe -m app crawl --source ccst
 .\.venv\Scripts\python.exe -m app test-source ccst
 .\.venv\Scripts\python.exe -m app serve
+.\.venv\Scripts\python.exe -m app serve --host 127.0.0.1 --port 8000
 .\.venv\Scripts\python.exe -m app run
 ```
 
@@ -39,8 +40,9 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 
 ## API
 
-- `GET /health`
-- `GET /api/notices`：支持 `category`、`source`、`min_score`、`date_from`、`date_to`、`status`、`keyword`、`page`、`page_size`
+- `GET /health`：兼容健康检查入口
+- `GET /api/health`：数据库 readiness probe，供未来 Tauri sidecar 使用
+- `GET /api/notices`：数据库层分页与组合筛选，支持 `page`、`page_size`、`favorite`、`read`、`category`、`source`、`deadline_status`、`q`，并兼容 `keyword`、`status`、`min_score`、`date_from`、`date_to`
 - `GET /api/notices/{id}`
 - `GET /api/notices/today`
 - `GET /api/notices/important`
@@ -93,6 +95,36 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 
 当前代码明确返回 `OA_UNCONFIGURED`，没有猜测登录后的通知 DOM，也不会模拟成功抓取。
 
+## 运行目录
+
+所有运行时可写路径由 `app.paths` 统一管理，不依赖当前工作目录，也不硬编码用户名：
+
+- `get_app_data_dir()`
+- `get_database_path()`
+- `get_log_dir()`
+- `get_oa_profile_dir()`
+- `get_cache_dir()`
+- `get_runtime_config_dir()`
+
+开发环境继续使用项目内的 `data/`、`logs/` 和 `cache/` 等目录。生产环境设置 `JLU_ENVIRONMENT=production` 后使用：
+
+```text
+%LOCALAPPDATA%\JLU Notice Monitor\
+├── data\notices.db
+├── logs\
+├── oa-profile\
+├── cache\
+└── config\
+```
+
+`JLU_APP_DATA_DIR` 可覆盖运行目录，测试全部使用临时目录。`JLU_DATABASE_URL` 仍可显式覆盖数据库连接；程序不会自动迁移或删除旧数据库。
+
+## Sidecar 生命周期准备
+
+Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放；正常 Ctrl+C 可干净退出。
+
+未来 Tauri 应先启动 Backend，轮询 `GET /api/health`，健康后加载前端，并在应用退出时终止 Backend、等待 graceful shutdown。本阶段尚未开始 Tauri 或 EXE 打包。
+
 ## Windows Task Scheduler
 
 安装每天 08:00 的任务：
@@ -134,4 +166,3 @@ Unregister-ScheduledTask -TaskName "JLU Notice Monitor" -Confirm:$false
 ## 安全说明
 
 不要提交 `.env`、SQLite、日志、Cookie、OA profile 或任何 session。日志只记录来源、数量、耗时和错误，不记录密码、Token、Cookie 或 session。程序不会绕过统一身份认证、验证码或权限控制。
-

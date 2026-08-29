@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from app.config import BACKEND_DIR, get_settings
+from app.config import get_settings
+from app.paths import get_oa_profile_dir
 from app.schemas.notice import NoticeCandidate
 from app.sources.base import LoginExpiredError, NoticeSource, SourceError
 
@@ -10,7 +11,8 @@ class OASource(NoticeSource):
 
     def __init__(self, config: dict[str, object]) -> None:
         super().__init__(config)
-        self.profile_path = BACKEND_DIR / "data" / "browser_profile" / "oa"
+        settings = get_settings()
+        self.profile_path = get_oa_profile_dir(settings.environment, settings.app_data_dir)
         self.context = None
         self.playwright = None
 

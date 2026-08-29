@@ -8,7 +8,7 @@ from typing import Any
 
 import uvicorn
 
-from app.config import load_yaml
+from app.config import get_settings, load_yaml
 from app.crawler import crawler_manager
 from app.database import init_db
 from app.logging_config import configure_logging
@@ -66,8 +66,12 @@ async def _oa_login() -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m app")
     subparsers = parser.add_subparsers(dest="command", required=True)
-    subparsers.add_parser("serve", help="start FastAPI at 127.0.0.1:8000")
-    subparsers.add_parser("run", help="crawl once, then start FastAPI")
+    serve = subparsers.add_parser("serve", help="start FastAPI server")
+    serve.add_argument("--host")
+    serve.add_argument("--port", type=int)
+    run = subparsers.add_parser("run", help="crawl once, then start FastAPI")
+    run.add_argument("--host")
+    run.add_argument("--port", type=int)
     subparsers.add_parser("bootstrap", help="create initial baseline without NEW events")
     crawl = subparsers.add_parser("crawl", help="crawl enabled sources")
     crawl.add_argument("--source")
@@ -84,11 +88,14 @@ def main() -> None:
     args = build_parser().parse_args()
     configure_logging()
     init_db()
+    settings = get_settings()
+    host = getattr(args, "host", None) or settings.host
+    port = getattr(args, "port", None) or settings.port
     if args.command == "serve":
-        uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=False)
+        uvicorn.run("app.main:app", host=host, port=port, reload=False, log_config=None)
     elif args.command == "run":
         asyncio.run(_crawl(None))
-        uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=False)
+        uvicorn.run("app.main:app", host=host, port=port, reload=False, log_config=None)
     elif args.command == "bootstrap":
         asyncio.run(_crawl(None, bootstrap=True))
     elif args.command == "crawl":

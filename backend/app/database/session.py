@@ -16,11 +16,7 @@ class Base(DeclarativeBase):
 settings = get_settings()
 if settings.database_path:
     settings.database_path.parent.mkdir(parents=True, exist_ok=True)
-engine_url = (
-    f"sqlite:///{settings.database_path.as_posix()}"
-    if settings.database_path
-    else settings.database_url
-)
+engine_url = settings.effective_database_url
 
 engine = create_engine(
     engine_url,
@@ -43,6 +39,9 @@ def init_db() -> None:
     from app.models import entities  # noqa: F401
 
     Base.metadata.create_all(bind=engine)
+    if engine_url.startswith("sqlite"):
+        with engine.begin() as connection:
+            connection.exec_driver_sql("PRAGMA optimize")
 
 
 def get_db() -> Generator[Session, None, None]:
@@ -51,3 +50,7 @@ def get_db() -> Generator[Session, None, None]:
         yield db
     finally:
         db.close()
+
+
+def close_db() -> None:
+    engine.dispose()

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+from contextlib import suppress
 import json
 import logging
 import os
@@ -14,7 +15,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.classifier import classify_notice, score_importance
-from app.config import BACKEND_DIR, get_settings, load_yaml
+from app.config import get_settings, load_yaml
 from app.database import SessionLocal, init_db
 from app.models import Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
 from app.schemas.notice import NoticeCandidate
@@ -24,6 +25,7 @@ from app.services.metadata import extract_notice_metadata
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
 from app.sources import build_source
 from app.sources.base import LoginExpiredError
+from app.paths import get_cache_dir
 
 logger = logging.getLogger(__name__)
 
@@ -68,10 +70,13 @@ class CrawlerAlreadyRunning(RuntimeError):
 
 
 class CrawlerManager:
-    def __init__(self) -> None:
+    def __init__(self, cache_dir: Path | None = None) -> None:
         self._lock = asyncio.Lock()
-        self._lock_file = BACKEND_DIR / "data" / "crawler.lock"
-        self._status_file = BACKEND_DIR / "data" / "crawler_status.json"
+        if cache_dir is None:
+            settings = get_settings()
+            cache_dir = get_cache_dir(settings.environment, settings.app_data_dir)
+        self._lock_file = cache_dir / "crawler.lock"
+        self._status_file = cache_dir / "crawler_status.json"
         self.last_result: CrawlRunResult | None = None
         self.current_started_at: datetime | None = None
         self._task: asyncio.Task[CrawlRunResult] | None = None
@@ -86,10 +91,21 @@ class CrawlerManager:
         self._task = asyncio.create_task(self.run(source_code=source_code))
         self._task.add_done_callback(self._log_task_result)
 
+    async def shutdown(self) -> None:
+        task = self._task
+        if task is not None and not task.done():
+            logger.info("cancelling background crawler during shutdown")
+            task.cancel()
+            with suppress(asyncio.CancelledError):
+                await task
+        self._task = None
+
     @staticmethod
     def _log_task_result(task: asyncio.Task[CrawlRunResult]) -> None:
         try:
             task.result()
+        except asyncio.CancelledError:
+            logger.info("background crawler task cancelled")
         except Exception:
             logger.exception("background crawler task failed")
 
@@ -157,6 +173,7 @@ class CrawlerManager:
                 result.finished_at = utcnow()
                 self.last_result = result
                 self.current_started_at = None
+                self._status_file.parent.mkdir(parents=True, exist_ok=True)
                 self._status_file.write_text(
                     json.dumps(self.status(), ensure_ascii=False, default=str, indent=2),
                     encoding="utf-8",

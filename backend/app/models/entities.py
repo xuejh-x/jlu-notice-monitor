@@ -119,6 +119,10 @@ class Attachment(Base):
 
 class UserState(Base):
     __tablename__ = "user_states"
+    __table_args__ = (
+        Index("ix_user_states_favorite", "is_favorite"),
+        Index("ix_user_states_read", "is_read"),
+    )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     notice_id: Mapped[int] = mapped_column(

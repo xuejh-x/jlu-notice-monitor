@@ -1,19 +1,26 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta
-from typing import Any
+from math import ceil
+from typing import Any, Literal
+import logging
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi.responses import JSONResponse
 from sqlalchemy import func, or_, select
+from sqlalchemy import text
 from sqlalchemy.orm import Session, selectinload
 
 from app.crawler import crawler_manager
+from app import __version__
+from app.config import get_settings
 from app.crawler.runner import CrawlerAlreadyRunning
 from app.database import get_db
 from app.models import Favorite, Notice, NoticeSourceRelation, Source, UserState
 from app.services.dates import deadline_metadata
 
 api_router = APIRouter(prefix="/api")
+logger = logging.getLogger(__name__)
 
 
 def _serialize_notice(notice: Notice, detailed: bool = False) -> dict[str, Any]:
@@ -98,7 +105,12 @@ def list_notices(
     date_from: date | None = None,
     date_to: date | None = None,
     status_filter: str | None = Query(None, alias="status"),
+    deadline_status: Literal["unknown", "expired", "today", "urgent", "normal", "active"] | None = None,
+    favorite: bool | None = None,
+    read_filter: bool | None = Query(None, alias="read"),
+    q: str | None = Query(None, min_length=1),
     keyword: str | None = None,
+    sort: Literal["newest", "priority", "deadline"] = "newest",
     page: int = Query(1, ge=1),
     page_size: int = Query(20, ge=1, le=100),
     db: Session = Depends(get_db),
@@ -107,7 +119,9 @@ def list_notices(
     count_query = select(func.count(func.distinct(Notice.id)))
     conditions: list[Any] = []
     if category:
-        conditions.append(Notice.category == category)
+        category_values = [value.strip() for value in category.split(",") if value.strip()]
+        if category_values:
+            conditions.append(Notice.category.in_(category_values))
     if min_score is not None:
         conditions.append(Notice.importance_score >= min_score)
     if date_from:
@@ -116,19 +130,54 @@ def list_notices(
         conditions.append(Notice.publish_date <= date_to)
     if status_filter:
         conditions.append(Notice.status == status_filter)
-    if keyword:
-        value = f"%{keyword}%"
+    if deadline_status:
+        today = date.today()
+        if deadline_status == "unknown":
+            conditions.append(Notice.registration_deadline.is_(None))
+        elif deadline_status == "expired":
+            conditions.append(Notice.registration_deadline < today)
+        elif deadline_status == "today":
+            conditions.append(Notice.registration_deadline == today)
+        elif deadline_status == "urgent":
+            conditions.extend((
+                Notice.registration_deadline > today,
+                Notice.registration_deadline <= today + timedelta(days=3),
+            ))
+        elif deadline_status == "normal":
+            conditions.append(Notice.registration_deadline > today + timedelta(days=3))
+        else:
+            conditions.append(Notice.registration_deadline >= today)
+    search_value = q or keyword
+    if search_value:
+        value = f"%{search_value}%"
         conditions.append(or_(Notice.title.ilike(value), Notice.content.ilike(value)))
     if source:
         query = query.join(Notice.source_relations).join(Source)
         count_query = count_query.join(Notice.source_relations).join(Source)
         conditions.append(Source.code == source)
+    if favorite is not None or read_filter is not None:
+        query = query.outerjoin(UserState, UserState.notice_id == Notice.id)
+        count_query = count_query.outerjoin(UserState, UserState.notice_id == Notice.id)
+    if favorite is True:
+        conditions.append(UserState.is_favorite.is_(True))
+    elif favorite is False:
+        conditions.append(or_(UserState.id.is_(None), UserState.is_favorite.is_(False)))
+    if read_filter is True:
+        conditions.append(UserState.is_read.is_(True))
+    elif read_filter is False:
+        conditions.append(or_(UserState.id.is_(None), UserState.is_read.is_(False)))
     if conditions:
         query = query.where(*conditions)
         count_query = count_query.where(*conditions)
     total = db.scalar(count_query) or 0
+    if sort == "priority":
+        ordering = (Notice.importance_score.desc(), Notice.publish_date.desc().nullslast())
+    elif sort == "deadline":
+        ordering = (Notice.registration_deadline.asc().nullslast(), Notice.publish_date.desc().nullslast())
+    else:
+        ordering = (Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
     notices = db.scalars(
-        query.order_by(Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
+        query.order_by(*ordering)
         .offset((page - 1) * page_size)
         .limit(page_size)
     ).unique().all()
@@ -137,6 +186,7 @@ def list_notices(
         "total": total,
         "page": page,
         "page_size": page_size,
+        "total_pages": ceil(total / page_size) if total else 0,
     }
 
 
@@ -224,8 +274,35 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
             "consecutive_errors": item.consecutive_errors,
             "status": source_status,
             "message": message,
+            "notice_count": db.scalar(
+                select(func.count(func.distinct(NoticeSourceRelation.notice_id))).where(
+                    NoticeSourceRelation.source_id == item.id
+                )
+            ) or 0,
         })
     return results
+
+
+def health_status(db: Session) -> dict[str, Any] | JSONResponse:
+    payload: dict[str, Any] = {
+        "status": "ok",
+        "version": __version__,
+        "database": "ok",
+        "crawler": "running" if crawler_manager.running else "idle",
+        "environment": get_settings().environment,
+    }
+    try:
+        db.execute(text("SELECT 1"))
+    except Exception:
+        logger.exception("database health check failed")
+        payload.update(status="degraded", database="error")
+        return JSONResponse(status_code=503, content=payload)
+    return payload
+
+
+@api_router.get("/health", response_model=None)
+def api_health(db: Session = Depends(get_db)) -> dict[str, Any] | JSONResponse:
+    return health_status(db)
 
 
 @api_router.get("/stats")
@@ -239,7 +316,12 @@ def stats(db: Session = Depends(get_db)) -> dict[str, int]:
 
 
 @api_router.get("/search")
-def search(keyword: str = Query(min_length=1), page: int = 1, page_size: int = 20, db: Session = Depends(get_db)) -> dict[str, Any]:
+def search(
+    keyword: str = Query(min_length=1),
+    page: int = Query(1, ge=1),
+    page_size: int = Query(20, ge=1, le=100),
+    db: Session = Depends(get_db),
+) -> dict[str, Any]:
     return list_notices(
         category=None,
         source=None,
@@ -247,7 +329,12 @@ def search(keyword: str = Query(min_length=1), page: int = 1, page_size: int = 2
         date_from=None,
         date_to=None,
         status_filter=None,
+        deadline_status=None,
+        favorite=None,
+        read_filter=None,
+        q=keyword,
         keyword=keyword,
+        sort="newest",
         page=page,
         page_size=page_size,
         db=db,

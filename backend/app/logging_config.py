@@ -3,11 +3,13 @@ from __future__ import annotations
 import logging
 from logging.handlers import RotatingFileHandler
 
-from app.config import BACKEND_DIR, get_settings
+from app.config import get_settings
+from app.paths import get_log_dir
 
 
 def configure_logging() -> None:
-    log_dir = BACKEND_DIR / "logs"
+    settings = get_settings()
+    log_dir = get_log_dir(settings.environment, settings.app_data_dir)
     log_dir.mkdir(parents=True, exist_ok=True)
     formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s %(message)s")
     file_handler = RotatingFileHandler(
@@ -18,7 +20,6 @@ def configure_logging() -> None:
     console_handler.setFormatter(formatter)
     root = logging.getLogger()
     root.handlers.clear()
-    root.setLevel(getattr(logging, get_settings().log_level.upper(), logging.INFO))
+    root.setLevel(getattr(logging, settings.log_level.upper(), logging.INFO))
     root.addHandler(file_handler)
     root.addHandler(console_handler)
-
