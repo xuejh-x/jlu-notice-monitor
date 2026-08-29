@@ -1,0 +1,10 @@
+backend/.env
+backend/.venv/
+backend/data/
+backend/logs/
+backend/browser_profile/
+backend/data/browser_profile/
+backend/cookies/
+**/__pycache__/
+**/.pytest_cache/
+backend/*.egg-info/

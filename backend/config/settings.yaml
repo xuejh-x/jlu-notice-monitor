@@ -1,0 +1,11 @@
+app:
+  name: JLU Notice Monitor
+  timezone: Asia/Shanghai
+crawler:
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) JLUNoticeMonitor/0.1
+  retries: 2
+  retry_backoff_seconds: 1.0
+  stale_lock_hours: 4
+deadline:
+  urgent_days: 3
+

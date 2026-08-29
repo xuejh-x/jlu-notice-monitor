@@ -1,0 +1,72 @@
+categories:
+  algorithm_competition:
+    - ICPC
+    - CCPC
+    - ACM
+    - 蓝桥杯
+    - 团体程序设计天梯赛
+    - 天梯赛
+    - GPLT
+    - 百度之星
+    - Astar
+    - CSP
+    - CCSP
+    - CCF
+    - 算法竞赛
+    - 程序设计竞赛
+  cybersecurity_competition:
+    - CTF
+    - 网络安全竞赛
+    - 信息安全竞赛
+    - 密码安全挑战赛
+    - Spirit Game
+    - 熵密杯
+    - 攻防赛
+  innovation_competition:
+    - 创新创业大赛
+    - 挑战杯
+    - 互联网+
+    - 中美青年创客大赛
+  training:
+    - 实训
+    - 训练营
+    - 培训
+  internship:
+    - 实习
+    - 招聘
+  research:
+    - 实验室
+    - 科研
+    - 科研招募
+    - 创新项目
+    - 大创
+    - 大学生创新创业训练计划
+    - 开源
+  postgraduate_recommendation:
+    - 推免
+    - 保研
+    - 免试推荐研究生
+  scholarship:
+    - 奖学金
+    - 评奖评优
+  academic:
+    - 教学通知
+    - 课程
+    - 考试
+    - 成绩
+    - 学籍
+
+scoring:
+  strong:
+    weight: 28
+    keywords: [校内报名, 校内选拔, 报名截止, CTF, 天梯赛, 蓝桥杯, ICPC, CCPC, 竞赛加分, 免修政策]
+  recommended:
+    weight: 18
+    keywords: [实验室招募, 科研项目, 大创, 安全实训, 实习, 训练营, 开源]
+  interests:
+    weight: 8
+    keywords: [网络空间安全, C++, Linux, OS, 网络, 系统安全, 二进制安全, 安全研发, 算法, 数据结构, PWN, Web安全, 密码学]
+  low:
+    weight: -25
+    keywords: [教师招聘, 人事, 博士后, 研究生专属]
+

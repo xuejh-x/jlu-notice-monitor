@@ -1,0 +1,12 @@
+.env
+.venv/
+data/
+logs/
+browser_profile/
+data/browser_profile/
+cookies/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.egg-info/

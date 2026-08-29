@@ -1,0 +1,59 @@
+sources:
+  - code: cse
+    name: 吉林大学网络安全学院
+    base_url: https://cse.jlu.edu.cn
+    enabled: true
+    parser: cse
+    sections:
+      - name: 学院通知
+        url: https://cse.jlu.edu.cn/xytz.htm
+      - name: 本科教学通知
+        url: https://cse.jlu.edu.cn/bkjxtz.htm
+
+  - code: ccst
+    name: 吉林大学计算机科学与技术学院
+    base_url: https://ccst.jlu.edu.cn
+    enabled: true
+    parser: ccst
+    sections:
+      - name: 教学通知
+        url: https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz/176.htm
+
+  - code: csw
+    name: 吉林大学软件学院
+    base_url: https://csw.jlu.edu.cn
+    enabled: true
+    parser: csw
+    sections:
+      - name: 学院通知
+        url: https://csw.jlu.edu.cn/index/xytz_.htm
+      - name: 教办通知
+        url: https://csw.jlu.edu.cn/index/jbtz.htm
+
+  - code: jwc
+    name: 吉林大学本科生院
+    base_url: https://jwc.jlu.edu.cn
+    enabled: true
+    parser: jwc
+    sections:
+      - name: 通知公告
+        url: https://jwc.jlu.edu.cn/zxzx/tzgg.htm
+
+  - code: innovation
+    name: 吉林大学创新创业教育学院
+    base_url: https://cxcyjyxy.jlu.edu.cn
+    enabled: true
+    parser: innovation
+    sections:
+      - name: 通知公告
+        url: https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm
+
+  - code: oa
+    name: 吉林大学 OA
+    base_url: https://oa.jlu.edu.cn
+    enabled: false
+    parser: oa
+    requires_login: true
+    sections:
+      - name: 校内通知
+        url: https://oa.jlu.edu.cn
