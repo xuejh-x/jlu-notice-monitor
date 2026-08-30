@@ -7,11 +7,12 @@ import { useToast } from '../../stores/toast'
 import { cn } from '../../utils/cn'
 import { shortDate } from '../../utils/format'
 import { categoryLabels } from '../../utils/labels'
+import { invalidateNoticeState } from '../../utils/noticeCache'
 import { deadlinePresentation, importanceLabels, importanceLevel, isExpired, sourceLabel } from '../../utils/noticeMeta'
 
 export function NoticeCard({ notice }: { notice: Notice }) {
   const queryClient = useQueryClient(); const toast = useToast()
-  const favorite = useMutation({ mutationFn: () => setNoticeFavorite(notice.id, !notice.is_favorite), onSuccess: () => { queryClient.invalidateQueries({ queryKey: ['notices'] }); queryClient.invalidateQueries({ queryKey: ['dashboard'] }); toast(notice.is_favorite ? '已取消收藏' : '收藏成功') }, onError: () => toast('收藏操作失败，请稍后重试', 'error') })
+  const favorite = useMutation({ mutationFn: () => setNoticeFavorite(notice.id, !notice.is_favorite), onSuccess: () => { invalidateNoticeState(queryClient, notice.id); toast(notice.is_favorite ? '已取消收藏' : '收藏成功') }, onError: () => toast('收藏操作失败，请稍后重试', 'error') })
   const level = importanceLevel(notice.importance_score)
   const deadline = deadlinePresentation(notice)
   const deadlineTone = deadline.tone === 'danger' ? 'font-medium text-danger' : deadline.tone === 'secondary' ? 'text-text-secondary' : 'text-text-muted'

@@ -15,6 +15,7 @@ import type { NoticeDetail } from '../types'
 import { cn } from '../utils/cn'
 import { fullDate } from '../utils/format'
 import { categoryLabels } from '../utils/labels'
+import { invalidateNoticeState } from '../utils/noticeCache'
 import { deadlineDetail, deadlinePresentation, importanceLabels, importanceLevel } from '../utils/noticeMeta'
 import { isSafeExternalUrl } from '../utils/url'
 
@@ -179,8 +180,7 @@ export function NoticeDetailPage() {
   const favorite = useMutation({
     mutationFn: (value: boolean) => setNoticeFavorite(id, value),
     onSuccess: () => {
-      client.invalidateQueries({ queryKey: ['notice', id] })
-      client.invalidateQueries({ queryKey: ['notices'] })
+      invalidateNoticeState(client, id)
       toast(query.data?.is_favorite ? '已取消收藏' : '收藏成功')
     },
     onError: () => toast('收藏操作失败', 'error'),

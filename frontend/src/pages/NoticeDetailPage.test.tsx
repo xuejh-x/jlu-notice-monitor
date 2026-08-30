@@ -1,8 +1,9 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { StrictMode, useState } from 'react'
 import { Link, MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { getDashboard } from '../api/dashboard'
 import { ToastProvider } from '../stores/toast'
 import { NoticeDetailPage } from './NoticeDetailPage'
 
@@ -172,5 +173,37 @@ describe('NoticeDetailPage', () => {
     renderDetail()
     const values = await screen.findAllByText('2026-09-10 · 剩余 11 天')
     expect(values.length).toBeGreaterThan(0)
+  })
+
+  it('invalidates the dashboard cache after favoriting in detail', async () => {
+    function DashboardProbe() {
+      const { data } = useQuery({ queryKey: ['dashboard'], queryFn: ({ signal }) => getDashboard({ signal }) })
+      return <span data-testid="dashboard-probe">{data ? 'loaded' : 'pending'}</span>
+    }
+    const controlled = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
+      const url = String(input)
+      if (init?.method === 'POST') return Promise.resolve(new Response(JSON.stringify({ notice_id: 42, is_favorite: true }), { status: 200 }))
+      if (url.includes('/dashboard')) return Promise.resolve(new Response(JSON.stringify({ unread: 0 }), { status: 200 }))
+      return Promise.resolve(new Response(JSON.stringify(detail), { status: 200 }))
+    })
+    vi.stubGlobal('fetch', controlled)
+    const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    render(
+      <QueryClientProvider client={queryClient}>
+        <ToastProvider>
+          <MemoryRouter initialEntries={['/notices/42']}>
+            <DashboardProbe />
+            <Routes><Route path="/notices/:id" element={<NoticeDetailPage />} /></Routes>
+          </MemoryRouter>
+        </ToastProvider>
+      </QueryClientProvider>,
+    )
+
+    await screen.findByTestId('dashboard-probe')
+    const dashboardGets = () => controlled.mock.calls.filter(([input, init]) => !init?.method && String(input).includes('/dashboard')).length
+    expect(dashboardGets()).toBe(1)
+
+    fireEvent.click(await screen.findByRole('button', { name: '收藏通知' }))
+    await waitFor(() => expect(dashboardGets()).toBe(2))
   })
 })

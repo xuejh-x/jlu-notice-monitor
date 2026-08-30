@@ -1,7 +1,8 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { getNotice } from '../../api/notices'
 import { ToastProvider } from '../../stores/toast'
 import type { Notice } from '../../types'
 import { NoticeCard } from './NoticeCard'
@@ -61,5 +62,35 @@ describe('NoticeCard', () => {
     expect(link).not.toContainElement(favorite)
     fireEvent.click(favorite)
     await waitFor(() => expect(fetchMock).toHaveBeenCalled())
+  })
+
+  it('invalidates the notice detail cache after favoriting so reopening shows the new state', async () => {
+    function DetailProbe() {
+      const { data } = useQuery({ queryKey: ['notice', 7], queryFn: ({ signal }) => getNotice(7, { signal }) })
+      return <span data-testid="detail-probe">{data?.is_favorite ? 'favorited' : 'not-favorited'}</span>
+    }
+    const controlled = vi.fn((_input: RequestInfo | URL, init?: RequestInit) => {
+      if (init?.method === 'POST') return Promise.resolve(new Response(JSON.stringify({ notice_id: 7, is_favorite: true }), { status: 200 }))
+      return Promise.resolve(new Response(JSON.stringify({ ...base, id: 7, is_favorite: false }), { status: 200 }))
+    })
+    vi.stubGlobal('fetch', controlled)
+    const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    render(
+      <QueryClientProvider client={queryClient}>
+        <ToastProvider>
+          <MemoryRouter>
+            <NoticeCard notice={base} />
+            <DetailProbe />
+          </MemoryRouter>
+        </ToastProvider>
+      </QueryClientProvider>,
+    )
+
+    await screen.findByTestId('detail-probe')
+    const detailGets = () => controlled.mock.calls.filter(([input, init]) => !init?.method && String(input).includes('/notices/7')).length
+    expect(detailGets()).toBe(1)
+
+    fireEvent.click(screen.getByRole('button', { name: '收藏通知' }))
+    await waitFor(() => expect(detailGets()).toBe(2))
   })
 })

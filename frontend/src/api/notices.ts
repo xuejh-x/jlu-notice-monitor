@@ -1,4 +1,4 @@
-import type { Notice, NoticeDetail, NoticeFilters, PaginatedNotices } from '../types'
+import type { Notice, NoticeDetail, NoticeFilters, NoticeStateResult, PaginatedNotices } from '../types'
 import { apiRequest, type ApiRequestOptions } from './client'
 
 function queryString(filters: NoticeFilters = {}) {
@@ -13,5 +13,5 @@ export const getTodayNotices = (options?: ApiRequestOptions) => apiRequest<Notic
 export const getDeadlineNotices = (days = 30, options?: ApiRequestOptions) => apiRequest<Notice[]>(`/api/notices/deadlines?days=${days}`, undefined, options)
 export const getNotice = (id: number, options?: ApiRequestOptions) => apiRequest<NoticeDetail>(`/api/notices/${id}`, undefined, options)
 export const searchNotices = (keyword: string, options?: ApiRequestOptions) => apiRequest<PaginatedNotices>(`/api/search?keyword=${encodeURIComponent(keyword)}&page_size=20`, undefined, options)
-export const setNoticeRead = (id: number, read: boolean) => apiRequest<Notice>(`/api/notices/${id}/${read ? 'read' : 'unread'}`, { method: 'POST' })
-export const setNoticeFavorite = (id: number, favorite: boolean) => apiRequest<Notice>(`/api/notices/${id}/${favorite ? 'favorite' : 'unfavorite'}`, { method: 'POST' })
+export const setNoticeRead = (id: number, read: boolean) => apiRequest<Extract<NoticeStateResult, { is_read: boolean }>>(`/api/notices/${id}/${read ? 'read' : 'unread'}`, { method: 'POST' })
+export const setNoticeFavorite = (id: number, favorite: boolean) => apiRequest<Extract<NoticeStateResult, { is_favorite: boolean }>>(`/api/notices/${id}/${favorite ? 'favorite' : 'unfavorite'}`, { method: 'POST' })

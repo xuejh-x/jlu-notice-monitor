@@ -18,6 +18,13 @@ export interface NoticeDetail extends Notice {
   competition_level: string | null; attachments: Attachment[]; updates: Array<Record<string, unknown>>
 }
 export interface PaginatedNotices { items: Notice[]; total: number; page: number; page_size: number; total_pages: number }
+/** Backend response of /notices/{id}/read|unread|favorite|unfavorite|archive|unarchive
+ *  (routes.py `_set_state`): the mutated field is a dynamic key, e.g.
+ *  {"notice_id": 34, "is_favorite": true}. */
+export type NoticeStateResult =
+  | { notice_id: number; is_favorite: boolean }
+  | { notice_id: number; is_read: boolean }
+  | { notice_id: number; is_archived: boolean }
 export interface Source {
   id: number; code: string; name: string; base_url: string; enabled: boolean
   last_checked_at: string | null; last_success_at: string | null; last_error: string | null
