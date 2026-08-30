@@ -4,6 +4,7 @@ import { StrictMode, useState } from 'react'
 import { Link, MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { getDashboard } from '../api/dashboard'
+import { searchNotices } from '../api/notices'
 import { ToastProvider } from '../stores/toast'
 import { NoticeDetailPage } from './NoticeDetailPage'
 
@@ -205,5 +206,41 @@ describe('NoticeDetailPage', () => {
 
     fireEvent.click(await screen.findByRole('button', { name: '收藏通知' }))
     await waitFor(() => expect(dashboardGets()).toBe(2))
+  })
+
+  it('auto-read invalidates the search cache so reopened results show fresh read state', async () => {
+    function SearchProbe() {
+      const { data } = useQuery({ queryKey: ['search', 'kw'], queryFn: ({ signal }) => searchNotices('kw', { signal }) })
+      return <span data-testid="search-probe">{data ? 'loaded' : 'pending'}</span>
+    }
+    const unreadDetail = { ...detail, is_read: false }
+    const controlled = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
+      const url = String(input)
+      if (init?.method === 'POST') return Promise.resolve(new Response(JSON.stringify({ notice_id: 42, is_read: true }), { status: 200 }))
+      if (url.includes('/api/search')) return Promise.resolve(new Response(JSON.stringify({ items: [], total: 0, page: 1, page_size: 20, total_pages: 0 }), { status: 200 }))
+      return Promise.resolve(new Response(JSON.stringify(unreadDetail), { status: 200 }))
+    })
+    vi.stubGlobal('fetch', controlled)
+    const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    render(
+      <QueryClientProvider client={queryClient}>
+        <ToastProvider>
+          <MemoryRouter initialEntries={['/notices/42']}>
+            <SearchProbe />
+            <Routes><Route path="/notices/:id" element={<NoticeDetailPage />} /></Routes>
+          </MemoryRouter>
+        </ToastProvider>
+      </QueryClientProvider>,
+    )
+
+    await screen.findByTestId('search-probe')
+    const searchGets = () => controlled.mock.calls.filter(([input, init]) => !init?.method && String(input).includes('/api/search')).length
+    await waitFor(() => {
+      expect(controlled.mock.calls.some(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/42/read'))).toBe(true)
+    })
+
+    // The read mutation invalidates ['search'], so the observed search query
+    // refetches: exactly one initial GET plus one invalidation-driven GET.
+    await waitFor(() => expect(searchGets()).toBe(2))
   })
 })

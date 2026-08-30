@@ -193,6 +193,9 @@ export function NoticeDetailPage() {
         .then(() => {
           client.invalidateQueries({ queryKey: ['notices'] })
           client.invalidateQueries({ queryKey: ['dashboard'] })
+          // Search result rows display the unread dot, so cached search
+          // entries must not serve a stale 未读 after auto-read.
+          client.invalidateQueries({ queryKey: ['search'] })
         })
         .catch(() => undefined)
     }

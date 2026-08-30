@@ -43,7 +43,9 @@ export interface NoticeFilters {
 }
 export interface SourceStatus {
   code: string; name: string; enabled: boolean; status: SourceHealth | string; message: string | null
-  last_success_at?: string | null; last_error_at?: string | null
+  // Dashboard embeds the /api/sources serialization (routes.py sources()),
+  // whose fields are last_checked_at / last_success_at / last_error.
+  last_checked_at?: string | null; last_success_at?: string | null; last_error?: string | null
 }
 export interface DashboardData {
   new_today: number; urgent: number; important: number; upcoming_deadlines: number; unread: number
