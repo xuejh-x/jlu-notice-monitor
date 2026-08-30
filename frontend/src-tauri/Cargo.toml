@@ -1,0 +1,20 @@
+[package]
+name = "jlu-notice-monitor"
+version = "0.3.0"
+description = "吉林大学通知监控桌面应用"
+authors = ["JLU Notice Monitor contributors"]
+edition = "2021"
+rust-version = "1.77.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "jlu_notice_monitor_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.11.3", features = [] }
+tauri-plugin-opener = "2"

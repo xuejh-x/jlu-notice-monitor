@@ -50,6 +50,11 @@ def test_runtime_directory_override_stays_in_temp_dir(tmp_path: Path) -> None:
     assert settings.database_path == runtime / "data" / "notices.db"
 
 
+def test_tauri_production_origin_is_allowed_by_default() -> None:
+    settings = Settings(_env_file=None)
+    assert "http://tauri.localhost" in settings.cors_origins
+
+
 def test_health_checks_database() -> None:
     engine = create_engine(
         "sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool

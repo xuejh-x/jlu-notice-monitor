@@ -1,3 +1,3 @@
 import type { Source } from '../types'
-import { apiRequest } from './client'
-export const getSources = () => apiRequest<Source[]>('/api/sources')
+import { apiRequest, type ApiRequestOptions } from './client'
+export const getSources = (options?: ApiRequestOptions) => apiRequest<Source[]>('/api/sources', undefined, options)

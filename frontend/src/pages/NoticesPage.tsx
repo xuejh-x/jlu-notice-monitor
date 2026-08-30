@@ -1,61 +1,111 @@
+import * as Dialog from '@radix-ui/react-dialog'
 import { useQuery } from '@tanstack/react-query'
-import { SlidersHorizontal } from 'lucide-react'
+import { SlidersHorizontal, X } from 'lucide-react'
 import { useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { getNotices } from '../api/notices'
 import { PageHeader } from '../components/layout/PageHeader'
-import { NoticeList } from '../components/notice/NoticeList'
-import { ErrorState, PageSkeleton } from '../components/ui/Feedback'
-import { Input, Select } from '../components/ui/Form'
+import { NoticeList, NoticeListSkeleton } from '../components/notice/NoticeList'
+import { FilterFields } from '../components/notice/NoticeFilters'
+import { Button } from '../components/ui/Button'
+import { ErrorState } from '../components/ui/Feedback'
+import { Input } from '../components/ui/Form'
 import { Pagination } from '../components/ui/Pagination'
 import { useDebouncedValue } from '../hooks/useDebouncedValue'
 import { loadSettings } from '../stores/settings'
+import { countActiveFilters, parseNoticesSearchParams, serializeNoticesSearchParams, type NoticesUrlState } from '../utils/noticeSearchParams'
 
 export function NoticesPage() {
-  const pageSize = loadSettings().pageSize
-  const [keyword, setKeyword] = useState('')
-  const [category, setCategory] = useState('')
-  const [source, setSource] = useState('')
-  const [minScore, setMinScore] = useState('')
-  const [deadlineStatus, setDeadlineStatus] = useState('')
-  const [dateFrom, setDateFrom] = useState('')
-  const [read, setRead] = useState('')
-  const [favorite, setFavorite] = useState('')
-  const [page, setPage] = useState(1)
-  const debouncedKeyword = useDebouncedValue(keyword.trim())
+  const savedPageSize = loadSettings().pageSize
+  const [searchParams, setSearchParams] = useSearchParams()
+  const state = parseNoticesSearchParams(searchParams, savedPageSize)
+  const debouncedKeyword = useDebouncedValue(state.q.trim())
+  const [sheetOpen, setSheetOpen] = useState(false)
+  const [draft, setDraft] = useState<NoticesUrlState>(state)
+
+  const updateState = (changes: Partial<NoticesUrlState>, { replace = false, resetPage = false } = {}) => {
+    const next = { ...state, ...changes }
+    if (resetPage) next.page = 1
+    setSearchParams(serializeNoticesSearchParams(next, savedPageSize), { replace })
+  }
+  const requestFilters = {
+    q: debouncedKeyword || undefined,
+    category: state.category || undefined,
+    source: state.source || undefined,
+    min_score: state.minScore ? Number(state.minScore) : undefined,
+    deadline_status: state.deadlineStatus || undefined,
+    date_from: state.dateFrom || undefined,
+    read: state.read ? state.read === 'read' : undefined,
+    favorite: state.favorite ? state.favorite === 'favorite' : undefined,
+    page: state.page,
+    page_size: state.pageSize,
+  }
 
   const query = useQuery({
-    queryKey: ['notices', 'all', debouncedKeyword, category, source, minScore, deadlineStatus, dateFrom, read, favorite, page, pageSize],
-    queryFn: () => getNotices({
-      q: debouncedKeyword || undefined,
-      category: category || undefined,
-      source: source || undefined,
-      min_score: minScore ? Number(minScore) : undefined,
-      deadline_status: deadlineStatus || undefined,
-      date_from: dateFrom || undefined,
-      read: read ? read === 'read' : undefined,
-      favorite: favorite ? favorite === 'favorite' : undefined,
-      page,
-      page_size: pageSize,
-    }),
+    queryKey: ['notices', 'all', requestFilters],
+    queryFn: ({ signal }) => getNotices(requestFilters, { signal }),
     placeholderData: previous => previous,
   })
-  const resetPage = () => setPage(1)
 
-  return <><PageHeader title="全部通知" description="筛选和浏览已收录的所有通知。"/>
-    <section className="mb-4 grid gap-2 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-8">
-      <Input aria-label="搜索通知" placeholder="搜索标题或正文" value={keyword} onChange={event => { setKeyword(event.target.value); resetPage() }}/>
-      <Select aria-label="分类" value={category} onChange={event => { setCategory(event.target.value); resetPage() }}><option value="">全部分类</option><option value="algorithm_competition">算法竞赛</option><option value="cybersecurity_competition">网络安全</option><option value="innovation_competition">创新创业</option><option value="training">实训</option><option value="internship">实习</option><option value="research">科研</option><option value="postgraduate_recommendation">推免</option><option value="academic">教学</option></Select>
-      <Select aria-label="来源" value={source} onChange={event => { setSource(event.target.value); resetPage() }}><option value="">全部来源</option><option value="cse">网络安全学院</option><option value="ccst">计算机学院</option><option value="csw">软件学院</option><option value="jwc">本科生院</option><option value="innovation">创新创业教育学院</option><option value="oa">吉林大学 OA</option></Select>
-      <Select aria-label="最低优先级" value={minScore} onChange={event => { setMinScore(event.target.value); resetPage() }}><option value="">不限优先级</option><option value="70">70 以上</option><option value="80">80 以上</option><option value="90">90 以上</option></Select>
-      <Input aria-label="起始日期" type="date" value={dateFrom} onChange={event => { setDateFrom(event.target.value); resetPage() }}/>
-      <Select aria-label="截止状态" value={deadlineStatus} onChange={event => { setDeadlineStatus(event.target.value); resetPage() }}><option value="">全部截止状态</option><option value="today">今天截止</option><option value="urgent">3 天内截止</option><option value="normal">稍后截止</option><option value="expired">已截止</option><option value="unknown">时间待定</option></Select>
-      <Select aria-label="阅读状态" value={read} onChange={event => { setRead(event.target.value); resetPage() }}><option value="">全部阅读状态</option><option value="unread">未读</option><option value="read">已读</option></Select>
-      <Select aria-label="收藏状态" value={favorite} onChange={event => { setFavorite(event.target.value); resetPage() }}><option value="">全部收藏状态</option><option value="favorite">已收藏</option><option value="normal">未收藏</option></Select>
-    </section>
-    {query.isPending ? <PageSkeleton/> : query.isError ? <ErrorState message={query.error.message} retry={() => query.refetch()}/> : <>
-      <div className="mb-3 flex items-center justify-between text-xs text-zinc-500"><span>找到 {query.data.total} 条通知</span><span className="inline-flex items-center gap-1"><SlidersHorizontal className="h-3.5 w-3.5"/>服务端筛选 · 第 {query.data.page} 页</span></div>
-      <NoticeList notices={query.data.items}/>
-      <Pagination page={query.data.page} totalPages={query.data.total_pages} onPageChange={setPage}/>
-    </>}
-  </>
+  const activeCount = countActiveFilters(state)
+  const hasSearch = state.q.trim().length > 0
+
+  const clearFilters = () => updateState({ category: '', source: '', minScore: '', dateFrom: '', deadlineStatus: '', read: '', favorite: '' }, { resetPage: true })
+  const clearSearch = () => updateState({ q: '' }, { resetPage: true })
+  const openSheet = () => { setDraft(state); setSheetOpen(true) }
+  const applySheet = () => {
+    updateState({ category: draft.category, source: draft.source, minScore: draft.minScore, dateFrom: draft.dateFrom, deadlineStatus: draft.deadlineStatus, read: draft.read, favorite: draft.favorite }, { resetPage: true })
+    setSheetOpen(false)
+  }
+  const resetSheet = () => setDraft({ ...draft, category: '', source: '', minScore: '', dateFrom: '', deadlineStatus: '', read: '', favorite: '' })
+
+  const empty = hasSearch
+    ? { title: `没有匹配 “${state.q.trim()}” 的通知`, description: '可以尝试其他关键词。', action: <Button variant="secondary" onClick={clearSearch}>清空搜索</Button> }
+    : activeCount > 0
+      ? { title: '没有找到相关通知', description: '可以尝试调整筛选条件。', action: <Button variant="secondary" onClick={clearFilters}>清除筛选</Button> }
+      : { title: '暂无通知', description: '尚未收录任何通知。' }
+
+  return (
+    <>
+      <PageHeader title="全部通知" description="筛选和浏览已收录的所有通知。" />
+      <section className="mb-4 rounded-large border border-border bg-surface p-3">
+        <Input aria-label="搜索通知" placeholder="搜索标题或正文" value={state.q} onChange={event => updateState({ q: event.target.value }, { replace: true, resetPage: true })} className="mb-2 md:max-w-md" />
+        <div className="hidden gap-2 md:grid md:grid-cols-3 xl:grid-cols-7">
+          <FilterFields state={state} onPatch={changes => updateState(changes, { resetPage: true })} />
+        </div>
+        <div className="flex items-center justify-between md:hidden">
+          <Button id="notice-filter-trigger" variant="secondary" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog"><SlidersHorizontal className="h-4 w-4" />筛选{activeCount > 0 ? ` ${activeCount}` : ''}</Button>
+          <span className="text-xs text-text-muted">{activeCount > 0 ? `已应用 ${activeCount} 项筛选` : '全部通知'}</span>
+        </div>
+      </section>
+
+      {query.isPending ? <NoticeListSkeleton /> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()} /> : (
+        <>
+          <div className="mb-3 flex items-center justify-between gap-3 text-xs text-text-muted">
+            <span>找到 {query.data.total} 条通知</span>
+            <div className="flex items-center gap-3">
+              {activeCount > 0 && query.data.total > 0 && <button type="button" onClick={clearFilters} className="hidden items-center gap-1 rounded-medium px-2 py-1 text-text-secondary hover:bg-surface-muted md:inline-flex">清除筛选</button>}
+              <span>第 {state.page} 页</span>
+            </div>
+          </div>
+          <NoticeList notices={query.data.items} emptyTitle={empty.title} emptyDescription={empty.description} emptyAction={empty.action} />
+          <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} />
+        </>
+      )}
+
+      <Dialog.Root open={sheetOpen} onOpenChange={setSheetOpen}>
+        <Dialog.Portal>
+          <Dialog.Overlay className="fixed inset-0 z-50 bg-overlay" />
+          <Dialog.Content id="notice-filter-dialog" aria-describedby={undefined} onCloseAutoFocus={event => { event.preventDefault(); document.getElementById('notice-filter-trigger')?.focus() }} className="fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto rounded-t-large border-t border-border-strong bg-surface p-4 pb-6">
+            <Dialog.Title className="flex items-center justify-between font-semibold">筛选<Dialog.Close className="grid h-11 w-11 place-items-center rounded-medium hover:bg-surface-muted" aria-label="关闭筛选"><X className="h-5 w-5" /></Dialog.Close></Dialog.Title>
+            <div className="mt-4 space-y-3"><FilterFields state={draft} onPatch={changes => setDraft(current => ({ ...current, ...changes }))} /></div>
+            <div className="mt-5 flex gap-3">
+              <Button variant="secondary" className="flex-1" onClick={resetSheet}>重置</Button>
+              <Button variant="primary" className="flex-1" onClick={applySheet}>应用{countActiveFilters(draft) > 0 ? ` (${countActiveFilters(draft)})` : ''}</Button>
+            </div>
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>
+    </>
+  )
 }

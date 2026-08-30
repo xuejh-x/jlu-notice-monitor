@@ -36,7 +36,7 @@ Copy-Item .env.example .env
 
 `bootstrap` 建立初始基线，保存抓到的历史通知但不把它们计为 NEW。`crawl` 才进行正常的新通知/更新统计。`run` 先抓取一次再启动 API。也可直接执行 `scripts/bootstrap.ps1`、`scripts/run_crawler.ps1` 和 `scripts/start_backend.ps1`。
 
-API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000/docs`。CORS 仅允许配置中的本机开发 Origin，默认是 `localhost:5173` 与 `127.0.0.1:5173`。
+API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000/docs`。CORS 仅允许配置中的本机 Origin，默认是 Web 开发使用的 `localhost:5173`、`127.0.0.1:5173`，以及 Tauri Windows 生产 WebView 使用的 `http://tauri.localhost`。
 
 ## API
 
@@ -123,7 +123,7 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 
 Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放；正常 Ctrl+C 可干净退出。
 
-未来 Tauri 应先启动 Backend，轮询 `GET /api/health`，健康后加载前端，并在应用退出时终止 Backend、等待 graceful shutdown。本阶段尚未开始 Tauri 或 EXE 打包。
+Phase 3A 的 Tauri 壳层已经接入，但 Backend 仍需手工启动。Phase 3C 将由 Tauri 启动 Backend、轮询 `GET /api/health`，并在应用退出时终止 Backend、等待 graceful shutdown；当前没有 Python EXE 或 sidecar 打包。
 
 ## Windows Task Scheduler
 

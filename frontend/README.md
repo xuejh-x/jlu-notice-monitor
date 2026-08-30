@@ -1,6 +1,6 @@
 # 吉大通知助手前端
 
-`jlu-notice-monitor` 的响应式中文 Web UI。技术栈为 React、TypeScript、Vite、Tailwind CSS、TanStack Query 和 React Router。
+`jlu-notice-monitor` 的响应式中文 UI。技术栈为 React、TypeScript、Vite、Tailwind CSS、TanStack Query、React Router 和 Tauri 2。
 
 ## 开发
 
@@ -11,6 +11,40 @@ npm run dev
 ```
 
 默认访问 `http://127.0.0.1:5173`，并连接 `http://127.0.0.1:8000`。后端地址只在 `src/api/client.ts` 集中读取 `VITE_API_BASE_URL`，便于未来由 Tauri 决定 sidecar 地址。
+
+## Phase 3A — Tauri Shell
+
+先在另一个 PowerShell 窗口手工启动 Backend：
+
+```powershell
+Set-Location ..\backend
+.\.venv\Scripts\python.exe -m app serve
+```
+
+再启动桌面窗口：
+
+```powershell
+Set-Location ..\frontend
+npm run tauri dev
+```
+
+当前架构为：
+
+```text
+Tauri Window
+    ↓
+React Frontend
+    ↓ localhost HTTP
+FastAPI Backend
+    ↓
+SQLite
+```
+
+Tauri 只负责承载现有 React 应用。Python Backend 当前仍需手工启动，自动 sidecar 管理从 Phase 3C 开始。Web 模式的 `npm run dev` 继续保留，BrowserRouter 与现有路由结构未修改。
+
+通知原网页、附件和数据源网站在 Web 模式中使用浏览器新标签页，在 Tauri 中通过最小权限的 opener 插件交给系统默认浏览器。Tauri CSP 只允许本地前端资源、内部 IPC 和 `http://127.0.0.1:8000` API；没有开放文件系统或任意 Shell 权限。
+
+当前使用初始化生成的临时图标，正式应用图标留到 Phase 3D。
 
 ## 服务端数据查询
 
@@ -23,17 +57,7 @@ npm run dev
 ```powershell
 npm run lint
 npm run build
+npm run tauri dev
 ```
 
-## Phase 2.5 Architecture
-
-```text
-React Web UI
-    │ VITE_API_BASE_URL
-    ▼
-FastAPI /api
-    ▼
-SQLite
-```
-
-未来桌面版本将由 Tauri 启动 Python FastAPI sidecar，轮询 `/api/health` 后加载本前端。本阶段尚未加入 Tauri、EXE 或 APK 打包代码。
+`npm run tauri build` 命令入口由官方 CLI 提供，但 Phase 3A 的 bundle 处于关闭状态，不生成 MSI/NSIS 安装器。

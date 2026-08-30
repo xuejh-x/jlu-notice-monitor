@@ -9,6 +9,6 @@ export const deadlineLabels: Record<string, string> = {
 }
 
 export const sourceStatusLabels: Record<string, string> = {
-  healthy: '运行正常', disabled: '尚未配置', unconfigured: '尚未配置', login_required: '需要登录',
+  healthy: '运行正常', disabled: '已停用', unconfigured: '尚未配置', login_required: '需要登录',
   login_expired: '登录已失效', unavailable: '暂时不可用',
 }

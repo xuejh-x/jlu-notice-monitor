@@ -32,6 +32,7 @@ class Settings(BaseSettings):
         default_factory=lambda: [
             "http://localhost:5173",
             "http://127.0.0.1:5173",
+            "http://tauri.localhost",
         ]
     )
     oa_headless: bool = True

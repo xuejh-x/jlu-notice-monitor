@@ -1,30 +1,35 @@
 # jlu-notice-monitor
 
-吉林大学通知与竞赛信息自动监控系统，包含 FastAPI 本机后端、SQLite 数据库和响应式中文 React 前端。当前完成 Phase 2.5 Web 工程加固，尚未开始 Tauri、Windows EXE 或 Android APK 打包。
+吉林大学通知与竞赛信息自动监控系统，包含 FastAPI 本机后端、SQLite 数据库、响应式中文 React 前端和 Tauri 2 Windows 桌面壳层。当前完成 Phase 3A Shell 集成，Python 后端仍由开发者手工启动。
 
-## Phase 2.5 Architecture
+## Phase 3A — Tauri Shell
 
 ```text
-Web UI (React + TypeScript + Vite)
-        │ HTTP / JSON
-        ▼
+Tauri Window
+    ↓
+React Frontend
+    ↓ localhost HTTP
 FastAPI Backend
-        │
-        ├─ SQLite
-        ├─ Crawler
-        └─ Runtime Data Directory
+    ↓
+SQLite
 ```
 
-未来桌面架构：
+本阶段只集成原生窗口，不包含 Python 打包、sidecar 自动启动或安装器。自动管理 Backend 的生命周期将在 Phase 3C 开始。
 
-```text
-Tauri
- ├─ React frontend
- └─ Python FastAPI sidecar
-       └─ SQLite
+桌面开发需要先分别启动 Backend 和 Tauri：
+
+```powershell
+Set-Location backend
+.\.venv\Scripts\python.exe -m app serve
 ```
 
-本阶段为这套 sidecar 架构准备了统一运行目录、健康检查、可配置 host/port、干净退出和数据库层分页筛选，但没有引入任何 Tauri 代码。
+```powershell
+Set-Location frontend
+npm install
+npm run tauri dev
+```
+
+Tauri 会自动启动 Vite，但不会启动 Python Backend。React 继续通过 `VITE_API_BASE_URL` 访问默认的 `http://127.0.0.1:8000`。当前临时应用图标由 Tauri 初始化生成，正式图标留到 Phase 3D。
 
 ## 本地开发
 
@@ -36,7 +41,7 @@ Copy-Item .env.example .env
 .\.venv\Scripts\python.exe -m app serve
 ```
 
-前端（另一个 PowerShell 窗口）：
+Web 前端（另一个 PowerShell 窗口）：
 
 ```powershell
 Set-Location frontend

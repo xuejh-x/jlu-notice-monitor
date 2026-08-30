@@ -1,5 +1,5 @@
 import type { Notice, NoticeDetail, NoticeFilters, PaginatedNotices } from '../types'
-import { apiRequest } from './client'
+import { apiRequest, type ApiRequestOptions } from './client'
 
 function queryString(filters: NoticeFilters = {}) {
   const params = new URLSearchParams()
@@ -8,10 +8,10 @@ function queryString(filters: NoticeFilters = {}) {
   return value ? `?${value}` : ''
 }
 
-export const getNotices = (filters?: NoticeFilters) => apiRequest<PaginatedNotices>(`/api/notices${queryString(filters)}`)
-export const getTodayNotices = () => apiRequest<Notice[]>('/api/notices/today')
-export const getDeadlineNotices = (days = 30) => apiRequest<Notice[]>(`/api/notices/deadlines?days=${days}`)
-export const getNotice = (id: number) => apiRequest<NoticeDetail>(`/api/notices/${id}`)
-export const searchNotices = (keyword: string) => apiRequest<PaginatedNotices>(`/api/search?keyword=${encodeURIComponent(keyword)}&page_size=20`)
+export const getNotices = (filters?: NoticeFilters, options?: ApiRequestOptions) => apiRequest<PaginatedNotices>(`/api/notices${queryString(filters)}`, undefined, options)
+export const getTodayNotices = (options?: ApiRequestOptions) => apiRequest<Notice[]>('/api/notices/today', undefined, options)
+export const getDeadlineNotices = (days = 30, options?: ApiRequestOptions) => apiRequest<Notice[]>(`/api/notices/deadlines?days=${days}`, undefined, options)
+export const getNotice = (id: number, options?: ApiRequestOptions) => apiRequest<NoticeDetail>(`/api/notices/${id}`, undefined, options)
+export const searchNotices = (keyword: string, options?: ApiRequestOptions) => apiRequest<PaginatedNotices>(`/api/search?keyword=${encodeURIComponent(keyword)}&page_size=20`, undefined, options)
 export const setNoticeRead = (id: number, read: boolean) => apiRequest<Notice>(`/api/notices/${id}/${read ? 'read' : 'unread'}`, { method: 'POST' })
 export const setNoticeFavorite = (id: number, favorite: boolean) => apiRequest<Notice>(`/api/notices/${id}/${favorite ? 'favorite' : 'unfavorite'}`, { method: 'POST' })

@@ -1,11 +1,67 @@
 import { useQuery } from '@tanstack/react-query'
-import { CheckCircle2, CircleOff, Clock3, ExternalLink, TriangleAlert } from 'lucide-react'
+import { CheckCircle2, CircleOff, ExternalLink, TriangleAlert } from 'lucide-react'
 import { getSources } from '../api/sources'
 import { PageHeader } from '../components/layout/PageHeader'
-import { Badge } from '../components/ui/Badge'
-import { Card } from '../components/ui/Card'
-import { ErrorState, PageSkeleton } from '../components/ui/Feedback'
+import { Badge, type BadgeVariant } from '../components/ui/Badge'
+import { EmptyState, ErrorState, PageSkeleton } from '../components/ui/Feedback'
+import { ExternalAnchor } from '../components/ui/ExternalAnchor'
+import type { Source } from '../types'
 import { relativeTime } from '../utils/format'
 import { sourceStatusLabels } from '../utils/labels'
+import { isSafeExternalUrl } from '../utils/url'
 
-export function SourcesPage(){const sources=useQuery({queryKey:['sources'],queryFn:getSources});if(sources.isPending)return <PageSkeleton/>;if(sources.isError)return <ErrorState message={sources.error.message} retry={()=>sources.refetch()}/>;return <><PageHeader title="数据源" description="查看各通知来源的运行状态与最近同步情况。"/><div className="grid gap-4 lg:grid-cols-2 2xl:grid-cols-3">{sources.data.map(source=>{const healthy=source.status==='healthy';const disabled=source.status==='disabled'||source.status==='unconfigured';const Icon=healthy?CheckCircle2:disabled?CircleOff:TriangleAlert;return <Card key={source.code} className="p-5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><h2 className="truncate font-semibold">{source.name}</h2><a href={source.base_url} target="_blank" rel="noreferrer" className="mt-1 inline-flex items-center gap-1 text-xs text-zinc-400 hover:text-indigo-600">访问网站<ExternalLink className="h-3 w-3"/></a></div><Badge className={healthy?'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-900 dark:bg-emerald-950 dark:text-emerald-300':disabled?'border-zinc-200 bg-zinc-100 text-zinc-600 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300':'border-amber-200 bg-amber-50 text-amber-700'}><Icon className="mr-1 h-3 w-3"/>{sourceStatusLabels[source.status]??source.status}</Badge></div><div className="mt-5 grid grid-cols-3 gap-3 border-t border-zinc-100 pt-4 text-xs dark:border-zinc-800"><div><div className="text-zinc-400">最近检查</div><div className="mt-1 font-medium">{relativeTime(source.last_checked_at)}</div></div><div><div className="text-zinc-400">最近成功</div><div className="mt-1 font-medium">{relativeTime(source.last_success_at)}</div></div><div><div className="text-zinc-400">发现通知</div><div className="mt-1 font-medium tabular-nums">{source.notice_count}</div></div></div>{source.code==='oa'&&<div className="mt-4 rounded-lg bg-zinc-50 p-3 text-xs leading-5 text-zinc-500 dark:bg-zinc-800/60">{source.message??'当前未完成首次登录配置。'}<br/>回到可正常访问 OA 的网络环境后，可执行登录初始化命令继续设置。</div>}{source.last_error&&<div className="mt-4 flex gap-2 rounded-lg bg-amber-50 p-3 text-xs text-amber-800 dark:bg-amber-950 dark:text-amber-300"><Clock3 className="mt-0.5 h-3.5 w-3.5 shrink-0"/>{source.last_error}</div>}</Card>})}</div></>}
+function sourcePresentation(source: Source): { variant: BadgeVariant; icon: typeof CheckCircle2 } {
+  if (source.status === 'healthy') return { variant: 'success', icon: CheckCircle2 }
+  if (source.status === 'disabled' || source.status === 'unconfigured') return { variant: 'neutral', icon: CircleOff }
+  return { variant: source.status === 'login_required' ? 'warning' : 'danger', icon: TriangleAlert }
+}
+function SourceRow({ source }: { source: Source }) {
+  const presentation = sourcePresentation(source)
+  const StatusIcon = presentation.icon
+  const paused = source.status === 'disabled' || source.status === 'unconfigured'
+  const safeUrl = isSafeExternalUrl(source.base_url)
+
+  return (
+    <article className="border-b border-border px-4 py-5 last:border-0 sm:px-5">
+      <div className="flex flex-col gap-4 lg:grid lg:grid-cols-[minmax(180px,1.2fr)_minmax(260px,1fr)_auto] lg:items-start">
+        <div className="min-w-0">
+          <h2 className="text-section-heading text-text-primary">{source.name}</h2>
+          <p className="mt-1 text-metadata text-text-muted">{source.code} · {source.enabled ? '已启用' : '未启用'}</p>
+          {safeUrl ? (
+            <ExternalAnchor href={source.base_url} className="mt-2 inline-flex min-h-11 items-center gap-1.5 text-sm font-medium text-accent-soft-text hover:underline md:min-h-9">
+              访问来源网站
+              <ExternalLink className="h-3.5 w-3.5" aria-hidden="true"/>
+              <span className="sr-only">（在新窗口打开）</span>
+            </ExternalAnchor>
+          ) : <p className="mt-2 text-metadata text-text-muted">来源网站地址不可用</p>}
+        </div>
+
+        <dl className="grid grid-cols-2 gap-x-5 gap-y-3 text-sm sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
+          <div><dt className="text-metadata text-text-muted">最近检查</dt><dd className="mt-1 text-text-secondary">{relativeTime(source.last_checked_at)}</dd></div>
+          <div><dt className="text-metadata text-text-muted">最近成功</dt><dd className="mt-1 text-text-secondary">{relativeTime(source.last_success_at)}</dd></div>
+          <div><dt className="text-metadata text-text-muted">收录通知</dt><dd className="mt-1 tabular-nums text-text-secondary">{source.notice_count}</dd></div>
+        </dl>
+
+        <Badge variant={presentation.variant} className="w-fit">
+          <StatusIcon className="mr-1 h-3 w-3" aria-hidden="true"/>
+          {sourceStatusLabels[source.status] ?? source.status}
+        </Badge>
+      </div>
+
+      {source.message && <p className="mt-4 rounded-medium bg-surface-muted px-3 py-2 text-sm leading-5 text-text-secondary">{source.message}</p>}
+      {!paused && source.last_error && source.last_error !== source.message && <p className="mt-3 flex gap-2 text-sm text-danger"><TriangleAlert className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true"/><span>{source.last_error}</span></p>}
+    </article>
+  )
+}
+
+export function SourcesPage() {
+  const sources = useQuery({ queryKey: ['sources'], queryFn: ({ signal }) => getSources({ signal }) })
+  return (
+    <>
+      <PageHeader title="数据源" description={sources.isSuccess ? `当前监控 ${sources.data.length} 个通知来源，状态为只读概览。` : '查看当前监控来源、启用状态与最近获取情况。'}/>
+      {sources.isPending ? <PageSkeleton/> : sources.isError ? <ErrorState error={sources.error} retry={() => sources.refetch()}/> : sources.data.length ? (
+        <div className="rounded-large border border-border bg-surface">{sources.data.map(source => <SourceRow key={source.code} source={source}/>)}</div>
+      ) : <EmptyState title="当前没有配置的数据源" description="后端尚未返回任何可供查看的通知来源。"/>}
+    </>
+  )
+}

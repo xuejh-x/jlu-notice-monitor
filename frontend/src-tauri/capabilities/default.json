@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "主窗口仅可通过系统默认应用打开常规 URL",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "opener:allow-default-urls"
+  ]
+}

@@ -1,5 +1,5 @@
 import type { DashboardData, Notice } from '../types'
-import { apiRequest } from './client'
+import { apiRequest, type ApiRequestOptions } from './client'
 
-export const getDashboard = () => apiRequest<DashboardData>('/api/dashboard')
-export const getImportantNotices = (minScore = 70) => apiRequest<Notice[]>(`/api/notices/important?min_score=${minScore}`)
+export const getDashboard = (options?: ApiRequestOptions) => apiRequest<DashboardData>('/api/dashboard', undefined, options)
+export const getImportantNotices = (minScore = 70, options?: ApiRequestOptions) => apiRequest<Notice[]>(`/api/notices/important?min_score=${minScore}`, undefined, options)

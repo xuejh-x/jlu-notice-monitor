@@ -1,23 +1,100 @@
 import { useQuery } from '@tanstack/react-query'
-import { AlertTriangle, CalendarClock, CircleAlert, Inbox, RefreshCw } from 'lucide-react'
+import { AlertTriangle, CalendarClock, Inbox, MailOpen } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { getDashboard, getImportantNotices } from '../api/dashboard'
-import { NoticeRow } from '../components/notice/NoticeRow'
+import { PageHeader } from '../components/layout/PageHeader'
+import { NoticeList, NoticeListSkeleton } from '../components/notice/NoticeList'
+import { EmptyState, ErrorState } from '../components/ui/Feedback'
 import { loadSettings } from '../stores/settings'
 
-function Skeleton() { return <div className="space-y-4">{[1,2,3,4].map((item) => <div key={item} className="h-20 animate-pulse rounded-xl bg-zinc-200/70 dark:bg-zinc-800" />)}</div> }
+function DashboardSkeleton() {
+  return (
+    <div className="space-y-6" role="status" aria-label="正在加载">
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        {[1, 2, 3, 4].map(item => <div key={item} className="h-28 animate-pulse rounded-large border border-border bg-surface" />)}
+      </div>
+      <div className="grid gap-6 xl:grid-cols-2"><NoticeListSkeleton/><NoticeListSkeleton/></div>
+    </div>
+  )
+}
 
 export function DashboardPage() {
   const settings = loadSettings()
-  const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: getDashboard })
-  const important = useQuery({ queryKey: ['notices', 'important', settings.priorityThreshold], queryFn: () => getImportantNotices(settings.priorityThreshold) })
-  if (dashboard.isPending) return <Skeleton />
-  if (dashboard.isError) return <section className="grid min-h-[55vh] place-items-center"><div className="max-w-md text-center"><CircleAlert className="mx-auto mb-3 h-10 w-10 text-rose-500" /><h1 className="text-xl font-semibold">暂时无法读取通知</h1><p className="mt-2 text-sm text-zinc-500">{dashboard.error.message}</p><button onClick={() => dashboard.refetch()} className="mt-5 inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"><RefreshCw className="h-4 w-4" />重新连接</button></div></section>
+  const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: ({ signal }) => getDashboard({ signal }) })
+  const important = useQuery({
+    queryKey: ['notices', 'important', settings.priorityThreshold],
+    queryFn: ({ signal }) => getImportantNotices(settings.priorityThreshold, { signal }),
+  })
+
+  const hour = new Date().getHours()
+  const greeting = hour < 6 ? '夜深了' : hour < 12 ? '上午好' : hour < 18 ? '下午好' : '晚上好'
+
+  if (dashboard.isPending) return <><PageHeader title={greeting} description="正在整理最新通知与截止事项。"/><DashboardSkeleton/></>
+  if (dashboard.isError) return <><PageHeader title={greeting} description="查看今天值得处理的通知。"/><ErrorState error={dashboard.error} retry={() => dashboard.refetch()}/></>
+
   const data = dashboard.data
-  const stats = [{ label: '今日新增', value: data.new_today, icon: Inbox, tone: 'bg-blue-50 text-blue-700' }, { label: '紧急截止', value: data.urgent, icon: AlertTriangle, tone: 'bg-rose-50 text-rose-700' }, { label: '重要通知', value: data.important, icon: CircleAlert, tone: 'bg-amber-50 text-amber-700' }, { label: '待办截止', value: data.upcoming_deadlines, icon: CalendarClock, tone: 'bg-indigo-50 text-indigo-700' }]
-  const hour = new Date().getHours(); const greeting = hour < 6 ? '夜深了' : hour < 12 ? '上午好' : hour < 18 ? '下午好' : '晚上好'
-  return <div className="space-y-6"><div><h1 className="text-2xl font-bold tracking-tight sm:text-3xl">{greeting}</h1><p className="mt-2 text-sm text-zinc-500">{data.new_today ? `今天发现 ${data.new_today} 条新通知，其中 ${data.important} 条值得优先关注。` : '今天暂时没有新的高相关通知。'}</p></div>
-    <section className="grid grid-cols-2 gap-3 lg:grid-cols-4">{stats.map(({ label, value, icon: Icon, tone }) => <div key={label} className="rounded-xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-5"><div className={`mb-4 grid h-9 w-9 place-items-center rounded-lg ${tone} dark:bg-zinc-800`}><Icon className="h-4 w-4" /></div><div className="text-2xl font-semibold tabular-nums text-zinc-950 dark:text-zinc-100">{value}</div><div className="mt-1 text-xs text-zinc-500">{label}</div></div>)}</section>
-    <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] gap-6 xl:grid-cols-[minmax(0,1.6fr)_minmax(320px,1fr)]"><section className="min-w-0 rounded-xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-5"><div className="mb-2 flex items-center justify-between"><div><h2 className="font-semibold">最新通知</h2><p className="mt-1 text-xs text-zinc-500">共 {data.unread} 条未读</p></div><a href="/notices" className="text-sm text-indigo-600 hover:text-indigo-700 dark:text-indigo-400">查看全部</a></div>{data.recent_notices.length ? data.recent_notices.map((notice) => <NoticeRow key={notice.id} notice={notice} />) : <div className="py-16 text-center text-sm text-zinc-400">暂无最新通知</div>}</section>
-      <section className="min-w-0 rounded-xl border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-5"><div className="mb-2"><h2 className="font-semibold">优先关注</h2><p className="mt-1 text-xs text-zinc-500">优先级 {settings.priorityThreshold} 以上</p></div>{important.isPending ? <Skeleton /> : important.data?.length ? important.data.slice(0, settings.hideLowPriority ? 5 : 8).map((notice) => <NoticeRow key={notice.id} notice={notice} />) : <div className="py-16 text-center text-sm text-zinc-400">暂无重要通知</div>}</section></div>
-  </div>
+  const trueEmpty = data.recent_notices.length === 0 && data.new_today === 0 && data.unread === 0 && data.urgent === 0 && data.upcoming_deadlines === 0 && important.isSuccess && important.data.length === 0
+  if (trueEmpty) {
+    return <><PageHeader title={greeting} description="通知概览"/><EmptyState title="尚无通知" description="当前还没有可供阅读的通知，可以先确认数据源状态。" action={<Link to="/sources" className="text-sm font-medium text-accent-soft-text hover:underline">查看数据源</Link>}/></>
+  }
+
+  const stats = [
+    { label: '今日新增', value: data.new_today, icon: Inbox, tone: 'text-accent-soft-text bg-accent-soft' },
+    { label: '未读通知', value: data.unread, icon: MailOpen, tone: 'text-accent-soft-text bg-accent-soft' },
+    { label: '3 天内截止', value: data.urgent, icon: AlertTriangle, tone: 'text-danger bg-danger/10' },
+    { label: '待办截止', value: data.upcoming_deadlines, icon: CalendarClock, tone: 'text-warning bg-warning/10' },
+  ]
+  const healthySources = data.source_status.filter(source => source.status === 'healthy').length
+  const pausedSources = data.source_status.filter(source => source.status === 'disabled' || source.status === 'unconfigured').length
+  const attentionSources = Math.max(0, data.source_status.length - healthySources - pausedSources)
+
+  return (
+    <div className="space-y-8">
+      <PageHeader
+        title={greeting}
+        description={data.new_today ? `今天发现 ${data.new_today} 条新通知，先处理未读和临近截止事项。` : '今天暂无新增，仍可继续处理未读与临近截止事项。'}
+      />
+
+      <section aria-labelledby="dashboard-summary-heading">
+        <h2 id="dashboard-summary-heading" className="sr-only">核心摘要</h2>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+          {stats.map(({ label, value, icon: Icon, tone }) => (
+            <div key={label} className="rounded-large border border-border bg-surface p-4 sm:p-5">
+              <div className={`mb-4 grid h-9 w-9 place-items-center rounded-medium ${tone}`}><Icon className="h-4 w-4" aria-hidden="true"/></div>
+              <div className="text-2xl font-semibold tabular-nums text-text-primary">{value}</div>
+              <div className="mt-1 text-metadata text-text-muted">{label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className="grid min-w-0 gap-8 xl:grid-cols-2">
+        <section className="min-w-0" aria-labelledby="priority-heading">
+          <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+            <div><h2 id="priority-heading" className="text-section-heading">优先关注</h2><p className="mt-1 text-metadata text-text-muted">达到你的优先阈值（{settings.priorityThreshold}）</p></div>
+            <Link to={`/notices?min_score=${settings.priorityThreshold}`} className="inline-flex min-h-11 items-center text-sm font-medium text-accent-soft-text hover:underline md:min-h-0">查看优先通知</Link>
+          </div>
+          {important.isPending ? <NoticeListSkeleton/> : important.isError ? <ErrorState error={important.error} retry={() => important.refetch()}/> : <NoticeList notices={important.data.slice(0, settings.hideLowPriority ? 5 : 8)} emptyTitle="暂无优先通知" emptyDescription="当前没有达到你的优先阈值的通知。"/>}
+        </section>
+
+        <section className="min-w-0" aria-labelledby="recent-heading">
+          <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+            <div><h2 id="recent-heading" className="text-section-heading">最近通知</h2><p className="mt-1 text-metadata text-text-muted">共 {data.unread} 条未读</p></div>
+            <Link to="/notices" className="inline-flex min-h-11 items-center text-sm font-medium text-accent-soft-text hover:underline md:min-h-0">查看全部</Link>
+          </div>
+          <NoticeList notices={data.recent_notices.slice(0, 8)} emptyTitle="暂无最近通知" emptyDescription="数据源尚未返回最近通知。"/>
+        </section>
+      </div>
+
+      <section className="flex flex-col gap-3 border-t border-border pt-5 text-sm sm:flex-row sm:items-center sm:justify-between" aria-labelledby="source-overview-heading">
+        <div>
+          <h2 id="source-overview-heading" className="text-section-heading">来源状态</h2>
+          <p className="mt-1 text-text-secondary">
+            {data.source_status.length ? `${healthySources} 个正常${pausedSources ? ` · ${pausedSources} 个暂停` : ''}${attentionSources ? ` · ${attentionSources} 个需关注` : ''}` : '当前没有配置的数据源'}
+          </p>
+        </div>
+        <Link to="/sources" className="inline-flex min-h-11 items-center font-medium text-accent-soft-text hover:underline md:min-h-0">查看数据源</Link>
+      </section>
+    </div>
+  )
 }

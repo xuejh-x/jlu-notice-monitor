@@ -12,7 +12,7 @@ export interface Notice {
   status: string; first_seen_at: string; last_seen_at: string; updated_at: string
   is_read: boolean; is_archived: boolean; is_favorite: boolean; sources: NoticeSource[]
 }
-export interface Attachment { name?: string; title?: string; url: string; file_type?: string }
+export interface Attachment { filename: string | null; url: string; type: string | null }
 export interface NoticeDetail extends Notice {
   content: string | null; target_students: string | null; registration_method: string | null
   competition_level: string | null; attachments: Attachment[]; updates: Array<Record<string, unknown>>
