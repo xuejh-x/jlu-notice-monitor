@@ -1,8 +1,8 @@
 # Gate 8A Result
 
-LOCAL PASS — CI PENDING
+PASS
 
-Gate 8A 的本地实现、自动化回归、Windows packaged sidecar、debug/release 桌面烟测和进程清理验证均已完成。最终状态将在本次改动推送并通过现有 GitHub Actions 三个 job 后升级为 `PASS`。
+Gate 8A 的本地实现、自动化回归、Windows packaged sidecar、debug/release 桌面烟测、进程清理和真实 GitHub-hosted CI 均已完成并通过。
 
 # Previous Architecture
 
@@ -123,7 +123,8 @@ Gate 8A 保留固定 `127.0.0.1:8000`：
 - Tauri release executable: PASS；Dashboard 可见、Backend online、正常退出。
 - Loopback: PASS；真实 health 显示 `environment=production`。
 - Runtime log and database: PASS；隔离目录实际产生 `logs/app.log` 与 `data/notices.db`。
-- Existing GitHub workflow: unchanged；final hosted run pending Gate 8A push。
+- GitHub Actions: `PASS` — CI run [#4](https://github.com/xuejh-x/jlu-notice-monitor/actions/runs/33348308267), Ubuntu 24.04, commit `c111aeb`。
+- GitHub jobs: Backend tests `PASS`; Frontend quality `PASS`; Playwright E2E `PASS`。未发现 Linux-specific 问题。
 
 # Tests
 
@@ -137,6 +138,7 @@ Gate 8A 保留固定 `127.0.0.1:8000`：
 - Rust `cargo clippy --all-targets -- -D warnings`: `PASS`。
 - Rust tests: `3/3 PASS`。
 - Tauri release build (`--no-bundle`): `PASS`。
+- GitHub-hosted CI run #4: `PASS` (Backend / Frontend / E2E all green)。
 
 # Manual Desktop Smoke
 
