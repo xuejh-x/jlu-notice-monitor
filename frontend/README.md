@@ -28,6 +28,18 @@ Set-Location ..\frontend
 npm run tauri dev
 ```
 
+## E2E 关键用户旅程
+
+E2E 使用 Playwright 驱动本机安装的 Google Chrome（Chromium family），命令会自动启动隔离的 FastAPI test backend 与 Vite，不需要预先运行 `localhost:8000` 或 `localhost:5173`。本地无需下载 Playwright bundled Chromium；GitHub Actions 会显式安装并使用 bundled Chromium。
+
+```powershell
+npm run e2e
+```
+
+测试数据写入 `frontend/.e2e/runtime/data/notices.db`，每次 suite 启动前重新 seed，结束后自动清理，不会读取或修改 `backend/data/notices.db`。失败时 trace、截图和 HTML report 分别写入 `test-results/` 与 `playwright-report/`，这些目录均被 Git 忽略。
+
+需要观察浏览器时可运行 `npm run e2e:headed`；交互调试可运行 `npm run e2e:ui`。
+
 当前架构为：
 
 ```text

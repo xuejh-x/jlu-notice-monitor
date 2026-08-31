@@ -52,6 +52,23 @@ npm run dev
 
 默认访问 `http://127.0.0.1:5173`，后端默认监听 `http://127.0.0.1:8000`。
 
+## CI
+
+GitHub Actions 在 Ubuntu 24.04 上依次验证后端 pytest、前端 lint / Vitest / production build，以及使用 bundled Chromium 的 8 条 Playwright E2E。E2E 自动创建和清理 `frontend/.e2e/runtime` 下的隔离数据库，不访问真实 SQLite 或 OA，也不依赖校园网和开发者 secret。
+
+本地完整验证：
+
+```powershell
+Set-Location backend
+.\.venv\Scripts\python.exe -m pytest
+
+Set-Location ..\frontend
+npm test -- --run
+npm run lint
+npm run build
+npm run e2e
+```
+
 ## 分页与筛选 API
 
 `GET /api/notices` 在数据库层完成筛选、排序与分页，支持：
