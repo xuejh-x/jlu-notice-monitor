@@ -10,6 +10,8 @@ backend/cookies/
 **/__pycache__/
 **/.pytest_cache/
 backend/*.egg-info/
+backend/build/
+backend/dist/
 frontend/node_modules/
 frontend/dist/
 frontend/.env
@@ -30,6 +32,10 @@ frontend/test-results/
 *.log
 *.pid
 *.lock
+!frontend/src-tauri/Cargo.lock
+
+# Generated Windows sidecar binaries (rebuilt by npm run backend:build)
+frontend/src-tauri/binaries/
 
 # Test, IDE, and temporary files
 .coverage

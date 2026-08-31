@@ -286,6 +286,7 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
 def health_status(db: Session) -> dict[str, Any] | JSONResponse:
     payload: dict[str, Any] = {
         "status": "ok",
+        "service": "jlu-notice-monitor",
         "version": __version__,
         "database": "ok",
         "crawler": "running" if crawler_manager.running else "idle",

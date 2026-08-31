@@ -6,8 +6,8 @@
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://127.0.0.1:5173",
-    "beforeDevCommand": "npm run dev",
-    "beforeBuildCommand": "npm run build"
+    "beforeDevCommand": "npm run desktop:dev",
+    "beforeBuildCommand": "npm run desktop:build"
   },
   "app": {
     "windows": [
@@ -32,6 +32,9 @@
   },
   "bundle": {
     "active": false,
+    "externalBin": [
+      "binaries/jlu-notice-backend"
+    ],
     "targets": "all",
     "icon": [
       "icons/32x32.png",

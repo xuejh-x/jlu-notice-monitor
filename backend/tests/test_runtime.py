@@ -1,16 +1,18 @@
 from __future__ import annotations
 
 import asyncio
+from io import StringIO
 from pathlib import Path
 from typing import cast
 
 import pytest
+import uvicorn
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from sqlalchemy.pool import StaticPool
 
-from app.__main__ import build_parser
+from app.__main__ import _watch_managed_stdin, build_parser
 from app.crawler.runner import CrawlRunResult, CrawlerManager
 from app.config import Settings
 from app.database import Base, get_db
@@ -70,6 +72,7 @@ def test_health_checks_database() -> None:
         response = TestClient(app).get("/api/health")
         assert response.status_code == 200
         assert response.json()["status"] == "ok"
+        assert response.json()["service"] == "jlu-notice-monitor"
         assert response.json()["version"] == "0.2.0"
         assert response.json()["database"] == "ok"
     finally:
@@ -101,6 +104,24 @@ def test_server_host_and_port_cli() -> None:
     args = build_parser().parse_args(["serve", "--host", "127.0.0.1", "--port", "8765"])
     assert args.host == "127.0.0.1"
     assert args.port == 8765
+
+
+def test_managed_server_cli_flag() -> None:
+    args = build_parser().parse_args(["serve", "--managed"])
+    assert args.managed is True
+
+
+def test_managed_stdin_requests_graceful_exit_on_command_or_eof() -> None:
+    class ServerStub:
+        should_exit = False
+
+    server = ServerStub()
+    _watch_managed_stdin(cast(uvicorn.Server, server), StringIO("ignored\nshutdown\n"))
+    assert server.should_exit is True
+
+    server.should_exit = False
+    _watch_managed_stdin(cast(uvicorn.Server, server), StringIO(""))
+    assert server.should_exit is True
 
 
 @pytest.mark.asyncio

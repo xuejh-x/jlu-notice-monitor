@@ -4,7 +4,8 @@ import argparse
 import asyncio
 import json
 import sys
-from typing import Any
+import threading
+from typing import Any, TextIO
 
 import uvicorn
 
@@ -69,6 +70,11 @@ def build_parser() -> argparse.ArgumentParser:
     serve = subparsers.add_parser("serve", help="start FastAPI server")
     serve.add_argument("--host")
     serve.add_argument("--port", type=int)
+    serve.add_argument(
+        "--managed",
+        action="store_true",
+        help="exit gracefully when the desktop owner closes stdin or sends shutdown",
+    )
     run = subparsers.add_parser("run", help="crawl once, then start FastAPI")
     run.add_argument("--host")
     run.add_argument("--port", type=int)
@@ -79,6 +85,39 @@ def build_parser() -> argparse.ArgumentParser:
     test.add_argument("source")
     subparsers.add_parser("oa-login", help="open Edge for a user-driven OA login")
     return parser
+
+
+def _watch_managed_stdin(server: uvicorn.Server, stream: TextIO | None = None) -> None:
+    input_stream = stream if stream is not None else sys.stdin
+    if input_stream is not None:
+        for line in input_stream:
+            if line.strip().lower() == "shutdown":
+                break
+    server.should_exit = True
+
+
+def _serve(host: str, port: int, managed: bool = False) -> None:
+    from app.main import app
+
+    config = uvicorn.Config(
+        app,
+        host=host,
+        port=port,
+        reload=False,
+        log_config=None,
+        loop="asyncio",
+        http="h11",
+        ws="none",
+    )
+    server = uvicorn.Server(config)
+    if managed:
+        threading.Thread(
+            target=_watch_managed_stdin,
+            args=(server,),
+            name="desktop-owner-watch",
+            daemon=True,
+        ).start()
+    server.run()
 
 
 def main() -> None:
@@ -92,7 +131,7 @@ def main() -> None:
     host = getattr(args, "host", None) or settings.host
     port = getattr(args, "port", None) or settings.port
     if args.command == "serve":
-        uvicorn.run("app.main:app", host=host, port=port, reload=False, log_config=None)
+        _serve(host, port, managed=args.managed)
     elif args.command == "run":
         asyncio.run(_crawl(None))
         uvicorn.run("app.main:app", host=host, port=port, reload=False, log_config=None)

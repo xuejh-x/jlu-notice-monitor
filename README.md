@@ -1,35 +1,41 @@
 # jlu-notice-monitor
 
-吉林大学通知与竞赛信息自动监控系统，包含 FastAPI 本机后端、SQLite 数据库、响应式中文 React 前端和 Tauri 2 Windows 桌面壳层。当前完成 Phase 3A Shell 集成，Python 后端仍由开发者手工启动。
+吉林大学通知与竞赛信息自动监控系统，包含 FastAPI 本机后端、SQLite 数据库、响应式中文 React 前端和 Tauri 2 Windows 桌面壳层。桌面开发模式会构建并自动管理自包含的 Windows Backend sidecar；普通 Web 开发模式仍可分别启动前后端。
 
-## Phase 3A — Tauri Shell
+## Desktop Backend Sidecar
 
 ```text
 Tauri Window
     ↓
 React Frontend
-    ↓ localhost HTTP
-FastAPI Backend
+    ↓ readiness boundary
+Tauri lifecycle manager
+    ↓ managed sidecar
+Packaged FastAPI Backend
     ↓
 SQLite
 ```
 
-本阶段只集成原生窗口，不包含 Python 打包、sidecar 自动启动或安装器。自动管理 Backend 的生命周期将在 Phase 3C 开始。
+Tauri 使用官方 sidecar 机制启动 `jlu-notice-backend.exe`，轮询 `http://127.0.0.1:8000/api/health` 后才放行 React 主界面。关闭桌面窗口时会先通过 sidecar stdin 请求 graceful shutdown，超时后只结束当前窗口持有的 child process。正式安装器、签名、更新与 Release workflow 留给 Gate 8B。
 
-桌面开发需要先分别启动 Backend 和 Tauri：
+首次准备环境：
 
 ```powershell
 Set-Location backend
-.\.venv\Scripts\python.exe -m app serve
+.\.venv\Scripts\python.exe -m pip install -e ".[desktop,dev]"
+
+Set-Location ..\frontend
+npm install
 ```
+
+桌面开发无需手工启动 Python Backend：
 
 ```powershell
 Set-Location frontend
-npm install
 npm run tauri dev
 ```
 
-Tauri 会自动启动 Vite，但不会启动 Python Backend。React 继续通过 `VITE_API_BASE_URL` 访问默认的 `http://127.0.0.1:8000`。当前临时应用图标由 Tauri 初始化生成，正式图标留到 Phase 3D。
+该命令会依次执行 `npm run backend:build`、按 Rust target triple 暂存 sidecar、启动 Vite，再启动 Tauri。也可以单独执行 `npm run backend:build` 复现 PyInstaller one-file 构建。生成物位于忽略 Git 的 `frontend/src-tauri/binaries/`，不要求系统安装 Python 才能运行。
 
 ## 本地开发
 
@@ -51,6 +57,8 @@ npm run dev
 ```
 
 默认访问 `http://127.0.0.1:5173`，后端默认监听 `http://127.0.0.1:8000`。
+
+Web 开发流程与桌面 sidecar 相互独立：`npm run dev` 不会自动启动 Backend，方便继续调试 Python 代码。若 8000 已由健康的本项目 Backend 占用，桌面应用会复用它且不会取得进程所有权；若被其他程序占用，则显示明确失败状态与重试入口，不会重复 spawn 或终止外部进程。
 
 ## CI
 
@@ -113,12 +121,13 @@ backend/
 
 `GET /api/health` 会轻量验证数据库连接，并返回版本、数据库、Crawler 与运行环境状态。它不会启动爬虫，也不会暴露本地路径、Cookie、Token 或 OA 登录信息。
 
-未来 Tauri 应采用以下启动顺序：
+Tauri 采用以下启动顺序：
 
-1. 启动 Python FastAPI sidecar；
+1. 检查 8000 的服务身份并启动 packaged FastAPI sidecar；
 2. 轮询 `/api/health` 直到后端就绪；
 3. 加载 React 前端；
-4. 应用退出时终止 Backend，并等待其完成 graceful shutdown。
+4. 应用退出时请求 Backend graceful shutdown，并等待其退出；
+5. 超时才结束当前 Tauri 实例持有的 child，绝不按进程名全局终止。
 
 ## OA 当前状态
 
