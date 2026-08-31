@@ -1,8 +1,8 @@
 # Gate 7B Result
 
-LOCAL PASS — CI PENDING
+PASS
 
-Windows 本地测试链路、E2E 隔离与 workflow 静态审计均已通过。当前仓库没有 Git remote，本机也没有 GitHub CLI，因此无法在本 Gate 内真实触发 GitHub Actions；必须在 workflow 被提交并推送后，以第一次 GitHub-hosted run 的结果决定是否改为正式 PASS。
+Windows 本地测试链路、E2E 隔离、workflow 静态审计和真实 GitHub-hosted CI 均已完成。第一次 CI 暴露了一处 E2E 客户端导航同步缺口；修复后第二次完整运行的 Backend、Frontend、Playwright E2E 三个 job 全部通过，因此 Gate 7B 正式 PASS。
 
 # CI Architecture
 
@@ -42,6 +42,26 @@ Workflow 使用三个 job：
 - CI Node.js：24。
 - CI browser：由 Playwright 1.62.1 明确安装的 bundled Chromium，不依赖 runner 预装 Chrome。
 
+# GitHub Actions Runs
+
+真实运行环境为 GitHub-hosted `ubuntu-24.04`；workflow 配置 Python 3.13 与 Node.js 24，第一次 E2E 日志实际记录 Python 3.13.15，并使用 Playwright 1.62.1 安装的 bundled Chromium。
+
+第一次运行：CI #1，run `33344944833`，commit `8d239e4`。
+
+- Backend tests：PASS，20s。
+- Frontend quality：PASS，44s；Vitest 111/111 PASS（25 files），lint 与 build 均通过。
+- Playwright E2E：FAIL，57s；7/8 PASS，收藏旅程在原始尝试和 retry 中均因同一严格定位错误失败。
+- 失败诊断 artifact 正常上传，包含 screenshot、error context、retry trace 与 HTML report，不包含 runtime 或 SQLite。
+
+修复后运行：CI #2，run `33345362497`，commit `c2154e7`。
+
+- Backend tests：PASS，21s。
+- Frontend quality：PASS，48s；Vitest 111/111 PASS（25 files），lint 与 build 均通过。
+- Playwright E2E：PASS，1m 9s，8/8 PASS。
+- Workflow 总状态：Success，总时长 2m 3s，无失败 artifact。
+
+没有发现 Linux 路径、可执行权限、Python 3.13、Node.js 24、`npm ci`、Playwright Chromium 安装、localhost readiness、进程清理或测试数据库路径问题。唯一差异是 CI Chromium 的客户端导航时序更快地暴露了测试缺少明确路由同步的问题；该问题已按测试同步契约修复。
+
 # E2E Runtime
 
 - Frontend：Vite `127.0.0.1:4173`。
@@ -76,7 +96,7 @@ Workflow 使用三个 job：
 
 实际在当前 Windows 环境执行：
 
-- `npm run e2e`：8/8 PASS，Playwright reported duration 15.2s。
+- 修复后 `npm run e2e`：8/8 PASS，Playwright reported duration 15.8s。
 - E2E 后检查：4173/8010 均无监听进程，`frontend/.e2e/runtime` 已删除。
 - `npm test -- --run`：111/111 PASS（25 files）。
 - `npm run lint`：PASS。
@@ -87,9 +107,12 @@ Workflow 使用三个 job：
 - Workflow YAML parse：PASS，识别 `backend`、`frontend`、`e2e` 三个 job。
 - `git diff --check`：PASS。
 
-尚未执行：
+真实 GitHub Actions 最终结果：
 
-- GitHub-hosted Ubuntu 24.04 workflow。原因是当前仓库没有 Git remote，且本机没有 GitHub CLI；未 commit、未 push，也未虚假声明 Actions 通过。
+- Backend tests：PASS。
+- Frontend quality：PASS。
+- Playwright E2E：PASS，8/8。
+- CI #2 workflow：PASS。
 
 # Problems Found
 
@@ -103,15 +126,17 @@ Workflow 使用三个 job：
    - 修复：CI 允许一次 retry 以生成首重试 trace，同时启用 `failOnFlakyTests`，flaky 仍为失败。
 5. 仓库原先没有 GitHub Actions workflow。
    - 修复：新增完整 Backend / Frontend / E2E pipeline、read-only permission、timeout、concurrency 与失败 artifact。
+6. 第一次 GitHub-hosted E2E 中，收藏旅程点击 Favorites 列表链接后立即查找全局“取消收藏”按钮，没有等待 React Router 完成客户端导航；CI Chromium 此时仍可见列表中的两个同名按钮，Playwright strict mode 因匹配 2 个元素而稳定失败。
+   - 修复：点击详情链接后明确等待 URL 变为 `/notices/102`，并确认详情页主标题可见，再执行取消收藏。未增加 timeout、未放宽定位、未删除测试，也未用 retry 掩盖失败；本地 8/8 与 CI 8/8 均通过。
 
 # Remaining Risks
 
-- GitHub-hosted Ubuntu workflow 尚未真实运行；这是 Gate 7B 当前唯一阻止正式 PASS 的验收项。
 - Backend 依赖使用 `pyproject.toml` 中的兼容版本范围而非完整 lock file；未来兼容范围内的新版本仍可能改变 CI 解析结果。当前 workflow 固定 Python/OS，并由 pytest 与真实 app startup E2E 作为防线。
+- GitHub Actions 匿名 API 可能受共享出口 rate limit 影响，但不影响 workflow 执行；本 Gate 使用已登录的 Actions 页面和原始 job 日志完成逐 job 验证。
 
 # Files Changed
 
-Gate 7B 新增或进一步修改 8 个文件：
+Gate 7B 新增或进一步修改 9 个文件：
 
 - `.github/workflows/ci.yml`
 - `README.md`
@@ -120,10 +145,11 @@ Gate 7B 新增或进一步修改 8 个文件：
 - `frontend/package.json`
 - `frontend/playwright.config.ts`
 - `frontend/e2e/backend-server.mjs`
+- `frontend/e2e/critical-journeys.spec.ts`
 - `frontend/e2e/run.mjs`
 
-Gate 7A 的既有未提交文件和改动均保留，没有 reset、checkout、clean、commit 或 push。
+Gate 7A / Gate 7B 的既有改动均被保留；整个收尾过程没有 reset、checkout 或 clean，也没有将数据库、secret、OA 登录数据、runtime、venv、node_modules 或 Playwright 产物提交到 GitHub。
 
 # Recommended Next Step
 
-将当前工作树提交并推送到 GitHub，观察 `.github/workflows/ci.yml` 的第一次 Ubuntu 24.04 run。Backend、Frontend、Playwright E2E 三个 job 全部通过后，将本报告的结果从 `LOCAL PASS — CI PENDING` 更新为 `PASS`。
+Gate 7B 已完成。下一步为 Gate 8；在收到明确指令前不进入 Gate 8。
