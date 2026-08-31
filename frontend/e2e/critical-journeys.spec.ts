@@ -56,6 +56,8 @@ test('Favorite → Favorites → unfavorite updates membership', async ({ page }
   await expect(page.getByRole('button', { name: '取消收藏' })).toBeVisible()
   await page.goto('/favorites')
   await page.getByRole('link', { name: /E2E 量子计算讲座报名/ }).click()
+  await expect(page).toHaveURL(/\/notices\/102$/)
+  await expect(page.getByRole('heading', { name: 'E2E 量子计算讲座报名', level: 1 })).toBeVisible()
   await page.getByRole('button', { name: '取消收藏' }).click()
   await expect(page.getByRole('button', { name: '收藏通知' })).toBeVisible()
   await page.goto('/favorites')
