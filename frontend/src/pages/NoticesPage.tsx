@@ -90,8 +90,8 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
             })}
           </div>
           <div className="flex shrink-0 items-center gap-1">
-            <button type="button" disabled title="排序将在后续阶段接入" className="hidden h-8 items-center px-2 text-xs text-text-muted disabled:opacity-80 sm:inline-flex" aria-label="按截止时间排序">按截止时间 ↑</button>
-            <button type="button" disabled className="grid h-8 w-8 place-items-center rounded-medium text-text-muted" aria-label="列表视图"><List className="h-3.5 w-3.5" /></button>
+            <span title="当前按截止时间升序" className="hidden h-8 items-center px-2 text-xs text-text-muted sm:inline-flex">按截止时间 ↑</span>
+            <span title="当前为列表视图" className="grid h-8 w-8 place-items-center text-text-muted"><List className="h-3.5 w-3.5" aria-hidden="true" /></span>
             <button id="notice-filter-trigger" type="button" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog" className="relative grid h-8 w-6 place-items-center rounded-medium text-text-muted/60 hover:bg-surface-muted hover:text-text-muted active:translate-y-px" aria-label={`筛选${nonReadFilterCount > 0 ? ` ${nonReadFilterCount}` : ''}`}><SlidersHorizontal className="h-3 w-3" />{nonReadFilterCount > 0 && <span className="absolute right-0 top-1 h-1.5 w-1.5 rounded-full bg-accent" />}</button>
           </div>
       </header>

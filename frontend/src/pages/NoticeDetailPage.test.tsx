@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import { StrictMode, useState } from 'react'
 import { Link, MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
@@ -156,6 +156,16 @@ describe('NoticeDetailPage', () => {
     const links = await screen.findAllByRole('link', { name: '查看原通知' })
     expect(links.length).toBeGreaterThan(0)
     expect(links[0]).toHaveAttribute('href', 'https://example.test/notice')
+  })
+
+  it('exposes only implemented detail toolbar actions', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify(detail), { status: 200 }))))
+    renderDetail()
+    const toolbar = await screen.findByRole('toolbar', { name: '通知操作' })
+    expect(within(toolbar).getByRole('button', { name: '收藏通知' })).toBeInTheDocument()
+    expect(within(toolbar).getByRole('button', { name: '标记为未读' })).toBeInTheDocument()
+    expect(within(toolbar).getByRole('link', { name: '打开原文' })).toHaveAttribute('href', detail.url)
+    expect(within(toolbar).queryByRole('button', { name: '更多操作' })).not.toBeInTheDocument()
   })
 
   it('keeps network errors separate from the dedicated 404', async () => {

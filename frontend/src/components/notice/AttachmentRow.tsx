@@ -20,6 +20,6 @@ export function AttachmentRow({ attachment, fallbackName }: { attachment: Attach
     {attachment.type && <span className="shrink-0 text-metadata uppercase text-text-muted">{attachment.type}</span>}
     {safe && <span className="grid h-7 w-7 shrink-0 place-items-center text-text-muted"><Download className="h-4 w-4" aria-hidden="true" /></span>}
   </>
-  const className = 'flex h-attachment-height min-w-0 items-center gap-3 rounded-design border border-border bg-attachment-surface px-3 transition-colors hover:border-border-strong'
-  return safe ? <ExternalAnchor href={attachment.url} className={className}>{content}</ExternalAnchor> : <span className={className}>{content}</span>
+  const className = 'flex h-attachment-height min-w-0 items-center gap-3 rounded-design border border-border bg-attachment-surface px-3'
+  return safe ? <ExternalAnchor href={attachment.url} className={`${className} transition-colors hover:border-border-strong`}>{content}</ExternalAnchor> : <span className={className}>{content}</span>
 }

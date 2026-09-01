@@ -21,8 +21,9 @@ async function resetFixture(request: APIRequestContext) {
 }
 
 async function openSearch(page: Page) {
-  await page.getByRole('button', { name: /搜索/ }).first().click()
-  return page.getByRole('dialog').getByRole('textbox', { name: '搜索通知' })
+  const search = page.getByRole('combobox', { name: '搜索通知' })
+  await search.focus()
+  return search
 }
 
 test.beforeEach(async ({ request }) => {
@@ -30,7 +31,7 @@ test.beforeEach(async ({ request }) => {
 })
 
 test('Dashboard → Notice Detail', async ({ page }) => {
-  await page.goto('/')
+  await page.goto('/dashboard')
   await expect(page.getByRole('main').getByRole('heading', { level: 1 })).toBeVisible()
   await expect(page.getByRole('heading', { name: '最近通知' })).toBeVisible()
   await page.getByRole('link', { name: /E2E 未读奖学金申请通知/ }).first().click()
@@ -40,39 +41,72 @@ test('Dashboard → Notice Detail', async ({ page }) => {
 
 test('Notices filter keeps URL, UI, and results aligned', async ({ page }) => {
   await page.goto('/notices')
-  const filter = page.getByRole('textbox', { name: '搜索通知' })
+  await page.getByRole('button', { name: '筛选' }).click()
+  const dialog = page.getByRole('dialog')
+  const filter = dialog.getByRole('textbox', { name: '搜索通知' })
   await filter.fill('量子计算')
+  await dialog.getByRole('button', { name: /^应用/ }).click()
   await expect(page).toHaveURL(/q=%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97/)
   await expect(page.getByRole('link', { name: /E2E 量子计算讲座报名/ })).toBeVisible()
   await expect(page.getByText('E2E 普通校园活动')).toHaveCount(0)
-  await filter.clear()
+  await page.getByRole('button', { name: '筛选' }).click()
+  const clearDialog = page.getByRole('dialog')
+  const clearFilter = clearDialog.getByRole('textbox', { name: '搜索通知' })
+  await clearFilter.clear()
+  await clearDialog.getByRole('button', { name: /^应用/ }).click()
   await expect(page).not.toHaveURL(/q=/)
   await expect(page.getByRole('link', { name: /E2E 普通校园活动/ })).toBeVisible()
 })
 
 test('Favorite → Favorites → unfavorite updates membership', async ({ page }) => {
   await page.goto('/notices/102')
-  await page.getByRole('button', { name: '收藏通知' }).click()
-  await expect(page.getByRole('button', { name: '取消收藏' })).toBeVisible()
+  const detailToolbar = page.getByRole('toolbar', { name: '通知操作' })
+  await detailToolbar.getByRole('button', { name: '收藏通知' }).click()
+  await expect(detailToolbar.getByRole('button', { name: '取消收藏' })).toBeVisible()
   await page.goto('/favorites')
   await page.getByRole('link', { name: /E2E 量子计算讲座报名/ }).click()
   await expect(page).toHaveURL(/\/notices\/102$/)
   await expect(page.getByRole('heading', { name: 'E2E 量子计算讲座报名', level: 1 })).toBeVisible()
-  await page.getByRole('button', { name: '取消收藏' }).click()
-  await expect(page.getByRole('button', { name: '收藏通知' })).toBeVisible()
+  await detailToolbar.getByRole('button', { name: '取消收藏' }).click()
+  await expect(detailToolbar.getByRole('button', { name: '收藏通知' })).toBeVisible()
   await page.goto('/favorites')
   await expect(page.getByText('E2E 量子计算讲座报名')).toHaveCount(0)
 })
 
-test('Search dialog opens the correct detail', async ({ page }) => {
+test('Inline search opens the correct detail without a modal', async ({ page }) => {
   await page.goto('/')
   const search = await openSearch(page)
   await search.fill('量子计算')
-  const result = page.getByRole('dialog').getByRole('button', { name: /E2E 量子计算讲座报名/ })
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+  const result = page.getByRole('listbox').getByRole('option', { name: /E2E 量子计算讲座报名/ })
   await expect(result).toBeVisible()
   await result.click()
   await expect(page).toHaveURL(/\/notices\/102$/)
   await expect(page.getByRole('heading', { name: 'E2E 量子计算讲座报名', level: 1 })).toBeVisible()
+})
+
+test('Header bell and avatar expose real keyboard-accessible popovers', async ({ page }) => {
+  await page.goto('/notices/102')
+
+  const bell = page.getByRole('button', { name: '通知摘要' })
+  await bell.focus()
+  await bell.press('Enter')
+  const summary = page.getByRole('dialog', { name: '通知摘要' })
+  await expect(summary).toBeVisible()
+  await expect(summary.getByText('今日新增')).toBeVisible()
+  await expect(summary.getByText('未读通知')).toBeVisible()
+  await page.keyboard.press('Escape')
+  await expect(summary).toHaveCount(0)
+  await expect(bell).toBeFocused()
+
+  const avatar = page.getByRole('button', { name: '应用菜单' })
+  await avatar.focus()
+  await avatar.press('Space')
+  const menu = page.getByRole('menu', { name: '应用菜单' })
+  await expect(menu).toBeVisible()
+  await expect(menu.getByRole('menuitem', { name: '设置' })).toBeFocused()
+  await menu.getByRole('menuitem', { name: '设置' }).click()
+  await expect(page).toHaveURL(/\/settings$/)
 })
 
 test('Auto-read removes an unread notice from the unread view', async ({ page }) => {

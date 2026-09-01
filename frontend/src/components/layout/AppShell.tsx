@@ -1,7 +1,7 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import { useQuery } from '@tanstack/react-query'
-import { Bell, Check, Menu, Moon, PanelLeftClose, PanelLeftOpen, Sun, UserRound, X } from 'lucide-react'
-import { useRef, useState, type RefObject } from 'react'
+import { Bell, Check, Menu, Moon, PanelLeftClose, PanelLeftOpen, Settings, Sun, UserRound, X } from 'lucide-react'
+import { useEffect, useRef, useState, type RefObject } from 'react'
 import { Link, NavLink, Outlet, matchPath, useLocation } from 'react-router-dom'
 import { getCrawlerStatus } from '../../api/crawler'
 import { getDashboard } from '../../api/dashboard'
@@ -13,6 +13,7 @@ import { relativeTime } from '../../utils/format'
 import { SearchDialog } from '../search/SearchDialog'
 import { CrawlerButton } from './CrawlerButton'
 import { getRouteTitle, desktopNavGroups, mobileNavItems, navGroups } from './navigation'
+import type { CrawlerStatus, DashboardData } from '../../types'
 
 type Counts = Record<string, number | undefined>
 
@@ -21,7 +22,7 @@ function NavItems({ collapsed = false, ariaLabel, onSelect, groups = navGroups, 
   const [weekStart] = useState(() => new Date(Date.now() - 6 * 86_400_000).toISOString().slice(0, 10))
   return <nav className="space-y-4" aria-label={ariaLabel}>{groups.map(group => <div key={group.label} className={cn(group.label === '快捷视图' && 'border-t border-border/70 pt-4')}>
     <div className={cn('mb-1 flex items-center justify-between px-3 text-label tracking-wider text-text-muted', group.label === '主导航' && 'sr-only', collapsed && group.label !== '主导航' && 'hidden xl:flex')}>
-      <span>{group.label}</span>{group.label === '快捷视图' && <span className="text-base font-light" aria-hidden="true">+</span>}
+      <span>{group.label}</span>
     </div>
     <div className="space-y-1">{group.items.map(({ to, label, icon: Icon }) => {
       const destination = to === '/notices?date_from=week' ? `/notices?date_from=${weekStart}` : to
@@ -61,15 +62,70 @@ function Sidebar({ collapsed, onToggle, online, lastRun, counts }: { collapsed: 
   </aside>
 }
 
-function Header({ title }: { title: string }) {
+function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: CrawlerStatus; crawlerError: boolean; dashboard?: DashboardData }) {
+  const { theme, setTheme } = useTheme()
+  const [active, setActive] = useState<'alerts' | 'account' | null>(null)
+  const bellRef = useRef<HTMLButtonElement>(null)
+  const avatarRef = useRef<HTMLButtonElement>(null)
+  const panelRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!active) return
+    const trigger = active === 'alerts' ? bellRef.current : avatarRef.current
+    const focusFrame = requestAnimationFrame(() => panelRef.current?.querySelector<HTMLElement>('[data-popup-focus]')?.focus())
+    const onPointerDown = (event: PointerEvent) => {
+      const target = event.target as Node
+      if (!panelRef.current?.contains(target) && !trigger?.contains(target)) setActive(null)
+    }
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return
+      event.preventDefault()
+      setActive(null)
+      requestAnimationFrame(() => trigger?.focus())
+    }
+    document.addEventListener('pointerdown', onPointerDown)
+    document.addEventListener('keydown', onKeyDown)
+    return () => {
+      cancelAnimationFrame(focusFrame)
+      document.removeEventListener('pointerdown', onPointerDown)
+      document.removeEventListener('keydown', onKeyDown)
+    }
+  }, [active])
+
+  const statusText = crawlerError ? '检查服务连接异常' : crawler?.running ? '正在检查新通知' : '检查服务正常'
+  const statusTone = crawlerError ? 'bg-danger' : crawler?.running ? 'bg-warning' : 'bg-success'
+  const toggle = (name: 'alerts' | 'account') => setActive(current => current === name ? null : name)
+
+  return <div className="relative ml-auto hidden items-center gap-2 md:flex">
+    <button ref={bellRef} type="button" onClick={() => toggle('alerts')} aria-label="通知摘要" aria-haspopup="dialog" aria-expanded={active === 'alerts'} aria-controls="header-alerts-popover" className="grid h-8 w-8 place-items-center rounded-medium text-text-muted transition-colors hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Bell className="h-3.5 w-3.5" aria-hidden="true" /></button>
+    <button ref={avatarRef} type="button" onClick={() => toggle('account')} aria-label="应用菜单" aria-haspopup="menu" aria-expanded={active === 'account'} aria-controls="header-account-menu" className="grid h-[26px] w-[26px] place-items-center rounded-full bg-border-strong text-text-primary transition-colors hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><UserRound className="h-3.5 w-3.5" aria-hidden="true" /></button>
+
+    {active === 'alerts' && <div ref={panelRef} id="header-alerts-popover" role="dialog" aria-label="通知摘要" className="absolute right-9 top-[calc(100%+8px)] z-50 w-72 rounded-large border border-border-strong bg-surface-raised p-3 shadow-xl">
+      <div className="flex items-center justify-between"><h2 className="text-sm font-semibold text-text-primary">通知摘要</h2><span className="inline-flex items-center gap-1.5 text-label text-text-muted"><span className={`h-1.5 w-1.5 rounded-full ${statusTone}`} aria-hidden="true" />{statusText}</span></div>
+      <dl className="mt-3 grid grid-cols-2 gap-2">
+        <div className="rounded-medium bg-surface-muted px-2.5 py-2"><dt className="text-label text-text-muted">今日新增</dt><dd className="mt-0.5 text-sm font-semibold tabular-nums text-text-primary">{dashboard?.new_today ?? 0}</dd></div>
+        <div className="rounded-medium bg-surface-muted px-2.5 py-2"><dt className="text-label text-text-muted">未读通知</dt><dd className="mt-0.5 text-sm font-semibold tabular-nums text-text-primary">{dashboard?.unread ?? 0}</dd></div>
+      </dl>
+      <div className="mt-3 border-t border-border/70 pt-2 text-metadata text-text-muted"><p>最近检查：{crawler?.last_run ? relativeTime(crawler.last_run) : '尚无检查记录'}</p>{crawler?.last_run && <p className="mt-1">上次新增 {crawler.new_count} 条，更新 {crawler.updated_count} 条</p>}</div>
+      <div className="mt-3 flex gap-2"><Link data-popup-focus to="/notices?read=0" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">查看未读</Link><Link to="/deadlines" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">即将截止</Link></div>
+    </div>}
+
+    {active === 'account' && <div ref={panelRef} id="header-account-menu" role="menu" aria-label="应用菜单" className="absolute right-0 top-[calc(100%+8px)] z-50 w-52 rounded-large border border-border-strong bg-surface-raised p-2 shadow-xl">
+      <div className="px-2 py-2"><p className="text-sm font-semibold text-text-primary">Notice Hub</p><p className="mt-0.5 text-label text-text-muted">本地通知聚合助手</p></div>
+      <div className="border-t border-border/70 pt-1">
+        <Link data-popup-focus role="menuitem" to="/settings" onClick={() => setActive(null)} className="flex h-9 items-center gap-2 rounded-medium px-2 text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Settings className="h-3.5 w-3.5" aria-hidden="true" />设置</Link>
+        <button role="menuitem" type="button" onClick={() => { setTheme(theme === 'dark' ? 'light' : 'dark'); setActive(null) }} className="flex h-9 w-full items-center gap-2 rounded-medium px-2 text-left text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30">{theme === 'dark' ? <Sun className="h-3.5 w-3.5" aria-hidden="true" /> : <Moon className="h-3.5 w-3.5" aria-hidden="true" />}{theme === 'dark' ? '切换浅色主题' : '切换深色主题'}</button>
+      </div>
+    </div>}
+  </div>
+}
+
+function Header({ title, crawler, crawlerError, dashboard }: { title: string; crawler?: CrawlerStatus; crawlerError: boolean; dashboard?: DashboardData }) {
   const { theme, setTheme } = useTheme()
   return <header className="relative z-20 flex h-header-height items-center gap-2 border-b border-border/70 bg-header-surface px-4 sm:gap-3 md:px-[18px]">
     <div className="min-w-0 md:hidden"><span data-testid="route-context" className="block truncate text-sm font-semibold">{title}</span></div>
     <SearchDialog />
-    <div className="ml-auto hidden items-center gap-2 md:flex">
-      <button type="button" className="grid h-8 w-8 place-items-center rounded-medium text-text-muted hover:bg-surface-muted hover:text-text-primary" aria-label="通知提醒"><Bell className="h-3.5 w-3.5" aria-hidden="true" /></button>
-      <div className="grid h-[26px] w-[26px] place-items-center rounded-full bg-border-strong text-text-primary" aria-label="用户账户"><UserRound className="h-3.5 w-3.5" aria-hidden="true" /></div>
-    </div>
+    <HeaderActions crawler={crawler} crawlerError={crawlerError} dashboard={dashboard} />
     <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="grid h-11 w-11 shrink-0 place-items-center rounded-medium text-text-muted hover:bg-surface-muted md:hidden" aria-label={theme === 'dark' ? '切换浅色主题' : '切换深色主题'}>{theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}</button>
   </header>
 }
@@ -105,7 +161,7 @@ export function AppShell() {
     <div className={cn('min-h-screen bg-app-frame md:grid md:h-[calc(100vh-12px)] md:min-h-0 md:overflow-hidden md:rounded-app md:ring-1 md:ring-inset md:ring-border md:grid-cols-[var(--spacing-sidebar-expanded)_minmax(0,1fr)]', collapsed && 'md:grid-cols-[var(--spacing-sidebar-collapsed)_minmax(0,1fr)] xl:grid-cols-[var(--spacing-sidebar-expanded)_minmax(0,1fr)]')}>
       <Sidebar collapsed={collapsed} onToggle={toggleCollapse} online={!crawler.isError} lastRun={crawler.data?.last_run} counts={counts} />
       <div className="min-w-0 md:grid md:min-h-0 md:grid-rows-[var(--spacing-header-height)_minmax(0,1fr)]">
-        <Header title={getRouteTitle(pathname)} />
+        <Header title={getRouteTitle(pathname)} crawler={crawler.data} crawlerError={crawler.isError} dashboard={dashboard.data} />
         {noticeWorkspaceRoute ? <div className="min-w-0 md:grid md:min-h-0 md:grid-cols-[minmax(0,calc(50%+1px))_minmax(0,calc(50%-1px))]">
           <section className={cn('min-w-0 border-r border-border/60 bg-list-surface md:min-h-0 md:overflow-hidden', detailId && 'hidden md:block')} aria-label="通知工作区"><main className="h-full p-4 sm:p-5 md:p-0"><NoticesPage selectedId={detailId ? Number(detailId) : null} /></main></section>
           <aside className={cn('min-w-0 bg-detail-surface md:min-h-0 md:overflow-y-auto', detailId ? 'block' : 'hidden md:grid md:place-items-center')} aria-label="通知详情工作区">{detailId ? <NoticeDetailPage embeddedId={Number(detailId)} /> : <div className="max-w-sm px-8 text-center"><div className="mx-auto grid h-11 w-11 place-items-center rounded-large bg-accent-soft text-accent-soft-text"><Bell className="h-5 w-5" /></div><h2 className="mt-4 text-section-heading">请选择一条通知</h2><p className="mt-2 text-body text-text-muted">通知详情将在这里显示。</p></div>}</aside>

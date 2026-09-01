@@ -7,6 +7,7 @@ import { ToastProvider } from '../../stores/toast'
 import { AppShell } from './AppShell'
 
 const crawlerStatus = { running: false, current_started_at: null, last_run: '2026-08-30T08:00:00Z', last_duration: 12, new_count: 1, updated_count: 0, source_results: [] }
+const dashboard = { new_today: 5, urgent: 1, important: 2, upcoming_deadlines: 3, unread: 4, source_status: [], recent_notices: [] }
 
 function renderShell(initialEntry = '/') {
   const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
@@ -44,22 +45,63 @@ describe('AppShell navigation', () => {
   beforeEach(() => {
     localStorage.clear()
     vi.unstubAllGlobals()
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify(crawlerStatus), { status: 200 })))
+    vi.stubGlobal('fetch', vi.fn((input: RequestInfo | URL) => Promise.resolve(new Response(JSON.stringify(String(input).includes('/dashboard') ? dashboard : crawlerStatus), { status: 200 }))))
   })
 
-  it('renders the sidebar with all grouped destinations', async () => {
+  it('renders the compact desktop sidebar destinations', async () => {
     renderShell('/')
     const nav = await screen.findByRole('navigation', { name: '主导航' })
-    for (const label of ['首页', '今日', '即将截止', '全部竞赛', '收藏', '全部通知', '数据源', '设置']) {
+    for (const label of ['收件箱', '重要', '即将截止', '来源', '设置', '本周更新', '未读', '已收藏']) {
       expect(within(nav).getByRole('link', { name: label })).toBeInTheDocument()
     }
   })
 
+  it('opens the real notification summary and closes it with Escape while restoring focus', async () => {
+    renderShell('/')
+    await screen.findByRole('navigation', { name: '主导航' })
+    const trigger = screen.getByRole('button', { name: '通知摘要' })
+    expect(trigger).toHaveAttribute('aria-expanded', 'false')
+    fireEvent.click(trigger)
+    const popover = await screen.findByRole('dialog', { name: '通知摘要' })
+    expect(trigger).toHaveAttribute('aria-expanded', 'true')
+    expect(within(popover).getByText('检查服务正常')).toBeInTheDocument()
+    expect(within(popover).getByText('5')).toBeInTheDocument()
+    expect(within(popover).getByText('4')).toBeInTheDocument()
+    expect(within(popover).getByText('上次新增 1 条，更新 0 条')).toBeInTheDocument()
+    expect(within(popover).getByRole('link', { name: '查看未读' })).toHaveAttribute('href', '/notices?read=0')
+    await waitFor(() => expect(within(popover).getByRole('link', { name: '查看未读' })).toHaveFocus())
+    fireEvent.keyDown(document, { key: 'Escape' })
+    await waitFor(() => expect(screen.queryByRole('dialog', { name: '通知摘要' })).not.toBeInTheDocument())
+    await waitFor(() => expect(trigger).toHaveFocus())
+  })
+
+  it('opens the application menu, exposes real actions, and closes on outside click', async () => {
+    renderShell('/')
+    await screen.findByRole('navigation', { name: '主导航' })
+    const trigger = screen.getByRole('button', { name: '应用菜单' })
+    fireEvent.click(trigger)
+    const menu = await screen.findByRole('menu', { name: '应用菜单' })
+    expect(trigger).toHaveAttribute('aria-expanded', 'true')
+    expect(within(menu).getByText('本地通知聚合助手')).toBeInTheDocument()
+    expect(within(menu).getByRole('menuitem', { name: '设置' })).toHaveAttribute('href', '/settings')
+    const theme = within(menu).getByRole('menuitem', { name: '切换深色主题' })
+    await waitFor(() => expect(within(menu).getByRole('menuitem', { name: '设置' })).toHaveFocus())
+    fireEvent.click(theme)
+    expect(localStorage.getItem('jlu-theme')).toBe('dark')
+    await waitFor(() => expect(screen.queryByRole('menu', { name: '应用菜单' })).not.toBeInTheDocument())
+
+    fireEvent.click(trigger)
+    await screen.findByRole('menu', { name: '应用菜单' })
+    fireEvent.pointerDown(document.body)
+    await waitFor(() => expect(screen.queryByRole('menu', { name: '应用菜单' })).not.toBeInTheDocument())
+    expect(screen.queryByText('+')).not.toBeInTheDocument()
+  })
+
   it('marks the current route active with aria-current', async () => {
-    renderShell('/favorites')
+    renderShell('/notices?favorite=1')
     const nav = await screen.findByRole('navigation', { name: '主导航' })
-    expect(within(nav).getByRole('link', { name: '收藏' })).toHaveAttribute('aria-current', 'page')
-    expect(within(nav).getByRole('link', { name: '首页' })).not.toHaveAttribute('aria-current')
+    expect(within(nav).getByRole('link', { name: '已收藏' })).toHaveAttribute('aria-current', 'page')
+    expect(within(nav).getByRole('link', { name: '收件箱' })).not.toHaveAttribute('aria-current')
   })
 
   it('collapses the sidebar and persists the preference', async () => {

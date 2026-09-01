@@ -39,9 +39,10 @@ function renderDialog() {
   return render(<QueryClientProvider client={client}><MemoryRouter><SearchDialog /></MemoryRouter></QueryClientProvider>)
 }
 
-async function openDialog() {
-  fireEvent.click(screen.getByRole('button', { name: /搜索通知、学院或关键词/ }))
-  return screen.findByRole('textbox', { name: '搜索通知' })
+async function openSearch() {
+  const input = screen.getByRole('combobox', { name: '搜索通知' })
+  fireEvent.focus(input)
+  return input
 }
 
 async function type(input: HTMLElement, keyword: string) {
@@ -55,7 +56,7 @@ describe('SearchDialog concurrency contract', () => {
   it('stale success: an earlier request resolving last cannot overwrite the latest results', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
@@ -64,19 +65,19 @@ describe('SearchDialog concurrency contract', () => {
 
     // B resolves first
     pending.get('竞赛')!.resolve(ok([noticeFor('竞赛')]))
-    expect(await screen.findByRole('button', { name: /竞赛结果通知/ })).toBeInTheDocument()
+    expect(await screen.findByRole('option', { name: /竞赛结果通知/ })).toBeInTheDocument()
 
     // A resolves last — UI must stay on B
     pending.get('奖')!.resolve(ok([noticeFor('奖')]))
     await act(async () => { await flushPromises() })
-    expect(screen.getByRole('button', { name: /竞赛结果通知/ })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: /竞赛结果通知/ })).toBeInTheDocument()
     expect(screen.queryByText(/奖结果通知/)).not.toBeInTheDocument()
   })
 
   it('stale error: an earlier request failing last keeps results and shows no error', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
@@ -84,19 +85,19 @@ describe('SearchDialog concurrency contract', () => {
     await waitFor(() => expect(pending.has('竞赛')).toBe(true))
 
     pending.get('竞赛')!.resolve(ok([noticeFor('竞赛')]))
-    await screen.findByRole('button', { name: /竞赛结果通知/ })
+    await screen.findByRole('option', { name: /竞赛结果通知/ })
 
     pending.get('奖')!.reject(new TypeError('Failed to fetch'))
     await act(async () => { await flushPromises() })
     expect(screen.queryByRole('heading', { name: '无法连接本地服务' })).not.toBeInTheDocument()
     expect(screen.queryByRole('button', { name: '重新连接' })).not.toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /竞赛结果通知/ })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: /竞赛结果通知/ })).toBeInTheDocument()
   })
 
   it('stale empty: an earlier request returning empty last cannot switch the UI to empty', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
@@ -104,35 +105,36 @@ describe('SearchDialog concurrency contract', () => {
     await waitFor(() => expect(pending.has('竞赛')).toBe(true))
 
     pending.get('竞赛')!.resolve(ok([noticeFor('竞赛')]))
-    await screen.findByRole('button', { name: /竞赛结果通知/ })
+    await screen.findByRole('option', { name: /竞赛结果通知/ })
 
     pending.get('奖')!.resolve(ok([]))
     await act(async () => { await flushPromises() })
     expect(screen.queryByText(/没有匹配/)).not.toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /竞赛结果通知/ })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: /竞赛结果通知/ })).toBeInTheDocument()
   })
 
   it('clear while pending: a late response cannot repopulate results after the query is cleared', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
 
     await type(input, '')
-    expect(await screen.findByText('输入关键词开始搜索')).toBeInTheDocument()
+    expect(input).toHaveAttribute('aria-expanded', 'false')
+    expect(screen.queryByRole('listbox')).not.toBeInTheDocument()
 
     pending.get('奖')!.resolve(ok([noticeFor('奖')]))
     await act(async () => { await flushPromises() })
-    expect(screen.getByText('输入关键词开始搜索')).toBeInTheDocument()
+    expect(screen.queryByRole('listbox')).not.toBeInTheDocument()
     expect(screen.queryByText(/奖结果通知/)).not.toBeInTheDocument()
   })
 
   it('rapid A→B→C: only the latest query owns results, loading, and errors', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
@@ -155,7 +157,7 @@ describe('SearchDialog concurrency contract', () => {
 
     // C completes — it alone controls the final UI
     pending.get('蓝桥')!.resolve(ok([noticeFor('蓝桥')]))
-    expect(await screen.findByRole('button', { name: /蓝桥结果通知/ })).toBeInTheDocument()
+    expect(await screen.findByRole('option', { name: /蓝桥结果通知/ })).toBeInTheDocument()
     expect(screen.queryByText('正在搜索……')).not.toBeInTheDocument()
     expect(screen.queryByText(/奖结果通知/)).not.toBeInTheDocument()
     expect(screen.queryByText(/竞赛结果通知/)).not.toBeInTheDocument()
@@ -164,13 +166,13 @@ describe('SearchDialog concurrency contract', () => {
   it('close while pending: no visible stale error, and reopen shows the current query state', async () => {
     const { pending } = installDeferredFetch()
     renderDialog()
-    const input = await openDialog()
+    const input = await openSearch()
 
     await type(input, '奖')
     await waitFor(() => expect(pending.has('奖')).toBe(true))
 
-    fireEvent.click(screen.getByRole('button', { name: '关闭搜索' }))
-    await waitFor(() => expect(screen.queryByRole('textbox', { name: '搜索通知' })).not.toBeInTheDocument())
+    fireEvent.keyDown(input, { key: 'Escape' })
+    await waitFor(() => expect(screen.queryByRole('listbox')).not.toBeInTheDocument())
 
     // Fails while the dialog is closed — nothing user-visible may appear
     pending.get('奖')!.reject(new TypeError('Failed to fetch'))
@@ -178,7 +180,7 @@ describe('SearchDialog concurrency contract', () => {
     expect(screen.queryByRole('heading', { name: '无法连接本地服务' })).not.toBeInTheDocument()
 
     // Reopen: consistent, retryable state for the current keyword (not stale pollution)
-    fireEvent.click(screen.getByRole('button', { name: /搜索通知、学院或关键词/ }))
+    fireEvent.focus(input)
     expect(await screen.findByRole('heading', { name: '无法连接本地服务' })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: '重新连接' })).toBeInTheDocument()
   })
