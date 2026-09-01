@@ -36,6 +36,8 @@ class Settings(BaseSettings):
         ]
     )
     oa_headless: bool = True
+    scheduler_enabled: bool | None = None
+    scheduler_interval_minutes: int | None = Field(default=None, ge=1)
 
     @property
     def database_path(self) -> Path | None:

@@ -6,6 +6,11 @@ crawler:
   retries: 2
   retry_backoff_seconds: 1.0
   stale_lock_hours: 4
+  # Keep requests polite to individual school sites while allowing independent
+  # sources to make progress when one site is slow.
+  source_concurrency: 2
+  scheduler:
+    enabled: true
+    interval_minutes: 15
 deadline:
   urgent_days: 3
-

@@ -31,10 +31,24 @@ export interface Source {
   consecutive_errors: number; status: SourceHealth | string; message: string | null
   notice_count: number
 }
-export interface CrawlerSourceResult { source: string; fetched: number; new_count: number; updated_count: number; unchanged_count: number; errors: string[] }
+export interface CrawlerSourceResult {
+  source: string; status?: 'pending' | 'running' | 'success' | 'partial_failure' | 'failure' | 'skipped' | string
+  fetched: number; detail_fetched?: number; detail_skipped?: number
+  new_count: number; updated_count: number; unchanged_count: number; errors: string[]
+  list_duration_seconds?: number; detail_duration_seconds?: number; parse_db_duration_seconds?: number
+}
 export interface CrawlerStatus {
-  running: boolean; current_started_at: string | null; last_run: string | null; last_duration: number | null
-  new_count: number; updated_count: number; source_results: CrawlerSourceResult[]
+  running: boolean; status?: 'idle' | 'running' | 'success' | 'partial_failure' | 'failure' | string
+  current_started_at: string | null; current_source?: string | null; current_sources?: string[]
+  completed_sources?: number; total_sources?: number
+  last_run: string | null; last_duration: number | null
+  trigger_source?: 'manual' | 'scheduled' | string | null
+  scheduler?: {
+    enabled: boolean; running: boolean; interval_minutes: number
+    last_scheduled_run: string | null; next_scheduled_run: string | null
+    last_scheduled_outcome: string | null; last_error: string | null
+  }
+  new_count: number; updated_count: number; unchanged_count?: number; source_results: CrawlerSourceResult[]
 }
 export interface NoticeFilters {
   category?: string; source?: string; min_score?: number; date_from?: string; date_to?: string

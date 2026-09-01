@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
+import logging
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,27 +10,38 @@ from app import __version__
 from app.api import api_router
 from app.api.routes import health_status
 from app.config import get_settings, load_yaml
-from app.crawler import crawler_manager
+from app.crawler import crawler_manager, scheduler_manager
 from app.database import SessionLocal, close_db, get_db, init_db
-from app.logging_config import configure_logging
+from app.logging_config import configure_logging, log_event
 from app.paths import ensure_runtime_directories
+from app.runtime import mark_started, mark_stopped
 from fastapi import Depends
 from sqlalchemy.orm import Session
+
+logger = logging.getLogger(__name__)
 
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     settings = get_settings()
     ensure_runtime_directories(settings.environment, settings.app_data_dir)
-    configure_logging()
+    log_file = configure_logging()
+    log_event(logger, logging.INFO, "application_starting", environment=settings.environment)
     init_db()
     with SessionLocal() as db:
         crawler_manager._sync_sources(db, load_yaml("sources.yaml").get("sources", []))
+    scheduler_manager.start()
+    mark_started()
+    log_event(logger, logging.INFO, "application_started", log_file=str(log_file))
     try:
         yield
     finally:
+        log_event(logger, logging.INFO, "application_stopping")
+        await scheduler_manager.shutdown()
         await crawler_manager.shutdown()
         close_db()
+        mark_stopped()
+        log_event(logger, logging.INFO, "application_stopped")
 
 
 settings = get_settings()

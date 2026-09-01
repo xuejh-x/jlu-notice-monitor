@@ -11,12 +11,14 @@ from sqlalchemy import func, or_, select
 from sqlalchemy import text
 from sqlalchemy.orm import Session, selectinload
 
-from app.crawler import crawler_manager
+from app.crawler import crawler_manager, scheduler_manager
 from app import __version__
 from app.config import get_settings
 from app.crawler.runner import CrawlerAlreadyRunning
 from app.database import get_db
+from app.logging_config import _safe_value, log_event
 from app.models import Favorite, Notice, NoticeSourceRelation, Source, UserState
+from app.runtime import status as runtime_status
 from app.services.dates import deadline_metadata
 
 api_router = APIRouter(prefix="/api")
@@ -290,6 +292,8 @@ def health_status(db: Session) -> dict[str, Any] | JSONResponse:
         "version": __version__,
         "database": "ok",
         "crawler": "running" if crawler_manager.running else "idle",
+        "scheduler": "running" if scheduler_manager.running else "idle",
+        "initialized": runtime_status()["initialized"],
         "environment": get_settings().environment,
     }
     try:
@@ -426,6 +430,7 @@ async def run_crawler() -> dict[str, str]:
         crawler_manager.start()
     except CrawlerAlreadyRunning as exc:
         raise HTTPException(status_code=409, detail=str(exc)) from exc
+    log_event(logger, logging.INFO, "manual_crawler_requested", trigger_source="manual")
     return {"status": "started"}
 
 
@@ -440,4 +445,31 @@ async def run_source(source_code: str) -> dict[str, str]:
 
 @api_router.get("/crawler/status")
 def crawler_status() -> dict[str, Any]:
-    return crawler_manager.status()
+    return {**crawler_manager.status(), "scheduler": scheduler_manager.status()}
+
+
+@api_router.get("/runtime/diagnostics")
+def runtime_diagnostics(db: Session = Depends(get_db)) -> dict[str, Any]:
+    source_rows = db.scalars(select(Source).order_by(Source.code)).all()
+    source_summary = [
+        {
+            "code": source.code,
+            "enabled": source.enabled,
+            "last_success_at": source.last_success_at,
+            "last_error_at": source.last_checked_at if source.last_error else None,
+            "last_error": _safe_value(source.last_error or ""),
+            "consecutive_errors": source.consecutive_errors,
+        }
+        for source in source_rows
+    ]
+    failed = [item for item in source_summary if item["last_error"]]
+    return {
+        "service": "jlu-notice-monitor",
+        "version": __version__,
+        "runtime": runtime_status(),
+        "database": {"status": "ok", "storage": "configured"},
+        "crawler": crawler_manager.status(),
+        "scheduler": scheduler_manager.status(),
+        "sources": source_summary,
+        "latest_error_summary": failed[0] if failed else None,
+    }

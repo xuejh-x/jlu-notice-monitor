@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+from contextlib import nullcontext
 from io import StringIO
 from pathlib import Path
 from typing import cast
@@ -17,6 +18,7 @@ from app.crawler.runner import CrawlRunResult, CrawlerManager
 from app.config import Settings
 from app.database import Base, get_db
 from app.main import app
+import app.main as main_module
 from app.paths import (
     BACKEND_DIR,
     ensure_runtime_directories,
@@ -100,6 +102,15 @@ def test_health_reports_database_failure() -> None:
         app.dependency_overrides.clear()
 
 
+def test_crawler_status_exposes_scheduler_runtime() -> None:
+    response = TestClient(app).get("/api/crawler/status")
+    assert response.status_code == 200
+    scheduler = response.json()["scheduler"]
+    assert scheduler["enabled"] is True
+    assert scheduler["interval_minutes"] == 15
+    assert scheduler["next_scheduled_run"] is None
+
+
 def test_server_host_and_port_cli() -> None:
     args = build_parser().parse_args(["serve", "--host", "127.0.0.1", "--port", "8765"])
     assert args.host == "127.0.0.1"
@@ -130,3 +141,34 @@ async def test_crawler_background_task_is_cancelled_on_shutdown(tmp_path: Path) 
     manager._task = cast(asyncio.Task[CrawlRunResult], asyncio.create_task(asyncio.sleep(60)))
     await manager.shutdown()
     assert manager._task is None
+
+
+@pytest.mark.asyncio
+async def test_lifespan_starts_scheduler_and_stops_it_before_crawler(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    events: list[str] = []
+
+    class Scheduler:
+        def start(self) -> None:
+            events.append("scheduler-start")
+
+        async def shutdown(self) -> None:
+            events.append("scheduler-stop")
+
+    class Crawler:
+        def _sync_sources(self, *_: object) -> None:
+            events.append("sync-sources")
+
+        async def shutdown(self) -> None:
+            events.append("crawler-stop")
+
+    monkeypatch.setattr(main_module, "scheduler_manager", Scheduler())
+    monkeypatch.setattr(main_module, "crawler_manager", Crawler())
+    monkeypatch.setattr(main_module, "ensure_runtime_directories", lambda *_: None)
+    monkeypatch.setattr(main_module, "init_db", lambda: None)
+    monkeypatch.setattr(main_module, "SessionLocal", lambda: nullcontext(object()))
+    monkeypatch.setattr(main_module, "load_yaml", lambda _: {"sources": []})
+    async with main_module.lifespan(app):
+        assert events == ["sync-sources", "scheduler-start"]
+    assert events == ["sync-sources", "scheduler-start", "scheduler-stop", "crawler-stop"]
