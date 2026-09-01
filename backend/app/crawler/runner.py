@@ -106,6 +106,10 @@ class CrawlerManager:
     ) -> asyncio.Task[CrawlRunResult]:
         if self.running:
             raise CrawlerAlreadyRunning("crawler is already running")
+        # A task is observable as running immediately after create_task(). Set the
+        # trigger before yielding to it so status consumers never see a running
+        # crawler with an empty trigger source.
+        self.current_trigger = trigger
         self._task = asyncio.create_task(self.run(source_code=source_code, trigger=trigger))
         self._task.add_done_callback(self._log_task_result)
         log_event(logger, logging.INFO, "crawler_triggered", trigger_source=trigger)
