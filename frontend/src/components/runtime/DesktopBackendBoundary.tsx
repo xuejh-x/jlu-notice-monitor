@@ -1,5 +1,6 @@
 import { invoke, isTauri } from '@tauri-apps/api/core'
 import { useCallback, useEffect, useState, type ReactNode } from 'react'
+import { configureDesktopApiBaseUrl } from '../../api/client'
 import { Button } from '../ui/Button'
 import { ErrorState } from '../ui/Feedback'
 
@@ -8,6 +9,8 @@ type BackendStatus = {
   ready: boolean
   owned: boolean
   pid: number | null
+  port: number | null
+  apiBaseUrl: string | null
   error: string | null
 }
 
@@ -16,6 +19,8 @@ const startingStatus: BackendStatus = {
   ready: false,
   owned: false,
   pid: null,
+  port: null,
+  apiBaseUrl: null,
   error: null,
 }
 
@@ -24,6 +29,8 @@ const failedStatus = (message: string): BackendStatus => ({
   ready: false,
   owned: false,
   pid: null,
+  port: null,
+  apiBaseUrl: null,
   error: message,
 })
 
@@ -41,6 +48,10 @@ export function DesktopBackendBoundary({ children }: { children: ReactNode }) {
       try {
         const next = await invoke<BackendStatus>('backend_status')
         if (cancelled) return
+        if (next.ready) {
+          if (!next.apiBaseUrl) throw new Error('Missing desktop backend URL')
+          configureDesktopApiBaseUrl(next.apiBaseUrl)
+        }
         setStatus(next)
         if (!next.ready && next.phase !== 'failed') {
           timer = setTimeout(poll, 200)
@@ -63,7 +74,10 @@ export function DesktopBackendBoundary({ children }: { children: ReactNode }) {
     setRetrying(true)
     setStatus(startingStatus)
     try {
-      setStatus(await invoke<BackendStatus>('retry_backend'))
+      const next = await invoke<BackendStatus>('retry_backend')
+      if (!next.apiBaseUrl) throw new Error('Missing desktop backend URL')
+      configureDesktopApiBaseUrl(next.apiBaseUrl)
+      setStatus(next)
     } catch {
       setStatus(failedStatus('无法重新启动本地通知服务。请重新启动应用。'))
     } finally {

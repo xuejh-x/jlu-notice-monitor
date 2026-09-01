@@ -16,7 +16,7 @@ Packaged FastAPI Backend
 SQLite
 ```
 
-Tauri 使用官方 sidecar 机制启动 `jlu-notice-backend.exe`，轮询 `http://127.0.0.1:8000/api/health` 后才放行 React 主界面。关闭桌面窗口时会先通过 sidecar stdin 请求 graceful shutdown，超时后只结束当前窗口持有的 child process。正式安装器、签名、更新与 Release workflow 留给 Gate 8B。
+Tauri 使用官方 sidecar 机制启动 `jlu-notice-backend.exe`，为每次运行选择可用的动态 loopback 端口，轮询 `/api/health` 后把受限的 `http://127.0.0.1:<port>` 地址交给 React，再放行主界面。关闭桌面窗口时会先通过 sidecar stdin 请求 graceful shutdown，超时后只结束当前窗口持有的 child process。单实例插件避免重复启动多个 scheduler；NSIS 使用 current-user 安装，不要求管理员权限。
 
 首次准备环境：
 
@@ -35,7 +35,16 @@ Set-Location frontend
 npm run tauri dev
 ```
 
-该命令会依次执行 `npm run backend:build`、按 Rust target triple 暂存 sidecar、启动 Vite，再启动 Tauri。也可以单独执行 `npm run backend:build` 复现 PyInstaller one-file 构建。生成物位于忽略 Git 的 `frontend/src-tauri/binaries/`，不要求系统安装 Python 才能运行。
+也可以运行 `npm run desktop:dev`。命令会依次执行 `npm run backend:build`、按 Rust target triple 暂存 sidecar、启动 Vite，再启动 Tauri。可单独执行 `npm run backend:build` 复现 PyInstaller one-file 构建。生成物位于忽略 Git 的 `frontend/src-tauri/binaries/`，不要求系统安装 Python 才能运行。
+
+正式 Windows 安装包：
+
+```powershell
+Set-Location frontend
+npm run desktop:build
+```
+
+该命令构建 production frontend、打包 sidecar，并通过 Tauri bundler 生成 current-user NSIS 安装器。安装后的 SQLite、日志、cache、runtime config 与 OA profile 均保存在 `%LOCALAPPDATA%\JLU Notice Monitor\`，不写入安装目录。
 
 ## 本地开发
 
@@ -58,7 +67,7 @@ npm run dev
 
 默认访问 `http://127.0.0.1:5173`，后端默认监听 `http://127.0.0.1:8000`。
 
-Web 开发流程与桌面 sidecar 相互独立：`npm run dev` 不会自动启动 Backend，方便继续调试 Python 代码。若 8000 已由健康的本项目 Backend 占用，桌面应用会复用它且不会取得进程所有权；若被其他程序占用，则显示明确失败状态与重试入口，不会重复 spawn 或终止外部进程。
+Web 开发流程与桌面 sidecar 相互独立：`npm run dev` 不会自动启动 Backend，方便继续调试 Python 代码。桌面应用不复用固定 8000，也不会连接云端 Backend；它只接受 Tauri lifecycle manager 返回的动态 IPv4 loopback URL。
 
 ## CI
 
@@ -123,9 +132,9 @@ backend/
 
 Tauri 采用以下启动顺序：
 
-1. 检查 8000 的服务身份并启动 packaged FastAPI sidecar；
-2. 轮询 `/api/health` 直到后端就绪；
-3. 加载 React 前端；
+1. 在 `127.0.0.1` 上分配可用动态端口并启动 packaged FastAPI sidecar；
+2. 轮询该端口的 `/api/health`，验证服务身份和数据库 readiness；
+3. 把 loopback API URL 配置给 React 后加载主界面；
 4. 应用退出时请求 Backend graceful shutdown，并等待其退出；
 5. 超时才结束当前 Tauri 实例持有的 child，绝不按进程名全局终止。
 

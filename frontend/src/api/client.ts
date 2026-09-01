@@ -1,4 +1,12 @@
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? 'http://127.0.0.1:8000').replace(/\/$/, '')
+const DEFAULT_API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? 'http://127.0.0.1:8000').replace(/\/$/, '')
+const LOOPBACK_API_URL = /^http:\/\/127\.0\.0\.1:\d+$/
+let apiBaseUrl = DEFAULT_API_BASE_URL
+
+export function configureDesktopApiBaseUrl(value: string) {
+  const normalized = value.replace(/\/$/, '')
+  if (!LOOPBACK_API_URL.test(normalized)) throw new Error('Desktop API URL must use an IPv4 loopback port')
+  apiBaseUrl = normalized
+}
 export const DEFAULT_REQUEST_TIMEOUT_MS = 15_000
 
 export type ApiErrorKind = 'NETWORK_ERROR' | 'TIMEOUT' | 'ABORTED' | 'HTTP_ERROR' | 'NOT_FOUND'
@@ -22,7 +30,7 @@ export async function apiRequest<T>(path: string, init?: RequestInit, options: A
   const timer = window.setTimeout(() => { timedOut = true; controller.abort() }, timeoutMs)
   let response: Response
   try {
-    response = await fetch(`${API_BASE_URL}${path}`, { ...init, signal: controller.signal, headers: { 'Content-Type': 'application/json', ...init?.headers } })
+    response = await fetch(`${apiBaseUrl}${path}`, { ...init, signal: controller.signal, headers: { 'Content-Type': 'application/json', ...init?.headers } })
     if (response.ok) return response.json() as Promise<T>
     const body = await response.json().catch(() => null) as { detail?: string } | null
     throw new ApiError({ kind: response.status === 404 ? 'NOT_FOUND' : 'HTTP_ERROR', message: body?.detail ?? `请求失败（${response.status}）`, endpoint: path, status: response.status })

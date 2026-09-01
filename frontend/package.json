@@ -12,8 +12,9 @@
     "e2e:headed": "node e2e/run.mjs --headed",
     "e2e:ui": "node e2e/run.mjs --ui",
     "backend:build": "..\\backend\\.venv\\Scripts\\python.exe ..\\backend\\scripts\\build_sidecar.py",
-    "desktop:dev": "npm run backend:build && npm run dev",
-    "desktop:build": "npm run backend:build && npm run build",
+    "desktop:prepare": "npm run backend:build && npm run build",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build",
     "preview": "vite preview",
     "tauri": "tauri"
   },

@@ -41,7 +41,7 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 ## API
 
 - `GET /health`：兼容健康检查入口
-- `GET /api/health`：数据库 readiness probe，供未来 Tauri sidecar 使用
+- `GET /api/health`：数据库 readiness probe，供 Tauri sidecar 生命周期管理使用
 - `GET /api/notices`：数据库层分页与组合筛选，支持 `page`、`page_size`、`favorite`、`read`、`category`、`source`、`deadline_status`、`q`，并兼容 `keyword`、`status`、`min_score`、`date_from`、`date_to`
 - `GET /api/notices/{id}`
 - `GET /api/notices/today`
@@ -121,9 +121,9 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 
 ## Sidecar 生命周期准备
 
-Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放；正常 Ctrl+C 可干净退出。
+Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。Desktop production 由 Tauri 分配动态 loopback 端口并传入 sidecar。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放。
 
-Phase 3A 的 Tauri 壳层已经接入，但 Backend 仍需手工启动。Phase 3C 将由 Tauri 启动 Backend、轮询 `GET /api/health`，并在应用退出时终止 Backend、等待 graceful shutdown；当前没有 Python EXE 或 sidecar 打包。
+`backend/scripts/build_sidecar.py` 使用 PyInstaller one-file 模式打包 Backend、Python 依赖和 `config/` YAML，再按 Rust target triple 暂存到 Tauri binaries。Tauri 通过 `serve --managed` 启动它、轮询 `GET /api/health`，退出时通过 stdin 请求 graceful shutdown，超时后只终止自有 child。安装后的普通用户不需要 Python 或 Backend 源码目录。
 
 ## Windows Task Scheduler
 

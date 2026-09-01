@@ -10,23 +10,18 @@ Copy-Item .env.example .env
 npm run dev
 ```
 
-默认访问 `http://127.0.0.1:5173`，并连接 `http://127.0.0.1:8000`。后端地址只在 `src/api/client.ts` 集中读取 `VITE_API_BASE_URL`，便于未来由 Tauri 决定 sidecar 地址。
+Web 开发默认访问 `http://127.0.0.1:5173`，并连接 `http://127.0.0.1:8000`。Desktop production 由 Tauri 选择动态 loopback 端口，并在 backend ready 后通过 `src/api/client.ts` 配置 API 地址；非 `127.0.0.1` 地址会被拒绝。
 
-## Phase 3A — Tauri Shell
+## Tauri Desktop
 
-先在另一个 PowerShell 窗口手工启动 Backend：
-
-```powershell
-Set-Location ..\backend
-.\.venv\Scripts\python.exe -m app serve
-```
-
-再启动桌面窗口：
+开发模式会先构建 sidecar，再自动启动 Vite、Tauri 和本地 Backend：
 
 ```powershell
-Set-Location ..\frontend
-npm run tauri dev
+Set-Location frontend
+npm run desktop:dev
 ```
+
+正式 NSIS 安装包使用 `npm run desktop:build` 构建。
 
 ## E2E 关键用户旅程
 
@@ -52,11 +47,9 @@ FastAPI Backend
 SQLite
 ```
 
-Tauri 只负责承载现有 React 应用。Python Backend 当前仍需手工启动，自动 sidecar 管理从 Phase 3C 开始。Web 模式的 `npm run dev` 继续保留，BrowserRouter 与现有路由结构未修改。
+Tauri 自动启动 PyInstaller one-file Backend sidecar，等待 readiness 后再渲染 React 应用，并在退出时优先 graceful shutdown、超时后终止自有 child。单实例插件防止重复 scheduler；Web 模式的 `npm run dev` 继续保留。
 
-通知原网页、附件和数据源网站在 Web 模式中使用浏览器新标签页，在 Tauri 中通过最小权限的 opener 插件交给系统默认浏览器。Tauri CSP 只允许本地前端资源、内部 IPC 和 `http://127.0.0.1:8000` API；没有开放文件系统或任意 Shell 权限。
-
-当前使用初始化生成的临时图标，正式应用图标留到 Phase 3D。
+通知原网页、附件和数据源网站在 Web 模式中使用浏览器新标签页，在 Tauri 中通过最小权限的 opener 插件交给系统默认浏览器。Tauri CSP 只允许本地前端资源、内部 IPC 和动态 `http://127.0.0.1:*` API；没有开放文件系统或任意前端 Shell 权限。
 
 ## 服务端数据查询
 
@@ -69,7 +62,7 @@ Tauri 只负责承载现有 React 应用。Python Backend 当前仍需手工启�
 ```powershell
 npm run lint
 npm run build
-npm run tauri dev
+npm run desktop:build
 ```
 
-`npm run tauri build` 命令入口由官方 CLI 提供，但 Phase 3A 的 bundle 处于关闭状态，不生成 MSI/NSIS 安装器。
+`npm run desktop:build` 会构建 production assets、Windows sidecar 和 current-user NSIS 安装器。安装后无需 Python、Node 或 Rust。

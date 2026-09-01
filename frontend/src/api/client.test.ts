@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { apiRequest } from './client'
+import { apiRequest, configureDesktopApiBaseUrl } from './client'
 
 const jsonResponse = (body: unknown, status = 200) => new Response(JSON.stringify(body), {
   status,
@@ -7,6 +7,7 @@ const jsonResponse = (body: unknown, status = 200) => new Response(JSON.stringif
 })
 
 afterEach(() => {
+  configureDesktopApiBaseUrl('http://127.0.0.1:8000')
   vi.unstubAllGlobals()
   vi.useRealTimers()
 })
@@ -18,6 +19,19 @@ describe('apiRequest', () => {
 
     await expect(apiRequest<{ ok: boolean }>('/api/health')).resolves.toEqual({ ok: true })
     expect(fetchMock).toHaveBeenCalledWith('http://127.0.0.1:8000/api/health', expect.objectContaining({ signal: expect.any(AbortSignal) }))
+  })
+
+  it('uses the dynamic loopback URL selected by the desktop backend', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(jsonResponse({ ok: true }))
+    vi.stubGlobal('fetch', fetchMock)
+    configureDesktopApiBaseUrl('http://127.0.0.1:49152')
+
+    await apiRequest('/api/health')
+    expect(fetchMock).toHaveBeenCalledWith('http://127.0.0.1:49152/api/health', expect.anything())
+  })
+
+  it('rejects a non-loopback desktop API URL', () => {
+    expect(() => configureDesktopApiBaseUrl('https://101.201.103.110')).toThrow(/loopback/i)
   })
 
   it('classifies a 404 response as NOT_FOUND', async () => {
