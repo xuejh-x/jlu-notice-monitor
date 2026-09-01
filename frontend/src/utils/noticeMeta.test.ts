@@ -29,12 +29,12 @@ describe('deadlinePresentation', () => {
     expect(deadlinePresentation({ ...base, registration_deadline: '2026-08-30', deadline_status: 'today', days_until_deadline: 0 })).toEqual({ text: '今天截止', tone: 'danger' })
   })
   it('returns a danger tone for a soon deadline', () => {
-    expect(deadlinePresentation({ ...base, registration_deadline: '2026-09-01', deadline_status: 'urgent', days_until_deadline: 2 })).toEqual({ text: '剩余 2 天', tone: 'danger' })
+    expect(deadlinePresentation({ ...base, registration_deadline: '2026-09-01', deadline_status: 'urgent', days_until_deadline: 2 })).toEqual({ text: '2 天后截止', tone: 'danger' })
   })
   it('returns a secondary tone for a normal deadline', () => {
     const result = deadlinePresentation({ ...base, registration_deadline: '2026-09-10', deadline_status: 'normal', days_until_deadline: 11 })
     expect(result.tone).toBe('secondary')
-    expect(result.text).toContain('截止 09-10')
+    expect(result.text).toBe('11 天后截止')
   })
   it('returns 已截止 muted for expired', () => {
     expect(deadlinePresentation({ ...base, registration_deadline: '2026-01-01', deadline_status: 'expired', days_until_deadline: -200 })).toEqual({ text: '已截止', tone: 'muted' })

@@ -16,6 +16,16 @@
   --surface: #ffffff;                    /* white     */
   --surface-raised: #ffffff;             /* white     */
   --surface-muted: #f4f4f5;              /* zinc-100  */
+  --app-canvas: #eef0f4;
+  --app-frame: #ffffff;
+  --sidebar-surface: #f7f8fa;
+  --header-surface: #ffffff;
+  --list-surface: #fafbfc;
+  --detail-surface: #ffffff;
+  --selected-surface: #eef2ff;
+  --attachment-surface: #f7f8fa;
+  --progress-surface: #f1f4f8;
+  --cta-surface: #4e50b6;
 
   /* Text */
   --text-primary: #18181b;               /* zinc-900  */
@@ -41,29 +51,54 @@
   --important: #b45309;                  /* amber-700                                 */
   --unread: #6366f1;                     /* indigo-500 (graphic ≥3:1)                 */
   --focus: #4f46e5;                      /* indigo-600                                */
+
+  --source-blue-bg: #e7efff;
+  --source-blue-fg: #315f9d;
+  --source-cyan-bg: #e1f3f3;
+  --source-cyan-fg: #24777c;
+  --source-green-bg: #e5f3eb;
+  --source-green-fg: #29755a;
+  --source-violet-bg: #eceaff;
+  --source-violet-fg: #5d5aae;
+  --deadline-danger-bg: #f7e7ea;
+  --deadline-danger-fg: #9d4853;
+  --deadline-warning-bg: #f7eedf;
+  --deadline-warning-fg: #956d33;
+  --deadline-neutral-bg: #edf1f5;
+  --deadline-neutral-fg: #657387;
 }
 
 .dark {
   color-scheme: dark;
 
-  --background: #09090b;                 /* zinc-950 */
-  --surface: #18181b;                    /* zinc-900 */
-  --surface-raised: #27272a;             /* zinc-800 (elevation via lightness) */
-  --surface-muted: rgb(39 39 42 / 0.6);  /* zinc-800 @ 60% */
+  --background: #080b12;                 /* deep navy-black */
+  --surface: #0f141d;                    /* graphite with a restrained blue cast */
+  --surface-raised: #151b25;             /* elevated reader surface */
+  --surface-muted: rgb(30 39 52 / 0.62); /* quiet hover / inset surface */
+  --app-canvas: #070b11;
+  --app-frame: #0a0f17;
+  --sidebar-surface: #0c121b;
+  --header-surface: #0e151f;
+  --list-surface: #0f1721;
+  --detail-surface: #0d141d;
+  --selected-surface: #151c2d;
+  --attachment-surface: #101a25;
+  --progress-surface: #121c28;
+  --cta-surface: #4e50b6;
 
   --text-primary: #f4f4f5;               /* zinc-100 */
-  --text-secondary: #d4d4d8;             /* zinc-300 */
-  --text-muted: #a1a1aa;                 /* zinc-400 */
+  --text-secondary: #c7ced9;
+  --text-muted: #8f99a8;
   --text-inverse: #ffffff;
 
-  --border: #27272a;                     /* zinc-800 */
-  --border-strong: #3f3f46;              /* zinc-700 */
+  --border: #202938;
+  --border-strong: #354052;
   --overlay: rgb(9 9 11 / 0.55);         /* stable transient overlay */
 
   --accent: #4f46e5;                     /* indigo-600 (white-text 4.5:1; was indigo-500) */
   --accent-hover: #4338ca;               /* indigo-700 (was indigo-400: white-text 4.5:1) */
-  --accent-soft: #1e1b4b;                /* indigo-950 */
-  --accent-soft-text: #a5b4fc;           /* indigo-300 */
+  --accent-soft: #171c3a;
+  --accent-soft-text: #aab5f9;
 
   --success: #10b981;                    /* emerald-500 */
   --warning: #f59e0b;                    /* amber-500   */
@@ -71,6 +106,21 @@
   --important: #fcd34d;                  /* amber-300   */
   --unread: #6366f1;                     /* indigo-500  */
   --focus: #6366f1;                      /* indigo-500  */
+
+  --source-blue-bg: #19365f;
+  --source-blue-fg: #a4c0f4;
+  --source-cyan-bg: #183a42;
+  --source-cyan-fg: #97cdd0;
+  --source-green-bg: #193c31;
+  --source-green-fg: #91ccae;
+  --source-violet-bg: #2b2b5c;
+  --source-violet-fg: #b1aef2;
+  --deadline-danger-bg: #2b181d;
+  --deadline-danger-fg: #d28d94;
+  --deadline-warning-bg: #302416;
+  --deadline-warning-fg: #c49a5e;
+  --deadline-neutral-bg: #18222d;
+  --deadline-neutral-fg: #8996a8;
 }
 
 /* Map semantic tokens into the Tailwind v4 color namespace:
@@ -80,6 +130,16 @@
   --color-surface: var(--surface);
   --color-surface-raised: var(--surface-raised);
   --color-surface-muted: var(--surface-muted);
+  --color-app-canvas: var(--app-canvas);
+  --color-app-frame: var(--app-frame);
+  --color-sidebar-surface: var(--sidebar-surface);
+  --color-header-surface: var(--header-surface);
+  --color-list-surface: var(--list-surface);
+  --color-detail-surface: var(--detail-surface);
+  --color-selected-surface: var(--selected-surface);
+  --color-attachment-surface: var(--attachment-surface);
+  --color-progress-surface: var(--progress-surface);
+  --color-cta-surface: var(--cta-surface);
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
@@ -97,6 +157,20 @@
   --color-important: var(--important);
   --color-unread: var(--unread);
   --color-focus: var(--focus);
+  --color-source-blue-bg: var(--source-blue-bg);
+  --color-source-blue-fg: var(--source-blue-fg);
+  --color-source-cyan-bg: var(--source-cyan-bg);
+  --color-source-cyan-fg: var(--source-cyan-fg);
+  --color-source-green-bg: var(--source-green-bg);
+  --color-source-green-fg: var(--source-green-fg);
+  --color-source-violet-bg: var(--source-violet-bg);
+  --color-source-violet-fg: var(--source-violet-fg);
+  --color-deadline-danger-bg: var(--deadline-danger-bg);
+  --color-deadline-danger-fg: var(--deadline-danger-fg);
+  --color-deadline-warning-bg: var(--deadline-warning-bg);
+  --color-deadline-warning-fg: var(--deadline-warning-fg);
+  --color-deadline-neutral-bg: var(--deadline-neutral-bg);
+  --color-deadline-neutral-fg: var(--deadline-neutral-fg);
 }
 
 /* Static tokens — typography, radius, layout, motion */
@@ -115,8 +189,8 @@
   --text-body: 0.875rem;
   --text-body--line-height: 1.25rem;
   --text-detail-body: 0.9375rem;
-  --text-detail-body--line-height: 2rem;
-  --text-metadata: 0.75rem;
+  --text-detail-body--line-height: 1.75rem;
+  --text-metadata: 0.71875rem;
   --text-metadata--line-height: 1rem;
   --text-label: 0.6875rem;
   --text-label--line-height: 1rem;
@@ -126,13 +200,23 @@
   --radius-medium: 0.5rem;               /* 8px  */
   --radius-large: 0.75rem;               /* 12px */
   --radius-xlarge: 1rem;                 /* 16px */
+  --radius-design: 0.4375rem;            /* 7px  */
+  --radius-app: 0.625rem;                /* 10px */
 
-  --spacing-sidebar-expanded: 14.5rem;   /* 232px */
+  --spacing-sidebar-expanded: 17.625rem; /* 282px */
   --spacing-sidebar-collapsed: 4.5rem;   /* 72px  */
-  --spacing-header-height: 4rem;         /* 64px  */
+  --spacing-workbench-list: 35.875rem;   /* 574px */
+  --spacing-header-height: 3.375rem;     /* 54px  */
+  --spacing-list-header-height: 3rem;    /* 48px  */
+  --spacing-detail-toolbar-height: 2.625rem; /* 42px */
+  --spacing-notice-row-height: 4.75rem;  /* 76px */
+  --spacing-attachment-height: 2.875rem; /* 46px */
+  --spacing-cta-height: 2.375rem;        /* 38px */
   --spacing-mobile-nav-height: 4.25rem;  /* 68px  */
   --max-width-content-max: 93.75rem;     /* 1500px */
   --max-width-detail-max: 64rem;         /* 1024px */
+  --max-width-reader: 44rem;             /* 704px */
+  --max-width-detail-content: 32rem;     /* 512px */
 
   --default-transition-duration: 150ms;
   --default-transition-timing-function: ease;

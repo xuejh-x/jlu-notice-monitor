@@ -1,9 +1,31 @@
-import { Bell, CalendarClock, CalendarDays, CircleStar, FlaskConical, GraduationCap, House, List, Settings, ShieldCheck, Trophy, Waypoints } from 'lucide-react'
+import { Bell, CalendarClock, CalendarDays, CircleStar, FlaskConical, Globe2, GraduationCap, House, Inbox, List, Settings, ShieldCheck, Star, Trophy, Waypoints } from 'lucide-react'
 import type { ComponentType } from 'react'
 import { matchPath } from 'react-router-dom'
 
 export interface NavItem { to: string; label: string; icon: ComponentType<{ className?: string }> }
 export interface NavGroup { label: string; items: NavItem[] }
+
+/** Compact Desktop Sidebar destinations. Existing routes remain available elsewhere. */
+export const desktopNavGroups: NavGroup[] = [
+  {
+    label: '主导航',
+    items: [
+      { to: '/notices', label: '收件箱', icon: Inbox },
+      { to: '/notices?min_score=70', label: '重要', icon: Star },
+      { to: '/deadlines', label: '即将截止', icon: CalendarClock },
+      { to: '/sources', label: '来源', icon: Globe2 },
+      { to: '/settings', label: '设置', icon: Settings },
+    ],
+  },
+  {
+    label: '快捷视图',
+    items: [
+      { to: '/notices?date_from=week', label: '本周更新', icon: CalendarDays },
+      { to: '/notices?read=0', label: '未读', icon: Inbox },
+      { to: '/notices?favorite=1', label: '已收藏', icon: Star },
+    ],
+  },
+]
 
 /** Desktop Sidebar + Mobile "More" panel navigation (real routes only). */
 export const navGroups: NavGroup[] = [
@@ -47,7 +69,8 @@ export const mobileNavItems: NavItem[] = [
 
 /** route pattern → short context title for the mobile top bar. */
 const routeTitles: Array<[string, string]> = [
-  ['/', '首页'],
+  ['/dashboard', '首页'],
+  ['/', '收件箱'],
   ['/today', '今日'],
   ['/deadlines', '即将截止'],
   ['/competitions', '全部竞赛'],

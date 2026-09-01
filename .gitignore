@@ -19,6 +19,8 @@ frontend/.vite/
 frontend/.e2e/
 frontend/playwright-report/
 frontend/test-results/
+frontend/.visual-qa/
+.claude/worktrees/
 
 # Local configuration and runtime data
 .env

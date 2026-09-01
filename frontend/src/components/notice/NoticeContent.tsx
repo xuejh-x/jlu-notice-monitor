@@ -19,7 +19,7 @@ export function NoticeContent({ content }: { content: string | null }) {
   return (
     <div className="space-y-4">
       {paragraphs.map((paragraph, index) => (
-        <p key={index} className="text-detail-body break-words text-text-primary">
+        <p key={index} className="text-detail-body break-words leading-7 text-text-secondary">
           {paragraph}
         </p>
       ))}

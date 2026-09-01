@@ -22,8 +22,8 @@ export function deadlinePresentation(notice: Notice): DeadlinePresentation {
   if (isExpired(notice)) return { text: '已截止', tone: 'muted' }
   if (!notice.registration_deadline) return { text: '时间待定', tone: 'muted' }
   if (notice.deadline_status === 'today') return { text: '今天截止', tone: 'danger' }
-  if (days !== null && days <= 3) return { text: `剩余 ${Math.max(0, days)} 天`, tone: 'danger' }
-  return { text: `截止 ${shortDate(notice.registration_deadline)}${days !== null ? ` · 剩余 ${days} 天` : ''}`, tone: 'secondary' }
+  if (days !== null && days <= 3) return { text: `${Math.max(0, days)} 天后截止`, tone: 'danger' }
+  return { text: days !== null ? `${days} 天后截止` : `截止 ${shortDate(notice.registration_deadline)}`, tone: 'secondary' }
 }
 
 /** Full-deadline presentation for the detail page: concrete date + days left,

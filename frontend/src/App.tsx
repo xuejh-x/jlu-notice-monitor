@@ -14,15 +14,18 @@ import { NoticeDetailPage } from './pages/NoticeDetailPage'
 import { TrainingPage } from './pages/TrainingPage'
 import { ThemeProvider } from './stores/theme'
 import { ToastProvider } from './stores/toast'
-import { loadSettings } from './stores/settings'
 
 const queryClient = new QueryClient({ defaultOptions: { queries: { staleTime: 30_000, retry: 1, refetchOnWindowFocus: false } } })
-function HomeRoute() { const path = loadSettings().defaultHome; return path === '/' ? <DashboardPage /> : <Navigate to={path} replace /> }
+
+function HomeRoute() {
+  return <Navigate to="/notices" replace />
+}
 
 export default function App() {
   return <QueryClientProvider client={queryClient}><ThemeProvider><ToastProvider><BrowserRouter><Routes>
     <Route element={<AppShell />}>
       <Route index element={<HomeRoute />} />
+      <Route path="dashboard" element={<DashboardPage />} />
       <Route path="today" element={<TodayPage />} />
       <Route path="deadlines" element={<DeadlinesPage />} />
       <Route path="competitions" element={<CompetitionsPage />} />

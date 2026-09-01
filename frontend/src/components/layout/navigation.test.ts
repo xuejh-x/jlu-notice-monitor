@@ -16,7 +16,8 @@ describe('navigation config', () => {
   })
 
   it('returns the page context title for static and dynamic routes', () => {
-    expect(getRouteTitle('/')).toBe('首页')
+    expect(getRouteTitle('/')).toBe('收件箱')
+    expect(getRouteTitle('/dashboard')).toBe('首页')
     expect(getRouteTitle('/notices')).toBe('全部通知')
     expect(getRouteTitle('/notices/42')).toBe('通知详情')
     expect(getRouteTitle('/competitions/algorithm')).toBe('算法竞赛')

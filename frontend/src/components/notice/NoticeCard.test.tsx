@@ -47,7 +47,7 @@ describe('NoticeCard', () => {
 
   it('shows the deadline semantics text', () => {
     renderCard({ ...base, registration_deadline: '2026-09-05', deadline_status: 'urgent', days_until_deadline: 2 })
-    expect(screen.getByText('剩余 2 天')).toBeInTheDocument()
+    expect(screen.getByText('2 天后截止')).toBeInTheDocument()
   })
 
   it('announces read/unread state for screen readers', () => {
