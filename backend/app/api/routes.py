@@ -20,6 +20,7 @@ from app.logging_config import _safe_value, log_event
 from app.models import Favorite, Notice, NoticeSourceRelation, Source, UserState
 from app.runtime import status as runtime_status
 from app.services.dates import deadline_metadata
+from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED, is_public_feed_not_configured
 
 api_router = APIRouter(prefix="/api")
 logger = logging.getLogger(__name__)
@@ -266,12 +267,20 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
     rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
     results: list[dict[str, Any]] = []
     for item in rows:
+        public_feed_missing = item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and is_public_feed_not_configured(
+            item.last_error_code,
+            item.last_error,
+        )
+        projected_health_state = "cloud_unconfigured" if public_feed_missing else item.health_state
         if item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and not item.subscribed:
             source_status = "disabled"
             message = "当前设备未订阅此官方来源"
         elif not item.enabled:
             source_status = "disabled"
             message = "尚未完成首次登录配置" if item.code == "oa" else "数据源已禁用"
+        elif public_feed_missing:
+            source_status = "cloud_unconfigured"
+            message = "等待 Notice Hub 公共源启用"
         elif item.health_state == "needs_reauth" or item.last_error == "OA_LOGIN_EXPIRED":
             source_status = "needs_reauth"
             message = "登录状态已失效，请在来源页面重新登录"
@@ -300,14 +309,15 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
             "ownership": item.ownership,
             "source_type": item.source_type,
             "auth_type": item.auth_type,
-            "health_state": item.health_state,
+            "health_state": projected_health_state,
             "source_scope": item.source_scope,
             "execution": item.execution,
             "cloud_policy": item.cloud_policy,
             "cloud_source_id": item.cloud_source_id,
             "last_checked_at": item.last_checked_at,
             "last_success_at": item.last_success_at,
-            "last_error": item.last_error,
+            "last_error": None if public_feed_missing else item.last_error,
+            "last_error_code": PUBLIC_FEED_NOT_CONFIGURED if public_feed_missing else item.last_error_code,
             "consecutive_errors": item.consecutive_errors,
             "status": source_status,
             "message": message,

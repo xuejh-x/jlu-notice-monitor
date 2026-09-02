@@ -33,7 +33,7 @@ export interface Source {
   ownership?: SourceOwnership; subscribed?: boolean; source_type?: string; auth_type?: string; health_state?: SourceHealthState
 }
 export type SourceOwnership = 'OFFICIAL_CLOUD' | 'SHARED_CLOUD' | 'CUSTOM_LOCAL_PUBLIC' | 'CUSTOM_LOCAL_PRIVATE'
-export type SourceHealthState = 'healthy' | 'syncing' | 'disabled' | 'needs_reauth' | 'auth_error' | 'parse_error' | 'network_error' | 'source_error' | 'unsupported' | 'unconfigured' | 'authenticated'
+export type SourceHealthState = 'healthy' | 'syncing' | 'disabled' | 'needs_reauth' | 'auth_error' | 'parse_error' | 'network_error' | 'source_error' | 'unsupported' | 'unconfigured' | 'cloud_unconfigured' | 'authenticated'
 export type SourceParser = 'auto' | 'generic_html' | 'rss' | 'atom'
 export type SourceAuthType = 'none' | 'username_password' | 'browser_session' | 'cookie' | 'basic' | 'bearer' | 'api_token' | 'custom_adapter'
 export interface ParserConfiguration {

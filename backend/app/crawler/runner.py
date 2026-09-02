@@ -28,6 +28,7 @@ from app.services.source_identity import resolve_cloud_execution, source_identit
 from app.services.importance import enabled_rule_values
 from app.sources import build_source
 from app.sources.base import LoginExpiredError
+from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED
 from app.paths import get_cache_dir
 from app.logging_config import log_event
 
@@ -435,6 +436,7 @@ class CrawlerManager:
                 auth_username=source.auth_username,
                 credential_ref=source.credential_ref,
                 allow_private_network=source.allow_private_network,
+                validation_scope="cloud" if role == "cloud" else "local",
                 public_feed_url=get_settings().public_feed_url,
                 cloud_source_id=source.cloud_source_id or source.code,
                 crawl_interval_seconds=source.crawl_interval_seconds,
@@ -519,7 +521,10 @@ class CrawlerManager:
             except Exception as exc:
                 message = f"{type(exc).__name__}: {exc}"
                 db_source.last_error = message
-                if "AUTH_" in message:
+                if str(exc) == PUBLIC_FEED_NOT_CONFIGURED:
+                    db_source.last_error_code = PUBLIC_FEED_NOT_CONFIGURED
+                    db_source.health_state = "cloud_unconfigured"
+                elif "AUTH_" in message:
                     db_source.last_error_code = "AUTH_ERROR"
                     db_source.health_state = "needs_reauth"
                 else:

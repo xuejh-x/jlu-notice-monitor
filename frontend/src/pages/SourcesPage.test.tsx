@@ -153,6 +153,36 @@ describe('SourcesPage', () => {
     await waitFor(() => expect(setCloudPolicy).toHaveBeenCalledWith(3, 'force_disabled', 'MOCK-FIXTURE-ADMIN'))
   })
 
+  it('shows an unconfigured public feed as a neutral Cloud state without leaking the internal code', async () => {
+    vi.mocked(getSourceConfiguration).mockResolvedValue([{
+      ...official,
+      health_state: 'source_error',
+      last_error_code: 'SOURCE_ERROR',
+      last_error: 'SourceError: PUBLIC_FEED_NOT_CONFIGURED',
+      last_success_at: null,
+    }])
+    renderPage()
+    expect(await screen.findByText('云端尚未配置')).toBeInTheDocument()
+    expect(screen.getByText('等待 Notice Hub 公共源启用')).toBeInTheDocument()
+    expect(screen.queryByText('来源异常')).not.toBeInTheDocument()
+    expect(screen.queryByText(/PUBLIC_FEED_NOT_CONFIGURED/)).not.toBeInTheDocument()
+    expect(screen.queryByText('SOURCE_ERROR')).not.toBeInTheDocument()
+  })
+
+  it('keeps a genuine source error in the danger state', async () => {
+    vi.mocked(getSourceConfiguration).mockResolvedValue([{
+      ...official,
+      health_state: 'source_error',
+      last_error_code: 'SOURCE_ERROR',
+      last_error: 'SourceError: upstream returned malformed content',
+    }])
+    renderPage()
+    expect(await screen.findByText('来源异常')).toBeInTheDocument()
+    expect(screen.getByText('SourceError: upstream returned malformed content')).toBeInTheDocument()
+    expect(screen.getByText(/SOURCE_ERROR/)).toBeInTheDocument()
+    expect(screen.queryByText('云端尚未配置')).not.toBeInTheDocument()
+  })
+
   it('renders a true empty state', async () => {
     vi.mocked(getSourceConfiguration).mockResolvedValue([])
     renderPage()

@@ -16,7 +16,7 @@ from app.config import get_settings
 from app.database import get_db
 from app.models import Source
 from app.services.source_identity import source_identity
-from app.services.source_security import UnsafeSourceUrl, validate_source_url
+from app.services.source_security import UnsafeSourceUrl, validate_cloud_source_url
 from app.sources.base import SourceError
 from app.sources.generic import GenericPublicSource
 
@@ -78,7 +78,7 @@ def require_admin_key(
 
 async def _cloud_preview(payload: CloudSourceDraft) -> tuple[str, list[dict[str, Any]]]:
     try:
-        await validate_source_url(payload.list_url, allow_private_network=False)
+        await validate_cloud_source_url(payload.list_url, allow_private_network=False)
     except UnsafeSourceUrl as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     adapter = GenericPublicSource(
@@ -89,6 +89,7 @@ async def _cloud_preview(payload: CloudSourceDraft) -> tuple[str, list[dict[str,
             "parser": payload.parser,
             "parser_config": payload.parser_config,
             "allow_private_network": False,
+            "validation_scope": "cloud",
         }
     )
     try:

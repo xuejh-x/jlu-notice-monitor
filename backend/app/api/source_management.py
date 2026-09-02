@@ -23,8 +23,9 @@ from app.models import Source
 from app.paths import get_auth_profile_dir
 from app.services.credentials import CredentialStorageUnavailable, credential_store
 from app.services.source_identity import source_identity
-from app.services.source_security import UnsafeSourceUrl, validate_source_url, validate_url_syntax
+from app.services.source_security import UnsafeSourceUrl, validate_local_source_url, validate_url_syntax
 from app.sources.base import SourceError
+from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED, is_public_feed_not_configured
 from app.sources.generic import GenericPublicSource
 
 router = APIRouter(prefix="/source-config", tags=["source-configuration"])
@@ -141,6 +142,10 @@ def _consume_preview_token(token: str, draft: SourceDraft) -> None:
 
 
 def _serialize_source(source: Source) -> dict[str, Any]:
+    public_feed_missing = source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and is_public_feed_not_configured(
+        source.last_error_code,
+        source.last_error,
+    )
     return {
         "id": source.id,
         "code": source.code,
@@ -157,9 +162,9 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         "password_saved": bool(source.credential_ref),
         "login_url": source.login_url,
         "allow_private_network": source.allow_private_network,
-        "health_state": source.health_state,
-        "last_error_code": source.last_error_code,
-        "last_error": source.last_error,
+        "health_state": "cloud_unconfigured" if public_feed_missing else source.health_state,
+        "last_error_code": PUBLIC_FEED_NOT_CONFIGURED if public_feed_missing else source.last_error_code,
+        "last_error": None if public_feed_missing else source.last_error,
         "last_checked_at": source.last_checked_at,
         "last_success_at": source.last_success_at,
         "requires_reauthentication": source.health_state == "needs_reauth",
@@ -190,7 +195,7 @@ async def preview_source(draft: SourceDraft) -> dict[str, Any]:
         validate_url_syntax(draft.list_url)
         if draft.login_url:
             validate_url_syntax(draft.login_url)
-        await validate_source_url(
+        await validate_local_source_url(
             draft.list_url,
             allow_private_network=draft.kind == "private" and draft.allow_private_network,
         )
@@ -215,6 +220,7 @@ async def preview_source(draft: SourceDraft) -> dict[str, Any]:
             "parser": draft.parser,
             "parser_config": draft.parser_config.model_dump(exclude_none=True),
             "allow_private_network": draft.kind == "private" and draft.allow_private_network,
+            "validation_scope": "local",
         }
     )
     if draft.kind == "private" and draft.password:

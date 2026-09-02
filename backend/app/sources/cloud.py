@@ -13,6 +13,14 @@ from app.models import AppState
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.sources.base import NoticeSource, SourceError
 
+PUBLIC_FEED_NOT_CONFIGURED = "PUBLIC_FEED_NOT_CONFIGURED"
+
+
+def is_public_feed_not_configured(last_error_code: str | None, last_error: str | None) -> bool:
+    return last_error_code == PUBLIC_FEED_NOT_CONFIGURED or bool(
+        last_error and PUBLIC_FEED_NOT_CONFIGURED in last_error
+    )
+
 
 class CloudFeedSource(NoticeSource):
     """Read-only official feed adapter used only by Desktop deployments."""
@@ -21,7 +29,7 @@ class CloudFeedSource(NoticeSource):
         super().__init__(config)
         feed_url = str(config.get("public_feed_url") or get_settings().public_feed_url or "").strip()
         if not feed_url:
-            raise SourceError("PUBLIC_FEED_NOT_CONFIGURED")
+            raise SourceError(PUBLIC_FEED_NOT_CONFIGURED)
         self.feed_url = feed_url.rstrip("/") + "/"
         self.client = httpx.AsyncClient(timeout=get_settings().request_timeout, follow_redirects=False)
         self.cloud_source_id = str(config.get("cloud_source_id") or self.code)

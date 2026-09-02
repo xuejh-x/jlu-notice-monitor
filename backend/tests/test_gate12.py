@@ -278,7 +278,7 @@ async def test_failed_preview_does_not_persist_source(monkeypatch: pytest.Monkey
     async def fail_parse(_: object) -> list[object]:
         raise SourceError("unsupported structure")
 
-    monkeypatch.setattr("app.api.source_management.validate_source_url", allow_test_url)
+    monkeypatch.setattr("app.api.source_management.validate_local_source_url", allow_test_url)
     monkeypatch.setattr("app.sources.generic.GenericPublicSource.fetch_list", fail_parse)
     with pytest.raises(HTTPException) as error:
         await preview_source(draft)

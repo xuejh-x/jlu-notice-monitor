@@ -3,7 +3,7 @@ from __future__ import annotations
 import asyncio
 from datetime import date
 from email.utils import parsedate_to_datetime
-from typing import Any
+from typing import Any, Literal
 from urllib.parse import urljoin, urlsplit
 from xml.etree import ElementTree
 
@@ -20,10 +20,17 @@ from app.sources.base import LoginExpiredError, NoticeSource, SourceError
 
 
 class SafeFetcher:
-    def __init__(self, *, allow_private_network: bool = False, transport: httpx.AsyncBaseTransport | None = None) -> None:
+    def __init__(
+        self,
+        *,
+        allow_private_network: bool = False,
+        validation_scope: Literal["local", "cloud"] = "local",
+        transport: httpx.AsyncBaseTransport | None = None,
+    ) -> None:
         settings = get_settings()
         crawler = load_yaml("settings.yaml").get("crawler", {})
         self.allow_private_network = allow_private_network
+        self.validation_scope = validation_scope
         self.max_bytes = settings.source_max_response_bytes
         self.max_redirects = 3
         self.retries = int(crawler.get("retries", 2))
@@ -33,6 +40,7 @@ class SafeFetcher:
             follow_redirects=False,
             headers={"User-Agent": str(crawler.get("user_agent", "NoticeHub/0.5"))},
             transport=transport,
+            trust_env=validation_scope == "local",
         )
         self.auth_required = False
         self.login_url: str | None = None
@@ -43,7 +51,7 @@ class SafeFetcher:
         for attempt in range(self.retries + 1):
             try:
                 for _ in range(self.max_redirects + 1):
-                    await validate_source_url(current, allow_private_network=self.allow_private_network)
+                    await self.validate_url(current)
                     async with self.client.stream("GET", current) as response:
                         network_stream = response.extensions.get("network_stream")
                         peer = (
@@ -51,7 +59,8 @@ class SafeFetcher:
                             if network_stream is not None and hasattr(network_stream, "get_extra_info")
                             else None
                         )
-                        validate_peer_address(peer, allow_private_network=self.allow_private_network)
+                        if self.validation_scope == "cloud":
+                            validate_peer_address(peer, allow_private_network=self.allow_private_network)
                         if self.auth_required and response.status_code in {401, 403}:
                             raise LoginExpiredError("AUTH_SESSION_EXPIRED")
                         if response.is_redirect:
@@ -87,6 +96,13 @@ class SafeFetcher:
                 if attempt < self.retries:
                     await asyncio.sleep(self.backoff * (attempt + 1))
         raise SourceError(f"Source request failed: {last_error}")
+
+    async def validate_url(self, url: str) -> str:
+        return await validate_source_url(
+            url,
+            allow_private_network=self.allow_private_network,
+            validation_scope=self.validation_scope,
+        )
 
     async def close(self) -> None:
         await self.client.aclose()
@@ -170,7 +186,10 @@ class GenericPublicSource(NoticeSource):
     def __init__(self, config: dict[str, Any]) -> None:
         super().__init__(config)
         self.parser_config = dict(config.get("parser_config") or {})
-        self.fetcher = SafeFetcher(allow_private_network=bool(config.get("allow_private_network", False)))
+        self.fetcher = SafeFetcher(
+            allow_private_network=bool(config.get("allow_private_network", False)),
+            validation_scope=str(config.get("validation_scope", "local")),
+        )
         self.detected_type = str(config.get("content_parser", config.get("parser", "auto")))
 
     async def fetch_list(self) -> list[NoticeCandidate]:
@@ -216,7 +235,7 @@ class GenericPublicSource(NoticeSource):
         safe: list[NoticeCandidate] = []
         for item in items:
             try:
-                await validate_source_url(item.url, allow_private_network=self.fetcher.allow_private_network)
+                await self.fetcher.validate_url(item.url)
             except UnsafeSourceUrl:
                 continue
             safe.append(item)
@@ -228,7 +247,7 @@ class GenericPublicSource(NoticeSource):
         safe: list[AttachmentData] = []
         for attachment in attachments[:50]:
             try:
-                await validate_source_url(attachment.url, allow_private_network=self.fetcher.allow_private_network)
+                await self.fetcher.validate_url(attachment.url)
             except UnsafeSourceUrl:
                 continue
             safe.append(attachment)
