@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import httpx
 import json
 import secrets
 import shutil
@@ -21,6 +22,7 @@ from app.database import get_db
 from app.models import Source
 from app.paths import get_auth_profile_dir
 from app.services.credentials import CredentialStorageUnavailable, credential_store
+from app.services.source_identity import source_identity
 from app.services.source_security import UnsafeSourceUrl, validate_source_url, validate_url_syntax
 from app.sources.base import SourceError
 from app.sources.generic import GenericPublicSource
@@ -103,6 +105,15 @@ class DeleteRequest(BaseModel):
     clear_local_login: bool = False
 
 
+class PromotionRequest(BaseModel):
+    admin_key: str = Field(min_length=1, max_length=4096)
+    crawl_interval_seconds: int | None = Field(default=None, ge=900, le=86400)
+
+
+class CloudPolicyRequest(PromotionRequest):
+    cloud_policy: Literal["auto", "force_enabled", "force_disabled"]
+
+
 _preview_tokens: dict[str, tuple[str, datetime]] = {}
 
 
@@ -152,6 +163,14 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         "last_checked_at": source.last_checked_at,
         "last_success_at": source.last_success_at,
         "requires_reauthentication": source.health_state == "needs_reauth",
+        "source_identity": source.source_identity,
+        "cloud_source_id": source.cloud_source_id,
+        "source_scope": source.source_scope,
+        "execution": source.execution,
+        "cloud_policy": source.cloud_policy,
+        "crawl_interval_seconds": source.crawl_interval_seconds,
+        "validation_status": source.validation_status,
+        "validated_at": source.validated_at,
     }
 
 
@@ -260,6 +279,11 @@ def create_source(payload: SourceCreate, db: Session = Depends(get_db)) -> dict[
         session_profile_ref=f"auth-profiles/{code}" if is_private else None,
         allow_private_network=is_private and draft.allow_private_network,
         health_state="needs_reauth" if is_private else "unconfigured",
+        source_identity=source_identity(draft.list_url),
+        source_scope="private" if is_private else "personal",
+        execution="local",
+        validation_status="passed",
+        validated_at=datetime.now(UTC).replace(tzinfo=None),
     )
     if is_private and draft.remember_credentials and draft.password:
         reference = f"source-{code}"
@@ -277,7 +301,7 @@ def create_source(payload: SourceCreate, db: Session = Depends(get_db)) -> dict[
 @router.patch("/{source_id}")
 def edit_source(source_id: int, payload: SourceEdit, db: Session = Depends(get_db)) -> dict[str, Any]:
     source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership == "OFFICIAL_CLOUD":
+    if source is None or source.is_deleted or source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}:
         raise HTTPException(status_code=404, detail="Custom source not found")
     values = payload.model_dump(exclude_unset=True)
     parser_change = any(key in values for key in ("list_url", "parser", "parser_config"))
@@ -308,12 +332,16 @@ def edit_source(source_id: int, payload: SourceEdit, db: Session = Depends(get_d
         source.name = " ".join(str(values["name"]).split())
     if "list_url" in values:
         source.base_url = validate_url_syntax(str(values["list_url"]))
+        source.source_identity = source_identity(source.base_url)
     if "parser" in values:
         source.parser = str(values["parser"])
     if "parser_config" in values and values["parser_config"] is not None:
         config = payload.parser_config
         assert config is not None
         source.parser_config = json.dumps(config.model_dump(exclude_none=True), ensure_ascii=False)
+    if parser_change:
+        source.validation_status = "passed"
+        source.validated_at = datetime.now(UTC).replace(tzinfo=None)
     if "login_url" in values:
         source.login_url = validate_url_syntax(payload.login_url) if payload.login_url else None
     if "username" in values:
@@ -338,8 +366,8 @@ def edit_source(source_id: int, payload: SourceEdit, db: Session = Depends(get_d
 @router.post("/{source_id}/subscription")
 def update_subscription(source_id: int, payload: SubscriptionRequest, db: Session = Depends(get_db)) -> dict[str, Any]:
     source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership != "OFFICIAL_CLOUD":
-        raise HTTPException(status_code=404, detail="Official source not found")
+    if source is None or source.is_deleted or source.ownership not in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}:
+        raise HTTPException(status_code=404, detail="Cloud source not found")
     source.subscribed = payload.subscribed
     db.commit()
     return _serialize_source(source)
@@ -348,7 +376,7 @@ def update_subscription(source_id: int, payload: SubscriptionRequest, db: Sessio
 @router.post("/{source_id}/enabled")
 def update_enabled(source_id: int, payload: EnableRequest, db: Session = Depends(get_db)) -> dict[str, Any]:
     source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership == "OFFICIAL_CLOUD":
+    if source is None or source.is_deleted or source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}:
         raise HTTPException(status_code=404, detail="Custom source not found")
     is_private = source.ownership == "CUSTOM_LOCAL_PRIVATE"
     if payload.enabled and is_private and not payload.authentication_warning_acknowledged:
@@ -399,10 +427,141 @@ def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[str, A
     }
 
 
+def _cloud_admin_endpoint(path: str) -> str:
+    settings = get_settings()
+    base = (settings.cloud_admin_url or "").strip().rstrip("/")
+    if not base:
+        raise HTTPException(status_code=503, detail="Cloud source administration is not configured.")
+    if not base.startswith("https://"):
+        local_fixture = settings.environment in {"test", "development"} and base.startswith(
+            ("http://127.0.0.1", "http://localhost")
+        )
+        if not local_fixture:
+            raise HTTPException(status_code=503, detail="Cloud source administration requires HTTPS.")
+    return f"{base}/{path.lstrip('/')}"
+
+
+async def _call_cloud_admin(
+    method: str,
+    path: str,
+    admin_key: str,
+    payload: dict[str, Any],
+) -> dict[str, Any]:
+    try:
+        async with httpx.AsyncClient(
+            timeout=get_settings().request_timeout,
+            follow_redirects=False,
+        ) as client:
+            response = await client.request(
+                method,
+                _cloud_admin_endpoint(path),
+                headers={"X-Notice-Hub-Admin-Key": admin_key},
+                json=payload,
+            )
+    except httpx.HTTPError as exc:
+        raise HTTPException(status_code=502, detail="Cloud source administration is unavailable") from exc
+    try:
+        body = response.json()
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Cloud source administration returned an invalid response",
+        ) from exc
+    if response.status_code >= 400:
+        detail = body.get("detail") if isinstance(body, dict) else None
+        raise HTTPException(
+            status_code=response.status_code,
+            detail=detail or "Cloud source administration failed",
+        )
+    if not isinstance(body, dict):
+        raise HTTPException(status_code=502, detail="Cloud source administration returned an invalid response")
+    return body
+
+
+@router.post("/{source_id}/promote")
+async def promote_source(
+    source_id: int,
+    payload: PromotionRequest,
+    db: Session = Depends(get_db),
+) -> dict[str, Any]:
+    source = db.get(Source, source_id)
+    if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PUBLIC":
+        raise HTTPException(status_code=404, detail="Eligible local public source not found")
+    if source.validation_status != "passed" or source.validated_at is None:
+        raise HTTPException(
+            status_code=409,
+            detail="A successful source test and preview is required before promotion",
+        )
+    response = await _call_cloud_admin(
+        "POST",
+        "/api/admin/sources/promote",
+        payload.admin_key,
+        {
+            "name": source.name,
+            "list_url": source.base_url,
+            "parser": source.parser,
+            "parser_config": json.loads(source.parser_config or "{}"),
+            "crawl_interval_seconds": payload.crawl_interval_seconds,
+        },
+    )
+    cloud_source_id = str(response.get("cloud_source_id") or "")
+    identity = str(response.get("source_identity") or "")
+    if not cloud_source_id or len(identity) != 64:
+        raise HTTPException(
+            status_code=502,
+            detail="Cloud source administration returned incomplete identity data",
+        )
+    source.cloud_source_id = cloud_source_id
+    source.source_identity = identity
+    source.ownership = "SHARED_CLOUD"
+    source.source_scope = "shared"
+    source.execution = "cloud"
+    source.cloud_policy = "force_enabled"
+    source.crawl_interval_seconds = response.get("crawl_interval_seconds")
+    source.subscribed = True
+    source.enabled = True
+    source.health_state = "unconfigured"
+    db.commit()
+    db.refresh(source)
+    result = _serialize_source(source)
+    result["promotion_reused"] = bool(response.get("reused"))
+    return result
+
+
+@router.post("/{source_id}/cloud-policy")
+async def set_cloud_policy(
+    source_id: int,
+    payload: CloudPolicyRequest,
+    db: Session = Depends(get_db),
+) -> dict[str, Any]:
+    source = db.get(Source, source_id)
+    if (
+        source is None
+        or source.is_deleted
+        or source.ownership != "SHARED_CLOUD"
+        or not source.cloud_source_id
+    ):
+        raise HTTPException(status_code=404, detail="Shared cloud source not found")
+    response = await _call_cloud_admin(
+        "PATCH",
+        f"/api/admin/sources/{source.cloud_source_id}/cloud-policy",
+        payload.admin_key,
+        {
+            "cloud_policy": payload.cloud_policy,
+            "crawl_interval_seconds": payload.crawl_interval_seconds,
+        },
+    )
+    source.cloud_policy = str(response.get("cloud_policy") or payload.cloud_policy)
+    source.crawl_interval_seconds = response.get("crawl_interval_seconds")
+    db.commit()
+    db.refresh(source)
+    return _serialize_source(source)
+
+
 @router.delete("/{source_id}")
 def delete_source(source_id: int, payload: DeleteRequest, db: Session = Depends(get_db)) -> dict[str, bool]:
     source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership == "OFFICIAL_CLOUD":
+    if source is None or source.is_deleted or source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}:
         raise HTTPException(status_code=404, detail="Custom source not found")
     source.enabled = False
     source.is_deleted = True

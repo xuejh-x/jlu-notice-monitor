@@ -41,6 +41,14 @@ class Source(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
     is_deleted: Mapped[bool] = mapped_column(Boolean, default=False, index=True)
+    source_identity: Mapped[str | None] = mapped_column(String(64), index=True)
+    cloud_source_id: Mapped[str | None] = mapped_column(String(80), index=True)
+    source_scope: Mapped[str] = mapped_column(String(20), default="personal", index=True)
+    execution: Mapped[str] = mapped_column(String(20), default="local", index=True)
+    cloud_policy: Mapped[str] = mapped_column(String(20), default="auto", index=True)
+    crawl_interval_seconds: Mapped[int | None] = mapped_column(Integer)
+    validation_status: Mapped[str] = mapped_column(String(20), default="untested")
+    validated_at: Mapped[datetime | None] = mapped_column(DateTime)
 
     relations: Mapped[list[NoticeSourceRelation]] = relationship(back_populates="source")
 

@@ -32,7 +32,7 @@ export interface Source {
   notice_count: number
   ownership?: SourceOwnership; subscribed?: boolean; source_type?: string; auth_type?: string; health_state?: SourceHealthState
 }
-export type SourceOwnership = 'OFFICIAL_CLOUD' | 'CUSTOM_LOCAL_PUBLIC' | 'CUSTOM_LOCAL_PRIVATE'
+export type SourceOwnership = 'OFFICIAL_CLOUD' | 'SHARED_CLOUD' | 'CUSTOM_LOCAL_PUBLIC' | 'CUSTOM_LOCAL_PRIVATE'
 export type SourceHealthState = 'healthy' | 'syncing' | 'disabled' | 'needs_reauth' | 'auth_error' | 'parse_error' | 'network_error' | 'source_error' | 'unsupported' | 'unconfigured' | 'authenticated'
 export type SourceParser = 'auto' | 'generic_html' | 'rss' | 'atom'
 export type SourceAuthType = 'none' | 'username_password' | 'browser_session' | 'cookie' | 'basic' | 'bearer' | 'api_token' | 'custom_adapter'
@@ -51,6 +51,11 @@ export interface SourceConfiguration {
   auth_type: SourceAuthType; username: string | null; password_saved: boolean; login_url: string | null
   allow_private_network: boolean; health_state: SourceHealthState; last_error_code: string | null
   last_error: string | null; last_checked_at: string | null; last_success_at: string | null; requires_reauthentication: boolean
+  source_identity: string | null; cloud_source_id: string | null
+  source_scope: 'official' | 'shared' | 'personal' | 'private'; execution: 'cloud' | 'local'
+  cloud_policy: 'auto' | 'force_enabled' | 'force_disabled'; crawl_interval_seconds: number | null
+  validation_status: 'untested' | 'passed' | 'failed'; validated_at: string | null
+  promotion_reused?: boolean
 }
 export interface SourcePreview {
   status: 'success' | 'authentication_required'; detected_type: SourceParser; found: number

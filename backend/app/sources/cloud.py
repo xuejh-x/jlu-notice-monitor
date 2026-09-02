@@ -24,7 +24,8 @@ class CloudFeedSource(NoticeSource):
             raise SourceError("PUBLIC_FEED_NOT_CONFIGURED")
         self.feed_url = feed_url.rstrip("/") + "/"
         self.client = httpx.AsyncClient(timeout=get_settings().request_timeout, follow_redirects=False)
-        self._cursor_key = f"official-feed-cursor:{self.code}"
+        self.cloud_source_id = str(config.get("cloud_source_id") or self.code)
+        self._cursor_key = f"cloud-feed-cursor:{self.cloud_source_id}"
 
     def _load_cursor(self) -> tuple[str | None, int]:
         with SessionLocal() as db:
@@ -46,7 +47,7 @@ class CloudFeedSource(NoticeSource):
         results: list[NoticeCandidate] = []
         max_pages = get_settings().source_max_pages
         for _ in range(max_pages):
-            params: dict[str, Any] = {"source": self.code, "page_size": 100}
+            params: dict[str, Any] = {"source": self.cloud_source_id, "page_size": 100}
             if updated_after:
                 params.update(updated_after=updated_after, after_id=after_id)
             try:

@@ -11,3 +11,5 @@ export const setSourceEnabled = (id: number, enabled: boolean, acknowledged = fa
 export const checkSource = (id: number) => apiRequest<{ status: string; source: string }>(`/api/source-config/${id}/check`, { method: 'POST' })
 export const reauthenticateSource = (id: number) => apiRequest<{ status: string; login_url: string; message: string }>(`/api/source-config/${id}/reauthenticate`, { method: 'POST' })
 export const deleteSource = (id: number, clearLocalLogin: boolean) => apiRequest<{ deleted: boolean }>(`/api/source-config/${id}`, { method: 'DELETE', body: JSON.stringify({ clear_local_login: clearLocalLogin }) })
+export const promoteSource = (id: number, adminKey: string) => apiRequest<SourceConfiguration>(`/api/source-config/${id}/promote`, json({ admin_key: adminKey }), { timeoutMs: 60_000 })
+export const setCloudPolicy = (id: number, cloudPolicy: 'auto' | 'force_enabled' | 'force_disabled', adminKey: string) => apiRequest<SourceConfiguration>(`/api/source-config/${id}/cloud-policy`, json({ admin_key: adminKey, cloud_policy: cloudPolicy }))

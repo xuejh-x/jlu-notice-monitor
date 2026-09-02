@@ -39,7 +39,9 @@ def _public_id(source_code: str, canonical_url: str) -> str:
 def public_sources(db: Session = Depends(get_db)) -> dict[str, Any]:
     rows = db.scalars(
         select(Source)
-        .where(Source.ownership == "OFFICIAL_CLOUD")
+        .where(
+            Source.ownership.in_(("OFFICIAL_CLOUD", "SHARED_CLOUD")),
+        )
         .order_by(Source.code)
     ).all()
     return {
@@ -50,6 +52,9 @@ def public_sources(db: Session = Depends(get_db)) -> dict[str, Any]:
                 "code": source.code,
                 "name": source.name,
                 "base_url": source.base_url,
+                "source_identity": source.source_identity,
+                "source_scope": source.source_scope,
+                "cloud_policy": source.cloud_policy,
             }
             for source in rows
         ],
@@ -68,7 +73,10 @@ def public_notices(
         select(NoticeSourceRelation)
         .join(NoticeSourceRelation.source)
         .join(NoticeSourceRelation.notice)
-        .where(Source.ownership == "OFFICIAL_CLOUD")
+        .where(
+            Source.ownership.in_(("OFFICIAL_CLOUD", "SHARED_CLOUD")),
+            Source.cloud_policy != "force_disabled",
+        )
         .options(
             selectinload(NoticeSourceRelation.source),
             selectinload(NoticeSourceRelation.notice).selectinload(Notice.attachments),

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from pydantic import Field
+from pydantic import AliasChoices, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from app.paths import BACKEND_DIR, get_database_path
@@ -44,6 +44,16 @@ class Settings(BaseSettings):
     source_max_pages: int = Field(default=3, ge=1, le=5)
     source_run_timeout_seconds: int = Field(default=120, ge=30, le=600)
     startup_sync_enabled: bool | None = None
+    admin_key: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("NOTICE_HUB_ADMIN_KEY", "JLU_ADMIN_KEY"),
+    )
+    cloud_admin_url: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("NOTICE_HUB_CLOUD_ADMIN_URL", "JLU_CLOUD_ADMIN_URL"),
+    )
+    admin_auth_attempts_per_minute: int = Field(default=10, ge=1, le=120)
+    min_cloud_crawl_interval_seconds: int = Field(default=900, ge=300, le=86400)
 
     @property
     def effective_deployment_role(self) -> str:

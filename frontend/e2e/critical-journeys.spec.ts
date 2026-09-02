@@ -18,6 +18,49 @@ async function resetFixture(request: APIRequestContext) {
   await setState(request, 104, 'unfavorite')
   await setState(request, 105, 'read')
   await setState(request, 105, 'unfavorite')
+  await setState(request, 106, 'read')
+  await setState(request, 106, 'favorite')
+}
+
+const officialSource = {
+  id: 1, code: 'e2e-main', name: 'E2E 教务通知', base_url: 'https://example.test/main', ownership: 'OFFICIAL_CLOUD',
+  source_type: 'official_adapter', parser: 'auto', parser_config: {}, subscribed: true, enabled: true,
+  auth_type: 'none', username: null, password_saved: false, login_url: null, allow_private_network: false,
+  health_state: 'healthy', last_error_code: null, last_error: null, last_checked_at: null, last_success_at: null,
+  requires_reauthentication: false, source_identity: 'a'.repeat(64), cloud_source_id: 'e2e-main',
+  source_scope: 'official', execution: 'cloud', cloud_policy: 'auto', crawl_interval_seconds: null,
+  validation_status: 'passed', validated_at: '2026-09-02T00:00:00',
+}
+
+const localSource = {
+  ...officialSource, id: 3, code: 'e2e-local-fixture', name: 'MOCK / FIXTURE 公开来源',
+  base_url: 'https://fixture.example.test/notices', ownership: 'CUSTOM_LOCAL_PUBLIC', source_type: 'public_html',
+  source_identity: 'c'.repeat(64), cloud_source_id: null, source_scope: 'personal', execution: 'local',
+}
+
+async function installCloudPromotionFixture(page: Page, options: { existing?: boolean; startCloud?: boolean } = {}) {
+  let source = options.startCloud ? {
+    ...localSource, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud',
+    cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled',
+  } : { ...localSource }
+  await page.route('**/api/source-config**', async route => {
+    const request = route.request()
+    const path = new URL(request.url()).pathname
+    if (request.method() === 'GET' && path.endsWith('/api/source-config')) {
+      await route.fulfill({ json: [officialSource, source] }); return
+    }
+    if (request.method() === 'POST' && path.endsWith('/preview')) {
+      await route.fulfill({ json: { status: 'success', detected_type: 'generic_html', found: 1, items: [{ title: 'MOCK / FIXTURE preview', url: 'https://fixture.example.test/1', publish_date: null, content_preview: 'fixture' }], preview_token: 'mock-fixture-preview' } }); return
+    }
+    if (request.method() === 'PATCH' && path.endsWith('/3')) {
+      await route.fulfill({ json: source }); return
+    }
+    if (request.method() === 'POST' && path.endsWith('/promote')) {
+      source = { ...source, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud', cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled', promotion_reused: Boolean(options.existing) }
+      await route.fulfill({ json: source }); return
+    }
+    await route.fallback()
+  })
 }
 
 async function openSearch(page: Page) {
@@ -140,4 +183,52 @@ test('390px mobile smoke reaches Today through bottom navigation', async ({ page
   await page.getByRole('navigation', { name: '底部导航' }).getByRole('link', { name: '今日' }).click()
   await expect(page).toHaveURL(/\/today$/)
   await expect(page.getByRole('heading', { name: '今日新通知', level: 1 })).toBeVisible()
+})
+
+test('MOCK / FIXTURE local source promotes to cloud after admin-key confirmation', async ({ page }) => {
+  await installCloudPromotionFixture(page)
+  await page.goto('/sources')
+  await expect(page.getByText('MOCK / FIXTURE 公开来源')).toBeVisible()
+  await page.getByRole('button', { name: '编辑' }).click()
+  await page.getByRole('button', { name: '测试并预览' }).click()
+  await expect(page.getByText('找到 1 条通知')).toBeVisible()
+  await page.getByRole('button', { name: '确认更新' }).click()
+  await page.getByRole('button', { name: '上云' }).click()
+  await page.getByLabel('管理员密钥').fill('MOCK-FIXTURE-ADMIN')
+  await page.getByRole('button', { name: '确认' }).click()
+  await expect(page.getByRole('heading', { name: '云端共享来源' })).toBeVisible()
+  await expect(page.getByText('管理员强制上云')).toBeVisible()
+})
+
+test('MOCK / FIXTURE duplicate promotion links the existing cloud identity', async ({ page }) => {
+  await installCloudPromotionFixture(page, { existing: true })
+  await page.goto('/sources')
+  await page.getByRole('button', { name: '上云' }).click()
+  await page.getByLabel('管理员密钥').fill('MOCK-FIXTURE-ADMIN')
+  await page.getByRole('button', { name: '确认' }).click()
+  await expect(page.getByText('云端已有该来源，已完成本地关联')).toBeVisible()
+  await expect(page.getByText('云端共享', { exact: true })).toBeVisible()
+})
+
+test('MOCK / FIXTURE cloud mapping survives page restart without local actions', async ({ page }) => {
+  await installCloudPromotionFixture(page, { startCloud: true })
+  await page.goto('/sources')
+  await page.reload()
+  await expect(page.getByText('云端共享', { exact: true })).toBeVisible()
+  await expect(page.getByRole('button', { name: '编辑' })).toHaveCount(0)
+  await expect(page.getByRole('button', { name: '移出云端' })).toBeVisible()
+})
+
+test('MOCK / FIXTURE favorite and read state survive source promotion', async ({ page, request }) => {
+  await installCloudPromotionFixture(page)
+  await page.goto('/sources')
+  await page.getByRole('button', { name: '上云' }).click()
+  await page.getByLabel('管理员密钥').fill('MOCK-FIXTURE-ADMIN')
+  await page.getByRole('button', { name: '确认' }).click()
+  const notice = await request.get(`${backendUrl}/api/notices/106`)
+  expect(notice.ok()).toBeTruthy()
+  expect((await notice.json()).is_read).toBe(true)
+  const favorite = await request.get(`${backendUrl}/api/notices?favorite=true&q=promotion%20state`)
+  expect(favorite.ok()).toBeTruthy()
+  expect((await favorite.json()).total).toBe(1)
 })

@@ -56,8 +56,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type"],
+    allow_methods=["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type", "X-Notice-Hub-Admin-Key"],
 )
 app.include_router(api_router)
 
@@ -67,7 +67,10 @@ async def validation_error_handler(_, exc: RequestValidationError) -> JSONRespon
     errors = []
     for raw in exc.errors():
         item = dict(raw)
-        if any(str(part).lower() in {"password", "token", "cookie"} for part in item.get("loc", ())):
+        if any(
+            str(part).lower() in {"password", "token", "cookie", "admin_key", "authorization"}
+            for part in item.get("loc", ())
+        ):
             item.pop("input", None)
         errors.append(item)
     return JSONResponse(status_code=422, content={"detail": errors})

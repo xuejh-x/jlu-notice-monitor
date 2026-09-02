@@ -5,6 +5,8 @@ from datetime import UTC, datetime
 
 from sqlalchemy import Engine, inspect, text
 
+from app.services.source_identity import source_identity
+
 
 SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
     ("ownership", "VARCHAR(40) NOT NULL DEFAULT 'OFFICIAL_CLOUD'"),
@@ -24,6 +26,17 @@ SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
     ("created_at", "DATETIME"),
     ("updated_at", "DATETIME"),
     ("is_deleted", "BOOLEAN NOT NULL DEFAULT 0"),
+)
+
+GATE13_SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
+    ("source_identity", "VARCHAR(64)"),
+    ("cloud_source_id", "VARCHAR(80)"),
+    ("source_scope", "VARCHAR(20) NOT NULL DEFAULT 'personal'"),
+    ("execution", "VARCHAR(20) NOT NULL DEFAULT 'local'"),
+    ("cloud_policy", "VARCHAR(20) NOT NULL DEFAULT 'auto'"),
+    ("crawl_interval_seconds", "INTEGER"),
+    ("validation_status", "VARCHAR(20) NOT NULL DEFAULT 'untested'"),
+    ("validated_at", "DATETIME"),
 )
 
 NOTICE_COLUMNS: tuple[tuple[str, str], ...] = (("public_id", "VARCHAR(80)"),)
@@ -73,9 +86,47 @@ def run_gate12_migrations(engine: Engine) -> None:
             {"now": now},
         )
         connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('12.0', :now)"),
+            {"now": now},
+        )
+
+
+def run_gate13_migrations(engine: Engine) -> None:
+    """Add Gate 13 source identity and cloud policy metadata without replacing rows."""
+
+    if engine.dialect.name != "sqlite":
+        return
+    _add_missing_columns(engine, "sources", GATE13_SOURCE_COLUMNS)
+    now = datetime.now(UTC).replace(tzinfo=None).isoformat(sep=" ")
+    with engine.begin() as connection:
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_sources_source_identity ON sources (source_identity)"))
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_sources_cloud_source_id ON sources (cloud_source_id)"))
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_sources_cloud_policy ON sources (cloud_policy)"))
+        connection.execute(
             text(
-                "INSERT OR IGNORE INTO schema_migrations (version, applied_at) "
-                "VALUES ('12.0', :now)"
-            ),
+                "UPDATE sources SET source_scope = CASE "
+                "WHEN ownership = 'OFFICIAL_CLOUD' THEN 'official' "
+                "WHEN ownership = 'SHARED_CLOUD' THEN 'shared' "
+                "WHEN ownership = 'CUSTOM_LOCAL_PRIVATE' THEN 'private' ELSE 'personal' END, "
+                "execution = CASE WHEN ownership IN ('OFFICIAL_CLOUD', 'SHARED_CLOUD') THEN 'cloud' ELSE 'local' END, "
+                "cloud_policy = COALESCE(NULLIF(cloud_policy, ''), 'auto'), "
+                "validation_status = CASE WHEN ownership IN ('OFFICIAL_CLOUD', 'SHARED_CLOUD', 'CUSTOM_LOCAL_PUBLIC') "
+                "THEN 'passed' ELSE COALESCE(NULLIF(validation_status, ''), 'untested') END"
+            )
+        )
+        rows = connection.execute(
+            text("SELECT id, base_url FROM sources WHERE source_identity IS NULL OR source_identity = ''")
+        ).mappings()
+        for row in rows:
+            try:
+                identity = source_identity(str(row["base_url"] or ""))
+            except ValueError:
+                continue
+            connection.execute(
+                text("UPDATE sources SET source_identity = :identity WHERE id = :source_id"),
+                {"identity": identity, "source_id": row["id"]},
+            )
+        connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('13.0', :now)"),
             {"now": now},
         )

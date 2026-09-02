@@ -22,7 +22,7 @@ def validate_url_syntax(url: str) -> str:
     return value
 
 
-def _unsafe_address(address: str) -> bool:
+def unsafe_address(address: str) -> bool:
     ip = ipaddress.ip_address(address)
     return bool(
         ip.is_private
@@ -49,6 +49,20 @@ async def validate_source_url(url: str, *, allow_private_network: bool = False) 
         addresses = sorted({record[4][0] for record in records})
     if not addresses:
         raise UnsafeSourceUrl("Source host did not resolve to an address")
-    if not allow_private_network and any(_unsafe_address(address) for address in addresses):
+    if not allow_private_network and any(unsafe_address(address) for address in addresses):
         raise UnsafeSourceUrl("Local and private network addresses are not allowed for this source")
     return value
+
+
+def validate_peer_address(address: object, *, allow_private_network: bool = False) -> None:
+    """Validate the connected peer when the HTTP transport exposes it.
+
+    DNS is validated before connect; this second boundary rejects a rebinding result
+    before response bytes are consumed.
+    """
+
+    if allow_private_network or address is None:
+        return
+    value = address[0] if isinstance(address, tuple) and address else address
+    if isinstance(value, str) and unsafe_address(value):
+        raise UnsafeSourceUrl("The connected address is not allowed for this source")

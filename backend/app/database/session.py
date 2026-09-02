@@ -37,10 +37,11 @@ SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False
 
 def init_db() -> None:
     from app.models import entities  # noqa: F401
-    from app.database.migrations import run_gate12_migrations
+    from app.database.migrations import run_gate12_migrations, run_gate13_migrations
 
     Base.metadata.create_all(bind=engine)
     run_gate12_migrations(engine)
+    run_gate13_migrations(engine)
     if engine_url.startswith("sqlite"):
         with engine.begin() as connection:
             connection.exec_driver_sql("PRAGMA optimize")

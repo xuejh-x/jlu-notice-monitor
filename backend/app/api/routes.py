@@ -110,7 +110,10 @@ def _visible_notice_condition() -> Any:
         .where(
             NoticeSourceRelation.notice_id == Notice.id,
             Source.is_deleted.is_(False),
-            or_(Source.ownership != "OFFICIAL_CLOUD", Source.subscribed.is_(True)),
+            or_(
+                Source.ownership.not_in(("OFFICIAL_CLOUD", "SHARED_CLOUD")),
+                Source.subscribed.is_(True),
+            ),
         )
     )
 
@@ -263,7 +266,7 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
     rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
     results: list[dict[str, Any]] = []
     for item in rows:
-        if item.ownership == "OFFICIAL_CLOUD" and not item.subscribed:
+        if item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and not item.subscribed:
             source_status = "disabled"
             message = "当前设备未订阅此官方来源"
         elif not item.enabled:
@@ -298,6 +301,10 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
             "source_type": item.source_type,
             "auth_type": item.auth_type,
             "health_state": item.health_state,
+            "source_scope": item.source_scope,
+            "execution": item.execution,
+            "cloud_policy": item.cloud_policy,
+            "cloud_source_id": item.cloud_source_id,
             "last_checked_at": item.last_checked_at,
             "last_success_at": item.last_success_at,
             "last_error": item.last_error,

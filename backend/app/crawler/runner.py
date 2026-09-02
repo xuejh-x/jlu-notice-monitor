@@ -6,6 +6,7 @@ import json
 import logging
 import os
 import time
+import httpx
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
@@ -23,6 +24,7 @@ from app.services.dates import extract_dates
 from app.services.deduplication import find_duplicate
 from app.services.metadata import extract_notice_metadata
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
+from app.services.source_identity import resolve_cloud_execution, source_identity
 from app.services.importance import enabled_rule_values
 from app.sources import build_source
 from app.sources.base import LoginExpiredError
@@ -195,9 +197,18 @@ class CrawlerManager:
             self.current_trigger = trigger
             try:
                 init_db()
+                if get_settings().effective_deployment_role == "desktop":
+                    await self._sync_cloud_registry()
                 with SessionLocal() as db:
                     self._sync_sources(db, load_yaml("sources.yaml").get("sources", []))
                     configs = self._load_source_configs(db)
+                if trigger == "scheduled" and get_settings().effective_deployment_role == "cloud":
+                    now = utcnow()
+                    for config in configs:
+                        interval = config.get("crawl_interval_seconds")
+                        last_checked = config.get("last_checked_at")
+                        if interval and last_checked and last_checked + timedelta(seconds=int(interval)) > now:
+                            config["enabled"] = False
                 if source_code:
                     configs = [item for item in configs if item.get("code") == source_code]
                     if not configs:
@@ -312,9 +323,68 @@ class CrawlerManager:
             source.auth_type = "browser_session" if is_private else "none"
             source.login_url = source.login_url or (source.base_url if is_private else None)
             source.session_profile_ref = source.session_profile_ref or ("oa-profile" if is_private else None)
+            source.source_identity = source.source_identity or source_identity(source.base_url)
+            source.source_scope = "private" if is_private else "official"
+            source.execution = "local" if is_private else "cloud"
+            source.cloud_source_id = None if is_private else source.code
+            source.validation_status = "untested" if is_private else "passed"
             if created and not source.enabled:
                 source.health_state = "disabled"
         db.commit()
+
+    @staticmethod
+    async def _sync_cloud_registry() -> None:
+        feed_url = (get_settings().public_feed_url or "").strip()
+        if not feed_url:
+            return
+        try:
+            async with httpx.AsyncClient(
+                timeout=get_settings().request_timeout,
+                follow_redirects=False,
+            ) as client:
+                response = await client.get(feed_url.rstrip("/") + "/sources")
+                response.raise_for_status()
+                payload = response.json()
+        except (httpx.HTTPError, ValueError, TypeError):
+            logger.warning("cloud source registry synchronization failed")
+            return
+        if payload.get("version") != "1" or not isinstance(payload.get("items"), list):
+            logger.warning("cloud source registry response was invalid")
+            return
+        with SessionLocal() as db:
+            for item in payload["items"]:
+                cloud_id = str(item.get("id") or item.get("code") or "")
+                identity = str(item.get("source_identity") or "")
+                if not cloud_id or len(identity) != 64:
+                    continue
+                source = db.scalar(select(Source).where(Source.cloud_source_id == cloud_id))
+                if source is None:
+                    source = db.scalar(select(Source).where(Source.code == cloud_id))
+                if source is None:
+                    source = Source(
+                        code=cloud_id,
+                        name=str(item.get("name") or cloud_id),
+                        base_url=str(item.get("base_url") or ""),
+                        ownership="SHARED_CLOUD" if item.get("source_scope") == "shared" else "OFFICIAL_CLOUD",
+                        source_scope=str(item.get("source_scope") or "official"),
+                        execution="cloud",
+                        cloud_policy=str(item.get("cloud_policy") or "auto"),
+                        cloud_source_id=cloud_id,
+                        source_identity=identity,
+                        parser="auto",
+                        source_type="cloud_feed",
+                        subscribed=False,
+                        enabled=True,
+                        validation_status="passed",
+                    )
+                    db.add(source)
+                else:
+                    source.cloud_source_id = cloud_id
+                    source.source_identity = identity
+                    source.source_scope = str(item.get("source_scope") or source.source_scope)
+                    source.execution = "cloud"
+                    source.cloud_policy = str(item.get("cloud_policy") or source.cloud_policy)
+            db.commit()
 
     @staticmethod
     def _load_source_configs(db: Session) -> list[dict[str, Any]]:
@@ -325,9 +395,16 @@ class CrawlerManager:
         rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
         configs: list[dict[str, Any]] = []
         for source in rows:
-            if role == "cloud" and source.ownership != "OFFICIAL_CLOUD":
+            cloud_owned = source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}
+            if role == "cloud" and not cloud_owned:
                 continue
-            if source.ownership == "OFFICIAL_CLOUD" and not source.subscribed and role == "desktop":
+            if role == "cloud" and cloud_owned:
+                enabled = resolve_cloud_execution(
+                    execution="cloud",
+                    cloud_policy=source.cloud_policy,
+                    enabled=source.enabled,
+                )
+            elif cloud_owned and not source.subscribed and role == "desktop":
                 enabled = False
             elif source.health_state == "needs_reauth":
                 enabled = False
@@ -339,8 +416,8 @@ class CrawlerManager:
             except (TypeError, ValueError):
                 parser_config = {}
             parser = source.parser
-            if source.ownership == "OFFICIAL_CLOUD":
-                parser = "cloud_feed" if role == "desktop" else str(base.get("parser", source.code))
+            if cloud_owned:
+                parser = "cloud_feed" if role == "desktop" else str(base.get("parser", source.parser))
             elif source.ownership == "CUSTOM_LOCAL_PRIVATE" and source.auth_type in {
                 "basic", "bearer", "api_token", "cookie"
             }:
@@ -359,6 +436,9 @@ class CrawlerManager:
                 credential_ref=source.credential_ref,
                 allow_private_network=source.allow_private_network,
                 public_feed_url=get_settings().public_feed_url,
+                cloud_source_id=source.cloud_source_id or source.code,
+                crawl_interval_seconds=source.crawl_interval_seconds,
+                last_checked_at=source.last_checked_at,
             )
             configs.append(base)
         return configs

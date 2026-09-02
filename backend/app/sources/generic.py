@@ -4,7 +4,7 @@ import asyncio
 from datetime import date
 from email.utils import parsedate_to_datetime
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 from xml.etree import ElementTree
 
 from bs4 import BeautifulSoup, Tag
@@ -15,8 +15,8 @@ from app.parsers import parse_detail_html, parse_list_html
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
 from app.services.normalization import normalize_whitespace
-from app.services.source_security import UnsafeSourceUrl, validate_source_url
-from app.sources.base import NoticeSource, SourceError
+from app.services.source_security import UnsafeSourceUrl, validate_peer_address, validate_source_url
+from app.sources.base import LoginExpiredError, NoticeSource, SourceError
 
 
 class SafeFetcher:
@@ -31,9 +31,11 @@ class SafeFetcher:
         self.client = httpx.AsyncClient(
             timeout=settings.request_timeout,
             follow_redirects=False,
-            headers={"User-Agent": str(crawler.get("user_agent", "NoticeHub/0.4"))},
+            headers={"User-Agent": str(crawler.get("user_agent", "NoticeHub/0.5"))},
             transport=transport,
         )
+        self.auth_required = False
+        self.login_url: str | None = None
 
     async def get(self, url: str) -> tuple[str, str, str]:
         current = url
@@ -43,11 +45,28 @@ class SafeFetcher:
                 for _ in range(self.max_redirects + 1):
                     await validate_source_url(current, allow_private_network=self.allow_private_network)
                     async with self.client.stream("GET", current) as response:
+                        network_stream = response.extensions.get("network_stream")
+                        peer = (
+                            network_stream.get_extra_info("server_addr")
+                            if network_stream is not None and hasattr(network_stream, "get_extra_info")
+                            else None
+                        )
+                        validate_peer_address(peer, allow_private_network=self.allow_private_network)
+                        if self.auth_required and response.status_code in {401, 403}:
+                            raise LoginExpiredError("AUTH_SESSION_EXPIRED")
                         if response.is_redirect:
                             location = response.headers.get("location")
                             if not location:
                                 raise SourceError("Redirect response did not include a location")
                             current = urljoin(current, location)
+                            if self.auth_required and self.login_url:
+                                login_host_path = urlsplit(self.login_url)
+                                target = urlsplit(current)
+                                if (target.hostname, target.path.rstrip("/")) == (
+                                    login_host_path.hostname,
+                                    login_host_path.path.rstrip("/"),
+                                ):
+                                    raise LoginExpiredError("AUTH_SESSION_EXPIRED")
                             continue
                         response.raise_for_status()
                         declared = int(response.headers.get("content-length", "0") or 0)
@@ -61,6 +80,8 @@ class SafeFetcher:
                         encoding = response.encoding or "utf-8"
                         return body.decode(encoding, errors="replace"), response.headers.get("content-type", ""), str(response.url)
                 raise SourceError("Source exceeded the redirect limit")
+            except LoginExpiredError:
+                raise
             except (httpx.HTTPError, UnicodeError, SourceError, ValueError) as exc:
                 last_error = exc
                 if attempt < self.retries:
@@ -259,6 +280,8 @@ class AuthenticatedHTTPSource(GenericPublicSource):
         if not secret:
             raise SourceError("AUTH_CREDENTIAL_UNAVAILABLE")
         auth_type = str(config.get("auth_type") or "")
+        self.fetcher.auth_required = True
+        self.fetcher.login_url = str(config.get("login_url") or "") or None
         if auth_type == "basic":
             import base64
 
