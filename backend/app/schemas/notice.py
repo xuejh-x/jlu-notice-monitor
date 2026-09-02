@@ -12,6 +12,7 @@ class AttachmentData(BaseModel):
 
 
 class NoticeCandidate(BaseModel):
+    public_id: str | None = None
     title: str
     url: str
     publish_date: date | None = None
@@ -19,6 +20,14 @@ class NoticeCandidate(BaseModel):
     content: str = ""
     attachments: list[AttachmentData] = Field(default_factory=list)
     section: str | None = None
+    category: str | None = None
+    registration_start: date | None = None
+    registration_deadline: date | None = None
+    event_start: date | None = None
+    event_end: date | None = None
+    target_students: str | None = None
+    registration_method: str | None = None
+    competition_level: str | None = None
 
 
 class ExtractedDates(BaseModel):
@@ -26,4 +35,3 @@ class ExtractedDates(BaseModel):
     registration_deadline: date | None = None
     event_start: date | None = None
     event_end: date | None = None
-

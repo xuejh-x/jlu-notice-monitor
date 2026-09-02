@@ -55,6 +55,17 @@ def get_runtime_config_dir(environment: str | None = None, override: str | Path 
     return get_app_data_dir(environment, override) / "data" / "runtime-config"
 
 
+def get_credentials_dir(environment: str | None = None, override: str | Path | None = None) -> Path:
+    return get_app_data_dir(environment, override) / "credentials"
+
+
+def get_auth_profile_dir(source_code: str, environment: str | None = None, override: str | Path | None = None) -> Path:
+    safe_code = "".join(character for character in source_code if character.isalnum() or character in {"-", "_"})
+    if not safe_code:
+        raise ValueError("source code is not safe for a profile path")
+    return get_app_data_dir(environment, override) / "auth-profiles" / safe_code
+
+
 def ensure_runtime_directories(environment: str | None = None, override: str | Path | None = None) -> None:
     for path in (
         get_database_path(environment, override).parent,
@@ -62,5 +73,6 @@ def ensure_runtime_directories(environment: str | None = None, override: str | P
         get_oa_profile_dir(environment, override),
         get_cache_dir(environment, override),
         get_runtime_config_dir(environment, override),
+        get_credentials_dir(environment, override),
     ):
         path.mkdir(parents=True, exist_ok=True)

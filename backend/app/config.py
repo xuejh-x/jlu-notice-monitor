@@ -38,6 +38,24 @@ class Settings(BaseSettings):
     oa_headless: bool = True
     scheduler_enabled: bool | None = None
     scheduler_interval_minutes: int | None = Field(default=None, ge=1)
+    deployment_role: str | None = None
+    public_feed_url: str | None = None
+    source_max_response_bytes: int = Field(default=5_000_000, ge=100_000, le=20_000_000)
+    source_max_pages: int = Field(default=3, ge=1, le=5)
+    source_run_timeout_seconds: int = Field(default=120, ge=30, le=600)
+    startup_sync_enabled: bool | None = None
+
+    @property
+    def effective_deployment_role(self) -> str:
+        if self.deployment_role:
+            return self.deployment_role.strip().lower()
+        return "desktop" if self.environment == "production" else "standalone"
+
+    @property
+    def effective_startup_sync_enabled(self) -> bool:
+        if self.startup_sync_enabled is not None:
+            return self.startup_sync_enabled
+        return self.effective_deployment_role == "desktop"
 
     @property
     def database_path(self) -> Path | None:

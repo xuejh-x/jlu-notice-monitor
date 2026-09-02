@@ -1,6 +1,8 @@
 from app.models.entities import (
+    AppState,
     Attachment,
     Favorite,
+    ImportanceRule,
     Notice,
     NoticeSourceRelation,
     NoticeUpdate,
@@ -9,12 +11,13 @@ from app.models.entities import (
 )
 
 __all__ = [
+    "AppState",
     "Attachment",
     "Favorite",
+    "ImportanceRule",
     "Notice",
     "NoticeSourceRelation",
     "NoticeUpdate",
     "Source",
     "UserState",
 ]
-

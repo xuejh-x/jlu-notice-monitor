@@ -24,6 +24,23 @@ class Source(Base):
     last_success_at: Mapped[datetime | None] = mapped_column(DateTime)
     last_error: Mapped[str | None] = mapped_column(Text)
     consecutive_errors: Mapped[int] = mapped_column(Integer, default=0)
+    ownership: Mapped[str] = mapped_column(String(40), default="OFFICIAL_CLOUD", index=True)
+    source_type: Mapped[str] = mapped_column(String(40), default="generic_html")
+    parser: Mapped[str] = mapped_column(String(80), default="generic_html")
+    parser_config: Mapped[str] = mapped_column(Text, default="{}")
+    subscribed: Mapped[bool] = mapped_column(Boolean, default=True, index=True)
+    auth_type: Mapped[str] = mapped_column(String(40), default="none")
+    auth_username: Mapped[str | None] = mapped_column(String(300))
+    credential_ref: Mapped[str | None] = mapped_column(String(300))
+    login_url: Mapped[str | None] = mapped_column(String(2000))
+    session_profile_ref: Mapped[str | None] = mapped_column(String(300))
+    allow_private_network: Mapped[bool] = mapped_column(Boolean, default=False)
+    health_state: Mapped[str] = mapped_column(String(40), default="unconfigured", index=True)
+    last_error_code: Mapped[str | None] = mapped_column(String(80))
+    reauth_notified_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+    is_deleted: Mapped[bool] = mapped_column(Boolean, default=False, index=True)
 
     relations: Mapped[list[NoticeSourceRelation]] = relationship(back_populates="source")
 
@@ -36,6 +53,7 @@ class Notice(Base):
     )
 
     id: Mapped[int] = mapped_column(primary_key=True)
+    public_id: Mapped[str | None] = mapped_column(String(80), unique=True, index=True)
     title: Mapped[str] = mapped_column(String(1000))
     normalized_title: Mapped[str] = mapped_column(String(1000), index=True)
     url: Mapped[str] = mapped_column(String(2000))
@@ -144,3 +162,31 @@ class Favorite(Base):
         ForeignKey("notices.id", ondelete="CASCADE"), unique=True, index=True
     )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+
+
+class ImportanceRule(Base):
+    __tablename__ = "importance_rules"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    keyword: Mapped[str] = mapped_column(String(200), index=True)
+    weight: Mapped[int] = mapped_column(Integer)
+    enabled: Mapped[bool] = mapped_column(Boolean, default=True, index=True)
+    is_system_default: Mapped[bool] = mapped_column(Boolean, default=False)
+    position: Mapped[int] = mapped_column(Integer, default=0)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+
+
+class AppState(Base):
+    __tablename__ = "app_state"
+
+    key: Mapped[str] = mapped_column(String(100), primary_key=True)
+    value: Mapped[str] = mapped_column(Text, default="")
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+
+
+class SchemaMigration(Base):
+    __tablename__ = "schema_migrations"
+
+    version: Mapped[str] = mapped_column(String(40), primary_key=True)
+    applied_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)

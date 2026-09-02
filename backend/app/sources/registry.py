@@ -9,6 +9,8 @@ from app.sources.csw import CswSource
 from app.sources.innovation import InnovationSource
 from app.sources.jwc import JwcSource
 from app.sources.oa import OASource
+from app.sources.generic import AuthenticatedHTTPSource, GenericPublicSource
+from app.sources.cloud import CloudFeedSource
 
 SOURCE_TYPES: dict[str, type[NoticeSource]] = {
     "ccst": CcstSource,
@@ -17,6 +19,12 @@ SOURCE_TYPES: dict[str, type[NoticeSource]] = {
     "innovation": InnovationSource,
     "jwc": JwcSource,
     "oa": OASource,
+    "auto": GenericPublicSource,
+    "generic_html": GenericPublicSource,
+    "rss": GenericPublicSource,
+    "atom": GenericPublicSource,
+    "cloud_feed": CloudFeedSource,
+    "authenticated_http": AuthenticatedHTTPSource,
 }
 
 

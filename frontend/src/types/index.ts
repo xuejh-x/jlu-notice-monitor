@@ -30,7 +30,34 @@ export interface Source {
   last_checked_at: string | null; last_success_at: string | null; last_error: string | null
   consecutive_errors: number; status: SourceHealth | string; message: string | null
   notice_count: number
+  ownership?: SourceOwnership; subscribed?: boolean; source_type?: string; auth_type?: string; health_state?: SourceHealthState
 }
+export type SourceOwnership = 'OFFICIAL_CLOUD' | 'CUSTOM_LOCAL_PUBLIC' | 'CUSTOM_LOCAL_PRIVATE'
+export type SourceHealthState = 'healthy' | 'syncing' | 'disabled' | 'needs_reauth' | 'auth_error' | 'parse_error' | 'network_error' | 'source_error' | 'unsupported' | 'unconfigured' | 'authenticated'
+export type SourceParser = 'auto' | 'generic_html' | 'rss' | 'atom'
+export type SourceAuthType = 'none' | 'username_password' | 'browser_session' | 'cookie' | 'basic' | 'bearer' | 'api_token' | 'custom_adapter'
+export interface ParserConfiguration {
+  item_selector?: string; title_selector?: string; link_selector?: string; date_selector?: string
+  content_selector?: string; attachment_selector?: string; next_page_selector?: string; pagination_limit?: number
+}
+export interface SourceDraft {
+  name: string; list_url: string; kind: 'public' | 'private'; parser: SourceParser
+  parser_config: ParserConfiguration; auth_type: SourceAuthType; login_url?: string
+  username?: string; password?: string; remember_credentials?: boolean; allow_private_network?: boolean
+}
+export interface SourceConfiguration {
+  id: number; code: string; name: string; base_url: string; ownership: SourceOwnership
+  source_type: string; parser: SourceParser; parser_config: ParserConfiguration; subscribed: boolean; enabled: boolean
+  auth_type: SourceAuthType; username: string | null; password_saved: boolean; login_url: string | null
+  allow_private_network: boolean; health_state: SourceHealthState; last_error_code: string | null
+  last_error: string | null; last_checked_at: string | null; last_success_at: string | null; requires_reauthentication: boolean
+}
+export interface SourcePreview {
+  status: 'success' | 'authentication_required'; detected_type: SourceParser; found: number
+  items: Array<{ title: string; url: string; publish_date: string | null; content_preview: string }>
+  message?: string; preview_token: string
+}
+export interface ImportanceRule { id: number; keyword: string; weight: number; enabled: boolean; is_system_default: boolean }
 export interface CrawlerSourceResult {
   source: string; status?: 'pending' | 'running' | 'success' | 'partial_failure' | 'failure' | 'skipped' | string
   fetched: number; detail_fetched?: number; detail_skipped?: number
@@ -49,6 +76,7 @@ export interface CrawlerStatus {
     last_scheduled_outcome: string | null; last_error: string | null
   }
   new_count: number; updated_count: number; unchanged_count?: number; source_results: CrawlerSourceResult[]
+  startup_sync?: { triggered: boolean; outcome: string | null }
 }
 export interface NoticeFilters {
   category?: string; source?: string; min_score?: number; date_from?: string; date_to?: string

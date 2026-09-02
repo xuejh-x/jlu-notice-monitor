@@ -95,9 +95,10 @@ function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: Crawler
   const statusText = crawlerError ? '检查服务连接异常' : crawler?.running ? '正在检查新通知' : '检查服务正常'
   const statusTone = crawlerError ? 'bg-danger' : crawler?.running ? 'bg-warning' : 'bg-success'
   const toggle = (name: 'alerts' | 'account') => setActive(current => current === name ? null : name)
+  const reauthCount = dashboard?.source_status?.filter(source => source.status === 'needs_reauth' || source.status === 'login_expired').length ?? 0
 
   return <div className="relative ml-auto hidden items-center gap-2 md:flex">
-    <button ref={bellRef} type="button" onClick={() => toggle('alerts')} aria-label="通知摘要" aria-haspopup="dialog" aria-expanded={active === 'alerts'} aria-controls="header-alerts-popover" className="grid h-8 w-8 place-items-center rounded-medium text-text-muted transition-colors hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Bell className="h-3.5 w-3.5" aria-hidden="true" /></button>
+    <button ref={bellRef} type="button" onClick={() => toggle('alerts')} aria-label={reauthCount ? `通知摘要，${reauthCount} 个来源需要重新登录` : '通知摘要'} aria-haspopup="dialog" aria-expanded={active === 'alerts'} aria-controls="header-alerts-popover" className="relative grid h-8 w-8 place-items-center rounded-medium text-text-muted transition-colors hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Bell className="h-3.5 w-3.5" aria-hidden="true" />{reauthCount > 0 && <span className="absolute right-1 top-1 h-1.5 w-1.5 rounded-full bg-warning" aria-hidden="true"/>}</button>
     <button ref={avatarRef} type="button" onClick={() => toggle('account')} aria-label="应用菜单" aria-haspopup="menu" aria-expanded={active === 'account'} aria-controls="header-account-menu" className="grid h-[26px] w-[26px] place-items-center rounded-full bg-border-strong text-text-primary transition-colors hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><UserRound className="h-3.5 w-3.5" aria-hidden="true" /></button>
 
     {active === 'alerts' && <div ref={panelRef} id="header-alerts-popover" role="dialog" aria-label="通知摘要" className="absolute right-9 top-[calc(100%+8px)] z-50 w-72 rounded-large border border-border-strong bg-surface-raised p-3 shadow-xl">
@@ -107,6 +108,7 @@ function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: Crawler
         <div className="rounded-medium bg-surface-muted px-2.5 py-2"><dt className="text-label text-text-muted">未读通知</dt><dd className="mt-0.5 text-sm font-semibold tabular-nums text-text-primary">{dashboard?.unread ?? 0}</dd></div>
       </dl>
       <div className="mt-3 border-t border-border/70 pt-2 text-metadata text-text-muted"><p>最近检查：{crawler?.last_run ? relativeTime(crawler.last_run) : '尚无检查记录'}</p>{crawler?.last_run && <p className="mt-1">上次新增 {crawler.new_count} 条，更新 {crawler.updated_count} 条</p>}</div>
+      {reauthCount > 0 && <Link to="/sources" onClick={() => setActive(null)} className="mt-3 flex items-center justify-between rounded-medium bg-surface-muted px-2.5 py-2 text-xs text-warning"><span>{reauthCount} 个来源需要重新登录</span><span>处理</span></Link>}
       <div className="mt-3 flex gap-2"><Link data-popup-focus to="/notices?read=0" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">查看未读</Link><Link to="/deadlines" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">即将截止</Link></div>
     </div>}
 

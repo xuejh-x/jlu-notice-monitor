@@ -75,7 +75,7 @@ def test_health_checks_database() -> None:
         assert response.status_code == 200
         assert response.json()["status"] == "ok"
         assert response.json()["service"] == "jlu-notice-monitor"
-        assert response.json()["version"] == "0.2.0"
+        assert response.json()["version"] == "0.4.0"
         assert response.json()["database"] == "ok"
     finally:
         app.dependency_overrides.clear()
@@ -169,6 +169,7 @@ async def test_lifespan_starts_scheduler_and_stops_it_before_crawler(
     monkeypatch.setattr(main_module, "init_db", lambda: None)
     monkeypatch.setattr(main_module, "SessionLocal", lambda: nullcontext(object()))
     monkeypatch.setattr(main_module, "load_yaml", lambda _: {"sources": []})
+    monkeypatch.setattr(main_module, "ensure_importance_rules", lambda *_: None)
     async with main_module.lifespan(app):
         assert events == ["sync-sources", "scheduler-start"]
     assert events == ["sync-sources", "scheduler-start", "scheduler-stop", "crawler-stop"]

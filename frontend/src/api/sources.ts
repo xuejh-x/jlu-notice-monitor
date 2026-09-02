@@ -1,3 +1,13 @@
-import type { Source } from '../types'
+import type { Source, SourceConfiguration, SourceDraft, SourcePreview } from '../types'
 import { apiRequest, type ApiRequestOptions } from './client'
 export const getSources = (options?: ApiRequestOptions) => apiRequest<Source[]>('/api/sources', undefined, options)
+const json = (value: unknown): RequestInit => ({ method: 'POST', body: JSON.stringify(value) })
+export const getSourceConfiguration = (options?: ApiRequestOptions) => apiRequest<SourceConfiguration[]>('/api/source-config', undefined, options)
+export const previewSource = (draft: SourceDraft) => apiRequest<SourcePreview>('/api/source-config/preview', json(draft), { timeoutMs: 45_000 })
+export const createSource = (draft: SourceDraft, previewToken: string) => apiRequest<SourceConfiguration>('/api/source-config', json({ ...draft, preview_token: previewToken }))
+export const editSource = (id: number, draft: SourceDraft, previewToken: string) => apiRequest<SourceConfiguration>(`/api/source-config/${id}`, { method: 'PATCH', body: JSON.stringify({ name: draft.name, list_url: draft.list_url, parser: draft.parser, parser_config: draft.parser_config, login_url: draft.login_url, username: draft.username, password: draft.password, remember_credentials: draft.remember_credentials, allow_private_network: draft.allow_private_network, preview_token: previewToken }) })
+export const setSourceSubscription = (id: number, subscribed: boolean) => apiRequest<SourceConfiguration>(`/api/source-config/${id}/subscription`, json({ subscribed }))
+export const setSourceEnabled = (id: number, enabled: boolean, acknowledged = false) => apiRequest<SourceConfiguration>(`/api/source-config/${id}/enabled`, json({ enabled, authentication_warning_acknowledged: acknowledged }))
+export const checkSource = (id: number) => apiRequest<{ status: string; source: string }>(`/api/source-config/${id}/check`, { method: 'POST' })
+export const reauthenticateSource = (id: number) => apiRequest<{ status: string; login_url: string; message: string }>(`/api/source-config/${id}/reauthenticate`, { method: 'POST' })
+export const deleteSource = (id: number, clearLocalLogin: boolean) => apiRequest<{ deleted: boolean }>(`/api/source-config/${id}`, { method: 'DELETE', body: JSON.stringify({ clear_local_login: clearLocalLogin }) })

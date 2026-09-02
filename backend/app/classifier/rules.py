@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Iterable
 from datetime import date
 
 from app.config import load_yaml
@@ -27,6 +28,7 @@ def score_importance(
     category: str,
     deadline: date | None = None,
     today: date | None = None,
+    keyword_rules: Iterable[tuple[str, int]] | None = None,
 ) -> int:
     text = f"{title}\n{content}"
     config = load_yaml("keywords.yaml").get("scoring", {})
@@ -44,11 +46,14 @@ def score_importance(
         "other": 0,
     }
     score += category_boost.get(category, 0)
-    for group in ("strong", "recommended", "interests", "low"):
-        group_config = config.get(group, {})
-        hits = sum(1 for keyword in group_config.get("keywords", []) if _contains(text, str(keyword)))
-        if hits:
-            score += int(group_config.get("weight", 0)) + min(hits - 1, 3) * 3
+    if keyword_rules is None:
+        for group in ("strong", "recommended", "interests", "low"):
+            group_config = config.get(group, {})
+            hits = sum(1 for keyword in group_config.get("keywords", []) if _contains(text, str(keyword)))
+            if hits:
+                score += int(group_config.get("weight", 0)) + min(hits - 1, 3) * 3
+    else:
+        score += sum(weight for keyword, weight in keyword_rules if _contains(text, keyword))
     if deadline:
         days = (deadline - (today or date.today())).days
         if 0 <= days <= 3:
@@ -56,4 +61,3 @@ def score_importance(
         elif days < 0:
             score -= 15
     return max(0, min(100, score))
-

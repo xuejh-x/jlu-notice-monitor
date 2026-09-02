@@ -23,6 +23,7 @@ from app.services.dates import extract_dates
 from app.services.deduplication import find_duplicate
 from app.services.metadata import extract_notice_metadata
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
+from app.services.importance import enabled_rule_values
 from app.sources import build_source
 from app.sources.base import LoginExpiredError
 from app.paths import get_cache_dir
@@ -194,7 +195,9 @@ class CrawlerManager:
             self.current_trigger = trigger
             try:
                 init_db()
-                configs = load_yaml("sources.yaml").get("sources", [])
+                with SessionLocal() as db:
+                    self._sync_sources(db, load_yaml("sources.yaml").get("sources", []))
+                    configs = self._load_source_configs(db)
                 if source_code:
                     configs = [item for item in configs if item.get("code") == source_code]
                     if not configs:
@@ -203,8 +206,6 @@ class CrawlerManager:
                 configs = [item for item in configs if item.get("enabled", True)]
                 self.total_sources = len(configs) + len(skipped_configs)
                 self.completed_sources = len(skipped_configs)
-                with SessionLocal() as db:
-                    self._sync_sources(db, load_yaml("sources.yaml").get("sources", []))
                 concurrency = max(
                     1, int(load_yaml("settings.yaml").get("crawler", {}).get("source_concurrency", 2))
                 )
@@ -290,22 +291,82 @@ class CrawlerManager:
 
     @staticmethod
     def _sync_sources(db: Session, configs: list[dict[str, Any]]) -> None:
+        role = get_settings().effective_deployment_role
         for config in configs:
             source = db.scalar(select(Source).where(Source.code == config["code"]))
+            created = source is None
             if source is None:
                 source = Source(
-                    code=config["code"], name=config["name"], base_url=config["base_url"]
+                    code=config["code"], name=config["name"], base_url=config["base_url"],
+                    enabled=bool(config.get("enabled", True)),
                 )
                 db.add(source)
             source.name = config["name"]
             source.base_url = config["base_url"]
-            source.enabled = bool(config.get("enabled", True))
+            is_private = str(config["code"]) == "oa"
+            source.ownership = "CUSTOM_LOCAL_PRIVATE" if is_private else "OFFICIAL_CLOUD"
+            source.source_type = "private_browser" if is_private else "official_adapter"
+            source.parser = "oa" if is_private else (
+                "cloud_feed" if role == "desktop" else str(config.get("parser", config["code"]))
+            )
+            source.auth_type = "browser_session" if is_private else "none"
+            source.login_url = source.login_url or (source.base_url if is_private else None)
+            source.session_profile_ref = source.session_profile_ref or ("oa-profile" if is_private else None)
+            if created and not source.enabled:
+                source.health_state = "disabled"
         db.commit()
+
+    @staticmethod
+    def _load_source_configs(db: Session) -> list[dict[str, Any]]:
+        role = get_settings().effective_deployment_role
+        yaml_by_code = {
+            str(item["code"]): item for item in load_yaml("sources.yaml").get("sources", [])
+        }
+        rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
+        configs: list[dict[str, Any]] = []
+        for source in rows:
+            if role == "cloud" and source.ownership != "OFFICIAL_CLOUD":
+                continue
+            if source.ownership == "OFFICIAL_CLOUD" and not source.subscribed and role == "desktop":
+                enabled = False
+            elif source.health_state == "needs_reauth":
+                enabled = False
+            else:
+                enabled = source.enabled
+            base = dict(yaml_by_code.get(source.code, {}))
+            try:
+                parser_config = json.loads(source.parser_config or "{}")
+            except (TypeError, ValueError):
+                parser_config = {}
+            parser = source.parser
+            if source.ownership == "OFFICIAL_CLOUD":
+                parser = "cloud_feed" if role == "desktop" else str(base.get("parser", source.code))
+            elif source.ownership == "CUSTOM_LOCAL_PRIVATE" and source.auth_type in {
+                "basic", "bearer", "api_token", "cookie"
+            }:
+                parser = "authenticated_http"
+            base.update(
+                code=source.code,
+                name=source.name,
+                base_url=source.base_url,
+                enabled=enabled,
+                parser=parser,
+                content_parser=source.parser,
+                parser_config=parser_config,
+                ownership=source.ownership,
+                auth_type=source.auth_type,
+                auth_username=source.auth_username,
+                credential_ref=source.credential_ref,
+                allow_private_network=source.allow_private_network,
+                public_feed_url=get_settings().public_feed_url,
+            )
+            configs.append(base)
+        return configs
 
     async def _run_source(self, config: dict[str, Any], bootstrap: bool) -> SourceRunResult:
         code = str(config["code"])
         run_result = SourceRunResult(source=code, status="running")
-        adapter = build_source(config)
+        adapter = None
         log_event(logger, logging.INFO, "source_started", source=code)
         with SessionLocal() as db:
             db_source = db.scalar(select(Source).where(Source.code == code))
@@ -313,12 +374,17 @@ class CrawlerManager:
             db_source.last_checked_at = utcnow()
             db.commit()
             try:
+                adapter = build_source(config)
                 list_started = time.perf_counter()
                 items = await adapter.fetch_list()
                 run_result.list_duration_seconds = round(time.perf_counter() - list_started, 3)
                 run_result.fetched = len(items)
                 log_event(logger, logging.INFO, "source_list_fetched", source=code, status="success")
+                source_deadline = time.perf_counter() + get_settings().source_run_timeout_seconds
                 for item in items:
+                    if time.perf_counter() >= source_deadline:
+                        run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
+                        break
                     try:
                         existing = self._find_unchanged_list_item(db, db_source, item)
                         if existing is not None:
@@ -345,6 +411,8 @@ class CrawlerManager:
                         log_event(logger, logging.WARNING, "detail_fetch_failed", source=code, error_type=type(exc).__name__, error=message)
                         db.rollback()
                 db_source.last_success_at = utcnow()
+                db_source.health_state = "healthy"
+                db_source.last_error_code = None
                 if run_result.errors:
                     db_source.last_error = " | ".join(run_result.errors)
                     db_source.consecutive_errors += 1
@@ -352,15 +420,35 @@ class CrawlerManager:
                     db_source.last_error = None
                     db_source.consecutive_errors = 0
                 run_result.status = "partial_failure" if run_result.errors else "success"
-            except LoginExpiredError:
-                db_source.last_error = "OA_LOGIN_EXPIRED"
+            except LoginExpiredError as exc:
+                error_code = str(exc) or "AUTH_SESSION_EXPIRED"
+                db_source.last_error = error_code
+                db_source.last_error_code = "AUTH_EXPIRED"
+                db_source.health_state = "needs_reauth"
                 db_source.consecutive_errors += 1
-                run_result.errors.append("OA_LOGIN_EXPIRED")
-                log_event(logger, logging.ERROR, "source_failed", source=code, error_type="LoginExpiredError", error="OA_LOGIN_EXPIRED")
+                run_result.errors.append(error_code)
+                log_event(
+                    logger,
+                    logging.ERROR,
+                    "source_failed",
+                    source=code,
+                    error_type="LoginExpiredError",
+                    error=error_code,
+                )
                 run_result.status = "failure"
             except Exception as exc:
                 message = f"{type(exc).__name__}: {exc}"
                 db_source.last_error = message
+                if "AUTH_" in message:
+                    db_source.last_error_code = "AUTH_ERROR"
+                    db_source.health_state = "needs_reauth"
+                else:
+                    db_source.last_error_code = (
+                    "NETWORK_ERROR" if "HTTP" in type(exc).__name__.upper() or "UNAVAILABLE" in message else
+                    "PARSE_ERROR" if "parse" in message.lower() or "selector" in message.lower() else
+                    "SOURCE_ERROR"
+                    )
+                    db_source.health_state = db_source.last_error_code.lower()
                 db_source.consecutive_errors += 1
                 run_result.errors.append(message)
                 log_event(logger, logging.ERROR, "source_failed", source=code, error_type=type(exc).__name__, error=message)
@@ -369,7 +457,8 @@ class CrawlerManager:
                 run_result.detail_duration_seconds = round(run_result.detail_duration_seconds, 3)
                 run_result.parse_db_duration_seconds = round(run_result.parse_db_duration_seconds, 3)
                 db.commit()
-                await adapter.close()
+                if adapter is not None:
+                    await adapter.close()
         log_event(
             logger, logging.INFO, "source_finished", source=code, status=run_result.status,
             duration_seconds=round(run_result.list_duration_seconds + run_result.detail_duration_seconds + run_result.parse_db_duration_seconds, 3),
@@ -425,14 +514,32 @@ class CrawlerManager:
         canonical = canonicalize_url(candidate.url)
         digest = content_hash(candidate.title, candidate.content)
         dates = extract_dates(candidate.content, candidate.publish_date)
-        category = classify_notice(candidate.title, candidate.content)
+        category = candidate.category or classify_notice(candidate.title, candidate.content)
+        registration_start = candidate.registration_start or dates.registration_start
+        registration_deadline = candidate.registration_deadline or dates.registration_deadline
+        event_start = candidate.event_start or dates.event_start
+        event_end = candidate.event_end or dates.event_end
         score = score_importance(
-            candidate.title, candidate.content, category, dates.registration_deadline
+            candidate.title,
+            candidate.content,
+            category,
+            registration_deadline,
+            keyword_rules=enabled_rule_values(db),
         )
-        target_students, registration_method, competition_level = extract_notice_metadata(
+        extracted_students, extracted_method, extracted_level = extract_notice_metadata(
             candidate.content
         )
-        notice = find_duplicate(db, normalized, canonical, candidate.publish_date)
+        target_students = candidate.target_students or extracted_students
+        registration_method = candidate.registration_method or extracted_method
+        competition_level = candidate.competition_level or extracted_level
+        notice = find_duplicate(
+            db,
+            normalized,
+            canonical,
+            candidate.publish_date,
+            source_id=source.id,
+            public_id=candidate.public_id,
+        )
         existing_relation = None
         if notice:
             existing_relation = db.scalar(
@@ -445,6 +552,7 @@ class CrawlerManager:
         state = "UNCHANGED"
         if notice is None:
             notice = Notice(
+                public_id=candidate.public_id,
                 title=candidate.title,
                 normalized_title=normalized,
                 url=candidate.url,
@@ -457,10 +565,10 @@ class CrawlerManager:
                 category=category,
                 importance_score=score,
                 status="baseline" if bootstrap else "active",
-                registration_start=dates.registration_start,
-                registration_deadline=dates.registration_deadline,
-                event_start=dates.event_start,
-                event_end=dates.event_end,
+                registration_start=registration_start,
+                registration_deadline=registration_deadline,
+                event_start=event_start,
+                event_end=event_end,
                 target_students=target_students,
                 registration_method=registration_method,
                 competition_level=competition_level,
@@ -501,15 +609,17 @@ class CrawlerManager:
                 notice.publisher = candidate.publisher
                 notice.category = category
                 notice.importance_score = score
-                notice.registration_start = dates.registration_start
-                notice.registration_deadline = dates.registration_deadline
-                notice.event_start = dates.event_start
-                notice.event_end = dates.event_end
+                notice.registration_start = registration_start
+                notice.registration_deadline = registration_deadline
+                notice.event_start = event_start
+                notice.event_end = event_end
                 notice.target_students = target_students
                 notice.registration_method = registration_method
                 notice.competition_level = competition_level
             notice.updated_at = now
             state = "UPDATED"
+        if notice.public_id is None and candidate.public_id:
+            notice.public_id = candidate.public_id
         notice.last_seen_at = now
         if notice.target_students is None:
             notice.target_students = target_students
