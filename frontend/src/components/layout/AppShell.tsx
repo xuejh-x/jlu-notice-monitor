@@ -1,13 +1,15 @@
 import * as Dialog from '@radix-ui/react-dialog'
-import { useQuery } from '@tanstack/react-query'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { Bell, Check, Menu, Moon, PanelLeftClose, PanelLeftOpen, Settings, Sun, UserRound, X } from 'lucide-react'
 import { useEffect, useRef, useState, type RefObject } from 'react'
-import { Link, NavLink, Outlet, matchPath, useLocation } from 'react-router-dom'
+import { Link, NavLink, Outlet, matchPath, useLocation, useNavigate } from 'react-router-dom'
 import { getCrawlerStatus } from '../../api/crawler'
 import { getDashboard } from '../../api/dashboard'
+import { getNotificationEvents, markNotificationRead } from '../../api/notifications'
 import { NoticeDetailPage } from '../../pages/NoticeDetailPage'
 import { NoticesPage } from '../../pages/NoticesPage'
 import { useTheme } from '../../stores/theme'
+import { startDesktopNotificationBridge, validNotificationRoute } from '../../services/desktopNotifications'
 import { cn } from '../../utils/cn'
 import { relativeTime } from '../../utils/format'
 import { SearchDialog } from '../search/SearchDialog'
@@ -64,6 +66,10 @@ function Sidebar({ collapsed, onToggle, online, lastRun, counts }: { collapsed: 
 
 function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: CrawlerStatus; crawlerError: boolean; dashboard?: DashboardData }) {
   const { theme, setTheme } = useTheme()
+  const navigate = useNavigate()
+  const queryClient = useQueryClient()
+  const notifications = useQuery({ queryKey: ['notification-events'], queryFn: ({ signal }) => getNotificationEvents({ signal }), refetchInterval: 30_000 })
+  const markRead = useMutation({ mutationFn: markNotificationRead, onSuccess: () => queryClient.invalidateQueries({ queryKey: ['notification-events'] }) })
   const [active, setActive] = useState<'alerts' | 'account' | null>(null)
   const bellRef = useRef<HTMLButtonElement>(null)
   const avatarRef = useRef<HTMLButtonElement>(null)
@@ -96,20 +102,31 @@ function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: Crawler
   const statusTone = crawlerError ? 'bg-danger' : crawler?.running ? 'bg-warning' : 'bg-success'
   const toggle = (name: 'alerts' | 'account') => setActive(current => current === name ? null : name)
   const reauthCount = dashboard?.source_status?.filter(source => source.status === 'needs_reauth' || source.status === 'login_expired').length ?? 0
+  const notificationItems = Array.isArray(notifications.data?.items) ? notifications.data.items : []
+  const reminderUnread = typeof notifications.data?.unread === 'number' ? notifications.data.unread : 0
+  const openReminder = (eventId: number, route: string | null) => {
+    markRead.mutate(eventId)
+    setActive(null)
+    navigate(validNotificationRoute(route) ? route : '/notices')
+  }
 
   return <div className="relative ml-auto hidden items-center gap-2 md:flex">
-    <button ref={bellRef} type="button" onClick={() => toggle('alerts')} aria-label={reauthCount ? `通知摘要，${reauthCount} 个来源需要重新登录` : '通知摘要'} aria-haspopup="dialog" aria-expanded={active === 'alerts'} aria-controls="header-alerts-popover" className="relative grid h-8 w-8 place-items-center rounded-medium text-text-muted transition-colors hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Bell className="h-3.5 w-3.5" aria-hidden="true" />{reauthCount > 0 && <span className="absolute right-1 top-1 h-1.5 w-1.5 rounded-full bg-warning" aria-hidden="true"/>}</button>
+    <button ref={bellRef} type="button" onClick={() => toggle('alerts')} aria-label={reminderUnread ? `提醒中心，${reminderUnread} 条未读提醒` : '提醒中心'} aria-haspopup="dialog" aria-expanded={active === 'alerts'} aria-controls="header-alerts-popover" className="relative grid h-8 w-8 place-items-center rounded-medium text-text-muted transition-colors hover:bg-surface-muted hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><Bell className="h-3.5 w-3.5" aria-hidden="true" />{(reminderUnread > 0 || reauthCount > 0) && <span className="absolute right-1 top-1 h-1.5 w-1.5 rounded-full bg-warning" aria-hidden="true"/>}</button>
     <button ref={avatarRef} type="button" onClick={() => toggle('account')} aria-label="应用菜单" aria-haspopup="menu" aria-expanded={active === 'account'} aria-controls="header-account-menu" className="grid h-[26px] w-[26px] place-items-center rounded-full bg-border-strong text-text-primary transition-colors hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30"><UserRound className="h-3.5 w-3.5" aria-hidden="true" /></button>
 
-    {active === 'alerts' && <div ref={panelRef} id="header-alerts-popover" role="dialog" aria-label="通知摘要" className="absolute right-9 top-[calc(100%+8px)] z-50 w-72 rounded-large border border-border-strong bg-surface-raised p-3 shadow-xl">
-      <div className="flex items-center justify-between"><h2 className="text-sm font-semibold text-text-primary">通知摘要</h2><span className="inline-flex items-center gap-1.5 text-label text-text-muted"><span className={`h-1.5 w-1.5 rounded-full ${statusTone}`} aria-hidden="true" />{statusText}</span></div>
-      <dl className="mt-3 grid grid-cols-2 gap-2">
-        <div className="rounded-medium bg-surface-muted px-2.5 py-2"><dt className="text-label text-text-muted">今日新增</dt><dd className="mt-0.5 text-sm font-semibold tabular-nums text-text-primary">{dashboard?.new_today ?? 0}</dd></div>
-        <div className="rounded-medium bg-surface-muted px-2.5 py-2"><dt className="text-label text-text-muted">未读通知</dt><dd className="mt-0.5 text-sm font-semibold tabular-nums text-text-primary">{dashboard?.unread ?? 0}</dd></div>
-      </dl>
-      <div className="mt-3 border-t border-border/70 pt-2 text-metadata text-text-muted"><p>最近检查：{crawler?.last_run ? relativeTime(crawler.last_run) : '尚无检查记录'}</p>{crawler?.last_run && <p className="mt-1">上次新增 {crawler.new_count} 条，更新 {crawler.updated_count} 条</p>}</div>
-      {reauthCount > 0 && <Link to="/sources" onClick={() => setActive(null)} className="mt-3 flex items-center justify-between rounded-medium bg-surface-muted px-2.5 py-2 text-xs text-warning"><span>{reauthCount} 个来源需要重新登录</span><span>处理</span></Link>}
-      <div className="mt-3 flex gap-2"><Link data-popup-focus to="/notices?read=0" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">查看未读</Link><Link to="/deadlines" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">即将截止</Link></div>
+    {active === 'alerts' && <div ref={panelRef} id="header-alerts-popover" role="dialog" aria-label="提醒中心" className="absolute right-9 top-[calc(100%+8px)] z-50 w-80 rounded-large border border-border-strong bg-surface-raised p-3 shadow-xl">
+      <div className="flex items-center justify-between"><h2 className="text-sm font-semibold text-text-primary">最近提醒</h2><span className="inline-flex items-center gap-1.5 text-label text-text-muted"><span className={`h-1.5 w-1.5 rounded-full ${statusTone}`} aria-hidden="true" />{statusText}</span></div>
+      <div className="mt-3 max-h-80 space-y-1 overflow-y-auto">
+        {notifications.isPending && <p className="px-2 py-4 text-center text-xs text-text-muted">正在读取提醒…</p>}
+        {!notifications.isPending && notificationItems.length === 0 && <p className="px-2 py-4 text-center text-xs text-text-muted">暂无提醒</p>}
+        {notificationItems.map((item, index) => <button key={item.id} data-popup-focus={index === 0 ? true : undefined} type="button" onClick={() => openReminder(item.id, item.route)} className="flex w-full gap-2.5 rounded-medium px-2 py-2 text-left hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus/30">
+          <span className={cn('mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full', item.read_at ? 'bg-border-strong' : item.severity === 'error' ? 'bg-danger' : item.severity === 'warning' ? 'bg-warning' : 'bg-accent')} aria-hidden="true"/>
+          <span className="min-w-0"><span className="block truncate text-xs font-medium text-text-primary">{item.title}</span><span className="mt-0.5 block line-clamp-2 text-metadata leading-4 text-text-muted">{item.body}</span></span>
+        </button>)}
+      </div>
+      <div className="mt-3 flex items-center justify-between border-t border-border/70 pt-2 text-metadata text-text-muted"><span>{reminderUnread} 条未读提醒</span><span>最近检查：{crawler?.last_run ? relativeTime(crawler.last_run) : '尚无记录'}</span></div>
+      {reauthCount > 0 && <Link to="/sources" onClick={() => setActive(null)} className="mt-2 flex items-center justify-between rounded-medium bg-surface-muted px-2.5 py-2 text-xs text-warning"><span>{reauthCount} 个来源需要重新登录</span><span>处理</span></Link>}
+      <div className="mt-2 flex gap-2"><Link to="/settings" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">提醒设置</Link><Link to="/deadlines" onClick={() => setActive(null)} className="flex h-8 flex-1 items-center justify-center rounded-medium border border-border text-xs text-text-secondary hover:bg-surface-muted hover:text-text-primary">即将截止</Link></div>
     </div>}
 
     {active === 'account' && <div ref={panelRef} id="header-account-menu" role="menu" aria-label="应用菜单" className="absolute right-0 top-[calc(100%+8px)] z-50 w-52 rounded-large border border-border-strong bg-surface-raised p-2 shadow-xl">
@@ -151,6 +168,7 @@ export function AppShell() {
   const [moreOpen, setMoreOpen] = useState(false)
   const moreTriggerRef = useRef<HTMLButtonElement>(null)
   const { pathname } = useLocation()
+  const navigate = useNavigate()
   const detailMatch = matchPath('/notices/:id', pathname)
   const detailId = detailMatch?.params.id
   const noticeWorkspaceRoute = pathname === '/notices' || Boolean(detailId)
@@ -158,6 +176,16 @@ export function AppShell() {
   const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: ({ signal }) => getDashboard({ signal }) })
   const toggleCollapse = () => { const next = !collapsed; setCollapsed(next); localStorage.setItem('jlu-sidebar', next ? 'collapsed' : 'expanded') }
   const counts: Counts = { 收件箱: dashboard.data?.unread, 重要: dashboard.data?.important, 即将截止: dashboard.data?.upcoming_deadlines, 未读: dashboard.data?.unread, 今日新增: dashboard.data?.new_today }
+
+  useEffect(() => {
+    let disposed = false
+    let stop: (() => void) | undefined
+    void startDesktopNotificationBridge(route => navigate(route)).then(cleanup => {
+      if (disposed) cleanup()
+      else stop = cleanup
+    })
+    return () => { disposed = true; stop?.() }
+  }, [navigate])
 
   return <div className="min-h-screen bg-app-canvas text-text-primary transition-colors md:pb-[6px] md:pl-[12px] md:pt-[6px]">
     <div className={cn('min-h-screen bg-app-frame md:grid md:h-[calc(100vh-12px)] md:min-h-0 md:overflow-hidden md:rounded-app md:ring-1 md:ring-inset md:ring-border md:grid-cols-[var(--spacing-sidebar-expanded)_minmax(0,1fr)]', collapsed && 'md:grid-cols-[var(--spacing-sidebar-collapsed)_minmax(0,1fr)] xl:grid-cols-[var(--spacing-sidebar-expanded)_minmax(0,1fr)]')}>

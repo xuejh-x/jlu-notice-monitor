@@ -193,6 +193,77 @@ class AppState(Base):
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
 
 
+class NotificationPreference(Base):
+    __tablename__ = "notification_preferences"
+
+    id: Mapped[int] = mapped_column(primary_key=True, default=1)
+    enabled: Mapped[bool] = mapped_column(Boolean, default=False)
+    new_notice_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    important_notice_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    deadline_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    source_health_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    daily_summary_enabled: Mapped[bool] = mapped_column(Boolean, default=True)
+    minimum_importance: Mapped[int] = mapped_column(Integer, default=70)
+    deadline_lead_days: Mapped[str] = mapped_column(String(40), default="7,3,1")
+    quiet_start: Mapped[str] = mapped_column(String(5), default="23:00")
+    quiet_end: Mapped[str] = mapped_column(String(5), default="08:00")
+    daily_summary_time: Mapped[str] = mapped_column(String(5), default="09:00")
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+
+
+class NotificationEvent(Base):
+    __tablename__ = "notification_events"
+    __table_args__ = (
+        Index("ix_notification_events_created", "created_at"),
+        Index("ix_notification_events_read", "read_at"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    dedupe_key: Mapped[str] = mapped_column(String(500), unique=True, index=True)
+    event_type: Mapped[str] = mapped_column(String(40), index=True)
+    notice_id: Mapped[int | None] = mapped_column(
+        ForeignKey("notices.id", ondelete="SET NULL"), index=True
+    )
+    source_id: Mapped[int | None] = mapped_column(
+        ForeignKey("sources.id", ondelete="SET NULL"), index=True
+    )
+    severity: Mapped[str] = mapped_column(String(20), default="info", index=True)
+    title: Mapped[str] = mapped_column(String(200))
+    body: Mapped[str] = mapped_column(String(500))
+    route: Mapped[str | None] = mapped_column(String(300))
+    local_date: Mapped[str | None] = mapped_column(String(10), index=True)
+    available_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, index=True)
+    read_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+
+
+class NotificationDelivery(Base):
+    __tablename__ = "notification_deliveries"
+    __table_args__ = (
+        UniqueConstraint("event_id", "channel", name="uq_notification_delivery_event_channel"),
+        Index("ix_notification_deliveries_claimable", "status", "next_attempt_at"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    event_id: Mapped[int] = mapped_column(
+        ForeignKey("notification_events.id", ondelete="CASCADE"), index=True
+    )
+    channel: Mapped[str] = mapped_column(String(40), default="WINDOWS_NATIVE")
+    status: Mapped[str] = mapped_column(String(20), default="PENDING", index=True)
+    attempt_count: Mapped[int] = mapped_column(Integer, default=0)
+    claim_token: Mapped[str | None] = mapped_column(String(64), index=True)
+    claimed_at: Mapped[datetime | None] = mapped_column(DateTime)
+    next_attempt_at: Mapped[datetime | None] = mapped_column(DateTime)
+    delivered_at: Mapped[datetime | None] = mapped_column(DateTime)
+    failed_at: Mapped[datetime | None] = mapped_column(DateTime)
+    last_error: Mapped[str | None] = mapped_column(String(500))
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+
+    event: Mapped[NotificationEvent] = relationship()
+
+
 class SchemaMigration(Base):
     __tablename__ = "schema_migrations"
 

@@ -8,6 +8,8 @@ import { AppShell } from './AppShell'
 
 const crawlerStatus = { running: false, current_started_at: null, last_run: '2026-08-30T08:00:00Z', last_duration: 12, new_count: 1, updated_count: 0, source_results: [] }
 const dashboard = { new_today: 5, urgent: 1, important: 2, upcoming_deadlines: 3, unread: 4, source_status: [], recent_notices: [] }
+const reminders = { unread: 1, items: [{ id: 41, type: 'DEADLINE_APPROACHING', notice_id: 42, source_id: 1, severity: 'warning', title: '报名即将截止', body: '还有 3 天截止，点击查看详情。', route: '/notices/42', local_date: '2026-09-03', read_at: null, created_at: '2026-09-03T08:00:00' }] }
+const notice = { id: 42, title: 'MOCK / FIXTURE reminder target', url: 'https://example.test/42', publish_date: '2026-09-03', publisher: 'MOCK', category: 'other', importance_score: 70, registration_start: null, registration_deadline: '2026-09-06', event_start: null, event_end: null, deadline_status: 'urgent', days_until_deadline: 3, status: 'active', first_seen_at: '2026-09-03T00:00:00', last_seen_at: '2026-09-03T00:00:00', updated_at: '2026-09-03T00:00:00', is_read: false, is_archived: false, is_favorite: false, sources: [{ code: 'fixture', name: 'MOCK' }], content: 'fixture body', target_students: null, registration_method: null, competition_level: null, attachments: [], updates: [] }
 
 function renderShell(initialEntry = '/') {
   const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
@@ -45,7 +47,15 @@ describe('AppShell navigation', () => {
   beforeEach(() => {
     localStorage.clear()
     vi.unstubAllGlobals()
-    vi.stubGlobal('fetch', vi.fn((input: RequestInfo | URL) => Promise.resolve(new Response(JSON.stringify(String(input).includes('/dashboard') ? dashboard : crawlerStatus), { status: 200 }))))
+    vi.stubGlobal('fetch', vi.fn((input: RequestInfo | URL) => {
+      const url = String(input)
+      const body = url.includes('/dashboard') ? dashboard
+        : url.includes('/api/notifications?') ? reminders
+        : url.includes('/api/notices/42') ? notice
+        : url.includes('/api/notices?') ? { items: [notice], total: 1, page: 1, page_size: 20, total_pages: 1 }
+        : crawlerStatus
+      return Promise.resolve(new Response(JSON.stringify(body), { status: 200 }))
+    }))
   })
 
   it('renders the compact desktop sidebar destinations', async () => {
@@ -56,23 +66,31 @@ describe('AppShell navigation', () => {
     }
   })
 
-  it('opens the real notification summary and closes it with Escape while restoring focus', async () => {
+  it('opens recent notification events and closes with Escape while restoring focus', async () => {
     renderShell('/')
     await screen.findByRole('navigation', { name: '主导航' })
-    const trigger = screen.getByRole('button', { name: '通知摘要' })
+    const trigger = await screen.findByRole('button', { name: '提醒中心，1 条未读提醒' })
     expect(trigger).toHaveAttribute('aria-expanded', 'false')
     fireEvent.click(trigger)
-    const popover = await screen.findByRole('dialog', { name: '通知摘要' })
+    const popover = await screen.findByRole('dialog', { name: '提醒中心' })
     expect(trigger).toHaveAttribute('aria-expanded', 'true')
     expect(within(popover).getByText('检查服务正常')).toBeInTheDocument()
-    expect(within(popover).getByText('5')).toBeInTheDocument()
-    expect(within(popover).getByText('4')).toBeInTheDocument()
-    expect(within(popover).getByText('上次新增 1 条，更新 0 条')).toBeInTheDocument()
-    expect(within(popover).getByRole('link', { name: '查看未读' })).toHaveAttribute('href', '/notices?read=0')
-    await waitFor(() => expect(within(popover).getByRole('link', { name: '查看未读' })).toHaveFocus())
+    expect(within(popover).getByRole('button', { name: /报名即将截止/ })).toHaveTextContent('还有 3 天截止')
+    expect(within(popover).getByText('1 条未读提醒')).toBeInTheDocument()
+    expect(within(popover).getByRole('link', { name: '提醒设置' })).toHaveAttribute('href', '/settings')
+    await waitFor(() => expect(within(popover).getByRole('button', { name: /报名即将截止/ })).toHaveFocus())
     fireEvent.keyDown(document, { key: 'Escape' })
     await waitFor(() => expect(screen.queryByRole('dialog', { name: '通知摘要' })).not.toBeInTheDocument())
     await waitFor(() => expect(trigger).toHaveFocus())
+  })
+
+  it('marks a reminder read and routes its click to the notice detail', async () => {
+    renderShell('/')
+    const trigger = await screen.findByRole('button', { name: '提醒中心，1 条未读提醒' })
+    fireEvent.click(trigger)
+    fireEvent.click(await screen.findByRole('button', { name: /报名即将截止/ }))
+    expect(await screen.findByRole('heading', { level: 1, name: 'MOCK / FIXTURE reminder target' })).toBeInTheDocument()
+    await waitFor(() => expect(fetch).toHaveBeenCalledWith(expect.stringContaining('/api/notifications/41/read'), expect.objectContaining({ method: 'POST' })))
   })
 
   it('opens the application menu, exposes real actions, and closes on outside click', async () => {

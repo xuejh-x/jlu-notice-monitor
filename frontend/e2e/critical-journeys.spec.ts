@@ -20,6 +20,12 @@ async function resetFixture(request: APIRequestContext) {
   await setState(request, 105, 'unfavorite')
   await setState(request, 106, 'read')
   await setState(request, 106, 'favorite')
+  const preferences = await request.patch(`${backendUrl}/api/notifications/preferences`, { data: {
+    enabled: true, new_notice_enabled: true, important_notice_enabled: true, deadline_enabled: true,
+    source_health_enabled: true, daily_summary_enabled: true, minimum_importance: 70,
+    deadline_lead_days: [7, 3, 1], quiet_start: '23:00', quiet_end: '08:00',
+  } })
+  expect(preferences.ok()).toBeTruthy()
 }
 
 const officialSource = {
@@ -131,13 +137,13 @@ test('Inline search opens the correct detail without a modal', async ({ page }) 
 test('Header bell and avatar expose real keyboard-accessible popovers', async ({ page }) => {
   await page.goto('/notices/102')
 
-  const bell = page.getByRole('button', { name: '通知摘要' })
+  const bell = page.getByRole('button', { name: /提醒中心/ })
   await bell.focus()
   await bell.press('Enter')
-  const summary = page.getByRole('dialog', { name: '通知摘要' })
+  const summary = page.getByRole('dialog', { name: '提醒中心' })
   await expect(summary).toBeVisible()
-  await expect(summary.getByText('今日新增')).toBeVisible()
-  await expect(summary.getByText('未读通知')).toBeVisible()
+  await expect(summary.getByText('最近提醒')).toBeVisible()
+  await expect(summary.getByText(/条未读提醒/)).toBeVisible()
   await page.keyboard.press('Escape')
   await expect(summary).toHaveCount(0)
   await expect(bell).toBeFocused()
@@ -231,4 +237,52 @@ test('MOCK / FIXTURE favorite and read state survive source promotion', async ({
   const favorite = await request.get(`${backendUrl}/api/notices?favorite=true&q=promotion%20state`)
   expect(favorite.ok()).toBeTruthy()
   expect((await favorite.json()).total).toBe(1)
+})
+
+test('new notification event opens its notice detail from the Bell', async ({ page }) => {
+  await page.goto('/notices')
+  await page.getByRole('button', { name: /提醒中心/ }).click()
+  const reminder = page.getByRole('dialog', { name: '提醒中心' }).getByRole('button', { name: /收到新通知.*E2E 普通校园活动/ })
+  await expect(reminder).toBeVisible()
+  await reminder.click()
+  await expect(page).toHaveURL(/\/notices\/105$/)
+  await expect(page.getByRole('heading', { level: 1, name: 'E2E 普通校园活动' })).toBeVisible()
+})
+
+test('restart-style regeneration does not duplicate a daily notification', async ({ page, request }) => {
+  const before = await (await request.get(`${backendUrl}/api/notifications?limit=50`)).json()
+  const countBefore = before.items.filter((item: { type: string }) => item.type === 'DAILY_SUMMARY').length
+  expect((await request.post(`${backendUrl}/api/notifications/generate`)).ok()).toBeTruthy()
+  await page.goto('/notices')
+  await page.reload()
+  expect((await request.post(`${backendUrl}/api/notifications/generate`)).ok()).toBeTruthy()
+  const after = await (await request.get(`${backendUrl}/api/notifications?limit=50`)).json()
+  expect(after.items.filter((item: { type: string }) => item.type === 'DAILY_SUMMARY')).toHaveLength(countBefore)
+})
+
+test('deadline reminder is generated once for the configured lead day', async ({ request }) => {
+  await request.post(`${backendUrl}/api/notifications/generate`)
+  await request.post(`${backendUrl}/api/notifications/generate`)
+  const events = await (await request.get(`${backendUrl}/api/notifications?limit=50`)).json()
+  const reminders = events.items.filter((item: { type: string; notice_id: number }) => item.type === 'DEADLINE_APPROACHING' && item.notice_id === 107)
+  expect(reminders).toHaveLength(1)
+  expect(reminders[0].body).toContain('还有 3 天截止')
+})
+
+test('daily summary contains local aggregate counts', async ({ request }) => {
+  const events = await (await request.get(`${backendUrl}/api/notifications?limit=50`)).json()
+  const summary = events.items.find((item: { type: string }) => item.type === 'DAILY_SUMMARY')
+  expect(summary).toBeTruthy()
+  expect(summary.title).toBe('Notice Hub 今日摘要')
+  expect(summary.body).toMatch(/新增 \d+ · 重要 \d+ · 即将截止 \d+ · 未读 \d+/)
+})
+
+test('desktop reminder preference persists after page reload', async ({ page }) => {
+  await page.goto('/settings')
+  const master = page.getByRole('switch', { name: '桌面提醒' })
+  await expect(master).toHaveAttribute('aria-checked', 'true')
+  await master.click()
+  await expect(master).toHaveAttribute('aria-checked', 'false')
+  await page.reload()
+  await expect(page.getByRole('switch', { name: '桌面提醒' })).toHaveAttribute('aria-checked', 'false')
 })

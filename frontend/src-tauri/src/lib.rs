@@ -1,6 +1,8 @@
 mod backend;
+mod desktop_notifications;
 
 use backend::{backend_status, retry_backend, BackendController};
+use desktop_notifications::show_windows_notification;
 use tauri::{Manager, RunEvent};
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -16,10 +18,15 @@ pub fn run() {
                 let _ = window.set_focus();
             }
         }))
+        .plugin(tauri_plugin_notification::init())
         .plugin(tauri_plugin_shell::init())
         .plugin(tauri_plugin_opener::init())
         .manage(controller)
-        .invoke_handler(tauri::generate_handler![backend_status, retry_backend])
+        .invoke_handler(tauri::generate_handler![
+            backend_status,
+            retry_backend,
+            show_windows_notification
+        ])
         .setup(move |app| {
             let app_handle = app.handle().clone();
             let controller = setup_controller.clone();

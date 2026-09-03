@@ -6,6 +6,9 @@ from app.models.entities import (
     Notice,
     NoticeSourceRelation,
     NoticeUpdate,
+    NotificationDelivery,
+    NotificationEvent,
+    NotificationPreference,
     Source,
     UserState,
 )
@@ -18,6 +21,9 @@ __all__ = [
     "Notice",
     "NoticeSourceRelation",
     "NoticeUpdate",
+    "NotificationDelivery",
+    "NotificationEvent",
+    "NotificationPreference",
     "Source",
     "UserState",
 ]

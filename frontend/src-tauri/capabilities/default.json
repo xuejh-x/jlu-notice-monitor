@@ -6,6 +6,8 @@
     "main"
   ],
   "permissions": [
-    "opener:allow-default-urls"
+    "core:event:default",
+    "opener:allow-default-urls",
+    "notification:default"
   ]
 }

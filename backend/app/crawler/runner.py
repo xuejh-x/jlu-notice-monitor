@@ -26,6 +26,7 @@ from app.services.metadata import extract_notice_metadata
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
 from app.services.source_identity import resolve_cloud_execution, source_identity
 from app.services.importance import enabled_rule_values
+from app.services.notifications import record_notice_event, record_source_health_transition
 from app.sources import build_source
 from app.sources.base import LoginExpiredError
 from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED
@@ -453,6 +454,7 @@ class CrawlerManager:
         with SessionLocal() as db:
             db_source = db.scalar(select(Source).where(Source.code == code))
             assert db_source is not None
+            previous_health_state = db_source.health_state
             db_source.last_checked_at = utcnow()
             db.commit()
             try:
@@ -541,6 +543,7 @@ class CrawlerManager:
             finally:
                 run_result.detail_duration_seconds = round(run_result.detail_duration_seconds, 3)
                 run_result.parse_db_duration_seconds = round(run_result.parse_db_duration_seconds, 3)
+                record_source_health_transition(db, db_source, previous_health_state)
                 db.commit()
                 if adapter is not None:
                     await adapter.close()
@@ -627,6 +630,7 @@ class CrawlerManager:
         )
         existing_relation = None
         if notice:
+            old_deadline = notice.registration_deadline
             existing_relation = db.scalar(
                 select(NoticeSourceRelation).where(
                     NoticeSourceRelation.notice_id == notice.id,
@@ -634,6 +638,8 @@ class CrawlerManager:
                     NoticeSourceRelation.source_url == candidate.url,
                 )
             )
+        else:
+            old_deadline = None
         state = "UNCHANGED"
         if notice is None:
             notice = Notice(
@@ -741,6 +747,7 @@ class CrawlerManager:
                         type=attachment.type,
                     )
                 )
+        record_notice_event(db, notice, state, old_deadline=old_deadline)
         db.commit()
         return state
 

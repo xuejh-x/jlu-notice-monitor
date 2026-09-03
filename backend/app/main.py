@@ -18,6 +18,7 @@ from app.logging_config import configure_logging, log_event
 from app.paths import ensure_runtime_directories
 from app.runtime import mark_started, mark_stopped
 from app.services.importance import ensure_importance_rules
+from app.notifications import notification_scheduler
 from fastapi import Depends
 from sqlalchemy.orm import Session
 
@@ -38,11 +39,14 @@ async def lifespan(_: FastAPI):
     if settings.effective_startup_sync_enabled:
         startup_sync.trigger_once()
     scheduler_manager.start()
+    if settings.effective_deployment_role == "desktop":
+        notification_scheduler.start()
     log_event(logger, logging.INFO, "application_started", log_file=str(log_file))
     try:
         yield
     finally:
         log_event(logger, logging.INFO, "application_stopping")
+        await notification_scheduler.shutdown()
         await scheduler_manager.shutdown()
         await crawler_manager.shutdown()
         close_db()

@@ -98,3 +98,18 @@ export interface DashboardData {
   new_today: number; urgent: number; important: number; upcoming_deadlines: number; unread: number
   source_status: SourceStatus[]; recent_notices: Notice[]
 }
+
+export type NotificationEventType = 'NEW_NOTICE' | 'IMPORTANT_NOTICE' | 'DEADLINE_APPROACHING' | 'DEADLINE_CHANGED' | 'SOURCE_AUTH_REQUIRED' | 'SOURCE_ERROR' | 'DAILY_SUMMARY'
+export interface NotificationEvent {
+  id: number; type: NotificationEventType; notice_id: number | null; source_id: number | null
+  severity: 'info' | 'warning' | 'error'; title: string; body: string; route: string | null
+  local_date: string | null; read_at: string | null; created_at: string
+}
+export interface NotificationPreferences {
+  enabled: boolean; new_notice_enabled: boolean; important_notice_enabled: boolean
+  deadline_enabled: boolean; source_health_enabled: boolean; daily_summary_enabled: boolean
+  minimum_importance: number; deadline_lead_days: number[]; quiet_start: string; quiet_end: string
+}
+export interface NotificationDeliveryClaim {
+  delivery_id: number; claim_token: string; event: NotificationEvent
+}

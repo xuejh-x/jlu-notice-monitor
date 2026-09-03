@@ -2,6 +2,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createImportanceRule, getImportanceRules, restoreImportanceDefaults, updateImportanceRule } from '../api/importance'
+import { getNotificationPreferences, updateNotificationPreferences } from '../api/notifications'
 import { ThemeProvider } from '../stores/theme'
 import { ToastProvider } from '../stores/toast'
 import { SettingsPage } from './SettingsPage'
@@ -10,6 +11,10 @@ vi.mock('../api/importance', () => ({
   getImportanceRules: vi.fn(), createImportanceRule: vi.fn(), updateImportanceRule: vi.fn(),
   deleteImportanceRule: vi.fn(), restoreImportanceDefaults: vi.fn(),
 }))
+vi.mock('../api/notifications', () => ({ getNotificationPreferences: vi.fn(), updateNotificationPreferences: vi.fn() }))
+vi.mock('../services/desktopNotifications', () => ({ requestDesktopNotificationPermission: vi.fn(() => Promise.resolve(true)) }))
+
+const notificationPreferences = { enabled: false, new_notice_enabled: true, important_notice_enabled: true, deadline_enabled: true, source_health_enabled: true, daily_summary_enabled: true, minimum_importance: 70, deadline_lead_days: [7, 3, 1], quiet_start: '23:00', quiet_end: '08:00' }
 
 function renderPage() {
   const client = new QueryClient({ defaultOptions: { queries: { retry: false }, mutations: { retry: false } } })
@@ -20,14 +25,25 @@ describe('SettingsPage', () => {
   beforeEach(() => {
     localStorage.clear(); vi.clearAllMocks()
     vi.mocked(getImportanceRules).mockResolvedValue([{ id: 1, keyword: 'PWN', weight: 8, enabled: true, is_system_default: true }])
+    vi.mocked(getNotificationPreferences).mockResolvedValue(notificationPreferences)
+    vi.mocked(updateNotificationPreferences).mockImplementation(async value => value)
   })
 
   it('organizes existing controls and the personal importance editor', async () => {
     renderPage()
     expect(screen.getByRole('heading', { level: 1, name: '设置' })).toBeInTheDocument()
-    for (const section of ['外观', '通知偏好', '个人重要度', '阅读与显示']) expect(screen.getByRole('heading', { level: 2, name: section })).toBeInTheDocument()
+    for (const section of ['外观', '通知偏好', '桌面提醒', '个人重要度', '阅读与显示']) expect(screen.getByRole('heading', { level: 2, name: section })).toBeInTheDocument()
     expect(screen.getByRole('combobox', { name: '外观主题' })).toBeInTheDocument()
     expect(await screen.findByDisplayValue('PWN')).toBeInTheDocument()
+  })
+
+  it('persists desktop notification controls through the local backend', async () => {
+    renderPage()
+    const master = await screen.findByRole('switch', { name: '桌面提醒' })
+    fireEvent.click(master)
+    await waitFor(() => expect(updateNotificationPreferences).toHaveBeenCalledWith(expect.objectContaining({ enabled: true }), expect.anything()))
+    expect(await screen.findByRole('combobox', { name: '截止提前' })).toHaveValue('7,3,1')
+    expect(screen.getByLabelText('静默开始')).toHaveValue('23:00')
   })
 
   it('keeps the existing local settings persistence behavior', () => {

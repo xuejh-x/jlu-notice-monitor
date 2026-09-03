@@ -2,6 +2,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { Info, Plus, Trash2 } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 import { createImportanceRule, deleteImportanceRule, getImportanceRules, restoreImportanceDefaults, updateImportanceRule } from '../api/importance'
+import { getNotificationPreferences, updateNotificationPreferences } from '../api/notifications'
 import { PageHeader } from '../components/layout/PageHeader'
 import { Button } from '../components/ui/Button'
 import { Card } from '../components/ui/Card'
@@ -10,7 +11,8 @@ import { Input, Select, Toggle } from '../components/ui/Form'
 import { loadSettings, saveSettings } from '../stores/settings'
 import { useTheme, type ThemeMode } from '../stores/theme'
 import { useToast } from '../stores/toast'
-import type { ImportanceRule } from '../types'
+import { requestDesktopNotificationPermission } from '../services/desktopNotifications'
+import type { ImportanceRule, NotificationPreferences } from '../types'
 
 function SettingsSection({ id, title, description, children }: { id: string; title: string; description: string; children: ReactNode }) {
   return (
@@ -67,6 +69,44 @@ function ImportanceSettings() {
   return <div className="divide-y divide-border"><div className="py-4"><div className="flex items-center gap-1"><h3 className="text-sm font-medium text-text-primary">个人关键词与分值</h3><ScoreHelp/></div><p className="mt-1 text-sm text-text-secondary">正数提高优先级，负数降低优先级；分类和截止日期仍作为客观信号。</p><div className="mt-3 grid gap-3 sm:grid-cols-[minmax(160px,1fr)_100px_auto]"><Input aria-label="新关键词" placeholder="例如：PWN" value={keyword} onChange={event => setKeyword(event.target.value)}/><Input aria-label="新关键词分值" type="number" min={-50} max={50} value={weight} onChange={event => setWeight(event.target.value)}/><Button variant="primary" disabled={!valid || add.isPending} onClick={() => add.mutate()}><Plus className="h-4 w-4"/>添加关键词</Button></div>{add.isError && <p role="alert" className="mt-2 text-xs text-danger">{add.error.message}</p>}</div>{rules.data.map(rule => <RuleRow key={rule.id} rule={rule} refresh={refresh}/>)}<div className="py-4">{confirmRestore ? <div role="alert" className="rounded-medium bg-surface-muted p-3 text-sm text-text-secondary"><p>恢复默认会替换当前全部个人关键词，并立即重新计算现有通知。</p><div className="mt-3 flex gap-2"><Button size="sm" variant="danger" onClick={() => restore.mutate()}>确认恢复</Button><Button size="sm" variant="ghost" onClick={() => setConfirmRestore(false)}>取消</Button></div></div> : <Button variant="ghost" onClick={() => setConfirmRestore(true)}>恢复系统默认</Button>}</div></div>
 }
 
+function DesktopNotificationSettings() {
+  const queryClient = useQueryClient()
+  const toast = useToast()
+  const preferences = useQuery({ queryKey: ['notification-preferences'], queryFn: ({ signal }) => getNotificationPreferences({ signal }) })
+  const save = useMutation({
+    mutationFn: updateNotificationPreferences,
+    onSuccess: value => {
+      queryClient.setQueryData(['notification-preferences'], value)
+      queryClient.invalidateQueries({ queryKey: ['notification-events'] })
+      toast('提醒设置已保存')
+    },
+  })
+  if (preferences.isPending) return <div className="py-5 text-sm text-text-muted">正在读取提醒设置…</div>
+  if (preferences.isError || !preferences.data) return <div className="py-5"><ErrorState error={preferences.error} retry={() => preferences.refetch()}/></div>
+  const value = preferences.data
+  const update = <K extends keyof NotificationPreferences>(key: K, next: NotificationPreferences[K]) => save.mutate({ ...value, [key]: next })
+  const toggleMaster = async () => {
+    if (value.enabled) return update('enabled', false)
+    if (!await requestDesktopNotificationPermission()) {
+      toast('未获得 Windows 通知权限，提醒仍保持关闭')
+      return
+    }
+    update('enabled', true)
+  }
+  return <>
+    <SettingRow id="desktop-notification-enabled" title="桌面提醒" description="在这台设备上通过 Windows 原生通知主动提醒；个人提醒状态不会上传云端。"><Toggle checked={value.enabled} aria-labelledby="desktop-notification-enabled-label" aria-describedby="desktop-notification-enabled-description" onClick={() => void toggleMaster()}/></SettingRow>
+    <SettingRow id="new-notice-enabled" title="新通知" description="收到普通新通知时提醒。"><Toggle disabled={!value.enabled} checked={value.new_notice_enabled} aria-labelledby="new-notice-enabled-label" onClick={() => update('new_notice_enabled', !value.new_notice_enabled)}/></SettingRow>
+    <SettingRow id="important-notice-enabled" title="重要通知" description="评分达到最低重要度时优先提醒，避免再弹一条普通新通知。"><Toggle disabled={!value.enabled} checked={value.important_notice_enabled} aria-labelledby="important-notice-enabled-label" onClick={() => update('important_notice_enabled', !value.important_notice_enabled)}/></SettingRow>
+    <SettingRow id="deadline-notification-enabled" title="截止提醒" description="在选定的提前天数提醒一次，截止日期变化时也会提醒。"><Toggle disabled={!value.enabled} checked={value.deadline_enabled} aria-labelledby="deadline-notification-enabled-label" onClick={() => update('deadline_enabled', !value.deadline_enabled)}/></SettingRow>
+    <SettingRow id="deadline-lead-days" title="截止提前" description="每个时间点只提醒一次。"><Select disabled={!value.enabled || !value.deadline_enabled} aria-labelledby="deadline-lead-days-label" value={value.deadline_lead_days.join(',')} onChange={event => update('deadline_lead_days', event.target.value.split(',').map(Number))} className="w-full sm:w-40"><option value="7,3,1">7、3、1 天</option><option value="3,1">3、1 天</option><option value="1">1 天</option></Select></SettingRow>
+    <SettingRow id="minimum-importance" title="最低重要度" description="达到该评分的新通知使用高重要度提醒。"><Select disabled={!value.enabled || !value.important_notice_enabled} aria-labelledby="minimum-importance-label" value={value.minimum_importance} onChange={event => update('minimum_importance', Number(event.target.value))} className="w-full sm:w-40"><option value="60">评分 60</option><option value="70">评分 70</option><option value="80">评分 80</option></Select></SettingRow>
+    <SettingRow id="daily-summary-enabled" title="每日摘要" description="每天本地时间 09:00 后生成一次当日摘要。"><Toggle disabled={!value.enabled} checked={value.daily_summary_enabled} aria-labelledby="daily-summary-enabled-label" onClick={() => update('daily_summary_enabled', !value.daily_summary_enabled)}/></SettingRow>
+    <SettingRow id="source-health-enabled" title="来源健康" description="仅在来源状态发生变化时提醒；云端未配置只作为信息提示。"><Toggle disabled={!value.enabled} checked={value.source_health_enabled} aria-labelledby="source-health-enabled-label" onClick={() => update('source_health_enabled', !value.source_health_enabled)}/></SettingRow>
+    <SettingRow id="quiet-hours" title="静默时间" description="静默期间保留提醒，结束后再发送。"><div className="flex items-center gap-2"><Input disabled={!value.enabled} aria-label="静默开始" type="time" value={value.quiet_start} onChange={event => update('quiet_start', event.target.value)} className="w-28"/><span className="text-sm text-text-muted">至</span><Input disabled={!value.enabled} aria-label="静默结束" type="time" value={value.quiet_end} onChange={event => update('quiet_end', event.target.value)} className="w-28"/></div></SettingRow>
+    {save.isError && <p role="alert" className="py-3 text-xs text-danger">{save.error.message}</p>}
+  </>
+}
+
 export function SettingsPage() {
   const { theme, setTheme } = useTheme()
   const [settings, setSettings] = useState(loadSettings)
@@ -99,6 +139,10 @@ export function SettingsPage() {
           <SettingRow id="hide-low-priority" title="精简优先列表" description="减少首页优先关注区域显示的条目数，不会隐藏或删除通知。">
             <Toggle checked={settings.hideLowPriority} aria-labelledby="hide-low-priority-label" aria-describedby="hide-low-priority-description" onClick={() => update('hideLowPriority', !settings.hideLowPriority)}/>
           </SettingRow>
+        </SettingsSection>
+
+        <SettingsSection id="desktop-notification-settings" title="桌面提醒" description="控制 Windows 主动提醒、截止时间与静默时段。">
+          <DesktopNotificationSettings/>
         </SettingsSection>
 
         <SettingsSection id="importance-settings" title="个人重要度" description="这些规则只保存在当前设备；修改后会重新计算全部现有通知。">

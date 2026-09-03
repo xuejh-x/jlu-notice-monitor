@@ -4,7 +4,8 @@ from datetime import date, timedelta
 from hashlib import sha256
 
 from app.database import Base, SessionLocal, engine
-from app.models import Notice, NoticeSourceRelation, Source, UserState
+from app.models import Notice, NoticeSourceRelation, NotificationPreference, Source, UserState
+from app.services.notifications import generate_scheduled_events, record_notice_event
 
 
 def add_notice(
@@ -76,6 +77,14 @@ def main() -> None:
         add_notice(db, notice_id=104, source=main_source, title="E2E 蓝桥杯竞赛通知", content="蓝桥杯校内选拔报名安排。", category="algorithm_competition", score=88, publish_date=today - timedelta(days=3), deadline=today + timedelta(days=12))
         add_notice(db, notice_id=105, source=lab_source, title="E2E 普通校园活动", content="校园活动报名与签到说明。", category="campus_activity", score=35, publish_date=today - timedelta(days=4), is_read=True)
         add_notice(db, notice_id=106, source=local_source, title="MOCK / FIXTURE promotion state notice", content="Cloud promotion state preservation fixture.", category="research", score=60, publish_date=today - timedelta(days=1), is_read=True, is_favorite=True)
+        add_notice(db, notice_id=107, source=main_source, title="E2E 三天后截止报名", content="用于截止提醒的稳定测试通知。", category="competition", score=65, publish_date=today, deadline=today + timedelta(days=3))
+        preferences = NotificationPreference(id=1, enabled=True, daily_summary_time="00:00")
+        db.add(preferences)
+        db.commit()
+        ordinary = db.get(Notice, 105)
+        assert ordinary is not None
+        record_notice_event(db, ordinary, "NEW")
+        generate_scheduled_events(db)
         db.commit()
 
 

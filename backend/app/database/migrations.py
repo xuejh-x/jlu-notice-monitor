@@ -130,3 +130,26 @@ def run_gate13_migrations(engine: Engine) -> None:
             text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('13.0', :now)"),
             {"now": now},
         )
+
+
+def run_gate14_migrations(engine: Engine) -> None:
+    """Seed the additive Gate 14 local notification schema idempotently."""
+
+    if engine.dialect.name != "sqlite":
+        return
+    now = datetime.now(UTC).replace(tzinfo=None).isoformat(sep=" ")
+    with engine.begin() as connection:
+        connection.execute(
+            text(
+                "INSERT OR IGNORE INTO notification_preferences "
+                "(id, enabled, new_notice_enabled, important_notice_enabled, deadline_enabled, "
+                "source_health_enabled, daily_summary_enabled, minimum_importance, deadline_lead_days, "
+                "quiet_start, quiet_end, daily_summary_time, created_at, updated_at) VALUES "
+                "(1, 0, 1, 1, 1, 1, 1, 70, '7,3,1', '23:00', '08:00', '09:00', :now, :now)"
+            ),
+            {"now": now},
+        )
+        connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('14.0', :now)"),
+            {"now": now},
+        )
