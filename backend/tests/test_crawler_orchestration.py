@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -70,6 +71,34 @@ async def test_incremental_skip_new_updated_unchanged_and_persistence(
         assert update_run.updated_count == 1 and update_run.new_count == 1
         assert update_run.detail_fetched == 2
         assert len(db.scalars(select(Notice)).all()) == 2
+
+
+@pytest.mark.asyncio
+async def test_incremental_skip_when_detail_enriches_optional_list_metadata(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
+    with make_session() as db:
+        source = Source(code="fixture", name="Fixture", base_url="https://example.test")
+        db.add(source)
+        db.commit()
+        list_item = NoticeCandidate(title="Notice", url="https://example.test/1")
+        detail = list_item.model_copy(
+            update={"content": "body", "publish_date": date(2026, 9, 8), "publisher": "Office"}
+        )
+        adapter = FixtureSource([list_item], {list_item.url: detail})
+        monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
+        monkeypatch.setattr(runner_module, "build_source", lambda _: adapter)
+        config = {"code": "fixture", "name": "Fixture", "base_url": "https://example.test"}
+
+        first_run = await manager._run_source(config, False)
+        assert first_run.detail_fetched == 1
+
+        unchanged_run = await manager._run_source(config, False)
+        assert unchanged_run.unchanged_count == 1
+        assert unchanged_run.detail_skipped == 1
+        assert unchanged_run.detail_fetched == 0
+        assert adapter.detail_calls == [list_item.url]
 
 
 @pytest.mark.asyncio
