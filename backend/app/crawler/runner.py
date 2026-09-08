@@ -574,11 +574,15 @@ class CrawlerManager:
         if relation is None:
             return None
         notice = relation.notice
-        if (
-            notice.title == item.title
-            and notice.publish_date == item.publish_date
-            and notice.publisher == item.publisher
-        ):
+        # Optional metadata that is absent from a list page cannot signal a
+        # change.  Detail pages often enrich these fields; comparing that
+        # enriched value with ``None`` would otherwise fetch the same detail
+        # page on every scheduled run.
+        publish_date_unchanged = (
+            item.publish_date is None or notice.publish_date == item.publish_date
+        )
+        publisher_unchanged = not item.publisher or notice.publisher == item.publisher
+        if notice.title == item.title and publish_date_unchanged and publisher_unchanged:
             return relation
         return None
 
