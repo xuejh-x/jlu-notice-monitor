@@ -51,6 +51,7 @@ export interface SourceConfiguration {
   auth_type: SourceAuthType; username: string | null; password_saved: boolean; login_url: string | null
   allow_private_network: boolean; health_state: SourceHealthState; last_error_code: string | null
   last_error: string | null; last_checked_at: string | null; last_success_at: string | null; requires_reauthentication: boolean
+  authentication_status?: 'not_required' | 'not_configured' | 'required' | 'authenticated'
   source_identity: string | null; cloud_source_id: string | null
   source_scope: 'official' | 'shared' | 'personal' | 'private'; execution: 'cloud' | 'local'
   cloud_policy: 'auto' | 'force_enabled' | 'force_disabled'; crawl_interval_seconds: number | null
@@ -81,7 +82,11 @@ export interface CrawlerStatus {
     last_scheduled_outcome: string | null; last_error: string | null
   }
   new_count: number; updated_count: number; unchanged_count?: number; source_results: CrawlerSourceResult[]
-  startup_sync?: { triggered: boolean; outcome: string | null }
+  startup_sync?: {
+    triggered: boolean; started_at: string | null; completed_at: string | null
+    outcome: 'started' | 'success' | 'partial_failure' | 'failure' | 'skipped_running' | 'cancelled' | string | null
+    skipped_reason: string | null
+  }
 }
 export interface NoticeFilters {
   category?: string; source?: string; min_score?: number; date_from?: string; date_to?: string

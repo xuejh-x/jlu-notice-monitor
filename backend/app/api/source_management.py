@@ -22,6 +22,7 @@ from app.database import get_db
 from app.models import Source
 from app.paths import get_auth_profile_dir
 from app.services.credentials import CredentialStorageUnavailable, credential_store
+from app.services.oa_login import oa_login_coordinator
 from app.services.source_identity import source_identity
 from app.services.source_security import UnsafeSourceUrl, validate_local_source_url, validate_url_syntax
 from app.sources.base import SourceError
@@ -146,6 +147,14 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         source.last_error_code,
         source.last_error,
     )
+    if source.auth_type == "none":
+        authentication_status = "not_required"
+    elif source.health_state in {"authenticated", "healthy"} or source.last_error_code == "OA_PARSER_UNCONFIGURED":
+        authentication_status = "authenticated"
+    elif source.health_state == "unconfigured":
+        authentication_status = "not_configured"
+    else:
+        authentication_status = "required"
     return {
         "id": source.id,
         "code": source.code,
@@ -168,6 +177,7 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         "last_checked_at": source.last_checked_at,
         "last_success_at": source.last_success_at,
         "requires_reauthentication": source.health_state == "needs_reauth",
+        "authentication_status": authentication_status,
         "source_identity": source.source_identity,
         "cloud_source_id": source.cloud_source_id,
         "source_scope": source.source_scope,
@@ -416,11 +426,28 @@ def check_source(source_id: int, db: Session = Depends(get_db)) -> dict[str, str
     return {"status": "started", "source": source.code}
 
 
-@router.post("/{source_id}/reauthenticate")
-def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
+@router.post("/{source_id}/reauthenticate", status_code=status.HTTP_202_ACCEPTED)
+async def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
     source = db.get(Source, source_id)
     if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
         raise HTTPException(status_code=404, detail="Private source not found")
+    if source.code == "oa" or source.parser == "oa":
+        configs = crawler_manager._load_source_configs(db)
+        config = next(item for item in configs if item["code"] == source.code)
+        try:
+            started = oa_login_coordinator.start(source.id, config)
+        except SourceError as exc:
+            raise HTTPException(status_code=503, detail=str(exc)) from exc
+        source.health_state = "needs_reauth"
+        source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
+        db.commit()
+        return {
+            "status": "login_window_opened" if started else "login_in_progress",
+            "source_id": source.id,
+            "auth_type": source.auth_type,
+            "login_url": source.login_url or source.base_url,
+            "message": "Complete SSO, CAPTCHA, MFA, or VPN access manually in the owned browser window.",
+        }
     source.health_state = "needs_reauth"
     source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
     db.commit()

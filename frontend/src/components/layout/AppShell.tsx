@@ -14,6 +14,7 @@ import { cn } from '../../utils/cn'
 import { relativeTime } from '../../utils/format'
 import { SearchDialog } from '../search/SearchDialog'
 import { CrawlerButton } from './CrawlerButton'
+import { isCrawlerJobRunning } from './crawlerStatus'
 import { getRouteTitle, desktopNavGroups, mobileNavItems, navGroups } from './navigation'
 import type { CrawlerStatus, DashboardData } from '../../types'
 
@@ -98,8 +99,9 @@ function HeaderActions({ crawler, crawlerError, dashboard }: { crawler?: Crawler
     }
   }, [active])
 
-  const statusText = crawlerError ? '检查服务连接异常' : crawler?.running ? '正在检查新通知' : '检查服务正常'
-  const statusTone = crawlerError ? 'bg-danger' : crawler?.running ? 'bg-warning' : 'bg-success'
+  const crawlRunning = isCrawlerJobRunning(crawler)
+  const statusText = crawlerError ? '检查服务连接异常' : crawlRunning ? '正在检查新通知' : crawler?.status === 'partial_failure' ? '最近检查部分失败' : crawler?.status === 'failure' ? '最近检查失败' : crawler?.status === 'success' ? '最近检查完成' : '检查服务空闲'
+  const statusTone = crawlerError || crawler?.status === 'failure' ? 'bg-danger' : crawlRunning || crawler?.status === 'partial_failure' ? 'bg-warning' : 'bg-success'
   const toggle = (name: 'alerts' | 'account') => setActive(current => current === name ? null : name)
   const reauthCount = dashboard?.source_status?.filter(source => source.status === 'needs_reauth' || source.status === 'login_expired').length ?? 0
   const notificationItems = Array.isArray(notifications.data?.items) ? notifications.data.items : []

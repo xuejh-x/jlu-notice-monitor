@@ -65,7 +65,11 @@ class Settings(BaseSettings):
     def effective_startup_sync_enabled(self) -> bool:
         if self.startup_sync_enabled is not None:
             return self.startup_sync_enabled
-        return self.effective_deployment_role == "desktop"
+        # Both the packaged Desktop backend and the ordinary local/standalone
+        # backend own a local database and should refresh it after readiness.
+        # Cloud keeps its scheduler-only lifecycle so a deploy/restart does not
+        # create an extra production crawl.
+        return self.effective_deployment_role != "cloud"
 
     @property
     def database_path(self) -> Path | None:

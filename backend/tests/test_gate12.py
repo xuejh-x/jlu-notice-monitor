@@ -44,15 +44,20 @@ from app.sources.generic import SafeFetcher, parse_configured_html, parse_rss_at
 
 
 class FakeCrawler:
-    def __init__(self, *, collision: bool = False) -> None:
+    def __init__(self, *, collision: bool = False, failure: bool = False) -> None:
         self.starts: list[str] = []
         self.collision = collision
+        self.failure = failure
 
     def start(self, *, trigger: str):
         self.starts.append(trigger)
         if self.collision:
             raise CrawlerAlreadyRunning("already running")
-        return object()
+        if self.failure:
+            raise RuntimeError("fixture start failure")
+        loop = asyncio.get_event_loop_policy().get_event_loop()
+        result = type("Result", (), {"status": "success"})()
+        return loop.create_task(asyncio.sleep(0, result=result))
 
 
 def make_session() -> Session:
@@ -63,19 +68,34 @@ def make_session() -> Session:
     return sessionmaker(bind=engine, expire_on_commit=False)()
 
 
-def test_startup_sync_triggers_exactly_once_and_collision_is_skipped() -> None:
+@pytest.mark.asyncio
+async def test_startup_sync_triggers_exactly_once_and_records_completion() -> None:
     crawler = FakeCrawler()
     coordinator = StartupSyncCoordinator(crawler)  # type: ignore[arg-type]
     assert coordinator.trigger_once() is True
     assert coordinator.trigger_once() is False
     assert crawler.starts == ["startup"]
-    assert coordinator.status() == {"triggered": True, "outcome": "started"}
+    assert coordinator.status()["outcome"] == "started"
+    assert coordinator.status()["started_at"] is not None
+    assert coordinator.status()["completed_at"] is None
+    await asyncio.sleep(0.01)
+    assert coordinator.status()["outcome"] == "success"
+    assert coordinator.status()["completed_at"] is not None
 
     busy = FakeCrawler(collision=True)
     skipped = StartupSyncCoordinator(busy)  # type: ignore[arg-type]
     assert skipped.trigger_once() is True
     assert skipped.status()["outcome"] == "skipped_running"
+    assert skipped.status()["skipped_reason"] == "crawler_already_running"
+    assert skipped.status()["completed_at"] is not None
     assert skipped.trigger_once() is False
+
+
+def test_startup_sync_start_failure_is_isolated() -> None:
+    coordinator = StartupSyncCoordinator(FakeCrawler(failure=True))  # type: ignore[arg-type]
+    assert coordinator.trigger_once() is True
+    assert coordinator.status()["outcome"] == "failure"
+    assert coordinator.status()["completed_at"] is not None
 
 
 def test_gate12_additive_migration_preserves_old_rows(tmp_path) -> None:

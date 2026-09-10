@@ -19,6 +19,10 @@ class LoginExpiredError(SourceError):
     pass
 
 
+class SourceNotConfiguredError(SourceError):
+    pass
+
+
 class NoticeSource(ABC):
     def __init__(self, config: dict[str, Any]) -> None:
         self.config = config

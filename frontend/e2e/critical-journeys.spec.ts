@@ -79,6 +79,71 @@ test.beforeEach(async ({ request }) => {
   await resetFixture(request)
 })
 
+test('Startup sync completion refreshes cached dashboard data', async ({ page }) => {
+  let statusCalls = 0
+  let dashboardCalls = 0
+  await page.route('**/api/crawler/status', async route => {
+    statusCalls += 1
+    const running = statusCalls === 1
+    await route.fulfill({ json: {
+      running, status: running ? 'running' : 'success', trigger_source: 'startup',
+      current_started_at: running ? '2026-09-10T08:00:00' : null,
+      last_run: running ? null : '2026-09-10T08:00:03', last_duration: running ? null : 3,
+      new_count: running ? 0 : 8, updated_count: 0, unchanged_count: 20, source_results: [],
+      startup_sync: { triggered: true, started_at: '2026-09-10T08:00:00', completed_at: running ? null : '2026-09-10T08:00:03', outcome: running ? 'started' : 'success', skipped_reason: null },
+    } })
+  })
+  await page.route('**/api/dashboard', async route => {
+    dashboardCalls += 1
+    await route.fulfill({ json: {
+      new_today: dashboardCalls === 1 ? 1 : 9, urgent: 0, important: 0,
+      upcoming_deadlines: 0, unread: 0, source_status: [], recent_notices: [],
+    } })
+  })
+  await page.goto('/notices')
+  await expect(page.getByText('9 条新增')).toBeVisible({ timeout: 8_000 })
+  await expect(page.getByText('检查完成')).toBeVisible()
+  expect(statusCalls).toBeGreaterThanOrEqual(2)
+  expect(dashboardCalls).toBeGreaterThanOrEqual(2)
+})
+
+test('OA first-login entry starts the backend-owned browser flow', async ({ page }) => {
+  const oa = {
+    ...localSource, id: 2, code: 'oa', name: '吉林大学 OA', base_url: 'https://oa.jlu.edu.cn',
+    ownership: 'CUSTOM_LOCAL_PRIVATE', source_type: 'private_browser', parser: 'oa',
+    auth_type: 'browser_session', enabled: false, health_state: 'unconfigured',
+    last_error_code: 'OA_LOGIN_NOT_CONFIGURED', requires_reauthentication: false,
+    authentication_status: 'not_configured', login_url: 'https://oa.jlu.edu.cn/defaultroot/login.jsp',
+    source_scope: 'private', execution: 'local', validation_status: 'untested', validated_at: null,
+  }
+  await page.route('**/api/source-config**', async route => {
+    const request = route.request()
+    if (request.method() === 'GET') {
+      await route.fulfill({ json: [officialSource, oa] })
+      return
+    }
+    if (request.method() === 'POST' && new URL(request.url()).pathname.endsWith('/2/reauthenticate')) {
+      await route.fulfill({ status: 202, json: {
+        status: 'login_window_opened', login_url: oa.login_url,
+        message: 'Complete the login in the owned browser window.',
+      } })
+      return
+    }
+    await route.fallback()
+  })
+  let popupOpened = false
+  page.on('popup', () => { popupOpened = true })
+  await page.goto('/sources')
+  await expect(page.getByText('认证：未配置')).toBeVisible()
+  await page.getByRole('button', { name: '首次登录' }).click()
+  await expect(page.getByText('已打开 OA 登录窗口，请在本机完成验证')).toBeVisible()
+  expect(popupOpened).toBeFalsy()
+  await page.setViewportSize({ width: 390, height: 844 })
+  await expect(page.getByText('吉林大学 OA')).toBeVisible()
+  const bodyWidth = await page.locator('body').evaluate(element => element.scrollWidth)
+  expect(bodyWidth).toBeLessThanOrEqual(390)
+})
+
 test('Dashboard → Notice Detail', async ({ page }) => {
   await page.goto('/dashboard')
   await expect(page.getByRole('main').getByRole('heading', { level: 1 })).toBeVisible()

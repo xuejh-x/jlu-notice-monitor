@@ -51,9 +51,14 @@ sources:
   - code: oa
     name: 吉林大学 OA
     base_url: https://oa.jlu.edu.cn
+    login_url: https://oa.jlu.edu.cn/defaultroot/login.jsp
     enabled: false
     parser: oa
     requires_login: true
+    dedup_across_sources: true
+    # The authenticated list/detail DOM must be captured and verified by the
+    # account owner before these selectors are configured. Do not guess them.
+    parser_config: {}
     sections:
       - name: 校内通知
         url: https://oa.jlu.edu.cn

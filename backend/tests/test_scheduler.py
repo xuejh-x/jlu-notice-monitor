@@ -13,6 +13,7 @@ from app.config import Settings
 from app.crawler.runner import CrawlerAlreadyRunning, CrawlerManager, SourceRunResult
 from app.database import Base
 from app.crawler.scheduler import CrawlerScheduler, SchedulerConfig
+from app.crawler.startup import StartupSyncCoordinator
 
 
 class FakeCrawler:
@@ -104,6 +105,25 @@ async def test_long_running_crawl_does_not_queue_overlapping_runs() -> None:
     await asyncio.sleep(0.055)
     assert len(crawler.calls) == 1
     await scheduler.shutdown()
+
+
+@pytest.mark.asyncio
+async def test_startup_sync_and_first_scheduled_tick_share_single_flight() -> None:
+    crawler = FakeCrawler(delay=0.04)
+    startup = StartupSyncCoordinator(crawler)  # type: ignore[arg-type]
+    scheduler = CrawlerScheduler(
+        crawler, SchedulerConfig(enabled=True, interval_minutes=1), interval_seconds=0.01
+    )
+    assert startup.trigger_once()
+    scheduler.start()
+    try:
+        await wait_until(lambda: scheduler.status()["last_scheduled_outcome"] == "skipped_running")
+        assert crawler.calls == ["startup"]
+        assert startup.status()["outcome"] == "started"
+    finally:
+        await scheduler.shutdown()
+        await asyncio.sleep(0.05)
+    assert startup.status()["outcome"] == "success"
 
 
 @pytest.mark.asyncio

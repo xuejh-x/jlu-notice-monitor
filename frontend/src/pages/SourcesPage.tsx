@@ -9,6 +9,7 @@ import {
   promoteSource, reauthenticateSource, setCloudPolicy, setSourceEnabled, setSourceSubscription,
 } from '../api/sources'
 import { PageHeader } from '../components/layout/PageHeader'
+import { SourceIcon } from '../components/notice/SourceIcon'
 import { Badge, type BadgeVariant } from '../components/ui/Badge'
 import { Button } from '../components/ui/Button'
 import { EmptyState, ErrorState, PageSkeleton } from '../components/ui/Feedback'
@@ -99,17 +100,37 @@ function SourceRow({ source, onEdit }: { source: SourceConfiguration; onEdit: ()
   const subscription = useMutation({ mutationFn: (value: boolean) => setSourceSubscription(source.id, value), onSuccess: refresh })
   const enabled = useMutation({ mutationFn: ({ value, acknowledged }: { value: boolean; acknowledged?: boolean }) => setSourceEnabled(source.id, value, acknowledged), onSuccess: async () => { setWarning(false); await refresh() } })
   const check = useMutation({ mutationFn: () => checkSource(source.id), onSuccess: () => toast('已开始检查该来源') })
-  const reauth = useMutation({ mutationFn: () => reauthenticateSource(source.id), onSuccess: async result => { toast('请在本机完成登录验证'); if (isTauri()) await openUrl(result.login_url); else window.open(result.login_url, '_blank', 'noopener,noreferrer') } })
+  const reauth = useMutation({
+    mutationFn: () => reauthenticateSource(source.id),
+    onSuccess: async result => {
+      await refresh()
+      if (result.status === 'login_window_opened' || result.status === 'login_in_progress') {
+        toast(result.status === 'login_window_opened' ? '已打开 OA 登录窗口，请在本机完成验证' : 'OA 登录窗口已在等待验证')
+        return
+      }
+      toast('请在本机完成登录验证')
+      if (isTauri()) await openUrl(result.login_url)
+      else window.open(result.login_url, '_blank', 'noopener,noreferrer')
+    },
+    onError: error => toast(error instanceof Error ? error.message : '无法启动登录配置', 'error'),
+  })
   const remove = useMutation({ mutationFn: (clear: boolean) => deleteSource(source.id, clear), onSuccess: async () => { await refresh(); toast('来源已删除') } })
   const admin = useMutation({ mutationFn: () => adminAction === 'promote' ? promoteSource(source.id, adminKey) : setCloudPolicy(source.id, adminAction!, adminKey), onSuccess: async result => { setAdminKey(''); setAdminError(null); setAdminAction(null); await refresh(); toast(result.promotion_reused ? '云端已有该来源，已完成本地关联' : '云端来源设置已更新') }, onError: error => { setAdminKey(''); setAdminError(error instanceof Error ? error.message : '管理员操作失败') } })
   const official = source.ownership === 'OFFICIAL_CLOUD'; const shared = source.ownership === 'SHARED_CLOUD'; const cloud = official || shared; const privateSource = source.ownership === 'CUSTOM_LOCAL_PRIVATE'
   const publicFeedMissing = cloud && (source.health_state === 'cloud_unconfigured' || source.last_error_code === 'PUBLIC_FEED_NOT_CONFIGURED' || Boolean(source.last_error?.includes('PUBLIC_FEED_NOT_CONFIGURED')))
   const displayHealth = publicFeedMissing ? 'cloud_unconfigured' : source.health_state
+  const authenticationRequired = privateSource && (
+    source.requires_reauthentication
+    || source.authentication_status === 'not_configured'
+    || source.authentication_status === 'required'
+    || (!source.authentication_status && source.health_state === 'unconfigured')
+  )
+  const authenticationLabel = source.authentication_status === 'authenticated' ? '已认证' : source.authentication_status === 'not_configured' ? '未配置' : source.authentication_status === 'required' ? '需要认证' : '无需认证'
   return (
     <article className="border-b border-border px-4 py-4 last:border-0 sm:px-5">
       <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
-        <div className="min-w-0"><div className="flex flex-wrap items-center gap-2"><h3 className="text-sm font-medium text-text-primary">{source.name}</h3>{shared && <Badge variant="neutral">云端共享</Badge>}<Badge variant={healthVariant(displayHealth)}>{healthLabels[displayHealth] ?? displayHealth}</Badge>{shared && <Badge variant={source.cloud_policy === 'force_enabled' ? 'success' : 'neutral'}>{source.cloud_policy === 'force_enabled' ? '管理员强制上云' : source.cloud_policy === 'force_disabled' ? '管理员禁止云抓取' : '自动策略'}</Badge>}</div><p className="mt-1 text-metadata text-text-muted">最近成功：{relativeTime(source.last_success_at)}{source.last_error_code && !publicFeedMissing ? ` · ${source.last_error_code}` : ''}</p></div>
-        <div className="flex flex-wrap items-center gap-2">{cloud ? <><label className="flex items-center gap-2 text-sm text-text-secondary"><span>{source.subscribed ? '已订阅' : '未订阅'}</span><Toggle checked={source.subscribed} onClick={() => subscription.mutate(!source.subscribed)} /></label>{shared && source.cloud_policy === 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_disabled') }}>移出云端</Button>}{shared && source.cloud_policy !== 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_enabled') }}>上云</Button>}{shared && source.cloud_policy !== 'auto' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('auto') }}>恢复自动</Button>}</> : <><Button size="sm" variant="ghost" onClick={onEdit}><Pencil className="h-3.5 w-3.5"/>编辑</Button><Button size="sm" variant="ghost" disabled={check.isPending || source.requires_reauthentication || !source.enabled} onClick={() => check.mutate()}><RefreshCw className="h-3.5 w-3.5"/>检查</Button>{!privateSource && <Button size="sm" variant="ghost" disabled={source.validation_status !== 'passed'} onClick={() => { setAdminError(null); setAdminAction('promote') }}>上云</Button>}{privateSource && source.requires_reauthentication && <Button size="sm" onClick={() => reauth.mutate()}><ShieldAlert className="h-3.5 w-3.5"/>重新登录</Button>}<Button size="sm" variant="ghost" onClick={() => source.enabled ? enabled.mutate({ value: false }) : privateSource ? setWarning(true) : enabled.mutate({ value: true })}>{source.enabled ? '停用' : '启用'}</Button><Button size="icon" variant="ghost" aria-label={`删除${source.name}`} onClick={() => setDeleteConfirm(true)}><Trash2 className="h-4 w-4"/></Button></>}</div>
+        <div className="flex min-w-0 items-start gap-3"><SourceIcon name={source.name}/><div className="min-w-0"><div className="flex flex-wrap items-center gap-2"><h3 className="text-sm font-medium text-text-primary">{source.name}</h3>{shared && <Badge variant="neutral">云端共享</Badge>}<Badge variant={healthVariant(displayHealth)}>{healthLabels[displayHealth] ?? displayHealth}</Badge>{shared && <Badge variant={source.cloud_policy === 'force_enabled' ? 'success' : 'neutral'}>{source.cloud_policy === 'force_enabled' ? '管理员强制上云' : source.cloud_policy === 'force_disabled' ? '管理员禁止云抓取' : '自动策略'}</Badge>}</div><p className="mt-1 text-metadata text-text-muted">最近成功：{relativeTime(source.last_success_at)}{privateSource ? ` · 认证：${authenticationLabel}` : ''}{source.last_error_code && !publicFeedMissing ? ` · ${source.last_error_code}` : ''}</p></div></div>
+        <div className="flex flex-wrap items-center gap-2">{cloud ? <><label className="flex items-center gap-2 text-sm text-text-secondary"><span>{source.subscribed ? '已订阅' : '未订阅'}</span><Toggle checked={source.subscribed} onClick={() => subscription.mutate(!source.subscribed)} /></label>{shared && source.cloud_policy === 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_disabled') }}>移出云端</Button>}{shared && source.cloud_policy !== 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_enabled') }}>上云</Button>}{shared && source.cloud_policy !== 'auto' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('auto') }}>恢复自动</Button>}</> : <>{source.code !== 'oa' && <Button size="sm" variant="ghost" onClick={onEdit}><Pencil className="h-3.5 w-3.5"/>编辑</Button>}<Button size="sm" variant="ghost" disabled={check.isPending || source.requires_reauthentication || !source.enabled} onClick={() => check.mutate()}><RefreshCw className="h-3.5 w-3.5"/>检查</Button>{!privateSource && <Button size="sm" variant="ghost" disabled={source.validation_status !== 'passed'} onClick={() => { setAdminError(null); setAdminAction('promote') }}>上云</Button>}{authenticationRequired && <Button size="sm" onClick={() => reauth.mutate()} disabled={reauth.isPending}><ShieldAlert className="h-3.5 w-3.5"/>{source.authentication_status === 'not_configured' || source.health_state === 'unconfigured' ? '首次登录' : '重新登录'}</Button>}<Button size="sm" variant="ghost" onClick={() => source.enabled ? enabled.mutate({ value: false }) : privateSource ? setWarning(true) : enabled.mutate({ value: true })}>{source.enabled ? '停用' : '启用'}</Button><Button size="icon" variant="ghost" aria-label={`删除${source.name}`} onClick={() => setDeleteConfirm(true)}><Trash2 className="h-4 w-4"/></Button></>}</div>
       </div>
       {source.requires_reauthentication && <p className="mt-3 flex items-center gap-2 text-sm text-warning"><TriangleAlert className="h-4 w-4"/>此来源已暂停自动抓取，完成重新登录后才会恢复。</p>}
       {publicFeedMissing && <p className="mt-3 text-sm text-text-muted">等待 Notice Hub 公共源启用</p>}

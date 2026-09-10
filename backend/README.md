@@ -75,9 +75,9 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 
 ## OA 当前状态
 
-OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`、`status: "disabled"` 和“尚未完成首次登录配置”。它不参与公开 Source 的抓取，也不会影响公开 Source 的成功或失败。
+OA 数据源当前默认关闭，并明确显示为“需要完成首次登录配置”。它不参与公开 Source 的抓取，也不会影响公开 Source 的成功或失败。
 
-框架已预留 Playwright persistent context、登录状态检查、`OA_LOGIN_EXPIRED` 异常和独立 Source 隔离。浏览器 profile 保存到 `data/browser_profile/oa/`，不会读取或保存明文密码，且已被 `.gitignore` 排除。
+框架使用 Playwright persistent context、人工登录协调器、登录过期状态、配置化 DOM 选择器和独立 Source 隔离。浏览器 profile 保存到 `data/browser_profile/oa/`，不会读取或保存明文密码，且已被 `.gitignore` 排除。登录后的 DOM 尚未在授权校园网/VPN 会话中验证，因此 OA 仍为 `unconfigured`，不能称为 ready。
 
 首次在能够正常访问 OA 的网络环境中执行：
 
@@ -87,7 +87,7 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 .\.venv\Scripts\python.exe -m app oa-login
 ```
 
-浏览器打开后由本人完成统一身份认证。首次真实登录后，先根据登录后的实际 HTML 完成并测试 OA Adapter，再将 `config/sources.yaml` 中 OA 的 `enabled` 改为 `true`，最后执行：
+也可以在 Sources 页面点击“首次登录”，由后端打开 OA 专用 Edge profile。浏览器打开后由本人完成统一身份认证。首次真实登录后，先根据登录后的实际 HTML 完成并测试 OA Adapter 的 `parser_config`，再启用 OA，最后执行：
 
 ```powershell
 .\.venv\Scripts\python.exe -m app crawl --source oa

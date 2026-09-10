@@ -124,6 +124,40 @@ async def test_source_failure_is_isolated_and_reported(monkeypatch: pytest.Monke
 
 
 @pytest.mark.asyncio
+async def test_oa_auth_failure_does_not_block_public_sources(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    manager = CrawlerManager(cache_dir=tmp_path)
+    configs = [
+        {"code": "oa", "name": "OA", "base_url": "https://oa.test", "enabled": True},
+        {"code": "public", "name": "Public", "base_url": "https://public.test", "enabled": True},
+    ]
+    session = make_session()
+    monkeypatch.setattr(runner_module, "SessionLocal", lambda: session)
+    monkeypatch.setattr(runner_module, "init_db", lambda: None)
+    monkeypatch.setattr(manager, "_sync_sources", lambda *_: None)
+    monkeypatch.setattr(manager, "_load_source_configs", lambda *_: configs)
+    monkeypatch.setattr(
+        runner_module,
+        "load_yaml",
+        lambda name: {"sources": configs}
+        if name == "sources.yaml"
+        else {"crawler": {"source_concurrency": 2}},
+    )
+
+    async def isolated(config: dict[str, object], _: bool) -> SourceRunResult:
+        if config["code"] == "oa":
+            return SourceRunResult(source="oa", status="failure", errors=["OA_LOGIN_EXPIRED"])
+        return SourceRunResult(source="public", status="success", new_count=1)
+
+    monkeypatch.setattr(manager, "_run_source", isolated)
+    result = await manager.run()
+    assert result.status == "partial_failure"
+    assert result.new_count == 1
+    assert [item.status for item in result.source_results] == ["failure", "success"]
+
+
+@pytest.mark.asyncio
 async def test_bad_detail_is_partial_failure_but_healthy_items_persist(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:

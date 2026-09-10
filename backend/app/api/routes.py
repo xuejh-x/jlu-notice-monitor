@@ -275,15 +275,18 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
         if item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and not item.subscribed:
             source_status = "disabled"
             message = "当前设备未订阅此官方来源"
+        elif item.health_state == "needs_reauth" or item.last_error == "OA_LOGIN_EXPIRED":
+            source_status = "needs_reauth"
+            message = "登录状态已失效，请在来源页面重新登录"
+        elif item.code == "oa" and item.health_state == "unconfigured":
+            source_status = "login_required"
+            message = "需要完成首次登录配置"
         elif not item.enabled:
             source_status = "disabled"
             message = "尚未完成首次登录配置" if item.code == "oa" else "数据源已禁用"
         elif public_feed_missing:
             source_status = "cloud_unconfigured"
             message = "等待 Notice Hub 公共源启用"
-        elif item.health_state == "needs_reauth" or item.last_error == "OA_LOGIN_EXPIRED":
-            source_status = "needs_reauth"
-            message = "登录状态已失效，请在来源页面重新登录"
         elif item.health_state in {"auth_error", "parse_error", "network_error", "source_error", "unsupported", "syncing"}:
             source_status = item.health_state
             message = item.last_error

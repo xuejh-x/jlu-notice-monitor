@@ -28,7 +28,7 @@ from app.services.source_identity import resolve_cloud_execution, source_identit
 from app.services.importance import enabled_rule_values
 from app.services.notifications import record_notice_event, record_source_health_transition
 from app.sources import build_source
-from app.sources.base import LoginExpiredError
+from app.sources.base import LoginExpiredError, SourceNotConfiguredError
 from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED
 from app.paths import get_cache_dir
 from app.logging_config import log_event
@@ -323,14 +323,30 @@ class CrawlerManager:
                 "cloud_feed" if role == "desktop" else str(config.get("parser", config["code"]))
             )
             source.auth_type = "browser_session" if is_private else "none"
-            source.login_url = source.login_url or (source.base_url if is_private else None)
+            source.login_url = source.login_url or (
+                str(config.get("login_url") or source.base_url) if is_private else None
+            )
+            if is_private and config.get("parser_config"):
+                source.parser_config = json.dumps(config["parser_config"], ensure_ascii=False)
             source.session_profile_ref = source.session_profile_ref or ("oa-profile" if is_private else None)
             source.source_identity = source.source_identity or source_identity(source.base_url)
             source.source_scope = "private" if is_private else "official"
             source.execution = "local" if is_private else "cloud"
             source.cloud_source_id = None if is_private else source.code
             source.validation_status = "untested" if is_private else "passed"
-            if created and not source.enabled:
+            if created and is_private:
+                source.health_state = "unconfigured"
+                source.last_error_code = "OA_LOGIN_NOT_CONFIGURED"
+            elif (
+                is_private
+                and not source.enabled
+                and source.last_success_at is None
+                and source.validation_status == "untested"
+                and source.health_state == "disabled"
+            ):
+                source.health_state = "unconfigured"
+                source.last_error_code = "OA_LOGIN_NOT_CONFIGURED"
+            elif created and not source.enabled:
                 source.health_state = "disabled"
         db.commit()
 
@@ -481,7 +497,13 @@ class CrawlerManager:
                         run_result.detail_duration_seconds += time.perf_counter() - detail_started
                         run_result.detail_fetched += 1
                         persist_started = time.perf_counter()
-                        state = self._persist_candidate(db, db_source, detail, bootstrap)
+                        state = self._persist_candidate(
+                            db,
+                            db_source,
+                            detail,
+                            bootstrap,
+                            dedup_across_sources=bool(config.get("dedup_across_sources", False)),
+                        )
                         run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
                         if state == "NEW":
                             run_result.new_count += 1
@@ -489,6 +511,11 @@ class CrawlerManager:
                             run_result.updated_count += 1
                         else:
                             run_result.unchanged_count += 1
+                    except (LoginExpiredError, SourceNotConfiguredError):
+                        # Authentication and adapter-contract state apply to the
+                        # whole source, even when discovered on a detail page.
+                        # Let the source-level handlers persist the right state.
+                        raise
                     except Exception as exc:  # one bad notice must not stop a source
                         message = f"{item.url}: {type(exc).__name__}: {exc}"
                         run_result.errors.append(message)
@@ -504,6 +531,13 @@ class CrawlerManager:
                     db_source.last_error = None
                     db_source.consecutive_errors = 0
                 run_result.status = "partial_failure" if run_result.errors else "success"
+            except SourceNotConfiguredError as exc:
+                error_code = str(exc) or "SOURCE_NOT_CONFIGURED"
+                db_source.last_error = error_code
+                db_source.last_error_code = error_code
+                db_source.health_state = "unconfigured"
+                run_result.errors.append(error_code)
+                run_result.status = "skipped"
             except LoginExpiredError as exc:
                 error_code = str(exc) or "AUTH_SESSION_EXPIRED"
                 db_source.last_error = error_code
@@ -599,7 +633,12 @@ class CrawlerManager:
 
     @staticmethod
     def _persist_candidate(
-        db: Session, source: Source, candidate: NoticeCandidate, bootstrap: bool
+        db: Session,
+        source: Source,
+        candidate: NoticeCandidate,
+        bootstrap: bool,
+        *,
+        dedup_across_sources: bool = False,
     ) -> str:
         now = utcnow()
         normalized = normalize_title(candidate.title)
@@ -629,7 +668,7 @@ class CrawlerManager:
             normalized,
             canonical,
             candidate.publish_date,
-            source_id=source.id,
+            source_id=None if dedup_across_sources else source.id,
             public_id=candidate.public_id,
         )
         existing_relation = None

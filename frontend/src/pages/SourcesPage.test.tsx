@@ -108,6 +108,29 @@ describe('SourcesPage', () => {
     open.mockRestore()
   })
 
+  it('offers OA first-login setup and uses the backend-owned browser window', async () => {
+    const open = vi.spyOn(window, 'open').mockImplementation(() => null)
+    vi.mocked(getSourceConfiguration).mockResolvedValue([official, {
+      ...privateSource,
+      code: 'oa',
+      health_state: 'unconfigured',
+      requires_reauthentication: false,
+      authentication_status: 'not_configured',
+      last_error_code: 'OA_LOGIN_NOT_CONFIGURED',
+    }])
+    vi.mocked(reauthenticateSource).mockResolvedValue({
+      status: 'login_window_opened', login_url: 'https://oa.example.test/login', message: 'manual login',
+    })
+    renderPage()
+    const firstLogin = await screen.findByRole('button', { name: /首次登录/ })
+    expect(document.body).toHaveTextContent('认证：未配置')
+    fireEvent.click(firstLogin)
+    await waitFor(() => expect(reauthenticateSource).toHaveBeenCalledWith(2))
+    expect(await screen.findByText('已打开 OA 登录窗口，请在本机完成验证')).toBeInTheDocument()
+    expect(open).not.toHaveBeenCalled()
+    open.mockRestore()
+  })
+
   it('requires a successful test and opens a non-persistent admin-key dialog for promotion', async () => {
     vi.mocked(getSourceConfiguration).mockResolvedValue([official, { ...publicSource, validation_status: 'untested', validated_at: null }])
     renderPage(); await screen.findByText('MOCK / FIXTURE 公开来源')

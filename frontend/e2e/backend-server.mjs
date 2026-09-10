@@ -21,6 +21,7 @@ const environment = {
   JLU_HOST: '127.0.0.1',
   JLU_PORT: '8010',
   JLU_CORS_ORIGINS: '["http://127.0.0.1:4173"]',
+  JLU_STARTUP_SYNC_ENABLED: 'false',
   PYTHONPATH: [backendDir, backendSitePackages, process.env.PYTHONPATH].filter(Boolean).join(delimiter),
 }
 

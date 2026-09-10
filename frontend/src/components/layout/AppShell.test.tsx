@@ -74,7 +74,7 @@ describe('AppShell navigation', () => {
     fireEvent.click(trigger)
     const popover = await screen.findByRole('dialog', { name: '提醒中心' })
     expect(trigger).toHaveAttribute('aria-expanded', 'true')
-    expect(within(popover).getByText('检查服务正常')).toBeInTheDocument()
+    expect(within(popover).getByText('检查服务空闲')).toBeInTheDocument()
     expect(within(popover).getByRole('button', { name: /报名即将截止/ })).toHaveTextContent('还有 3 天截止')
     expect(within(popover).getByText('1 条未读提醒')).toBeInTheDocument()
     expect(within(popover).getByRole('link', { name: '提醒设置' })).toHaveAttribute('href', '/settings')

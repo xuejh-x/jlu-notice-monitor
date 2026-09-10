@@ -54,8 +54,8 @@ def test_notice_api_and_dashboard() -> None:
         assert response.json()["items"][0]["sources"][0]["code"] == "ccst"
         source_payload = client.get("/api/sources").json()
         oa_payload = next(item for item in source_payload if item["code"] == "oa")
-        assert oa_payload["status"] == "disabled"
-        assert oa_payload["message"] == "尚未完成首次登录配置"
+        assert oa_payload["status"] == "login_required"
+        assert oa_payload["message"] == "需要完成首次登录配置"
         assert client.get("/api/dashboard").status_code == 200
         assert client.post(f"/api/notices/{notice.id}/favorite").json()["is_favorite"] is True
     finally:
