@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import json
 from pathlib import PurePosixPath
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, unquote, urljoin, urlsplit, urlunsplit
@@ -11,6 +12,8 @@ from app.config import get_settings
 from app.paths import get_oa_profile_dir
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.normalization import normalize_whitespace
+from app.services.chrome_session import ChromeCDPSession, ChromeSessionError, inspect_chrome_environment
+from app.services.credentials import credential_store
 from app.sources.base import LoginExpiredError, NoticeSource, SourceError, SourceNotConfiguredError
 from app.sources.generic import parse_configured_html
 
@@ -59,29 +62,36 @@ class OASource(NoticeSource):
         sections = list(config.get("sections") or [])
         self.list_url = str(sections[0].get("url")) if sections else self.base_url
         self.login_url = str(config.get("login_url") or self.base_url)
-        self.context: Any | None = None
-        self.playwright: Any | None = None
+        self.browser: ChromeCDPSession | None = None
+        self.credential_ref = str(config.get("credential_ref") or "")
+        self._cookies_restored = False
         self._source_urls: dict[str, str] = {}
 
     @staticmethod
     def ensure_runtime_available() -> None:
-        try:
-            import playwright.async_api  # noqa: F401
-        except ImportError as exc:
-            raise SourceError("OA_BROWSER_RUNTIME_UNAVAILABLE") from exc
+        environment = inspect_chrome_environment()
+        if environment.error_code:
+            raise SourceError(environment.error_code)
 
-    async def _ensure_context(self, headless: bool | None = None) -> Any:
+    async def _ensure_context(self, headless: bool | None = None) -> ChromeCDPSession:
         self.ensure_runtime_available()
-        from playwright.async_api import async_playwright
-
-        if self.context is None:
-            self.profile_path.mkdir(parents=True, exist_ok=True)
-            self.playwright = await async_playwright().start()
+        if self.browser is None:
             configured = get_settings().oa_headless if headless is None else headless
-            self.context = await self.playwright.chromium.launch_persistent_context(
-                str(self.profile_path), headless=configured, channel="msedge"
-            )
-        return self.context
+            self.browser = ChromeCDPSession(self.profile_path, headless=configured)
+            try:
+                await self.browser.start()
+            except ChromeSessionError as exc:
+                self.browser = None
+                raise SourceError(str(exc)) from exc
+        if not self._cookies_restored and self.credential_ref:
+            secret = credential_store.load(self.credential_ref)
+            if secret:
+                try:
+                    await self.browser.restore_cookies(json.loads(secret))
+                except (TypeError, ValueError, ChromeSessionError) as exc:
+                    raise SourceError("OA_SESSION_RESTORE_FAILED") from exc
+            self._cookies_restored = True
+        return self.browser
 
     @staticmethod
     def _looks_like_login(url: str, text: str) -> bool:
@@ -92,31 +102,50 @@ class OASource(NoticeSource):
     async def _page_snapshot(
         self, url: str, *, headless: bool | None = None, wait_until: str = "domcontentloaded"
     ) -> tuple[str, str, str]:
-        context = await self._ensure_context(headless=headless)
-        page = context.pages[0] if context.pages else await context.new_page()
-        response = await page.goto(url, wait_until=wait_until)
-        if response is not None and response.status >= 400:
-            raise SourceError(f"OA_HTTP_{response.status}")
-        return await page.content(), page.url, await page.locator("body").inner_text()
+        browser = await self._ensure_context(headless=headless)
+        try:
+            return await browser.navigate(url)
+        except ChromeSessionError as exc:
+            raise SourceError(str(exc)) from exc
 
     def _require_parser_configuration(self) -> None:
         required = ("item_selector", "title_selector", "link_selector", "content_selector")
         if any(not str(self.parser_config.get(key) or "").strip() for key in required):
             raise SourceNotConfiguredError("OA_PARSER_UNCONFIGURED")
 
+    async def open_login_window(self) -> None:
+        browser = await self._ensure_context(headless=False)
+        try:
+            await browser.navigate(self.login_url)
+        except ChromeSessionError as exc:
+            raise SourceError(str(exc)) from exc
+
+    async def capture_session(self, reference: str) -> bool:
+        browser = await self._ensure_context(headless=False)
+        try:
+            _, current, text = await browser.navigate(self.base_url)
+            if self._looks_like_login(current, text):
+                return False
+            host = (urlsplit(self.base_url).hostname or "").lower()
+            cookies = [
+                cookie for cookie in await browser.cookies()
+                if host == str(cookie.get("domain") or "").lstrip(".").lower()
+                or host.endswith("." + str(cookie.get("domain") or "").lstrip(".").lower())
+            ]
+            if not cookies:
+                raise SourceError("OA_SESSION_COOKIE_MISSING")
+            credential_store.save(reference, json.dumps(cookies, ensure_ascii=False, separators=(",", ":")))
+            self.credential_ref = reference
+            return True
+        except ChromeSessionError as exc:
+            raise SourceError(str(exc)) from exc
+
     async def login_setup(self, timeout_seconds: float = 300) -> str:
-        """Open the owned profile for manual SSO/CAPTCHA/MFA and observe completion."""
-        context = await self._ensure_context(headless=False)
-        page = context.pages[0] if context.pages else await context.new_page()
-        response = await page.goto(self.login_url, wait_until="domcontentloaded")
-        if response is not None and response.status >= 500:
-            raise SourceError(f"OA_HTTP_{response.status}")
+        """Compatibility CLI flow; Desktop uses open_login_window + capture_session."""
+        await self.open_login_window()
         deadline = asyncio.get_running_loop().time() + timeout_seconds
         while asyncio.get_running_loop().time() < deadline:
-            if page.is_closed():
-                raise LoginExpiredError("OA_LOGIN_CANCELLED")
-            current = page.url
-            text = await page.locator("body").inner_text()
+            _, current, text = await self._page_snapshot(self.base_url, headless=False)
             if not self._looks_like_login(current, text):
                 try:
                     self._require_parser_configuration()
@@ -127,7 +156,7 @@ class OASource(NoticeSource):
                 except SourceNotConfiguredError:
                     return "authenticated_unconfigured"
                 return "ready"
-            await page.wait_for_timeout(1000)
+            await asyncio.sleep(1)
         raise LoginExpiredError("OA_LOGIN_TIMEOUT")
 
     async def check_login(self) -> bool:
@@ -196,12 +225,9 @@ class OASource(NoticeSource):
         )
 
     async def close(self) -> None:
-        if self.context:
-            await self.context.close()
-            self.context = None
-        if self.playwright:
-            await self.playwright.stop()
-            self.playwright = None
+        if self.browser:
+            await self.browser.close()
+            self.browser = None
 
 
 OaSource = OASource

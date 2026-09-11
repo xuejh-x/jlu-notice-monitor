@@ -12,6 +12,7 @@ a = Analysis(
         "uvicorn.lifespan.on",
         "uvicorn.loops.asyncio",
         "uvicorn.protocols.http.h11_impl",
+        "websockets.asyncio.client",
     ],
     hookspath=[],
     hooksconfig={},

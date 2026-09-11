@@ -23,6 +23,7 @@ SOURCE_TYPES: dict[str, type[NoticeSource]] = {
     "generic_html": GenericPublicSource,
     "rss": GenericPublicSource,
     "atom": GenericPublicSource,
+    "api": GenericPublicSource,
     "cloud_feed": CloudFeedSource,
     "authenticated_http": AuthenticatedHTTPSource,
 }

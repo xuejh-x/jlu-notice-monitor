@@ -20,7 +20,7 @@ from app.crawler import crawler_manager
 from app.crawler.runner import CrawlerAlreadyRunning
 from app.database import get_db
 from app.models import Source
-from app.paths import get_auth_profile_dir
+from app.paths import get_auth_profile_dir, get_oa_profile_dir
 from app.services.credentials import CredentialStorageUnavailable, credential_store
 from app.services.oa_login import oa_login_coordinator
 from app.services.source_identity import source_identity
@@ -33,14 +33,18 @@ router = APIRouter(prefix="/source-config", tags=["source-configuration"])
 
 
 class ParserConfiguration(BaseModel):
+    type: Literal["html_selector"] | None = None
     item_selector: str | None = Field(default=None, max_length=500)
     title_selector: str | None = Field(default=None, max_length=500)
     link_selector: str | None = Field(default=None, max_length=500)
     date_selector: str | None = Field(default=None, max_length=500)
+    url_selector: str | None = Field(default=None, max_length=500)
+    time_selector: str | None = Field(default=None, max_length=500)
     content_selector: str | None = Field(default=None, max_length=500)
     attachment_selector: str | None = Field(default=None, max_length=500)
     next_page_selector: str | None = Field(default=None, max_length=500)
     pagination_limit: int = Field(default=1, ge=1, le=3)
+    default_category: str | None = Field(default=None, max_length=80)
 
 
 AuthType = Literal[
@@ -59,7 +63,7 @@ class SourceDraft(BaseModel):
     name: str = Field(min_length=1, max_length=200)
     list_url: str = Field(min_length=8, max_length=2000)
     kind: Literal["public", "private"] = "public"
-    parser: Literal["auto", "generic_html", "rss", "atom"] = "auto"
+    parser: Literal["auto", "generic_html", "rss", "atom", "api"] = "auto"
     parser_config: ParserConfiguration = Field(default_factory=ParserConfiguration)
     auth_type: AuthType = "none"
     login_url: str | None = Field(default=None, max_length=2000)
@@ -84,7 +88,7 @@ class SourceCreate(SourceDraft):
 class SourceEdit(BaseModel):
     name: str | None = Field(default=None, min_length=1, max_length=200)
     list_url: str | None = Field(default=None, min_length=8, max_length=2000)
-    parser: Literal["auto", "generic_html", "rss", "atom"] | None = None
+    parser: Literal["auto", "generic_html", "rss", "atom", "api"] | None = None
     parser_config: ParserConfiguration | None = None
     login_url: str | None = Field(default=None, max_length=2000)
     username: str | None = Field(default=None, max_length=300)
@@ -116,6 +120,18 @@ class CloudPolicyRequest(PromotionRequest):
     cloud_policy: Literal["auto", "force_enabled", "force_disabled"]
 
 
+class CloudSourceCreateRequest(BaseModel):
+    admin_key: str = Field(min_length=1, max_length=4096)
+    preview_token: str
+    name: str = Field(min_length=1, max_length=200)
+    list_url: str = Field(min_length=8, max_length=2000)
+    parser: Literal["auto", "generic_html", "rss", "atom", "api"] = "auto"
+    parser_config: ParserConfiguration = Field(default_factory=ParserConfiguration)
+    category: str | None = Field(default=None, max_length=80)
+    crawl_interval_seconds: int | None = Field(default=None, ge=900, le=86400)
+    public_shared: bool = True
+
+
 _preview_tokens: dict[str, tuple[str, datetime]] = {}
 
 
@@ -136,10 +152,15 @@ def _issue_preview_token(draft: SourceDraft) -> str:
     return token
 
 
-def _consume_preview_token(token: str, draft: SourceDraft) -> None:
-    value = _preview_tokens.pop(token, None)
+def _validate_preview_token(token: str, draft: SourceDraft) -> None:
+    value = _preview_tokens.get(token)
     if value is None or value[1] < datetime.now(UTC) or value[0] != _fingerprint(draft):
         raise HTTPException(status_code=409, detail="A successful matching preview is required")
+
+
+def _consume_preview_token(token: str, draft: SourceDraft) -> None:
+    _validate_preview_token(token, draft)
+    _preview_tokens.pop(token, None)
 
 
 def _serialize_source(source: Source) -> dict[str, Any]:
@@ -435,18 +456,18 @@ async def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[
         configs = crawler_manager._load_source_configs(db)
         config = next(item for item in configs if item["code"] == source.code)
         try:
-            started = oa_login_coordinator.start(source.id, config)
+            started = await oa_login_coordinator.start(source.id, config)
         except SourceError as exc:
             raise HTTPException(status_code=503, detail=str(exc)) from exc
         source.health_state = "needs_reauth"
         source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
         db.commit()
         return {
-            "status": "login_window_opened" if started else "login_in_progress",
+            "status": "chrome_login_opened" if started else "login_in_progress",
             "source_id": source.id,
             "auth_type": source.auth_type,
             "login_url": source.login_url or source.base_url,
-            "message": "Complete SSO, CAPTCHA, MFA, or VPN access manually in the owned browser window.",
+            "message": "已使用系统 Chrome 打开 OA，请完成 SSO、验证码或 MFA 后返回检测登录状态。",
         }
     source.health_state = "needs_reauth"
     source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
@@ -458,6 +479,50 @@ async def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[
         "login_url": source.login_url or source.base_url,
         "message": "Complete CAPTCHA, MFA, QR, or SSO manually. Notice Hub will not bypass it.",
     }
+
+
+@router.get("/{source_id}/authentication-environment")
+def authentication_environment(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
+    source = db.get(Source, source_id)
+    if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
+        raise HTTPException(status_code=404, detail="Private source not found")
+    if source.code != "oa" and source.parser != "oa":
+        return {
+            "chrome_available": False,
+            "desktop_runtime_available": True,
+            "adapter_available": False,
+            "browser_name": None,
+            "error_code": "OA_ADAPTER_NOT_APPLICABLE",
+            "message": "此来源不使用 OA Chrome 登录组件。",
+            "session_active": False,
+        }
+    return oa_login_coordinator.environment()
+
+
+@router.post("/{source_id}/authentication-status")
+async def detect_authentication_status(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
+    source = db.get(Source, source_id)
+    if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
+        raise HTTPException(status_code=404, detail="Private source not found")
+    if source.code != "oa" and source.parser != "oa":
+        raise HTTPException(status_code=422, detail="This source does not use the OA Chrome adapter")
+    configs = crawler_manager._load_source_configs(db)
+    config = next(item for item in configs if item["code"] == source.code)
+    try:
+        result = await oa_login_coordinator.detect(source.id, config)
+    except SourceError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    if result["status"] == "authenticated":
+        source.credential_ref = str(result.pop("credential_reference"))
+        source.auth_type = "browser_session"
+        source.health_state = "authenticated"
+        source.last_error_code = None
+        source.last_error = None
+        source.enabled = True
+        source.validation_status = "passed"
+        source.validated_at = datetime.now(UTC).replace(tzinfo=None)
+        db.commit()
+    return result
 
 
 def _cloud_admin_endpoint(path: str) -> str:
@@ -509,6 +574,90 @@ async def _call_cloud_admin(
     if not isinstance(body, dict):
         raise HTTPException(status_code=502, detail="Cloud source administration returned an invalid response")
     return body
+
+
+@router.post("/cloud-sources", status_code=status.HTTP_201_CREATED)
+async def create_cloud_source(
+    payload: CloudSourceCreateRequest,
+    db: Session = Depends(get_db),
+) -> dict[str, Any]:
+    parser_config = payload.parser_config.model_dump(exclude_none=True)
+    if payload.category:
+        parser_config["default_category"] = payload.category
+    draft = SourceDraft(
+        name=payload.name,
+        list_url=payload.list_url,
+        kind="public",
+        parser=payload.parser,
+        parser_config=ParserConfiguration(**parser_config),
+        auth_type="none",
+    )
+    _validate_preview_token(payload.preview_token, draft)
+    identity = source_identity(payload.list_url)
+    local_match = db.scalar(
+        select(Source).where(
+            Source.source_identity == identity,
+            Source.is_deleted.is_(False),
+        )
+    )
+    if local_match is not None and local_match.ownership == "CUSTOM_LOCAL_PRIVATE":
+        raise HTTPException(status_code=409, detail="A private local source cannot be converted to Cloud sharing")
+    response = await _call_cloud_admin(
+        "POST",
+        "/api/cloud/sources",
+        payload.admin_key,
+        {
+            "name": payload.name,
+            "list_url": payload.list_url,
+            "parser": payload.parser,
+            "parser_config": parser_config,
+            "category": payload.category,
+            "crawl_interval_seconds": payload.crawl_interval_seconds,
+            "public_shared": payload.public_shared,
+        },
+    )
+    _consume_preview_token(payload.preview_token, draft)
+    cloud_source_id = str(response.get("cloud_source_id") or "")
+    cloud_identity = str(response.get("source_identity") or "")
+    if not cloud_source_id or len(cloud_identity) != 64:
+        raise HTTPException(
+            status_code=502,
+            detail="Cloud source administration returned incomplete identity data",
+        )
+    source = db.scalar(select(Source).where(Source.cloud_source_id == cloud_source_id))
+    if source is None:
+        source = local_match
+    if source is None:
+        source = db.scalar(select(Source).where(Source.code == cloud_source_id))
+    if source is None:
+        source = Source(code=cloud_source_id, name=payload.name, base_url=payload.list_url)
+        db.add(source)
+    source.name = str(response.get("name") or payload.name)
+    source.base_url = str(response.get("base_url") or payload.list_url)
+    source_scope = str(response.get("source_scope") or "shared")
+    source.ownership = "OFFICIAL_CLOUD" if source_scope == "official" else "SHARED_CLOUD"
+    source.source_type = "cloud_feed"
+    source.parser = str(response.get("parser") or payload.parser)
+    response_config = response.get("parser_config")
+    source.parser_config = json.dumps(response_config if isinstance(response_config, dict) else parser_config, ensure_ascii=False)
+    source.subscribed = True
+    source.enabled = True
+    source.auth_type = "none"
+    source.health_state = "unconfigured"
+    source.source_identity = cloud_identity
+    source.cloud_source_id = cloud_source_id
+    source.source_scope = source_scope
+    source.execution = "cloud"
+    source.cloud_policy = str(response.get("cloud_policy") or "force_enabled")
+    source.crawl_interval_seconds = response.get("crawl_interval_seconds")
+    source.validation_status = "passed"
+    source.validated_at = datetime.now(UTC).replace(tzinfo=None)
+    db.commit()
+    db.refresh(source)
+    result = _serialize_source(source)
+    result["promotion_reused"] = bool(response.get("reused"))
+    result["preview"] = response.get("preview") or []
+    return result
 
 
 @router.post("/{source_id}/promote")
@@ -604,7 +753,11 @@ def delete_source(source_id: int, payload: DeleteRequest, db: Session = Depends(
             credential_store.delete(source.credential_ref)
             source.credential_ref = None
         settings = get_settings()
-        profile = get_auth_profile_dir(source.code, settings.environment, settings.app_data_dir).resolve()
+        profile = (
+            get_oa_profile_dir(settings.environment, settings.app_data_dir)
+            if source.code == "oa" or source.parser == "oa"
+            else get_auth_profile_dir(source.code, settings.environment, settings.app_data_dir)
+        ).resolve()
         parent = profile.parent.resolve()
         if profile.parent == parent and profile != parent and parent in profile.parents and profile.exists():
             shutil.rmtree(profile)

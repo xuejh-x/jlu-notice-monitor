@@ -53,7 +53,7 @@ def test_oa_login_command_is_registered() -> None:
 
 
 @pytest.mark.asyncio
-async def test_oa_reauthentication_uses_owned_browser_coordinator(
+async def test_oa_reauthentication_uses_system_chrome_coordinator(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     with make_session() as db:
@@ -71,13 +71,13 @@ async def test_oa_reauthentication_uses_owned_browser_coordinator(
         db.add(source)
         db.commit()
         started: list[tuple[int, dict]] = []
-        monkeypatch.setattr(
-            source_management.oa_login_coordinator,
-            "start",
-            lambda source_id, config: started.append((source_id, config)) or True,
-        )
+        async def start(source_id: int, config: dict) -> bool:
+            started.append((source_id, config))
+            return True
+
+        monkeypatch.setattr(source_management.oa_login_coordinator, "start", start)
         result = await source_management.reauthenticate(source.id, db)
-        assert result["status"] == "login_window_opened"
+        assert result["status"] == "chrome_login_opened"
         assert started[0][0] == source.id and started[0][1]["parser"] == "oa"
         db.refresh(source)
         assert source.health_state == "needs_reauth"
@@ -103,7 +103,7 @@ async def test_oa_reauthentication_preflight_failure_preserves_source_state(
         db.add(source)
         db.commit()
 
-        def unavailable(*_: object, **__: object) -> bool:
+        async def unavailable(*_: object, **__: object) -> bool:
             raise SourceError("OA_BROWSER_RUNTIME_UNAVAILABLE")
 
         monkeypatch.setattr(source_management.oa_login_coordinator, "start", unavailable)
@@ -113,6 +113,42 @@ async def test_oa_reauthentication_preflight_failure_preserves_source_state(
         db.refresh(source)
         assert source.health_state == "unconfigured"
         assert source.reauth_notified_at is None
+
+
+@pytest.mark.asyncio
+async def test_oa_detection_persists_only_local_credential_reference(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    with make_session() as db:
+        source = Source(
+            code="oa",
+            name="吉林大学 OA",
+            base_url="https://oa.jlu.edu.cn",
+            enabled=False,
+            ownership="CUSTOM_LOCAL_PRIVATE",
+            source_type="private_browser",
+            parser="oa",
+            auth_type="browser_session",
+            health_state="needs_reauth",
+        )
+        db.add(source)
+        db.commit()
+
+        async def detected(*_: object, **__: object) -> dict:
+            return {
+                "status": "authenticated",
+                "reason": None,
+                "message": "saved",
+                "credential_reference": "oa-session-oa",
+            }
+
+        monkeypatch.setattr(source_management.oa_login_coordinator, "detect", detected)
+        result = await source_management.detect_authentication_status(source.id, db)
+        assert result == {"status": "authenticated", "reason": None, "message": "saved"}
+        db.refresh(source)
+        assert source.credential_ref == "oa-session-oa"
+        assert source.enabled is True and source.health_state == "authenticated"
+        assert "credential" not in result
 
 
 @pytest.mark.asyncio

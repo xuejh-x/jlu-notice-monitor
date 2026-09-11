@@ -40,7 +40,7 @@ from app.services.credentials import CredentialStore
 from app.paths import get_auth_profile_dir
 from app.sources.cloud import CloudFeedSource
 from app.sources.base import SourceError
-from app.sources.generic import SafeFetcher, parse_configured_html, parse_rss_atom
+from app.sources.generic import GenericPublicSource, SafeFetcher, parse_configured_html, parse_rss_atom
 
 
 class FakeCrawler:
@@ -156,6 +156,75 @@ def test_rss_atom_and_advanced_html_parsing() -> None:
     assert configured[0].publish_date == date(2025, 9, 1)
     with pytest.raises(SourceError, match="did not find"):
         parse_configured_html(html, "https://example.edu", {"item_selector": ".missing"})
+
+
+def test_custom_html_selector_accepts_cloud_url_and_time_field_names() -> None:
+    html = """<ul><li class='article-item'><h3>Selector notice</h3><a href='/n/7'>详情</a><span class='time'>2026-09-11</span></li></ul>"""
+    items = parse_configured_html(
+        html,
+        "https://example.edu/notices/",
+        {
+            "type": "html_selector",
+            "item_selector": ".article-item",
+            "title_selector": "h3",
+            "url_selector": "a[href]",
+            "time_selector": ".time",
+        },
+    )
+    assert items[0].title == "Selector notice"
+    assert items[0].url == "https://example.edu/n/7"
+    assert str(items[0].publish_date) == "2026-09-11"
+
+
+@pytest.mark.asyncio
+async def test_custom_html_selector_falls_back_to_rendered_dom(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    rendered = """<ul><li class='notice-item'><a class='title' href='/n/8'>Rendered notice</a><time>2026-09-11</time></li></ul>"""
+
+    async def allow_fixture(url: str, **_: object) -> str:
+        return url
+
+    class FakeChrome:
+        def __init__(self, *_: object, **__: object) -> None:
+            self.started = False
+
+        async def start(self) -> None:
+            self.started = True
+
+        async def navigate(self, url: str) -> tuple[str, str, str]:
+            return "<div id='app'></div>", url, ""
+
+        async def wait_for_selector(self, *_: object, **__: object) -> tuple[str, str, str]:
+            assert self.started
+            return rendered, "https://dynamic.example.test/notices", "Rendered notice"
+
+        async def close(self) -> None:
+            return None
+
+    monkeypatch.setattr("app.sources.generic.validate_source_url", allow_fixture)
+    monkeypatch.setattr("app.services.chrome_session.ChromeCDPSession", FakeChrome)
+    adapter = GenericPublicSource({
+        "code": "dynamic-fixture",
+        "name": "Dynamic fixture",
+        "base_url": "https://dynamic.example.test/notices",
+        "parser": "generic_html",
+        "parser_config": {
+            "type": "html_selector",
+            "item_selector": ".notice-item",
+            "title_selector": ".title",
+            "url_selector": "a[href]",
+            "time_selector": "time",
+        },
+    })
+    await adapter.fetcher.client.aclose()
+    adapter.fetcher.client = httpx.AsyncClient(
+        transport=httpx.MockTransport(lambda _: httpx.Response(200, text="<div id='app'></div>"))
+    )
+    items = await adapter.fetch_list()
+    assert items[0].title == "Rendered notice"
+    assert items[0].url == "https://dynamic.example.test/n/8"
+    await adapter.close()
 
 
 @pytest.mark.asyncio

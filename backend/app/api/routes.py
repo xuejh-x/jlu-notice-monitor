@@ -119,6 +119,21 @@ def _visible_notice_condition() -> Any:
     )
 
 
+def _global_notice_counts(db: Session) -> tuple[int, int]:
+    total = db.scalar(
+        select(func.count(Notice.id)).where(_visible_notice_condition())
+    ) or 0
+    unread = db.scalar(
+        select(func.count(Notice.id))
+        .outerjoin(UserState, UserState.notice_id == Notice.id)
+        .where(
+            _visible_notice_condition(),
+            or_(UserState.id.is_(None), UserState.is_read.is_(False)),
+        )
+    ) or 0
+    return total, unread
+
+
 @api_router.get("/notices")
 def list_notices(
     category: str | None = None,
@@ -360,10 +375,11 @@ def api_health(db: Session = Depends(get_db)) -> dict[str, Any] | JSONResponse:
 
 @api_router.get("/stats")
 def stats(db: Session = Depends(get_db)) -> dict[str, int]:
+    total, unread = _global_notice_counts(db)
     return {
-        "notices": db.scalar(select(func.count(Notice.id))) or 0,
+        "notices": total,
         "sources": db.scalar(select(func.count(Source.id))) or 0,
-        "unread": db.scalar(select(func.count(UserState.id)).where(UserState.is_read.is_(False))) or 0,
+        "unread": unread,
         "favorites": db.scalar(select(func.count(UserState.id)).where(UserState.is_favorite.is_(True))) or 0,
     }
 
@@ -406,7 +422,9 @@ def dashboard(db: Session = Depends(get_db)) -> dict[str, Any]:
         .order_by(Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
         .limit(10)
     ).all()
+    total_count, unread_count = _global_notice_counts(db)
     return {
+        "total_count": total_count,
         "new_today": db.scalar(
             select(func.count(Notice.id)).where(
                 Notice.first_seen_at >= start, Notice.status != "baseline", _visible_notice_condition()
@@ -423,7 +441,7 @@ def dashboard(db: Session = Depends(get_db)) -> dict[str, Any]:
         "upcoming_deadlines": db.scalar(
             select(func.count(Notice.id)).where(Notice.registration_deadline >= today, _visible_notice_condition())
         ) or 0,
-        "unread": db.scalar(select(func.count(UserState.id)).where(UserState.is_read.is_(False))) or 0,
+        "unread": unread_count,
         "source_status": sources(db),
         "recent_notices": [_serialize_notice(item) for item in recent],
     }

@@ -17,10 +17,11 @@ dependencies = [
   "PyYAML>=6,<7",
   "sqlalchemy>=2.0,<3",
   "uvicorn[standard]>=0.32,<1",
+  "websockets>=13,<16",
 ]
 
 [project.optional-dependencies]
-oa = ["playwright>=1.49,<2"]
+oa = []
 attachments = ["pypdf>=5,<7", "python-docx>=1.1,<2", "openpyxl>=3.1,<4"]
 desktop = ["pyinstaller>=6.17,<7"]
 dev = ["pytest>=8.3,<9", "pytest-asyncio>=0.24,<1"]

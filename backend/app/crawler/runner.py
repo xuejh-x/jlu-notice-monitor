@@ -370,11 +370,14 @@ class CrawlerManager:
             logger.warning("cloud source registry response was invalid")
             return
         with SessionLocal() as db:
+            remote_shared_ids: set[str] = set()
             for item in payload["items"]:
                 cloud_id = str(item.get("id") or item.get("code") or "")
                 identity = str(item.get("source_identity") or "")
                 if not cloud_id or len(identity) != 64:
                     continue
+                if item.get("source_scope") == "shared":
+                    remote_shared_ids.add(cloud_id)
                 source = db.scalar(select(Source).where(Source.cloud_source_id == cloud_id))
                 if source is None:
                     source = db.scalar(select(Source).where(Source.code == cloud_id))
@@ -397,11 +400,25 @@ class CrawlerManager:
                     )
                     db.add(source)
                 else:
+                    source.name = str(item.get("name") or source.name)
+                    source.base_url = str(item.get("base_url") or source.base_url)
                     source.cloud_source_id = cloud_id
                     source.source_identity = identity
                     source.source_scope = str(item.get("source_scope") or source.source_scope)
                     source.execution = "cloud"
                     source.cloud_policy = str(item.get("cloud_policy") or source.cloud_policy)
+                    source.enabled = source.cloud_policy != "force_disabled"
+            local_shared = db.scalars(
+                select(Source).where(
+                    Source.ownership == "SHARED_CLOUD",
+                    Source.is_deleted.is_(False),
+                )
+            ).all()
+            for source in local_shared:
+                if source.cloud_source_id and source.cloud_source_id not in remote_shared_ids:
+                    source.cloud_policy = "force_disabled"
+                    source.enabled = False
+                    source.health_state = "disabled"
             db.commit()
 
     @staticmethod

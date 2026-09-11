@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 from datetime import date
 from email.utils import parsedate_to_datetime
+import json
 from typing import Any, Literal
 from urllib.parse import urljoin, urlsplit
 from xml.etree import ElementTree
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup, Tag
 import httpx
 
 from app.config import get_settings, load_yaml
+from app.paths import get_cache_dir
 from app.parsers import parse_detail_html, parse_list_html
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
@@ -167,8 +169,10 @@ def parse_configured_html(text: str, page_url: str, config: dict[str, Any]) -> l
             continue
         try:
             title_node = node.select_one(str(config.get("title_selector") or "a"))
-            link_node = node.select_one(str(config.get("link_selector") or "a"))
-            date_node = node.select_one(str(config.get("date_selector"))) if config.get("date_selector") else None
+            link_selector = config.get("url_selector") or config.get("link_selector") or "a"
+            date_selector = config.get("time_selector") or config.get("date_selector")
+            link_node = node.select_one(str(link_selector))
+            date_node = node.select_one(str(date_selector)) if date_selector else None
         except Exception as exc:
             raise SourceError("One or more advanced selectors are invalid") from exc
         if not isinstance(title_node, Tag) or not isinstance(link_node, Tag):
@@ -182,6 +186,68 @@ def parse_configured_html(text: str, page_url: str, config: dict[str, Any]) -> l
     return results
 
 
+def _json_path(value: Any, path: str) -> Any:
+    current = value
+    for part in path.split("."):
+        if not part:
+            continue
+        if isinstance(current, dict):
+            current = current.get(part)
+        else:
+            return None
+    return current
+
+
+def parse_json_api(text: str, page_url: str, config: dict[str, Any]) -> list[NoticeCandidate]:
+    """Parse common JSON notice feeds, with optional dot-path field mapping."""
+
+    try:
+        payload = json.loads(text)
+    except (TypeError, ValueError) as exc:
+        raise SourceError("The URL is not a valid JSON API response") from exc
+    item_path = str(config.get("item_selector") or "").strip()
+    if item_path:
+        rows = _json_path(payload, item_path)
+    elif isinstance(payload, list):
+        rows = payload
+    elif isinstance(payload, dict):
+        rows = next((payload.get(key) for key in ("items", "results", "data", "notices") if isinstance(payload.get(key), list)), None)
+    else:
+        rows = None
+    if not isinstance(rows, list):
+        raise SourceError("The JSON API response does not contain a notice list")
+    title_path = str(config.get("title_selector") or "title")
+    link_path = str(config.get("link_selector") or "url")
+    date_path = str(config.get("date_selector") or "publish_date")
+    content_path = str(config.get("content_selector") or "content")
+    category = str(config.get("default_category") or "").strip() or None
+    results: list[NoticeCandidate] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        title = normalize_whitespace(str(_json_path(row, title_path) or ""))
+        link = normalize_whitespace(str(_json_path(row, link_path) or row.get("link") or row.get("href") or ""))
+        if not title or not link:
+            continue
+        content_value = _json_path(row, content_path)
+        if isinstance(content_value, (dict, list)):
+            content = json.dumps(content_value, ensure_ascii=False)
+        else:
+            content = normalize_whitespace(str(content_value or row.get("description") or row.get("summary") or ""))
+        results.append(
+            NoticeCandidate(
+                title=title,
+                url=urljoin(page_url, link),
+                publish_date=parse_date(str(_json_path(row, date_path) or "")),
+                content=content,
+                category=category,
+            )
+        )
+    if not results:
+        raise SourceError("No notices were found in the JSON API response")
+    return results
+
+
 class GenericPublicSource(NoticeSource):
     def __init__(self, config: dict[str, Any]) -> None:
         super().__init__(config)
@@ -191,13 +257,53 @@ class GenericPublicSource(NoticeSource):
             validation_scope=str(config.get("validation_scope", "local")),
         )
         self.detected_type = str(config.get("content_parser", config.get("parser", "auto")))
+        self.render_browser: Any | None = None
+        self.source_code = str(config.get("code") or "preview")
+
+    async def _render_configured_html(self, url: str) -> tuple[str, str]:
+        from app.services.chrome_session import ChromeCDPSession, ChromeSessionError
+
+        item_selector = str(self.parser_config.get("item_selector") or "").strip()
+        if not item_selector:
+            raise SourceError("Advanced HTML rendering requires an item selector")
+
+        async def guard(request_url: str) -> bool:
+            try:
+                await self.fetcher.validate_url(request_url)
+            except (UnsafeSourceUrl, ValueError):
+                return False
+            return True
+
+        settings = get_settings()
+        safe_code = "".join(character for character in self.source_code if character.isalnum() or character in {"-", "_"}) or "preview"
+        profile = get_cache_dir(settings.environment, settings.app_data_dir) / "cloud-render" / safe_code
+        self.render_browser = ChromeCDPSession(profile, headless=True, request_guard=guard)
+        try:
+            await self.render_browser.start()
+            await self.render_browser.navigate(url)
+            html, final_url, _ = await self.render_browser.wait_for_selector(
+                item_selector,
+                timeout_seconds=min(float(settings.request_timeout), 30),
+            )
+            await self.fetcher.validate_url(final_url)
+            return html, final_url
+        except ChromeSessionError as exc:
+            raise SourceError(f"Advanced HTML render failed: {exc}") from exc
 
     async def fetch_list(self) -> list[NoticeCandidate]:
         text, content_type, final_url = await self.fetcher.get(self.base_url)
         looks_feed = "xml" in content_type.lower() or text.lstrip().startswith("<?xml") or "<rss" in text[:500].lower() or "<feed" in text[:500].lower()
+        looks_api = "json" in content_type.lower() or text.lstrip().startswith(("{", "["))
+        if self.detected_type == "api" or (self.detected_type == "auto" and looks_api):
+            self.detected_type = "api"
+            parsed_api = parse_json_api(text, final_url, self.parser_config)[: get_settings().max_items_per_section]
+            return await self._safe_items(parsed_api)
         if self.detected_type in {"rss", "atom"} or (self.detected_type == "auto" and looks_feed):
             self.detected_type = "rss"
             parsed_feed = parse_rss_atom(text, final_url)[: get_settings().max_items_per_section]
+            category = str(self.parser_config.get("default_category") or "").strip() or None
+            if category:
+                parsed_feed = [item.model_copy(update={"category": category}) for item in parsed_feed]
             return await self._safe_items(parsed_feed)
         self.detected_type = "generic_html"
         results: list[NoticeCandidate] = []
@@ -208,11 +314,18 @@ class GenericPublicSource(NoticeSource):
             get_settings().source_max_pages,
         )
         for _ in range(limit):
-            parsed = parse_configured_html(page_text, page_url, self.parser_config)
+            try:
+                parsed = parse_configured_html(page_text, page_url, self.parser_config)
+            except SourceError:
+                if self.parser_config.get("type") != "html_selector":
+                    raise
+                page_text, page_url = await self._render_configured_html(page_url)
+                parsed = parse_configured_html(page_text, page_url, self.parser_config)
             for item in parsed:
                 if item.url not in seen_urls:
                     seen_urls.add(item.url)
-                    results.append(item)
+                    category = str(self.parser_config.get("default_category") or "").strip() or None
+                    results.append(item.model_copy(update={"category": category}) if category else item)
             next_selector = str(self.parser_config.get("next_page_selector", "")).strip()
             if not next_selector:
                 break
@@ -284,6 +397,9 @@ class GenericPublicSource(NoticeSource):
         return notice.model_copy(update={"url": final_url, "content": content, "attachments": await self._safe_attachments(attachments)})
 
     async def close(self) -> None:
+        if self.render_browser is not None:
+            await self.render_browser.close()
+            self.render_browser = None
         await self.fetcher.close()
 
 

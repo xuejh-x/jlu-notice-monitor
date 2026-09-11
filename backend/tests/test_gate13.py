@@ -16,7 +16,7 @@ from sqlalchemy.pool import StaticPool
 from app.api import cloud_admin
 from app.api.cloud_admin import CloudSourceDraft
 from app.api.public_feed import public_sources
-from app.api.source_management import PromotionRequest, promote_source
+from app.api.source_management import CloudSourceCreateRequest, PromotionRequest, create_cloud_source, promote_source
 from app.crawler.runner import CrawlerManager
 from app.database import Base, get_db
 from app.database.migrations import run_gate12_migrations, run_gate13_migrations
@@ -170,6 +170,101 @@ def test_admin_promote_and_duplicate_reuse(monkeypatch: pytest.MonkeyPatch) -> N
     finally:
         app.dependency_overrides.clear()
         db.close()
+
+
+def test_cloud_source_crud_contract(monkeypatch: pytest.MonkeyPatch) -> None:
+    db = make_session()
+    monkeypatch.setattr(cloud_admin, "get_settings", lambda: admin_settings())
+
+    async def fixture_preview(_: CloudSourceDraft):
+        return "api", [{"title": "MOCK API notice", "url": "https://api.example.test/1", "publish_date": None}]
+
+    monkeypatch.setattr(cloud_admin, "_cloud_preview", fixture_preview)
+
+    def override_db():
+        yield db
+
+    app.dependency_overrides[get_db] = override_db
+    try:
+        client = TestClient(app)
+        headers = {"X-Notice-Hub-Admin-Key": "MOCK-FIXTURE-ADMIN"}
+        created = client.post(
+            "/api/cloud/sources",
+            headers=headers,
+            json={
+                "name": "MOCK API",
+                "list_url": "https://api.example.test/notices",
+                "parser": "api",
+                "category": "research",
+                "crawl_interval_seconds": 1800,
+                "public_shared": True,
+            },
+        )
+        assert created.status_code == 201
+        cloud_id = created.json()["cloud_source_id"]
+        listed = client.get("/api/cloud/sources", headers=headers)
+        assert listed.status_code == 200
+        assert listed.json()["items"][0]["category"] == "research"
+        updated = client.patch(
+            f"/api/cloud/sources/{cloud_id}",
+            headers=headers,
+            json={"name": "MOCK API Updated", "cloud_policy": "force_disabled"},
+        )
+        assert updated.status_code == 200
+        assert updated.json()["name"] == "MOCK API Updated"
+        assert updated.json()["status"] == "disabled"
+        deleted = client.delete(f"/api/cloud/sources/{cloud_id}", headers=headers)
+        assert deleted.status_code == 200 and deleted.json()["deleted"] is True
+        assert client.get("/api/cloud/sources", headers=headers).json()["items"] == []
+    finally:
+        app.dependency_overrides.clear()
+        db.close()
+
+
+@pytest.mark.asyncio
+async def test_desktop_direct_cloud_create_maps_registry_and_disables_local_fetch(monkeypatch: pytest.MonkeyPatch) -> None:
+    db = make_session()
+    monkeypatch.setattr("app.api.source_management._validate_preview_token", lambda *_: None)
+    monkeypatch.setattr("app.api.source_management._consume_preview_token", lambda *_: None)
+
+    async def fixture_cloud(*_: object, **__: object):
+        return {
+            "cloud_source_id": "shared-direct",
+            "source_identity": source_identity("https://example.test/api"),
+            "name": "Direct Shared",
+            "base_url": "https://example.test/api",
+            "parser": "api",
+            "parser_config": {"default_category": "research"},
+            "cloud_policy": "force_enabled",
+            "crawl_interval_seconds": 3600,
+            "reused": False,
+            "preview": [{"title": "fixture"}],
+        }
+
+    monkeypatch.setattr("app.api.source_management._call_cloud_admin", fixture_cloud)
+    result = await create_cloud_source(
+        CloudSourceCreateRequest(
+            admin_key="MOCK-FIXTURE-ADMIN",
+            preview_token="fixture-token",
+            name="Direct Shared",
+            list_url="https://example.test/api",
+            parser="api",
+            category="research",
+            crawl_interval_seconds=3600,
+        ),
+        db,
+    )
+    source = db.scalar(select(Source).where(Source.cloud_source_id == "shared-direct"))
+    assert result["cloud_source_id"] == "shared-direct"
+    assert source is not None and source.execution == "cloud" and source.ownership == "SHARED_CLOUD"
+    monkeypatch.setattr(
+        "app.crawler.runner.get_settings",
+        lambda: SimpleNamespace(effective_deployment_role="desktop", public_feed_url="https://cloud.fixture.test/api/public/v1"),
+    )
+    config = CrawlerManager._load_source_configs(db)[0]
+    assert config["parser"] == "cloud_feed"
+    assert config["cloud_source_id"] == "shared-direct"
+    db.close()
 
 
 @pytest.mark.asyncio

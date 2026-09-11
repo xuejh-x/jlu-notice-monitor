@@ -41,6 +41,7 @@ def public_sources(db: Session = Depends(get_db)) -> dict[str, Any]:
         select(Source)
         .where(
             Source.ownership.in_(("OFFICIAL_CLOUD", "SHARED_CLOUD")),
+            Source.is_deleted.is_(False),
         )
         .order_by(Source.code)
     ).all()
@@ -55,6 +56,9 @@ def public_sources(db: Session = Depends(get_db)) -> dict[str, Any]:
                 "source_identity": source.source_identity,
                 "source_scope": source.source_scope,
                 "cloud_policy": source.cloud_policy,
+                "parser": source.parser,
+                "source_type": source.source_type,
+                "updated_at": source.updated_at,
             }
             for source in rows
         ],

@@ -83,7 +83,7 @@ def build_parser() -> argparse.ArgumentParser:
     crawl.add_argument("--source")
     test = subparsers.add_parser("test-source", help="fetch and parse one source without writing DB")
     test.add_argument("source")
-    subparsers.add_parser("oa-login", help="open Edge for a user-driven OA login")
+    subparsers.add_parser("oa-login", help="open system Chrome for a user-driven OA login")
     return parser
 
 

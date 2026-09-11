@@ -83,7 +83,6 @@ OA 数据源当前默认关闭，并明确显示为“需要完成首次登录�
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[oa]"
-.\.venv\Scripts\python.exe -m playwright install chromium
 .\.venv\Scripts\python.exe -m app oa-login
 ```
 
