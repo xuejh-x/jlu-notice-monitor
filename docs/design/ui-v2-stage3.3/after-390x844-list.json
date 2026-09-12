@@ -1,0 +1,63 @@
+{
+  "body": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "document": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "listPane": {
+    "clientHeight": 788,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "68px",
+    "scrollHeight": 788,
+    "scrollWidth": 390
+  },
+  "listScroller": {
+    "clientHeight": 516,
+    "clientWidth": 375,
+    "overflowY": "auto",
+    "paddingBottom": "0px",
+    "scrollHeight": 1720,
+    "scrollWidth": 375
+  },
+  "root": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "scrollers": [
+    {
+      "className": "flex min-h-0 flex-1 flex-col overflow-y-auto",
+      "clientHeight": 516,
+      "label": null,
+      "scrollHeight": 1720,
+      "tag": "DIV"
+    }
+  ],
+  "shell": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

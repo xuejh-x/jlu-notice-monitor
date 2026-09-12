@@ -120,6 +120,23 @@ describe('NoticesPage states and filters', () => {
     expect(screen.getByRole('button', { name: '清空搜索' })).toBeInTheDocument()
   })
 
+  it('keeps the global total independent when switching to the unread filter', async () => {
+    fetchMock.mockImplementation((input: RequestInfo | URL) => {
+      const url = String(input)
+      const body = url.includes('/api/dashboard')
+        ? { total_count: 7, unread: 3, important: 2, upcoming_deadlines: 1, new_today: 0, urgent: 0, source_status: [], recent_notices: [] }
+        : { items: [], total: url.includes('read=false') ? 3 : 7, page: 1, page_size: 20, total_pages: 1 }
+      return Promise.resolve(new Response(JSON.stringify(body), { status: 200 }))
+    })
+    renderNotices('/notices')
+    const all = await screen.findByRole('tab', { name: '全部' })
+    await waitFor(() => expect(all).toHaveTextContent('7'))
+    fireEvent.click(screen.getByRole('tab', { name: '未读' }))
+    await waitFor(() => expect(screen.getByTestId('location')).toHaveTextContent('read=0'))
+    expect(screen.getByRole('tab', { name: '全部' })).toHaveTextContent('7')
+    expect(screen.getByRole('tab', { name: '未读' })).toHaveTextContent('3')
+  })
+
   it('shows a filter-empty state with a clear action', async () => {
     renderNotices('/notices?category=research')
     expect(await screen.findByRole('heading', { name: '没有找到相关通知' })).toBeInTheDocument()

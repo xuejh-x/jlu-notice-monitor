@@ -1,12 +1,15 @@
 import { rmSync } from 'node:fs'
 import { spawn, spawnSync } from 'node:child_process'
-import { dirname, join, resolve } from 'node:path'
+import { delimiter, dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const e2eDir = dirname(fileURLToPath(import.meta.url))
 const frontendDir = resolve(e2eDir, '..')
 const repoDir = resolve(frontendDir, '..')
 const backendDir = join(repoDir, 'backend')
+const backendSitePackages = process.platform === 'win32'
+  ? join(backendDir, '.venv', 'Lib', 'site-packages')
+  : join(backendDir, '.venv', 'lib', 'python3.13', 'site-packages')
 const runtimeDir = join(frontendDir, '.e2e', 'runtime')
 const python = process.env.JLU_E2E_PYTHON?.trim() || (process.platform === 'win32'
   ? join(backendDir, '.venv', 'Scripts', 'python.exe')
@@ -18,6 +21,8 @@ const environment = {
   JLU_HOST: '127.0.0.1',
   JLU_PORT: '8010',
   JLU_CORS_ORIGINS: '["http://127.0.0.1:4173"]',
+  JLU_STARTUP_SYNC_ENABLED: 'false',
+  PYTHONPATH: [backendDir, backendSitePackages, process.env.PYTHONPATH].filter(Boolean).join(delimiter),
 }
 
 rmSync(runtimeDir, { recursive: true, force: true })

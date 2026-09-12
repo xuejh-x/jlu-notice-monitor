@@ -130,3 +130,19 @@ def test_category_group_and_legacy_keyword(notice_client: TestClient) -> None:
 @pytest.mark.parametrize("params", [{"page": 0}, {"page_size": 0}, {"page_size": 101}])
 def test_invalid_pagination_returns_422(notice_client: TestClient, params: dict[str, int]) -> None:
     assert notice_client.get("/api/notices", params=params).status_code == 422
+
+
+def test_global_counts_are_independent_and_include_implicit_unread(notice_client: TestClient) -> None:
+    dashboard = notice_client.get("/api/dashboard").json()
+    assert dashboard["total_count"] == 5
+    assert dashboard["unread"] == 3
+    important = dashboard["important"]
+    deadlines = dashboard["upcoming_deadlines"]
+
+    unread_list = notice_client.get("/api/notices", params={"read": "false"}).json()
+    assert unread_list["total"] == 3
+    refreshed = notice_client.get("/api/dashboard").json()
+    assert refreshed["total_count"] == 5
+    assert refreshed["unread"] == 3
+    assert refreshed["important"] == important
+    assert refreshed["upcoming_deadlines"] == deadlines

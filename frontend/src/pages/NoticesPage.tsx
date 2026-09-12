@@ -1,7 +1,7 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import { useQuery } from '@tanstack/react-query'
-import { List, Search, SlidersHorizontal, X } from 'lucide-react'
-import { useState } from 'react'
+import { ArrowUpDown, Search, SlidersHorizontal, X } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { getNotices } from '../api/notices'
 import { getDashboard } from '../api/dashboard'
@@ -53,7 +53,15 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
     queryFn: ({ signal }) => getNotices(requestFilters, { signal }),
     placeholderData: previous => previous,
   })
+  const { refetch: refetchNotices } = query
   const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: ({ signal }) => getDashboard({ signal }) })
+  const previousSelectedId = useRef(selectedId)
+
+  useEffect(() => {
+    const reenteredUnreadList = previousSelectedId.current !== null && selectedId === null && state.read === 'unread'
+    previousSelectedId.current = selectedId
+    if (reenteredUnreadList) void refetchNotices()
+  }, [selectedId, state.read, refetchNotices])
 
   const activeCount = countActiveFilters(state)
   const nonReadFilterCount = activeCount - (state.read ? 1 : 0)
@@ -75,36 +83,38 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
       : { title: '暂无通知', description: '尝试调整筛选条件或检查新通知。' }
 
   return (
-    <div className="flex min-h-[calc(100vh-var(--spacing-header-height)-2.5rem)] flex-col md:h-full md:min-h-0 md:bg-list-surface">
-      <label className="mb-3 flex h-9 items-center gap-2 rounded-medium border border-border bg-surface-muted px-3 text-sm text-text-muted focus-within:border-border-strong focus-within:ring-2 focus-within:ring-focus/20 md:hidden">
+    <div className="flex h-full min-h-0 min-w-0 flex-col bg-list-surface">
+      <label className="mx-shell-gutter mt-3 flex h-9 items-center gap-2 rounded-medium border border-border bg-attachment-surface px-3 text-metadata text-text-muted focus-within:ring-2 focus-within:ring-focus md:hidden">
           <Search className="h-4 w-4 shrink-0" aria-hidden="true" />
           <input aria-label="搜索通知" placeholder="搜索通知、来源或关键词" value={state.q} onChange={event => updateState({ q: event.target.value }, { replace: true, resetPage: true })} className="min-w-0 flex-1 bg-transparent text-text-primary outline-none placeholder:text-text-muted" />
           <kbd className="rounded-small border border-border bg-surface px-1.5 text-label text-text-muted">Ctrl K</kbd>
       </label>
-      <header className="flex h-list-header-height shrink-0 items-center justify-between gap-2 border-b border-border/70 bg-header-surface px-3">
+      <header className="flex h-list-header-height shrink-0 items-center justify-between gap-2 px-shell-gutter">
+        <div className="flex min-w-0 items-center gap-2"><h1 className="truncate text-section-heading">全部通知</h1>{query.data && <span className="text-metadata tabular-nums text-text-muted">{query.data.total}</span>}</div>
+        <span title="当前按截止时间升序" className="inline-flex shrink-0 items-center gap-1.5 text-metadata text-text-muted"><ArrowUpDown className="h-3.5 w-3.5" aria-hidden="true" />按截止时间 ↑</span>
+      </header>
+      <div className="flex h-list-filter-height shrink-0 items-center justify-between gap-2 px-shell-gutter">
           <div className="flex min-w-0" role="tablist" aria-label="阅读状态">
             {readTabs.map(tab => {
               const selected = state.read === tab.value
-              const count = tab.value === '' ? query.data?.total : tab.value === 'unread' ? dashboard.data?.unread : undefined
-              return <button key={tab.label} type="button" role="tab" aria-label={tab.label} aria-selected={selected} onClick={() => updateState({ read: tab.value }, { resetPage: true })} className={cn('h-[26px] shrink-0 rounded-small px-2 text-xs transition-colors', selected ? 'border border-accent/20 bg-accent-soft font-medium text-accent-soft-text' : 'text-text-muted hover:text-text-primary')}>{tab.label}{count !== undefined && <span aria-hidden="true"> {count}</span>}</button>
+              const count = tab.value === '' ? dashboard.data?.total_count : tab.value === 'unread' ? dashboard.data?.unread : undefined
+              return <button key={tab.label} type="button" role="tab" aria-label={tab.label} aria-selected={selected} onClick={() => updateState({ read: tab.value }, { resetPage: true })} className={cn('h-7 shrink-0 rounded-small px-2 text-metadata transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus', selected ? 'bg-selected-surface font-medium text-accent-soft-text' : 'text-text-muted hover:bg-surface-hover hover:text-text-primary')}>{tab.label}{count !== undefined && <span aria-hidden="true" className="ml-1 tabular-nums">{count}</span>}</button>
             })}
           </div>
           <div className="flex shrink-0 items-center gap-1">
-            <span title="当前按截止时间升序" className="hidden h-8 items-center px-2 text-xs text-text-muted sm:inline-flex">按截止时间 ↑</span>
-            <span title="当前为列表视图" className="grid h-8 w-8 place-items-center text-text-muted"><List className="h-3.5 w-3.5" aria-hidden="true" /></span>
-            <button id="notice-filter-trigger" type="button" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog" className="relative grid h-8 w-6 place-items-center rounded-medium text-text-muted/60 hover:bg-surface-muted hover:text-text-muted active:translate-y-px" aria-label={`筛选${nonReadFilterCount > 0 ? ` ${nonReadFilterCount}` : ''}`}><SlidersHorizontal className="h-3 w-3" />{nonReadFilterCount > 0 && <span className="absolute right-0 top-1 h-1.5 w-1.5 rounded-full bg-accent" />}</button>
+            <button id="notice-filter-trigger" type="button" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog" className="inline-flex h-8 items-center gap-1.5 rounded-medium px-2 text-metadata text-text-secondary hover:bg-surface-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus" aria-label={`筛选${nonReadFilterCount > 0 ? ` ${nonReadFilterCount}` : ''}`}><SlidersHorizontal className="h-3.5 w-3.5 text-text-muted" aria-hidden="true" />筛选{nonReadFilterCount > 0 && <span className="text-accent-soft-text">{nonReadFilterCount}</span>}</button>
           </div>
-      </header>
+      </div>
+      <div className="flex h-list-status-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span title="当前为列表视图">{hasSearch ? '搜索结果' : activeCount > 0 ? '筛选结果' : '当前列表'}</span><span>{query.data ? `找到 ${query.data.total} 条通知` : query.isPending ? '正在加载…' : '暂不可用'}</span></div>
 
       <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
         {query.isPending ? <NoticeListSkeleton compact /> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()} compact /> : (
           <>
-            <div className="flex items-center justify-between px-4 py-2 text-metadata text-text-muted md:hidden"><span>找到 {query.data.total} 条通知</span><span>第 {state.page} 页</span></div>
             <NoticeList notices={query.data.items} selectedId={selectedId} onSelect={selectNotice} emptyTitle={empty.title} emptyDescription={empty.description} emptyAction={empty.action} compact />
-            <div className="mt-auto border-t border-border px-3 py-3"><Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} /></div>
           </>
         )}
       </div>
+      {query.data && !query.isError && <footer className="flex h-list-footer-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span className="truncate tabular-nums">{query.data.total === 0 ? 0 : (state.page - 1) * state.pageSize + 1}–{Math.min(state.page * state.pageSize, query.data.total)} / {query.data.total} 条</span>{query.data.total_pages <= 1 ? <span>第 {state.page} 页</span> : <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} compact />}</footer>}
 
       <Dialog.Root open={sheetOpen} onOpenChange={setSheetOpen}>
         <Dialog.Portal>

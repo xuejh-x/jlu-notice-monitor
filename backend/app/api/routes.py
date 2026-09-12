@@ -7,11 +7,11 @@ import logging
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.responses import JSONResponse
-from sqlalchemy import func, or_, select
+from sqlalchemy import exists, func, or_, select
 from sqlalchemy import text
 from sqlalchemy.orm import Session, selectinload
 
-from app.crawler import crawler_manager, scheduler_manager
+from app.crawler import crawler_manager, scheduler_manager, startup_sync
 from app import __version__
 from app.config import get_settings
 from app.crawler.runner import CrawlerAlreadyRunning
@@ -20,6 +20,7 @@ from app.logging_config import _safe_value, log_event
 from app.models import Favorite, Notice, NoticeSourceRelation, Source, UserState
 from app.runtime import status as runtime_status
 from app.services.dates import deadline_metadata
+from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED, is_public_feed_not_configured
 
 api_router = APIRouter(prefix="/api")
 logger = logging.getLogger(__name__)
@@ -93,10 +94,44 @@ def _notice_options() -> tuple[Any, ...]:
 
 
 def _get_notice(db: Session, notice_id: int) -> Notice:
-    notice = db.scalar(select(Notice).where(Notice.id == notice_id).options(*_notice_options()))
+    notice = db.scalar(
+        select(Notice)
+        .where(Notice.id == notice_id, _visible_notice_condition())
+        .options(*_notice_options())
+    )
     if notice is None:
         raise HTTPException(status_code=404, detail="Notice not found")
     return notice
+
+
+def _visible_notice_condition() -> Any:
+    return exists(
+        select(NoticeSourceRelation.id)
+        .join(Source, Source.id == NoticeSourceRelation.source_id)
+        .where(
+            NoticeSourceRelation.notice_id == Notice.id,
+            Source.is_deleted.is_(False),
+            or_(
+                Source.ownership.not_in(("OFFICIAL_CLOUD", "SHARED_CLOUD")),
+                Source.subscribed.is_(True),
+            ),
+        )
+    )
+
+
+def _global_notice_counts(db: Session) -> tuple[int, int]:
+    total = db.scalar(
+        select(func.count(Notice.id)).where(_visible_notice_condition())
+    ) or 0
+    unread = db.scalar(
+        select(func.count(Notice.id))
+        .outerjoin(UserState, UserState.notice_id == Notice.id)
+        .where(
+            _visible_notice_condition(),
+            or_(UserState.id.is_(None), UserState.is_read.is_(False)),
+        )
+    ) or 0
+    return total, unread
 
 
 @api_router.get("/notices")
@@ -119,7 +154,7 @@ def list_notices(
 ) -> dict[str, Any]:
     query = select(Notice).options(*_notice_options())
     count_query = select(func.count(func.distinct(Notice.id)))
-    conditions: list[Any] = []
+    conditions: list[Any] = [_visible_notice_condition()]
     if category:
         category_values = [value.strip() for value in category.split(",") if value.strip()]
         if category_values:
@@ -197,7 +232,7 @@ def notices_today(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
     start = datetime.combine(date.today(), datetime.min.time())
     notices = db.scalars(
         select(Notice)
-        .where(Notice.first_seen_at >= start, Notice.status != "baseline")
+        .where(Notice.first_seen_at >= start, Notice.status != "baseline", _visible_notice_condition())
         .options(*_notice_options())
         .order_by(Notice.importance_score.desc())
     ).all()
@@ -208,7 +243,7 @@ def notices_today(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
 def important_notices(min_score: int = Query(70, ge=0, le=100), db: Session = Depends(get_db)) -> list[dict[str, Any]]:
     notices = db.scalars(
         select(Notice)
-        .where(Notice.importance_score >= min_score)
+        .where(Notice.importance_score >= min_score, _visible_notice_condition())
         .options(*_notice_options())
         .order_by(Notice.importance_score.desc())
     ).all()
@@ -223,6 +258,7 @@ def deadline_notices(days: int = Query(30, ge=0, le=365), db: Session = Depends(
         .where(
             Notice.registration_deadline >= today,
             Notice.registration_deadline <= today + timedelta(days=days),
+            _visible_notice_condition(),
         )
         .options(*_notice_options())
         .order_by(Notice.registration_deadline)
@@ -243,22 +279,40 @@ def categories(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
 
 @api_router.get("/sources")
 def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
-    rows = db.scalars(select(Source).order_by(Source.id)).all()
+    rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
     results: list[dict[str, Any]] = []
     for item in rows:
-        if not item.enabled:
+        private_oa = item.code == "oa" and item.ownership == "CUSTOM_LOCAL_PRIVATE"
+        public_feed_missing = item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and is_public_feed_not_configured(
+            item.last_error_code,
+            item.last_error,
+        )
+        projected_health_state = "cloud_unconfigured" if public_feed_missing else item.health_state
+        if item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and not item.subscribed:
             source_status = "disabled"
-            message = "尚未完成首次登录配置" if item.code == "oa" else "数据源已禁用"
-        elif item.last_error == "OA_LOGIN_EXPIRED":
-            source_status = "login_expired"
-            message = "登录状态已失效，请重新执行 oa-login"
+            message = "当前设备未订阅此官方来源"
+        elif item.health_state == "needs_reauth" or item.last_error == "OA_LOGIN_EXPIRED":
+            source_status = "needs_reauth"
+            message = "登录状态已失效，请在来源页面重新登录"
+        elif private_oa and item.health_state == "unconfigured":
+            source_status = "login_required"
+            message = "需要完成首次登录配置"
+        elif not item.enabled:
+            source_status = "disabled"
+            message = "尚未完成首次登录配置" if private_oa else "数据源已禁用"
+        elif public_feed_missing:
+            source_status = "cloud_unconfigured"
+            message = "等待 Notice Hub 公共源启用"
+        elif item.health_state in {"auth_error", "parse_error", "network_error", "source_error", "unsupported", "syncing"}:
+            source_status = item.health_state
+            message = item.last_error
         elif item.last_error:
             source_status = "unavailable"
             message = item.last_error
         elif item.last_success_at:
             source_status = "healthy"
             message = None
-        elif item.code == "oa":
+        elif private_oa:
             source_status = "login_required"
             message = "需要先执行 oa-login"
         else:
@@ -270,9 +324,21 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
             "name": item.name,
             "base_url": item.base_url,
             "enabled": item.enabled,
+            "subscribed": item.subscribed,
+            "ownership": item.ownership,
+            "source_type": item.source_type,
+            "auth_type": item.auth_type,
+            "auth_required": item.auth_type != "none",
+            "health_state": projected_health_state,
+            "source_scope": item.source_scope,
+            "execution": item.execution,
+            "execution_policy": item.execution_policy,
+            "cloud_policy": item.cloud_policy,
+            "cloud_source_id": item.cloud_source_id,
             "last_checked_at": item.last_checked_at,
             "last_success_at": item.last_success_at,
-            "last_error": item.last_error,
+            "last_error": None if public_feed_missing else item.last_error,
+            "last_error_code": PUBLIC_FEED_NOT_CONFIGURED if public_feed_missing else item.last_error_code,
             "consecutive_errors": item.consecutive_errors,
             "status": source_status,
             "message": message,
@@ -312,10 +378,11 @@ def api_health(db: Session = Depends(get_db)) -> dict[str, Any] | JSONResponse:
 
 @api_router.get("/stats")
 def stats(db: Session = Depends(get_db)) -> dict[str, int]:
+    total, unread = _global_notice_counts(db)
     return {
-        "notices": db.scalar(select(func.count(Notice.id))) or 0,
+        "notices": total,
         "sources": db.scalar(select(func.count(Source.id))) or 0,
-        "unread": db.scalar(select(func.count(UserState.id)).where(UserState.is_read.is_(False))) or 0,
+        "unread": unread,
         "favorites": db.scalar(select(func.count(UserState.id)).where(UserState.is_favorite.is_(True))) or 0,
     }
 
@@ -353,27 +420,31 @@ def dashboard(db: Session = Depends(get_db)) -> dict[str, Any]:
     urgent_end = today + timedelta(days=3)
     recent = db.scalars(
         select(Notice)
+        .where(_visible_notice_condition())
         .options(*_notice_options())
         .order_by(Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
         .limit(10)
     ).all()
+    total_count, unread_count = _global_notice_counts(db)
     return {
+        "total_count": total_count,
         "new_today": db.scalar(
             select(func.count(Notice.id)).where(
-                Notice.first_seen_at >= start, Notice.status != "baseline"
+                Notice.first_seen_at >= start, Notice.status != "baseline", _visible_notice_condition()
             )
         ) or 0,
         "urgent": db.scalar(
             select(func.count(Notice.id)).where(
                 Notice.registration_deadline >= today,
                 Notice.registration_deadline <= urgent_end,
+                _visible_notice_condition(),
             )
         ) or 0,
-        "important": db.scalar(select(func.count(Notice.id)).where(Notice.importance_score >= 70)) or 0,
+        "important": db.scalar(select(func.count(Notice.id)).where(Notice.importance_score >= 70, _visible_notice_condition())) or 0,
         "upcoming_deadlines": db.scalar(
-            select(func.count(Notice.id)).where(Notice.registration_deadline >= today)
+            select(func.count(Notice.id)).where(Notice.registration_deadline >= today, _visible_notice_condition())
         ) or 0,
-        "unread": db.scalar(select(func.count(UserState.id)).where(UserState.is_read.is_(False))) or 0,
+        "unread": unread_count,
         "source_status": sources(db),
         "recent_notices": [_serialize_notice(item) for item in recent],
     }
@@ -445,7 +516,11 @@ async def run_source(source_code: str) -> dict[str, str]:
 
 @api_router.get("/crawler/status")
 def crawler_status() -> dict[str, Any]:
-    return {**crawler_manager.status(), "scheduler": scheduler_manager.status()}
+    return {
+        **crawler_manager.status(),
+        "scheduler": scheduler_manager.status(),
+        "startup_sync": startup_sync.status(),
+    }
 
 
 @api_router.get("/runtime/diagnostics")

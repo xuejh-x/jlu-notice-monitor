@@ -24,8 +24,8 @@ describe('DesktopBackendBoundary', () => {
   it('waits for desktop backend readiness before rendering the application', async () => {
     tauri.isTauri.mockReturnValue(true)
     tauri.invoke
-      .mockResolvedValueOnce({ phase: 'starting', ready: false, owned: true, pid: 42, error: null })
-      .mockResolvedValueOnce({ phase: 'ready', ready: true, owned: true, pid: 42, error: null })
+      .mockResolvedValueOnce({ phase: 'starting', ready: false, owned: true, pid: 42, port: 49152, apiBaseUrl: 'http://127.0.0.1:49152', error: null })
+      .mockResolvedValueOnce({ phase: 'ready', ready: true, owned: true, pid: 42, port: 49152, apiBaseUrl: 'http://127.0.0.1:49152', error: null })
 
     render(<DesktopBackendBoundary><div>应用内容</div></DesktopBackendBoundary>)
     expect(screen.getByRole('status')).toHaveTextContent('正在启动本地通知服务')
@@ -36,14 +36,14 @@ describe('DesktopBackendBoundary', () => {
     tauri.isTauri.mockReturnValue(true)
     tauri.invoke.mockImplementation((command: string) => {
       if (command === 'backend_status') {
-        return Promise.resolve({ phase: 'failed', ready: false, owned: false, pid: null, error: '端口 8000 已被其他程序占用。' })
+        return Promise.resolve({ phase: 'failed', ready: false, owned: false, pid: null, port: null, apiBaseUrl: null, error: '本地通知服务启动失败。' })
       }
-      return Promise.resolve({ phase: 'ready', ready: true, owned: true, pid: 43, error: null })
+      return Promise.resolve({ phase: 'ready', ready: true, owned: true, pid: 43, port: 49153, apiBaseUrl: 'http://127.0.0.1:49153', error: null })
     })
 
     render(<DesktopBackendBoundary><div>应用内容</div></DesktopBackendBoundary>)
     expect(await screen.findByRole('heading', { level: 1, name: '本地通知服务启动失败' })).toBeInTheDocument()
-    expect(screen.getByRole('alert')).toHaveTextContent('端口 8000 已被其他程序占用')
+    expect(screen.getByRole('alert')).toHaveTextContent('本地通知服务启动失败')
 
     fireEvent.click(screen.getByRole('button', { name: '重新启动服务' }))
     await waitFor(() => expect(screen.getByText('应用内容')).toBeInTheDocument())

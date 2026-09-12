@@ -15,12 +15,12 @@ const base: Notice = {
   is_read: false, is_archived: false, is_favorite: false, sources: [{ code: 'cse', name: '网络安全学院', url: 'u' }],
 }
 
-function renderCard(notice: Notice) {
+function renderCard(notice: Notice, props: { compact?: boolean; selected?: boolean; onSelect?: (id: number) => void } = {}) {
   const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } })
   return render(
     <QueryClientProvider client={queryClient}>
       <ToastProvider>
-        <MemoryRouter><NoticeCard notice={notice} /></MemoryRouter>
+        <MemoryRouter><NoticeCard notice={notice} {...props} /></MemoryRouter>
       </ToastProvider>
     </QueryClientProvider>,
   )
@@ -37,6 +37,48 @@ describe('NoticeCard', () => {
   it('renders the title as a link with the correct href', () => {
     renderCard(base)
     expect(screen.getByRole('link', { name: '测试通知标题' })).toHaveAttribute('href', '/notices/7')
+  })
+
+  it('keeps selected, unread, important, updated and favorite states independent in the compact row', () => {
+    renderCard({ ...base, is_favorite: true, status: 'updated' }, { compact: true, selected: true })
+    expect(screen.getByRole('link', { name: `打开${base.title}` })).toHaveAttribute('aria-current', 'page')
+    expect(screen.getByText('未读')).toBeVisible()
+    expect(screen.getByText('重要')).toBeVisible()
+    expect(screen.getByText('已更新')).toBeVisible()
+    expect(screen.getByText('科研/实验室')).toBeVisible()
+    expect(screen.getByRole('button', { name: '取消收藏' })).toHaveAttribute('aria-pressed', 'true')
+  })
+
+  it('opens a compact row through the existing selection callback without coupling the favorite action', async () => {
+    const onSelect = vi.fn()
+    renderCard(base, { compact: true, onSelect })
+    const link = screen.getByRole('link', { name: `打开${base.title}` })
+    const button = screen.getByRole('button', { name: '收藏通知' })
+    expect(link).not.toContainElement(button)
+    fireEvent.click(button)
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1))
+    expect(onSelect).not.toHaveBeenCalled()
+    fireEvent.click(link)
+    expect(onSelect).toHaveBeenCalledExactlyOnceWith(base.id)
+  })
+
+  it.each([
+    ['today', 0, '今天截止', 'bg-deadline-danger-bg'],
+    ['urgent', 3, '3 天后截止', 'bg-deadline-warning-bg'],
+    ['upcoming', 12, '12 天后截止', 'bg-deadline-neutral-bg'],
+    ['expired', -1, '已截止', 'bg-deadline-neutral-bg'],
+  ] as const)('renders compact deadline %s without changing its calculated label', (deadline_status, days_until_deadline, label, tone) => {
+    renderCard({ ...base, deadline_status, days_until_deadline, is_read: true, importance_score: 20 }, { compact: true })
+    expect(screen.getByText(label)).toHaveClass(tone)
+    expect(screen.getByText('已读')).toBeVisible()
+    expect(screen.queryByText('重要')).not.toBeInTheDocument()
+  })
+
+  it('omits an absent compact deadline and preserves the complete accessible long title', () => {
+    const title = '关于开展本科生科研训练计划项目申报与材料提交工作的通知'.repeat(8)
+    renderCard({ ...base, title, registration_deadline: null, deadline_status: 'none', days_until_deadline: null }, { compact: true })
+    expect(screen.getByRole('link', { name: `打开${title}` })).toHaveAttribute('title', title)
+    expect(screen.queryByText(/截止|时间待定/)).not.toBeInTheDocument()
   })
 
   it('shows the importance semantic label instead of a raw score', () => {

@@ -1,0 +1,80 @@
+{
+  "body": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "bottomNav": {
+    "clientHeight": 67,
+    "clientWidth": 390,
+    "overflowY": "visible",
+    "paddingBottom": "0px",
+    "scrollHeight": 67,
+    "scrollWidth": 390
+  },
+  "document": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 1209,
+    "scrollWidth": 390
+  },
+  "listPane": {
+    "clientHeight": 0,
+    "clientWidth": 0,
+    "overflowY": "hidden",
+    "paddingBottom": "68px",
+    "scrollHeight": 0,
+    "scrollWidth": 0
+  },
+  "reader": {
+    "clientHeight": 788,
+    "clientWidth": 375,
+    "overflowY": "auto",
+    "paddingBottom": "68px",
+    "scrollHeight": 1309,
+    "scrollWidth": 375
+  },
+  "root": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "scrollers": [
+    {
+      "className": "min-h-0 min-w-0 overflow-y-auto bg-detail-surface pb-mobile-nav-height md:pb-0 xl:border-l xl:border-border block",
+      "clientHeight": 788,
+      "label": "通知详情工作区",
+      "scrollHeight": 1309,
+      "tag": "ASIDE"
+    }
+  ],
+  "shell": {
+    "clientHeight": 844,
+    "clientWidth": 390,
+    "overflowY": "hidden",
+    "paddingBottom": "0px",
+    "scrollHeight": 844,
+    "scrollWidth": 390
+  },
+  "sidebar": {
+    "clientHeight": 0,
+    "clientWidth": 0,
+    "overflowY": "visible",
+    "paddingBottom": "24px",
+    "scrollHeight": 0,
+    "scrollWidth": 0
+  },
+  "viewport": {
+    "dpr": 1.0000000298023224,
+    "height": 844,
+    "width": 390
+  }
+}

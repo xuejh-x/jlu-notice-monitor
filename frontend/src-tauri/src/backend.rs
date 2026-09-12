@@ -2,7 +2,7 @@ use serde::Serialize;
 use serde_json::Value;
 use std::{
     io::{Read, Write},
-    net::{SocketAddr, TcpStream},
+    net::{SocketAddr, TcpListener, TcpStream},
     sync::{
         atomic::{AtomicBool, Ordering},
         Arc, Mutex,
@@ -16,7 +16,6 @@ use tauri_plugin_shell::{
 };
 
 const BACKEND_HOST: &str = "127.0.0.1";
-const BACKEND_PORT: u16 = 8000;
 const SIDECAR_NAME: &str = "jlu-notice-backend";
 const STARTUP_TIMEOUT: Duration = Duration::from_secs(20);
 const SHUTDOWN_TIMEOUT: Duration = Duration::from_secs(5);
@@ -27,7 +26,6 @@ enum BackendPhase {
     Idle,
     Starting,
     ReadyOwned,
-    ReadyExternal,
     Failed,
     Stopping,
 }
@@ -37,7 +35,7 @@ impl BackendPhase {
         match self {
             Self::Idle => "idle",
             Self::Starting => "starting",
-            Self::ReadyOwned | Self::ReadyExternal => "ready",
+            Self::ReadyOwned => "ready",
             Self::Failed => "failed",
             Self::Stopping => "stopping",
         }
@@ -49,6 +47,7 @@ struct BackendInner {
     error: Option<String>,
     child: Option<CommandChild>,
     pid: Option<u32>,
+    port: Option<u16>,
     terminated: Option<Arc<AtomicBool>>,
     generation: u64,
 }
@@ -60,6 +59,7 @@ impl Default for BackendInner {
             error: None,
             child: None,
             pid: None,
+            port: None,
             terminated: None,
             generation: 0,
         }
@@ -80,6 +80,8 @@ pub struct BackendStatus {
     ready: bool,
     owned: bool,
     pid: Option<u32>,
+    port: Option<u16>,
+    api_base_url: Option<String>,
     error: Option<String>,
 }
 
@@ -95,12 +97,13 @@ impl BackendController {
         let inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
         BackendStatus {
             phase: inner.phase.label(),
-            ready: matches!(
-                inner.phase,
-                BackendPhase::ReadyOwned | BackendPhase::ReadyExternal
-            ),
+            ready: inner.phase == BackendPhase::ReadyOwned,
             owned: inner.phase == BackendPhase::ReadyOwned,
             pid: inner.pid,
+            port: inner.port,
+            api_base_url: inner
+                .port
+                .map(|port| format!("http://{BACKEND_HOST}:{port}")),
             error: inner.error.clone(),
         }
     }
@@ -141,16 +144,11 @@ impl BackendController {
             inner.generation = inner.generation.wrapping_add(1);
         }
 
-        match probe_backend() {
-            PortState::OurService => {
-                let mut inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
-                inner.phase = BackendPhase::ReadyExternal;
-                return Ok(());
-            }
-            PortState::Occupied => {
-                return Err("端口 8000 已被其他程序占用，无法启动本地通知服务。".into());
-            }
-            PortState::Free => {}
+        let port = allocate_loopback_port()?;
+        let port_argument = port.to_string();
+        {
+            let mut inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
+            inner.port = Some(port);
         }
 
         let command = app
@@ -163,11 +161,11 @@ impl BackendController {
                 "--host",
                 BACKEND_HOST,
                 "--port",
-                "8000",
+                port_argument.as_str(),
             ])
             .env("JLU_ENVIRONMENT", "production")
             .env("JLU_HOST", BACKEND_HOST)
-            .env("JLU_PORT", "8000");
+            .env("JLU_PORT", port_argument.as_str());
 
         let (mut events, child) = command
             .spawn()
@@ -209,7 +207,7 @@ impl BackendController {
                 return Err("本地通知服务在完成启动前意外退出。".into());
             }
 
-            match probe_backend() {
+            match probe_backend(port) {
                 PortState::OurService => {
                     let mut inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
                     if inner.generation == generation {
@@ -219,7 +217,7 @@ impl BackendController {
                     return Ok(());
                 }
                 PortState::Occupied => {
-                    return Err("端口 8000 出现了非预期服务，本地通知服务未能安全启动。".into());
+                    return Err("动态端口出现了非预期服务，本地通知服务未能安全启动。".into());
                 }
                 PortState::Free => {}
             }
@@ -234,6 +232,10 @@ impl BackendController {
         if inner.generation != generation || inner.phase == BackendPhase::Stopping {
             return;
         }
+        inner.child = None;
+        inner.pid = None;
+        inner.port = None;
+        inner.terminated = None;
         inner.phase = BackendPhase::Failed;
         inner.error = Some("本地通知服务意外停止。请重新启动应用。".into());
     }
@@ -248,6 +250,7 @@ impl BackendController {
         }
         let mut inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
         inner.pid = None;
+        inner.port = None;
         inner.terminated = None;
     }
 
@@ -296,14 +299,24 @@ impl BackendController {
         let mut inner = self.inner.lock().unwrap_or_else(|error| error.into_inner());
         inner.child = None;
         inner.pid = None;
+        inner.port = None;
         inner.terminated = None;
         inner.phase = BackendPhase::Idle;
         inner.error = None;
     }
 }
 
-fn probe_backend() -> PortState {
-    let address = SocketAddr::from(([127, 0, 0, 1], BACKEND_PORT));
+fn allocate_loopback_port() -> Result<u16, String> {
+    let listener = TcpListener::bind((BACKEND_HOST, 0))
+        .map_err(|_| "无法为本地通知服务分配端口。".to_string())?;
+    listener
+        .local_addr()
+        .map(|address| address.port())
+        .map_err(|_| "无法读取本地通知服务端口。".to_string())
+}
+
+fn probe_backend(port: u16) -> PortState {
+    let address = SocketAddr::from(([127, 0, 0, 1], port));
     let mut stream = match TcpStream::connect_timeout(&address, Duration::from_millis(250)) {
         Ok(stream) => stream,
         Err(_) => return PortState::Free,
@@ -311,10 +324,10 @@ fn probe_backend() -> PortState {
     let _ = stream.set_read_timeout(Some(Duration::from_millis(500)));
     let _ = stream.set_write_timeout(Some(Duration::from_millis(500)));
 
-    if stream
-        .write_all(b"GET /api/health HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nConnection: close\r\n\r\n")
-        .is_err()
-    {
+    let request = format!(
+        "GET /api/health HTTP/1.1\r\nHost: {BACKEND_HOST}:{port}\r\nConnection: close\r\n\r\n"
+    );
+    if stream.write_all(request.as_bytes()).is_err() {
         return PortState::Occupied;
     }
 
@@ -378,23 +391,21 @@ mod tests {
     }
 
     #[test]
-    fn status_distinguishes_owned_and_external_ready_services() {
+    fn status_exposes_owned_dynamic_backend_url() {
         let controller = BackendController::default();
         {
             let mut inner = controller.inner.lock().unwrap();
-            inner.phase = BackendPhase::ReadyExternal;
-        }
-        let external = controller.status();
-        assert!(external.ready);
-        assert!(!external.owned);
-
-        {
-            let mut inner = controller.inner.lock().unwrap();
             inner.phase = BackendPhase::ReadyOwned;
+            inner.port = Some(49152);
         }
-        let owned = controller.status();
-        assert!(owned.ready);
-        assert!(owned.owned);
+        let status = controller.status();
+        assert!(status.ready);
+        assert!(status.owned);
+        assert_eq!(status.port, Some(49152));
+        assert_eq!(
+            status.api_base_url.as_deref(),
+            Some("http://127.0.0.1:49152")
+        );
     }
 
     #[test]
@@ -406,5 +417,12 @@ mod tests {
         assert!(!status.ready);
         assert_eq!(status.error.as_deref(), Some("safe message"));
         assert!(!controller.start_in_progress.load(Ordering::Acquire));
+    }
+
+    #[test]
+    fn allocated_backend_port_is_loopback_and_initially_free() {
+        let port = allocate_loopback_port().expect("loopback port");
+        assert_ne!(port, 0);
+        assert_eq!(probe_backend(port), PortState::Free);
     }
 }

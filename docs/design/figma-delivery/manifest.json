@@ -1,0 +1,9 @@
+{
+  "name": "Notice Hub · Build editable UI",
+  "id": "notice-hub-desktop-local-design",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] }
+}

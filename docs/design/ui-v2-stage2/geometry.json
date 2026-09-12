@@ -1,0 +1,405 @@
+{
+  "results": [
+    {
+      "name": "desktop-dark",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 844
+      },
+      "reader": {
+        "x": 856,
+        "y": 56,
+        "width": 584,
+        "height": 844
+      },
+      "listHeader": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 52
+      },
+      "filter": {
+        "x": 282,
+        "y": 108,
+        "width": 574,
+        "height": 36
+      },
+      "status": {
+        "x": 282,
+        "y": 144,
+        "width": 574,
+        "height": 28
+      },
+      "footer": {
+        "x": 282,
+        "y": 860,
+        "width": 574,
+        "height": 40
+      },
+      "rows": [
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": true,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        }
+      ],
+      "scrollWidth": 1440,
+      "viewport": 1440
+    },
+    {
+      "name": "desktop-light",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 844
+      },
+      "reader": {
+        "x": 856,
+        "y": 56,
+        "width": 584,
+        "height": 844
+      },
+      "listHeader": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 52
+      },
+      "filter": {
+        "x": 282,
+        "y": 108,
+        "width": 574,
+        "height": 36
+      },
+      "status": {
+        "x": 282,
+        "y": 144,
+        "width": 574,
+        "height": 28
+      },
+      "footer": {
+        "x": 282,
+        "y": 860,
+        "width": 574,
+        "height": 40
+      },
+      "rows": [
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": true,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        }
+      ],
+      "scrollWidth": 1440,
+      "viewport": 1440
+    },
+    {
+      "name": "tablet-list",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 72,
+        "height": 900
+      },
+      "header": {
+        "x": 72,
+        "y": 0,
+        "width": 696,
+        "height": 56
+      },
+      "list": {
+        "x": 72,
+        "y": 56,
+        "width": 696,
+        "height": 844
+      },
+      "reader": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "listHeader": {
+        "x": 72,
+        "y": 56,
+        "width": 696,
+        "height": 52
+      },
+      "filter": {
+        "x": 72,
+        "y": 108,
+        "width": 696,
+        "height": 36
+      },
+      "status": {
+        "x": 72,
+        "y": 144,
+        "width": 696,
+        "height": 28
+      },
+      "footer": {
+        "x": 72,
+        "y": 860,
+        "width": 696,
+        "height": 40
+      },
+      "rows": [
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": true,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        }
+      ],
+      "scrollWidth": 768,
+      "viewport": 768
+    },
+    {
+      "name": "mobile-list",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56
+      },
+      "list": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 822
+      },
+      "reader": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "listHeader": {
+        "x": 0,
+        "y": 104,
+        "width": 390,
+        "height": 52
+      },
+      "filter": {
+        "x": 0,
+        "y": 156,
+        "width": 390,
+        "height": 36
+      },
+      "status": {
+        "x": 0,
+        "y": 192,
+        "width": 390,
+        "height": 28
+      },
+      "footer": {
+        "x": 0,
+        "y": 822,
+        "width": 390,
+        "height": 40
+      },
+      "rows": [
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": true,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        },
+        {
+          "height": 86,
+          "titleTruncated": false,
+          "titleEllipsis": "ellipsis",
+          "overflow": false
+        }
+      ],
+      "scrollWidth": 390,
+      "viewport": 390
+    }
+  ],
+  "mobileBottom": {
+    "footerBottom": 760,
+    "navTop": 776
+  },
+  "pageErrors": [],
+  "interactionChecks": [
+    "favorite without navigation",
+    "unfavorite without navigation",
+    "row click selects notice",
+    "successful detail marks read",
+    "tablet and mobile click and return",
+    "mobile footer reachable above fixed navigation"
+  ]
+}

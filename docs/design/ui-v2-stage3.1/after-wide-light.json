@@ -1,0 +1,70 @@
+{
+  "article": {
+    "bottom": 724.0000457763672,
+    "height": 607.3333740234375,
+    "left": 930,
+    "right": 1634,
+    "top": 116.66667175292967,
+    "width": 704,
+    "x": 930,
+    "y": 116.66667175292967
+  },
+  "attachment": {
+    "bottom": 551.3333435058594,
+    "height": 46,
+    "left": 930,
+    "right": 1634,
+    "top": 505.3333435058594,
+    "width": 704,
+    "x": 930,
+    "y": 505.3333435058594
+  },
+  "body": {
+    "bottom": 455.3333435058594,
+    "height": 180,
+    "left": 930,
+    "right": 1634,
+    "top": 275.3333435058594,
+    "width": 704,
+    "x": 930,
+    "y": 275.3333435058594
+  },
+  "documentClientHeight": 923,
+  "documentClientWidth": 1707,
+  "documentScrollHeight": 923,
+  "documentScrollWidth": 1707,
+  "dpr": 1.5,
+  "footer": {
+    "bottom": 724.0000419616699,
+    "height": 44.66666793823242,
+    "left": 930,
+    "right": 1634,
+    "top": 679.3333740234375,
+    "width": 704,
+    "x": 930,
+    "y": 679.3333740234375
+  },
+  "height": 923,
+  "reader": {
+    "bottom": 923.3333740234376,
+    "height": 867.3333740234375,
+    "left": 856,
+    "right": 1707.3333740234375,
+    "top": 56,
+    "width": 851.3333740234375,
+    "x": 856,
+    "y": 56
+  },
+  "toolbarIcon": {
+    "bottom": 85,
+    "height": 14,
+    "left": 930,
+    "right": 944,
+    "top": 71,
+    "width": 14,
+    "x": 930,
+    "y": 71
+  },
+  "url": "http://127.0.0.1:5173/notices/90",
+  "width": 1707
+}

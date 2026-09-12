@@ -77,10 +77,11 @@ def test_cross_source_versions_keep_independent_hashes() -> None:
             content="软件学院版本",
         )
         assert CrawlerManager._persist_candidate(db, first_source, first, False) == "NEW"
-        assert CrawlerManager._persist_candidate(db, second_source, second, False) == "UNCHANGED"
+        assert CrawlerManager._persist_candidate(db, second_source, second, False) == "NEW"
         assert CrawlerManager._persist_candidate(db, first_source, first, False) == "UNCHANGED"
         assert CrawlerManager._persist_candidate(db, second_source, second, False) == "UNCHANGED"
-        assert len(db.scalars(select(Notice)).all()) == 1
+        assert len(db.scalars(select(Notice)).all()) == 2
+        assert len(db.scalars(select(NoticeSourceRelation)).all()) == 2
         assert len(db.scalars(select(NoticeUpdate)).all()) == 0
 
 

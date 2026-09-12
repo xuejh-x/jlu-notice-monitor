@@ -41,7 +41,7 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 ## API
 
 - `GET /health`：兼容健康检查入口
-- `GET /api/health`：数据库 readiness probe，供未来 Tauri sidecar 使用
+- `GET /api/health`：数据库 readiness probe，供 Tauri sidecar 生命周期管理使用
 - `GET /api/notices`：数据库层分页与组合筛选，支持 `page`、`page_size`、`favorite`、`read`、`category`、`source`、`deadline_status`、`q`，并兼容 `keyword`、`status`、`min_score`、`date_from`、`date_to`
 - `GET /api/notices/{id}`
 - `GET /api/notices/today`
@@ -73,27 +73,17 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 
 各站点使用独立 Adapter 类型和配置化栏目，公共 WebPlus 页面解析由容错解析器复用。测试 HTML 固定在 `tests/fixtures/`，pytest 不依赖实时网站。
 
-## OA 当前状态
+## OA 校内通知公开源
 
-OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`、`status: "disabled"` 和“尚未完成首次登录配置”。它不参与公开 Source 的抓取，也不会影响公开 Source 的成功或失败。
+“吉林大学 OA 校内通知”是无需登录的官方公开来源。Cloud Worker 直接抓取公开列表与详情，Desktop 只同步 Cloud Feed；该来源不读取账号、Cookie 或浏览器会话，也不创建 OA 专用 profile。
 
-框架已预留 Playwright persistent context、登录状态检查、`OA_LOGIN_EXPIRED` 异常和独立 Source 隔离。浏览器 profile 保存到 `data/browser_profile/oa/`，不会读取或保存明文密码，且已被 `.gitignore` 排除。
-
-首次在能够正常访问 OA 的网络环境中执行：
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install -e ".[oa]"
-.\.venv\Scripts\python.exe -m playwright install chromium
-.\.venv\Scripts\python.exe -m app oa-login
-```
-
-浏览器打开后由本人完成统一身份认证。首次真实登录后，先根据登录后的实际 HTML 完成并测试 OA Adapter，再将 `config/sources.yaml` 中 OA 的 `enabled` 改为 `true`，最后执行：
+单独验证该来源：
 
 ```powershell
 .\.venv\Scripts\python.exe -m app crawl --source oa
 ```
 
-当前代码明确返回 `OA_UNCONFIGURED`，没有猜测登录后的通知 DOM，也不会模拟成功抓取。
+适配器按列表元数据执行增量分流；只有 new/updated 项进入详情抓取。详情解析复用统一正文、附件、去重、评分、截止日期和通知流水线。
 
 ## 运行目录
 
@@ -102,7 +92,6 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 - `get_app_data_dir()`
 - `get_database_path()`
 - `get_log_dir()`
-- `get_oa_profile_dir()`
 - `get_cache_dir()`
 - `get_runtime_config_dir()`
 
@@ -112,7 +101,6 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 %LOCALAPPDATA%\JLU Notice Monitor\
 ├── data\notices.db
 ├── logs\
-├── oa-profile\
 ├── cache\
 └── config\
 ```
@@ -121,9 +109,9 @@ OA 数据源当前默认关闭，`GET /api/sources` 会返回 `enabled: false`�
 
 ## Sidecar 生命周期准备
 
-Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放；正常 Ctrl+C 可干净退出。
+Backend 默认仅监听 `127.0.0.1:8000`。可通过 `JLU_HOST` / `JLU_PORT`，或 `serve --host` / `serve --port` 覆盖。Desktop production 由 Tauri 分配动态 loopback 端口并传入 sidecar。FastAPI lifespan 会完成数据库初始化、Source 同步、Crawler 后台任务取消和 SQLAlchemy engine 释放。
 
-Phase 3A 的 Tauri 壳层已经接入，但 Backend 仍需手工启动。Phase 3C 将由 Tauri 启动 Backend、轮询 `GET /api/health`，并在应用退出时终止 Backend、等待 graceful shutdown；当前没有 Python EXE 或 sidecar 打包。
+`backend/scripts/build_sidecar.py` 使用 PyInstaller one-file 模式打包 Backend、Python 依赖和 `config/` YAML，再按 Rust target triple 暂存到 Tauri binaries。Tauri 通过 `serve --managed` 启动它、轮询 `GET /api/health`，退出时通过 stdin 请求 graceful shutdown，超时后只终止自有 child。安装后的普通用户不需要 Python 或 Backend 源码目录。
 
 ## Windows Task Scheduler
 

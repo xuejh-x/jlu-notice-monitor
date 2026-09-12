@@ -81,6 +81,30 @@ describe('NoticeDetailPage', () => {
     expect(await screen.findByText('真实附件.pdf')).toBeInTheDocument()
   })
 
+  it.each([200, 404])('preserves every query parameter on the detail return link (%s)', async status => {
+    const search = '?q=%E5%A5%96%E5%AD%A6%E9%87%91&source=ccst&read=0&favorite=1&page=2&page_size=50'
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify(status === 200 ? detail : { detail: '通知不存在' }), { status }))))
+    renderDetail(`42${search}`)
+    expect(await screen.findByRole('link', { name: '返回通知列表' })).toHaveAttribute('href', `/notices${search}`)
+  })
+
+  it('keeps long attachment names and types accessible while unsafe links stay unavailable', async () => {
+    const filename = '国家奖学金申请表与跨学院联合培养材料清单'.repeat(12) + '.xlsx'
+    const type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify({ ...detail, attachments: [
+      { filename, type, url: 'https://example.test/form.xlsx' },
+      { filename: '不可用附件.pdf', type: 'pdf', url: 'javascript:alert(1)' },
+    ] }), { status: 200 }))))
+    renderDetail()
+    const link = await screen.findByTitle(filename)
+    expect(link).toHaveRole('link')
+    expect(link).toHaveAttribute('href', 'https://example.test/form.xlsx')
+    expect(link).toHaveAccessibleName(expect.stringContaining(filename))
+    expect(screen.getByTitle(type)).toHaveTextContent(type)
+    expect(screen.getByTitle('不可用附件.pdf · 链接不可用')).toHaveAttribute('aria-disabled', 'true')
+    expect(screen.queryByRole('link', { name: /不可用附件/ })).not.toBeInTheDocument()
+  })
+
   it('renders a dedicated 404 state with a return link', async () => {
     vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify({ detail: '通知不存在' }), { status: 404 }))))
 
@@ -132,6 +156,30 @@ describe('NoticeDetailPage', () => {
     renderDetail()
     expect(await screen.findByRole('heading', { name: '测试通知' })).toBeInTheDocument()
     expect(readCalls(fetchMock)).toHaveLength(0)
+  })
+
+  it('marks an already-read notice unread with one click without auto-reading it again', async () => {
+    let serverRead = true
+    const fetchMock = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
+      const url = String(input)
+      if (init?.method === 'POST' && url.endsWith('/notices/42/unread')) {
+        serverRead = false
+        return Promise.resolve(new Response(JSON.stringify({ notice_id: 42, is_read: false }), { status: 200 }))
+      }
+      if (init?.method === 'POST' && url.endsWith('/notices/42/read')) {
+        serverRead = true
+        return Promise.resolve(new Response(JSON.stringify({ notice_id: 42, is_read: true }), { status: 200 }))
+      }
+      return Promise.resolve(new Response(JSON.stringify({ ...detail, is_read: serverRead }), { status: 200 }))
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    renderDetail()
+    fireEvent.click(await screen.findByRole('button', { name: '标记为未读' }))
+
+    expect(await screen.findByRole('button', { name: '标记为已读' })).toBeInTheDocument()
+    await waitFor(() => expect(fetchMock.mock.calls.filter(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/42/unread'))).toHaveLength(1))
+    expect(fetchMock.mock.calls.filter(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/42/read'))).toHaveLength(0)
   })
 
   it('renders a favorite action with an accessible name and toggles via the existing mutation', async () => {

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -73,6 +74,62 @@ async def test_incremental_skip_new_updated_unchanged_and_persistence(
 
 
 @pytest.mark.asyncio
+async def test_incremental_skip_when_detail_enriches_optional_list_metadata(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
+    with make_session() as db:
+        source = Source(code="fixture", name="Fixture", base_url="https://example.test")
+        db.add(source)
+        db.commit()
+        list_item = NoticeCandidate(title="Notice", url="https://example.test/1")
+        detail = list_item.model_copy(
+            update={"content": "body", "publish_date": date(2026, 9, 8), "publisher": "Office"}
+        )
+        adapter = FixtureSource([list_item], {list_item.url: detail})
+        monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
+        monkeypatch.setattr(runner_module, "build_source", lambda _: adapter)
+        config = {"code": "fixture", "name": "Fixture", "base_url": "https://example.test"}
+
+        first_run = await manager._run_source(config, False)
+        assert first_run.detail_fetched == 1
+
+        unchanged_run = await manager._run_source(config, False)
+        assert unchanged_run.unchanged_count == 1
+        assert unchanged_run.detail_skipped == 1
+        assert unchanged_run.detail_fetched == 0
+        assert adapter.detail_calls == [list_item.url]
+
+
+@pytest.mark.asyncio
+async def test_incremental_skip_accepts_explicitly_truncated_list_title(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
+    with make_session() as db:
+        source = Source(code="fixture", name="Fixture", base_url="https://example.test")
+        db.add(source)
+        db.commit()
+        full_title = "转发国家自然科学基金委员会关于发布重大研究计划项目指南的通告"
+        first = NoticeCandidate(title=full_title, url="https://example.test/1", content="正文")
+        truncated = NoticeCandidate(
+            title="转发国家自然科学基金委员会关于发布重大研究计划...",
+            url=first.url,
+        )
+        adapter = FixtureSource([first], {first.url: first})
+        monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
+        monkeypatch.setattr(runner_module, "build_source", lambda _: adapter)
+        config = {"code": "fixture", "name": "Fixture", "base_url": "https://example.test"}
+
+        await manager._run_source(config, False)
+        adapter.items = [truncated]
+        second = await manager._run_source(config, False)
+        assert second.unchanged_count == 1
+        assert second.detail_skipped == 1 and second.detail_fetched == 0
+        assert adapter.detail_calls == [first.url]
+
+
+@pytest.mark.asyncio
 async def test_source_failure_is_isolated_and_reported(monkeypatch: pytest.MonkeyPatch) -> None:
     manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
     with make_session() as db:
@@ -92,6 +149,40 @@ async def test_source_failure_is_isolated_and_reported(monkeypatch: pytest.Monke
         assert result.status == "failure"
         assert "TimeoutError" in result.errors[0]
         assert db.scalar(select(Source.last_error).where(Source.code == "fixture"))
+
+
+@pytest.mark.asyncio
+async def test_private_auth_failure_does_not_block_public_sources(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    manager = CrawlerManager(cache_dir=tmp_path)
+    configs = [
+        {"code": "private", "name": "Private", "base_url": "https://private.test", "enabled": True},
+        {"code": "public", "name": "Public", "base_url": "https://public.test", "enabled": True},
+    ]
+    session = make_session()
+    monkeypatch.setattr(runner_module, "SessionLocal", lambda: session)
+    monkeypatch.setattr(runner_module, "init_db", lambda: None)
+    monkeypatch.setattr(manager, "_sync_sources", lambda *_: None)
+    monkeypatch.setattr(manager, "_load_source_configs", lambda *_: configs)
+    monkeypatch.setattr(
+        runner_module,
+        "load_yaml",
+        lambda name: {"sources": configs}
+        if name == "sources.yaml"
+        else {"crawler": {"source_concurrency": 2}},
+    )
+
+    async def isolated(config: dict[str, object], _: bool) -> SourceRunResult:
+        if config["code"] == "private":
+            return SourceRunResult(source="private", status="failure", errors=["AUTH_SESSION_EXPIRED"])
+        return SourceRunResult(source="public", status="success", new_count=1)
+
+    monkeypatch.setattr(manager, "_run_source", isolated)
+    result = await manager.run()
+    assert result.status == "partial_failure"
+    assert result.new_count == 1
+    assert [item.status for item in result.source_results] == ["failure", "success"]
 
 
 @pytest.mark.asyncio

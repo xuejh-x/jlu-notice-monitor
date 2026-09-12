@@ -26,7 +26,6 @@ from app.paths import (
     get_cache_dir,
     get_database_path,
     get_log_dir,
-    get_oa_profile_dir,
     get_runtime_config_dir,
 )
 
@@ -42,7 +41,6 @@ def test_runtime_directory_override_stays_in_temp_dir(tmp_path: Path) -> None:
     ensure_runtime_directories("production", runtime)
     assert get_database_path("production", runtime) == runtime / "data" / "notices.db"
     assert get_log_dir("production", runtime).is_dir()
-    assert get_oa_profile_dir("production", runtime).is_dir()
     assert get_cache_dir("production", runtime).is_dir()
     assert get_runtime_config_dir("production", runtime).is_dir()
     settings = Settings(
@@ -57,6 +55,15 @@ def test_runtime_directory_override_stays_in_temp_dir(tmp_path: Path) -> None:
 def test_tauri_production_origin_is_allowed_by_default() -> None:
     settings = Settings(_env_file=None)
     assert "http://tauri.localhost" in settings.cors_origins
+
+
+def test_startup_sync_defaults_to_local_and_desktop_but_not_cloud() -> None:
+    assert Settings(_env_file=None, environment="development").effective_startup_sync_enabled
+    assert Settings(_env_file=None, deployment_role="desktop").effective_startup_sync_enabled
+    assert not Settings(_env_file=None, deployment_role="cloud").effective_startup_sync_enabled
+    assert not Settings(
+        _env_file=None, deployment_role="desktop", startup_sync_enabled=False
+    ).effective_startup_sync_enabled
 
 
 def test_health_checks_database() -> None:
@@ -75,7 +82,7 @@ def test_health_checks_database() -> None:
         assert response.status_code == 200
         assert response.json()["status"] == "ok"
         assert response.json()["service"] == "jlu-notice-monitor"
-        assert response.json()["version"] == "0.2.0"
+        assert response.json()["version"] == "0.6.0"
         assert response.json()["database"] == "ok"
     finally:
         app.dependency_overrides.clear()
@@ -163,12 +170,19 @@ async def test_lifespan_starts_scheduler_and_stops_it_before_crawler(
         async def shutdown(self) -> None:
             events.append("crawler-stop")
 
+    class StartupSync:
+        def trigger_once(self) -> bool:
+            events.append("startup-sync")
+            return True
+
     monkeypatch.setattr(main_module, "scheduler_manager", Scheduler())
     monkeypatch.setattr(main_module, "crawler_manager", Crawler())
+    monkeypatch.setattr(main_module, "startup_sync", StartupSync())
     monkeypatch.setattr(main_module, "ensure_runtime_directories", lambda *_: None)
     monkeypatch.setattr(main_module, "init_db", lambda: None)
     monkeypatch.setattr(main_module, "SessionLocal", lambda: nullcontext(object()))
     monkeypatch.setattr(main_module, "load_yaml", lambda _: {"sources": []})
+    monkeypatch.setattr(main_module, "ensure_importance_rules", lambda *_: None)
     async with main_module.lifespan(app):
-        assert events == ["sync-sources", "scheduler-start"]
-    assert events == ["sync-sources", "scheduler-start", "scheduler-stop", "crawler-stop"]
+        assert events == ["sync-sources", "startup-sync", "scheduler-start"]
+    assert events == ["sync-sources", "startup-sync", "scheduler-start", "scheduler-stop", "crawler-stop"]

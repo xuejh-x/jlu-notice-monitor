@@ -1,4 +1,4 @@
-import { Bell, CalendarClock, CalendarDays, CircleStar, FlaskConical, Globe2, GraduationCap, House, Inbox, List, Settings, ShieldCheck, Star, Trophy, Waypoints } from 'lucide-react'
+import { Bell, Bookmark, CalendarClock, CalendarDays, CircleStar, FlaskConical, Globe2, GraduationCap, House, Inbox, List, Mail, Settings, ShieldCheck, Star, Trophy, Waypoints } from 'lucide-react'
 import type { ComponentType } from 'react'
 import { matchPath } from 'react-router-dom'
 
@@ -10,22 +10,37 @@ export const desktopNavGroups: NavGroup[] = [
   {
     label: '主导航',
     items: [
-      { to: '/notices', label: '收件箱', icon: Inbox },
-      { to: '/notices?min_score=70', label: '重要', icon: Star },
-      { to: '/deadlines', label: '即将截止', icon: CalendarClock },
-      { to: '/sources', label: '来源', icon: Globe2 },
-      { to: '/settings', label: '设置', icon: Settings },
+      { to: '/notices', label: '全部通知', icon: Inbox },
+      { to: '/notices?read=0', label: '未读通知', icon: Mail },
+      { to: '/notices?favorite=1', label: '收藏', icon: Bookmark },
+      { to: '/notices?min_score=70', label: '重要通知', icon: Star },
     ],
   },
   {
     label: '快捷视图',
     items: [
-      { to: '/notices?date_from=week', label: '本周更新', icon: CalendarDays },
-      { to: '/notices?read=0', label: '未读', icon: Inbox },
-      { to: '/notices?favorite=1', label: '已收藏', icon: Star },
+      { to: '/deadlines', label: '即将截止', icon: CalendarClock },
     ],
   },
 ]
+
+/** Existing source-filter values only; source grouping/counts are not part of the API. */
+export const desktopSourceGroups: NavGroup[] = [{
+  label: '通知来源',
+  items: [
+    { to: '/notices?source=cse', label: '网络安全学院', icon: GraduationCap },
+    { to: '/notices?source=ccst', label: '计算机学院', icon: GraduationCap },
+    { to: '/notices?source=csw', label: '软件学院', icon: GraduationCap },
+    { to: '/notices?source=jwc', label: '本科生院', icon: GraduationCap },
+    { to: '/notices?source=innovation', label: '创新创业教育学院', icon: GraduationCap },
+    { to: '/notices?source=oa', label: 'OA 校内通知', icon: Globe2 },
+  ],
+}]
+
+export const desktopUtilityGroups: NavGroup[] = [{ label: '管理', items: [
+  { to: '/sources', label: '来源管理', icon: Globe2 },
+  { to: '/settings', label: '设置与偏好', icon: Settings },
+] }]
 
 /** Desktop Sidebar + Mobile "More" panel navigation (real routes only). */
 export const navGroups: NavGroup[] = [

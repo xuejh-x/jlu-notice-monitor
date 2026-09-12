@@ -17,9 +17,9 @@ export function NoticeContent({ content }: { content: string | null }) {
   const paragraphs = content.split(/\n+/).filter(Boolean)
 
   return (
-    <div className="space-y-4">
+    <div className="detail-prose min-w-0 space-y-3">
       {paragraphs.map((paragraph, index) => (
-        <p key={index} className="text-detail-body break-words leading-7 text-text-secondary">
+        <p key={index} className="text-detail-body break-words [overflow-wrap:anywhere] text-text-secondary">
           {paragraph}
         </p>
       ))}

@@ -12,13 +12,7 @@ import { deadlinePresentation, importanceLabels, importanceLevel, isExpired, sou
 import { Badge } from '../ui/Badge'
 import { DeadlineBadge } from './DeadlineBadge'
 import { SourceIcon } from './SourceIcon'
-
-function categoryVariant(category: string | null): 'accent' | 'success' | 'warning' | 'neutral' {
-  if (category === 'research' || category === 'innovation_competition') return 'success'
-  if (category === 'training' || category === 'internship') return 'warning'
-  if (category && category !== 'other') return 'accent'
-  return 'neutral'
-}
+import { NoticeCategoryTag } from './NoticeCategoryTag'
 
 export function NoticeCard({ notice, selected = false, onSelect, compact = false }: { notice: Notice; selected?: boolean; onSelect?: (id: number) => void; compact?: boolean }) {
   const queryClient = useQueryClient(); const toast = useToast()
@@ -30,7 +24,7 @@ export function NoticeCard({ notice, selected = false, onSelect, compact = false
   if (compact) {
     const source = sourceLabel(notice)
     return (
-      <article className={cn('group relative mx-3 my-0.5 box-border h-notice-row-height border-b border-border/20 px-2.5 py-1.5 transition-colors hover:bg-surface-muted/40', selected && 'z-10 rounded-design border border-accent/45 bg-selected-surface hover:bg-selected-surface')}>
+      <article className={cn('group relative box-border flex h-notice-row-height min-w-0 flex-col gap-0.5 px-shell-gutter py-2.5 transition-colors hover:bg-surface-hover active:bg-selected-surface', selected && 'bg-selected-surface hover:bg-selected-surface')}>
         <Link
           to={`/notices/${notice.id}`}
           onClick={event => {
@@ -40,25 +34,28 @@ export function NoticeCard({ notice, selected = false, onSelect, compact = false
           }}
           aria-label={`打开${notice.title}`}
           aria-current={selected ? 'page' : undefined}
-          className="absolute inset-0 focus-visible:rounded-design focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus"
+          title={notice.title}
+          className="absolute inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-focus"
         />
-        <div className="flex items-center gap-2 text-metadata text-text-muted">
-          <SourceIcon name={source} />
+        <div className="pointer-events-none flex h-4.5 shrink-0 items-center gap-1.5 text-metadata text-text-muted">
+          <SourceIcon name={source} inline />
           <span className="min-w-0 flex-1 truncate text-text-secondary">{source}</span>
-          <time className="shrink-0 tabular-nums">{relativeTime(notice.publish_date)}</time>
+          <time dateTime={notice.publish_date ?? undefined} className="shrink-0 tabular-nums">{relativeTime(notice.publish_date)}</time>
         </div>
-        <div className="mt-0.5 flex items-start gap-2">
-          <span className={cn('mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full', notice.is_read ? 'bg-border-strong' : 'bg-unread')} aria-hidden="true" />
-          <span className="sr-only">{notice.is_read ? '已读' : '未读'}</span>
-          <h2 className={cn('min-w-0 flex-1 truncate text-left text-notice-title leading-5 group-hover:text-text-primary', expired && 'text-text-secondary', notice.is_read ? 'font-normal text-text-secondary' : 'font-medium text-text-primary', selected && 'text-text-primary')}>{notice.title}</h2>
+        <div className="pointer-events-none flex h-6 shrink-0 items-center gap-2">
+          {!notice.is_read && <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-unread" aria-hidden="true" />}
+          <h2 className={cn('min-w-0 flex-1 truncate text-left text-notice-title font-medium', notice.is_read || expired ? 'text-text-secondary' : 'text-text-primary', selected && 'text-text-primary')}>{notice.title}</h2>
         </div>
-        <div className="mt-0.5 flex min-w-0 items-center gap-1.5 pl-3.5">
-          <Badge variant={categoryVariant(notice.category)} className="h-6 max-w-32 truncate px-2 py-0">{categoryLabels[notice.category ?? ''] ?? '其他'}</Badge>
-          {level !== 'normal' && <span className="shrink-0 text-label font-medium text-important">{importanceLabels[level]}</span>}
-          <span className="flex-1" />
-          <DeadlineBadge notice={notice} />
-          <button type="button" onClick={() => favorite.mutate()} disabled={favorite.isPending} aria-label={notice.is_favorite ? '取消收藏' : '收藏通知'} className="relative z-10 -mr-1 grid h-6 w-6 shrink-0 place-items-center rounded-small text-text-muted hover:bg-surface-raised hover:text-important">
-            <Bookmark className={cn('h-4 w-4', notice.is_favorite && 'fill-accent-soft-text text-accent-soft-text')} />
+        <div className="flex h-5 min-w-0 shrink-0 items-center gap-2 text-label text-text-muted">
+          <div className="pointer-events-none flex min-w-0 flex-1 items-center gap-2">
+            <NoticeCategoryTag category={notice.category} />
+            <span className={cn('shrink-0', !notice.is_read && 'text-accent-soft-text')}>{notice.is_read ? '已读' : '未读'}</span>
+            {level !== 'normal' && <Badge variant="important" className="shrink-0 gap-1 border-0 bg-transparent p-0"><Star className="h-3 w-3" aria-hidden="true" />{importanceLabels[level]}</Badge>}
+            {notice.status === 'updated' && <Badge className="min-w-0 truncate rounded-compact border-source-green-fg/20 bg-source-green-bg px-1.5 py-0 text-source-green-fg">已更新</Badge>}
+          </div>
+          <DeadlineBadge notice={notice} list />
+          <button type="button" onClick={() => favorite.mutate()} disabled={favorite.isPending} aria-label={notice.is_favorite ? '取消收藏' : '收藏通知'} aria-pressed={notice.is_favorite} className="relative z-10 grid h-5 w-5 shrink-0 place-items-center rounded-small text-text-muted hover:bg-surface-raised hover:text-accent-soft-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus disabled:opacity-50">
+            <Bookmark className={cn('h-3.5 w-3.5', notice.is_favorite && 'fill-accent-soft-text text-accent-soft-text')} aria-hidden="true" />
           </button>
         </div>
       </article>

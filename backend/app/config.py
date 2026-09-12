@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from pydantic import Field
+from pydantic import AliasChoices, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from app.paths import BACKEND_DIR, get_database_path
@@ -38,6 +38,39 @@ class Settings(BaseSettings):
     oa_headless: bool = True
     scheduler_enabled: bool | None = None
     scheduler_interval_minutes: int | None = Field(default=None, ge=1)
+    deployment_role: str | None = None
+    public_feed_url: str | None = None
+    cloud_feed_stale_after_seconds: int = Field(default=3600, ge=60, le=86400)
+    source_max_response_bytes: int = Field(default=5_000_000, ge=100_000, le=20_000_000)
+    source_max_pages: int = Field(default=3, ge=1, le=5)
+    source_run_timeout_seconds: int = Field(default=120, ge=30, le=600)
+    startup_sync_enabled: bool | None = None
+    admin_key: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("NOTICE_HUB_ADMIN_KEY", "JLU_ADMIN_KEY"),
+    )
+    cloud_admin_url: str | None = Field(
+        default=None,
+        validation_alias=AliasChoices("NOTICE_HUB_CLOUD_ADMIN_URL", "JLU_CLOUD_ADMIN_URL"),
+    )
+    admin_auth_attempts_per_minute: int = Field(default=10, ge=1, le=120)
+    min_cloud_crawl_interval_seconds: int = Field(default=900, ge=300, le=86400)
+
+    @property
+    def effective_deployment_role(self) -> str:
+        if self.deployment_role:
+            return self.deployment_role.strip().lower()
+        return "desktop" if self.environment == "production" else "standalone"
+
+    @property
+    def effective_startup_sync_enabled(self) -> bool:
+        if self.startup_sync_enabled is not None:
+            return self.startup_sync_enabled
+        # Both the packaged Desktop backend and the ordinary local/standalone
+        # backend own a local database and should refresh it after readiness.
+        # Cloud keeps its scheduler-only lifecycle so a deploy/restart does not
+        # create an extra production crawl.
+        return self.effective_deployment_role != "cloud"
 
     @property
     def database_path(self) -> Path | None:

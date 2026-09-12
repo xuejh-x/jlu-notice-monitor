@@ -31,7 +31,7 @@ describe('DashboardPage', () => {
 
   it('renders decision metrics, priority notices, recent notices and source status', async () => {
     vi.mocked(getDashboard).mockResolvedValue({
-      new_today: 2, urgent: 1, important: 3, upcoming_deadlines: 4, unread: 5,
+      total_count: 12, new_today: 2, urgent: 1, important: 3, upcoming_deadlines: 4, unread: 5,
       source_status: [
         { code: 'cse', name: '网络安全学院', enabled: true, status: 'healthy', message: null },
         { code: 'oa', name: 'OA', enabled: false, status: 'disabled', message: null },
@@ -57,7 +57,7 @@ describe('DashboardPage', () => {
   })
 
   it('shows a true-empty state with a source action', async () => {
-    vi.mocked(getDashboard).mockResolvedValue({ new_today: 0, urgent: 0, important: 0, upcoming_deadlines: 0, unread: 0, source_status: [], recent_notices: [] })
+    vi.mocked(getDashboard).mockResolvedValue({ total_count: 0, new_today: 0, urgent: 0, important: 0, upcoming_deadlines: 0, unread: 0, source_status: [], recent_notices: [] })
     vi.mocked(getImportantNotices).mockResolvedValue([])
 
     renderPage()
@@ -65,4 +65,3 @@ describe('DashboardPage', () => {
     expect(screen.getByRole('link', { name: '查看数据源' })).toHaveAttribute('href', '/sources')
   })
 })
-
