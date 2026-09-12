@@ -382,6 +382,31 @@ test('Mark unread applies once and remains unread after cache reconciliation', a
   expect((await detailResponse.json()).is_read).toBeFalsy()
 })
 
+test('A manually unread notice becomes read when its detail is entered again', async ({ page, request }) => {
+  await setState(request, 102, 'favorite')
+  await page.goto('/notices/102')
+  const toolbar = page.getByRole('toolbar', { name: '通知操作' })
+  await expect(toolbar.getByRole('button', { name: '取消收藏' })).toBeVisible()
+
+  const unreadResponse = page.waitForResponse(item => item.url().endsWith('/api/notices/102/unread') && item.request().method() === 'POST')
+  await toolbar.getByRole('button', { name: '标记为未读' }).click()
+  await unreadResponse
+  await expect(toolbar.getByRole('button', { name: '标记为已读' })).toBeVisible()
+
+  await page.goto('/notices/103')
+  await expect(page.getByRole('heading', { name: 'E2E 已收藏实验室招募', level: 1 })).toBeVisible()
+  const rereadResponse = page.waitForResponse(item => item.url().endsWith('/api/notices/102/read') && item.request().method() === 'POST')
+  await page.goto('/notices/102')
+  await rereadResponse
+
+  await expect(page.getByRole('toolbar', { name: '通知操作' }).getByRole('button', { name: '标记为未读' })).toBeVisible()
+  await expect(page.getByRole('toolbar', { name: '通知操作' }).getByRole('button', { name: '取消收藏' })).toBeVisible()
+  const detailResponse = await request.get(`${backendUrl}/api/notices/102`)
+  const reopened = await detailResponse.json()
+  expect(reopened.is_read).toBeTruthy()
+  expect(reopened.is_favorite).toBeTruthy()
+})
+
 test('Unread filtering keeps the independent all-notice count', async ({ page, request }) => {
   const dashboard = await (await request.get(`${backendUrl}/api/dashboard`)).json()
   await page.goto('/notices')

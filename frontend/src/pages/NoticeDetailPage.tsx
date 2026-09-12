@@ -117,12 +117,14 @@ function AttachmentsSection({ notice }: { notice: NoticeDetail }) {
 }
 
 export function NoticeDetailPage({ embeddedId }: { embeddedId?: number }) {
-  const { search } = useLocation()
+  const { search, key: locationKey } = useLocation()
   const routeId = Number(useParams().id)
   const id = embeddedId ?? routeId
   const client = useQueryClient()
   const toast = useToast()
-  const markedIds = useRef(new Set<number>())
+  const visitKey = `${locationKey}:${id}`
+  const autoReadVisit = useRef<string | null>(null)
+  const manualUnreadVisit = useRef<string | null>(null)
 
   const query = useQuery({
     queryKey: ['notice', id],
@@ -143,8 +145,8 @@ export function NoticeDetailPage({ embeddedId }: { embeddedId?: number }) {
     mutationFn: (value: boolean) => setNoticeRead(id, value),
     onMutate: async (value: boolean) => {
       // A deliberate "mark unread" must not be consumed by the automatic
-      // read effect on the very next render.
-      if (!value) markedIds.current.add(id)
+      // read effect during this visit. A later detail entry gets a new key.
+      if (!value) manualUnreadVisit.current = visitKey
       await Promise.all([
         client.cancelQueries({ queryKey: ['notice', id] }),
         client.cancelQueries({ queryKey: ['notices'] }),
@@ -171,8 +173,14 @@ export function NoticeDetailPage({ embeddedId }: { embeddedId?: number }) {
   })
 
   useEffect(() => {
-    if (query.data && query.data.id === id && !query.data.is_read && !markedIds.current.has(id)) {
-      markedIds.current.add(id)
+    if (
+      query.data
+      && query.data.id === id
+      && !query.data.is_read
+      && autoReadVisit.current !== visitKey
+      && manualUnreadVisit.current !== visitKey
+    ) {
+      autoReadVisit.current = visitKey
       setNoticeRead(id, true)
         .then(() => {
           updateNoticeReadState(client, id, true, false)
@@ -184,7 +192,7 @@ export function NoticeDetailPage({ embeddedId }: { embeddedId?: number }) {
         })
         .catch(() => undefined)
     }
-  }, [query.data, id, client])
+  }, [query.data, id, client, visitKey])
 
   if (query.isPending) return <DetailSkeleton />
 

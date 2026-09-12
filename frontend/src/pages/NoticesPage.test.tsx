@@ -324,4 +324,20 @@ describe('NoticesPage server-backed filtering', () => {
     expect(screen.getByText('筛选测试通知 12')).toBeInTheDocument()
     expect(screen.getByTestId('location')).not.toHaveTextContent('source=')
   })
+
+  it('does not mark notices read while the list is browsed, searched, or scrolled', async () => {
+    renderNotices()
+    const noticeLink = await screen.findByRole('link', { name: '打开筛选测试通知 1' })
+    const noticeRow = noticeLink.closest('article')
+    expect(noticeRow).not.toBeNull()
+    expect(within(noticeRow!).getByText('未读')).toBeInTheDocument()
+
+    fireEvent.mouseEnter(noticeLink)
+    fireEvent.focus(noticeLink)
+    fireEvent.scroll(window)
+    fireEvent.change(screen.getByLabelText('搜索通知'), { target: { value: '筛选测试' } })
+
+    await waitFor(() => expect(requestUrls(fetchMock).some(url => url.includes(`q=${encodeURIComponent('筛选测试')}`))).toBe(true), { timeout: 1000 })
+    expect(fetchMock.mock.calls.some(([, init]) => init?.method === 'POST')).toBe(false)
+  })
 })

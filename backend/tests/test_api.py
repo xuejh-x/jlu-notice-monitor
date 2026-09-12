@@ -71,6 +71,14 @@ def test_notice_api_and_dashboard() -> None:
         assert "登录" not in str(oa_payload["message"] or "")
         assert client.get("/api/dashboard").status_code == 200
         assert client.post(f"/api/notices/{notice.id}/favorite").json()["is_favorite"] is True
+        assert client.post(f"/api/notices/{notice.id}/unread").json()["is_read"] is False
+        unread_detail = client.get(f"/api/notices/{notice.id}").json()
+        assert unread_detail["is_read"] is False
+        assert unread_detail["is_favorite"] is True
+        assert client.post(f"/api/notices/{notice.id}/read").json()["is_read"] is True
+        read_detail = client.get(f"/api/notices/{notice.id}").json()
+        assert read_detail["is_read"] is True
+        assert read_detail["is_favorite"] is True
     finally:
         app.dependency_overrides.clear()
         session.close()

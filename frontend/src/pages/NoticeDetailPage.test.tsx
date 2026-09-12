@@ -45,6 +45,7 @@ const detail = {
 function DetailHarness() {
   const [renderCount, setRenderCount] = useState(0)
   return <>
+    <Link to="/notices/1">打开通知 A</Link>
     <Link to="/notices/2">打开通知 B</Link>
     <button onClick={() => setRenderCount(value => value + 1)}>普通重渲染</button>
     <span data-testid="render-count">{renderCount}</span>
@@ -180,6 +181,47 @@ describe('NoticeDetailPage', () => {
     expect(await screen.findByRole('button', { name: '标记为已读' })).toBeInTheDocument()
     await waitFor(() => expect(fetchMock.mock.calls.filter(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/42/unread'))).toHaveLength(1))
     expect(fetchMock.mock.calls.filter(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/42/read'))).toHaveLength(0)
+  })
+
+  it('auto-reads an already-read notice after it is marked unread and entered again', async () => {
+    const serverRead = new Map([[1, true], [2, true]])
+    const fetchMock = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
+      const url = String(input)
+      const id = Number(url.match(/notices\/(\d+)/)?.[1])
+      if (init?.method === 'POST' && url.endsWith('/unread')) {
+        serverRead.set(id, false)
+        return Promise.resolve(new Response(JSON.stringify({ notice_id: id, is_read: false }), { status: 200 }))
+      }
+      if (init?.method === 'POST' && url.endsWith('/read')) {
+        serverRead.set(id, true)
+        return Promise.resolve(new Response(JSON.stringify({ notice_id: id, is_read: true }), { status: 200 }))
+      }
+      return Promise.resolve(new Response(JSON.stringify({
+        ...detail,
+        id,
+        title: id === 1 ? '通知 A' : '通知 B',
+        is_read: serverRead.get(id),
+        is_favorite: id === 1,
+      }), { status: 200 }))
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    renderDetail('1')
+    expect(await screen.findByRole('heading', { name: '通知 A' })).toBeInTheDocument()
+    expect(readCalls(fetchMock).filter(url => url.endsWith('/notices/1/read'))).toHaveLength(0)
+
+    fireEvent.click(screen.getByRole('button', { name: '标记为未读' }))
+    await waitFor(() => expect(fetchMock.mock.calls.filter(([input, init]) => init?.method === 'POST' && String(input).endsWith('/notices/1/unread'))).toHaveLength(1))
+    expect(readCalls(fetchMock).filter(url => url.endsWith('/notices/1/read'))).toHaveLength(0)
+
+    fireEvent.click(screen.getByRole('link', { name: '打开通知 B' }))
+    expect(await screen.findByRole('heading', { name: '通知 B' })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('link', { name: '打开通知 A' }))
+    expect(await screen.findByRole('heading', { name: '通知 A' })).toBeInTheDocument()
+
+    await waitFor(() => expect(readCalls(fetchMock).filter(url => url.endsWith('/notices/1/read'))).toHaveLength(1))
+    expect(screen.getByRole('button', { name: '取消收藏' })).toBeInTheDocument()
+    expect(fetchMock.mock.calls.some(([input, init]) => init?.method === 'POST' && /\/(un)?favorite$/.test(String(input)))).toBe(false)
   })
 
   it('renders a favorite action with an accessible name and toggles via the existing mutation', async () => {
