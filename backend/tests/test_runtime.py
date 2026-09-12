@@ -82,7 +82,7 @@ def test_health_checks_database() -> None:
         assert response.status_code == 200
         assert response.json()["status"] == "ok"
         assert response.json()["service"] == "jlu-notice-monitor"
-        assert response.json()["version"] == "0.6.0"
+        assert response.json()["version"] == "0.7.0-rc1"
         assert response.json()["database"] == "ok"
     finally:
         app.dependency_overrides.clear()

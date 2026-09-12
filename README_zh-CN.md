@@ -1,226 +1,118 @@
 # JLU Notice Monitor
 
-[English](README.md)
+[English](README.md) | 中文
 
-> 一个可扩展的校园通知聚合与智能提醒平台。
+> 聚合、去重、筛选并主动提醒官方校园通知的 Windows 桌面应用。
 
-JLU Notice Monitor
-是一个面向校园场景的信息聚合系统，用于自动收集、处理和推送来自官方来源的重要通知。
+当前版本：**v0.7.0-rc1**
 
-项目目前以吉林大学作为实际应用场景，但系统采用可扩展的来源架构，支持未来接入其他高校、学院以及组织的通知来源。
+JLU Notice Monitor 帮助学生集中查看原本分散在学校和学院网站上的重要通知。当前内置吉林大学相关来源，但来源适配器架构不永久绑定吉林大学，可扩展到其他高校和公共组织。
 
-## 项目简介
-
-传统校园通知通常分散在：
-
--   学校官网
--   学院网站
--   教务系统
--   OA 平台
--   各类信息门户
-
-用户需要手动访问多个网站才能获取最新信息。
-
-JLU Notice Monitor 提供自动化的信息获取与分发方案：
-
--   聚合多个官方通知来源
--   自动检测新增和更新通知
--   提取结构化信息
--   分析通知重要度和截止时间
--   通过桌面应用及时提醒用户
-
-项目目标不仅是抓取通知，而是构建一个可靠、可扩展的信息分发系统。
+![JLU Notice Monitor 桌面界面](docs/design/ui-v2-stage3.3/after-1440x900.png)
 
 ## 核心功能
 
-### 可扩展来源架构
+- 聚合多个官方通知来源。
+- 支持增量抓取、内容哈希去重和通知更新检测。
+- 提取正文、附件、分类、重要度和截止日期。
+- 提供搜索、来源/分类筛选、已读状态、收藏和响应式布局。
+- 官方公开来源采用云端优先策略；云端 Feed 不可用或过期时可安全地回退到本地适配器。
+- 根据本地的重要度、截止时间、静默时段和来源健康偏好发送 Windows 原生通知。
+- 数据库与个人偏好保存在用户应用数据目录中，升级不会替换这些数据。
 
-系统采用统一的 Source Adapter 架构。
+## 已支持来源
 
-支持：
+v0.7.0-rc1 内置适配器包括：
 
--   学校官方通知网站
--   学院和部门公告
--   公开门户 / OA 通知系统
--   自定义通知来源
+- 吉林大学 OA 校内公开通知
+- 吉林大学网络安全学院
+- 吉林大学计算机科学与技术学院
+- 吉林大学软件学院
+- 吉林大学本科生院
+- 吉林大学创新创业教育学院
 
-当前支持：
-
--   吉林大学 OA 校内通知
--   学院公告页面
--   本科生院通知
--   创新创业教育学院通知
-
-新增来源只需要实现对应 Adapter，无需修改核心通知处理流程。
-
-------------------------------------------------------------------------
-
-### 智能通知处理
-
-系统支持：
-
--   增量抓取
--   内容哈希去重
--   通知更新检测
--   正文结构化解析
--   附件提取
--   重要度评分
--   截止时间识别
-
-------------------------------------------------------------------------
-
-### 云端优先混合架构
-
-系统支持灵活的云端和本地执行模式。
-
-架构：
-
-官方通知来源
-
-↓
-
-Source Adapter
-
-↓
-
-Cloud Source Registry
-
-↓
-
-云端执行 / 本地执行
-
-↓
-
-通知处理流水线
-
-↓
-
-Windows 桌面应用
-
-支持：
-
--   Cloud-first 云端部署
--   本地备用执行
--   来源级执行策略控制
-
-即使云服务不可用，也可以通过本地模式继续运行。
-
-------------------------------------------------------------------------
-
-### 事件驱动通知系统
-
-通知系统采用事件驱动架构。
-
-包含：
-
--   NotificationEvent
--   NotificationDelivery
--   NotificationPreference
-
-支持：
-
--   Windows 原生通知
--   通知权限管理
--   用户提醒偏好
--   通知状态追踪
-
-------------------------------------------------------------------------
-
-### 稳定性设计
-
-系统关注长期运行可靠性：
-
--   来源健康监控
--   自动调度抓取
--   增量同步
--   失败检测
--   自动化回归测试
+来源管理架构也支持增加其他公开来源或本地来源。上游网站临时离线或页面结构变化时，对应来源仍可能暂时不可用。
 
 ## 系统架构
 
-官方通知来源
+```text
+官方来源 / 云端 Feed
+          |
+       来源适配器
+          |
+   FastAPI 处理流水线
+ 抓取 -> 解析 -> 去重
+      -> 分类 -> 提醒
+          |
+       SQLite 数据
+          |
+ React + TypeScript 界面
+          |
+  Tauri 2 Windows 桌面应用
+```
 
-↓
+生产安装包包含 Tauri 应用和受管的 FastAPI 后端 sidecar。Sidecar 只监听动态分配的本机回环端口。源码、Python 环境、Node 模块、开发工具、数据库和日志不会进入安装包。
 
-Source Adapter Layer
+## Windows 安装
 
-↓
+1. 打开 `v0.7.0-rc1` 对应的 GitHub Release。
+2. 下载 `JLU Notice Monitor_0.7.0-rc1_x64-setup.exe` 及其 SHA256 校验值。
+3. 在 PowerShell 中校验文件：
 
-Cloud Source Registry
+   ```powershell
+   Get-FileHash -Algorithm SHA256 '.\JLU Notice Monitor_0.7.0-rc1_x64-setup.exe'
+   ```
 
-↓
+4. 运行安装器，然后从开始菜单或快捷方式启动 **JLU Notice Monitor**。
 
-Crawler
+系统要求为 Windows 10/11 x64，并需要 Microsoft Edge WebView2 Runtime。受支持的 Windows 通常已包含 WebView2；若运行环境缺失，请先从 Microsoft 安装当前 Runtime。
 
-↓
+该版本仍是候选发布版。请备份重要数据，并通过仓库 GitHub Issues 反馈问题。
 
-Parser & Extraction
+## 开发
 
-↓
+前置环境：
 
-Deduplication
+- Python 3.12 或更高版本（项目 CI 与发布环境使用 Python 3.13）
+- Node.js 24 与 npm
+- 与 Rust 1.77.2 或更高版本兼容的 Rust 工具链
+- Windows 桌面打包所需的 NSIS 环境
 
-↓
+配置后端：
 
-重要度与截止时间分析
+```powershell
+Set-Location backend
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -e '.[dev,desktop]'
+.\.venv\Scripts\python.exe -m pytest
+```
 
-↓
+配置并验证前端：
 
-Notification Engine
+```powershell
+Set-Location frontend
+npm ci
+npm test -- --run
+npm run lint
+npm run build
+npm run e2e
+```
 
-↓
+构建 Windows 生产安装包：
 
-桌面应用
+```powershell
+Set-Location frontend
+npm run desktop:build
+```
 
-## 技术栈
+构建脚本会先生成 PyInstaller 后端 sidecar，再构建前端和 Tauri NSIS 安装包。本地配置应基于 `.env.example` 文件创建，禁止提交凭据或运行时数据。
 
-### 后端
+## 仓库结构
 
--   Python
--   FastAPI
--   SQLite
+- `backend/` — FastAPI 应用、抓取器、SQLite 模型和 pytest 测试
+- `frontend/` — React/Vite 界面、Vitest/Playwright 测试和 Tauri 壳层
+- `docs/` — 设计契约、实施报告与验证证据
 
-### 前端
+## 许可
 
--   React
--   TypeScript
--   Vite
-
-### 桌面端
-
--   Tauri
--   Windows Native Notification
-
-### 测试
-
--   Pytest
--   Vitest
--   Playwright
-
-## 当前状态
-
-版本：
-
-v0.6.0
-
-已完成：
-
--   Cloud-first 来源架构
--   可扩展 Source Adapter 系统
--   吉林大学 OA 公开通知接入
--   增量抓取流程
--   通知事件系统
--   Windows 桌面通知体验
--   来源健康监控基础能力
-
-## 未来计划
-
--   更多官方来源适配器
--   云端/本地自动切换
--   全文搜索
--   AI 辅助摘要与分类
--   移动端支持
-
-## License
-
-待定。
+项目当前尚未声明统一的开源许可证。公开源码不代表自动授予再分发或演绎作品权限；第三方资源继续遵循其同目录中记录的许可证。

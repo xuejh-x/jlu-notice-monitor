@@ -1,6 +1,6 @@
 [package]
 name = "jlu-notice-monitor"
-version = "0.6.0"
+version = "0.7.0-rc1"
 description = "吉林大学通知监控桌面应用"
 authors = ["JLU Notice Monitor contributors"]
 edition = "2021"
