@@ -244,6 +244,73 @@ test('Notices filter keeps URL, UI, and results aligned', async ({ page }) => {
   await expect(page.getByRole('link', { name: /E2E 普通校园活动/ })).toBeVisible()
 })
 
+test('Notices date filter changes the real API result', async ({ page, request }) => {
+  const seeded = await (await request.get(`${backendUrl}/api/notices/101`)).json()
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('/notices')
+  await expect(page.getByText('当前结果 14 条 · 未读 3 条')).toBeVisible()
+  await page.getByRole('button', { name: '筛选' }).click()
+  const dialog = page.getByRole('dialog')
+  await dialog.getByLabel('起始日期').fill(seeded.publish_date)
+  await dialog.getByRole('button', { name: /^应用/ }).click()
+
+  await expect(dialog).toHaveCount(0)
+  await expect(page).toHaveURL(new RegExp(`date_from=${seeded.publish_date}`))
+  await expect(page.getByText('当前结果 2 条 · 未读 2 条')).toBeVisible()
+  await expect(page.getByText('E2E 已收藏实验室招募')).toHaveCount(0)
+})
+
+test('Notices source filter changes the real API result', async ({ page }) => {
+  await page.goto('/notices')
+  await page.getByRole('button', { name: '筛选' }).click()
+  const dialog = page.getByRole('dialog')
+  await dialog.getByLabel('来源').selectOption('ccst')
+  await dialog.getByRole('button', { name: /^应用/ }).click()
+
+  await expect(page).toHaveURL(/source=ccst/)
+  await expect(page.getByText('当前结果 2 条 · 未读 0 条')).toBeVisible()
+  await expect(page.getByRole('link', { name: /E2E 已收藏实验室招募/ })).toBeVisible()
+  await expect(page.getByText('E2E 蓝桥杯竞赛通知')).toHaveCount(0)
+})
+
+test('Notices read-state filter changes the real API result', async ({ page }) => {
+  await page.goto('/notices')
+  await page.getByRole('button', { name: '筛选' }).click()
+  const dialog = page.getByRole('dialog')
+  await dialog.getByLabel('阅读状态').selectOption('unread')
+  await dialog.getByRole('button', { name: /^应用/ }).click()
+
+  await expect(page).toHaveURL(/read=0/)
+  await expect(page.getByText('当前结果 3 条 · 未读 3 条')).toBeVisible()
+  await expect(page.getByRole('link', { name: /E2E 未读奖学金申请通知/ })).toBeVisible()
+  await expect(page.getByText('E2E 量子计算讲座报名')).toHaveCount(0)
+})
+
+test('Notices pagination uses the current filtered total_count', async ({ page }) => {
+  await page.goto('/notices?source=cse&page_size=10')
+
+  await expect(page.getByText('当前结果 11 条 · 未读 3 条')).toBeVisible()
+  await expect(page.getByText('1–10 / 11 条')).toBeVisible()
+  await expect(page.getByText('第 1 / 2 页')).toBeVisible()
+  await page.getByRole('button', { name: '下一页' }).click()
+  await expect(page).toHaveURL(/page=2/)
+  await expect(page.getByText('11–11 / 11 条')).toBeVisible()
+})
+
+test('Clearing Notices filters restores the complete list', async ({ page }) => {
+  await page.goto('/notices?source=ccst')
+  await expect(page.getByText('当前结果 2 条 · 未读 0 条')).toBeVisible()
+  await page.getByRole('button', { name: '筛选 1' }).click()
+  const dialog = page.getByRole('dialog')
+  await dialog.getByRole('button', { name: '重置' }).click()
+  await dialog.getByRole('button', { name: '应用' }).click()
+
+  await expect(page).toHaveURL(/\/notices$/)
+  await expect(page.getByText('当前结果 14 条 · 未读 3 条')).toBeVisible()
+  await expect(page.getByRole('link', { name: /E2E 蓝桥杯竞赛通知/ })).toBeVisible()
+  await expect(page.getByRole('link', { name: /E2E 已收藏实验室招募/ })).toBeVisible()
+})
+
 test('Favorite → Favorites → unfavorite updates membership', async ({ page }) => {
   await page.goto('/notices/102')
   const detailToolbar = page.getByRole('toolbar', { name: '通知操作' })

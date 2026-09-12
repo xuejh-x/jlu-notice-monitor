@@ -72,6 +72,7 @@ def notice_client() -> TestClient:
 def test_default_and_explicit_pagination(notice_client: TestClient) -> None:
     default = notice_client.get("/api/notices").json()
     assert (default["page"], default["page_size"], default["total"], default["total_pages"]) == (1, 20, 5, 1)
+    assert (default["total_count"], default["unread_count"], default["all_count"]) == (5, 3, 5)
     second = notice_client.get("/api/notices", params={"page": 2, "page_size": 2}).json()
     assert second["page"] == 2
     assert second["total_pages"] == 3
@@ -87,6 +88,8 @@ def test_default_and_explicit_pagination(notice_client: TestClient) -> None:
         ({"read": "false"}, 3),
         ({"category": "algorithm_competition"}, 3),
         ({"source": "cse"}, 2),
+        ({"min_score": "80"}, 2),
+        ({"date_from": date.today().isoformat()}, 1),
         ({"deadline_status": "urgent"}, 1),
         ({"deadline_status": "expired"}, 1),
         ({"deadline_status": "unknown"}, 2),
@@ -109,8 +112,11 @@ def test_combined_filters_and_empty_result(notice_client: TestClient) -> None:
         "q": "蓝桥杯",
     })
     assert response.status_code == 200
-    assert response.json()["total"] == 1
-    assert response.json()["items"][0]["title"] == "蓝桥杯报名通知"
+    result = response.json()
+    assert result["total_count"] == 1
+    assert result["unread_count"] == 0
+    assert result["all_count"] == 5
+    assert result["items"][0]["title"] == "蓝桥杯报名通知"
     empty = notice_client.get("/api/notices", params={"q": "不存在的通知"}).json()
     assert empty["total"] == 0
     assert empty["total_pages"] == 0
@@ -146,3 +152,26 @@ def test_global_counts_are_independent_and_include_implicit_unread(notice_client
     assert refreshed["unread"] == 3
     assert refreshed["important"] == important
     assert refreshed["upcoming_deadlines"] == deadlines
+
+
+def test_filtered_pagination_uses_current_result_count(notice_client: TestClient) -> None:
+    first = notice_client.get(
+        "/api/notices",
+        params={"category": "algorithm_competition", "page": 1, "page_size": 2},
+    ).json()
+    second = notice_client.get(
+        "/api/notices",
+        params={"category": "algorithm_competition", "page": 2, "page_size": 2},
+    ).json()
+
+    assert (first["total_count"], first["total_pages"], len(first["items"])) == (3, 2, 2)
+    assert (second["total_count"], second["total_pages"], len(second["items"])) == (3, 2, 1)
+    assert first["all_count"] == second["all_count"] == 5
+
+
+def test_clearing_filters_restores_all_notices(notice_client: TestClient) -> None:
+    filtered = notice_client.get("/api/notices", params={"source": "cse"}).json()
+    cleared = notice_client.get("/api/notices").json()
+
+    assert filtered["total_count"] == 2
+    assert cleared["total_count"] == cleared["all_count"] == 5

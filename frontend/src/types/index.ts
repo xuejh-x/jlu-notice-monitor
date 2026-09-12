@@ -17,7 +17,20 @@ export interface NoticeDetail extends Notice {
   content: string | null; target_students: string | null; registration_method: string | null
   competition_level: string | null; attachments: Attachment[]; updates: Array<Record<string, unknown>>
 }
-export interface PaginatedNotices { items: Notice[]; total: number; page: number; page_size: number; total_pages: number }
+export interface PaginatedNotices {
+  items: Notice[]
+  /** Number of notices matching the current filters; authoritative for pagination. */
+  total_count: number
+  /** Number of unread notices inside the current filtered result. */
+  unread_count: number
+  /** Number of all visible notices, independent of the current filters. */
+  all_count: number
+  /** Compatibility alias for clients predating total_count. */
+  total: number
+  page: number
+  page_size: number
+  total_pages: number
+}
 /** Backend response of /notices/{id}/read|unread|favorite|unfavorite|archive|unarchive
  *  (routes.py `_set_state`): the mutated field is a dynamic key, e.g.
  *  {"notice_id": 34, "is_favorite": true}. */

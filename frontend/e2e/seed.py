@@ -54,8 +54,8 @@ def main() -> None:
     Base.metadata.create_all(bind=engine)
     today = date.today()
     with SessionLocal() as db:
-        main_source = Source(id=1, code="e2e-main", name="E2E 教务通知", base_url="https://example.test/main", enabled=True)
-        lab_source = Source(id=2, code="e2e-lab", name="E2E 科研平台", base_url="https://example.test/lab", enabled=True)
+        main_source = Source(id=1, code="cse", name="E2E 教务通知", base_url="https://example.test/main", enabled=True)
+        lab_source = Source(id=2, code="ccst", name="E2E 科研平台", base_url="https://example.test/lab", enabled=True)
         local_source = Source(
             id=3,
             code="e2e-local-fixture",
@@ -78,6 +78,19 @@ def main() -> None:
         add_notice(db, notice_id=105, source=lab_source, title="E2E 普通校园活动", content="校园活动报名与签到说明。", category="campus_activity", score=35, publish_date=today - timedelta(days=4), is_read=True)
         add_notice(db, notice_id=106, source=local_source, title="MOCK / FIXTURE promotion state notice", content="Cloud promotion state preservation fixture.", category="research", score=60, publish_date=today - timedelta(days=1), is_read=True, is_favorite=True)
         add_notice(db, notice_id=107, source=main_source, title="E2E 三天后截止报名", content="用于截止提醒的稳定测试通知。", category="competition", score=65, publish_date=today, deadline=today + timedelta(days=3))
+        for offset in range(5, 12):
+            notice_id = 103 + offset
+            add_notice(
+                db,
+                notice_id=notice_id,
+                source=main_source,
+                title=f"E2E 分页样本 {notice_id}",
+                content="用于验证筛选结果分页总数。",
+                category="academic",
+                score=50,
+                publish_date=today - timedelta(days=offset),
+                is_read=True,
+            )
         preferences = NotificationPreference(id=1, enabled=True, daily_summary_time="00:00")
         db.add(preferences)
         db.commit()

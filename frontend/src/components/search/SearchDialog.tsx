@@ -81,7 +81,7 @@ export function SearchDialog() {
   }
   const updateKeyword = (value: string) => { setKeyword(value); setActiveIndex(-1); setDesktopOpen(Boolean(value.trim())) }
   const clearKeyword = () => { setKeyword(''); setDesktopOpen(false); setActiveIndex(-1); desktopInputRef.current?.focus() }
-  const results = (id: string) => <SearchResults listboxId={id} keyword={debouncedKeyword} waiting={waitingForDebounce} pending={query.isPending} error={query.isError ? query.error : null} notices={notices} total={query.data?.total ?? 0} activeIndex={activeIndex} onActivate={setActiveIndex} onSelect={openNotice} onRetry={() => { void query.refetch() }} />
+  const results = (id: string) => <SearchResults listboxId={id} keyword={debouncedKeyword} waiting={waitingForDebounce} pending={query.isPending} error={query.isError ? query.error : null} notices={notices} total={query.data?.total_count ?? 0} activeIndex={activeIndex} onActivate={setActiveIndex} onSelect={openNotice} onRetry={() => { void query.refetch() }} />
 
   return <>
     <div className="relative hidden w-search-width min-w-0 shrink md:block" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setDesktopOpen(false) }}>

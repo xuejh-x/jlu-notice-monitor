@@ -18,7 +18,7 @@ export function FavoritesPage() {
   })
   return (
     <>
-      <PageHeader title="我的收藏" description={query.isSuccess ? `共收藏 ${query.data.total} 条通知，集中处理稍后需要回看的内容。` : '集中查看稍后需要处理的通知。'}/>
+      <PageHeader title="我的收藏" description={query.isSuccess ? `共收藏 ${query.data.total_count} 条通知，集中处理稍后需要回看的内容。` : '集中查看稍后需要处理的通知。'}/>
       {query.isPending ? <NoticeListSkeleton/> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()}/> : <>
         <NoticeList
           notices={query.data.items}

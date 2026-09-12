@@ -4,7 +4,6 @@ import { ArrowUpDown, Search, SlidersHorizontal, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { getNotices } from '../api/notices'
-import { getDashboard } from '../api/dashboard'
 import { NoticeList, NoticeListSkeleton } from '../components/notice/NoticeList'
 import { FilterFields } from '../components/notice/NoticeFilters'
 import { Button } from '../components/ui/Button'
@@ -51,10 +50,11 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
   const query = useQuery({
     queryKey: ['notices', 'all', requestFilters],
     queryFn: ({ signal }) => getNotices(requestFilters, { signal }),
-    placeholderData: previous => previous,
+    // A committed URL filter always represents a fresh server query. Keeping
+    // previous data here made the new filter appear active above an old list.
+    staleTime: 0,
   })
   const { refetch: refetchNotices } = query
-  const dashboard = useQuery({ queryKey: ['dashboard'], queryFn: ({ signal }) => getDashboard({ signal }) })
   const previousSelectedId = useRef(selectedId)
 
   useEffect(() => {
@@ -90,22 +90,21 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
           <kbd className="rounded-small border border-border bg-surface px-1.5 text-label text-text-muted">Ctrl K</kbd>
       </label>
       <header className="flex h-list-header-height shrink-0 items-center justify-between gap-2 px-shell-gutter">
-        <div className="flex min-w-0 items-center gap-2"><h1 className="truncate text-section-heading">全部通知</h1>{query.data && <span className="text-metadata tabular-nums text-text-muted">{query.data.total}</span>}</div>
+        <div className="flex min-w-0 items-center gap-2"><h1 className="truncate text-section-heading">通知</h1>{query.data && <span className="text-metadata tabular-nums text-text-muted">全库 {query.data.all_count} 条</span>}</div>
         <span title="当前按截止时间升序" className="inline-flex shrink-0 items-center gap-1.5 text-metadata text-text-muted"><ArrowUpDown className="h-3.5 w-3.5" aria-hidden="true" />按截止时间 ↑</span>
       </header>
       <div className="flex h-list-filter-height shrink-0 items-center justify-between gap-2 px-shell-gutter">
           <div className="flex min-w-0" role="tablist" aria-label="阅读状态">
             {readTabs.map(tab => {
               const selected = state.read === tab.value
-              const count = tab.value === '' ? dashboard.data?.total_count : tab.value === 'unread' ? dashboard.data?.unread : undefined
-              return <button key={tab.label} type="button" role="tab" aria-label={tab.label} aria-selected={selected} onClick={() => updateState({ read: tab.value }, { resetPage: true })} className={cn('h-7 shrink-0 rounded-small px-2 text-metadata transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus', selected ? 'bg-selected-surface font-medium text-accent-soft-text' : 'text-text-muted hover:bg-surface-hover hover:text-text-primary')}>{tab.label}{count !== undefined && <span aria-hidden="true" className="ml-1 tabular-nums">{count}</span>}</button>
+              return <button key={tab.label} type="button" role="tab" aria-label={tab.label} aria-selected={selected} onClick={() => updateState({ read: tab.value }, { resetPage: true })} className={cn('h-7 shrink-0 rounded-small px-2 text-metadata transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus', selected ? 'bg-selected-surface font-medium text-accent-soft-text' : 'text-text-muted hover:bg-surface-hover hover:text-text-primary')}>{tab.label}</button>
             })}
           </div>
           <div className="flex shrink-0 items-center gap-1">
             <button id="notice-filter-trigger" type="button" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog" className="inline-flex h-8 items-center gap-1.5 rounded-medium px-2 text-metadata text-text-secondary hover:bg-surface-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus" aria-label={`筛选${nonReadFilterCount > 0 ? ` ${nonReadFilterCount}` : ''}`}><SlidersHorizontal className="h-3.5 w-3.5 text-text-muted" aria-hidden="true" />筛选{nonReadFilterCount > 0 && <span className="text-accent-soft-text">{nonReadFilterCount}</span>}</button>
           </div>
       </div>
-      <div className="flex h-list-status-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span title="当前为列表视图">{hasSearch ? '搜索结果' : activeCount > 0 ? '筛选结果' : '当前列表'}</span><span>{query.data ? `找到 ${query.data.total} 条通知` : query.isPending ? '正在加载…' : '暂不可用'}</span></div>
+      <div className="flex h-list-status-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span title="当前为列表视图">{hasSearch ? '搜索结果' : activeCount > 0 ? '筛选结果' : '当前列表'}</span><span>{query.data ? `当前结果 ${query.data.total_count} 条 · 未读 ${query.data.unread_count} 条` : query.isPending ? '正在加载…' : '暂不可用'}</span></div>
 
       <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
         {query.isPending ? <NoticeListSkeleton compact /> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()} compact /> : (
@@ -114,7 +113,7 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
           </>
         )}
       </div>
-      {query.data && !query.isError && <footer className="flex h-list-footer-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span className="truncate tabular-nums">{query.data.total === 0 ? 0 : (state.page - 1) * state.pageSize + 1}–{Math.min(state.page * state.pageSize, query.data.total)} / {query.data.total} 条</span>{query.data.total_pages <= 1 ? <span>第 {state.page} 页</span> : <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} compact />}</footer>}
+      {query.data && !query.isError && <footer className="flex h-list-footer-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span className="truncate tabular-nums">{query.data.total_count === 0 ? 0 : (state.page - 1) * state.pageSize + 1}–{Math.min(state.page * state.pageSize, query.data.total_count)} / {query.data.total_count} 条</span>{query.data.total_pages <= 1 ? <span>第 {state.page} 页</span> : <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} compact />}</footer>}
 
       <Dialog.Root open={sheetOpen} onOpenChange={setSheetOpen}>
         <Dialog.Portal>

@@ -195,6 +195,9 @@ def list_notices(
     if favorite is not None or read_filter is not None:
         query = query.outerjoin(UserState, UserState.notice_id == Notice.id)
         count_query = count_query.outerjoin(UserState, UserState.notice_id == Notice.id)
+        user_state_joined = True
+    else:
+        user_state_joined = False
     if favorite is True:
         conditions.append(UserState.is_favorite.is_(True))
     elif favorite is False:
@@ -206,7 +209,18 @@ def list_notices(
     if conditions:
         query = query.where(*conditions)
         count_query = count_query.where(*conditions)
-    total = db.scalar(count_query) or 0
+    total_count = db.scalar(count_query) or 0
+    unread_count_query = count_query
+    if not user_state_joined:
+        unread_count_query = unread_count_query.outerjoin(
+            UserState, UserState.notice_id == Notice.id
+        )
+    unread_count = db.scalar(
+        unread_count_query.where(
+            or_(UserState.id.is_(None), UserState.is_read.is_(False))
+        )
+    ) or 0
+    all_count, _ = _global_notice_counts(db)
     if sort == "priority":
         ordering = (Notice.importance_score.desc(), Notice.publish_date.desc().nullslast())
     elif sort == "deadline":
@@ -220,10 +234,14 @@ def list_notices(
     ).unique().all()
     return {
         "items": [_serialize_notice(item) for item in notices],
-        "total": total,
+        "total_count": total_count,
+        "unread_count": unread_count,
+        "all_count": all_count,
+        # Compatibility alias for older clients. New clients use total_count.
+        "total": total_count,
         "page": page,
         "page_size": page_size,
-        "total_pages": ceil(total / page_size) if total else 0,
+        "total_pages": ceil(total_count / page_size) if total_count else 0,
     }
 
 

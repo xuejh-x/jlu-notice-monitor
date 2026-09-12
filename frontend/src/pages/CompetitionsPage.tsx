@@ -37,7 +37,7 @@ export function CompetitionsPage() {
 
   return (
     <>
-      <PageHeader title="竞赛通知" description={query.isSuccess ? `聚合算法、网络安全与创新创业竞赛信息。共 ${query.data.total} 条。` : '聚合算法、网络安全与创新创业竞赛信息。'}/>
+      <PageHeader title="竞赛通知" description={query.isSuccess ? `聚合算法、网络安全与创新创业竞赛信息。共 ${query.data.total_count} 条。` : '聚合算法、网络安全与创新创业竞赛信息。'}/>
       <div className="mb-4 flex max-w-full gap-1 overflow-x-auto border-b border-border" aria-label="竞赛分类">
         {tabs.map(([label, value]) => <button key={label} type="button" aria-pressed={category === value} onClick={() => { setCategory(value); resetPage() }} className={cn('min-h-11 whitespace-nowrap border-b-2 px-4 py-2.5 text-sm', category === value ? 'border-accent font-medium text-accent-soft-text' : 'border-transparent text-text-muted hover:text-text-primary')}>{label}</button>)}
       </div>

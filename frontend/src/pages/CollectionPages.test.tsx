@@ -29,7 +29,7 @@ describe('remaining collection pages', () => {
   })
 
   it('renders a shared preset feed title, result count and contextual empty state', async () => {
-    vi.mocked(getNotices).mockResolvedValue({ items: [], total: 0, page: 1, page_size: 20, total_pages: 0 })
+    vi.mocked(getNotices).mockResolvedValue({ items: [], total: 0, total_count: 0, unread_count: 0, all_count: 0, page: 1, page_size: 20, total_pages: 0 })
     renderPage(<FeedPage title="网络安全" description="安全竞赛、活动与相关通知。" categories={['cybersecurity_competition']}/>)
     expect(await screen.findByRole('heading', { level: 1, name: '网络安全' })).toBeInTheDocument()
     expect(await screen.findByText('安全竞赛、活动与相关通知。 共 0 条。')).toBeInTheDocument()

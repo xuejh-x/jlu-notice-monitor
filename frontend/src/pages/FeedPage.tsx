@@ -18,7 +18,7 @@ export function FeedPage({ title, description, categories, keyword, controls }: 
   })
   return (
     <>
-      <PageHeader title={title} description={query.isSuccess ? `${description} 共 ${query.data.total} 条。` : description}/>
+      <PageHeader title={title} description={query.isSuccess ? `${description} 共 ${query.data.total_count} 条。` : description}/>
       {controls}
       {query.isPending ? <NoticeListSkeleton/> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()}/> : <>
         <NoticeList notices={query.data.items} emptyTitle={`暂无${title}相关通知`} emptyDescription="当前分类下还没有可供阅读的通知。"/>

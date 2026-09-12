@@ -20,7 +20,7 @@ describe('preserveNoticeAfterAutoRead', () => {
   it('marks cached list rows read and makes the query stale without refetching it', () => {
     const client = new QueryClient()
     const notice = { id: 42, is_read: false }
-    client.setQueryData(['notices', 'all', { read: false }], { items: [notice], total: 1, page: 1, page_size: 20, total_pages: 1 })
+    client.setQueryData(['notices', 'all', { read: false }], { items: [notice], total: 1, total_count: 1, unread_count: 1, all_count: 1, page: 1, page_size: 20, total_pages: 1 })
     const invalidate = vi.spyOn(client, 'invalidateQueries')
 
     preserveNoticeAfterAutoRead(client, 42)
@@ -35,7 +35,7 @@ describe('updateNoticeReadState', () => {
     const client = new QueryClient()
     const notice = { id: 42, is_read: true }
     client.setQueryData(['notice', 42], notice)
-    client.setQueryData(['notices', 'all'], { items: [notice], total: 1, page: 1, page_size: 20, total_pages: 1 })
+    client.setQueryData(['notices', 'all'], { items: [notice], total: 1, total_count: 1, unread_count: 1, all_count: 1, page: 1, page_size: 20, total_pages: 1 })
     client.setQueryData(['dashboard'], { total_count: 9, unread: 2, important: 3, upcoming_deadlines: 4, recent_notices: [notice] })
 
     updateNoticeReadState(client, 42, false, true)

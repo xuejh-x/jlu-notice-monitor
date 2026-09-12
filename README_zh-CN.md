@@ -4,7 +4,7 @@
 
 > 聚合、去重、筛选并主动提醒官方校园通知的 Windows 桌面应用。
 
-当前版本：**v0.7.0-rc1**
+当前版本：**v0.7.0-rc2**
 
 JLU Notice Monitor 帮助学生集中查看原本分散在学校和学院网站上的重要通知。当前内置吉林大学相关来源，但来源适配器架构不永久绑定吉林大学，可扩展到其他高校和公共组织。
 
@@ -22,7 +22,7 @@ JLU Notice Monitor 帮助学生集中查看原本分散在学校和学院网站�
 
 ## 已支持来源
 
-v0.7.0-rc1 内置适配器包括：
+v0.7.0-rc2 内置适配器包括：
 
 - 吉林大学 OA 校内公开通知
 - 吉林大学网络安全学院
@@ -55,12 +55,12 @@ v0.7.0-rc1 内置适配器包括：
 
 ## Windows 安装
 
-1. 打开 `v0.7.0-rc1` 对应的 GitHub Release。
-2. 下载 `JLU Notice Monitor_0.7.0-rc1_x64-setup.exe` 及其 SHA256 校验值。
+1. 打开 `v0.7.0-rc2` 对应的 GitHub Release。
+2. 下载 `JLU Notice Monitor_0.7.0-rc2_x64-setup.exe` 及其 SHA256 校验值。
 3. 在 PowerShell 中校验文件：
 
    ```powershell
-   Get-FileHash -Algorithm SHA256 '.\JLU Notice Monitor_0.7.0-rc1_x64-setup.exe'
+   Get-FileHash -Algorithm SHA256 '.\JLU Notice Monitor_0.7.0-rc2_x64-setup.exe'
    ```
 
 4. 运行安装器，然后从开始菜单或快捷方式启动 **JLU Notice Monitor**。

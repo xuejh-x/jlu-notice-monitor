@@ -4,7 +4,7 @@ English | [中文](README_zh-CN.md)
 
 > A Windows desktop app that aggregates, deduplicates, filters, and delivers notices from official campus sources.
 
-Current release: **v0.7.0-rc1**
+Current release: **v0.7.0-rc2**
 
 JLU Notice Monitor helps students follow important announcements without repeatedly checking separate university and department websites. It currently ships with Jilin University sources, while its source-adapter model is designed to support other public organizations and campuses.
 
@@ -22,7 +22,7 @@ JLU Notice Monitor helps students follow important announcements without repeate
 
 ## Supported sources
 
-The bundled v0.7.0-rc1 adapters cover:
+The bundled v0.7.0-rc2 adapters cover:
 
 - Jilin University OA public campus notices
 - School of Cyber Science and Engineering
@@ -55,12 +55,12 @@ The production installer bundles the Tauri application and a managed FastAPI bac
 
 ## Install on Windows
 
-1. Open the GitHub Release for `v0.7.0-rc1`.
-2. Download `JLU Notice Monitor_0.7.0-rc1_x64-setup.exe` and its SHA256 checksum.
+1. Open the GitHub Release for `v0.7.0-rc2`.
+2. Download `JLU Notice Monitor_0.7.0-rc2_x64-setup.exe` and its SHA256 checksum.
 3. Verify the checksum in PowerShell:
 
    ```powershell
-   Get-FileHash -Algorithm SHA256 '.\JLU Notice Monitor_0.7.0-rc1_x64-setup.exe'
+   Get-FileHash -Algorithm SHA256 '.\JLU Notice Monitor_0.7.0-rc2_x64-setup.exe'
    ```
 
 4. Run the installer and launch **JLU Notice Monitor** from the Start menu or shortcut.

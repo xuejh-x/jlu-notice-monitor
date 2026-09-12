@@ -19,7 +19,7 @@ describe('FavoritesPage membership contract', () => {
   beforeEach(() => { localStorage.clear(); vi.unstubAllGlobals() })
 
   it('refetches the favorites list when notice state is invalidated (notices prefix covers filtered lists)', async () => {
-    const page = { items: [base], total: 1, page: 1, page_size: 20, total_pages: 1 }
+    const page = { items: [base], total: 1, total_count: 1, unread_count: 1, all_count: 1, page: 1, page_size: 20, total_pages: 1 }
     const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify(page), { status: 200 }))
     vi.stubGlobal('fetch', fetchMock)
     const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
