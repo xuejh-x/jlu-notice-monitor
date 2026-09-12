@@ -18,7 +18,6 @@ from app.logging_config import configure_logging, log_event
 from app.paths import ensure_runtime_directories
 from app.runtime import mark_started, mark_stopped
 from app.services.importance import ensure_importance_rules
-from app.services.oa_login import oa_login_coordinator
 from app.notifications import notification_scheduler
 from fastapi import Depends
 from sqlalchemy.orm import Session
@@ -47,7 +46,6 @@ async def lifespan(_: FastAPI):
         yield
     finally:
         log_event(logger, logging.INFO, "application_stopping")
-        await oa_login_coordinator.shutdown()
         await notification_scheduler.shutdown()
         await scheduler_manager.shutdown()
         await crawler_manager.shutdown()

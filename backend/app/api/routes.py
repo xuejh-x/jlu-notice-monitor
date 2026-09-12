@@ -282,6 +282,7 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
     rows = db.scalars(select(Source).where(Source.is_deleted.is_(False)).order_by(Source.id)).all()
     results: list[dict[str, Any]] = []
     for item in rows:
+        private_oa = item.code == "oa" and item.ownership == "CUSTOM_LOCAL_PRIVATE"
         public_feed_missing = item.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"} and is_public_feed_not_configured(
             item.last_error_code,
             item.last_error,
@@ -293,12 +294,12 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
         elif item.health_state == "needs_reauth" or item.last_error == "OA_LOGIN_EXPIRED":
             source_status = "needs_reauth"
             message = "登录状态已失效，请在来源页面重新登录"
-        elif item.code == "oa" and item.health_state == "unconfigured":
+        elif private_oa and item.health_state == "unconfigured":
             source_status = "login_required"
             message = "需要完成首次登录配置"
         elif not item.enabled:
             source_status = "disabled"
-            message = "尚未完成首次登录配置" if item.code == "oa" else "数据源已禁用"
+            message = "尚未完成首次登录配置" if private_oa else "数据源已禁用"
         elif public_feed_missing:
             source_status = "cloud_unconfigured"
             message = "等待 Notice Hub 公共源启用"
@@ -311,7 +312,7 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
         elif item.last_success_at:
             source_status = "healthy"
             message = None
-        elif item.code == "oa":
+        elif private_oa:
             source_status = "login_required"
             message = "需要先执行 oa-login"
         else:
@@ -327,9 +328,11 @@ def sources(db: Session = Depends(get_db)) -> list[dict[str, Any]]:
             "ownership": item.ownership,
             "source_type": item.source_type,
             "auth_type": item.auth_type,
+            "auth_required": item.auth_type != "none",
             "health_state": projected_health_state,
             "source_scope": item.source_scope,
             "execution": item.execution,
+            "execution_policy": item.execution_policy,
             "cloud_policy": item.cloud_policy,
             "cloud_source_id": item.cloud_source_id,
             "last_checked_at": item.last_checked_at,

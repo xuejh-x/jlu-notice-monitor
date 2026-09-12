@@ -1,0 +1,98 @@
+{
+  "height": 900,
+  "notes": "Isolated real-component specimens; synthetic notice values; not the live notice page",
+  "themes": [
+    {
+      "rows": [
+        {
+          "background": "rgb(27, 39, 69)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(244, 244, 245)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(244, 244, 245)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(199, 206, 217)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(199, 206, 217)"
+        }
+      ],
+      "theme": "dark",
+      "toolbar": [
+        {
+          "background": "rgb(27, 39, 69)",
+          "color": "rgb(170, 181, 249)",
+          "fontSize": "12px",
+          "label": "取消收藏",
+          "pressed": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(199, 206, 217)",
+          "fontSize": "12px",
+          "label": "标记为未读",
+          "pressed": null
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "background": "rgb(238, 242, 255)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(24, 24, 27)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(24, 24, 27)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(82, 82, 91)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "fontSize": "15px",
+          "fontWeight": "500",
+          "title": "rgb(82, 82, 91)"
+        }
+      ],
+      "theme": "light",
+      "toolbar": [
+        {
+          "background": "rgb(238, 242, 255)",
+          "color": "rgb(67, 56, 202)",
+          "fontSize": "12px",
+          "label": "取消收藏",
+          "pressed": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(82, 82, 91)",
+          "fontSize": "12px",
+          "label": "标记为未读",
+          "pressed": null
+        }
+      ]
+    }
+  ],
+  "url": "http://127.0.0.1:5173/.visual-qa/polish-states.html",
+  "width": 1440
+}

@@ -102,6 +102,34 @@ async def test_incremental_skip_when_detail_enriches_optional_list_metadata(
 
 
 @pytest.mark.asyncio
+async def test_incremental_skip_accepts_explicitly_truncated_list_title(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
+    with make_session() as db:
+        source = Source(code="fixture", name="Fixture", base_url="https://example.test")
+        db.add(source)
+        db.commit()
+        full_title = "转发国家自然科学基金委员会关于发布重大研究计划项目指南的通告"
+        first = NoticeCandidate(title=full_title, url="https://example.test/1", content="正文")
+        truncated = NoticeCandidate(
+            title="转发国家自然科学基金委员会关于发布重大研究计划...",
+            url=first.url,
+        )
+        adapter = FixtureSource([first], {first.url: first})
+        monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
+        monkeypatch.setattr(runner_module, "build_source", lambda _: adapter)
+        config = {"code": "fixture", "name": "Fixture", "base_url": "https://example.test"}
+
+        await manager._run_source(config, False)
+        adapter.items = [truncated]
+        second = await manager._run_source(config, False)
+        assert second.unchanged_count == 1
+        assert second.detail_skipped == 1 and second.detail_fetched == 0
+        assert adapter.detail_calls == [first.url]
+
+
+@pytest.mark.asyncio
 async def test_source_failure_is_isolated_and_reported(monkeypatch: pytest.MonkeyPatch) -> None:
     manager = CrawlerManager(cache_dir=Path(".") / ".pytest-crawler")
     with make_session() as db:
@@ -124,12 +152,12 @@ async def test_source_failure_is_isolated_and_reported(monkeypatch: pytest.Monke
 
 
 @pytest.mark.asyncio
-async def test_oa_auth_failure_does_not_block_public_sources(
+async def test_private_auth_failure_does_not_block_public_sources(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
     manager = CrawlerManager(cache_dir=tmp_path)
     configs = [
-        {"code": "oa", "name": "OA", "base_url": "https://oa.test", "enabled": True},
+        {"code": "private", "name": "Private", "base_url": "https://private.test", "enabled": True},
         {"code": "public", "name": "Public", "base_url": "https://public.test", "enabled": True},
     ]
     session = make_session()
@@ -146,8 +174,8 @@ async def test_oa_auth_failure_does_not_block_public_sources(
     )
 
     async def isolated(config: dict[str, object], _: bool) -> SourceRunResult:
-        if config["code"] == "oa":
-            return SourceRunResult(source="oa", status="failure", errors=["OA_LOGIN_EXPIRED"])
+        if config["code"] == "private":
+            return SourceRunResult(source="private", status="failure", errors=["AUTH_SESSION_EXPIRED"])
         return SourceRunResult(source="public", status="success", new_count=1)
 
     monkeypatch.setattr(manager, "_run_source", isolated)

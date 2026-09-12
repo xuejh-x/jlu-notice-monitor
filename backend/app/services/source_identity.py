@@ -2,9 +2,20 @@ from __future__ import annotations
 
 from hashlib import sha256
 import posixpath
+from typing import Literal
 from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 
 from app.services.normalization import TRACKING_PARAMS
+
+ExecutionPolicy = Literal["cloud_only", "cloud_preferred", "local_only"]
+
+
+def default_execution_policy(ownership: str) -> ExecutionPolicy:
+    if ownership == "OFFICIAL_CLOUD":
+        return "cloud_preferred"
+    if ownership == "SHARED_CLOUD":
+        return "cloud_only"
+    return "local_only"
 
 
 def canonicalize_source_url(url: str) -> str:

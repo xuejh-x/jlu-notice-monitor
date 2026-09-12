@@ -1,35 +1,37 @@
+from __future__ import annotations
+
 from datetime import date
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
-from fastapi import HTTPException
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 
-from app.__main__ import build_parser
-import app.api.source_management as source_management
 import app.crawler.runner as runner_module
-from app.config import BACKEND_DIR, load_yaml
+from app.__main__ import build_parser
+from app.api.source_management import _serialize_source
+from app.api.routes import sources as list_sources
+from app.config import load_yaml
 from app.crawler.runner import CrawlerManager
 from app.database import Base
-from app.models import Attachment, Notice, NoticeSourceRelation, Source
+from app.models import Notice, NotificationEvent, NotificationPreference, Source
 from app.schemas.notice import NoticeCandidate
-from app.sources.base import LoginExpiredError, SourceError, SourceNotConfiguredError
-from app.sources.oa import OASource, sanitize_oa_url
+from app.sources.registry import SOURCE_TYPES
+from app.sources.oa_public import (
+    OAPublicSource,
+    parse_oa_attachment_references,
+    parse_oa_detail_html,
+    parse_oa_home_list_url,
+    parse_oa_list_html,
+)
 
 
-def oa_config(*, configured: bool = False) -> dict:
-    config = dict(next(item for item in load_yaml("sources.yaml")["sources"] if item["code"] == "oa"))
-    if configured:
-        config["parser_config"] = {
-            "item_selector": ".notice-item",
-            "title_selector": ".notice-title",
-            "link_selector": ".notice-title",
-            "date_selector": "time",
-            "content_selector": ".notice-body",
-            "attachment_selector": ".attachment",
-        }
-    return config
+FIXTURES = Path(__file__).parent / "fixtures"
+
+
+def oa_config() -> dict:
+    return dict(next(item for item in load_yaml("sources.yaml")["sources"] if item["code"] == "oa"))
 
 
 def make_session() -> Session:
@@ -38,323 +40,248 @@ def make_session() -> Session:
     return Session(engine)
 
 
-def test_oa_is_disabled_and_profile_is_local_data() -> None:
+def test_oa_config_is_official_public_and_registered() -> None:
     config = oa_config()
-    source = OASource(config)
-    assert config["enabled"] is False
-    assert config["dedup_across_sources"] is True
-    assert source.profile_path == BACKEND_DIR / "data" / "browser_profile" / "oa"
+    assert config["name"] == "吉林大学 OA 校内通知"
+    assert config["enabled"] is True
+    assert config["ownership"] == "OFFICIAL_CLOUD"
+    assert config["source_type"] == "official"
+    assert config["auth_required"] is False
+    assert config["auth_type"] == "none"
+    assert config["execution"] == "cloud"
+    assert config["cloud_policy"] == "force_enabled"
+    assert SOURCE_TYPES["oa"] is OAPublicSource
+    assert SOURCE_TYPES["oa_public"] is OAPublicSource
+    with pytest.raises(SystemExit):
+        build_parser().parse_args(["oa-login"])
 
 
-def test_oa_login_command_is_registered() -> None:
-    assert build_parser().parse_args(["oa-login"]).command == "oa-login"
-    assert hasattr(OASource, "login_setup")
-    assert hasattr(OASource, "check_login")
-
-
-@pytest.mark.asyncio
-async def test_oa_reauthentication_uses_system_chrome_coordinator(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    with make_session() as db:
-        source = Source(
-            code="oa",
-            name="吉林大学 OA",
-            base_url="https://oa.jlu.edu.cn",
-            enabled=False,
-            ownership="CUSTOM_LOCAL_PRIVATE",
-            source_type="private_browser",
-            parser="oa",
-            auth_type="browser_session",
-            health_state="unconfigured",
-        )
-        db.add(source)
-        db.commit()
-        started: list[tuple[int, dict]] = []
-        async def start(source_id: int, config: dict) -> bool:
-            started.append((source_id, config))
-            return True
-
-        monkeypatch.setattr(source_management.oa_login_coordinator, "start", start)
-        result = await source_management.reauthenticate(source.id, db)
-        assert result["status"] == "chrome_login_opened"
-        assert started[0][0] == source.id and started[0][1]["parser"] == "oa"
-        db.refresh(source)
-        assert source.health_state == "needs_reauth"
-        assert source.credential_ref is None
-
-
-@pytest.mark.asyncio
-async def test_oa_reauthentication_preflight_failure_preserves_source_state(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    with make_session() as db:
-        source = Source(
-            code="oa",
-            name="吉林大学 OA",
-            base_url="https://oa.jlu.edu.cn",
-            enabled=False,
-            ownership="CUSTOM_LOCAL_PRIVATE",
-            source_type="private_browser",
-            parser="oa",
-            auth_type="browser_session",
-            health_state="unconfigured",
-        )
-        db.add(source)
-        db.commit()
-
-        async def unavailable(*_: object, **__: object) -> bool:
-            raise SourceError("OA_BROWSER_RUNTIME_UNAVAILABLE")
-
-        monkeypatch.setattr(source_management.oa_login_coordinator, "start", unavailable)
-        with pytest.raises(HTTPException) as exc_info:
-            await source_management.reauthenticate(source.id, db)
-        assert exc_info.value.status_code == 503
-        db.refresh(source)
-        assert source.health_state == "unconfigured"
-        assert source.reauth_notified_at is None
-
-
-@pytest.mark.asyncio
-async def test_oa_detection_persists_only_local_credential_reference(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    with make_session() as db:
-        source = Source(
-            code="oa",
-            name="吉林大学 OA",
-            base_url="https://oa.jlu.edu.cn",
-            enabled=False,
-            ownership="CUSTOM_LOCAL_PRIVATE",
-            source_type="private_browser",
-            parser="oa",
-            auth_type="browser_session",
-            health_state="needs_reauth",
-        )
-        db.add(source)
-        db.commit()
-
-        async def detected(*_: object, **__: object) -> dict:
-            return {
-                "status": "authenticated",
-                "reason": None,
-                "message": "saved",
-                "credential_reference": "oa-session-oa",
-            }
-
-        monkeypatch.setattr(source_management.oa_login_coordinator, "detect", detected)
-        result = await source_management.detect_authentication_status(source.id, db)
-        assert result == {"status": "authenticated", "reason": None, "message": "saved"}
-        db.refresh(source)
-        assert source.credential_ref == "oa-session-oa"
-        assert source.enabled is True and source.health_state == "authenticated"
-        assert "credential" not in result
-
-
-@pytest.mark.asyncio
-async def test_oa_not_configured_is_not_reported_as_auth_failure() -> None:
-    source = OASource(oa_config())
-    with pytest.raises(SourceNotConfiguredError, match="OA_PARSER_UNCONFIGURED"):
-        await source.fetch_list()
-
-
-@pytest.mark.asyncio
-async def test_oa_not_configured_is_skipped_without_poisoning_other_sources(
-    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
-) -> None:
-    db = make_session()
-    db.add(
-        Source(
-            code="oa",
-            name="吉林大学 OA",
-            base_url="https://oa.jlu.edu.cn",
-            enabled=True,
-            ownership="CUSTOM_LOCAL_PRIVATE",
-            source_type="private_browser",
-            parser="oa",
-            auth_type="browser_session",
-            health_state="needs_reauth",
-        )
+def test_oa_home_discovers_public_internal_notice_list() -> None:
+    html = (FIXTURES / "oa_home.html").read_text(encoding="utf-8")
+    assert parse_oa_home_list_url(html, "https://oa.jlu.edu.cn/defaultroot/login.jsp") == (
+        "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577"
     )
-    db.commit()
-
-    class UnconfiguredOA:
-        async def fetch_list(self) -> list[NoticeCandidate]:
-            raise SourceNotConfiguredError("OA_PARSER_UNCONFIGURED")
-
-        async def close(self) -> None:
-            return None
-
-    monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
-    monkeypatch.setattr(runner_module, "build_source", lambda _: UnconfiguredOA())
-    result = await CrawlerManager(tmp_path)._run_source(oa_config(), bootstrap=False)
-
-    assert result.status == "skipped"
-    assert result.errors == ["OA_PARSER_UNCONFIGURED"]
-    persisted = db.scalar(select(Source).where(Source.code == "oa"))
-    assert persisted is not None
-    assert persisted.health_state == "unconfigured"
-    assert persisted.last_error_code == "OA_PARSER_UNCONFIGURED"
 
 
-@pytest.mark.asyncio
-@pytest.mark.parametrize(
-    ("detail_error", "expected_status", "expected_health", "expected_code"),
-    [
-        (
-            SourceNotConfiguredError("OA_CONTENT_SELECTOR_MISSING"),
-            "skipped",
-            "unconfigured",
-            "OA_CONTENT_SELECTOR_MISSING",
+def test_oa_notice_list_extracts_id_title_url_publisher_and_time() -> None:
+    html = (FIXTURES / "oa_list.html").read_text(encoding="utf-8")
+    items = parse_oa_list_html(
+        html,
+        "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+        today=date(2026, 9, 12),
+    )
+    assert [item.public_id for item in items] == ["oa-70232663", "oa-70184458", "oa-70157806"]
+    assert items[0] == NoticeCandidate(
+        public_id="oa-70232663",
+        title="关于印发《吉林大学2027年推荐免试攻读研究生招生录取工作办法》的通知",
+        url=(
+            "https://oa.jlu.edu.cn/defaultroot/"
+            "PortalInformation!getInformation.action?id=70232663&channelId=179577"
         ),
-        (LoginExpiredError("OA_LOGIN_EXPIRED"), "failure", "needs_reauth", "AUTH_EXPIRED"),
-    ],
-)
-async def test_oa_detail_state_errors_escape_per_notice_isolation(
-    monkeypatch: pytest.MonkeyPatch,
-    tmp_path: Path,
-    detail_error: SourceError,
-    expected_status: str,
-    expected_health: str,
-    expected_code: str,
-) -> None:
-    db = make_session()
-    db.add(
-        Source(
-            code="oa",
-            name="吉林大学 OA",
-            base_url="https://oa.jlu.edu.cn",
-            enabled=True,
-            ownership="CUSTOM_LOCAL_PRIVATE",
-            source_type="private_browser",
-            parser="oa",
-            auth_type="browser_session",
-            health_state="authenticated",
-        )
+        publish_date=date(2026, 9, 12),
+        publisher="研究生院",
+        section="校内通知",
     )
-    db.commit()
+    assert items[1].publish_date == date(2026, 9, 11)
+    assert items[1].title == "关于外语水平考试报名工作的通知"
+    assert items[2].publish_date == date(2026, 9, 9)
 
-    class DetailStateOA:
-        async def fetch_list(self) -> list[NoticeCandidate]:
-            return [
-                NoticeCandidate(
-                    title="OA 测试通知",
-                    url="https://oa.jlu.edu.cn/notice?id=1",
-                    publish_date=date(2026, 9, 10),
-                )
-            ]
 
-        async def fetch_detail(self, _: NoticeCandidate) -> NoticeCandidate:
-            raise detail_error
-
-        async def close(self) -> None:
-            return None
-
-    monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
-    monkeypatch.setattr(runner_module, "build_source", lambda _: DetailStateOA())
-    result = await CrawlerManager(tmp_path)._run_source(
-        oa_config(configured=True), bootstrap=False
+def test_oa_detail_extracts_title_date_publisher_and_clean_body() -> None:
+    html = (FIXTURES / "oa_detail.html").read_text(encoding="utf-8")
+    fallback = NoticeCandidate(
+        public_id="oa-70232663",
+        title="列表标题",
+        url="https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70232663&channelId=179577",
+        publish_date=date(2026, 9, 12),
+        publisher="列表单位",
+        section="校内通知",
     )
+    result = parse_oa_detail_html(html, fallback.url, fallback)
+    assert result.title == "关于印发《吉林大学2027年推荐免试攻读研究生招生录取工作办法》的通知"
+    assert result.publish_date == date(2026, 9, 11)
+    assert result.publisher == "研究生院"
+    assert "请认真贯彻执行" in result.content
+    assert "不会进入正文" not in result.content
+    assert result.public_id == "oa-70232663"
 
-    assert result.status == expected_status
-    persisted = db.scalar(select(Source).where(Source.code == "oa"))
-    assert persisted is not None
-    assert persisted.health_state == expected_health
-    assert persisted.last_error_code == expected_code
+
+def test_oa_attachment_parser_extracts_download_reference() -> None:
+    html = (FIXTURES / "oa_detail.html").read_text(encoding="utf-8")
+    page_url = "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70232663&channelId=179577"
+    references = parse_oa_attachment_references(html, page_url)
+    assert len(references) == 1
+    assert references[0].stored_name == "2026091119441859008176161.pdf"
+    assert references[0].display_name == "附件 《吉林大学2027年推荐免试攻读研究生招生录取工作办法》.pdf"
+    assert references[0].encoder_value.endswith("@70232663")
 
 
 @pytest.mark.asyncio
-async def test_oa_session_expired_exception(monkeypatch: pytest.MonkeyPatch) -> None:
-    source = OASource(oa_config(configured=True))
-
-    async def login_page(*_: object, **__: object) -> tuple[str, str, str]:
-        return "<html></html>", "https://oa.jlu.edu.cn/defaultroot/login.jsp", "用户登录"
-
-    monkeypatch.setattr(source, "_page_snapshot", login_page)
-    with pytest.raises(LoginExpiredError, match="OA_LOGIN_EXPIRED"):
-        await source.fetch_list()
-
-
-@pytest.mark.asyncio
-async def test_oa_authenticated_adapter_parses_list_detail_and_safe_attachments(
+async def test_oa_adapter_keeps_list_discovery_separate_from_detail(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    source = OASource(oa_config(configured=True))
-    list_html = """
-      <ul><li class="notice-item"><a class="notice-title"
-      href="/notice/view?id=7&token=list-secret">OA 奖学金通知</a>
-      <time>2026-09-10</time></li></ul>
-    """
-    detail_html = """
-      <article class="notice-body">请于 9 月 20 日前提交申请。</article>
-      <a class="attachment" href="/download?id=9&ticket=attachment-secret">申请表.docx</a>
-    """
+    source = OAPublicSource(oa_config())
+    list_html = (FIXTURES / "oa_list.html").read_text(encoding="utf-8")
+    detail_html = (FIXTURES / "oa_detail.html").read_text(encoding="utf-8")
     requested: list[str] = []
 
-    async def snapshot(url: str, **_: object) -> tuple[str, str, str]:
+    async def get(url: str) -> str:
         requested.append(url)
-        if "/notice/view" in url:
-            return detail_html, url, "请于 9 月 20 日前提交申请。"
-        return list_html, "https://oa.jlu.edu.cn/notices", "校内通知"
+        return detail_html if "getInformation.action" in url else list_html
 
-    monkeypatch.setattr(source, "_page_snapshot", snapshot)
-    items = await source.fetch_list()
-    assert items == [
-        NoticeCandidate(
-            title="OA 奖学金通知",
-            url="https://oa.jlu.edu.cn/notice/view?id=7",
-            publish_date=date(2026, 9, 10),
-            section="校内通知",
-        )
-    ]
-    detail = await source.fetch_detail(items[0])
-    assert "token=list-secret" in requested[-1]
-    assert detail.content == "请于 9 月 20 日前提交申请。"
-    assert detail.attachments[0].filename == "申请表.docx"
-    assert detail.attachments[0].type == "docx"
-    assert detail.attachments[0].url == "https://oa.jlu.edu.cn/download?id=9"
-    assert "secret" not in repr(detail)
+    async def attachment_url(*_: object) -> str:
+        return "https://oa.jlu.edu.cn/defaultroot/rd/download/attachdownload.jsp?res=fixture"
+
+    monkeypatch.setattr(source, "_get", get)
+    monkeypatch.setattr(source, "_attachment_url", attachment_url)
+    try:
+        items = await source.fetch_list()
+        assert len(items) == 3
+        assert requested == [oa_config()["sections"][0]["url"]]
+        detail = await source.fetch_detail(items[0])
+        assert len(requested) == 2
+        assert detail.attachments[0].type == "pdf"
+        assert detail.attachments[0].url.endswith("res=fixture")
+    finally:
+        await source.close()
 
 
-def test_oa_sensitive_urls_are_redacted_before_diagnostics_or_storage() -> None:
-    safe = sanitize_oa_url(
-        "https://oa.jlu.edu.cn/download?id=3&token=do-not-log&ticket=also-secret#fragment"
-    )
-    assert safe == "https://oa.jlu.edu.cn/download?id=3"
-    assert "do-not-log" not in safe and "also-secret" not in safe
-
-
-def test_oa_notice_uses_cross_source_dedup_and_unified_attachment_pipeline() -> None:
+def test_existing_private_oa_row_is_converted_in_place_without_credentials(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
     with make_session() as db:
-        public = Source(code="jwc", name="本科生院", base_url="https://jwc.jlu.edu.cn")
-        oa = Source(
+        source = Source(
             code="oa",
             name="吉林大学 OA",
             base_url="https://oa.jlu.edu.cn",
+            enabled=False,
             ownership="CUSTOM_LOCAL_PRIVATE",
+            source_type="private_browser",
+            parser="oa",
+            auth_type="browser_session",
+            credential_ref="oa-session-oa",
+            login_url="https://oa.jlu.edu.cn/defaultroot/login.jsp",
+            session_profile_ref="oa-profile",
+            health_state="needs_reauth",
+            last_error_code="OA_LOGIN_NOT_CONFIGURED",
+            source_scope="private",
+            execution="local",
         )
-        db.add_all([public, oa])
+        db.add(source)
         db.commit()
-        public_item = NoticeCandidate(
-            title="关于 2026 年奖学金申请的通知",
-            url="https://jwc.jlu.edu.cn/info/1.htm",
-            publish_date=date(2026, 9, 10),
-            content="公开正文",
+        source_id = source.id
+        deleted: list[str] = []
+        monkeypatch.setattr(
+            runner_module,
+            "get_settings",
+            lambda: SimpleNamespace(effective_deployment_role="cloud"),
         )
-        oa_item = NoticeCandidate(
-            title="关于 2026 年奖学金申请的通知",
-            url="https://oa.jlu.edu.cn/notice?id=91",
-            publish_date=date(2026, 9, 10),
-            content="OA 转发正文",
-            attachments=[
-                {"filename": "申请表.docx", "url": "https://oa.jlu.edu.cn/download?id=9", "type": "docx"}
-            ],
+        monkeypatch.setattr(runner_module.credential_store, "delete", deleted.append)
+
+        CrawlerManager._sync_sources(db, [oa_config()])
+        converted = db.scalar(select(Source).where(Source.code == "oa"))
+        assert converted is not None and converted.id == source_id
+        assert converted.name == "吉林大学 OA 校内通知"
+        assert converted.ownership == "OFFICIAL_CLOUD"
+        assert converted.source_type == "official"
+        assert converted.parser == "oa_public"
+        assert converted.auth_type == "none"
+        assert converted.credential_ref is None and converted.login_url is None
+        assert converted.session_profile_ref is None
+        assert converted.source_scope == "official" and converted.execution == "cloud"
+        assert converted.cloud_source_id == "oa"
+        assert converted.cloud_policy == "force_enabled"
+        assert converted.enabled is True and converted.validation_status == "passed"
+        assert deleted == ["oa-session-oa"]
+        serialized = _serialize_source(converted)
+        assert serialized["authentication_status"] == "not_required"
+        assert serialized["auth_required"] is False
+        assert serialized["password_saved"] is False
+        assert serialized["login_url"] is None
+        summary = next(item for item in list_sources(db) if item["code"] == "oa")
+        assert summary["auth_required"] is False
+        assert summary["status"] != "login_required"
+        assert "登录" not in str(summary["message"] or "")
+
+
+def test_desktop_oa_uses_cloud_feed_instead_of_fetching_origin(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    with make_session() as db:
+        monkeypatch.setattr(
+            runner_module,
+            "get_settings",
+            lambda: SimpleNamespace(
+                effective_deployment_role="desktop",
+                public_feed_url="https://cloud.example.test/api/public/v1",
+            ),
         )
-        assert CrawlerManager._persist_candidate(db, public, public_item, False) == "NEW"
-        assert CrawlerManager._persist_candidate(
-            db, oa, oa_item, False, dedup_across_sources=True
-        ) == "UNCHANGED"
+        CrawlerManager._sync_sources(db, [oa_config()])
+        config = CrawlerManager._load_source_configs(db)[0]
+        source = db.scalar(select(Source).where(Source.code == "oa"))
+        assert source is not None
+        assert source.ownership == "OFFICIAL_CLOUD"
+        assert source.execution == "cloud"
+        assert source.parser == "cloud_feed"
+        assert config["parser"] == "cloud_feed"
+        assert config["content_parser"] == "cloud_feed"
+        assert config["public_feed_url"] == "https://cloud.example.test/api/public/v1"
+        assert config["cloud_source_id"] == "oa"
+
+
+@pytest.mark.asyncio
+async def test_oa_incremental_second_run_skips_detail(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+) -> None:
+    with make_session() as db:
+        source = Source(
+            code="oa",
+            name="吉林大学 OA 校内通知",
+            base_url="https://oa.jlu.edu.cn",
+            ownership="OFFICIAL_CLOUD",
+            source_type="official",
+            parser="oa_public",
+            auth_type="none",
+            source_scope="official",
+            execution="cloud",
+            cloud_policy="force_enabled",
+        )
+        db.add(source)
+        db.add(NotificationPreference(id=1, enabled=True))
+        db.commit()
+        listed = NoticeCandidate(
+            public_id="oa-70232663",
+            title="OA 公开通知",
+            url="https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70232663&channelId=179577",
+            publish_date=date(2026, 9, 11),
+            publisher="研究生院",
+        )
+
+        class FixtureOA:
+            detail_calls = 0
+
+            async def fetch_list(self) -> list[NoticeCandidate]:
+                return [listed]
+
+            async def fetch_detail(self, item: NoticeCandidate) -> NoticeCandidate:
+                self.detail_calls += 1
+                return item.model_copy(update={"content": "公开正文"})
+
+            async def close(self) -> None:
+                return None
+
+        adapter = FixtureOA()
+        monkeypatch.setattr(runner_module, "SessionLocal", lambda: db)
+        monkeypatch.setattr(runner_module, "build_source", lambda _: adapter)
+        manager = CrawlerManager(tmp_path)
+        first = await manager._run_source(oa_config(), bootstrap=False)
+        second = await manager._run_source(oa_config(), bootstrap=False)
+        assert first.new_count == 1 and first.detail_fetched == 1
+        assert second.unchanged_count == 1 and second.detail_skipped == 1
+        assert second.detail_fetched == 0 and adapter.detail_calls == 1
         assert len(db.scalars(select(Notice)).all()) == 1
-        assert len(db.scalars(select(NoticeSourceRelation)).all()) == 2
-        attachment = db.scalar(select(Attachment))
-        assert attachment is not None and attachment.filename == "申请表.docx"
+        events = db.scalars(select(NotificationEvent)).all()
+        assert len(events) == 1
+        assert events[0].event_type in {"NEW_NOTICE", "IMPORTANT_NOTICE"}
+        assert events[0].route == "/notices/1"

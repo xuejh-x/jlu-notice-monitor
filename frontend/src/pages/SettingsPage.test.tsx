@@ -3,6 +3,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createImportanceRule, getImportanceRules, restoreImportanceDefaults, updateImportanceRule } from '../api/importance'
 import { getNotificationPreferences, updateNotificationPreferences } from '../api/notifications'
+import { checkDesktopNotificationPermission, openWindowsNotificationSettings, requestDesktopNotificationPermission, sendDesktopNotificationTest } from '../services/desktopNotifications'
 import { ThemeProvider } from '../stores/theme'
 import { ToastProvider } from '../stores/toast'
 import { SettingsPage } from './SettingsPage'
@@ -12,7 +13,12 @@ vi.mock('../api/importance', () => ({
   deleteImportanceRule: vi.fn(), restoreImportanceDefaults: vi.fn(),
 }))
 vi.mock('../api/notifications', () => ({ getNotificationPreferences: vi.fn(), updateNotificationPreferences: vi.fn() }))
-vi.mock('../services/desktopNotifications', () => ({ requestDesktopNotificationPermission: vi.fn(() => Promise.resolve(true)) }))
+vi.mock('../services/desktopNotifications', () => ({
+  checkDesktopNotificationPermission: vi.fn(() => Promise.resolve(true)),
+  openWindowsNotificationSettings: vi.fn(() => Promise.resolve()),
+  requestDesktopNotificationPermission: vi.fn(() => Promise.resolve(true)),
+  sendDesktopNotificationTest: vi.fn(() => Promise.resolve()),
+}))
 
 const notificationPreferences = { enabled: false, new_notice_enabled: true, important_notice_enabled: true, deadline_enabled: true, source_health_enabled: true, daily_summary_enabled: true, minimum_importance: 70, deadline_lead_days: [7, 3, 1], quiet_start: '23:00', quiet_end: '08:00' }
 
@@ -27,6 +33,10 @@ describe('SettingsPage', () => {
     vi.mocked(getImportanceRules).mockResolvedValue([{ id: 1, keyword: 'PWN', weight: 8, enabled: true, is_system_default: true }])
     vi.mocked(getNotificationPreferences).mockResolvedValue(notificationPreferences)
     vi.mocked(updateNotificationPreferences).mockImplementation(async value => value)
+    vi.mocked(checkDesktopNotificationPermission).mockResolvedValue(true)
+    vi.mocked(requestDesktopNotificationPermission).mockResolvedValue(true)
+    vi.mocked(openWindowsNotificationSettings).mockResolvedValue(undefined)
+    vi.mocked(sendDesktopNotificationTest).mockResolvedValue(undefined)
   })
 
   it('organizes existing controls and the personal importance editor', async () => {
@@ -37,13 +47,43 @@ describe('SettingsPage', () => {
     expect(await screen.findByDisplayValue('PWN')).toBeInTheDocument()
   })
 
-  it('persists desktop notification controls through the local backend', async () => {
+  it('enables desktop notifications and sends a test notification when permission is granted', async () => {
     renderPage()
     const master = await screen.findByRole('switch', { name: '桌面提醒' })
+    expect(await screen.findByText('🟢 Windows 通知已开启')).toBeInTheDocument()
     fireEvent.click(master)
     await waitFor(() => expect(updateNotificationPreferences).toHaveBeenCalledWith(expect.objectContaining({ enabled: true }), expect.anything()))
+    await waitFor(() => expect(sendDesktopNotificationTest).toHaveBeenCalledTimes(1))
+    expect(requestDesktopNotificationPermission).toHaveBeenCalledTimes(1)
+    expect(vi.mocked(updateNotificationPreferences).mock.invocationCallOrder[0]).toBeLessThan(vi.mocked(sendDesktopNotificationTest).mock.invocationCallOrder[0])
     expect(await screen.findByRole('combobox', { name: '截止提前' })).toHaveValue('7,3,1')
     expect(screen.getByLabelText('静默开始')).toHaveValue('23:00')
+  })
+
+  it('keeps the preference off and shows permission guidance when permission is denied', async () => {
+    vi.mocked(checkDesktopNotificationPermission).mockResolvedValue(false)
+    vi.mocked(requestDesktopNotificationPermission).mockResolvedValue(false)
+    renderPage()
+    const master = await screen.findByRole('switch', { name: '桌面提醒' })
+    expect(await screen.findByText('⚠️ 需要 Windows 通知权限')).toBeInTheDocument()
+    fireEvent.click(master)
+    expect(await screen.findByRole('dialog', { name: '开启桌面提醒' })).toHaveTextContent('Windows 设置 → 系统 → 通知')
+    expect(master).toHaveAttribute('aria-checked', 'false')
+    expect(updateNotificationPreferences).not.toHaveBeenCalled()
+    expect(sendDesktopNotificationTest).not.toHaveBeenCalled()
+    fireEvent.click(screen.getByRole('button', { name: '取消' }))
+    await waitFor(() => expect(screen.queryByRole('dialog', { name: '开启桌面提醒' })).not.toBeInTheDocument())
+    expect(master).toHaveAttribute('aria-checked', 'false')
+  })
+
+  it('opens Windows notification settings from the permission dialog', async () => {
+    vi.mocked(checkDesktopNotificationPermission).mockResolvedValue(false)
+    vi.mocked(requestDesktopNotificationPermission).mockResolvedValue(false)
+    renderPage()
+    fireEvent.click(await screen.findByRole('switch', { name: '桌面提醒' }))
+    fireEvent.click(await screen.findByRole('button', { name: '打开 Windows 通知设置' }))
+    await waitFor(() => expect(openWindowsNotificationSettings).toHaveBeenCalledTimes(1))
+    expect(updateNotificationPreferences).not.toHaveBeenCalled()
   })
 
   it('keeps the existing local settings persistence behavior', () => {

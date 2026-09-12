@@ -15,7 +15,19 @@ def test_notice_api_and_dashboard() -> None:
     Base.metadata.create_all(engine)
     session = Session(engine)
     source = Source(code="ccst", name="计算机学院", base_url="https://ccst.jlu.edu.cn")
-    oa = Source(code="oa", name="吉林大学 OA", base_url="https://oa.jlu.edu.cn", enabled=False)
+    oa = Source(
+        code="oa",
+        name="吉林大学 OA 校内通知",
+        base_url="https://oa.jlu.edu.cn",
+        enabled=True,
+        ownership="OFFICIAL_CLOUD",
+        source_type="official",
+        parser="oa_public",
+        auth_type="none",
+        source_scope="official",
+        execution="cloud",
+        cloud_policy="force_enabled",
+    )
     session.add_all([source, oa])
     session.flush()
     notice = Notice(
@@ -54,8 +66,9 @@ def test_notice_api_and_dashboard() -> None:
         assert response.json()["items"][0]["sources"][0]["code"] == "ccst"
         source_payload = client.get("/api/sources").json()
         oa_payload = next(item for item in source_payload if item["code"] == "oa")
-        assert oa_payload["status"] == "login_required"
-        assert oa_payload["message"] == "需要完成首次登录配置"
+        assert oa_payload["status"] == "unconfigured"
+        assert oa_payload["auth_required"] is False
+        assert "登录" not in str(oa_payload["message"] or "")
         assert client.get("/api/dashboard").status_code == 200
         assert client.post(f"/api/notices/{notice.id}/favorite").json()["is_favorite"] is True
     finally:

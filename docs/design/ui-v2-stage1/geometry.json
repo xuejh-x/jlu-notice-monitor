@@ -1,0 +1,217 @@
+{
+  "results": [
+    {
+      "name": "desktop-dark",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 844
+      },
+      "reader": {
+        "x": 856,
+        "y": 56,
+        "width": 584,
+        "height": 844
+      },
+      "scrollWidth": 1440,
+      "viewport": 1440
+    },
+    {
+      "name": "desktop-light",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": {
+        "x": 282,
+        "y": 56,
+        "width": 574,
+        "height": 844
+      },
+      "reader": {
+        "x": 856,
+        "y": 56,
+        "width": 584,
+        "height": 844
+      },
+      "scrollWidth": 1440,
+      "viewport": 1440
+    },
+    {
+      "name": "tablet-list",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 72,
+        "height": 900
+      },
+      "header": {
+        "x": 72,
+        "y": 0,
+        "width": 696,
+        "height": 56
+      },
+      "list": {
+        "x": 72,
+        "y": 56,
+        "width": 696,
+        "height": 844
+      },
+      "reader": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "scrollWidth": 768,
+      "viewport": 768
+    },
+    {
+      "name": "tablet-reader",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 72,
+        "height": 900
+      },
+      "header": {
+        "x": 72,
+        "y": 0,
+        "width": 696,
+        "height": 56
+      },
+      "list": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "reader": {
+        "x": 72,
+        "y": 56,
+        "width": 696,
+        "height": 844
+      },
+      "scrollWidth": 768,
+      "viewport": 768
+    },
+    {
+      "name": "mobile-list",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56
+      },
+      "list": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 780
+      },
+      "reader": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "scrollWidth": 390,
+      "viewport": 390
+    },
+    {
+      "name": "mobile-reader",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 56
+      },
+      "list": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "reader": {
+        "x": 0,
+        "y": 56,
+        "width": 390,
+        "height": 757
+      },
+      "scrollWidth": 390,
+      "viewport": 390
+    },
+    {
+      "name": "desktop-sources",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": null,
+      "reader": null,
+      "scrollWidth": 1440,
+      "viewport": 1440
+    },
+    {
+      "name": "desktop-settings",
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 282,
+        "height": 900
+      },
+      "header": {
+        "x": 282,
+        "y": 0,
+        "width": 1158,
+        "height": 56
+      },
+      "list": null,
+      "reader": null,
+      "scrollWidth": 1440,
+      "viewport": 1440
+    }
+  ],
+  "pageErrors": []
+}

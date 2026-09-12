@@ -12,7 +12,7 @@ from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import select
+from sqlalchemy import or_, select
 from sqlalchemy.orm import Session
 
 from app.classifier import classify_notice, score_importance
@@ -23,26 +23,104 @@ from app.schemas.notice import NoticeCandidate
 from app.services.dates import extract_dates
 from app.services.deduplication import find_duplicate
 from app.services.metadata import extract_notice_metadata
+from app.services.notice_identity import origin_item_key
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
-from app.services.source_identity import resolve_cloud_execution, source_identity
+from app.services.source_identity import default_execution_policy, resolve_cloud_execution, source_identity
 from app.services.importance import enabled_rule_values
 from app.services.notifications import record_notice_event, record_source_health_transition
+from app.services.credentials import credential_store
 from app.sources import build_source
 from app.sources.base import LoginExpiredError, SourceNotConfiguredError
-from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED
+from app.sources.cloud import (
+    PUBLIC_FEED_EXPIRED,
+    PUBLIC_FEED_HTTP_ERROR,
+    PUBLIC_FEED_INVALID_RESPONSE,
+    PUBLIC_FEED_NETWORK_ERROR,
+    PUBLIC_FEED_NOT_CONFIGURED,
+    PUBLIC_FEED_TIMEOUT,
+)
 from app.paths import get_cache_dir
 from app.logging_config import log_event
 
 logger = logging.getLogger(__name__)
+
+CLOUD_FALLBACK_REASONS = (
+    PUBLIC_FEED_NOT_CONFIGURED,
+    PUBLIC_FEED_NETWORK_ERROR,
+    PUBLIC_FEED_TIMEOUT,
+    PUBLIC_FEED_HTTP_ERROR,
+    PUBLIC_FEED_INVALID_RESPONSE,
+    PUBLIC_FEED_EXPIRED,
+)
 
 
 def utcnow() -> datetime:
     return datetime.now(UTC).replace(tzinfo=None)
 
 
+def execution_metadata(config: dict[str, Any]) -> tuple[str, str]:
+    ownership = str(config.get("ownership") or "")
+    if config.get("execution_policy"):
+        policy = str(config["execution_policy"])
+    elif ownership:
+        policy = default_execution_policy(ownership)
+    else:
+        policy = "cloud_preferred" if config.get("execution") == "cloud" else "local_only"
+    if config.get("effective_execution"):
+        effective = str(config["effective_execution"])
+    else:
+        role = get_settings().effective_deployment_role
+        cloud_owned = ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}
+        effective = "cloud" if role == "cloud" or (role == "desktop" and cloud_owned) else "local"
+    return policy, effective
+
+
+def cloud_fallback_reason(exc: Exception) -> str | None:
+    message = str(exc)
+    for reason in CLOUD_FALLBACK_REASONS:
+        if reason in message:
+            return reason
+    if isinstance(exc, (asyncio.TimeoutError, httpx.TimeoutException)):
+        return PUBLIC_FEED_TIMEOUT
+    if isinstance(exc, httpx.HTTPStatusError):
+        return PUBLIC_FEED_HTTP_ERROR
+    if isinstance(exc, httpx.RequestError):
+        return PUBLIC_FEED_NETWORK_ERROR
+    return None
+
+
+def supports_local_fallback(config: dict[str, Any]) -> bool:
+    return bool(
+        get_settings().effective_deployment_role == "desktop"
+        and config.get("ownership") == "OFFICIAL_CLOUD"
+        and config.get("execution_policy") == "cloud_preferred"
+        and config.get("parser") == "cloud_feed"
+        and config.get("fallback_parser")
+        and config.get("fallback_parser") != "cloud_feed"
+    )
+
+
+@dataclass
+class SourceAttemptResult:
+    execution: str
+    status: str = "running"
+    error: str | None = None
+    fetched: int = 0
+    detail_fetched: int = 0
+    detail_skipped: int = 0
+    new_count: int = 0
+    updated_count: int = 0
+    unchanged_count: int = 0
+
+
 @dataclass
 class SourceRunResult:
     source: str
+    execution_policy: str = "local_only"
+    effective_execution: str = "local"
+    fallback_used: bool = False
+    fallback_reason: str | None = None
+    attempts: list[SourceAttemptResult] = field(default_factory=list)
     status: str = "pending"
     fetched: int = 0
     detail_fetched: int = 0
@@ -225,10 +303,20 @@ class CrawlerManager:
                 semaphore = asyncio.Semaphore(concurrency)
 
                 result.source_results = [
-                    SourceRunResult(source=str(config["code"]), status="skipped")
+                    SourceRunResult(
+                        source=str(config["code"]),
+                        execution_policy=execution_metadata(config)[0],
+                        effective_execution=execution_metadata(config)[1],
+                        status="skipped",
+                    )
                     for config in skipped_configs
                 ] + [
-                    SourceRunResult(source=str(config["code"])) for config in configs
+                    SourceRunResult(
+                        source=str(config["code"]),
+                        execution_policy=execution_metadata(config)[0],
+                        effective_execution=execution_metadata(config)[1],
+                    )
+                    for config in configs
                 ]
 
                 async def run_limited(index: int, config: dict[str, Any]) -> SourceRunResult:
@@ -314,25 +402,56 @@ class CrawlerManager:
                     enabled=bool(config.get("enabled", True)),
                 )
                 db.add(source)
+            previous_ownership = source.ownership
             source.name = config["name"]
             source.base_url = config["base_url"]
-            is_private = str(config["code"]) == "oa"
-            source.ownership = "CUSTOM_LOCAL_PRIVATE" if is_private else "OFFICIAL_CLOUD"
-            source.source_type = "private_browser" if is_private else "official_adapter"
-            source.parser = "oa" if is_private else (
-                "cloud_feed" if role == "desktop" else str(config.get("parser", config["code"]))
+            configured_ownership = str(config.get("ownership") or "OFFICIAL_CLOUD")
+            is_private = configured_ownership == "CUSTOM_LOCAL_PRIVATE"
+            cloud_owned = configured_ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}
+            source.ownership = configured_ownership
+            source.source_type = str(
+                config.get("source_type")
+                or ("private_browser" if is_private else "official_adapter")
             )
-            source.auth_type = "browser_session" if is_private else "none"
-            source.login_url = source.login_url or (
-                str(config.get("login_url") or source.base_url) if is_private else None
+            source.parser = (
+                "cloud_feed"
+                if role == "desktop" and cloud_owned
+                else str(config.get("parser", config["code"]))
             )
-            if is_private and config.get("parser_config"):
+            source.auth_type = str(
+                config.get("auth_type") or ("browser_session" if is_private else "none")
+            )
+            source.login_url = (
+                source.login_url or str(config.get("login_url") or source.base_url)
+                if is_private
+                else None
+            )
+            if config.get("parser_config") is not None:
                 source.parser_config = json.dumps(config["parser_config"], ensure_ascii=False)
-            source.session_profile_ref = source.session_profile_ref or ("oa-profile" if is_private else None)
+            elif previous_ownership == "CUSTOM_LOCAL_PRIVATE" and not is_private:
+                source.parser_config = "{}"
+            if previous_ownership == "CUSTOM_LOCAL_PRIVATE" and not is_private:
+                if source.credential_ref:
+                    credential_store.delete(source.credential_ref)
+                source.auth_username = None
+                source.credential_ref = None
+                source.session_profile_ref = None
+                source.allow_private_network = False
+                source.reauth_notified_at = None
+                source.last_error = None
+                source.last_error_code = None
+                source.health_state = "unconfigured"
+                source.enabled = bool(config.get("enabled", True))
+            elif is_private:
+                source.session_profile_ref = source.session_profile_ref or "oa-profile"
             source.source_identity = source.source_identity or source_identity(source.base_url)
-            source.source_scope = "private" if is_private else "official"
-            source.execution = "local" if is_private else "cloud"
-            source.cloud_source_id = None if is_private else source.code
+            source.source_scope = str(config.get("source_scope") or ("private" if is_private else "official"))
+            source.execution = str(config.get("execution") or ("local" if is_private else "cloud"))
+            source.execution_policy = str(
+                config.get("execution_policy") or default_execution_policy(configured_ownership)
+            )
+            source.cloud_source_id = None if not cloud_owned else source.code
+            source.cloud_policy = str(config.get("cloud_policy") or source.cloud_policy or "auto")
             source.validation_status = "untested" if is_private else "passed"
             if created and is_private:
                 source.health_state = "unconfigured"
@@ -378,6 +497,8 @@ class CrawlerManager:
                     continue
                 if item.get("source_scope") == "shared":
                     remote_shared_ids.add(cloud_id)
+                ownership = "SHARED_CLOUD" if item.get("source_scope") == "shared" else "OFFICIAL_CLOUD"
+                execution_policy = str(item.get("execution_policy") or default_execution_policy(ownership))
                 source = db.scalar(select(Source).where(Source.cloud_source_id == cloud_id))
                 if source is None:
                     source = db.scalar(select(Source).where(Source.code == cloud_id))
@@ -386,9 +507,10 @@ class CrawlerManager:
                         code=cloud_id,
                         name=str(item.get("name") or cloud_id),
                         base_url=str(item.get("base_url") or ""),
-                        ownership="SHARED_CLOUD" if item.get("source_scope") == "shared" else "OFFICIAL_CLOUD",
+                        ownership=ownership,
                         source_scope=str(item.get("source_scope") or "official"),
                         execution="cloud",
+                        execution_policy=execution_policy,
                         cloud_policy=str(item.get("cloud_policy") or "auto"),
                         cloud_source_id=cloud_id,
                         source_identity=identity,
@@ -406,6 +528,7 @@ class CrawlerManager:
                     source.source_identity = identity
                     source.source_scope = str(item.get("source_scope") or source.source_scope)
                     source.execution = "cloud"
+                    source.execution_policy = execution_policy
                     source.cloud_policy = str(item.get("cloud_policy") or source.cloud_policy)
                     source.enabled = source.cloud_policy != "force_disabled"
             local_shared = db.scalars(
@@ -464,8 +587,14 @@ class CrawlerManager:
                 enabled=enabled,
                 parser=parser,
                 content_parser=source.parser,
+                fallback_parser=str(base.get("parser") or source.parser),
                 parser_config=parser_config,
                 ownership=source.ownership,
+                execution=source.execution,
+                execution_policy=source.execution_policy,
+                effective_execution=(
+                    "cloud" if role == "cloud" or (role == "desktop" and cloud_owned) else "local"
+                ),
                 auth_type=source.auth_type,
                 auth_username=source.auth_username,
                 credential_ref=source.credential_ref,
@@ -481,8 +610,18 @@ class CrawlerManager:
 
     async def _run_source(self, config: dict[str, Any], bootstrap: bool) -> SourceRunResult:
         code = str(config["code"])
-        run_result = SourceRunResult(source=code, status="running")
-        adapter = None
+        execution_policy, effective_execution = execution_metadata(config)
+        run_result = SourceRunResult(
+            source=code,
+            execution_policy=execution_policy,
+            effective_execution=effective_execution,
+            status="running",
+        )
+        if self._active_result is not None:
+            for index, active_source in enumerate(self._active_result.source_results):
+                if active_source.source == code and active_source.status == "pending":
+                    self._active_result.source_results[index] = run_result
+                    break
         log_event(logger, logging.INFO, "source_started", source=code)
         with SessionLocal() as db:
             db_source = db.scalar(select(Source).where(Source.code == code))
@@ -491,120 +630,232 @@ class CrawlerManager:
             db_source.last_checked_at = utcnow()
             db.commit()
             try:
-                adapter = build_source(config)
-                list_started = time.perf_counter()
-                items = await adapter.fetch_list()
-                run_result.list_duration_seconds = round(time.perf_counter() - list_started, 3)
-                run_result.fetched = len(items)
-                log_event(logger, logging.INFO, "source_list_fetched", source=code, status="success")
-                source_deadline = time.perf_counter() + get_settings().source_run_timeout_seconds
-                for item in items:
-                    if time.perf_counter() >= source_deadline:
-                        run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
-                        break
-                    try:
-                        existing = self._find_unchanged_list_item(db, db_source, item)
-                        if existing is not None:
-                            self._mark_seen_without_detail(db, existing, db_source, item.url)
-                            run_result.detail_skipped += 1
-                            run_result.unchanged_count += 1
-                            continue
-                        detail_started = time.perf_counter()
-                        detail = await adapter.fetch_detail(item)
-                        run_result.detail_duration_seconds += time.perf_counter() - detail_started
-                        run_result.detail_fetched += 1
-                        persist_started = time.perf_counter()
-                        state = self._persist_candidate(
-                            db,
-                            db_source,
-                            detail,
-                            bootstrap,
-                            dedup_across_sources=bool(config.get("dedup_across_sources", False)),
-                        )
-                        run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
-                        if state == "NEW":
-                            run_result.new_count += 1
-                        elif state == "UPDATED":
-                            run_result.updated_count += 1
-                        else:
-                            run_result.unchanged_count += 1
-                    except (LoginExpiredError, SourceNotConfiguredError):
-                        # Authentication and adapter-contract state apply to the
-                        # whole source, even when discovered on a detail page.
-                        # Let the source-level handlers persist the right state.
-                        raise
-                    except Exception as exc:  # one bad notice must not stop a source
-                        message = f"{item.url}: {type(exc).__name__}: {exc}"
-                        run_result.errors.append(message)
-                        log_event(logger, logging.WARNING, "detail_fetch_failed", source=code, error_type=type(exc).__name__, error=message)
-                        db.rollback()
-                db_source.last_success_at = utcnow()
-                db_source.health_state = "healthy"
-                db_source.last_error_code = None
-                if run_result.errors:
-                    db_source.last_error = " | ".join(run_result.errors)
-                    db_source.consecutive_errors += 1
-                else:
-                    db_source.last_error = None
-                    db_source.consecutive_errors = 0
-                run_result.status = "partial_failure" if run_result.errors else "success"
-            except SourceNotConfiguredError as exc:
-                error_code = str(exc) or "SOURCE_NOT_CONFIGURED"
-                db_source.last_error = error_code
-                db_source.last_error_code = error_code
-                db_source.health_state = "unconfigured"
-                run_result.errors.append(error_code)
-                run_result.status = "skipped"
-            except LoginExpiredError as exc:
-                error_code = str(exc) or "AUTH_SESSION_EXPIRED"
-                db_source.last_error = error_code
-                db_source.last_error_code = "AUTH_EXPIRED"
-                db_source.health_state = "needs_reauth"
-                db_source.consecutive_errors += 1
-                run_result.errors.append(error_code)
-                log_event(
-                    logger,
-                    logging.ERROR,
-                    "source_failed",
-                    source=code,
-                    error_type="LoginExpiredError",
-                    error=error_code,
+                await self._execute_source_attempt(
+                    db, db_source, config, bootstrap, run_result, effective_execution
                 )
-                run_result.status = "failure"
-            except Exception as exc:
-                message = f"{type(exc).__name__}: {exc}"
-                db_source.last_error = message
-                if str(exc) == PUBLIC_FEED_NOT_CONFIGURED:
-                    db_source.last_error_code = PUBLIC_FEED_NOT_CONFIGURED
-                    db_source.health_state = "cloud_unconfigured"
-                elif "AUTH_" in message:
-                    db_source.last_error_code = "AUTH_ERROR"
-                    db_source.health_state = "needs_reauth"
+            except Exception as cloud_exc:
+                fallback_reason = (
+                    cloud_fallback_reason(cloud_exc) if supports_local_fallback(config) else None
+                )
+                if fallback_reason is None:
+                    self._record_source_failure(db_source, run_result, cloud_exc)
                 else:
-                    db_source.last_error_code = (
-                    "NETWORK_ERROR" if "HTTP" in type(exc).__name__.upper() or "UNAVAILABLE" in message else
-                    "PARSE_ERROR" if "parse" in message.lower() or "selector" in message.lower() else
-                    "SOURCE_ERROR"
+                    run_result.fallback_used = True
+                    run_result.fallback_reason = fallback_reason
+                    run_result.effective_execution = "local"
+                    local_config = {
+                        **config,
+                        "parser": str(config["fallback_parser"]),
+                        "effective_execution": "local",
+                    }
+                    log_event(
+                        logger,
+                        logging.WARNING,
+                        "source_fallback_started",
+                        source=code,
+                        fallback_reason=fallback_reason,
                     )
-                    db_source.health_state = db_source.last_error_code.lower()
-                db_source.consecutive_errors += 1
-                run_result.errors.append(message)
-                log_event(logger, logging.ERROR, "source_failed", source=code, error_type=type(exc).__name__, error=message)
-                run_result.status = "failure"
+                    try:
+                        await self._execute_source_attempt(
+                            db, db_source, local_config, bootstrap, run_result, "local"
+                        )
+                    except Exception as local_exc:
+                        run_result.errors.append(
+                            f"cloud:{type(cloud_exc).__name__}: {cloud_exc}"
+                        )
+                        self._record_source_failure(db_source, run_result, local_exc)
             finally:
+                if run_result.status in {"success", "partial_failure"}:
+                    db_source.last_success_at = utcnow()
+                    db_source.health_state = "healthy"
+                    db_source.last_error_code = None
+                    if run_result.errors:
+                        db_source.last_error = " | ".join(run_result.errors)
+                        db_source.consecutive_errors += 1
+                    else:
+                        db_source.last_error = None
+                        db_source.consecutive_errors = 0
+                run_result.list_duration_seconds = round(run_result.list_duration_seconds, 3)
                 run_result.detail_duration_seconds = round(run_result.detail_duration_seconds, 3)
                 run_result.parse_db_duration_seconds = round(run_result.parse_db_duration_seconds, 3)
                 record_source_health_transition(db, db_source, previous_health_state)
                 db.commit()
-                if adapter is not None:
-                    await adapter.close()
         log_event(
             logger, logging.INFO, "source_finished", source=code, status=run_result.status,
+            effective_execution=run_result.effective_execution,
+            fallback_used=run_result.fallback_used,
+            fallback_reason=run_result.fallback_reason,
             duration_seconds=round(run_result.list_duration_seconds + run_result.detail_duration_seconds + run_result.parse_db_duration_seconds, 3),
             new_count=run_result.new_count, updated_count=run_result.updated_count,
             unchanged_count=run_result.unchanged_count,
         )
         return run_result
+
+    async def _execute_source_attempt(
+        self,
+        db: Session,
+        db_source: Source,
+        config: dict[str, Any],
+        bootstrap: bool,
+        run_result: SourceRunResult,
+        execution: str,
+    ) -> None:
+        attempt = SourceAttemptResult(execution=execution)
+        run_result.attempts.append(attempt)
+        adapter = None
+        error_count = len(run_result.errors)
+        before = (
+            run_result.fetched,
+            run_result.detail_fetched,
+            run_result.detail_skipped,
+            run_result.new_count,
+            run_result.updated_count,
+            run_result.unchanged_count,
+        )
+        try:
+            adapter = build_source(config)
+            list_started = time.perf_counter()
+            items = await adapter.fetch_list()
+            run_result.list_duration_seconds += time.perf_counter() - list_started
+            run_result.fetched += len(items)
+            log_event(
+                logger,
+                logging.INFO,
+                "source_list_fetched",
+                source=db_source.code,
+                effective_execution=execution,
+                status="success",
+            )
+            source_deadline = time.perf_counter() + get_settings().source_run_timeout_seconds
+            for item in items:
+                if time.perf_counter() >= source_deadline:
+                    run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
+                    break
+                try:
+                    existing = self._find_unchanged_list_item(db, db_source, item)
+                    if existing is not None:
+                        self._mark_seen_without_detail(db, existing, db_source, item)
+                        run_result.detail_skipped += 1
+                        run_result.unchanged_count += 1
+                        continue
+                    detail_started = time.perf_counter()
+                    detail = await adapter.fetch_detail(item)
+                    run_result.detail_duration_seconds += time.perf_counter() - detail_started
+                    run_result.detail_fetched += 1
+                    persist_started = time.perf_counter()
+                    state = self._persist_candidate(
+                        db,
+                        db_source,
+                        detail,
+                        bootstrap,
+                        dedup_across_sources=bool(config.get("dedup_across_sources", False)),
+                    )
+                    run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
+                    if state == "NEW":
+                        run_result.new_count += 1
+                    elif state == "UPDATED":
+                        run_result.updated_count += 1
+                    else:
+                        run_result.unchanged_count += 1
+                except (LoginExpiredError, SourceNotConfiguredError):
+                    raise
+                except Exception as exc:  # one bad notice must not stop a source
+                    message = f"{item.url}: {type(exc).__name__}: {exc}"
+                    run_result.errors.append(message)
+                    log_event(
+                        logger,
+                        logging.WARNING,
+                        "detail_fetch_failed",
+                        source=db_source.code,
+                        error_type=type(exc).__name__,
+                        error=message,
+                    )
+                    db.rollback()
+            attempt.status = (
+                "partial_failure" if len(run_result.errors) > error_count else "success"
+            )
+            run_result.status = attempt.status
+        except Exception as exc:
+            attempt.status = "failure"
+            attempt.error = f"{type(exc).__name__}: {exc}"
+            raise
+        finally:
+            after = (
+                run_result.fetched,
+                run_result.detail_fetched,
+                run_result.detail_skipped,
+                run_result.new_count,
+                run_result.updated_count,
+                run_result.unchanged_count,
+            )
+            (
+                attempt.fetched,
+                attempt.detail_fetched,
+                attempt.detail_skipped,
+                attempt.new_count,
+                attempt.updated_count,
+                attempt.unchanged_count,
+            ) = tuple(current - previous for current, previous in zip(after, before, strict=True))
+            if adapter is not None:
+                await adapter.close()
+
+    @staticmethod
+    def _record_source_failure(
+        db_source: Source, run_result: SourceRunResult, exc: Exception
+    ) -> None:
+        if isinstance(exc, SourceNotConfiguredError):
+            error_code = str(exc) or "SOURCE_NOT_CONFIGURED"
+            db_source.last_error = error_code
+            db_source.last_error_code = error_code
+            db_source.health_state = "unconfigured"
+            run_result.errors.append(error_code)
+            run_result.status = "skipped"
+            return
+        if isinstance(exc, LoginExpiredError):
+            error_code = str(exc) or "AUTH_SESSION_EXPIRED"
+            db_source.last_error = error_code
+            db_source.last_error_code = "AUTH_EXPIRED"
+            db_source.health_state = "needs_reauth"
+            db_source.consecutive_errors += 1
+            run_result.errors.append(error_code)
+            log_event(
+                logger,
+                logging.ERROR,
+                "source_failed",
+                source=db_source.code,
+                error_type="LoginExpiredError",
+                error=error_code,
+            )
+            run_result.status = "failure"
+            return
+        message = f"{type(exc).__name__}: {exc}"
+        db_source.last_error = message
+        if str(exc) == PUBLIC_FEED_NOT_CONFIGURED:
+            db_source.last_error_code = PUBLIC_FEED_NOT_CONFIGURED
+            db_source.health_state = "cloud_unconfigured"
+        elif "AUTH_" in message:
+            db_source.last_error_code = "AUTH_ERROR"
+            db_source.health_state = "needs_reauth"
+        else:
+            db_source.last_error_code = (
+                "NETWORK_ERROR"
+                if "HTTP" in type(exc).__name__.upper() or "UNAVAILABLE" in message
+                else "PARSE_ERROR"
+                if "parse" in message.lower() or "selector" in message.lower()
+                else "SOURCE_ERROR"
+            )
+            db_source.health_state = db_source.last_error_code.lower()
+        db_source.consecutive_errors += 1
+        run_result.errors.append(message)
+        log_event(
+            logger,
+            logging.ERROR,
+            "source_failed",
+            source=db_source.code,
+            error_type=type(exc).__name__,
+            error=message,
+        )
+        run_result.status = "failure"
 
     @staticmethod
     def _find_unchanged_list_item(
@@ -616,10 +867,14 @@ class CrawlerManager:
         date, or publisher change is treated as suspicious and proceeds to detail
         parsing, preserving the existing content-hash update semantics.
         """
+        item_key = item.origin_item_key or origin_item_key(item.public_id, item.url)
         relation = db.scalar(
             select(NoticeSourceRelation).where(
                 NoticeSourceRelation.source_id == source.id,
-                NoticeSourceRelation.source_url == item.url,
+                or_(
+                    NoticeSourceRelation.origin_item_key == item_key,
+                    NoticeSourceRelation.source_url == item.url,
+                ),
             )
         )
         if relation is None:
@@ -633,19 +888,31 @@ class CrawlerManager:
             item.publish_date is None or notice.publish_date == item.publish_date
         )
         publisher_unchanged = not item.publisher or notice.publisher == item.publisher
-        if notice.title == item.title and publish_date_unchanged and publisher_unchanged:
+        title_unchanged = notice.title == item.title
+        if not title_unchanged:
+            for ellipsis in ("...", "…"):
+                if not item.title.endswith(ellipsis):
+                    continue
+                visible_prefix = item.title[: -len(ellipsis)].rstrip()
+                if len(visible_prefix) >= 12 and notice.title.startswith(visible_prefix):
+                    title_unchanged = True
+                    break
+        if title_unchanged and publish_date_unchanged and publisher_unchanged:
             return relation
         return None
 
     @staticmethod
     def _mark_seen_without_detail(
-        db: Session, relation: NoticeSourceRelation, source: Source, source_url: str) -> None:
+        db: Session, relation: NoticeSourceRelation, source: Source, item: NoticeCandidate
+    ) -> None:
         now = utcnow()
         relation.last_seen_at = now
         relation.notice.last_seen_at = now
-        # The explicit source/url parameters document the identity that was
-        # checked and guard against accidental cross-source relation reuse.
-        assert relation.source_id == source.id and relation.source_url == source_url
+        assert relation.source_id == source.id
+        relation.source_url = item.url
+        relation.origin_item_key = item.origin_item_key or origin_item_key(
+            item.public_id, item.url
+        )
         db.commit()
 
     @staticmethod
@@ -660,6 +927,9 @@ class CrawlerManager:
         now = utcnow()
         normalized = normalize_title(candidate.title)
         canonical = canonicalize_url(candidate.url)
+        item_key = candidate.origin_item_key or origin_item_key(
+            candidate.public_id, candidate.url
+        )
         digest = content_hash(candidate.title, candidate.content)
         dates = extract_dates(candidate.content, candidate.publish_date)
         category = candidate.category or classify_notice(candidate.title, candidate.content)
@@ -680,7 +950,16 @@ class CrawlerManager:
         target_students = candidate.target_students or extracted_students
         registration_method = candidate.registration_method or extracted_method
         competition_level = candidate.competition_level or extracted_level
-        notice = find_duplicate(
+        existing_relation = db.scalar(
+            select(NoticeSourceRelation).where(
+                NoticeSourceRelation.source_id == source.id,
+                or_(
+                    NoticeSourceRelation.origin_item_key == item_key,
+                    NoticeSourceRelation.source_url == candidate.url,
+                ),
+            )
+        )
+        notice = existing_relation.notice if existing_relation else find_duplicate(
             db,
             normalized,
             canonical,
@@ -688,16 +967,19 @@ class CrawlerManager:
             source_id=None if dedup_across_sources else source.id,
             public_id=candidate.public_id,
         )
-        existing_relation = None
         if notice:
             old_deadline = notice.registration_deadline
-            existing_relation = db.scalar(
-                select(NoticeSourceRelation).where(
-                    NoticeSourceRelation.notice_id == notice.id,
-                    NoticeSourceRelation.source_id == source.id,
-                    NoticeSourceRelation.source_url == candidate.url,
+            if existing_relation is None:
+                existing_relation = db.scalar(
+                    select(NoticeSourceRelation).where(
+                        NoticeSourceRelation.notice_id == notice.id,
+                        NoticeSourceRelation.source_id == source.id,
+                        or_(
+                            NoticeSourceRelation.origin_item_key == item_key,
+                            NoticeSourceRelation.source_url == candidate.url,
+                        ),
+                    )
                 )
-            )
         else:
             old_deadline = None
         state = "UNCHANGED"
@@ -779,6 +1061,8 @@ class CrawlerManager:
         if notice.competition_level is None:
             notice.competition_level = competition_level
         if existing_relation:
+            existing_relation.source_url = candidate.url
+            existing_relation.origin_item_key = item_key
             existing_relation.last_seen_at = now
             existing_relation.content_hash = digest
         else:
@@ -787,6 +1071,7 @@ class CrawlerManager:
                     notice_id=notice.id,
                     source_id=source.id,
                     source_url=candidate.url,
+                    origin_item_key=item_key,
                     content_hash=digest,
                     first_seen_at=now,
                     last_seen_at=now,

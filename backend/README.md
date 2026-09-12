@@ -73,26 +73,17 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 
 各站点使用独立 Adapter 类型和配置化栏目，公共 WebPlus 页面解析由容错解析器复用。测试 HTML 固定在 `tests/fixtures/`，pytest 不依赖实时网站。
 
-## OA 当前状态
+## OA 校内通知公开源
 
-OA 数据源当前默认关闭，并明确显示为“需要完成首次登录配置”。它不参与公开 Source 的抓取，也不会影响公开 Source 的成功或失败。
+“吉林大学 OA 校内通知”是无需登录的官方公开来源。Cloud Worker 直接抓取公开列表与详情，Desktop 只同步 Cloud Feed；该来源不读取账号、Cookie 或浏览器会话，也不创建 OA 专用 profile。
 
-框架使用 Playwright persistent context、人工登录协调器、登录过期状态、配置化 DOM 选择器和独立 Source 隔离。浏览器 profile 保存到 `data/browser_profile/oa/`，不会读取或保存明文密码，且已被 `.gitignore` 排除。登录后的 DOM 尚未在授权校园网/VPN 会话中验证，因此 OA 仍为 `unconfigured`，不能称为 ready。
-
-首次在能够正常访问 OA 的网络环境中执行：
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install -e ".[oa]"
-.\.venv\Scripts\python.exe -m app oa-login
-```
-
-也可以在 Sources 页面点击“首次登录”，由后端打开 OA 专用 Edge profile。浏览器打开后由本人完成统一身份认证。首次真实登录后，先根据登录后的实际 HTML 完成并测试 OA Adapter 的 `parser_config`，再启用 OA，最后执行：
+单独验证该来源：
 
 ```powershell
 .\.venv\Scripts\python.exe -m app crawl --source oa
 ```
 
-当前代码明确返回 `OA_UNCONFIGURED`，没有猜测登录后的通知 DOM，也不会模拟成功抓取。
+适配器按列表元数据执行增量分流；只有 new/updated 项进入详情抓取。详情解析复用统一正文、附件、去重、评分、截止日期和通知流水线。
 
 ## 运行目录
 
@@ -101,7 +92,6 @@ OA 数据源当前默认关闭，并明确显示为“需要完成首次登录�
 - `get_app_data_dir()`
 - `get_database_path()`
 - `get_log_dir()`
-- `get_oa_profile_dir()`
 - `get_cache_dir()`
 - `get_runtime_config_dir()`
 
@@ -111,7 +101,6 @@ OA 数据源当前默认关闭，并明确显示为“需要完成首次登录�
 %LOCALAPPDATA%\JLU Notice Monitor\
 ├── data\notices.db
 ├── logs\
-├── oa-profile\
 ├── cache\
 └── config\
 ```

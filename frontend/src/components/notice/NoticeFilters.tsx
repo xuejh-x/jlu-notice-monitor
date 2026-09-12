@@ -23,7 +23,7 @@ export function FilterFields({ state, onPatch }: { state: NoticesUrlState; onPat
         <option value="csw">软件学院</option>
         <option value="jwc">本科生院</option>
         <option value="innovation">创新创业教育学院</option>
-        <option value="oa">吉林大学 OA</option>
+        <option value="oa">吉林大学 OA 校内通知</option>
       </Select>
       <Select aria-label="最低优先级" value={state.minScore} onChange={event => onPatch({ minScore: event.target.value })}>
         <option value="">不限优先级</option>

@@ -8,6 +8,14 @@
   "permissions": [
     "core:event:default",
     "opener:allow-default-urls",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        {
+          "url": "ms-settings:notifications"
+        }
+      ]
+    },
     "notification:default"
   ]
 }

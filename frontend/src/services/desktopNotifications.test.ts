@@ -1,7 +1,9 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { acknowledgeNotificationDelivery, claimNotificationDelivery } from '../api/notifications'
-import { deliverNextDesktopNotification, sendWindowsNotification, validNotificationRoute } from './desktopNotifications'
-import { invoke } from '@tauri-apps/api/core'
+import { checkDesktopNotificationPermission, deliverNextDesktopNotification, openWindowsNotificationSettings, requestDesktopNotificationPermission, sendDesktopNotificationTest, sendWindowsNotification, validNotificationRoute } from './desktopNotifications'
+import { invoke, isTauri } from '@tauri-apps/api/core'
+import { isPermissionGranted, requestPermission } from '@tauri-apps/plugin-notification'
+import { openUrl } from '@tauri-apps/plugin-opener'
 
 vi.mock('@tauri-apps/api/core', () => ({ isTauri: vi.fn(() => true), invoke: vi.fn() }))
 vi.mock('@tauri-apps/api/event', () => ({ listen: vi.fn() }))
@@ -9,6 +11,7 @@ vi.mock('@tauri-apps/api/window', () => ({ getCurrentWindow: vi.fn() }))
 vi.mock('@tauri-apps/plugin-notification', () => ({
   isPermissionGranted: vi.fn(() => Promise.resolve(true)), requestPermission: vi.fn(),
 }))
+vi.mock('@tauri-apps/plugin-opener', () => ({ openUrl: vi.fn() }))
 vi.mock('../api/notifications', () => ({ claimNotificationDelivery: vi.fn(), acknowledgeNotificationDelivery: vi.fn() }))
 
 const event = { id: 9, type: 'NEW_NOTICE' as const, notice_id: 42, source_id: 1, severity: 'info' as const, title: '新通知', body: '简洁正文', route: '/notices/42', local_date: null, read_at: null, created_at: '2026-09-03T00:00:00' }
@@ -16,7 +19,34 @@ const event = { id: 9, type: 'NEW_NOTICE' as const, notice_id: 42, source_id: 1,
 describe('desktop notification bridge', () => {
   beforeEach(() => {
     vi.clearAllMocks()
+    vi.mocked(isTauri).mockReturnValue(true)
+    vi.mocked(isPermissionGranted).mockResolvedValue(true)
     vi.mocked(invoke).mockResolvedValue(undefined)
+    vi.mocked(openUrl).mockResolvedValue(undefined)
+  })
+
+  it('reports and requests Windows notification permission', async () => {
+    expect(await checkDesktopNotificationPermission()).toBe(true)
+    expect(await requestDesktopNotificationPermission()).toBe(true)
+    expect(requestPermission).not.toHaveBeenCalled()
+
+    vi.mocked(isPermissionGranted).mockResolvedValue(false)
+    vi.mocked(requestPermission).mockResolvedValue('denied')
+    expect(await requestDesktopNotificationPermission()).toBe(false)
+  })
+
+  it('opens the scoped Windows notification settings page', async () => {
+    await openWindowsNotificationSettings()
+    expect(openUrl).toHaveBeenCalledWith('ms-settings:notifications')
+  })
+
+  it('sends a native test notification through the existing Windows command', async () => {
+    await sendDesktopNotificationTest()
+    expect(invoke).toHaveBeenCalledWith('show_windows_notification', {
+      title: '桌面提醒已开启',
+      body: 'JLU Notice Monitor 将在这里发送新通知提醒。',
+      route: '/notices',
+    })
   })
 
   it('only accepts allow-listed internal routes from native activation', async () => {

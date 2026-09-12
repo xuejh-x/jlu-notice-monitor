@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from app.database import get_db
 from app.models import Notice, NoticeSourceRelation, Source
+from app.services.notice_identity import origin_item_key
 
 router = APIRouter(prefix="/public/v1", tags=["public-feed"])
 _requests: dict[str, deque[datetime]] = defaultdict(deque)
@@ -55,9 +56,11 @@ def public_sources(db: Session = Depends(get_db)) -> dict[str, Any]:
                 "base_url": source.base_url,
                 "source_identity": source.source_identity,
                 "source_scope": source.source_scope,
+                "execution_policy": source.execution_policy,
                 "cloud_policy": source.cloud_policy,
                 "parser": source.parser,
                 "source_type": source.source_type,
+                "auth_required": source.auth_type != "none",
                 "updated_at": source.updated_at,
             }
             for source in rows
@@ -73,6 +76,7 @@ def public_notices(
     page_size: int = Query(100, ge=1, le=100),
     db: Session = Depends(get_db),
 ) -> dict[str, Any]:
+    requested_source = db.scalar(select(Source).where(Source.code == source)) if source else None
     query = (
         select(NoticeSourceRelation)
         .join(NoticeSourceRelation.source)
@@ -103,6 +107,10 @@ def public_notices(
         items.append(
             {
                 "public_id": _public_id(relation.source.code, notice.canonical_url),
+                "origin_item_key": origin_item_key(
+                    notice.public_id if notice.source_id == relation.source_id else None,
+                    relation.source_url,
+                ),
                 "source": {
                     "id": relation.source.code,
                     "code": relation.source.code,
@@ -134,6 +142,7 @@ def public_notices(
     last_relation = page[-1] if page else None
     return {
         "version": "1",
+        "source_last_success_at": requested_source.last_success_at if requested_source else None,
         "items": items,
         "has_more": len(rows) > page_size,
         "next": {

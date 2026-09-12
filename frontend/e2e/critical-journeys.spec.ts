@@ -34,19 +34,19 @@ const officialSource = {
   auth_type: 'none', username: null, password_saved: false, login_url: null, allow_private_network: false,
   health_state: 'healthy', last_error_code: null, last_error: null, last_checked_at: null, last_success_at: null,
   requires_reauthentication: false, source_identity: 'a'.repeat(64), cloud_source_id: 'e2e-main',
-  source_scope: 'official', execution: 'cloud', cloud_policy: 'auto', crawl_interval_seconds: null,
+  source_scope: 'official', execution: 'cloud', execution_policy: 'cloud_preferred', cloud_policy: 'auto', crawl_interval_seconds: null,
   validation_status: 'passed', validated_at: '2026-09-02T00:00:00',
 }
 
 const localSource = {
   ...officialSource, id: 3, code: 'e2e-local-fixture', name: 'MOCK / FIXTURE 公开来源',
   base_url: 'https://fixture.example.test/notices', ownership: 'CUSTOM_LOCAL_PUBLIC', source_type: 'public_html',
-  source_identity: 'c'.repeat(64), cloud_source_id: null, source_scope: 'personal', execution: 'local',
+  source_identity: 'c'.repeat(64), cloud_source_id: null, source_scope: 'personal', execution: 'local', execution_policy: 'local_only',
 }
 
 async function installCloudPromotionFixture(page: Page, options: { existing?: boolean; startCloud?: boolean } = {}) {
   let source = options.startCloud ? {
-    ...localSource, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud',
+    ...localSource, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud', execution_policy: 'cloud_only',
     cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled',
   } : { ...localSource }
   await page.route('**/api/source-config**', async route => {
@@ -58,11 +58,15 @@ async function installCloudPromotionFixture(page: Page, options: { existing?: bo
     if (request.method() === 'POST' && path.endsWith('/preview')) {
       await route.fulfill({ json: { status: 'success', detected_type: 'generic_html', found: 1, items: [{ title: 'MOCK / FIXTURE preview', url: 'https://fixture.example.test/1', publish_date: null, content_preview: 'fixture' }], preview_token: 'mock-fixture-preview' } }); return
     }
+    if (request.method() === 'POST' && path.endsWith('/cloud-sources')) {
+      source = { ...source, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud', execution_policy: 'cloud_only', cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled', promotion_reused: Boolean(options.existing) }
+      await route.fulfill({ status: 201, json: source }); return
+    }
     if (request.method() === 'PATCH' && path.endsWith('/3')) {
       await route.fulfill({ json: source }); return
     }
     if (request.method() === 'POST' && path.endsWith('/promote')) {
-      source = { ...source, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud', cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled', promotion_reused: Boolean(options.existing) }
+      source = { ...source, ownership: 'SHARED_CLOUD', source_scope: 'shared', execution: 'cloud', execution_policy: 'cloud_only', cloud_source_id: 'shared-e2e-fixture', cloud_policy: 'force_enabled', promotion_reused: Boolean(options.existing) }
       await route.fulfill({ json: source }); return
     }
     await route.fallback()
@@ -96,52 +100,120 @@ test('Startup sync completion refreshes cached dashboard data', async ({ page })
   await page.route('**/api/dashboard', async route => {
     dashboardCalls += 1
     await route.fulfill({ json: {
+      total_count: 7,
       new_today: dashboardCalls === 1 ? 1 : 9, urgent: 0, important: 0,
       upcoming_deadlines: 0, unread: 0, source_status: [], recent_notices: [],
     } })
   })
   await page.goto('/notices')
-  await expect(page.getByText('9 条新增')).toBeVisible({ timeout: 8_000 })
   await expect(page.getByText('检查完成')).toBeVisible()
-  expect(statusCalls).toBeGreaterThanOrEqual(2)
-  expect(dashboardCalls).toBeGreaterThanOrEqual(2)
+  await expect.poll(() => statusCalls).toBeGreaterThanOrEqual(2)
+  await expect.poll(() => dashboardCalls).toBeGreaterThanOrEqual(2)
 })
 
-test('OA first-login entry starts the backend-owned browser flow', async ({ page }) => {
+test('OA 校内通知 is an official public subscription with no login UI', async ({ page }) => {
   const oa = {
-    ...localSource, id: 2, code: 'oa', name: '吉林大学 OA', base_url: 'https://oa.jlu.edu.cn',
-    ownership: 'CUSTOM_LOCAL_PRIVATE', source_type: 'private_browser', parser: 'oa',
-    auth_type: 'browser_session', enabled: false, health_state: 'unconfigured',
-    last_error_code: 'OA_LOGIN_NOT_CONFIGURED', requires_reauthentication: false,
-    authentication_status: 'not_configured', login_url: 'https://oa.jlu.edu.cn/defaultroot/login.jsp',
-    source_scope: 'private', execution: 'local', validation_status: 'untested', validated_at: null,
+    ...officialSource, id: 6, code: 'oa', name: '吉林大学 OA 校内通知', base_url: 'https://oa.jlu.edu.cn',
+    ownership: 'OFFICIAL_CLOUD', source_type: 'official', parser: 'oa_public', auth_type: 'none',
+    enabled: true, health_state: 'healthy', last_error_code: null, requires_reauthentication: false,
+    authentication_status: 'not_required', login_url: null, source_scope: 'official', execution: 'cloud', execution_policy: 'cloud_preferred',
+    cloud_source_id: 'oa', cloud_policy: 'force_enabled', validation_status: 'passed',
   }
   await page.route('**/api/source-config**', async route => {
     const request = route.request()
-    if (request.method() === 'GET') {
+    const path = new URL(request.url()).pathname
+    if (request.method() === 'GET' && path.endsWith('/api/source-config')) {
       await route.fulfill({ json: [officialSource, oa] })
-      return
-    }
-    if (request.method() === 'POST' && new URL(request.url()).pathname.endsWith('/2/reauthenticate')) {
-      await route.fulfill({ status: 202, json: {
-        status: 'login_window_opened', login_url: oa.login_url,
-        message: 'Complete the login in the owned browser window.',
-      } })
       return
     }
     await route.fallback()
   })
-  let popupOpened = false
-  page.on('popup', () => { popupOpened = true })
   await page.goto('/sources')
-  await expect(page.getByText('认证：未配置')).toBeVisible()
-  await page.getByRole('button', { name: '首次登录' }).click()
-  await expect(page.getByText('已打开 OA 登录窗口，请在本机完成验证')).toBeVisible()
-  expect(popupOpened).toBeFalsy()
+  const oaRow = page.getByRole('heading', { name: '吉林大学 OA 校内通知' }).locator('xpath=ancestor::article')
+  await expect(oaRow).toBeVisible()
+  await expect(page.getByRole('button', { name: /首次登录|重新登录|检测登录状态/ })).toHaveCount(0)
+  await expect(oaRow.getByText(/认证：|Cookie/)).toHaveCount(0)
   await page.setViewportSize({ width: 390, height: 844 })
-  await expect(page.getByText('吉林大学 OA')).toBeVisible()
+  await expect(page.getByRole('heading', { name: '吉林大学 OA 校内通知' })).toBeVisible()
   const bodyWidth = await page.locator('body').evaluate(element => element.scrollWidth)
   expect(bodyWidth).toBeLessThanOrEqual(390)
+})
+
+test('Sources page shows an active local fallback for a cloud-preferred source', async ({ page }) => {
+  const fallbackSource = {
+    ...officialSource,
+    id: 6,
+    code: 'oa',
+    name: '吉林大学 OA 校内通知',
+    base_url: 'https://oa.jlu.edu.cn',
+    parser: 'oa_public',
+    cloud_source_id: 'oa',
+  }
+  await page.route('**/api/source-config**', async route => {
+    const request = route.request()
+    if (request.method() === 'GET' && new URL(request.url()).pathname.endsWith('/api/source-config')) {
+      await route.fulfill({ json: [officialSource, fallbackSource] })
+      return
+    }
+    await route.fallback()
+  })
+  await page.route('**/api/crawler/status', route => route.fulfill({ json: {
+    running: false, status: 'success', current_started_at: null,
+    last_run: '2026-09-12T08:00:00', last_duration: 2,
+    new_count: 0, updated_count: 0, unchanged_count: 1,
+    source_results: [{
+      source: 'oa', status: 'success', execution_policy: 'cloud_preferred',
+      effective_execution: 'local', fallback_used: true,
+      fallback_reason: 'PUBLIC_FEED_TIMEOUT', fetched: 1,
+      new_count: 0, updated_count: 0, unchanged_count: 1, errors: [],
+      attempts: [
+        { execution: 'cloud', status: 'failure', error: 'PUBLIC_FEED_TIMEOUT' },
+        { execution: 'local', status: 'success', error: null },
+      ],
+    }],
+  } }))
+
+  await page.goto('/sources')
+  const row = page.getByRole('heading', { name: '吉林大学 OA 校内通知' }).locator('xpath=ancestor::article')
+  await expect(row.getByText('云端优先')).toBeVisible()
+  await expect(row.getByText('本地回退生效')).toBeVisible()
+  await page.setViewportSize({ width: 390, height: 844 })
+  await expect(row.getByText('本地回退生效')).toBeVisible()
+  expect(await page.locator('body').evaluate(element => element.scrollWidth)).toBeLessThanOrEqual(390)
+})
+
+test('Cloud HTML auto-detect failure can be recovered with advanced selectors', async ({ page }) => {
+  let previewCalls = 0
+  let previewBody: Record<string, unknown> | null = null
+  await page.route('**/api/source-config**', async route => {
+    const request = route.request()
+    const path = new URL(request.url()).pathname
+    if (request.method() === 'GET' && path.endsWith('/api/source-config')) {
+      await route.fulfill({ json: [officialSource] }); return
+    }
+    if (request.method() === 'POST' && path.endsWith('/preview')) {
+      previewCalls += 1
+      previewBody = request.postDataJSON()
+      if (previewCalls === 1) {
+        await route.fulfill({ status: 422, json: { detail: 'Source preview failed: This page is unsupported or needs advanced selector configuration' } }); return
+      }
+      await route.fulfill({ json: { status: 'success', detected_type: 'generic_html', found: 1, items: [{ title: 'Selector 通知', url: 'https://dynamic.example.test/1', publish_date: null, content_preview: '' }], preview_token: 'selector-preview' } }); return
+    }
+    await route.fallback()
+  })
+  await page.goto('/sources')
+  await page.getByRole('button', { name: '添加云端共享来源' }).click()
+  await page.getByLabel('名称').fill('动态页面通知')
+  await page.getByLabel('URL').fill('https://dynamic.example.test/notices')
+  await page.getByRole('button', { name: 'Test Fetch / Preview' }).click()
+  await expect(page.getByLabel('列表元素 Selector')).toBeVisible()
+  await page.getByLabel('列表元素 Selector').fill('.notice-item')
+  await page.getByLabel('标题 Selector').fill('.title')
+  await page.getByLabel('URL Selector').fill('a[href]')
+  await page.getByLabel('时间 Selector').fill('.time')
+  await page.getByRole('button', { name: 'Test Fetch / Preview' }).click()
+  await expect(page.getByText('Preview Result · 找到 1 条通知')).toBeVisible()
+  expect(previewBody).toMatchObject({ parser: 'generic_html', parser_config: { type: 'html_selector', item_selector: '.notice-item', title_selector: '.title', url_selector: 'a[href]', time_selector: '.time' } })
 })
 
 test('Dashboard → Notice Detail', async ({ page }) => {
@@ -230,6 +302,43 @@ test('Auto-read removes an unread notice from the unread view', async ({ page })
   await page.goto('/notices?read=0')
   await expect(page.getByText('E2E 未读奖学金申请通知')).toHaveCount(0)
   await expect(page.getByRole('link', { name: /E2E 蓝桥杯竞赛通知/ })).toBeVisible()
+})
+
+test('Mark unread applies once and remains unread after cache reconciliation', async ({ page, request }) => {
+  await page.goto('/notices/102')
+  const toolbar = page.getByRole('toolbar', { name: '通知操作' })
+  const response = page.waitForResponse(item => item.url().endsWith('/api/notices/102/unread') && item.request().method() === 'POST')
+  await toolbar.getByRole('button', { name: '标记为未读' }).click()
+  await response
+  await expect(toolbar.getByRole('button', { name: '标记为已读' })).toBeVisible()
+  const detailResponse = await request.get(`${backendUrl}/api/notices/102`)
+  expect((await detailResponse.json()).is_read).toBeFalsy()
+})
+
+test('Unread filtering keeps the independent all-notice count', async ({ page, request }) => {
+  const dashboard = await (await request.get(`${backendUrl}/api/dashboard`)).json()
+  await page.goto('/notices')
+  const sidebar = page.getByRole('navigation', { name: '主导航' })
+  await expect(sidebar.getByRole('link', { name: '全部通知' })).toContainText(String(dashboard.total_count))
+  await page.getByRole('tab', { name: '未读' }).click()
+  await expect(page).toHaveURL(/read=0/)
+  await expect(sidebar.getByRole('link', { name: '全部通知' })).toContainText(String(dashboard.total_count))
+})
+
+test('Cloud Shared Source can be previewed, authenticated, created and viewed at desktop/mobile sizes', async ({ page }) => {
+  await installCloudPromotionFixture(page)
+  await page.goto('/sources')
+  await page.getByRole('button', { name: '添加云端共享来源' }).click()
+  await page.getByLabel('名称').fill('MOCK / FIXTURE 云端共享')
+  await page.getByLabel('URL').fill('https://fixture.example.test/notices')
+  await page.getByRole('button', { name: 'Test Fetch / Preview' }).click()
+  await expect(page.getByText('Preview Result · 找到 1 条通知')).toBeVisible()
+  await page.getByLabel('管理员密钥').fill('MOCK-FIXTURE-ADMIN')
+  await page.getByRole('button', { name: '创建 Cloud Registry 记录' }).click()
+  await expect(page.getByText('云端共享', { exact: true })).toBeVisible()
+  await page.setViewportSize({ width: 390, height: 844 })
+  await expect(page.getByRole('heading', { name: '云端共享来源' })).toBeVisible()
+  expect(await page.locator('body').evaluate(element => element.scrollWidth)).toBeLessThanOrEqual(390)
 })
 
 test('Settings persist after reload', async ({ page }) => {
@@ -342,12 +451,26 @@ test('daily summary contains local aggregate counts', async ({ request }) => {
   expect(summary.body).toMatch(/新增 \d+ · 重要 \d+ · 即将截止 \d+ · 未读 \d+/)
 })
 
-test('desktop reminder preference persists after page reload', async ({ page }) => {
+test('desktop reminder preference persists and denied permission shows actionable guidance', async ({ page }) => {
   await page.goto('/settings')
   const master = page.getByRole('switch', { name: '桌面提醒' })
   await expect(master).toHaveAttribute('aria-checked', 'true')
   await master.click()
   await expect(master).toHaveAttribute('aria-checked', 'false')
   await page.reload()
+  await expect(page.getByRole('switch', { name: '桌面提醒' })).toHaveAttribute('aria-checked', 'false')
+
+  await page.getByRole('switch', { name: '桌面提醒' }).click()
+  const dialog = page.getByRole('dialog', { name: '开启桌面提醒' })
+  await expect(dialog).toContainText('Windows 设置 → 系统 → 通知')
+  await dialog.getByRole('button', { name: '取消' }).click()
+  await expect(page.getByRole('switch', { name: '桌面提醒' })).toHaveAttribute('aria-checked', 'false')
+
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.getByRole('switch', { name: '桌面提醒' }).click()
+  await expect(dialog.getByRole('button', { name: '打开 Windows 通知设置' })).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true)
+  await dialog.getByRole('button', { name: '打开 Windows 通知设置' }).click()
+  await expect(dialog).toBeHidden()
   await expect(page.getByRole('switch', { name: '桌面提醒' })).toHaveAttribute('aria-checked', 'false')
 })

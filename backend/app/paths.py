@@ -39,12 +39,6 @@ def get_log_dir(environment: str | None = None, override: str | Path | None = No
     return get_app_data_dir(environment, override) / "logs"
 
 
-def get_oa_profile_dir(environment: str | None = None, override: str | Path | None = None) -> Path:
-    if get_environment(environment) == "production" or _override_dir(override) is not None:
-        return get_app_data_dir(environment, override) / "oa-profile"
-    return get_app_data_dir(environment, override) / "data" / "browser_profile" / "oa"
-
-
 def get_cache_dir(environment: str | None = None, override: str | Path | None = None) -> Path:
     return get_app_data_dir(environment, override) / "cache"
 
@@ -70,7 +64,6 @@ def ensure_runtime_directories(environment: str | None = None, override: str | P
     for path in (
         get_database_path(environment, override).parent,
         get_log_dir(environment, override),
-        get_oa_profile_dir(environment, override),
         get_cache_dir(environment, override),
         get_runtime_config_dir(environment, override),
         get_credentials_dir(environment, override),

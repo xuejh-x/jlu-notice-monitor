@@ -1,0 +1,72 @@
+{
+  "body": {
+    "clientHeight": 923,
+    "clientWidth": 1707,
+    "overflowY": "hidden",
+    "scrollHeight": 923,
+    "scrollWidth": 1707
+  },
+  "document": {
+    "clientHeight": 923,
+    "clientWidth": 1707,
+    "overflowY": "hidden",
+    "scrollHeight": 923,
+    "scrollWidth": 1707
+  },
+  "listPane": {
+    "clientHeight": 867,
+    "clientWidth": 574,
+    "overflowY": "hidden",
+    "scrollHeight": 867,
+    "scrollWidth": 574
+  },
+  "reader": {
+    "clientHeight": 867,
+    "clientWidth": 835,
+    "overflowY": "auto",
+    "scrollHeight": 919,
+    "scrollWidth": 835
+  },
+  "root": {
+    "clientHeight": 923,
+    "clientWidth": 1707,
+    "overflowY": "hidden",
+    "scrollHeight": 923,
+    "scrollWidth": 1707
+  },
+  "scrollers": [
+    {
+      "className": "flex min-h-0 flex-1 flex-col overflow-y-auto",
+      "clientHeight": 711,
+      "label": null,
+      "scrollHeight": 1720,
+      "tag": "DIV"
+    },
+    {
+      "className": "min-h-0 min-w-0 overflow-y-auto bg-detail-surface pb-mobile-nav-height md:pb-0 xl:border-l xl:border-border block",
+      "clientHeight": 867,
+      "label": "通知详情工作区",
+      "scrollHeight": 919,
+      "tag": "ASIDE"
+    }
+  ],
+  "shell": {
+    "clientHeight": 923,
+    "clientWidth": 1707,
+    "overflowY": "hidden",
+    "scrollHeight": 923,
+    "scrollWidth": 1707
+  },
+  "sidebar": {
+    "clientHeight": 923,
+    "clientWidth": 282,
+    "overflowY": "visible",
+    "scrollHeight": 923,
+    "scrollWidth": 282
+  },
+  "viewport": {
+    "dpr": 1.0000000298023224,
+    "height": 923,
+    "width": 1707
+  }
+}

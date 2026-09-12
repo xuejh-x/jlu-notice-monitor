@@ -3,6 +3,7 @@ sources:
     name: 吉林大学网络安全学院
     base_url: https://cse.jlu.edu.cn
     enabled: true
+    execution_policy: cloud_preferred
     parser: cse
     sections:
       - name: 学院通知
@@ -14,6 +15,7 @@ sources:
     name: 吉林大学计算机科学与技术学院
     base_url: https://ccst.jlu.edu.cn
     enabled: true
+    execution_policy: cloud_preferred
     parser: ccst
     sections:
       - name: 教学通知
@@ -23,6 +25,7 @@ sources:
     name: 吉林大学软件学院
     base_url: https://csw.jlu.edu.cn
     enabled: true
+    execution_policy: cloud_preferred
     parser: csw
     sections:
       - name: 学院通知
@@ -34,6 +37,7 @@ sources:
     name: 吉林大学本科生院
     base_url: https://jwc.jlu.edu.cn
     enabled: true
+    execution_policy: cloud_preferred
     parser: jwc
     sections:
       - name: 通知公告
@@ -43,22 +47,26 @@ sources:
     name: 吉林大学创新创业教育学院
     base_url: https://cxcyjyxy.jlu.edu.cn
     enabled: true
+    execution_policy: cloud_preferred
     parser: innovation
     sections:
       - name: 通知公告
         url: https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm
 
   - code: oa
-    name: 吉林大学 OA
+    name: 吉林大学 OA 校内通知
     base_url: https://oa.jlu.edu.cn
-    login_url: https://oa.jlu.edu.cn/defaultroot/login.jsp
-    enabled: false
-    parser: oa
-    requires_login: true
+    enabled: true
+    parser: oa_public
+    ownership: OFFICIAL_CLOUD
+    source_type: official
+    auth_required: false
+    auth_type: none
+    source_scope: official
+    execution: cloud
+    execution_policy: cloud_preferred
+    cloud_policy: force_enabled
     dedup_across_sources: true
-    # The authenticated list/detail DOM must be captured and verified by the
-    # account owner before these selectors are configured. Do not guess them.
-    parser_config: {}
     sections:
       - name: 校内通知
-        url: https://oa.jlu.edu.cn
+        url: https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577

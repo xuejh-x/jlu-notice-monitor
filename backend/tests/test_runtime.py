@@ -26,7 +26,6 @@ from app.paths import (
     get_cache_dir,
     get_database_path,
     get_log_dir,
-    get_oa_profile_dir,
     get_runtime_config_dir,
 )
 
@@ -42,7 +41,6 @@ def test_runtime_directory_override_stays_in_temp_dir(tmp_path: Path) -> None:
     ensure_runtime_directories("production", runtime)
     assert get_database_path("production", runtime) == runtime / "data" / "notices.db"
     assert get_log_dir("production", runtime).is_dir()
-    assert get_oa_profile_dir("production", runtime).is_dir()
     assert get_cache_dir("production", runtime).is_dir()
     assert get_runtime_config_dir("production", runtime).is_dir()
     settings = Settings(

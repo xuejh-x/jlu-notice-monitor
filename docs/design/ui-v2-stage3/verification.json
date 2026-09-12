@@ -1,0 +1,124 @@
+{
+  "results": [
+    {
+      "name": "desktop-dark",
+      "readerWidth": 584,
+      "bodyWidth": 519,
+      "leftInset": 33,
+      "rightInset": 32,
+      "toolbarHeight": 44,
+      "titleSize": "24px",
+      "titleLineHeight": "34px",
+      "bodyLineHeight": "28px",
+      "attachments": [
+        46,
+        46,
+        46
+      ],
+      "overflow": false,
+      "longMetrics": {
+        "overflow": false,
+        "scrollHeight": 6097,
+        "clientHeight": 844
+      },
+      "toolbarAfterScroll": {
+        "x": 857,
+        "y": 56,
+        "width": 583,
+        "height": 44
+      }
+    },
+    {
+      "name": "desktop-light",
+      "readerWidth": 584,
+      "bodyWidth": 519,
+      "leftInset": 33,
+      "rightInset": 32,
+      "toolbarHeight": 44,
+      "titleSize": "24px",
+      "titleLineHeight": "34px",
+      "bodyLineHeight": "28px",
+      "attachments": [
+        46,
+        46,
+        46
+      ],
+      "overflow": false,
+      "longMetrics": {
+        "overflow": false,
+        "scrollHeight": 6097,
+        "clientHeight": 844
+      },
+      "toolbarAfterScroll": {
+        "x": 857,
+        "y": 56,
+        "width": 583,
+        "height": 44
+      }
+    },
+    {
+      "name": "tablet",
+      "readerWidth": 696,
+      "bodyWidth": 520,
+      "leftInset": 88,
+      "rightInset": 88,
+      "toolbarHeight": 44,
+      "titleSize": "24px",
+      "titleLineHeight": "34px",
+      "bodyLineHeight": "28px",
+      "attachments": [
+        46,
+        46,
+        46
+      ],
+      "overflow": false,
+      "longMetrics": {
+        "overflow": false,
+        "scrollHeight": 6141,
+        "clientHeight": 844
+      },
+      "toolbarAfterScroll": {
+        "x": 72,
+        "y": 56,
+        "width": 696,
+        "height": 44
+      }
+    },
+    {
+      "name": "mobile",
+      "readerWidth": 390,
+      "bodyWidth": 354,
+      "leftInset": 18,
+      "rightInset": 18,
+      "toolbarHeight": 44,
+      "titleSize": "24px",
+      "titleLineHeight": "34px",
+      "bodyLineHeight": "28px",
+      "attachments": [
+        46,
+        46,
+        46
+      ],
+      "overflow": false,
+      "longMetrics": {
+        "overflow": false,
+        "scrollHeight": 6479,
+        "clientHeight": 6479
+      },
+      "toolbarAfterScroll": {
+        "x": 0,
+        "y": 44,
+        "width": 390,
+        "height": 44
+      }
+    }
+  ],
+  "errors": [],
+  "interactions": [
+    "auto-read once",
+    "favorite/unfavorite synchronized",
+    "mark unread/read synchronized",
+    "tablet/mobile return retains search",
+    "long content reaches original link with toolbar visible"
+  ]
+}

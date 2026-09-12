@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import UTC, datetime, timedelta
 from typing import Any
 from urllib.parse import urljoin
 
@@ -11,9 +11,16 @@ from app.config import get_settings
 from app.database import SessionLocal
 from app.models import AppState
 from app.schemas.notice import AttachmentData, NoticeCandidate
+from app.services.notice_identity import origin_item_key
 from app.sources.base import NoticeSource, SourceError
 
 PUBLIC_FEED_NOT_CONFIGURED = "PUBLIC_FEED_NOT_CONFIGURED"
+PUBLIC_FEED_UNAVAILABLE = "PUBLIC_FEED_UNAVAILABLE"
+PUBLIC_FEED_NETWORK_ERROR = "PUBLIC_FEED_NETWORK_ERROR"
+PUBLIC_FEED_TIMEOUT = "PUBLIC_FEED_TIMEOUT"
+PUBLIC_FEED_HTTP_ERROR = "PUBLIC_FEED_HTTP_ERROR"
+PUBLIC_FEED_INVALID_RESPONSE = "PUBLIC_FEED_INVALID_RESPONSE"
+PUBLIC_FEED_EXPIRED = "PUBLIC_FEED_EXPIRED"
 
 
 def is_public_feed_not_configured(last_error_code: str | None, last_error: str | None) -> bool:
@@ -62,14 +69,24 @@ class CloudFeedSource(NoticeSource):
                 response = await self.client.get(urljoin(self.feed_url, "notices"), params=params)
                 response.raise_for_status()
                 payload = response.json()
-            except (httpx.HTTPError, ValueError, TypeError) as exc:
-                raise SourceError(f"PUBLIC_FEED_UNAVAILABLE: {type(exc).__name__}") from exc
+            except httpx.TimeoutException as exc:
+                raise SourceError(f"{PUBLIC_FEED_UNAVAILABLE}:{PUBLIC_FEED_TIMEOUT}") from exc
+            except httpx.HTTPStatusError as exc:
+                raise SourceError(
+                    f"{PUBLIC_FEED_UNAVAILABLE}:{PUBLIC_FEED_HTTP_ERROR}:{exc.response.status_code}"
+                ) from exc
+            except httpx.RequestError as exc:
+                raise SourceError(f"{PUBLIC_FEED_UNAVAILABLE}:{PUBLIC_FEED_NETWORK_ERROR}") from exc
+            except (ValueError, TypeError) as exc:
+                raise SourceError(PUBLIC_FEED_INVALID_RESPONSE) from exc
             if payload.get("version") != "1" or not isinstance(payload.get("items"), list):
-                raise SourceError("PUBLIC_FEED_INVALID_RESPONSE")
+                raise SourceError(PUBLIC_FEED_INVALID_RESPONSE)
+            self._validate_freshness(payload)
             for item in payload["items"]:
                 results.append(
                     NoticeCandidate(
                         public_id=item["public_id"],
+                        origin_item_key=item.get("origin_item_key") or origin_item_key(None, item["url"]),
                         title=item["title"],
                         url=item["url"],
                         publish_date=item.get("publish_date"),
@@ -98,6 +115,27 @@ class CloudFeedSource(NoticeSource):
             datetime.fromisoformat(updated_after.replace("Z", "+00:00"))
             self._save_cursor(updated_after, after_id)
         return results
+
+    @staticmethod
+    def _validate_freshness(payload: dict[str, Any]) -> None:
+        # Older v1 feeds did not expose freshness metadata. They remain compatible;
+        # upgraded feeds make an explicit missing/stale timestamp fallback-eligible.
+        if "source_last_success_at" not in payload:
+            return
+        raw = payload.get("source_last_success_at")
+        if not raw:
+            raise SourceError(PUBLIC_FEED_EXPIRED)
+        try:
+            last_success = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+        except ValueError as exc:
+            raise SourceError(PUBLIC_FEED_INVALID_RESPONSE) from exc
+        if last_success.tzinfo is None:
+            last_success = last_success.replace(tzinfo=UTC)
+        else:
+            last_success = last_success.astimezone(UTC)
+        stale_after = timedelta(seconds=get_settings().cloud_feed_stale_after_seconds)
+        if datetime.now(UTC) - last_success > stale_after:
+            raise SourceError(PUBLIC_FEED_EXPIRED)
 
     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
         return notice

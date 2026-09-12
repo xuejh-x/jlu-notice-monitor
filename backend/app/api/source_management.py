@@ -20,10 +20,9 @@ from app.crawler import crawler_manager
 from app.crawler.runner import CrawlerAlreadyRunning
 from app.database import get_db
 from app.models import Source
-from app.paths import get_auth_profile_dir, get_oa_profile_dir
+from app.paths import get_auth_profile_dir
 from app.services.credentials import CredentialStorageUnavailable, credential_store
-from app.services.oa_login import oa_login_coordinator
-from app.services.source_identity import source_identity
+from app.services.source_identity import default_execution_policy, source_identity
 from app.services.source_security import UnsafeSourceUrl, validate_local_source_url, validate_url_syntax
 from app.sources.base import SourceError
 from app.sources.cloud import PUBLIC_FEED_NOT_CONFIGURED, is_public_feed_not_configured
@@ -188,6 +187,7 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         "subscribed": source.subscribed,
         "enabled": source.enabled,
         "auth_type": source.auth_type,
+        "auth_required": source.auth_type != "none",
         "username": source.auth_username,
         "password_saved": bool(source.credential_ref),
         "login_url": source.login_url,
@@ -203,6 +203,7 @@ def _serialize_source(source: Source) -> dict[str, Any]:
         "cloud_source_id": source.cloud_source_id,
         "source_scope": source.source_scope,
         "execution": source.execution,
+        "execution_policy": source.execution_policy,
         "cloud_policy": source.cloud_policy,
         "crawl_interval_seconds": source.crawl_interval_seconds,
         "validation_status": source.validation_status,
@@ -319,6 +320,7 @@ def create_source(payload: SourceCreate, db: Session = Depends(get_db)) -> dict[
         source_identity=source_identity(draft.list_url),
         source_scope="private" if is_private else "personal",
         execution="local",
+        execution_policy="local_only",
         validation_status="passed",
         validated_at=datetime.now(UTC).replace(tzinfo=None),
     )
@@ -452,23 +454,6 @@ async def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[
     source = db.get(Source, source_id)
     if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
         raise HTTPException(status_code=404, detail="Private source not found")
-    if source.code == "oa" or source.parser == "oa":
-        configs = crawler_manager._load_source_configs(db)
-        config = next(item for item in configs if item["code"] == source.code)
-        try:
-            started = await oa_login_coordinator.start(source.id, config)
-        except SourceError as exc:
-            raise HTTPException(status_code=503, detail=str(exc)) from exc
-        source.health_state = "needs_reauth"
-        source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
-        db.commit()
-        return {
-            "status": "chrome_login_opened" if started else "login_in_progress",
-            "source_id": source.id,
-            "auth_type": source.auth_type,
-            "login_url": source.login_url or source.base_url,
-            "message": "已使用系统 Chrome 打开 OA，请完成 SSO、验证码或 MFA 后返回检测登录状态。",
-        }
     source.health_state = "needs_reauth"
     source.reauth_notified_at = datetime.now(UTC).replace(tzinfo=None)
     db.commit()
@@ -479,50 +464,6 @@ async def reauthenticate(source_id: int, db: Session = Depends(get_db)) -> dict[
         "login_url": source.login_url or source.base_url,
         "message": "Complete CAPTCHA, MFA, QR, or SSO manually. Notice Hub will not bypass it.",
     }
-
-
-@router.get("/{source_id}/authentication-environment")
-def authentication_environment(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
-    source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
-        raise HTTPException(status_code=404, detail="Private source not found")
-    if source.code != "oa" and source.parser != "oa":
-        return {
-            "chrome_available": False,
-            "desktop_runtime_available": True,
-            "adapter_available": False,
-            "browser_name": None,
-            "error_code": "OA_ADAPTER_NOT_APPLICABLE",
-            "message": "此来源不使用 OA Chrome 登录组件。",
-            "session_active": False,
-        }
-    return oa_login_coordinator.environment()
-
-
-@router.post("/{source_id}/authentication-status")
-async def detect_authentication_status(source_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
-    source = db.get(Source, source_id)
-    if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PRIVATE":
-        raise HTTPException(status_code=404, detail="Private source not found")
-    if source.code != "oa" and source.parser != "oa":
-        raise HTTPException(status_code=422, detail="This source does not use the OA Chrome adapter")
-    configs = crawler_manager._load_source_configs(db)
-    config = next(item for item in configs if item["code"] == source.code)
-    try:
-        result = await oa_login_coordinator.detect(source.id, config)
-    except SourceError as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-    if result["status"] == "authenticated":
-        source.credential_ref = str(result.pop("credential_reference"))
-        source.auth_type = "browser_session"
-        source.health_state = "authenticated"
-        source.last_error_code = None
-        source.last_error = None
-        source.enabled = True
-        source.validation_status = "passed"
-        source.validated_at = datetime.now(UTC).replace(tzinfo=None)
-        db.commit()
-    return result
 
 
 def _cloud_admin_endpoint(path: str) -> str:
@@ -648,6 +589,9 @@ async def create_cloud_source(
     source.cloud_source_id = cloud_source_id
     source.source_scope = source_scope
     source.execution = "cloud"
+    source.execution_policy = str(
+        response.get("execution_policy") or default_execution_policy(source.ownership)
+    )
     source.cloud_policy = str(response.get("cloud_policy") or "force_enabled")
     source.crawl_interval_seconds = response.get("crawl_interval_seconds")
     source.validation_status = "passed"
@@ -698,6 +642,7 @@ async def promote_source(
     source.ownership = "SHARED_CLOUD"
     source.source_scope = "shared"
     source.execution = "cloud"
+    source.execution_policy = "cloud_only"
     source.cloud_policy = "force_enabled"
     source.crawl_interval_seconds = response.get("crawl_interval_seconds")
     source.subscribed = True
@@ -753,10 +698,8 @@ def delete_source(source_id: int, payload: DeleteRequest, db: Session = Depends(
             credential_store.delete(source.credential_ref)
             source.credential_ref = None
         settings = get_settings()
-        profile = (
-            get_oa_profile_dir(settings.environment, settings.app_data_dir)
-            if source.code == "oa" or source.parser == "oa"
-            else get_auth_profile_dir(source.code, settings.environment, settings.app_data_dir)
+        profile = get_auth_profile_dir(
+            source.code, settings.environment, settings.app_data_dir
         ).resolve()
         parent = profile.parent.resolve()
         if profile.parent == parent and profile != parent and parent in profile.parents and profile.exists():

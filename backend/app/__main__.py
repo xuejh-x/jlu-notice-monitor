@@ -14,7 +14,6 @@ from app.crawler import crawler_manager
 from app.database import init_db
 from app.logging_config import configure_logging
 from app.sources import build_source
-from app.sources.oa import OASource
 
 
 def _json_default(value: Any) -> str:
@@ -53,17 +52,6 @@ async def _test_source(code: str) -> None:
         await adapter.close()
 
 
-async def _oa_login() -> None:
-    config = next(
-        item for item in load_yaml("sources.yaml").get("sources", []) if item.get("code") == "oa"
-    )
-    source = OASource(config)
-    try:
-        await source.login_setup()
-    finally:
-        await source.close()
-
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="python -m app")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -83,7 +71,6 @@ def build_parser() -> argparse.ArgumentParser:
     crawl.add_argument("--source")
     test = subparsers.add_parser("test-source", help="fetch and parse one source without writing DB")
     test.add_argument("source")
-    subparsers.add_parser("oa-login", help="open system Chrome for a user-driven OA login")
     return parser
 
 
@@ -141,8 +128,6 @@ def main() -> None:
         asyncio.run(_crawl(args.source))
     elif args.command == "test-source":
         asyncio.run(_test_source(args.source))
-    elif args.command == "oa-login":
-        asyncio.run(_oa_login())
 
 
 if __name__ == "__main__":

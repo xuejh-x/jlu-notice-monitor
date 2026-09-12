@@ -3,9 +3,8 @@
 
 /* ============================================================
    Design tokens — runtime values (semantic, theme-switchable)
-   Contract source: docs/design/design.md §5
-   Values are the finalized palette steps after contrast
-   validation (Gate 3B). Comments note adjusted steps.
+   UI v2 source: docs/design/figma-delivery/design-data.json
+   Stage boundaries: docs/design/design.md
    ============================================================ */
 
 :root {
@@ -16,6 +15,7 @@
   --surface: #ffffff;                    /* white     */
   --surface-raised: #ffffff;             /* white     */
   --surface-muted: #f4f4f5;              /* zinc-100  */
+  --surface-hover: #f0f2f6;
   --app-canvas: #eef0f4;
   --app-frame: #ffffff;
   --sidebar-surface: #f7f8fa;
@@ -30,7 +30,7 @@
   /* Text */
   --text-primary: #18181b;               /* zinc-900  */
   --text-secondary: #52525b;             /* zinc-600  */
-  --text-muted: #71717a;                 /* zinc-500 (was zinc-400: 4.5:1 on white) */
+  --text-muted: #626976;
   --text-inverse: #ffffff;               /* white (6.3:1 on accent) */
 
   /* Border */
@@ -63,9 +63,9 @@
   --deadline-danger-bg: #f7e7ea;
   --deadline-danger-fg: #9d4853;
   --deadline-warning-bg: #f7eedf;
-  --deadline-warning-fg: #956d33;
+  --deadline-warning-fg: #7c5727;
   --deadline-neutral-bg: #edf1f5;
-  --deadline-neutral-fg: #657387;
+  --deadline-neutral-fg: #536176;
 }
 
 .dark {
@@ -75,23 +75,24 @@
   --surface: #0f141d;                    /* graphite with a restrained blue cast */
   --surface-raised: #151b25;             /* elevated reader surface */
   --surface-muted: rgb(30 39 52 / 0.62); /* quiet hover / inset surface */
+  --surface-hover: #19283c;
   --app-canvas: #070b11;
   --app-frame: #0a0f17;
   --sidebar-surface: #0c121b;
   --header-surface: #0e151f;
-  --list-surface: #0f1721;
-  --detail-surface: #0d141d;
-  --selected-surface: #151c2d;
-  --attachment-surface: #101a25;
+  --list-surface: #111d2c;
+  --detail-surface: #0f1824;
+  --selected-surface: #1b2745;
+  --attachment-surface: #152231;
   --progress-surface: #121c28;
   --cta-surface: #4e50b6;
 
   --text-primary: #f4f4f5;               /* zinc-100 */
   --text-secondary: #c7ced9;
-  --text-muted: #8f99a8;
+  --text-muted: #9ba7b8;
   --text-inverse: #ffffff;
 
-  --border: #202938;
+  --border: #2a374a;
   --border-strong: #354052;
   --overlay: rgb(9 9 11 / 0.55);         /* stable transient overlay */
 
@@ -105,7 +106,7 @@
   --danger: #f43f5e;                     /* rose-500    */
   --important: #fcd34d;                  /* amber-300   */
   --unread: #6366f1;                     /* indigo-500  */
-  --focus: #6366f1;                      /* indigo-500  */
+  --focus: #aab5f9;
 
   --source-blue-bg: #19365f;
   --source-blue-fg: #a4c0f4;
@@ -115,12 +116,12 @@
   --source-green-fg: #91ccae;
   --source-violet-bg: #2b2b5c;
   --source-violet-fg: #b1aef2;
-  --deadline-danger-bg: #2b181d;
-  --deadline-danger-fg: #d28d94;
-  --deadline-warning-bg: #302416;
-  --deadline-warning-fg: #c49a5e;
+  --deadline-danger-bg: #3a2029;
+  --deadline-danger-fg: #e4a0ac;
+  --deadline-warning-bg: #3b2d1b;
+  --deadline-warning-fg: #e4be86;
   --deadline-neutral-bg: #18222d;
-  --deadline-neutral-fg: #8996a8;
+  --deadline-neutral-fg: #a0adbd;
 }
 
 /* Map semantic tokens into the Tailwind v4 color namespace:
@@ -130,6 +131,7 @@
   --color-surface: var(--surface);
   --color-surface-raised: var(--surface-raised);
   --color-surface-muted: var(--surface-muted);
+  --color-surface-hover: var(--surface-hover);
   --color-app-canvas: var(--app-canvas);
   --color-app-frame: var(--app-frame);
   --color-sidebar-surface: var(--sidebar-surface);
@@ -175,28 +177,30 @@
 
 /* Static tokens — typography, radius, layout, motion */
 @theme {
-  --font-sans: "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --font-sans: "Noto Sans SC", "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
 
   --text-page-title: 1.5rem;
-  --text-page-title--line-height: 2rem;
-  --text-page-title--font-weight: 700;
-  --text-page-title--letter-spacing: -0.025em;
+  --text-page-title--line-height: 2.125rem;
+  --text-page-title--font-weight: 500;
+  --text-page-title--letter-spacing: 0;
   --text-section-heading: 1rem;
   --text-section-heading--line-height: 1.5rem;
-  --text-section-heading--font-weight: 600;
+  --text-section-heading--font-weight: 500;
   --text-notice-title: 0.9375rem;
-  --text-notice-title--line-height: 1.5rem;
+  --text-notice-title--line-height: 1.375rem;
+  --text-notice-title--font-weight: 500;
   --text-body: 0.875rem;
-  --text-body--line-height: 1.25rem;
+  --text-body--line-height: 1.375rem;
   --text-detail-body: 0.9375rem;
   --text-detail-body--line-height: 1.75rem;
-  --text-metadata: 0.71875rem;
-  --text-metadata--line-height: 1rem;
+  --text-metadata: 0.75rem;
+  --text-metadata--line-height: 1.125rem;
   --text-label: 0.6875rem;
   --text-label--line-height: 1rem;
   --text-label--font-weight: 500;
 
   --radius-small: 0.375rem;              /* 6px  */
+  --radius-compact: 0.25rem;             /* 4px tags / status badges */
   --radius-medium: 0.5rem;               /* 8px  */
   --radius-large: 0.75rem;               /* 12px */
   --radius-xlarge: 1rem;                 /* 16px */
@@ -206,17 +210,27 @@
   --spacing-sidebar-expanded: 17.625rem; /* 282px */
   --spacing-sidebar-collapsed: 4.5rem;   /* 72px  */
   --spacing-workbench-list: 35.875rem;   /* 574px */
-  --spacing-header-height: 3.375rem;     /* 54px  */
-  --spacing-list-header-height: 3rem;    /* 48px  */
-  --spacing-detail-toolbar-height: 2.625rem; /* 42px */
-  --spacing-notice-row-height: 4.75rem;  /* 76px */
+  --spacing-workbench-detail: 36.5rem;  /* 584px at the 1440px reference */
+  --spacing-header-height: 3.5rem;      /* 56px */
+  --spacing-shell-gutter: 1.125rem;     /* 18px */
+  --spacing-search-width: 27.375rem;    /* 438px */
+  --spacing-search-height: 2.125rem;    /* 34px */
+  --spacing-list-header-height: 3.25rem; /* 52px */
+  --spacing-list-filter-height: 2.25rem; /* 36px */
+  --spacing-list-status-height: 1.75rem; /* 28px */
+  --spacing-list-footer-height: 2.5rem;  /* 40px */
+  --spacing-detail-toolbar-height: 2.75rem; /* 44px */
+  --spacing-detail-toolbar-gutter: 1.375rem; /* 22px */
+  --spacing-detail-content-gutter: 2rem; /* 32px */
+  --spacing-notice-row-height: 5.375rem; /* 86px */
   --spacing-attachment-height: 2.875rem; /* 46px */
   --spacing-cta-height: 2.375rem;        /* 38px */
   --spacing-mobile-nav-height: 4.25rem;  /* 68px  */
   --max-width-content-max: 93.75rem;     /* 1500px */
   --max-width-detail-max: 64rem;         /* 1024px */
   --max-width-reader: 44rem;             /* 704px */
-  --max-width-detail-content: 32rem;     /* 512px */
+  --max-width-detail-content: 36.5rem; /* 584px including 64px padding */
+  --shadow-popover: 0 8px 24px rgb(0 0 0 / 0.24);
 
   --default-transition-duration: 150ms;
   --default-transition-timing-function: ease;
@@ -228,29 +242,80 @@
    ============================================================ */
 * { box-sizing: border-box; }
 
+html,
+body,
+#root {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
 html {
   background: var(--background);
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
   color: var(--text-primary);
   background: var(--background);
-  font-family: "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
-button, input, select { font: inherit; }
+/* Resets must not outrank Tailwind's font size / weight utilities. */
+@layer base {
+  button, input, select { font: inherit; }
+}
 button, a { -webkit-tap-highlight-color: transparent; }
 
-@media (max-width: 767px) {
-  body { padding-bottom: var(--spacing-mobile-nav-height); }
+.dark { background: var(--background); }
+
+/* Shell geometry is separate from notice/list/detail component styling (Stage 2/3). */
+@media (min-width: 768px) {
+  .app-shell { grid-template-columns: var(--spacing-sidebar-collapsed) minmax(0, 1fr); }
+  .app-sidebar { padding-inline: 12px; }
+  .app-sidebar .sidebar-label { display: none; }
+  .app-sidebar .sidebar-link { justify-content: center; }
+  .app-sidebar .sidebar-sync { justify-content: center; padding-inline: 0; }
+  .app-sidebar .sidebar-sync button { min-width: 32px; min-height: 32px; justify-content: center; }
+  .app-sidebar .sidebar-sync button > span { display: none; }
+  .notice-workspace { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); }
 }
 
-.dark { background: var(--background); }
+@media (min-width: 1280px) {
+  .app-shell { grid-template-columns: var(--spacing-sidebar-expanded) minmax(0, 1fr); }
+  .app-sidebar { padding-inline: var(--spacing-shell-gutter); }
+  .app-sidebar .sidebar-label:not(.hidden) { display: block; }
+  .app-sidebar .sidebar-link { justify-content: flex-start; }
+  .app-sidebar .sidebar-sync { padding-inline: 10px; }
+  .app-sidebar .sidebar-sync button > span { display: inline; }
+  .notice-workspace { grid-template-columns: var(--spacing-workbench-list) minmax(0, 1fr); }
+  .app-shell[data-sidebar-collapsed="true"] { grid-template-columns: var(--spacing-sidebar-collapsed) minmax(0, 1fr); }
+  .app-shell[data-sidebar-collapsed="true"] .app-sidebar { padding-inline: 12px; }
+  .app-shell[data-sidebar-collapsed="true"] .sidebar-link { justify-content: center; }
+  .app-shell[data-sidebar-collapsed="true"] .sidebar-sync { padding-inline: 0; }
+  .app-shell[data-sidebar-collapsed="true"] .sidebar-sync button > span { display: none; }
+}
+
+/* Reader-only responsive alignment; shell/list geometry remains unchanged. */
+.detail-content-frame {
+  width: 100%;
+  max-width: calc(var(--max-width-reader) + 2 * var(--spacing-detail-content-gutter));
+  margin-inline: auto;
+  padding-inline: var(--spacing-shell-gutter);
+}
+
+.detail-prose p {
+  line-height: 1.875rem;
+  text-wrap: pretty;
+  word-break: normal;
+}
+
+@media (min-width: 768px) {
+  .detail-content-frame { padding-inline: var(--spacing-detail-content-gutter); }
+}
 
 /* ============================================================
    Focus foundation — keyboard-visible, mouse-neutral

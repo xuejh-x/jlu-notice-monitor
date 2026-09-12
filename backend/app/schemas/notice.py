@@ -13,6 +13,7 @@ class AttachmentData(BaseModel):
 
 class NoticeCandidate(BaseModel):
     public_id: str | None = None
+    origin_item_key: str | None = None
     title: str
     url: str
     publish_date: date | None = None

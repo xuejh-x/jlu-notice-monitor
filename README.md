@@ -2,116 +2,71 @@
 
 [中文文档](README_zh-CN.md)
 
-A cloud-first campus notification aggregation system with incremental crawling, source health monitoring, and event-driven desktop notifications.
+> An extensible campus notification aggregation and intelligent
+> notification platform.
 
-The system automatically aggregates official university notification sources, performs incremental crawling, content deduplication, importance analysis, deadline extraction, and delivers notifications through a Windows desktop application.
+JLU Notice Monitor is a cloud-first campus information aggregation
+system designed to collect, process, and deliver important notifications
+from official sources.
+
+Although initially developed for Jilin University, the system is
+designed with an extensible source architecture that allows integration
+with other universities, departments, and organizations.
 
 ## Features
 
-### Multi-source Notification Aggregation
+### Extensible Source Architecture
 
-- Official university notification sources
-- College and department announcements
-- JLU OA public notification source
-- Cloud Source Registry architecture
+The system uses a unified source adapter architecture.
 
-### Intelligent Processing
+Supported source types: - University official websites - College and
+department announcements - Public portal / OA notification systems -
+Custom notification sources
 
-- Incremental crawling
-- Content hash based deduplication
-- Structured notice extraction
-- Importance scoring
-- Deadline detection
-- Attachment extraction
+Currently supported: - Jilin University OA public notices - College
+announcement pages - Undergraduate education notices - Innovation and
+entrepreneurship notices
 
-### Notification System
+### Intelligent Notification Processing
 
-- Event-driven notification architecture
-- Notification state management
-- Windows native desktop notifications
-- Notification permission guidance
-- Local notification preferences
+-   Incremental crawling
+-   Content hash based deduplication
+-   Notice update detection
+-   Structured content extraction
+-   Attachment extraction
+-   Importance scoring
+-   Deadline detection
 
-### Reliability
+### Cloud-first Hybrid Architecture
 
-- Source health monitoring
-- Scheduler based automatic crawling
-- Cloud-first source execution
-- Regression testing system
+The system supports: - Cloud-first deployment - Local fallback
+execution - Source-level execution policies
 
----
+### Event-driven Notification System
 
-## Architecture
+Includes: - NotificationEvent - NotificationDelivery -
+NotificationPreference
 
-```
-Official Sources
-        |
-        v
-Cloud Source Registry
-        |
-        v
-Crawler
-        |
-        v
-Parser & Extraction
-        |
-        v
-Deduplication
-        |
-        v
-Importance & Deadline Analysis
-        |
-        v
-Notification Engine
-        |
-        v
-Windows Desktop Application
-```
-
----
+Supports Windows native notifications and local user preferences.
 
 ## Tech Stack
 
-### Backend
+Backend: - Python - FastAPI - SQLite
 
-- Python
-- FastAPI
-- SQLite
+Frontend: - React - TypeScript - Vite
 
-### Frontend
+Desktop: - Tauri - Windows Native Notification
 
-- React
-- TypeScript
-- Vite
+Testing: - Pytest - Vitest - Playwright
 
-### Desktop
+## Current Status
 
-- Tauri
-- Windows Native Notification
+Version: v0.6.0
 
-### Testing
+Completed: - Cloud-first source architecture - Extensible source adapter
+system - JLU OA public source integration - Incremental crawling
+pipeline - Notification event system - Windows desktop notification UX
 
-- Pytest
-- Vitest
-- Playwright
+## License
 
----
-
-## Project Status
-
-Current version:
-
-```
-v0.6.0
-```
-
-Completed:
-
-- Cloud-first Source Architecture
-- Official Cloud Source Registry
-- JLU OA Public Source Integration
-- Incremental Crawling System
-- Notification Event Pipeline
-- Windows Desktop Notification UX
-- Source Health Foundation
-
+To be determined.

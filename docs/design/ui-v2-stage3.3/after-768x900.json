@@ -1,0 +1,65 @@
+{
+  "body": {
+    "clientHeight": 900,
+    "clientWidth": 768,
+    "overflowY": "hidden",
+    "scrollHeight": 900,
+    "scrollWidth": 768
+  },
+  "document": {
+    "clientHeight": 900,
+    "clientWidth": 768,
+    "overflowY": "hidden",
+    "scrollHeight": 961,
+    "scrollWidth": 768
+  },
+  "listPane": {
+    "clientHeight": 0,
+    "clientWidth": 0,
+    "overflowY": "hidden",
+    "scrollHeight": 0,
+    "scrollWidth": 0
+  },
+  "reader": {
+    "clientHeight": 844,
+    "clientWidth": 681,
+    "overflowY": "auto",
+    "scrollHeight": 993,
+    "scrollWidth": 681
+  },
+  "root": {
+    "clientHeight": 900,
+    "clientWidth": 768,
+    "overflowY": "hidden",
+    "scrollHeight": 900,
+    "scrollWidth": 768
+  },
+  "scrollers": [
+    {
+      "className": "min-h-0 min-w-0 overflow-y-auto bg-detail-surface pb-mobile-nav-height md:pb-0 xl:border-l xl:border-border block",
+      "clientHeight": 844,
+      "label": "通知详情工作区",
+      "scrollHeight": 993,
+      "tag": "ASIDE"
+    }
+  ],
+  "shell": {
+    "clientHeight": 900,
+    "clientWidth": 768,
+    "overflowY": "hidden",
+    "scrollHeight": 900,
+    "scrollWidth": 768
+  },
+  "sidebar": {
+    "clientHeight": 900,
+    "clientWidth": 72,
+    "overflowY": "visible",
+    "scrollHeight": 900,
+    "scrollWidth": 72
+  },
+  "viewport": {
+    "dpr": 1.0000000298023224,
+    "height": 900,
+    "width": 768
+  }
+}

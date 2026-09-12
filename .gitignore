@@ -25,16 +25,31 @@ frontend/.visual-qa/
 # Local configuration and runtime data
 .env
 **/.env
+.env.*
+**/.env.*
 !**/.env.example
+*.local
+*.local.*
 *.db
 *.db-shm
 *.db-wal
+*.db-journal
 *.sqlite
 *.sqlite3
 *.log
 *.pid
 *.lock
 !frontend/src-tauri/Cargo.lock
+
+# Credentials and user runtime exports
+backend/credentials/
+backend/auth-profiles/
+*.dpapi
+*.pem
+*.pfx
+**/AppData/
+**/appdata/
+**/logs/
 
 # Generated Windows sidecar binaries (rebuilt by npm run backend:build)
 frontend/src-tauri/binaries/
@@ -56,6 +71,8 @@ Thumbs.db
 build/
 release/
 artifacts/
+installers/
+**/installers/
 *.exe
 *.msi
 *.msix

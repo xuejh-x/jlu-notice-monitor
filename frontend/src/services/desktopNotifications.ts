@@ -5,12 +5,18 @@ import {
   isPermissionGranted,
   requestPermission,
 } from '@tauri-apps/plugin-notification'
+import { openUrl } from '@tauri-apps/plugin-opener'
 import { acknowledgeNotificationDelivery, claimNotificationDelivery } from '../api/notifications'
 
 const INTERNAL_ROUTE = /^\/(?:notices\/[1-9]\d*|notices|deadlines|sources)$/
+const WINDOWS_NOTIFICATION_SETTINGS = 'ms-settings:notifications'
 
 export function validNotificationRoute(value: unknown): value is string {
   return typeof value === 'string' && INTERNAL_ROUTE.test(value)
+}
+
+export async function checkDesktopNotificationPermission(): Promise<boolean> {
+  return isTauri() && await isPermissionGranted()
 }
 
 export async function requestDesktopNotificationPermission(): Promise<boolean> {
@@ -19,9 +25,22 @@ export async function requestDesktopNotificationPermission(): Promise<boolean> {
   return (await requestPermission()) === 'granted'
 }
 
+export async function openWindowsNotificationSettings(): Promise<void> {
+  if (!isTauri()) return
+  await openUrl(WINDOWS_NOTIFICATION_SETTINGS)
+}
+
 export async function sendWindowsNotification(title: string, body: string, route: string): Promise<void> {
   if (!validNotificationRoute(route)) throw new Error('Notification route is not allowed')
   await invoke('show_windows_notification', { title, body, route })
+}
+
+export async function sendDesktopNotificationTest(): Promise<void> {
+  await sendWindowsNotification(
+    '桌面提醒已开启',
+    'JLU Notice Monitor 将在这里发送新通知提醒。',
+    '/notices',
+  )
 }
 
 export async function deliverNextDesktopNotification(): Promise<boolean> {

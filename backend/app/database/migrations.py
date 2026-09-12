@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from sqlalchemy import Engine, inspect, text
 
 from app.services.source_identity import source_identity
+from app.services.notice_identity import origin_item_key
 
 
 SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
@@ -39,7 +40,15 @@ GATE13_SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
     ("validated_at", "DATETIME"),
 )
 
+STAGE17_1_SOURCE_COLUMNS: tuple[tuple[str, str], ...] = (
+    ("execution_policy", "VARCHAR(24) NOT NULL DEFAULT 'cloud_preferred'"),
+)
+
 NOTICE_COLUMNS: tuple[tuple[str, str], ...] = (("public_id", "VARCHAR(80)"),)
+
+STAGE17_2_RELATION_COLUMNS: tuple[tuple[str, str], ...] = (
+    ("origin_item_key", "VARCHAR(160)"),
+)
 
 
 def _add_missing_columns(engine: Engine, table: str, columns: Iterable[tuple[str, str]]) -> None:
@@ -151,5 +160,69 @@ def run_gate14_migrations(engine: Engine) -> None:
         )
         connection.execute(
             text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('14.0', :now)"),
+            {"now": now},
+        )
+
+
+def run_stage17_1_migrations(engine: Engine) -> None:
+    """Add execution policy metadata without changing legacy execution behavior."""
+
+    if engine.dialect.name != "sqlite":
+        return
+    _add_missing_columns(engine, "sources", STAGE17_1_SOURCE_COLUMNS)
+    now = datetime.now(UTC).replace(tzinfo=None).isoformat(sep=" ")
+    with engine.begin() as connection:
+        migration_applied = connection.scalar(
+            text("SELECT 1 FROM schema_migrations WHERE version = '17.1'")
+        ) is not None
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_sources_execution_policy ON sources (execution_policy)"))
+        if not migration_applied:
+            connection.execute(
+                text(
+                    "UPDATE sources SET execution_policy = CASE "
+                    "WHEN ownership = 'OFFICIAL_CLOUD' THEN 'cloud_preferred' "
+                    "WHEN ownership = 'SHARED_CLOUD' THEN 'cloud_only' "
+                    "ELSE 'local_only' END"
+                )
+            )
+        connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('17.1', :now)"),
+            {"now": now},
+        )
+
+
+def run_stage17_2_migrations(engine: Engine) -> None:
+    """Add source-scoped notice identity without rebuilding existing relations."""
+
+    if engine.dialect.name != "sqlite":
+        return
+    _add_missing_columns(engine, "notice_source_relations", STAGE17_2_RELATION_COLUMNS)
+    now = datetime.now(UTC).replace(tzinfo=None).isoformat(sep=" ")
+    with engine.begin() as connection:
+        rows = connection.execute(
+            text(
+                "SELECT id, source_url FROM notice_source_relations "
+                "WHERE origin_item_key IS NULL OR origin_item_key = ''"
+            )
+        ).mappings()
+        for row in rows:
+            connection.execute(
+                text(
+                    "UPDATE notice_source_relations SET origin_item_key = :origin_item_key "
+                    "WHERE id = :relation_id"
+                ),
+                {
+                    "origin_item_key": origin_item_key(None, str(row["source_url"])),
+                    "relation_id": row["id"],
+                },
+            )
+        connection.execute(
+            text(
+                "CREATE INDEX IF NOT EXISTS ix_notice_source_origin_item_key "
+                "ON notice_source_relations (source_id, origin_item_key)"
+            )
+        )
+        connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('17.2', :now)"),
             {"now": now},
         )

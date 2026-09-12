@@ -13,8 +13,9 @@ function sourceIdentity(name: string): Identity {
   return { icon: Building2, tone: 'bg-source-violet-bg text-source-violet-fg' }
 }
 
-export function SourceIcon({ name, metadata = false, className }: { name: string; metadata?: boolean; className?: string }) {
+export function SourceIcon({ name, metadata = false, inline = false, className }: { name: string; metadata?: boolean; inline?: boolean; className?: string }) {
   const { icon: Icon, tone } = sourceIdentity(name)
+  if (inline) return <Icon className={cn('h-3.5 w-3.5 shrink-0 text-source-blue-fg', className)} aria-hidden="true" />
   if (metadata) {
     const MetadataIcon = Icon === Globe2 || Icon === Rss ? Icon : Landmark
     return <MetadataIcon className={cn('h-4 w-4 shrink-0 text-text-secondary', className)} aria-hidden="true" />

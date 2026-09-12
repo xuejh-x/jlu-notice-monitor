@@ -1,6 +1,7 @@
+import * as Dialog from '@radix-ui/react-dialog'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { Info, Plus, Trash2 } from 'lucide-react'
-import { useState, type ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { createImportanceRule, deleteImportanceRule, getImportanceRules, restoreImportanceDefaults, updateImportanceRule } from '../api/importance'
 import { getNotificationPreferences, updateNotificationPreferences } from '../api/notifications'
 import { PageHeader } from '../components/layout/PageHeader'
@@ -11,7 +12,12 @@ import { Input, Select, Toggle } from '../components/ui/Form'
 import { loadSettings, saveSettings } from '../stores/settings'
 import { useTheme, type ThemeMode } from '../stores/theme'
 import { useToast } from '../stores/toast'
-import { requestDesktopNotificationPermission } from '../services/desktopNotifications'
+import {
+  checkDesktopNotificationPermission,
+  openWindowsNotificationSettings,
+  requestDesktopNotificationPermission,
+  sendDesktopNotificationTest,
+} from '../services/desktopNotifications'
 import type { ImportanceRule, NotificationPreferences } from '../types'
 
 function SettingsSection({ id, title, description, children }: { id: string; title: string; description: string; children: ReactNode }) {
@@ -25,7 +31,7 @@ function SettingsSection({ id, title, description, children }: { id: string; tit
     </section>
   )
 }
-function SettingRow({ id, title, description, children }: { id: string; title: string; description: string; children: ReactNode }) {
+function SettingRow({ id, title, description, children }: { id: string; title: string; description: ReactNode; children: ReactNode }) {
   return (
     <div className="flex flex-col gap-3 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
       <div className="min-w-0">
@@ -72,6 +78,15 @@ function ImportanceSettings() {
 function DesktopNotificationSettings() {
   const queryClient = useQueryClient()
   const toast = useToast()
+  const [permissionGranted, setPermissionGranted] = useState<boolean | null>(null)
+  const [permissionDialogOpen, setPermissionDialogOpen] = useState(false)
+  useEffect(() => {
+    let active = true
+    void checkDesktopNotificationPermission()
+      .then(granted => { if (active) setPermissionGranted(granted) })
+      .catch(() => { if (active) setPermissionGranted(false) })
+    return () => { active = false }
+  }, [])
   const preferences = useQuery({ queryKey: ['notification-preferences'], queryFn: ({ signal }) => getNotificationPreferences({ signal }) })
   const save = useMutation({
     mutationFn: updateNotificationPreferences,
@@ -87,14 +102,38 @@ function DesktopNotificationSettings() {
   const update = <K extends keyof NotificationPreferences>(key: K, next: NotificationPreferences[K]) => save.mutate({ ...value, [key]: next })
   const toggleMaster = async () => {
     if (value.enabled) return update('enabled', false)
-    if (!await requestDesktopNotificationPermission()) {
-      toast('未获得 Windows 通知权限，提醒仍保持关闭')
+    let granted = false
+    try {
+      granted = await requestDesktopNotificationPermission()
+    } catch {
+      // Treat an unavailable permission API as denied and show the same recovery path.
+    }
+    setPermissionGranted(granted)
+    if (!granted) {
+      setPermissionDialogOpen(true)
       return
     }
-    update('enabled', true)
+    try {
+      await save.mutateAsync({ ...value, enabled: true })
+    } catch {
+      return
+    }
+    try {
+      await sendDesktopNotificationTest()
+    } catch (error) {
+      toast(error instanceof Error ? `桌面提醒已开启，但测试通知发送失败：${error.message}` : '桌面提醒已开启，但测试通知发送失败')
+    }
+  }
+  const openNotificationSettings = async () => {
+    try {
+      await openWindowsNotificationSettings()
+      setPermissionDialogOpen(false)
+    } catch {
+      toast('无法打开 Windows 通知设置，请手动前往“设置 → 系统 → 通知”。')
+    }
   }
   return <>
-    <SettingRow id="desktop-notification-enabled" title="桌面提醒" description="在这台设备上通过 Windows 原生通知主动提醒；个人提醒状态不会上传云端。"><Toggle checked={value.enabled} aria-labelledby="desktop-notification-enabled-label" aria-describedby="desktop-notification-enabled-description" onClick={() => void toggleMaster()}/></SettingRow>
+    <SettingRow id="desktop-notification-enabled" title="桌面提醒" description={<><span className="block">在这台设备上通过 Windows 原生通知主动提醒；个人提醒状态不会上传云端。</span>{permissionGranted !== null && <span className={`mt-1 block font-medium ${permissionGranted ? 'text-success' : 'text-warning'}`}>{permissionGranted ? '🟢 Windows 通知已开启' : '⚠️ 需要 Windows 通知权限'}</span>}</>}><Toggle checked={value.enabled} aria-labelledby="desktop-notification-enabled-label" aria-describedby="desktop-notification-enabled-description" onClick={() => void toggleMaster()}/></SettingRow>
     <SettingRow id="new-notice-enabled" title="新通知" description="收到普通新通知时提醒。"><Toggle disabled={!value.enabled} checked={value.new_notice_enabled} aria-labelledby="new-notice-enabled-label" onClick={() => update('new_notice_enabled', !value.new_notice_enabled)}/></SettingRow>
     <SettingRow id="important-notice-enabled" title="重要通知" description="评分达到最低重要度时优先提醒，避免再弹一条普通新通知。"><Toggle disabled={!value.enabled} checked={value.important_notice_enabled} aria-labelledby="important-notice-enabled-label" onClick={() => update('important_notice_enabled', !value.important_notice_enabled)}/></SettingRow>
     <SettingRow id="deadline-notification-enabled" title="截止提醒" description="在选定的提前天数提醒一次，截止日期变化时也会提醒。"><Toggle disabled={!value.enabled} checked={value.deadline_enabled} aria-labelledby="deadline-notification-enabled-label" onClick={() => update('deadline_enabled', !value.deadline_enabled)}/></SettingRow>
@@ -104,6 +143,24 @@ function DesktopNotificationSettings() {
     <SettingRow id="source-health-enabled" title="来源健康" description="仅在来源状态发生变化时提醒；云端未配置只作为信息提示。"><Toggle disabled={!value.enabled} checked={value.source_health_enabled} aria-labelledby="source-health-enabled-label" onClick={() => update('source_health_enabled', !value.source_health_enabled)}/></SettingRow>
     <SettingRow id="quiet-hours" title="静默时间" description="静默期间保留提醒，结束后再发送。"><div className="flex items-center gap-2"><Input disabled={!value.enabled} aria-label="静默开始" type="time" value={value.quiet_start} onChange={event => update('quiet_start', event.target.value)} className="w-28"/><span className="text-sm text-text-muted">至</span><Input disabled={!value.enabled} aria-label="静默结束" type="time" value={value.quiet_end} onChange={event => update('quiet_end', event.target.value)} className="w-28"/></div></SettingRow>
     {save.isError && <p role="alert" className="py-3 text-xs text-danger">{save.error.message}</p>}
+    <Dialog.Root open={permissionDialogOpen} onOpenChange={setPermissionDialogOpen}>
+      <Dialog.Portal>
+        <Dialog.Overlay className="fixed inset-0 z-50 bg-overlay"/>
+        <Dialog.Content aria-describedby="notification-permission-description" className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,440px)] -translate-x-1/2 -translate-y-1/2 rounded-xlarge border border-border-strong bg-surface-raised p-5 shadow-2xl">
+          <Dialog.Title className="text-section-heading text-text-primary">开启桌面提醒</Dialog.Title>
+          <Dialog.Description id="notification-permission-description" className="mt-2 space-y-2 text-sm leading-6 text-text-secondary">
+            <span className="block">当前应用没有 Windows 通知权限。</span>
+            <span className="block">请前往：</span>
+            <strong className="block font-medium text-text-primary">Windows 设置 → 系统 → 通知</strong>
+            <span className="block">开启 JLU Notice Monitor 通知权限。</span>
+          </Dialog.Description>
+          <div className="mt-5 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+            <Dialog.Close asChild><Button variant="ghost">取消</Button></Dialog.Close>
+            <Button variant="primary" onClick={() => void openNotificationSettings()}>打开 Windows 通知设置</Button>
+          </div>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
   </>
 }
 

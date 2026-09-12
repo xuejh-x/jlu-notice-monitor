@@ -1,15 +1,22 @@
 from __future__ import annotations
 
 from datetime import UTC, date, datetime
+from typing import Any
 
 from sqlalchemy import Boolean, Date, DateTime, ForeignKey, Index, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database.session import Base
+from app.services.source_identity import default_execution_policy
 
 
 def utcnow() -> datetime:
     return datetime.now(UTC).replace(tzinfo=None)
+
+
+def _execution_policy_default(context: Any) -> str:
+    ownership = str(context.get_current_parameters().get("ownership") or "OFFICIAL_CLOUD")
+    return default_execution_policy(ownership)
 
 
 class Source(Base):
@@ -45,6 +52,7 @@ class Source(Base):
     cloud_source_id: Mapped[str | None] = mapped_column(String(80), index=True)
     source_scope: Mapped[str] = mapped_column(String(20), default="personal", index=True)
     execution: Mapped[str] = mapped_column(String(20), default="local", index=True)
+    execution_policy: Mapped[str] = mapped_column(String(24), default=_execution_policy_default, index=True)
     cloud_policy: Mapped[str] = mapped_column(String(20), default="auto", index=True)
     crawl_interval_seconds: Mapped[int | None] = mapped_column(Integer)
     validation_status: Mapped[str] = mapped_column(String(20), default="untested")
@@ -102,12 +110,16 @@ class Notice(Base):
 
 class NoticeSourceRelation(Base):
     __tablename__ = "notice_source_relations"
-    __table_args__ = (UniqueConstraint("notice_id", "source_id", "source_url"),)
+    __table_args__ = (
+        UniqueConstraint("notice_id", "source_id", "source_url"),
+        Index("ix_notice_source_origin_item_key", "source_id", "origin_item_key"),
+    )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     notice_id: Mapped[int] = mapped_column(ForeignKey("notices.id", ondelete="CASCADE"), index=True)
     source_id: Mapped[int] = mapped_column(ForeignKey("sources.id", ondelete="CASCADE"), index=True)
     source_url: Mapped[str] = mapped_column(String(2000))
+    origin_item_key: Mapped[str | None] = mapped_column(String(160))
     content_hash: Mapped[str] = mapped_column(String(64))
     first_seen_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
     last_seen_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)

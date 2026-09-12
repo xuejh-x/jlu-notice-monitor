@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stage 3.3 · Scroll Boundary Before / After</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:24px;background:#eef1f6;color:#202736;font:14px/1.6 system-ui,"Microsoft YaHei",sans-serif}h1{margin:0 0 8px;font-size:22px}h2{margin:28px 0 12px;font-size:18px}p{max-width:1100px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}figure{margin:0;min-width:0;overflow:hidden;border:1px solid #d7dce5;border-radius:8px;background:#fff}figcaption{padding:10px 12px;font-weight:600}img{display:block;width:100%;height:auto}.mobile{display:flex;align-items:flex-start;gap:16px}.mobile figure{max-width:390px}.tablet{max-width:768px}a{color:#4146a4}@media(max-width:900px){body{padding:16px}.grid{grid-template-columns:1fr}.mobile{flex-wrap:wrap}}
+</style>
+<h1>Stage 3.3 · Scroll Boundary Before / After</h1>
+<p>真实长正文通知 #36。Before来自Stage3.1 Chrome验收；After由IAB Chromium按相同指定视口采集。<a href="REPORT.md">查看完整测量与环境说明</a></p>
+<section><h2>768×900：双滚动 → 单Reader滚动</h2><div class="grid">
+<figure class="tablet"><figcaption>Before · 右侧两条纵向滚动条</figcaption><a href="../ui-v2-stage3.1/after-768.png"><img src="../ui-v2-stage3.1/after-768.png" alt="Stage3.1 768双滚动"></a></figure>
+<figure class="tablet"><figcaption>After · 只有Reader滚动条</figcaption><a href="after-768x900.png"><img src="after-768x900.png" alt="Stage3.3 768单滚动"></a></figure>
+</div></section>
+<section><h2>390×844：Reader独立滚动且底部可达</h2><div class="mobile">
+<figure><figcaption>Before</figcaption><a href="../ui-v2-stage3.1/after-390.png"><img src="../ui-v2-stage3.1/after-390.png" alt="Stage3.1移动详情"></a></figure>
+<figure><figcaption>After · 顶部</figcaption><a href="after-390x844-top.png"><img src="after-390x844-top.png" alt="Stage3.3移动详情顶部"></a></figure>
+<figure><figcaption>After · 六附件与来源滚动到导航上方</figcaption><a href="after-390x844-bottom.png"><img src="after-390x844-bottom.png" alt="Stage3.3移动详情底部"></a></figure>
+</div></section>
+<section><h2>Desktop固定Shell</h2><div class="grid">
+<figure><figcaption>1440×900</figcaption><a href="after-1440x900.png"><img src="after-1440x900.png" alt="Stage3.3 1440详情"></a></figure>
+<figure><figcaption>1707×923</figcaption><a href="after-1707x923.png"><img src="after-1707x923.png" alt="Stage3.3宽屏详情"></a></figure>
+</div></section>
+<section><h2>390×844通知列表</h2><div class="mobile"><figure><figcaption>只有通知行区域滚动</figcaption><a href="after-390x844-list.png"><img src="after-390x844-list.png" alt="Stage3.3移动列表"></a></figure></div></section>
+</html>

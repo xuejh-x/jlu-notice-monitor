@@ -1,0 +1,211 @@
+{
+  "scope": "HTML preview generated from shared design data; Figma runtime NOT executed due MCP quota.",
+  "results": [
+    {
+      "screen": 0,
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "horizontalOverflow": []
+    },
+    {
+      "screen": 1,
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1440,
+      "horizontalOverflow": []
+    },
+    {
+      "screen": 2,
+      "width": 768,
+      "height": 900,
+      "documentWidth": 768,
+      "horizontalOverflow": []
+    },
+    {
+      "screen": 3,
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "horizontalOverflow": []
+    },
+    {
+      "screen": 4,
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "horizontalOverflow": []
+    }
+  ],
+  "componentChecks": [
+    {
+      "name": "Button",
+      "width": 1242,
+      "variants": 6
+    },
+    {
+      "name": "Status Badge",
+      "width": 772.859375,
+      "variants": 3
+    },
+    {
+      "name": "Deadline Badge",
+      "width": 842,
+      "variants": 4
+    },
+    {
+      "name": "Tag",
+      "width": 642,
+      "variants": 3
+    },
+    {
+      "name": "Source Item",
+      "width": 900,
+      "variants": 3
+    },
+    {
+      "name": "Navigation Item",
+      "width": 900,
+      "variants": 3
+    },
+    {
+      "name": "Search Bar",
+      "width": 1440,
+      "variants": 4
+    },
+    {
+      "name": "Notification Row",
+      "width": 1440,
+      "variants": 5
+    },
+    {
+      "name": "Attachment Card",
+      "width": 1440,
+      "variants": 4
+    },
+    {
+      "name": "Toolbar",
+      "width": 1290,
+      "variants": 2
+    },
+    {
+      "name": "Empty State",
+      "width": 1440,
+      "variants": 4
+    },
+    {
+      "name": "Loading State",
+      "width": 1216,
+      "variants": 2
+    },
+    {
+      "name": "Error State",
+      "width": 1440,
+      "variants": 4
+    }
+  ],
+  "scrollCheck": {
+    "canScroll": true,
+    "scrollHeight": 825,
+    "viewportHeight": 792,
+    "originalLinkPresent": true
+  },
+  "contrasts": [
+    {
+      "theme": "Dark",
+      "fg": "text-primary",
+      "bg": "list-surface",
+      "ratio": 16.4
+    },
+    {
+      "theme": "Dark",
+      "fg": "text-secondary",
+      "bg": "detail-surface",
+      "ratio": 11.68
+    },
+    {
+      "theme": "Dark",
+      "fg": "text-muted",
+      "bg": "list-surface",
+      "ratio": 7.39
+    },
+    {
+      "theme": "Dark",
+      "fg": "deadline-danger-fg",
+      "bg": "deadline-danger-bg",
+      "ratio": 6.38
+    },
+    {
+      "theme": "Dark",
+      "fg": "deadline-warning-fg",
+      "bg": "deadline-warning-bg",
+      "ratio": 7.42
+    },
+    {
+      "theme": "Dark",
+      "fg": "deadline-neutral-fg",
+      "bg": "deadline-neutral-bg",
+      "ratio": 7.05
+    },
+    {
+      "theme": "Dark",
+      "fg": "accent-soft-text",
+      "bg": "selected-surface",
+      "ratio": 8.65
+    },
+    {
+      "theme": "Dark",
+      "fg": "text-inverse",
+      "bg": "cta-surface",
+      "ratio": 6.67
+    },
+    {
+      "theme": "Light",
+      "fg": "text-primary",
+      "bg": "list-surface",
+      "ratio": 17.1
+    },
+    {
+      "theme": "Light",
+      "fg": "text-secondary",
+      "bg": "detail-surface",
+      "ratio": 7.73
+    },
+    {
+      "theme": "Light",
+      "fg": "text-muted",
+      "bg": "list-surface",
+      "ratio": 5.33
+    },
+    {
+      "theme": "Light",
+      "fg": "deadline-danger-fg",
+      "bg": "deadline-danger-bg",
+      "ratio": 5.04
+    },
+    {
+      "theme": "Light",
+      "fg": "deadline-warning-fg",
+      "bg": "deadline-warning-bg",
+      "ratio": 5.62
+    },
+    {
+      "theme": "Light",
+      "fg": "deadline-neutral-fg",
+      "bg": "deadline-neutral-bg",
+      "ratio": 5.54
+    },
+    {
+      "theme": "Light",
+      "fg": "accent-soft-text",
+      "bg": "selected-surface",
+      "ratio": 7.07
+    },
+    {
+      "theme": "Light",
+      "fg": "text-inverse",
+      "bg": "cta-surface",
+      "ratio": 6.67
+    }
+  ]
+}
