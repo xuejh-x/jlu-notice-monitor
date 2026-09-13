@@ -175,6 +175,9 @@ async def test_lifespan_starts_scheduler_and_stops_it_before_crawler(
             events.append("startup-sync")
             return True
 
+    def cleanup(_: object) -> None:
+        events.append("retention-cleanup")
+
     monkeypatch.setattr(main_module, "scheduler_manager", Scheduler())
     monkeypatch.setattr(main_module, "crawler_manager", Crawler())
     monkeypatch.setattr(main_module, "startup_sync", StartupSync())
@@ -183,6 +186,7 @@ async def test_lifespan_starts_scheduler_and_stops_it_before_crawler(
     monkeypatch.setattr(main_module, "SessionLocal", lambda: nullcontext(object()))
     monkeypatch.setattr(main_module, "load_yaml", lambda _: {"sources": []})
     monkeypatch.setattr(main_module, "ensure_importance_rules", lambda *_: None)
+    monkeypatch.setattr(main_module, "run_scheduled_cleanup", cleanup)
     async with main_module.lifespan(app):
-        assert events == ["sync-sources", "startup-sync", "scheduler-start"]
-    assert events == ["sync-sources", "startup-sync", "scheduler-start", "scheduler-stop", "crawler-stop"]
+        assert events == ["sync-sources", "retention-cleanup", "startup-sync", "scheduler-start"]
+    assert events == ["sync-sources", "retention-cleanup", "startup-sync", "scheduler-start", "scheduler-stop", "crawler-stop"]

@@ -55,6 +55,9 @@ class Settings(BaseSettings):
     )
     admin_auth_attempts_per_minute: int = Field(default=10, ge=1, le=120)
     min_cloud_crawl_interval_seconds: int = Field(default=900, ge=300, le=86400)
+    retention_days: int = Field(default=365, ge=1, le=3650)
+    retention_high_importance_score: int = Field(default=80, ge=0, le=100)
+    retention_cleanup_interval_hours: int = Field(default=24, ge=1, le=168)
 
     @property
     def effective_deployment_role(self) -> str:

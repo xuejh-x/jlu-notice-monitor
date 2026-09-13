@@ -3,6 +3,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createImportanceRule, getImportanceRules, restoreImportanceDefaults, updateImportanceRule } from '../api/importance'
 import { getNotificationPreferences, updateNotificationPreferences } from '../api/notifications'
+import { cleanOldNotifications, getStorageStatus } from '../api/storage'
 import { checkDesktopNotificationPermission, openWindowsNotificationSettings, requestDesktopNotificationPermission, sendDesktopNotificationTest } from '../services/desktopNotifications'
 import { ThemeProvider } from '../stores/theme'
 import { ToastProvider } from '../stores/toast'
@@ -13,6 +14,7 @@ vi.mock('../api/importance', () => ({
   deleteImportanceRule: vi.fn(), restoreImportanceDefaults: vi.fn(),
 }))
 vi.mock('../api/notifications', () => ({ getNotificationPreferences: vi.fn(), updateNotificationPreferences: vi.fn() }))
+vi.mock('../api/storage', () => ({ getStorageStatus: vi.fn(), cleanOldNotifications: vi.fn() }))
 vi.mock('../services/desktopNotifications', () => ({
   checkDesktopNotificationPermission: vi.fn(() => Promise.resolve(true)),
   openWindowsNotificationSettings: vi.fn(() => Promise.resolve()),
@@ -21,6 +23,7 @@ vi.mock('../services/desktopNotifications', () => ({
 }))
 
 const notificationPreferences = { enabled: false, new_notice_enabled: true, important_notice_enabled: true, deadline_enabled: true, source_health_enabled: true, daily_summary_enabled: true, minimum_importance: 70, deadline_lead_days: [7, 3, 1], quiet_start: '23:00', quiet_end: '08:00' }
+const storageStatus = { database_size: '1.0 MB', database_size_bytes: 1048576, total_notifications: 12, cleanup_candidates: 2, last_cleanup_at: null, retention_days: 365, preserves_local_exceptions: true }
 
 function renderPage() {
   const client = new QueryClient({ defaultOptions: { queries: { retry: false }, mutations: { retry: false } } })
@@ -37,12 +40,14 @@ describe('SettingsPage', () => {
     vi.mocked(requestDesktopNotificationPermission).mockResolvedValue(true)
     vi.mocked(openWindowsNotificationSettings).mockResolvedValue(undefined)
     vi.mocked(sendDesktopNotificationTest).mockResolvedValue(undefined)
+    vi.mocked(getStorageStatus).mockResolvedValue(storageStatus)
+    vi.mocked(cleanOldNotifications).mockResolvedValue({ ...storageStatus, total_notifications: 10, cleanup_candidates: 0, last_cleanup_at: '2026-09-13T12:00:00+00:00', deleted_count: 2 })
   })
 
   it('organizes existing controls and the personal importance editor', async () => {
     renderPage()
     expect(screen.getByRole('heading', { level: 1, name: '设置' })).toBeInTheDocument()
-    for (const section of ['外观', '通知偏好', '桌面提醒', '个人重要度', '阅读与显示']) expect(screen.getByRole('heading', { level: 2, name: section })).toBeInTheDocument()
+    for (const section of ['外观', '通知偏好', '桌面提醒', '个人重要度', '存储管理', '阅读与显示']) expect(screen.getByRole('heading', { level: 2, name: section })).toBeInTheDocument()
     expect(screen.getByRole('combobox', { name: '外观主题' })).toBeInTheDocument()
     expect(await screen.findByDisplayValue('PWN')).toBeInTheDocument()
   })
@@ -122,5 +127,18 @@ describe('SettingsPage', () => {
     expect(restoreImportanceDefaults).not.toHaveBeenCalled()
     fireEvent.click(screen.getByRole('button', { name: '确认恢复' }))
     await waitFor(() => expect(restoreImportanceDefaults).toHaveBeenCalledTimes(1))
+  })
+
+  it('shows storage status and only runs cleanup after confirmation', async () => {
+    renderPage()
+    expect(await screen.findByText('1.0 MB')).toBeInTheDocument()
+    expect(screen.getByText('2 条', { exact: true })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: '清理旧通知' }))
+    expect(cleanOldNotifications).not.toHaveBeenCalled()
+    const dialog = screen.getByRole('dialog', { name: '清理旧通知' })
+    expect(dialog).toHaveTextContent('2 条超过 365 天的通知')
+    fireEvent.click(screen.getByRole('button', { name: '确认清理' }))
+    await waitFor(() => expect(cleanOldNotifications).toHaveBeenCalledTimes(1))
+    await waitFor(() => expect(screen.getByText('0 条', { exact: true })).toBeInTheDocument())
   })
 })

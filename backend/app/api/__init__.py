@@ -5,6 +5,7 @@ from app.api.source_management import router as source_management_router
 from app.api.cloud_admin import legacy_router as legacy_cloud_admin_router
 from app.api.cloud_admin import router as cloud_admin_router
 from app.api.notifications import router as notifications_router
+from app.api.storage import router as storage_router
 
 api_router.include_router(importance_router)
 api_router.include_router(public_feed_router)
@@ -12,5 +13,6 @@ api_router.include_router(source_management_router)
 api_router.include_router(cloud_admin_router)
 api_router.include_router(legacy_cloud_admin_router)
 api_router.include_router(notifications_router)
+api_router.include_router(storage_router)
 
 __all__ = ["api_router"]

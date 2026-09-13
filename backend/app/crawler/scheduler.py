@@ -4,11 +4,12 @@ import asyncio
 import logging
 from dataclasses import dataclass
 from datetime import datetime, timedelta
-from typing import Any
+from typing import Any, Callable
 
 from app.config import get_settings, load_yaml
 from app.crawler.runner import CrawlerAlreadyRunning, CrawlerManager, crawler_manager, utcnow
 from app.logging_config import log_event
+from app.services.retention import run_scheduled_cleanup
 
 logger = logging.getLogger(__name__)
 
@@ -35,7 +36,8 @@ class CrawlerScheduler:
     """No-backlog scheduler: each interval starts after the previous run ends."""
 
     def __init__(
-        self, crawler: CrawlerManager, config: SchedulerConfig | None = None, *, interval_seconds: float | None = None
+        self, crawler: CrawlerManager, config: SchedulerConfig | None = None, *, interval_seconds: float | None = None,
+        retention_runner: Callable[[], Any] | None = None,
     ) -> None:
         self.crawler = crawler
         self.config = config or SchedulerConfig.load()
@@ -48,6 +50,7 @@ class CrawlerScheduler:
         self.next_scheduled_run: datetime | None = None
         self.last_scheduled_outcome: str | None = None
         self.last_error: str | None = None
+        self._retention_runner = retention_runner
 
     @property
     def running(self) -> bool:
@@ -114,7 +117,14 @@ class CrawlerScheduler:
                     self.last_error = f"{type(exc).__name__}: {exc}"
                     log_event(logger, logging.ERROR, "scheduler_run_failed", status="failure", error_type=type(exc).__name__, error=str(exc))
             if not self._stop.is_set():
+                if self._retention_runner is not None:
+                    try:
+                        cleanup = await asyncio.to_thread(self._retention_runner)
+                        if cleanup is not None:
+                            log_event(logger, logging.INFO, "storage_retention_cleanup_finished", deleted_count=cleanup.deleted_count)
+                    except Exception as exc:
+                        log_event(logger, logging.ERROR, "storage_retention_cleanup_failed", error_type=type(exc).__name__, error=str(exc))
                 self.next_scheduled_run = utcnow() + timedelta(seconds=self._interval_seconds)
 
 
-scheduler_manager = CrawlerScheduler(crawler_manager)
+scheduler_manager = CrawlerScheduler(crawler_manager, retention_runner=run_scheduled_cleanup)

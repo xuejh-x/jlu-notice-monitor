@@ -1,10 +1,12 @@
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import UTC, date, datetime, timedelta
 from hashlib import sha256
+from pathlib import Path
 
+from app.config import get_settings
 from app.database import Base, SessionLocal, engine
-from app.models import Notice, NoticeSourceRelation, NotificationPreference, Source, UserState
+from app.models import AppState, Notice, NoticeSourceRelation, NotificationPreference, Source, UserState
 from app.services.notifications import generate_scheduled_events, record_notice_event
 
 
@@ -50,6 +52,10 @@ def add_notice(
 
 
 def main() -> None:
+    expected_database = (Path(__file__).resolve().parent.parent / ".e2e" / "runtime" / "data" / "notices.db").resolve()
+    actual_database = get_settings().database_path
+    if actual_database is None or actual_database.resolve() != expected_database:
+        raise RuntimeError("E2E seed may only reset frontend/.e2e/runtime/data/notices.db")
     Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
     today = date.today()
@@ -91,6 +97,9 @@ def main() -> None:
                 publish_date=today - timedelta(days=offset),
                 is_read=True,
             )
+        add_notice(db, notice_id=120, source=local_source, title="E2E 可清理旧通知", content="用于验证手动清理与存储统计刷新。", category="archive", score=20, publish_date=today - timedelta(days=366), is_read=True)
+        # Keep the fixture candidate available until the explicit Settings action.
+        db.add(AppState(key="storage_retention_last_cleanup_at", value=datetime.now(UTC).isoformat()))
         preferences = NotificationPreference(id=1, enabled=True, daily_summary_time="00:00")
         db.add(preferences)
         db.commit()

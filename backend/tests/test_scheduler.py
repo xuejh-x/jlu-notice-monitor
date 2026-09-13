@@ -71,6 +71,22 @@ async def test_enabled_scheduler_runs_repeatedly_and_reports_next_run() -> None:
 
 
 @pytest.mark.asyncio
+async def test_scheduler_runs_retention_through_existing_lifecycle() -> None:
+    crawler = FakeCrawler()
+    calls: list[str] = []
+    scheduler = CrawlerScheduler(
+        crawler, SchedulerConfig(enabled=True, interval_minutes=1), interval_seconds=0.01,
+        retention_runner=lambda: calls.append("cleanup") or None,
+    )
+    scheduler.start()
+    try:
+        await wait_until(lambda: bool(calls))
+    finally:
+        await scheduler.shutdown()
+    assert calls == ["cleanup"]
+
+
+@pytest.mark.asyncio
 async def test_disabled_scheduler_never_starts() -> None:
     crawler = FakeCrawler()
     scheduler = CrawlerScheduler(crawler, SchedulerConfig(enabled=False, interval_minutes=1))

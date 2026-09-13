@@ -248,7 +248,7 @@ test('Notices date filter changes the real API result', async ({ page, request }
   const seeded = await (await request.get(`${backendUrl}/api/notices/101`)).json()
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('/notices')
-  await expect(page.getByText('当前结果 14 条 · 未读 3 条')).toBeVisible()
+  await expect(page.getByText('当前结果 15 条 · 未读 3 条')).toBeVisible()
   await page.getByRole('button', { name: '筛选' }).click()
   const dialog = page.getByRole('dialog')
   await dialog.getByLabel('起始日期').fill(seeded.publish_date)
@@ -306,7 +306,7 @@ test('Clearing Notices filters restores the complete list', async ({ page }) => 
   await dialog.getByRole('button', { name: '应用' }).click()
 
   await expect(page).toHaveURL(/\/notices$/)
-  await expect(page.getByText('当前结果 14 条 · 未读 3 条')).toBeVisible()
+  await expect(page.getByText('当前结果 15 条 · 未读 3 条')).toBeVisible()
   await expect(page.getByRole('link', { name: /E2E 蓝桥杯竞赛通知/ })).toBeVisible()
   await expect(page.getByRole('link', { name: /E2E 已收藏实验室招募/ })).toBeVisible()
 })
@@ -441,6 +441,21 @@ test('Settings persist after reload', async ({ page }) => {
   await page.reload()
   await expect(page.getByLabel('外观主题')).toHaveValue('light')
   await expect(page.locator('html')).not.toHaveClass(/dark/)
+})
+
+test('Storage management confirms manual cleanup and refreshes its statistics', async ({ page }) => {
+  await page.goto('/settings')
+  await expect(page.getByText('可清理通知')).toBeVisible()
+  await expect(page.getByText('1 条', { exact: true })).toBeVisible()
+  await page.getByRole('button', { name: '清理旧通知' }).click()
+  const dialog = page.getByRole('dialog', { name: '清理旧通知' })
+  await expect(dialog).toContainText('1 条超过 365 天的通知')
+  const cleaned = page.waitForResponse(response => response.url().endsWith('/api/storage/cleanup') && response.request().method() === 'POST')
+  await dialog.getByRole('button', { name: '确认清理' }).click()
+  await cleaned
+  await expect(page.getByText('0 条', { exact: true })).toBeVisible()
+  await page.goto('/notices')
+  await expect(page.getByText('E2E 可清理旧通知')).toHaveCount(0)
 })
 
 test('Unknown notice renders the dedicated 404 state', async ({ page }) => {

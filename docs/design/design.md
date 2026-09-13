@@ -74,6 +74,13 @@ API、数据模型、抓取、自动已读、请求取消、错误类型、URL s
 - “全部通知 / 未读通知 / 重要通知 / 即将截止”均来自独立 Dashboard 聚合；列表筛选结果只能控制当前列表和分页，不得回写全局导航计数。
 - 用户主动标记未读优先于自动已读；读状态 mutation 必须立即投影到详情、列表、搜索、Dashboard 最近通知与未读计数，再与服务端结果校准。
 
+## Storage management — notification retention
+
+- 设置页使用现有 `SettingsSection`、`SettingRow`、`Card`、`Button`、`Dialog` 与语义 token 提供“存储管理”；不得新增视觉 token 或在页面硬编码色值。
+- 显示数据库大小、通知数量、可清理数量和上次清理时间。清理按钮必须先打开确认对话框，明确说明本地未读、收藏和高重要度通知会保留。
+- 成功后刷新存储统计，并使通知列表、Dashboard 与搜索缓存失效；不改 URL schema、通知阅读语义、来源、Crawler、Cloud Feed 或提醒状态机。
+- 窄屏确认对话框沿用 `w-[min(92vw,440px)]`，页面在 390px 不得产生横向溢出。
+
 ## Gate 13.6 / OA 公开源后续决策 — advanced Cloud HTML and OA 校内通知
 
 - 经真实环境核实，OA 首页“校内通知”列表与详情无需登录。该来源改为 `OFFICIAL_CLOUD` / `source_scope=official` / `execution=cloud` / `cloud_policy=force_enabled`，名称为“吉林大学 OA 校内通知”。

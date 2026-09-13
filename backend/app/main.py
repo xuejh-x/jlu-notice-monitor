@@ -19,6 +19,7 @@ from app.paths import ensure_runtime_directories
 from app.runtime import mark_started, mark_stopped
 from app.services.importance import ensure_importance_rules
 from app.notifications import notification_scheduler
+from app.services.retention import run_scheduled_cleanup
 from fastapi import Depends
 from sqlalchemy.orm import Session
 
@@ -35,6 +36,9 @@ async def lifespan(_: FastAPI):
     with SessionLocal() as db:
         crawler_manager._sync_sources(db, load_yaml("sources.yaml").get("sources", []))
         ensure_importance_rules(db)
+    cleanup = run_scheduled_cleanup(settings)
+    if cleanup is not None:
+        log_event(logger, logging.INFO, "storage_retention_cleanup_finished", deleted_count=cleanup.deleted_count)
     mark_started()
     if settings.effective_startup_sync_enabled:
         startup_sync.trigger_once()

@@ -147,3 +147,9 @@ export interface NotificationPreferences {
 export interface NotificationDeliveryClaim {
   delivery_id: number; claim_token: string; event: NotificationEvent
 }
+export interface StorageStatus {
+  database_size: string; database_size_bytes: number; total_notifications: number
+  cleanup_candidates: number; last_cleanup_at: string | null; retention_days: number
+  preserves_local_exceptions: boolean
+}
+export interface StorageCleanupResult extends StorageStatus { deleted_count: number }
