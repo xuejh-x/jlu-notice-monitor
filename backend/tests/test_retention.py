@@ -79,11 +79,12 @@ def test_cloud_retention_has_no_local_state_exceptions() -> None:
     old_favorite = add_notice(db, source, title="old-favorite", publish_date=(NOW - timedelta(days=366)).date(), favorite=True)
     old_important = add_notice(db, source, title="old-important", publish_date=(NOW - timedelta(days=366)).date(), score=100)
     db.commit()
+    old_ids = (old_unread.id, old_favorite.id, old_important.id)
 
     result = cleanup_notices(db, Settings(_env_file=None, deployment_role="cloud"), now=NOW)
     db.commit()
     assert result.deleted_count == 3
-    assert all(db.get(Notice, item.id) is None for item in (old_unread, old_favorite, old_important))
+    assert all(db.get(Notice, notice_id) is None for notice_id in old_ids)
     db.close(); engine.dispose()
 
 

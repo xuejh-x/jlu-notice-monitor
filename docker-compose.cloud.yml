@@ -1,0 +1,77 @@
+name: jlu-notice-cloud
+
+x-cloud-environment: &cloud-environment
+  JLU_DATABASE_URL: postgresql+psycopg://notice:notice@postgres:5432/notice_cloud
+  JLU_DEPLOYMENT_ROLE: cloud
+  JLU_ENVIRONMENT: production
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: notice_cloud
+      POSTGRES_USER: notice
+      POSTGRES_PASSWORD: notice
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U notice -d notice_cloud"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    ports:
+      - "5432:5432"
+    volumes:
+      - notice-cloud-data:/var/lib/postgresql/data
+
+  migrate:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.cloud
+    command: ["python", "scripts/init_cloud_db.py"]
+    environment: *cloud-environment
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.cloud
+    environment: *cloud-environment
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.cloud
+    command: ["python", "-m", "app.cloud.worker"]
+    environment: *cloud-environment
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  postgres-test:
+    image: postgres:16-alpine
+    profiles: ["test"]
+    environment:
+      POSTGRES_DB: notice_cloud_test
+      POSTGRES_USER: notice_test
+      POSTGRES_PASSWORD: notice_test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U notice_test -d notice_cloud_test"]
+      interval: 3s
+      timeout: 5s
+      retries: 12
+    ports:
+      - "5433:5432"
+    tmpfs:
+      - /var/lib/postgresql/data
+
+volumes:
+  notice-cloud-data:

@@ -25,6 +25,8 @@ from app.sources.oa_public import (
     parse_oa_home_list_url,
     parse_oa_list_html,
 )
+from app.sources.base import SourceError
+import app.sources.oa_public as oa_public_module
 
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -104,6 +106,57 @@ def test_oa_detail_extracts_title_date_publisher_and_clean_body() -> None:
     assert "请认真贯彻执行" in result.content
     assert "不会进入正文" not in result.content
     assert result.public_id == "oa-70232663"
+
+
+def test_oa_detail_accepts_legacy_rich_text_container_and_distinguishes_empty_body() -> None:
+    fallback = NoticeCandidate(title="列表标题", url="https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70377966&channelId=179577")
+    parsed = parse_oa_detail_html(
+        "<div class='content_t'>详情标题</div><div id='zoom'><p>第一段</p><table><tr><td>表格正文</td></tr></table></div>",
+        fallback.url,
+        fallback,
+    )
+    assert parsed.title == "详情标题"
+    assert "第一段" in parsed.content and "表格正文" in parsed.content
+    with pytest.raises(SourceError, match="OA_PUBLIC_DETAIL_CONTENT_EMPTY"):
+        parse_oa_detail_html("<div id='zoom'><p> </p></div>", fallback.url, fallback)
+    with pytest.raises(SourceError, match="OA_PUBLIC_DETAIL_PARSER_FAILED"):
+        parse_oa_detail_html("<main>没有 OA 正文容器</main>", fallback.url, fallback)
+
+
+@pytest.mark.asyncio
+async def test_oa_parser_failure_saves_raw_html(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    source = OAPublicSource(oa_config())
+    notice = NoticeCandidate(title="列表标题", url="https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70377966&channelId=179577")
+
+    async def get(_: str) -> str:
+        return "<html><body>unrecognized OA template</body></html>"
+
+    monkeypatch.setattr(source, "_get", get)
+    monkeypatch.setattr(oa_public_module, "get_cache_dir", lambda: tmp_path)
+    try:
+        with pytest.raises(SourceError, match="OA_PUBLIC_DETAIL_PARSER_FAILED"):
+            await source.fetch_detail(notice)
+        assert (tmp_path / "oa-detail-failures" / "70377966.html").read_text(encoding="utf-8") == "<html><body>unrecognized OA template</body></html>"
+    finally:
+        await source.close()
+
+
+@pytest.mark.asyncio
+async def test_oa_snapshot_write_failure_preserves_parser_error(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    source = OAPublicSource(oa_config())
+    notice = NoticeCandidate(title="列表标题", url="https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=70377966&channelId=179577")
+
+    async def get(_: str) -> str:
+        return "<html><body>unrecognized OA template</body></html>"
+
+    monkeypatch.setattr(source, "_get", get)
+    monkeypatch.setattr(oa_public_module, "get_cache_dir", lambda: tmp_path / "not-a-directory")
+    (tmp_path / "not-a-directory").write_text("blocked", encoding="utf-8")
+    try:
+        with pytest.raises(SourceError, match="OA_PUBLIC_DETAIL_PARSER_FAILED"):
+            await source.fetch_detail(notice)
+    finally:
+        await source.close()
 
 
 def test_oa_attachment_parser_extracts_download_reference() -> None:

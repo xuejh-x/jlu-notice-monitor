@@ -483,6 +483,27 @@ def _set_state(db: Session, notice_id: int, field: str, value: bool) -> dict[str
     return {"notice_id": notice_id, field: value}
 
 
+@api_router.post("/notices/read-all")
+def mark_all_read(db: Session = Depends(get_db)) -> dict[str, int]:
+    """Mark every visible unread notice read; repeated requests are no-ops."""
+    notices = db.scalars(
+        select(Notice)
+        .where(_visible_notice_condition())
+        .options(selectinload(Notice.user_state))
+    ).all()
+    updated = 0
+    for notice in notices:
+        state = notice.user_state
+        if state is None:
+            db.add(UserState(notice_id=notice.id, is_read=True))
+            updated += 1
+        elif not state.is_read:
+            state.is_read = True
+            updated += 1
+    db.commit()
+    return {"updated": updated}
+
+
 @api_router.post("/notices/{notice_id}/read")
 def mark_read(notice_id: int, db: Session = Depends(get_db)) -> dict[str, Any]:
     return _set_state(db, notice_id, "is_read", True)

@@ -53,14 +53,12 @@ def cleanup_candidate_condition(settings: Settings, now: datetime) -> Any:
 
 
 def candidate_notice_ids(db: Session, settings: Settings, now: datetime) -> list[int]:
-    return list(
-        db.scalars(
-            select(Notice.id)
-            .outerjoin(UserState, UserState.notice_id == Notice.id)
-            .outerjoin(Favorite, Favorite.notice_id == Notice.id)
-            .where(cleanup_candidate_condition(settings, now))
+    query = select(Notice.id)
+    if _is_local(settings):
+        query = query.outerjoin(UserState, UserState.notice_id == Notice.id).outerjoin(
+            Favorite, Favorite.notice_id == Notice.id
         )
-    )
+    return list(db.scalars(query.where(cleanup_candidate_condition(settings, now))))
 
 
 def _set_last_cleanup(db: Session, cleanup_at: datetime) -> None:
@@ -84,11 +82,16 @@ def cleanup_notices(db: Session, settings: Settings | None = None, *, now: datet
     cleanup_at = now or utcnow()
     ids = candidate_notice_ids(db, configured, cleanup_at)
     if ids:
-        db.execute(delete(NotificationEvent).where(NotificationEvent.notice_id.in_(ids)))
-        db.execute(delete(Favorite).where(Favorite.notice_id.in_(ids)))
-        notices = db.scalars(select(Notice).where(Notice.id.in_(ids))).all()
-        for notice in notices:
-            db.delete(notice)
+        if _is_local(configured):
+            db.execute(delete(NotificationEvent).where(NotificationEvent.notice_id.in_(ids)))
+            db.execute(delete(Favorite).where(Favorite.notice_id.in_(ids)))
+            notices = db.scalars(select(Notice).where(Notice.id.in_(ids))).all()
+            for notice in notices:
+                db.delete(notice)
+        else:
+            # Cloud has no client-state tables; database cascades remove only
+            # public notice-owned facts without loading Desktop relationships.
+            db.execute(delete(Notice).where(Notice.id.in_(ids)))
     _set_last_cleanup(db, cleanup_at)
     return CleanupResult(deleted_count=len(ids), cleanup_at=cleanup_at)
 

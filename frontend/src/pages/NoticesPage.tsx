@@ -1,9 +1,9 @@
 import * as Dialog from '@radix-ui/react-dialog'
-import { useQuery } from '@tanstack/react-query'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { ArrowUpDown, Search, SlidersHorizontal, X } from 'lucide-react'
-import { useEffect, useRef, useState } from 'react'
+import { useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { getNotices } from '../api/notices'
+import { getNotices, setAllNoticesRead } from '../api/notices'
 import { NoticeList, NoticeListSkeleton } from '../components/notice/NoticeList'
 import { FilterFields } from '../components/notice/NoticeFilters'
 import { Button } from '../components/ui/Button'
@@ -11,6 +11,7 @@ import { ErrorState } from '../components/ui/Feedback'
 import { Pagination } from '../components/ui/Pagination'
 import { useDebouncedValue } from '../hooks/useDebouncedValue'
 import { loadSettings } from '../stores/settings'
+import { useToast } from '../stores/toast'
 import { cn } from '../utils/cn'
 import { countActiveFilters, parseNoticesSearchParams, serializeNoticesSearchParams, type NoticesUrlState } from '../utils/noticeSearchParams'
 
@@ -23,11 +24,14 @@ const readTabs: Array<{ label: string; value: NoticesUrlState['read'] }> = [
 export function NoticesPage({ selectedId = null }: { selectedId?: number | null }) {
   const savedPageSize = loadSettings().pageSize
   const navigate = useNavigate()
+  const queryClient = useQueryClient()
+  const toast = useToast()
   const [searchParams, setSearchParams] = useSearchParams()
   const state = parseNoticesSearchParams(searchParams, savedPageSize)
   const debouncedKeyword = useDebouncedValue(state.q.trim())
   const [sheetOpen, setSheetOpen] = useState(false)
   const [draft, setDraft] = useState<NoticesUrlState>(state)
+  const [readAllOpen, setReadAllOpen] = useState(false)
 
   const updateState = (changes: Partial<NoticesUrlState>, { replace = false, resetPage = false } = {}) => {
     const next = { ...state, ...changes }
@@ -55,13 +59,27 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
     staleTime: 0,
   })
   const { refetch: refetchNotices } = query
-  const previousSelectedId = useRef(selectedId)
-
-  useEffect(() => {
-    const reenteredUnreadList = previousSelectedId.current !== null && selectedId === null && state.read === 'unread'
-    previousSelectedId.current = selectedId
-    if (reenteredUnreadList) void refetchNotices()
-  }, [selectedId, state.read, refetchNotices])
+  const readAll = useMutation({
+    mutationFn: setAllNoticesRead,
+    onSuccess: async () => {
+      setReadAllOpen(false)
+      await queryClient.invalidateQueries({ queryKey: ['notices'] })
+      await queryClient.invalidateQueries({ queryKey: ['dashboard'] })
+      await queryClient.invalidateQueries({ queryKey: ['search'] })
+      await refetchNotices()
+      toast('已将全部未读通知标记为已读')
+    },
+    onError: () => toast('全部已读操作失败', 'error'),
+  })
+  const goToNextPage = async () => {
+    const fresh = await refetchNotices()
+    const targetPage = state.page + 1
+    if (fresh.data && fresh.data.total_pages >= targetPage) {
+      updateState({ page: targetPage })
+    } else {
+      toast('没有更多未读通知')
+    }
+  }
 
   const activeCount = countActiveFilters(state)
   const nonReadFilterCount = activeCount - (state.read ? 1 : 0)
@@ -101,6 +119,7 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
             })}
           </div>
           <div className="flex shrink-0 items-center gap-1">
+            {query.data && query.data.unread_count > 0 && <Button variant="ghost" size="sm" onClick={() => setReadAllOpen(true)}>全部已读</Button>}
             <button id="notice-filter-trigger" type="button" onClick={openSheet} aria-haspopup="dialog" aria-expanded={sheetOpen} aria-controls="notice-filter-dialog" className="inline-flex h-8 items-center gap-1.5 rounded-medium px-2 text-metadata text-text-secondary hover:bg-surface-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus" aria-label={`筛选${nonReadFilterCount > 0 ? ` ${nonReadFilterCount}` : ''}`}><SlidersHorizontal className="h-3.5 w-3.5 text-text-muted" aria-hidden="true" />筛选{nonReadFilterCount > 0 && <span className="text-accent-soft-text">{nonReadFilterCount}</span>}</button>
           </div>
       </div>
@@ -113,7 +132,7 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
           </>
         )}
       </div>
-      {query.data && !query.isError && <footer className="flex h-list-footer-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span className="truncate tabular-nums">{query.data.total_count === 0 ? 0 : (state.page - 1) * state.pageSize + 1}–{Math.min(state.page * state.pageSize, query.data.total_count)} / {query.data.total_count} 条</span>{query.data.total_pages <= 1 ? <span>第 {state.page} 页</span> : <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} compact />}</footer>}
+      {query.data && !query.isError && <footer className="flex h-list-footer-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span className="truncate tabular-nums">{query.data.total_count === 0 ? 0 : (state.page - 1) * state.pageSize + 1}–{Math.min(state.page * state.pageSize, query.data.total_count)} / {query.data.total_count} 条</span>{query.data.total_pages <= 1 ? <button type="button" className="rounded-small px-1 hover:bg-surface-hover" onClick={goToNextPage}>第 {state.page} 页</button> : <Pagination page={state.page} totalPages={query.data.total_pages} onPageChange={page => updateState({ page })} onAttemptNext={goToNextPage} compact />}</footer>}
 
       <Dialog.Root open={sheetOpen} onOpenChange={setSheetOpen}>
         <Dialog.Portal>
@@ -125,6 +144,16 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
               <FilterFields state={draft} onPatch={changes => setDraft(current => ({ ...current, ...changes }))} />
             </div>
             <div className="mt-5 flex gap-3"><Button variant="secondary" className="flex-1" onClick={resetSheet}>重置</Button><Button variant="primary" className="flex-1" onClick={applySheet}>应用{countActiveFilters(draft) > 0 ? ` (${countActiveFilters(draft)})` : ''}</Button></div>
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>
+      <Dialog.Root open={readAllOpen} onOpenChange={setReadAllOpen}>
+        <Dialog.Portal>
+          <Dialog.Overlay className="fixed inset-0 z-50 bg-overlay" />
+          <Dialog.Content aria-describedby={undefined} className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,440px)] -translate-x-1/2 -translate-y-1/2 rounded-xlarge border border-border-strong bg-surface-raised p-4 shadow-2xl">
+            <Dialog.Title className="text-section-heading">全部标记为已读</Dialog.Title>
+            <p className="mt-3 text-body text-text-secondary">确定将全部未读通知标记为已读？</p>
+            <div className="mt-5 flex justify-end gap-3"><Dialog.Close asChild><Button variant="secondary">取消</Button></Dialog.Close><Button variant="primary" disabled={readAll.isPending} onClick={() => readAll.mutate()}>{readAll.isPending ? '正在处理…' : '确定'}</Button></div>
           </Dialog.Content>
         </Dialog.Portal>
       </Dialog.Root>

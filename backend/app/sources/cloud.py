@@ -41,6 +41,11 @@ class CloudFeedSource(NoticeSource):
         self.client = httpx.AsyncClient(timeout=get_settings().request_timeout, follow_redirects=False)
         self.cloud_source_id = str(config.get("cloud_source_id") or self.code)
         self._cursor_key = f"cloud-feed-cursor:{self.cloud_source_id}"
+        self._baseline_key = f"cloud-feed-baseline:{self.cloud_source_id}"
+        # The first feed import is a migration of public facts, not a stream of
+        # user-facing arrivals.  The runner uses this signal to establish a
+        # local baseline before it creates notification events.
+        self.initial_sync = False
 
     def _load_cursor(self) -> tuple[str | None, int]:
         with SessionLocal() as db:
@@ -57,8 +62,18 @@ class CloudFeedSource(NoticeSource):
             db.add(row)
             db.commit()
 
+    def _has_baseline(self) -> bool:
+        with SessionLocal() as db:
+            return db.get(AppState, self._baseline_key) is not None
+
+    def _save_baseline(self) -> None:
+        with SessionLocal() as db:
+            db.add(AppState(key=self._baseline_key, value="established"))
+            db.commit()
+
     async def fetch_list(self) -> list[NoticeCandidate]:
         updated_after, after_id = self._load_cursor()
+        self.initial_sync = not self._has_baseline()
         results: list[NoticeCandidate] = []
         max_pages = get_settings().source_max_pages
         for _ in range(max_pages):
@@ -114,6 +129,10 @@ class CloudFeedSource(NoticeSource):
             # The cursor advances only after every accepted page was parsed.
             datetime.fromisoformat(updated_after.replace("Z", "+00:00"))
             self._save_cursor(updated_after, after_id)
+        if self.initial_sync:
+            # An empty successful first response also establishes a baseline:
+            # notices arriving on a later poll are genuinely new.
+            self._save_baseline()
         return results
 
     @staticmethod

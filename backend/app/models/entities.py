@@ -92,6 +92,7 @@ class Notice(Base):
     first_seen_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, index=True)
     last_seen_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow)
+    version: Mapped[int] = mapped_column(Integer, default=1, index=True)
 
     source: Mapped[Source] = relationship()
     source_relations: Mapped[list[NoticeSourceRelation]] = relationship(
@@ -151,6 +152,8 @@ class Attachment(Base):
     url: Mapped[str] = mapped_column(String(2000))
     type: Mapped[str] = mapped_column(String(20))
     extracted_text: Mapped[str | None] = mapped_column(Text)
+    content_hash: Mapped[str | None] = mapped_column(String(64), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
 
     notice: Mapped[Notice] = relationship(back_populates="attachments")
 

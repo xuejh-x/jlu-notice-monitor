@@ -15,6 +15,7 @@ from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
 from app.services.normalization import normalize_whitespace
 from app.sources.base import SourceError, StaticHTMLSource
+from app.paths import get_cache_dir
 
 
 OA_NOTICE_CHANNEL_ID = "179577"
@@ -158,10 +159,19 @@ def parse_oa_detail_html(
 ) -> NoticeCandidate:
     soup = BeautifulSoup(html, "html.parser")
     title_node = soup.select_one(".content_t")
-    content_node = soup.select_one(".content_font.fontsize")
+    # OA has used several templates over time.  Keep the selectors scoped to
+    # content containers so navigation and footer text are never promoted to a
+    # notice body.
+    content_node = next((
+        node for selector in (
+            ".content_font.fontsize", ".content_font", ".article-content",
+            ".news-content", "#zoom", ".content", "article", "table",
+        )
+        if isinstance((node := soup.select_one(selector)), Tag)
+    ), None)
     metadata_node = soup.select_one(".content_time")
     if not isinstance(content_node, Tag):
-        raise SourceError("OA_PUBLIC_DETAIL_CONTENT_MISSING")
+        raise SourceError("OA_PUBLIC_DETAIL_PARSER_FAILED")
     for unwanted in content_node.select("script, style, noscript"):
         unwanted.decompose()
     title = (
@@ -170,6 +180,8 @@ def parse_oa_detail_html(
         else fallback.title
     )
     content = normalize_whitespace(content_node.get_text("\n", strip=True))
+    if not content:
+        raise SourceError("OA_PUBLIC_DETAIL_CONTENT_EMPTY")
     publish_date = fallback.publish_date
     publisher = fallback.publisher
     if isinstance(metadata_node, Tag):
@@ -231,7 +243,21 @@ class OAPublicSource(StaticHTMLSource):
 
     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
         html = await self._get(notice.url)
-        parsed = parse_oa_detail_html(html, notice.url, notice)
+        try:
+            parsed = parse_oa_detail_html(html, notice.url, notice)
+        except SourceError:
+            # Retain the exact response only for parser diagnostics.  The file
+            # name is derived from OA's numeric id and contains no URL input.
+            notice_id = _oa_notice_id(notice.url) or "unknown"
+            try:
+                snapshot_dir = get_cache_dir() / "oa-detail-failures"
+                snapshot_dir.mkdir(parents=True, exist_ok=True)
+                (snapshot_dir / f"{notice_id}.html").write_text(html, encoding="utf-8")
+            except OSError:
+                # Diagnostic storage is best-effort; retain the parser error
+                # that tells the crawler what actually failed.
+                pass
+            raise
         attachments: list[AttachmentData] = []
         for reference in parse_oa_attachment_references(html, notice.url)[:50]:
             url = await self._attachment_url(reference, notice.url)

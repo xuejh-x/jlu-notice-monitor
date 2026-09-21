@@ -135,7 +135,7 @@ describe('AppShell navigation', () => {
     expect(screen.getByRole('link', { name: '返回通知列表' })).toHaveAttribute('href', '/notices?favorite=1&q=fixture&page=2')
   })
 
-  it('keeps an auto-read notice in the current unread list until the user re-enters it', async () => {
+  it('keeps an auto-read notice in the current unread list when returning from detail', async () => {
     let markedRead = false
     const fetchMock = vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
       const url = String(input)
@@ -164,8 +164,8 @@ describe('AppShell navigation', () => {
     expect(listGetsBeforeReturn).toBe(1)
 
     fireEvent.click(screen.getAllByRole('link', { name: '返回通知列表' })[0])
-    await waitFor(() => expect(screen.queryByRole('link', { name: `打开${notice.title}` })).not.toBeInTheDocument())
-    expect(fetchMock.mock.calls.filter(([input, init]) => !init?.method && String(input).includes('/api/notices?')).length).toBe(2)
+    expect(screen.getByRole('link', { name: `打开${notice.title}` })).toBeInTheDocument()
+    expect(fetchMock.mock.calls.filter(([input, init]) => !init?.method && String(input).includes('/api/notices?')).length).toBe(1)
   })
 
   it('uses the existing source codes and keeps a source active while paging', async () => {

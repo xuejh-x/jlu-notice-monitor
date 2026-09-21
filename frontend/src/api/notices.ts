@@ -32,4 +32,5 @@ export const getDeadlineNotices = (days = 30, options?: ApiRequestOptions) => ap
 export const getNotice = (id: number, options?: ApiRequestOptions) => apiRequest<NoticeDetail>(`/api/notices/${id}`, undefined, options)
 export const searchNotices = (keyword: string, options?: ApiRequestOptions) => apiRequest<NoticesWireResponse>(`/api/search?keyword=${encodeURIComponent(keyword)}&page_size=20`, undefined, options).then(normalizePage)
 export const setNoticeRead = (id: number, read: boolean) => apiRequest<Extract<NoticeStateResult, { is_read: boolean }>>(`/api/notices/${id}/${read ? 'read' : 'unread'}`, { method: 'POST' })
+export const setAllNoticesRead = () => apiRequest<{ updated: number }>('/api/notices/read-all', { method: 'POST' })
 export const setNoticeFavorite = (id: number, favorite: boolean) => apiRequest<Extract<NoticeStateResult, { is_favorite: boolean }>>(`/api/notices/${id}/${favorite ? 'favorite' : 'unfavorite'}`, { method: 'POST' })

@@ -76,6 +76,10 @@ def test_notice_api_and_dashboard() -> None:
         assert unread_detail["is_read"] is False
         assert unread_detail["is_favorite"] is True
         assert client.post(f"/api/notices/{notice.id}/read").json()["is_read"] is True
+        assert client.post("/api/notices/read-all").json() == {"updated": 0}
+        client.post(f"/api/notices/{notice.id}/unread")
+        assert client.post("/api/notices/read-all").json() == {"updated": 1}
+        assert client.post("/api/notices/read-all").json() == {"updated": 0}
         read_detail = client.get(f"/api/notices/{notice.id}").json()
         assert read_detail["is_read"] is True
         assert read_detail["is_favorite"] is True

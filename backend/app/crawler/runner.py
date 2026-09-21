@@ -678,7 +678,8 @@ class CrawlerManager:
                 run_result.list_duration_seconds = round(run_result.list_duration_seconds, 3)
                 run_result.detail_duration_seconds = round(run_result.detail_duration_seconds, 3)
                 run_result.parse_db_duration_seconds = round(run_result.parse_db_duration_seconds, 3)
-                record_source_health_transition(db, db_source, previous_health_state)
+                if get_settings().effective_deployment_role != "cloud":
+                    record_source_health_transition(db, db_source, previous_health_state)
                 db.commit()
         log_event(
             logger, logging.INFO, "source_finished", source=code, status=run_result.status,
@@ -743,11 +744,14 @@ class CrawlerManager:
                     run_result.detail_duration_seconds += time.perf_counter() - detail_started
                     run_result.detail_fetched += 1
                     persist_started = time.perf_counter()
+                    # A desktop's first Cloud Feed pass imports the cloud's
+                    # existing corpus.  Absence from local SQLite is not proof
+                    # that a notice was newly published to this user.
                     state = self._persist_candidate(
                         db,
                         db_source,
                         detail,
-                        bootstrap,
+                        bootstrap or bool(getattr(adapter, "initial_sync", False)),
                         dedup_across_sources=bool(config.get("dedup_across_sources", False)),
                     )
                     run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
@@ -1011,18 +1015,15 @@ class CrawlerManager:
             )
             db.add(notice)
             db.flush()
-            recent_cutoff = date.today() - timedelta(days=get_settings().bootstrap_recent_days)
-            recent_important = bool(
-                candidate.publish_date
-                and candidate.publish_date >= recent_cutoff
-                and score >= 70
-            )
-            db.add(
-                UserState(
-                    notice_id=notice.id,
-                    is_read=bootstrap and not recent_important,
+            if get_settings().effective_deployment_role != "cloud":
+                db.add(
+                    UserState(
+                        notice_id=notice.id,
+                        # Bootstrap means the item pre-dates this local
+                        # notification baseline, regardless of importance.
+                        is_read=bootstrap,
+                    )
                 )
-            )
             state = "UNCHANGED" if bootstrap else "NEW"
         elif existing_relation and existing_relation.content_hash != digest:
             old_hash = existing_relation.content_hash
@@ -1050,6 +1051,7 @@ class CrawlerManager:
                 notice.registration_method = registration_method
                 notice.competition_level = competition_level
             notice.updated_at = now
+            notice.version += 1
             state = "UPDATED"
         if notice.public_id is None and candidate.public_id:
             notice.public_id = candidate.public_id
@@ -1090,9 +1092,11 @@ class CrawlerManager:
                         filename=attachment.filename,
                         url=attachment.url,
                         type=attachment.type,
+                        content_hash=content_hash(attachment.filename, attachment.url),
                     )
                 )
-        record_notice_event(db, notice, state, old_deadline=old_deadline)
+        if get_settings().effective_deployment_role != "cloud":
+            record_notice_event(db, notice, state, old_deadline=old_deadline)
         db.commit()
         return state
 

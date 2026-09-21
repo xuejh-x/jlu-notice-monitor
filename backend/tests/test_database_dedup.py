@@ -58,6 +58,7 @@ def test_persist_new_unchanged_and_updated() -> None:
         assert len(db.scalars(select(Notice)).all()) == 1
         assert len(db.scalars(select(NoticeSourceRelation)).all()) == 1
         assert len(db.scalars(select(NoticeUpdate)).all()) == 1
+        assert db.scalar(select(Notice)).version == 2
 
 
 def test_cross_source_versions_keep_independent_hashes() -> None:
@@ -101,3 +102,30 @@ def test_bootstrap_marks_history_as_baseline_and_read() -> None:
         state = db.scalar(select(UserState))
         assert notice is not None and notice.status == "baseline"
         assert state is not None and state.is_read is True
+
+
+def test_cloud_initial_sync_marks_even_recent_items_as_baseline_and_read() -> None:
+    with make_session() as db:
+        source = Source(code="oa", name="OA", base_url="https://oa.jlu.edu.cn")
+        db.add(source)
+        db.commit()
+        item = NoticeCandidate(
+            title="云端已有通知",
+            url="https://oa.jlu.edu.cn/info/recent.htm",
+            content="历史同步正文",
+            publish_date=date.today(),
+        )
+        assert CrawlerManager._persist_candidate(db, source, item, True) == "UNCHANGED"
+        assert db.scalar(select(Notice)).status == "baseline"
+        assert db.scalar(select(UserState)).is_read is True
+
+
+def test_new_notice_after_baseline_remains_new_and_unread() -> None:
+    with make_session() as db:
+        source = Source(code="oa", name="OA", base_url="https://oa.jlu.edu.cn")
+        db.add(source)
+        db.commit()
+        item = NoticeCandidate(title="真正新增通知", url="https://oa.jlu.edu.cn/info/new.htm", content="新正文")
+        assert CrawlerManager._persist_candidate(db, source, item, False) == "NEW"
+        assert db.scalar(select(Notice)).status == "active"
+        assert db.scalar(select(UserState)).is_read is False

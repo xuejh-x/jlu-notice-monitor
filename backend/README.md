@@ -61,6 +61,23 @@ API 默认地址为 `http://127.0.0.1:8000`，Swagger 为 `http://127.0.0.1:8000
 
 手动抓取 API 使用进程内任务和跨进程文件锁，重复请求返回 409；单个 Source 或单条详情失败会被记录，但不会中止其他公开 Source。
 
+## Phase 1.5 Cloud 数据层
+
+Cloud API 与 Desktop API 使用独立入口。Desktop 继续使用 SQLite 和 `app.main:app`；Cloud 使用 PostgreSQL、`app.cloud.main:app`，只公开通知、来源和附件事实，不写入已读、收藏、通知事件或投递状态。
+
+本机运行 Cloud 工具或 PostgreSQL 集成测试时安装对应 extras：
+
+```powershell
+Set-Location backend
+.\.venv\Scripts\python.exe -m pip install -e ".[dev,cloud]"
+```
+
+```powershell
+docker compose -f docker-compose.cloud.yml up --build
+```
+
+首次启动会先执行 Alembic migration，再启动 API 与复用现有 Source Adapter 的 Cloud Worker。Cloud API 位于 `http://127.0.0.1:8000/api`。SQLite 公共数据迁移命令及运维约束见 `docs/cloud/migration-plan.md`。
+
 ## 当前公开数据源
 
 默认启用并已用真实公开页面验证：

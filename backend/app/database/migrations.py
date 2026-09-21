@@ -50,6 +50,15 @@ STAGE17_2_RELATION_COLUMNS: tuple[tuple[str, str], ...] = (
     ("origin_item_key", "VARCHAR(160)"),
 )
 
+PHASE15_NOTICE_COLUMNS: tuple[tuple[str, str], ...] = (
+    ("version", "INTEGER NOT NULL DEFAULT 1"),
+)
+
+PHASE15_ATTACHMENT_COLUMNS: tuple[tuple[str, str], ...] = (
+    ("content_hash", "VARCHAR(64)"),
+    ("created_at", "DATETIME"),
+)
+
 
 def _add_missing_columns(engine: Engine, table: str, columns: Iterable[tuple[str, str]]) -> None:
     existing = {column["name"] for column in inspect(engine).get_columns(table)}
@@ -224,5 +233,24 @@ def run_stage17_2_migrations(engine: Engine) -> None:
         )
         connection.execute(
             text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('17.2', :now)"),
+            {"now": now},
+        )
+
+
+def run_phase15_cloud_data_migrations(engine: Engine) -> None:
+    """Add sync-ready public fact metadata to existing Desktop SQLite databases."""
+
+    if engine.dialect.name != "sqlite":
+        return
+    _add_missing_columns(engine, "notices", PHASE15_NOTICE_COLUMNS)
+    _add_missing_columns(engine, "attachments", PHASE15_ATTACHMENT_COLUMNS)
+    now = datetime.now(UTC).replace(tzinfo=None).isoformat(sep=" ")
+    with engine.begin() as connection:
+        connection.execute(text("UPDATE notices SET version = 1 WHERE version IS NULL OR version < 1"))
+        connection.execute(text("UPDATE attachments SET created_at = :now WHERE created_at IS NULL"), {"now": now})
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_notices_version ON notices (version)"))
+        connection.execute(text("CREATE INDEX IF NOT EXISTS ix_attachments_content_hash ON attachments (content_hash)"))
+        connection.execute(
+            text("INSERT OR IGNORE INTO schema_migrations (version, applied_at) VALUES ('phase-1.5', :now)"),
             {"now": now},
         )

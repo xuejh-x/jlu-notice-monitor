@@ -43,6 +43,7 @@ def init_db() -> None:
         run_gate14_migrations,
         run_stage17_1_migrations,
         run_stage17_2_migrations,
+        run_phase15_cloud_data_migrations,
     )
 
     Base.metadata.create_all(bind=engine)
@@ -51,6 +52,7 @@ def init_db() -> None:
     run_gate14_migrations(engine)
     run_stage17_1_migrations(engine)
     run_stage17_2_migrations(engine)
+    run_phase15_cloud_data_migrations(engine)
     if engine_url.startswith("sqlite"):
         with engine.begin() as connection:
             connection.exec_driver_sql("PRAGMA optimize")
