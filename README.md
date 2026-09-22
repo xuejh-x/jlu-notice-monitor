@@ -4,11 +4,11 @@ English | [中文](README_zh-CN.md)
 
 > A Windows desktop app that aggregates, deduplicates, filters, and delivers notices from official campus sources.
 
-## Current stable release: v0.7.0-rc3
+## Current stable release: v0.7.1
 
-- [Release notes and downloads](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.0-rc3)
-- [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.0-rc3/JLU.Notice.Monitor_0.7.0-rc3_x64-setup.exe)
-- [SHA256SUMS](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.0-rc3/SHA256SUMS.txt)
+- [Release notes and downloads](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.1)
+- [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.1/JLU.Notice.Monitor_0.7.1_x64-setup.exe)
+- [SHA256SUMS](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.1/SHA256SUMS.txt)
 
 The currently distributed desktop package is for Windows x64.
 
@@ -29,7 +29,7 @@ JLU Notice Monitor helps students follow important announcements without repeate
 
 ## Supported sources
 
-The bundled v0.7.0-rc3 adapters cover:
+The bundled v0.7.1 adapters cover:
 
 - Jilin University OA public campus notices
 - School of Cyber Science and Engineering
@@ -72,12 +72,12 @@ PostgreSQL support is included for Cloud deployment, but a production Cloud depl
 
 ## Install on Windows
 
-1. Open the [v0.7.0-rc3 GitHub Release](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.0-rc3).
-2. Download the [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.0-rc3/JLU.Notice.Monitor_0.7.0-rc3_x64-setup.exe) and [SHA256SUMS](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.0-rc3/SHA256SUMS.txt).
+1. Open the [v0.7.1 GitHub Release](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.1).
+2. Download the [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.1/JLU.Notice.Monitor_0.7.1_x64-setup.exe) and [SHA256SUMS](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.1/SHA256SUMS.txt).
 3. Verify the checksum in PowerShell:
 
    ```powershell
-   Get-FileHash -Algorithm SHA256 '.\JLU.Notice.Monitor_0.7.0-rc3_x64-setup.exe'
+   Get-FileHash -Algorithm SHA256 '.\JLU.Notice.Monitor_0.7.1_x64-setup.exe'
    ```
 
 4. Run the installer and launch **JLU Notice Monitor** from the Start menu or shortcut.
@@ -95,7 +95,7 @@ The Cloud data model, PostgreSQL deployment configuration, and migrations are pa
 
 ## Release notes and known limitations
 
-v0.7.0-rc3 passed the recorded automated regression suites and installer integrity verification. The following real-environment checks remain incomplete:
+v0.7.1 fixes Cloud-first local fallback initial-sync handling and passed the recorded automated regression suites and installer integrity verification. The following real-environment checks remain incomplete:
 
 - Windows clean-install and prior-version upgrade acceptance have not been fully exercised on an isolated machine.
 - PostgreSQL live-instance testing and production Cloud-chain verification have not been completed.
