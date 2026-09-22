@@ -14,7 +14,7 @@ import app.crawler.runner as runner_module
 from app.crawler.runner import CrawlerManager
 from app.database import Base
 from app.database.migrations import run_stage17_2_migrations
-from app.models import Notice, NotificationEvent, NotificationPreference, Source
+from app.models import AppState, Notice, NotificationEvent, NotificationPreference, Source, UserState
 from app.schemas.notice import NoticeCandidate
 from app.services.notice_identity import origin_item_key
 from app.sources.base import SourceError
@@ -141,9 +141,12 @@ async def test_cloud_failure_falls_back_to_local_and_produces_one_final_result(
             calls,
         )
 
+        db.add(NotificationPreference(id=1, enabled=True))
+        db.commit()
         result = await CrawlerManager(tmp_path)._run_source(cloud_preferred_config(), False)
 
-        assert result.status == "success" and result.new_count == 1
+        assert result.status == "success" and result.new_count == 0
+        assert result.unchanged_count == 1
         assert result.effective_execution == "local"
         assert result.fallback_used is True
         assert result.fallback_reason == PUBLIC_FEED_NETWORK_ERROR
@@ -152,6 +155,72 @@ async def test_cloud_failure_falls_back_to_local_and_produces_one_final_result(
             ("local", "success"),
         ]
         assert calls == ["cloud_feed", "oa_public"]
+        assert db.scalar(select(Notice)).status == "baseline"
+        assert db.scalar(select(UserState)).is_read is True
+        assert db.scalar(select(NotificationEvent)) is None
+        assert db.get(AppState, "local-fallback-baseline:1") is not None
+
+
+@pytest.mark.asyncio
+async def test_local_fallback_baseline_makes_later_items_new_and_unread(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    historical = NoticeCandidate(
+        public_id="official-old",
+        title="Historical fallback notice",
+        url="https://official.test/notices/old",
+        content="old body",
+    )
+    new = NoticeCandidate(
+        public_id="official-new",
+        title="New fallback notice",
+        url="https://official.test/notices/new",
+        content="new body",
+    )
+    with make_session() as db:
+        db.add(Source(code="official", name="Official", base_url="https://official.test"))
+        db.add(NotificationPreference(id=1, enabled=True))
+        db.commit()
+        calls: list[str] = []
+        cloud = FixtureAdapter(error=SourceError(PUBLIC_FEED_NETWORK_ERROR))
+        local = FixtureAdapter([historical])
+        configure_run(monkeypatch, db, {"cloud_feed": cloud, "oa_public": local}, calls)
+        manager = CrawlerManager(tmp_path)
+
+        first = await manager._run_source(cloud_preferred_config(), False)
+        local.items = [historical, new]
+        second = await manager._run_source(cloud_preferred_config(), False)
+
+        assert first.new_count == 0
+        assert second.new_count == 1
+        new_notice = db.scalar(select(Notice).where(Notice.public_id == "official-new"))
+        assert new_notice is not None
+        assert db.scalar(select(UserState).where(UserState.notice_id == new_notice.id)).is_read is False
+        assert db.scalar(select(NotificationEvent).where(NotificationEvent.notice_id == new_notice.id)) is not None
+
+
+@pytest.mark.asyncio
+async def test_failed_or_empty_local_fallback_does_not_establish_baseline(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    with make_session() as db:
+        db.add(Source(code="official", name="Official", base_url="https://official.test"))
+        db.commit()
+        calls: list[str] = []
+        configure_run(
+            monkeypatch,
+            db,
+            {
+                "cloud_feed": FixtureAdapter(error=SourceError(PUBLIC_FEED_NETWORK_ERROR)),
+                "oa_public": FixtureAdapter([]),
+            },
+            calls,
+        )
+
+        result = await CrawlerManager(tmp_path)._run_source(cloud_preferred_config(), False)
+
+        assert result.status == "success"
+        assert db.get(AppState, "local-fallback-baseline:1") is None
 
 
 @pytest.mark.asyncio
@@ -180,6 +249,7 @@ async def test_cloud_failure_and_local_failure_return_one_failed_source_result(
         assert [attempt.status for attempt in result.attempts] == ["failure", "failure"]
         assert len(result.errors) == 2
         assert calls == ["cloud_feed", "oa_public"]
+        assert db.get(AppState, "local-fallback-baseline:1") is None
 
 
 @pytest.mark.asyncio
@@ -220,7 +290,7 @@ async def test_shared_cloud_source_never_falls_back(
 
 
 @pytest.mark.asyncio
-async def test_cloud_and_local_identity_dedupes_notice_and_notification_event(
+async def test_cloud_recovery_after_local_fallback_does_not_recreate_history(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
     url = "https://official.test/notices/42?utm_source=cloud"
@@ -253,10 +323,44 @@ async def test_cloud_and_local_identity_dedupes_notice_and_notification_event(
         cloud.items = [cloud_item]
         second = await manager._run_source(cloud_preferred_config(), False)
 
-        assert first.new_count == 1 and first.fallback_used is True
+        assert first.new_count == 0 and first.fallback_used is True
         assert second.unchanged_count == 1 and second.fallback_used is False
         assert len(db.scalars(select(Notice)).all()) == 1
-        assert len(db.scalars(select(NotificationEvent)).all()) == 1
+        assert db.scalar(select(UserState)).is_read is True
+        assert db.get(AppState, "local-fallback-baseline:1") is not None
+        assert len(db.scalars(select(NotificationEvent)).all()) == 0
+
+
+@pytest.mark.asyncio
+async def test_new_source_first_local_fallback_uses_its_own_baseline(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    config = {**cloud_preferred_config(), "code": "new-source", "cloud_source_id": "new-source"}
+    item = NoticeCandidate(
+        public_id="new-source-old",
+        title="Historical notice for a newly added source",
+        url="https://official.test/notices/new-source-old",
+        content="body",
+    )
+    with make_session() as db:
+        db.add(Source(code="new-source", name="New source", base_url="https://official.test"))
+        db.commit()
+        calls: list[str] = []
+        configure_run(
+            monkeypatch,
+            db,
+            {
+                "cloud_feed": FixtureAdapter(error=SourceError(PUBLIC_FEED_NETWORK_ERROR)),
+                "oa_public": FixtureAdapter([item]),
+            },
+            calls,
+        )
+
+        result = await CrawlerManager(tmp_path)._run_source(config, False)
+
+        assert result.new_count == 0
+        assert db.scalar(select(UserState)).is_read is True
+        assert db.get(AppState, "local-fallback-baseline:1") is not None
 
 
 def test_origin_item_key_prefers_native_id_then_canonical_url_hash() -> None:

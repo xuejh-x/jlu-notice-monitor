@@ -18,7 +18,7 @@ from sqlalchemy.orm import Session
 from app.classifier import classify_notice, score_importance
 from app.config import get_settings, load_yaml
 from app.database import SessionLocal, init_db
-from app.models import Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
+from app.models import AppState, Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
 from app.schemas.notice import NoticeCandidate
 from app.services.dates import extract_dates
 from app.services.deduplication import find_duplicate
@@ -643,6 +643,13 @@ class CrawlerManager:
                     run_result.fallback_used = True
                     run_result.fallback_reason = fallback_reason
                     run_result.effective_execution = "local"
+                    # A Cloud-first source can legitimately fall back before
+                    # this device has ever imported its local listing.  That
+                    # first successful local listing is a source-specific
+                    # baseline, not a user-facing stream of new notices.
+                    local_fallback_initial_sync = not self._has_local_fallback_baseline(
+                        db, db_source
+                    )
                     local_config = {
                         **config,
                         "parser": str(config["fallback_parser"]),
@@ -656,9 +663,16 @@ class CrawlerManager:
                         fallback_reason=fallback_reason,
                     )
                     try:
-                        await self._execute_source_attempt(
-                            db, db_source, local_config, bootstrap, run_result, "local"
+                        local_fallback_succeeded = await self._execute_source_attempt(
+                            db,
+                            db_source,
+                            local_config,
+                            bootstrap or local_fallback_initial_sync,
+                            run_result,
+                            "local",
                         )
+                        if local_fallback_initial_sync and local_fallback_succeeded:
+                            self._save_local_fallback_baseline(db, db_source)
                     except Exception as local_exc:
                         run_result.errors.append(
                             f"cloud:{type(cloud_exc).__name__}: {cloud_exc}"
@@ -692,6 +706,21 @@ class CrawlerManager:
         )
         return run_result
 
+    @staticmethod
+    def _local_fallback_baseline_key(source: Source) -> str:
+        return f"local-fallback-baseline:{source.id}"
+
+    @classmethod
+    def _has_local_fallback_baseline(cls, db: Session, source: Source) -> bool:
+        return db.get(AppState, cls._local_fallback_baseline_key(source)) is not None
+
+    @classmethod
+    def _save_local_fallback_baseline(cls, db: Session, source: Source) -> None:
+        key = cls._local_fallback_baseline_key(source)
+        if db.get(AppState, key) is None:
+            db.add(AppState(key=key, value="established"))
+            db.commit()
+
     async def _execute_source_attempt(
         self,
         db: Session,
@@ -700,7 +729,7 @@ class CrawlerManager:
         bootstrap: bool,
         run_result: SourceRunResult,
         execution: str,
-    ) -> None:
+    ) -> bool:
         attempt = SourceAttemptResult(execution=execution)
         run_result.attempts.append(attempt)
         adapter = None
@@ -802,6 +831,7 @@ class CrawlerManager:
             ) = tuple(current - previous for current, previous in zip(after, before, strict=True))
             if adapter is not None:
                 await adapter.close()
+        return attempt.status == "success" and attempt.fetched > 0
 
     @staticmethod
     def _record_source_failure(
