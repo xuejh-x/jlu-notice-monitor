@@ -27,6 +27,7 @@ from app.services.notice_identity import origin_item_key
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
 from app.services.source_identity import default_execution_policy, resolve_cloud_execution, source_identity
 from app.services.importance import enabled_rule_values
+from app.services.retention import notice_is_expired
 from app.services.notifications import record_notice_event, record_source_health_transition
 from app.services.credentials import credential_store
 from app.sources import build_source
@@ -762,6 +763,10 @@ class CrawlerManager:
                     run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
                     break
                 try:
+                    # Do not fetch details or recreate user state for a dated
+                    # item that the retention job would immediately remove.
+                    if notice_is_expired(item.publish_date, get_settings(), now=utcnow()):
+                        continue
                     existing = self._find_unchanged_list_item(db, db_source, item)
                     if existing is not None:
                         self._mark_seen_without_detail(db, existing, db_source, item)
@@ -772,6 +777,9 @@ class CrawlerManager:
                     detail = await adapter.fetch_detail(item)
                     run_result.detail_duration_seconds += time.perf_counter() - detail_started
                     run_result.detail_fetched += 1
+                    # Some lists omit dates; use detail metadata when available.
+                    if notice_is_expired(detail.publish_date, get_settings(), now=utcnow()):
+                        continue
                     persist_started = time.perf_counter()
                     # A desktop's first Cloud Feed pass imports the cloud's
                     # existing corpus.  Absence from local SQLite is not proof
@@ -784,7 +792,9 @@ class CrawlerManager:
                         dedup_across_sources=bool(config.get("dedup_across_sources", False)),
                     )
                     run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
-                    if state == "NEW":
+                    if state == "SKIPPED":
+                        continue
+                    elif state == "NEW":
                         run_result.new_count += 1
                     elif state == "UPDATED":
                         run_result.updated_count += 1
@@ -959,6 +969,9 @@ class CrawlerManager:
         dedup_across_sources: bool = False,
     ) -> str:
         now = utcnow()
+        # Also protect direct imports and callers outside the crawler loop.
+        if notice_is_expired(candidate.publish_date, get_settings(), now=now):
+            return "SKIPPED"
         normalized = normalize_title(candidate.title)
         canonical = canonicalize_url(candidate.url)
         item_key = candidate.origin_item_key or origin_item_key(

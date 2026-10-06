@@ -190,14 +190,14 @@ function StorageManagement() {
   return <>
     <SettingRow id="storage-size" title="数据库大小" description="当前设备本地通知数据库占用的空间。"><span className="text-sm font-medium text-text-primary">{value.database_size}</span></SettingRow>
     <SettingRow id="storage-notice-count" title="通知数量" description={`本地共保存 ${value.total_notifications} 条通知。`}><span className="text-sm font-medium text-text-primary">{value.total_notifications} 条</span></SettingRow>
-    <SettingRow id="storage-cleanup-candidates" title="可清理通知" description={`超过 ${value.retention_days} 天且不受保留规则保护的通知。上次清理：${lastCleanup}。`}><span className="text-sm font-medium text-text-primary">{value.cleanup_candidates} 条</span></SettingRow>
-    <SettingRow id="storage-cleanup-action" title="清理旧通知" description="未读、已收藏和高重要度通知会保留；其他超过保留期的通知及其本地附件元数据会被删除。"><Button variant="danger" disabled={cleanup.isPending} onClick={() => setConfirmOpen(true)}>清理旧通知</Button></SettingRow>
+    <SettingRow id="storage-cleanup-candidates" title="可清理通知" description={`发布时间超过 ${value.retention_days} 天的通知。上次清理：${lastCleanup}。`}><span className="text-sm font-medium text-text-primary">{value.cleanup_candidates} 条</span></SettingRow>
+    <SettingRow id="storage-cleanup-action" title="清理旧通知" description="超过保留期的通知及其本地关联数据会被删除，包括未读、已收藏和高重要度通知；发布日期不明确的通知会保留。"><Button variant="danger" disabled={cleanup.isPending} onClick={() => setConfirmOpen(true)}>清理旧通知</Button></SettingRow>
     <Dialog.Root open={confirmOpen} onOpenChange={setConfirmOpen}>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 z-50 bg-overlay"/>
         <Dialog.Content aria-describedby="storage-cleanup-description" className="fixed left-1/2 top-1/2 z-50 w-[min(92vw,440px)] -translate-x-1/2 -translate-y-1/2 rounded-xlarge border border-border-strong bg-surface-raised p-5 shadow-2xl">
           <Dialog.Title className="text-section-heading text-text-primary">清理旧通知</Dialog.Title>
-          <Dialog.Description id="storage-cleanup-description" className="mt-2 text-sm leading-6 text-text-secondary">将删除 {value.cleanup_candidates} 条超过 {value.retention_days} 天的通知及其本地关联数据。未读、已收藏和高重要度通知不会被删除。</Dialog.Description>
+          <Dialog.Description id="storage-cleanup-description" className="mt-2 text-sm leading-6 text-text-secondary">将删除 {value.cleanup_candidates} 条超过 {value.retention_days} 天的通知及其本地关联数据，包括未读、已收藏和高重要度通知。发布日期不明确的通知会保留。</Dialog.Description>
           {cleanup.isError && <p role="alert" className="mt-3 text-sm text-danger">{cleanup.error.message}</p>}
           <div className="mt-5 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end"><Dialog.Close asChild><Button variant="ghost" disabled={cleanup.isPending}>取消</Button></Dialog.Close><Button variant="danger" disabled={cleanup.isPending} onClick={() => cleanup.mutate()}>{cleanup.isPending ? '正在清理…' : '确认清理'}</Button></div>
         </Dialog.Content>

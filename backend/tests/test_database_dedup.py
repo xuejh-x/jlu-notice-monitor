@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, timedelta
 
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
@@ -95,7 +95,8 @@ def test_bootstrap_marks_history_as_baseline_and_read() -> None:
             title="历史教学通知",
             url="https://ccst.jlu.edu.cn/info/old.htm",
             content="历史正文",
-            publish_date=date(2020, 1, 1),
+            # History inside the retention window must still bootstrap as read.
+            publish_date=date.today() - timedelta(days=90),
         )
         assert CrawlerManager._persist_candidate(db, source, item, True) == "UNCHANGED"
         notice = db.scalar(select(Notice))

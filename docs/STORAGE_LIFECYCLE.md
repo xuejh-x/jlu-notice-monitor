@@ -2,13 +2,15 @@
 
 ## 留存规则
 
-默认保留期为 365 天。通知的 `publish_date` 早于当前日期减 365 天时可被清理；没有发布日期的通知则按 `first_seen_at` 判断。通过 `JLU_RETENTION_DAYS` 可调整保留天数，默认值为 365。
+默认保留期为 365 天。通知的 `publish_date` 早于当前 UTC 日期减 365 天时不再导入，并清理已有记录；边界当天保留。没有发布日期的通知保留，不以发现/同步时间代替发布日期。通过 `JLU_RETENTION_DAYS` 可调整保留天数，默认值为 365。
 
 ## 云端与本地处理
 
 - Cloud 部署会清理所有超过保留期的通知。清理前会删除绑定到该通知的 `NotificationEvent`，其 `NotificationDelivery` 继续由既有级联外键删除；附件元数据、来源关系、更新记录和用户状态由既有通知外键删除。
-- Desktop/standalone 本地库在相同日期规则外，保留未读、已收藏以及重要度分数不低于 80 的通知。高重要度阈值可由 `JLU_RETENTION_HIGH_IMPORTANCE_SCORE` 调整。
+- Desktop/standalone 本地库也清理所有超过保留期的通知，包括未读、收藏和高重要度通知。`JLU_RETENTION_HIGH_IMPORTANCE_SCORE` 为兼容旧配置保留，不再作为保留期例外。
 - 两种部署都不会删除 `Source`、来源配置或与待删除通知无关的元数据。
+
+列表有发布日期时在抓取详情前过滤过期项；列表无日期时，在详情解析后过滤。统一入库函数也执行同一规则，防止 Cloud Feed、本地 fallback 或直接导入重新创建旧通知的 NEW/未读状态。软件学院等嵌套列表会从同一条列表行提取日期。
 
 ## 自动与手动清理
 

@@ -447,6 +447,16 @@ test('Storage management confirms manual cleanup and refreshes its statistics', 
   await page.goto('/settings')
   await expect(page.getByText('可清理通知')).toBeVisible()
   await expect(page.getByText('1 条', { exact: true })).toBeVisible()
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: 900 })
+    await page.getByRole('button', { name: '清理旧通知' }).click()
+    const preview = page.getByRole('dialog', { name: '清理旧通知' })
+    await expect(preview).toContainText('包括未读、已收藏和高重要度通知')
+    await expect(preview).toContainText('发布日期不明确的通知会保留')
+    expect(await page.locator('body').evaluate(element => element.scrollWidth)).toBeLessThanOrEqual(width)
+    await preview.getByRole('button', { name: '取消' }).click()
+    await expect(page.getByText('1 条', { exact: true })).toBeVisible()
+  }
   await page.getByRole('button', { name: '清理旧通知' }).click()
   const dialog = page.getByRole('dialog', { name: '清理旧通知' })
   await expect(dialog).toContainText('1 条超过 365 天的通知')

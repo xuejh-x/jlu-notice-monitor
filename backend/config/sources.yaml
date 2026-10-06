@@ -19,7 +19,7 @@ sources:
     parser: ccst
     sections:
       - name: 教学通知
-        url: https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz/176.htm
+        url: https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm
 
   - code: csw
     name: 吉林大学软件学院

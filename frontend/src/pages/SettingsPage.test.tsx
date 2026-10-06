@@ -23,7 +23,7 @@ vi.mock('../services/desktopNotifications', () => ({
 }))
 
 const notificationPreferences = { enabled: false, new_notice_enabled: true, important_notice_enabled: true, deadline_enabled: true, source_health_enabled: true, daily_summary_enabled: true, minimum_importance: 70, deadline_lead_days: [7, 3, 1], quiet_start: '23:00', quiet_end: '08:00' }
-const storageStatus = { database_size: '1.0 MB', database_size_bytes: 1048576, total_notifications: 12, cleanup_candidates: 2, last_cleanup_at: null, retention_days: 365, preserves_local_exceptions: true }
+const storageStatus = { database_size: '1.0 MB', database_size_bytes: 1048576, total_notifications: 12, cleanup_candidates: 2, last_cleanup_at: null, retention_days: 365, preserves_local_exceptions: false }
 
 function renderPage() {
   const client = new QueryClient({ defaultOptions: { queries: { retry: false }, mutations: { retry: false } } })
@@ -137,6 +137,8 @@ describe('SettingsPage', () => {
     expect(cleanOldNotifications).not.toHaveBeenCalled()
     const dialog = screen.getByRole('dialog', { name: '清理旧通知' })
     expect(dialog).toHaveTextContent('2 条超过 365 天的通知')
+    expect(dialog).toHaveTextContent('包括未读、已收藏和高重要度通知')
+    expect(dialog).toHaveTextContent('发布日期不明确的通知会保留')
     fireEvent.click(screen.getByRole('button', { name: '确认清理' }))
     await waitFor(() => expect(cleanOldNotifications).toHaveBeenCalledTimes(1))
     await waitFor(() => expect(screen.getByText('0 条', { exact: true })).toBeInTheDocument())

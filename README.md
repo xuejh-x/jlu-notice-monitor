@@ -12,6 +12,8 @@ English | [中文](README_zh-CN.md)
 
 The currently distributed desktop package is for Windows x64.
 
+The repository now contains the **v0.7.2** retention fix; the public installer links above remain v0.7.1 until a new release is published. v0.7.2 skips notices published more than 365 days ago and removes existing expired records, including unread, favorite, and high-importance notices. Notices without a known publication date are retained. See [v0.7.2 notes](docs/RELEASE_NOTES_v0.7.2.md).
+
 JLU Notice Monitor helps students follow important announcements without repeatedly checking separate university and department websites. It currently ships with Jilin University sources, while its source-adapter model is designed to support other public organizations and campuses.
 
 ![JLU Notice Monitor desktop interface](docs/design/ui-v2-stage3.3/after-1440x900.png)

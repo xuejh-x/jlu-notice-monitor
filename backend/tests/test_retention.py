@@ -35,7 +35,7 @@ def add_notice(
     return notice
 
 
-def test_local_retention_deletes_only_safe_old_notice_and_dependent_data() -> None:
+def test_local_retention_deletes_all_dated_old_notices_and_dependent_data() -> None:
     engine = create_engine("sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool)
     Base.metadata.create_all(engine)
     db = Session(engine)
@@ -53,13 +53,15 @@ def test_local_retention_deletes_only_safe_old_notice_and_dependent_data() -> No
     db.commit()
 
     settings = Settings(_env_file=None, deployment_role="desktop")
-    assert storage_status(db, settings, now=NOW)["cleanup_candidates"] == 1
+    assert storage_status(db, settings, now=NOW)["cleanup_candidates"] == 4
+    assert storage_status(db, settings, now=NOW)["preserves_local_exceptions"] is False
     result = cleanup_notices(db, settings, now=NOW)
     db.commit()
 
-    assert result.deleted_count == 1
-    assert db.get(Notice, old.id) is None
-    assert all(db.get(Notice, item.id) is not None for item in (recent, unread, favorite, important))
+    assert result.deleted_count == 4
+    assert all(db.get(Notice, item.id) is None for item in (old, unread, favorite, important))
+    assert db.get(Notice, recent.id) is not None
+    assert db.scalars(select(Favorite)).all() == []
     assert db.scalars(select(Attachment).where(Attachment.notice_id == old.id)).all() == []
     assert db.scalars(select(NotificationEvent).where(NotificationEvent.notice_id == old.id)).all() == []
     assert db.scalars(select(NotificationDelivery)).all() == []
@@ -107,12 +109,12 @@ def test_storage_status_and_manual_cleanup_api_refresh_counts() -> None:
         before = client.get("/api/storage/status")
         assert before.status_code == 200
         assert before.json()["total_notifications"] == 2
-        assert before.json()["cleanup_candidates"] == 1
+        assert before.json()["cleanup_candidates"] == 2
         assert before.json()["database_size_bytes"] > 0
         cleaned = client.post("/api/storage/cleanup")
         assert cleaned.status_code == 200
-        assert cleaned.json()["deleted_count"] == 1
-        assert cleaned.json()["total_notifications"] == 1
+        assert cleaned.json()["deleted_count"] == 2
+        assert cleaned.json()["total_notifications"] == 0
         assert cleaned.json()["cleanup_candidates"] == 0
         assert cleaned.json()["last_cleanup_at"] is not None
     finally:

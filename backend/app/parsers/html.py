@@ -61,7 +61,10 @@ def parse_list_html(html: str, page_url: str, section: str | None = None) -> lis
         if url in seen:
             continue
         seen.add(url)
-        parent_text = anchor.parent.get_text(" ", strip=True) if anchor.parent else ""
+        # VSB templates may put the date next to a title div inside the same
+        # list/table row, not inside the anchor's immediate parent.
+        row = anchor.find_parent(["li", "tr"]) or anchor.parent
+        parent_text = row.get_text(" ", strip=True) if row else ""
         date_match = DATE_TEXT_PATTERN.search(parent_text)
         published = parse_date(date_match.group(0)) if date_match else None
         results.append(NoticeCandidate(title=title, url=url, publish_date=published, section=section))

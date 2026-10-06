@@ -36,6 +36,7 @@ def desktop_settings() -> SimpleNamespace:
         effective_deployment_role="desktop",
         source_run_timeout_seconds=120,
         bootstrap_recent_days=7,
+        retention_days=365,
     )
 
 

@@ -4,12 +4,12 @@ from dataclasses import dataclass
 from datetime import UTC, date, datetime, timedelta
 from typing import Any
 
-from sqlalchemy import delete, func, or_, select, text
+from sqlalchemy import delete, func, select, text
 from sqlalchemy.orm import Session
 
 from app.config import Settings, get_settings
 from app.database import SessionLocal
-from app.models import AppState, Favorite, Notice, NotificationEvent, UserState
+from app.models import AppState, Favorite, Notice, NotificationEvent
 
 
 LAST_CLEANUP_KEY = "storage_retention_last_cleanup_at"
@@ -29,6 +29,17 @@ def _cutoff(settings: Settings, now: datetime) -> date:
     return (now - timedelta(days=settings.retention_days)).date()
 
 
+def notice_is_expired(
+    publish_date: date | None, settings: Settings | None = None, *, now: datetime | None = None
+) -> bool:
+    """Apply the same publication-date window to imports and stored notices.
+
+    Discovery/sync time is not a substitute for an unknown publication date.
+    The cutoff date itself is retained.
+    """
+    return publish_date is not None and publish_date < _cutoff(settings or get_settings(), now or utcnow())
+
+
 def _is_local(settings: Settings) -> bool:
     return settings.effective_deployment_role != "cloud"
 
@@ -36,28 +47,11 @@ def _is_local(settings: Settings) -> bool:
 def cleanup_candidate_condition(settings: Settings, now: datetime) -> Any:
     """Return the shared selection predicate without issuing a destructive query."""
 
-    cutoff = _cutoff(settings, now)
-    old_notice = or_(
-        Notice.publish_date < cutoff,
-        (Notice.publish_date.is_(None) & (Notice.first_seen_at < datetime.combine(cutoff, datetime.min.time()))),
-    )
-    if not _is_local(settings):
-        return old_notice
-    return old_notice & ~or_(
-        UserState.id.is_(None),
-        UserState.is_read.is_(False),
-        UserState.is_favorite.is_(True),
-        Favorite.id.is_not(None),
-        Notice.importance_score >= settings.retention_high_importance_score,
-    )
+    return Notice.publish_date < _cutoff(settings, now)
 
 
 def candidate_notice_ids(db: Session, settings: Settings, now: datetime) -> list[int]:
     query = select(Notice.id)
-    if _is_local(settings):
-        query = query.outerjoin(UserState, UserState.notice_id == Notice.id).outerjoin(
-            Favorite, Favorite.notice_id == Notice.id
-        )
     return list(db.scalars(query.where(cleanup_candidate_condition(settings, now))))
 
 
@@ -154,5 +148,5 @@ def storage_status(db: Session, settings: Settings | None = None, *, now: dateti
         "cleanup_candidates": candidates,
         "last_cleanup_at": last.value if last else None,
         "retention_days": configured.retention_days,
-        "preserves_local_exceptions": _is_local(configured),
+        "preserves_local_exceptions": False,
     }
