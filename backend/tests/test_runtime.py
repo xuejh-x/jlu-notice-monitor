@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import tomllib
 from contextlib import nullcontext
 from io import StringIO
 from pathlib import Path
@@ -13,6 +14,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from sqlalchemy.pool import StaticPool
 
+from app import __version__
 from app.__main__ import _watch_managed_stdin, build_parser
 from app.crawler.runner import CrawlRunResult, CrawlerManager
 from app.config import Settings
@@ -66,6 +68,12 @@ def test_startup_sync_defaults_to_local_and_desktop_but_not_cloud() -> None:
     ).effective_startup_sync_enabled
 
 
+def test_backend_version_matches_project_metadata() -> None:
+    with (BACKEND_DIR / "pyproject.toml").open("rb") as metadata_file:
+        metadata = tomllib.load(metadata_file)
+    assert __version__ == metadata["project"]["version"]
+
+
 def test_health_checks_database() -> None:
     engine = create_engine(
         "sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool
@@ -82,7 +90,7 @@ def test_health_checks_database() -> None:
         assert response.status_code == 200
         assert response.json()["status"] == "ok"
         assert response.json()["service"] == "jlu-notice-monitor"
-        assert response.json()["version"] == "0.7.2"
+        assert response.json()["version"] == __version__
         assert response.json()["database"] == "ok"
     finally:
         app.dependency_overrides.clear()
