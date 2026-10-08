@@ -10,6 +10,7 @@ import {
   setCloudPolicy, setSourceEnabled, setSourceSubscription,
 } from '../api/sources'
 import { getCrawlerStatus } from '../api/crawler'
+import { ApiError } from '../api/client'
 import { PageHeader } from '../components/layout/PageHeader'
 import { SourceIcon } from '../components/notice/SourceIcon'
 import { Badge, type BadgeVariant } from '../components/ui/Badge'
@@ -19,6 +20,7 @@ import { Input, Select, Toggle } from '../components/ui/Form'
 import { useToast } from '../stores/toast'
 import type { CloudSourceDraft, CrawlerSourceResult, SourceConfiguration, SourceDraft, SourceExecutionPolicy, SourceHealthState, SourceParser } from '../types'
 import { relativeTime } from '../utils/format'
+import { captureCrawlerCompletionBaseline, useCrawlerCompletionRefresh } from '../hooks/useCrawlerCompletionRefresh'
 
 const healthLabels: Record<SourceHealthState, string> = {
   healthy: '运行正常', syncing: '正在同步', disabled: '已停用', needs_reauth: '需要重新登录',
@@ -184,7 +186,18 @@ function SourceRow({ source, runResult, onEdit }: { source: SourceConfiguration;
   const refresh = async () => { await queryClient.invalidateQueries({ queryKey: ['source-config'] }); await queryClient.invalidateQueries({ queryKey: ['sources'] }) }
   const subscription = useMutation({ mutationFn: (value: boolean) => setSourceSubscription(source.id, value), onSuccess: refresh })
   const enabled = useMutation({ mutationFn: ({ value, acknowledged }: { value: boolean; acknowledged?: boolean }) => setSourceEnabled(source.id, value, acknowledged), onSuccess: async () => { setWarning(false); await refresh() } })
-  const check = useMutation({ mutationFn: () => checkSource(source.id), onSuccess: () => toast('已开始检查该来源') })
+  const check = useMutation({
+    onMutate: () => captureCrawlerCompletionBaseline(queryClient),
+    mutationFn: () => checkSource(source.id),
+    onSuccess: async () => {
+      toast('已开始检查该来源')
+      await queryClient.invalidateQueries({ queryKey: ['crawler'] })
+    },
+    onError: error => {
+      if (error instanceof ApiError && error.kind === 'ABORTED') return
+      toast(error instanceof Error ? error.message : '启动来源检查失败，请稍后重试', 'error')
+    },
+  })
   const reauth = useMutation({
     mutationFn: () => reauthenticateSource(source.id),
     onSuccess: async result => {
@@ -198,6 +211,7 @@ function SourceRow({ source, runResult, onEdit }: { source: SourceConfiguration;
   const remove = useMutation({ mutationFn: (clear: boolean) => deleteSource(source.id, clear), onSuccess: async () => { await refresh(); toast('来源已删除') } })
   const admin = useMutation({ mutationFn: () => adminAction === 'promote' ? promoteSource(source.id, adminKey) : setCloudPolicy(source.id, adminAction!, adminKey), onSuccess: async result => { setAdminKey(''); setAdminError(null); setAdminAction(null); await refresh(); toast(result.promotion_reused ? '云端已有该来源，已完成本地关联' : '云端来源设置已更新') }, onError: error => { setAdminKey(''); setAdminError(error instanceof Error ? error.message : '管理员操作失败') } })
   const official = source.ownership === 'OFFICIAL_CLOUD'; const shared = source.ownership === 'SHARED_CLOUD'; const cloud = official || shared; const privateSource = source.ownership === 'CUSTOM_LOCAL_PRIVATE'
+  const singlePage = source.source_type === 'single_page_monitor'
   const publicFeedMissing = cloud && (source.health_state === 'cloud_unconfigured' || source.last_error_code === 'PUBLIC_FEED_NOT_CONFIGURED' || Boolean(source.last_error?.includes('PUBLIC_FEED_NOT_CONFIGURED')))
   const displayHealth = publicFeedMissing ? 'cloud_unconfigured' : source.health_state
   const showsExecutionState = official && source.execution_policy === 'cloud_preferred'
@@ -215,8 +229,9 @@ function SourceRow({ source, runResult, onEdit }: { source: SourceConfiguration;
     <article className="border-b border-border px-4 py-4 last:border-0 sm:px-5">
       <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
         <div className="flex min-w-0 items-start gap-3"><SourceIcon name={source.name}/><div className="min-w-0"><div className="flex flex-wrap items-center gap-2"><h3 className="text-sm font-medium text-text-primary">{source.name}</h3>{shared && <Badge variant="neutral">云端共享</Badge>}<Badge variant={healthVariant(displayHealth)}>{healthLabels[displayHealth] ?? displayHealth}</Badge><Badge variant="neutral">{executionPolicyLabels[source.execution_policy]}</Badge>{showsExecutionState && <Badge variant={localFallbackActive ? 'warning' : 'success'}>{localFallbackActive ? '本地回退生效' : '云端运行'}</Badge>}{shared && <Badge variant={source.cloud_policy === 'force_enabled' ? 'success' : 'neutral'}>{source.cloud_policy === 'force_enabled' ? '管理员强制上云' : source.cloud_policy === 'force_disabled' ? '管理员禁止云抓取' : '自动策略'}</Badge>}</div>{shared && <p className="mt-1 break-all text-metadata text-text-secondary">{source.base_url}</p>}<p className="mt-1 text-metadata text-text-muted">{shared ? `类型：${source.parser === 'generic_html' ? 'HTML' : source.parser.toUpperCase()} · 状态：${healthLabels[displayHealth] ?? displayHealth} · 更新：${relativeTime(source.last_checked_at ?? source.last_success_at)}` : `最近成功：${relativeTime(source.last_success_at)}`}{privateSource ? ` · 认证：${authenticationLabel}` : ''}{source.last_error_code && !publicFeedMissing ? ` · ${source.last_error_code}` : ''}</p></div></div>
-        <div className="flex flex-wrap items-center gap-2">{cloud ? <><label className="flex items-center gap-2 text-sm text-text-secondary"><span>{source.subscribed ? '已订阅' : '未订阅'}</span><Toggle checked={source.subscribed} onClick={() => subscription.mutate(!source.subscribed)} /></label>{shared && source.cloud_policy === 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_disabled') }}>移出云端</Button>}{shared && source.cloud_policy !== 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_enabled') }}>上云</Button>}{shared && source.cloud_policy !== 'auto' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('auto') }}>恢复自动</Button>}</> : <><Button size="sm" variant="ghost" onClick={onEdit}><Pencil className="h-3.5 w-3.5"/>编辑</Button><Button size="sm" variant="ghost" disabled={check.isPending || source.requires_reauthentication || !source.enabled} onClick={() => check.mutate()}><RefreshCw className="h-3.5 w-3.5"/>检查</Button>{!privateSource && <Button size="sm" variant="ghost" disabled={source.validation_status !== 'passed'} onClick={() => { setAdminError(null); setAdminAction('promote') }}>上云</Button>}{authenticationRequired && <Button size="sm" onClick={() => reauth.mutate()} disabled={reauth.isPending}><ShieldAlert className="h-3.5 w-3.5"/>{source.authentication_status === 'not_configured' || source.health_state === 'unconfigured' ? '首次登录' : '重新登录'}</Button>}<Button size="sm" variant="ghost" onClick={() => source.enabled ? enabled.mutate({ value: false }) : privateSource ? setWarning(true) : enabled.mutate({ value: true })}>{source.enabled ? '停用' : '启用'}</Button><Button size="icon" variant="ghost" aria-label={`删除${source.name}`} onClick={() => setDeleteConfirm(true)}><Trash2 className="h-4 w-4"/></Button></>}</div>
+        <div className="flex flex-wrap items-center gap-2">{cloud ? <><label className="flex items-center gap-2 text-sm text-text-secondary"><span>{source.subscribed ? '已订阅' : '未订阅'}</span><Toggle checked={source.subscribed} onClick={() => subscription.mutate(!source.subscribed)} /></label>{shared && source.cloud_policy === 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_disabled') }}>移出云端</Button>}{shared && source.cloud_policy !== 'force_enabled' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('force_enabled') }}>上云</Button>}{shared && source.cloud_policy !== 'auto' && <Button size="sm" variant="ghost" onClick={() => { setAdminError(null); setAdminAction('auto') }}>恢复自动</Button>}</> : <><Button size="sm" variant="ghost" disabled={singlePage} onClick={onEdit}><Pencil className="h-3.5 w-3.5"/>编辑</Button><Button size="sm" variant="ghost" disabled={check.isPending || source.requires_reauthentication || !source.enabled} onClick={() => check.mutate()}><RefreshCw className="h-3.5 w-3.5"/>检查</Button>{!privateSource && !singlePage && <Button size="sm" variant="ghost" disabled={source.validation_status !== 'passed'} onClick={() => { setAdminError(null); setAdminAction('promote') }}>上云</Button>}{authenticationRequired && <Button size="sm" onClick={() => reauth.mutate()} disabled={reauth.isPending}><ShieldAlert className="h-3.5 w-3.5"/>{source.authentication_status === 'not_configured' || source.health_state === 'unconfigured' ? '首次登录' : '重新登录'}</Button>}<Button size="sm" variant="ghost" onClick={() => source.enabled ? enabled.mutate({ value: false }) : privateSource ? setWarning(true) : enabled.mutate({ value: true })}>{source.enabled ? '停用' : '启用'}</Button><Button size="icon" variant="ghost" aria-label={`删除${source.name}`} onClick={() => setDeleteConfirm(true)}><Trash2 className="h-4 w-4"/></Button></>}</div>
       </div>
+      {singlePage && <p className="mt-3 text-sm text-text-muted">按重要章节监测变化；首次检查只建立基线，不生成历史未读通知。监控依赖本地后端运行及联网；完全退出桌面客户端或系统休眠期间不会检查页面，恢复后可主动检查。离线期间出现又撤回的网页变化可能无法检测。</p>}
       {source.requires_reauthentication && <p className="mt-3 flex items-center gap-2 text-sm text-warning"><TriangleAlert className="h-4 w-4"/>此来源已暂停自动抓取，完成重新登录后才会恢复。</p>}
       {publicFeedMissing && <p className="mt-3 text-sm text-text-muted">等待 Notice Hub 公共源启用</p>}
       {source.last_error && !source.requires_reauthentication && !publicFeedMissing && <p className="mt-3 text-sm text-danger">{source.last_error}</p>}
@@ -238,6 +253,7 @@ export function SourcesPage() {
     queryFn: ({ signal }) => getCrawlerStatus({ signal }),
     refetchInterval: query => query.state.data?.running ? 1_500 : 60_000,
   })
+  useCrawlerCompletionRefresh(crawler.data)
   const [editor, setEditor] = useState<{ kind: 'public' | 'private'; source?: SourceConfiguration } | null>(null)
   const [cloudEditor, setCloudEditor] = useState(false)
   const official = sources.data?.filter(source => source.ownership === 'OFFICIAL_CLOUD') ?? []

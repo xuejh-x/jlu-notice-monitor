@@ -8,7 +8,7 @@ const categories = new Set([
   'postgraduate_recommendation',
   'academic',
 ])
-const sources = new Set(['cse', 'ccst', 'csw', 'jwc', 'innovation', 'oa'])
+const sources = new Set(['cse', 'ccst', 'csw', 'jwc', 'innovation', 'oa', 'lqb'])
 const scores = new Set(['70', '80', '90'])
 const deadlineStatuses = new Set(['today', 'urgent', 'normal', 'expired', 'unknown'])
 const pageSizes = new Set([10, 20, 50])

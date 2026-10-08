@@ -8,7 +8,7 @@ import { cn } from '../../utils/cn'
 import { relativeTime } from '../../utils/format'
 import { categoryLabels } from '../../utils/labels'
 import { invalidateNoticeState } from '../../utils/noticeCache'
-import { deadlinePresentation, importanceLabels, importanceLevel, isExpired, sourceLabel } from '../../utils/noticeMeta'
+import { deadlinePresentation, importanceLabels, importanceLevel, isExpired, sourceLabel, usesDetectionTime } from '../../utils/noticeMeta'
 import { Badge } from '../ui/Badge'
 import { DeadlineBadge } from './DeadlineBadge'
 import { SourceIcon } from './SourceIcon'
@@ -20,6 +20,8 @@ export function NoticeCard({ notice, selected = false, onSelect, compact = false
   const level = importanceLevel(notice.importance_score)
   const deadline = deadlinePresentation(notice)
   const expired = isExpired(notice)
+  const detected = usesDetectionTime(notice)
+  const timestamp = detected ? notice.first_seen_at : notice.publish_date
 
   if (compact) {
     const source = sourceLabel(notice)
@@ -40,7 +42,7 @@ export function NoticeCard({ notice, selected = false, onSelect, compact = false
         <div className="pointer-events-none flex h-4.5 shrink-0 items-center gap-1.5 text-metadata text-text-muted">
           <SourceIcon name={source} inline />
           <span className="min-w-0 flex-1 truncate text-text-secondary">{source}</span>
-          <time dateTime={notice.publish_date ?? undefined} className="shrink-0 tabular-nums">{relativeTime(notice.publish_date)}</time>
+          <time dateTime={timestamp ?? undefined} className="shrink-0 tabular-nums">{detected ? '首次检测：' : ''}{relativeTime(timestamp)}</time>
         </div>
         <div className="pointer-events-none flex h-6 shrink-0 items-center gap-2">
           {!notice.is_read && <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-unread" aria-hidden="true" />}
@@ -77,7 +79,7 @@ export function NoticeCard({ notice, selected = false, onSelect, compact = false
           <span className={cn('inline-flex items-center gap-1', deadlineTone)}>{deadline.tone === 'danger' && <CalendarClock className="h-3.5 w-3.5" />}{deadline.text}</span>
           {notice.status === 'updated' && <span className="text-text-muted">已更新</span>}
         </div>
-        <div className="mt-1 flex flex-wrap items-center gap-x-2 text-xs text-text-muted"><span>{sourceLabel(notice)}</span><span aria-hidden="true">·</span><span>{categoryLabels[notice.category ?? ''] ?? '其他'}</span><span aria-hidden="true">·</span><span>{relativeTime(notice.publish_date)}</span></div>
+        <div className="mt-1 flex flex-wrap items-center gap-x-2 text-xs text-text-muted"><span>{sourceLabel(notice)}</span><span aria-hidden="true">·</span><span>{categoryLabels[notice.category ?? ''] ?? '其他'}</span><span aria-hidden="true">·</span><span>{detected ? '首次检测：' : ''}{relativeTime(timestamp)}</span></div>
       </div>
     </article>
   )

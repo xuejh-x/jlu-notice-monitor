@@ -17,7 +17,7 @@ import { useToast } from '../stores/toast'
 import type { NoticeDetail } from '../types'
 import { fullDate } from '../utils/format'
 import { invalidateNoticeState, preserveNoticeAfterAutoRead, updateNoticeReadState } from '../utils/noticeCache'
-import { deadlineDetail, importanceLabels, importanceLevel, sourceLabel } from '../utils/noticeMeta'
+import { deadlineDetail, importanceLabels, importanceLevel, sourceLabel, usesDetectionTime } from '../utils/noticeMeta'
 import { isSafeExternalUrl } from '../utils/url'
 
 function DetailSkeleton() {
@@ -241,7 +241,7 @@ export function NoticeDetailPage({ embeddedId }: { embeddedId?: number }) {
             <SourceIcon name={sourceLabel(notice)} metadata className="text-source-blue-fg" />
             <span className="min-w-0">{sourceLabel(notice)}</span>
           </div>
-            {notice.publish_date && <time dateTime={notice.publish_date} className="text-metadata text-text-muted">发布时间：{fullDate(notice.publish_date)}</time>}
+            {(notice.publish_date || usesDetectionTime(notice)) && <time dateTime={notice.publish_date ?? notice.first_seen_at} className="text-metadata text-text-muted">{usesDetectionTime(notice) ? '首次检测：' : '发布时间：'}{fullDate(notice.publish_date ?? notice.first_seen_at)}</time>}
           </div>
           {deadline && <div className="flex min-w-0 items-center gap-2 pt-1"><span className="shrink-0 text-metadata text-text-muted">截止时间</span><DeadlineBadge notice={notice} detail list text={deadline.text} className="h-auto min-h-5 max-w-full py-0.5" /></div>}
         </header>

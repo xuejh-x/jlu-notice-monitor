@@ -19,11 +19,12 @@ from app.classifier import classify_notice, score_importance
 from app.config import get_settings, load_yaml
 from app.database import SessionLocal, init_db
 from app.models import AppState, Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
-from app.schemas.notice import NoticeCandidate
+from app.schemas.notice import ExtractedDates, NoticeCandidate
 from app.services.dates import extract_dates
 from app.services.deduplication import find_duplicate
 from app.services.metadata import extract_notice_metadata
 from app.services.notice_identity import origin_item_key
+from app.services.page_monitor import baseline_key, prepare_snapshot
 from app.services.normalization import canonicalize_url, content_hash, normalize_title
 from app.services.source_identity import default_execution_policy, resolve_cloud_execution, source_identity
 from app.services.importance import enabled_rule_values
@@ -31,6 +32,7 @@ from app.services.retention import notice_is_expired
 from app.services.notifications import record_notice_event, record_source_health_transition
 from app.services.credentials import credential_store
 from app.sources import build_source
+from app.sources.base import SinglePageSource
 from app.sources.base import LoginExpiredError, SourceNotConfiguredError
 from app.sources.cloud import (
     PUBLIC_FEED_EXPIRED,
@@ -757,6 +759,19 @@ class CrawlerManager:
                 effective_execution=execution,
                 status="success",
             )
+            if isinstance(adapter, SinglePageSource):
+                persist_started = time.perf_counter()
+                state = self._persist_page_snapshot(db, db_source, adapter, bootstrap)
+                # A validated page is a successful observation even at baseline
+                # or when unchanged (there are then zero notice candidates).
+                run_result.fetched += 1
+                run_result.parse_db_duration_seconds += time.perf_counter() - persist_started
+                if state == "NEW":
+                    run_result.new_count += 1
+                else:
+                    run_result.unchanged_count += 1
+                attempt.status = run_result.status = "success"
+                return True
             source_deadline = time.perf_counter() + get_settings().source_run_timeout_seconds
             for item in items:
                 if time.perf_counter() >= source_deadline:
@@ -842,6 +857,36 @@ class CrawlerManager:
             if adapter is not None:
                 await adapter.close()
         return attempt.status == "success" and attempt.fetched > 0
+
+    def _persist_page_snapshot(
+        self, db: Session, source: Source, adapter: SinglePageSource, bootstrap: bool,
+    ) -> str:
+        try:
+            if adapter.snapshot is None:
+                raise ValueError("single-page snapshot missing")
+            key = baseline_key(source.id)
+            row = db.scalar(select(AppState).where(AppState.key == key).with_for_update())
+            value, candidate = prepare_snapshot(
+                adapter.snapshot, row.value if row else None,
+                source_identity=source.source_identity or source_identity(source.base_url),
+                url=adapter.base_url, now=utcnow(), bootstrap=bootstrap,
+            )
+            state = "UNCHANGED"
+            if candidate is not None:
+                state = self._persist_candidate(
+                    db, source, candidate, False, strict_origin_identity=True, commit=False,
+                )
+            if row is None:
+                row = AppState(key=key)
+                db.add(row)
+            row.value = value
+            db.commit()
+            return state
+        except Exception:
+            # Nothing (including NotificationEvent/UserState) may survive a
+            # failed snapshot transaction, nor may its baseline advance.
+            db.rollback()
+            raise
 
     @staticmethod
     def _record_source_failure(
@@ -967,6 +1012,8 @@ class CrawlerManager:
         bootstrap: bool,
         *,
         dedup_across_sources: bool = False,
+        strict_origin_identity: bool = False,
+        commit: bool = True,
     ) -> str:
         now = utcnow()
         # Also protect direct imports and callers outside the crawler loop.
@@ -978,7 +1025,9 @@ class CrawlerManager:
             candidate.public_id, candidate.url
         )
         digest = content_hash(candidate.title, candidate.content)
-        dates = extract_dates(candidate.content, candidate.publish_date)
+        # A revision diff contains removed dates and multiple competition
+        # schedules. Do not turn an old/ambiguous date into its current deadline.
+        dates = ExtractedDates() if strict_origin_identity else extract_dates(candidate.content, candidate.publish_date)
         category = candidate.category or classify_notice(candidate.title, candidate.content)
         registration_start = candidate.registration_start or dates.registration_start
         registration_deadline = candidate.registration_deadline or dates.registration_deadline
@@ -1000,20 +1049,22 @@ class CrawlerManager:
         existing_relation = db.scalar(
             select(NoticeSourceRelation).where(
                 NoticeSourceRelation.source_id == source.id,
-                or_(
+                NoticeSourceRelation.origin_item_key == item_key if strict_origin_identity else or_(
                     NoticeSourceRelation.origin_item_key == item_key,
                     NoticeSourceRelation.source_url == candidate.url,
                 ),
             )
         )
-        notice = existing_relation.notice if existing_relation else find_duplicate(
-            db,
-            normalized,
-            canonical,
-            candidate.publish_date,
-            source_id=None if dedup_across_sources else source.id,
-            public_id=candidate.public_id,
-        )
+        if existing_relation:
+            notice = existing_relation.notice
+        elif strict_origin_identity:
+            notice = db.scalar(select(Notice).where(Notice.public_id == candidate.public_id)) if candidate.public_id else None
+        else:
+            notice = find_duplicate(
+                db, normalized, canonical, candidate.publish_date,
+                source_id=None if dedup_across_sources else source.id,
+                public_id=candidate.public_id,
+            )
         if notice:
             old_deadline = notice.registration_deadline
             if existing_relation is None:
@@ -1021,7 +1072,7 @@ class CrawlerManager:
                     select(NoticeSourceRelation).where(
                         NoticeSourceRelation.notice_id == notice.id,
                         NoticeSourceRelation.source_id == source.id,
-                        or_(
+                        NoticeSourceRelation.origin_item_key == item_key if strict_origin_identity else or_(
                             NoticeSourceRelation.origin_item_key == item_key,
                             NoticeSourceRelation.source_url == candidate.url,
                         ),
@@ -1140,7 +1191,10 @@ class CrawlerManager:
                 )
         if get_settings().effective_deployment_role != "cloud":
             record_notice_event(db, notice, state, old_deadline=old_deadline)
-        db.commit()
+        if commit:
+            db.commit()
+        else:
+            db.flush()
         return state
 
 

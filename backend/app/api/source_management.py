@@ -342,6 +342,8 @@ def edit_source(source_id: int, payload: SourceEdit, db: Session = Depends(get_d
     source = db.get(Source, source_id)
     if source is None or source.is_deleted or source.ownership in {"OFFICIAL_CLOUD", "SHARED_CLOUD"}:
         raise HTTPException(status_code=404, detail="Custom source not found")
+    if source.source_type == "single_page_monitor":
+        raise HTTPException(status_code=409, detail="Built-in single-page monitor cannot use a generic parser editor")
     values = payload.model_dump(exclude_unset=True)
     parser_change = any(key in values for key in ("list_url", "parser", "parser_config"))
     if parser_change and not payload.preview_token:
@@ -436,7 +438,7 @@ def update_enabled(source_id: int, payload: EnableRequest, db: Session = Depends
 
 
 @router.post("/{source_id}/check", status_code=status.HTTP_202_ACCEPTED)
-def check_source(source_id: int, db: Session = Depends(get_db)) -> dict[str, str]:
+async def check_source(source_id: int, db: Session = Depends(get_db)) -> dict[str, str]:
     source = db.get(Source, source_id)
     if source is None or source.is_deleted:
         raise HTTPException(status_code=404, detail="Source not found")
@@ -613,6 +615,8 @@ async def promote_source(
     source = db.get(Source, source_id)
     if source is None or source.is_deleted or source.ownership != "CUSTOM_LOCAL_PUBLIC":
         raise HTTPException(status_code=404, detail="Eligible local public source not found")
+    if source.source_type == "single_page_monitor":
+        raise HTTPException(status_code=409, detail="Single-page monitor is local-only and cannot be promoted")
     if source.validation_status != "passed" or source.validated_at is None:
         raise HTTPException(
             status_code=409,

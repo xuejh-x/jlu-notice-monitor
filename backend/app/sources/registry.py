@@ -11,8 +11,10 @@ from app.sources.jwc import JwcSource
 from app.sources.oa_public import OAPublicSource
 from app.sources.generic import AuthenticatedHTTPSource, GenericPublicSource
 from app.sources.cloud import CloudFeedSource
+from app.sources.lqb import LanqiaoSource
 
 SOURCE_TYPES: dict[str, type[NoticeSource]] = {
+    "lqb": LanqiaoSource,
     "ccst": CcstSource,
     "cse": CseSource,
     "csw": CswSource,

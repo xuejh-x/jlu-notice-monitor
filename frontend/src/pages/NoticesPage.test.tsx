@@ -38,6 +38,16 @@ describe('NoticesPage URL state', () => {
 
   afterEach(() => vi.unstubAllGlobals())
 
+  it('restores the Lanqiao source filter without changing the URL schema', async () => {
+    renderNotices('/notices?source=lqb&read=0')
+    fireEvent.click(screen.getByRole('button', { name: '筛选 1' }))
+    const source = within(await screen.findByRole('dialog')).getByLabelText('来源')
+    expect(source).toHaveValue('lqb')
+    expect(within(source).getByRole('option', { name: '蓝桥杯赛事信息（吉林大学）' })).toBeInTheDocument()
+    await waitFor(() => expect(requestUrls(fetchMock).some(url => url.includes('source=lqb') && url.includes('read=false'))).toBe(true))
+    expect(parseNoticesSearchParams(new URLSearchParams('source=lqb'), 20).source).toBe('lqb')
+  })
+
   it('restores search, page, page size and API parameters from the initial URL', async () => {
     renderNotices('/notices?q=test&source=cse&read=0&page=2&page_size=50')
 

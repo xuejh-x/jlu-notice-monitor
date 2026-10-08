@@ -68,4 +68,65 @@ describe('CrawlerButton', () => {
     expect(invalidate.mock.calls.filter(([options]) => options?.queryKey?.[0] === 'notices')).toHaveLength(1)
     expect(screen.queryByText(/正在检查/)).not.toBeInTheDocument()
   })
+
+  it.each(['success', 'failure', 'partial_failure'])('refreshes a short %s run once without seeing running', async state => {
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(new Response(JSON.stringify({
+      running: false, status: 'idle', last_run: null, source_results: [],
+    }), { status: 200 }))))
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    client.setQueryData(['crawler'], { running: false, status: 'idle', last_run: null, source_results: [] })
+    const invalidate = vi.spyOn(client, 'invalidateQueries')
+    render(<QueryClientProvider client={client}><ToastProvider><CrawlerButton /></ToastProvider></QueryClientProvider>)
+    await screen.findByText('检查')
+    await waitFor(() => expect(client.getQueryState(['crawler'])?.fetchStatus).toBe('idle'))
+    const completed = { running: false, status: state, last_run: '2026-10-08T08:00:01',
+      source_results: [], new_count: 0, updated_count: 0 }
+    client.setQueryData(['crawler'], completed)
+    await waitFor(() => expect(invalidate).toHaveBeenCalledWith({ queryKey: ['source-config'] }))
+    expect(invalidate).toHaveBeenCalledWith({ queryKey: ['notices'] })
+    client.setQueryData(['crawler'], { ...completed })
+    expect(invalidate.mock.calls.filter(([options]) => options?.queryKey?.[0] === 'source-config')).toHaveLength(1)
+  })
+
+  it('does not treat old startup completion as a new manual check finishing', async () => {
+    const status = { running: false, status: 'success', last_run: '2026-10-07T08:00:01',
+      source_results: [], new_count: 0, updated_count: 0,
+      startup_sync: { triggered: true, completed_at: '2026-10-07T08:00:01' } }
+    vi.stubGlobal('fetch', vi.fn((_input: RequestInfo | URL, init?: RequestInit) =>
+      Promise.resolve(new Response(JSON.stringify(init?.method === 'POST' ? { status: 'started' } : status), { status: 200 }))))
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    render(<QueryClientProvider client={client}><ToastProvider><CrawlerButton /></ToastProvider></QueryClientProvider>)
+    fireEvent.click(await screen.findByRole('button', { name: '检查新通知' }))
+    await screen.findByText('已开始检查新通知')
+    await new Promise(resolve => setTimeout(resolve, 20))
+    expect(screen.queryByText('检查完成：新增 0 条，更新 0 条')).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '检查新通知' })).toBeDisabled()
+  })
+
+  it('deduplicates completion refresh across shared status observers', async () => {
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(new Response(JSON.stringify({
+      running: false, status: 'idle', last_run: null, source_results: [],
+    }), { status: 200 }))))
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    client.setQueryData(['crawler'], { running: false, status: 'idle', last_run: null, source_results: [] })
+    const invalidate = vi.spyOn(client, 'invalidateQueries')
+    render(<QueryClientProvider client={client}><ToastProvider><CrawlerButton /><CrawlerButton compact /></ToastProvider></QueryClientProvider>)
+    await screen.findAllByText('检查')
+    await waitFor(() => expect(client.getQueryState(['crawler'])?.fetchStatus).toBe('idle'))
+    client.setQueryData(['crawler'], { running: false, status: 'failure',
+      last_run: '2026-10-08T09:00:00', source_results: [], new_count: 0, updated_count: 0 })
+    await waitFor(() => expect(invalidate).toHaveBeenCalledWith({ queryKey: ['source-config'] }))
+    expect(invalidate.mock.calls.filter(([options]) => options?.queryKey?.[0] === 'source-config')).toHaveLength(1)
+  })
+
+  it('reconciles initial terminal health without refreshing the preserved unread page', async () => {
+    vi.stubGlobal('fetch', vi.fn(() => Promise.resolve(new Response(JSON.stringify({
+      running: false, status: 'failure', last_run: '2026-10-07T08:00:01', source_results: [],
+    }), { status: 200 }))))
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    const invalidate = vi.spyOn(client, 'invalidateQueries')
+    render(<QueryClientProvider client={client}><ToastProvider><CrawlerButton /></ToastProvider></QueryClientProvider>)
+    await waitFor(() => expect(invalidate).toHaveBeenCalledWith({ queryKey: ['source-config'] }))
+    expect(invalidate).not.toHaveBeenCalledWith({ queryKey: ['notices'] })
+  })
 })

@@ -1,19 +1,20 @@
 from __future__ import annotations
 
-from datetime import date, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta, timezone, tzinfo
 from math import ceil
 from typing import Any, Literal
 import logging
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.responses import JSONResponse
-from sqlalchemy import exists, func, or_, select
+from sqlalchemy import DateTime, and_, case, cast, exists, func, or_, select
 from sqlalchemy import text
 from sqlalchemy.orm import Session, selectinload
 
 from app.crawler import crawler_manager, scheduler_manager, startup_sync
 from app import __version__
-from app.config import get_settings
+from app.config import get_settings, load_yaml
 from app.crawler.runner import CrawlerAlreadyRunning
 from app.database import get_db
 from app.logging_config import _safe_value, log_event
@@ -29,6 +30,11 @@ logger = logging.getLogger(__name__)
 def _serialize_notice(notice: Notice, detailed: bool = False) -> dict[str, Any]:
     deadline_status, days = deadline_metadata(notice.registration_deadline)
     state = notice.user_state
+    detected_at = notice.first_seen_at
+    if notice.source.source_type == "single_page_monitor" and detected_at is not None and detected_at.tzinfo is None:
+        # Stored timestamps are naive UTC, not local wall-clock time. Preserve
+        # ordinary DTOs but let the single-page UI display the real instant.
+        detected_at = detected_at.replace(tzinfo=UTC)
     result: dict[str, Any] = {
         "id": notice.id,
         "title": notice.title,
@@ -44,7 +50,7 @@ def _serialize_notice(notice: Notice, detailed: bool = False) -> dict[str, Any]:
         "deadline_status": deadline_status,
         "days_until_deadline": days,
         "status": notice.status,
-        "first_seen_at": notice.first_seen_at,
+        "first_seen_at": detected_at,
         "last_seen_at": notice.last_seen_at,
         "updated_at": notice.updated_at,
         "is_read": state.is_read if state else False,
@@ -134,6 +140,49 @@ def _global_notice_counts(db: Session) -> tuple[int, int]:
     return total, unread
 
 
+def _single_page_notice_condition() -> Any:
+    # Classify by the owning source, not by one hard-coded adapter code.
+    return Notice.source.has(Source.source_type == "single_page_monitor")
+
+
+def _notice_timezone() -> tuple[str, tzinfo]:
+    name = str(load_yaml("settings.yaml").get("app", {}).get("timezone", "Asia/Shanghai"))
+    try:
+        return name, ZoneInfo(name)
+    except ZoneInfoNotFoundError:
+        # Windows packages may not have IANA data. These project/default zones
+        # have fixed offsets for the contemporary detection timestamps.
+        if name == "Asia/Shanghai":
+            return name, timezone(timedelta(hours=8))
+        if name == "UTC":
+            return name, UTC
+        raise
+
+
+def _date_start_utc(value: date, zone: tzinfo) -> datetime:
+    return datetime.combine(value, datetime.min.time(), zone).astimezone(UTC).replace(tzinfo=None)
+
+
+def _latest_notice_ordering(db: Session) -> tuple[Any, ...]:
+    name, zone = _notice_timezone()
+    if db.get_bind().dialect.name == "sqlite":
+        # SQLite has no IANA timezone conversion. A connection-local pure
+        # function handles publication-day midnight (including DST) without
+        # changing stored fields, the schema, or ordinary-source ordering.
+        def publication_midnight(value: str | None) -> str | None:
+            if value is None:
+                return None
+            return _date_start_utc(date.fromisoformat(value), zone).isoformat(" ", timespec="microseconds")
+
+        connection = db.connection().connection.driver_connection
+        connection.create_function("jlu_publication_midnight_utc", 1, publication_midnight, deterministic=True)
+        published = func.jlu_publication_midnight_utc(Notice.publish_date)
+    else:
+        published = func.timezone("UTC", func.timezone(name, cast(Notice.publish_date, DateTime)))
+    effective = case((_single_page_notice_condition(), Notice.first_seen_at), else_=published)
+    return effective.desc().nullslast(), Notice.first_seen_at.desc()
+
+
 @api_router.get("/notices")
 def list_notices(
     category: str | None = None,
@@ -161,10 +210,23 @@ def list_notices(
             conditions.append(Notice.category.in_(category_values))
     if min_score is not None:
         conditions.append(Notice.importance_score >= min_score)
-    if date_from:
-        conditions.append(Notice.publish_date >= date_from)
-    if date_to:
-        conditions.append(Notice.publish_date <= date_to)
+    if date_from or date_to:
+        monitor = _single_page_notice_condition()
+        _, zone = _notice_timezone()
+        if date_from:
+            conditions.append(or_(
+                and_(monitor, Notice.first_seen_at >= _date_start_utc(date_from, zone)),
+                and_(~monitor, Notice.publish_date >= date_from),
+            ))
+        if date_to:
+            # Inclusive calendar end, exclusive next local midnight. Do not
+            # assume every local day is 24 hours or truncate sub-second times.
+            end_condition = (Notice.first_seen_at < _date_start_utc(date_to + timedelta(days=1), zone)
+                             if date_to < date.max else Notice.first_seen_at.is_not(None))
+            conditions.append(or_(
+                and_(monitor, end_condition),
+                and_(~monitor, Notice.publish_date <= date_to),
+            ))
     if status_filter:
         conditions.append(Notice.status == status_filter)
     if deadline_status:
@@ -226,7 +288,7 @@ def list_notices(
     elif sort == "deadline":
         ordering = (Notice.registration_deadline.asc().nullslast(), Notice.publish_date.desc().nullslast())
     else:
-        ordering = (Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
+        ordering = _latest_notice_ordering(db)
     notices = db.scalars(
         query.order_by(*ordering)
         .offset((page - 1) * page_size)
@@ -440,7 +502,7 @@ def dashboard(db: Session = Depends(get_db)) -> dict[str, Any]:
         select(Notice)
         .where(_visible_notice_condition())
         .options(*_notice_options())
-        .order_by(Notice.publish_date.desc().nullslast(), Notice.first_seen_at.desc())
+        .order_by(*_latest_notice_ordering(db))
         .limit(10)
     ).all()
     total_count, unread_count = _global_notice_counts(db)

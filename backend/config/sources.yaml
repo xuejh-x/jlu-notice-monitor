@@ -1,4 +1,16 @@
 sources:
+  - code: lqb
+    name: 蓝桥杯赛事信息（吉林大学）
+    base_url: https://lus-jlu.github.io/lqb.html
+    enabled: true
+    ownership: CUSTOM_LOCAL_PUBLIC
+    source_type: single_page_monitor
+    source_scope: personal
+    execution: local
+    execution_policy: local_only
+    auth_type: none
+    parser: lqb
+
   - code: cse
     name: 吉林大学网络安全学院
     base_url: https://cse.jlu.edu.cn

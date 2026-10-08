@@ -3,7 +3,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { getCrawlerStatus } from '../api/crawler'
-import { createCloudSource, createSource, getSourceConfiguration, previewSource, promoteSource, reauthenticateSource, setCloudPolicy, setSourceEnabled } from '../api/sources'
+import { checkSource, createCloudSource, createSource, getSourceConfiguration, previewSource, promoteSource, reauthenticateSource, setCloudPolicy, setSourceEnabled } from '../api/sources'
 import { ToastProvider } from '../stores/toast'
 import type { SourceConfiguration } from '../types'
 import { SourcesPage } from './SourcesPage'
@@ -46,8 +46,7 @@ const sharedSource: SourceConfiguration = {
   execution_policy: 'cloud_only', cloud_source_id: 'shared-fixture', cloud_policy: 'force_enabled',
 }
 
-function renderPage() {
-  const client = new QueryClient({ defaultOptions: { queries: { retry: false }, mutations: { retry: false } } })
+function renderPage(client = new QueryClient({ defaultOptions: { queries: { retry: false }, mutations: { retry: false } } })) {
   return render(<QueryClientProvider client={client}><ToastProvider><MemoryRouter><SourcesPage/></MemoryRouter></ToastProvider></QueryClientProvider>)
 }
 
@@ -61,6 +60,60 @@ describe('SourcesPage', () => {
     })
   })
 
+  it('refreshes health for short failed runs and recovery without observing running', async () => {
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    vi.mocked(getSourceConfiguration).mockResolvedValue([publicSource])
+    renderPage(client)
+    await screen.findByText('运行正常')
+    vi.mocked(getSourceConfiguration).mockResolvedValue([{
+      ...publicSource, health_state: 'parse_error', last_error_code: 'PARSE_ERROR',
+      last_error: 'LQB_PARSER_FAILED: required sections missing',
+    }])
+    client.setQueryData(['crawler'], {
+      running: false, status: 'failure', last_run: '2026-10-08T08:00:01',
+      source_results: [], new_count: 0, updated_count: 0,
+    })
+    expect(await screen.findByText('解析失败')).toBeInTheDocument()
+    expect(screen.getByText('LQB_PARSER_FAILED: required sections missing')).toBeInTheDocument()
+    vi.mocked(getSourceConfiguration).mockResolvedValue([publicSource])
+    client.setQueryData(['crawler'], {
+      running: false, status: 'success', last_run: '2026-10-08T08:15:01',
+      source_results: [], new_count: 0, updated_count: 0,
+    })
+    expect(await screen.findByText('运行正常')).toBeInTheDocument()
+    expect(screen.queryByText('解析失败')).not.toBeInTheDocument()
+  })
+
+  it('checks the local source then immediately queries completion and refreshes its health', async () => {
+    vi.mocked(getSourceConfiguration).mockResolvedValue([publicSource])
+    vi.mocked(checkSource).mockResolvedValue({ status: 'started', source: publicSource.code })
+    renderPage()
+    await screen.findByText('运行正常')
+    vi.mocked(getCrawlerStatus).mockResolvedValue({
+      running: false, status: 'failure', current_started_at: null,
+      last_run: '2026-10-08T08:00:01', last_duration: 0.1, new_count: 0, updated_count: 0,
+      source_results: [],
+    })
+    vi.mocked(getSourceConfiguration).mockResolvedValue([{
+      ...publicSource, health_state: 'network_error', last_error: 'HTTP unavailable',
+    }])
+    fireEvent.click(screen.getByRole('button', { name: '检查' }))
+    await waitFor(() => expect(checkSource).toHaveBeenCalledWith(publicSource.id))
+    expect(await screen.findByText('网络异常')).toBeInTheDocument()
+    expect(getCrawlerStatus).toHaveBeenCalledTimes(2)
+  })
+
+  it('reports a rejected source check without changing healthy state', async () => {
+    vi.mocked(getSourceConfiguration).mockResolvedValue([publicSource])
+    vi.mocked(checkSource).mockRejectedValue(new Error('已有检查正在运行'))
+    renderPage()
+    await screen.findByText('运行正常')
+    fireEvent.click(screen.getByRole('button', { name: '检查' }))
+    expect(await screen.findByText('已有检查正在运行')).toBeInTheDocument()
+    expect(screen.getByText('运行正常')).toBeInTheDocument()
+    expect(screen.queryByText('已开始检查该来源')).not.toBeInTheDocument()
+  })
+
   it('renders subscriptions, cloud shared, and local sections with persistent re-login state', async () => {
     renderPage()
     expect(await screen.findByRole('heading', { name: '我的订阅' })).toBeInTheDocument()
@@ -69,6 +122,20 @@ describe('SourcesPage', () => {
     expect(screen.getAllByText('需要重新登录').length).toBeGreaterThan(0)
     expect(screen.getByText('1 个来源需要重新登录')).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /重新登录/ })).toBeInTheDocument()
+  })
+
+  it('keeps a built-in single-page monitor local with no generic editing or promotion', async () => {
+    vi.mocked(getSourceConfiguration).mockResolvedValue([{
+      ...publicSource, code: 'lqb', name: '蓝桥杯赛事信息（吉林大学）',
+      source_type: 'single_page_monitor', parser: 'lqb' as SourceConfiguration['parser'],
+    }])
+    renderPage()
+    expect(await screen.findByText('蓝桥杯赛事信息（吉林大学）')).toBeVisible()
+    expect(screen.getByRole('button', { name: '编辑' })).toBeDisabled()
+    expect(screen.queryByRole('button', { name: '上云' })).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '检查' })).toBeEnabled()
+    expect(screen.getByRole('button', { name: '停用' })).toBeEnabled()
+    expect(screen.getByText(/首次检查只建立基线/)).toBeVisible()
   })
 
   it('shows execution policies as read-only source metadata', async () => {

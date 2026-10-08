@@ -39,6 +39,13 @@ describe('NoticeCard', () => {
     expect(screen.getByRole('link', { name: '测试通知标题' })).toHaveAttribute('href', '/notices/7')
   })
 
+  it.each([true, false])('labels a single-page timestamp as detection time (compact=%s)', compact => {
+    renderCard({ ...base, publish_date: null, sources: [{ code: 'lqb', name: '蓝桥杯赛事信息（吉林大学）', url: 'https://lus-jlu.github.io/lqb.html' }] }, { compact })
+    expect(screen.getByText(/首次检测：/)).toBeVisible()
+    expect(screen.queryByText('尚无记录')).not.toBeInTheDocument()
+    if (compact) expect(screen.getByText(/首次检测：/)).toHaveAttribute('datetime', base.first_seen_at)
+  })
+
   it('keeps selected, unread, important, updated and favorite states independent in the compact row', () => {
     renderCard({ ...base, is_favorite: true, status: 'updated' }, { compact: true, selected: true })
     expect(screen.getByRole('link', { name: `打开${base.title}` })).toHaveAttribute('aria-current', 'page')

@@ -97,3 +97,23 @@ class StaticHTMLSource(NoticeSource):
 
     async def close(self) -> None:
         await self.client.aclose()
+
+
+class SinglePageSource(StaticHTMLSource):
+    """Opt-in snapshot adapter. Only the runner may persist its baseline."""
+
+    snapshot: dict[str, Any] | None = None
+
+    @abstractmethod
+    def parse_snapshot(self, html: str) -> dict[str, Any]: ...
+
+    async def fetch_list(self) -> list[NoticeCandidate]:
+        self.snapshot = self.parse_snapshot(await self._get(self.base_url))
+        return []
+
+    async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
+        return notice
+
+    async def health_check(self) -> bool:
+        await self.fetch_list()
+        return self.snapshot is not None

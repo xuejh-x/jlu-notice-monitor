@@ -3,6 +3,10 @@ import { fullDate, shortDate } from './format'
 
 export type ImportanceLevel = 'normal' | 'important' | 'high'
 
+export function usesDetectionTime(notice: Notice): boolean {
+  return !notice.publish_date && notice.sources.some(source => source.code === 'lqb')
+}
+
 /** Fixed semantic band (design.md §15): independent of user priorityThreshold. */
 export function importanceLevel(score: number): ImportanceLevel {
   if (score >= 90) return 'high'

@@ -5,6 +5,7 @@ import { getCrawlerStatus, runCrawler } from '../../api/crawler'
 import { useToast } from '../../stores/toast'
 import { Button } from '../ui/Button'
 import { crawlerStatusLabel, isCrawlerJobRunning } from './crawlerStatus'
+import { captureCrawlerCompletionBaseline, useCrawlerCompletionRefresh } from '../../hooks/useCrawlerCompletionRefresh'
 
 export function CrawlerButton({ compact = false }: { compact?: boolean }) {
   const toast = useToast()
@@ -12,7 +13,6 @@ export function CrawlerButton({ compact = false }: { compact?: boolean }) {
   const [tracking, setTracking] = useState(false)
   const hasRun = useRef(false)
   const baselineLastRun = useRef<string | null>(null)
-  const handledStartupCompletion = useRef<string | null>(null)
   const status = useQuery({
     queryKey: ['crawler'],
     queryFn: ({ signal }) => getCrawlerStatus({ signal }),
@@ -23,6 +23,7 @@ export function CrawlerButton({ compact = false }: { compact?: boolean }) {
     },
   })
   const running = isCrawlerJobRunning(status.data)
+  useCrawlerCompletionRefresh(status.data)
 
   useEffect(() => {
     const startupPending = Boolean(
@@ -41,12 +42,8 @@ export function CrawlerButton({ compact = false }: { compact?: boolean }) {
     }
     if (!tracking || !status.data) return
     const runCompleted = hasRun.current || status.data.last_run !== baselineLastRun.current
-    const startupCompleted = Boolean(status.data.startup_sync?.completed_at)
-    if (!runCompleted && !startupCompleted) return
+    if (!runCompleted) return
     const result = status.data
-    if (result.startup_sync?.completed_at) {
-      handledStartupCompletion.current = result.startup_sync.completed_at
-    }
     const timer = window.setTimeout(() => {
       setTracking(false)
       hasRun.current = false
@@ -61,21 +58,9 @@ export function CrawlerButton({ compact = false }: { compact?: boolean }) {
           : `检查完成：新增 ${result.new_count} 条，更新 ${result.updated_count} 条`,
         result.status === 'failure' || result.status === 'partial_failure' || failed ? 'error' : undefined,
       )
-      for (const key of [['dashboard'], ['notices'], ['search'], ['sources'], ['source-config']]) {
-        void client.invalidateQueries({ queryKey: key })
-      }
     }, 0)
     return () => window.clearTimeout(timer)
   }, [client, running, status.data, toast, tracking])
-
-  useEffect(() => {
-    const completedAt = status.data?.startup_sync?.completed_at
-    if (!completedAt || handledStartupCompletion.current === completedAt) return
-    handledStartupCompletion.current = completedAt
-    for (const key of [['dashboard'], ['notices'], ['search'], ['sources'], ['source-config']]) {
-      void client.invalidateQueries({ queryKey: key })
-    }
-  }, [client, status.data?.startup_sync?.completed_at])
 
   useEffect(() => {
     if (!tracking || hasRun.current) return
@@ -84,11 +69,18 @@ export function CrawlerButton({ compact = false }: { compact?: boolean }) {
   }, [tracking])
 
   const run = useMutation({
-    mutationFn: runCrawler,
+    mutationFn: async () => {
+      // A click can precede the first status response. Capture the old run
+      // before starting so that response cannot masquerade as this completion.
+      const baseline = status.data ?? (await status.refetch()).data
+      if (!baseline) throw new Error('无法获取检查状态')
+      captureCrawlerCompletionBaseline(client, baseline)
+      baselineLastRun.current = baseline.last_run ?? null
+      hasRun.current = false
+      return runCrawler()
+    },
     onSuccess: () => {
       toast('已开始检查新通知')
-      baselineLastRun.current = status.data?.last_run ?? null
-      hasRun.current = false
       setTracking(true)
       window.setTimeout(() => status.refetch(), 600)
     },

@@ -75,6 +75,18 @@ const readCalls = (fetchMock: ReturnType<typeof vi.fn>) => fetchMock.mock.calls
 describe('NoticeDetailPage', () => {
   beforeEach(() => vi.unstubAllGlobals())
 
+  it('uses detection time, not an invented publication date, for Lanqiao updates', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify({
+      ...detail, publish_date: null, url: 'https://lus-jlu.github.io/lqb.html',
+      sources: [{ code: 'lqb', name: '蓝桥杯赛事信息（吉林大学）', url: 'https://lus-jlu.github.io/lqb.html' }],
+    }), { status: 200 }))))
+    renderDetail()
+    const timestamp = await screen.findByText('首次检测：2026-08-30')
+    expect(timestamp).toHaveAttribute('datetime', detail.first_seen_at)
+    expect(screen.queryByText(/发布时间：/)).not.toBeInTheDocument()
+    expect(screen.getAllByRole('link').some(link => link.getAttribute('href') === 'https://lus-jlu.github.io/lqb.html')).toBe(true)
+  })
+
   it('renders the backend attachment filename', async () => {
     vi.stubGlobal('fetch', vi.fn().mockImplementation(() => Promise.resolve(new Response(JSON.stringify(detail), { status: 200 }))))
 
