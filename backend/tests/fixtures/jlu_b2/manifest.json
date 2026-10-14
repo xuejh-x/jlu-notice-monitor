@@ -1,0 +1,38 @@
+[
+  {
+    "name": "university",
+    "url": "https://www.jlu.edu.cn/index/tzgg.htm",
+    "detail_url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+    "list_sha256": "067fdc9c5f41af74dcb306971a47875e361f0c270e999a563d6014d8a043cdc8",
+    "detail_sha256": "0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c",
+    "captured_at": "2026-10-13T13:48:36+08:00",
+    "purpose": "anonymized structural control; original title/date/image preserved; not fresh HTTP"
+  },
+  {
+    "name": "student",
+    "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "detail_url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+    "list_sha256": "1103af814053ba437a379a6b061f33123801a6bf8c21d03608b78bbc61018417",
+    "detail_sha256": "36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024",
+    "captured_at": "2026-10-13T13:52:15+08:00",
+    "purpose": "anonymized structural control; original title/date/image preserved; not fresh HTTP"
+  },
+  {
+    "name": "image",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "detail_url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+    "list_sha256": "7da325bac1e96e93a9521fd54540063863f3a2766d7b71a0c5a397f96a55e582",
+    "detail_sha256": "496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40",
+    "captured_at": "2026-10-13T13:51:14+08:00",
+    "purpose": "anonymized structural control; original title/date/image preserved; not fresh HTTP"
+  },
+  {
+    "name": "food",
+    "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "detail_url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+    "list_sha256": "1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42",
+    "detail_sha256": "d3f083c7d741030c5715656239d817a5c7bd2cfc5b79194e779c89cc169abcbc",
+    "captured_at": "2026-10-13T13:44:50+08:00",
+    "purpose": "anonymized structural control; original title/date/image preserved; not fresh HTTP"
+  }
+]

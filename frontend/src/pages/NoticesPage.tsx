@@ -1,9 +1,9 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { ArrowUpDown, Search, SlidersHorizontal, X } from 'lucide-react'
-import { useState } from 'react'
+import { useLayoutEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { getNotices, setAllNoticesRead } from '../api/notices'
+import { getNotice, getNotices, setAllNoticesRead } from '../api/notices'
 import { NoticeList, NoticeListSkeleton } from '../components/notice/NoticeList'
 import { FilterFields } from '../components/notice/NoticeFilters'
 import { Button } from '../components/ui/Button'
@@ -32,6 +32,7 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
   const [sheetOpen, setSheetOpen] = useState(false)
   const [draft, setDraft] = useState<NoticesUrlState>(state)
   const [readAllOpen, setReadAllOpen] = useState(false)
+  const listRef = useRef<HTMLDivElement>(null)
 
   const updateState = (changes: Partial<NoticesUrlState>, { replace = false, resetPage = false } = {}) => {
     const next = { ...state, ...changes }
@@ -58,12 +59,42 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
     // previous data here made the new filter appear active above an old list.
     staleTime: 0,
   })
+  // Share the reader's query, including cancellation and read/favorite updates.
+  // Never insert this extra row into the paginated server result or its counts.
+  const currentNotice = useQuery({
+    queryKey: ['notice', selectedId],
+    queryFn: ({ signal }) => getNotice(selectedId!, { signal }),
+    enabled: selectedId !== null && Number.isFinite(selectedId),
+  })
+  const selectedInPage = !query.isError && Boolean(query.data?.items.some(notice => notice.id === selectedId))
+  const extraNotice = !selectedInPage && !currentNotice.isError && currentNotice.data?.id === selectedId ? currentNotice.data : undefined
+  const showExtraNotice = Boolean(extraNotice)
+
+  useLayoutEffect(() => {
+    const pane = listRef.current
+    if (!pane) return
+    const revealSelection = () => {
+      const row = pane.querySelector<HTMLElement>(showExtraNotice ? 'section[aria-label="当前打开的通知"]' : '[aria-current="page"]')
+      if (!row || !pane.clientHeight) return
+      const paneBounds = pane.getBoundingClientRect()
+      const rowBounds = row.getBoundingClientRect()
+      if (rowBounds.top < paneBounds.top) pane.scrollTop += rowBounds.top - paneBounds.top
+      else if (rowBounds.bottom > paneBounds.bottom) pane.scrollTop += rowBounds.bottom - paneBounds.bottom
+    }
+    revealSelection()
+    // A narrow reader hides the list; reveal its selection when widened again.
+    if (typeof ResizeObserver === 'undefined') return
+    const observer = new ResizeObserver(revealSelection)
+    observer.observe(pane)
+    return () => observer.disconnect()
+  }, [selectedId, selectedInPage, showExtraNotice, query.data, query.isError])
   const { refetch: refetchNotices } = query
   const readAll = useMutation({
     mutationFn: setAllNoticesRead,
     onSuccess: async () => {
       setReadAllOpen(false)
       await queryClient.invalidateQueries({ queryKey: ['notices'] })
+      await queryClient.invalidateQueries({ queryKey: ['notice'] })
       await queryClient.invalidateQueries({ queryKey: ['dashboard'] })
       await queryClient.invalidateQueries({ queryKey: ['search'] })
       await refetchNotices()
@@ -125,7 +156,11 @@ export function NoticesPage({ selectedId = null }: { selectedId?: number | null 
       </div>
       <div className="flex h-list-status-height shrink-0 items-center justify-between gap-2 px-shell-gutter text-label text-text-muted"><span title="当前为列表视图">{hasSearch ? '搜索结果' : activeCount > 0 ? '筛选结果' : '当前列表'}</span><span>{query.data ? `当前结果 ${query.data.total_count} 条 · 未读 ${query.data.unread_count} 条` : query.isPending ? '正在加载…' : '暂不可用'}</span></div>
 
-      <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
+      <div ref={listRef} className="min-h-0 flex-1 overflow-y-auto">
+        {extraNotice && <section aria-label="当前打开的通知" className="border-b border-border">
+          <p className="px-shell-gutter py-2 text-label text-text-muted">当前打开的通知（不在本页结果中）</p>
+          <NoticeList notices={[extraNotice]} selectedId={selectedId} onSelect={selectNotice} compact />
+        </section>}
         {query.isPending ? <NoticeListSkeleton compact /> : query.isError ? <ErrorState error={query.error} retry={() => query.refetch()} compact /> : (
           <>
             <NoticeList notices={query.data.items} selectedId={selectedId} onSelect={selectNotice} emptyTitle={empty.title} emptyDescription={empty.description} emptyAction={empty.action} compact />

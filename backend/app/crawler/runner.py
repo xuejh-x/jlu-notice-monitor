@@ -21,6 +21,7 @@ from app.database import SessionLocal, init_db
 from app.models import AppState, Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
 from app.schemas.notice import ExtractedDates, NoticeCandidate
 from app.services.dates import extract_dates
+from app.services.http_diagnostics import exception_summary
 from app.services.deduplication import find_duplicate
 from app.services.metadata import extract_notice_metadata
 from app.services.notice_identity import origin_item_key
@@ -734,6 +735,7 @@ class CrawlerManager:
         execution: str,
     ) -> bool:
         attempt = SourceAttemptResult(execution=execution)
+        attempt_started = time.perf_counter()
         run_result.attempts.append(attempt)
         adapter = None
         error_count = len(run_result.errors)
@@ -748,8 +750,10 @@ class CrawlerManager:
         try:
             adapter = build_source(config)
             list_started = time.perf_counter()
-            items = await adapter.fetch_list()
-            run_result.list_duration_seconds += time.perf_counter() - list_started
+            try:
+                items = await adapter.fetch_list()
+            finally:
+                run_result.list_duration_seconds += time.perf_counter() - list_started
             run_result.fetched += len(items)
             log_event(
                 logger,
@@ -835,7 +839,7 @@ class CrawlerManager:
             run_result.status = attempt.status
         except Exception as exc:
             attempt.status = "failure"
-            attempt.error = f"{type(exc).__name__}: {exc}"
+            attempt.error = exception_summary(exc)
             raise
         finally:
             after = (
@@ -854,6 +858,15 @@ class CrawlerManager:
                 attempt.updated_count,
                 attempt.unchanged_count,
             ) = tuple(current - previous for current, previous in zip(after, before, strict=True))
+            log_event(
+                logger, logging.WARNING if attempt.status == "failure" else logging.INFO,
+                "source_attempt_finished", source=db_source.code,
+                effective_execution=execution, status=attempt.status,
+                duration_seconds=round(time.perf_counter() - attempt_started, 3),
+                error=attempt.error,
+                new_count=attempt.new_count, updated_count=attempt.updated_count,
+                unchanged_count=attempt.unchanged_count,
+            )
             if adapter is not None:
                 await adapter.close()
         return attempt.status == "success" and attempt.fetched > 0
@@ -1119,14 +1132,16 @@ class CrawlerManager:
                     )
                 )
             state = "UNCHANGED" if bootstrap else "NEW"
-        elif existing_relation and existing_relation.content_hash != digest:
+        elif existing_relation and (existing_relation.content_hash != digest or (
+            notice.url == candidate.url and candidate.publish_date is not None and notice.publish_date != candidate.publish_date
+        )):
             old_hash = existing_relation.content_hash
             db.add(
                 NoticeUpdate(
                     notice_id=notice.id,
                     old_hash=old_hash,
                     new_hash=digest,
-                    summary=f"来源 {source.code} 的正文内容发生变化",
+                    summary=f"来源 {source.code} 的" + ("正文内容发生变化" if old_hash != digest else "发布日期发生变化"),
                 )
             )
             if notice.url == candidate.url:
@@ -1135,6 +1150,8 @@ class CrawlerManager:
                 notice.content = candidate.content
                 notice.content_hash = digest
                 notice.publisher = candidate.publisher
+                if candidate.publish_date is not None:
+                    notice.publish_date = candidate.publish_date
                 notice.category = category
                 notice.importance_score = score
                 notice.registration_start = registration_start

@@ -1,4 +1,5 @@
 from pathlib import Path
+from PyInstaller.utils.hooks import collect_data_files
 
 
 backend_dir = Path(SPECPATH)
@@ -7,12 +8,13 @@ a = Analysis(
     [str(backend_dir / "scripts" / "backend_sidecar.py")],
     pathex=[str(backend_dir)],
     binaries=[],
-    datas=[(str(backend_dir / "config"), "config")],
+    datas=[(str(backend_dir / "config"), "config"), *collect_data_files("certifi")],
     hiddenimports=[
         "uvicorn.lifespan.on",
         "uvicorn.loops.asyncio",
         "uvicorn.protocols.http.h11_impl",
         "websockets.asyncio.client",
+        "truststore._windows",
     ],
     hookspath=[],
     hooksconfig={},

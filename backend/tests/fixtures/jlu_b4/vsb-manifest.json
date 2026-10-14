@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kjc",
+    "url": "https://kjc.jlu.edu.cn/info/1118/6237.htm",
+    "file": "kjc.detail.html",
+    "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+    "date": "2026-09-03",
+    "date_semantics": "publication",
+    "sha256": "ee10048c8f826e16be6a3baff1dc60febdf9186f3d43508a8320f468236fb422",
+    "captured_at": "2026-10-14T16:35:18+08:00"
+  },
+  {
+    "id": "hssra",
+    "url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+    "file": "hssra.detail.html",
+    "title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知",
+    "date": "2026-09-21",
+    "date_semantics": "publication",
+    "sha256": "3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4",
+    "captured_at": "2026-10-14T16:35:25+08:00"
+  },
+  {
+    "id": "youth",
+    "url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+    "file": "youth.detail.html",
+    "title": "关于公开选拔吉大青年通讯社主要学生干部的通知",
+    "date": "2026-09-30",
+    "date_semantics": "publication",
+    "sha256": "a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed",
+    "captured_at": "2026-10-14T16:35:39+08:00"
+  },
+  {
+    "id": "yzb-notices",
+    "url": "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+    "file": "yzb-notices.detail.html",
+    "title": "吉林大学2026级研究生新生入学须知",
+    "date": "2026-06-25",
+    "date_semantics": "updated_only",
+    "sha256": "246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd",
+    "captured_at": "2026-10-14T16:34:41+08:00"
+  }
+]

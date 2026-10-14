@@ -1,0 +1,56 @@
+[
+  {
+    "name": "notices",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "list_sha256": "960cb3ec47c952567a087fae346d808c032db1997a38a730af2af4fcb0748220",
+    "captured_at": "2026-10-14T16:23:31+08:00",
+    "details": [
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=6cb04fca748746789073c7698b204628",
+        "file": "notices.0.detail.html",
+        "captured_at": "2026-10-14T16:23:33+08:00",
+        "sha256": "c2c677405a26400a7d1541418ff994ee1394686582ea4ac9bb83ca5379281280"
+      },
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "file": "notices.1.detail.html",
+        "captured_at": "2026-10-14T16:23:34+08:00",
+        "sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=04d3060cf4b748b181d4fefe40c6d3bf",
+        "file": "notices.2.detail.html",
+        "captured_at": "2026-10-14T16:23:35+08:00",
+        "sha256": "876c07b1a7afae0f7222dbe189936056ad3d3f49d9ea18c622601b7f8449b214"
+      }
+    ],
+    "purpose": "anonymized structural controls; original IDs/title/date/attachment structure retained"
+  },
+  {
+    "name": "publicity",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+    "list_sha256": "2aed24ea8f3982008b2af7faa234903cefe2cbb70756f6c785e5414dbbb2810e",
+    "captured_at": "2026-10-14T16:23:36+08:00",
+    "details": [
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=ef6cef6b5b4f4bf3810f2ab13fcbd984",
+        "file": "publicity.0.detail.html",
+        "captured_at": "2026-10-14T16:23:37+08:00",
+        "sha256": "c65f6efa3ae8ecb006c888f92e7671fd6e6eefd32fadf2a43ca9471f6b4b6fc5"
+      },
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=6f0bd8dd5c8d419aae7a5ccfc56d0454",
+        "file": "publicity.1.detail.html",
+        "captured_at": "2026-10-14T16:23:39+08:00",
+        "sha256": "dc394ab484570af2e5bae4ec6fc9c19696e532305a3830df0c86cebda41068f3"
+      },
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=c56bd87a98e641cf9e9078dcde6594ab",
+        "file": "publicity.2.detail.html",
+        "captured_at": "2026-10-14T16:23:40+08:00",
+        "sha256": "f073d9b46b0fd06bff3dae7f96211ef179aa0c790d72e16a922ed67d8e6035f2"
+      }
+    ],
+    "purpose": "anonymized structural controls; original IDs/title/date/attachment structure retained"
+  }
+]

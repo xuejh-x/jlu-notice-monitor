@@ -1,0 +1,71 @@
+[
+  {
+    "name": "ccst_jxtz",
+    "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "detail_url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+    "list_sha256": "31a204b4fb7b24d1d17569c88ac70fd3010be493266a965d0b8e257297b32036",
+    "detail_sha256": "5f505e2ad8ca15b731da0afc2a469d2eec49e258508c9ff860a1e232410efe4f",
+    "checked_at": "2026-10-13T13:42:40+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "cse_undergraduate",
+    "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "detail_url": "https://cse.jlu.edu.cn/info/1006/1441.htm",
+    "list_sha256": "7081571c0340b4113775ddafafeeb4c4919683f88669666cc873ff96de6c78a9",
+    "detail_sha256": "1a1f545e857d4d8c0474c01a946ffb19590dce06d1fda6077c6bfebb93bd7ad5",
+    "checked_at": "2026-10-13T13:51:10+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "cse_xytz",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "detail_url": "https://cse.jlu.edu.cn/info/1003/1517.htm",
+    "list_sha256": "7da325bac1e96e93a9521fd54540063863f3a2766d7b71a0c5a397f96a55e582",
+    "detail_sha256": "cd0869feb0b0fe82117dfa8397d8d49414d3c58af50ecadf457a66ace03e7b8d",
+    "checked_at": "2026-10-13T13:51:14+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "csw_jbtz",
+    "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "detail_url": "https://csw.jlu.edu.cn/info/1095/8553.htm",
+    "list_sha256": "0e93ed392c18291506a9705924d975a278d3cdbc0db68f8a98528ab332809395",
+    "detail_sha256": "7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43",
+    "checked_at": "2026-10-13T13:51:18+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "csw_xytz_",
+    "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "detail_url": "https://csw.jlu.edu.cn/info/1009/8158.htm",
+    "list_sha256": "25c5b296373ae0f801c242304c25e0fc44e50cd14ab040a6fd489258200aaa25",
+    "detail_sha256": "370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f",
+    "checked_at": "2026-10-13T13:51:24+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "innovation_tzgg",
+    "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "detail_url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+    "list_sha256": "095de24ffaff3d5ff9b6b19126760c2bd3cdcbaab2fa55fbcd870fd491a3f6ee",
+    "detail_sha256": "66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd",
+    "checked_at": "2026-10-13T13:51:30+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "jwc_tzgg",
+    "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "detail_url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+    "list_sha256": "8919dba673a545603c886cb72ce25ea9eca6a92c397fe98cac69d942ce9ba09d",
+    "detail_sha256": "1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc",
+    "checked_at": "2026-10-13T13:51:36+08:00",
+    "purpose": "anonymized structural positive control; not a live verification"
+  },
+  {
+    "name": "empty-column",
+    "url": "https://auto.jlu.edu.cn/zsxx.htm",
+    "list_sha256": "4646cf69d2e2dbff6da4ae2e223d7ca871c02085351e2484116e28e45d6f6078",
+    "purpose": "real zero-count list with navigation; remove personal information and unrelated markup"
+  }
+]

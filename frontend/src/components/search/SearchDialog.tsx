@@ -2,7 +2,7 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { useQuery } from '@tanstack/react-query'
 import { CalendarClock, Search, X } from 'lucide-react'
 import { useEffect, useId, useRef, useState, type KeyboardEvent as ReactKeyboardEvent } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { matchPath, useLocation, useNavigate } from 'react-router-dom'
 import { searchNotices } from '../../api/notices'
 import { useDebouncedValue } from '../../hooks/useDebouncedValue'
 import type { Notice } from '../../types'
@@ -43,6 +43,7 @@ export function SearchDialog() {
   const [activeIndex, setActiveIndex] = useState(-1)
   const desktopInputRef = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
+  const location = useLocation()
   const listboxId = useId()
   const normalizedKeyword = keyword.trim()
   const debouncedKeyword = useDebouncedValue(normalizedKeyword)
@@ -67,7 +68,12 @@ export function SearchDialog() {
     return () => window.removeEventListener('keydown', handler)
   }, [keyword])
 
-  const openNotice = (notice: Notice) => { setDesktopOpen(false); setMobileOpen(false); navigate(`/notices/${notice.id}`) }
+  const openNotice = (notice: Notice) => {
+    setDesktopOpen(false)
+    setMobileOpen(false)
+    const inWorkspace = location.pathname === '/notices' || Boolean(matchPath('/notices/:id', location.pathname))
+    navigate({ pathname: `/notices/${notice.id}`, search: inWorkspace ? location.search : '' })
+  }
   const handleKeyDown = (event: ReactKeyboardEvent<HTMLInputElement>, close: () => void) => {
     if (event.key === 'Escape') { event.preventDefault(); close(); return }
     if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {

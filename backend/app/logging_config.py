@@ -13,16 +13,19 @@ from app.paths import get_log_dir
 
 _SENSITIVE_KEY = re.compile(r"(password|token|cookie|authorization|credential|secret)", re.I)
 _AUTH_VALUE = re.compile(r"(?i)(authorization\s*[:=]\s*)[^\r\n]+")
+_URL_VALUE = re.compile(r"https?://[^\s<>\"']+", re.I)
+
+
+def _safe_url(match: re.Match[str]) -> str:
+    parts = urlsplit(match.group(0))
+    return urlunsplit((parts.scheme, parts.netloc.rsplit("@", 1)[-1], parts.path, "", ""))
 
 
 def _safe_value(value: Any, key: str = "") -> Any:
     if _SENSITIVE_KEY.search(key):
         return "[REDACTED]"
     if isinstance(value, str):
-        if value.lower().startswith(("http://", "https://")):
-            parts = urlsplit(value)
-            return urlunsplit((parts.scheme, parts.netloc, parts.path, "", ""))
-        return _AUTH_VALUE.sub(r"\1[REDACTED]", value)
+        return _AUTH_VALUE.sub(r"\1[REDACTED]", _URL_VALUE.sub(_safe_url, value))
     if isinstance(value, dict):
         return {str(name): _safe_value(item, str(name)) for name, item in value.items()}
     if isinstance(value, (list, tuple)):
@@ -45,7 +48,13 @@ class JsonFormatter(logging.Formatter):
             "logger": record.name,
             "event": getattr(record, "event", record.getMessage()),
         }
-        for key in ("source", "trigger_source", "duration_seconds", "status", "new_count", "updated_count", "unchanged_count", "error_type", "error"):
+        for key in (
+            "source", "trigger_source", "duration_seconds", "status", "new_count",
+            "updated_count", "unchanged_count", "error_type", "error",
+            "effective_execution", "fallback_used", "fallback_reason",
+            "method", "url", "attempt", "max_attempts", "timeout_seconds",
+            "http_status", "response_bytes", "content_type",
+        ):
             value = getattr(record, key, None)
             if value is not None:
                 payload[key] = _safe_value(value, key)

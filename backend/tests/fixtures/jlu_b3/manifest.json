@@ -1,0 +1,32 @@
+{
+  "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+  "captured_at": "2026-10-13T13:51:22+08:00",
+  "snapshot_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889",
+  "purpose": "original attachment structure, filenames and URLs; unrelated prose removed; not fresh HTTP",
+  "files": [
+    {
+      "filename": "ddf24a8325bda1f59f473281f52900c6.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737"
+    },
+    {
+      "filename": "5cccf4e596d733b60216144dacf48452.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742"
+    },
+    {
+      "filename": "bc5dd0e93bd9255d4cc4ba4293643483.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739"
+    },
+    {
+      "filename": "751da56fc5d10632b944a166f61c54ce.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738"
+    },
+    {
+      "filename": "3b1e10229ae339ec3016c42eb18ec153.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741"
+    },
+    {
+      "filename": "b62d2c48924942d6fe5107657136599e.jpg",
+      "href": "/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740"
+    }
+  ]
+}

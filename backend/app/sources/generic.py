@@ -4,6 +4,8 @@ import asyncio
 from datetime import date
 from email.utils import parsedate_to_datetime
 import json
+import logging
+import time
 from typing import Any, Literal
 from urllib.parse import urljoin, urlsplit
 from xml.etree import ElementTree
@@ -14,11 +16,17 @@ import httpx
 from app.config import get_settings, load_yaml
 from app.paths import get_cache_dir
 from app.parsers import parse_detail_html, parse_list_html
+from app.parsers.html import detail_plain_text, is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
+from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+from app.logging_config import log_event
 from app.services.normalization import normalize_whitespace
 from app.services.source_security import UnsafeSourceUrl, validate_peer_address, validate_source_url
+from app.services.tls import is_certificate_verification_error, source_ssl_context
 from app.sources.base import LoginExpiredError, NoticeSource, SourceError
+
+logger = logging.getLogger(__name__)
 
 
 class SafeFetcher:
@@ -28,6 +36,7 @@ class SafeFetcher:
         allow_private_network: bool = False,
         validation_scope: Literal["local", "cloud"] = "local",
         transport: httpx.AsyncBaseTransport | None = None,
+        source_code: str = "generic",
     ) -> None:
         settings = get_settings()
         crawler = load_yaml("settings.yaml").get("crawler", {})
@@ -38,6 +47,7 @@ class SafeFetcher:
         self.retries = int(crawler.get("retries", 2))
         self.backoff = float(crawler.get("retry_backoff_seconds", 1.0))
         self.client = httpx.AsyncClient(
+            verify=source_ssl_context(trust_env=validation_scope == "local"),
             timeout=settings.request_timeout,
             follow_redirects=False,
             headers={"User-Agent": str(crawler.get("user_agent", "NoticeHub/0.5"))},
@@ -46,13 +56,18 @@ class SafeFetcher:
         )
         self.auth_required = False
         self.login_url: str | None = None
+        self.source_code = source_code
 
     async def get(self, url: str) -> tuple[str, str, str]:
-        current = url
         last_error: Exception | None = None
         for attempt in range(self.retries + 1):
+            current = url
+            started = time.perf_counter()
+            response: httpx.Response | None = None
             try:
                 for _ in range(self.max_redirects + 1):
+                    started = time.perf_counter()
+                    response = None
                     await self.validate_url(current)
                     async with self.client.stream("GET", current) as response:
                         network_stream = response.extensions.get("network_stream")
@@ -66,6 +81,7 @@ class SafeFetcher:
                         if self.auth_required and response.status_code in {401, 403}:
                             raise LoginExpiredError("AUTH_SESSION_EXPIRED")
                         if response.is_redirect:
+                            self._log_http_result(current, attempt, started, response=response)
                             location = response.headers.get("location")
                             if not location:
                                 raise SourceError("Redirect response did not include a location")
@@ -89,15 +105,38 @@ class SafeFetcher:
                             if len(body) > self.max_bytes:
                                 raise SourceError("Source response exceeds the configured size limit")
                         encoding = response.encoding or "utf-8"
+                        self._log_http_result(current, attempt, started, response=response, response_bytes=len(body))
                         return body.decode(encoding, errors="replace"), response.headers.get("content-type", ""), str(response.url)
                 raise SourceError("Source exceeded the redirect limit")
             except LoginExpiredError:
+                self._log_http_result(current, attempt, started, response=response, error=LoginExpiredError("AUTH_SESSION_EXPIRED"))
                 raise
             except (httpx.HTTPError, UnicodeError, SourceError, ValueError) as exc:
+                self._log_http_result(current, attempt, started, response=response, error=exc)
+                if is_certificate_verification_error(exc):
+                    raise SourceError(f"TLS_CERTIFICATE_VERIFY_FAILED: GET {current}: {exception_summary(exc)}") from exc
                 last_error = exc
-                if attempt < self.retries:
+                if attempt < self.retries and is_retryable_http_error(exc):
                     await asyncio.sleep(self.backoff * (attempt + 1))
-        raise SourceError(f"Source request failed: {last_error}")
+                else:
+                    break
+        raise SourceError(f"Source request failed: {exception_summary(last_error)}") from last_error
+
+    def _log_http_result(self, url: str, attempt: int, started: float, *,
+                         response: httpx.Response | None = None, response_bytes: int | None = None,
+                         error: Exception | None = None) -> None:
+        if isinstance(error, httpx.HTTPStatusError):
+            response = error.response
+        log_event(logger, logging.WARNING if error else logging.INFO,
+                  "source_http_request_failed" if error else "source_http_request_succeeded",
+                  source=self.source_code, method="GET", url=url, attempt=attempt + 1,
+                  max_attempts=self.retries + 1, duration_seconds=round(time.perf_counter() - started, 3),
+                  timeout_seconds=self.client.timeout.as_dict(),
+                  http_status=response.status_code if response is not None else None,
+                  response_bytes=response_bytes,
+                  content_type=response.headers.get("content-type") if response is not None else None,
+                  error_type=type(error).__name__ if error else None,
+                  error=exception_summary(error) if error else None)
 
     async def validate_url(self, url: str) -> str:
         return await validate_source_url(
@@ -159,6 +198,7 @@ def parse_configured_html(text: str, page_url: str, config: dict[str, Any]) -> l
     if not item_selector:
         return parse_list_html(text, page_url)
     soup = BeautifulSoup(text, "html.parser")
+    validate_html_page(soup)
     try:
         items = soup.select(item_selector)
     except Exception as exc:
@@ -177,9 +217,9 @@ def parse_configured_html(text: str, page_url: str, config: dict[str, Any]) -> l
             raise SourceError("One or more advanced selectors are invalid") from exc
         if not isinstance(title_node, Tag) or not isinstance(link_node, Tag):
             continue
-        title = normalize_whitespace(title_node.get_text(" ", strip=True))
+        title = normalize_whitespace(str(title_node.get("title") or title_node.get_text(" ", strip=True)))
         href = str(link_node.get("href") or "").strip()
-        if title and href:
+        if title and href and usable_link(link_node, page_url):
             results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=parse_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))
     if not results:
         raise SourceError("The configured selectors did not find any notices")
@@ -255,6 +295,7 @@ class GenericPublicSource(NoticeSource):
         self.fetcher = SafeFetcher(
             allow_private_network=bool(config.get("allow_private_network", False)),
             validation_scope=str(config.get("validation_scope", "local")),
+            source_code=self.code,
         )
         self.detected_type = str(config.get("content_parser", config.get("parser", "auto")))
         self.render_browser: Any | None = None
@@ -306,6 +347,7 @@ class GenericPublicSource(NoticeSource):
                 parsed_feed = [item.model_copy(update={"category": category}) for item in parsed_feed]
             return await self._safe_items(parsed_feed)
         self.detected_type = "generic_html"
+        validate_html_page(BeautifulSoup(text, "html.parser"))
         results: list[NoticeCandidate] = []
         seen_urls: set[str] = set()
         page_text, page_url = text, final_url
@@ -341,6 +383,8 @@ class GenericPublicSource(NoticeSource):
                 break
             page_text, _, page_url = await self.fetcher.get(next_url)
         if not results:
+            if is_empty_notice_list(text):
+                raise SourceError("HTML_LIST_EMPTY: valid notice column currently has no notices")
             raise SourceError("This page is unsupported or needs advanced selector configuration")
         return await self._safe_items(results[: get_settings().max_items_per_section])
 
@@ -358,12 +402,16 @@ class GenericPublicSource(NoticeSource):
 
     async def _safe_attachments(self, attachments: list[AttachmentData]) -> list[AttachmentData]:
         safe: list[AttachmentData] = []
+        seen: set[str] = set()
         for attachment in attachments[:50]:
+            if attachment.url in seen:
+                continue
             try:
                 await self.fetcher.validate_url(attachment.url)
             except UnsafeSourceUrl:
                 continue
             safe.append(attachment)
+            seen.add(attachment.url)
         return safe
 
     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
@@ -373,7 +421,10 @@ class GenericPublicSource(NoticeSource):
         configured = str(self.parser_config.get("content_selector", "")).strip()
         if not configured:
             parsed = parse_detail_html(text, final_url, notice)
-            return parsed.model_copy(update={"attachments": await self._safe_attachments(parsed.attachments)})
+            attachments = await self._safe_attachments(parsed.attachments)
+            if not parsed.content and not attachments:
+                raise SourceError("HTML_DETAIL_EMPTY: no content or permitted attachment remains")
+            return parsed.model_copy(update={"attachments": attachments})
         soup = BeautifulSoup(text, "html.parser")
         try:
             node = soup.select_one(configured)
@@ -381,7 +432,9 @@ class GenericPublicSource(NoticeSource):
             raise SourceError("The detail content selector is invalid") from exc
         if not isinstance(node, Tag):
             raise SourceError("The detail content selector did not match")
-        content = normalize_whitespace(node.get_text("\n", strip=True))
+        for unwanted in node.select("script, style, noscript"):
+            unwanted.decompose()
+        content = detail_plain_text(node, final_url)
         attachments: list[AttachmentData] = []
         attachment_selector = str(self.parser_config.get("attachment_selector", "")).strip()
         if attachment_selector:
@@ -390,11 +443,13 @@ class GenericPublicSource(NoticeSource):
             except Exception as exc:
                 raise SourceError("The attachment selector is invalid") from exc
             for anchor in anchors:
-                if isinstance(anchor, Tag) and anchor.get("href"):
+                if isinstance(anchor, Tag) and usable_link(anchor, final_url):
                     url = urljoin(final_url, str(anchor.get("href")))
                     filename = normalize_whitespace(anchor.get_text(" ", strip=True)) or url.rsplit("/", 1)[-1]
                     attachments.append(AttachmentData(filename=filename, url=url, type=filename.rsplit(".", 1)[-1].lower() if "." in filename else "file"))
-        return notice.model_copy(update={"url": final_url, "content": content, "attachments": await self._safe_attachments(attachments)})
+        safe_attachments = await self._safe_attachments(attachments)
+        validate_detail_container(soup, node, has_attachments=bool(safe_attachments), page_url=final_url)
+        return notice.model_copy(update={"url": final_url, "content": content, "attachments": safe_attachments})
 
     async def close(self) -> None:
         if self.render_browser is not None:

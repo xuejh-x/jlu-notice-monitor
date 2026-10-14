@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from pathlib import PurePosixPath
 import re
+import time
 from typing import Any
 from urllib.parse import parse_qs, urlencode, urljoin, urlsplit
 
@@ -14,6 +15,8 @@ from bs4 import BeautifulSoup, Tag
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
 from app.services.normalization import normalize_whitespace
+from app.services.http_diagnostics import exception_summary
+from app.services.tls import is_certificate_verification_error
 from app.sources.base import SourceError, StaticHTMLSource
 from app.paths import get_cache_dir
 
@@ -222,6 +225,7 @@ class OAPublicSource(StaticHTMLSource):
         encoder_url = urljoin(self.base_url, OA_ATTACHMENT_ENCODER_PATH)
         last_error: Exception | None = None
         for attempt in range(self.retries + 1):
+            started = time.perf_counter()
             try:
                 response = await self.client.post(
                     encoder_url,
@@ -232,14 +236,22 @@ class OAPublicSource(StaticHTMLSource):
                 encoded = response.text.strip()
                 if not encoded or "<" in encoded or len(encoded) > 4096:
                     raise SourceError("OA_PUBLIC_ATTACHMENT_ENCODING_INVALID")
+                self._log_http_result("POST", encoder_url, attempt, started, response=response)
                 return urljoin(self.base_url, OA_ATTACHMENT_DOWNLOAD_PATH) + "?" + urlencode(
                     {"res": encoded}
                 )
             except (httpx.HTTPError, UnicodeError, SourceError) as exc:
+                self._log_http_result("POST", encoder_url, attempt, started, error=exc)
+                if is_certificate_verification_error(exc):
+                    raise SourceError(f"TLS_CERTIFICATE_VERIFY_FAILED: POST {encoder_url}: {exception_summary(exc)}") from exc
+                if isinstance(exc, httpx.HTTPStatusError) and 400 <= exc.response.status_code < 500:
+                    raise SourceError(f"OA_PUBLIC_ATTACHMENT_HTTP_RESTRICTED: HTTP {exc.response.status_code}") from exc
+                if isinstance(exc, SourceError):
+                    raise
                 last_error = exc
                 if attempt < self.retries:
                     await asyncio.sleep(self.backoff * (attempt + 1))
-        raise SourceError(f"OA_PUBLIC_ATTACHMENT_URL_FAILED: {type(last_error).__name__}")
+        raise SourceError(f"OA_PUBLIC_ATTACHMENT_URL_FAILED: {exception_summary(last_error)}") from last_error
 
     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
         html = await self._get(notice.url)
