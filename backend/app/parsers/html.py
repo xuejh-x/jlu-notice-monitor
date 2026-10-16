@@ -226,6 +226,20 @@ def _article_metadata_allowed(node: Tag, content: Tag | None) -> bool:
                 and not any(isinstance(p, Tag) and (p.name in {"nav", "header", "footer"} or p.get("role") == "navigation") for p in header.parents))
 
 
+def _detail_metadata_nodes(soup: BeautifulSoup, selector: str) -> list[Tag]:
+    """Preserve observed CMS ancestry without complex :has() arguments.
+
+    SoupSieve 3 enforces stricter relational-selector grammar. Use ordinary
+    child selectors and verify the same article container explicitly.
+    """
+    nodes = soup.select(selector)
+    if selector in {".right-nr > .view-title", ".right-nr > .view-info"}:
+        return [node for node in nodes if node.parent.select_one(":scope > .view-cnt > .v_news_content")]
+    if selector == "table > tr > td.pubtime_publisher":
+        return [node for node in nodes if node.parent.parent.select_one(":scope > tr > td.content > #vsb_content")]
+    return nodes
+
+
 def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag | None = None) -> str:
     before_body = {id(n) for n in content.previous_elements} if content is not None else None
     selectors = ("article.type-post > header.entry-header > h1.entry-title",
@@ -233,7 +247,7 @@ def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag |
                  "form[name='_newscontent_fromname'] .read > .readtitle", "form[name='_newscontent_fromname'] .content > #Title", "form[name='_newscontent_fromname'] .item_biaoti",
                  "form[name='_newscontent_fromname'] > p.biaoti", "form[name='_newscontent_fromname'] .nav01 > h3",
                  "form[name='_newscontent_fromname'] > .abouttitle > p",
-                 ".right-nr:has(> .view-cnt > .v_news_content) > .view-title",
+                 ".right-nr > .view-title",
                  ".m-detail-container__title", ".article_details1 .cont > .title", "form[name='_newscontent_fromname'] .txt_title > h5",
                  "form[name='_newscontent_fromname'] .cont_con14_4_tit > h3", "form[name='_newscontent_fromname'] > .tittle",
                  "form[name='_newscontent_fromname'] .news_nr1", "form[name='_newscontent_fromname'] .tittle_con",
@@ -242,7 +256,7 @@ def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag |
                  "form[name='_newscontent_fromname'] h2[align='center']", ".nr_title", ".art-tit h3", ".detail-title", ".detail-tit h4",
                  "form[name='_newscontent_fromname'] > .bt", ".article-title", ".article_title", "h1", ".title")
     for selector in selectors:
-        for node in soup.select(selector):
+        for node in _detail_metadata_nodes(soup, selector):
             if not _article_metadata_allowed(node, content) or node is content or (content is not None and (content in node.parents or content in node.descendants or id(node) not in before_body)):
                 continue
             copy = BeautifulSoup(str(node), "html.parser")
@@ -284,10 +298,10 @@ def _detail_publish_date(soup: BeautifulSoup, content: Tag, fallback: date | Non
     # Only article metadata can override a list date. Body event/deadline dates
     # and a site's current-date clock cannot establish publication metadata.
     selectors = ("form[name='_newscontent_fromname'] > div > h1 + div[align='center']",
-                 "table:has(> tr > td.content > #vsb_content) > tr > td.pubtime_publisher",
+                 "table > tr > td.pubtime_publisher",
                  "article.type-post > header.entry-header time.entry-date[datetime]",
                  "form[name='_newscontent_fromname'] > .wzxxys", "form[name='_newscontent_fromname'] .nav01 > h6 .ll > span",
-                 "form[name='_newscontent_fromname'] > h3 > span", ".right-nr:has(> .view-cnt > .v_news_content) > .view-info",
+                 "form[name='_newscontent_fromname'] > h3 > span", ".right-nr > .view-info",
                  ".m-detail-container__info", ".article_details1 .liner", "form[name='_newscontent_fromname'] .cont_con14_4_tit > p",
                  "form[name='_newscontent_fromname'] > .pe_data", "form[name='_newscontent_fromname'] .txt_title > span",
                  "form[name='_newscontent_fromname'] .zzly", "form[name='_newscontent_fromname'] .info",
@@ -298,7 +312,7 @@ def _detail_publish_date(soup: BeautifulSoup, content: Tag, fallback: date | Non
                  "meta[property='article:published_time']", "meta[name='pubdate']")
     before_body = {id(n) for n in content.previous_elements}
     for selector in selectors:
-        for node in soup.select(selector):
+        for node in _detail_metadata_nodes(soup, selector):
             if not _article_metadata_allowed(node, content) or node is content or content in node.parents or content in node.descendants or (selector in selectors[:7] and id(node) not in before_body):
                 continue
             value = str(node.get("datetime") or node.get("content") or node.get_text(" ", strip=True))
