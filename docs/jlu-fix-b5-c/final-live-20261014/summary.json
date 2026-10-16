@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-14T23:23:51+08:00",
+  "columns": 17,
+  "statuses": {
+    "部分通过": 16,
+    "失败": 1
+  },
+  "verdicts": {
+    "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED": 16,
+    "ACCESS_BLOCKED": 1
+  },
+  "list_pages": 45,
+  "list_items": 575,
+  "details": 48,
+  "verified_details": 48,
+  "database_sample_replays": 16,
+  "unexpected_merges": [],
+  "http_attempts_this_session": 12,
+  "app_database_connections": 0,
+  "formal_sources_changed": 0,
+  "formal_admissions": 0,
+  "attachment_downloads": 0,
+  "cloud_production_verified": false
+}

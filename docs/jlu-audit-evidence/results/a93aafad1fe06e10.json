@@ -1,0 +1,175 @@
+{
+  "column_url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+  "column": "会议通知",
+  "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+  "site_url": "https://nrcem.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P3",
+  "discovery_url": "https://nrcem.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:39:31+08:00",
+  "checked_at": "2026-10-13T14:07:53+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "BODY_CONTAINER_FALLBACK",
+    "BODY_TOO_SHORT",
+    "ATTACHMENT_ENDPOINT_FAILED"
+  ],
+  "details": [
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1479/1043.htm",
+      "list_title": "化学101计划会议手册",
+      "parsed_title": "化学101计划会议手册",
+      "document_title": "化学101计划会议手册-吉林大学国家教材建设重点研究基地（高等学校理学教材研究）",
+      "heading_texts": [
+        "化学101计划会议手册"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2025-09-22",
+      "reference_date": "2025-09-22",
+      "body_selector": "body fallback or specialized OA",
+      "content_chars": 0,
+      "content_preview": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_attachments": [
+        {
+          "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16649264",
+          "filename": "化学101计划会议手册.pdf"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "化学101计划会议手册.pdf",
+          "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16649264",
+          "type": "pdf"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_TOO_SHORT",
+        "ATTACHMENT_ENDPOINT_FAILED"
+      ],
+      "time": "2026-10-13T14:07:54+08:00",
+      "sha256": "18248ff5f072089f7d22a94f6f736c4cfd61215f914e9fe46959148af8353a01",
+      "snapshot": "html/18248ff5f072089f7d22a94f6f736c4cfd61215f914e9fe46959148af8353a01.html",
+      "attachment_probes": [
+        {
+          "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16649264",
+          "time": "2026-10-13T14:07:55+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 200,
+          "final_url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16649264",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 4,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "化学101计划会议手册",
+      "url": "https://nrcem.jlu.edu.cn/info/1479/1043.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "教育部教材局关于举办2025年全国教材研究人员培训班的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1479/1042.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地2025年度工作会议",
+      "url": "https://nrcem.jlu.edu.cn/info/1479/1041.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025高校理工农医教材建设与发展座谈会通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1479/1040.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 4,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/a93aafad1fe06e10.json",
+  "reason": "LIST_DATES_MISSING; BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT; ATTACHMENT_ENDPOINT_FAILED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+  "list_sha256": "1468d60d73b8b45b6e985fa5356f9b5e8efdc6a7acf05aa3a6e1adf6a01247af",
+  "list_snapshot": "html/1468d60d73b8b45b6e985fa5356f9b5e8efdc6a7acf05aa3a6e1adf6a01247af.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 4,
+  "unparsed_reference_links": []
+}

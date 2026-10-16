@@ -1,0 +1,904 @@
+{
+  "id": "p2-061cce78bfc5",
+  "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+  "institution": "东北亚学院、东北亚研究院",
+  "column": "通知公告",
+  "site_url": "https://nasa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/061cce78bfc55c8a.json",
+  "discovery_url": "https://nasa.jlu.edu.cn/",
+  "original_snapshot": "html/31ba9c3f851a7e588bf9ef13466041c5ef38e4e4eb67ec7d62629fd1afaa5ad7.html",
+  "original_capture_time": "2026-10-13T13:41:05+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-061cce78bfc5",
+    "name": "东北亚学院、东北亚研究院 / 通知公告",
+    "base_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:01+08:00",
+  "details": [
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1023/6278.htm",
+      "list_title": "东北亚学院关于卓越人才奖评选结果的公示 2025-09-25",
+      "list_date": "2025-09-25",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1023/6278.htm",
+        "time": "2026-10-15T19:39:14+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1023/6278.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4878684c62fcea18a83a06bf0b15c445da139af100d53315e0d37de9942add3b",
+        "html_path": "html/4878684c62fcea18a83a06bf0b15c445da139af100d53315e0d37de9942add3b.html",
+        "replacement_chars": 0,
+        "chars": 25650,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "东北亚学院关于卓越人才奖评选结果的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1023/6278.htm",
+        "publish_date": "2025-09-25",
+        "publisher": null,
+        "content": "根据《 吉林大学东北亚学院卓越人才奖评选办法 》相关规定，经院长提名、党政联席会议推荐、学术委员会评审及党政联席会议审议确定，最终评选王胜今教授为 卓越人才奖 A类 获奖人。 现对评选结果予以公示，公示期为 2025年9月25日至2025年9月30日。如对公示结果有异议，请在公示期内具实名以书面或电子邮件形式，向东北亚学院办公室如实反映。 联系电话： 0431-85166375 联系邮箱： wangdijlu@jlu.edu.cn 特此公示。 东北亚学院 2025年9月 25 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 公 示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-09-25",
+            "date": "2025-09-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 242,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "东北亚学院关于卓越人才奖评选结果的公示",
+          "",
+          "日期：2025-09-25 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "东北亚学院关于卓越人才奖评选结果的公示 日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25",
+            "date": "2025-09-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+      "list_title": "公 示 2021-11-08",
+      "list_date": "2021-11-08",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+        "time": "2026-10-15T19:39:15+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "baf17eb506d41e19b97db624a9268dbcf3b84362fcf78c417fa7e105ba48d64d",
+        "html_path": "html/baf17eb506d41e19b97db624a9268dbcf3b84362fcf78c417fa7e105ba48d64d.html",
+        "replacement_chars": 0,
+        "chars": 23683,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公 示",
+        "url": "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+        "publish_date": "2021-11-08",
+        "publisher": null,
+        "content": "公 示 经学院学术委员会、党政联席会讨论通过，确定以下两位教师为东北亚学院暨东北亚研究院学科建设与科学研究重大贡献奖获得者： 特别重大贡献奖 王胜今 重大贡献奖 朱显平 特此公示。 公示时间为2021年11月8日至11月13日。公示期间，如有异议请与院办公室联系。 联系人：王东朋，联系电话0431-85166375。 吉林大学东北亚学院 东北亚研究院 2021年11月8日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 东北亚学院关于卓越人才奖评选结果的公示"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于申报2014年度吉林省科技厅软科学研究项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2021-11-08",
+            "date": "2021-11-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 187,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公 示",
+          "",
+          "日期：2021-11-08 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "公 示 日期：2021-11-08 点击数：",
+            "date": "2021-11-08"
+          },
+          {
+            "text": "日期：2021-11-08 点击数：",
+            "date": "2021-11-08"
+          },
+          {
+            "text": "日期：2021-11-08 点击数：",
+            "date": "2021-11-08"
+          },
+          {
+            "text": "日期：2021-11-08",
+            "date": "2021-11-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+      "list_title": "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [重要] 2005-05-23",
+      "list_date": "2005-05-23",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+        "time": "2026-10-15T19:39:16+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "97df59190edbc8b2bd77486d9a0ea2d166f0fac8508399ce7bb18e3ceaa12eb2",
+        "html_path": "html/97df59190edbc8b2bd77486d9a0ea2d166f0fac8508399ce7bb18e3ceaa12eb2.html",
+        "replacement_chars": 0,
+        "chars": 24360,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [重要]",
+        "url": "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+        "publish_date": "2005-05-23",
+        "publisher": null,
+        "content": "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [ 重要 ] 校内文科各单位： 为贯彻落实《吉林大学进一步发展繁荣哲学社会科学行动计划》，根据《吉林大学哲学社会科学科研项目管理办法》的有关规定，社会科学处组织各有关单位提出了2005年度跨学科研究项目选题，经专家组评选确定了2005年度跨学科研究项目招标课题。现将课题招标工作的有关事项通知如下： 一、招标课题数量及题目 吉林大学哲学社会科学跨学科研究项目2005年度招标课题共16个，题目及编号如下： （1）矿业权评估的经济意义分析 （2）东北地区水资源开发与管理研究 （3）东北振兴过程中我国的地缘战略研究 （4）多维视角下的企业社会责任研究 （5）WTO条件下的我国经济安全问题研究——一种法经济学视角的观照 （6）东北亚区域合作与东北振兴的国际环境研究 （7）医疗资源分配与社会公正 （8）知识经济条件下现代管理学框架重构研究 （9）高校学生微量元素摄人水平与体质、体能相关性的研究 （10）认知科学美学的理论构建与阐释 （11）电子政务安全体系构建 （12）我国农村新型合作医疗制度研究 （13）社会冲突的控制与和谐社会建设 （14）公民政治心理与社会进步 （15）鲁迅文学世界的生命叙事 （16）现代广告符号文化传播对中国当代社会生活方式和社会文化转变的影响 二、立项数量及资助额度 通过专家评审，从上述课题中择优立项5-10项，每项资助5-8万元。 三、投标要求 1．凡在我校从事哲学社会科学研究和教学工作，并已成为本学科领域学术带头人或中青年学术骨干，能够组织起跨学科的学术研究团队的教师均可投标。 2．每位教师无论以课题负责人还是以课题组成员的身份都只能投标一个课题。 3．2003年7月1日以来承担各级各类新立项项目2项（含2项）以上者，或有逾期未结项项目的教师不得申报。 四、论证要求 请投标人严格按照《吉林大学哲学社会科学跨学科研究项目投标评审书》规定的内容和要求进行论证，要组建一个真正跨学科的，有较强研究能力，并能密切协作的课题组，要阐明课题的跨学科属性，并从跨学科研究的角度设计研究内容和研究计划。 五、投标办法 1．投标者请访问社会科学处主页（http:// hssra.jlu.edu.cn/社科通知）下载《吉林大学哲学社会科学跨学科研究项目投标评审书》，严格按填表说明要求填写，计算机录入，A4纸打印和复印。 2．投标者将《吉林大学哲学社会科学跨学科研究项目投标评审书》一式7份及投标评审费，交各单位科研秘书统一送交社会科学处，同时报送电子文档。个人申报及不符合填表要求的材料，不予受理。 六、投标评审费 投标评审费每项200元。 七、投标时间 社会科学处受理投标时间从2005年5月20日起至5月30日止，过期不予受理。 请投标人在填写《吉林大学哲学社会科学跨学科研究项目投标评审书》前，仔细阅读《关于进一步加强学校设立的哲学社会科学研究项目管理的通知》，全面了解校项目管理的有关规定，实事求是地认真做好课题论证和申报工作。 联 系 人：房 华 联系电话：5166117 电子信箱：fanghua@email.jlu.edu.cn 附件：1．吉林大学哲学社会科学跨学科研究项目投标评审书 2．关于进一步加强学校设立的哲学社会科学研究项目管理的通知 (东北亚研究院转 2005年05月23日 11:48:13) 附件3： DOC WORD 文档",
+        "attachments": [
+          {
+            "filename": "DOC WORD 文档",
+            "url": "https://nasa.jlu.edu.cn/__local/5/FA/F1/3CE4DF5E214CE36BCBE6FB4D00A_20BD9D3B_17A00.doc?e=.doc",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于转发《关于2005年度中国发展研究基金会公共预算研究项目招标通告》的通知 [重要]"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于报送吉林省委宣传部重点调研课题申报意向的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2005-05-23",
+            "date": "2005-05-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1424,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/__local/5/FA/F1/3CE4DF5E214CE36BCBE6FB4D00A_20BD9D3B_17A00.doc?e=.doc"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [重要]",
+          "",
+          "日期：2005-05-23 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [重要] 日期：2005-05-23 点击数：",
+            "date": "2005-05-23"
+          },
+          {
+            "text": "日期：2005-05-23 点击数：",
+            "date": "2005-05-23"
+          },
+          {
+            "text": "日期：2005-05-23 点击数：",
+            "date": "2005-05-23"
+          },
+          {
+            "text": "日期：2005-05-23",
+            "date": "2005-05-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+        "time": "2026-10-15T19:29:01+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "31ba9c3f851a7e588bf9ef13466041c5ef38e4e4eb67ec7d62629fd1afaa5ad7",
+        "html_path": "html/31ba9c3f851a7e588bf9ef13466041c5ef38e4e4eb67ec7d62629fd1afaa5ad7.html",
+        "replacement_chars": 0,
+        "chars": 23387,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1023/2887.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2888.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2889.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2890.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2891.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2892.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2893.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2894.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2895.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2896.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2897.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2898.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2899.htm",
+        "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+        "https://nasa.jlu.edu.cn/info/1023/6278.htm"
+      ],
+      "observed_next_urls": [
+        "https://nasa.jlu.edu.cn/kxyj1/tzgg/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg/1.htm",
+        "time": "2026-10-15T19:39:13+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9c37a2bc1597ea6a77804fdf114da99c47100bc3aa29f89fe1432562dcbc3c12",
+        "html_path": "html/9c37a2bc1597ea6a77804fdf114da99c47100bc3aa29f89fe1432562dcbc3c12.html",
+        "replacement_chars": 0,
+        "chars": 22319,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2901.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2902.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2903.htm",
+        "https://nasa.jlu.edu.cn/info/1023/2905.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "time": "2026-10-15T19:29:01+08:00",
+    "ok": true,
+    "final_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "31ba9c3f851a7e588bf9ef13466041c5ef38e4e4eb67ec7d62629fd1afaa5ad7",
+    "html_path": "html/31ba9c3f851a7e588bf9ef13466041c5ef38e4e4eb67ec7d62629fd1afaa5ad7.html",
+    "replacement_chars": 0,
+    "chars": 23387,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院关于卓越人才奖评选结果的公示 2025-09-25",
+      "url": "https://nasa.jlu.edu.cn/info/1023/6278.htm",
+      "publish_date": "2025-09-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公 示 2021-11-08",
+      "url": "https://nasa.jlu.edu.cn/info/1023/3877.htm",
+      "publish_date": "2021-11-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2014年度吉林省科技厅软科学研究项目的通知 2013-08-28",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2887.htm",
+      "publish_date": "2013-08-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于董伟副教授新著《后危机时代：制度与结构的反思》 2011-06-22",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2888.htm",
+      "publish_date": "2011-06-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学东北亚研究中心被教育部评为优秀重点研究基地 [重要] 2010-08-26",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2889.htm",
+      "publish_date": "2010-08-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2006年省教育厅“十一五”科研规划项目的通知 [重要] 2006-06-01",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2890.htm",
+      "publish_date": "2006-06-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2006年长春市社科院规划项目招标申报通知 [重要] 2006-03-20",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2891.htm",
+      "publish_date": "2006-03-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2006年度长春市哲学社会科学重点研究课题申报工作的通知 [重要] 2006-03-08",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2892.htm",
+      "publish_date": "2006-03-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2005年度吉林省社会科学基金项目的通知 [重要] 2005-12-29",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2893.htm",
+      "publish_date": "2005-12-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2005年度校级人文社会科学重点研究基地项目招标工作的通知 2005-12-21",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2894.htm",
+      "publish_date": "2005-12-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于遴选2006年美国哈佛大学博士后项目候选人员的通知 2005-12-16",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2895.htm",
+      "publish_date": "2005-12-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2005年度校级人文社会科学重点研究基地项目招标工作的通知 2005-11-21",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2896.htm",
+      "publish_date": "2005-11-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于遴选优秀博士生出席德国诺贝尔奖获得者大会的通知 [重要] 2005-11-15",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2897.htm",
+      "publish_date": "2005-11-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于“吉林大学首届博士生学术论坛”征集学术论文的通知 2005-07-13",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2898.htm",
+      "publish_date": "2005-07-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于转发《关于2005年度中国发展研究基金会公共预算研究项目招标通告》的通知 [重... 2005-06-16",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2899.htm",
+      "publish_date": "2005-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学哲学社会科学跨学科研究项目2005年度招标工作的通知 [重要] 2005-05-23",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2900.htm",
+      "publish_date": "2005-05-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于报送吉林省委宣传部重点调研课题申报意向的通知 2005-05-19",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2901.htm",
+      "publish_date": "2005-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2005年长春市社科院规划项目招标申报通知 [重要] 2005-05-19",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2902.htm",
+      "publish_date": "2005-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于转发《长春社科院社科著作出版资助项目立项说明》的通知 2005-05-19",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2903.htm",
+      "publish_date": "2005-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于报送吉林省委宣传部重点调研课题申报意向的通知 2005-05-19",
+      "url": "https://nasa.jlu.edu.cn/info/1023/2905.htm",
+      "publish_date": "2005-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg/1.htm",
+          "parsed_items": 5,
+          "added_items": 5
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-061cce78bfc5",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.329994458705187e-05,
+      "detail_duration_seconds": 9.599956683814526e-06,
+      "parse_db_duration_seconds": 0.041839799960143864
+    },
+    "second_round": {
+      "source": "p2-061cce78bfc5",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.8399983420968056e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-061cce78bfc5",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:01+08:00",
+    "review_time": "2026-10-15T20:21:01+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-061cce78bfc5.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

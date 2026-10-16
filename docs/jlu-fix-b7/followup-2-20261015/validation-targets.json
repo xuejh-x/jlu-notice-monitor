@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "p3-f80d3ae13dc4",
+    "url": "https://dwxcb.jlu.edu.cn/tzgg.htm",
+    "institution": "党委巡视工作办公室",
+    "column": "通知公告",
+    "site_url": "https://dwxcb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/f80d3ae13dc40081.json",
+    "original_capture_time": "2026-10-13T13:34:06+08:00",
+    "discovery_url": "https://dwxcb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-f80d3ae13dc4",
+      "name": "党委巡视工作办公室 / 通知公告",
+      "base_url": "https://dwxcb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-63ff349131e1",
+    "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "institution": "党委宣传部",
+    "column": "通知公告",
+    "site_url": "https://xcb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_MISSING",
+    "original_evidence": "docs/jlu-audit-evidence/results/63ff349131e1673f.json",
+    "original_capture_time": "2026-10-13T13:34:27+08:00",
+    "discovery_url": "https://xcb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-63ff349131e1",
+      "name": "党委宣传部 / 通知公告",
+      "base_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-2d092f512c10",
+    "url": "https://xcb.jlu.edu.cn/tzgg.htm",
+    "institution": "党委宣传部",
+    "column": "通知公告",
+    "site_url": "https://xcb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/2d092f512c10a4c7.json",
+    "original_capture_time": "2026-10-13T14:08:22+08:00",
+    "discovery_url": "https://xcb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-2d092f512c10",
+      "name": "党委宣传部 / 通知公告",
+      "base_url": "https://xcb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-d7ea2bd5b29a",
+    "url": "https://dev.jlu.edu.cn/ggdt/tzgg.htm",
+    "institution": "发展规划处",
+    "column": "通知 公告",
+    "site_url": "https://dev.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/d7ea2bd5b29a0689.json",
+    "original_capture_time": "2026-10-13T14:06:23+08:00",
+    "discovery_url": "https://dev.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-d7ea2bd5b29a",
+      "name": "发展规划处 / 通知 公告",
+      "base_url": "https://dev.jlu.edu.cn/ggdt/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-df49160ba131",
+    "url": "https://ddy.jlu.edu.cn/tzkx.htm",
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "column": "通知快讯",
+    "site_url": "https://ddy.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/df49160ba1314d02.json",
+    "original_capture_time": "2026-10-13T14:06:19+08:00",
+    "discovery_url": "https://ddy.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-df49160ba131",
+      "name": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院） / 通知快讯",
+      "base_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-3e3193ebc99c",
+    "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "column": "通知公告",
+    "site_url": "https://ddy.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/3e3193ebc99c86be.json",
+    "original_capture_time": "2026-10-13T13:34:57+08:00",
+    "discovery_url": "https://ddy.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-3e3193ebc99c",
+      "name": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院） / 通知公告",
+      "base_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-58b5da329790",
+    "url": "https://rsgl.jlu.edu.cn/tzdt.htm",
+    "institution": "人力资源处",
+    "column": "通知 动态",
+    "site_url": "https://rsgl.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/58b5da3297900423.json",
+    "original_capture_time": "2026-10-13T14:08:14+08:00",
+    "discovery_url": "https://rsgl.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-58b5da329790",
+      "name": "人力资源处 / 通知 动态",
+      "base_url": "https://rsgl.jlu.edu.cn/tzdt.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b4bf49021cd7",
+    "url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+    "institution": "人力资源处",
+    "column": "招聘信息",
+    "site_url": "https://rsgl.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED | TITLE_TRUNCATED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b4bf49021cd7a222.json",
+    "original_capture_time": "2026-10-13T14:08:17+08:00",
+    "discovery_url": "https://rsgl.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b4bf49021cd7",
+      "name": "人力资源处 / 招聘信息",
+      "base_url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a12c9fdf5402",
+    "url": "https://rsgl.jlu.edu.cn/gggs.htm",
+    "institution": "人力资源处",
+    "column": "公告公示",
+    "site_url": "https://rsgl.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/a12c9fdf5402a692.json",
+    "original_capture_time": "2026-10-13T14:08:10+08:00",
+    "discovery_url": "https://rsgl.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a12c9fdf5402",
+      "name": "人力资源处 / 公告公示",
+      "base_url": "https://rsgl.jlu.edu.cn/gggs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-064a4d605439",
+    "url": "https://bsh.jlu.edu.cn/zpxx.htm",
+    "institution": "博士后工作办公室",
+    "column": "招聘信息",
+    "site_url": "https://bsh.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/064a4d605439a05e.json",
+    "original_capture_time": "2026-10-13T14:05:43+08:00",
+    "discovery_url": "https://bsh.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-064a4d605439",
+      "name": "博士后工作办公室 / 招聘信息",
+      "base_url": "https://bsh.jlu.edu.cn/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-79dae7a36e30",
+    "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "institution": "国际合作与交流处",
+    "column": "相关公示",
+    "site_url": "https://oic.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "original_evidence": "docs/jlu-audit-evidence/results/79dae7a36e3058b0.json",
+    "original_capture_time": "2026-10-13T14:07:56+08:00",
+    "discovery_url": "https://oic.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-79dae7a36e30",
+      "name": "国际合作与交流处 / 相关公示",
+      "base_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-be94a971ce81",
+    "url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+    "institution": "国际合作与交流处",
+    "column": "通知公告",
+    "site_url": "https://oic.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/be94a971ce81b143.json",
+    "original_capture_time": "2026-10-13T14:07:58+08:00",
+    "discovery_url": "https://oic.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-be94a971ce81",
+      "name": "国际合作与交流处 / 通知公告",
+      "base_url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-81ced94833ac",
+    "url": "https://zcgl.jlu.edu.cn/tzgg.htm",
+    "institution": "资产管理处",
+    "column": "通知公告",
+    "site_url": "https://zcgl.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/81ced94833acd4e3.json",
+    "original_capture_time": "2026-10-13T14:08:41+08:00",
+    "discovery_url": "https://zcgl.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-81ced94833ac",
+      "name": "资产管理处 / 通知公告",
+      "base_url": "https://zcgl.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-f973305063fd",
+    "url": "https://zcgl.jlu.edu.cn/zxcgxmgg.htm",
+    "institution": "资产管理处",
+    "column": "自行采购项目公告",
+    "site_url": "https://zcgl.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/f973305063fd0fee.json",
+    "original_capture_time": "2026-10-13T14:08:46+08:00",
+    "discovery_url": "https://zcgl.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-f973305063fd",
+      "name": "资产管理处 / 自行采购项目公告",
+      "base_url": "https://zcgl.jlu.edu.cn/zxcgxmgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-26ed334f996e",
+    "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "institution": "后勤处",
+    "column": "通知公告",
+    "site_url": "https://hqc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/26ed334f996e1fea.json",
+    "original_capture_time": "2026-10-13T14:06:47+08:00",
+    "discovery_url": "https://hqc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-26ed334f996e",
+      "name": "后勤处 / 通知公告",
+      "base_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-717cb1dd0cc9",
+    "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "institution": "后勤处",
+    "column": "采购公示与采购结果公告",
+    "site_url": "https://hqc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/717cb1dd0cc9f952.json",
+    "original_capture_time": "2026-10-13T14:06:42+08:00",
+    "discovery_url": "https://hqc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-717cb1dd0cc9",
+      "name": "后勤处 / 采购公示与采购结果公告",
+      "base_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-611033d52dce",
+    "url": "https://bwc.jlu.edu.cn/tzgg.htm",
+    "institution": "保卫处、党委保卫部",
+    "column": "通知公告 /NOTICES",
+    "site_url": "https://bwc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/611033d52dce5e74.json",
+    "original_capture_time": "2026-10-13T14:05:47+08:00",
+    "discovery_url": "https://bwc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-611033d52dce",
+      "name": "保卫处、党委保卫部 / 通知公告 /NOTICES",
+      "base_url": "https://bwc.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-ec56189cf7e4",
+    "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "institution": "离退休工作处",
+    "column": "教学信息",
+    "site_url": "https://ltxc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/ec56189cf7e4928d.json",
+    "original_capture_time": "2026-10-13T14:07:28+08:00",
+    "discovery_url": "https://ltxc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-ec56189cf7e4",
+      "name": "离退休工作处 / 教学信息",
+      "base_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-222ec72508f6",
+    "url": "https://ltxc.jlu.edu.cn/tzgg.htm",
+    "institution": "离退休工作处",
+    "column": "通知公告",
+    "site_url": "https://ltxc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/222ec72508f656f5.json",
+    "original_capture_time": "2026-10-13T14:07:30+08:00",
+    "discovery_url": "https://ltxc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-222ec72508f6",
+      "name": "离退休工作处 / 通知公告",
+      "base_url": "https://ltxc.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-598e7296ed82",
+    "url": "https://zcyfg.jlu.edu.cn/sylm/tzgg.htm",
+    "institution": "政策与法规办公室",
+    "column": "通知公告",
+    "site_url": "https://zcyfg.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/598e7296ed82743d.json",
+    "original_capture_time": "2026-10-13T13:37:37+08:00",
+    "discovery_url": "https://zcyfg.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-598e7296ed82",
+      "name": "政策与法规办公室 / 通知公告",
+      "base_url": "https://zcyfg.jlu.edu.cn/sylm/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-fabc7ba49bf1",
+    "url": "https://jjb.jlu.edu.cn/bmxw/tzgg.htm",
+    "institution": "基础设施建设办公室",
+    "column": "通知公告",
+    "site_url": "https://jjb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/fabc7ba49bf11e78.json",
+    "original_capture_time": "2026-10-13T13:37:40+08:00",
+    "discovery_url": "https://jjb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-fabc7ba49bf1",
+      "name": "基础设施建设办公室 / 通知公告",
+      "base_url": "https://jjb.jlu.edu.cn/bmxw/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b5a06a58053e",
+    "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "institution": "经营性资产改革和管理办公室",
+    "column": "通知",
+    "site_url": "https://jgb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b5a06a58053ecaad.json",
+    "original_capture_time": "2026-10-13T14:07:10+08:00",
+    "discovery_url": "https://jgb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b5a06a58053e",
+      "name": "经营性资产改革和管理办公室 / 通知",
+      "base_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-92fc799ee238",
+    "url": "https://jgb.jlu.edu.cn/ygtz.htm",
+    "institution": "经营性资产改革和管理办公室",
+    "column": "有关通知",
+    "site_url": "https://jgb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/92fc799ee2388b45.json",
+    "original_capture_time": "2026-10-13T14:07:13+08:00",
+    "discovery_url": "https://jgb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-92fc799ee238",
+      "name": "经营性资产改革和管理办公室 / 有关通知",
+      "base_url": "https://jgb.jlu.edu.cn/ygtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-5d7be7001eb1",
+    "url": "https://pjb.jlu.edu.cn/tzzx.htm",
+    "institution": "附属学校管理办公室",
+    "column": "通知中心 NOTICE",
+    "site_url": "https://pjb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/5d7be7001eb14dac.json",
+    "original_capture_time": "2026-10-13T14:08:02+08:00",
+    "discovery_url": "https://pjb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-5d7be7001eb1",
+      "name": "附属学校管理办公室 / 通知中心 NOTICE",
+      "base_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-45f6501a5554",
+    "url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+    "institution": "附属学校管理办公室",
+    "column": "工作通知",
+    "site_url": "https://pjb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/45f6501a5554e53a.json",
+    "original_capture_time": "2026-10-13T14:08:06+08:00",
+    "discovery_url": "https://pjb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-45f6501a5554",
+      "name": "附属学校管理办公室 / 工作通知",
+      "base_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-aa40d6abd751",
+    "url": "https://pjb.jlu.edu.cn/fsxxdw/tzgg.htm",
+    "institution": "附属学校管理办公室",
+    "column": "通知公告",
+    "site_url": "https://pjb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/aa40d6abd7511665.json",
+    "original_capture_time": "2026-10-13T13:37:48+08:00",
+    "discovery_url": "https://pjb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-aa40d6abd751",
+      "name": "附属学校管理办公室 / 通知公告",
+      "base_url": "https://pjb.jlu.edu.cn/fsxxdw/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-1046fa015dad",
+    "url": "https://psy.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "学生心理健康指导中心",
+    "column": "通知公告",
+    "site_url": "https://psy.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | ATTACHMENT_MISSING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/1046fa015dad2e09.json",
+    "original_capture_time": "2026-10-13T13:37:57+08:00",
+    "discovery_url": "https://psy.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-1046fa015dad",
+      "name": "学生心理健康指导中心 / 通知公告",
+      "base_url": "https://psy.jlu.edu.cn/xwzx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-2dd321c9e62c",
+    "url": "https://nic.jlu.edu.cn/tzkx.htm",
+    "institution": "大数据和网络管理中心",
+    "column": "通知公告",
+    "site_url": "https://nic.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/2dd321c9e62c217d.json",
+    "original_capture_time": "2026-10-13T14:07:44+08:00",
+    "discovery_url": "https://nic.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-2dd321c9e62c",
+      "name": "大数据和网络管理中心 / 通知公告",
+      "base_url": "https://nic.jlu.edu.cn/tzkx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-07989e4e3e51",
+    "url": "https://dag.jlu.edu.cn/index/tzgg.htm",
+    "institution": "档案馆",
+    "column": "通知公告",
+    "site_url": "https://dag.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/07989e4e3e51cd80.json",
+    "original_capture_time": "2026-10-13T14:06:13+08:00",
+    "discovery_url": "https://dag.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-07989e4e3e51",
+      "name": "档案馆 / 通知公告",
+      "base_url": "https://dag.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-6081a6077fa8",
+    "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "institution": "继续教育管理办公室",
+    "column": "项目公示",
+    "site_url": "https://jjglb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "original_evidence": "docs/jlu-audit-evidence/results/6081a6077fa87de2.json",
+    "original_capture_time": "2026-10-13T14:07:19+08:00",
+    "discovery_url": "https://jjglb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-6081a6077fa8",
+      "name": "继续教育管理办公室 / 项目公示",
+      "base_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-fe70747cb90d",
+    "url": "https://jjglb.jlu.edu.cn/tzgg.htm",
+    "institution": "继续教育管理办公室",
+    "column": "通知公告",
+    "site_url": "https://jjglb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/fe70747cb90d3d64.json",
+    "original_capture_time": "2026-10-13T13:38:13+08:00",
+    "discovery_url": "https://jjglb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-fe70747cb90d",
+      "name": "继续教育管理办公室 / 通知公告",
+      "base_url": "https://jjglb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-f504e1e18da8",
+    "url": "https://ctld.jlu.edu.cn/index/tzgg.htm",
+    "institution": "教师教学发展中心",
+    "column": "通知公告",
+    "site_url": "https://ctld.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/f504e1e18da8c893.json",
+    "original_capture_time": "2026-10-13T13:38:16+08:00",
+    "discovery_url": "https://ctld.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-f504e1e18da8",
+      "name": "教师教学发展中心 / 通知公告",
+      "base_url": "https://ctld.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a1dc0cd69bc7",
+    "url": "https://fwh.jlu.edu.cn/ggxx.htm",
+    "institution": "妇委会",
+    "column": "公告信息",
+    "site_url": "https://fwh.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/a1dc0cd69bc70294.json",
+    "original_capture_time": "2026-10-13T14:06:33+08:00",
+    "discovery_url": "https://fwh.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a1dc0cd69bc7",
+      "name": "妇委会 / 公告信息",
+      "base_url": "https://fwh.jlu.edu.cn/ggxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-552953476abb",
+    "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "institution": "白求恩医学部",
+    "column": "通知公告",
+    "site_url": "https://jdyxb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/552953476abb8018.json",
+    "original_capture_time": "2026-10-13T14:07:05+08:00",
+    "discovery_url": "https://jdyxb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-552953476abb",
+      "name": "白求恩医学部 / 通知公告",
+      "base_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-99066c319e6f",
+    "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/99066c319e6f3737.json",
+    "original_capture_time": "2026-10-13T13:38:34+08:00",
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-99066c319e6f",
+      "name": "医院管理处 / 通知公告",
+      "base_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-625011e2029d",
+    "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/625011e2029d2fcc.json",
+    "original_capture_time": "2026-10-13T13:38:36+08:00",
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-625011e2029d",
+      "name": "医院管理处 / 通知公告",
+      "base_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b944229a171b",
+    "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b944229a171be375.json",
+    "original_capture_time": "2026-10-13T13:38:37+08:00",
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b944229a171b",
+      "name": "医院管理处 / 通知公告",
+      "base_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-43c4bdb1d4ae",
+    "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/43c4bdb1d4ae8dba.json",
+    "original_capture_time": "2026-10-13T13:38:38+08:00",
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-43c4bdb1d4ae",
+      "name": "医院管理处 / 通知公告",
+      "base_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-fa535e3ee14b",
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING",
+    "original_evidence": "docs/jlu-audit-evidence/results/fa535e3ee14b199f.json",
+    "original_capture_time": "2026-10-13T13:38:39+08:00",
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-fa535e3ee14b",
+      "name": "医院管理处 / 通知公告",
+      "base_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-cd417b7e833f",
+    "url": "https://dqswb.jlu.edu.cn/tzgg.htm",
+    "institution": "东区事务办公室",
+    "column": "通知公告",
+    "site_url": "https://dqswb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | LIST_DETAIL_DATE_DIFFERENCE | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/cd417b7e833f78c3.json",
+    "original_capture_time": "2026-10-13T13:38:46+08:00",
+    "discovery_url": "https://dqswb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-cd417b7e833f",
+      "name": "东区事务办公室 / 通知公告",
+      "base_url": "https://dqswb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-36ce682535f5",
+    "url": "https://hp.jlu.edu.cn/tztg.htm",
+    "institution": "西区事务办公室",
+    "column": "通知公告",
+    "site_url": "https://hp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/36ce682535f557a5.json",
+    "original_capture_time": "2026-10-13T14:06:39+08:00",
+    "discovery_url": "https://hp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-36ce682535f5",
+      "name": "西区事务办公室 / 通知公告",
+      "base_url": "https://hp.jlu.edu.cn/tztg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-918d011e17e4",
+    "url": "https://hqserver.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "column": "通知公告",
+    "site_url": "https://hqserver.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "EMPTY_LIST",
+    "original_evidence": "docs/jlu-audit-evidence/results/918d011e17e42822.json",
+    "original_capture_time": "2026-10-13T13:38:58+08:00",
+    "discovery_url": "https://hqserver.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-918d011e17e4",
+      "name": "后勤服务集团 / 通知公告",
+      "base_url": "https://hqserver.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-18762e4fb6bd",
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11922&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "column": "后勤服务集团关于召开科级干部竞聘考评会的通知",
+    "site_url": "https://hqserver.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/18762e4fb6bd2f10.json",
+    "original_capture_time": "2026-10-13T14:06:56+08:00",
+    "discovery_url": "https://hqserver.jlu.edu.cn/xxgk.htm",
+    "config": {
+      "code": "candidate-jlu-p3-18762e4fb6bd",
+      "name": "后勤服务集团 / 后勤服务集团关于召开科级干部竞聘考评会的通知",
+      "base_url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11922&wbtreeid=1023",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-bc6d4e3522a1",
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11909&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "column": "关于饮食服务中心管理员（餐厅主任）岗位聘用的通知",
+    "site_url": "https://hqserver.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/bc6d4e3522a17c8c.json",
+    "original_capture_time": "2026-10-13T14:06:54+08:00",
+    "discovery_url": "https://hqserver.jlu.edu.cn/xxgk.htm",
+    "config": {
+      "code": "candidate-jlu-p3-bc6d4e3522a1",
+      "name": "后勤服务集团 / 关于饮食服务中心管理员（餐厅主任）岗位聘用的通知",
+      "base_url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11909&wbtreeid=1023",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-21df4a457282",
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11902&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "column": "关于饮食服务中心管理员（餐厅主任）岗位聘用人选的公示",
+    "site_url": "https://hqserver.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/21df4a457282efed.json",
+    "original_capture_time": "2026-10-13T14:06:52+08:00",
+    "discovery_url": "https://hqserver.jlu.edu.cn/xxgk.htm",
+    "config": {
+      "code": "candidate-jlu-p3-21df4a457282",
+      "name": "后勤服务集团 / 关于饮食服务中心管理员（餐厅主任）岗位聘用人选的公示",
+      "base_url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11902&wbtreeid=1023",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-13f5df19e0b1",
+    "url": "https://aamuseum.jlu.edu.cn/tzkx/tz.htm",
+    "institution": "考古与艺术博物馆",
+    "column": "通知",
+    "site_url": "https://aamuseum.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/13f5df19e0b13cb5.json",
+    "original_capture_time": "2026-10-13T14:05:40+08:00",
+    "discovery_url": "https://aamuseum.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-13f5df19e0b1",
+      "name": "考古与艺术博物馆 / 通知",
+      "base_url": "https://aamuseum.jlu.edu.cn/tzkx/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b77c23b62583",
+    "url": "https://lvpecf.jlu.edu.cn/index/tzgg.htm",
+    "institution": "综合极端条件高压科学中心",
+    "column": "通知公告",
+    "site_url": "https://lvpecf.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b77c23b62583dac7.json",
+    "original_capture_time": "2026-10-13T14:07:34+08:00",
+    "discovery_url": "https://lvpecf.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b77c23b62583",
+      "name": "综合极端条件高压科学中心 / 通知公告",
+      "base_url": "https://lvpecf.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9cfc1755cb34",
+    "url": "https://cszx.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "通知通告",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "EMPTY_LIST",
+    "original_evidence": "docs/jlu-audit-evidence/results/9cfc1755cb34af9d.json",
+    "original_capture_time": "2026-10-13T14:06:08+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9cfc1755cb34",
+      "name": "测试科学实验中心 / 通知通告",
+      "base_url": "https://cszx.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-92d95ca9b5e9",
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1166&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "关于测试科学实验中心推荐业务副主任考察人选的通知",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/92d95ca9b5e946c6.json",
+    "original_capture_time": "2026-10-13T14:06:01+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-92d95ca9b5e9",
+      "name": "测试科学实验中心 / 关于测试科学实验中心推荐业务副主任考察人选的通知",
+      "base_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1166&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a6c4eb02b91d",
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1093&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "【转发-校内通知】关于张伟职务聘任的通知",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/a6c4eb02b91d090d.json",
+    "original_capture_time": "2026-10-13T14:05:56+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a6c4eb02b91d",
+      "name": "测试科学实验中心 / 【转发-校内通知】关于张伟职务聘任的通知",
+      "base_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1093&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-5e75b78d19d0",
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1179&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "关于测试科学实验中心主任考察人选的通知",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/5e75b78d19d0a320.json",
+    "original_capture_time": "2026-10-13T14:06:03+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-5e75b78d19d0",
+      "name": "测试科学实验中心 / 关于测试科学实验中心主任考察人选的通知",
+      "base_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1179&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9031f1a975a2",
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "关于电子显微镜中心寒假期间运行通知",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/9031f1a975a22c71.json",
+    "original_capture_time": "2026-10-13T14:06:06+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9031f1a975a2",
+      "name": "测试科学实验中心 / 关于电子显微镜中心寒假期间运行通知",
+      "base_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-2472c2f95b44",
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1101&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "column": "关于拟将张尊昊同志转为中共预备党员的公示",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/2472c2f95b441930.json",
+    "original_capture_time": "2026-10-13T14:05:59+08:00",
+    "discovery_url": "https://cszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-2472c2f95b44",
+      "name": "测试科学实验中心 / 关于拟将张尊昊同志转为中共预备党员的公示",
+      "base_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1101&wbtreeid=1008",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-fc6bb7747414",
+    "url": "https://cbslab.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "长白山实验室",
+    "column": "通知公告",
+    "site_url": "https://cbslab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED",
+    "original_evidence": "docs/jlu-audit-evidence/results/fc6bb7747414e949.json",
+    "original_capture_time": "2026-10-13T13:39:28+08:00",
+    "discovery_url": "https://cbslab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-fc6bb7747414",
+      "name": "长白山实验室 / 通知公告",
+      "base_url": "https://cbslab.jlu.edu.cn/xwzx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-c1ad0a7cdcf9",
+    "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "column": "新闻通知",
+    "site_url": "https://nrcem.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/c1ad0a7cdcf9de2f.json",
+    "original_capture_time": "2026-10-13T14:07:49+08:00",
+    "discovery_url": "https://nrcem.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-c1ad0a7cdcf9",
+      "name": "国家教材建设重点研究基地（高等学校理学教材研究） / 新闻通知",
+      "base_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-6057733eb6f0",
+    "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "column": "通知公告",
+    "site_url": "https://nrcem.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED",
+    "original_evidence": "docs/jlu-audit-evidence/results/6057733eb6f04b2f.json",
+    "original_capture_time": "2026-10-13T13:39:34+08:00",
+    "discovery_url": "https://nrcem.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-6057733eb6f0",
+      "name": "国家教材建设重点研究基地（高等学校理学教材研究） / 通知公告",
+      "base_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a93aafad1fe0",
+    "url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "column": "会议通知",
+    "site_url": "https://nrcem.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED",
+    "original_evidence": "docs/jlu-audit-evidence/results/a93aafad1fe06e10.json",
+    "original_capture_time": "2026-10-13T14:07:53+08:00",
+    "discovery_url": "https://nrcem.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a93aafad1fe0",
+      "name": "国家教材建设重点研究基地（高等学校理学教材研究） / 会议通知",
+      "base_url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-3d34c2ae440c",
+    "url": "https://ncnas.jlu.edu.cn/xwdt/tzgg.htm",
+    "institution": "东北与东北亚研究院",
+    "column": "通知公告",
+    "site_url": "https://ncnas.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/3d34c2ae440cc869.json",
+    "original_capture_time": "2026-10-13T14:07:39+08:00",
+    "discovery_url": "https://ncnas.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-3d34c2ae440c",
+      "name": "东北与东北亚研究院 / 通知公告",
+      "base_url": "https://ncnas.jlu.edu.cn/xwdt/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-1f12d3363e10",
+    "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "institution": "东北民族研究中心",
+    "column": "通知公告",
+    "site_url": "https://dbmz.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "完全通过",
+    "old_issues": "",
+    "original_evidence": "docs/jlu-audit-evidence/results/1f12d3363e10d621.json",
+    "original_capture_time": "2026-10-13T14:06:18+08:00",
+    "discovery_url": "https://dbmz.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-1f12d3363e10",
+      "name": "东北民族研究中心 / 通知公告",
+      "base_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-0669ddf88689",
+    "url": "https://synlab.jlu.edu.cn/information/events",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "通知",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/0669ddf8868968f0.json",
+    "original_capture_time": "2026-10-13T14:05:32+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-0669ddf88689",
+      "name": "无机合成与制备化学全国重点实验室 / 通知",
+      "base_url": "https://synlab.jlu.edu.cn/information/events",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-2a947afc9f1e",
+    "url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "通知",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/2a947afc9f1e07da.json",
+    "original_capture_time": "2026-10-13T14:05:28+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-2a947afc9f1e",
+      "name": "无机合成与制备化学全国重点实验室 / 通知",
+      "base_url": "https://synlab.jlu.edu.cn/archive/information/events",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b2b4060ce6db",
+    "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "仪器公告",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK",
+    "original_evidence": "docs/jlu-audit-evidence/results/b2b4060ce6db0354.json",
+    "original_capture_time": "2026-10-13T14:05:30+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b2b4060ce6db",
+      "name": "无机合成与制备化学全国重点实验室 / 仪器公告",
+      "base_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9e34816e096b",
+    "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "实验室2025年度公开招聘专业技术人员 拟聘人选公示",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/9e34816e096bd04e.json",
+    "original_capture_time": "2026-10-13T14:05:25+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9e34816e096b",
+      "name": "无机合成与制备化学全国重点实验室 / 实验室2025年度公开招聘专业技术人员 拟聘人选公示",
+      "base_url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9315876bd6fa",
+    "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "2025年申请重点实验室开放课题基金的通知",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/9315876bd6fad50c.json",
+    "original_capture_time": "2026-10-13T14:05:23+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9315876bd6fa",
+      "name": "无机合成与制备化学全国重点实验室 / 2025年申请重点实验室开放课题基金的通知",
+      "base_url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9cc6eba0da5b",
+    "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "2024年申请重点实验室开放课题基金的通知",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "无需适配",
+    "old_issues": "OUT_OF_SCOPE_REFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/9cc6eba0da5bbf37.json",
+    "original_capture_time": "2026-10-13T14:05:19+08:00",
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9cc6eba0da5b",
+      "name": "无机合成与制备化学全国重点实验室 / 2024年申请重点实验室开放课题基金的通知",
+      "base_url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-d631ccd9f522",
+    "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "智能仪器与测控技术研究所",
+    "column": "通知公告",
+    "site_url": "https://iiimct.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | DATE_MISSING",
+    "original_evidence": "docs/jlu-audit-evidence/results/d631ccd9f5224213.json",
+    "original_capture_time": "2026-10-13T13:48:11+08:00",
+    "discovery_url": "https://iiimct.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-d631ccd9f522",
+      "name": "智能仪器与测控技术研究所 / 通知公告",
+      "base_url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-aec68cedee88",
+    "url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "吉林大学附属中学",
+    "column": "通知公告",
+    "site_url": "https://fszx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "EMPTY_LIST | PAGINATION_PARSE_EMPTY | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/aec68cedee883bf7.json",
+    "original_capture_time": "2026-10-13T13:49:38+08:00",
+    "discovery_url": "https://fszx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-aec68cedee88",
+      "name": "吉林大学附属中学 / 通知公告",
+      "base_url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-91835e5c30a1",
+    "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "institution": "吉林大学附属小学",
+    "column": "通知公告",
+    "site_url": "https://jdfx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/91835e5c30a10976.json",
+    "original_capture_time": "2026-10-13T14:07:00+08:00",
+    "discovery_url": "https://jdfx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-91835e5c30a1",
+      "name": "吉林大学附属小学 / 通知公告",
+      "base_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-057482fcf4d1",
+    "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "institution": "党委教师工作部",
+    "column": "通知公告",
+    "site_url": "http://jsgzb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "完全通过",
+    "old_issues": "",
+    "original_evidence": "docs/jlu-audit-evidence/results/057482fcf4d1876b.json",
+    "original_capture_time": "2026-10-13T13:35:08+08:00",
+    "discovery_url": "http://jsgzb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-057482fcf4d1",
+      "name": "党委教师工作部 / 通知公告",
+      "base_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-f0c724975201",
+    "url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/yjsjy/yjsytz.htm",
+    "institution": "白求恩医学部",
+    "column": "研究生院通知",
+    "site_url": "https://jdyxb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK | BODY_NAVIGATION_CONTAMINATION",
+    "original_evidence": "docs/jlu-audit-evidence/results/f0c7249752019d50.json",
+    "original_capture_time": "2026-10-13T14:07:03+08:00",
+    "discovery_url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/",
+    "config": {
+      "code": "candidate-jlu-p3-f0c724975201",
+      "name": "白求恩医学部 / 研究生院通知",
+      "base_url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/yjsjy/yjsytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-50b513692338",
+    "url": "http://jwc.jlu.edu.cn/index.htm",
+    "institution": "西区事务办公室",
+    "column": "教学信息",
+    "site_url": "https://hp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW | TITLE_NOT_IN_DETAIL_HEADING",
+    "original_evidence": "docs/jlu-audit-evidence/results/50b51369233855e8.json",
+    "original_capture_time": "2026-10-13T14:06:36+08:00",
+    "discovery_url": "https://hp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-50b513692338",
+      "name": "西区事务办公室 / 教学信息",
+      "base_url": "http://jwc.jlu.edu.cn/index.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-acb2a085dfc4",
+    "url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "column": "新闻通知",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/acb2a085dfc4ff0a.json",
+    "original_capture_time": "2026-10-13T14:03:14+08:00",
+    "discovery_url": "http://icfs.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-acb2a085dfc4",
+      "name": "未来科学国际合作联合实验室 / 新闻通知",
+      "base_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-d26c079d5778",
+    "url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "column": "通知",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/d26c079d57788934.json",
+    "original_capture_time": "2026-10-13T14:03:11+08:00",
+    "discovery_url": "http://icfs.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-d26c079d5778",
+      "name": "未来科学国际合作联合实验室 / 通知",
+      "base_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-e4a31bb7b4d2",
+    "url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "column": "通知公告",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/e4a31bb7b4d2db4a.json",
+    "original_capture_time": "2026-10-13T13:45:08+08:00",
+    "discovery_url": "http://icfs.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-e4a31bb7b4d2",
+      "name": "未来科学国际合作联合实验室 / 通知公告",
+      "base_url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-96349c12f2d5",
+    "url": "http://icfs.jlu.edu.cn/jrwm/zpxx.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "column": "招聘信息",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/96349c12f2d54c8b.json",
+    "original_capture_time": "2026-10-13T14:03:09+08:00",
+    "discovery_url": "http://icfs.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-96349c12f2d5",
+      "name": "未来科学国际合作联合实验室 / 招聘信息",
+      "base_url": "http://icfs.jlu.edu.cn/jrwm/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-0f85aaa162f5",
+    "url": "http://icfs.jlu.edu.cn/index.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "column": "首页 / 人才培养 / 通知公告",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW | LIST_CANDIDATE_RECALL_GAP | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT",
+    "original_evidence": "docs/jlu-audit-evidence/results/0f85aaa162f59ab3.json",
+    "original_capture_time": "2026-10-13T14:03:07+08:00",
+    "discovery_url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+    "config": {
+      "code": "candidate-jlu-p3-0f85aaa162f5",
+      "name": "未来科学国际合作联合实验室 / 首页 / 人才培养 / 通知公告",
+      "base_url": "http://icfs.jlu.edu.cn/index.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-dbe97ad67104",
+    "url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+    "institution": "边疆考古研究中心",
+    "column": "通知公告",
+    "site_url": "http://bjkg.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/dbe97ad67104327e.json",
+    "original_capture_time": "2026-10-13T13:45:18+08:00",
+    "discovery_url": "http://bjkg.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-dbe97ad67104",
+      "name": "边疆考古研究中心 / 通知公告",
+      "base_url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-86da28c02411",
+    "url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+    "institution": "数量经济研究中心",
+    "column": "中心通知",
+    "site_url": "http://jlucqe.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "HTTP_ERROR",
+    "original_evidence": "docs/jlu-audit-evidence/results/86da28c024119c6b.json",
+    "original_capture_time": "2026-10-13T14:03:36+08:00",
+    "discovery_url": "http://jlucqe.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-86da28c02411",
+      "name": "数量经济研究中心 / 中心通知",
+      "base_url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-517983231abb",
+    "url": "http://jlucqe.jlu.edu.cn/xgxw1/zxtz.htm",
+    "institution": "数量经济研究中心",
+    "column": "中心通知",
+    "site_url": "http://jlucqe.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/517983231abb2928.json",
+    "original_capture_time": "2026-10-13T14:03:37+08:00",
+    "discovery_url": "http://jlucqe.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-517983231abb",
+      "name": "数量经济研究中心 / 中心通知",
+      "base_url": "http://jlucqe.jlu.edu.cn/xgxw1/zxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-145fbc0028ac",
+    "url": "http://ccpser.jlu.edu.cn/tzgg.htm",
+    "institution": "中国国有经济研究中心",
+    "column": "通知公告",
+    "site_url": "http://ccpser.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/145fbc0028acdd50.json",
+    "original_capture_time": "2026-10-13T14:02:35+08:00",
+    "discovery_url": "http://ccpser.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-145fbc0028ac",
+      "name": "中国国有经济研究中心 / 通知公告",
+      "base_url": "http://ccpser.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-dccdc07e027f",
+    "url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+    "institution": "哲学基础理论研究中心",
+    "column": "中心通知",
+    "site_url": "http://pftheory.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | DATE_MISSING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/dccdc07e027f15b6.json",
+    "original_capture_time": "2026-10-13T14:05:04+08:00",
+    "discovery_url": "http://pftheory.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-dccdc07e027f",
+      "name": "哲学基础理论研究中心 / 中心通知",
+      "base_url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a137b207198f",
+    "url": "http://acre.jlu.edu.cn/xwdt/tzgg1.htm",
+    "institution": "廉政研究院",
+    "column": "通知公告",
+    "site_url": "http://acre.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH | LIST_DETAIL_DATE_DIFFERENCE | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/a137b207198ff9d8.json",
+    "original_capture_time": "2026-10-13T13:45:44+08:00",
+    "discovery_url": "http://acre.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a137b207198f",
+      "name": "廉政研究院 / 通知公告",
+      "base_url": "http://acre.jlu.edu.cn/xwdt/tzgg1.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-85735f6aeafc",
+    "url": "http://cppcc.jlu.edu.cn/zxdt/tzgg.htm",
+    "institution": "协商治理研究院",
+    "column": "通知公告",
+    "site_url": "http://cppcc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/85735f6aeafc1bff.json",
+    "original_capture_time": "2026-10-13T13:45:50+08:00",
+    "discovery_url": "http://cppcc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-85735f6aeafc",
+      "name": "协商治理研究院 / 通知公告",
+      "base_url": "http://cppcc.jlu.edu.cn/zxdt/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-531d956cfe39",
+    "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "institution": "集成光电子全国重点实验室",
+    "column": "招生信息",
+    "site_url": "http://sklio.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/531d956cfe3983e7.json",
+    "original_capture_time": "2026-10-13T14:05:14+08:00",
+    "discovery_url": "http://sklio.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-531d956cfe39",
+      "name": "集成光电子全国重点实验室 / 招生信息",
+      "base_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-dc59edeed902",
+    "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "institution": "集成光电子全国重点实验室",
+    "column": "招聘信息",
+    "site_url": "http://sklio.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DETAIL_DATE_DIFFERENCE | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/dc59edeed902ec2c.json",
+    "original_capture_time": "2026-10-13T14:05:17+08:00",
+    "discovery_url": "http://sklio.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-dc59edeed902",
+      "name": "集成光电子全国重点实验室 / 招聘信息",
+      "base_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-f24c497b7c18",
+    "url": "http://sklio.jlu.edu.cn/index/tzgg.htm",
+    "institution": "集成光电子全国重点实验室",
+    "column": "通知公告",
+    "site_url": "http://sklio.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/f24c497b7c183820.json",
+    "original_capture_time": "2026-10-13T14:05:11+08:00",
+    "discovery_url": "http://sklio.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-f24c497b7c18",
+      "name": "集成光电子全国重点实验室 / 通知公告",
+      "base_url": "http://sklio.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-3a9be451148b",
+    "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "招生信息",
+    "site_url": "http://nlshm-lab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/3a9be451148bc364.json",
+    "original_capture_time": "2026-10-13T14:04:47+08:00",
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-3a9be451148b",
+      "name": "高压与超硬材料全国重点实验室 / 招生信息",
+      "base_url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-bda802ae708b",
+    "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/tzgg.htm",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "通知公告",
+    "site_url": "http://nlshm-lab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/bda802ae708bf466.json",
+    "original_capture_time": "2026-10-13T13:46:06+08:00",
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-bda802ae708b",
+      "name": "高压与超硬材料全国重点实验室 / 通知公告",
+      "base_url": "http://nlshm-lab.jlu.edu.cn/yjsjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-8d31d6a0c1fb",
+    "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "招聘信息",
+    "site_url": "http://nlshm-lab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "完全通过",
+    "old_issues": "",
+    "original_evidence": "docs/jlu-audit-evidence/results/8d31d6a0c1fbc8e1.json",
+    "original_capture_time": "2026-10-13T14:04:37+08:00",
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-8d31d6a0c1fb",
+      "name": "高压与超硬材料全国重点实验室 / 招聘信息",
+      "base_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-d46a55c006bd",
+    "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "通知公告 Notice",
+    "site_url": "http://nlshm-lab.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/d46a55c006bd002a.json",
+    "original_capture_time": "2026-10-13T14:04:40+08:00",
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-d46a55c006bd",
+      "name": "高压与超硬材料全国重点实验室 / 通知公告 Notice",
+      "base_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-a79bb2d1ffdf",
+    "url": "http://acib.jlu.edu.cn/xxgg.htm",
+    "institution": "汽车底盘集成与仿生全国重点实验室",
+    "column": "信息公告 >>",
+    "site_url": "http://acib.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/a79bb2d1ffdffb0d.json",
+    "original_capture_time": "2026-10-13T14:02:27+08:00",
+    "discovery_url": "http://acib.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-a79bb2d1ffdf",
+      "name": "汽车底盘集成与仿生全国重点实验室 / 信息公告 >>",
+      "base_url": "http://acib.jlu.edu.cn/xxgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-559bea095695",
+    "url": "http://scke.jlu.edu.cn/tzgg.htm",
+    "institution": "符号计算与知识工程教育部重点实验室",
+    "column": "通知公告",
+    "site_url": "http://scke.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/559bea09569566a1.json",
+    "original_capture_time": "2026-10-13T14:05:07+08:00",
+    "discovery_url": "http://scke.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-559bea095695",
+      "name": "符号计算与知识工程教育部重点实验室 / 通知公告",
+      "base_url": "http://scke.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-9279a878c7d7",
+    "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "institution": "分子酶学工程教育部重点实验室",
+    "column": "室内通知/ Indoor notification",
+    "site_url": "http://www.mee.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_MISMATCH",
+    "original_evidence": "docs/jlu-audit-evidence/results/9279a878c7d71155.json",
+    "original_capture_time": "2026-10-13T14:05:34+08:00",
+    "discovery_url": "http://www.mee.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-9279a878c7d7",
+      "name": "分子酶学工程教育部重点实验室 / 室内通知/ Indoor notification",
+      "base_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-0768ea65e573",
+    "url": "http://pathobiology.jlu.edu.cn/ggtz.htm",
+    "institution": "病理生物学教育部重点实验室",
+    "column": "公告通知",
+    "site_url": "http://pathobiology.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED | TITLE_TRUNCATED",
+    "original_evidence": "docs/jlu-audit-evidence/results/0768ea65e5732faf.json",
+    "original_capture_time": "2026-10-13T14:05:01+08:00",
+    "discovery_url": "http://pathobiology.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-0768ea65e573",
+      "name": "病理生物学教育部重点实验室 / 公告通知",
+      "base_url": "http://pathobiology.jlu.edu.cn/ggtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-075bd0471b07",
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "人兽共患病研究教育部重点实验室",
+    "column": "招聘信息",
+    "site_url": "http://ghb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING",
+    "original_evidence": "docs/jlu-audit-evidence/results/075bd0471b07d75f.json",
+    "original_capture_time": "2026-10-13T14:02:44+08:00",
+    "discovery_url": "http://ghb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-075bd0471b07",
+      "name": "人兽共患病研究教育部重点实验室 / 招聘信息",
+      "base_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b9081fc300d9",
+    "url": "http://ghb.jlu.edu.cn/tzgg.htm",
+    "institution": "人兽共患病研究教育部重点实验室",
+    "column": "通知公告 notice",
+    "site_url": "http://ghb.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b9081fc300d91652.json",
+    "original_capture_time": "2026-10-13T14:02:46+08:00",
+    "discovery_url": "http://ghb.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b9081fc300d9",
+      "name": "人兽共患病研究教育部重点实验室 / 通知公告 notice",
+      "base_url": "http://ghb.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-43985ce4fe1b",
+    "url": "http://klgre.jlu.edu.cn/tzgg.htm",
+    "institution": "地下水资源与环境教育部重点实验室",
+    "column": "通知公告",
+    "site_url": "http://klgre.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/43985ce4fe1b2003.json",
+    "original_capture_time": "2026-10-13T14:03:55+08:00",
+    "discovery_url": "http://klgre.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-43985ce4fe1b",
+      "name": "地下水资源与环境教育部重点实验室 / 通知公告",
+      "base_url": "http://klgre.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-be255c9b528c",
+    "url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "institution": "器官再造与移植教育部重点实验室（筹）",
+    "column": "通知公告",
+    "site_url": "http://ort.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH",
+    "original_evidence": "docs/jlu-audit-evidence/results/be255c9b528c6711.json",
+    "original_capture_time": "2026-10-13T14:04:58+08:00",
+    "discovery_url": "http://ort.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-be255c9b528c",
+      "name": "器官再造与移植教育部重点实验室（筹） / 通知公告",
+      "base_url": "http://ort.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-8c83f402e628",
+    "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "institution": "特种工程塑料教育部工程中心",
+    "column": "通知",
+    "site_url": "http://jusep.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_MISSING",
+    "original_evidence": "docs/jlu-audit-evidence/results/8c83f402e628e973.json",
+    "original_capture_time": "2026-10-13T14:03:42+08:00",
+    "discovery_url": "http://jusep.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-8c83f402e628",
+      "name": "特种工程塑料教育部工程中心 / 通知",
+      "base_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-0a00088dd271",
+    "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "institution": "高等教育研究所",
+    "column": "招生信息",
+    "site_url": "http://gjs.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "LIST_CANDIDATE_RECALL_GAP | POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK | BODY_NAVIGATION_CONTAMINATION | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/0a00088dd271056d.json",
+    "original_capture_time": "2026-10-13T14:02:51+08:00",
+    "discovery_url": "http://gjs.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-0a00088dd271",
+      "name": "高等教育研究所 / 招生信息",
+      "base_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-5c626cbfdf19",
+    "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "institution": "东北振兴发展研究院",
+    "column": "通知公告",
+    "site_url": "http://dbzx.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/5c626cbfdf1917c2.json",
+    "original_capture_time": "2026-10-13T14:02:41+08:00",
+    "discovery_url": "http://dbzx.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-5c626cbfdf19",
+      "name": "东北振兴发展研究院 / 通知公告",
+      "base_url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-8a5615f2d971",
+    "url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+    "institution": "吉林大学国家发展与安全研究院",
+    "column": "通知公告",
+    "site_url": "http://indss.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "失败",
+    "old_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK",
+    "original_evidence": "docs/jlu-audit-evidence/results/8a5615f2d971146e.json",
+    "original_capture_time": "2026-10-13T13:47:37+08:00",
+    "discovery_url": "http://indss.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-8a5615f2d971",
+      "name": "吉林大学国家发展与安全研究院 / 通知公告",
+      "base_url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-8c4d7b0730cc",
+    "url": "http://indss.jlu.edu.cn/index.htm",
+    "institution": "吉林大学国家发展与安全研究院",
+    "column": "首页 / 人才培养 / 通知公告",
+    "site_url": "http://indss.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+    "original_evidence": "docs/jlu-audit-evidence/results/8c4d7b0730cc970c.json",
+    "original_capture_time": "2026-10-13T14:03:16+08:00",
+    "discovery_url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+    "config": {
+      "code": "candidate-jlu-p3-8c4d7b0730cc",
+      "name": "吉林大学国家发展与安全研究院 / 首页 / 人才培养 / 通知公告",
+      "base_url": "http://indss.jlu.edu.cn/index.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-e088fc12870c",
+    "url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+    "institution": "吉林大学国家发展与安全研究院",
+    "column": "通知",
+    "site_url": "http://indss.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/e088fc12870c917f.json",
+    "original_capture_time": "2026-10-13T14:03:19+08:00",
+    "discovery_url": "http://indss.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-e088fc12870c",
+      "name": "吉林大学国家发展与安全研究院 / 通知",
+      "base_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-06d121ac0e9b",
+    "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "institution": "理论化学研究所",
+    "column": "招生信息",
+    "site_url": "http://itc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/06d121ac0e9b6c27.json",
+    "original_capture_time": "2026-10-13T14:03:25+08:00",
+    "discovery_url": "http://itc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-06d121ac0e9b",
+      "name": "理论化学研究所 / 招生信息",
+      "base_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-b6c8c6e200cd",
+    "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "institution": "理论化学研究所",
+    "column": "通知公告",
+    "site_url": "http://itc.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/b6c8c6e200cd29c8.json",
+    "original_capture_time": "2026-10-13T13:47:43+08:00",
+    "discovery_url": "http://itc.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-b6c8c6e200cd",
+      "name": "理论化学研究所 / 通知公告",
+      "base_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-276d57c8bed1",
+    "url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+    "institution": "原子与分子物理研究所",
+    "column": "招生信息",
+    "site_url": "http://iamp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/276d57c8bed1a4f0.json",
+    "original_capture_time": "2026-10-13T14:02:58+08:00",
+    "discovery_url": "http://iamp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-276d57c8bed1",
+      "name": "原子与分子物理研究所 / 招生信息",
+      "base_url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-208e2a8cdba2",
+    "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "institution": "原子与分子物理研究所",
+    "column": "教学信息",
+    "site_url": "http://iamp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | LIST_DETAIL_DATE_DIFFERENCE",
+    "original_evidence": "docs/jlu-audit-evidence/results/208e2a8cdba2de03.json",
+    "original_capture_time": "2026-10-13T14:02:56+08:00",
+    "discovery_url": "http://iamp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-208e2a8cdba2",
+      "name": "原子与分子物理研究所 / 教学信息",
+      "base_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-4a6ebc9fd5fc",
+    "url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+    "institution": "原子与分子物理研究所",
+    "column": "通知公告",
+    "site_url": "http://iamp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/4a6ebc9fd5fcf629.json",
+    "original_capture_time": "2026-10-13T13:47:48+08:00",
+    "discovery_url": "http://iamp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-4a6ebc9fd5fc",
+      "name": "原子与分子物理研究所 / 通知公告",
+      "base_url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-6396551e0634",
+    "url": "http://iamp.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "原子与分子物理研究所",
+    "column": "招聘信息",
+    "site_url": "http://iamp.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/6396551e0634efd4.json",
+    "original_capture_time": "2026-10-13T14:03:03+08:00",
+    "discovery_url": "http://iamp.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-6396551e0634",
+      "name": "原子与分子物理研究所 / 招聘信息",
+      "base_url": "http://iamp.jlu.edu.cn/rczp/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-4f22b55d0c72",
+    "url": "http://iz.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "人兽共患病研究所",
+    "column": "招聘信息",
+    "site_url": "http://iz.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "original_evidence": "docs/jlu-audit-evidence/results/4f22b55d0c728e3e.json",
+    "original_capture_time": "2026-10-13T14:03:34+08:00",
+    "discovery_url": "http://iz.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-4f22b55d0c72",
+      "name": "人兽共患病研究所 / 招聘信息",
+      "base_url": "http://iz.jlu.edu.cn/rczp/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p3-3230ff7620b1",
+    "url": "http://iz.jlu.edu.cn/index/tzgg.htm",
+    "institution": "人兽共患病研究所",
+    "column": "通知公告",
+    "site_url": "http://iz.jlu.edu.cn/",
+    "priority": "P3",
+    "old_status": "部分通过",
+    "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "original_evidence": "docs/jlu-audit-evidence/results/3230ff7620b1e6a8.json",
+    "original_capture_time": "2026-10-13T14:03:29+08:00",
+    "discovery_url": "http://iz.jlu.edu.cn/",
+    "config": {
+      "code": "candidate-jlu-p3-3230ff7620b1",
+      "name": "人兽共患病研究所 / 通知公告",
+      "base_url": "http://iz.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  }
+]

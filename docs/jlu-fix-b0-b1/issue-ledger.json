@@ -1,0 +1,5394 @@
+{
+  "scope": "Historical issue triage, not a new compatibility verdict",
+  "rows": [
+    {
+      "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+      "time": "2026-10-13T13:42:40+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/1cd1acce79f072ab.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+      "time": "2026-10-13T13:51:10+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/84dfcf2a24e7e5a0.json",
+      "issues": []
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/xytz.htm",
+      "time": "2026-10-13T13:51:14+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/680c118ccf5bb51c.json",
+      "issues": [
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+      "time": "2026-10-13T13:51:18+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/1e705b1f23e7eeb0.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+      "time": "2026-10-13T13:51:24+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/164eccdf38fd0d67.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:51:30+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/792363a55457d183.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+      "time": "2026-10-13T13:51:36+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/dc5149df919d48b0.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-13T13:51:44+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/cd2035ca91d0ee7c.json",
+      "issues": [
+        {
+          "code": "ROBOTS_UNAVAILABLE",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:48:36+08:00",
+      "priority": "P0",
+      "evidence": "docs/jlu-audit-evidence/results/c08776d235e432b8.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "TITLE_TRUNCATED",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/tzgg1",
+      "time": "2026-10-13T13:51:54+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/5c6d24fdd415c8b2.json",
+      "issues": [
+        {
+          "code": "NETWORK_ERROR",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+      "time": "2026-10-13T13:39:10+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/e5e902eb62c33699.json",
+      "issues": [
+        {
+          "code": "NETWORK_ERROR",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202609281485.html",
+      "time": "2026-10-13T13:51:58+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/38114c86c380fec9.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+      "time": "2026-10-13T13:35:03+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/58c810b690013f45.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+      "time": "2026-10-13T13:52:05+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/8c6f9b3898ff2404.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+      "time": "2026-10-13T13:52:08+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/0115e51ff1e42b20.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+      "time": "2026-10-13T13:52:08+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/90575f80c83fbe3c.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+      "time": "2026-10-13T13:52:12+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/fdfdb468b1d3afa8.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:52:15+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/9f22c29483a2c1a8.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+      "time": "2026-10-13T13:52:22+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/72be2c4ef3ce63fe.json",
+      "issues": [
+        {
+          "code": "ROBOTS_UNAVAILABLE",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:52:35+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/057b9df64b35f2ba.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:38:24+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/19da6ac0690c2834.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yz.chsi.com.cn/",
+      "time": "2026-10-13T13:52:47+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/bc4afb3d7a5c1292.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+      "time": "2026-10-13T13:52:55+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/e59b523d52769c37.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+      "time": "2026-10-13T13:53:02+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/3e6e27a2710d0d2a.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/index/lqgs.htm",
+      "time": "2026-10-13T13:53:07+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/24982ab068c529bb.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:48:29+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/b581a67f8ec644e0.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/sszs/lqgs.htm",
+      "time": "2026-10-13T13:53:19+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/b5ebf4f8b6c4d352.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+      "time": "2026-10-13T13:53:25+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/76f52825fb74aee6.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:34:52+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/abb1ec8e52e80c3b.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:53:30+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/bc0cc7635b3d94f8.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/kxyj/tz.htm",
+      "time": "2026-10-13T13:40:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/6ae5dc5dab5411f9.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+      "time": "2026-10-13T13:40:49+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/545133af289a3be3.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+      "time": "2026-10-13T13:53:39+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/634f2ceeed27cb23.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+      "time": "2026-10-13T13:53:41+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7b6909acddc83554.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+      "time": "2026-10-13T13:40:51+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/bda41fb09c1feff0.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://art.jlu.edu.cn/xwgg.htm",
+      "time": "2026-10-13T13:53:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/40ce1ce2e7817063.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://auto.jlu.edu.cn/bkjx/jxtz.htm",
+      "time": "2026-10-13T13:53:53+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1486b1ea162090da.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://auto.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:53:58+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/fb307a415310cb88.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://auto.jlu.edu.cn/zsxx.htm",
+      "time": "2026-10-13T13:54:03+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8e958c4c25bd5b90.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://cbae.jlu.edu.cn/jyxx.htm",
+      "time": "2026-10-13T13:54:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/05b686fcce1643c6.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cbae.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:54:09+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/36bcdbbfe876373d.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+      "time": "2026-10-13T13:54:14+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4adc4212e4ac27b5.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+      "time": "2026-10-13T13:54:16+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/41ebd5d9cb1aa1c9.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+      "time": "2026-10-13T13:54:19+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d18f7a59a9bcf378.json",
+      "issues": []
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+      "time": "2026-10-13T13:54:22+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/545799ceadc0496d.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+      "time": "2026-10-13T13:54:25+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/27f40bc0ad61be3c.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/bksjy/jxdtytz.htm",
+      "time": "2026-10-13T13:43:14+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1e6e324d030092e9.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/djgz/tzgg.htm",
+      "time": "2026-10-13T13:43:16+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e95ff7261809ebc1.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/index/xytz.htm",
+      "time": "2026-10-13T13:54:36+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d187e1cf815fa873.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+      "time": "2026-10-13T13:43:19+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c83c01ef7cc337a4.json",
+      "issues": [
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/xsgz/bks/tzgg.htm",
+      "time": "2026-10-13T13:54:41+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/15b4759d56ad6370.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+      "time": "2026-10-13T13:43:18+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/dc768272865a1f34.json",
+      "issues": []
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/yjsjy/tzgg.htm",
+      "time": "2026-10-13T13:43:15+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2b785d9deae36f1d.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://chem.jlu.edu.cn/glfw/hxzhpt/ptgg.htm",
+      "time": "2026-10-13T13:54:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f22986fbb906a595.json",
+      "issues": [
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://chem.jlu.edu.cn/xwtz/tzgg.htm",
+      "time": "2026-10-13T13:41:37+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/232806f0f71e2ead.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://chem.jlu.edu.cn/xwtz/xwdt.htm",
+      "time": "2026-10-13T13:54:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/830b248b0ed00b58.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ciee.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:54:59+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/a6f694fbc0903025.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ciee.jlu.edu.cn/rcpy/bksjx/jxxx.htm",
+      "time": "2026-10-13T13:55:04+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e3f7ae837fee225d.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ciee.jlu.edu.cn/rcpy/zsxx.htm",
+      "time": "2026-10-13T13:55:07+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0e230e274f4c8f4d.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/",
+      "time": "2026-10-13T13:34:44+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1e4bfa7ebf8d7d83.json",
+      "issues": [
+        {
+          "code": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://const.jlu.edu.cn/bkjx/jxtz.htm",
+      "time": "2026-10-13T13:55:12+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/ab86577cd7744137.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://const.jlu.edu.cn/dzgz/dwtz.htm",
+      "time": "2026-10-13T13:55:15+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/a228fac1619afd66.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+      "time": "2026-10-13T13:55:19+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/cbc532d0ce0dc5fb.json",
+      "issues": [
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+      "time": "2026-10-13T13:55:21+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/07b454d7eb4d329c.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/bkjy/jwgg.htm",
+      "time": "2026-10-13T13:55:23+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/97ae8ba168c76b1a.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:42:34+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2f911b01ff6a1c20.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+      "time": "2026-10-13T13:55:29+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/89935f7ca071b4bd.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg/zpxx.htm",
+      "time": "2026-10-13T13:55:32+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/fae607a04b9c9b80.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg/zsxx.htm",
+      "time": "2026-10-13T13:55:34+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/46e3c78121198557.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/yjsjy/tzgg.htm",
+      "time": "2026-10-13T13:42:32+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/a9a59c73b5f0b8b5.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+      "time": "2026-10-13T13:42:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/07281bc1ad5c6495.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dmse.jlu.edu.cn/ynbg/xytz.htm",
+      "time": "2026-10-13T13:55:43+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/74d47ee2d271f2ce.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:55:47+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7d3c3d1d95749b98.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+      "time": "2026-10-13T13:55:51+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/b7cdb55d51adb84c.json",
+      "issues": []
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/xsgz2/xttz.htm",
+      "time": "2026-10-13T13:55:53+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0b6f0f7e43444444.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:55:57+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/43d1e5eaf74dc716.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+      "time": "2026-10-13T13:56:00+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1bc2d63d117c5d8d.json",
+      "issues": []
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+      "time": "2026-10-13T13:44:29+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f6853e4ca3897975.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ee.jlu.edu.cn/bkjy/jwgg.htm",
+      "time": "2026-10-13T13:56:06+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/df5d17d1f011de7f.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+      "time": "2026-10-13T13:56:11+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8cc2288150cd9e37.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "DATE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+      "time": "2026-10-13T13:42:19+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2f0e67009e776418.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ees.jlu.edu.cn/zsxx/gcss.htm",
+      "time": "2026-10-13T13:56:17+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/73b94a7d79f184f0.json",
+      "issues": [
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:42:00+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3dae5f264b1145f7.json",
+      "issues": [
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://geo.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:56:22+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/bbe00cc384e15af0.json",
+      "issues": [
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+      "time": "2026-10-13T13:42:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8a9f6de572b0bf69.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://geo.jlu.edu.cn/yjsjy/zsxx.htm",
+      "time": "2026-10-13T13:56:30+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/67fb2382eacd5e7c.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://gest.jlu.edu.cn/xsgz/jyxx.htm",
+      "time": "2026-10-13T13:56:34+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/9bce0756ced54b1a.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://gest.jlu.edu.cn/yjsjy/tztg.htm",
+      "time": "2026-10-13T13:56:37+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0e03775ff7ca4c8b.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "TITLE_TRUNCATED",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+      "time": "2026-10-13T13:56:41+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2b144cc250d662d6.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+      "time": "2026-10-13T13:40:09+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/10b02b68c1e98da7.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+      "time": "2026-10-13T13:40:11+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/00df1137578aec37.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/xwgg/tzgg.htm",
+      "time": "2026-10-13T13:40:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0d317a4fdd0edbc7.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+      "time": "2026-10-13T13:56:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7cc869e0b3333c12.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+      "time": "2026-10-13T13:56:54+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/746d87b2613e6e22.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+      "time": "2026-10-13T13:56:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c1b6460155497a26.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:44:03+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1975211e16b0c784.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jdkq.jlu.edu.cn/xwzx/tzgg.htm",
+      "time": "2026-10-13T13:44:19+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/ec2a72e5e9afcf4c.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+      "time": "2026-10-13T13:39:56+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c0d59780b1f19452.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/dwgz/dbtz.htm",
+      "time": "2026-10-13T13:57:08+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/256d0f3a664ce8b0.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+      "time": "2026-10-13T13:39:59+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/6a1f946f528fdc61.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:57:16+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0d2e4f460281daa3.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+      "time": "2026-10-13T13:57:20+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/12e3b12c34c90087.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/wsgz/tzgg.htm",
+      "time": "2026-10-13T13:39:57+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e7d9e35321bba3bd.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+      "time": "2026-10-13T13:40:01+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/419d026b52ecce6e.json",
+      "issues": []
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/xzgz/ybtz.htm",
+      "time": "2026-10-13T13:57:28+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/9f8ab3d896895ec0.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+      "time": "2026-10-13T13:39:58+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7fa2f86e7984d136.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://law.jlu.edu.cn/djgz/tzgg.htm",
+      "time": "2026-10-13T13:40:40+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2ec9326c9cdeece6.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://law.jlu.edu.cn/hzjl/tzgg.htm",
+      "time": "2026-10-13T13:57:45+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/953dcf6ca7775abc.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+      "time": "2026-10-13T13:40:42+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1b12f2818086d773.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+      "time": "2026-10-13T13:58:06+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3a6ff3f21947d5dc.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+      "time": "2026-10-13T13:40:44+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/907916dc49c7f2e8.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://life.jlu.edu.cn/xsgz/bksgl/tzgg.htm",
+      "time": "2026-10-13T13:58:21+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/caf1c43b6637e0fc.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+      "time": "2026-10-13T13:58:26+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4e030ec36a90ae60.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://mae.jlu.edu.cn/djgz1/gsl.htm",
+      "time": "2026-10-13T13:58:28+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d15dab673d436b11.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://mae.jlu.edu.cn/djgz1/gztz.htm",
+      "time": "2026-10-13T13:58:33+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d5031d61f80927a8.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:58:36+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7e3638201f82cf49.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+      "time": "2026-10-13T13:58:40+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3a297f3e8e8a6e2b.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://marx.jlu.edu.cn/xxgk/gstz.htm",
+      "time": "2026-10-13T13:58:45+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2bd818ae6308ed7f.json",
+      "issues": [
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://math.jlu.edu.cn/zsjy/bkszs/zsx.htm",
+      "time": "2026-10-13T13:58:48+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f80ea8ffb1777c55.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://medicine.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:43:37+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/327247c1f06fd2ed.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+      "time": "2026-10-13T13:58:52+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/a576eb1caf328080.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+      "time": "2026-10-13T13:58:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/43ab44ffea1bc920.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+      "time": "2026-10-13T13:58:57+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1ce2bf7487f4e614.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/bksjy/tzgg.htm",
+      "time": "2026-10-13T13:41:06+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f2d768ca0b7a9189.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+      "time": "2026-10-13T13:59:02+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8c8300840cc7bbd9.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+      "time": "2026-10-13T13:59:04+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/9a1367dd10c1c89c.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/gjjl/tzgg.htm",
+      "time": "2026-10-13T13:59:09+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/59c963fac0ed2d34.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+      "time": "2026-10-13T13:41:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/061cce78bfc55c8a.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:59:15+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e6225fdb065b37ea.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+      "time": "2026-10-13T13:59:20+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3e37d545072d1396.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+      "time": "2026-10-13T13:59:22+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/bdfdf1b773403b4e.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+      "time": "2026-10-13T13:41:09+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/b89e65fad06d41c2.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+      "time": "2026-10-13T13:59:26+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f7cc340d44658223.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/login.jsp",
+      "time": "2026-10-13T13:59:33+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c0bb9a0353fb16e3.json",
+      "issues": [
+        {
+          "code": "ROBOTS_UNAVAILABLE",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/djgz/tzgg.htm",
+      "time": "2026-10-13T13:40:29+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7d7c829428ef0361.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/jxxx.htm",
+      "time": "2026-10-13T13:59:36+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e22350c38fae9788.json",
+      "issues": []
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/xytz.htm",
+      "time": "2026-10-13T13:59:38+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/47d89dfab2c88dd4.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/zsgz1/zsxx.htm",
+      "time": "2026-10-13T13:59:42+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/b391dd8251668fa6.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+      "time": "2026-10-13T13:41:31+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/933c15f081de2de3.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+      "time": "2026-10-13T13:59:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/5a4d3e884db0df27.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "DATE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+      "time": "2026-10-13T13:41:32+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/21eb2d6f65d84cdd.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/xzgz/tzgg.htm",
+      "time": "2026-10-13T13:41:34+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/aaf33015c986da64.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sai.jlu.edu.cn/xsgz/zpxx.htm",
+      "time": "2026-10-13T13:59:56+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1eb6da6be1245006.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://sai.jlu.edu.cn/zytz/xytz.htm",
+      "time": "2026-10-13T13:59:58+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/b4d0f3f83bb4b3eb.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+      "time": "2026-10-13T13:40:15+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4082d5740334b52d.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+      "time": "2026-10-13T14:00:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0f03bd864044d026.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+      "time": "2026-10-13T14:00:08+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4bfc23b0fadd94b7.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/xtgz/xttzgg.htm",
+      "time": "2026-10-13T14:00:09+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/eee2c71f35ed2302.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/yjsgz/tzgg.htm",
+      "time": "2026-10-13T13:40:16+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7caf92be4c577f25.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/jxxm/bk/jxtz.htm",
+      "time": "2026-10-13T14:00:18+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/bc7612ad15b66e78.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+      "time": "2026-10-13T14:00:22+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d9746a56822d872b.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+      "time": "2026-10-13T14:00:26+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/6f487871816f63b1.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:00:28+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/579e5f4596d97ca9.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/xsfz/bk/tzgg.htm",
+      "time": "2026-10-13T13:40:56+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/e249e1b50f11f85b.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+      "time": "2026-10-13T13:40:57+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/a5fb3c6473c13696.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+      "time": "2026-10-13T14:00:46+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/44fbf0adca090c7b.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+      "time": "2026-10-13T14:00:47+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/5231cd19a62207dd.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/dqgz/tzgg.htm",
+      "time": "2026-10-13T13:41:14+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0880df73e82d6226.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/hzjl/tzgg.htm",
+      "time": "2026-10-13T14:00:53+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0f712420c5c4200a.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:00:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/29e857a4ad62531a.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+      "time": "2026-10-13T13:41:16+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4ef17320b90fd74d.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+      "time": "2026-10-13T14:01:03+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1ee20cadf54ce5bd.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+      "time": "2026-10-13T14:01:05+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/d0ce0fbe0f9c097d.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+      "time": "2026-10-13T13:44:50+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/1e4fe50bfee71d6c.json",
+      "issues": [
+        {
+          "code": "ENCODING_REPLACEMENT",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+      "time": "2026-10-13T14:01:12+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/90c43336839449bc.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/tztg.htm",
+      "time": "2026-10-13T14:01:14+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3bc13aa497f06acc.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/tongzhiy_g7yU_91.html",
+      "time": "2026-10-13T14:01:18+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/fd4944826664c69d.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_62/177728.html",
+      "time": "2026-10-13T14:01:20+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/fe74f8a02d7a2d3b.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+      "time": "2026-10-13T14:01:21+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/9230d60e0f53f653.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+      "time": "2026-10-13T14:01:22+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/af1ca3ec1c4af90d.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujiaquery_g7yU_61.html",
+      "time": "2026-10-13T14:01:23+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c44f268c159ec7c9.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujiaquery_g7yU_62.html",
+      "time": "2026-10-13T13:44:13+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3315d5f7eb5985d6.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujiaquery_g7yU_864.html",
+      "time": "2026-10-13T14:01:25+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/c85b8be444d2c98b.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+      "time": "2026-10-13T13:39:52+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/2d2311f9137d70e1.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/xshz/bks/tzgg.htm",
+      "time": "2026-10-13T14:01:29+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/75a936f67e7b085d.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/xshz/yjs/tzgg.htm",
+      "time": "2026-10-13T14:01:34+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8227e0600236a5bc.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+      "time": "2026-10-13T13:39:48+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/fceee4bcc6a55991.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/xwgg/xykx.htm",
+      "time": "2026-10-13T14:01:42+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/80b822daedbc8e20.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+      "time": "2026-10-13T14:01:46+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/3f1970ccb9a10b6a.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+      "time": "2026-10-13T14:01:51+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/4cdaecdcbdc0e9e1.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:01:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/7c4630b720e4697e.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://yxy.jlu.edu.cn/wz-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1209",
+      "time": "2026-10-13T14:02:00+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/53c4ac131f1cc0ef.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://yxy.jlu.edu.cn/zszp/zsxx.htm",
+      "time": "2026-10-13T14:02:03+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f9c1c909137f340b.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+      "time": "2026-10-13T14:02:06+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f1a3d4567458e9e8.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+      "time": "2026-10-13T14:02:11+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/52c296000d496b93.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:02:13+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/16d87d6151cbb72a.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:02:17+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/f447e6a93f49de62.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+      "time": "2026-10-13T14:02:20+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/45dbc16a746edb39.json",
+      "issues": []
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/xsgz/tzgg.htm",
+      "time": "2026-10-13T13:39:42+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/98212380e6ad9188.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+      "time": "2026-10-13T14:02:25+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/b4ad9576f8de3377.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+      "time": "2026-10-13T14:05:53+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/0ca7e7c9518e54f4.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+      "time": "2026-10-13T14:05:55+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/8882a3f2c6422bb7.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+      "time": "2026-10-13T14:05:19+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9cc6eba0da5bbf37.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+      "time": "2026-10-13T14:05:23+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9315876bd6fad50c.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+      "time": "2026-10-13T14:05:25+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9e34816e096bd04e.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/archive/information/events",
+      "time": "2026-10-13T14:05:28+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/2a947afc9f1e07da.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+      "time": "2026-10-13T14:05:30+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b2b4060ce6db0354.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/information/events",
+      "time": "2026-10-13T14:05:32+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/0669ddf8868968f0.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://aamuseum.jlu.edu.cn/tzkx/tz.htm",
+      "time": "2026-10-13T14:05:40+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/13f5df19e0b13cb5.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://bsh.jlu.edu.cn/zpxx.htm",
+      "time": "2026-10-13T14:05:43+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/064a4d605439a05e.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://bwc.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:05:47+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/611033d52dce5e74.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://cbslab.jlu.edu.cn/xwzx/tzgg.htm",
+      "time": "2026-10-13T13:39:28+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/fc6bb7747414e949.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1093&wbtreeid=1008",
+      "time": "2026-10-13T14:05:56+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a6c4eb02b91d090d.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1101&wbtreeid=1008",
+      "time": "2026-10-13T14:05:59+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/2472c2f95b441930.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1166&wbtreeid=1008",
+      "time": "2026-10-13T14:06:01+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/92d95ca9b5e946c6.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1179&wbtreeid=1008",
+      "time": "2026-10-13T14:06:03+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/5e75b78d19d0a320.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+      "time": "2026-10-13T14:06:06+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9031f1a975a22c71.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://cszx.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008",
+      "time": "2026-10-13T14:06:08+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9cfc1755cb34af9d.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://ctld.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T13:38:16+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/f504e1e18da8c893.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dag.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:06:13+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/07989e4e3e51cd80.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:06:18+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/1f12d3363e10d621.json",
+      "issues": []
+    },
+    {
+      "url": "https://ddy.jlu.edu.cn/tzkx.htm",
+      "time": "2026-10-13T14:06:19+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/df49160ba1314d02.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+      "time": "2026-10-13T13:34:57+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/3e3193ebc99c86be.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dev.jlu.edu.cn/ggdt/tzgg.htm",
+      "time": "2026-10-13T14:06:23+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/d7ea2bd5b29a0689.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dqswb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:38:46+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/cd417b7e833f78c3.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://dwxcb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:34:06+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/f80d3ae13dc40081.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+      "time": "2026-10-13T13:49:38+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/aec68cedee883bf7.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_PARSE_EMPTY",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://fwh.jlu.edu.cn/ggxx.htm",
+      "time": "2026-10-13T14:06:33+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a1dc0cd69bc70294.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hp.jlu.edu.cn/tztg.htm",
+      "time": "2026-10-13T14:06:39+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/36ce682535f557a5.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+      "time": "2026-10-13T14:06:42+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/717cb1dd0cc9f952.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:06:47+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/26ed334f996e1fea.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11902&wbtreeid=1023",
+      "time": "2026-10-13T14:06:52+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/21df4a457282efed.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11909&wbtreeid=1023",
+      "time": "2026-10-13T14:06:54+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/bc6d4e3522a17c8c.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11922&wbtreeid=1023",
+      "time": "2026-10-13T14:06:56+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/18762e4fb6bd2f10.json",
+      "issues": [
+        {
+          "code": "OUT_OF_SCOPE_REFERENCE",
+          "classification": "无需新增适配：单篇引用或外部引用"
+        }
+      ]
+    },
+    {
+      "url": "https://hqserver.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023",
+      "time": "2026-10-13T13:38:58+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/918d011e17e42822.json",
+      "issues": [
+        {
+          "code": "EMPTY_LIST",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+      "time": "2026-10-13T13:48:11+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/d631ccd9f5224213.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:07:00+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/91835e5c30a10976.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:07:05+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/552953476abb8018.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+      "time": "2026-10-13T14:07:10+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b5a06a58053ecaad.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jgb.jlu.edu.cn/ygtz.htm",
+      "time": "2026-10-13T14:07:13+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/92fc799ee2388b45.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jjb.jlu.edu.cn/bmxw/tzgg.htm",
+      "time": "2026-10-13T13:37:40+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/fabc7ba49bf11e78.json",
+      "issues": [
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+      "time": "2026-10-13T14:07:19+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/6081a6077fa87de2.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://jjglb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:38:13+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/fe70747cb90d3d64.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+      "time": "2026-10-13T14:07:28+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/ec56189cf7e4928d.json",
+      "issues": [
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ltxc.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:07:30+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/222ec72508f656f5.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://lvpecf.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:07:34+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b77c23b62583dac7.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ncnas.jlu.edu.cn/xwdt/tzgg.htm",
+      "time": "2026-10-13T14:07:39+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/3d34c2ae440cc869.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nic.jlu.edu.cn/tzkx.htm",
+      "time": "2026-10-13T14:07:44+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/2dd321c9e62c217d.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+      "time": "2026-10-13T13:39:34+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/6057733eb6f04b2f.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+      "time": "2026-10-13T14:07:49+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/c1ad0a7cdcf9de2f.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+      "time": "2026-10-13T14:07:53+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a93aafad1fe06e10.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+      "time": "2026-10-13T14:07:56+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/79dae7a36e3058b0.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+      "time": "2026-10-13T14:07:58+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/be94a971ce81b143.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://pjb.jlu.edu.cn/fsxxdw/tzgg.htm",
+      "time": "2026-10-13T13:37:48+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/aa40d6abd7511665.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://pjb.jlu.edu.cn/tzzx.htm",
+      "time": "2026-10-13T14:08:02+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/5d7be7001eb14dac.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+      "time": "2026-10-13T14:08:06+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/45f6501a5554e53a.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://psy.jlu.edu.cn/xwzx/tzgg.htm",
+      "time": "2026-10-13T13:37:57+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/1046fa015dad2e09.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://rsgl.jlu.edu.cn/gggs.htm",
+      "time": "2026-10-13T14:08:10+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a12c9fdf5402a692.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://rsgl.jlu.edu.cn/tzdt.htm",
+      "time": "2026-10-13T14:08:14+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/58b5da3297900423.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+      "time": "2026-10-13T14:08:17+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b4bf49021cd7a222.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "TITLE_TRUNCATED",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://xcb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:08:22+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/2d092f512c10a4c7.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+      "time": "2026-10-13T13:34:27+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/63ff349131e1673f.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+      "time": "2026-10-13T13:38:38+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/43c4bdb1d4ae8dba.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+      "time": "2026-10-13T13:38:37+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b944229a171be375.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+      "time": "2026-10-13T13:38:39+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/fa535e3ee14b199f.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+      "time": "2026-10-13T13:38:34+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/99066c319e6f3737.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+      "time": "2026-10-13T13:38:36+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/625011e2029d2fcc.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zcgl.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:08:41+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/81ced94833acd4e3.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zcgl.jlu.edu.cn/zxcgxmgg.htm",
+      "time": "2026-10-13T14:08:46+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/f973305063fd0fee.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "https://zcyfg.jlu.edu.cn/sylm/tzgg.htm",
+      "time": "2026-10-13T13:37:37+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/598e7296ed82743d.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://cie.jlu.edu.cn/ggtz.htm",
+      "time": "2026-10-13T13:51:47+08:00",
+      "priority": "P1",
+      "evidence": "docs/jlu-audit-evidence/results/88e2ce025b951ccb.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://isc.jlu.edu.cn/oaindex.htm",
+      "time": "2026-10-13T13:59:30+08:00",
+      "priority": "P2",
+      "evidence": "docs/jlu-audit-evidence/results/6a839d15a4049e18.json",
+      "issues": [
+        {
+          "code": "ROBOTS_UNAVAILABLE",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "http://acib.jlu.edu.cn/xxgg.htm",
+      "time": "2026-10-13T14:02:27+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a79bb2d1ffdffb0d.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://acre.jlu.edu.cn/xwdt/tzgg1.htm",
+      "time": "2026-10-13T13:45:44+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/a137b207198ff9d8.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:45:18+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/dbe97ad67104327e.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://ccpser.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:02:35+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/145fbc0028acdd50.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://cppcc.jlu.edu.cn/zxdt/tzgg.htm",
+      "time": "2026-10-13T13:45:50+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/85735f6aeafc1bff.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+      "time": "2026-10-13T14:02:41+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/5c626cbfdf1917c2.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+      "time": "2026-10-13T14:02:44+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/075bd0471b07d75f.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://ghb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:02:46+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b9081fc300d91652.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+      "time": "2026-10-13T14:02:51+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/0a00088dd271056d.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+      "time": "2026-10-13T13:47:48+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/4a6ebc9fd5fcf629.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+      "time": "2026-10-13T14:02:56+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/208e2a8cdba2de03.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+      "time": "2026-10-13T14:02:58+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/276d57c8bed1a4f0.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/rczp/zpxx.htm",
+      "time": "2026-10-13T14:03:03+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/6396551e0634efd4.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://icfs.jlu.edu.cn/index.htm",
+      "time": "2026-10-13T14:03:07+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/0f85aaa162f59ab3.json",
+      "issues": [
+        {
+          "code": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://icfs.jlu.edu.cn/jrwm/zpxx.htm",
+      "time": "2026-10-13T14:03:09+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/96349c12f2d54c8b.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+      "time": "2026-10-13T13:45:08+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/e4a31bb7b4d2db4a.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+      "time": "2026-10-13T14:03:11+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/d26c079d57788934.json",
+      "issues": [
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+      "time": "2026-10-13T14:03:14+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/acb2a085dfc4ff0a.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://indss.jlu.edu.cn/index.htm",
+      "time": "2026-10-13T14:03:16+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/8c4d7b0730cc970c.json",
+      "issues": [
+        {
+          "code": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+      "time": "2026-10-13T13:47:37+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/8a5615f2d971146e.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        }
+      ]
+    },
+    {
+      "url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+      "time": "2026-10-13T14:03:19+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/e088fc12870c917f.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+      "time": "2026-10-13T13:47:43+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/b6c8c6e200cd29c8.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+      "time": "2026-10-13T14:03:25+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/06d121ac0e9b6c27.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_TOO_SHORT",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://iz.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:03:29+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/3230ff7620b1e6a8.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://iz.jlu.edu.cn/rczp/zpxx.htm",
+      "time": "2026-10-13T14:03:34+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/4f22b55d0c728e3e.json",
+      "issues": [
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+      "time": "2026-10-13T14:03:36+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/86da28c024119c6b.json",
+      "issues": [
+        {
+          "code": "HTTP_ERROR",
+          "classification": "访问/规则/环境阻塞：不外推为解析器问题"
+        }
+      ]
+    },
+    {
+      "url": "http://jlucqe.jlu.edu.cn/xgxw1/zxtz.htm",
+      "time": "2026-10-13T14:03:37+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/517983231abb2928.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T13:35:08+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/057482fcf4d1876b.json",
+      "issues": []
+    },
+    {
+      "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+      "time": "2026-10-13T14:03:42+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/8c83f402e628e973.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_MISSING",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        }
+      ]
+    },
+    {
+      "url": "http://klgre.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:03:55+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/43985ce4fe1b2003.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+      "time": "2026-10-13T14:04:37+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/8d31d6a0c1fbc8e1.json",
+      "issues": []
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:04:40+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/d46a55c006bd002a.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/tzgg.htm",
+      "time": "2026-10-13T13:46:06+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/bda802ae708bf466.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "ATTACHMENTS_UNCHECKED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+      "time": "2026-10-13T14:04:47+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/3a9be451148bc364.json",
+      "issues": [
+        {
+          "code": "ATTACHMENT_ENDPOINT_FAILED",
+          "classification": "尚未核验/下载链路限制：不认定文件损坏"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://ort.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:04:58+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/be255c9b528c6711.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://pathobiology.jlu.edu.cn/ggtz.htm",
+      "time": "2026-10-13T14:05:01+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/0768ea65e5732faf.json",
+      "issues": [
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        },
+        {
+          "code": "TITLE_TRUNCATED",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+      "time": "2026-10-13T14:05:04+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/dccdc07e027f15b6.json",
+      "issues": [
+        {
+          "code": "LIST_CANDIDATE_RECALL_GAP",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "DATE_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://scke.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-13T14:05:07+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/559bea09569566a1.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://sklio.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-13T14:05:11+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/f24c497b7c183820.json",
+      "issues": [
+        {
+          "code": "PAGINATION_NOT_CONFIGURED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+      "time": "2026-10-13T14:05:14+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/531d956cfe3983e7.json",
+      "issues": [
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+      "time": "2026-10-13T14:05:17+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/dc59edeed902ec2c.json",
+      "issues": [
+        {
+          "code": "LIST_DETAIL_DATE_DIFFERENCE",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+          "classification": "能力或评估边界：需确认具体历史覆盖/内容要求"
+        }
+      ]
+    },
+    {
+      "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+      "time": "2026-10-13T14:05:34+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/9279a878c7d71155.json",
+      "issues": [
+        {
+          "code": "TITLE_MISMATCH",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://jwc.jlu.edu.cn/index.htm",
+      "time": "2026-10-13T14:06:36+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/50b51369233855e8.json",
+      "issues": [
+        {
+          "code": "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    },
+    {
+      "url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/yjsjy/yjsytz.htm",
+      "time": "2026-10-13T14:07:03+08:00",
+      "priority": "P3",
+      "evidence": "docs/jlu-audit-evidence/results/f0c7249752019d50.json",
+      "issues": [
+        {
+          "code": "POSSIBLE_NAVIGATION_CAPTURE",
+          "classification": "已证实解析错误：本批快照对照阻止候选生成"
+        },
+        {
+          "code": "LIST_DATES_MISSING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "TITLE_NOT_IN_DETAIL_HEADING",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        },
+        {
+          "code": "BODY_CONTAINER_FALLBACK",
+          "classification": "已证实不安全回退：本批禁止；具体正文语义仍需逐页核验"
+        },
+        {
+          "code": "BODY_NAVIGATION_CONTAMINATION",
+          "classification": "尚未逐条核验：保留原标记及证据，等待对应批次"
+        }
+      ]
+    }
+  ]
+}

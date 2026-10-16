@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-13T15:02:15+08:00",
+  "application_fingerprints_unchanged": {
+    "backend/config/sources.yaml": true,
+    "backend/config/settings.yaml": true,
+    "backend/app/sources/base.py": true,
+    "backend/app/sources/generic.py": true,
+    "backend/app/sources/oa_public.py": true,
+    "backend/app/parsers/html.py": true,
+    "backend/app/services/tls.py": true,
+    "backend/app/services/source_security.py": true,
+    "backend/app/crawler/runner.py": true
+  },
+  "evidence_checks": "URL uniqueness, timestamps, reasons, per-column files, every HTML SHA256, totals reconciled",
+  "formal_database_used": false,
+  "formal_sources_modified": false,
+  "production_cloud_verified": false,
+  "network_in_finalize": false,
+  "auditor_sha256": "5df513c46c17526096dbe87fdeb042adf87a5d4efde34fc38b77b9da2a019773"
+}

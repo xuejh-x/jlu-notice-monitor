@@ -1,0 +1,38 @@
+{
+  "column_url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+  "column": "信息公告",
+  "institution": "白求恩第三临床医学院",
+  "site_url": "https://www.zrlyyy.com/index.html",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://www.zrlyyy.com/index.html",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:44:09+08:00",
+  "checked_at": "2026-10-13T14:01:21+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/9230d60e0f53f653.json",
+  "reason": "EMPTY_LIST",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+  "list_sha256": "1d91f1786f7a1e8d62309c9e7a2ffbc8d62dcd8ccce358ff579b86474e4e4d0f",
+  "list_snapshot": "html/1d91f1786f7a1e8d62309c9e7a2ffbc8d62dcd8ccce358ff579b86474e4e4d0f.html",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

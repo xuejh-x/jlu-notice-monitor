@@ -1,0 +1,4293 @@
+[
+  {
+    "id": "p2-b4ad9576f8de",
+    "institution": "哲学社会学院",
+    "column": "就业信息",
+    "url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zsy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/b4ad9576f8de3377.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-b4ad9576f8de",
+      "name": "哲学社会学院 / 就业信息",
+      "base_url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-10b02b68c1e9",
+    "institution": "历史文化学院",
+    "column": "通知公告",
+    "url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/10b02b68c1e98da7.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-10b02b68c1e9",
+      "name": "历史文化学院 / 通知公告",
+      "base_url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-00df1137578a",
+    "institution": "历史文化学院",
+    "column": "通知公告",
+    "url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/00df1137578aec37.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-00df1137578a",
+      "name": "历史文化学院 / 通知公告",
+      "base_url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-746d87b2613e",
+    "institution": "历史文化学院",
+    "column": "就业信息",
+    "url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/746d87b2613e6e22.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-746d87b2613e",
+      "name": "历史文化学院 / 就业信息",
+      "base_url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-0f03bd864044",
+    "institution": "外国语言文化学院",
+    "column": "党务公示",
+    "url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sflc.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0f03bd864044d026.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0f03bd864044",
+      "name": "外国语言文化学院 / 党务公示",
+      "base_url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-4bfc23b0fadd",
+    "institution": "外国语言文化学院",
+    "column": "就业信息",
+    "url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sflc.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/4bfc23b0fadd94b7.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4bfc23b0fadd",
+      "name": "外国语言文化学院 / 就业信息",
+      "base_url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-1ce2bf7487f4",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "就业信息",
+    "url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1ce2bf7487f4e614.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1ce2bf7487f4",
+      "name": "东北亚学院、东北亚研究院 / 就业信息",
+      "base_url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-bdfdf1b77340",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "就业信息",
+    "url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/bdfdf1b773403b4e.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-bdfdf1b77340",
+      "name": "东北亚学院、东北亚研究院 / 就业信息",
+      "base_url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-3e37d545072d",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "院办通知",
+    "url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/3e37d545072d1396.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3e37d545072d",
+      "name": "东北亚学院、东北亚研究院 / 院办通知",
+      "base_url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-0f712420c5c4",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/hzjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0f712420c5c4200a.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0f712420c5c4",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/hzjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-5a4d3e884db0",
+    "institution": "物理学院",
+    "column": "就业信息",
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://phy.jlu.edu.cn/rcpy/bksjy/BKZX.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/5a4d3e884db0df27.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-5a4d3e884db0",
+      "name": "物理学院 / 就业信息",
+      "base_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-4e030ec36a90",
+    "institution": "生命科学学院",
+    "column": "通知公告",
+    "url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://life.jlu.edu.cn/xsgz/bksgl.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/4e030ec36a90ae60.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4e030ec36a90",
+      "name": "生命科学学院 / 通知公告",
+      "base_url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-8cc2288150cd",
+    "institution": "电子科学与工程学院、集成电路学院",
+    "column": "实验室安全通知公告",
+    "url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ee.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/8cc2288150cd9e37.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-8cc2288150cd",
+      "name": "电子科学与工程学院、集成电路学院 / 实验室安全通知公告",
+      "base_url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-46e3c7812119",
+    "institution": "通信工程学院",
+    "column": "招生信息",
+    "url": "https://dce.jlu.edu.cn/tzgg/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/46e3c78121198557.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-46e3c7812119",
+      "name": "通信工程学院 / 招生信息",
+      "base_url": "https://dce.jlu.edu.cn/tzgg/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-fae607a04b9c",
+    "institution": "通信工程学院",
+    "column": "招聘信息",
+    "url": "https://dce.jlu.edu.cn/tzgg/zpxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/fae607a04b9c9b80.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-fae607a04b9c",
+      "name": "通信工程学院 / 招聘信息",
+      "base_url": "https://dce.jlu.edu.cn/tzgg/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-4adc4212e4ac",
+    "institution": "公共计算机教学与研究中心",
+    "column": "通报通知",
+    "url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ccfe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/4adc4212e4ac27b5.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4adc4212e4ac",
+      "name": "公共计算机教学与研究中心 / 通报通知",
+      "base_url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-53c4ac131f1c",
+    "institution": "药学院",
+    "column": "学院通知",
+    "url": "https://yxy.jlu.edu.cn/wz-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1209",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://yxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/53c4ac131f1cc0ef.json",
+    "support_status": "PERMISSION_RESTRICTED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-53c4ac131f1c",
+      "name": "药学院 / 学院通知",
+      "base_url": "https://yxy.jlu.edu.cn/wz-list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1209",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-9230d60e0f53",
+    "institution": "白求恩第三临床医学院",
+    "column": "信息公告",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/index.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/9230d60e0f53f653.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-9230d60e0f53",
+      "name": "白求恩第三临床医学院 / 信息公告",
+      "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+        "item_selector": ".list > .li:has(> a[href^=\"/wujia_detail_g7yU_59/\"])",
+        "title_selector": "a > .p",
+        "url_selector": "a[href^=\"/wujia_detail_g7yU_59/\"]",
+        "time_selector": "a > .y"
+      }
+    }
+  },
+  {
+    "id": "p2-af1ca3ec1c4a",
+    "institution": "白求恩第三临床医学院",
+    "column": "招生信息",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/index.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/af1ca3ec1c4af90d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-af1ca3ec1c4a",
+      "name": "白求恩第三临床医学院 / 招生信息",
+      "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+        "item_selector": ".list > .li:has(> a[href^=\"/wujia_detail_g7yU_60/\"])",
+        "title_selector": "a > .p",
+        "url_selector": "a[href^=\"/wujia_detail_g7yU_60/\"]",
+        "time_selector": "a > .y"
+      }
+    }
+  },
+  {
+    "id": "p2-c44f268c159e",
+    "institution": "白求恩第三临床医学院",
+    "column": "招标采购公告",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_61.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/index.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/c44f268c159ec7c9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-c44f268c159e",
+      "name": "白求恩第三临床医学院 / 招标采购公告",
+      "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_61.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+        "item_selector": ".list > .li:has(> a[href^=\"/wujia_detail_g7yU_61/\"])",
+        "title_selector": "a > .p",
+        "url_selector": "a[href^=\"/wujia_detail_g7yU_61/\"]",
+        "time_selector": "a > .y"
+      }
+    }
+  },
+  {
+    "id": "p2-3315d5f7eb59",
+    "institution": "白求恩第三临床医学院",
+    "column": "通知公告",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_62.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/index.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/3315d5f7eb5985d6.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3315d5f7eb59",
+      "name": "白求恩第三临床医学院 / 通知公告",
+      "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_62.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+        "item_selector": ".list > .li:has(> a[href^=\"/wujia_detail_g7yU_62/\"])",
+        "title_selector": "a > .p",
+        "url_selector": "a[href^=\"/wujia_detail_g7yU_62/\"]",
+        "time_selector": "a > .y"
+      }
+    }
+  },
+  {
+    "id": "p2-c85b8be444d2",
+    "institution": "白求恩第三临床医学院",
+    "column": "调研公告",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_864.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/index.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/c85b8be444d2c98b.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-c85b8be444d2",
+      "name": "白求恩第三临床医学院 / 调研公告",
+      "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_864.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-fd4944826664",
+    "institution": "白求恩第三临床医学院",
+    "column": "通知公告",
+    "url": "https://www.zrlyyy.com/tongzhiy_g7yU_91.html",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://www.zrlyyy.com/xuesheng.html",
+    "original_evidence": "docs/jlu-audit-evidence/results/fd4944826664c69d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-fd4944826664",
+      "name": "白求恩第三临床医学院 / 通知公告",
+      "base_url": "https://www.zrlyyy.com/tongzhiy_g7yU_91.html",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+        "item_selector": ".list > .li:has(> a[href^=\"/tongzhiy/detail_g7yU_91/\"])",
+        "title_selector": "a > .p",
+        "url_selector": "a[href^=\"/tongzhiy/detail_g7yU_91/\"]",
+        "time_selector": "a > .y"
+      }
+    }
+  },
+  {
+    "id": "p2-0ca7e7c9518e",
+    "institution": "吉林大学网络安全学院",
+    "column": "本科教学通知",
+    "url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cse.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0ca7e7c9518e54f4.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0ca7e7c9518e",
+      "name": "吉林大学网络安全学院 / 本科教学通知",
+      "base_url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-8882a3f2c642",
+    "institution": "吉林大学网络安全学院",
+    "column": "研究生通知",
+    "url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cse.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/8882a3f2c6422bb7.json",
+    "support_status": "VERIFIED_EMPTY_COLUMN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-8882a3f2c642",
+      "name": "吉林大学网络安全学院 / 研究生通知",
+      "base_url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-6a839d15a404",
+    "institution": "体育学院",
+    "column": "校内通知部门索引",
+    "url": "http://isc.jlu.edu.cn/oaindex.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://pe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/6a839d15a4049e18.json",
+    "support_status": "ACCESS_BLOCKED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-6a839d15a404",
+      "name": "体育学院 / 校内通知部门索引",
+      "base_url": "http://isc.jlu.edu.cn/oaindex.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-98212380e6ad",
+    "institution": "哲学社会学院",
+    "column": "通知公告",
+    "url": "https://zsy.jlu.edu.cn/xsgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zsy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/98212380e6ad9188.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-98212380e6ad",
+      "name": "哲学社会学院 / 通知公告",
+      "base_url": "https://zsy.jlu.edu.cn/xsgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-45dbc16a746e",
+    "institution": "哲学社会学院",
+    "column": "就业信息",
+    "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zsy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/45dbc16a746edb39.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-45dbc16a746e",
+      "name": "哲学社会学院 / 就业信息",
+      "base_url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f447e6a93f49",
+    "institution": "哲学社会学院",
+    "column": "通知公告",
+    "url": "https://zsy.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zsy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f447e6a93f49de62.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f447e6a93f49",
+      "name": "哲学社会学院 / 通知公告",
+      "base_url": "https://zsy.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-80b822daedbc",
+    "institution": "文学院",
+    "column": "新闻公告",
+    "url": "https://wxy.jlu.edu.cn/xwgg/xykx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/80b822daedbc8e20.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-80b822daedbc",
+      "name": "文学院 / 新闻公告",
+      "base_url": "https://wxy.jlu.edu.cn/xwgg/xykx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-fceee4bcc6a5",
+    "institution": "文学院",
+    "column": "通知公告",
+    "url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/fceee4bcc6a55991.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-fceee4bcc6a5",
+      "name": "文学院 / 通知公告",
+      "base_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2d2311f9137d",
+    "institution": "文学院",
+    "column": "通知公告",
+    "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2d2311f9137d70e1.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2d2311f9137d",
+      "name": "文学院 / 通知公告",
+      "base_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-4cdaecdcbdc0",
+    "institution": "文学院",
+    "column": "招生信息",
+    "url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/4cdaecdcbdc0e9e1.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4cdaecdcbdc0",
+      "name": "文学院 / 招生信息",
+      "base_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-3f1970ccb9a1",
+    "institution": "文学院",
+    "column": "就业信息",
+    "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/3f1970ccb9a10b6a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3f1970ccb9a1",
+      "name": "文学院 / 就业信息",
+      "base_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-75a936f67e7b",
+    "institution": "文学院",
+    "column": "通知公告",
+    "url": "https://wxy.jlu.edu.cn/xshz/bks/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/xshz/bks/gzdt.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/75a936f67e7b085d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-75a936f67e7b",
+      "name": "文学院 / 通知公告",
+      "base_url": "https://wxy.jlu.edu.cn/xshz/bks/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-8227e0600236",
+    "institution": "文学院",
+    "column": "通知公告",
+    "url": "https://wxy.jlu.edu.cn/xshz/yjs/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://wxy.jlu.edu.cn/xshz/bks/gzdt.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/8227e0600236a5bc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-8227e0600236",
+      "name": "文学院 / 通知公告",
+      "base_url": "https://wxy.jlu.edu.cn/xshz/yjs/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-c0d59780b1f1",
+    "institution": "考古学院",
+    "column": "通知公告",
+    "url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/c0d59780b1f19452.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-c0d59780b1f1",
+      "name": "考古学院 / 通知公告",
+      "base_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e7d9e35321bb",
+    "institution": "考古学院",
+    "column": "通知公告",
+    "url": "https://kgxy.jlu.edu.cn/wsgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/e7d9e35321bba3bd.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e7d9e35321bb",
+      "name": "考古学院 / 通知公告",
+      "base_url": "https://kgxy.jlu.edu.cn/wsgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-12e3b12c34c9",
+    "institution": "考古学院",
+    "column": "出访公示",
+    "url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/12e3b12c34c90087.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-12e3b12c34c9",
+      "name": "考古学院 / 出访公示",
+      "base_url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7fa2f86e7984",
+    "institution": "考古学院",
+    "column": "通知公告",
+    "url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7fa2f86e7984d136.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7fa2f86e7984",
+      "name": "考古学院 / 通知公告",
+      "base_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-6a1f946f528f",
+    "institution": "考古学院",
+    "column": "通知公告",
+    "url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/6a1f946f528fdc61.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-6a1f946f528f",
+      "name": "考古学院 / 通知公告",
+      "base_url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-256d0f3a664c",
+    "institution": "考古学院",
+    "column": "党办通知",
+    "url": "https://kgxy.jlu.edu.cn/dwgz/dbtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/256d0f3a664ce8b0.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-256d0f3a664c",
+      "name": "考古学院 / 党办通知",
+      "base_url": "https://kgxy.jlu.edu.cn/dwgz/dbtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-9f8ab3d89689",
+    "institution": "考古学院",
+    "column": "院办通知",
+    "url": "https://kgxy.jlu.edu.cn/xzgz/ybtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/9f8ab3d896895ec0.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-9f8ab3d89689",
+      "name": "考古学院 / 院办通知",
+      "base_url": "https://kgxy.jlu.edu.cn/xzgz/ybtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-419d026b52ec",
+    "institution": "考古学院",
+    "column": "通知公告",
+    "url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/419d026b52ecce6e.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-419d026b52ec",
+      "name": "考古学院 / 通知公告",
+      "base_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0d2e4f460281",
+    "institution": "考古学院",
+    "column": "通知",
+    "url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://kgxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0d2e4f460281daa3.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0d2e4f460281",
+      "name": "考古学院 / 通知",
+      "base_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7cc869e0b333",
+    "institution": "历史文化学院",
+    "column": "新闻公告",
+    "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7cc869e0b3333c12.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7cc869e0b333",
+      "name": "历史文化学院 / 新闻公告",
+      "base_url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0d317a4fdd0e",
+    "institution": "历史文化学院",
+    "column": "通知公告",
+    "url": "https://hac.jlu.edu.cn/xwgg/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0d317a4fdd0edbc7.json",
+    "support_status": "ACCESS_BLOCKED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0d317a4fdd0e",
+      "name": "历史文化学院 / 通知公告",
+      "base_url": "https://hac.jlu.edu.cn/xwgg/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "p2-c1b646015549",
+    "institution": "历史文化学院",
+    "column": "招生信息",
+    "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hac.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/c1b6460155497a26.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-c1b646015549",
+      "name": "历史文化学院 / 招生信息",
+      "base_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-4082d5740334",
+    "institution": "外国语言文化学院",
+    "column": "通知公告",
+    "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sflc.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/4082d5740334b52d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4082d5740334",
+      "name": "外国语言文化学院 / 通知公告",
+      "base_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7caf92be4c57",
+    "institution": "外国语言文化学院",
+    "column": "通知公告",
+    "url": "https://sflc.jlu.edu.cn/yjsgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sflc.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7caf92be4c577f25.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7caf92be4c57",
+      "name": "外国语言文化学院 / 通知公告",
+      "base_url": "https://sflc.jlu.edu.cn/yjsgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-eee2c71f35ed",
+    "institution": "外国语言文化学院",
+    "column": "学团通知公告",
+    "url": "https://sflc.jlu.edu.cn/xtgz/xttzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sflc.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/eee2c71f35ed2302.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-eee2c71f35ed",
+      "name": "外国语言文化学院 / 学团通知公告",
+      "base_url": "https://sflc.jlu.edu.cn/xtgz/xttzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-40ce1ce2e781",
+    "institution": "艺术学院",
+    "column": "新闻公告",
+    "url": "https://art.jlu.edu.cn/xwgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://art.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/40ce1ce2e7817063.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-40ce1ce2e781",
+      "name": "艺术学院 / 新闻公告",
+      "base_url": "https://art.jlu.edu.cn/xwgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-b391dd825166",
+    "institution": "体育学院",
+    "column": "招生信息",
+    "url": "https://pe.jlu.edu.cn/zsgz1/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://pe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/b391dd8251668fa6.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-b391dd825166",
+      "name": "体育学院 / 招生信息",
+      "base_url": "https://pe.jlu.edu.cn/zsgz1/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7d7c829428ef",
+    "institution": "体育学院",
+    "column": "通知公告",
+    "url": "https://pe.jlu.edu.cn/djgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://pe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7d7c829428ef0361.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7d7c829428ef",
+      "name": "体育学院 / 通知公告",
+      "base_url": "https://pe.jlu.edu.cn/djgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-47d89dfab2c8",
+    "institution": "体育学院",
+    "column": "学院通知",
+    "url": "https://pe.jlu.edu.cn/xytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://pe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/47d89dfab2c88dd4.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-47d89dfab2c8",
+      "name": "体育学院 / 学院通知",
+      "base_url": "https://pe.jlu.edu.cn/xytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e22350c38fae",
+    "institution": "体育学院",
+    "column": "教学信息",
+    "url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://pe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/e22350c38fae9788.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e22350c38fae",
+      "name": "体育学院 / 教学信息",
+      "base_url": "https://pe.jlu.edu.cn/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2ec9326c9cde",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/djgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://law.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2ec9326c9cdeece6.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2ec9326c9cde",
+      "name": "法学院 / 通知公告",
+      "base_url": "https://law.jlu.edu.cn/djgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1b12f2818086",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://law.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1b12f2818086d773.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1b12f2818086",
+      "name": "法学院 / 通知公告",
+      "base_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-907916dc49c7",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://law.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/907916dc49c7f2e8.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-907916dc49c7",
+      "name": "法学院 / 通知公告",
+      "base_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-953dcf6ca777",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/hzjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://law.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/953dcf6ca7775abc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-953dcf6ca777",
+      "name": "法学院 / 通知公告",
+      "base_url": "https://law.jlu.edu.cn/hzjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-3a6ff3f21947",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://law.jlu.edu.cn/rcpy/bksjy.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/3a6ff3f21947d5dc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3a6ff3f21947",
+      "name": "法学院 / 通知公告",
+      "base_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-545133af289a",
+    "institution": "行政学院",
+    "column": "通知",
+    "url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/545133af289a3be3.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-545133af289a",
+      "name": "行政学院 / 通知",
+      "base_url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-634f2ceeed27",
+    "institution": "行政学院",
+    "column": "招生信息",
+    "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/634f2ceeed27cb23.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-634f2ceeed27",
+      "name": "行政学院 / 招生信息",
+      "base_url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-6ae5dc5dab54",
+    "institution": "行政学院",
+    "column": "通知",
+    "url": "https://adm.jlu.edu.cn/kxyj/tz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/kxyj/tz.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/6ae5dc5dab5411f9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-6ae5dc5dab54",
+      "name": "行政学院 / 通知",
+      "base_url": "https://adm.jlu.edu.cn/kxyj/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-bda41fb09c1f",
+    "institution": "行政学院",
+    "column": "通知",
+    "url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/bda41fb09c1feff0.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-bda41fb09c1f",
+      "name": "行政学院 / 通知",
+      "base_url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7b6909acddc8",
+    "institution": "行政学院",
+    "column": "就业信息",
+    "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/7b6909acddc83554.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7b6909acddc8",
+      "name": "行政学院 / 就业信息",
+      "base_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-bc0cc7635b3d",
+    "institution": "行政学院",
+    "column": "通知公告",
+    "url": "https://adm.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://adm.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/bc0cc7635b3d94f8.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-bc0cc7635b3d",
+      "name": "行政学院 / 通知公告",
+      "base_url": "https://adm.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-bc7612ad15b6",
+    "institution": "商学与管理学院",
+    "column": "教学通知",
+    "url": "https://sg.jlu.edu.cn/jxxm/bk/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/bc7612ad15b66e78.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-bc7612ad15b6",
+      "name": "商学与管理学院 / 教学通知",
+      "base_url": "https://sg.jlu.edu.cn/jxxm/bk/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-6f487871816f",
+    "institution": "商学与管理学院",
+    "column": "教学通知",
+    "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/6f487871816f63b1.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-6f487871816f",
+      "name": "商学与管理学院 / 教学通知",
+      "base_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d9746a56822d",
+    "institution": "商学与管理学院",
+    "column": "教学通知",
+    "url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d9746a56822d872b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d9746a56822d",
+      "name": "商学与管理学院 / 教学通知",
+      "base_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e249e1b50f11",
+    "institution": "商学与管理学院",
+    "column": "通知公告",
+    "url": "https://sg.jlu.edu.cn/xsfz/bk/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/e249e1b50f11f85b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e249e1b50f11",
+      "name": "商学与管理学院 / 通知公告",
+      "base_url": "https://sg.jlu.edu.cn/xsfz/bk/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-a5fb3c6473c1",
+    "institution": "商学与管理学院",
+    "column": "通知公告",
+    "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/a5fb3c6473c13696.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-a5fb3c6473c1",
+      "name": "商学与管理学院 / 通知公告",
+      "base_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-5231cd19a622",
+    "institution": "商学与管理学院",
+    "column": "招聘通知",
+    "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/5231cd19a62207dd.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-5231cd19a622",
+      "name": "商学与管理学院 / 招聘通知",
+      "base_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-44fbf0adca09",
+    "institution": "商学与管理学院",
+    "column": "活动通知",
+    "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/44fbf0adca090c7b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-44fbf0adca09",
+      "name": "商学与管理学院 / 活动通知",
+      "base_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-579e5f4596d9",
+    "institution": "商学与管理学院",
+    "column": "通知公告",
+    "url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sg.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/579e5f4596d97ca9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-579e5f4596d9",
+      "name": "商学与管理学院 / 通知公告",
+      "base_url": "https://sg.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-3a297f3e8e8a",
+    "institution": "马克思主义学院",
+    "column": "招生信息",
+    "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://marx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/3a297f3e8e8a6e2b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3a297f3e8e8a",
+      "name": "马克思主义学院 / 招生信息",
+      "base_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2bd818ae6308",
+    "institution": "马克思主义学院",
+    "column": "公示通知",
+    "url": "https://marx.jlu.edu.cn/xxgk/gstz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://marx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2bd818ae6308ed7f.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2bd818ae6308",
+      "name": "马克思主义学院 / 公示通知",
+      "base_url": "https://marx.jlu.edu.cn/xxgk/gstz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-061cce78bfc5",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/061cce78bfc55c8a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-061cce78bfc5",
+      "name": "东北亚学院、东北亚研究院 / 通知公告",
+      "base_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f2d768ca0b7a",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/bksjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f2d768ca0b7a9189.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f2d768ca0b7a",
+      "name": "东北亚学院、东北亚研究院 / 通知公告",
+      "base_url": "https://nasa.jlu.edu.cn/bksjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-8c8300840cc7",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "招生信息",
+    "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/8c8300840cc7bbd9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-8c8300840cc7",
+      "name": "东北亚学院、东北亚研究院 / 招生信息",
+      "base_url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-b89e65fad06d",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/b89e65fad06d41c2.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-b89e65fad06d",
+      "name": "东北亚学院、东北亚研究院 / 通知公告",
+      "base_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f7cc340d4465",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "招生信息",
+    "url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f7cc340d44658223.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f7cc340d4465",
+      "name": "东北亚学院、东北亚研究院 / 招生信息",
+      "base_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-59c963fac0ed",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/gjjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/59c963fac0ed2d34.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-59c963fac0ed",
+      "name": "东北亚学院、东北亚研究院 / 通知公告",
+      "base_url": "https://nasa.jlu.edu.cn/gjjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-9a1367dd10c1",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "党办通知",
+    "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/9a1367dd10c1c89c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-9a1367dd10c1",
+      "name": "东北亚学院、东北亚研究院 / 党办通知",
+      "base_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e6225fdb065b",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://nasa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/e6225fdb065b37ea.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e6225fdb065b",
+      "name": "东北亚学院、东北亚研究院 / 通知公告",
+      "base_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0880df73e82d",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/dqgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0880df73e82d6226.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0880df73e82d",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/dqgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-4ef17320b90f",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/4ef17320b90fd74d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-4ef17320b90f",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d0ce0fbe0f9c",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d0ce0fbe0f9c097d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d0ce0fbe0f9c",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1ee20cadf54c",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1ee20cadf54ce5bd.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1ee20cadf54c",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-29e857a4ad62",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sipa.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/29e857a4ad62531a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-29e857a4ad62",
+      "name": "公共外交学院 / 通知公告",
+      "base_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-21eb2d6f65d8",
+    "institution": "物理学院",
+    "column": "通知公告",
+    "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://phy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/21eb2d6f65d84cdd.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-21eb2d6f65d8",
+      "name": "物理学院 / 通知公告",
+      "base_url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-aaf33015c986",
+    "institution": "物理学院",
+    "column": "通知公告",
+    "url": "https://phy.jlu.edu.cn/xzgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://phy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/aaf33015c986da64.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-aaf33015c986",
+      "name": "物理学院 / 通知公告",
+      "base_url": "https://phy.jlu.edu.cn/xzgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-933c15f081de",
+    "institution": "物理学院",
+    "column": "教学通知",
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://phy.jlu.edu.cn/rcpy/bksjy/BKZX.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/933c15f081de2de3.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-933c15f081de",
+      "name": "物理学院 / 教学通知",
+      "base_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-830b248b0ed0",
+    "institution": "化学学院",
+    "column": "新闻通知",
+    "url": "https://chem.jlu.edu.cn/xwtz/xwdt.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://chem.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/830b248b0ed00b58.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-830b248b0ed0",
+      "name": "化学学院 / 新闻通知",
+      "base_url": "https://chem.jlu.edu.cn/xwtz/xwdt.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-232806f0f71e",
+    "institution": "化学学院",
+    "column": "通知公告",
+    "url": "https://chem.jlu.edu.cn/xwtz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://chem.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/232806f0f71e2ead.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-232806f0f71e",
+      "name": "化学学院 / 通知公告",
+      "base_url": "https://chem.jlu.edu.cn/xwtz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f22986fbb906",
+    "institution": "化学学院",
+    "column": "平台公告",
+    "url": "https://chem.jlu.edu.cn/glfw/hxzhpt/ptgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://chem.jlu.edu.cn/glfw/xsgl.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/f22986fbb906a595.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f22986fbb906",
+      "name": "化学学院 / 平台公告",
+      "base_url": "https://chem.jlu.edu.cn/glfw/hxzhpt/ptgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-caf1c43b6637",
+    "institution": "生命科学学院",
+    "column": "通知公告",
+    "url": "https://life.jlu.edu.cn/xsgz/bksgl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://life.jlu.edu.cn/xsgz/bksgl.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/caf1c43b6637e0fc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-caf1c43b6637",
+      "name": "生命科学学院 / 通知公告",
+      "base_url": "https://life.jlu.edu.cn/xsgz/bksgl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d5031d61f809",
+    "institution": "机械与航空航天工程学院",
+    "column": "工作通知",
+    "url": "https://mae.jlu.edu.cn/djgz1/gztz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://mae.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d5031d61f80927a8.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d5031d61f809",
+      "name": "机械与航空航天工程学院 / 工作通知",
+      "base_url": "https://mae.jlu.edu.cn/djgz1/gztz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d15dab673d43",
+    "institution": "机械与航空航天工程学院",
+    "column": "公示栏",
+    "url": "https://mae.jlu.edu.cn/djgz1/gsl.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://mae.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d15dab673d436b11.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d15dab673d43",
+      "name": "机械与航空航天工程学院 / 公示栏",
+      "base_url": "https://mae.jlu.edu.cn/djgz1/gsl.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7e3638201f82",
+    "institution": "机械与航空航天工程学院",
+    "column": "通知公告",
+    "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://mae.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7e3638201f82cf49.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7e3638201f82",
+      "name": "机械与航空航天工程学院 / 通知公告",
+      "base_url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1486b1ea1620",
+    "institution": "汽车工程学院",
+    "column": "教学通知",
+    "url": "https://auto.jlu.edu.cn/bkjx/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://auto.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1486b1ea162090da.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1486b1ea1620",
+      "name": "汽车工程学院 / 教学通知",
+      "base_url": "https://auto.jlu.edu.cn/bkjx/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-fb307a415310",
+    "institution": "汽车工程学院",
+    "column": "通知公告",
+    "url": "https://auto.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://auto.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/fb307a415310cb88.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-fb307a415310",
+      "name": "汽车工程学院 / 通知公告",
+      "base_url": "https://auto.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-3dae5f264b11",
+    "institution": "工程训练中心",
+    "column": "通知公告",
+    "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://gcxl.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/3dae5f264b1145f7.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3dae5f264b11",
+      "name": "工程训练中心 / 通知公告",
+      "base_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-07281bc1ad5c",
+    "institution": "材料科学与工程学院",
+    "column": "通知公告",
+    "url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dmse.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/07281bc1ad5c6495.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-07281bc1ad5c",
+      "name": "材料科学与工程学院 / 通知公告",
+      "base_url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-74d47ee2d271",
+    "institution": "材料科学与工程学院",
+    "column": "学院通知",
+    "url": "https://dmse.jlu.edu.cn/ynbg/xytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dmse.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/74d47ee2d271f2ce.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-74d47ee2d271",
+      "name": "材料科学与工程学院 / 学院通知",
+      "base_url": "https://dmse.jlu.edu.cn/ynbg/xytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-36bcdbbfe876",
+    "institution": "生物与农业工程学院、仿生科学与工程学院",
+    "column": "通知公告",
+    "url": "https://cbae.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cbae.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/36bcdbbfe876373d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-36bcdbbfe876",
+      "name": "生物与农业工程学院、仿生科学与工程学院 / 通知公告",
+      "base_url": "https://cbae.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-05b686fcce16",
+    "institution": "生物与农业工程学院、仿生科学与工程学院",
+    "column": "就业信息",
+    "url": "https://cbae.jlu.edu.cn/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cbae.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/05b686fcce1643c6.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-05b686fcce16",
+      "name": "生物与农业工程学院、仿生科学与工程学院 / 就业信息",
+      "base_url": "https://cbae.jlu.edu.cn/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2f0e67009e77",
+    "institution": "卓越工程师学院",
+    "column": "通知公告",
+    "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ees.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2f0e67009e776418.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2f0e67009e77",
+      "name": "卓越工程师学院 / 通知公告",
+      "base_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-df5d17d1f011",
+    "institution": "电子科学与工程学院、集成电路学院",
+    "column": "教务公告",
+    "url": "https://ee.jlu.edu.cn/bkjy/jwgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ee.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/df5d17d1f011de7f.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-df5d17d1f011",
+      "name": "电子科学与工程学院、集成电路学院 / 教务公告",
+      "base_url": "https://ee.jlu.edu.cn/bkjy/jwgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-97ae8ba168c7",
+    "institution": "通信工程学院",
+    "column": "教务公告",
+    "url": "https://dce.jlu.edu.cn/bkjy/jwgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/97ae8ba168c76b1a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-97ae8ba168c7",
+      "name": "通信工程学院 / 教务公告",
+      "base_url": "https://dce.jlu.edu.cn/bkjy/jwgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-07b454d7eb4d",
+    "institution": "通信工程学院",
+    "column": "公示信息",
+    "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/07b454d7eb4d329c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-07b454d7eb4d",
+      "name": "通信工程学院 / 公示信息",
+      "base_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-a9a59c73b5f0",
+    "institution": "通信工程学院",
+    "column": "通知公告",
+    "url": "https://dce.jlu.edu.cn/yjsjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/a9a59c73b5f0b8b5.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-a9a59c73b5f0",
+      "name": "通信工程学院 / 通知公告",
+      "base_url": "https://dce.jlu.edu.cn/yjsjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2f911b01ff6a",
+    "institution": "通信工程学院",
+    "column": "通知公告",
+    "url": "https://dce.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2f911b01ff6a1c20.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2f911b01ff6a",
+      "name": "通信工程学院 / 通知公告",
+      "base_url": "https://dce.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-89935f7ca071",
+    "institution": "通信工程学院",
+    "column": "院内公告",
+    "url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dce.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/89935f7ca071b4bd.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-89935f7ca071",
+      "name": "通信工程学院 / 院内公告",
+      "base_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-545799ceadc0",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "科研通知",
+    "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ccst.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/545799ceadc0496d.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-545799ceadc0",
+      "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 科研通知",
+      "base_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d18f7a59a9bc",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "通知报道",
+    "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ccst.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d18f7a59a9bcf378.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d18f7a59a9bc",
+      "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 通知报道",
+      "base_url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-27f40bc0ad61",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "公示栏",
+    "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ccst.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/27f40bc0ad61be3c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-27f40bc0ad61",
+      "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 公示栏",
+      "base_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-cbc532d0ce0d",
+    "institution": "软件学院 / 吉林大学软件学院",
+    "column": "招生信息",
+    "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://csw.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/cbc532d0ce0dc5fb.json",
+    "support_status": "SAMPLE_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-cbc532d0ce0d",
+      "name": "软件学院 / 吉林大学软件学院 / 招生信息",
+      "base_url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-41ebd5d9cb1a",
+    "institution": "公共计算机教学与研究中心",
+    "column": "中心通知 College notice",
+    "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ccfe.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/41ebd5d9cb1aa1c9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-41ebd5d9cb1a",
+      "name": "公共计算机教学与研究中心 / 中心通知 College notice",
+      "base_url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-67fb2382eacd",
+    "institution": "地球科学学院",
+    "column": "招生信息",
+    "url": "https://geo.jlu.edu.cn/yjsjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://geo.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/67fb2382eacd5e7c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-67fb2382eacd",
+      "name": "地球科学学院 / 招生信息",
+      "base_url": "https://geo.jlu.edu.cn/yjsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-8a9f6de572b0",
+    "institution": "地球科学学院",
+    "column": "通知公告",
+    "url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://geo.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/8a9f6de572b0bf69.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-8a9f6de572b0",
+      "name": "地球科学学院 / 通知公告",
+      "base_url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-bbe00cc384e1",
+    "institution": "地球科学学院",
+    "column": "通知公告",
+    "url": "https://geo.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://geo.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/bbe00cc384e15af0.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-bbe00cc384e1",
+      "name": "地球科学学院 / 通知公告",
+      "base_url": "https://geo.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0e03775ff7ca",
+    "institution": "地球探测科学与技术学院",
+    "column": "通知通告",
+    "url": "https://gest.jlu.edu.cn/yjsjy/tztg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://gest.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0e03775ff7ca4c8b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0e03775ff7ca",
+      "name": "地球探测科学与技术学院 / 通知通告",
+      "base_url": "https://gest.jlu.edu.cn/yjsjy/tztg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2b144cc250d6",
+    "institution": "地球探测科学与技术学院",
+    "column": "招生信息",
+    "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://gest.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2b144cc250d662d6.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2b144cc250d6",
+      "name": "地球探测科学与技术学院 / 招生信息",
+      "base_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-9bce0756ced5",
+    "institution": "地球探测科学与技术学院",
+    "column": "就业信息",
+    "url": "https://gest.jlu.edu.cn/xsgz/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://gest.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/9bce0756ced54b1a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-9bce0756ced5",
+      "name": "地球探测科学与技术学院 / 就业信息",
+      "base_url": "https://gest.jlu.edu.cn/xsgz/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-ab86577cd774",
+    "institution": "建设工程学院",
+    "column": "教学通知",
+    "url": "https://const.jlu.edu.cn/bkjx/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://const.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/ab86577cd7744137.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-ab86577cd774",
+      "name": "建设工程学院 / 教学通知",
+      "base_url": "https://const.jlu.edu.cn/bkjx/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-a228fac1619a",
+    "institution": "建设工程学院",
+    "column": "党委通知",
+    "url": "https://const.jlu.edu.cn/dzgz/dwtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://const.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/a228fac1619afd66.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-a228fac1619a",
+      "name": "建设工程学院 / 党委通知",
+      "base_url": "https://const.jlu.edu.cn/dzgz/dwtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1e6e324d0300",
+    "institution": "新能源与环境学院",
+    "column": "教学动态与通知",
+    "url": "https://cer.jlu.edu.cn/bksjy/jxdtytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1e6e324d030092e9.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1e6e324d0300",
+      "name": "新能源与环境学院 / 教学动态与通知",
+      "base_url": "https://cer.jlu.edu.cn/bksjy/jxdtytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-2b785d9deae3",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/yjsjy/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/2b785d9deae36f1d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-2b785d9deae3",
+      "name": "新能源与环境学院 / 通知公告",
+      "base_url": "https://cer.jlu.edu.cn/yjsjy/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e95ff7261809",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/djgz/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/e95ff7261809ebc1.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e95ff7261809",
+      "name": "新能源与环境学院 / 通知公告",
+      "base_url": "https://cer.jlu.edu.cn/djgz/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-c83c01ef7cc3",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/c83c01ef7cc337a4.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-c83c01ef7cc3",
+      "name": "新能源与环境学院 / 通知公告",
+      "base_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-15b4759d56ad",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/xsgz/bks/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/15b4759d56ad6370.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-15b4759d56ad",
+      "name": "新能源与环境学院 / 通知公告",
+      "base_url": "https://cer.jlu.edu.cn/xsgz/bks/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-dc768272865a",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/dc768272865a1f34.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-dc768272865a",
+      "name": "新能源与环境学院 / 通知公告",
+      "base_url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-d187e1cf815f",
+    "institution": "新能源与环境学院",
+    "column": "学院通知 COLLEGE NOTICE",
+    "url": "https://cer.jlu.edu.cn/index/xytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://cer.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/d187e1cf815fa873.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-d187e1cf815f",
+      "name": "新能源与环境学院 / 学院通知 COLLEGE NOTICE",
+      "base_url": "https://cer.jlu.edu.cn/index/xytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0e230e274f4c",
+    "institution": "仪器科学与电气工程学院",
+    "column": "招生信息",
+    "url": "https://ciee.jlu.edu.cn/rcpy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ciee.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0e230e274f4c8f4d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0e230e274f4c",
+      "name": "仪器科学与电气工程学院 / 招生信息",
+      "base_url": "https://ciee.jlu.edu.cn/rcpy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1e4bfa7ebf8d",
+    "institution": "仪器科学与电气工程学院",
+    "column": "吉林大学教学信息网",
+    "url": "https://jwc.jlu.edu.cn/",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ciee.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1e4bfa7ebf8d7d83.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1e4bfa7ebf8d",
+      "name": "仪器科学与电气工程学院 / 吉林大学教学信息网",
+      "base_url": "https://jwc.jlu.edu.cn/",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-e3f7ae837fee",
+    "institution": "仪器科学与电气工程学院",
+    "column": "教学信息",
+    "url": "https://ciee.jlu.edu.cn/rcpy/bksjx/jxxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ciee.jlu.edu.cn/rcpy/bksjx.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/e3f7ae837fee225d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-e3f7ae837fee",
+      "name": "仪器科学与电气工程学院 / 教学信息",
+      "base_url": "https://ciee.jlu.edu.cn/rcpy/bksjx/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-a6f694fbc090",
+    "institution": "仪器科学与电气工程学院",
+    "column": "Announcement 通知公告",
+    "url": "https://ciee.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://ciee.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/a6f694fbc0903025.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-a6f694fbc090",
+      "name": "仪器科学与电气工程学院 / Announcement 通知公告",
+      "base_url": "https://ciee.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-327247c1f06f",
+    "institution": "基础医学院",
+    "column": "通知公告",
+    "url": "https://medicine.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://medicine.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/327247c1f06fd2ed.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-327247c1f06f",
+      "name": "基础医学院 / 通知公告",
+      "base_url": "https://medicine.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-a576eb1caf32",
+    "institution": "基础医学院",
+    "column": "教学信息",
+    "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://medicine.jlu.edu.cn/rcpy/bksjy.htm",
+    "original_evidence": "docs/jlu-audit-evidence/results/a576eb1caf328080.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-a576eb1caf32",
+      "name": "基础医学院 / 教学信息",
+      "base_url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-43ab44ffea1b",
+    "institution": "基础医学院",
+    "column": "招聘公告",
+    "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://medicine.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/43ab44ffea1bc920.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-43ab44ffea1b",
+      "name": "基础医学院 / 招聘公告",
+      "base_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f9c1c909137f",
+    "institution": "药学院",
+    "column": "招生信息",
+    "url": "https://yxy.jlu.edu.cn/zszp/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://yxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f9c1c909137f340b.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f9c1c909137f",
+      "name": "药学院 / 招生信息",
+      "base_url": "https://yxy.jlu.edu.cn/zszp/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7c4630b720e4",
+    "institution": "药学院",
+    "column": "通知公告",
+    "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://yxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7c4630b720e4697e.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7c4630b720e4",
+      "name": "药学院 / 通知公告",
+      "base_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1975211e16b0",
+    "institution": "护理学院",
+    "column": "通知公告",
+    "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://hlxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1975211e16b0c784.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1975211e16b0",
+      "name": "护理学院 / 通知公告",
+      "base_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-ec2a72e5e9af",
+    "institution": "白求恩口腔医学院",
+    "column": "通知公告",
+    "url": "https://jdkq.jlu.edu.cn/xwzx/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://jdkq.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/ec2a72e5e9afcf4c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-ec2a72e5e9af",
+      "name": "白求恩口腔医学院 / 通知公告",
+      "base_url": "https://jdkq.jlu.edu.cn/xwzx/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f6853e4ca389",
+    "institution": "动物医学学院",
+    "column": "招生信息",
+    "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwyx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f6853e4ca3897975.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f6853e4ca389",
+      "name": "动物医学学院 / 招生信息",
+      "base_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1bc2d63d117c",
+    "institution": "动物医学学院",
+    "column": "就业信息",
+    "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwyx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1bc2d63d117c5d8d.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1bc2d63d117c",
+      "name": "动物医学学院 / 就业信息",
+      "base_url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-43d1e5eaf74d",
+    "institution": "动物医学学院",
+    "column": "通知公告",
+    "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwyx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/43d1e5eaf74dc716.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-43d1e5eaf74d",
+      "name": "动物医学学院 / 通知公告",
+      "base_url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-f1a3d4567458",
+    "institution": "植物科学学院",
+    "column": "教学通知",
+    "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zky.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/f1a3d4567458e9e8.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-f1a3d4567458",
+      "name": "植物科学学院 / 教学通知",
+      "base_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-52c296000d49",
+    "institution": "植物科学学院",
+    "column": "教学信息",
+    "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zky.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/52c296000d496b93.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-52c296000d49",
+      "name": "植物科学学院 / 教学信息",
+      "base_url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-16d87d6151cb",
+    "institution": "植物科学学院",
+    "column": "通知公告",
+    "url": "https://zky.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://zky.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/16d87d6151cbb72a.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-16d87d6151cb",
+      "name": "植物科学学院 / 通知公告",
+      "base_url": "https://zky.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-0b6f0f7e4344",
+    "institution": "动物科学学院",
+    "column": "学团通知",
+    "url": "https://dwkx.jlu.edu.cn/xsgz2/xttz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwkx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/0b6f0f7e43444444.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-0b6f0f7e4344",
+      "name": "动物科学学院 / 学团通知",
+      "base_url": "https://dwkx.jlu.edu.cn/xsgz2/xttz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-b7cdb55d51ad",
+    "institution": "动物科学学院",
+    "column": "就业信息",
+    "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwkx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/b7cdb55d51adb84c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-b7cdb55d51ad",
+      "name": "动物科学学院 / 就业信息",
+      "base_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-7d3c3d1d9574",
+    "institution": "动物科学学院",
+    "column": "通知公告",
+    "url": "https://dwkx.jlu.edu.cn/tzgg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://dwkx.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/7d3c3d1d95749b98.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-7d3c3d1d9574",
+      "name": "动物科学学院 / 通知公告",
+      "base_url": "https://dwkx.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1e4fe50bfee7",
+    "institution": "食品科学与工程学院",
+    "column": "教学信息",
+    "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://spxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1e4fe50bfee71d6c.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1e4fe50bfee7",
+      "name": "食品科学与工程学院 / 教学信息",
+      "base_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-90c433368394",
+    "institution": "食品科学与工程学院",
+    "column": "招生信息",
+    "url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://spxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/90c43336839449bc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-90c433368394",
+      "name": "食品科学与工程学院 / 招生信息",
+      "base_url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-3bc13aa497f0",
+    "institution": "食品科学与工程学院",
+    "column": "通知通告",
+    "url": "https://spxy.jlu.edu.cn/tztg.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://spxy.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/3bc13aa497f06acc.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-3bc13aa497f0",
+      "name": "食品科学与工程学院 / 通知通告",
+      "base_url": "https://spxy.jlu.edu.cn/tztg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-1eb6da6be124",
+    "institution": "人工智能学院",
+    "column": "招聘信息",
+    "url": "https://sai.jlu.edu.cn/xsgz/zpxx.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sai.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/1eb6da6be1245006.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-1eb6da6be124",
+      "name": "人工智能学院 / 招聘信息",
+      "base_url": "https://sai.jlu.edu.cn/xsgz/zpxx.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  },
+  {
+    "id": "p2-b4d0f3f83bb4",
+    "institution": "人工智能学院",
+    "column": "重要通知 / Notice",
+    "url": "https://sai.jlu.edu.cn/zytz/xytz.htm",
+    "scope": "only this public column; <=2 pages, <=3 article samples; no full history/Cloud admission",
+    "discovery_url": "https://sai.jlu.edu.cn/",
+    "original_evidence": "docs/jlu-audit-evidence/results/b4d0f3f83bb4b3eb.json",
+    "support_status": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "enabled": false,
+    "formal_admission": false,
+    "config": {
+      "code": "candidate-jlu-p2-b4d0f3f83bb4",
+      "name": "人工智能学院 / 重要通知 / Notice",
+      "base_url": "https://sai.jlu.edu.cn/zytz/xytz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2,
+        "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+      }
+    }
+  }
+]

@@ -1,0 +1,830 @@
+{
+  "id": "p3-c1ad0a7cdcf9",
+  "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+  "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+  "column": "新闻通知",
+  "site_url": "https://nrcem.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/c1ad0a7cdcf9de2f.json",
+  "original_capture_time": "2026-10-13T14:07:49+08:00",
+  "discovery_url": "https://nrcem.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-c1ad0a7cdcf9",
+    "name": "国家教材建设重点研究基地（高等学校理学教材研究） / 新闻通知",
+    "base_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:45+08:00",
+  "details": [
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1304.htm",
+      "list_title": "国家教材建设重点研究基地（高等学校理学教材研究）协办2026年高等学校工科数学课程与教学研讨会",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1304.htm",
+        "time": "2026-10-15T22:11:38+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1451/1304.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8c7d944a7578de7eee3e4e07d215367102b5c539b6ba56312e98bb91223780c7",
+        "html_path": "html/8c7d944a7578de7eee3e4e07d215367102b5c539b6ba56312e98bb91223780c7.html",
+        "replacement_chars": 0,
+        "chars": 15026,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "国家教材建设重点研究基地（高等学校理学教材研究）协办2026年高等学校工科数学课程与教学研讨会",
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1304.htm",
+        "publish_date": "2026-09-07",
+        "publisher": null,
+        "content": "9月4-7日，2026年高等学校工科数学课程与教学研讨会在辽宁大连召开。会议由教育部高等学校工科基础课程教学指导委员会指导，清华大学数学基础教学中心、清华大学出版社主办，大连民族大学承办，国家教材建设重点研究基地（高等学校理学教材研究）作为协办单位参与会议。基地专职副主任郭玉鹏教授，基地专职研究人员、吉林大学公共数学教学与研究中心副主任高彦伟教授，朱本喜副教授，基地工作人员曲信儒、吴煜靓等出席本次会议。 https://nrcem.jlu.edu.cn/__local/0/85/40/85D2A99CFCB3C37375F527C94CB_5461A974_2725B.png 开幕式上，郭玉鹏教授代表基地致辞。他指出，在高等教育内涵式发展与人工智能发展背景下，数学是工科人才培养的重要根基，新工科教学改革应结合产业实际，打造数智化教学模式。作为理学教材国家级智库，基地将以本次会议为纽带，吸纳一线教学实践案例，推动教改经验向课程、新形态教材转化。他结合学科交叉实践，强调数学对理工科研的支撑作用，呼吁各方协同发力，推进工科数学课程与教材建设。 https://nrcem.jlu.edu.cn/__local/C/EA/C1/B173D452A15D28EF86A231972D9_BC32D6FB_19885.png 本次会议聚焦数智时代工科数学育人革新，围绕AI赋能教学、课程思政、教材建设等开展研讨。高彦伟教授主持专题报告环节，与参会同行就工科数学课程、教材建设等相关议题开展交流研讨。吉林大学公共数学教学与研究中心朱本喜副教授作题为《新工科背景下吉大数学一流课程与精品教材的建设探索》的大会主旨报告，提出以新工科需求导向下的教材建设为核心枢纽，落实跨学科深度融合路径，打通多主体协同育人链路，推动AI、大数据与传统数学知识有机融合，构建适配新工科人才核心能力培养的教材框架。 https://nrcem.jlu.edu.cn/__local/8/6A/7F/B45A58D5D51B0748A307031C60A_F6A98AFA_1E9BD.png https://nrcem.jlu.edu.cn/__local/B/CE/E8/D922B4794D4DAA16F05E33B8397_6D22F273_2585E.png 下一步，基地将持续对接高校教学一线，凝聚教改成果，助力理学教育高质量发展。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "国家教材建设重点研究基地（高等学校理学教材研究）协办2026年高等学校工科数学课程与教学研讨会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-09-07 点击数：",
+            "date": "2026-09-07"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 657,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "国家教材建设重点研究基地（高等学校理学教材研究）协办2026年高等学校工科数学课程与教学研讨会",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-09-07 点击数：",
+            "date": "2026-09-07"
+          },
+          {
+            "text": "日期：2026-09-07 点击数：",
+            "date": "2026-09-07"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+      "list_title": "基地专职研究人员在第二届“泛雅杯”全国高校智慧课程设计大赛中斩获奖项",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+        "time": "2026-10-15T22:11:39+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "53e73301389dbdac3c340cc84c86a20762074d91e15c5f94d107123d5d4fe6fc",
+        "html_path": "html/53e73301389dbdac3c340cc84c86a20762074d91e15c5f94d107123d5d4fe6fc.html",
+        "replacement_chars": 0,
+        "chars": 13580,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "基地专职研究人员在第二届“泛雅杯”全国高校智慧课程设计大赛中斩获奖项",
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+        "publish_date": "2026-08-25",
+        "publisher": null,
+        "content": "2026年8月，第二届“泛雅杯”全国高校智慧课程设计大赛公布评审结果。国家教材建设重点研究基地（高等学校理学教材研究）专职副主任郭玉鹏教授参与的《物理化学C》课程获全国三等奖，专职研究人员张大伟教授参与的《有机化学》课程获全国一等奖。 https://nrcem.jlu.edu.cn/__local/E/CB/59/06DCE5B828C6EF900D6857A6A84_32EC85BE_396640.png 基地借助本次赛事实践，探索数智化教学资源与课程、教材的融合路径，推动课程改革成果向新形态教材转化。后续基地将继续以赛促研，扎实推进理学智慧课程与教材建设工作。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "基地专职研究人员在第二届“泛雅杯”全国高校智慧课程设计大赛中斩获奖项"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-08-25 点击数：",
+            "date": "2026-08-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 197,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "基地专职研究人员在第二届“泛雅杯”全国高校智慧课程设计大赛中斩获奖项",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-08-25 点击数：",
+            "date": "2026-08-25"
+          },
+          {
+            "text": "日期：2026-08-25 点击数：",
+            "date": "2026-08-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1157.htm",
+      "list_title": "国家教材建设重点研究基地（高等学校理学教材研究）获立2025年度国家教材基地重大项目",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1157.htm",
+        "time": "2026-10-15T22:11:40+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1451/1157.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ce5d931473bd4c33f8d2e525eefcbe3d917542c49dac5582712ce86bfdc4b8d0",
+        "html_path": "html/ce5d931473bd4c33f8d2e525eefcbe3d917542c49dac5582712ce86bfdc4b8d0.html",
+        "replacement_chars": 0,
+        "chars": 13502,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "国家教材建设重点研究基地（高等学校理学教材研究）获立2025年度国家教材基地重大项目",
+        "url": "https://nrcem.jlu.edu.cn/info/1451/1157.htm",
+        "publish_date": "2025-10-24",
+        "publisher": null,
+        "content": "近日，国家教材委员会办公室发布《关于2025年度国家教材建设重点研究基地项目立项的通知》（国教材办〔2025〕10号），依据《国家教材建设重点研究基地管理办法》，经推荐申报、论证评审等环节，最终批准43个项目立项。 其中，国家教材建设重点研究基地（高等学校理学教材研究）申报的《理学教材数字化转型与智能化应用研究》项目，成功获评“国家教材基地重大项目”。该项目将聚焦理学教材数字化与智能化发展关键问题开展系统性研究，为高校理学教材高质量建设提供实践支撑。",
+        "attachments": [
+          {
+            "filename": "国家教材委员会办公室关于2025年度国家教材建设重点研究基地项目立项的通知.pdf",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663537",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "国家教材建设重点研究基地（高等学校理学教材研究）获立2025年度国家教材基地重大项目"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 227,
+        "reference_attachment_urls": [
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663537"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "国家教材建设重点研究基地（高等学校理学教材研究）获立2025年度国家教材基地重大项目",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          },
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+        "time": "2026-10-15T22:11:34+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "147b1b1eb3bc2bbc8d4aba73d4e0f3e42a6f973e971abad55caec031e08d08fd",
+        "html_path": "html/147b1b1eb3bc2bbc8d4aba73d4e0f3e42a6f973e971abad55caec031e08d08fd.html",
+        "replacement_chars": 0,
+        "chars": 20673,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nrcem.jlu.edu.cn/info/1451/1173.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1175.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1181.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1197.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1198.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1212.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1232.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1245.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1261.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1282.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1296.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1301.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1302.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1304.htm"
+      ],
+      "observed_next_urls": [
+        "https://nrcem.jlu.edu.cn/xwtz/xwdt/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt/1.htm",
+        "time": "2026-10-15T22:11:37+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e141d9b4642d0a5589b614033638ddca7f0bca3447209b04d186ecabbbe10e61",
+        "html_path": "html/e141d9b4642d0a5589b614033638ddca7f0bca3447209b04d186ecabbbe10e61.html",
+        "replacement_chars": 0,
+        "chars": 13786,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nrcem.jlu.edu.cn/info/1451/1017.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1018.htm",
+        "https://nrcem.jlu.edu.cn/info/1451/1157.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "time": "2026-10-15T22:11:34+08:00",
+    "ok": true,
+    "final_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "147b1b1eb3bc2bbc8d4aba73d4e0f3e42a6f973e971abad55caec031e08d08fd",
+    "html_path": "html/147b1b1eb3bc2bbc8d4aba73d4e0f3e42a6f973e971abad55caec031e08d08fd.html",
+    "replacement_chars": 0,
+    "chars": 20673,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地（高等学校理学教材研究）协办2026年高等学校工科数学课程与教学研讨会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1304.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基地专职研究人员在第二届“泛雅杯”全国高校智慧课程设计大赛中斩获奖项",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1303.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "第二届教育部化学“101计划”物理化学课程骨干教师研修班在吉林大学举办",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1301.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "高等学校无机化学教材建设经验分享及培训会在吉林大学举办",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1302.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学与吉林省消防救援总队成功举办危化应急培训共建座谈会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1296.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "理学教材基地参加全国教材建设专题研讨会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1282.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材基地秘书处赴我校理学教材基地调研交流",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1261.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基地团队赴西南大学开展交流调研",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1245.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基地专职研究人员指导学生获全国三维数字化创新设计大赛全国总决赛一等奖",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1232.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地（高等学校理学教材研究）专职研究员张大伟获全国教学数字化创新一等奖",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1212.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地重大项目“理学教材数字化转型与智能化应用研究”开题报告会在吉林大学召开",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1198.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "教育部大中小学课程教材研究重点项目“理学跨学科知识体系构建与教材创新研究”开题报告会在吉林大学召开",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1197.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "清华大学出版社与国家教材建设重点研究基地（高等学校理学教材研究）专职副主任郭玉鹏举行座谈会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1181.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地(高等学校理学教材研究)协办2025高校化学化工教学改革交流会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1175.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家高等学校理学教材建设重点研究基地与国家职业教育教材建设重点研究基地开展建设交流会议",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1173.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家教材建设重点研究基地（高等学校理学教材研究）获立2025年度国家教材基地重大项目",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1157.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "教育部化学“101计划”骨干教师培训及教学交流会在吉林大学举办",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1018.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学召开高校理学教材建设重点研究基地建设工作推进会",
+      "url": "https://nrcem.jlu.edu.cn/info/1451/1017.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 18,
+  "pagination": [
+    {
+      "start_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt/1.htm",
+          "parsed_items": 3,
+          "added_items": 3
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-c1ad0a7cdcf9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6300007700920105e-05,
+      "detail_duration_seconds": 8.800067007541656e-06,
+      "parse_db_duration_seconds": 0.029343299916945398
+    },
+    "second_round": {
+      "source": "p3-c1ad0a7cdcf9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.680001150816679e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-c1ad0a7cdcf9",
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "column": "新闻通知",
+    "url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:11:34+08:00",
+    "review_time": "2026-10-15T23:00:45+08:00",
+    "http_status": 200,
+    "final_url": "https://nrcem.jlu.edu.cn/xwtz/xwdt.htm",
+    "list_pages": 2,
+    "list_items": 18,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://nrcem.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-c1ad0a7cdcf9.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

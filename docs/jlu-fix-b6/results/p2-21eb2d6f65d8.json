@@ -1,0 +1,393 @@
+{
+  "id": "p2-21eb2d6f65d8",
+  "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+  "institution": "物理学院",
+  "column": "通知公告",
+  "site_url": "https://phy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING",
+  "original_evidence": "docs/jlu-audit-evidence/results/21eb2d6f65d84cdd.json",
+  "discovery_url": "https://phy.jlu.edu.cn/",
+  "original_snapshot": "html/9ff474a3ae475f5f8f9a06a8175862ce8c628ea9ed05f226a8064fc80a6e9634.html",
+  "original_capture_time": "2026-10-13T13:41:32+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-21eb2d6f65d8",
+    "name": "物理学院 / 通知公告",
+    "base_url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:11+08:00",
+  "details": [
+    {
+      "url": "https://phy.jlu.edu.cn/info/1042/5589.htm",
+      "list_title": "16 / 2025-01 2025海外优青 | 吉林大学物理学院诚邀全球英才",
+      "list_date": "",
+      "response": {
+        "url": "https://phy.jlu.edu.cn/info/1042/5589.htm",
+        "time": "2026-10-15T19:40:08+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/info/1042/5589.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "953e685609f3b8618c97dd58ddd44f239c005604f31c88ac2012609f779fad5b",
+        "html_path": "html/953e685609f3b8618c97dd58ddd44f239c005604f31c88ac2012609f779fad5b.html",
+        "replacement_chars": 0,
+        "chars": 39412,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2025海外优青 | 吉林大学物理学院诚邀全球英才",
+        "url": "https://phy.jlu.edu.cn/info/1042/5589.htm",
+        "publish_date": "2025-01-16",
+        "publisher": null,
+        "content": "一、项目简介 优秀青年科学基金项目（海外）旨在吸引和鼓励在自然科学、工程技术等方面已取得较好成绩的海外优秀青年学者（含非华裔外籍人才）回国（来华）工作，自主选择研究方向开展创新性研究，促进青年科学技术人才的快速成长，培养一批有望进入世界科技前沿的优秀学术骨干，为科技强国建设贡献力量。 二、 申报条件 以下条件参考《 2024年国家自然科学基金优秀青年科学基金项目（海外）项目指南》，最终请以2025年指南为准。 优秀青年科学基金项目（海外）的申请人应当 具备以下条件： 1.遵守中华人民共和国法律法规，具有良好的科学道德，自觉践行新时代科学家精神； 2.出生日期在1985年1月1日（含）以后； 3.具有博士学位； 4.研究方向主要为自然科学、工程技术等； 5.在2025年3月15日前，一般应在海外高校、科研机构、企业研发机构获得正式教学或者科研职位，且具有连续36个月以上工作经历；在海外取得博士学位且业绩特别突出的，可适当放宽工作年限要求； 6.取得同行专家认可的科研或技术等成果，且具有成为该领域学术带头人或杰出人才的发展潜力； 7.申请人尚末全职回国（来华）工作，或者2024年1月1日以后回国（来华）工作。获资助通知后须辞去海外工作或在海外无工作，全职回国（来华）工作不少于3年。 三、 依托吉林大学申报的五大优势 （一）高起点岗位发展 1.吉林大学是教育部直属的全国重点综合性大学，始建于1946年，2017年入选国家一流大学A类建设高校，学科门类齐全，具有一流的科研平台及学术环境 ； 2.入选聘至吉林大学“唐敖庆学者〞领军教授A岗（在编正高级职称，教授、博导）。 （二）高标准待遇水平 1.提供具有竞争力的薪酬，同时享受学校科研成果业绩津贴与中层单位业绩津贴政策; 2.享受国家、学校提供的安家补贴，同时可申请吉林省人才政策3.0版C类人才安家补贴。 （三）高规格科研支持 1.依据学科研究的实际需求，提供具有竞争力的科研启动经费; 2.保障博士研究生招生指标 ； 3.优先保障办公和实验用房，满足不同学科方向发展需求; 4.学校“鼎新学者(高水平博士后)招募给予政策倾斜。 （四）高质量服务保障 1.提供可拎包入住、交通便利周转住房； 2.根据实际情况，协助解决配偶工作； 3.提供优质教育资源，吉林大学附属幼儿园、中小学； 4.本人及其子女、配偶和双方父母可享受指定医院预约门诊和住院“绿色通道〞诊疗服务； 5.本人及两名随行人员可享受省内重点旅游景区免门票服务； 6.本人及两名随行人员可在长春龙嘉机场、长春火车站享受“绿色通道”贵宾服务。 （五）高层次人才领航 达成申报意向后，学校将按照申报人意愿或研究方向匹配相关领域专家 “一对一”申报指导，全链条精准服务，全方位支持保障。 四、 物理学科简介 学科始建于 1952年，由余瑞璜、朱光亚、吴式枢、芶清泉等老一辈物理学家创建，经过70余年发展，已成为我国物理学领域高层次人才培养和高水平科学研究的重要基地。学科于2017年首批入选国家指定双一流建设学科，全国仅有7所高校入选；2022年，吉大物理再次入选。在第五轮学科评估中，评估结果为A。 学科凝聚形成了一支具有家国情怀、国际视野、科研能力强、育人水平高的师资队伍。现有专任教师 230余人，其中院士2人、杰青等国家级领军人才12人，“四青”人才15人，唐敖庆学者66人，准长聘人才28人，鼎新学者18人。2019年，被授予全国教育系统先进集体称号，是全国高校物理学科唯一获奖单位。 学科依托国家级物理实验教学示范中心、国家拔尖计划 2.0基地以及2个国家级一流本科专业，构建了完善的高水平人才培养体系。以第一完成单位获国家教学成果一等奖1项、二等奖3项；建设了5门国家级一流课程，打造了1门国家级课程思政示范课程，1部教材获全国优秀教材奖。授课教师荣获杰出教学奖、宝钢优秀教师特等奖等系列荣誉。 学科依托超硬材料国家重点实验室、国家重大科技基础设施、新型电池物理与技术教育部重点实验室、物质模拟方法与软件教育部重点实验室等科研平台，集中力量，加强攻关，不断提升科技创新水平。 2016年以来，承担国家重点重大科研任务20余项，科研经费到款超8亿余元。CALYPSO晶体结构计算方法与软件被77个国家的5000余位学者签订版权协议使用；提出以LaH 10 和 CaH 6 为代表的氢基高温超导体，创造了超导温度新纪录；提出了压强诱导发光的新概念，成为发光材料领域的新名词；制备了系列高端超硬材料，服务于各行各业精密加工、深部大陆科学钻探等国家重大需求。科研成果获国家自然科学二等奖 3项，10余次发表于Nature、Science等国际著名刊物。 在七十余年的发展历程中，有 20余位两院院士曾在这里学习和工作过，目前，学科培养了200余位政界、学届、商界高端人才，逾万名毕业生遍布海内外，在各自岗位上做出了重要贡献。新时期，学科正以雄厚的师资力量、先进的教育教学理念、良好的国内外合作办学基础和崇高的学术地位，逐步发展为我国顶尖的物理学人才培养高地。 五、 招聘专业方向 凝聚态物理， 理论物理， 光物理，核物理，计算物理，应用物理，高压物理和能源物理等相关专业和研究方向。 六、 申报方式 请有意向依托我校申报该项目的青年学者，将简历发送至联系邮箱，邮件主题请以 “姓名-意向专业-研究方向”命名。 具有代表性科研成果并取得国内外同行认可的优秀学者，如年龄等不符合海外优青项目申报条件，也可以和我们联系申报其他国家级人才项目及申请吉林大学物理学院其他岗位。 七、 联系方式 联 系 人：王彦超 姚旭航 联系邮箱： wyc_jl@jlu.edu.cn 联系电话： 0431-85166112 微 信 号： rc_jluphy",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "2025海外优青 | 吉林大学物理学院诚邀全球英才"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2025-01-16 20:58:43 点击：",
+            "date": "2025-01-16"
+          },
+          {
+            "text": "时间：2025-01-16 20:58:43",
+            "date": "2025-01-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2379,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2025海外优青 | 吉林大学物理学院诚邀全球英才"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/info/1042/1684.htm",
+      "list_title": "23 / 2020-05 吉林大学理论物理中心面向海内外公开招聘中心主任",
+      "list_date": "",
+      "response": {
+        "url": "https://phy.jlu.edu.cn/info/1042/1684.htm",
+        "time": "2026-10-15T19:40:09+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/info/1042/1684.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6b1487f8a65fe949ab46a4d3ff688a73c473d24ebf2f0de1537e05893331c721",
+        "html_path": "html/6b1487f8a65fe949ab46a4d3ff688a73c473d24ebf2f0de1537e05893331c721.html",
+        "replacement_chars": 0,
+        "chars": 29754,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学理论物理中心面向海内外公开招聘中心主任",
+        "url": "https://phy.jlu.edu.cn/info/1042/1684.htm",
+        "publish_date": "2020-05-23",
+        "publisher": null,
+        "content": "吉林大学是教育部直属全国重点综合性大学，坐落在四季分明的吉林省长春市。物理学院是由余瑞璜、朱光亚、苟清泉、吴式枢、高鼎三等老一辈杰出物理学家于 1952年创建的。这里大师云集，底蕴深厚。经过几代物理人的奋力拼搏，物理学科深深扎根于东北这片热土，并得到了长足的发展，形成了“坚韧不拔、追求卓越”的吉大物理精神。1985年，获批建立“首批物理学博士后科研流动站”； 2016年，第四轮学科评估中评估等级为A-，全国并列第7名；2017年，入选国家 “双一流”建设学科名单，成为教育部指定建设的七个一流物理学科之一。 吉林大学理论物理中心依托于物理学院建设，是学院 “双一流”建设的重要支撑平台。理论物理中心由我国著名理论物理学家、中科院院士吴式枢等老一辈物理学家于1991年创建，是我国首批批准的博士点、硕士点和博士后流动站，也是我国从事基础理论物理研究的人才培养基地，具有坚实的学科基础和底蕴传承。近年来，尤其是“双一流”建设以来，理论中心得到了快速发展，汇聚了一批年轻且充满活力的研究人员，在粒子物理与场论、弦论与引力理论、核物理理论、天体物理及宇宙学等研究方向取得一大批创新性研究成果。现面向海内外公开诚聘理论物理中心主任，热忱欢迎四海英才前来应聘。 一、应聘条件 1.遵守中华人民共和国宪法和法律，热爱高等教育事业，具有良好的个人品质、高尚的职业道德，作风正派、爱岗敬业。 2.在本学科领域具有较高的学术水平、取得过广泛认可的学术成就和良好的学术声誉。具有丰富的管理经验和较强的组织协调能力，具备带领中心快速发展、建设国际一流研究中心的能力。 3.应聘人员年龄一般应未满55周岁。中国国籍应聘者应具有正高级专业技术职务，能够全职在岗工作；非中国国籍应聘者，应具有境外知名大学、科研机构终身教授或同级别专业技术职务，应全职在岗工作。 4.具有理论物理专业背景，及相关领域科研工作经历。 5.具备正常履行职责的身体条件。 二、申请材料及应聘程序 1. 应聘者通过电子邮件报名，并提供以下材料： （ 1）《吉林大学物理学院公开招聘申请表》（在附件中下载）。 （ 2）身份证（或护照）、学历和学位证书、专业技术职务证书（或聘书）、获奖成果证书、任职文件（或聘书）等的扫描件。 （ 3）申请表中所提到代表性成果的证明材料。 2.资格审核，确定面试人选。 3.进行公开答辩和考察。 4.学院研究确定人选并公示。 三、聘期及待遇 1.每个聘期为五年。 2.提供与受聘者学术业绩、岗位职责相对应的优厚待遇。 四、报名及联系方式： 联系人：杜菲 办公电话： 0431-85167789 电子邮件： dufei@jlu.edu.cn 附件【 吉林大学物理学院申请表.doc 】已下载 325 次",
+        "attachments": [
+          {
+            "filename": "吉林大学物理学院申请表.doc",
+            "url": "http://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1399984445&wbfileid=4525830",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学理论物理中心面向海内外公开招聘中心主任"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2020-05-23 13:50:19 点击：",
+            "date": "2020-05-23"
+          },
+          {
+            "text": "时间：2020-05-23 13:50:19",
+            "date": "2020-05-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1139,
+        "reference_attachment_urls": [
+          "http://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1399984445&wbfileid=4525830"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学理论物理中心面向海内外公开招聘中心主任"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+        "time": "2026-10-15T19:29:15+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9ff474a3ae475f5f8f9a06a8175862ce8c628ea9ed05f226a8064fc80a6e9634",
+        "html_path": "html/9ff474a3ae475f5f8f9a06a8175862ce8c628ea9ed05f226a8064fc80a6e9634.html",
+        "replacement_chars": 0,
+        "chars": 20426,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://phy.jlu.edu.cn/info/1042/1684.htm",
+        "https://phy.jlu.edu.cn/info/1042/5589.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "time": "2026-10-15T19:29:15+08:00",
+    "ok": true,
+    "final_url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "9ff474a3ae475f5f8f9a06a8175862ce8c628ea9ed05f226a8064fc80a6e9634",
+    "html_path": "html/9ff474a3ae475f5f8f9a06a8175862ce8c628ea9ed05f226a8064fc80a6e9634.html",
+    "replacement_chars": 0,
+    "chars": 20426,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "16 / 2025-01 2025海外优青 | 吉林大学物理学院诚邀全球英才",
+      "url": "https://phy.jlu.edu.cn/info/1042/5589.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "23 / 2020-05 吉林大学理论物理中心面向海内外公开招聘中心主任",
+      "url": "https://phy.jlu.edu.cn/info/1042/1684.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p2-21eb2d6f65d8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.2699980288743973e-05,
+      "detail_duration_seconds": 3.4999102354049683e-06,
+      "parse_db_duration_seconds": 0.02396190003491938
+    },
+    "second_round": {
+      "source": "p2-21eb2d6f65d8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.1600088328123093e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-21eb2d6f65d8",
+    "institution": "物理学院",
+    "column": "通知公告",
+    "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:15+08:00",
+    "review_time": "2026-10-15T20:21:11+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 2,
+    "details": 2,
+    "verified_details": 2,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-21eb2d6f65d8.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

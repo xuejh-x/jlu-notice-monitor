@@ -1,0 +1,53 @@
+{
+  "time": "2026-10-16T22:26:25.5054712+08:00",
+  "formal_source_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+  "mismatches": [],
+  "app_changes": [
+    {
+      "after": "a09ea0157227d65922ec0551144056fe394c018996044b3c95f8930fa91bb9f5",
+      "path": "backend/app/config.py",
+      "before": "3f4429fe9492b775dcd8cb1a6afe5111500d7c92f6802a9f2b0644a7cb421bba"
+    },
+    {
+      "after": "79651bb6443064633869cca4db14dc36201ae079480be88fac54544c798a4080",
+      "path": "backend/app/crawler/runner.py",
+      "before": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d"
+    },
+    {
+      "after": "87b5b3754a70cf429d5b16675cb5692b28bfbd83a255ccca34df1e2ef68826fc",
+      "path": "backend/app/parsers/html.py",
+      "before": "0bb29f1efd16add9f66c3e24b8b11332850ab30c230114687520d95024416b3c"
+    },
+    {
+      "after": "0524e4d2f4437b6df17faa47a8877d8b38735615b93104c64efca592c587aeff",
+      "path": "backend/app/schemas/notice.py",
+      "before": "45287292934eb1e1844b4d82e95dbb9bff2d0eae5278126a651912b5cebd6a91"
+    },
+    {
+      "after": "3945f34b03e0fbd3073f2f47593eaa08189aec70ff95223fe6f773a97265175f",
+      "path": "backend/app/services/detail_observation.py",
+      "before": null
+    },
+    {
+      "after": "72823943e047bb165a5f584c421546a3202bd81934256ed8a55ace55043e14fa",
+      "path": "backend/app/services/retention.py",
+      "before": "5b61338ac6079a5a12e9877bd3182de1c429a95ff5dea0891b6d6d7ae96689d9"
+    },
+    {
+      "after": "e9c94a8ee72d3c2400c259f41a485398ad22a488f3ccfa49bd222e1068094f9d",
+      "path": "backend/app/sources/base.py",
+      "before": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3"
+    },
+    {
+      "after": "64e946299f788d29b5b110e12016f267e0a85ac11af204a71ee4e31a10b5c641",
+      "path": "backend/app/sources/cloud.py",
+      "before": "84ee20d15cd024fbd7b4a8d84ffc98fda0f8fe5b5fae8a7a2da420366d28a492"
+    },
+    {
+      "after": "f4d2c1ae6bf1186c6123ea3ce29cc44632b7617e2884798abe4a7ead03ed4692",
+      "path": "backend/app/sources/generic.py",
+      "before": "523ebe7705ae22047e99015e8a675e44e7d11d03a8ea95c106de559863da91dd"
+    }
+  ],
+  "final_snapshot_matches_workspace": true
+}

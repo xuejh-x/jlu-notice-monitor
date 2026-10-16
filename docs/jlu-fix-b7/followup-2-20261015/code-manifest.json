@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-15T22:41:39+08:00",
+  "files": {
+    "backend/scripts/followup_jlu_b7.py": "8a177c4f95bb03579e21d330e371b8021379e2e23807ea528c20fd46a2580d48",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "9bf4d8e6d4499655aacb4437f06bafa9f32aed0dd135585e6c92924629b01d4f",
+    "backend/app/services/deduplication.py": "2646a4d01f3f6e8ee1c6e8b861b6335f93c2fee115af5424f89026b026d730eb",
+    "backend/app/sources/generic.py": "523ebe7705ae22047e99015e8a675e44e7d11d03a8ea95c106de559863da91dd",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "314fbb1db6a276dd6e565397e3dd702afb0cbb84013f5cea276babaedfa86991",
+    "input/validation-targets.json": "9834f1d23c67667da3467a3ab425d825f78844b0d9e268a03b96e2ef8a4d35d5",
+    "input/code-manifest.json": "fae494f47c8d3e90f78fc6cd8dc4cd7d4755ea940d4d83dd95195fb2d35f712b",
+    "review/results.json": "38c817a1405341354ac84efdfccd79ec0e422ffd38eab645fbe235ecb2e6b4f5"
+  },
+  "urls": [
+    "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+    "https://synlab.jlu.edu.cn/information/events/page/2"
+  ],
+  "input_dir": "docs\\jlu-fix-b7\\followup-1-20261015",
+  "review_dir": "docs\\jlu-fix-b7\\review-4-20261015",
+  "limits": "<=32 literal-link HTML URLs; serial existing robots/rate limits; no known failure retries/OA/downloads"
+}

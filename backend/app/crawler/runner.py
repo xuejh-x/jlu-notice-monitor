@@ -18,11 +18,12 @@ from sqlalchemy.orm import Session
 from app.classifier import classify_notice, score_importance
 from app.config import get_settings, load_yaml
 from app.database import SessionLocal, init_db
-from app.models import AppState, Attachment, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
+from app.models import AppState, Notice, NoticeSourceRelation, NoticeUpdate, Source, UserState
 from app.schemas.notice import ExtractedDates, NoticeCandidate
 from app.services.dates import extract_dates
 from app.services.http_diagnostics import exception_summary
 from app.services.deduplication import find_duplicate
+from app.services.detail_observation import mark_recheck_attempt, observe_detail, recheck_priority
 from app.services.metadata import extract_notice_metadata
 from app.services.notice_identity import origin_item_key
 from app.services.page_monitor import baseline_key, prepare_snapshot
@@ -777,7 +778,20 @@ class CrawlerManager:
                 attempt.status = run_result.status = "success"
                 return True
             source_deadline = time.perf_counter() + get_settings().source_run_timeout_seconds
-            for item in items:
+            settings = get_settings()
+            unchanged_items = {}
+            due = []
+            for index, item in enumerate(items):
+                if notice_is_expired(item.publish_date, settings, now=utcnow()):
+                    continue
+                relation = self._find_unchanged_list_item(db, db_source, item)
+                if relation is not None:
+                    unchanged_items[index] = relation
+                    priority = recheck_priority(db, relation, utcnow(), settings.detail_recheck_interval_seconds)
+                    if priority is not None:
+                        due.append((priority, index))
+            rechecks = {index for _, index in sorted(due)[:settings.detail_recheck_max_per_source]}
+            for index, item in enumerate(items):
                 if time.perf_counter() >= source_deadline:
                     run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
                     break
@@ -786,12 +800,20 @@ class CrawlerManager:
                     # item that the retention job would immediately remove.
                     if notice_is_expired(item.publish_date, get_settings(), now=utcnow()):
                         continue
-                    existing = self._find_unchanged_list_item(db, db_source, item)
-                    if existing is not None:
+                    existing = unchanged_items.get(index)
+                    inline_detail = bool(getattr(adapter, "list_contains_details", False))
+                    if existing is not None and index not in rechecks and not inline_detail:
                         self._mark_seen_without_detail(db, existing, db_source, item)
                         run_result.detail_skipped += 1
                         run_result.unchanged_count += 1
                         continue
+                    if existing is not None and not inline_detail:
+                        await asyncio.sleep(settings.detail_recheck_delay_seconds)
+                        if time.perf_counter() >= source_deadline:
+                            run_result.errors.append("SOURCE_RUN_TIME_LIMIT")
+                            break
+                        mark_recheck_attempt(db, existing, utcnow())
+                        db.commit()
                     detail_started = time.perf_counter()
                     detail = await adapter.fetch_detail(item)
                     run_result.detail_duration_seconds += time.perf_counter() - detail_started
@@ -981,7 +1003,16 @@ class CrawlerManager:
         )
         if relation is None:
             return None
+        # Origin/URL transitions need a successful detail observation before
+        # moving the ownership checkpoint (e.g. local -> feed fallback).
+        if relation.source_url != item.url or (
+            relation.origin_item_key is not None and relation.origin_item_key != item_key
+        ):
+            return None
         notice = relation.notice
+        # RSS/API adapters may already carry a changed body in their list.
+        if item.content and relation.content_hash != content_hash(item.title, item.content):
+            return None
         # Optional metadata that is absent from a list page cannot signal a
         # change.  Detail pages often enrich these fields; comparing that
         # enriched value with ``None`` would otherwise fetch the same detail
@@ -1077,6 +1108,7 @@ class CrawlerManager:
                 db, normalized, canonical, candidate.publish_date,
                 source_id=None if dedup_across_sources else source.id,
                 public_id=candidate.public_id,
+                title=candidate.title,
             )
         if notice:
             old_deadline = notice.registration_deadline
@@ -1093,6 +1125,12 @@ class CrawlerManager:
                 )
         else:
             old_deadline = None
+        attachment_change = (False, "", "")
+        if notice is not None:
+            attachment_change = observe_detail(
+                db, notice, source, item_key, candidate, now,
+                previous_item_key=(existing_relation.origin_item_key or "") if existing_relation else None,
+            )
         state = "UNCHANGED"
         if notice is None:
             notice = Notice(
@@ -1122,6 +1160,7 @@ class CrawlerManager:
             )
             db.add(notice)
             db.flush()
+            observe_detail(db, notice, source, item_key, candidate, now)
             if get_settings().effective_deployment_role != "cloud":
                 db.add(
                     UserState(
@@ -1132,19 +1171,28 @@ class CrawlerManager:
                     )
                 )
             state = "UNCHANGED" if bootstrap else "NEW"
-        elif existing_relation and (existing_relation.content_hash != digest or (
+        elif attachment_change[0] or (existing_relation and (existing_relation.content_hash != digest or (
             notice.url == candidate.url and candidate.publish_date is not None and notice.publish_date != candidate.publish_date
-        )):
-            old_hash = existing_relation.content_hash
+        ))):
+            old_hash = existing_relation.content_hash if existing_relation else notice.content_hash
+            changes = []
+            if existing_relation and old_hash != digest:
+                changes.append("正文内容")
+            if existing_relation and notice.url == candidate.url and candidate.publish_date is not None and notice.publish_date != candidate.publish_date:
+                changes.append("发布日期")
+            if attachment_change[0]:
+                changes.append("附件引用")
             db.add(
                 NoticeUpdate(
                     notice_id=notice.id,
-                    old_hash=old_hash,
-                    new_hash=digest,
-                    summary=f"来源 {source.code} 的" + ("正文内容发生变化" if old_hash != digest else "发布日期发生变化"),
+                    old_hash=content_hash(old_hash, attachment_change[1]) if attachment_change[0] else old_hash,
+                    new_hash=content_hash(digest, attachment_change[2]) if attachment_change[0] else digest,
+                    summary=f"来源 {source.code} 的" + "、".join(changes) + "发生变化",
                 )
             )
-            if notice.url == candidate.url:
+            if existing_relation and notice.url == candidate.url and (old_hash != digest or (
+                candidate.publish_date is not None and notice.publish_date != candidate.publish_date
+            )):
                 notice.title = candidate.title
                 notice.normalized_title = normalized
                 notice.content = candidate.content
@@ -1190,28 +1238,15 @@ class CrawlerManager:
                     last_seen_at=now,
                 )
             )
-        for attachment in candidate.attachments:
-            exists = db.scalar(
-                select(Attachment).where(
-                    Attachment.notice_id == notice.id, Attachment.url == attachment.url
-                )
-            )
-            if exists is None:
-                db.add(
-                    Attachment(
-                        notice_id=notice.id,
-                        filename=attachment.filename,
-                        url=attachment.url,
-                        type=attachment.type,
-                        content_hash=content_hash(attachment.filename, attachment.url),
-                    )
-                )
         if get_settings().effective_deployment_role != "cloud":
             record_notice_event(db, notice, state, old_deadline=old_deadline)
         if commit:
             db.commit()
         else:
             db.flush()
+        # Production sessions keep objects across commits. Invalidate a loaded
+        # collection so a feed/DTO in that session cannot return removed refs.
+        db.expire(notice, ["attachments"])
         return state
 
 

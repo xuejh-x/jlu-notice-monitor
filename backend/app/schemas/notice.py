@@ -20,6 +20,8 @@ class NoticeCandidate(BaseModel):
     publisher: str | None = None
     content: str = ""
     attachments: list[AttachmentData] = Field(default_factory=list)
+    # Internal evidence flag; partial/legacy adapters cannot authorize removal.
+    attachments_complete: bool = Field(default=False, exclude=True)
     section: str | None = None
     category: str | None = None
     registration_start: date | None = None

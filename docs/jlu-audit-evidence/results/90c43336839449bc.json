@@ -1,0 +1,108 @@
+{
+  "column_url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+  "column": "招生信息",
+  "institution": "食品科学与工程学院",
+  "site_url": "https://spxy.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://spxy.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:44:46+08:00",
+  "checked_at": "2026-10-13T14:01:12+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "TITLE_NOT_IN_DETAIL_HEADING"
+  ],
+  "details": [
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1030/3426.htm",
+      "list_title": "26 2026.06 吉林大学食品科学与工程学院2022年-2025年吉林省本科招生情况 年份专业省份科目招生人数最高分最低分平均分最低分位次2022年食品科学与工程类吉林省理工科2556555155470212023年食品科学与工程类吉林省理工科2356353154486532024年食品科学与工程类吉林省理工科2361160060363622025年食品科学与工程类吉林省理工科2360057158410198",
+      "parsed_title": "吉林大学食品科学与工程学院2022年-2025年吉林省本科招生情况",
+      "document_title": "吉林大学食品科学与工程学院2022年-2025年吉林省本科招生情况-吉林大学食品科学与工程学院",
+      "heading_texts": [
+        "吉林大学食品科学与工程学院2022年-2025年吉林省本科招生情况"
+      ],
+      "title_verified": false,
+      "list_date": "",
+      "parsed_date": "2026-06-26",
+      "reference_date": "2026-06-26",
+      "body_selector": ".v_news_content",
+      "content_chars": 207,
+      "content_preview": "年份 专业 省份 科目 招生人数 最高分 最低分 平均分 最低分位次 2022年 食品科学与工程类 吉林省 理工科 25 565 551 554 7021 2023年 食品科学与工程类 吉林省 理工科 23 563 531 544 8653 2024年 食品科学与工程类 吉林省 理工科 23 611 600 603 6362 2025年 食品科学与工程类 吉林省 理工科 23 600 571 584 10198",
+      "content_sha256": "9c399729dd8a55f8f159004f9e1446c9e1824cc470a770b2d841ee62ba6f2774",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING"
+      ],
+      "time": "2026-10-13T14:01:13+08:00",
+      "sha256": "067149be79310b495dd8c4d18570240ead66992bd7766a98f75132a089046556",
+      "snapshot": "html/067149be79310b495dd8c4d18570240ead66992bd7766a98f75132a089046556.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "26 2026.06 吉林大学食品科学与工程学院2022年-2025年吉林省本科招生情况 年份专业省份科目招生人数最高分最低分平均分最低分位次2022年食品科学与工程类吉林省理工科2556555155470212023年食品科学与工程类吉林省理工科2356353154486532024年食品科学与工程类吉林省理工科2361160060363622025年食品科学与工程类吉林省理工科2360057158410198",
+      "url": "https://spxy.jlu.edu.cn/info/1030/3426.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "10 2026.06 吉林大学食品科学与工程学院2026年本科招生专业（类）简介 本科招生专业：食品科学与工程类（食品科学与工程、食品质量与安全）本科招生咨询电话：0431-87836360学 院序号招生专业（类）名 称包含专业选考科目专业优势及前沿研究方向人才培养特色及学科实力食品科学与工程学院1食品科学与工程类食品科学与工程物理+化学学院现按食品科学与工程大类招生，开设食品科学与工程、食品质量与安全两个本科专业，均为国家级一流本科专业建设点。拥有食品科学与工程一级博士、硕士学位授权点、...",
+      "url": "https://spxy.jlu.edu.cn/info/1030/3923.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/90c43336839449bc.json",
+  "reason": "LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+  "list_sha256": "bf52bb496f810e60b8295b4b58ac16262d81fdc22df02148c0e5f7a777379557",
+  "list_snapshot": "html/bf52bb496f810e60b8295b4b58ac16262d81fdc22df02148c0e5f7a777379557.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 2,
+  "unparsed_reference_links": []
+}

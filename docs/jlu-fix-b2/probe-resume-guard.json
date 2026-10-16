@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "network_requests": 0,
+  "existing_spot_files_unchanged": 8,
+  "returncode": 1,
+  "reason": "Probe fingerprint changed or was not recorded; new directory required"
+}

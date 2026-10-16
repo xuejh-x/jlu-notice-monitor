@@ -1,0 +1,543 @@
+{
+  "id": "p3-fa535e3ee14b",
+  "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+  "institution": "医院管理处",
+  "column": "通知公告",
+  "site_url": "https://ywc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING",
+  "original_evidence": "docs/jlu-audit-evidence/results/fa535e3ee14b199f.json",
+  "original_capture_time": "2026-10-13T13:38:39+08:00",
+  "discovery_url": "https://ywc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-fa535e3ee14b",
+    "name": "医院管理处 / 通知公告",
+    "base_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:42+08:00",
+  "details": [
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+      "list_title": "关于加强春季学期传染病防治工作的通知",
+      "list_date": "2025-03-05",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+        "time": "2026-10-15T22:10:47+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "69e842bdcb2d5928878fa5a761e8aeb2c49e14b5aa2a093fa4594ad08032e116",
+        "html_path": "html/69e842bdcb2d5928878fa5a761e8aeb2c49e14b5aa2a093fa4594ad08032e116.html",
+        "replacement_chars": 0,
+        "chars": 16565,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于加强春季学期传染病防治工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+        "publish_date": "2025-03-05",
+        "publisher": null,
+        "content": "校内各单位 ： 春季是万物复苏的季节，同时也是各类传染病的高发期。 根据国务院联防联控机制疫情防控组发布的《关于做好 2025年春季新冠病毒感染等重点传染病防治工作的通知》， 为了保障全体师生的健康安全，维护正常的教学和生活秩序，学校将进一步加强春季传染病的预防和控制工作。现将有关事项通知如下： 一、常见春季传染病类型 春季常见的传染病包括但不限于： 1. 流感：由流感病毒引起，症状包括发热、咳嗽、咽痛、全身乏力等。 2. 诺如病毒感染：主要症状为呕吐、腹泻、腹痛等。 3. 水痘：由水痘-带状疱疹病毒引起，症状为皮肤出现红疹、水疱，伴有发热。 4. 手足口病：常见于儿童，症状为手、足、口腔等部位出现疱疹。 5. 麻疹：症状包括高热、咳嗽、流涕、眼结膜炎及皮肤出现红色斑丘疹。 6. 结核病 ：结核分枝杆菌引发，常见症状为咳嗽、咳痰、低热等。 二、 预防措施 1. 加强健康监测： 校内各单位要 加强对师生的健康监测。 落实好晨午检、健康教育、环境消毒、因病缺勤缺课追踪与登记等措施。 如发现疑似传染病病例， 请及时上报上级部门 。 2. 加强个人卫生：勤洗手，尤其是在就餐前、如厕后、接触公共物品后 ； 咳嗽或打喷嚏时，请用纸巾或肘部遮挡口鼻，避免飞沫传播 ； 不与他人共用毛巾、餐具等个人物品。 3. 保持环境卫生：教室、宿舍、食堂等公共场所应定期通风，保持空气流通。定期对公共区域进行消毒，尤其是门把手、桌椅、电梯按钮等高频接触部位。 4 . 增强免疫力：保持规律作息，避免熬夜，确保充足的睡眠 ； 合理膳食，多摄入富含维生素和矿物质的食物 ； 适当进行户外运动，增强体质。 5. 及时就医：如出现发热、咳嗽、腹泻、皮疹等疑似传染病症状，请及时到校医院或就近医疗机构就诊 ； 确诊传染病的师生应积极配合治疗，并 上报辅导员及学院 。 6.加强预防接种：继续动员引导师生、基础性疾病患者等重点人群接种流感等疫苗，提升人群免疫水平。 三、 开展健康教育 学校将通过宣传 、 线上讲座 、 培训 等形式，普及传染病防治知识，提高师生的防病意识。 近期将开展一次线上讲座，邀请吉林大学第一医院 李亚男 ，主任医师，教授，博士生导师，现任小儿呼吸科副主任，感染亚专业组长。擅长各种呼吸系统疾病如肺炎、哮喘、慢性咳嗽、反复呼吸道感染、闭塞性细支气管炎等疾病的诊治。 时间： 3月7日晚18点-19点30分 讲座地点：腾讯会议室 会议号： 404376200。 讲座内容：春季传染病的预防与治疗。 欢迎师生观看。 https://ywc.jlu.edu.cn/__local/A/1C/EA/78566E0C42C59C89F6E0556C71B_67D8D745_29E7.png 吉林大学医院管理处 2025年3月4日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于加强春季学期传染病防治工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-03-05",
+            "date": "2025-03-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1075,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于加强春季学期传染病防治工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-03-05",
+            "date": "2025-03-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+      "list_title": "关于加强春季学期传染病防治工作的通知",
+      "list_date": "2025-03-05",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+        "time": "2026-10-15T22:10:48+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f469297b3b2a78d1071f0c6db0d858d0701a68392f13daa5bd0dc646ad59c471",
+        "html_path": "html/f469297b3b2a78d1071f0c6db0d858d0701a68392f13daa5bd0dc646ad59c471.html",
+        "replacement_chars": 0,
+        "chars": 16552,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于加强春季学期传染病防治工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+        "publish_date": "2025-03-05",
+        "publisher": null,
+        "content": "校内各单位 ： 春季是万物复苏的季节，同时也是各类传染病的高发期。 根据国务院联防联控机制疫情防控组发布的《关于做好 2025年春季新冠病毒感染等重点传染病防治工作的通知》， 为了保障全体师生的健康安全，维护正常的教学和生活秩序，学校将进一步加强春季传染病的预防和控制工作。现将有关事项通知如下： 一、常见春季传染病类型 春季常见的传染病包括但不限于： 1. 流感：由流感病毒引起，症状包括发热、咳嗽、咽痛、全身乏力等。 2. 诺如病毒感染：主要症状为呕吐、腹泻、腹痛等。 3. 水痘：由水痘-带状疱疹病毒引起，症状为皮肤出现红疹、水疱，伴有发热。 4. 手足口病：常见于儿童，症状为手、足、口腔等部位出现疱疹。 5. 麻疹：症状包括高热、咳嗽、流涕、眼结膜炎及皮肤出现红色斑丘疹。 6. 结核病 ：结核分枝杆菌引发，常见症状为咳嗽、咳痰、低热等。 二、 预防措施 1. 加强健康监测： 校内各单位要 加强对师生的健康监测。 落实好晨午检、健康教育、环境消毒、因病缺勤缺课追踪与登记等措施。 如发现疑似传染病病例， 请及时上报上级部门 。 2. 加强个人卫生：勤洗手，尤其是在就餐前、如厕后、接触公共物品后 ； 咳嗽或打喷嚏时，请用纸巾或肘部遮挡口鼻，避免飞沫传播 ； 不与他人共用毛巾、餐具等个人物品。 3. 保持环境卫生：教室、宿舍、食堂等公共场所应定期通风，保持空气流通。定期对公共区域进行消毒，尤其是门把手、桌椅、电梯按钮等高频接触部位。 4 . 增强免疫力：保持规律作息，避免熬夜，确保充足的睡眠 ； 合理膳食，多摄入富含维生素和矿物质的食物 ； 适当进行户外运动，增强体质。 5. 及时就医：如出现发热、咳嗽、腹泻、皮疹等疑似传染病症状，请及时到校医院或就近医疗机构就诊 ； 确诊传染病的师生应积极配合治疗，并 上报辅导员及学院 。 6.加强预防接种：继续动员引导师生、基础性疾病患者等重点人群接种流感等疫苗，提升人群免疫水平。 三、 开展健康教育 学校将通过宣传 、 线上讲座 、 培训 等形式，普及传染病防治知识，提高师生的防病意识。 近期将开展一次线上讲座，邀请吉林大学第一医院 李亚男 ，主任医师，教授，博士生导师，现任小儿呼吸科副主任，感染亚专业组长。擅长各种呼吸系统疾病如肺炎、哮喘、慢性咳嗽、反复呼吸道感染、闭塞性细支气管炎等疾病的诊治。 时间： 3月7日晚18点-19点30分 讲座地点：腾讯会议室 会议号： 404376200。 讲座内容：春季传染病的预防与治疗。 欢迎师生观看。 https://ywc.jlu.edu.cn/__local/A/1C/EA/78566E0C42C59C89F6E0556C71B_67D8D745_29E7.png 吉林大学医院管理处 2025年3月4日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于加强春季学期传染病防治工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-03-05",
+            "date": "2025-03-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1075,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于加强春季学期传染病防治工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-03-05",
+            "date": "2025-03-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+      "list_title": "关于举办“校园公共卫生大讲堂” 讲座的通知",
+      "list_date": "2024-06-26",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+        "time": "2026-10-15T22:10:49+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "19793fd84a10030b2c549c831c9a23d64f869ee7fef2d40942ed04b7e7a5c8b7",
+        "html_path": "html/19793fd84a10030b2c549c831c9a23d64f869ee7fef2d40942ed04b7e7a5c8b7.html",
+        "replacement_chars": 0,
+        "chars": 10242,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于举办“校园公共卫生大讲堂” 讲座的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+        "publish_date": "2024-06-26",
+        "publisher": null,
+        "content": "为增加我校师生对常见传染病的科学认知，全面提升师生健康意识和疾病防控能力，有效应对可能的公共卫生事件，医院管理处联合后勤服务集团、工会、党委学生工作部、党委研究生工作部，针对季节性传染病流行特点定期开展 “校园公共卫生大讲堂”系列讲座。6月27日将开展第二期讲座，本期重点针对后勤集团、日新楼涉及餐饮的工作人员进行培训。为方便广大师生收看，本次讲座采用线上形式进行，欢迎大家踊跃参加。 讲座题目：诺如病毒感染，您了解多少？ 讲座嘉宾：张凯宇 吉林大学第一医院感染科主任、主任医师、博士研究生导师。 讲座方式：线上讲座 讲座时间： 2024年6月27日19:00—20:00 嘉宾介绍：张凯宇，吉林大学第一医院感染科主任、主任医师、博士研究生导师。现担任中华医学会感染病学分会委员、吉林省感染性疾病医疗质量控制中心主任委员、吉林省医学会传染病学分会常委等学术职务。主要从事感染性疾病尤其是不明原因发热、布鲁菌病和免疫功能低下人群感染的发病机制、诊断和治疗的研究。 https://ywc.jlu.edu.cn/__local/8/FC/91/AA75CD7342C1E8C5F21FD2042CE_06C80EC3_8D8D.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于举办“校园公共卫生大讲堂” 讲座的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2024-06-26",
+            "date": "2024-06-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 430,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于举办“校园公共卫生大讲堂” 讲座的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2024-06-26",
+            "date": "2024-06-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+        "time": "2026-10-15T22:10:46+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2391689e97621f2ca21c7642e31c26003f4760000e645b4c55d975151546f823",
+        "html_path": "html/2391689e97621f2ca21c7642e31c26003f4760000e645b4c55d975151546f823.html",
+        "replacement_chars": 0,
+        "chars": 8319,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1050/1903.htm",
+        "https://ywc.jlu.edu.cn/info/1050/1904.htm",
+        "https://ywc.jlu.edu.cn/info/1050/2095.htm",
+        "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+        "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+        "https://ywc.jlu.edu.cn/info/1050/2202.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "time": "2026-10-15T22:10:46+08:00",
+    "ok": true,
+    "final_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "2391689e97621f2ca21c7642e31c26003f4760000e645b4c55d975151546f823",
+    "html_path": "html/2391689e97621f2ca21c7642e31c26003f4760000e645b4c55d975151546f823.html",
+    "replacement_chars": 0,
+    "chars": 8319,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强春季学期传染病防治工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+      "publish_date": "2025-03-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强春季学期传染病防治工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+      "publish_date": "2025-03-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办“校园公共卫生大讲堂” 讲座的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+      "publish_date": "2024-06-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办“校园公共卫生大讲堂”讲座的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/2095.htm",
+      "publish_date": "2024-04-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发教育部办公厅、国家疾控综合司关于印发《高等学校、中小学校和托幼机构新冠肺炎疫情防控技术方案（第六版）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/1904.htm",
+      "publish_date": "2022-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于转发国家卫生健康委员会《关于印发新型冠状病毒肺炎防控方案（第九版）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1050/1903.htm",
+      "publish_date": "2022-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-fa535e3ee14b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.750001683831215e-05,
+      "detail_duration_seconds": 8.499831892549992e-06,
+      "parse_db_duration_seconds": 0.029012000071816146
+    },
+    "second_round": {
+      "source": "p3-fa535e3ee14b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7700018361210823e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": true,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-fa535e3ee14b",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "SAME_TITLE_PUBLICATIONS_REQUIRE_IDENTITY_REVIEW",
+    "capture_time": "2026-10-15T22:10:46+08:00",
+    "review_time": "2026-10-15T23:00:42+08:00",
+    "http_status": 200,
+    "final_url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 6,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [
+      "SAME_TITLE_PUBLICATIONS_REQUIRE_IDENTITY_REVIEW"
+    ],
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-fa535e3ee14b.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

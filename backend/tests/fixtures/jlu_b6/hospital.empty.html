@@ -1,0 +1,72 @@
+<div id="datalist">
+<div class="list">
+<div class="empty-data" style="text-align:center;font-size:18px;"><b>暂无数据</b></div></div>
+<script>
+    function getPage(obj){
+        var url = obj.attr('href');
+        if(url == 'javascript:void(0);'){
+            return false;
+        }
+        $.get(url,{},function(data){
+            $('#datalist').html(data);
+            $('html,body').animate({scrollTop:parseInt($('#datalist').offset().top-250)},500);
+        })
+    }
+</script>
+<script>
+    $(function(){
+        $('#btn_new').click(function(){
+            var text_se = $('#text_se').val();
+            if(text_se == ''){
+                my_alert('请输入页码');
+                return false;
+            }else{
+                getkey(text_se);
+                return false;
+            }
+        });
+        $('#text_se').keypress(function(e){
+            var keycode = e.keyCode ? e.keyCode : e.which ;
+            if(keycode == 13){
+                var text_se = $('#text_se').val();
+                if(text_se == ''){
+                    my_alert('请输入页码');
+                    return false;
+                }else{
+                    getkey(text_se);
+                    return false;
+                }
+            }
+        });
+    })
+
+    function sel(obj){
+        var text_se = obj.value;
+        getkey(text_se);
+    }
+    function getkey( p ){
+        if( p == '' ) {
+            return false;
+        }
+        var pagesize = $('#btn_new').attr('data-max');
+        var url = window.location.pathname;
+
+        if((p*1)<=(pagesize*1)) {
+            p = p;
+        }else{
+            p = pagesize;
+        }
+        $.get(url,{p:p},function(data){
+            $('#datalist').html(data);
+            $("html,body").animate({
+                scrollTop: $("#datalist").offset().top-250
+            },200);
+        });
+    }
+</script>
+<script>
+        $(function(){
+            $('.paging-more').hide();
+        })
+    </script>
+</div>

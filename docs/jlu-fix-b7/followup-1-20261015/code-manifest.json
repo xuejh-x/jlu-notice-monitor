@@ -1,0 +1,38 @@
+{
+  "time": "2026-10-15T22:36:20+08:00",
+  "files": {
+    "backend/scripts/followup_jlu_b7.py": "8a177c4f95bb03579e21d330e371b8021379e2e23807ea528c20fd46a2580d48",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "9bf4d8e6d4499655aacb4437f06bafa9f32aed0dd135585e6c92924629b01d4f",
+    "backend/app/services/deduplication.py": "2646a4d01f3f6e8ee1c6e8b861b6335f93c2fee115af5424f89026b026d730eb",
+    "backend/app/sources/generic.py": "523ebe7705ae22047e99015e8a675e44e7d11d03a8ea95c106de559863da91dd",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "022f71893cc4177d88b35859bde4621387009edbe9d4c41e76ffaba42c79259d",
+    "input/validation-targets.json": "9834f1d23c67667da3467a3ab425d825f78844b0d9e268a03b96e2ef8a4d35d5",
+    "input/code-manifest.json": "fc74d9585b67a9773296f41a306185b87a5170a1cc021471d6133f6e7ae62cbb",
+    "review/results.json": "1650e3ad01961507dd10353047c2d99afe1ef29e15c58a3add0d5175d1b21173"
+  },
+  "urls": [
+    "http://bjkg.jlu.edu.cn/info/1046/2316.htm",
+    "http://bjkg.jlu.edu.cn/info/1046/2463.htm",
+    "http://bjkg.jlu.edu.cn/info/1046/2465.htm",
+    "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+    "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+    "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+    "http://pftheory.jlu.edu.cn/info/1015/1069.htm",
+    "http://pftheory.jlu.edu.cn/info/1015/3196.htm",
+    "http://pftheory.jlu.edu.cn/info/1015/3926.htm",
+    "https://fszx.jlu.edu.cn/info/1018/3154.htm",
+    "https://fszx.jlu.edu.cn/info/1018/3694.htm",
+    "https://fszx.jlu.edu.cn/info/1018/3696.htm",
+    "https://press.jlu.edu.cn/gywm/cbsjj.htm",
+    "https://pro.jlu.edu.cn/xzfwzx.htm",
+    "https://synlab.jlu.edu.cn/2025/09/5200.html",
+    "https://synlab.jlu.edu.cn/2026/09/5291.html"
+  ],
+  "input_dir": "docs\\jlu-fix-b7\\supplement-20261015",
+  "review_dir": "docs\\jlu-fix-b7\\review-2-20261015",
+  "limits": "<=32 literal-link HTML URLs; serial existing robots/rate limits; no known failure retries/OA/downloads"
+}

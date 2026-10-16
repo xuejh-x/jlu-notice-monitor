@@ -1,0 +1,49 @@
+{
+  "utc_time": "2026-10-13T05:51:53.166598+00:00",
+  "cloud": {
+    "status": "failure",
+    "request_sent": false,
+    "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED"
+  },
+  "local": [
+    {
+      "mode": "default",
+      "tls_verification": "CERT_REQUIRED + hostname + original SNI",
+      "http_responses": [],
+      "status": "failure",
+      "error": "SourceError: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577 failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "seconds": 5.855
+    },
+    {
+      "mode": "interface:19:native",
+      "tls_verification": "CERT_REQUIRED + hostname + original SNI",
+      "http_responses": [
+        {
+          "method": "GET",
+          "path": "/defaultroot/PortalInformation!jldxList.action",
+          "status": 200,
+          "bytes": 38810
+        },
+        {
+          "method": "GET",
+          "path": "/defaultroot/PortalInformation!getInformation.action",
+          "status": 200,
+          "bytes": 39801
+        }
+      ],
+      "list_items": 30,
+      "status": "success",
+      "content_length": 551,
+      "attachments": 0,
+      "seconds": 2.886
+    },
+    {
+      "mode": "interface:19:certifi",
+      "tls_verification": "CERT_REQUIRED + hostname + original SNI",
+      "http_responses": [],
+      "status": "failure",
+      "error": "SourceError: TLS_CERTIFICATE_VERIFY_FAILED: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032) <- SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)",
+      "seconds": 0.006
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-15T20:00:20+08:00",
+  "files": {
+    "backend/scripts/followup_jlu_b6.py": "ab5deb26ba439a54e0fda4802c44992ddde59d230bc1f24a243e039fcfab072f",
+    "backend/scripts/audit_jlu_sites.py": "e75fcbadcf836040dfc483afcae3741c15de188bc6989f6f87abcc0bb446cae6",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "dd21a5f81d54656b678cf8e60152e398ee1049c6de3e1fae13729fc9b7dc880e",
+    "input/code-manifest.json": "3da00ae9ad1fabaa991e82f677aeb1853ecf50d80215fa47884604d6665c8606"
+  },
+  "urls": [
+    "https://ees.jlu.edu.cn/info/1004/1274.htm",
+    "https://law.jlu.edu.cn/info/1087/25543.htm",
+    "https://law.jlu.edu.cn/info/1166/15195.htm",
+    "https://law.jlu.edu.cn/info/1186/24632.htm",
+    "https://law.jlu.edu.cn/info/1195/25468.htm"
+  ],
+  "scope": "Only corrected law/ees sample selection from saved lists; no known failure retry, attachments, OA or Cloud traffic",
+  "limits": "<=8 unique detail URLs; serial audit robots/rates; max2 transient attempts"
+}

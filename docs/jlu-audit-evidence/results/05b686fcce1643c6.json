@@ -1,0 +1,99 @@
+{
+  "column_url": "https://cbae.jlu.edu.cn/jyxx.htm",
+  "column": "就业信息",
+  "institution": "生物与农业工程学院、仿生科学与工程学院",
+  "site_url": "https://cbae.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://cbae.jlu.edu.cn/",
+  "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:42:15+08:00",
+  "checked_at": "2026-10-13T13:54:05+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "TITLE_MISMATCH",
+    "DATE_MISSING",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [
+    {
+      "url": "https://cbae.jlu.edu.cn/info/1259/8018.htm",
+      "list_title": "欢迎用人单位来院选才，共绘发展同心圆！",
+      "parsed_title": "生物与农业工程学院、仿生科学与工程学院就业工作概况",
+      "document_title": "欢迎用人单位来院选才，共绘发展同心圆！-吉林大学生物与农业工程学院",
+      "heading_texts": [
+        "生物与农业工程学院、仿生科学与工程学院就业工作概况"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "",
+      "reference_date": "",
+      "body_selector": ".v_news_content",
+      "content_chars": 757,
+      "content_preview": "生物与农业工程学院、仿生科学与工程学院就业工作概况 吉林大学生物与农业工程学院、仿生科学与工程学院深入学习贯彻习近平总书记关于高校毕业生就业工作的重要指示批示精神，全面落实党中央、国务院决策部署，全力促进毕业生高质量充分就业，构建实施具有吉林大学特色的“两主两双一核心”高质量就业育人新体系新模式。 一、往届毕业生就业情况 学院往届研究生毕业生就业情况整体质量较高，去向广泛，层次多元。毕业生流向涵盖高等教育、科研机构、国有企业、民营企业及机关事业单位等多个领域。从学历层次看，大部分博士毕业生进入吉林大学、苏州大学、吉林农业大学、中国科学院长春光学精密机械与物理研究所等高校或研究所从事教学科研，部分选择博士后研究，亦有部分进入制造业企业就业。硕士毕业生大部分以直接就业为主，进入“潍柴雷沃”“中国重型汽车集团”“中车长春轨道客车”“中国第一汽车”“航天精工”等国有企业，担任工程技术、研发岗位；在",
+      "content_sha256": "7b41c5b339d47eb275f080b630ce48112cb4639c3ca76947e394bb0c75062636",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_MISMATCH",
+        "DATE_MISSING"
+      ],
+      "time": "2026-10-13T13:54:07+08:00",
+      "sha256": "a43d1d1c570686a03d530853174512b7b40d498842e4e476f67df671e6842407",
+      "snapshot": "html/a43d1d1c570686a03d530853174512b7b40d498842e4e476f67df671e6842407.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "欢迎用人单位来院选才，共绘发展同心圆！",
+      "url": "https://cbae.jlu.edu.cn/info/1259/8018.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/05b686fcce1643c6.json",
+  "reason": "LIST_DATES_MISSING; TITLE_MISMATCH; DATE_MISSING; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://cbae.jlu.edu.cn/jyxx/10.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://cbae.jlu.edu.cn/jyxx/10.htm",
+    "time": "2026-10-13T13:54:07+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 53,
+    "new_urls": 53,
+    "snapshot": "html/935981780407b5af7523efbe056aa6ee7672b1a00b3369a8083ad524a34ed875.html"
+  },
+  "final_url": "https://cbae.jlu.edu.cn/jyxx.htm",
+  "list_sha256": "54bbed749c0b7df45ee339599bb0c641b444e1fb531f873f9759497450a38a49",
+  "list_snapshot": "html/54bbed749c0b7df45ee339599bb0c641b444e1fb531f873f9759497450a38a49.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

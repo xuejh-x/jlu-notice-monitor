@@ -1,0 +1,308 @@
+{
+  "id": "p3-b2b4060ce6db",
+  "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+  "institution": "无机合成与制备化学全国重点实验室",
+  "column": "仪器公告",
+  "site_url": "http://synlab.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK",
+  "original_evidence": "docs/jlu-audit-evidence/results/b2b4060ce6db0354.json",
+  "original_capture_time": "2026-10-13T14:05:30+08:00",
+  "discovery_url": "https://synlab.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-b2b4060ce6db",
+    "name": "无机合成与制备化学全国重点实验室 / 仪器公告",
+    "base_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": "a.next.page-numbers",
+      "item_selector": "article.type-post.entry-list, article.type-post.entry-list-medium",
+      "title_selector": "h2.entry-title-activities > a",
+      "url_selector": "h2.entry-title-activities > a",
+      "time_selector": "time.entry-date"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:49+08:00",
+  "details": [
+    {
+      "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+      "list_title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+      "list_date": "2025-09-23",
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "time": "2026-10-15T22:36:37+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "0282a366d2a0c2e1669fee63134064dcbcd2d5a1cbd40851f04cbe04fbea3cfb",
+        "html_path": "html/0282a366d2a0c2e1669fee63134064dcbcd2d5a1cbd40851f04cbe04fbea3cfb.html",
+        "replacement_chars": 0,
+        "chars": 27714,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+        "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "publish_date": "2025-09-23",
+        "publisher": null,
+        "content": "自2025年9月26日期起，无机合成与制备化学全国重点实验室仪器共享平台（以下简称“仪器共享平台”）正式面向校内外用户开放，用户可登录吉林大学大型仪器设备共享平台（网址：https://syweb.jlu.edu.cn/）进行预约测试，校外用户如需了解设备信息、制样要求可通过邮件咨询仪器负责人（详见附件：仪器共享平台联系信息）。 为提升仪器设备的使用效率，维护高效稳定的测试秩序，预约使用公共测试平台需严格遵守实验室《仪器共享平台仪器运行及共享管理办法》《仪器共享平台用户违规行为处罚管理办法》《仪器共享平台安全管理办法》《仪器共享平台加急测试管理办法》等规章制度，现场听从仪器管理人员指导及安排，自觉爱护仪器设备及环境设施。",
+        "attachments": [
+          {
+            "filename": "仪器共享平台联系信息",
+            "url": "https://synlab.jlu.edu.cn/attachment/2025/09/stuff_contact_information.pdf",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 314,
+        "reference_attachment_urls": [
+          "https://synlab.jlu.edu.cn/attachment/2025/09/stuff_contact_information.pdf"
+        ],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h1",
+            "classes": [
+              "entry-title"
+            ],
+            "text": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2025-09-23T15:33:30+00:00",
+            "date": "2025-09-23"
+          }
+        ],
+        "unexpected_attachment_urls": []
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+        "time": "2026-10-15T22:12:09+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "9230e373616730d6d9aff72b913091ccba8b01e77eed48c08578572073418d3d",
+        "html_path": "html/9230e373616730d6d9aff72b913091ccba8b01e77eed48c08578572073418d3d.html",
+        "replacement_chars": 0,
+        "chars": 27184,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://synlab.jlu.edu.cn/2025/09/5200.html"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "time": "2026-10-15T22:12:09+08:00",
+    "ok": true,
+    "final_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "content_type": "text/html; charset=UTF-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "9230e373616730d6d9aff72b913091ccba8b01e77eed48c08578572073418d3d",
+    "html_path": "html/9230e373616730d6d9aff72b913091ccba8b01e77eed48c08578572073418d3d.html",
+    "replacement_chars": 0,
+    "chars": 27184,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+      "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+      "publish_date": "2025-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-b2b4060ce6db",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.0200077667832375e-05,
+      "detail_duration_seconds": 2.600019797682762e-06,
+      "parse_db_duration_seconds": 0.015651999972760677
+    },
+    "second_round": {
+      "source": "p3-b2b4060ce6db",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.1899974197149277e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-b2b4060ce6db",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "仪器公告",
+    "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:12:09+08:00",
+    "review_time": "2026-10-15T23:00:49+08:00",
+    "http_status": 200,
+    "final_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 1,
+    "issues": [],
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-b2b4060ce6db.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

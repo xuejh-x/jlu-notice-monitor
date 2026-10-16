@@ -1,0 +1,11 @@
+# Local Clash fix, restricted to the currently selected subscription.
+# This is a review fragment, not a replacement for the full Clash profile.
+# Add the proxy through the profile's existing proxies editor (prepend list).
+proxies:
+  - name: JLU-OA-Ethernet
+    type: direct
+    interface-name: 以太网
+    ip-version: ipv4
+# Add this first through the profile's existing rules editor (prepend list).
+rules:
+  - DOMAIN,oa.jlu.edu.cn,JLU-OA-Ethernet

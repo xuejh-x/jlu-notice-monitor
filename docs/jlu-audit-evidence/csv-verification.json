@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-13T07:02:16.651Z",
+  "checks": [
+    {
+      "file": "jlu-site-inventory.csv",
+      "rows": 996,
+      "columns": 16,
+      "imported_by": "Artifact Tool Workbook.fromCSV",
+      "status": "passed",
+      "inspection": "{\"kind\":\"region\",\"sheet\":\"Audit\",\"address\":\"A1:F3\",\"rows\":3,\"cols\":6,\"nonEmpty\":14,\"blank\":4,\"text\":14,\"maxTextLength\":23,\"preview\":[[\"record_type\",\"institution\",\"category\",\"site_url\",\"column\",\"column_url\"],[\"institution\",\"党委办公室\",\"管理服务\",\"https://pco.jlu.edu.cn/\",null,null],[\"institution\",\"保密工作办公室\",\"管理服务\",\"https://bmb.jlu.edu.cn/\",null,null]],\"previewAddress\":\"A1:F3\",\"previewRows\":3,\"previewCols\":6}"
+    },
+    {
+      "file": "jlu-compatibility-report.csv",
+      "rows": 306,
+      "columns": 23,
+      "imported_by": "Artifact Tool Workbook.fromCSV",
+      "status": "passed",
+      "inspection": "{\"kind\":\"region\",\"sheet\":\"Audit\",\"address\":\"A1:F3\",\"rows\":3,\"cols\":6,\"nonEmpty\":18,\"text\":18,\"maxTextLength\":33,\"preview\":[[\"institution\",\"category\",\"site_url\",\"column\",\"column_url\",\"priority\"],[\"吉林大学网络安全学院\",\"现有来源\",\"https://cse.jlu.edu.cn/\",\"学院通知\",\"https://cse.jlu.edu.cn/xytz.htm\",\"P0\"],[\"吉林大学网络安全学院\",\"现有来源\",\"https://cse.jlu.edu.cn/\",\"本科教学通知\",\"https://cse.jlu.edu.cn/bkjxtz.htm\",\"P0\"]],\"previewAddress\":\"A1:F3\",\"previewRows\":3,\"previewCols\":6}"
+    }
+  ]
+}

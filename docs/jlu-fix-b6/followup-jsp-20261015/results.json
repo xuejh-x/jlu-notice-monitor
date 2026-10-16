@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://law.jlu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1195&wbnewsid=24248",
+    "time": "2026-10-15T20:10:21+08:00",
+    "ok": true,
+    "final_url": "https://law.jlu.edu.cn/system/resource/code/auth/auth.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "01a48329d8295ebf45fe5ee4289738849bfed9dc32455315042068bc11d4fdf8",
+    "html_path": "html/01a48329d8295ebf45fe5ee4289738849bfed9dc32455315042068bc11d4fdf8.html",
+    "replacement_chars": 0,
+    "chars": 843,
+    "attempts": 1
+  },
+  {
+    "url": "https://nasa.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1082&wbnewsid=6207",
+    "time": "2026-10-15T20:10:23+08:00",
+    "ok": true,
+    "final_url": "https://nasa.jlu.edu.cn/system/resource/code/auth/auth.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "01a48329d8295ebf45fe5ee4289738849bfed9dc32455315042068bc11d4fdf8",
+    "html_path": "html/01a48329d8295ebf45fe5ee4289738849bfed9dc32455315042068bc11d4fdf8.html",
+    "replacement_chars": 0,
+    "chars": 843,
+    "attempts": 1
+  }
+]

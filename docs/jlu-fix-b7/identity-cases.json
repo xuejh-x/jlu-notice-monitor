@@ -1,0 +1,714 @@
+[
+  {
+    "id": "p3-fa535e3ee14b",
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "before": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-fa535e3ee14b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.7600017599761486e-05,
+        "detail_duration_seconds": 8.299830369651318e-06,
+        "parse_db_duration_seconds": 0.034806499956175685
+      },
+      "second_round": {
+        "source": "p3-fa535e3ee14b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 0,
+            "detail_skipped": 3,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 0,
+        "detail_skipped": 3,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.810002140700817e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "after": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-fa535e3ee14b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.750001683831215e-05,
+        "detail_duration_seconds": 8.499831892549992e-06,
+        "parse_db_duration_seconds": 0.029012000071816146
+      },
+      "second_round": {
+        "source": "p3-fa535e3ee14b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 0,
+            "detail_skipped": 3,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 0,
+        "detail_skipped": 3,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.7700018361210823e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "samples": [
+      {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2201.htm",
+        "title": "关于加强春季学期传染病防治工作的通知",
+        "date": "2025-03-05",
+        "sha256": "69e842bdcb2d5928878fa5a761e8aeb2c49e14b5aa2a093fa4594ad08032e116"
+      },
+      {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2202.htm",
+        "title": "关于加强春季学期传染病防治工作的通知",
+        "date": "2025-03-05",
+        "sha256": "f469297b3b2a78d1071f0c6db0d858d0701a68392f13daa5bd0dc646ad59c471"
+      },
+      {
+        "url": "https://ywc.jlu.edu.cn/info/1050/2121.htm",
+        "title": "关于举办“校园公共卫生大讲堂” 讲座的通知",
+        "date": "2024-06-26",
+        "sha256": "19793fd84a10030b2c549c831c9a23d64f869ee7fef2d40942ed04b7e7a5c8b7"
+      }
+    ]
+  },
+  {
+    "id": "p3-3a9be451148b",
+    "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+    "before": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-3a9be451148b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.780001912266016e-05,
+        "detail_duration_seconds": 7.70005863159895e-06,
+        "parse_db_duration_seconds": 0.029412200092338026
+      },
+      "second_round": {
+        "source": "p3-3a9be451148b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 1,
+            "detail_skipped": 2,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 1,
+        "detail_skipped": 2,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.810002140700817e-05,
+        "detail_duration_seconds": 2.00001522898674e-06,
+        "parse_db_duration_seconds": 0.005644399905577302
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "after": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-3a9be451148b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.8200022168457508e-05,
+        "detail_duration_seconds": 7.5998250395059586e-06,
+        "parse_db_duration_seconds": 0.029183799983002245
+      },
+      "second_round": {
+        "source": "p3-3a9be451148b",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 0,
+            "detail_skipped": 3,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 0,
+        "detail_skipped": 3,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.8900027498602867e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "notice_count": 3,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": false,
+      "passed": true
+    },
+    "samples": [
+      {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1024/2619.htm",
+        "title": "吉林大学高压与超硬材料全国重点实验室2027年接收推荐免试攻读研究生拟录取名单公示",
+        "date": "2026-09-22",
+        "sha256": "1bce8c46e8313815b5ca9b659dc3713b09d1f734b84422b0da2c22f2e2352c93"
+      },
+      {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1024/2616.htm",
+        "title": "吉林大学高压与超硬材料全国重点实验室2027年接收推荐免试攻读研究生复试名单",
+        "date": "2026-09-18",
+        "sha256": "863e81cf2cce307c14e8c540f8d575047c4d10e30516f35e0e5b1367bd34796b"
+      },
+      {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1024/2446.htm",
+        "title": "吉林大学高压与超硬材料全国重点实验室2026年推免生拟录取名单公示（第二批）",
+        "date": "2025-09-25",
+        "sha256": "f6be68fdf6063a3945983fa2efdfff04f97a0fab16c273d11a658e4cff08ff16"
+      }
+    ]
+  },
+  {
+    "id": "p3-075bd0471b07",
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "before": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-075bd0471b07",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.7200014553964138e-05,
+        "detail_duration_seconds": 8.400063961744308e-06,
+        "parse_db_duration_seconds": 0.031007700017653406
+      },
+      "second_round": {
+        "source": "p3-075bd0471b07",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 1,
+            "detail_skipped": 2,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 1,
+        "detail_skipped": 2,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.6000005416572094e-05,
+        "detail_duration_seconds": 2.700020559132099e-06,
+        "parse_db_duration_seconds": 0.006463699974119663
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "after": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-075bd0471b07",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.680001150816679e-05,
+        "detail_duration_seconds": 6.900052540004253e-06,
+        "parse_db_duration_seconds": 0.029446500004269183
+      },
+      "second_round": {
+        "source": "p3-075bd0471b07",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 1,
+            "detail_skipped": 2,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 1,
+        "detail_skipped": 2,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.6400008462369442e-05,
+        "detail_duration_seconds": 1.9000144675374031e-06,
+        "parse_db_duration_seconds": 0.00650740007404238
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "samples": [
+      {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+        "title": "吉林大学人兽共患病研究所2022年公开招聘专业教师启事",
+        "date": "2022-09-15",
+        "sha256": "fa527acae07e2b870266e43f05eafaacf0f6573c546e2586814ed84fce2bf392"
+      },
+      {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+        "title": "吉林大学人兽共患病研究所2017年招聘教师启事",
+        "date": "2017-12-21",
+        "sha256": "a76ea51d2b5359603b9ba4a5d1262807b03ff30d103643f7ab116d1c26891db2"
+      },
+      {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+        "title": "吉林大学人兽共患病研究所2017年招聘教师启事",
+        "date": "2017-12-20",
+        "sha256": "1f9eefe71797d10f46433727a13cc142bb74862fac1572a4ee64e0efdc470318"
+      }
+    ]
+  },
+  {
+    "id": "p3-276d57c8bed1",
+    "url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+    "before": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-276d57c8bed1",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.8200022168457508e-05,
+        "detail_duration_seconds": 9.299954399466515e-06,
+        "parse_db_duration_seconds": 0.03531840001232922
+      },
+      "second_round": {
+        "source": "p3-276d57c8bed1",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 1,
+            "detail_skipped": 2,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 1,
+        "detail_skipped": 2,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.8600025214254856e-05,
+        "detail_duration_seconds": 3.100023604929447e-06,
+        "parse_db_duration_seconds": 0.005717899999581277
+      },
+      "notice_count": 2,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": true,
+      "passed": true
+    },
+    "after": {
+      "mode": "offline parsed-sample replay only",
+      "database": "sqlite://",
+      "retention_days_test_only": 3650,
+      "retention_filter_disabled_for_identity_test": true,
+      "sampled_candidates": 3,
+      "first_round": {
+        "source": "p3-276d57c8bed1",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 3,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 3,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.7200014553964138e-05,
+        "detail_duration_seconds": 7.500057108700275e-06,
+        "parse_db_duration_seconds": 0.028613099944777787
+      },
+      "second_round": {
+        "source": "p3-276d57c8bed1",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 3,
+            "detail_fetched": 0,
+            "detail_skipped": 3,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 3
+          }
+        ],
+        "status": "success",
+        "fetched": 3,
+        "detail_fetched": 0,
+        "detail_skipped": 3,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 3,
+        "errors": [],
+        "list_duration_seconds": 1.759990118443966e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "notice_count": 3,
+      "relation_count": 3,
+      "ids_content_baseline_preserved": true,
+      "relations_preserved": true,
+      "states_preserved": true,
+      "favorites_preserved": true,
+      "unexpected_merge_requires_review": false,
+      "passed": true
+    },
+    "samples": [
+      {
+        "url": "http://iamp.jlu.edu.cn/info/1029/10063.htm",
+        "title": "吉林大学原子与分子物理研究所2027年推免生拟录取名单公示",
+        "date": "2026-10-13",
+        "sha256": "e0e8e0f2e68f0cb9fa803a2fd216f0dbebc99222c7a88fbc80064e9881b933e9"
+      },
+      {
+        "url": "http://iamp.jlu.edu.cn/info/1029/10061.htm",
+        "title": "吉林大学原子与分子物理研究所2027年推免生拟录取名单公示（第二批）",
+        "date": "2026-10-12",
+        "sha256": "0cfe714f09e15a311f87c259e7b61a8d1521790a76b9ce96045447818abbf054"
+      },
+      {
+        "url": "http://iamp.jlu.edu.cn/info/1029/9747.htm",
+        "title": "吉林大学原子与分子物理研究所2026年博士研究生“申请考核制”招生进入综合考核的考生名单的公示",
+        "date": "2025-12-08",
+        "sha256": "cf3b8316210c58fe912ca900ff4d084310feec2f0a6122d81b538126eb734dd1"
+      }
+    ]
+  }
+]

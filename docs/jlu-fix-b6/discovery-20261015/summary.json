@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-15T19:31:01+08:00",
+  "entries": 164,
+  "verdicts": {
+    "FIRST_SCREEN_CAPTURED": 161,
+    "DEFERRED_OA_BY_USER": 1,
+    "ACCESS_BLOCKED": 2
+  },
+  "http_attempts_this_session": 225,
+  "requests_cached": 225,
+  "application_db_connections": 0,
+  "cloud_production_verified": false,
+  "complete_downloads": 0,
+  "oa_requests": 0
+}

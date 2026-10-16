@@ -1,0 +1,416 @@
+{
+  "id": "recruitment-71ef1c4ae467",
+  "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+  "institution": "经济学院",
+  "column": "人才招聘",
+  "site_url": "https://jjxy.jlu.edu.cn/",
+  "priority": "P2",
+  "discovery_url": "https://jjxy.jlu.edu.cn/",
+  "discovery_snapshot": "html/979116d3bd6bdb6a2de9e64ade44debf4d63ec58f3c1cab189524be9bddf071b.html",
+  "capture_time": "2026-10-15T22:04:07+08:00",
+  "old_status": "新发现未验证",
+  "old_issues": "DISCOVERY_LABEL_MISSED",
+  "original_evidence": "",
+  "config": {
+    "code": "candidate-jlu-b7-71ef1c4ae467",
+    "name": "经济学院 / 人才招聘",
+    "base_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "discovery_priority_correction": "College column discovered in B7, reported as P2; does not change original B6 scope",
+  "checked_at": "2026-10-15T23:01:14+08:00",
+  "details": [
+    {
+      "url": "https://jjxy.jlu.edu.cn/info/1240/11940.htm",
+      "list_title": "吉林大学经济学院2020年公开招聘专业教师启事",
+      "list_date": "2020-04-23",
+      "response": {
+        "url": "https://jjxy.jlu.edu.cn/info/1240/11940.htm",
+        "time": "2026-10-15T22:49:17+08:00",
+        "ok": true,
+        "final_url": "https://jjxy.jlu.edu.cn/info/1240/11940.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3baebc0e3750a221f5a81451244be97ca89bf65252ce4caf55646584e99dcb7b",
+        "html_path": "html/3baebc0e3750a221f5a81451244be97ca89bf65252ce4caf55646584e99dcb7b.html",
+        "replacement_chars": 0,
+        "chars": 24856,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学经济学院2020年公开招聘专业教师启事",
+        "url": "https://jjxy.jlu.edu.cn/info/1240/11940.htm",
+        "publish_date": "2020-04-23",
+        "publisher": null,
+        "content": "根据学校《关于学校新聘人员相关政策调整的通知》以及《关于下达 2020年人员补充计划的通知》要求，按照《吉林大学新聘人员聘用管理暂行办法（修订）》等相关政策文件规定，结合学院实际工作需要，吉林大学 经济 学院 2020年拟公开招聘讲师1名。现将有关事项公布如下： 一、招聘条件 1.遵守中华人民共和国法律法规，政治立场坚定，坚持党的基本路线和各项方针政策，遵纪守法，爱岗敬业。具有良好的职业道德，具备履行岗位职责的能力。 2.具有 理论经 济学 或 应用经济学 专业教育背景。具有博士研究生学历，并取得相应学位。应届毕业生应于 2020年9月30日前毕业，并取得相应学位。初始学历 为 全日制本科毕业并获学士学位。 3.具有较强的教学能力，包括良好的语言表达能力、文字综合能力和外语水平，原则上可用外语讲授至少一门课程。 4.具有较好的科研能力和发展潜力，攻读博士学位期间及获博士学位一年以内，或博士后在站期间及出站一年以内，发表过一定数量的高质量学术论著，科研业绩成果应达到 经济学院教学科研并重 型副教授基本要求。 5.应聘人员年龄应在35岁周岁及以下（1985年7月1日及以后出生）。 二、相关待遇 按照吉林大学有关规定执行。 三、应聘材料 1.个人简历：包括应聘者基本信息、学习和工作经历、获奖情况、外语水平、参加教学和科研情况； 2.发表的论文全文、检索页（或提供证明材料）； 3.相关证明：包括身份证、学历（学位）证书原件和复印件。 四、应聘方式 应聘人员请于 2020年 5 月 31 日前将应聘材料递交至学院，电子版发送至指定邮箱。经学院初步审核，对符合学院学科发展需要的应聘人员，学院将进行面试考核，考核方式、时间另行通知。 五、聘用方式 学院确定拟录用人选后，按照学校的有关程序办理入职手续。 联系人： 沈思 联系电话： 0431-85166 258 电子邮箱： shensi @jlu.edu.cn 办公地点：吉林省长春市前进大街 2699号吉林大学东荣大厦 807 室。 吉林大学经济学院 吉林大学中国国有经济研究中心 20 20 年 4 月 22 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学经济学院2020年公开招聘专业教师启事"
+          },
+          {
+            "selector": "h1.title",
+            "title": "吉林大学经济学院2020年公开招聘专业教师启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2020-04-23 点击数量:",
+            "date": "2020-04-23"
+          },
+          {
+            "text": "发布时间：2020-04-23",
+            "date": "2020-04-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 888,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学经济学院2020年公开招聘专业教师启事"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2020-04-23 点击数量:",
+            "date": "2020-04-23"
+          },
+          {
+            "text": "发布时间：2020-04-23",
+            "date": "2020-04-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+      "list_title": "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事",
+      "list_date": "2020-04-22",
+      "response": {
+        "url": "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+        "time": "2026-10-15T22:49:18+08:00",
+        "ok": true,
+        "final_url": "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5eead449cfd0af3ec2af4aa9998924cbf0f8f16cc9d1a1858a25f2877bddcca4",
+        "html_path": "html/5eead449cfd0af3ec2af4aa9998924cbf0f8f16cc9d1a1858a25f2877bddcca4.html",
+        "replacement_chars": 0,
+        "chars": 28211,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事",
+        "url": "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+        "publish_date": "2020-04-22",
+        "publisher": null,
+        "content": "根据吉林大学的相关规定，结合实际工作需要，吉林大学经济学院公开招聘 “ 引进海外博士计划 ” 专业教师，现将有关事项公布如下： 一、专业教师招聘条件 ㈠基本条件 1 、热爱中华人民共和国，科学道德高尚，学风严谨，为人正派。 2 、遵守中华人民共和国宪法和法律。 3 、品行端正，素质优良，身体健康。 4 、具备从事经济学相关学科教学、科研的知识基础和工作能力。 ㈡业务条件 1.A 类人员：年龄在 40 周岁以下，在海外知名大学取得博士学位并在国外从事教学和科研工作 2 年以上的人员。 ⑴ 具有良好的学风和扎实的理论基础，已取得了国内外同行认可的研究成果。 ⑵ 近年来在国内外有影响的学术刊物上发表过多篇本学科领域的学术论文，主持或作为主要参加人承担过重要科学研究项目，具有讲授本学科领域核心课程的能力。 ⑶ 近三年来取得的学术成果应达到我校同学科破格聘任教师高级职务的条件。 2.B 类人员：年龄一般应在 35 周岁以下，在海外知名大学取得博士学位。在海外有工作、研究经历的人员年龄可适当放宽。 ⑴ 具有良好的学风和扎实的理论基础，已取得了一定的研究成果。 ⑵ 具有良好的发展潜力，具有讲授本学科领域本科生课程和从事科学研究的能力。 二、聘后待遇 经审核批准后的人员，学校提供以下待遇： 1.A 类人员 ⑴ 提供必要的实验设备经费，原则上不超过 5 万元。 ⑵ 科研启动经费 10 万元（ 学校提供 5 万元，学院配套 5 万元）。 ⑶ 安家费 5 万元（含税）。 ⑷ 购房补贴款 20 万元。 ⑸ 其他待遇按国家和学校的相关规定执行。 2.B 类人员 ⑴ 提供人民币 5 万元安家费（含税）； ⑵ 提供过渡住房或提供三年每月 800 元的租房补贴； ⑶ 科研启动经费 6 万元（学校提供 3 万元，学院配套 3 万元）。 ⑷ 其他待遇按国家和学校的规定执行。 其他高层次人才的引进按照《吉林大学引进优秀人才暂行办法》规定的待遇执行。 三、应聘材料 1 ．求职简历（包括个人基本信息、学习和工作经历、外语水平、参加教学情况、获奖情况、专业知识水平和科研情况、自我综合评价）； 2 ．相关学历（学位）证书、成绩单、相关外语成绩、发表的科研论文、检索页和获奖证书等复印件（原件查验时间另行通知，上交材料复印件不退还本人）。 四、报名及联系方式 符合上述报名资格与条件并志愿申报的应聘人员，请将自荐材料报送到吉林大学经济学院，或将电子版发送至指定邮箱。考核时间、地点及方式另行通知。 联系人：沈思 联系电话： 0431-85166258 邮箱： shensi@jlu.edu.cn 吉林大学经济学院 吉林大学中国国有经济研究中心 20 20 年 4 月 2 2 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事"
+          },
+          {
+            "selector": "h1.title",
+            "title": "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2020-04-22 点击数量:",
+            "date": "2020-04-22"
+          },
+          {
+            "text": "发布时间：2020-04-22",
+            "date": "2020-04-22"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1131,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2020-04-22 点击数量:",
+            "date": "2020-04-22"
+          },
+          {
+            "text": "发布时间：2020-04-22",
+            "date": "2020-04-22"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+        "time": "2026-10-15T22:49:17+08:00",
+        "ok": true,
+        "final_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "43bf0fc8924c62f7113e6cba68c104c201ac0cfae17472896f43df58932fccf3",
+        "html_path": "html/43bf0fc8924c62f7113e6cba68c104c201ac0cfae17472896f43df58932fccf3.html",
+        "replacement_chars": 0,
+        "chars": 12188,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+        "https://jjxy.jlu.edu.cn/info/1240/11940.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "time": "2026-10-15T22:49:17+08:00",
+    "ok": true,
+    "final_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "43bf0fc8924c62f7113e6cba68c104c201ac0cfae17472896f43df58932fccf3",
+    "html_path": "html/43bf0fc8924c62f7113e6cba68c104c201ac0cfae17472896f43df58932fccf3.html",
+    "replacement_chars": 0,
+    "chars": 12188,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学经济学院2020年公开招聘专业教师启事",
+      "url": "https://jjxy.jlu.edu.cn/info/1240/11940.htm",
+      "publish_date": "2020-04-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学经济学院公开招聘“引进海外博士计划”专业教师启事",
+      "url": "https://jjxy.jlu.edu.cn/info/1240/11927.htm",
+      "publish_date": "2020-04-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "recruitment-71ef1c4ae467",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.2999982573091984e-05,
+      "detail_duration_seconds": 8.100061677396297e-06,
+      "parse_db_duration_seconds": 0.02671320002991706
+    },
+    "second_round": {
+      "source": "recruitment-71ef1c4ae467",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.650000922381878e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "recruitment-71ef1c4ae467",
+    "institution": "经济学院",
+    "column": "人才招聘",
+    "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "priority": "P2",
+    "original_status": "新发现未验证",
+    "original_issues": "DISCOVERY_LABEL_MISSED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:49:17+08:00",
+    "review_time": "2026-10-15T23:01:14+08:00",
+    "http_status": 200,
+    "final_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "list_pages": 1,
+    "list_items": 2,
+    "details": 2,
+    "verified_details": 2,
+    "issues": [],
+    "discovery_url": "https://jjxy.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/recruitment-71ef1c4ae467.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

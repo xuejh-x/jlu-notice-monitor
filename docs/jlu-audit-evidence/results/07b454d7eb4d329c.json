@@ -1,0 +1,222 @@
+{
+  "column_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+  "column": "公示信息",
+  "institution": "通信工程学院",
+  "site_url": "https://dce.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://dce.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:42:27+08:00",
+  "checked_at": "2026-10-13T13:55:21+08:00",
+  "status": "部分通过",
+  "issues": [
+    "TITLE_NOT_IN_DETAIL_HEADING",
+    "TITLE_MISMATCH",
+    "ATTACHMENT_MISSING",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+      "list_title": "1 转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概...",
+      "parsed_title": "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示",
+      "document_title": "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示-吉林大学通信工程学院",
+      "heading_texts": [
+        "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示"
+      ],
+      "title_verified": false,
+      "list_date": "2026-10-10",
+      "parsed_date": "2026-10-10",
+      "reference_date": "2026-10-10",
+      "body_selector": ".v_news_content",
+      "content_chars": 403,
+      "content_preview": "根据《关于进一步明确本科生课程考核等有关问题的通知》（校教字[2018]47号）文件有关精神，现对以下课程成绩更正进行公示： 开课学期 2025-2026学年第2学期 课程名称 毛泽东思想和中国特色社会主义理论体系概论 课程号 ae22391004 课序号 71 开课单位 马克思主义学院 任课教师 刘薇,何况,刘薇 联系电话 13843131840 变更理由及 学生基本信息 变更理由：因主观题核算出现错误 通信工程学院通信工程2025级尹翌童24240315 总成绩:83.8 修改为 89.8 公示日期: 2026年_10月_10日至2026年_10月_15日如有异议请于公示期内向本科生院教学运行科反映。 联系人: 邹老师 联系电话: 0431-85168962 相关材料详见附件: 1.吉林大学考核成绩复查、修改登记表 2.学院情况说明（学院教学委员会讨论通过、签字盖章） 3.试卷等相关佐",
+      "content_sha256": "5248972a3cc5a4e2cb5c12072cf9d3f9b90d45e7289c12f03cdb7b2ee7d304bc",
+      "raw_attachments": [
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206923",
+          "filename": "微信图片_20260928135900_20_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206924",
+          "filename": "微信图片_20260928074110_2_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206921",
+          "filename": "微信图片_20260928135901_21_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206929",
+          "filename": "微信图片_20260928074109_1_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206928",
+          "filename": "微信图片_20260928074110_2_5 (1).jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206927",
+          "filename": "微信图片_20260930101853_4_137.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206926",
+          "filename": "微信图片_20260928074111_3_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206925",
+          "filename": "微信图片_20260928074112_4_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206922",
+          "filename": "微信图片_20260928135902_22_5.jpg"
+        }
+      ],
+      "missing_attachments": [
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206923",
+          "filename": "微信图片_20260928135900_20_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206924",
+          "filename": "微信图片_20260928074110_2_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206921",
+          "filename": "微信图片_20260928135901_21_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206929",
+          "filename": "微信图片_20260928074109_1_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206928",
+          "filename": "微信图片_20260928074110_2_5 (1).jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206927",
+          "filename": "微信图片_20260930101853_4_137.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206926",
+          "filename": "微信图片_20260928074111_3_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206925",
+          "filename": "微信图片_20260928074112_4_5.jpg"
+        },
+        {
+          "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206922",
+          "filename": "微信图片_20260928135902_22_5.jpg"
+        }
+      ],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "ATTACHMENT_MISSING"
+      ],
+      "time": "2026-10-13T13:55:22+08:00",
+      "sha256": "b28fa17fbbf412200c5b59d43c6bdbb5e57f2d1b5e55f62041c17b2b6e25e3b0",
+      "snapshot": "html/b28fa17fbbf412200c5b59d43c6bdbb5e57f2d1b5e55f62041c17b2b6e25e3b0.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 4,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "1 转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概...",
+      "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2 转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+      "publish_date": "2026-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "3 转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "4 转发：关于通信工程学院2023级曹郡哲同学无线通信原理课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11423.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 4,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/07b454d7eb4d329c.json",
+  "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; ATTACHMENT_MISSING; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+  "list_sha256": "8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684",
+  "list_snapshot": "html/8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 4,
+  "unparsed_reference_links": []
+}

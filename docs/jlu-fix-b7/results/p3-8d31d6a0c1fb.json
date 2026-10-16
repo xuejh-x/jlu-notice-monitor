@@ -1,0 +1,597 @@
+{
+  "id": "p3-8d31d6a0c1fb",
+  "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+  "institution": "高压与超硬材料全国重点实验室",
+  "column": "招聘信息",
+  "site_url": "http://nlshm-lab.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/8d31d6a0c1fbc8e1.json",
+  "original_capture_time": "2026-10-13T14:04:37+08:00",
+  "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-8d31d6a0c1fb",
+    "name": "高压与超硬材料全国重点实验室 / 招聘信息",
+    "base_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:02+08:00",
+  "details": [
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+      "list_title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示",
+      "list_date": "2023-09-20",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+        "time": "2026-10-15T22:13:56+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "7eda603baf9a32873204ca79f7a9531ec48749ed010487f71ec2da15be9f54d8",
+        "html_path": "html/7eda603baf9a32873204ca79f7a9531ec48749ed010487f71ec2da15be9f54d8.html",
+        "replacement_chars": 0,
+        "chars": 23306,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+        "publish_date": "2023-09-20",
+        "publisher": "本站",
+        "content": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示 根据学校有关规定及《吉林大学2023年度公开招聘专业技术人员工作方案》（校人字〔2023〕65号）的具体要求，经考核，确定袁晓红、李炳谈为拟聘人选。 现对拟聘人选进行公示。公示期为2023年9月20日至2023年9月27日。如对上述人选有异议，请在公示期内具实名以书面形式向超硬材料国家重点实验室反映。如拟聘人选报名信息及相关证明材料不真实，或未能达到招聘启事相关要求的，一经发现，随时取消其应聘或聘用资格。 联系人：李志慧 联系电话：0431-85168276 电子邮箱：zhihui@jlu.edu.cn 联系地址： 吉林省长春市前进大街2699号 吉林大学超硬材料国家重点实验室B405室 超硬材料国家重点实验室 2023年9月20日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "来源：本站 发布时间：2023-09-20 浏览次数： 次",
+            "date": "2023-09-20"
+          },
+          {
+            "text": "发布时间：2023-09-20",
+            "date": "2023-09-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 354,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示 来源：本站 发布时间：2023-09-20 浏览次数： 次",
+            "date": "2023-09-20"
+          },
+          {
+            "text": "来源：本站 发布时间：2023-09-20 浏览次数： 次",
+            "date": "2023-09-20"
+          },
+          {
+            "text": "发布时间：2023-09-20",
+            "date": "2023-09-20"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+      "list_title": "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单",
+      "list_date": "2023-07-09",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+        "time": "2026-10-15T22:13:57+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3fa619f41ef6d525baf9a6567a27ab7fb0798f91001a144a62cdf4b0db16361e",
+        "html_path": "html/3fa619f41ef6d525baf9a6567a27ab7fb0798f91001a144a62cdf4b0db16361e.html",
+        "replacement_chars": 0,
+        "chars": 23493,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+        "publish_date": "2023-07-09",
+        "publisher": "本站",
+        "content": "根据《吉林大学2023年度公开招聘专业技术人员工作方案》和吉林大学“2023年人员补充计划”，经基本素质考察环节，确定高珊等8人为通过基本素质考察人选（具体名单见附件），专业技术能力测试由超硬材料国家重点实验室自行组织，具体要求及时间地点另行通知，请考生保持通讯畅通。 联系人：李老师 联系电话：0431-85168276 附件：2023年度超硬材料国家重点实验室自主招聘专业技术人员通过基本素质考察考生名单",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "来源：本站 发布时间：2023-07-09 浏览次数： 次",
+            "date": "2023-07-09"
+          },
+          {
+            "text": "发布时间：2023-07-09",
+            "date": "2023-07-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 204,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单 来源：本站 发布时间：2023-07-09 浏览次数： 次",
+            "date": "2023-07-09"
+          },
+          {
+            "text": "来源：本站 发布时间：2023-07-09 浏览次数： 次",
+            "date": "2023-07-09"
+          },
+          {
+            "text": "发布时间：2023-07-09",
+            "date": "2023-07-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+      "list_title": "超硬材料国家重点实验室2023年度招聘专业技术人员启事",
+      "list_date": "2023-06-30",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+        "time": "2026-10-15T22:13:58+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b09d350c4e57d691d7624692c93c142803a64afc551e2e3e917a581b4c804a40",
+        "html_path": "html/b09d350c4e57d691d7624692c93c142803a64afc551e2e3e917a581b4c804a40.html",
+        "replacement_chars": 0,
+        "chars": 25077,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "超硬材料国家重点实验室2023年度招聘专业技术人员启事",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+        "publish_date": "2023-06-30",
+        "publisher": "本站",
+        "content": "根据《吉林大学新聘人员聘用管理办法》、《吉林大学超硬材料国家重点实验室2023年专业技术人员招聘工作实施方案》，为进一步推进超硬材料国家重点实验室大型仪器设备的维护和使用，实验室面向社会公开招聘专业技术人员，现将招聘有关事宜公布如下。 一、招聘岗位类别及人数 实验岗位（初级或中级），2人，硕士研究生毕业并取得相应学位的新聘专业技术人员，聘用到初级岗位；博士研究生毕业并取得相应学位的新聘专业技术人员，聘用到中级岗位。 二、招聘条件 1、有较高的政治思想水平，有强烈的事业心和责任感，爱岗敬业，勤奋踏实，吃苦耐劳，有良好的团结协作精神和奉献精神。 2、具有硕士及以上研究生学历，并且取得相应学位。 3、年龄条件，年龄未满30周岁（1993年1月1日及以后出生）；博士研究生毕业并取得博士学位的，年龄未满35周岁（1988年1月1日及以后出生）。 4、专业要求：电子、材料、机械、物理等专业，从事高压科学研究方向者优先。 5、有较强的的科研能力，能够熟练操作大型科研仪器，精通计算机，能够进行机群管理并熟练使用科研软件。 具有搭建和维护大腔体压机仪器设备，丰富计算机集群管理者优先。 三、岗位职责 1、实验室科学仪器操作、维护、改进及平台建设， 计算机集群管理等工作。 2、实验室安全、物资管理等工作。 3、人员培训与服务等工作。 四、报名方式 应聘人员填写《吉林大学超硬材料国家重点实验室招聘专业技术岗报名表》，提供本人相关学历（学位）证书、成绩单、发表的论文、授权专利和获奖证书等原件及PDF文档。 应聘人员请于2023年7月7日（星期五）16点前持应聘材料原件到超硬材料国家重点实验室B405室报名，将报名表电子版及其他佐证材料扫描件（均为PDF格式）发送至指定邮箱（附后）。 五、考核内容和形式 1、资格审查 实验室成立2023年度公开招聘专业技术人员工作组，资格审查合格的应聘人员方可进入考核环节。 2、专业技能测试 专业技能测试包含笔试、实践操作、面试三部分，内容应为招聘岗位所必需的专业知识、业务能力和工作技能。按照专业技术能力测试成绩由高到低的顺序，原则上按该岗位聘人数3:1的比例确定拟推荐人选，如进入该环节人数不足该岗位招聘人数3倍，按实际进入该环节人数确定拟推荐人选。 3、综合面试：面试内容包括自我介绍和现场提问。按照综合面试成绩由高到低的顺序，按该岗位招聘人数1:1的比例确定推荐人选。 4、政审 实验室对其政治思想、道德品质、业务能力、工作实绩、遵纪守法等情况进行政审。政审不合格的，取消考察人选资格，政审过程中弄虚作假、隐瞒重要病史或违法违纪情况等导致体检、政审结果不实的，取消聘用资格。 各环节时间、地点实验室另行通知。 六、公示及确定招聘结果 对于通过体检及政审的考察人选，经相关会议审议通过后，对应聘人选进行公示。经公示无异议的、或虽有异议但不影响聘用的，确定为聘用人选，按学校相关规定办理入职手续。 七、聘用管理 新聘专业技术人员按人事代理方式聘用管理，与学校签订固定期限聘用合同，首聘期为三年（含试用期）。首聘期聘期考核结果为“优秀”等次的，可续聘三年，并由人事代理方式转为学校直接管理；考核结果为“合格”等次的，可续聘三年，继续按人事代理方式进行管理；考核结果为“不合格”等次的，学校不再聘用。连续两个聘期考核结果均为“合格”及以上等次的，可与学校签订长期聘用合同；聘期考核结果为“不合格”等次的，学校不再聘用。具体待遇按照学校有关规定执行。 报名及联系方式联系人：李老师 联系电话：0431-85168276 电子邮箱：zhihui@jlu.edu.cn 办公地点：超硬实验综合楼B405室 附件：吉林大学超硬材料国家重点实验室招聘专业技术岗报名表 超硬材料国家重点实验室 2023年6月30日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "超硬材料国家重点实验室2023年度招聘专业技术人员启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "来源：本站 发布时间：2023-06-30 浏览次数： 次",
+            "date": "2023-06-30"
+          },
+          {
+            "text": "发布时间：2023-06-30",
+            "date": "2023-06-30"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1568,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "超硬材料国家重点实验室2023年度招聘专业技术人员启事"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "超硬材料国家重点实验室2023年度招聘专业技术人员启事 来源：本站 发布时间：2023-06-30 浏览次数： 次",
+            "date": "2023-06-30"
+          },
+          {
+            "text": "来源：本站 发布时间：2023-06-30 浏览次数： 次",
+            "date": "2023-06-30"
+          },
+          {
+            "text": "发布时间：2023-06-30",
+            "date": "2023-06-30"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+        "time": "2026-10-15T22:13:54+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0d01bd79f34eff8c27311a2649d63294d1d7746a00e7d07451835389523a5cea",
+        "html_path": "html/0d01bd79f34eff8c27311a2649d63294d1d7746a00e7d07451835389523a5cea.html",
+        "replacement_chars": 0,
+        "chars": 23296,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1151.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1155.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1156.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1157.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "time": "2026-10-15T22:13:54+08:00",
+    "ok": true,
+    "final_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "0d01bd79f34eff8c27311a2649d63294d1d7746a00e7d07451835389523a5cea",
+    "html_path": "html/0d01bd79f34eff8c27311a2649d63294d1d7746a00e7d07451835389523a5cea.html",
+    "replacement_chars": 0,
+    "chars": 23296,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+      "publish_date": "2023-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2023年度超硬材料国家重点实验室自主招聘专业技术人员 通过基本素质考察考生名单",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+      "publish_date": "2023-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2023年度招聘专业技术人员启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+      "publish_date": "2023-06-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学超硬材料国家重点实验室2023年专业技术人员招聘工作专业技术能力测试阶段相关考核的通知",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1151.htm",
+      "publish_date": "2023-04-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室招聘专业教师的启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1157.htm",
+      "publish_date": "2018-11-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学综合极端条件实验装置吉林分部项目综合办公室2018年专业教师招聘启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1156.htm",
+      "publish_date": "2018-04-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2017年公开招聘专业教师的启示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1155.htm",
+      "publish_date": "2017-12-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 7,
+  "pagination": [
+    {
+      "start_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-8d31d6a0c1fb",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7700018361210823e-05,
+      "detail_duration_seconds": 8.100061677396297e-06,
+      "parse_db_duration_seconds": 0.029785300022922456
+    },
+    "second_round": {
+      "source": "p3-8d31d6a0c1fb",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7799902707338333e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-8d31d6a0c1fb",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "招聘信息",
+    "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "priority": "P3",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:13:54+08:00",
+    "review_time": "2026-10-15T23:01:02+08:00",
+    "http_status": 200,
+    "final_url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "list_pages": 1,
+    "list_items": 7,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-8d31d6a0c1fb.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

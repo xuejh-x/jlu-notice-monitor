@@ -1,0 +1,32 @@
+{
+  "time": "2026-10-15T19:54:48+08:00",
+  "entries": 164,
+  "verdicts": {
+    "VERIFIED_EMPTY_COLUMN": 19,
+    "LOGIN_REFERENCE_OA_DEFERRED": 1,
+    "LIST_OR_PAGINATION_UNSUPPORTED": 138,
+    "PERMISSION_RESTRICTED": 1,
+    "SINGLE_ARTICLE_REFERENCE": 1,
+    "ACCESS_BLOCKED": 2,
+    "SAMPLE_REVIEW_REQUIRED": 2
+  },
+  "statuses": {
+    "当前空栏目": 19,
+    "无需作为公开栏目适配": 1,
+    "待修复或证据不足": 140,
+    "权限受限": 1,
+    "无需作为栏目适配": 1,
+    "受阻": 2
+  },
+  "details": 394,
+  "verified_details": 386,
+  "list_pages": 247,
+  "list_items": 2983,
+  "isolated_replays": 0,
+  "http_attempts_this_session": 0,
+  "requests_cached": 719,
+  "application_db_connections": 0,
+  "cloud_production_verified": false,
+  "complete_downloads": 0,
+  "oa_requests": 0
+}

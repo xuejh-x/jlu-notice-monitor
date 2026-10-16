@@ -1,0 +1,87 @@
+{
+  "time": "2026-10-14T15:42:51.955221+08:00",
+  "rows": 68,
+  "snapshot_hash_checks": 145,
+  "all_list_url_sets_unchanged": 68,
+  "navigation_false_candidates": 0,
+  "positive_controls": [
+    {
+      "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": true
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/jxxx.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": true
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": true
+    },
+    {
+      "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": true
+    },
+    {
+      "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+      "list_urls_unchanged": true,
+      "title_date_acceptance_unchanged": true,
+      "original_text_preserved": true,
+      "image_links_added": false
+    }
+  ],
+  "positive_image_link_enrichments": 5
+}

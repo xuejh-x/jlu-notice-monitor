@@ -1,0 +1,845 @@
+{
+  "id": "p2-3a297f3e8e8a",
+  "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+  "institution": "马克思主义学院",
+  "column": "招生信息",
+  "site_url": "https://marx.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/3a297f3e8e8a6e2b.json",
+  "discovery_url": "https://marx.jlu.edu.cn/",
+  "original_snapshot": "html/0c0a9f9a48e1404623ca0cfadd838c494fe7d81fb4502c1be4a400b076f6fa79.html",
+  "original_capture_time": "2026-10-13T13:58:40+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-3a297f3e8e8a",
+    "name": "马克思主义学院 / 招生信息",
+    "base_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:58+08:00",
+  "details": [
+    {
+      "url": "https://marx.jlu.edu.cn/info/1046/10092.htm",
+      "list_title": "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知",
+      "list_date": "2026-09-21",
+      "response": {
+        "url": "https://marx.jlu.edu.cn/info/1046/10092.htm",
+        "time": "2026-10-15T19:39:04+08:00",
+        "ok": true,
+        "final_url": "https://marx.jlu.edu.cn/info/1046/10092.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c23d8cb11eda4b13a18a335763b7b2015243d10cb9b513bd827288c6f14194ad",
+        "html_path": "html/c23d8cb11eda4b13a18a335763b7b2015243d10cb9b513bd827288c6f14194ad.html",
+        "replacement_chars": 0,
+        "chars": 44651,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知",
+        "url": "https://marx.jlu.edu.cn/info/1046/10092.htm",
+        "publish_date": "2026-09-21",
+        "publisher": "查看人次：",
+        "content": "经马克思主义学院资格审查小组对考生的资格进行审核，学院研究生招生领导小组进行审查确认，各专业（方向）考核组进行考核，现对 2027年马克思主义学院各专业（方向）推荐免试攻读研究生复试成绩（由高到低）进行公布（附件1）。 1.公示日期 9月22日-9月24日 2.咨询方式 联系人:王老师 联系邮箱: tuimian2027@126.com 联系电话:85151810",
+        "attachments": [
+          {
+            "filename": "附件1：26年9月推免复试成绩.xlsx",
+            "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18200765",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-21",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "发布日期：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 183,
+        "reference_attachment_urls": [
+          "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18200765"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知 作者： 查看人次： 发布日期：2026-09-21",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-21",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "发布日期：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://marx.jlu.edu.cn/info/1046/10077.htm",
+      "list_title": "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知",
+      "list_date": "2026-09-16",
+      "response": {
+        "url": "https://marx.jlu.edu.cn/info/1046/10077.htm",
+        "time": "2026-10-15T19:39:05+08:00",
+        "ok": true,
+        "final_url": "https://marx.jlu.edu.cn/info/1046/10077.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e85442d92941e229e0965a977e18b77683e830808e25d8969958a9b5e2f55155",
+        "html_path": "html/e85442d92941e229e0965a977e18b77683e830808e25d8969958a9b5e2f55155.html",
+        "replacement_chars": 0,
+        "chars": 43254,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知",
+        "url": "https://marx.jlu.edu.cn/info/1046/10077.htm",
+        "publish_date": "2026-09-16",
+        "publisher": "查看人次：",
+        "content": "《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》、2027年马克思主义学院硕士研究生推免目录、 2027年马克思主义学院直博生推免目录 (见附件）",
+        "attachments": [
+          {
+            "filename": "2027年马克思主义学院硕士研究生推免目录.pdf",
+            "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198071",
+            "type": "pdf"
+          },
+          {
+            "filename": "2027年马克思主义学院直博生推免目录.pdf",
+            "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198072",
+            "type": "pdf"
+          },
+          {
+            "filename": "马克思主义学院 2027年接收推荐免试攻读硕士研究生复试录取工作办法.pdf",
+            "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198073",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-16",
+            "date": "2026-09-16"
+          },
+          {
+            "text": "发布日期：2026-09-16",
+            "date": "2026-09-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 84,
+        "reference_attachment_urls": [
+          "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198071",
+          "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198072",
+          "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18198073"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知 作者： 查看人次： 发布日期：2026-09-16",
+            "date": "2026-09-16"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-16",
+            "date": "2026-09-16"
+          },
+          {
+            "text": "发布日期：2026-09-16",
+            "date": "2026-09-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://marx.jlu.edu.cn/info/1046/9970.htm",
+      "list_title": "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知",
+      "list_date": "2026-06-03",
+      "response": {
+        "url": "https://marx.jlu.edu.cn/info/1046/9970.htm",
+        "time": "2026-10-15T19:39:06+08:00",
+        "ok": true,
+        "final_url": "https://marx.jlu.edu.cn/info/1046/9970.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "75651603a06d099994a418828dc8349ae8a68427e63cc3101240a132c15a83b7",
+        "html_path": "html/75651603a06d099994a418828dc8349ae8a68427e63cc3101240a132c15a83b7.html",
+        "replacement_chars": 0,
+        "chars": 48918,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知",
+        "url": "https://marx.jlu.edu.cn/info/1046/9970.htm",
+        "publish_date": "2026-06-03",
+        "publisher": "查看人次：",
+        "content": "按照学校工作部署，现公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单，具体信息见附件。 一、公示日期 2026 年 6 月 3 日 -2026 年 6 月 5 日 二、咨询电话 联系人：王老师 联系电话： 0431-85151810 联系邮箱： mkszskh@163.com 三、投诉及举报 如有异议，可在公示期内及时向学院反映情况。 联系信箱： mksyzjw@163.com",
+        "attachments": [
+          {
+            "filename": "附件1：拟录取名单.xlsx",
+            "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18132795",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-06-03",
+            "date": "2026-06-03"
+          },
+          {
+            "text": "发布日期：2026-06-03",
+            "date": "2026-06-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 319,
+        "reference_attachment_urls": [
+          "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18132795"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知 作者： 查看人次： 发布日期：2026-06-03",
+            "date": "2026-06-03"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-06-03",
+            "date": "2026-06-03"
+          },
+          {
+            "text": "发布日期：2026-06-03",
+            "date": "2026-06-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+        "time": "2026-10-15T19:28:57+08:00",
+        "ok": true,
+        "final_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0c0a9f9a48e1404623ca0cfadd838c494fe7d81fb4502c1be4a400b076f6fa79",
+        "html_path": "html/0c0a9f9a48e1404623ca0cfadd838c494fe7d81fb4502c1be4a400b076f6fa79.html",
+        "replacement_chars": 0,
+        "chars": 45996,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://marx.jlu.edu.cn/info/1046/10016.htm",
+        "https://marx.jlu.edu.cn/info/1046/10076.htm",
+        "https://marx.jlu.edu.cn/info/1046/10077.htm",
+        "https://marx.jlu.edu.cn/info/1046/10092.htm",
+        "https://marx.jlu.edu.cn/info/1046/9972.htm",
+        "https://marx.jlu.edu.cn/info/1046/9978.htm",
+        "https://marx.jlu.edu.cn/info/1046/9979.htm",
+        "https://marx.jlu.edu.cn/info/1046/9983.htm"
+      ],
+      "observed_next_urls": [
+        "https://marx.jlu.edu.cn/rcpy/zsgz/32.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://marx.jlu.edu.cn/rcpy/zsgz/32.htm",
+        "time": "2026-10-15T19:39:03+08:00",
+        "ok": true,
+        "final_url": "https://marx.jlu.edu.cn/rcpy/zsgz/32.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dda769cb7394337db6693f8b65f0ee30ae8310327185364e09ec7acd928005ce",
+        "html_path": "html/dda769cb7394337db6693f8b65f0ee30ae8310327185364e09ec7acd928005ce.html",
+        "replacement_chars": 0,
+        "chars": 46731,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://marx.jlu.edu.cn/info/1046/9921.htm",
+        "https://marx.jlu.edu.cn/info/1046/9929.htm",
+        "https://marx.jlu.edu.cn/info/1046/9942.htm",
+        "https://marx.jlu.edu.cn/info/1046/9970.htm",
+        "https://yjsy.jlu.edu.cn/info/1010/6372.htm",
+        "https://yjsy.jlu.edu.cn/info/1010/6395.htm",
+        "https://yjsy.jlu.edu.cn/info/1010/6397.htm",
+        "https://yjsy.jlu.edu.cn/info/1010/6398.htm"
+      ],
+      "observed_next_urls": [
+        "https://marx.jlu.edu.cn/rcpy/zsgz/31.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "time": "2026-10-15T19:28:57+08:00",
+    "ok": true,
+    "final_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "0c0a9f9a48e1404623ca0cfadd838c494fe7d81fb4502c1be4a400b076f6fa79",
+    "html_path": "html/0c0a9f9a48e1404623ca0cfadd838c494fe7d81fb4502c1be4a400b076f6fa79.html",
+    "replacement_chars": 0,
+    "chars": 45996,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于对2027年马克思主义学院推荐免试攻读研究生考核成绩进行公布的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/10092.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布《马克思主义学院2027年接收推荐免试攻读硕士研究生复试录取工作办法》的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/10077.htm",
+      "publish_date": "2026-09-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于马克思主义学院2027年接收推荐免试攻读硕士研究生预报名的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/10076.htm",
+      "publish_date": "2026-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布马克思主义学院2027年招收优秀应届本科毕业生直接攻读博士学位研究生预选合格学生名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/10016.htm",
+      "publish_date": "2026-06-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2026年马克思主义学院博士研究生“中华优秀传统文化专项计划”招生综合考核成绩及拟录取名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9983.htm",
+      "publish_date": "2026-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学劳动关系研究院2026年博士研究生“申请考核制” 综合考核成绩及拟录取名单（非全日制）的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9979.htm",
+      "publish_date": "2026-06-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2026年马克思主义学院博士研究生“中华优秀传统文化专项计划”招生材料资格审核通过进入综合考核名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9978.htm",
+      "publish_date": "2026-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布马克思主义学院2026年博士研究生“高校思想政治工作骨干在职攻读博士学位专项计划”综合考核拟录取名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9972.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布马克思主义学院2026年博士研究生“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”、“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业综合考核拟录取名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9970.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2026年马克思主义学院博士研究生 “高校思想政治工作骨干在职攻读博士学位专项计划”、“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”，“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心”及马克思主义中国化研究专业、中共党史党建学专业招生材料资格审核通过进入综合考核名单的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9942.htm",
+      "publish_date": "2026-05-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于马克思主义学院2026年“中华优秀传统文化专项计划”博士研究生招生的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9929.htm",
+      "publish_date": "2026-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于马克思主义学院2026年博士研究生“高校思想政治工作骨干在职攻读博士学位专项计划”、“高校思想政治理论课教师在职攻读马克思主义理论博士学位专项”资格审查通过，2026年博士研究生“吉林省省属高校教师培养计划”、“对口支援西部高校专项计划”、“对口支援延边大学专项计划”、“对口支援部省合建专项计划”、“学科交叉中心专项”及马克思主义中国化研究专业和中共党史党建学专业招生的通知",
+      "url": "https://marx.jlu.edu.cn/info/1046/9921.htm",
+      "publish_date": "2026-05-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年“对口支援西部高校专项计划”博士研究生招生简章",
+      "url": "https://yjsy.jlu.edu.cn/info/1010/6395.htm",
+      "publish_date": "2026-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年“吉林省省属高校教师培养计划”博士研究生招生简章",
+      "url": "https://yjsy.jlu.edu.cn/info/1010/6372.htm",
+      "publish_date": "2026-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年“对口支援延边大学专项计划”博士研究生招生简章",
+      "url": "https://yjsy.jlu.edu.cn/info/1010/6398.htm",
+      "publish_date": "2026-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年“对口支援部省合建专项计划”博士研究生招生简章",
+      "url": "https://yjsy.jlu.edu.cn/info/1010/6397.htm",
+      "publish_date": "2026-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://marx.jlu.edu.cn/rcpy/zsgz/32.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [
+    "https://yjsy.jlu.edu.cn/info/1010/6395.htm",
+    "https://yjsy.jlu.edu.cn/info/1010/6372.htm",
+    "https://yjsy.jlu.edu.cn/info/1010/6398.htm",
+    "https://yjsy.jlu.edu.cn/info/1010/6397.htm"
+  ],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-3a297f3e8e8a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.110004425048828e-05,
+      "detail_duration_seconds": 9.300070814788342e-06,
+      "parse_db_duration_seconds": 0.03892520000226796
+    },
+    "second_round": {
+      "source": "p2-3a297f3e8e8a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5900004655122757e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-3a297f3e8e8a",
+    "institution": "马克思主义学院",
+    "column": "招生信息",
+    "url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:57+08:00",
+    "review_time": "2026-10-15T20:20:58+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 16,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-3a297f3e8e8a.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

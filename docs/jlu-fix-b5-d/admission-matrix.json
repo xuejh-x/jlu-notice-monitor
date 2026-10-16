@@ -1,0 +1,1711 @@
+[
+  {
+    "id": "existing-cse-0",
+    "institution": "吉林大学网络安全学院",
+    "column": "学院通知",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "FILE_PREFIX_VERIFIED",
+    "attachment_evidence": {
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "complete_download_verified": false,
+      "read_bytes": 4096,
+      "expected_type": "pdf",
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "pdf"
+      ],
+      "url": "https://cse.jlu.edu.cn/__local/4/B0/98/35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf",
+      "captured_at": "2026-10-15T19:04:20+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "LIVE_BOUNDED_PREFIX",
+      "prefix_evidence": "docs/jlu-fix-b5-d/live-20261015/prefix/481477aa3a7290d9eea54cfdf9f71f803f3022864bf899ba35fee69733d95287.bin",
+      "response_headers": {
+        "content-type": "application/pdf",
+        "content-range": "bytes 0-4095/3888086",
+        "content-length": "4096"
+      },
+      "range_header_available": true
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf",
+        "url": "https://cse.jlu.edu.cn/__local/4/B0/98/35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf",
+        "type": "pdf",
+        "article_url": "https://cse.jlu.edu.cn/info/1003/1358.htm",
+        "article_captured_at": "2026-10-14T23:16:24+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/7419c35c63d1070369620233cd005508c982522afa3c8113472a9a6c6855d910.html",
+        "article_sha256": "7419c35c63d1070369620233cd005508c982522afa3c8113472a9a6c6855d910"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-cse-1",
+    "institution": "吉林大学网络安全学院",
+    "column": "本科教学通知",
+    "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "NO_ATTACHMENT_IN_BOUNDED_SAMPLE",
+    "attachment_evidence": null,
+    "extracted_attachment_references": [],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-ccst-0",
+    "institution": "吉林大学计算机科学与技术学院",
+    "column": "教学通知",
+    "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+      "captured_at": "2026-10-14T16:02:10+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B3",
+      "prefix_evidence": "docs/jlu-fix-b3/attachments-20261014/prefix/93646cb4d355123e9d52f403cc8d26b249cfe19b4d6b5a469f95e6c41ad021a6.bin",
+      "original_probe": {
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+        "time": "2026-10-14T16:02:10+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "docx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:02:11+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/93646cb4d355123e9d52f403cc8d26b249cfe19b4d6b5a469f95e6c41ad021a6.bin",
+        "prefix_sha256": "93646cb4d355123e9d52f403cc8d26b249cfe19b4d6b5a469f95e6c41ad021a6",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "institution": "计算机学院办公文档",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+        "filename": "程序设计类竞赛学生课程免修申请表（最新）.docx",
+        "type": "docx",
+        "evidence_directory": "docs/jlu-fix-b3/attachments-20261014"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "docx",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "程序设计类竞赛学生课程免修申请表（最新）.docx",
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+        "type": "docx",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+        "article_captured_at": "2026-10-14T23:17:04+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/097bbe25827908c4028841a07e67f6d4165499ea494f9488df2dd13b25b40b56.html",
+        "article_sha256": "097bbe25827908c4028841a07e67f6d4165499ea494f9488df2dd13b25b40b56"
+      },
+      {
+        "filename": "2023唐班.xlsx",
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18192536",
+        "type": "xlsx",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21167.htm",
+        "article_captured_at": "2026-10-14T23:17:05+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21.html",
+        "article_sha256": "e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21"
+      },
+      {
+        "filename": "2023计算机.xlsx",
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18192535",
+        "type": "xlsx",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21167.htm",
+        "article_captured_at": "2026-10-14T23:17:05+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21.html",
+        "article_sha256": "e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21"
+      },
+      {
+        "filename": "2023网安.xlsx",
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18192538",
+        "type": "xlsx",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21167.htm",
+        "article_captured_at": "2026-10-14T23:17:05+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21.html",
+        "article_sha256": "e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21"
+      },
+      {
+        "filename": "2023物联网.xlsx",
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18192537",
+        "type": "xlsx",
+        "article_url": "https://ccst.jlu.edu.cn/info/1056/21167.htm",
+        "article_captured_at": "2026-10-14T23:17:05+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21.html",
+        "article_sha256": "e629636d8321324b51953b9f8d5ddd6c46ab616e8dfba71b3e1df3b3ad55be21"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-csw-0",
+    "institution": "吉林大学软件学院",
+    "column": "学院通知",
+    "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "pdf",
+      "reason": "Verification page; no captcha submission or bypass",
+      "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331",
+      "captured_at": "2026-10-15T19:04:22+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "LIVE_BOUNDED_PREFIX",
+      "prefix_evidence": "docs/jlu-fix-b5-d/live-20261015/prefix/bfb22c2cd036b143a42f6ec04633759079e882cd19a695ef296b7a47af19da7e.bin",
+      "response_headers": {
+        "content-type": "text/html;charset=UTF-8",
+        "content-range": "bytes 0-1347/1348",
+        "content-length": "1348"
+      },
+      "range_header_available": true
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "附件2：吉林大学软件学院关于 “开源贡献之星” 奖励计划的评审细则.pdf",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331",
+        "type": "pdf",
+        "article_url": "https://csw.jlu.edu.cn/info/1009/8158.htm",
+        "article_captured_at": "2026-10-14T23:17:07+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f.html",
+        "article_sha256": "370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f"
+      },
+      {
+        "filename": "附件1：“开源贡献之星”奖励计划申报表.docx",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678330",
+        "type": "docx",
+        "article_url": "https://csw.jlu.edu.cn/info/1009/8158.htm",
+        "article_captured_at": "2026-10-14T23:17:07+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f.html",
+        "article_sha256": "370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f"
+      },
+      {
+        "filename": "2022年软件学院优秀大学生夏令营入营名单.pdf",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=11324194",
+        "type": "pdf",
+        "article_url": "https://csw.jlu.edu.cn/info/1009/5832.htm",
+        "article_captured_at": "2026-10-14T23:23:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b17a179123aef77d0532a9b42c2559a287e5f6c396ba85bdb638c2479631f7b8.html",
+        "article_sha256": "b17a179123aef77d0532a9b42c2559a287e5f6c396ba85bdb638c2479631f7b8"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-csw-1",
+    "institution": "吉林大学软件学院",
+    "column": "教办通知",
+    "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+      "captured_at": "2026-10-14T16:02:00+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B3",
+      "prefix_evidence": "docs/jlu-fix-b3/attachments-20261014/prefix/768708ebebf4fab4552e11d63865eed00ac490b8e1425ba7260e63896d8ab764.bin",
+      "original_probe": {
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+        "time": "2026-10-14T16:02:00+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "jpg",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:02:01+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/768708ebebf4fab4552e11d63865eed00ac490b8e1425ba7260e63896d8ab764.bin",
+        "prefix_sha256": "768708ebebf4fab4552e11d63865eed00ac490b8e1425ba7260e63896d8ab764",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "institution": "软件教办图片附件",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "filename": "ddf24a8325bda1f59f473281f52900c6.jpg",
+        "type": "jpg",
+        "evidence_directory": "docs/jlu-fix-b3/attachments-20261014"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "jpg",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "程序设计类竞赛学生课程免修申请表20261010.docx",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+        "type": "docx",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8553.htm",
+        "article_captured_at": "2026-10-14T23:17:10+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43.html",
+        "article_sha256": "7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43"
+      },
+      {
+        "filename": "ddf24a8325bda1f59f473281f52900c6.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      },
+      {
+        "filename": "5cccf4e596d733b60216144dacf48452.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      },
+      {
+        "filename": "bc5dd0e93bd9255d4cc4ba4293643483.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      },
+      {
+        "filename": "751da56fc5d10632b944a166f61c54ce.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      },
+      {
+        "filename": "3b1e10229ae339ec3016c42eb18ec153.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      },
+      {
+        "filename": "b62d2c48924942d6fe5107657136599e.jpg",
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740",
+        "type": "jpg",
+        "article_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "article_captured_at": "2026-10-14T23:17:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+        "article_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-jwc-0",
+    "institution": "吉林大学本科生院",
+    "column": "通知公告",
+    "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+      "captured_at": "2026-10-14T16:02:14+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B3",
+      "prefix_evidence": "docs/jlu-fix-b3/attachments-20261014/prefix/2bd448f6de4dc283c43280295b96767c99c664171fb0ab6babdfe77925bf9727.bin",
+      "original_probe": {
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+        "time": "2026-10-14T16:02:14+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "xls",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:02:14+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/2bd448f6de4dc283c43280295b96767c99c664171fb0ab6babdfe77925bf9727.bin",
+        "prefix_sha256": "2bd448f6de4dc283c43280295b96767c99c664171fb0ab6babdfe77925bf9727",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "institution": "教务表格",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+        "filename": "人数不足停开办理 .xls",
+        "type": "xls",
+        "evidence_directory": "docs/jlu-fix-b3/attachments-20261014"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "xls",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "人数不足停开办理 .xls",
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+        "type": "xls",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+        "article_captured_at": "2026-10-14T23:17:16+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc.html",
+        "article_sha256": "1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc"
+      },
+      {
+        "filename": "科级岗位自荐报名表.doc",
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18129787",
+        "type": "doc",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+        "article_captured_at": "2026-10-14T23:17:17+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/6a8c07dacacbe8ac74282defb73383a79032dc8625fe61e9dfabaafb69a4b1d8.html",
+        "article_sha256": "6a8c07dacacbe8ac74282defb73383a79032dc8625fe61e9dfabaafb69a4b1d8"
+      },
+      {
+        "filename": "附件2.智慧树（知到）学习指南.pptx",
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=13133113",
+        "type": "pptx",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/11510.htm",
+        "article_captured_at": "2026-10-14T23:17:18+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c.html",
+        "article_sha256": "e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c"
+      },
+      {
+        "filename": "附件3.在线学堂（学习通、尔雅课程）学习指南.pptx",
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=13133114",
+        "type": "pptx",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/11510.htm",
+        "article_captured_at": "2026-10-14T23:17:18+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c.html",
+        "article_sha256": "e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c"
+      },
+      {
+        "filename": "附件1.2023-2024学年秋季学期校外线上通识课程开课计划.xls",
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=13133111",
+        "type": "xls",
+        "article_url": "https://jwc.jlu.edu.cn/info/1050/11510.htm",
+        "article_captured_at": "2026-10-14T23:17:18+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c.html",
+        "article_sha256": "e25a5b1bf77952558c61017c5e59973d46b70ef86d104ea3948fd42b88b1378c"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-innovation-0",
+    "institution": "吉林大学创新创业教育学院",
+    "column": "通知公告",
+    "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+      "captured_at": "2026-10-14T16:02:17+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B3",
+      "prefix_evidence": "docs/jlu-fix-b3/attachments-20261014/prefix/01f2675ea2494e85a3c164c56f979691a655df6ac32c74e39e6a7ae572e10886.bin",
+      "original_probe": {
+        "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+        "time": "2026-10-14T16:02:17+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "pdf",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:02:19+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/01f2675ea2494e85a3c164c56f979691a655df6ac32c74e39e6a7ae572e10886.bin",
+        "prefix_sha256": "01f2675ea2494e85a3c164c56f979691a655df6ac32c74e39e6a7ae572e10886",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "institution": "创新创业附件",
+        "article_url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+        "filename": "吉林大学2026年中美青年创客大赛校赛获奖名单.pdf",
+        "type": "pdf",
+        "evidence_directory": "docs/jlu-fix-b3/attachments-20261014"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "pdf",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "吉林大学2026年中美青年创客大赛校赛获奖名单.pdf",
+        "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+        "type": "pdf",
+        "article_url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+        "article_captured_at": "2026-10-14T23:17:20+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd.html",
+        "article_sha256": "66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd"
+      },
+      {
+        "filename": "附件：吉林大学国家级创新创业学院教材建设项目申请书.docx",
+        "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=14951676",
+        "type": "docx",
+        "article_url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2211.htm",
+        "article_captured_at": "2026-10-14T23:23:40+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/d455aa27ab8a45dba94c9009a1a070c00a710d713c652b13e4cccb0828062ba4.html",
+        "article_sha256": "d455aa27ab8a45dba94c9009a1a070c00a710d713c652b13e4cccb0828062ba4"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "existing-oa-0",
+    "institution": "吉林大学 OA 校内通知",
+    "column": "校内通知",
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "DEFERRED_BY_USER",
+    "attachment_category": "DEFERRED_OA_AT_USER_REQUEST",
+    "attachment_evidence": null,
+    "extracted_attachment_references": [],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "ACCESS_BLOCKED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "NOT_RETESTED",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "xsc",
+    "institution": "党委学生工作部（处）、党委武装部 / 通知公告",
+    "column": "通知公告",
+    "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+      "captured_at": "2026-10-14T16:33:59+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/aba9508fc477338c962b33925c8f98a03c1eef9c474336c658e4949bf5a97b24.bin",
+      "original_probe": {
+        "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+        "time": "2026-10-14T16:33:59+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "xlsx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:34:00+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/aba9508fc477338c962b33925c8f98a03c1eef9c474336c658e4949bf5a97b24.bin",
+        "prefix_sha256": "aba9508fc477338c962b33925c8f98a03c1eef9c474336c658e4949bf5a97b24",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "filename": "附件：2026-2027学年退役士兵学生享受国家助学金公示名单（补发两名同学）(1).xlsx",
+        "type": "xlsx"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "xlsx",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "附件：2026-2027学年退役士兵学生享受国家助学金公示名单（补发两名同学）(1).xlsx",
+        "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+        "type": "xlsx",
+        "article_url": "https://xsc.jlu.edu.cn/info/1048/5944.htm",
+        "article_captured_at": "2026-10-14T23:17:25+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/04bac2e599e11109d179bcde07c79b92e365f1f85bcbf4f72dfeaeab21cd167b.html",
+        "article_sha256": "04bac2e599e11109d179bcde07c79b92e365f1f85bcbf4f72dfeaeab21cd167b"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "employment-notices",
+    "institution": "学生就业创业指导与服务中心 / 通知公告",
+    "column": "通知公告",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "FILE_PREFIX_VERIFIED",
+    "attachment_evidence": {
+      "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+      "captured_at": "2026-10-14T16:34:20+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "FILE_PREFIX_VERIFIED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/a4f56a82f20712e0d827b321567ad30fdd6b1da802633ab0eb7a3be690dcbf0c.bin",
+      "original_probe": {
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+        "time": "2026-10-14T16:34:20+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "pdf",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:34:22+08:00",
+            "status": 200,
+            "category": "FILE_PREFIX_VERIFIED"
+          }
+        ],
+        "status": 200,
+        "final_url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+        "content_type": "multipart/form-data;charset=utf-8",
+        "disposition": "attachment;filename*=UTF-8''1.+%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62027%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E8%B5%84%E6%BA%90%E4%BF%A1%E6%81%AF%E6%89%8B%E5%86%8C.pdf",
+        "prefix_path": "prefix/a4f56a82f20712e0d827b321567ad30fdd6b1da802633ab0eb7a3be690dcbf0c.bin",
+        "prefix_sha256": "a4f56a82f20712e0d827b321567ad30fdd6b1da802633ab0eb7a3be690dcbf0c",
+        "category": "FILE_PREFIX_VERIFIED",
+        "file_prefix_verified": true,
+        "read_bytes": 4096,
+        "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+        "detected_family": [
+          "pdf"
+        ],
+        "filename": "1. 吉林大学2027届毕业生资源信息手册.pdf",
+        "type": "pdf"
+      },
+      "range_header_available": false,
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "complete_download_verified": false,
+      "read_bytes": 4096,
+      "expected_type": "pdf",
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "pdf"
+      ]
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "1. 吉林大学2027届毕业生资源信息手册.pdf",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+        "type": "pdf",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "2.吉林大学各校区简介及分布图 .pdf",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=6de5088b81594c2f8e2fb632050d2224",
+        "type": "pdf",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "3.学生就业创业指导与服务中心区位图.pdf",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d1adc5fd948142aba5fc1a760aa8843e",
+        "type": "pdf",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "4.线下招聘系统申请操作指南.pdf",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=19372459505d40feaffc1539af619bb5",
+        "type": "pdf",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "5.入校申请指南.pdf",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=8672f21193594802b2b93fbae300fdd1",
+        "type": "pdf",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "6.吉林大学公众平台发布及申请指南.docx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=250a79390ada42f980b8c12db657b818",
+        "type": "docx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "7.吉林大学校园招聘宣讲活动行为规范.docx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=224174761ed84d1d843dad5a9d94b775",
+        "type": "docx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+        "article_captured_at": "2026-10-14T23:17:32+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+        "article_sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1"
+      },
+      {
+        "filename": "政务岗位表.xlsx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=00f04ee9a77f414bb10c534fe398965f",
+        "type": "xlsx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      },
+      {
+        "filename": "企业岗位表.xlsx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=57c4e516218e4c7889aa137f60b373a9",
+        "type": "xlsx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      },
+      {
+        "filename": "【政务实习】学生信息表.xls",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=c4e98c9d27504175a8b435f16bc0464a",
+        "type": "xls",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      },
+      {
+        "filename": "【企业实习】朝露计划报名表.xls",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=b18ff4b35ebf4082bc52427232d380e1",
+        "type": "xls",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      },
+      {
+        "filename": "余杭简介.doc",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=caea82bef2d64dd18c28c5ec8964f02d",
+        "type": "doc",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      },
+      {
+        "filename": "2026年名校优生暑期来余实习“朝露计划”实施方案.docx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=c56cee9172a149d6a19f1dadd4d69c49",
+        "type": "docx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0ecde68a1b2f429895864128ec307968",
+        "article_captured_at": "2026-10-14T23:17:33+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce.html",
+        "article_sha256": "4319ed203e1800f82992dc80a38865c55117865468894ffc2b4c6064392630ce"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "employment-publicity",
+    "institution": "学生就业创业指导与服务中心 / 公示",
+    "column": "公示",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "FILE_PREFIX_VERIFIED",
+    "attachment_evidence": {
+      "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=f512d9208acb40e4a217be9791b0bea8",
+      "captured_at": "2026-10-14T16:34:27+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "FILE_PREFIX_VERIFIED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/cdf7c36e1823c576429d599a606e47ad4f7003b7e1a248b5cb3c0091ac07fd45.bin",
+      "original_probe": {
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=f512d9208acb40e4a217be9791b0bea8",
+        "time": "2026-10-14T16:34:27+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "xlsx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:34:28+08:00",
+            "status": 200,
+            "category": "FILE_PREFIX_VERIFIED"
+          }
+        ],
+        "status": 200,
+        "final_url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=f512d9208acb40e4a217be9791b0bea8",
+        "content_type": "multipart/form-data;charset=utf-8",
+        "disposition": "attachment;filename*=UTF-8''%E9%99%84%E4%BB%B61.%E8%8A%9C%E6%B9%96%E7%B4%AB%E4%BA%91%E8%8B%B1%E4%BA%BA%E6%89%8D%E5%9F%8E%E5%B8%82%E4%BD%93%E9%AA%8C%E6%B4%BB%E5%8A%A8%E6%8E%A8%E8%8D%90%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+        "prefix_path": "prefix/cdf7c36e1823c576429d599a606e47ad4f7003b7e1a248b5cb3c0091ac07fd45.bin",
+        "prefix_sha256": "cdf7c36e1823c576429d599a606e47ad4f7003b7e1a248b5cb3c0091ac07fd45",
+        "category": "FILE_PREFIX_VERIFIED",
+        "file_prefix_verified": true,
+        "read_bytes": 4096,
+        "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+        "detected_family": [
+          "zip",
+          "docx",
+          "xlsx",
+          "pptx"
+        ],
+        "filename": "附件1.芜湖紫云英人才城市体验活动推荐人员名单.xlsx",
+        "type": "xlsx"
+      },
+      "range_header_available": false,
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "complete_download_verified": false,
+      "read_bytes": 4096,
+      "expected_type": "xlsx",
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "zip",
+        "docx",
+        "xlsx",
+        "pptx"
+      ]
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "附件1.芜湖紫云英人才城市体验活动推荐人员名单.xlsx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=f512d9208acb40e4a217be9791b0bea8",
+        "type": "xlsx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=ef6cef6b5b4f4bf3810f2ab13fcbd984",
+        "article_captured_at": "2026-10-14T23:17:37+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/c65f6efa3ae8ecb006c888f92e7671fd6e6eefd32fadf2a43ca9471f6b4b6fc5.html",
+        "article_sha256": "c65f6efa3ae8ecb006c888f92e7671fd6e6eefd32fadf2a43ca9471f6b4b6fc5"
+      },
+      {
+        "filename": "教育部2026“百校学子地方行”吉林大学推荐人员名单.xlsx",
+        "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=6f00d3adb6624e868dc8b1d75d791286",
+        "type": "xlsx",
+        "article_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=6f0bd8dd5c8d419aae7a5ccfc56d0454",
+        "article_captured_at": "2026-10-14T23:17:38+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/dc394ab484570af2e5bae4ec6fc9c19696e532305a3830df0c86cebda41068f3.html",
+        "article_sha256": "dc394ab484570af2e5bae4ec6fc9c19696e532305a3830df0c86cebda41068f3"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "jwc-certificates",
+    "institution": "本科生院 / 吉林大学本科生院 / 证明书公示",
+    "column": "证明书公示",
+    "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "NO_ATTACHMENT_IN_BOUNDED_SAMPLE",
+    "attachment_evidence": null,
+    "extracted_attachment_references": [],
+    "extra_detail_previews": [
+      {
+        "url": "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+        "response": {
+          "url": "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+          "time": "2026-10-15T19:04:24+08:00",
+          "ok": true,
+          "final_url": "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+          "content_type": "text/html",
+          "status": 200,
+          "auth": false,
+          "sha256": "b0b1d1024100366b51d9f93bdb7e98280f131cb14db0baa56d66736a3c028610",
+          "html_path": "html/b0b1d1024100366b51d9f93bdb7e98280f131cb14db0baa56d66736a3c028610.html",
+          "replacement_chars": 0,
+          "chars": 40304,
+          "attempts": 1
+        },
+        "comparison": {
+          "title_verified": true,
+          "date_verified": true,
+          "body_verified": true,
+          "attachments_verified": true,
+          "reference_titles": [
+            {
+              "selector": ".detail-tit h4",
+              "title": "吉林大学毕业证书、学位证书遗失办理证明书人员公示（20260508）"
+            }
+          ],
+          "reference_dates": [
+            {
+              "text": "发布时间：2026-05-08 点击次数：",
+              "date": "2026-05-08"
+            },
+            {
+              "text": "发布时间：2026-05-08",
+              "date": "2026-05-08"
+            }
+          ],
+          "issues": [],
+          "body_reference_chars": 890,
+          "reference_attachment_urls": [],
+          "missing_attachment_urls": []
+        },
+        "attachments": []
+      },
+      {
+        "url": "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+        "response": {
+          "url": "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+          "time": "2026-10-15T19:04:26+08:00",
+          "ok": true,
+          "final_url": "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+          "content_type": "text/html",
+          "status": 200,
+          "auth": false,
+          "sha256": "092dd8ea5e005ad4bdf201bd314248230a09bba6f50f85b85bb131ee190216e1",
+          "html_path": "html/092dd8ea5e005ad4bdf201bd314248230a09bba6f50f85b85bb131ee190216e1.html",
+          "replacement_chars": 0,
+          "chars": 43703,
+          "attempts": 1
+        },
+        "comparison": {
+          "title_verified": true,
+          "date_verified": true,
+          "body_verified": true,
+          "attachments_verified": true,
+          "reference_titles": [
+            {
+              "selector": ".detail-tit h4",
+              "title": "吉林大学毕业证书、学位证书遗失办理证明书人员公示（20260427）"
+            }
+          ],
+          "reference_dates": [
+            {
+              "text": "发布时间：2026-04-27 点击次数：",
+              "date": "2026-04-27"
+            },
+            {
+              "text": "发布时间：2026-04-27",
+              "date": "2026-04-27"
+            }
+          ],
+          "issues": [],
+          "body_reference_chars": 1140,
+          "reference_attachment_urls": [],
+          "missing_attachment_urls": []
+        },
+        "attachments": []
+      }
+    ],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "kjc",
+    "institution": "科研院 / 科技管理办公室 / 通知公告",
+    "column": "通知公告",
+    "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=18189011",
+      "captured_at": "2026-10-14T16:35:21+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/cedf75f769047162281fb435f35d3111488e4fd58f89f0e0df0393dda07a81d6.bin",
+      "original_probe": {
+        "url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=18189011",
+        "time": "2026-10-14T16:35:21+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "xlsx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:35:22+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=18189011",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/cedf75f769047162281fb435f35d3111488e4fd58f89f0e0df0393dda07a81d6.bin",
+        "prefix_sha256": "cedf75f769047162281fb435f35d3111488e4fd58f89f0e0df0393dda07a81d6",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "filename": "附件2.长春英才支持计划限项申报表.xlsx",
+        "type": "xlsx"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "xlsx",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "附件2.长春英才支持计划限项申报表.xlsx",
+        "url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=18189011",
+        "type": "xlsx",
+        "article_url": "https://kjc.jlu.edu.cn/info/1118/6236.htm",
+        "article_captured_at": "2026-10-14T23:17:50+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/ce0c44e2fd9d7220c53fd23a6c648ea025bcb3f0e1d6a251d874de09c48e555c.html",
+        "article_sha256": "ce0c44e2fd9d7220c53fd23a6c648ea025bcb3f0e1d6a251d874de09c48e555c"
+      },
+      {
+        "filename": "附件1.“长春英才支持计划”科技创新项目2026年度申报指南.docx",
+        "url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=18189010",
+        "type": "docx",
+        "article_url": "https://kjc.jlu.edu.cn/info/1118/6236.htm",
+        "article_captured_at": "2026-10-14T23:17:50+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/ce0c44e2fd9d7220c53fd23a6c648ea025bcb3f0e1d6a251d874de09c48e555c.html",
+        "article_sha256": "ce0c44e2fd9d7220c53fd23a6c648ea025bcb3f0e1d6a251d874de09c48e555c"
+      },
+      {
+        "filename": "2023年自然基金非集中批申请统计表.xlsx",
+        "url": "https://kjc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282938&wbfileid=12074265",
+        "type": "xlsx",
+        "article_url": "https://kjc.jlu.edu.cn/info/1118/6068.htm",
+        "article_captured_at": "2026-10-14T23:17:51+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2236a63a3434bb44987a47a7d0a1fe65ea6cceb21cc48af291af4d2a276db6e4.html",
+        "article_sha256": "2236a63a3434bb44987a47a7d0a1fe65ea6cceb21cc48af291af4d2a276db6e4"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "hssra",
+    "institution": "社会科学研究院 / 通知公告",
+    "column": "通知公告",
+    "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+      "captured_at": "2026-10-14T16:35:28+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/a4fada496a3bca6e4c94173049c4dfe70f6ce574350bec041a9bcc0d59d47630.bin",
+      "original_probe": {
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+        "time": "2026-10-14T16:35:28+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "xls",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:35:29+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/a4fada496a3bca6e4c94173049c4dfe70f6ce574350bec041a9bcc0d59d47630.bin",
+        "prefix_sha256": "a4fada496a3bca6e4c94173049c4dfe70f6ce574350bec041a9bcc0d59d47630",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "filename": "2. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申报一览表.xls",
+        "type": "xls"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "xls",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "2. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申报一览表.xls",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+        "type": "xls",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+        "article_captured_at": "2026-10-14T23:17:54+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4.html",
+        "article_sha256": "3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4"
+      },
+      {
+        "filename": "1. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申请书.docx",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200509",
+        "type": "docx",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+        "article_captured_at": "2026-10-14T23:17:54+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4.html",
+        "article_sha256": "3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4"
+      },
+      {
+        "filename": "1. 国家社科基金中华学术外译项目（2026样表）.doc",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200662",
+        "type": "doc",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "article_captured_at": "2026-10-14T23:17:56+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+        "article_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5"
+      },
+      {
+        "filename": "2. 国家社会科学基金项目申报代码表(2026).xlsx",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200664",
+        "type": "xlsx",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "article_captured_at": "2026-10-14T23:17:56+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+        "article_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5"
+      },
+      {
+        "filename": "3. 国家社会科学基金中华学术外译项目推荐书目（2026）.pdf",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200663",
+        "type": "pdf",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "article_captured_at": "2026-10-14T23:17:56+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+        "article_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5"
+      },
+      {
+        "filename": "4. 国家社科基金中华学术外译项目国外出版机构指导目录（2026）.pdf",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200665",
+        "type": "pdf",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "article_captured_at": "2026-10-14T23:17:56+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+        "article_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5"
+      },
+      {
+        "filename": "5. 吉林大学国家社科基金中华学术外译项目申报信息汇总表(2026).xls",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200666",
+        "type": "xls",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "article_captured_at": "2026-10-14T23:17:56+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+        "article_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5"
+      },
+      {
+        "filename": "社会科学研究院2026年寒假值班表.pdf",
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18038424",
+        "type": "pdf",
+        "article_url": "https://hssra.jlu.edu.cn/info/1311/5860.htm",
+        "article_captured_at": "2026-10-14T23:17:57+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/c117f45aff60666280653b681bcaef12d13eda6237047d49b5b9d413a78b12da.html",
+        "article_sha256": "c117f45aff60666280653b681bcaef12d13eda6237047d49b5b9d413a78b12da"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "graduate-school",
+    "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室 / 通知公告",
+    "column": "通知公告",
+    "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+      "captured_at": "2026-10-14T16:35:35+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/bd989e1638c5090951cfdbac0e1e54e96bd13959205178f99efa0b22d83b5cba.bin",
+      "original_probe": {
+        "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+        "time": "2026-10-14T16:35:35+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "docx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:35:36+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/bd989e1638c5090951cfdbac0e1e54e96bd13959205178f99efa0b22d83b5cba.bin",
+        "prefix_sha256": "bd989e1638c5090951cfdbac0e1e54e96bd13959205178f99efa0b22d83b5cba",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "filename": "2026年吉林大学研究生会纳新报名表.docx",
+        "type": "docx"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "docx",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "2026年吉林大学研究生会纳新报名表.docx",
+        "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+        "type": "docx",
+        "article_url": "https://yjsy.jlu.edu.cn/info/1060/6460.htm",
+        "article_captured_at": "2026-10-14T23:18:00+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb.html",
+        "article_sha256": "16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb"
+      },
+      {
+        "filename": "第二十二期吉林大学博士生讲师团报名表.doc",
+        "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195237",
+        "type": "doc",
+        "article_url": "https://yjsy.jlu.edu.cn/info/1060/6459.htm",
+        "article_captured_at": "2026-10-14T23:18:01+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86.html",
+        "article_sha256": "fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "youth",
+    "institution": "团委 / 通知公告",
+    "column": "通知公告",
+    "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "CAPTCHA_REQUIRED",
+    "attachment_evidence": {
+      "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+      "captured_at": "2026-10-14T16:35:42+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "CAPTCHA_REQUIRED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/5522a7637a34b14d5c49e215d882bcd0917150c837928f45e58edbbd54075c30.bin",
+      "original_probe": {
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+        "time": "2026-10-14T16:35:42+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "docx",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:35:43+08:00",
+            "status": 206,
+            "category": "CAPTCHA_REQUIRED"
+          }
+        ],
+        "status": 206,
+        "final_url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+        "content_type": "text/html;charset=UTF-8",
+        "disposition": "",
+        "prefix_path": "prefix/5522a7637a34b14d5c49e215d882bcd0917150c837928f45e58edbbd54075c30.bin",
+        "prefix_sha256": "5522a7637a34b14d5c49e215d882bcd0917150c837928f45e58edbbd54075c30",
+        "category": "CAPTCHA_REQUIRED",
+        "file_prefix_verified": false,
+        "read_bytes": 3805,
+        "reason": "Verification page; no captcha submission or bypass",
+        "filename": "附件2：吉大青年通讯社部门负责人报名表.docx",
+        "type": "docx"
+      },
+      "range_header_available": false,
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "complete_download_verified": false,
+      "read_bytes": 3805,
+      "expected_type": "docx",
+      "reason": "Verification page; no captcha submission or bypass"
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "附件2：吉大青年通讯社部门负责人报名表.docx",
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+        "type": "docx",
+        "article_url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+        "article_captured_at": "2026-10-14T23:18:06+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed.html",
+        "article_sha256": "a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed"
+      },
+      {
+        "filename": "附件1：吉大青年通讯社主席团报名表.docx",
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205397",
+        "type": "docx",
+        "article_url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+        "article_captured_at": "2026-10-14T23:18:06+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed.html",
+        "article_sha256": "a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed"
+      },
+      {
+        "filename": "附件2：阳光志愿者协会部门负责人报名表.docx",
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+        "type": "docx",
+        "article_url": "https://youth.jlu.edu.cn/info/1009/4995.htm",
+        "article_captured_at": "2026-10-14T23:18:07+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06.html",
+        "article_sha256": "6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06"
+      },
+      {
+        "filename": "附件1：阳光志愿者协会主席团报名表.docx",
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200536",
+        "type": "docx",
+        "article_url": "https://youth.jlu.edu.cn/info/1009/4995.htm",
+        "article_captured_at": "2026-10-14T23:18:07+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06.html",
+        "article_sha256": "6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06"
+      },
+      {
+        "filename": "附件1：加分资格认定申请表.docx",
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18190429",
+        "type": "docx",
+        "article_url": "https://youth.jlu.edu.cn/info/1009/4987.htm",
+        "article_captured_at": "2026-10-14T23:18:08+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/4e7e6d998988f50baeade461eb43fc274aaa9ecca89343801b604a6a1ac13d07.html",
+        "article_sha256": "4e7e6d998988f50baeade461eb43fc274aaa9ecca89343801b604a6a1ac13d07"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  },
+  {
+    "id": "international",
+    "institution": "国际教育学院 / 留学生教育 / 留学生招生 / 公告通知 / NOTICE",
+    "column": "公告通知 / NOTICE",
+    "url": "http://cie.jlu.edu.cn/ggtz.htm",
+    "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+    "decision": "HAS_CAPABILITY_LIMITS_NOT_FORMALLY_ADMITTED",
+    "attachment_category": "FILE_PREFIX_VERIFIED",
+    "attachment_evidence": {
+      "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+      "captured_at": "2026-10-14T16:35:49+08:00",
+      "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+      "mode": "HISTORICAL_OFFLINE_REVIEW",
+      "original_category": "FILE_PREFIX_VERIFIED",
+      "evidence_stage": "B4",
+      "prefix_evidence": "docs/jlu-fix-b4/live-20261014/prefix/b894e7f4f996085fbe74a075a1477e1c96ca8e767915fdf74cdd9bc783dd02b0.bin",
+      "original_probe": {
+        "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+        "time": "2026-10-14T16:35:49+08:00",
+        "method": "GET Range bytes=0-4095",
+        "expected_type": "pdf",
+        "complete_download_verified": false,
+        "attempts": [
+          {
+            "number": 1,
+            "time": "2026-10-14T16:35:50+08:00",
+            "status": 206,
+            "category": "FILE_PREFIX_VERIFIED"
+          }
+        ],
+        "status": 206,
+        "final_url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+        "content_type": "application/pdf",
+        "disposition": "",
+        "prefix_path": "prefix/b894e7f4f996085fbe74a075a1477e1c96ca8e767915fdf74cdd9bc783dd02b0.bin",
+        "prefix_sha256": "b894e7f4f996085fbe74a075a1477e1c96ca8e767915fdf74cdd9bc783dd02b0",
+        "category": "FILE_PREFIX_VERIFIED",
+        "file_prefix_verified": true,
+        "read_bytes": 4096,
+        "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+        "detected_family": [
+          "pdf"
+        ],
+        "filename": "zhuanyemulu.pdf",
+        "type": "pdf"
+      },
+      "range_header_available": false,
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "complete_download_verified": false,
+      "read_bytes": 4096,
+      "expected_type": "pdf",
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "pdf"
+      ]
+    },
+    "extracted_attachment_references": [
+      {
+        "filename": "zhuanyemulu.pdf",
+        "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+        "article_captured_at": "2026-10-14T23:18:10+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+        "article_sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e"
+      },
+      {
+        "filename": "中国政府奖学金申请材料清单",
+        "url": "http://cie.jlu.edu.cn/zhongguozhengfujiangxuejinshenqingcailiaoqingdan.pdf",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+        "article_captured_at": "2026-10-14T23:18:10+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+        "article_sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e"
+      },
+      {
+        "filename": "附件1：吉林大学中国政府奖学金“高水平研究生”项目招生专业目录.pdf",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662694",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+        "article_captured_at": "2026-10-14T23:18:10+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+        "article_sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e"
+      },
+      {
+        "filename": "附件2：中国政府奖学金申请材料清单.pdf",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662693",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+        "article_captured_at": "2026-10-14T23:18:10+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+        "article_sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e"
+      },
+      {
+        "filename": "附件1：吉林大学2026届优秀国际学生毕业生推荐名单.xlsx",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=18140579",
+        "type": "xlsx",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3734.htm",
+        "article_captured_at": "2026-10-14T23:18:11+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764.html",
+        "article_sha256": "fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764"
+      },
+      {
+        "filename": "附件1：2026-2027吉林大学国际学生中文专业目录.pdf",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16663950",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3599.htm",
+        "article_captured_at": "2026-10-14T23:23:50+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe.html",
+        "article_sha256": "2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe"
+      },
+      {
+        "filename": "附件2：中国政府奖学金申请材料清单.pdf",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16663947",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3599.htm",
+        "article_captured_at": "2026-10-14T23:23:50+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe.html",
+        "article_sha256": "2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe"
+      },
+      {
+        "filename": "附件3：吉林大学国际学生导师接收函.pdf",
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16663948",
+        "type": "pdf",
+        "article_url": "http://cie.jlu.edu.cn/info/1047/3599.htm",
+        "article_captured_at": "2026-10-14T23:23:50+08:00",
+        "article_snapshot": "docs/jlu-fix-b5-c/replay-final-20261014/html/2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe.html",
+        "article_sha256": "2394fb3b87c865e7d1ad06740aec63fe8056dbe9dae26accc63ed643bca645fe"
+      }
+    ],
+    "extra_detail_previews": [],
+    "content_date_pagination_incremental": {
+      "verdict": "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED",
+      "evidence": "docs/jlu-fix-b5-c/replay-final-20261014/results.json",
+      "mode": "prior saved bounded verification"
+    },
+    "windows_public_preview": "VERIFIED_WITH_RECORDED_LIMITS",
+    "linux_cloud_crawl": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED",
+    "desktop_fallback": "controlled tests + prior installed cache; no new installed-client crawl",
+    "execution_policy_preserved": "cloud_preferred",
+    "source_identity_changed": false,
+    "formal_admission": false,
+    "candidate_enabled": false,
+    "complete_download_verified": false
+  }
+]

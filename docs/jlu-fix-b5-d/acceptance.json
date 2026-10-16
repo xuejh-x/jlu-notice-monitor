@@ -1,0 +1,53 @@
+{
+  "time": "2026-10-15T19:14:52.919642+08:00",
+  "status": "B5_D_bounded_validation_delivered_actual_cloud_admission_pending",
+  "tests": {
+    "baseline": "465 passed, 1 skipped",
+    "regression-before": "9 failed, 339 passed",
+    "targeted": "348 passed",
+    "final": "487 passed, 1 skipped"
+  },
+  "new_test_cases": 22,
+  "columns": 17,
+  "limited_capability": 16,
+  "deferred_OA": 1,
+  "full_environment_admissions": 0,
+  "prior_attachment_endpoints": 25,
+  "new_attachment_endpoints": 2,
+  "total_attachment_endpoints": 27,
+  "combined_categories": {
+    "CAPTCHA_REQUIRED": 18,
+    "FILE_PREFIX_VERIFIED": 8,
+    "ROBOTS_BLOCKED": 1
+  },
+  "selected_categories": {
+    "FILE_PREFIX_VERIFIED": 4,
+    "NO_ATTACHMENT_IN_BOUNDED_SAMPLE": 2,
+    "CAPTCHA_REQUIRED": 10,
+    "DEFERRED_OA_AT_USER_REQUEST": 1
+  },
+  "http_attempts": 7,
+  "extra_details": 2,
+  "complete_downloads": 0,
+  "oa_requests": 0,
+  "cloud_production_verified": false,
+  "formal_admissions": 0,
+  "original_audit_files_unchanged": 1449,
+  "prior_reports_unchanged": 7,
+  "fresh_snapshot_hash_checks": 4,
+  "frontend_changed": false,
+  "oa_status_repair_deferred": true,
+  "production_db_connections": 0,
+  "system_network_changes": 0,
+  "files": {
+    "backend/app/services/attachment_validation.py": "b5ee4e678f678dc8af7be79b063407425341a6a24ee8f29e83bb16e5b015fd1d",
+    "backend/scripts/verify_jlu_b1.py": "f24503de48fbf1356daab6525f11c661bc6f72feb3a6adfbce610f1aa44d62a7",
+    "backend/tests/test_jlu_b5_d.py": "105437aec0da6a81b105f8cf7f1e1c5dfa15dd4bc4ef2ae82c3b8578cd5c2071",
+    "backend/scripts/prepare_jlu_b5_d.py": "bc8b2ec70c8710b66b89fb19f6fbe22546f29b3a4d864767beae50a076d79cfb",
+    "backend/scripts/probe_jlu_b5_d.py": "a8e483d5c660449f10bbba4f81c3b0f67c9eebf9b9034c60bf6c173cc0a8c62b",
+    "backend/scripts/finalize_jlu_b5_d.py": "d6813c753c17b7f9c95d1a50fff1a1e9af48c53e3c0ab07309af965ae3ea61f7",
+    "docs/JLU_SITE_FIX_B5_D_REPORT.md": "c475170ace1f085c53c6775cf3231344e0b49e356efd0a258408fc2236a9b967",
+    "docs/JLU_FAILURE_REMEDIATION_PLAN.md": "21ebe3cd52354a72cfc3b2de9e684846c2ece8f8e3d4ade7324a262e23b322ad",
+    "docs/JLU_SITE_FIX_PLAN.md": "3c16ff74257b71c43b191ff9fca026dd29f09643484b79d78b0ef8c1db8bb7e3"
+  }
+}

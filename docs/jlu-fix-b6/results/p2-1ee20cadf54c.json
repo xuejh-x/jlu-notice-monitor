@@ -1,0 +1,551 @@
+{
+  "id": "p2-1ee20cadf54c",
+  "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+  "institution": "公共外交学院",
+  "column": "通知公告",
+  "site_url": "https://sipa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_CANDIDATE_RECALL_GAP | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/1ee20cadf54ce5bd.json",
+  "discovery_url": "https://sipa.jlu.edu.cn/",
+  "original_snapshot": "html/6f5eba9bae9ca73adf66f291be37424de94ee3623aee209550a44270ea337512.html",
+  "original_capture_time": "2026-10-13T14:01:03+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-1ee20cadf54c",
+    "name": "公共外交学院 / 通知公告",
+    "base_url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:09+08:00",
+  "details": [
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1088/7988.htm",
+      "list_title": "公共外交学院2024年9月份博士学位论文答辩申请人创新成果公示",
+      "list_date": "2024-06-18",
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/info/1088/7988.htm",
+        "time": "2026-10-15T19:39:59+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/info/1088/7988.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b4e9e41fd3fe3517d0df1d61c342ffaa462e6c2e81fbe189a4023be048e1ca48",
+        "html_path": "html/b4e9e41fd3fe3517d0df1d61c342ffaa462e6c2e81fbe189a4023be048e1ca48.html",
+        "replacement_chars": 0,
+        "chars": 19469,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公共外交学院2024年9月份博士学位论文答辩申请人创新成果公示",
+        "url": "https://sipa.jlu.edu.cn/info/1088/7988.htm",
+        "publish_date": "2024-06-18",
+        "publisher": null,
+        "content": "根据《关于2024年9月份博士、硕士学位论文答辩工作安排的通知》，现将我院2024年9月份博士学位答辩申请人创新成果进行公示。 学生名单： 1. 姓名：HUSSAIN MIRZA 学号：9201927116 国籍：巴基斯坦 公示地点：吉林大学中心校区吕振羽楼2楼公告栏 公示时间：2024年6月19日—2024年6月21日 如有异议，请在2024年6月21日16:00前 以书面或电子邮件形式实名向公共外交学院研究生与留学生办公室反映 。 联系人：殷老师 联系电话：0431-85167204 18443175881 邮 箱：sipayjs@jlu.edu.cn",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2024-06-18 点击： 次",
+            "date": "2024-06-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 281,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公共外交学院2024年9月份博士学位论文答辩申请人创新成果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "公共外交学院2024年9月份博士学位论文答辩申请人创新成果公示 发布时间：2024-06-18 点击： 次",
+            "date": "2024-06-18"
+          },
+          {
+            "text": "发布时间：2024-06-18 点击： 次",
+            "date": "2024-06-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+      "list_title": "公共外交学院2023上半年申请答辩博士研究生学术成果公示",
+      "list_date": "2023-04-03",
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+        "time": "2026-10-15T19:40:00+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "df4c1325cbd50ed6c6f0f09473f7a94a080189e29a47b686309f499f078a7b25",
+        "html_path": "html/df4c1325cbd50ed6c6f0f09473f7a94a080189e29a47b686309f499f078a7b25.html",
+        "replacement_chars": 0,
+        "chars": 19387,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公共外交学院2023上半年申请答辩博士研究生学术成果公示",
+        "url": "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+        "publish_date": "2023-04-03",
+        "publisher": null,
+        "content": "根据学位论文答辩工作安排，现将我院 2023 年6月份博士学位申请者学术成果进行公示 。 学生名单： 1.姓名：THET THUTHUAYE 学号：9201827101 国籍：缅甸 2.姓名：HUMPREY ARNALDO RUSSEL 学号：9201529107 国籍：印度尼西亚 3.姓名：AMIRA AHMED ELSAYED ABDELKHALEK 学号：920192711 国籍：埃及 4.姓名：AMIN HUMA 学号：9201927115 国籍：巴基斯坦 5.姓名：KUMAR JAI 学号：9201927119 国籍：巴基斯坦 6.姓名：SHAHEEN NADIA 学号：9201927113 国籍：巴基斯坦 公示地点：吉林大学中心校区吕振羽楼 2 楼公告栏 公示时间：2023年4月3日-2023年4月5 日 如有异议，请在2023年4月5日16:00前 以书面或电子邮件形式实名向公共外交学院研究生与留学生办公室反映 。 联系人：殷老师 联系电话：0431-85167204 18443175881 邮 箱： sipayjs@jlu.edu.cn",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2023-04-03 点击： 次",
+            "date": "2023-04-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 483,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公共外交学院2023上半年申请答辩博士研究生学术成果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "公共外交学院2023上半年申请答辩博士研究生学术成果公示 发布时间：2023-04-03 点击： 次",
+            "date": "2023-04-03"
+          },
+          {
+            "text": "发布时间：2023-04-03 点击： 次",
+            "date": "2023-04-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+      "list_title": "公共外交学院2021上半年申请答辩博士研究生创新性学术成果公示",
+      "list_date": "2021-03-29",
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+        "time": "2026-10-15T19:40:01+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4eb0f02b23a2f3b352a3bc84a117ff55005e5a836ff6437ab0732fb14bc1ae39",
+        "html_path": "html/4eb0f02b23a2f3b352a3bc84a117ff55005e5a836ff6437ab0732fb14bc1ae39.html",
+        "replacement_chars": 0,
+        "chars": 18817,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公共外交学院2021上半年申请答辩博士研究生创新性学术成果公示",
+        "url": "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+        "publish_date": "2021-03-29",
+        "publisher": null,
+        "content": "根据吉林大学研究生院《关于2021年上半年博士、硕士学位论文答辩工作安排通知》的具体要求，经导师审核，确定以下人员的资格论文符合学校对于博士生创新性学术成果的要求： 年级：2018级 护照姓名：YEHEYS NARDOS HAWAZ 学号：9201827104 现将其两篇资格论文予以公示（详见附件）。 公示期为2021年3月29日至2021年3月31日。如对上述人员资格论文有异议，请在公示期内具实名以书面或电子邮件形式向公共外交学院研究生与留学生办公室反映。 联系人 ：殷艳楠 联系电话：0431-85167204 电子邮箱：sipayjs@jlu.edu.cn 办公地址：吉林大学前卫南区行政楼212室（公共外交学院研究生与留学生工作办公室）",
+        "attachments": [
+          {
+            "filename": "From Nile Basin Initiatives (NBI) to External mediator .pdf",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=5289003",
+            "type": "pdf"
+          },
+          {
+            "filename": "IJSRC-8511-Yeheys-Nardos-Hawaz1and-Ms.-Chen-Xi2-Revised.pdf",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=5289004",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2021-03-29 点击： 次",
+            "date": "2021-03-29"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 324,
+        "reference_attachment_urls": [
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=5289003",
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=5289004"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公共外交学院2021上半年申请答辩博士研究生创新性学术成果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "公共外交学院2021上半年申请答辩博士研究生创新性学术成果公示 发布时间：2021-03-29 点击： 次",
+            "date": "2021-03-29"
+          },
+          {
+            "text": "发布时间：2021-03-29 点击： 次",
+            "date": "2021-03-29"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+        "time": "2026-10-15T19:29:13+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "771b97a2721270c1799cd42b3fc6a1fb00a7f44d22d073943fde1dfe58fdc972",
+        "html_path": "html/771b97a2721270c1799cd42b3fc6a1fb00a7f44d22d073943fde1dfe58fdc972.html",
+        "replacement_chars": 0,
+        "chars": 19734,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sipa.jlu.edu.cn/info/1088/2661.htm",
+        "https://sipa.jlu.edu.cn/info/1088/2724.htm",
+        "https://sipa.jlu.edu.cn/info/1088/2725.htm",
+        "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+        "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+        "https://sipa.jlu.edu.cn/info/1088/7988.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+    "time": "2026-10-15T19:29:13+08:00",
+    "ok": true,
+    "final_url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "771b97a2721270c1799cd42b3fc6a1fb00a7f44d22d073943fde1dfe58fdc972",
+    "html_path": "html/771b97a2721270c1799cd42b3fc6a1fb00a7f44d22d073943fde1dfe58fdc972.html",
+    "replacement_chars": 0,
+    "chars": 19734,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共外交学院2024年9月份博士学位论文答辩申请人创新成果公示",
+      "url": "https://sipa.jlu.edu.cn/info/1088/7988.htm",
+      "publish_date": "2024-06-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共外交学院2023上半年申请答辩博士研究生学术成果公示",
+      "url": "https://sipa.jlu.edu.cn/info/1088/7220.htm",
+      "publish_date": "2023-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共外交学院2021上半年申请答辩博士研究生创新性学术成果公示",
+      "url": "https://sipa.jlu.edu.cn/info/1088/4972.htm",
+      "publish_date": "2021-03-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办吉林大学因公临时出国（境）人员行前培训会（第三次）的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1088/2725.htm",
+      "publish_date": "2019-09-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于选派我校学生于2019—2020学年第二学期赴香港浸会大学交换学习的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1088/2724.htm",
+      "publish_date": "2019-09-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2019年下半年博士、硕士学位论文答辩工作安排的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1088/2661.htm",
+      "publish_date": "2019-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-1ee20cadf54c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4199991710484028e-05,
+      "detail_duration_seconds": 6.400048732757568e-06,
+      "parse_db_duration_seconds": 0.030636500101536512
+    },
+    "second_round": {
+      "source": "p2-1ee20cadf54c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5600002370774746e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-1ee20cadf54c",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/lxsgz/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_CANDIDATE_RECALL_GAP | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:13+08:00",
+    "review_time": "2026-10-15T20:21:09+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 6,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-1ee20cadf54c.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

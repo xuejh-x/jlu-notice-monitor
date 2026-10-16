@@ -1,0 +1,29 @@
+{
+  "time": "2026-10-14T22:53:21+08:00",
+  "columns": 6,
+  "statuses": {
+    "部分通过": 6
+  },
+  "verdicts": {
+    "DATE_SEMANTICS_UNCONFIRMED_DISABLED": 6
+  },
+  "detail_previews": 18,
+  "unique_detail_urls": 18,
+  "structurally_verified_details": 18,
+  "publication_verified_details": 0,
+  "date_verdicts": {
+    "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED": 18
+  },
+  "list_matches_update": 18,
+  "http_attempts_this_session": 0,
+  "cached_exact_urls": 25,
+  "database_url": "sqlite://",
+  "database_connection_attempts": 0,
+  "formal_sources_changed": 0,
+  "candidates_enabled": 0,
+  "attachment_downloads": 0,
+  "cloud_production_verified": false,
+  "pagination_verified": false,
+  "mode": "offline replay",
+  "review_input_dir": "docs/jlu-fix-b5-b/live-20261014"
+}

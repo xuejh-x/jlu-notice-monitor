@@ -1,0 +1,921 @@
+{
+  "id": "p3-717cb1dd0cc9",
+  "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+  "institution": "后勤处",
+  "column": "采购公示与采购结果公告",
+  "site_url": "https://hqc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/717cb1dd0cc9f952.json",
+  "original_capture_time": "2026-10-13T14:06:42+08:00",
+  "discovery_url": "https://hqc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-717cb1dd0cc9",
+    "name": "后勤处 / 采购公示与采购结果公告",
+    "base_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:29+08:00",
+  "details": [
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1070/5941.htm",
+      "list_title": "校园珍稀植物绿化养护服务项目自行采购公告",
+      "list_date": "2026-09-22",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1070/5941.htm",
+        "time": "2026-10-15T22:08:27+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1070/5941.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8c67ecc2d7e0a5036afc8be4f8e2035b29f36fca6df91994324614d5070ab0b2",
+        "html_path": "html/8c67ecc2d7e0a5036afc8be4f8e2035b29f36fca6df91994324614d5070ab0b2.html",
+        "replacement_chars": 0,
+        "chars": 14603,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "校园珍稀植物绿化养护服务项目自行采购公告",
+        "url": "https://hqc.jlu.edu.cn/info/1070/5941.htm",
+        "publish_date": "2026-09-22",
+        "publisher": null,
+        "content": "依据公平、公正、公开的原则，后勤处就本次采购项目组织竞争性磋商，现邀请符合条件的服务单位参与磋商，服务单位必须符合《中华人民共和国政府采购法》第二十二条之规定。 1.采购项目编号：hqc2026-00 9 2.采购项目名称：校园珍稀植物绿化养护服务项目（详情见公告附件）； 3.报名方式：电话报名 联系人： 于 老师 联系电话： 85166546 4.报名截止时间：2026年 9月2 4 日 11:00 5.自行采购时间：根据报名情况另行通知； 6.自行采购地点：吉林大学鼎新楼C区423室； 7.采购机构：后勤处 后勤处 2026年9月22日",
+        "attachments": [
+          {
+            "filename": "校园珍稀植物绿化管理服务清单.xlsx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18201608",
+            "type": "xlsx"
+          },
+          {
+            "filename": "服务技术文件.doc",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18200872",
+            "type": "doc"
+          },
+          {
+            "filename": "采购评分表.xlsx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18200870",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "校园珍稀植物绿化养护服务项目自行采购公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-22 点击量：",
+            "date": "2026-09-22"
+          },
+          {
+            "text": "发布时间：2026-09-22",
+            "date": "2026-09-22"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 273,
+        "reference_attachment_urls": [
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18200870",
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18200872",
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18201608"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "校园珍稀植物绿化养护服务项目自行采购公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-09-22 点击量：",
+            "date": "2026-09-22"
+          },
+          {
+            "text": "发布时间：2026-09-22",
+            "date": "2026-09-22"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+      "list_title": "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目自行采购公告",
+      "list_date": "2026-09-14",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+        "time": "2026-10-15T22:08:28+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "82e6f1b811bf9643ae32ac6e17447d49f4e3a64f4364b8d8a02b7531c34fac00",
+        "html_path": "html/82e6f1b811bf9643ae32ac6e17447d49f4e3a64f4364b8d8a02b7531c34fac00.html",
+        "replacement_chars": 0,
+        "chars": 14660,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目自行采购公告",
+        "url": "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+        "publish_date": "2026-09-14",
+        "publisher": null,
+        "content": "依据公平、公正、公开的原则，后勤处就本次采购项目组织竞争性磋商，现邀请符合条件的服务单位参与磋商，服务单位必须符合《中华人民共和国政府采购法》第二十二条之规定。 1.采购项目编号：hqc2026-00 8 2.采购项目名称：吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目（详情见公告附件）； 3.报名方式：电话报名 联系人： 陈 老师 联系电话： 13180886301 4.报名时间：2026年9月 14 日 -9月 16 日 5.自行采购时间：根据报名情况另行通知； 6.自行采购地点：吉林大学鼎新楼C区423室； 7.采购机构：后勤处 后勤处 2026年9月 14 日",
+        "attachments": [
+          {
+            "filename": "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改自行采购文件.docx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18197301",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目自行采购公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-14 点击量：",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "发布时间：2026-09-14",
+            "date": "2026-09-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 299,
+        "reference_attachment_urls": [
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18197301"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目自行采购公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-09-14 点击量：",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "发布时间：2026-09-14",
+            "date": "2026-09-14"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1070/5891.htm",
+      "list_title": "校园重点区域钻蛀性害虫防治及树木复壮养护服务自行采购公告",
+      "list_date": "2026-05-26",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1070/5891.htm",
+        "time": "2026-10-15T22:08:29+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1070/5891.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "77cf59a9aed7101f13cf721c087014adca4e16e7c52d83e9b6add0778bdec897",
+        "html_path": "html/77cf59a9aed7101f13cf721c087014adca4e16e7c52d83e9b6add0778bdec897.html",
+        "replacement_chars": 0,
+        "chars": 15592,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "校园重点区域钻蛀性害虫防治及树木复壮养护服务自行采购公告",
+        "url": "https://hqc.jlu.edu.cn/info/1070/5891.htm",
+        "publish_date": "2026-05-26",
+        "publisher": null,
+        "content": "依据公平、公正、公开的原则，后勤处就本次采购项目组织竞争性磋商，现邀请符合条件的供应商参与磋商，供应商必须符合《中华人民共和国政府采购法》第二十二条之规定。 1. 采购项目编号： hqc202 6 -00 1 2. 采购项目名称：校园 重点区域 钻蛀性害虫 防治及树木复壮养护 服务（详情见附件）； 3. 报名方式：电话报名 联系人： 于 老师 联系电话： 13664338831 4. 报名截至时间： 2025 年 5 月 2 8 日 11:00 5. 竞争性磋商时间：根据报名情况另行通知 6. 竞争性磋商地点：吉林大学鼎新楼 C 区 423 室 7. 自行采购机构：后勤处 后勤处 202 6 年 5 月 2 6 日",
+        "attachments": [
+          {
+            "filename": "校园钻蛀性害虫防治及树木修剪复壮养护服务技术文件.doc",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130064",
+            "type": "doc"
+          },
+          {
+            "filename": "服务清单.xlsx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130063",
+            "type": "xlsx"
+          },
+          {
+            "filename": "采购评分表.xlsx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130062",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "校园重点区域钻蛀性害虫防治及树木复壮养护服务自行采购公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-05-26 点击量：",
+            "date": "2026-05-26"
+          },
+          {
+            "text": "发布时间：2026-05-26",
+            "date": "2026-05-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 311,
+        "reference_attachment_urls": [
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130062",
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130063",
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18130064"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "校园重点区域钻蛀性害虫防治及树木复壮养护服务自行采购公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-05-26 点击量：",
+            "date": "2026-05-26"
+          },
+          {
+            "text": "发布时间：2026-05-26",
+            "date": "2026-05-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+        "time": "2026-10-15T22:08:24+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "066674e4b0fd70d1f0e94f9b5ee34c9067f318f9c905d2e6a081fa0ba972863b",
+        "html_path": "html/066674e4b0fd70d1f0e94f9b5ee34c9067f318f9c905d2e6a081fa0ba972863b.html",
+        "replacement_chars": 0,
+        "chars": 17489,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hqc.jlu.edu.cn/info/1070/5901.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5902.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5903.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5920.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5923.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5926.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5931.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5932.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5941.htm"
+      ],
+      "observed_next_urls": [
+        "https://hqc.jlu.edu.cn/cggsycgjggg/25.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/cggsycgjggg/25.htm",
+        "time": "2026-10-15T22:08:26+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/cggsycgjggg/25.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "45aaa8b6f682d410514f17225c4cb3a1b43a42587349ddbaf9e95262e0e09037",
+        "html_path": "html/45aaa8b6f682d410514f17225c4cb3a1b43a42587349ddbaf9e95262e0e09037.html",
+        "replacement_chars": 0,
+        "chars": 17911,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hqc.jlu.edu.cn/info/1070/5753.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5755.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5759.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5765.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5771.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5801.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5805.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5815.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5820.htm",
+        "https://hqc.jlu.edu.cn/info/1070/5891.htm"
+      ],
+      "observed_next_urls": [
+        "https://hqc.jlu.edu.cn/cggsycgjggg/24.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "time": "2026-10-15T22:08:24+08:00",
+    "ok": true,
+    "final_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "066674e4b0fd70d1f0e94f9b5ee34c9067f318f9c905d2e6a081fa0ba972863b",
+    "html_path": "html/066674e4b0fd70d1f0e94f9b5ee34c9067f318f9c905d2e6a081fa0ba972863b.html",
+    "replacement_chars": 0,
+    "chars": 17489,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园珍稀植物绿化养护服务项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5941.htm",
+      "publish_date": "2026-09-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学学生公寓房间计量电表核查与能源监管平台数据采集IP修改服务项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5934.htm",
+      "publish_date": "2026-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学家属区物业查验项目（南湖校区、南岭校区、朝阳西区）自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5932.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园景观座椅（第二批）采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5931.htm",
+      "publish_date": "2026-08-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园景观座椅采购项目重新采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5926.htm",
+      "publish_date": "2026-08-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园景观座椅采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5923.htm",
+      "publish_date": "2026-08-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学教工住宅物业综合核查服务项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5920.htm",
+      "publish_date": "2026-07-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学维修改造工程小额检测鉴定服务（补充）自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5903.htm",
+      "publish_date": "2026-07-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "清湖天鹅养护项目自行采购重新公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5902.htm",
+      "publish_date": "2026-06-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "清湖天鹅养护项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5901.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园重点区域钻蛀性害虫防治及树木复壮养护服务自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5891.htm",
+      "publish_date": "2026-05-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学校园及家属区外清扫、清雪、绿化面积测绘服务项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5820.htm",
+      "publish_date": "2025-11-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学10kV及以上电力改造工程小额项目设计服务自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5815.htm",
+      "publish_date": "2025-10-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园珍稀植物绿化管理服务自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5805.htm",
+      "publish_date": "2025-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学南湖会馆改造项目审计服务项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5801.htm",
+      "publish_date": "2025-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学和平校区、南区园区及家属楼状况查验项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5771.htm",
+      "publish_date": "2025-06-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "校园钻蛀性害虫监测预警和技术防治服务自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5765.htm",
+      "publish_date": "2025-05-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学维修改造工程小额勘察设计服务（补充）自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5759.htm",
+      "publish_date": "2025-04-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "清湖天鹅养护项目自行采购重新公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5755.htm",
+      "publish_date": "2025-04-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "清湖天鹅养护项目自行采购公告",
+      "url": "https://hqc.jlu.edu.cn/info/1070/5753.htm",
+      "publish_date": "2025-04-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://hqc.jlu.edu.cn/cggsycgjggg/25.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-717cb1dd0cc9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6000005416572094e-05,
+      "detail_duration_seconds": 8.400063961744308e-06,
+      "parse_db_duration_seconds": 0.03209170000627637
+    },
+    "second_round": {
+      "source": "p3-717cb1dd0cc9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5900004655122757e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-717cb1dd0cc9",
+    "institution": "后勤处",
+    "column": "采购公示与采购结果公告",
+    "url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:08:24+08:00",
+    "review_time": "2026-10-15T23:00:29+08:00",
+    "http_status": 200,
+    "final_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://hqc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-717cb1dd0cc9.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,577 @@
+{
+  "id": "p2-634f2ceeed27",
+  "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+  "institution": "行政学院",
+  "column": "招生信息",
+  "site_url": "https://adm.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/634f2ceeed27cb23.json",
+  "discovery_url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+  "original_snapshot": "html/d47e873d7f67bcdf7756b2f0dbb4e9ded5f22cde3e813654c1681e274e9007f5.html",
+  "original_capture_time": "2026-10-13T13:53:39+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-634f2ceeed27",
+    "name": "行政学院 / 招生信息",
+    "base_url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:48+08:00",
+  "details": [
+    {
+      "url": "https://adm.jlu.edu.cn/info/1041/27823.htm",
+      "list_title": "招生宣传 | 行政学院2024年本科生招生宣传动态（七）——党委副书记史慕华、政治学系薛洁教授受邀参加湖北省鄂南高级中学建校40周年庆典大会",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1041/27823.htm",
+        "time": "2026-10-15T19:38:11+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1041/27823.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4a15f8dc3ea299e3bf3a9a57e2b90a0b473590d45aaabf557b95e4f37aa4633d",
+        "html_path": "html/4a15f8dc3ea299e3bf3a9a57e2b90a0b473590d45aaabf557b95e4f37aa4633d.html",
+        "replacement_chars": 0,
+        "chars": 10379,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "招生宣传 | 行政学院2024年本科生招生宣传动态（七）——党委副书记史慕华、政治学系薛洁教授受邀参加湖北省鄂南高级中学建校40周年庆典大会",
+        "url": "https://adm.jlu.edu.cn/info/1041/27823.htm",
+        "publish_date": "2024-10-13",
+        "publisher": null,
+        "content": "10 月 3 日 -4 日，党委副书记史慕华、政治学系薛洁教授受邀代表吉林大学参加湖北省鄂南高级中学建校 40 周年庆典大会。吉林大学同步发送贺信，向鄂南高级中学全体领导、老师和同学们致以节日的问候和崇高的敬意，并衷心希望双方进一步加强交流、携手合作，共同为祖国的教育事业做出贡献。 湖北省鄂南高级中学成立于 1984 年，是咸宁市政府举办的全市唯一的一所省级重点高中和省级示范中学。建校以来，为国家和社会培养了大批高素质人才，累计共万余名学生考入各类重点大学，一大批优秀毕业生已成为各行各业的领军人才。近 5 年来，鄂南高级中学向我校稳定输送优质生源， 2024 年鄂南高级中学有 5 名优秀毕业生考入吉林大学。 2023 年 5 月 16 日，行政学院代表学校授予鄂南高中“吉林大学优秀生源基地”称号。 https://adm.jlu.edu.cn/__local/6/66/07/EC5E9F617192B169D92BA5F8443_DED78EC6_46903.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2024-10-13",
+            "date": "2024-10-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 353,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "招生宣传 | 行政学院2024年本科生招生宣传动态（七）——党委副书记史慕华、政治学系薛洁教授受邀参加湖北省鄂南高级中学建校40周年庆典大会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2024-10-13 点击:",
+            "date": "2024-10-13"
+          },
+          {
+            "text": "发布时间: 2024-10-13",
+            "date": "2024-10-13"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/info/1041/27283.htm",
+      "list_title": "行政学院2024年本科生招生宣传动态（四）——张贤明院长赴五峰土家族自治县高中进行招生宣讲并参加授牌仪式",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1041/27283.htm",
+        "time": "2026-10-15T19:38:12+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1041/27283.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "060c7f26147e5ecd0e808637d5ba32e1fae687662f6733787a91e22345a3cee6",
+        "html_path": "html/060c7f26147e5ecd0e808637d5ba32e1fae687662f6733787a91e22345a3cee6.html",
+        "replacement_chars": 0,
+        "chars": 10363,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "行政学院2024年本科生招生宣传动态（四）——张贤明院长赴五峰土家族自治县高中进行招生宣讲并参加授牌仪式",
+        "url": "https://adm.jlu.edu.cn/info/1041/27283.htm",
+        "publish_date": "2024-04-16",
+        "publisher": null,
+        "content": "2024 年 4 月 13 日，行政学院院长张贤明教授与行政学院张力伟副教授赴湖北省五峰土家族自治县高中（以下简称五峰高中）进行招生宣讲并参加吉林大学优秀生源基地授牌仪式。五峰土家族自治县副县长王进、五峰土家族自治县委组织部副部长李相林、五峰高中党总支书记刘绍华、校长陈鑫淼接待了张贤明院长一行并出席相关活动。 https://adm.jlu.edu.cn/__local/7/BB/8E/F781CA70ABC78719F341D53C53A_5A0290C7_A561D7.jpg 授牌仪式上，刘绍华书记向张贤明院长一行表达了诚挚的欢迎，并简要介绍了五峰高中的基本情况。张贤明院长代表吉林大学向五峰高中授予吉林大学优秀生源基地牌匾，陈鑫淼校长代表五峰高中领取牌匾并合影留念。随后，张力伟副教授向五峰高中高三学生作了题为“逐梦起航在吉大”的招生宣传演讲，介绍了吉林大学的基本简介、师资力量、教学资源、人才培养成果、生活设施等内容。与此同时，张力伟副教授向学生们生动地介绍了东北的风土人情，并表示热烈欢迎同学们积极报考吉林大学。 https://adm.jlu.edu.cn/__local/2/BE/46/A05538A5E8C60E46FE9054432B0_428BA98B_78D5C1.jpg 授牌仪式结束后，张贤明院长一行同王进副县长开展座谈，并参观了五峰高中校园以及观摩了五峰高中的学生活动。 https://adm.jlu.edu.cn/__local/2/58/5A/3C038625106232B4C3A43CF9A60_22A64D6E_405AAB.jpg 此次授牌仪式充分体现了吉林大学对湖北省招生工作的重视，拓展了吉林大学的优秀生源地，进一步提升了吉林大学在湖北省的影响力。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2024-04-16",
+            "date": "2024-04-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 490,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "行政学院2024年本科生招生宣传动态（四）——张贤明院长赴五峰土家族自治县高中进行招生宣讲并参加授牌仪式"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2024-04-16 点击:",
+            "date": "2024-04-16"
+          },
+          {
+            "text": "发布时间: 2024-04-16",
+            "date": "2024-04-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/info/1041/27021.htm",
+      "list_title": "行政学院2024年本科生招生宣传动态（三）——王娜老师受邀参加湖北省巴东一中建校80周年庆典大会",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1041/27021.htm",
+        "time": "2026-10-15T19:38:13+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1041/27021.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d58e501a93cac706cdc6f2618c337ee39b8450ae0ab6c01230318aae2d41bc53",
+        "html_path": "html/d58e501a93cac706cdc6f2618c337ee39b8450ae0ab6c01230318aae2d41bc53.html",
+        "replacement_chars": 0,
+        "chars": 10039,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "行政学院2024年本科生招生宣传动态（三）——王娜老师受邀参加湖北省巴东一中建校80周年庆典大会",
+        "url": "https://adm.jlu.edu.cn/info/1041/27021.htm",
+        "publish_date": "2023-12-18",
+        "publisher": null,
+        "content": "12 月 15 日-12月16日，行政学院王娜老师受邀代表吉林大学参加湖北省巴东一中建校 80 周年庆典大会。我校同时也发送贺信，热烈庆祝巴东一中建校 80 周年，并表达了进一步加强两校的交流与合作的意愿。 https://adm.jlu.edu.cn/__local/9/AD/BD/DD449585B2BE2247A5DE004639C_70F4E80D_503DB1.jpg 湖北省巴东县第一高级中学创办于 1943 年，高考成绩连年位居恩施州同类学校第一。巴东一中是全国文明单位、全国民族团结进步模范集体、湖北省示范高中，学校以其深厚的底蕴、和谐的环境、浓郁的氛围、一流的质量，成为修养心智、潜心求学的理想之地。自建校以来，数千学子考入“ 985 ”、“ 211 ”工程大学，位居全省县市高中前列，教育教学质量享誉全省，被誉为“荆楚名校”。 近 5 年来，巴东一中向我校稳定输送优质生源。 2022 年 6 月 27 日，公共卫生学院代表我校授予巴东一中“吉林大学优秀生源基地”称号。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2023-12-18",
+            "date": "2023-12-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 359,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "行政学院2024年本科生招生宣传动态（三）——王娜老师受邀参加湖北省巴东一中建校80周年庆典大会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2023-12-18 点击:",
+            "date": "2023-12-18"
+          },
+          {
+            "text": "发布时间: 2023-12-18",
+            "date": "2023-12-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+        "time": "2026-10-15T19:28:40+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "deff3eb18fda49385acd707bfbe66257056fd55ebad4e519a781343fb4c5d519",
+        "html_path": "html/deff3eb18fda49385acd707bfbe66257056fd55ebad4e519a781343fb4c5d519.html",
+        "replacement_chars": 0,
+        "chars": 11724,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://adm.jlu.edu.cn/info/1041/12885.htm",
+        "https://adm.jlu.edu.cn/info/1041/12887.htm",
+        "https://adm.jlu.edu.cn/info/1041/12888.htm",
+        "https://adm.jlu.edu.cn/info/1041/12889.htm",
+        "https://adm.jlu.edu.cn/info/1041/26744.htm",
+        "https://adm.jlu.edu.cn/info/1041/27021.htm",
+        "https://adm.jlu.edu.cn/info/1041/27283.htm",
+        "https://adm.jlu.edu.cn/info/1041/27823.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+    "time": "2026-10-15T19:28:40+08:00",
+    "ok": true,
+    "final_url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "deff3eb18fda49385acd707bfbe66257056fd55ebad4e519a781343fb4c5d519",
+    "html_path": "html/deff3eb18fda49385acd707bfbe66257056fd55ebad4e519a781343fb4c5d519.html",
+    "replacement_chars": 0,
+    "chars": 11724,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "招生宣传 | 行政学院2024年本科生招生宣传动态（七）——党委副书记史慕华、政治学系薛洁教授受邀参加湖北省鄂南高级中学建校40周年庆典大会",
+      "url": "https://adm.jlu.edu.cn/info/1041/27823.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "行政学院2024年本科生招生宣传动态（四）——张贤明院长赴五峰土家族自治县高中进行招生宣讲并参加授牌仪式",
+      "url": "https://adm.jlu.edu.cn/info/1041/27283.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "行政学院2024年本科生招生宣传动态（三）——王娜老师受邀参加湖北省巴东一中建校80周年庆典大会",
+      "url": "https://adm.jlu.edu.cn/info/1041/27021.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "行政学院2024年本科生招生宣传动态（一）——湖北省恩施地区",
+      "url": "https://adm.jlu.edu.cn/info/1041/26744.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "行政管理专业双学位培养方案",
+      "url": "https://adm.jlu.edu.cn/info/1041/12889.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国防科学技术大学2011年招收地方院校推荐免试硕士研究生程序",
+      "url": "https://adm.jlu.edu.cn/info/1041/12888.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我校本科生参加暑期学校课程学习的说明",
+      "url": "https://adm.jlu.edu.cn/info/1041/12887.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学暑期学校招生简章",
+      "url": "https://adm.jlu.edu.cn/info/1041/12885.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 8,
+  "pagination": [
+    {
+      "start_url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-634f2ceeed27",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.1400046534836292e-05,
+      "detail_duration_seconds": 1.0399962775409222e-05,
+      "parse_db_duration_seconds": 0.04187999991700053
+    },
+    "second_round": {
+      "source": "p2-634f2ceeed27",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.4900073185563087e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-634f2ceeed27",
+    "institution": "行政学院",
+    "column": "招生信息",
+    "url": "https://adm.jlu.edu.cn/rcpy/bksjy/zsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:40+08:00",
+    "review_time": "2026-10-15T20:20:48+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 8,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-634f2ceeed27.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

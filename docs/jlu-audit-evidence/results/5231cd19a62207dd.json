@@ -1,0 +1,91 @@
+{
+  "column_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+  "column": "招聘通知",
+  "institution": "商学与管理学院",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:40:52+08:00",
+  "checked_at": "2026-10-13T14:00:47+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "BODY_CONTAINER_FALLBACK",
+    "BODY_TOO_SHORT"
+  ],
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+      "list_title": "中国建设银行吉林省分行2023年度校园招聘正式启动",
+      "parsed_title": "中国建设银行吉林省分行2023年度校园招聘正式启动",
+      "document_title": "中国建设银行吉林省分行2023年度校园招聘正式启动-吉林大学商学与管理学院",
+      "heading_texts": [
+        "中国建设银行吉林省分行2023年度校园招聘正式启动"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2022-09-08",
+      "reference_date": "2022-09-08",
+      "body_selector": "body fallback or specialized OA",
+      "content_chars": 0,
+      "content_preview": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_TOO_SHORT"
+      ],
+      "time": "2026-10-13T14:00:48+08:00",
+      "sha256": "0f4c699240283158211dd280d1d825aefd74b88fb87c7effe72803ca541ac171",
+      "snapshot": "html/0f4c699240283158211dd280d1d825aefd74b88fb87c7effe72803ca541ac171.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国建设银行吉林省分行2023年度校园招聘正式启动",
+      "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/5231cd19a62207dd.json",
+  "reason": "LIST_DATES_MISSING; BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+  "list_sha256": "4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a",
+  "list_snapshot": "html/4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

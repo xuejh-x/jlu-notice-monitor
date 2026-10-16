@@ -1,0 +1,617 @@
+{
+  "id": "p3-1f12d3363e10",
+  "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+  "institution": "东北民族研究中心",
+  "column": "通知公告",
+  "site_url": "https://dbmz.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/1f12d3363e10d621.json",
+  "original_capture_time": "2026-10-13T14:06:18+08:00",
+  "discovery_url": "https://dbmz.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-1f12d3363e10",
+    "name": "东北民族研究中心 / 通知公告",
+    "base_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:47+08:00",
+  "details": [
+    {
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+      "list_title": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座",
+      "list_date": "2024-12-31",
+      "response": {
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+        "time": "2026-10-15T22:12:02+08:00",
+        "ok": true,
+        "final_url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3ae7cf12c0736e43ff3f73c621d448344486271f0d8ec95adb13993c0e1dc527",
+        "html_path": "html/3ae7cf12c0736e43ff3f73c621d448344486271f0d8ec95adb13993c0e1dc527.html",
+        "replacement_chars": 0,
+        "chars": 16936,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座",
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+        "publish_date": "2024-12-31",
+        "publisher": null,
+        "content": "为深入学习贯彻习近平新时代中国特色社会主义思想和党的二十届三中全会精神，2024年10月12日上午，中央党校一级教授、博士生导师韩庆祥教授做客我校，在中心校区东荣会议中心二楼多功能厅为马克思主义学院师生开展了一场精彩的学术讲座，讲座主题为《从中国式现代化到中华民族文化主体性》。吉林大学马克思主义学院副院长、东北民族研究中心主任罗克全教授主持此次讲座，马克思主义学院共计80余名师生参与此次讲座。 https://dbmz.jlu.edu.cn/__local/4/A0/F3/B1885F56A7CFC15A41EACE703B6_BB6C0105_BEFE0.png 韩庆祥教授以“文明中心转移”作为切入点，高度总结概括支撑“西方中心论”理论体系的十大核心范畴：线性道路、单数文明、种族优越、人性为我、社会进化、理性尺度、开化使命、普世价值、美丽神话、形而上学，并分别进行了详细阐述。接着，韩庆祥教授深刻剖析了“西方中心论”的理论特性与本质，指明“西方中心论”对世界产生的广泛影响，以及对西方历史学、西方经济学、西方哲学等西方学科建设与理论建构的塑造。 紧接着，韩庆祥教授以中国近现代史发展视角深刻阐释“西方中心论”对中国现代化进程的影响。从1840年到1921年的第一阶段，通过洋务运动、戊戌变法、辛亥革命、“五四运动”，完成了向西方由器物到制度再到文化层面的学习，但并未从根本上改变近代中国的悲惨命运。自1921年中国共产党成立之后，中国现代化进程实现由被动到主动的历史转变，发扬历史主动精神。经过新民主主义革命时期的大工业建设、社会主义革命与建设时期的“四个现代化”、改革开放与社会主义现代化建设时期的进一步推进、再到中国特色社会主义新时代的全面建设社会主义现代化强国，中国式现代化理论与实践不忘本来、吸收外来、面向未来，走出东方从属于西方的理论框架，打破了“现代化=西方化”的迷思。最后，韩庆祥教授勉励同学们珍惜时光，勤奋学习，向着实现中华民族伟大复兴的中国梦，继续奋勇前进。 韩庆祥教授的讲解深入浅出，使大家对文化自信与文化主体性、民族文化的自我意识、中国式现代化有了更透彻的认识和理解。讲座最后，吉林大学马克思主义学院副院长、东北民族研究中心主任罗克全教授对韩庆祥教授的学术分享表示由衷感谢，并作最后总结：“敏锐的政治高度、扎实的学术深度、广博的信息密度、敏锐的现实关怀、美好的精神盛宴。”",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-12-31 编校： 浏览：",
+            "date": "2024-12-31"
+          },
+          {
+            "text": "发布日期：2024-12-31",
+            "date": "2024-12-31"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 916,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座 发布日期：2024-12-31 编校： 浏览：",
+            "date": "2024-12-31"
+          },
+          {
+            "text": "发布日期：2024-12-31 编校： 浏览：",
+            "date": "2024-12-31"
+          },
+          {
+            "text": "发布日期：2024-12-31",
+            "date": "2024-12-31"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+      "list_title": "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》",
+      "list_date": "2024-09-12",
+      "response": {
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+        "time": "2026-10-15T22:12:02+08:00",
+        "ok": true,
+        "final_url": "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "667d6332c160ff8e50c6bb707bc56f240f9d8bc5d35ce37f53796f20cda1efd8",
+        "html_path": "html/667d6332c160ff8e50c6bb707bc56f240f9d8bc5d35ce37f53796f20cda1efd8.html",
+        "replacement_chars": 0,
+        "chars": 17099,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》",
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+        "publish_date": "2024-09-12",
+        "publisher": null,
+        "content": "2024年9月12日晚上，由吉林大学东北民族研究中心、吉林大学边疆考古研究中心主办的“边疆考古与中国文化认同系列讲座”在吉林大学正新楼一楼报告厅举行。丝绸之路考古合作研究中心首席科学家、西北大学文化遗产学院王建新教授应邀作了题为《中国特色丝绸之路考古研究范式的探索》的学术讲座，讲座由吉林大学边疆考古研究中心主任王立新教授主持，东北民族研究中心副主任王成教授、考古学院与马克思主义学院共计70余名师生参加此次讲座。 https://dbmz.jlu.edu.cn/__local/F/ED/36/A7CB900C2BE33D762C9F41FD1F3_0C78D1E8_C4296.png https://dbmz.jlu.edu.cn/__local/0/A3/81/2BB479AE3C3684A8CC4916ACA41_1D93A0C6_10AEC6.png 王建新教授以问题为切入点，带领大家思考“中国特色的丝绸之路考古研究是否需要自己的范式？”，从“东方视角是中国特色丝绸之路考古研究的鲜明特征；实践出真知是中国特色的理论创新范式；跨国区域联合考古的工作范式；大范围系统区域调查与小规模科学精准发掘相结合的考古工作范式；多学科、多单位合作的开放式的考古工作范式；丝绸之路考古与遗产保护和研究密切结合的工作范式；中国特色、中国风格、中国气派的大遗址保护和大遗址考古的工作范式；考古+遗产保护+人才培养‘三位一体’的丝绸之路考古工作范式”八个方面层层展开论述。 习近平总书记在中央政治局进行第三十九次集体学习时指出：“把中国文明历史研究引向深入，增强历史自觉，坚定文化自信。”王建新老师对“中国特色丝绸之路考古研究范式”的探索，正是深入中国文明历史研究、从历史中坚定文化自信的重要体现。丝绸之路所蕴含的悠久丰厚的历史文化资源，既是各民族交往交流交融的有力见证；更有助于深化对中华民族共同体的认知和体悟，在历史观中推进铸牢中华民族共同体意识，为构筑中华民族共有精神家园、增进各民族文化认同提供了坚实的基础。 讲座最后，东北民族研究中心副主任王成教授对王建新教授的学术分享表示由衷感谢。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-09-12 编校： 浏览：",
+            "date": "2024-09-12"
+          },
+          {
+            "text": "发布日期：2024-09-12",
+            "date": "2024-09-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 719,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》 发布日期：2024-09-12 编校： 浏览：",
+            "date": "2024-09-12"
+          },
+          {
+            "text": "发布日期：2024-09-12 编校： 浏览：",
+            "date": "2024-09-12"
+          },
+          {
+            "text": "发布日期：2024-09-12",
+            "date": "2024-09-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+      "list_title": "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办",
+      "list_date": "2024-05-25",
+      "response": {
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+        "time": "2026-10-15T22:12:03+08:00",
+        "ok": true,
+        "final_url": "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "436bf1115a9a590f934885eac16112692f9ab65af59ef43792dac9c33d45b5f9",
+        "html_path": "html/436bf1115a9a590f934885eac16112692f9ab65af59ef43792dac9c33d45b5f9.html",
+        "replacement_chars": 0,
+        "chars": 30466,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办",
+        "url": "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+        "publish_date": "2024-05-25",
+        "publisher": null,
+        "content": "为深入学习贯彻党的二十大精神，深刻领会习近平总书记关于加强和改进⺠族工作的重要思想，推进新时代中国特色⺠族理论研究体系建设，2024年5月24—25日，“第二届东北铸牢中华⺠族共同体意识研究高端论坛”在吉林省⻓春市隆重举行。 本次论坛由吉林大学⻢克思主义学院、吉林大学东北⺠族研究中心共同主办，出席此次会议的领导嘉宾有：国家民委理论研究司科研管理处刘丽丽处长，吉林省民族事务委员会田磊主任、安东梅调研员，长春市民族事务委员会主任王飞、处长潘爽，吉林大学党委副书记、教育部长江学者韩喜平教授，吉林大学党委统战部常务副部长苗艺璇，吉林大学党委宣传部副部长张倩，吉林大学社会科学研究院曲红梅教授，吉林大学马克思主义学院党政班子成员钟新书记和吴宏政院长。 论坛由吉林大学东北民族研究中心牵头，齐聚东北三省国家民委铸牢中华民族共同体意识基地单位、对口支援高校铸牢基地单位，分别是：哈尔滨工业大学计算社会科学协调创新中心、东北师范大学东北民族民俗博物馆、延边大学中华民族共同体研究基地、辽宁师范大学国家民委中华民族共同体研究基地、大连民族大学中华民族共同体意识教育研究基地、渤海大学中华民族共同体研究中心、西藏藏医药大学马克思主义理论教学部、新疆医科大学“铸牢中华民族共同体意识研究与实践基地”。参会人员单位还有：吉林省民族宗教研究中心、吉林省社会科学院、吉林省文物考古研究所、东北师大思想政治教育研究中心、四川文化教育高等研究院、《学习与探索》杂志社、《中国社会科学报》吉林站等，共计29所高校、科研机构和期刊媒体，80余名专家学者参与了本次论坛。参会人员共同围绕“铸牢中华民族共同体意识理论与实践研究”开展了实践调研、主题发言、主旨发言、分论坛讨论等活动，以期带动铸牢中华⺠族共同体意识理论与实践同频共振，提高铸牢中华⺠族共同体意识研究水平。 https://dbmz.jlu.edu.cn/__local/7/E7/F6/509615CBDE841ED3E9B348438E2_6D7A6CFD_A5782.png 24日下午，与会人员一同前往伊通满族小学和伊通县博物馆（国家三级博物馆）进行了参观调研。伊通满族小学是“全国民族团结进步创建活动示范学校”，学校把铸牢中华民族共同体意识教育贯穿办学治校、教书育人全过程，构建了“初心筑基、正心铸魂、慧心筑梦、匠心筑行、丹心筑业”的“五心”育人模式，成立了40余个“石榴籽”社团，涵盖“传统文化、歌舞、体育、美育、科技”等方面，每班一品，各具特色。参观人员纷纷赞不绝口，予以高度评价。 https://dbmz.jlu.edu.cn/__local/4/AA/36/C915F278A01BC291497DB185A13_EF624061_DBF69.png https://dbmz.jlu.edu.cn/__local/4/A5/37/5FABFD7865C9BCBE3FADA30A2EB_189B9AB7_FB032.png https://dbmz.jlu.edu.cn/__local/9/F0/21/4EA7C24A32F8E5E0417E3ABF515_E1ECC620_C044A.png https://dbmz.jlu.edu.cn/__local/0/AB/E7/9A200E5DD39C7EED6802739CCF5_D02DB2C9_DDFC9.png 千年文脉延绵不绝，灿烂文明生生不息。文物有了生命，文化才会有力量。参观完伊通满族小学之后，参会人员来到了伊通县博物馆。伊通满族博物馆，是一座展示满族历史、文化和满族风情的专业性博物馆。馆内设有满族源流、政治、经济、文化、风俗、信仰和古今伊通等八个展厅，通过满族传世文物六百个种类，三千余件展品及图片和模型景观等各种艺术表现形式，展现出一幅幅纷繁的满族历史风情画卷，描绘出满族先民用智慧和汗水创造的绚丽的民俗文化。在这里，参会人员沿着满族历史足迹，感受、领略了厚重的满族文化。 https://dbmz.jlu.edu.cn/__local/E/E6/2C/DFC42D97F354ECF664FF93E0530_3FC04D37_97BAA.png https://dbmz.jlu.edu.cn/__local/0/9A/88/8B99A97983A0966D5D3E6EC4955_543124E8_B2EF6.png 25日上午，开幕式由吉林大学东北民族研究中心主任罗克全教授主持，吉林大学党委副书记韩喜平、国家民委理论司科研管理处处长刘丽丽先后致辞。吉林大学党委副书记韩喜平在会议致辞中指出：今天我们东北三省一区、国家民委铸牢基地，对口支援高校铸牢基地负责同志以及为东北历史文化研究做出贡献的专家和学者相聚与此，共同举办“第二届东北铸牢中华民族共同体意识研究高端论坛”，是落实习近平总书记关于加强改进民族工作重要思想的具体行动。今后，我们将进一步整合东北三省国家民委铸牢基地力量，主要致力于四方面工作，一是提高政治责任，紧扣铸牢中华民族共同体意识这条主线；二是践行使命担当，努力把基地建设成为铸牢中华民族共同体意识的示范高地；三是推进理论的体系化学理化，引领东北铸牢中华民族共同体意识学术研究新突破；四是推动学科融合，打造基地品牌，发挥基地特色。 https://dbmz.jlu.edu.cn/__local/F/21/BB/650A149A2A1FFB9D85F05F2B057_9170B847_969EC.png 韩喜平 吉林大学党委副书记 国家民委理论司科研管理处处长刘丽丽在会议致词中指出：本次论坛聚集了学术界众多的专家学者，以“铸牢中华民族共同体意识理论和实践研究”主题来开展研讨，意义重大，是贯彻落实习近平总书记加强和改进民族工作重要思想的有力行动，是对民族工作高质量发展的极大推动。中华民族是一个民族实体，不是西方理论视角下的想象的共同体，铸牢中华民族共同体意识，不仅是中华民族大家庭统一团结的历史延续，更是现实写照。铸牢中华民族共同体意识，不是喊喊口号，而是要从马克思主义民族理论出发，正本清源地讲；要立足中华民族共同体文明的根基，充满自信地讲；要结合中国共产党百年民族工作的实践，实事求是地讲；要跳出西方民族理论的智库，有理有据地讲。 https://dbmz.jlu.edu.cn/__local/0/35/78/4AA2ED255508201371281066675_DFCEA2DF_87AF8.png 刘丽丽 国家民委理论司科研管理处处长 主题发言由吉林大学东北民族研究中心副主任王成教授主持，东北三省七家铸牢基地以及对口支援院校（西藏藏医药大学、新疆医科大学）共9位主要负责人分别作主题发言，就基地建设的实践经验、特色优势、学术成果、未来计划等方面进行了详细分享。 https://dbmz.jlu.edu.cn/__local/4/1E/D0/667C29EB714D39DF4DF2A595104_9A57E0CC_81010.png 王成 吉林大学东北民族研究中心副主任 https://dbmz.jlu.edu.cn/__local/9/59/99/64BEAFC4354F252A84F097C81E4_0279CC0A_81E7E.png 张大勇 哈尔滨工业大学计算社会科学协调创新中心 计算传播与可视化设计研究所所长 https://dbmz.jlu.edu.cn/__local/E/AF/92/036B6D80DC8E5144203DC7A1F8B_EC52F5B1_9FBA6.png 唐小轩 东北师范大学东北民族民俗博物馆主任 https://dbmz.jlu.edu.cn/__local/5/47/22/C8BF01118B9ED93ED81373B6396_0E1E0A69_6FD80.png 李梅花 延边大学中华民族共同体研究基地主任 https://dbmz.jlu.edu.cn/__local/0/8E/30/DD7EFD9465139C501EE9CEABD8A_96B5C31A_72BC8.png 吴东铭 辽宁师范大学 国家民委中华民族共同体研究基地秘书长 https://dbmz.jlu.edu.cn/__local/B/12/D5/4C208465FA296A142FBA53B7AF3_2A4AAA5C_91C99.png 郑世林 大连民族大学 中华民族共同体意识教育研究基地副主任 https://dbmz.jlu.edu.cn/__local/0/A2/39/869E715F7BC000DDEC53927893A_799D3D81_9EB0A.png 刘丹 渤海大学中华民族共同体研究中心副主任 https://dbmz.jlu.edu.cn/__local/2/87/52/A3AB3143179E140C0BE37744D73_D707C9E2_8307B.png 次吉 西藏藏医药大学马克思主义理论教学部主任 https://dbmz.jlu.edu.cn/__local/6/91/92/CF613B603485981E0C0993F46FF_F4BE656B_708C3.png 阿依努尔 海热拉 新疆教育系统新疆医科大学 “铸牢中华民族共同体意识研究与实践基地”秘书 https://dbmz.jlu.edu.cn/__local/C/95/0C/C93F5D641CEF0056CCE8EC64478_2E811985_ACC80.png 罗克全 吉林大学东北民族研究中心主任、 马克思主义学院副院长 主旨发言由四川师范大学四川文化教育高等研究院研究员路强主持。参会代表围绕会议主题展开交流发言：内蒙古大学党委委员、统战部部长斯琴高娃教授以《马克思主义民族理论与“两个结合”的内蒙古实践探索—以宗教工作为例》为题作了分享；延边大学马克思主义学院院长赵刚教授以《中国共产党中华民族观百年形成和发展的逻辑根源》为题展开讲述；北华大学社会科学处处长刘卫东教授以《国家主义教育：民族共同体意识的建构与命运共同体的解构》为题探讨共同体意识；黑龙江省鄂温克族研究会会长涂亚君以《铸牢中华民族共同体意识下的鄂温克族非遗保护传承新路径》为题解说非遗传承；吉林大学文学院副院长马卫东教授以《中国古代“天下型”国家探源——兼论中国统一的多民族国家范式的历史根源》为题探源统一历史；国家“万人计划”教学名师、吉林大学东北民族研究中心学术委员会主任邵彦敏教授就《铸牢中华民族共同体意识的深层逻辑》层层展开论述。 https://dbmz.jlu.edu.cn/__local/8/7A/6D/2049AC8E02287B3E7B74B0DC9AB_DBC02679_5AE4E.png 路强 https://dbmz.jlu.edu.cn/__local/3/31/E5/DCACA1C24E2F597788D2524BA3A_7B931BC9_6C5C8.png 斯琴高娃 https://dbmz.jlu.edu.cn/__local/0/6D/7C/2E83B5EF4B8DCA156C9BDEAFA75_874B58ED_81C5D.png 赵刚 https://dbmz.jlu.edu.cn/__local/5/CC/41/93C55D1028EFFE535F10BC9D257_83AF03BA_7D503.png 刘卫东 https://dbmz.jlu.edu.cn/__local/5/A9/02/E675E79848169E38258F5229271_F0DF6ACF_8F020.png 涂亚君 https://dbmz.jlu.edu.cn/__local/E/6D/4A/EBE55C9F4F6201D4BD37301D476_2669F46C_5C4E1.png 马卫东 https://dbmz.jlu.edu.cn/__local/1/94/D4/D2F5E7BB4AF694F299791CB9E9F_EF88679C_6BD38.png 邵彦敏 下午分论坛分为三个会场，《学习与探索》杂志社副研究员巩村磊、吉林大学文学院教授宋卿、吉林大学东北民族研究中心主任罗克全教授分别作为召集人主持，分论坛包括学者发言、专家评议、互动讨论等环节，既有理论问题，也有现实问题。 闭幕式由吉林大学马克思主义学院党委书记钟新主持，罗克全教授作总结发言。本次论坛加强了东北三省、对口支援高校和其它全国各地区铸牢中华⺠族共同体意识研究领域从业者之间的工作交流与学术交流，搭建了更为广阔的合作平台；既有实地调研，又有理论上的相切相磋，是一场精彩纷呈的学术盛宴。 https://dbmz.jlu.edu.cn/__local/E/37/42/35EDD3E89061473CDE6E1C85CC7_E29AC3BE_53301.png 钟新 吉林大学马克思主义学院党委书记 https://dbmz.jlu.edu.cn/__local/A/63/79/42BC234103B86B1B64B7C83460F_01295752_C3018.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-05-25 编校： 浏览：",
+            "date": "2024-05-25"
+          },
+          {
+            "text": "发布日期：2024-05-25",
+            "date": "2024-05-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2999,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办 发布日期：2024-05-25 编校： 浏览：",
+            "date": "2024-05-25"
+          },
+          {
+            "text": "发布日期：2024-05-25 编校： 浏览：",
+            "date": "2024-05-25"
+          },
+          {
+            "text": "发布日期：2024-05-25",
+            "date": "2024-05-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:11:58+08:00",
+        "ok": true,
+        "final_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f6538df135b873ec9fc1d79644ecac4d29d883e3a32ec86216dbdb119a960531",
+        "html_path": "html/f6538df135b873ec9fc1d79644ecac4d29d883e3a32ec86216dbdb119a960531.html",
+        "replacement_chars": 0,
+        "chars": 16587,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1120.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1124.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1128.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1258.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1261.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:11:58+08:00",
+    "ok": true,
+    "final_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "f6538df135b873ec9fc1d79644ecac4d29d883e3a32ec86216dbdb119a960531",
+    "html_path": "html/f6538df135b873ec9fc1d79644ecac4d29d883e3a32ec86216dbdb119a960531.html",
+    "replacement_chars": 0,
+    "chars": 16587,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+      "publish_date": "2024-12-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "讲座回顾|王建新教授《中国特色丝绸之路考古研究范式的探索》",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+      "publish_date": "2024-09-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "第二届东北铸牢中华民族共同体意识研究高端论坛成功举办",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+      "publish_date": "2024-05-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "《中华民族交往交流交融史》编纂工程推进会在京召开",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1128.htm",
+      "publish_date": "2024-05-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "讲座回顾|铸牢中华民族共同体意识的若干理论问题--以树立正确的中华民族历史观为例",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1120.htm",
+      "publish_date": "2024-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中心副主任支继超参加“中国人民大学铸牢中华民族共同体意识高端论坛2023”",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1261.htm",
+      "publish_date": "2023-10-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中心专家郭永虎教授参加“第四届全国反分裂理论暨铸牢中华民族共同体意识与反分裂战略研讨会”",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1258.htm",
+      "publish_date": "2023-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“中国式现代化与铸牢中华民族共同体意识”研究生学术论坛在吉林大学马克思主义学院成功举办",
+      "url": "https://dbmz.jlu.edu.cn/info/1026/1124.htm",
+      "publish_date": "2023-07-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 8,
+  "pagination": [
+    {
+      "start_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-1f12d3363e10",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.010003663599491e-05,
+      "detail_duration_seconds": 7.800059393048286e-06,
+      "parse_db_duration_seconds": 0.03134180000051856
+    },
+    "second_round": {
+      "source": "p3-1f12d3363e10",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7200014553964138e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-1f12d3363e10",
+    "institution": "东北民族研究中心",
+    "column": "通知公告",
+    "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:11:58+08:00",
+    "review_time": "2026-10-15T23:00:47+08:00",
+    "http_status": 200,
+    "final_url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 8,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://dbmz.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-1f12d3363e10.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

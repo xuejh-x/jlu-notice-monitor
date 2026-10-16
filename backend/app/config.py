@@ -44,6 +44,9 @@ class Settings(BaseSettings):
     source_max_response_bytes: int = Field(default=5_000_000, ge=100_000, le=20_000_000)
     source_max_pages: int = Field(default=3, ge=1, le=5)
     source_run_timeout_seconds: int = Field(default=120, ge=30, le=600)
+    detail_recheck_interval_seconds: int = Field(default=86400, ge=3600, le=604800)
+    detail_recheck_max_per_source: int = Field(default=5, ge=1, le=20)
+    detail_recheck_delay_seconds: float = Field(default=1.0, ge=0, le=10)
     startup_sync_enabled: bool | None = None
     admin_key: str | None = Field(
         default=None,

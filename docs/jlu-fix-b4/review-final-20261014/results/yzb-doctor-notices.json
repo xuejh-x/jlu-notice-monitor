@@ -1,0 +1,384 @@
+{
+  "id": "yzb-doctor-notices",
+  "institution": "研究生招生",
+  "column": "招生公告",
+  "url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+  "captured_at": "2026-10-14T16:34:51+08:00",
+  "validated_at": "2026-10-14T16:47:30+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1050/3283.htm",
+      "list_title": "吉林大学各招生单位2026年全日制博士招生实施办法（细则）",
+      "list_date": "2025-11-20",
+      "captured_at": "2026-10-14T16:34:53+08:00",
+      "snapshot": "html/88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0.html",
+      "sha256": "88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0",
+      "title": "吉林大学各招生单位2026年全日制博士招生实施办法（细则）",
+      "date": "2025-11-20",
+      "content_chars": 2685,
+      "content_sha256": "6201dff9e70a85c8627ce6a68ddb22f05449c1f0e446dff8e9cb469f9bacd88f",
+      "content_preview": "代码 学院名称 实施办法（细则）链接 101 哲学社会学院 吉林大学哲学社会学院2026 年博士研究生招生“申请考核制”实施细则 102 文学院 吉林大学文学院2026 年博士研究生“申请考核制”招生实施细则 106 考古学院 吉林大学考古学院2026 年博士研究生“申请考核制”招生工作实施细则 107 历史文化学院 吉林大学历史文化学院2026 年博士研究生 “申请考核制”招生实施细则 108 外国语言文化学院 吉林大学外国语言文化学院2026 年博士研究生“申请- 考核”制招生实施细则 201 经济学院 吉林大学经济学院2026 年博士研究生“申请考核制”招生实施细则 202 法学院 吉林",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "吉林大学各招生单位2026年全日制博士招生实施办法（细则）"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2025-11-20"
+      ],
+      "body_reference_chars": 2685,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1050/3284.htm",
+      "list_title": "关于公布吉林大学法律（035100）全日制专业学位博士收费标准的通知",
+      "list_date": "2025-11-13",
+      "captured_at": "2026-10-14T16:34:54+08:00",
+      "snapshot": "html/1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870.html",
+      "sha256": "1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870",
+      "title": "关于公布吉林大学法律（035100）全日制专业学位博士收费标准的通知",
+      "date": "2025-11-13",
+      "content_chars": 153,
+      "content_sha256": "f4389e5763c483ff76ba1ba64cf235ee8beba2c5619ab16a6eea0a4452e5604f",
+      "content_preview": "根据《关于对吉林大学部分专业研究生学费收费标准的批复》（吉发改价调联〔2025〕236号）文件规定，吉林大学法律博士专业学位研究生学费，全日制博士研究生学费标准为5万元/生/学年，自2026级学生开始执行。请报考该专业考生报考前知悉收费标准。 特此通知。 吉林大学研究生招生办公室 2025 年11月13日",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "关于公布吉林大学法律（035100）全日制专业学位博士收费标准的通知"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2025-11-13"
+      ],
+      "body_reference_chars": 153,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1050/3285.htm",
+      "list_title": "吉林大学2025级研究生新生入学须知",
+      "list_date": "2025-07-02",
+      "captured_at": "2026-10-14T16:34:55+08:00",
+      "snapshot": "html/50909e3724a95fa788b1562fbf82c0e2c086de1faae3fc7589bb70c4005d356a.html",
+      "sha256": "50909e3724a95fa788b1562fbf82c0e2c086de1faae3fc7589bb70c4005d356a",
+      "title": "吉林大学2025级研究生新生入学须知",
+      "date": "2025-07-02",
+      "content_chars": 2438,
+      "content_sha256": "a7432f95462998db212e5b5df549fd2418faa3e47649ba2b84a697743e314b42",
+      "content_preview": "亲爱的2025级研究生同学： 欢迎来到吉林大学继续深造,为确保同学们顺利办理入学手续，现将报到相关事宜通知如下： 一、请持新生入学报到证、毕业证书、学位证书和有效身份证原件于 2025年8月20、21日来校报到 （创新发展研究院（北京）博士研究生报到时间和地点由招生单位另行通知;卓越工程师学院（珠海）及珠海研究院研究生8月20、21日到校本部各相应培养单位报到）。因故不能按期入学，请事先向研究生培养单位（以下简称培养单位）研究生办公室提出书面申请，延期入学时间最长为两周。若未请假或请假逾期两周不报到，除不可抗力等正当事由外，将被视为自动放弃入学资格。 二、根据国家规定，新生可自愿迁移户口（定向",
+      "attachments": [
+        {
+          "filename": "吉林大学2025级研究生入学交费须知.docx",
+          "url": "https://yzb.jlu.edu.cn/__local/0/97/58/5F13DF61AF583AE173F8AEA081F_C8BBA6FF_4DAC.docx?e=.docx",
+          "type": "docx"
+        },
+        {
+          "filename": "吉林大学各培养单位研究生办公室联系电话一览表.docx",
+          "url": "https://yzb.jlu.edu.cn/__local/8/24/72/9FC32F8BD8B510DE0E6763A5616_1B5B3591_5C8F.docx?e=.docx",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "吉林大学2025级研究生新生入学须知"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2025-07-02"
+      ],
+      "body_reference_chars": 1979,
+      "reference_attachment_urls": [
+        "https://yzb.jlu.edu.cn/__local/0/97/58/5F13DF61AF583AE173F8AEA081F_C8BBA6FF_4DAC.docx?e=.docx",
+        "https://yzb.jlu.edu.cn/__local/8/24/72/9FC32F8BD8B510DE0E6763A5616_1B5B3591_5C8F.docx?e=.docx"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://yzb.jlu.edu.cn/__local/0/97/58/5F13DF61AF583AE173F8AEA081F_C8BBA6FF_4DAC.docx?e=.docx",
+      "time": "2026-10-14T16:34:56+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "docx",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:34:57+08:00",
+          "status": 206,
+          "category": "FILE_PREFIX_VERIFIED"
+        }
+      ],
+      "status": 206,
+      "final_url": "https://yzb.jlu.edu.cn/__local/0/97/58/5F13DF61AF583AE173F8AEA081F_C8BBA6FF_4DAC.docx?e=.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "disposition": "",
+      "prefix_path": "prefix/350013614ab82560f30694659473e10b40bbed1d00e79036d8a501f84d413f4f.bin",
+      "prefix_sha256": "350013614ab82560f30694659473e10b40bbed1d00e79036d8a501f84d413f4f",
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "read_bytes": 4096,
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "zip",
+        "docx",
+        "xlsx",
+        "pptx"
+      ],
+      "filename": "吉林大学2025级研究生入学交费须知.docx",
+      "type": "docx"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://yzb.jlu.edu.cn/",
+  "reason": "REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED; SITE_DATE_IS_UPDATE_TIME",
+  "final_url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+  "list_snapshot": "html/05498be360838386a75410a5d72e650b7a19f9a5fee5e2c8dae8b347111e1893.html",
+  "list_sha256": "05498be360838386a75410a5d72e650b7a19f9a5fee5e2c8dae8b347111e1893",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学各招生单位2026年全日制博士招生实施办法（细则）",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3283.htm",
+      "publish_date": "2025-11-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学法律（035100）全日制专业学位博士收费标准的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3284.htm",
+      "publish_date": "2025-11-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025级研究生新生入学须知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3285.htm",
+      "publish_date": "2025-07-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学关于公布2025年“少数民族高层次骨干人才计划” 博士研究生招生考试递补进入考核考生名单的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3286.htm",
+      "publish_date": "2025-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学关于公布2025年“少数民族高层次骨干人才计划”博士研究生进入考核考生名单的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3287.htm",
+      "publish_date": "2025-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学2025年“少数民族高层次骨干人才计划” 博士研究生招生考试外国语成绩查询及复核的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3288.htm",
+      "publish_date": "2025-03-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学2025年“少数民族高层次骨干人才计划”博士研究生外国语考试相关工作的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3289.htm",
+      "publish_date": "2025-03-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2024级研究生新生入学须知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3290.htm",
+      "publish_date": "2024-07-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学关于公布2024年“少数民族高层次骨干人才计划” 博士研究生招生考试递补进入学院考核考生名单的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3291.htm",
+      "publish_date": "2024-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学关于公布2024年“少数民族高层次骨干人才计划” 博士研究生招生考试外国语合格考生名单的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3343.htm",
+      "publish_date": "2024-04-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "https://yzb.jlu.edu.cn/bszs/zsgg/8.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 0,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-doctor-notices.json"
+}

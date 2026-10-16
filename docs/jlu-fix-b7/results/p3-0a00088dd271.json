@@ -1,0 +1,547 @@
+{
+  "id": "p3-0a00088dd271",
+  "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+  "institution": "高等教育研究所",
+  "column": "招生信息",
+  "site_url": "http://gjs.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "失败",
+  "old_issues": "LIST_CANDIDATE_RECALL_GAP | POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK | BODY_NAVIGATION_CONTAMINATION | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/0a00088dd271056d.json",
+  "original_capture_time": "2026-10-13T14:02:51+08:00",
+  "discovery_url": "http://gjs.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-0a00088dd271",
+    "name": "高等教育研究所 / 招生信息",
+    "base_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+      "item_selector": "tr[id^='line_u2_']",
+      "title_selector": "a.titles",
+      "url_selector": "a.titles",
+      "time_selector": ".pubtime"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:08+08:00",
+  "details": [
+    {
+      "url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+      "list_title": "2018年度高等教育研究所招收硕士研究生拟录取汇总",
+      "list_date": "2018-04-02",
+      "response": {
+        "url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+        "time": "2026-10-15T22:36:26+08:00",
+        "ok": true,
+        "final_url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9bcb90927cb2cd87dafd8855c10e87f74d5c084171c1145416e5ba3e4d892114",
+        "html_path": "html/9bcb90927cb2cd87dafd8855c10e87f74d5c084171c1145416e5ba3e4d892114.html",
+        "replacement_chars": 0,
+        "chars": 73935,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2018年度高等教育研究所招收硕士研究生拟录取汇总",
+        "url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+        "publish_date": "2018-04-02",
+        "publisher": null,
+        "content": "2018年高等教育研究所课程与教学论——拟录取汇总表 排名 姓名 初试 复试 总分 外语 综合面试 笔试 初试折算 复试折算 总分折算 1 刘博囡 374 257.7 631.7 83.7 90 84 44.88 34.36 79.24 2 吴思颖 354 258.85 612.85 81.6 94.25 83 42.48 34.51 76.99 3 刘笑 343 243.25 586.25 72 91.25 80 41.16 32.43 73.59 2018年高等教育研究所高等教育学——拟录取汇总表 排名 姓名 初试 复试 总分 外语 综合面试 笔试 初试折算 复试折算 总分折算 1 宁秋芝 391 230.75 621.75 68.5 85.25 77 46.92 30.77 77.69 2 赫明侠 378 242.15 620.15 71.4 92.75 78 45.36 32.29 77.65 3 吕悦 362 255.35 617.35 76.6 91.75 87 43.44 34.05 77.49 4 郑梦真 369 242.9 611.9 70.4 89.5 83 44.28 32.39 76.67 5 孙莉 349 252.75 601.75 77 88.75 87 41.88 33.70 75.58 6 尚莉丽 363 238.75 601.75 65.5 90.25 83 43.56 31.83 75.39 7 刘玲 364 235.45 599.45 71.2 76.25 88 43.68 31.39 75.07 8 孟丽萍 354 241.55 595.55 77.8 84.75 79 42.48 32.21 74.69 9 简琛梅 362 233.4 595.4 68.9 87.5 77 43.44 31.12 74.56 10 陈瞳 360 234.25 594.25 83.5 73.75 77 43.2 31.23 74.43 11 刘彤 367 226.85 593.85 75.1 75.75 76 44.04 30.25 74.29 12 郭嘉辉 357 231.35 588.35 80.6 75.75 75 42.84 30.85 73.69 2018年高等教育研究所高等教育学——拟录取汇总表(少民） 排名 姓名 初试 复试 总分 外语 综合面试 笔试 初试折算 复试折算 总分折算 1 夏雨 322 205.85 527.85 62.1 77.75 66 38.64 27.45 66.09 2018年高等教育研究所教育技术学——拟录取汇总表 排名 姓名 初试 复试 总分 外语 综合面试 笔试 初试折算 复试折算 总分折算 1 徐婷婷 378 209.7 587.7 62.2 75.5 72 45.36 27.96 73.32 2 庄会紫 354 229.6 583.6 67.6 89 73 42.48 30.61 73.09 高等教育研究所 2018年4月2日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1270,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "td",
+            "classes": [
+              "title"
+            ],
+            "text": "2018年度高等教育研究所招收硕士研究生拟录取汇总"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "发布者： 发布时间：2018-04-02",
+            "date": "2018-04-02"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+      "list_title": "吉林大学高等教育研究所2018年面向全国招收学术型硕士研究生",
+      "list_date": "2017-09-30",
+      "response": {
+        "url": "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+        "time": "2026-10-15T22:36:23+08:00",
+        "ok": true,
+        "final_url": "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a4d815c711f74e8f177adecb041fce1d8ec4d8c298cffb073497a2b4d8a27454",
+        "html_path": "html/a4d815c711f74e8f177adecb041fce1d8ec4d8c298cffb073497a2b4d8a27454.html",
+        "replacement_chars": 0,
+        "chars": 27226,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学高等教育研究所2018年面向全国招收学术型硕士研究生",
+        "url": "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+        "publish_date": "2017-09-30",
+        "publisher": null,
+        "content": "吉林大学是国家“985”工程建设的重点大学，高等教育研究所位于吉林大学中心校区（吉大南校），2018年度在课程与教学论、高等教育学、教育技术学三个专业面向全国招收学术型硕士研究生，入学考试科目为外语、政治和专业综合。 一、培养方式 全日制（全脱产在校学习） 二、招生人数 17人 三、招生专业 高等教育学（12） 课程与教学论（3） 教育技术学（2） 四、学 制 3年 五、报考条件 1. 中华人民共和国公民； 2. 拥护中国共产党的领导，品德良好，遵纪守法； 3. 身体健康状况符合国家和招生单位规定的体检要求； 4．大学本科学历。 六、报 名 按吉林大学招生考试报名要求进行 七、考试 1.入学考试分初试和复试，具体时间按学校规定进行； 2.初试科目详见《吉林大学2018年硕士研究生招生专业目录》； 3.初试方式均为笔试； 4.所有拟录取考生必须参加复试，复试不合格者不予录取； 5.复试包括外国语听力、口语测试和综合复试。综合复试将采取面试加专业知识综合笔试方式； 6.具体复试内容范围、差额比例和初试、复试成绩所占权重按学校要求执行； 7.复试前将对考生的居民身份证、学历证书、学生证等报名材料原件及考生资格进行严格审查，对不符合规定者，不予复试。学历（学籍）信息有疑问的考生，必须在规定时间内提供权威机构出具的认证报告。 八、体检 考生体检工作在复试阶段组织进行，参照教育部、卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》（教学〔2003〕3 号）要求，按照《教育部办公厅 卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2 号）规定进行。 九、录取 考生入学考试总成绩由初试成绩和复试成绩综合加权计算得出，按入学考试总成绩排序录取。所有拟录考生必须参加招生学院（所）组织的思想政治和道德品质考核及体检，不合格者不予录取。 被录取考生于录取当年秋季入学，报到时须携带本人录取通知书、毕业证书和学位证书原件，应届本科毕业生还需提交《教育部学历证书电子注册备案表》。对不符合报考条件者，取消录取资格。 十、违规处理 对在研究生招生考试中有违反考试管理规定和考场纪律，影响考试公平、公正行为的考生及其他相关人员，一律按《国家教育考试违规处理办法》（教育部令第 33 号）严肃处理。违规或作弊事实记入《国家教育考试考生诚信档案》，并将考生的有关情况通报其所在学校或单位。 十一、其他事项 1.现役军人报考硕士研究生，按解放军总政治部规定办理； 2.我校、所不举办或参与举办任何形式的考前辅导班，未委托任何个人、社会培训机构进行考试招生辅导培训活动，违规者按国家、学校相关规定处理。不提供往年考研试题，不出售或办理邮购书籍业务； 3.请各位考生及时登录“吉林大学招生网”（http://zsb.jlu.edu.cn），以获取我校硕士研究生招生相关最新信息。 通讯地址：吉林省长春市前进大街2699号 吉林大学中心校区吉林大学高等教育研究所办公室（东荣大厦A1407室） 邮政编码：130012 咨询电话：0431-85168784 联 系 人：祝老师 初试参考书： 040102课程与教学论专业及040106高等教育学专业参考书： 《教育学基础》全国十二所重点师范大学联合编写，教育科学出版社，2015年1月第3版； 《外国教育史教程》，吴式颖主编，人民教育出版社，2015年6月第3版； 《中国教育史》，孙培青主编，华东师范大学出版社，2009年6月第3版； 040110教育技术学专业参考书： 《教育学基础》全国十二所重点师范大学联合编写，教育科学出版社，2015年1月第3版； 《外国教育史教程》，吴式颖主编，人民教育出版社，2015年6月第3版； 《教学系统设计》，何克抗等编著，高等教育出版社，2016年3月第2版。 欢迎广大考生报考!",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1606,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "td",
+            "classes": [
+              "title"
+            ],
+            "text": "吉林大学高等教育研究所2018年面向全国招收学术型硕士研究生"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "发布者： 发布时间：2017-09-30",
+            "date": "2017-09-30"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+      "list_title": "2015年吉林大学高等教育研究所硕士研究生复试办法及日程安排",
+      "list_date": "2015-03-16",
+      "response": {
+        "url": "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+        "time": "2026-10-15T22:36:25+08:00",
+        "ok": true,
+        "final_url": "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "cfff4fe5b18fdfc1689df38c845b0486555b4991ebcf029491d4d47eaedb924d",
+        "html_path": "html/cfff4fe5b18fdfc1689df38c845b0486555b4991ebcf029491d4d47eaedb924d.html",
+        "replacement_chars": 0,
+        "chars": 30662,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2015年吉林大学高等教育研究所硕士研究生复试办法及日程安排",
+        "url": "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+        "publish_date": "2015-03-16",
+        "publisher": null,
+        "content": "2015年吉林大学高等教育研究所硕士研究生复试办法及日程安排 一、复试名单： 高等教育学 ： 阎岩 徐靖 张丽莎 李蕾 于倩倩 崔莹 高超 冯亚娟 李昂 周芮 课程与教学论：李哨兵 胡净悦 二、复试程序： 1.资格审查（所需材料见附件一、附件二）。 2.体检 (2015年3月18日下午；吉林大学南校区校医院；带小二寸彩照二张；下午体检者中午空腹）。 3.综合面试（包括专业及综合素质、外语听说能力两部分）及笔试。 三、成绩计算及录取方式 1.笔试（教育技术学包括计算机操作测试）满分100分，60分合格；面试和外语成绩之和满分150分，90分及格。成绩不合格者不予录取。 2.总成绩=（初试成绩/500× 60% +复试成绩/250× 40%）×100。按考生总成绩排序，每个专业根据名额由高向低顺序录取。 四、复试日程表： 1.资格审查： 时间：2015年3月18日上午9：30 地点：吉林大学南校区东荣大厦十四楼办公室。 2.各专业复试时间安排： 课程与教学论、高等教育学专业复试日程安排 专业 时间 方式 地点 课程与教学论 高等教育学 3 月 19 日 9:00—11：00 笔试 东荣大厦1407 3 月 19 日 13：30—16:30 外语测试 东荣大厦1407 3 月 20 日 8：30—11：30 面试 东荣大厦1407 五、注意事项： 1.复试报名费100元。 2.所有参加复试考生必须在规定时间内进行资格审查，未进行资格审查的视为放弃复试资格。 高等教育研究所联系电话：85168784 联系人：祝春华 高等教育研究所 2015年3月16日 userfiles/2015年硕士研究生复试通知（附件一）(1).doc userfiles/吉林大学2015年招收攻读硕士学位研究生登记表（附件二）.doc",
+        "attachments": [
+          {
+            "filename": "userfiles/2015年硕士研究生复试通知（附件一）(1).doc",
+            "url": "http://gjs.jlu.edu.cn/userfiles/2015%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E9%80%9A%E7%9F%A5%EF%BC%88%E9%99%84%E4%BB%B6%E4%B8%80%EF%BC%89(1).doc",
+            "type": "doc"
+          },
+          {
+            "filename": "userfiles/吉林大学2015年招收攻读硕士学位研究生登记表（附件二）.doc",
+            "url": "http://gjs.jlu.edu.cn/userfiles/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62015%E5%B9%B4%E6%8B%9B%E6%94%B6%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E7%99%BB%E8%AE%B0%E8%A1%A8%EF%BC%88%E9%99%84%E4%BB%B6%E4%BA%8C%EF%BC%89.doc",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 763,
+        "reference_attachment_urls": [
+          "http://gjs.jlu.edu.cn/userfiles/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62015%E5%B9%B4%E6%8B%9B%E6%94%B6%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E7%99%BB%E8%AE%B0%E8%A1%A8%EF%BC%88%E9%99%84%E4%BB%B6%E4%BA%8C%EF%BC%89.doc",
+          "http://gjs.jlu.edu.cn/userfiles/2015%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E9%80%9A%E7%9F%A5%EF%BC%88%E9%99%84%E4%BB%B6%E4%B8%80%EF%BC%89(1).doc"
+        ],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "td",
+            "classes": [
+              "title"
+            ],
+            "text": "2015年吉林大学高等教育研究所硕士研究生复试办法及日程安排"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "发布者： 发布时间：2015-03-16",
+            "date": "2015-03-16"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+        "time": "2026-10-15T22:07:00+08:00",
+        "ok": true,
+        "final_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2bc6f541cbf49b57087b237ef665a0af3c4ea5c484cb627f063762aa3b0c6d14",
+        "html_path": "html/2bc6f541cbf49b57087b237ef665a0af3c4ea5c484cb627f063762aa3b0c6d14.html",
+        "replacement_chars": 0,
+        "chars": 32575,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+        "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+        "http://gjs.jlu.edu.cn/info/1046/1406.htm",
+        "http://gjs.jlu.edu.cn/info/1046/1407.htm",
+        "http://gjs.jlu.edu.cn/info/1046/1408.htm",
+        "http://gjs.jlu.edu.cn/info/1046/1833.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "time": "2026-10-15T22:07:00+08:00",
+    "ok": true,
+    "final_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "2bc6f541cbf49b57087b237ef665a0af3c4ea5c484cb627f063762aa3b0c6d14",
+    "html_path": "html/2bc6f541cbf49b57087b237ef665a0af3c4ea5c484cb627f063762aa3b0c6d14.html",
+    "replacement_chars": 0,
+    "chars": 32575,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2018年度高等教育研究所招收硕士研究生拟录取汇总",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+      "publish_date": "2018-04-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学高等教育研究所2018年面向全国招收学术型硕士研究生",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1404.htm",
+      "publish_date": "2017-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2015年吉林大学高等教育研究所硕士研究生复试办法及日程安排",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1405.htm",
+      "publish_date": "2015-03-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2015年高等教育研究所硕士生招生考试参考书目",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1406.htm",
+      "publish_date": "2014-09-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2011年高等教育研究所硕士研究生复试成绩",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1407.htm",
+      "publish_date": "2011-04-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2011年吉林大学高等教育研究所硕士研究生复试办法及日程安排",
+      "url": "http://gjs.jlu.edu.cn/info/1046/1408.htm",
+      "publish_date": "2011-03-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-0a00088dd271",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5900004655122757e-05,
+      "detail_duration_seconds": 7.800059393048286e-06,
+      "parse_db_duration_seconds": 0.03768290008883923
+    },
+    "second_round": {
+      "source": "p3-0a00088dd271",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6200006939470768e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-0a00088dd271",
+    "institution": "高等教育研究所",
+    "column": "招生信息",
+    "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "priority": "P3",
+    "original_status": "失败",
+    "original_issues": "LIST_CANDIDATE_RECALL_GAP | POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK | BODY_NAVIGATION_CONTAMINATION | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:07:00+08:00",
+    "review_time": "2026-10-15T23:01:08+08:00",
+    "http_status": 200,
+    "final_url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "list_pages": 1,
+    "list_items": 6,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://gjs.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-0a00088dd271.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

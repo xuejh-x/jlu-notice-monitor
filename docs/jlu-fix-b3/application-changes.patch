@@ -1,0 +1,242 @@
+--- b2/backend/app/parsers/html.py
++++ b3/backend/app/parsers/html.py
+@@ -12,6 +12,7 @@
+ from app.services.normalization import normalize_whitespace
+ 
+ ARTICLE_EXTENSIONS = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip"}
++EXPLICIT_ATTACHMENT_EXTENSIONS = ARTICLE_EXTENSIONS | {".jpg", ".jpeg", ".png", ".gif", ".webp", ".rar", ".7z", ".ppt", ".pptx", ".csv", ".txt"}
+ DATE_TEXT_PATTERN = re.compile(r"20\d{2}[-/.年]\s*\d{1,2}[-/.月]\s*\d{1,2}日?")
+ LIST_SELECTORS = (
+     ".list li a",
+@@ -264,25 +265,62 @@
+     raise HTMLParseError("HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector")
+ 
+ 
+-def _extract_attachments(node: Tag, page_url: str) -> list[AttachmentData]:
++def _explicit_attachment(anchor: Tag) -> bool:
++    if anchor.has_attr("download"):
++        return True
++    href = str(anchor.get("href") or "")
++    if re.search(r"/system/_content/download\.jsp\?", href, re.I) and "news.DownloadAttachUrl" in href:
++        return True
++    if anchor.find_parent(class_=re.compile(r"^(?:attachments?|attach|news_aboutFile)$", re.I)):
++        return True
++    row = anchor.find_parent("li")
++    return bool(row and re.match(r"^附件\s*[【\[:：]", row.get_text(" ", strip=True)))
++
++
++def _extract_attachments(node: Tag, page_url: str, *, explicit_only: bool = False) -> list[AttachmentData]:
+     results: list[AttachmentData] = []
+     seen: set[str] = set()
+     for anchor in node.select("a[href]"):
++        if not usable_link(anchor, page_url):
++            continue
++        explicit = _explicit_attachment(anchor)
++        if explicit_only and not explicit:
++            continue
+         href = str(anchor.get("href") or "")
+         url = urljoin(page_url, href)
+         path = unquote(urlsplit(url).path)
+         suffix = PurePosixPath(path).suffix.lower()
+         text = normalize_whitespace(anchor.get_text(" ", strip=True))
+-        match = re.search(r"\.(pdf|docx?|xlsx?|zip)(?:\?|$|\s)", f"{url} {text}", re.IGNORECASE)
+-        kind = suffix if suffix in ARTICLE_EXTENSIONS else (f".{match.group(1).lower()}" if match else "")
++        extensions = EXPLICIT_ATTACHMENT_EXTENSIONS if explicit else ARTICLE_EXTENSIONS
++        filename_hint = str(anchor.get("download") or "") or text
++        match = re.search(r"\.([a-z0-9]+)(?:[）)】\]\s]*$)", filename_hint, re.IGNORECASE)
++        named_kind = f".{match.group(1).lower()}" if match else ""
++        kind = suffix if suffix in extensions else (named_kind if named_kind in extensions else "")
+         if not kind:
++            kind = next((f".{m[1].lower()}" for m in re.finditer(r"\.([a-z0-9]+)(?:\?|$|\s)", url, re.I)
++                         if f".{m[1].lower()}" in extensions), "")
++        if not kind:
+             continue
+         if url in seen:
+             continue
+         seen.add(url)
+-        filename = text or PurePosixPath(path).name or f"attachment{kind}"
++        filename = text or str(anchor.get("download") or "") or PurePosixPath(path).name or f"attachment{kind}"
+         results.append(AttachmentData(filename=filename, url=url, type=kind.lstrip(".")))
+     return results
++
++
++def detail_attachments(soup: BeautifulSoup, content: Tag, page_url: str) -> list[AttachmentData]:
++    # Plain file links inside the article retain their existing behavior. Extra
++    # types and links outside its body require explicit attachment evidence.
++    scope = content.find_parent("form", attrs={"name": "_newscontent_fromname"}) or content.find_parent("article") or content.parent
++    files = _extract_attachments(content, page_url)
++    seen = {a.url for a in files}
++    if isinstance(scope, Tag):
++        for attachment in _extract_attachments(scope, page_url, explicit_only=True):
++            if attachment.url not in seen:
++                files.append(attachment)
++                seen.add(attachment.url)
++    return files
+ 
+ 
+ def parse_detail_html(html: str, page_url: str, fallback: NoticeCandidate) -> NoticeCandidate:
+@@ -292,7 +330,8 @@
+     content_node = _select_content(soup)
+     for unwanted in content_node.select("script, style, noscript"):
+         unwanted.decompose()
+-    validate_detail_container(soup, content_node, page_url=page_url)
++    attachments = detail_attachments(soup, content_node, page_url)
++    validate_detail_container(soup, content_node, has_attachments=bool(attachments), page_url=page_url)
+     content = detail_plain_text(content_node, page_url)
+     page_text = normalize_whitespace(soup.get_text(" ", strip=True))
+     publish_date = _detail_publish_date(soup, content_node, fallback.publish_date)
+@@ -306,6 +345,6 @@
+         publish_date=publish_date,
+         publisher=publisher,
+         content=content,
+-        attachments=_extract_attachments(soup, page_url),
++        attachments=attachments,
+         section=fallback.section,
+     )
+--- b2/backend/app/sources/base.py
++++ b3/backend/app/sources/base.py
+@@ -14,6 +14,7 @@
+ from app.parsers.html import is_empty_notice_list
+ from app.schemas.notice import NoticeCandidate
+ from app.services.http_diagnostics import exception_summary
++from app.services.source_security import UnsafeSourceUrl, validate_local_source_url
+ from app.services.tls import is_certificate_verification_error, source_ssl_context
+ 
+ logger = logging.getLogger(__name__)
+@@ -127,7 +128,17 @@
+ 
+     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
+         html = await self._get(notice.url)
+-        return self.parse_detail(html, notice)
++        parsed = self.parse_detail(html, notice)
++        attachments = []
++        for attachment in parsed.attachments:
++            try:
++                await validate_local_source_url(attachment.url, allow_private_network=False)
++            except UnsafeSourceUrl:
++                continue
++            attachments.append(attachment)
++        if not parsed.content and not attachments:
++            raise SourceError("HTML_DETAIL_EMPTY: no content or permitted attachment remains")
++        return parsed.model_copy(update={"attachments": attachments})
+ 
+     def parse_detail(self, html: str, notice: NoticeCandidate) -> NoticeCandidate:
+         return parse_detail_html(html, notice.url, notice)
+--- b2/backend/app/sources/generic.py
++++ b3/backend/app/sources/generic.py
+@@ -400,12 +400,16 @@
+ 
+     async def _safe_attachments(self, attachments: list[AttachmentData]) -> list[AttachmentData]:
+         safe: list[AttachmentData] = []
++        seen: set[str] = set()
+         for attachment in attachments[:50]:
++            if attachment.url in seen:
++                continue
+             try:
+                 await self.fetcher.validate_url(attachment.url)
+             except UnsafeSourceUrl:
+                 continue
+             safe.append(attachment)
++            seen.add(attachment.url)
+         return safe
+ 
+     async def fetch_detail(self, notice: NoticeCandidate) -> NoticeCandidate:
+@@ -415,7 +419,10 @@
+         configured = str(self.parser_config.get("content_selector", "")).strip()
+         if not configured:
+             parsed = parse_detail_html(text, final_url, notice)
+-            return parsed.model_copy(update={"attachments": await self._safe_attachments(parsed.attachments)})
++            attachments = await self._safe_attachments(parsed.attachments)
++            if not parsed.content and not attachments:
++                raise SourceError("HTML_DETAIL_EMPTY: no content or permitted attachment remains")
++            return parsed.model_copy(update={"attachments": attachments})
+         soup = BeautifulSoup(text, "html.parser")
+         try:
+             node = soup.select_one(configured)
+@@ -434,7 +441,7 @@
+             except Exception as exc:
+                 raise SourceError("The attachment selector is invalid") from exc
+             for anchor in anchors:
+-                if isinstance(anchor, Tag) and anchor.get("href"):
++                if isinstance(anchor, Tag) and usable_link(anchor, final_url):
+                     url = urljoin(final_url, str(anchor.get("href")))
+                     filename = normalize_whitespace(anchor.get_text(" ", strip=True)) or url.rsplit("/", 1)[-1]
+                     attachments.append(AttachmentData(filename=filename, url=url, type=filename.rsplit(".", 1)[-1].lower() if "." in filename else "file"))
+--- b2/backend/app/sources/oa_public.py
++++ b3/backend/app/sources/oa_public.py
+@@ -244,6 +244,10 @@
+                 self._log_http_result("POST", encoder_url, attempt, started, error=exc)
+                 if is_certificate_verification_error(exc):
+                     raise SourceError(f"TLS_CERTIFICATE_VERIFY_FAILED: POST {encoder_url}: {exception_summary(exc)}") from exc
++                if isinstance(exc, httpx.HTTPStatusError) and 400 <= exc.response.status_code < 500:
++                    raise SourceError(f"OA_PUBLIC_ATTACHMENT_HTTP_RESTRICTED: HTTP {exc.response.status_code}") from exc
++                if isinstance(exc, SourceError):
++                    raise
+                 last_error = exc
+                 if attempt < self.retries:
+                     await asyncio.sleep(self.backoff * (attempt + 1))
+--- /dev/null
++++ b3/backend/app/services/attachment_validation.py
+@@ -0,0 +1,62 @@
++"""Classify a bounded attachment prefix; never claim a complete download."""
++from __future__ import annotations
++
++import re
++from typing import Mapping
++
++
++def classify_attachment_prefix(status: int, headers: Mapping[str, str], prefix: bytes, expected_type: str = "") -> dict:
++    result = {"category": "UNVERIFIED", "file_prefix_verified": False, "complete_download_verified": False,
++              "read_bytes": len(prefix), "expected_type": expected_type.lower().lstrip(".")}
++    def verdict(category, reason, **extra):
++        return dict(result, category=category, reason=reason, **extra)
++    if status in {401, 403, 429, 404, 410}:
++        return verdict({401: "AUTH_REQUIRED", 403: "ACCESS_DENIED", 429: "RATE_LIMITED", 404: "NOT_FOUND", 410: "NOT_FOUND"}[status], f"HTTP {status}")
++    if 300 <= status < 400:
++        return verdict("REDIRECT_NOT_FOLLOWED", "Redirect is not file evidence")
++    if status not in {200, 206}:
++        return verdict("HTTP_ERROR", f"HTTP {status}")
++    if not prefix:
++        return verdict("EMPTY_RESPONSE", "No response bytes")
++    content_type = next((value for key, value in headers.items() if key.lower() == "content-type"), "").lower().split(";", 1)[0].strip()
++    families = []
++    if prefix.startswith(b"%PDF-"):
++        families = ["pdf"]
++    elif prefix.startswith(b"\xff\xd8\xff"):
++        families = ["jpg", "jpeg"]
++    elif prefix.startswith(b"\x89PNG\r\n\x1a\n"):
++        families = ["png"]
++    elif prefix.startswith((b"GIF87a", b"GIF89a")):
++        families = ["gif"]
++    elif prefix.startswith(b"RIFF") and prefix[8:12] == b"WEBP":
++        families = ["webp"]
++    elif prefix.startswith((b"PK\x03\x04", b"PK\x05\x06", b"PK\x07\x08")):
++        families = ["zip", "docx", "xlsx", "pptx"]
++    elif prefix.startswith(b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"):
++        families = ["doc", "xls", "ppt"]
++    elif prefix.startswith(b"Rar!\x1a\x07"):
++        families = ["rar"]
++    elif prefix.startswith(b"7z\xbc\xaf\x27\x1c"):
++        families = ["7z"]
++    if families:
++        if content_type in {"text/html", "application/xhtml+xml", "application/json"}:
++            return verdict("HEADER_BODY_MISMATCH", "Binary signature conflicts with response content type", detected_family=families)
++        if result["expected_type"] and result["expected_type"] not in families:
++            return verdict("FILE_TYPE_MISMATCH", "Binary signature conflicts with link filename/type", detected_family=families)
++        return verdict("FILE_PREFIX_VERIFIED", "Recognized file/container prefix only; whole file and archive contents not checked",
++                       file_prefix_verified=True, detected_family=families)
++    try:
++        text = prefix.decode("utf-8-sig")
++    except UnicodeDecodeError:
++        text = prefix.decode("gb18030", errors="replace")
++    if re.search(r"验证码|captcha|verifycode|challenge", text, re.I):
++        return verdict("CAPTCHA_REQUIRED", "Verification page; no captcha submission or bypass")
++    if re.search(r"type\s*=\s*['\"]?password|统一身份认证|用户登录", text, re.I):
++        return verdict("AUTH_REQUIRED", "Login/authentication response")
++    if re.search(r"仅限校内|校内网|校园网|校内IP|校内 IP", text, re.I):
++        return verdict("ACCESS_RESTRICTED_PAGE", "Response describes campus-network access restrictions")
++    if content_type in {"text/html", "application/xhtml+xml"} or re.match(r"\s*<(?:!doctype|html|head|body|script|form|div|p\b)", text, re.I):
++        return verdict("DOWNLOAD_HTML_PAGE", "HTML instruction/error/download page, not file bytes")
++    if content_type.startswith("text/") or result["expected_type"] in {"csv", "txt"}:
++        return verdict("TEXT_FILE_UNVERIFIED", "Text has no decisive file signature; not promoted by status/disposition alone")
++    return verdict("UNKNOWN_PREFIX", "No recognized file signature in bounded sample")

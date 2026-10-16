@@ -1,0 +1,109 @@
+{
+  "column_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+  "column": "通知公告",
+  "institution": "新能源与环境学院",
+  "site_url": "https://cer.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://cer.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:43:12+08:00",
+  "checked_at": "2026-10-13T13:43:19+08:00",
+  "status": "部分通过",
+  "issues": [
+    "BODY_CONTAINER_FALLBACK",
+    "BODY_TOO_SHORT"
+  ],
+  "details": [
+    {
+      "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+      "list_title": "新能源与环境学院1955年-2026年毕业生名册",
+      "parsed_title": "新能源与环境学院1955年-2026年毕业生名册",
+      "document_title": "新能源与环境学院1955年-2026年毕业生名册-吉林大学新能源与环境学院",
+      "heading_texts": [
+        "通知公告 当前位置: 首页 - 校友服务 - 通知公告 - 正文"
+      ],
+      "title_verified": true,
+      "list_date": "2026-09-23",
+      "parsed_date": "2026-09-23",
+      "reference_date": "2026-09-23",
+      "body_selector": "body fallback or specialized OA",
+      "content_chars": 0,
+      "content_preview": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_TOO_SHORT"
+      ],
+      "time": "2026-10-13T13:54:40+08:00",
+      "sha256": "99cea3c79e1095d6cb81176f3ded6ef55f027ac25bfe673584daf081e431b7c5",
+      "snapshot": "html/99cea3c79e1095d6cb81176f3ded6ef55f027ac25bfe673584daf081e431b7c5.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "新能源与环境学院1955年-2026年毕业生名册",
+      "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学校友会章程",
+      "url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+      "publish_date": "2020-11-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/c83c01ef7cc337a4.json",
+  "reason": "BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+  "list_sha256": "5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b",
+  "list_snapshot": "html/5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 2,
+  "unparsed_reference_links": []
+}

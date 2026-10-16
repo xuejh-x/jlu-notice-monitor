@@ -1,0 +1,271 @@
+{
+  "column_url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+  "column": "通知公告",
+  "institution": "团委",
+  "site_url": "https://youth.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P1",
+  "discovery_url": "https://youth.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:38:22+08:00",
+  "checked_at": "2026-10-13T13:38:24+08:00",
+  "status": "部分通过",
+  "issues": [
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [
+    {
+      "url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+      "list_title": "关于公开选拔吉大青年通讯社主要学生干部的通知",
+      "parsed_title": "关于公开选拔吉大青年通讯社主要学生干部的通知",
+      "document_title": "关于公开选拔吉大青年通讯社主要学生干部的通知-共青团吉林大学委员会",
+      "heading_texts": [
+        "关于公开选拔吉大青年通讯社主要学生干部的通知"
+      ],
+      "title_verified": true,
+      "list_date": "2026-09-30",
+      "parsed_date": "2026-09-30",
+      "reference_date": "2026-09-30",
+      "body_selector": ".v_news_content",
+      "content_chars": 1170,
+      "content_preview": "为进一步加强吉大青年通讯社（原《吉大青年》报社）队伍建设，优化学生干部队伍结构，保障各项工作有序高效开展，现面向全校公开选拔 2026-2027学年吉大青年通讯社主任团成员及秘书部、编辑部、宣传部部门负责人。有关事项通知如下： 一、选拔原则 坚持公平公正、公开透明、择优录取的原则开展选拔工作。 二、岗位设置 1.主席团成员：研究生部2人、本科生部4人； 2.各部门负责人：秘书部、编辑部、宣传部各部门设置研究生部负责人1人、本科生部负责人3人。 三、选拔对象 1.主席团成员：研究生部应为2025级及以上全日制在校硕士研究生、博士研究生；本科生部学制4年的应为2024级及以上全日制在校本科生，学制5年的应为2023级及以上全日制在校本科生； 2.各部门负责人：原则上应为2025级及以上全日制在校研究生、本科生。 四、选拔条件 1.政治立场坚定。热爱祖国，拥护中国共产党领导，自觉贯彻执行党的路线",
+      "content_sha256": "89ac74d426815849a67d07c887dbbbbe5de42e121ab84a35e86ae538123050a6",
+      "raw_attachments": [
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+          "filename": "附件2：吉大青年通讯社部门负责人报名表.docx"
+        },
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205397",
+          "filename": "附件1：吉大青年通讯社主席团报名表.docx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "附件2：吉大青年通讯社部门负责人报名表.docx",
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+          "type": "docx"
+        },
+        {
+          "filename": "附件1：吉大青年通讯社主席团报名表.docx",
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205397",
+          "type": "docx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T13:52:41+08:00",
+      "sha256": "a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed",
+      "snapshot": "html/a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed.html",
+      "attachment_probes": [
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+          "time": "2026-10-13T13:52:42+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    },
+    {
+      "url": "https://youth.jlu.edu.cn/info/1009/4995.htm",
+      "list_title": "关于公开选拔吉林大学阳光志愿者协会学生干部的通知",
+      "parsed_title": "关于公开选拔吉林大学阳光志愿者协会学生干部的通知",
+      "document_title": "关于公开选拔吉林大学阳光志愿者协会学生干部的通知-共青团吉林大学委员会",
+      "heading_texts": [
+        "关于公开选拔吉林大学阳光志愿者协会学生干部的通知"
+      ],
+      "title_verified": true,
+      "list_date": "2026-09-21",
+      "parsed_date": "2026-09-21",
+      "reference_date": "2026-09-21",
+      "body_selector": ".v_news_content",
+      "content_chars": 1207,
+      "content_preview": "吉林大学阳光志愿者协会（以下简称 “本协会”）自成立以来，持续为学校及吉林省各类大型志愿服务活动提供有力支撑，是我校志愿服务工作的重要标杆。为进一步加强学生组织队伍建设，优化学生干部队伍结构，保障协会各项工作有序高效开展，现面向全校公开选拔2026-2027学年本协会主席团成员及秘书部、实践部、活动部、宣传部等部门负责人。有关事项通知如下： 一、选拔原则 坚持公平公正、公开透明、择优录取的原则开展选拔工作。 二、岗位设置 1.主席团成员若干名，根据各校区实际工作量及候选人综合考核表现确定录用人员； 2.秘书部、实践部、活动部、宣传部等部门负责人若干名。 三、选拔对象 1.主席团成员：学制4年的应为2024级及以上年级全日制在校本科生，学制5年的应为2023级及以上年级全日制在校本科生； 2.各部门部长：原则上应为2025级、2024级全日制在校本科生。 四、选拔条件 1.政治立场坚定。热爱",
+      "content_sha256": "81f0e02fb02200533bb5b3854e664d776a5c13f815781f18140fe9752ea5e6e6",
+      "raw_attachments": [
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+          "filename": "附件2：阳光志愿者协会部门负责人报名表.docx"
+        },
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200536",
+          "filename": "附件1：阳光志愿者协会主席团报名表.docx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "附件2：阳光志愿者协会部门负责人报名表.docx",
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+          "type": "docx"
+        },
+        {
+          "filename": "附件1：阳光志愿者协会主席团报名表.docx",
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200536",
+          "type": "docx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T13:52:43+08:00",
+      "sha256": "6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06",
+      "snapshot": "html/6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06.html",
+      "attachment_probes": [
+        {
+          "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+          "time": "2026-10-13T13:52:45+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 5,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公开选拔吉大青年通讯社主要学生干部的通知",
+      "url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公开选拔吉林大学阳光志愿者协会学生干部的通知",
+      "url": "https://youth.jlu.edu.cn/info/1009/4995.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我校学生跨校参加2026年“挑战杯”中国大学生创业计划竞赛东北振兴产业升级专项赛的公示",
+      "url": "https://youth.jlu.edu.cn/info/1009/4994.htm",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我校学生跨校参加2026年“挑战杯”中国大学生创业计划竞赛东北振兴产业升级专项赛的公示",
+      "url": "https://youth.jlu.edu.cn/info/1009/4989.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025-2026学年第二学期演出公示名单",
+      "url": "https://youth.jlu.edu.cn/info/1009/4988.htm",
+      "publish_date": "2026-08-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 5,
+  "attachments_checked": 2,
+  "evidence_file": "docs/jlu-audit-evidence/results/19da6ac0690c2834.json",
+  "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://youth.jlu.edu.cn/index/tzgg/137.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://youth.jlu.edu.cn/index/tzgg/137.htm",
+    "time": "2026-10-13T13:52:46+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 5,
+    "new_urls": 5,
+    "snapshot": "html/7014c56a54b215aa508ec45651648c4647798f6f6e91cad14040733c7cdf4b33.html"
+  },
+  "final_url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+  "list_sha256": "a3e8a474bb492ce8645e43a32eb15b4deba5022d32e5e2e70e25b5f51d3fe707",
+  "list_snapshot": "html/a3e8a474bb492ce8645e43a32eb15b4deba5022d32e5e2e70e25b5f51d3fe707.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 5,
+  "unparsed_reference_links": []
+}

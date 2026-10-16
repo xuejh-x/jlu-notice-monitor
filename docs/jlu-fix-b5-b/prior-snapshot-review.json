@@ -1,0 +1,456 @@
+{
+  "reviewed_at": "2026-10-14T22:59:44.672818+08:00",
+  "mode": "offline only",
+  "details": [
+    {
+      "id": "yzb-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+      "captured_at": "2026-10-14T16:34:41+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd.html",
+      "sha256": "246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-06-25",
+            "date": "2026-06-25"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-06-25",
+        "parsed_date": "2026-06-25",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2335.htm",
+      "captured_at": "2026-10-14T16:34:42+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e.html",
+      "sha256": "faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-05-07",
+            "date": "2026-05-07"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-05-07",
+        "parsed_date": "2026-05-07",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2333.htm",
+      "captured_at": "2026-10-14T16:34:43+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\9c2a36d3ec0fa64b14daa7ee53d0e6dc3c179c8b9850df748012cf5efd80eb33.html",
+      "sha256": "9c2a36d3ec0fa64b14daa7ee53d0e6dc3c179c8b9850df748012cf5efd80eb33",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-05-07",
+            "date": "2026-05-07"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-05-07",
+        "parsed_date": "2026-05-07",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1004/3677.htm",
+      "captured_at": "2026-10-14T16:34:47+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\8a9d6b29b4c2296acf0fad70d768350366e9566dc9ce0046742b53f5d72af598.html",
+      "sha256": "8a9d6b29b4c2296acf0fad70d768350366e9566dc9ce0046742b53f5d72af598",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-06-30",
+            "date": "2026-06-30"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-06-30",
+        "parsed_date": "2026-06-30",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1004/2368.htm",
+      "captured_at": "2026-10-14T16:34:48+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\ce24781d3e5646f22b6469090ca8e180be1036728c8307791a4957fd3d2d2e9b.html",
+      "sha256": "ce24781d3e5646f22b6469090ca8e180be1036728c8307791a4957fd3d2d2e9b",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-05-15",
+            "date": "2026-05-15"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-05-15",
+        "parsed_date": "2026-05-15",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1004/2369.htm",
+      "captured_at": "2026-10-14T16:34:49+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\cc4b78f12ac8cbd2cbacb83381811be1ca378f0c5ad202805cebe06bd2e8a73b.html",
+      "sha256": "cc4b78f12ac8cbd2cbacb83381811be1ca378f0c5ad202805cebe06bd2e8a73b",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-04-24",
+            "date": "2026-04-24"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-04-24",
+        "parsed_date": "2026-04-24",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3283.htm",
+      "captured_at": "2026-10-14T16:34:53+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0.html",
+      "sha256": "88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2025-11-20",
+            "date": "2025-11-20"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2025-11-20",
+        "parsed_date": "2025-11-20",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3284.htm",
+      "captured_at": "2026-10-14T16:34:54+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870.html",
+      "sha256": "1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2025-11-13",
+            "date": "2025-11-13"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2025-11-13",
+        "parsed_date": "2025-11-13",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1050/3285.htm",
+      "captured_at": "2026-10-14T16:34:55+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\50909e3724a95fa788b1562fbf82c0e2c086de1faae3fc7589bb70c4005d356a.html",
+      "sha256": "50909e3724a95fa788b1562fbf82c0e2c086de1faae3fc7589bb70c4005d356a",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2025-07-02",
+            "date": "2025-07-02"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2025-07-02",
+        "parsed_date": "2025-07-02",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3531.htm",
+      "captured_at": "2026-10-14T16:34:59+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe.html",
+      "sha256": "08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-06-30",
+            "date": "2026-06-30"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-06-30",
+        "parsed_date": "2026-06-30",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+      "captured_at": "2026-10-14T16:35:00+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7.html",
+      "sha256": "55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2025-06-27",
+            "date": "2025-06-27"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2025-06-27",
+        "parsed_date": "2025-06-27",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-doctor-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3349.htm",
+      "captured_at": "2026-10-14T16:35:01+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\a7f0144affced1b700fe7779364a13741a71add8a4743bba800bdaed5e203c2c.html",
+      "sha256": "a7f0144affced1b700fe7779364a13741a71add8a4743bba800bdaed5e203c2c",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2024-06-27",
+            "date": "2024-06-27"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2024-06-27",
+        "parsed_date": "2024-06-27",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2913.htm",
+      "captured_at": "2026-10-14T16:35:05+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1.html",
+      "sha256": "43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-05-19",
+            "date": "2026-05-19"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-05-19",
+        "parsed_date": "2026-05-19",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2914.htm",
+      "captured_at": "2026-10-14T16:35:06+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402.html",
+      "sha256": "4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-04-24",
+            "date": "2026-04-24"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-04-24",
+        "parsed_date": "2026-04-24",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-notices",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2915.htm",
+      "captured_at": "2026-10-14T16:35:08+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\9220ac3f9898e2a84a0af51482e2055dc8f3594b3b5983625be46fbd4783c88b.html",
+      "sha256": "9220ac3f9898e2a84a0af51482e2055dc8f3594b3b5983625be46fbd4783c88b",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-02-26",
+            "date": "2026-02-26"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-02-26",
+        "parsed_date": "2026-02-26",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1049/2931.htm",
+      "captured_at": "2026-10-14T16:35:11+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\2769f36e244ef127ce97d1aab575c6db7b8a5dc679f547022c763c155af4392c.html",
+      "sha256": "2769f36e244ef127ce97d1aab575c6db7b8a5dc679f547022c763c155af4392c",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-05-15",
+            "date": "2026-05-15"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-05-15",
+        "parsed_date": "2026-05-15",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1049/2932.htm",
+      "captured_at": "2026-10-14T16:35:12+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\8a1f6ef8405d723186f14d87e14beee3852249eeb3d543a3b0fbac7c2f9bd5cb.html",
+      "sha256": "8a1f6ef8405d723186f14d87e14beee3852249eeb3d543a3b0fbac7c2f9bd5cb",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2026-04-24",
+            "date": "2026-04-24"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2026-04-24",
+        "parsed_date": "2026-04-24",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    },
+    {
+      "id": "yzb-master-publicity",
+      "url": "https://yzb.jlu.edu.cn/info/1049/2933.htm",
+      "captured_at": "2026-10-14T16:35:13+08:00",
+      "snapshot": "docs\\jlu-fix-b4\\live-20261014\\html\\472ac00067208bd0b3f47d415d49a89cc39f1316424d524a706f267a715b7086.html",
+      "sha256": "472ac00067208bd0b3f47d415d49a89cc39f1316424d524a706f267a715b7086",
+      "date_evidence": {
+        "verdict": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+        "publication_evidence": [],
+        "update_evidence": [
+          {
+            "kind": "article_metadata",
+            "raw": "更新时间：2025-10-16",
+            "date": "2025-10-16"
+          }
+        ],
+        "unlabelled_article_dates": [],
+        "invalid_evidence": [],
+        "list_date": "2025-10-16",
+        "parsed_date": "2025-10-16",
+        "list_matches_update": true,
+        "publication_verified": false,
+        "body_dates_used_as_publication": false
+      }
+    }
+  ]
+}

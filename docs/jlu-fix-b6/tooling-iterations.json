@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-15T20:27:22.476537+08:00",
+  "excluded_from_final_site_statuses": true,
+  "initial_regression": "15 failed, 355 passed; scoped empty classification and hospital detail controls",
+  "iteration_1": "7 failed, 363 passed; empty UL was cropped out of seven fixture frames, corrected using exact original DOM",
+  "iteration_2": "3 failed, 383 passed; proposed test retention 36500 exceeded Settings maximum 3650; review-2 results invalid for site conclusions",
+  "iteration_3_full": "3 failed, 522 passed, 1 skipped; new test imported audit helper without restoring environment, fixed in test fixture",
+  "resolution": "Production retention maximum unchanged; optional isolated identity replay bypasses expiry only inside its test context; environment restored after each B6 test",
+  "followup_initial_guard": "Initial planned hosts omitted one EES saved-list sample; stopped before HTTP, then limited to exact saved anchors and same original column host",
+  "final_tests": {
+    "baseline": "487 passed, 1 skipped",
+    "regression-before": "15 failed, 355 passed",
+    "targeted": "394 passed",
+    "final": "533 passed, 1 skipped"
+  }
+}

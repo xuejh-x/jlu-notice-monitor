@@ -1,0 +1,798 @@
+{
+  "id": "p3-2a947afc9f1e",
+  "url": "https://synlab.jlu.edu.cn/archive/information/events",
+  "institution": "无机合成与制备化学全国重点实验室",
+  "column": "通知",
+  "site_url": "http://synlab.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/2a947afc9f1e07da.json",
+  "original_capture_time": "2026-10-13T14:05:28+08:00",
+  "discovery_url": "https://synlab.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-2a947afc9f1e",
+    "name": "无机合成与制备化学全国重点实验室 / 通知",
+    "base_url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": "a.next.page-numbers",
+      "item_selector": "article.type-post.entry-list, article.type-post.entry-list-medium",
+      "title_selector": "h2.entry-title-activities > a",
+      "url_selector": "h2.entry-title-activities > a",
+      "time_selector": "time.entry-date"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:49+08:00",
+  "details": [
+    {
+      "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+      "list_title": "仪器共享平台用户违规行为处罚管理办法（试行）",
+      "list_date": "2026-09-03",
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+        "time": "2026-10-15T22:36:39+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "cae150d04fc55376e1605b12b5623aa2ce9098badbe1b49d3edb4d009d607894",
+        "html_path": "html/cae150d04fc55376e1605b12b5623aa2ce9098badbe1b49d3edb4d009d607894.html",
+        "replacement_chars": 0,
+        "chars": 29816,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "仪器共享平台用户违规行为处罚管理办法（试行）",
+        "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+        "publish_date": "2026-09-03",
+        "publisher": null,
+        "content": "无机合成与制备化学全国重点实验室 仪器共享平台用户违规行为处罚管理办法 为保障仪器共享平台仪器设备的安全稳定运行，规范仪器使用和测试工作，防范和减少测试用户违规行为的发生，结合平台实际情况，特制定本管理办法。 1.违规行为：用户采用非正常途径，如盗用、复制门卡等方式，在不告知仪器管理员的情况下私自进入仪器实验室进行测试。 处罚规定：开具仪器共享平台处罚单并通知导师，取消该用户在平台进行任何仪器的上机培训资格；上报实验室，实验室按规章制度另行进行处罚。 2.违规行为：用户经过培训有上机测试资格，但使用非本人账户上机测试。 处罚规定：开具仪器共享平台处罚单并通知导师，暂停上机测试本人账户和借用账户上机资格1个月。 3.违规行为：用户未经过培训考核无上机测试资格，使用非本人账户上机测试。 处罚规定：开具仪器共享平台处罚单并通知导师，暂停借用账户上机预约资格使用6个月，禁止上机测试本人进行上机预约资格申请，如在使用期间对仪器造成损坏，由上机测试人和借用账户用户及双方所在课题组承担维修费用。 4.违规行为：用户不按照仪器管理员培训步骤进行制样和上机操作，对仪器造成故障。 处罚规定：如仪器造成轻微损坏，仪器管理员可自行维修，根据具体情况对该用户进行口头批评警告、通知导师或开具仪器共享平台处罚单暂停上机预约资格1-3个月，处罚期满后重新培训考核；如对仪器造成重大损坏，需请工程师上门维修，由该用户和所在课题组负责维修费用。根据具体情况对该用户开具仪器共享平台处罚单并通知导师，暂停上机预约资格1-6个月，处罚期满后重新培训考核。 5.违规行为：上机用户违反应遵守的平台管理制度。 处罚规定：如初次违规，根据具体情况对该用户进行口头批评警告并通知导师；如属于再次违规或屡次违规，可根据具体情况开具仪器共享平台处罚单并通知导师，暂停该用户上机预约资格1-3个月。 6.违规行为：用户自行解除仪器关联登录系统，在无预约情况下进行测试。 处罚规定：开具仪器共享平台处罚单并通知导师，暂停该用户账上机预约资格6个月。 7.违规行为：用户超时测试或在预约时间以外进行样品测试。 处罚规定：一经发现，在安全前提下，立即停止实验。如属初次违规，对该用户进行口头批评警告，追缴超时部分测试费用并通知导师；如该用户再次违规，追缴超时部分测试费用并通知导师加强教育，并暂停该用户上机预约资格1个月；如课题组屡次违规，可根据具体情况追缴超时部分测试费用并通知导师加强课题组管理，并暂停该课题组上机预约资格1个月。注：在以上处罚基础上，如因超时测试或在预约时间以外进行样品测试造成其他正常预约用户机时损失的，应及时给予机时及测试费用补偿。 8.违规行为：用户实际上机测试项目与预约测试项目不符。 处罚规定：如属于初次违规，根据具体情况对该用户进行口头批评警告；如属于再次违规或屡次违规，开具仪器共享平台处罚单并通知导师，暂停该用户上机预约资格1-3个月。 9.违规行为：用户通过电子门禁后去非预约仪器区域进行测试或其它活动。 处罚规定：根据具体情况对该用户进行口头批评警告、通知导师或开具仪器共享平台处罚单，暂停该用户上机预约资格1-3个月；在此期间违规行为对平台造成损失，由该用户和课题组负责涉及的所有费用。 10.违规行为：用户不如实填写样品测试信息造成仪器损坏。 处罚规定： 如仪器造成轻微损坏，仪器管理可自行维修，对该用户进行口头批评警告并通知导师；如对仪器造成中等或重大损坏，需请工程师上门维修，对该用户开具仪器共享平台处罚单并通知导师，由该用户和所在课题组负责维修费用。 本办法自发布之日起实施，解释权归无机合成与制备化学全国实验室仪器共享平台所有。 无机合成与制备化学全国重点实验室 2026年9月1日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1547,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h1",
+            "classes": [
+              "entry-title"
+            ],
+            "text": "仪器共享平台用户违规行为处罚管理办法（试行）"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2026-09-03T10:10:46+00:00",
+            "date": "2026-09-03"
+          }
+        ],
+        "unexpected_attachment_urls": []
+      },
+      "verified": true
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+      "list_title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+      "list_date": "2025-09-23",
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "time": "2026-10-15T22:36:37+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "0282a366d2a0c2e1669fee63134064dcbcd2d5a1cbd40851f04cbe04fbea3cfb",
+        "html_path": "html/0282a366d2a0c2e1669fee63134064dcbcd2d5a1cbd40851f04cbe04fbea3cfb.html",
+        "replacement_chars": 0,
+        "chars": 27714,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+        "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "publish_date": "2025-09-23",
+        "publisher": null,
+        "content": "自2025年9月26日期起，无机合成与制备化学全国重点实验室仪器共享平台（以下简称“仪器共享平台”）正式面向校内外用户开放，用户可登录吉林大学大型仪器设备共享平台（网址：https://syweb.jlu.edu.cn/）进行预约测试，校外用户如需了解设备信息、制样要求可通过邮件咨询仪器负责人（详见附件：仪器共享平台联系信息）。 为提升仪器设备的使用效率，维护高效稳定的测试秩序，预约使用公共测试平台需严格遵守实验室《仪器共享平台仪器运行及共享管理办法》《仪器共享平台用户违规行为处罚管理办法》《仪器共享平台安全管理办法》《仪器共享平台加急测试管理办法》等规章制度，现场听从仪器管理人员指导及安排，自觉爱护仪器设备及环境设施。",
+        "attachments": [
+          {
+            "filename": "仪器共享平台联系信息",
+            "url": "https://synlab.jlu.edu.cn/attachment/2025/09/stuff_contact_information.pdf",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 314,
+        "reference_attachment_urls": [
+          "https://synlab.jlu.edu.cn/attachment/2025/09/stuff_contact_information.pdf"
+        ],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h1",
+            "classes": [
+              "entry-title"
+            ],
+            "text": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2025-09-23T15:33:30+00:00",
+            "date": "2025-09-23"
+          }
+        ],
+        "unexpected_attachment_urls": []
+      },
+      "verified": true
+    },
+    {
+      "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+      "list_title": "2024年申请重点实验室开放课题基金的通知",
+      "list_date": "2024-06-18",
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+        "time": "2026-10-15T22:12:12+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "9ce320bc9ce46e94bc5d2aa9591f9102cd258b1911924986c87e20b054d5d519",
+        "html_path": "html/9ce320bc9ce46e94bc5d2aa9591f9102cd258b1911924986c87e20b054d5d519.html",
+        "replacement_chars": 0,
+        "chars": 34987,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2024年申请重点实验室开放课题基金的通知",
+        "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+        "publish_date": "2024-06-18",
+        "publisher": "实施2024年度国家重点实验室开放课题基金的申请。实验室主要",
+        "content": "根据科技部和财政部《国家重点实验室建设与运行管理办法》（国科发基[2008]539号）以及《国家重点实验室专项经费管理办法》（财教 [2008] 531号）文件，结合无机合成与制备化学全国重点实验室具体情况面向科研工作者实施2024年度国家重点实验室开放课题基金的申请。实验室主要从事无机合成方法学、无机合成相关理论和无机新材料的开发等基础研究和应用基础研究。实行“开放、流动、联合、竞争”的运行机制。通过开放课题的实施，组织高水平基础研究和应用基础研究、聚集和培养优秀科技人才、促进学科交叉和开展高水平学术交流。详细情况请参阅本文附件。",
+        "attachments": [
+          {
+            "filename": "2024年无机合成与制备化学全国重点实验室开放课题实施细则",
+            "url": "https://synlab.jlu.edu.cn/attachment/2024/06/2024-1.pdf",
+            "type": "pdf"
+          },
+          {
+            "filename": "2024年无机合成与制备化学全国重点实验室开放课题基金申请书",
+            "url": "https://synlab.jlu.edu.cn/attachment/2024/06/2024-2.doc",
+            "type": "doc"
+          },
+          {
+            "filename": "2024年无机合成与制备化学全国重点实验室开放课题报账说明",
+            "url": "https://synlab.jlu.edu.cn/attachment/2024/06/2024-3.pdf",
+            "type": "pdf"
+          },
+          {
+            "filename": "2024年无机合成与制备化学全国重点实验室开放课题基金总结报告书",
+            "url": "https://synlab.jlu.edu.cn/attachment/2024/06/2024-4.doc",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 269,
+        "reference_attachment_urls": [
+          "https://synlab.jlu.edu.cn/attachment/2024/06/2024-1.pdf",
+          "https://synlab.jlu.edu.cn/attachment/2024/06/2024-2.doc",
+          "https://synlab.jlu.edu.cn/attachment/2024/06/2024-3.pdf",
+          "https://synlab.jlu.edu.cn/attachment/2024/06/2024-4.doc"
+        ],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h1",
+            "classes": [
+              "entry-title"
+            ],
+            "text": "2024年申请重点实验室开放课题基金的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2024-06-18T16:06:46+00:00",
+            "date": "2024-06-18"
+          }
+        ],
+        "unexpected_attachment_urls": []
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/archive/information/events",
+        "time": "2026-10-15T22:12:07+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/archive/information/events",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "3553e2cfd048a1f2336971112b4f0623cfc1bd5ce322af882456f95b951ac36e",
+        "html_path": "html/3553e2cfd048a1f2336971112b4f0623cfc1bd5ce322af882456f95b951ac36e.html",
+        "replacement_chars": 0,
+        "chars": 37991,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://synlab.jlu.edu.cn/2025/05/5128.html",
+        "https://synlab.jlu.edu.cn/2025/07/5145.html",
+        "https://synlab.jlu.edu.cn/2025/07/5147.html",
+        "https://synlab.jlu.edu.cn/2025/09/5172.html",
+        "https://synlab.jlu.edu.cn/2025/09/5200.html",
+        "https://synlab.jlu.edu.cn/2025/09/5201.html",
+        "https://synlab.jlu.edu.cn/2025/09/5203.html",
+        "https://synlab.jlu.edu.cn/2026/09/5291.html"
+      ],
+      "observed_next_urls": [
+        "https://synlab.jlu.edu.cn/archive/information/events/page/2"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+        "time": "2026-10-15T22:41:39+08:00",
+        "ok": true,
+        "final_url": "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "b75087566258d68438e7e51dbf8058d2e991e7630aa0c20a8969e32f961e0563",
+        "html_path": "html/b75087566258d68438e7e51dbf8058d2e991e7630aa0c20a8969e32f961e0563.html",
+        "replacement_chars": 0,
+        "chars": 38057,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://synlab.jlu.edu.cn/2017/04/3433.html",
+        "https://synlab.jlu.edu.cn/2018/05/3631.html",
+        "https://synlab.jlu.edu.cn/2019/05/4028.html",
+        "https://synlab.jlu.edu.cn/2020/05/4170.html",
+        "https://synlab.jlu.edu.cn/2021/05/4539.html",
+        "https://synlab.jlu.edu.cn/2022/06/4609.html",
+        "https://synlab.jlu.edu.cn/2023/05/4755.html",
+        "https://synlab.jlu.edu.cn/2024/06/5016.html"
+      ],
+      "observed_next_urls": [
+        "https://synlab.jlu.edu.cn/archive/information/events/page/3"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "time": "2026-10-15T22:12:07+08:00",
+    "ok": true,
+    "final_url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "content_type": "text/html; charset=UTF-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "3553e2cfd048a1f2336971112b4f0623cfc1bd5ce322af882456f95b951ac36e",
+    "html_path": "html/3553e2cfd048a1f2336971112b4f0623cfc1bd5ce322af882456f95b951ac36e.html",
+    "replacement_chars": 0,
+    "chars": 37991,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "仪器共享平台用户违规行为处罚管理办法（试行）",
+      "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+      "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+      "publish_date": "2025-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "实验室2025年度公开招聘专业技术人员 拟聘人选公示",
+      "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+      "publish_date": "2025-09-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "仪器共享平台仪器运行及共享管理办法（试行）",
+      "url": "https://synlab.jlu.edu.cn/2025/09/5201.html",
+      "publish_date": "2025-09-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+      "publish_date": "2025-09-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "实验室2025年度招聘专业技术人员通过笔试考生名单及综合面试通知",
+      "url": "https://synlab.jlu.edu.cn/2025/07/5147.html",
+      "publish_date": "2025-07-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "实验室2025年度公开招聘专业技术人员笔试通知",
+      "url": "https://synlab.jlu.edu.cn/2025/07/5145.html",
+      "publish_date": "2025-07-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "实验室招聘实验技术人员启事(2025.5)",
+      "url": "https://synlab.jlu.edu.cn/2025/05/5128.html",
+      "publish_date": "2025-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2024年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+      "publish_date": "2024-06-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2023年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2023/05/4755.html",
+      "publish_date": "2023-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2022年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2022/06/4609.html",
+      "publish_date": "2022-06-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2021年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2021/05/4539.html",
+      "publish_date": "2021-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2020年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2020/05/4170.html",
+      "publish_date": "2020-05-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2019年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2019/05/4028.html",
+      "publish_date": "2019-05-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2018年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2018/05/3631.html",
+      "publish_date": "2018-05-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2017年申请重点实验室开放课题基金的通知",
+      "url": "https://synlab.jlu.edu.cn/2017/04/3433.html",
+      "publish_date": "2017-04-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://synlab.jlu.edu.cn/archive/information/events",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-2a947afc9f1e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7400016076862812e-05,
+      "detail_duration_seconds": 1.070008147507906e-05,
+      "parse_db_duration_seconds": 0.03299219987820834
+    },
+    "second_round": {
+      "source": "p3-2a947afc9f1e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.9200029782950878e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-2a947afc9f1e",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "column": "通知",
+    "url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:12:07+08:00",
+    "review_time": "2026-10-15T23:00:49+08:00",
+    "http_status": 200,
+    "final_url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "list_pages": 2,
+    "list_items": 16,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://synlab.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-2a947afc9f1e.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

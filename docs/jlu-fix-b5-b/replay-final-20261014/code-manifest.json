@@ -1,0 +1,26 @@
+{
+  "time": "2026-10-14T22:53:15+08:00",
+  "files": {
+    "backend/scripts/probe_jlu_b5_b.py": "e54833a06cdaf4fab278d2c007662322a1e061bbd9c0f1f45be5fe7a95f1ac9f",
+    "backend/scripts/jlu_date_evidence.py": "a256863154d9f0307aa249648e274ce03489a246ab063e05ee1e6bfdc03b57ef",
+    "backend/scripts/audit_jlu_sites.py": "7cc6617fedca2173c0462434c48a26a3667b949db3097f262eb357a271821460",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/app/parsers/html.py": "dfd2638a0579bf54678ffeed76ab7fdbf6c59fa1e616c90be30b37903893dfa3",
+    "backend/app/sources/generic.py": "17d7557851fd9c34deb289ac303ec1bb8a2a6470a071064e7fbf6b505c491160",
+    "backend/app/sources/base.py": "d00505e6bb9ea852be8c07e8d32e526aeb44d3df77e2d91f6269964db906a21c",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/app/services/dates.py": "88d467254891fa514320292cfdcfe49b96bfe35fca071c38377c5c6d34d452f0",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "backend/config/settings.yaml": "11426a849c52285f9ea375f6e193daaf848b88f219164e99b6fd692fa3ff6e17",
+    "docs/jlu-fix-b4/source-candidates.json": "d95c25c0a9f2ba1236b7ca40dc14fb8bd178da2f1ca051553996d592ff7d2893",
+    "review-input/requests.json": "9888ef8d94fd2ba045e83277dd1ab0081f498864248872395d4712d4a7d9fb3d",
+    "review-input/code-manifest.json": "72a905d9d5199a98c598879e27d27dae95faad3da5756bac2e1d5b676c07f28e"
+  },
+  "mode": "offline replay of saved live HTML; no HTTP",
+  "database": "sqlite://",
+  "review_input_dir": "docs/jlu-fix-b5-b/live-20261014",
+  "limits": "one page, three details/column, global 1s/origin 1.2s, transient max 2 attempts",
+  "cloud_production_verified": false,
+  "login_attempts": 0
+}

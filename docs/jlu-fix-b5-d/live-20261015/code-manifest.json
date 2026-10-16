@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-15T19:04:20+08:00",
+  "files": {
+    "backend/scripts/probe_jlu_b5_d.py": "a8e483d5c660449f10bbba4f81c3b0f67c9eebf9b9034c60bf6c173cc0a8c62b",
+    "backend/scripts/probe_jlu_b3.py": "dd9e17dfd7a4f22328ab1f48097f5941400c34e45646ead12c87042931046c57",
+    "backend/scripts/audit_jlu_sites.py": "7cc6617fedca2173c0462434c48a26a3667b949db3097f262eb357a271821460",
+    "backend/scripts/validate_jlu_b5_c.py": "6f4c003c2790926fa42e115d6dc6d60ded9717644ab25d19c466969297635922",
+    "backend/app/services/attachment_validation.py": "b5ee4e678f678dc8af7be79b063407425341a6a24ee8f29e83bb16e5b015fd1d",
+    "backend/app/parsers/html.py": "6f15b20e11a40ad2bccaae6a8e34a7f31a5143c15210c3d86c066c016addbcdc",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b5-d/probe-plan.json": "908864339b615739c5385289c06a5b2618dea6b7e72a0881b315a9a15241cc91",
+    "docs/jlu-fix-b5-d/prior-probes.json": "96162586add6121849458a2c678bdbf9002f59d29567a2d9eadbdf1c2bcb3be8"
+  },
+  "limits": "single serial process; shared robots/rate guards; one prefix/column <=4096 bytes; <=2 extra detail previews; max2 transient attempts",
+  "auth_attempts": 0,
+  "oa_requests": 0,
+  "formal_database_access": false
+}

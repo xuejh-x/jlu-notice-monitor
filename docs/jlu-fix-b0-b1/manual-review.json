@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-10-13T18:52:42.472747+08:00",
+  "mode": "manual review of saved public HTML; no additional HTTP",
+  "decisions": [
+    {
+      "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+      "snapshot": "html/496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40.html",
+      "sha256": "496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40",
+      "classification": "unsupported_image_notice",
+      "finding": "Scoped .v_news_content contains a 1080px img and no text; not an empty webpage. Live gate used HTML_DETAIL_EMPTY; final code reports HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED. Preserve old data; B2 image rendering remains open."
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?channelId=179577&id=71065225",
+      "snapshot": "html/fb437c52ca7491e55676a3c698ddd04276ec3bc60d4c4852560f3a4a565b96cc.html",
+      "sha256": "fb437c52ca7491e55676a3c698ddd04276ec3bc60d4c4852560f3a4a565b96cc",
+      "classification": "audit_false_positive",
+      "finding": "OA article metadata says 2026-10-10 15:02; meeting time in prose says 2026-10-14. Parsed publication date 2026-10-10 is correct. DATE_MISMATCH is caused by broad audit reference regex."
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "snapshot": "html/10ebf14f52df0d4bf7ff8d832c55d74eb086ed580fa7c1019a2afe82072e18cb.html",
+      "sha256": "10ebf14f52df0d4bf7ff8d832c55d74eb086ed580fa7c1019a2afe82072e18cb",
+      "classification": "audit_false_positive",
+      "finding": "All five unparsed reference URLs are OA platform footer links with fromflag=login, not notice rows. LIST_CANDIDATE_RECALL_GAP does not prove OA notice loss."
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?1=1&channelId=179577&startPage=2",
+      "snapshot": "html/72c71c85c726e3eb6182361f5d7160d7a10940f105fddd1313d389734a7084b6.html",
+      "classification": "audit_tool_boundary",
+      "finding": "PAGINATION_PARSE_EMPTY was produced by generic static list parser on OA next page, not OA adapter. History crawling remains unconfigured; replay with OA parser before treating this as parsing failure.",
+      "sha256": "72c71c85c726e3eb6182361f5d7160d7a10940f105fddd1313d389734a7084b6",
+      "oa_parser_count": 30,
+      "new_urls": 30,
+      "offline_replay_database": "sqlite://",
+      "database_module_imported": true,
+      "network_requests": 0
+    }
+  ]
+}

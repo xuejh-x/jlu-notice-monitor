@@ -1,0 +1,884 @@
+{
+  "id": "p2-3bc13aa497f0",
+  "url": "https://spxy.jlu.edu.cn/tztg.htm",
+  "institution": "食品科学与工程学院",
+  "column": "通知通告",
+  "site_url": "https://spxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/3bc13aa497f06acc.json",
+  "discovery_url": "https://spxy.jlu.edu.cn/",
+  "original_snapshot": "html/872f80f84e42c1f5511fa6a83d0dfefbf69875c143085f54bafcca840b461885.html",
+  "original_capture_time": "2026-10-13T14:01:14+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-3bc13aa497f0",
+    "name": "食品科学与工程学院 / 通知通告",
+    "base_url": "https://spxy.jlu.edu.cn/tztg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:57+08:00",
+  "details": [
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1044/4201.htm",
+      "list_title": "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示",
+      "list_date": "2026-10-15",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1044/4201.htm",
+        "time": "2026-10-15T19:44:54+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1044/4201.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "7b440f978c3934c843e920108ec33bba32bc3183ce1d357ac120cf4da339d2ff",
+        "html_path": "html/7b440f978c3934c843e920108ec33bba32bc3183ce1d357ac120cf4da339d2ff.html",
+        "replacement_chars": 0,
+        "chars": 22675,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示",
+        "url": "https://spxy.jlu.edu.cn/info/1044/4201.htm",
+        "publish_date": "2026-10-15",
+        "publisher": null,
+        "content": "根据学生本人申报、面试考察等环节，现将我院第十二届研究生会换届结果予以公示，具体名单如下： 主席团：梁文欣、梁红、吴倩 综合事务部：李欣蕊（部长）、祁碧莹（副部长） 学生服务部：苏家琦（部长） 联络培训部：刘爽（部长） 校园文化部：褚泽敬（部长） 宣传调研部：张家瑞（部长）、王钰茜（副部长）",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-15 浏览次数：",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15",
+            "date": "2026-10-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 146,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-10-15 浏览次数：",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15",
+            "date": "2026-10-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+      "list_title": "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则",
+      "list_date": "2026-10-11",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+        "time": "2026-10-15T19:44:55+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f76d9039dd5617a8a2ba2b4b82ee92124ddd3594580c13995c2090511e15b546",
+        "html_path": "html/f76d9039dd5617a8a2ba2b4b82ee92124ddd3594580c13995c2090511e15b546.html",
+        "replacement_chars": 0,
+        "chars": 31459,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则",
+        "url": "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+        "publish_date": "2026-10-11",
+        "publisher": null,
+        "content": "第一章 总则 第一条 为激励研究生勤奋学习、潜心科研、 勇于创新、积极进取， 根据《关于调整高等教育阶段和高中阶段国家奖助学金政策的通知》（财教〔 2024 〕 181 号）、《学生资助资金管理办法》（财教〔 2021 〕 310 号）、《研究生学业奖学金管理暂行办法》（财教〔 2013 〕 219 号）和《吉林大学研究生学业奖学金评审办法》（校发〔 2025 〕 301 号） ，结 合我院实际情况，制定本细则。 第二条 研究生学业奖学金由国家和学校共同出资设立，奖励支持研究生更好地完成学业。 第三条 研究生学业奖学金适用于纳入全国研究生招生计划的基础学制内的全日制研究生 ( 有固定工资收入的除外 ) 。“高层次人才强军计划”和“少数民族高层次骨干人才计划”专项计划研究生的学业奖学金按照国家和学校相关文件执行。 第二章 奖励标准、评定比例与基本条件 第四条 博士生均可获得研究生学业奖学金，奖励标准为每生每年 12000 元；硕士生研究生学业奖学金评定比例根据国家下拨的比例执行，奖励标准为每生每年 10000 元。 第五条 我院硕士研究生学业奖学金按年级专业类别分别评定 名额分配： 第一步确定本硕博研究生均可获得学业奖学金；确定一年级推免生均可获得学业奖学金； 第二步按各专业类别剩余未获得奖学金人数占年级剩余未获得奖学金总人数的比例，计算各专业类别的整数名额数（不采用四舍五入）； 第三步剩余名额按照第二步测算结果的小数部分由高到低分配，遇有小数部分相等的几个专业类别分配一个名额时，则按照《食品科学与工程学院研究生评奖评优思想政治表现、课程成绩、科研成果加分细则》由评审委员会确定人选。 第六条 基本条件 （一）热爱社会主义祖国，拥护中国共产党的领导； （二）遵守法律、法规，遵守学校的规章制度； （三）诚实守信，道德品质优良； （四）学习成绩优秀，积极参与科学研究、社会实践和校园文化活动。 第七条 学院要对研究生进行学年考核，充分征求导师和同学的意见，严格考核研究生在思想品德、行为规范方面以及在学术道德、科研态度、团队意识、科研实践方面的日常表现。 第八条 一年级学业奖学金评定：第一原则上优先确定推免生；第二原则优先确定专业第一志愿考生；第三原则以复试时公示的复试总成绩排名结果来确定人选。 第九条 二年级学业奖学金评定：优先确定本硕博推免生学业奖学金，再按照《食品科学与工程学院研究生评奖评优思想政治表现、课程成绩、科研成果加分细则》，思想政治表现、课程成绩、科研情况，按照 10% 、 70% 、 20% 比例计算得分。 对淘汰分流的本硕博研究生取消其学业奖学金评审资格。 第十条 三年级学业奖学金评定：思想政治表现、科研情况，按照 10% 、 90% 比例计算得分。 第十一条 研究生有下列情形之一的，取消参评资格： （一）在学校规定的时间内欠缴学费和住宿费的（已办理绿色通道的新生除外）； （二）学期考核不合格的； （三）保留学籍的（国家公派留学、学校联合培养除外）； （四）受纪律处分仍在处分期的； （五）其他经学校认定不具备参评资格的情形； 第十二条 获奖后发现评审材料存在弄虚作假的，一经查实，按照学校有关规定给予纪律处分，并取消获奖资格，收回奖学金。 第三章 评审组织 第十三条 学院成立研究生学业奖学金评审委员会，由学院院长、书记任主任委员，主管研究生的副书记或副院长任副主任委员，研究生导师、研究生思政教师、研究生代表任委员，负责本单位研究生学业奖学金的评审工作。 第十四条 学院负责制定研究生学业奖学金评审工作实施细则，在学院内进行 3 个工作日的公示，并报学校研究生学业奖学金评审工作领导小组办公室备案。 第四章 评审程序 第十五条 研究生学业奖学金的评定工作坚持“公开、公平、公正、择优”的原则，严格执行国家有关教育法规，杜绝弄虚作假。 第十六条 对于本硕博和硕博连读研究生，根据其所处的培养层次确定研究生学业奖学金的评审标准。 第十七条 按照“学生申请、导师推荐、资格审查、培养单位评审、学校审核确定”的程序进行。 （一）研究生本人填写《吉林大学研究生学业奖学金申报审批表》后，向所在培养单位研究生学业奖学金评审委员会提出申请。 （二）经过学院研究生学业奖学金评审委员会参考《食品科学与工程学院研究生评奖评优思想政治表现、课程成绩、科研成果加分细则》，确定获奖名单，在学院进行 5 个工作日的公示，无异议后，提交吉林大学研究生学业奖学金评审工作领导小组办公室审核和备案。 （三）经过吉林大学研究生学业奖学金评定工作领导小组通过后，在全校范围内公示无异议后，确定最终的研究生学业奖学金获奖名单。 （四）学校每年将当年研究生学业奖学金一次性发放给获奖研究生。《吉林大学研究生学业奖学金申报审批表》将存入研究生个人档案。 第十八条 异议处理 对学业奖学金评审结果有异议的，可填写《吉林大学研究生学业奖学金申诉登记表》，在学院公示阶段向学院研究生学业奖学金评审委员会提出申诉，学院研究生学业奖学金评审委员会应及时研究并予以答复。如申诉人对学院研究生学业奖学金评审委员会作出的答复仍存在异议，可在学校公示阶段向吉林大学研究生学业奖学金评定工作领导小组提请裁决。 第五章 附则 第十九条 港澳台研究生及外国留学研究生不适用于本办法。 第二十条 本办法由食品科学与工程学院研究生学业奖学金评审工作委员会负责解释。 第二十一条 本办法从 2025 年学业奖学金评定时开始施行。 食品科学与工程学院 2026 年 10 月 11 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则"
+          },
+          {
+            "selector": "h1.title",
+            "title": "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-11 浏览次数：",
+            "date": "2026-10-11"
+          },
+          {
+            "text": "发布时间：2026-10-11",
+            "date": "2026-10-11"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2284,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-10-11 浏览次数：",
+            "date": "2026-10-11"
+          },
+          {
+            "text": "发布时间：2026-10-11",
+            "date": "2026-10-11"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1044/4167.htm",
+      "list_title": "2025-2026学年评奖评优结果公示",
+      "list_date": "2026-09-27",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1044/4167.htm",
+        "time": "2026-10-15T19:44:57+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1044/4167.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c18d51144301599d88dbfd48d6b286a5e8cb3e950cd4771322b91d4e11b78599",
+        "html_path": "html/c18d51144301599d88dbfd48d6b286a5e8cb3e950cd4771322b91d4e11b78599.html",
+        "replacement_chars": 0,
+        "chars": 47416,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2025-2026学年评奖评优结果公示",
+        "url": "https://spxy.jlu.edu.cn/info/1044/4167.htm",
+        "publish_date": "2026-09-27",
+        "publisher": null,
+        "content": "食品科学与工程学院 2025-2026 学年的评奖评优工作于 9 月 20 日启动，经过前期的学生申报；研会及研办的审核、名额分配（学校系统里名额分配按照 22/23/24/25 级博士 / 硕士整体划拨名额）；考虑破五唯的因素，参考学院评优细则测算的结果，将评选结果公布如下： 年级 三年级 二年级 22 直博 23 直博 项目 2024 学硕 2024 专硕 2024 博士 +2024 直博 2025 学硕 2025 专硕 2025 博士 +2025 直博 一等优秀奖学金 金一诺 程雨晴 吕忠亭 李杰 杨文怡 秦舒放 何子川 翟闯 二等优秀奖学金 王雯 徐宁忆 雍述涵 王怡瑾 党生荣 陈嘉琪 张煜烨 尹月盈 姜利庆 赵茹 张宇彤 高乐颜 李嘉欣 韩萍 张家瑞 张赫芮 王一冰 常红玉 梁文欣 苏家琦 郑力源 马未祎 王童童 优秀研究生 金一诺 王雯 徐宁忆 雍述涵 王怡瑾 任文硕 张鹭雨 王灿 王文喆 程雨晴 吕忠亭 党生荣 陈嘉琪 张煜烨 尹月盈 姜利庆 李晗旭 秦彧琴 王培 游溪溪 李杰 赵茹 张宇彤 李尚霖 韩清雯 李厚儒 杨文怡 高乐颜 李嘉欣 韩萍 张家瑞 李冰洁 祁碧莹 高敏 程馨 秦舒放 何子川 张赫芮 王一冰 常红玉 梁文欣 苏家琦 陈静贤 李艺璇 杨淑燕 刘爽 翟闯 郑力源 马未祎 王童童 林慧凯 王薪崴 苏长顺 李佳桐 优秀研究生干部 金一诺 徐宁忆 吕忠亭 姜利庆 王培 张宇彤 王赢翌 韩萍 李嘉欣 何子川 王一冰 马未祎 王薪崴",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "2025-2026学年评奖评优结果公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "2025-2026学年评奖评优结果公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-27 浏览次数：",
+            "date": "2026-09-27"
+          },
+          {
+            "text": "发布时间：2026-09-27",
+            "date": "2026-09-27"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 636,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2025-2026学年评奖评优结果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-09-27 浏览次数：",
+            "date": "2026-09-27"
+          },
+          {
+            "text": "发布时间：2026-09-27",
+            "date": "2026-09-27"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/tztg.htm",
+        "time": "2026-10-15T19:30:56+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/tztg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fcffa9105182b21b8de494c2ee874a531f4148e4966b480911670481ec9f39ac",
+        "html_path": "html/fcffa9105182b21b8de494c2ee874a531f4148e4966b480911670481ec9f39ac.html",
+        "replacement_chars": 0,
+        "chars": 28373,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://spxy.jlu.edu.cn/info/1044/4171.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4183.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4184.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4189.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4190.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4192.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4193.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4194.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4201.htm"
+      ],
+      "observed_next_urls": [
+        "https://spxy.jlu.edu.cn/tztg/107.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/tztg/107.htm",
+        "time": "2026-10-15T19:44:53+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/tztg/107.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b646ff1f701fe64d58f729d6590a03213722e03fe4716077fdb4bffb4a500e20",
+        "html_path": "html/b646ff1f701fe64d58f729d6590a03213722e03fe4716077fdb4bffb4a500e20.html",
+        "replacement_chars": 0,
+        "chars": 28997,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://spxy.jlu.edu.cn/info/1044/4143.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4148.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4152.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4153.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4155.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4159.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4160.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4161.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4165.htm",
+        "https://spxy.jlu.edu.cn/info/1044/4167.htm"
+      ],
+      "observed_next_urls": [
+        "https://spxy.jlu.edu.cn/tztg/106.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://spxy.jlu.edu.cn/tztg.htm",
+    "time": "2026-10-15T19:30:56+08:00",
+    "ok": true,
+    "final_url": "https://spxy.jlu.edu.cn/tztg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "fcffa9105182b21b8de494c2ee874a531f4148e4966b480911670481ec9f39ac",
+    "html_path": "html/fcffa9105182b21b8de494c2ee874a531f4148e4966b480911670481ec9f39ac.html",
+    "replacement_chars": 0,
+    "chars": 28373,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学食品科学与工程学院第十二届研究生学生会换届选举结果公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4201.htm",
+      "publish_date": "2026-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2026年研究生学业奖学金评审工作实施细则",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4191.htm",
+      "publish_date": "2026-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年大学生职业规划大赛学院初赛参赛人员的公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4190.htm",
+      "publish_date": "2026-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2026年度研究生国家奖学金、第五届博士研究生“求实”奖学金评审工作通知",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4189.htm",
+      "publish_date": "2026-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2026年吉林大学本科生“吉林大学助学金”拟推荐名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4184.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2026年国家助学金拟推荐名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4183.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2026-2027学年学费全额减免拟推荐人员名单",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4194.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收齐欣雨等同志为中共预备党员的公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4171.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2025-2026学年国家奖学金、国家励志奖学金推荐人选公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4193.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院2025-2026学年奖学金、优秀学生和优秀学生干部人员名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4192.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025-2026学年评奖评优结果公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4167.htm",
+      "publish_date": "2026-09-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2027年接收推荐免试攻读研究生拟录取名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4165.htm",
+      "publish_date": "2026-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院接收2027年推免生复试成绩公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4161.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026-2027学年秋季学期食品科学与工程学院研究生教材选用结果公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4160.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2025-2026学年研究生评奖评优工作的通知",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4159.htm",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于食品科学与工程学院校内巡视整改进展情况及整改台账的公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4155.htm",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "学院接收2027年推免生可参加复试名单的通知",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4152.htm",
+      "publish_date": "2026-09-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于食品科学与工程学院2026-2027学年本科生经济关注对象认定拟推荐名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4148.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026-2027学年食品科学与工程学院本科学生学业指导助理拟选聘名单公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4153.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年度吉林大学宝钢优秀学生奖（研究生）拟推荐人选公示",
+      "url": "https://spxy.jlu.edu.cn/info/1044/4143.htm",
+      "publish_date": "2026-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://spxy.jlu.edu.cn/tztg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://spxy.jlu.edu.cn/tztg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://spxy.jlu.edu.cn/tztg/107.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-3bc13aa497f0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.550000160932541e-05,
+      "detail_duration_seconds": 7.100054062902927e-06,
+      "parse_db_duration_seconds": 0.029480500030331314
+    },
+    "second_round": {
+      "source": "p2-3bc13aa497f0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3399985618889332e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-3bc13aa497f0",
+    "institution": "食品科学与工程学院",
+    "column": "通知通告",
+    "url": "https://spxy.jlu.edu.cn/tztg.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:56+08:00",
+    "review_time": "2026-10-15T20:21:57+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-3bc13aa497f0.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

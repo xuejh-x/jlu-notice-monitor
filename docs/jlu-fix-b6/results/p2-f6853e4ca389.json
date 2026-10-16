@@ -1,0 +1,900 @@
+{
+  "id": "p2-f6853e4ca389",
+  "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+  "institution": "动物医学学院",
+  "column": "招生信息",
+  "site_url": "https://dwyx.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/f6853e4ca3897975.json",
+  "discovery_url": "https://dwyx.jlu.edu.cn/",
+  "original_snapshot": "html/3ebb36e3652b301b5192040fd05d5cf670e02ede8d57f0187aff084c4bf9d532.html",
+  "original_capture_time": "2026-10-13T13:44:29+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-f6853e4ca389",
+    "name": "动物医学学院 / 招生信息",
+    "base_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:49+08:00",
+  "details": [
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4288.htm",
+      "list_title": "吉林大学动物医学学院2027年接收推免生拟录取结果公布",
+      "list_date": "2026-10-09",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4288.htm",
+        "time": "2026-10-15T19:44:08+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1028/4288.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "65eaa0ec699d005e852ab098d84a6df54fdc6f4c33a886c20dfe56edd6f897cd",
+        "html_path": "html/65eaa0ec699d005e852ab098d84a6df54fdc6f4c33a886c20dfe56edd6f897cd.html",
+        "replacement_chars": 0,
+        "chars": 17228,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学动物医学学院2027年接收推免生拟录取结果公布",
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4288.htm",
+        "publish_date": "2026-10-09",
+        "publisher": null,
+        "content": "根据学院研究生招生工作安排， 现将动物医学学院 2027年接收推免生拟录取结果公布。 联系人：李老师 联系电话： 0431—87836405手机并联 动物医学学院 2026年10月9日",
+        "attachments": [
+          {
+            "filename": "动物医学学院2027年接收推免生拟录取结果.xls",
+            "url": "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=18206512",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学动物医学学院2027年接收推免生拟录取结果公布"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-10-09",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "发布日期：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 92,
+        "reference_attachment_urls": [
+          "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=18206512"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学动物医学学院2027年接收推免生拟录取结果公布"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学动物医学学院2027年接收推免生拟录取结果公布 信息来源： 发布日期：2026-10-09",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-10-09",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "发布日期：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+      "list_title": "吉林大学动物医学学院2027年推免生招生录取工作实施细则",
+      "list_date": "2026-09-15",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+        "time": "2026-10-15T19:44:09+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dc7ffb0297b08b2e3f431ee9ca43c2d8b6c629e8010a377b822e69780103d314",
+        "html_path": "html/dc7ffb0297b08b2e3f431ee9ca43c2d8b6c629e8010a377b822e69780103d314.html",
+        "replacement_chars": 0,
+        "chars": 38776,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学动物医学学院2027年推免生招生录取工作实施细则",
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+        "publish_date": "2026-09-15",
+        "publisher": null,
+        "content": "为了确保我院 2027 年推荐免试攻读研究生（以下简称 “ 推免生 ” ）的招生录取工作规范有序，根据教育部关于推免生相关文件及《吉林大学 2027 年推荐免试攻读研究生招生录取工作办法》等文件精神，结合我院推免生招生录取工作实际，制定本实施细则。 一、工作原则 坚持科学方法，选拔优秀人才；坚持全面考察，注重客观评价；坚持公正公开，维护考生权益。 二、组织管理 成立学院 2027 年推免生招生录取工作领导小组、复试小组、资格审查小组、监督检查小组。 三、申请条件 （一）硕士生 1. 拥护中国共产党领导，遵纪守法，品德良好。 2. 具有所在学校推免生资格的优秀应届本科毕业生。 3. 学术研究兴趣浓厚，有较好的专业素养，有较强的创新意识和创新能力，有较高的培养潜质。 4. 不存在考试作弊和学术不端行为。 5. 身体和心理状况符合国家和招生单位规定的体检要求。 6. 满足本专业目录中规定的报考条件 （二）直博生 1. 拥护中国共产党领导，遵纪守法，品德良好。 2. 具有所在学校推免生资格的优秀应届本科毕业生。 3. 学习成绩优秀，对学术研究有浓厚兴趣，有较好的专业素养，有较强的创新意识和创新能力，有较高的培养潜质。 4. 不存在考试作弊和学术不端行为。 5. 身体和心理健康状况符合国家和招生单位规定。 6. 有至少两名所报考学科专业领域内的教授 ( 或相当专业技术职称的专家 ) 的书面推荐意见。 7. 满足本专业目录中规定的报考条件 三、申请程序 具有推荐免试资格的考生，须在国家规定时间内登录 “ 全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统 ” （网址： https://yz.chsi.com.cn/tm ）填报志愿并参加复试。 （一）提交材料 1. 《吉林大学 2027 年接收推荐免试研究生申请表》扫描件。 2. 加盖所在学校教务部门公章的本科期间成绩单扫描件。 3. 在校期间发表的论文、获得专利的证书、研究成果证明、获奖证书、外语水平考试证书以及长期有效第二代居民身份证等材料扫描件。 4. 申请直博生须提交两名所报考学科专业领域内的教授 ( 或相当专业技术职称的专家 ) 的书面推荐意见扫描件。 推免生请于 2026 年 9 月 21 日 16 : 00 之前，通过预报名系统 https://yzbbm.jlu.edu.cn/ 进行报名，同时以上材料原件扫描制成一个压缩包，发送到邮箱 364190792@qq.com ，邮件请体现 “ 姓名 - 学校 - 推免硕士 / 直博生 ” 。如个别同学在 9 月 24 日前不能准备齐全，请先尽可能提供已有材料，缺失材料或暂时无法盖章请在邮件中说明原因，补齐后尽早发到邮箱。 我院 2026 年学术活动开放日成绩合格的同学，无须再提交材料和参加复试，但需以邮件形式确认报考信息。 考生须承诺申请材料的真实性和准确性。不符合条件者将被取消复试资格。未进行资格审查或资格审查未通过的考生一律不予录取。对弄虚作假者，取消其复试、录取资格。 （二）复试流程 1. 资格审核。学院组织推免生资格审核。 2. 参加复试。学院预计在 2026 年 9 月 22 日组织复试，复试采用网络远程复试方式，具体以学院后续复试通知为准。复试主要考察学生历年的学习情况，考核学生的外语运用、综合素质、创新能力、业务水平以及其它特长。考生可准备 3-5 分钟自我介绍 PPT ，包括个人情况、本科成绩、科研情况等。复试时保证网络畅通，通信畅通，请熟练掌握腾讯会议中共享和结束共享 PPT 的操作。 3. 信息查询。复试时间、要求等具体信息，可在吉林大学动物医学学院网站和招生 QQ 群查询。 申报学生请加 QQ 群 2027 吉大动医研招群（ 894466163 ）， “ 姓名 - 本科院校 ” 实名申请进群。暑期加过 “ 学术活动开放日群 ” 的同学，不用再加此群。 （三）复试内容 1. 专业素质和能力包括：大学阶段学习情况及成绩；全面考核推免生对本学科（类别）、专业（领域）理论知识和应用技能掌握程度，利用所学理论发现、分析和解决问题的能力，对本学科（类别）发展动态的了解以及在本专业（领域）发展的能力；创新精神和创新能力；科学精神、学术道德和专业伦理。 2. 综合素质和能力包括：思想政治素质和品德考核，内容应包含推免生的政治态度、思想表现、道德品质、遵纪守法、诚实守信等方面；本学科（类别）、专业（领域） 以外的学习、科研、社会实践（学生工作、社团活动、志愿者服务等）或实际工作表现等方面的情况；心理健康情况等。 3. 外语听说能力测试 由复试小组自行组织，主考教师由精通外语的教师担任，开展外语听说能力测试。 （四）成绩录取 1. 复试成绩满分 100 分， 60 分以上（含 60 分）为合格。复试成绩取整数分值（保留小数点后两位）。复试不合格者不予录取。 2. 拟录取推免生严格按照复试成绩由高到低择优录取。 3. 思想政治素质和品德考核结果作为录取的首要依据，考核不通过者不予录取。 4. 拟录取推免生在规定时间内通过 “ 全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统 ” 完成网上 “ 同意待录取确认 ” 。 四、信息公开 我院在本单位网站提前向社会公布推免生招生录取工作实施细则及进入复试推免生名单，公示拟录取推免生（含直博生）名单，名单包括推免生姓名、复试成绩、拟录取专业等信息，公示期为 3 天。 五、投诉及举报受理渠道 电话： 0431-87836158 联系人：刘老师 六、咨询渠道 电话： 0431-87836405 手机并联 联系人：李老师 附件及学校其它要求，详见《吉林大学 2027 年接收优秀应届本科毕业生免试攻读研究生招生简章及专业目录》 https://yzb.jlu.edu.cn/info/1047/3637.htm 吉林大学动物医学学院 2026 年 9 月 15 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学动物医学学院2027年推免生招生录取工作实施细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-09-15",
+            "date": "2026-09-15"
+          },
+          {
+            "text": "发布日期：2026-09-15",
+            "date": "2026-09-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2451,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学动物医学学院2027年推免生招生录取工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学动物医学学院2027年推免生招生录取工作实施细则 信息来源： 发布日期：2026-09-15",
+            "date": "2026-09-15"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-09-15",
+            "date": "2026-09-15"
+          },
+          {
+            "text": "发布日期：2026-09-15",
+            "date": "2026-09-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+      "list_title": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）",
+      "list_date": "2025-12-20",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+        "time": "2026-10-15T19:44:10+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e530b29cd3783860153f984a6cce699d8c5524afb4f4142e7f231b7c87eb8954",
+        "html_path": "html/e530b29cd3783860153f984a6cce699d8c5524afb4f4142e7f231b7c87eb8954.html",
+        "replacement_chars": 0,
+        "chars": 16634,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）",
+        "url": "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+        "publish_date": "2025-12-20",
+        "publisher": null,
+        "content": "各位考生： 学院已完成博士研究生考核及拟录取初期工作，根据学院 2026年博士研究生招生“申请考核制”工作按排，现将考核成绩及拟录取结果公布（见附件）。 依据考核细则关于咨询及申诉渠道要求，考生对考核、录取结果提出质疑时，在考核结果公布的三个工作日内，可向学院纪委提出申诉，对投诉和申诉问题经调查属实的，由学院研究生招生工作领导小组进行复议后处理。申诉电话为（ 0431）87836158；学院招生咨询电话为（0431）87836405。",
+        "attachments": [
+          {
+            "filename": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）.xlsx",
+            "url": "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=16679797",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2025-12-20",
+            "date": "2025-12-20"
+          },
+          {
+            "text": "发布日期：2025-12-20",
+            "date": "2025-12-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 219,
+        "reference_attachment_urls": [
+          "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=16679797"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批） 信息来源： 发布日期：2025-12-20",
+            "date": "2025-12-20"
+          },
+          {
+            "text": "信息来源： 发布日期：2025-12-20",
+            "date": "2025-12-20"
+          },
+          {
+            "text": "发布日期：2025-12-20",
+            "date": "2025-12-20"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+        "time": "2026-10-15T19:30:39+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3ebb36e3652b301b5192040fd05d5cf670e02ede8d57f0187aff084c4bf9d532",
+        "html_path": "html/3ebb36e3652b301b5192040fd05d5cf670e02ede8d57f0187aff084c4bf9d532.html",
+        "replacement_chars": 0,
+        "chars": 16662,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwyx.jlu.edu.cn/info/1028/4072.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4073.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4104.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4106.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4112.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4121.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4139.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4182.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4288.htm"
+      ],
+      "observed_next_urls": [
+        "https://dwyx.jlu.edu.cn/zsjy/zsxx/8.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx/8.htm",
+        "time": "2026-10-15T19:44:07+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx/8.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "1e442e8af1590377542d5f0fb1286c7efd489fafdce1cf5fa9fb5d2ad185d69c",
+        "html_path": "html/1e442e8af1590377542d5f0fb1286c7efd489fafdce1cf5fa9fb5d2ad185d69c.html",
+        "replacement_chars": 0,
+        "chars": 16995,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwyx.jlu.edu.cn/info/1028/3832.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/3848.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/3858.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/3864.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/3970.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4014.htm",
+        "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+        "https://dwyx.jlu.edu.cn/info/1075/3922.htm",
+        "https://dwyx.jlu.edu.cn/info/1075/3933.htm",
+        "https://dwyx.jlu.edu.cn/info/1075/3991.htm"
+      ],
+      "observed_next_urls": [
+        "https://dwyx.jlu.edu.cn/zsjy/zsxx/7.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "time": "2026-10-15T19:30:39+08:00",
+    "ok": true,
+    "final_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "3ebb36e3652b301b5192040fd05d5cf670e02ede8d57f0187aff084c4bf9d532",
+    "html_path": "html/3ebb36e3652b301b5192040fd05d5cf670e02ede8d57f0187aff084c4bf9d532.html",
+    "replacement_chars": 0,
+    "chars": 16662,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2027年接收推免生拟录取结果公布",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4288.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2027年推免生招生录取工作实施细则",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4258.htm",
+      "publish_date": "2026-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办吉林大学动物医学学院2026年校园学术活动开放日的通知",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4182.htm",
+      "publish_date": "2026-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第二批）",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4139.htm",
+      "publish_date": "2026-05-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2026年博士研究生“申请考核制”招生实施细则（第二批）",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4121.htm",
+      "publish_date": "2026-04-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年动物医学学院新增学术型硕士研究生复试成绩及拟录取公示（二）",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4112.htm",
+      "publish_date": "2026-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年动物医学学院新增学术型硕士研究生复试成绩及拟录取公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4106.htm",
+      "publish_date": "2026-04-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年硕士研究生复试成绩及拟录取结果公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4104.htm",
+      "publish_date": "2026-04-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2026年硕士研究生招生复试录取工作细则",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4073.htm",
+      "publish_date": "2026-03-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2026年硕士研究生复试名单公布",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4072.htm",
+      "publish_date": "2026-03-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年博士研究生招生“申请考核制”成绩及拟录取公示（第一批）",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4019.htm",
+      "publish_date": "2025-12-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年博士研究生“申请考核制”资格审核合格名单（一）",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/4014.htm",
+      "publish_date": "2025-12-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2026年博士研究生 “申请考核制”招生实施细则",
+      "url": "https://dwyx.jlu.edu.cn/info/1075/3991.htm",
+      "publish_date": "2025-11-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“职”引未来— —动物医学学院长春海关宣讲会圆满举办",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/3970.htm",
+      "publish_date": "2025-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年接收推荐免试 攻读硕士学位研究生拟录取名单公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1075/3933.htm",
+      "publish_date": "2025-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年接收“推免生”的复试录取工作办法",
+      "url": "https://dwyx.jlu.edu.cn/info/1075/3922.htm",
+      "publish_date": "2025-09-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2026年招收优秀应届本科毕业生直接攻读博士学位研究生预选合格学生名单公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/3864.htm",
+      "publish_date": "2025-07-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2025年校园学术活动开放日入选学生名单及行程安排公布",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/3858.htm",
+      "publish_date": "2025-06-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办吉林大学动物医学学院2025年校园学术活动开放日的通知",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/3848.htm",
+      "publish_date": "2025-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院关于调整自命题科目为全国统考科目的情况说明",
+      "url": "https://dwyx.jlu.edu.cn/info/1028/3832.htm",
+      "publish_date": "2025-06-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx/8.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-f6853e4ca389",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7400016076862812e-05,
+      "detail_duration_seconds": 8.899951353669167e-06,
+      "parse_db_duration_seconds": 0.033579699927940965
+    },
+    "second_round": {
+      "source": "p2-f6853e4ca389",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.2799940779805183e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-f6853e4ca389",
+    "institution": "动物医学学院",
+    "column": "招生信息",
+    "url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:39+08:00",
+    "review_time": "2026-10-15T20:21:49+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-f6853e4ca389.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

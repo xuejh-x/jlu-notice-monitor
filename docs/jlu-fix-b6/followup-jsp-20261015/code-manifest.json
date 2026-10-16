@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-15T20:10:20+08:00",
+  "files": {
+    "backend/scripts/followup_jlu_b6.py": "57ac3be215db7f4d1fe2bc3f8022a02264fa9baf27e532523e25609f66af4a98",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "e2f86d996e3a4966ff2913c644fa5dab1bd207f6a347ca995324e00354ec85b2",
+    "input/code-manifest.json": "70ff2cb7b42f759931fd0daf2a0a4e575e8db5bb6891ce2d70a4ed8447bf98f6",
+    "review/results.json": "a7cfcb943174cb0c5005ea6cbff637d2bbaffd909a720c6feff3df3c882a14ea"
+  },
+  "urls": [
+    "https://law.jlu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1195&wbnewsid=24248",
+    "https://nasa.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1082&wbnewsid=6207"
+  ],
+  "scope": "Only corrected samples proved by exact saved list anchors; no known failure retry, attachments, OA or Cloud traffic",
+  "limits": "<=8 unique detail URLs; serial audit robots/rates; max2 transient attempts",
+  "input_dir": "docs\\jlu-fix-b6\\followup-20261015",
+  "review_dir": "docs\\jlu-fix-b6\\review-jsp-20261015"
+}

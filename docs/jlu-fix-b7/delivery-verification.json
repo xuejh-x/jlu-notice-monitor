@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-15T23:05:05.940624+08:00",
+  "local_report_links_verified": 121,
+  "http_response_records_checked": 660,
+  "oa_response_records": 0,
+  "csv_rows": {
+    "compatibility": 116,
+    "unknown_institutions": 308,
+    "discovery_gaps": 59,
+    "inventory": 606
+  },
+  "delivered_files": {
+    "docs/JLU_SITE_FIX_B7_REPORT.md": "ded261b51e3bf17709479109a6291dd68908c637f67cc3f1e7b43198d560b3b7",
+    "docs/jlu-b7-compatibility-report.csv": "8a1ac35b2ab83b315708f2aa2d7ff3fcb0f71066bf9611ba9649b0743ee603f8",
+    "docs/jlu-b7-site-inventory.csv": "864e95a8a978b7edcb78e2bce60f0ca2fb4db03a65aa599a560b7b501e164f84",
+    "docs/jlu-fix-b7/acceptance.json": "7d767bbd9e157b9e5f1ca46739c308846383053702a5e44b2529ea3d9d58821f"
+  }
+}

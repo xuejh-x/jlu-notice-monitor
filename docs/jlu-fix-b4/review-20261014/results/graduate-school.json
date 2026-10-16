@@ -1,0 +1,481 @@
+{
+  "id": "graduate-school",
+  "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室",
+  "column": "通知公告",
+  "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+  "captured_at": "2026-10-14T16:35:29+08:00",
+  "validated_at": "2026-10-14T16:43:48+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_SAMPLE_PASSED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6460.htm",
+      "list_title": "关于2026年吉林大学研究生会纳新工作的通知",
+      "list_date": "2026-09-09",
+      "captured_at": "2026-10-14T16:35:32+08:00",
+      "snapshot": "html/16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb.html",
+      "sha256": "16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb",
+      "title": "关于2026年吉林大学研究生会纳新工作的通知",
+      "date": "2026-09-09",
+      "content_chars": 2320,
+      "content_sha256": "93b69005990d491b9fd4ae32010e6492db0d8088cdc89323c40ef6aade65ab54",
+      "content_preview": "广大研究生同学： 吉林大学研究生会是在学校党委领导下，在党委研究生工作部、学校团委和上级学联具体指导下开展工作的全校研究生群众性组织。吉林大学研究生会秉承着全心全意服务同学的宗旨，积极发挥学校联系研究生的桥梁和纽带作用，推动研究生养成学术精神、提高实践能力，营造积极向上的校园文化氛围，坚持以传承时代文化、弘扬吉大精神为己任，为广大研究生提供优质的学习和生活服务。为进一步加强校研究生会建设，拟于近期开展纳新工作，现将相关工作安排通知如下： 一、原则 坚持公平、公正、公开、择优、德才兼备原则。 二、面向群体 全校在读硕士、博士研究生。 三、部门职责及纳新人数 1.综合事务部 职责：负责研究生会的内",
+      "attachments": [
+        {
+          "filename": "2026年吉林大学研究生会纳新报名表.docx",
+          "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "关于2026年吉林大学研究生会纳新工作的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-09-09",
+          "date": "2026-09-09"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 2146,
+      "reference_attachment_urls": [
+        "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6459.htm",
+      "list_title": "青春有“理”，等你来讲！—— 吉林大学博士生讲师团纳新啦！",
+      "list_date": "2026-09-09",
+      "captured_at": "2026-10-14T16:35:33+08:00",
+      "snapshot": "html/fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86.html",
+      "sha256": "fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86",
+      "title": "青春有“理”，等你来讲！—— 吉林大学博士生讲师团纳新啦！",
+      "date": "2026-09-09",
+      "content_chars": 3624,
+      "content_sha256": "a2003ab4e6f3cbda93c4a094e692bfbdd172e06257ab843a48f7596add418d36",
+      "content_preview": "时代有问，青年作答 用青年视角解读国家发展，以青春之声传递真理薪火 —— 吉林大学博士生讲师团 新学年 邀你共赴新程 我们是谁？ 吉林大学博士生讲师团（以下简称“博讲团”）成立于2010年6月，是吉林大学党委领导下、党委研究生工作部具体指导下的研究生团学组织。以朋辈宣讲和浸润教育为切入点，强化思想政治教育和价值引领，旨在通过面向校内外开展党的创新理论宣讲，不断提高广大青年学子及人民群众思想政治觉悟，促进党的创新理论入脑入心。 在十六年的发展历程中，博讲团累计开展校内外理论宣讲600余场，参与人数超过6万人。先后荣获 “ 中宣部 2023年基层理论宣讲先进集体”“吉林省基层理论宣讲先进集体”“2",
+      "attachments": [
+        {
+          "filename": "第二十二期吉林大学博士生讲师团报名表.doc",
+          "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195237",
+          "type": "doc"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "青春有“理”，等你来讲！—— 吉林大学博士生讲师团纳新啦！"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-09-09",
+          "date": "2026-09-09"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 2751,
+      "reference_attachment_urls": [
+        "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195237"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6394.htm",
+      "list_title": "关于公开选拔吉林大学研究生会第二十二届主席团成员及各部门主要负责人的通知",
+      "list_date": "2026-04-30",
+      "captured_at": "2026-10-14T16:35:34+08:00",
+      "snapshot": "html/267b81f62a4db00c9594c74a42f96cbed29644a236ff1b25f1537a51d8db7377.html",
+      "sha256": "267b81f62a4db00c9594c74a42f96cbed29644a236ff1b25f1537a51d8db7377",
+      "title": "关于公开选拔吉林大学研究生会第二十二届主席团成员及各部门主要负责人的通知",
+      "date": "2026-04-30",
+      "content_chars": 1320,
+      "content_sha256": "af39c02d327e11273478f52b6f414e9564fc3433055174b1c33900a4fd55c8ee",
+      "content_preview": "各研究生培养单位及广大研究生： 为深入学习宣传贯彻习近平新时代中国特色社会主义思想，贯彻落实党的二十届四中全会精神、全国学联二十八大精神，根据共青团中央、教育部、全国学联印发的《关于推动高校学生会（研究生会）深化改革的若干意见》《吉林大学学生会、研究生会组织改革方案》等相关要求，吉林大学研究生会面向全校公开选拔第二十二届主席团成员，综合事务部、校园文化部、就业服务部、权益保障部、创新实践部、学术交流部等部门主要负责人。具体事项通知如下： 一、选拔原则 公平公正、公开透明、择优录取、宁缺毋滥 二、岗位设置 1.吉林大学研究生会第二十二届主席团成员5人。 2.综合事务部、校园文化部、就业服务部、权",
+      "attachments": [
+        {
+          "filename": "附件：吉林大学研究生会报名登记表.docx",
+          "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18123665",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "关于公开选拔吉林大学研究生会第二十二届主席团成员及各部门主要负责人的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-04-30",
+          "date": "2026-04-30"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 1320,
+      "reference_attachment_urls": [
+        "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18123665"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "ATTACHMENT_CAPTCHA_REQUIRED",
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+      "time": "2026-10-14T16:35:35+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "docx",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:35:36+08:00",
+          "status": 206,
+          "category": "CAPTCHA_REQUIRED"
+        }
+      ],
+      "status": 206,
+      "final_url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+      "content_type": "text/html;charset=UTF-8",
+      "disposition": "",
+      "prefix_path": "prefix/bd989e1638c5090951cfdbac0e1e54e96bd13959205178f99efa0b22d83b5cba.bin",
+      "prefix_sha256": "bd989e1638c5090951cfdbac0e1e54e96bd13959205178f99efa0b22d83b5cba",
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "read_bytes": 3805,
+      "reason": "Verification page; no captcha submission or bypass",
+      "filename": "2026年吉林大学研究生会纳新报名表.docx",
+      "type": "docx"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://yjsy.jlu.edu.cn/",
+  "reason": "ATTACHMENT_CAPTCHA_REQUIRED; REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED",
+  "final_url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+  "list_snapshot": "html/11425739985656081428682a89512bd8af9073e94bb4ed157ed484f98899ded2.html",
+  "list_sha256": "11425739985656081428682a89512bd8af9073e94bb4ed157ed484f98899ded2",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年吉林大学研究生会纳新工作的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6460.htm",
+      "publish_date": "2026-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "青春有“理”，等你来讲！—— 吉林大学博士生讲师团纳新啦！",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6459.htm",
+      "publish_date": "2026-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公开选拔吉林大学研究生会第二十二届主席团成员及各部门主要负责人的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6394.htm",
+      "publish_date": "2026-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于召开吉林大学博士生讲师团树立和践行正确政绩观学习教育宣讲动员暨集中备课会...",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6361.htm",
+      "publish_date": "2026-03-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办2025年吉林大学“研冠杯”首届匹克球赛的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6117.htm",
+      "publish_date": "2025-11-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学博士生讲师团走进预科教育学院",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6107.htm",
+      "publish_date": "2025-10-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "肩负使命 共谱新篇——吉林大学博士生讲师团第二十一期见面会成功举办",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/6106.htm",
+      "publish_date": "2025-10-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年吉林大学研究生会纳新工作的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5995.htm",
+      "publish_date": "2025-08-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2025年研究生兼职辅导员选聘工作的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5780.htm",
+      "publish_date": "2025-05-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2025年度研究生学科交叉融合学术交流分中心申报工作的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5753.htm",
+      "publish_date": "2025-05-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于遴选2026年度日本政府（文部科学省）研究生奖学金项目留学人员的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5754.htm",
+      "publish_date": "2025-05-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于评选吉林大学2025年研究生“学雷锋标兵”“优秀志愿者”和“见义勇为先进个人...",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5655.htm",
+      "publish_date": "2025-05-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展吉林大学研究生“青云计划”读书分享会的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5755.htm",
+      "publish_date": "2025-04-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好地震受灾研究生帮扶工作的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5756.htm",
+      "publish_date": "2025-03-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2025年度吉林大学研究生“中科美菱奖学金”拟获奖人选的通知",
+      "url": "https://yjsy.jlu.edu.cn/info/1060/5657.htm",
+      "publish_date": "2025-03-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 15,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "https://yjsy.jlu.edu.cn/tzgg/128.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 3,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-20261014/results/graduate-school.json"
+}

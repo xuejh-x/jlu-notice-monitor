@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-14T23:25:07+08:00",
+  "files": {
+    "backend/scripts/validate_jlu_b5_c.py": "6f4c003c2790926fa42e115d6dc6d60ded9717644ab25d19c466969297635922",
+    "backend/scripts/audit_jlu_sites.py": "7cc6617fedca2173c0462434c48a26a3667b949db3097f262eb357a271821460",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/app/services/list_pagination.py": "2408a067ac8e95e281b30b1213b766f6f68f0ccfdaa2a3bd87e67f1f2b16cff8",
+    "backend/app/services/deduplication.py": "f552b8dd6740a00827617190ee103c8e085b0c8f6b0e4397f9ce2974b6ed1ee4",
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "247ec59a0b6b24de6f8e908ad40e69a4f50015a177a3d241b61829f73b169e47",
+    "input/code-manifest.json": "7d21c3ddb42bb2aa762d6ef3da6b56beb0381b17218f5b9e454a9d53f478812d",
+    "input/targets.json": "c5aaca48657d63f412ef3b0e2275c94b717c56e813be6bae44e9521d1e0d42c8",
+    "mode": "offline"
+  },
+  "mode": "offline",
+  "input_dir": "docs\\jlu-fix-b5-c\\final-live-20261014",
+  "limits": "3 pages/column, <=90 items/column, <=3 detail previews/column; serial; max 2 transient attempts"
+}

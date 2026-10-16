@@ -1,0 +1,769 @@
+{
+  "id": "p3-99066c319e6f",
+  "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+  "institution": "医院管理处",
+  "column": "通知公告",
+  "site_url": "https://ywc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/99066c319e6f3737.json",
+  "original_capture_time": "2026-10-13T13:38:34+08:00",
+  "discovery_url": "https://ywc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-99066c319e6f",
+    "name": "医院管理处 / 通知公告",
+    "base_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:40+08:00",
+  "details": [
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+      "list_title": "关于加强国庆节期间医疗安全工作的通知",
+      "list_date": "2024-09-26",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+        "time": "2026-10-15T22:10:24+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "54165c804eae10094c32ad50efe4b9fc3eeca11113c65bd37b20eb7ce2d8f784",
+        "html_path": "html/54165c804eae10094c32ad50efe4b9fc3eeca11113c65bd37b20eb7ce2d8f784.html",
+        "replacement_chars": 0,
+        "chars": 10370,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于加强国庆节期间医疗安全工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+        "publish_date": "2024-09-26",
+        "publisher": null,
+        "content": "校内各医院： 为做好十一国庆节期间医疗服务工作，确保节假日期间的医疗质量和医疗安全，为广大患者提供优质、高效的医疗服务，现就有关事项通知如下： 一、提高认识，加强领导 各附属医院要充分认识做好假期医疗质量和医疗安全工作的重要性，切实加强组织领导，将医疗安全放在首位，落实 “三管三必须”要求。要组织开展医疗安全工作大检查，全面排查安全隐患，坚决杜绝重大医疗事故的发生，确保医疗安全，全力维护正常的医疗秩序。 二、强化医疗质量管理 各医院要严格执行各项医疗规章制度和操作规范，加强对医疗核心制度的落实，特别是要加强对首诊负责制、急诊抢救、交接班、会诊制度等的执行。加强对医疗设备和药品的管理，确保医疗设备正常运行，药品供应充足。要切实做好危重、术后患者的医疗救治工作，确保急救 “绿色通道”畅通快捷。各附属医院药对分院区实行同质化管理，同标准同要求。 三、加强值班值守和应急处置 各医院要合理安排好医务人员值班，增加节日期间急 (夜)诊值班人员配备，确保急(夜)诊值班医护人员24 小时在岗，坚决杜绝“三生”独立值班、不具备值班资质人员值班及“带班顶岗”现象。各医院要加强对重点科室和重要安全点位的巡视巡查频次，确保异常情况及时处置。各附属综合医院总值班要保证行政和医疗双岗制，各附属医院应建立院领导节假日期间24小时值班制，负责处理值班期间全院的安全、行政和医疗、护理等紧急事宜。 四、完善应急预案及措施，保持应急状态 各医院要抓实全员安全生产培训，加强应急预案启动和 突发事件处理程序等方面的演练，真正落实到基层、到一线、到疗区，打通 “最后一公里”。要做好应对突发公共事件应急救治人员、药品器械、设备、技术等方面的充分准备，使药品器械、急救物品保持良好状态。应急医疗队处于待命状态。 学校将采取 “四不两直”的方式对各医院节假日期间生产安全工作 进行督导检查。 医院管理处 2024年9月27日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于加强国庆节期间医疗安全工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2024-09-26",
+            "date": "2024-09-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 799,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于加强国庆节期间医疗安全工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2024-09-26",
+            "date": "2024-09-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1042/2283.htm",
+      "list_title": "关于加强2026年“五一”劳动节期间医疗安全生产与医疗服务保障工作的通知",
+      "list_date": "2026-04-29",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1042/2283.htm",
+        "time": "2026-10-15T22:10:25+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1042/2283.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6b584eb4d6a77cd913a5f70d7add0cc99b787736e9f524ded38da1ef051f56b1",
+        "html_path": "html/6b584eb4d6a77cd913a5f70d7add0cc99b787736e9f524ded38da1ef051f56b1.html",
+        "replacement_chars": 0,
+        "chars": 13560,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于加强2026年“五一”劳动节期间医疗安全生产与医疗服务保障工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1042/2283.htm",
+        "publish_date": "2026-04-29",
+        "publisher": null,
+        "content": "各附属医院： 为深入贯彻落实国家关于安全生产专项整治、医疗质量安全管理的各项决策部署，切实筑牢 “五一”劳动节期间 我校 医疗安全生产防线，保障假期医疗服务平稳有序运行，坚决防范和遏制各类安全事故发生，维护人民群众生命财产安全与正常医疗秩序，现就有关工作要求通知如下： 一、提高政治站位，全面压实安全生产主体责任 各附属医院要深刻认识当前安全生产形势的 极端重要性 ，严格落实安全生产 “党政同责、一岗双责、齐抓共管、失职追责”和“三管三必须”要求，医院主要负责同志为安全生产第一责任人，要亲自研究部署 和 督导检查 ， 将各项工作举措细化到岗、明确到人，确保责任链条无断点、工作落实无死角，坚决守住不发生安全事故的底线红线。 二、严守医疗质量核心底线，全力保障医疗服务平稳有序 各附属医院要始终把医疗质量安全放在首位，以保障群众就医需求为核心，刚性落实各项诊疗规范。强化诊疗力量统筹，合理调配医护人员力量，确保急危重症患者救治绿色通道全程畅通。刚性落实医疗质量安全核心制度 ， 严格规范诊疗行为，加强对手术安全、麻醉安全、输血安全、用药安全的全流程管控。强化药品物资与全链条诊疗保障 ， 严格落实麻精药品、毒性药品、放射性药品的全流程闭环管理，确保诊疗环节全链条顺畅衔接，满足群众常规诊疗与应急救治需求。 三、深化全领域隐患排查整治，坚决筑牢安全生产坚固防线 各附属医院要 落实好《 “ 幸福吉大，你我同行 ”—吉林大学校园安全稳定专项治理行动方案》 ， 主动开展 安全生产 检查工作 ，建立问题隐患台账，明确整改责任、整改时限、整改措施，实行销号管理、闭环整改。严格落实消防安全责任制， 加强包括 手术室、食堂 等 重点 部位 排查，全面检修消防设施器材，确保完好有效 。 坚决整治堵塞消防通道、安全出口锁闭、违规用火用电用气等突出问题 。 加强全员消防安全培训，确保所有值班人员熟练掌握消防应急处置流程与器材使用方法。 各附属医院要落实 “ 平安医院 ” 建设 。强化医院安保力量配置，加强门急诊、住院部、财务室、药房等重点区域巡逻防控，完善人防、物防、技防措施， 切实 维护医院正常诊疗秩序。 四、强化应急值守与信息报送，全面提升突发事件处置能力 各附属医院要 严格落实值班值守制度。严格执行 24小时专人值班和领导干部在岗带班制度，确保在岗在位、履职尽责，第一时间响应处置各类突发情况。 各附属医院要 完善应急处置准备 ， 完善专项应急预案，配强应急处置队伍，备足应急物资、装备与车辆，针对性开展应急演练，确保一旦发生突发事件，能够快速响应、科学处置、高效救援。 医院管理处 2026年4月 28 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于加强2026年“五一”劳动节期间医疗安全生产与医疗服务保障工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-04-29",
+            "date": "2026-04-29"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1105,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于加强2026年“五一”劳动节期间医疗安全生产与医疗服务保障工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-04-29",
+            "date": "2026-04-29"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1042/1495.htm",
+      "list_title": "国家卫生计生委办公厅关于征求《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）意见的函",
+      "list_date": "2017-11-17",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1042/1495.htm",
+        "time": "2026-10-15T22:10:26+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1042/1495.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "af74140e80d6c50560e440a47283f55218faef5637d39253469305029d79e02e",
+        "html_path": "html/af74140e80d6c50560e440a47283f55218faef5637d39253469305029d79e02e.html",
+        "replacement_chars": 0,
+        "chars": 8391,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "国家卫生计生委办公厅关于征求《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）意见的函",
+        "url": "https://ywc.jlu.edu.cn/info/1042/1495.htm",
+        "publish_date": "2017-11-17",
+        "publisher": null,
+        "content": "各有关单位： 为贯彻落实《中共中央关于全面深化改革若干重大问题的决定》、《中共中央 国务院关于深化医药卫生体制改革的意见》（中发〔2009〕6号）及《国务院关于促进健康服务业发展的若干意见》（国发〔2013〕40号）精神，促进我国医疗卫生资源进一步优化配置，提高卫生综合服务能力和资源利用效率，指导各地科学、合理地制订和实施区域卫生规划，我委组织编制了《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）。 https://ywc.jlu.edu.cn/__local/1/0A/23/2A409B944D3103E9A51A6153935_B4C05160_61.gif?e=.gif 20141028155643241.rar",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "国家卫生计生委办公厅关于征求《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）意见的函"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 236,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "国家卫生计生委办公厅关于征求《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）意见的函"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+        "time": "2026-10-15T22:10:21+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "236859b35227537c15192593fb4e1c2d1d9e0c6526a42bb3b5df03eaa17d4b0b",
+        "html_path": "html/236859b35227537c15192593fb4e1c2d1d9e0c6526a42bb3b5df03eaa17d4b0b.html",
+        "replacement_chars": 0,
+        "chars": 8868,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1042/1496.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1499.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1500.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1971.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1981.htm",
+        "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+        "https://ywc.jlu.edu.cn/info/1042/2212.htm",
+        "https://ywc.jlu.edu.cn/info/1042/2283.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/ylfwgl1/tzgg/2.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg/2.htm",
+        "time": "2026-10-15T22:10:24+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg/2.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c0786ff6e58aac2b80824166ec753710051251ca1fc4c41d2ec9af9f199b3262",
+        "html_path": "html/c0786ff6e58aac2b80824166ec753710051251ca1fc4c41d2ec9af9f199b3262.html",
+        "replacement_chars": 0,
+        "chars": 9029,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1042/1488.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1489.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1490.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1491.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1492.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1493.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1494.htm",
+        "https://ywc.jlu.edu.cn/info/1042/1495.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/ylfwgl1/tzgg/1.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "time": "2026-10-15T22:10:21+08:00",
+    "ok": true,
+    "final_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "236859b35227537c15192593fb4e1c2d1d9e0c6526a42bb3b5df03eaa17d4b0b",
+    "html_path": "html/236859b35227537c15192593fb4e1c2d1d9e0c6526a42bb3b5df03eaa17d4b0b.html",
+    "replacement_chars": 0,
+    "chars": 8868,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强国庆节期间医疗安全工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/2161.htm",
+      "publish_date": "2024-09-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强2026年“五一”劳动节期间医疗安全生产与医疗服务保障工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/2283.htm",
+      "publish_date": "2026-04-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2025年度护士节评优获得者的决定",
+      "url": "https://ywc.jlu.edu.cn/info/1042/2212.htm",
+      "publish_date": "2025-04-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办吉林大学5·12国际护士节庆祝暨表彰大会的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1981.htm",
+      "publish_date": "2023-05-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于评选吉林大学2022-2023年度优秀护士、优秀护理管理工作者和优秀护理服务集体的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1971.htm",
+      "publish_date": "2023-04-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "《国家级区域医疗中心设置标准（综合医院）》（征求意见稿）",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1500.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "医院管理处组织召开我校各附属医院与新疆阿勒泰地区远程会诊工作协调会",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1499.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "我校召开2015年度医疗工作会议",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1496.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家卫生计生委办公厅关于征求《全国医疗卫生服务体系规划纲要（2015—2020年）》（公开征求意见稿）意见的函",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1495.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于控制公立医院规模过快扩张的紧急通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1494.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "深化医药卫生体制改革2014年重点工作任务",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1493.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于成立吉林大学肝移植中心的决定",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1492.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "深化医药卫生体制改革2012年主要工作安排",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1491.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国务院关于印发“十二五期间深化医药卫生体制改革规划暨实施方案的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1490.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "白求恩医学部召开院级规划编制论证会",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1489.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "卫生部关于印发《医药卫生中长期人才发展规划（2011-2020年）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1042/1488.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg/2.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-99066c319e6f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5199999324977398e-05,
+      "detail_duration_seconds": 8.299946784973145e-06,
+      "parse_db_duration_seconds": 0.030247900052927434
+    },
+    "second_round": {
+      "source": "p3-99066c319e6f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7000013031065464e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-99066c319e6f",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:10:21+08:00",
+    "review_time": "2026-10-15T23:00:40+08:00",
+    "http_status": 200,
+    "final_url": "https://ywc.jlu.edu.cn/ylfwgl1/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 16,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-99066c319e6f.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

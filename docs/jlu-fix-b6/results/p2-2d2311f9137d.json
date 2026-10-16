@@ -1,0 +1,878 @@
+{
+  "id": "p2-2d2311f9137d",
+  "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+  "institution": "文学院",
+  "column": "通知公告",
+  "site_url": "https://wxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/2d2311f9137d70e1.json",
+  "discovery_url": "https://wxy.jlu.edu.cn/",
+  "original_snapshot": "html/c2ff9191c9f15ea4f94866796d5b22ee75fd7638cdddcfbc504dba10b760ff99.html",
+  "original_capture_time": "2026-10-13T13:39:52+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-2d2311f9137d",
+    "name": "文学院 / 通知公告",
+    "base_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:20+08:00",
+  "details": [
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+      "list_title": "关于组织申报“新汉学计划”博士生学术培养项目的通知",
+      "list_date": "2022-05-23",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+        "time": "2026-10-15T19:36:00+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f83277871c274c184433b3fd51aa0dd1f454a3b5b1aaf21ddcd9f0913edf4a5d",
+        "html_path": "html/f83277871c274c184433b3fd51aa0dd1f454a3b5b1aaf21ddcd9f0913edf4a5d.html",
+        "replacement_chars": 0,
+        "chars": 21947,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于组织申报“新汉学计划”博士生学术培养项目的通知",
+        "url": "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+        "publish_date": "2022-05-23",
+        "publisher": null,
+        "content": "校内各教学科研单位： “新汉学计划”博士培养项目由教育部中外语言交流合作中心（以下简称“语合中心”）设立，联合中国顶尖高校和优秀学者，支持外国学生来华进行博士阶段的学习和研修，培养具有国际学术视野、通晓国际学术规则，能够参与国际学术交流与研究的青年汉学家。 为提高青年汉学家学术水平和研究能力，打造“新汉学计划”学术品牌，根据语合中心相关通知要求，我校作为“新汉学计划”中方合作院校，面向校内教学科研单位组织申报“新汉学计划”博士生学术培养项目，包括大师课/学术指导课、专业工作坊和博士生预选营等项目，现将具体申报内容通知如下： 一、“新汉学计划”大师课/学术指导课项目 为明确“新汉学计划”博士项目培养目标，完善培养环节，优化青年汉学家培养模式，语合中心设立“新汉学计划”大师课/学术指导课项目。我校教学科研单位可根据各自优势学科及专长领域申报意向承接课程，辅助“新汉学计划”学生了解中文学术话语体系，熟悉各学科研究方法，扩展必要的专业知识，了解最新的学术前沿。具体如下： （一）课程按以下两种形式申报： 录播课：课程需明确无版权争议，将通过语合中心网络平台播放，供“新汉学计划”博士项目参与者学习使用。一般为基础性、普及性的课程，可供学生长期学习、使用； 直播课：课程应邀请相关学科的大师讲授，通过ZOOM/腾讯会议等进行直播，一般为时效性、前沿性的课程； （二）课程根据内容，可分为三类：调查与研究方法、学术论文撰写方法和前沿课程。 调查与研究方法：可包括人文社科类研究通用的量化研究、质性研究和混合研究等调查和研究方法课程，也可包括具有学科特色研究方法； 学术论文撰写方法：重点突出中文论文的写作方法、学术规范等； 学术前沿讲座：大师讲授其擅长研究领域中具有前沿性的学术课程。 （三）申报时间和程序 1. 2022年6月6日之前，请校内申报单位向国际汉语教育东北基地提交项目申报书及预算，由国际汉语教育东北基地统一向语合中心申报。申报书包括课程设计、课程大纲、主讲教师名单及介绍；预算需明确单位成本，列出支出明细，可参考《“新汉学计划”大讲堂项目经费申请表》（可参考附件）及《中央和国家机关培训费管理办法》； 2.语合中心将根据提交申请时间、预算、教学内容等进行综合考评，择优审批，分批支持。 （四）经费支持 语合中心将承担大师课/学术指导课录播课所需的课时费、场地及设备租赁、视频制作等相关费用；承担直播课所需的课时费、直播平台租赁费、招生宣传等相关费用。 二、 “新汉学计划”专业工作坊项目 为强化“新汉学计划”博士生项目跨学校、多导师的培养特色，提升博士生专业研究能力，促进中外学生、学者的学术交流和互动，语合中心设立“新汉学计划”专业工作坊项目。我校教学科研单位可利用优势学科的师资力量举办专业学术工作坊，鼓励“新汉学计划”博士生和中国博士生就相同研究领域提交论文，开展对话，由承办学院组织专家担任指导导师，现场点评。优秀博士生将有机会在11月初举办的青年汉学家论坛发表论文，并获得一定的经济奖励和出版机会。 （一）申报条件 工作坊专业方向须为与汉学或中国研究相关的人文、社会科学、语言研究等领域，如社会学、教育学、哲学等。 （二）申报时间和程序 1. 2022年6月6日之前请校内申报单位向国际汉语教育东北基地提交专业工作坊方案（包括工作坊主题、举办时间、参与方式、征稿要求和联系方式等信息）、预算（可参考附件）和其他申请材料，由国际汉语教育东北基地统一向语合中心申报，工作坊举办时间一般在当年11月前。 2.方案审批通过后，校内承办单位组织相关专业的中国学生报名参与，语合中心将协助承办单位向“新汉学计划”博士生发送报名通知。 3.为保障论坛质量，承办单位应组织专家对中外学生提交的报名材料和论文进行审核、筛选，并根据论文主题进行匹配、分组，保障中外学生在工作坊中深度交流、同台切磋。 （三）经费支持 语合中心将承担工作坊举办所需的专家评审、专业指导、场地及设备租赁、文件翻译及制作等相关费用。 三、 “新汉学计划”博士生预选营项目 为扩大“新汉学计划”博士项目的影响力，提前选拔优秀人才，重点培养有学术潜力的青年汉学家，语合中心设立“新汉学计划”博士生预选营项目，帮助有志于从事汉学及中国研究的外籍青年学者做好语言、文化、学术等多方面准备。我校相关教学科研单位可充分利用优势学科的师资力量，举办传统汉学和现当代中国学研究的博士生预选营，为“新汉学计划”博士生项目的正式招生宣传、预热。学员为非中国籍的在读硕士、已获得硕士学位的硕士毕业生、在国外大学及科研机构正式注册的在读博士生等，特别优秀者可放宽至高年级本科生，通过短期（3-5天）培训，以讲座、小组讨论、博士研究计划写作培训等形式，为学生提供学术发展的路径指引和必要支持。 （一）申报条件 预选营专业方向须为与汉学或中国研究相关的人文、社会科学、语言研究等领域。 （二）申报时间和程序 1. 2022年6月6日之前请校内申报单位向国际汉语教育东北基地提交预选营方案，包括主题、举办时间、课程安排、授课专家/学业导师简介、预算和其他申请材料，由国际汉语教育东北基地统一向语合中心申报。预选营举办时间一般在当年11月前。 2.方案审批通过后，语合中心将委托承办单位负责承接预选营相关的通知、报名、组织等工作。 3.为保障预选营质量，承办单位应组织专家对学生提交的报名材料进行初审，并根据中文水平和研究方向分组，保障学生在预选营中能够充分展示自己的学术和研究能力。 （三）经费支持 语合中心将承担预选营举办所需的专家讲座、专业指导、场地及设备租赁、文件翻译及制作等相关费用。 四、校内 项目申报 咨询 请于6月4日前将各项目申报材料电子版发送至学院外事秘书处，之后学院统一报送至国际汉语教育东北基地办公室，个人申报和逾期申报将不予受理。 联系人：韩放 邮箱：hanf@jlu.edu.cn",
+        "attachments": [
+          {
+            "filename": "附件4：“新汉学计划”博士生预选营项目申请表.docx",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303142",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2：“新汉学计划”大师课学术指导课项目承诺书.docx",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303138",
+            "type": "docx"
+          },
+          {
+            "filename": "附件3：“新汉学计划”专业工作坊预算模板.xlsx",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303140",
+            "type": "xlsx"
+          },
+          {
+            "filename": "附件5：新汉学计划”博士生预选营项目预算模板.xlsx",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303141",
+            "type": "xlsx"
+          },
+          {
+            "filename": "附件1：“新汉学计划”大师课学术指导课项目经费申请表.xlsx",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303139",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于组织申报“新汉学计划”博士生学术培养项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-05-23 作者： 点击：",
+            "date": "2022-05-23"
+          },
+          {
+            "text": "发布日期：2022-05-23",
+            "date": "2022-05-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2429,
+        "reference_attachment_urls": [
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303138",
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303139",
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303140",
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303141",
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303142"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于组织申报“新汉学计划”博士生学术培养项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-05-23 作者： 点击：",
+            "date": "2022-05-23"
+          },
+          {
+            "text": "发布日期：2022-05-23",
+            "date": "2022-05-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+      "list_title": "关于承办2022年吉林大学中日韩青年论坛分论坛的通知",
+      "list_date": "2022-05-05",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+        "time": "2026-10-15T19:36:02+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "82473cfebb70a3588ca21cc11045cdf8acc373ccef43230150637b506e45ef67",
+        "html_path": "html/82473cfebb70a3588ca21cc11045cdf8acc373ccef43230150637b506e45ef67.html",
+        "replacement_chars": 0,
+        "chars": 18756,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于承办2022年吉林大学中日韩青年论坛分论坛的通知",
+        "url": "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+        "publish_date": "2022-05-05",
+        "publisher": null,
+        "content": "2022年是中日邦交正常化50周年，也是中韩建交30周年。值此之际，为进一步深化中日韩地方及民间友好关系，增进与日韩合作院校、机构的交流与合作，加强中外领袖学生对话、交流思想、增进友谊，吉林大学将举办“中日韩青年论坛”，旨在推动构建契合新时代要求的高校合作模式，助推中日韩青年师生的往来与对话，培养未来青年领导者。 学校面向教学科研单位招募“中日韩青年论坛”分论坛承办单位，现将有关事宜通知如下： 一、举办时间 2022年8月（暂定） 二、论坛议题 “中日韩青年论坛”主题为“疫情常态化环境下中日韩青年面临的挑战”，各承办单位根据论坛主题自主设定分论坛议题。 三、申报单位 该论坛依托各教学科研单位组织申报，不接受师生个人申请。（此次申报活动，由学院收集院内申报信息后，统一申报至国际合作与交流处）。 四、论坛举办形式 承办单位自主邀请日韩高校师生，根据设定的分论坛议题举办学术论坛。如届时疫情防控条件允许，论坛将采取线上和线下相结合的模式开展，学校将邀请境内日韩留学生共同参加。论坛结束后，学校将向参加论坛的中日韩师生颁发活动证书。 五、论坛资助 各申报单位应本着厉行节约、务求实效的原则，客观制定项目预算。学校将根据专家评审情况资助全额或部分经费，鼓励各单位自主配套经费。 六、申报材料 1.承办分论坛申请表（附件） 2.其他支撑材料（如有） 七、申报时间 请院内有申报意向的老师于2022年5月22日（星期日）前，将上述申报材料扫描件发至hanf@jlu.edu.cn，学院将信息汇总后统一向国际合作与交流处申报。学校将于5月下旬组织各教学科研单位和相关职能部门进行专家评审，并公布评审结果。 联系人：韩放 联系邮箱：hanf@jlu.edu.cn",
+        "attachments": [
+          {
+            "filename": "2022年吉林大学中日韩青年论坛分论坛申请表.doc",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=8046850",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于承办2022年吉林大学中日韩青年论坛分论坛的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-05-05 作者： 点击：",
+            "date": "2022-05-05"
+          },
+          {
+            "text": "发布日期：2022-05-05",
+            "date": "2022-05-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 727,
+        "reference_attachment_urls": [
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=8046850"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于承办2022年吉林大学中日韩青年论坛分论坛的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-05-05 作者： 点击：",
+            "date": "2022-05-05"
+          },
+          {
+            "text": "发布日期：2022-05-05",
+            "date": "2022-05-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1145/6231.htm",
+      "list_title": "关于组织新闻与传播学院硕士生赴美参加“中美青年跨文化传播研究工作坊”的通知",
+      "list_date": "2018-06-19",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1145/6231.htm",
+        "time": "2026-10-15T19:36:03+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1145/6231.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fac93f674aba8c1a9513ae383b2a7bb7331ec6a762bfd33408a981c99bd7f0bb",
+        "html_path": "html/fac93f674aba8c1a9513ae383b2a7bb7331ec6a762bfd33408a981c99bd7f0bb.html",
+        "replacement_chars": 0,
+        "chars": 30047,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于组织新闻与传播学院硕士生赴美参加“中美青年跨文化传播研究工作坊”的通知",
+        "url": "https://wxy.jlu.edu.cn/info/1145/6231.htm",
+        "publish_date": "2018-06-19",
+        "publisher": null,
+        "content": "由新闻与传播学院申报的学校国际合作与交流处以及国际汉语教育东北基地“青年精英海外中国学工作坊”计划项目——“中美青年跨文化传播研究工作坊”，已获准立项。该项目旨在培养具备马克思主义新闻观，了解中国国情，掌握现代跨文化传播理论与传播技巧，能够熟练运用英文和现代传媒，讲好中国故事、传播好中国声音、弘扬中华优秀文化、阐释中国特色、增强国际话语权的国际新闻传播人才。同时，增进美国青年对中国历史文化以及中国现实的了解，吸引美国青年进一步学习了解中国文化。 该项目拟 于 2018 年 10 月 选派新闻与传播学院 10 名 2017 级硕士研究生赴美国肯塔基大学孔子学院、传播与信息学院开展相关交流活动。 出国前，学院还将进行有针对性的培训。 请有关对中美跨文化传播研究与实践感兴趣、且符合报名条件的新闻与传播学院 2017 级硕士研究生（含新闻系、传播系、广电系学术与专业硕士）自愿报名参加。 工作坊交流语言 ：英语 工作坊内容： 我院选派的硕士生将在美国肯塔基大学参加有关中华文化的异域传播、美国文化精髓、跨文化传播理论、跨文化传播实践的学术讲座、研讨会，并有机会同肯塔基大学的师生就中美跨文化传播问题进行讨论。此外，学生还将参加由肯塔基大学组织的文化参观、体验活动。 工作坊交流时间： 2018 年 10 月在美 国肯塔基大学 交流不超过 10 天。 学分： 学生 赴美后，完成工作坊全部研讨内容、经过考试（或考核）合格者，给予一门选修课的学分。 所需费用： 赴美国的往返机票费、住宿费、在美期间参观与集体活动时的交通费用等均由本项目经费支付（不需学生个人负担）； 学生个人需要承担护照办理费用、签证办理费用、在美期间的伙食费、个人购物消费、个人通讯费用、个人行李超重费用、境外人身保险和医疗保险等费用。 学生选拔： 参加本项目选拔者，需要做好以下三个环节的面试准备： 1. 用英语进行现场自我介绍，时间 1 分钟。 2. 请事先自拟题目，撰写一篇针对美国青年的，以中国文化、或以中国当代发展变化为主题的中国故事（或吉大故事）英文稿，并进行现场脱稿讲述，讲述时间不超过 4 分钟。 3. 现场问答：由评委围绕面试者的自我介绍、故事讲述和参加本次工作坊的个人计划进行现场提问，要求面试者在 2 分钟内完成作答。评委提问完毕，计时开始。 报名要求： 报名的硕士研究生英语水平必须满足如下条件之一： 1. 通过大学英语六级（ CET6 ）考试，分数在 425 分以上； 2. 全国英语等级考试（ PETS4 ）四级合格证书（笔试、口语均合格）； 3. 英语新托福考试 70 分（含）以上； 4. 英语雅思考试得分 6.0 分（含）以上。 我校在籍全日制硕士研究生，身心健康，成绩优良，无违纪行为。 已经确定入选参加我院牛津大学展望计划 —— “行摄牛津”工作坊的学生，不得再参加本项目（赴肯塔基大学）。 报名时请出示学生证及外语合格证书，并将外语合格证书复印件和事先填写好的《吉林大学学生短期出国交流项目申请表》（附件）、英文简历一份（不超过一页）交报名处。 报名时间： 6 月 20 日 ～ 25 日上午，工作日上午 8 ： 30 － 11 ： 20 ，下午 13 ： 30 － 16 ： 00 报名地点： 东荣大厦 11 楼 1105 室 报名联系人： 齐佳惠 张钰函 电话： 85168851 面试日期 ： 2018 年 7 月上旬，具体时间另行通知 面试合格者请马上办理护照，如 8 月 24 日之前护照未能办理下来，将不能参加本项目。赴美前需在国内办理海外旅游保险。 吉林大学新闻与传播学院 2018 年 6 月 19 日 附件： 《吉林大学学生短期出国交流项目申请表》",
+        "attachments": [
+          {
+            "filename": "吉林大学学生短期出国交流项目申请表2016版.doc",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=7969844",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于组织新闻与传播学院硕士生赴美参加“中美青年跨文化传播研究工作坊”的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2018-06-19 作者： 点击：",
+            "date": "2018-06-19"
+          },
+          {
+            "text": "发布日期：2018-06-19",
+            "date": "2018-06-19"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1537,
+        "reference_attachment_urls": [
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=7969844"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于组织新闻与传播学院硕士生赴美参加“中美青年跨文化传播研究工作坊”的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2018-06-19 作者： 点击：",
+            "date": "2018-06-19"
+          },
+          {
+            "text": "发布日期：2018-06-19",
+            "date": "2018-06-19"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+        "time": "2026-10-15T19:27:59+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c2ff9191c9f15ea4f94866796d5b22ee75fd7638cdddcfbc504dba10b760ff99",
+        "html_path": "html/c2ff9191c9f15ea4f94866796d5b22ee75fd7638cdddcfbc504dba10b760ff99.html",
+        "replacement_chars": 0,
+        "chars": 22365,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+        "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6244.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6461.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6843.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6844.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6951.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6953.htm",
+        "https://wxy.jlu.edu.cn/info/1145/7154.htm",
+        "https://wxy.jlu.edu.cn/info/1145/7156.htm",
+        "https://wxy.jlu.edu.cn/info/1145/7158.htm",
+        "https://wxy.jlu.edu.cn/info/1145/7544.htm",
+        "https://wxy.jlu.edu.cn/info/1145/8734.htm",
+        "https://wxy.jlu.edu.cn/info/1145/9133.htm",
+        "https://wxy.jlu.edu.cn/info/1145/9194.htm"
+      ],
+      "observed_next_urls": [
+        "https://wxy.jlu.edu.cn/gjjl/tzgg/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/gjjl/tzgg/1.htm",
+        "time": "2026-10-15T19:35:59+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/gjjl/tzgg/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "53218409f6b0bd76d39aadf260cb577d99aef1189961bbedd23f9681c00c8356",
+        "html_path": "html/53218409f6b0bd76d39aadf260cb577d99aef1189961bbedd23f9681c00c8356.html",
+        "replacement_chars": 0,
+        "chars": 18393,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://wxy.jlu.edu.cn/info/1145/6201.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6205.htm",
+        "https://wxy.jlu.edu.cn/info/1145/6231.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "time": "2026-10-15T19:27:59+08:00",
+    "ok": true,
+    "final_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c2ff9191c9f15ea4f94866796d5b22ee75fd7638cdddcfbc504dba10b760ff99",
+    "html_path": "html/c2ff9191c9f15ea4f94866796d5b22ee75fd7638cdddcfbc504dba10b760ff99.html",
+    "replacement_chars": 0,
+    "chars": 22365,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织申报“新汉学计划”博士生学术培养项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/17226.htm",
+      "publish_date": "2022-05-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于承办2022年吉林大学中日韩青年论坛分论坛的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/17091.htm",
+      "publish_date": "2022-05-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申请2021年度春季学期汉阳大学交换留学项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/9194.htm",
+      "publish_date": "2020-10-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于选派我院学生于2020-2021学年春季学期赴台湾台南大学交换学习的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/9133.htm",
+      "publish_date": "2020-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "(转国际处）关于开展“一带一路沿线国家国际汉语教育国情调研计划”和“东北亚地区孔子学院建设和发展情况调研计划”研究课题结项验收工作的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/8734.htm",
+      "publish_date": "2020-06-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于申报“亚洲校园”计划 —“亚洲精英”海外社情调研与人文交流项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/7544.htm",
+      "publish_date": "2019-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织我校学生参加2019年高雄大学暑期夏令营的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/7158.htm",
+      "publish_date": "2019-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织我校学生参加韩国庆北大学2019年暑假韩语学习项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/7156.htm",
+      "publish_date": "2019-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织我校学生申请2018-2019学年“百人会英才奖”的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/7154.htm",
+      "publish_date": "2019-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织2019年春季孔子学院总部国家公派出国教师推荐选拔工作的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6953.htm",
+      "publish_date": "2019-04-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织相关单位申报富布赖特专家项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6951.htm",
+      "publish_date": "2019-04-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织我校学生参加“2019年联合国青年领袖暑期精英班”的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6844.htm",
+      "publish_date": "2019-03-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转国际处：关于组织我校学生参加英国剑桥大学2019年暑期学术课程项目的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6843.htm",
+      "publish_date": "2019-03-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于增选国家汉办“孔子新汉学计划”博士生导师的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6461.htm",
+      "publish_date": "2018-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织新闻与传播学院学生参加“牛津展望计划——行摄牛津工作坊”的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6244.htm",
+      "publish_date": "2018-06-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织新闻与传播学院硕士生赴美参加“中美青年跨文化传播研究工作坊”的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6231.htm",
+      "publish_date": "2018-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于选拔第四届台湾学生“北国风情”暑期研习营分营 --- “行摄东北”之“师说”活动志愿者的通知",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6205.htm",
+      "publish_date": "2018-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "新闻与传播学院学术讲座",
+      "url": "https://wxy.jlu.edu.cn/info/1145/6201.htm",
+      "publish_date": "2018-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 18,
+  "pagination": [
+    {
+      "start_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://wxy.jlu.edu.cn/gjjl/tzgg/1.htm",
+          "parsed_items": 3,
+          "added_items": 3
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-2d2311f9137d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 4.029995761811733e-05,
+      "detail_duration_seconds": 8.300063200294971e-06,
+      "parse_db_duration_seconds": 0.0482676001265645
+    },
+    "second_round": {
+      "source": "p2-2d2311f9137d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.9699917174875736e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-2d2311f9137d",
+    "institution": "文学院",
+    "column": "通知公告",
+    "url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:27:59+08:00",
+    "review_time": "2026-10-15T20:20:20+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 18,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-2d2311f9137d.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

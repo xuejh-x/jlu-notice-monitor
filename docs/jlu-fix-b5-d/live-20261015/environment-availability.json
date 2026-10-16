@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-15T19:04:20+08:00",
+  "current_process_role": "standalone",
+  "public_feed_url_configured": false,
+  "cloud_admin_url_configured": true,
+  "actual_linux_cloud_crawl": "NOT_VERIFIED_NO_APPROVED_RUNTIME",
+  "actual_cloud_feed": "NOT_CONFIGURED",
+  "desktop_execution": "prior installed-client cache + isolated controlled regression; not a fresh installed-client crawl",
+  "system_network_modified": false
+}

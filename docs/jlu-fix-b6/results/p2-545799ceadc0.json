@@ -1,0 +1,900 @@
+{
+  "id": "p2-545799ceadc0",
+  "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+  "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+  "column": "科研通知",
+  "site_url": "https://ccst.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_MISSING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/545799ceadc0496d.json",
+  "discovery_url": "https://ccst.jlu.edu.cn/",
+  "original_snapshot": "html/ce613bf5dc2e13bd56dcd4148cd0c14be167b302b1d0daa493da4ac5ae2794f1.html",
+  "original_capture_time": "2026-10-13T13:54:22+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-545799ceadc0",
+    "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 科研通知",
+    "base_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:27+08:00",
+  "details": [
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+      "list_title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "list_date": "2026-08-06",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+        "time": "2026-10-15T19:41:52+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9192658f9ec2687391ccbeaf995763ea651a37b2688ca7e436a8c3295fa81052",
+        "html_path": "html/9192658f9ec2687391ccbeaf995763ea651a37b2688ca7e436a8c3295fa81052.html",
+        "replacement_chars": 0,
+        "chars": 15074,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+        "publish_date": "2026-08-06",
+        "publisher": null,
+        "content": "（一）申报方式 本次申报采 取“无纸化”申报方式，申报人登陆吉林省科技计划项目管理信息系统 http://www.jlkjxm.com ，在系统中按照申报类别填报申报书，并上传指南要求相关附件材料，提交至所在中层单位，并提交“吉林省科技发展计划 2027 年度项目申报汇总表”（详见附件 5 ）电子版至邮箱： jjj@jlu.edu.cn 。中层单位对本单位申报项目的负责人申报条件、申报材料等进行审核，审核无误后推荐至学校科研院。 （二）时间安排 1. 学院限额推荐的项目： 《吉林省自然科学基金 — 青年科学基金 A 、 B 、 C 类（指南 P1 页）》、《科技人才培养 --- 中青年科技创新人才（团队）培育项目（指南 P121 页）》、《科技人才培养 --- 青年科技人才培养项目（指南 P125 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名） 发送至邮箱： jjj@jlu.edu.cn ，提交截止时间为 8 月 14 日（星期五 ）。 2. 学校限项推荐的项目： 《重点研发（高新技术领域） --- 产业关键技术（指南 P58 页）》、《重点研发（现代农业领域） --- 产业关键技术（指南 P70 页）》、《重点研发（社会发展领域） --- 产业关键技术（指南 P78 页）》、《重点研发（医药健康领域） --- 产业关键技术（指南 P93 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名，合作协议和合作企业财务审计报告可先不提供，校内评审后补齐即可） 发送至邮箱：jjj@jlu.edu.cn ， 提交 截止时间为8 月17 日（星期一） 。 3. 申报其他项目： 请在 8 月 22 日（星期六）前完成申报书系统提交及“汇总表（附件 5 ）”电子版的提交。汇总表中的项目信息与系统中的项目信息一致，申报材料准确、真实、完整，无形式问题。 （三）申报要求及限期申报具体内容等请查看： https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=69355655&channelId=179577 （四）申报老师请扫码加入《 2027 年省科技厅项目申报群》（二维码请查看学院群或邮件）。",
+        "attachments": [
+          {
+            "filename": "附件.rar",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188371",
+            "type": "rar"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1062,
+        "reference_attachment_urls": [
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188371"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报吉林省科技发展计划2027年度项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+      "list_title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "list_date": "2026-08-06",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+        "time": "2026-10-15T19:41:54+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "18d4854a6b16457dc6ac07ad8a936557b4e9b62ad7ada5cf73802337927a53d6",
+        "html_path": "html/18d4854a6b16457dc6ac07ad8a936557b4e9b62ad7ada5cf73802337927a53d6.html",
+        "replacement_chars": 0,
+        "chars": 15145,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+        "publish_date": "2026-08-06",
+        "publisher": null,
+        "content": "（一）申报方式 本次申报采 取“无纸化”申报方式，申报人登陆吉林省科技计划项目管理信息系统 http://www.jlkjxm.com ，在系统中按照申报类别填报申报书，并上传指南要求相关附件材料，提交至所在中层单位，并提交“吉林省科技发展计划 2027 年度项目申报汇总表”（详见附件 5 ）电子版至邮箱： jjj@jlu.edu.cn 。中层单位对本单位申报项目的负责人申报条件、申报材料等进行审核，审核无误后推荐至学校科研院。 （二）时间安排 1. 学院限额推荐的项目： 《吉林省自然科学基金 — 青年科学基金 A 、 B 、 C 类（指南 P1 页）》、《科技人才培养 --- 中青年科技创新人才（团队）培育项目（指南 P121 页）》、《科技人才培养 --- 青年科技人才培养项目（指南 P125 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名） 发送至邮箱： jjj@jlu.edu.cn ，提交截止时间为 8 月 14 日（星期五 ）。 2. 学校限项推荐的项目： 《重点研发（高新技术领域） --- 产业关键技术（指南 P58 页）》、《重点研发（现代农业领域） --- 产业关键技术（指南 P70 页）》、《重点研发（社会发展领域） --- 产业关键技术（指南 P78 页）》、《重点研发（医药健康领域） --- 产业关键技术（指南 P93 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名，合作协议和合作企业财务审计报告可先不提供，校内评审后补齐即可） 发送至邮箱：jjj@jlu.edu.cn ， 提交 截止时间为8 月17 日（星期一） 。 3. 申报其他项目： 请在 8 月 22 日（星期六）前完成申报书系统提交及“汇总表（附件 5 ）”电子版的提交。汇总表中的项目信息与系统中的项目信息一致，申报材料准确、真实、完整，无形式问题。 （三）申报要求及限期申报具体内容等请查看： https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=69355655&channelId=179577 （四）申报老师请扫码加入《 2027 年省科技厅项目申报群》(二维码请在学院群或邮件上查看）。",
+        "attachments": [
+          {
+            "filename": "附件.rar",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188370",
+            "type": "rar"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1064,
+        "reference_attachment_urls": [
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188370"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报吉林省科技发展计划2027年度项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1261/20221.htm",
+      "list_title": "关于开展2025年度吉林省科学技术奖提名工作的通知",
+      "list_date": "2025-03-03",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1261/20221.htm",
+        "time": "2026-10-15T19:41:54+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1261/20221.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dd6ab298b2aa73560e60724ccd08b67462a9c7b3f627e5849797316181d0c34d",
+        "html_path": "html/dd6ab298b2aa73560e60724ccd08b67462a9c7b3f627e5849797316181d0c34d.html",
+        "replacement_chars": 0,
+        "chars": 22266,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展2025年度吉林省科学技术奖提名工作的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20221.htm",
+        "publish_date": "2025-03-03",
+        "publisher": null,
+        "content": "校内各有关单位： 根据吉林省科技厅通知，为做好 2025 年度吉林省科学技术奖提名工作，现将有关事宜通知如下： 一、本年度奖项设置 包含自然科学奖、技术发明奖、科学技术进步奖、国际科学技术合作奖。 二、提名要求 本年度提名工作按照《吉林省科学技术奖提名制实施办法》（吉科发奖〔 2022 〕 30 号）执行。 （一）单位提名 提名单位应对提名的项目（人选）进行严格把关，对提名项目进行论证并提出提名意见。 （二）专家提名 提名专家应在本人熟悉学科领域内提名，责任专家应在本人从事学科专业（二级学科）内提名。提名专家每人每年度可以独立或与他人联合提名 1 项省科学技术奖项目。联合提名时列第一位的为责任专家。提名专家不能被提名为本年度省科学技术奖候选者。 三、提名条件 （一）被提名人本年度只能申报一项省科学技术奖，同一项目不得多部门重复提名。已获得 2024 年度吉林省科学技术一等奖的前三名完成人、二等奖的前二名完成人和三等奖的第一完成人，不能作为第一完成人被提名本年度省科学技术奖。 （二）同一科技成果同一年度不得被重复提名；已获得省部级及以上科学技术奖励的成果，不得被重复提名。 （三）自然科学奖被提名项目其论文或专著应公开发表 2 年以上（即 2022 年 12 月 31 日以前公开发表）；技术发明奖被提名项目应获得授权的发明专利，且成果转化应用 2 年以上（应用时间在 2022 年 12 月 31 日以前）；科技进步奖被提名项目应具有成熟的核心性技术成果，且成果应用 2 年以上（应用时间在 2022 年 12 月 31 日以前）。 四、提名程序 （一）项目申请及诚信审查。有意向申报教师请填写申请表及诚信审查表 （见附件 5 ）， 于 2025 年 3 月 14 日 16 ： 00 前发送至 kjckx@jlu.edu.cn ，逾期不予受理。项目名称、奖励类别、奖励等级、完成单位及完成人，在提交后不得修改。诚信审查表需填写所有完成单位及所有完成人。通过诚信审查的项目，将在校园网公示 5 天，项目的所有参与单位需要同步公示。 （二）本年度省科学技术奖励提名工作实行网上受理。通过诚信审查的项目，科研院将“提名号和校验码”反馈至发送邮箱，被提名人登录省科技厅网站，点击“吉林省科学技术奖励工作平台”，从“项目申报”窗口登录填报。申报系统将于 2025 年 4 月 28 日 16 ： 00 关闭。 （三）报送形式审查材料。被提名人请于 2025 年 4 月 7 日 16 ： 00 前，将从系统内打印的纸质版提名书及附件，提交至鼎新楼 A514 ，科研院对提名项目进行形式审查。 （四）材料报送。被提名人根据形式审查建议修改后，请按时完成系统填报，并于 2025 年 5 月 7 日 16 ： 00 前，将纸质版提名书原件 1 份及不涉密情况说明 1 份（附件 6 ，单独提交，不用装订），提交至鼎新楼 A514 。纸质版提名书不另加封面，需用铅笔自提名书首页起在右下角标注页码。 五、其他事项 （一）本年度省科学技术奖评审采取定额定标方式进行，同等级奖项评审落选后不再降格参加下一等级奖项的评审。 （二）“ 2025 年度吉林省科学技术奖励提名工作手册”等相关材料可登录“吉林省科学技术奖励工作平台”（网址： http://jl.jlkjxm.com/kjpj/cms/main.htm ）下载。 六、校内联系方式 联 系 人：李红旭 张庆余 刘晟池 联系电话： 85168632 、 85168105 邮 箱： kjckx@jlu.edu.cn 科研院 2025 年 2 月 28 日 附件下载：https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=55939635&channelId=179577",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于开展2025年度吉林省科学技术奖提名工作的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于开展2025年度吉林省科学技术奖提名工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-03-03 发布人： 点击量：",
+            "date": "2025-03-03"
+          },
+          {
+            "text": "发布日期：2025-03-03",
+            "date": "2025-03-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1611,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于开展2025年度吉林省科学技术奖提名工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-03-03 发布人： 点击量：",
+            "date": "2025-03-03"
+          },
+          {
+            "text": "发布日期：2025-03-03",
+            "date": "2025-03-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "time": "2026-10-15T19:29:51+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ce613bf5dc2e13bd56dcd4148cd0c14be167b302b1d0daa493da4ac5ae2794f1",
+        "html_path": "html/ce613bf5dc2e13bd56dcd4148cd0c14be167b302b1d0daa493da4ac5ae2794f1.html",
+        "replacement_chars": 0,
+        "chars": 11798,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccst.jlu.edu.cn/info/1261/20512.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20514.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20516.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20698.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20700.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20702.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20716.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20844.htm",
+        "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+        "https://ccst.jlu.edu.cn/info/1261/21150.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccst.jlu.edu.cn/kxyj/kytz/105.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/kxyj/kytz/105.htm",
+        "time": "2026-10-15T19:41:52+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/kxyj/kytz/105.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dc1fe494ba405e10edc24a9c3727ae135301fcc89446d20eae9060fdab82ee1d",
+        "html_path": "html/dc1fe494ba405e10edc24a9c3727ae135301fcc89446d20eae9060fdab82ee1d.html",
+        "replacement_chars": 0,
+        "chars": 12036,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccst.jlu.edu.cn/info/1261/19745.htm",
+        "https://ccst.jlu.edu.cn/info/1261/19748.htm",
+        "https://ccst.jlu.edu.cn/info/1261/19857.htm",
+        "https://ccst.jlu.edu.cn/info/1261/19859.htm",
+        "https://ccst.jlu.edu.cn/info/1261/19936.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20128.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20165.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20185.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20193.htm",
+        "https://ccst.jlu.edu.cn/info/1261/20221.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccst.jlu.edu.cn/kxyj/kytz/104.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "time": "2026-10-15T19:29:51+08:00",
+    "ok": true,
+    "final_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "ce613bf5dc2e13bd56dcd4148cd0c14be167b302b1d0daa493da4ac5ae2794f1",
+    "html_path": "html/ce613bf5dc2e13bd56dcd4148cd0c14be167b302b1d0daa493da4ac5ae2794f1.html",
+    "replacement_chars": 0,
+    "chars": 11798,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+      "publish_date": "2026-08-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+      "publish_date": "2026-08-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年度国家自然科学基金申请与结题工作安排的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20844.htm",
+      "publish_date": "2026-01-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20716.htm",
+      "publish_date": "2025-11-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报新一代人工智能国家科技重大专项2025年度第一批项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20702.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2025年中国高校产学研创新基金－联合专项（七期）申请指南",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20700.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2025年中国高校产学研创新基金－人工智能与数字安全专项的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20698.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林省科技发展计划2026年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20516.htm",
+      "publish_date": "2025-08-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报第三批吉林大学有组织科研专项的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20514.htm",
+      "publish_date": "2025-08-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年度吉林省教育厅科学研究项目（自然科学类）申报工作的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20512.htm",
+      "publish_date": "2025-08-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2025年度吉林省科学技术奖提名工作的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20221.htm",
+      "publish_date": "2025-03-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2025年度“中国商业联合会科学技术奖”的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20193.htm",
+      "publish_date": "2025-02-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年度国家自然科学基金申请与结题工作安排的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20185.htm",
+      "publish_date": "2025-01-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报国家重点研发计划“高性能计算”重点专项2024—2025年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20165.htm",
+      "publish_date": "2025-01-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于征集人工智能领域战略研究团队的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/20128.htm",
+      "publish_date": "2024-12-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报中国高校产学研创新基金--智能物联网创新教育专项的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/19936.htm",
+      "publish_date": "2024-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报中国科技期刊卓越行动计划二期项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/19859.htm",
+      "publish_date": "2024-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发《国家自然科学基金委员会信息科学部2024年度专项项目（科技活动项目）申请指南》的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/19857.htm",
+      "publish_date": "2024-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林省科技发展计划2025年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/19748.htm",
+      "publish_date": "2024-08-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展工信部移动信息领域网络专家推荐工作的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1261/19745.htm",
+      "publish_date": "2024-08-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/kxyj/kytz/105.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-545799ceadc0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5700003132224083e-05,
+      "detail_duration_seconds": 6.400048732757568e-06,
+      "parse_db_duration_seconds": 0.03157910017762333
+    },
+    "second_round": {
+      "source": "p2-545799ceadc0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.550000160932541e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": true,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-545799ceadc0",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "科研通知",
+    "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_MISSING | PAGINATION_NOT_CONFIGURED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "capture_time": "2026-10-15T19:29:51+08:00",
+    "review_time": "2026-10-15T20:21:27+08:00",
+    "reason": "Same-title publication/identity candidate requires manual review; no production merge",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-545799ceadc0.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

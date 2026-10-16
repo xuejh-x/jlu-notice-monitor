@@ -1,0 +1,48 @@
+{
+  "time": "2026-10-16T14:45:40.191345+00:00",
+  "python": "3.13.13",
+  "openssl": "OpenSSL 3.0.19 27 Jan 2026",
+  "httpx": "0.28.1",
+  "environment_presence": {
+    "HTTP_PROXY": false,
+    "HTTPS_PROXY": false,
+    "ALL_PROXY": false,
+    "NO_PROXY": false,
+    "SSL_CERT_FILE": false,
+    "SSL_CERT_DIR": false
+  },
+  "attempts": [
+    {
+      "url": "https://lus-jlu.github.io/lqb.html",
+      "time": "2026-10-16T14:45:33.751256+00:00",
+      "trust_env": false,
+      "explicit_loopback_proxy": "http://127.0.0.1:7897",
+      "error_chain": [
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "EndOfStream",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "SSLEOFError",
+          "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+          "errno": 8
+        }
+      ],
+      "seconds": 5.431
+    }
+  ],
+  "database_imports": 0,
+  "network_setting_changes": 0,
+  "limits": "Two default/direct probes or one explicit loopback proxy probe; not the installed client's process environment."
+}

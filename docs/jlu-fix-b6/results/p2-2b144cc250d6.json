@@ -1,0 +1,899 @@
+{
+  "id": "p2-2b144cc250d6",
+  "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+  "institution": "地球探测科学与技术学院",
+  "column": "招生信息",
+  "site_url": "https://gest.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/2b144cc250d662d6.json",
+  "discovery_url": "https://gest.jlu.edu.cn/",
+  "original_snapshot": "html/0913e7a44ee78622eaf1610045f60b596ec5c7d42a13f3fa4790d8c6a6401d5b.html",
+  "original_capture_time": "2026-10-13T13:56:41+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-2b144cc250d6",
+    "name": "地球探测科学与技术学院 / 招生信息",
+    "base_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:32+08:00",
+  "details": [
+    {
+      "url": "https://gest.jlu.edu.cn/info/1106/10981.htm",
+      "list_title": "地球探测科学与技术学院2027年接收推荐免试攻读硕士学位研究生拟录取名单公示",
+      "list_date": "2026-09-21",
+      "response": {
+        "url": "https://gest.jlu.edu.cn/info/1106/10981.htm",
+        "time": "2026-10-15T19:42:33+08:00",
+        "ok": true,
+        "final_url": "https://gest.jlu.edu.cn/info/1106/10981.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d8dc3774f6c4d6097fe4f414515b4dc3a85f0caddfbb7d35e3ba05850586866a",
+        "html_path": "html/d8dc3774f6c4d6097fe4f414515b4dc3a85f0caddfbb7d35e3ba05850586866a.html",
+        "replacement_chars": 0,
+        "chars": 22848,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "地球探测科学与技术学院2027年接收推荐免试攻读硕士学位研究生拟录取名单公示",
+        "url": "https://gest.jlu.edu.cn/info/1106/10981.htm",
+        "publish_date": "2026-09-21",
+        "publisher": null,
+        "content": "经学生自主申报、学院审核，地球探测科学与技术学院硕士研究生考核小组对符合条件的考生进行了考核，现将接收拟录取名单（含直博生，含候补）公示如下： 详见附件。 公示时间：2026年9月21日至9月23日 联 系 人：王老师 联系电话：0431-88502362 QQ：273263522 地球探测科学与技术学院 2026年9月21日",
+        "attachments": [
+          {
+            "filename": "2027年推免硕士研究生拟录取名单.pdf",
+            "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18200808",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "地球探测科学与技术学院2027年接收推荐免试攻读硕士学位研究生拟录取名单公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 164,
+        "reference_attachment_urls": [
+          "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18200808"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "地球探测科学与技术学院2027年接收推荐免试攻读硕士学位研究生拟录取名单公示",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-09-21 点击数：",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "日期：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://gest.jlu.edu.cn/info/1106/10965.htm",
+      "list_title": "吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单",
+      "list_date": "2026-09-18",
+      "response": {
+        "url": "https://gest.jlu.edu.cn/info/1106/10965.htm",
+        "time": "2026-10-15T19:42:34+08:00",
+        "ok": true,
+        "final_url": "https://gest.jlu.edu.cn/info/1106/10965.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "599216508ddd66b6aebc9a2dc27dc0bc3ae8162c882cd1f509b7d39e8db89f3f",
+        "html_path": "html/599216508ddd66b6aebc9a2dc27dc0bc3ae8162c882cd1f509b7d39e8db89f3f.html",
+        "replacement_chars": 0,
+        "chars": 19842,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单",
+        "url": "https://gest.jlu.edu.cn/info/1106/10965.htm",
+        "publish_date": "2026-09-18",
+        "publisher": null,
+        "content": "经本人申请，学院审核，现公布吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单见附件。 学院2027年推免生复试工作统一采用线下现场面试方式。 复试地点：吉林省长春市朝阳区西民主大街938号吉林大学朝阳校区，地质宫449、457会议室（具体分组在群里公布） 复试时间： 9月21日上午8:30 ，综合面试 校外考生进校：微信搜索公众号“961946 JLU”，选择“游客预约参观”(选择朝阳校区），提请做好入校申请。 请考生于21日早8:15之前到相应会场进行签到和抽签。 吉林大学地球探测科学与技术学院 2026年9月18日",
+        "attachments": [
+          {
+            "filename": "资格审查合格名单.pdf",
+            "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18199283",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-09-18",
+            "date": "2026-09-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 273,
+        "reference_attachment_urls": [
+          "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18199283"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-09-18 点击数：",
+            "date": "2026-09-18"
+          },
+          {
+            "text": "日期：2026-09-18",
+            "date": "2026-09-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://gest.jlu.edu.cn/info/1106/10766.htm",
+      "list_title": "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生拟录取名单的通知",
+      "list_date": "2026-04-03",
+      "response": {
+        "url": "https://gest.jlu.edu.cn/info/1106/10766.htm",
+        "time": "2026-10-15T19:42:35+08:00",
+        "ok": true,
+        "final_url": "https://gest.jlu.edu.cn/info/1106/10766.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "49afa9b686dfc26ebd2b7f03baa9a5044196107261c3ec164798aab5ec2d6939",
+        "html_path": "html/49afa9b686dfc26ebd2b7f03baa9a5044196107261c3ec164798aab5ec2d6939.html",
+        "replacement_chars": 0,
+        "chars": 20507,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生拟录取名单的通知",
+        "url": "https://gest.jlu.edu.cn/info/1106/10766.htm",
+        "publish_date": "2026-04-03",
+        "publisher": null,
+        "content": "按照吉林大学2026年硕士招生复试录取工作总体安排，根据《吉林大学地球探测科学与技术学院2026年硕士研究生招生复试录取实施细则》等相关规定，经过初试、复试，现发布地球探测科学与技术学院2026年硕士研究生入学考试拟录取名单(含推免），公示期为4月3日至4月5日。 如考生对录取提出质疑，可在公示期内书面实名提出申诉。 申诉及咨询方式： 电话：0431-88502362 QQ:273263522 联系人：王老师",
+        "attachments": [
+          {
+            "filename": "2026-602-学术学位拟录取汇总表.pdf",
+            "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094024",
+            "type": "pdf"
+          },
+          {
+            "filename": "2026-602-专项计划拟录取汇总表.pdf",
+            "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094025",
+            "type": "pdf"
+          },
+          {
+            "filename": "2026-602-专业学位拟录取汇总表.pdf",
+            "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094026",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生拟录取名单的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-04-03",
+            "date": "2026-04-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 206,
+        "reference_attachment_urls": [
+          "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094024",
+          "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094025",
+          "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18094026"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生拟录取名单的通知",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-04-03 点击数：",
+            "date": "2026-04-03"
+          },
+          {
+            "text": "日期：2026-04-03",
+            "date": "2026-04-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+        "time": "2026-10-15T19:30:06+08:00",
+        "ok": true,
+        "final_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0913e7a44ee78622eaf1610045f60b596ec5c7d42a13f3fa4790d8c6a6401d5b",
+        "html_path": "html/0913e7a44ee78622eaf1610045f60b596ec5c7d42a13f3fa4790d8c6a6401d5b.html",
+        "replacement_chars": 0,
+        "chars": 20334,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://gest.jlu.edu.cn/info/1106/10774.htm",
+        "https://gest.jlu.edu.cn/info/1106/10796.htm",
+        "https://gest.jlu.edu.cn/info/1106/10818.htm",
+        "https://gest.jlu.edu.cn/info/1106/10839.htm",
+        "https://gest.jlu.edu.cn/info/1106/10866.htm",
+        "https://gest.jlu.edu.cn/info/1106/10886.htm",
+        "https://gest.jlu.edu.cn/info/1106/10954.htm",
+        "https://gest.jlu.edu.cn/info/1106/10963.htm",
+        "https://gest.jlu.edu.cn/info/1106/10965.htm",
+        "https://gest.jlu.edu.cn/info/1106/10981.htm"
+      ],
+      "observed_next_urls": [
+        "https://gest.jlu.edu.cn/yjsjy/zsxx/9.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://gest.jlu.edu.cn/yjsjy/zsxx/9.htm",
+        "time": "2026-10-15T19:42:32+08:00",
+        "ok": true,
+        "final_url": "https://gest.jlu.edu.cn/yjsjy/zsxx/9.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "79fdccb3df3fe951357986234301aa744170c70799b4e67393c12a41cde47d6c",
+        "html_path": "html/79fdccb3df3fe951357986234301aa744170c70799b4e67393c12a41cde47d6c.html",
+        "replacement_chars": 0,
+        "chars": 20739,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://gest.jlu.edu.cn/info/1106/10517.htm",
+        "https://gest.jlu.edu.cn/info/1106/10560.htm",
+        "https://gest.jlu.edu.cn/info/1106/10597.htm",
+        "https://gest.jlu.edu.cn/info/1106/10604.htm",
+        "https://gest.jlu.edu.cn/info/1106/10616.htm",
+        "https://gest.jlu.edu.cn/info/1106/10651.htm",
+        "https://gest.jlu.edu.cn/info/1106/10653.htm",
+        "https://gest.jlu.edu.cn/info/1106/10729.htm",
+        "https://gest.jlu.edu.cn/info/1106/10753.htm",
+        "https://gest.jlu.edu.cn/info/1106/10766.htm"
+      ],
+      "observed_next_urls": [
+        "https://gest.jlu.edu.cn/yjsjy/zsxx/8.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "time": "2026-10-15T19:30:06+08:00",
+    "ok": true,
+    "final_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "0913e7a44ee78622eaf1610045f60b596ec5c7d42a13f3fa4790d8c6a6401d5b",
+    "html_path": "html/0913e7a44ee78622eaf1610045f60b596ec5c7d42a13f3fa4790d8c6a6401d5b.html",
+    "replacement_chars": 0,
+    "chars": 20334,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "地球探测科学与技术学院2027年接收推荐免试攻读硕士学位研究生拟录取名单公示",
+      "url": "https://gest.jlu.edu.cn/info/1106/10981.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2027年推荐免试硕士研究生审核合格名单",
+      "url": "https://gest.jlu.edu.cn/info/1106/10965.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示地球探测科学与技术学院2027年“国优计划”推荐免试硕士研究生拟录取名单的通知",
+      "url": "https://gest.jlu.edu.cn/info/1106/10963.htm",
+      "publish_date": "2026-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2027年接收推荐免试攻读研究生复试录取工作办法",
+      "url": "https://gest.jlu.edu.cn/info/1106/10954.htm",
+      "publish_date": "2026-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示地球探测科学与技术学院2027年预选直博生合格学生名单的通知",
+      "url": "https://gest.jlu.edu.cn/info/1106/10886.htm",
+      "publish_date": "2026-06-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2026年校园学术活动开放日活动",
+      "url": "https://gest.jlu.edu.cn/info/1106/10866.htm",
+      "publish_date": "2026-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "地球探测科学与技术学院2026年博士研究生招生考生成绩及拟录取公示(二、三轮）",
+      "url": "https://gest.jlu.edu.cn/info/1106/10839.htm",
+      "publish_date": "2026-05-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2026年博士研究生招生面试时间安排（第二、三轮）",
+      "url": "https://gest.jlu.edu.cn/info/1106/10818.htm",
+      "publish_date": "2026-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于再次开放2026年博士报名系统的通知（第三次）",
+      "url": "https://gest.jlu.edu.cn/info/1106/10796.htm",
+      "publish_date": "2026-05-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于再次开放2026年博士报名系统的通知",
+      "url": "https://gest.jlu.edu.cn/info/1106/10774.htm",
+      "publish_date": "2026-04-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生拟录取名单的通知",
+      "url": "https://gest.jlu.edu.cn/info/1106/10766.htm",
+      "publish_date": "2026-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学地球探测科学与技术学院2026年硕士研究生复试成绩及总成绩的通知",
+      "url": "https://gest.jlu.edu.cn/info/1106/10753.htm",
+      "publish_date": "2026-03-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2026年硕士研究生入学复试录取实施细则",
+      "url": "https://gest.jlu.edu.cn/info/1106/10729.htm",
+      "publish_date": "2026-03-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "地球探测科学与技术学院2026年博士研究生招生考生成绩及拟录取公示",
+      "url": "https://gest.jlu.edu.cn/info/1106/10653.htm",
+      "publish_date": "2025-12-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2026年博士研究生招生面试时间安排",
+      "url": "https://gest.jlu.edu.cn/info/1106/10651.htm",
+      "publish_date": "2025-12-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2024级硕士研究生硕博连读研究生推荐选拔工作办法",
+      "url": "https://gest.jlu.edu.cn/info/1106/10616.htm",
+      "publish_date": "2025-11-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学地球探测科学与技术学院2026年博士研究生“申请考核制”招生实施细则",
+      "url": "https://gest.jlu.edu.cn/info/1106/10604.htm",
+      "publish_date": "2025-11-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025-2026学年秋季学期吉林大学地球探测科学与技术学院研究生课程教材选用情况公示",
+      "url": "https://gest.jlu.edu.cn/info/1106/10597.htm",
+      "publish_date": "2025-11-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "地球探测科学与技术学院2026年接收推荐免试攻读硕士学位研究生拟录取名单公示（第二批）",
+      "url": "https://gest.jlu.edu.cn/info/1106/10560.htm",
+      "publish_date": "2025-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "地球探测科学与技术学院2026年接收推荐免试攻读硕士学位研究生拟录取名单公示",
+      "url": "https://gest.jlu.edu.cn/info/1106/10517.htm",
+      "publish_date": "2025-09-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://gest.jlu.edu.cn/yjsjy/zsxx/9.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-2b144cc250d6",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4299992471933365e-05,
+      "detail_duration_seconds": 5.899928510189056e-06,
+      "parse_db_duration_seconds": 0.030029100133106112
+    },
+    "second_round": {
+      "source": "p2-2b144cc250d6",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.089992631226778e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-2b144cc250d6",
+    "institution": "地球探测科学与技术学院",
+    "column": "招生信息",
+    "url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:06+08:00",
+    "review_time": "2026-10-15T20:21:32+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-2b144cc250d6.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

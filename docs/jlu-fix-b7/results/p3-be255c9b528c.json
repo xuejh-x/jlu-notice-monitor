@@ -1,0 +1,639 @@
+{
+  "id": "p3-be255c9b528c",
+  "url": "http://ort.jlu.edu.cn/tzgg.htm",
+  "institution": "器官再造与移植教育部重点实验室（筹）",
+  "column": "通知公告",
+  "site_url": "http://ort.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH",
+  "original_evidence": "docs/jlu-audit-evidence/results/be255c9b528c6711.json",
+  "original_capture_time": "2026-10-13T14:04:58+08:00",
+  "discovery_url": "http://ort.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-be255c9b528c",
+    "name": "器官再造与移植教育部重点实验室（筹） / 通知公告",
+    "base_url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:07+08:00",
+  "details": [
+    {
+      "url": "http://ort.jlu.edu.cn/info/1029/1175.htm",
+      "list_title": "特邀报告—徐仁和 教授（澳门大学健康科学学院） 2024-08-20",
+      "list_date": "2024-08-20",
+      "response": {
+        "url": "http://ort.jlu.edu.cn/info/1029/1175.htm",
+        "time": "2026-10-15T22:14:54+08:00",
+        "ok": true,
+        "final_url": "http://ort.jlu.edu.cn/info/1029/1175.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a9bef42cff3549ad3766854c95316b6857a0066aeeb4d94c3a8eab60dab0f3e9",
+        "html_path": "html/a9bef42cff3549ad3766854c95316b6857a0066aeeb4d94c3a8eab60dab0f3e9.html",
+        "replacement_chars": 0,
+        "chars": 16441,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "特邀报告—徐仁和 教授（澳门大学健康科学学院）",
+        "url": "http://ort.jlu.edu.cn/info/1029/1175.htm",
+        "publish_date": "2024-08-20",
+        "publisher": "特邀报告—徐仁和",
+        "content": "特邀报告—徐仁和 教授（澳门大学健康科学学院） 徐仁和教授现任澳门大学健康科学学院副院长，中国干细胞研究协会理事，澳门干细胞研究协会会长。1999年获日本东京大学发育学博士；先后在以色列巴尔·依兰大学和美国国立卫生研究院从事博士后研究，在威斯康星大学WiCell研究所任高级研究员，师从人胚干细胞之父詹姆斯·汤姆森教授。 徐教授长期从事干细胞研究和治疗应用。在Nat Biotechnol、Nat Methods、Cell Stem Cell、PNAS和Adv Sci等一流杂志发表论文近100篇，被引用近10000次，并获得16项中外专利；他发明的人胚胎干细胞分化的间充质干细胞（T-MSC）作为研究性新药获美国药监局批准进入多发性硬化症临床实验，并获中国药监局申请受理。徐教授于2022年作为首席科学家分别获得澳门科技基金重点研发项目和科技部国家重点研发项目资助，推进T-MSC治疗糖尿病足、抑制物抗宿主病及骨关节炎的临床转化。近期探讨了T-MSC在人-鼠嵌合体中发育命运及在肿瘤免疫逃逸研究中的应用。 报告题目：hESC-derived MSC for therapeutic applications, developmental study, and cancer research 时 间：8月22日上午10点 地 点：人类疾病与动物模型国家地方联合工程实验室1楼报告厅 http://ort.jlu.edu.cn/__local/6/9E/12/5EB7789EE7D269960D5BD74C10A_32029105_AEB96.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2024-08-20",
+            "date": "2024-08-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 591,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "特邀报告—徐仁和 教授（澳门大学健康科学学院）",
+          "报告题目：hESC-derived MSC for therapeutic applications, developmental study, and cancer research",
+          "日期：2024-08-20 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "特邀报告—徐仁和 教授（澳门大学健康科学学院） 报告题目：hESC-derived MSC for therapeutic applications, developmental study, and cancer research 日期：2024-08-20 点击数： 来源:",
+            "date": "2024-08-20"
+          },
+          {
+            "text": "日期：2024-08-20 点击数： 来源:",
+            "date": "2024-08-20"
+          },
+          {
+            "text": "日期：2024-08-20 点击数： 来源:",
+            "date": "2024-08-20"
+          },
+          {
+            "text": "日期：2024-08-20",
+            "date": "2024-08-20"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://ort.jlu.edu.cn/info/1029/1115.htm",
+      "list_title": "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知 2022-11-11",
+      "list_date": "2022-11-11",
+      "response": {
+        "url": "http://ort.jlu.edu.cn/info/1029/1115.htm",
+        "time": "2026-10-15T22:14:54+08:00",
+        "ok": true,
+        "final_url": "http://ort.jlu.edu.cn/info/1029/1115.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "68150b94190778864aff17b689c475d0d25ab56d31112057d59a936a3edcd4b7",
+        "html_path": "html/68150b94190778864aff17b689c475d0d25ab56d31112057d59a936a3edcd4b7.html",
+        "replacement_chars": 0,
+        "chars": 23071,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知",
+        "url": "http://ort.jlu.edu.cn/info/1029/1115.htm",
+        "publish_date": "2022-11-11",
+        "publisher": "为了推动我院器官再造与移植领域基础研究和技术创新，促进学术交",
+        "content": "为了推动我院器官再造与移植领域基础研究和技术创新，促进学术交流，发现和培养本领域科技人才，培育实验室重大代表性研究成果，依据《教育部重点实验室建设与运行管理办法》，贯彻“开放、流动、联合、竞争”的运行宗旨，器官再造与移植教育部重点实验室拟组织开展2022年度开放课题的申报和评审工作,开放课题指南详见附件1。 一、资助对象和类别 1、本实验室将采取多种形式接纳国内外科学工作者来本室工作； 2、国内外研究人员均可依据实验室研究方向申请开放课题基金，特别器官再造与移植相关的交叉学科研究人员申请； 3、鼓励国内外自带课题及经费来实验室进行短期研究、测试或进修，经申请并经实验室主任批准可在规定时间到实验室工作，实验室将提供各种必要的条件和补贴； 4、开放课题申请者非本实验室固定研究人员的，必须有实验室固定研究人员作为合作者，共同开展合作研究； 5、鼓励曾获得本实验室资助且完成研究任务的申请人，申报本年度重点项目，开展延伸性研究； 6、曾获得资助项目的研究内容不重复资助； 7、本年度开放课题项目执行期为2年，其中：重点项目7项（25万元/年/项），基础项目5项（10万元/年/项）。 二、项目资助领域 1、灵长类动物异种器官移植研究（2-3项重点项目）； 2、器官移植免疫排斥新机制研究（1-2项重点项目）； 3、移植免疫耐受与器官保存新技术研究（1-2项重点项目）； 4、器官移植与感染免疫研究（1项重点项目）； 5、3D打印与器官再造研究（1项重点项目）。 三、 开放基金申请程序 1、本年度申请受理截止时间为2022年12月4日。 2、申请者按规定的格式填好《开放课题基金申请书》一式1份，经所在单位签署意见，加盖学院公章后邮寄到重点实验室（邮寄地址：长春市绿园区新竹路1977号吉林大学和平校区三号院，器官再造与移植教育部重点实验室，收件人：张婷，联系电话：15043020168，邮编：130012），同时提供申请书电子版（电子邮箱：jluzhangting@jlu.edu.cn）。 3、高级职称科技人员（副教授、副研究员以上）可直接申请，其他科技人员申请需一名高级职称科研人员推荐，填写《不具有高级职称申报开放课题推荐表》。 4、《开放课题基金申请书》提交实验室学术委员会专家或相关专家进行通讯评审，根据评审结果，按照择优资助原则，由实验室决定资助项目和经费额度。 5、本年度申请结果将通过电子邮件通知。开放课题申请书不再退回，请申请者自留底稿。 联系人：张婷 联系电话：0431-80539012 附件1. 开放课题指南 附件2. 开放课题基金申请书 附件3. 不具有高级职称申报开放课题推荐表 器官再造与移植教育部重点实验室 2022年11月10日",
+        "attachments": [
+          {
+            "filename": "附件3. 不具有高级职称申报开放课题推荐信.doc",
+            "url": "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879877",
+            "type": "doc"
+          },
+          {
+            "filename": "附件2. 开放课题申请书.doc",
+            "url": "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879876",
+            "type": "doc"
+          },
+          {
+            "filename": "附件1. 开放课题指南.doc",
+            "url": "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879875",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 特邀报告—徐仁和 教授（澳门大学健康科学学院）"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2022-11-11",
+            "date": "2022-11-11"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1134,
+        "reference_attachment_urls": [
+          "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879875",
+          "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879876",
+          "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=11879877"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知",
+          "",
+          "日期：2022-11-11 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知 日期：2022-11-11 点击数： 来源:",
+            "date": "2022-11-11"
+          },
+          {
+            "text": "日期：2022-11-11 点击数： 来源:",
+            "date": "2022-11-11"
+          },
+          {
+            "text": "日期：2022-11-11 点击数： 来源:",
+            "date": "2022-11-11"
+          },
+          {
+            "text": "日期：2022-11-11",
+            "date": "2022-11-11"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://ort.jlu.edu.cn/info/1029/1072.htm",
+      "list_title": "关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示 2020-11-10",
+      "list_date": "2020-11-10",
+      "response": {
+        "url": "http://ort.jlu.edu.cn/info/1029/1072.htm",
+        "time": "2026-10-15T22:14:56+08:00",
+        "ok": true,
+        "final_url": "http://ort.jlu.edu.cn/info/1029/1072.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9bbafeebf2be477297debb5a581825e51f4be724dc70e62f38644044e3cfb0c4",
+        "html_path": "html/9bbafeebf2be477297debb5a581825e51f4be724dc70e62f38644044e3cfb0c4.html",
+        "replacement_chars": 0,
+        "chars": 17015,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示",
+        "url": "http://ort.jlu.edu.cn/info/1029/1072.htm",
+        "publish_date": "2020-11-10",
+        "publisher": "为了推动我国器官再造与移植领域基础研究和技术创新，促进学术交",
+        "content": "为了推动我国器官再造与移植领域基础研究和技术创新，促进学术交流，发现和培养本领域科技人才，培育实验室重大代表性研究成果，依据《教育部重点实验室建设与运行管理办法》，贯彻 “开放、流动、联合、竞争”的运行宗旨，科研部组织开展了2020年度开放课题的申报和评审工作。通过广泛征集，共收到有效申报项目43项，其中重点项目10项，基础项目22项，培育项目11项。经校内外同领域专家对项目进行评审，最终遴选出23项拟予以资助，其中重点项目5项，基础项目12项，培育项目6项，资助总金额211万元。现将结果公示如下（见附件）。如有异议，请在公示之日起三个工作日内通过来电、电子邮件等方式向科研部反映。 联系人：刘欢欢 联系电话： 15164392544 电子邮箱： kjkliuhuanhuan@126.com 科研部 2020年11月10日",
+        "attachments": [
+          {
+            "filename": "开放课题2020年度拟资.xlsx",
+            "url": "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=7706666",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2020-11-10",
+            "date": "2020-11-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 365,
+        "reference_attachment_urls": [
+          "http://ort.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1751030077&wbfileid=7706666"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示",
+          "",
+          "日期：2020-11-10 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示 日期：2020-11-10 点击数： 来源:",
+            "date": "2020-11-10"
+          },
+          {
+            "text": "日期：2020-11-10 点击数： 来源:",
+            "date": "2020-11-10"
+          },
+          {
+            "text": "日期：2020-11-10 点击数： 来源:",
+            "date": "2020-11-10"
+          },
+          {
+            "text": "日期：2020-11-10",
+            "date": "2020-11-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://ort.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:14:52+08:00",
+        "ok": true,
+        "final_url": "http://ort.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a1b8645f2b7ee0f308245a3bf40c9519dc3b6f52953301b88751987abe7a1a97",
+        "html_path": "html/a1b8645f2b7ee0f308245a3bf40c9519dc3b6f52953301b88751987abe7a1a97.html",
+        "replacement_chars": 0,
+        "chars": 14954,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://ort.jlu.edu.cn/info/1029/1064.htm",
+        "http://ort.jlu.edu.cn/info/1029/1066.htm",
+        "http://ort.jlu.edu.cn/info/1029/1068.htm",
+        "http://ort.jlu.edu.cn/info/1029/1071.htm",
+        "http://ort.jlu.edu.cn/info/1029/1072.htm",
+        "http://ort.jlu.edu.cn/info/1029/1115.htm",
+        "http://ort.jlu.edu.cn/info/1029/1175.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:14:52+08:00",
+    "ok": true,
+    "final_url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "a1b8645f2b7ee0f308245a3bf40c9519dc3b6f52953301b88751987abe7a1a97",
+    "html_path": "html/a1b8645f2b7ee0f308245a3bf40c9519dc3b6f52953301b88751987abe7a1a97.html",
+    "replacement_chars": 0,
+    "chars": 14954,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "特邀报告—徐仁和 教授（澳门大学健康科学学院） 2024-08-20",
+      "url": "http://ort.jlu.edu.cn/info/1029/1175.htm",
+      "publish_date": "2024-08-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知 2022-11-11",
+      "url": "http://ort.jlu.edu.cn/info/1029/1115.htm",
+      "publish_date": "2022-11-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于器官再造与移植教育部重点实验室2020年度开放课题拟资助项目的公示 2020-11-10",
+      "url": "http://ort.jlu.edu.cn/info/1029/1072.htm",
+      "publish_date": "2020-11-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报器官再造与移植教育部重点实验室(吉林大学)开放课题的通知 2020-09-24",
+      "url": "http://ort.jlu.edu.cn/info/1029/1066.htm",
+      "publish_date": "2020-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于器官再造与移植教育部重点实验室2019年度开放课题拟资助项目的公示 2019-10-08",
+      "url": "http://ort.jlu.edu.cn/info/1029/1071.htm",
+      "publish_date": "2019-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报器官再造与移植教育部重点实验室(吉林大学) 开放课题的通知 2019-07-11",
+      "url": "http://ort.jlu.edu.cn/info/1029/1068.htm",
+      "publish_date": "2019-07-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Recent Advances on Biomaterials-mediated Inflammation Control 基于生物材料的炎症调控策略 2019-07-10",
+      "url": "http://ort.jlu.edu.cn/info/1029/1064.htm",
+      "publish_date": "2019-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 7,
+  "pagination": [
+    {
+      "start_url": "http://ort.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://ort.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-be255c9b528c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6999896615743637e-05,
+      "detail_duration_seconds": 7.00005330145359e-06,
+      "parse_db_duration_seconds": 0.037174300057813525
+    },
+    "second_round": {
+      "source": "p3-be255c9b528c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7900019884109497e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-be255c9b528c",
+    "institution": "器官再造与移植教育部重点实验室（筹）",
+    "column": "通知公告",
+    "url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:14:52+08:00",
+    "review_time": "2026-10-15T23:01:07+08:00",
+    "http_status": 200,
+    "final_url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 7,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://ort.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-be255c9b528c.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

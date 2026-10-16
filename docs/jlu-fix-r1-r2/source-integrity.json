@@ -1,0 +1,53 @@
+{
+  "app_changes": [
+    {
+      "before": "3f4429fe9492b775dcd8cb1a6afe5111500d7c92f6802a9f2b0644a7cb421bba",
+      "path": "backend/app/config.py",
+      "after": "a09ea0157227d65922ec0551144056fe394c018996044b3c95f8930fa91bb9f5"
+    },
+    {
+      "before": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+      "path": "backend/app/crawler/runner.py",
+      "after": "79651bb6443064633869cca4db14dc36201ae079480be88fac54544c798a4080"
+    },
+    {
+      "before": "0bb29f1efd16add9f66c3e24b8b11332850ab30c230114687520d95024416b3c",
+      "path": "backend/app/parsers/html.py",
+      "after": "782f5c47e646c3b1cdeedf82ddc85d56aa0d9e1ec72fb84e7ece2d2bc254a4a9"
+    },
+    {
+      "before": "45287292934eb1e1844b4d82e95dbb9bff2d0eae5278126a651912b5cebd6a91",
+      "path": "backend/app/schemas/notice.py",
+      "after": "0524e4d2f4437b6df17faa47a8877d8b38735615b93104c64efca592c587aeff"
+    },
+    {
+      "before": null,
+      "path": "backend/app/services/detail_observation.py",
+      "after": "6ba5e16fc99370e21eb3d5273ff412f1ade27a4dd814beb6ca78cb915562bcbd"
+    },
+    {
+      "before": "5b61338ac6079a5a12e9877bd3182de1c429a95ff5dea0891b6d6d7ae96689d9",
+      "path": "backend/app/services/retention.py",
+      "after": "72823943e047bb165a5f584c421546a3202bd81934256ed8a55ace55043e14fa"
+    },
+    {
+      "before": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+      "path": "backend/app/sources/base.py",
+      "after": "e9c94a8ee72d3c2400c259f41a485398ad22a488f3ccfa49bd222e1068094f9d"
+    },
+    {
+      "before": "84ee20d15cd024fbd7b4a8d84ffc98fda0f8fe5b5fae8a7a2da420366d28a492",
+      "path": "backend/app/sources/cloud.py",
+      "after": "64e946299f788d29b5b110e12016f267e0a85ac11af204a71ee4e31a10b5c641"
+    },
+    {
+      "before": "523ebe7705ae22047e99015e8a675e44e7d11d03a8ea95c106de559863da91dd",
+      "path": "backend/app/sources/generic.py",
+      "after": "f4d2c1ae6bf1186c6123ea3ce29cc44632b7617e2884798abe4a7ead03ed4692"
+    }
+  ],
+  "final_snapshot_matches_workspace": true,
+  "time": "2026-10-16T22:35:18.9453466+08:00",
+  "mismatches": [],
+  "formal_source_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d"
+}

@@ -1,0 +1,906 @@
+{
+  "id": "p2-1975211e16b0",
+  "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+  "institution": "护理学院",
+  "column": "通知公告",
+  "site_url": "https://hlxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/1975211e16b0c784.json",
+  "discovery_url": "https://hlxy.jlu.edu.cn/",
+  "original_snapshot": "html/b68ff5ea2bba39b719e81b9fe10542b04a1777811eafb6ce67af3497ffc3c4d1.html",
+  "original_capture_time": "2026-10-13T13:44:03+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-1975211e16b0",
+    "name": "护理学院 / 通知公告",
+    "base_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:48+08:00",
+  "details": [
+    {
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3138.htm",
+      "list_title": "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知",
+      "list_date": "2026-10-14",
+      "response": {
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3138.htm",
+        "time": "2026-10-15T19:43:59+08:00",
+        "ok": true,
+        "final_url": "https://hlxy.jlu.edu.cn/info/1004/3138.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "21998f7884ac4bf4dab4131df4f8e77b9a551891320c5b8eb004b8e965bb4c3a",
+        "html_path": "html/21998f7884ac4bf4dab4131df4f8e77b9a551891320c5b8eb004b8e965bb4c3a.html",
+        "replacement_chars": 0,
+        "chars": 32675,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知",
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3138.htm",
+        "publish_date": "2026-10-14",
+        "publisher": "查看人次：",
+        "content": "一、报告题目 护理科研选题：以国家自然科学基金为例 二、主讲人 李焕焕，安徽医科大学校聘副教授、硕士生导师，安徽医科大学四类引进人才。研究方向为健康与慢病管理，重点关注基于数智技术的癌症防控与干预。主持国家自然科学基金青年（ C 类）项目、安徽省教育厅自然科学类青年项目、安徽省转化医学研究院专项课题等 7 项，参与国家自然科学基金面上项目等课题 10 余项；共发表论文 30 余篇，其中以第一作者在 International Journal of Nursing Studies 、 Journal of Medical Internet Research 等期刊发表 SCI 论文 7 篇，以第一作者在《中华护理杂志》发表论文 2 篇，获上海市医学会科普视频一等奖 1 项。担任《医养结合护理》编委， International Journal of Nursing Studies 、 Journal of Medical Internet Research 、 Geriatric Nursing 等 JCR Q1 区期刊审稿人。 三、报告时间 2026 年 10 月 20 日（星期二） 19:00 四、报告形式 线上（腾讯会议） 会议号： 998 757 956 https://hlxy.jlu.edu.cn/__local/7/01/02/197734D39565A40F26E65CC1C12_FA257466_16BC7F.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-14",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布日期：2026-10-14",
+            "date": "2026-10-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 538,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知 作者： 查看人次： 发布日期：2026-10-14",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-14",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布日期：2026-10-14",
+            "date": "2026-10-14"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+      "list_title": "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示",
+      "list_date": "2026-10-12",
+      "response": {
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+        "time": "2026-10-15T19:44:00+08:00",
+        "ok": true,
+        "final_url": "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "52c6939e536b8bd9c849702a93549ee1b8b54be9697561994360448fee2a40c9",
+        "html_path": "html/52c6939e536b8bd9c849702a93549ee1b8b54be9697561994360448fee2a40c9.html",
+        "replacement_chars": 0,
+        "chars": 36712,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示",
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+        "publish_date": "2026-10-12",
+        "publisher": "查看人次：",
+        "content": "根据学校《 关于开展 2025-2026学年奖学金、优秀学生和优秀学生干部评选工作的通知》要求，在综合素质测评前提下，经学生个人申请、学院奖助工作小组评审，拟确定 肖涵 等 74 人为我院 2025-2026学年 奖学金推荐人选， 阚晓霜 等 37 人为优秀学生推荐人选， 陈嘉琪 等 19 人为优秀学生干部推荐人选， 徐子涵 等 25 人为单项奖学金推荐人选，具体推荐名单见附件，现予以公示。如有异议，请于公示期间以书面形式向学院反映。 公示时间： 202 6 年 10 月 12 日至 202 6 年 10 月 16 日，如有异议，请于公示期间向学院反映。 联 系 人：刘宇飞 联系电话： 85619568 办公地点：护理学院办公楼 302 邮 箱： liuyufei@jlu.edu.cn 吉林大学护理学院 202 6 年 10 月 12 日",
+        "attachments": [
+          {
+            "filename": "护理学院2025-2026学年学年奖学金、优秀学生、优秀学生干部、单项奖学金公示.xlsx",
+            "url": "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18208100",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布日期：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 374,
+        "reference_attachment_urls": [
+          "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18208100"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示 作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布日期：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3108.htm",
+      "list_title": "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则",
+      "list_date": "2026-09-14",
+      "response": {
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3108.htm",
+        "time": "2026-10-15T19:44:01+08:00",
+        "ok": true,
+        "final_url": "https://hlxy.jlu.edu.cn/info/1004/3108.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b0425215f876cd77392d6278bcffa0eda0747cc9d731cc7bcc658cbfcdbe6f7e",
+        "html_path": "html/b0425215f876cd77392d6278bcffa0eda0747cc9d731cc7bcc658cbfcdbe6f7e.html",
+        "replacement_chars": 0,
+        "chars": 45414,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则",
+        "url": "https://hlxy.jlu.edu.cn/info/1004/3108.htm",
+        "publish_date": "2026-09-14",
+        "publisher": "查看人次：",
+        "content": "为了确保护理学院2027年接收推荐免试攻读研究生（以下简称推免生）的复试录取工作规范有序，根据教育部《全国高等学校推荐优秀应届本科毕业生免试攻读研究生工作管理规定》（教学厅〔2026〕1 号）和《吉林大学2027年推荐免试攻读研究生招生录取工作办法》，结合我院推免生招生录取工作实际，制定本细则。 一、复试录取工作原则 1.坚持科学方法，选拔优秀人才。采用综合性、多元化的考察方式和方法，遵循高层次专业人才的选拔规律，坚持学术标准，择优录取，宁缺毋滥，确保生源质量。 2.坚持全面考察，注重客观评价。在对考生德智体等方面综合考察的基础上，还要突出对专业素质、动手能力及创新精神等方面的考核。 3.坚持公正公开，维护考生权益。政策规范透明，程序公正公开，结果主动公示，监督机制健全，以人为本，切实维护考生合法权益。 二、复试录取组织管理 学院成立接收推免生工作领导小组，全面负责吉林大学护理学院2027年接收优秀应届本科毕业生免试攻读研究生工作；成立若干复试小组，负责确定推免复试考核的具体内容、评分标准和操作程序；成立材料审核专家组，负责完成考生的资格审查、身份验证；成立监督检查小组，负责对复试录取的工作规范、保密规定、信息公开公示、廉洁廉政、工作回避、考生作弊等监督检查，受理信访举报，违规违纪的调查和处理。 三、接收推免生工作的基本要求 1.推免硕士生报考条件 （1）拥护中国共产党领导，遵纪守法，品德良好。 （2）具有所在学校推免生资格的优秀应届本科生。 （3）学术研究兴趣浓厚，有较好的专业素养，有较强的创新意识和创新能力，有较高的培养潜质。 （4）不存在考试作弊和学术不端行为。 （5） 身体和心理状况符合国家和招生单位规定的体检要求。 （6） 英语四级425分以上。 2.按照《吉林大学2027年接收优秀应届本科毕业生免试攻读研究生招生简章及专业目录》中规定的招生计划进行录取。 3.资格审查 学院对推免生的申请材料进行审查、评议，确定复试名单，在规定时间内，向推免生发出复试或不予接收复试的通知。 复试前对参加复试的推免生进行资格审核，对审核有问题的推免生将及时通报考生本人。 参加2026年吉林大学护理学院校园学术活动开放日并入选的同学，在取得所在学校推免生资格基础上，也需再次报名并参加本次复试。 审查材料如下： （1）居民身份证、学生证（每学期均需参加注册）原件及复印件。 （2）《吉林大学2027年接收推荐免试研究生申请表》（附件2）。 （3）加盖所在学校教务部门公章的本科期间成绩单原件。 （4）在校期间发表的论文、获得专利的证书、研究成果证明、获奖证书、外语水平考试证书等材料。 （5）提供所在学校公布推免结果的网址。 资格审查不合格者取消复试和录取资格。 资格审查及相关报考材料电子版需打包为一个文件，文件名为护学/护专/医技+姓名+所在院校，于2026年9月17日8点之前发送到：jdhlmt2026@163.com，邮件主题为护学/护专/医技+姓名+所在院校（报考专业见附件1）。 四、复试主要方式和内容 1.复试形式：复试采用线上和线下结合的方式。 2.复试时间：2026年9月17日交材料后，进入微信群通知具体分组及考核时间，请关注回复邮件。 3.复试地点：吉林大学护理学院（吉林省长春市新疆街965号）。 4.复试内容： （1）专业素质和能力 专业素质和能力包括：大学阶段学习情况及成绩；全面考核推免生对本学科（类别）、专业（领域）理论知识和应用技能掌握程度，利用所学理论发现、分析和解决问题的能力，对本学科（类别）发展动态的了解以及在本专业（领域）发展的能力；创新精神和创新能力；科学精神、学术道德和专业伦理。 （2） 综合素质和能力 思想政治素质和品德考核，内容包含推免生的政治态度、思想表现、道德品质、遵纪守法、诚实守信等方面；本学科（类别）、专业（领域）以 外的学习、科研、社会实践（学生工作、社团活动、志愿者服务等）或实际工作表现等方面的情况；心理健康情况等。 （3）外语听说能力 由精通外语的教师担任主考教师进行现场问答，保持整个测试过程评分的一致性、连贯性和公正性。 每生复试时间一般不少于20分钟；复试全程录音录像；每个复试小组成员一般不少于5人，小组成员应为硕士研究生导师或具有副高级及以上职称人员；小组成员现场独立打分；每个复试小组对每位考生的作答情况进行现场记录（包括书面记录、影音和影像记录），其中纸介质材料至少保留 1 年，电子材料至少保存 5 年。复试小组成员在复试期间严禁做任何与复试考试无关的事情，如有特殊情况需离开复试现场时，复试工作须暂停，待复试小组成员到齐后再进行复试工作。 五、复试成绩及录取 1.复试成绩满分 100 分，60 分以上（含 60 分）为合格。复试成绩尽量取整数分值（最多保留小数点后两位）。复试不合格者不予录取。 2.拟录取推免生应严格按照复试成绩由高到低择优录取。 3.思想政治素质和品德考核结果作为录取的首要依据，考核不通过者不予录取。 4.跨学科推免生加试课程的成绩不计入复试成绩，但不合格者不予录取。 5.各招生单位组织推免生在规定时间内通过“全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统”完成网上“同意待录取确认”。 6.学院将组织推免生在规定时间内通过“全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统”（网址：https://yz.chsi.com.cn/tm）完成网上确认。学校通过系统向复试合格的推免生发送拟录取通知。推免生应在规定时间内登录系统接受拟录取通知。逾期不接受者，取消拟录取资格。 六、信息公开 1.学院将提前公布推免生复试录取工作办法及进入复试推免生名单。 2.学院将在本单位网站公示各专业拟录取推免生名单，名单包括推免生姓名、复试成绩、拟录取专业等信息，公示期为3天。 3.学校招生办公室通过吉林大学招生网统一公示拟录取推免生名单，公示时间为7天。 4.咨询及申诉渠道。 护理学院研究生办公室，电话：0431-85619377。 参加复试考生对复试、录取结果提出质疑，应在复试结果公布的3个工作日内，向学院1纪检监察工作部提出申诉，逾期不予受理。 七、关于违规处理 1.凡与复试考生为夫妻、直系血亲、三代以内旁系血亲关系以及近姻亲关系直系亲属，应主动回避，不得参与复试录取工作。 2.对复试中违反考试管理规定和考场纪律，影响考试公平、公正的考生、考试工作人员及其他相关人员，一律按《国家教育考试违规处理办法》（教育部令第33号）严肃处理。 3.对复试录取工作中有违反国家有关法律法规和招生管理规定行为的相关单位及其招生工作人员，一律按《普通高等学校招生违规行为处理暂行办法》（教育部令第36号）严肃处理，并追究直接责任人员的责任，造成严重后果和恶劣影响的，还将按规定对有关责任人实行问责。 吉林大学护理学院 2026年9月14日",
+        "attachments": [
+          {
+            "filename": "附件1 吉林大学护理学院2027年接收推荐免试硕士研究生招生专业目录.pdf",
+            "url": "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18197303",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件2 吉林大学2027年接收推荐免试研究生申请表.docx",
+            "url": "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18197304",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-14",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "发布日期：2026-09-14",
+            "date": "2026-09-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2844,
+        "reference_attachment_urls": [
+          "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18197303",
+          "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18197304"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则 作者： 查看人次： 发布日期：2026-09-14",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-09-14",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "发布日期：2026-09-14",
+            "date": "2026-09-14"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+        "time": "2026-10-15T19:30:34+08:00",
+        "ok": true,
+        "final_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "62d516d676105c225e5488906167cc7c50f9a089115d0151ee2ab109493bd7d6",
+        "html_path": "html/62d516d676105c225e5488906167cc7c50f9a089115d0151ee2ab109493bd7d6.html",
+        "replacement_chars": 0,
+        "chars": 36831,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hlxy.jlu.edu.cn/info/1004/2605.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3111.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3114.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3126.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3127.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3131.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3132.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3133.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3138.htm"
+      ],
+      "observed_next_urls": [
+        "https://hlxy.jlu.edu.cn/index/tzgg/34.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://hlxy.jlu.edu.cn/index/tzgg/34.htm",
+        "time": "2026-10-15T19:43:58+08:00",
+        "ok": true,
+        "final_url": "https://hlxy.jlu.edu.cn/index/tzgg/34.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6e55d813ddd4f1e8848807facf06028bdc4b2acba27f7cfb6ff8735532148880",
+        "html_path": "html/6e55d813ddd4f1e8848807facf06028bdc4b2acba27f7cfb6ff8735532148880.html",
+        "replacement_chars": 0,
+        "chars": 36913,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hlxy.jlu.edu.cn/info/1004/3081.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3089.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3090.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3091.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3092.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3096.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3098.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3104.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3107.htm",
+        "https://hlxy.jlu.edu.cn/info/1004/3108.htm"
+      ],
+      "observed_next_urls": [
+        "https://hlxy.jlu.edu.cn/index/tzgg/33.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-15T19:30:34+08:00",
+    "ok": true,
+    "final_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "62d516d676105c225e5488906167cc7c50f9a089115d0151ee2ab109493bd7d6",
+    "html_path": "html/62d516d676105c225e5488906167cc7c50f9a089115d0151ee2ab109493bd7d6.html",
+    "replacement_chars": 0,
+    "chars": 36831,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办“护理科研选题：以国家自然科学基金为例”专题学术报告的通知",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3138.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2025-2026学年奖学金、优秀学生和优秀学生干部候选人名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3134.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2026年本科学生国家助学金推荐名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3133.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2026年“吉林大学助学金”初评名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3132.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2026-2027学年本专科学生学费全额减免初评名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3131.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2025-2026学年国家励志奖学金推荐名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3127.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2025-2026学年国家奖学金推荐名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3126.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2025—2026学年奖学金综合素质测评组评小组成员名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3114.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年下半年成人高等教育护理本科毕业生申请学士学位工作的通知",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/2605.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026‑2027学年秋季学期研究生教材选用信息的通知",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3111.htm",
+      "publish_date": "2026-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学护理学院2027年接收推荐免试攻读研究生复试录取工作实施细则",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3108.htm",
+      "publish_date": "2026-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于护理学院拟推荐“蒲公英计划”（第四期）学员人选名单的公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3104.htm",
+      "publish_date": "2026-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学护理学院2025、2026年度白求恩医学奖学金候选人名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3107.htm",
+      "publish_date": "2026-09-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2023级推免素质类项目加分名单及综合成绩的公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3098.htm",
+      "publish_date": "2026-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "护理学院2023级学生的学业成绩公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3096.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于护理学院2027年推免优秀应届本科毕业生免试攻读研究生工作实施细则的公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3092.htm",
+      "publish_date": "2026-08-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于护理学院拟推荐2026年度吉林大学研究生“红果宝励学金”人选名单的公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3091.htm",
+      "publish_date": "2026-08-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学护理学院2026年度“红果宝励学金”候选人名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3090.htm",
+      "publish_date": "2026-08-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于“护理学院评选2026年度‘红果宝励志奖学金’实施细则”的公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3089.htm",
+      "publish_date": "2026-08-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学护理学院2026年校园学术开放日考核合格人员名单公示",
+      "url": "https://hlxy.jlu.edu.cn/info/1004/3081.htm",
+      "publish_date": "2026-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://hlxy.jlu.edu.cn/index/tzgg/34.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-1975211e16b0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.380006480962038e-05,
+      "detail_duration_seconds": 5.9998128563165665e-06,
+      "parse_db_duration_seconds": 0.03076000011060387
+    },
+    "second_round": {
+      "source": "p2-1975211e16b0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3499986380338669e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-1975211e16b0",
+    "institution": "护理学院",
+    "column": "通知公告",
+    "url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:34+08:00",
+    "review_time": "2026-10-15T20:21:48+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-1975211e16b0.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

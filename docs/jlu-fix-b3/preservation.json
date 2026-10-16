@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-14T16:11:19.187095+08:00",
+  "changed_existing_files": [
+    "backend/app/parsers/html.py",
+    "backend/app/sources/base.py",
+    "backend/app/sources/generic.py",
+    "backend/app/sources/oa_public.py",
+    "backend/scripts/audit_jlu_sites.py",
+    "backend/scripts/replay_jlu_b1.py"
+  ],
+  "new_application_service": "backend/app/services/attachment_validation.py",
+  "historical_audit_files_unchanged": 1449,
+  "b1_b2_reports_unchanged": true,
+  "sources_yaml_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d"
+}

@@ -1,0 +1,268 @@
+--- b1/backend/app/parsers/html.py
++++ b2/backend/app/parsers/html.py
+@@ -85,11 +85,13 @@
+     return False
+ 
+ 
+-def validate_detail_container(soup: BeautifulSoup, node: Tag, *, has_attachments: bool = False) -> None:
++def validate_detail_container(soup: BeautifulSoup, node: Tag, *, has_attachments: bool = False, page_url: str = "") -> None:
+     validate_html_page(soup)
+     if in_navigation(node) or any(in_navigation(a) for a in node.select("a[href]")) or node.select_one("nav, header, footer, [role='navigation']"):
+         raise HTMLParseError("HTML_DETAIL_NAVIGATION: notice body contains site navigation")
+     if not node.get_text(strip=True) and not has_attachments and not _extract_attachments(node, "https://attachment.invalid/"):
++        if body_image_urls(node, page_url):
++            return
+         if node.select_one("img[src]"):
+             raise HTMLParseError("HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification")
+         raise HTMLParseError("HTML_DETAIL_EMPTY: no text or supported attachment in the notice container")
+@@ -108,6 +110,120 @@
+                 and DATE_TEXT_PATTERN.search(row.get_text(" ", strip=True)))
+ 
+ 
++def _list_title(anchor: Tag) -> str:
++    if anchor.get("title"):
++        return normalize_whitespace(str(anchor["title"]))
++    node = anchor.select_one(".title, .news-title, .tit, .con > .span:first-child")
++    return normalize_whitespace((node or anchor).get_text(" ", strip=True))
++
++
++def _list_publish_date(row: Tag | None) -> date | None:
++    if row is None:
++        return None
++    for node in row.select("time, .time, .date, .date1, .date-box"):
++        if in_navigation(node):
++            continue
++        value = normalize_whitespace(str(node.get("datetime") or node.get_text(" ", strip=True)))
++        # VSB calendar cards: day followed by year-month in a separate span.
++        split = re.fullmatch(r"(\d{1,2})\s+(20\d{2})[-/.](\d{1,2})", value)
++        if split:
++            return parse_date(f"{split[2]}-{split[3]}-{split[1]}")
++        return parse_date(value)  # Explicit invalid dates must not fall into prose.
++    for node in row.select(":scope > span, :scope > a > span"):
++        value = normalize_whitespace(node.get_text(" ", strip=True))
++        if DATE_TEXT_PATTERN.fullmatch(value):
++            return parse_date(value)
++    copy = BeautifulSoup(str(row), "html.parser")
++    for node in copy.select("a, .summary, .abstract, .info, .con"):
++        node.decompose()
++    return parse_date(copy.get_text(" ", strip=True))
++
++
++def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate) -> str:
++    selectors = (".nr_title", ".art-tit h3", ".detail-title", ".detail-tit h4",
++                 "form[name='_newscontent_fromname'] > .bt", ".article-title", ".article_title", "h1", ".title")
++    for selector in selectors:
++        for node in soup.select(selector):
++            if in_navigation(node):
++                continue
++            copy = BeautifulSoup(str(node), "html.parser")
++            for child in list(copy.select("script, style, .meta, .article-meta")):
++                child.decompose()
++            if selector == ".nr_title":
++                for child in list(copy.select("span")):
++                    if re.match(r"^(?:作者|来源|时间|发布日期|发布时间|点击数)[：:]", child.get_text(strip=True)):
++                        child.decompose()
++            title = normalize_whitespace(copy.get_text(" ", strip=True))
++            if selector in {"h1", ".title"} and not node.find_parent("form", attrs={"name": "_newscontent_fromname"}):
++                prefix = fallback.title.rstrip(".… ")
++                if not prefix or not (title.startswith(prefix) or prefix.startswith(title)):
++                    continue
++            if title and title not in {fallback.section, "通知公告", "学院通知", "校内通知", "学校概况", "教学通知", "网站首页"}:
++                return title
++    return fallback.title
++
++
++def _detail_publish_date(soup: BeautifulSoup, content: Tag, fallback: date | None) -> date | None:
++    # Only article metadata can override a list date. Body event/deadline dates
++    # and a site's current-date clock cannot establish publication metadata.
++    selectors = (".meta", ".article-meta", ".article-info", ".news-info", ".sub", ".xiab",
++                 ".detail-infor", ".detail-tit p", ".art-tit p", ".nr_title span", ".xq", ".conttime", ".title11 p", "time[datetime]",
++                 "meta[property='article:published_time']", "meta[name='pubdate']")
++    for selector in selectors:
++        for node in soup.select(selector):
++            if in_navigation(node) or node is content or content in node.parents or content in node.descendants:
++                continue
++            value = str(node.get("datetime") or node.get("content") or node.get_text(" ", strip=True))
++            if selector.startswith(("time", "meta[")):
++                published = parse_date(value)
++            else:
++                match = re.search(r"(?<![\u4e00-\u9fff])(?:发布日期|发布时间|发表时间|日期|时间)[：:\s]*?(" + DATE_TEXT_PATTERN.pattern + ")", value)
++                published = parse_date(match[1]) if match else None
++            if published is not None:
++                return published
++    return fallback
++
++
++def body_image_urls(node: Tag, page_url: str) -> list[str]:
++    """Retain same-origin raster image references as inert plain text, not HTML."""
++    urls: list[str] = []
++    origin = urlsplit(page_url)
++    for img in node.select("img[src]"):
++        src = str(img.get("src") or "").strip()
++        if in_navigation(img) or re.search(r"[<>\x00-\x20]", src):
++            continue
++        try:
++            target = urlsplit(urljoin(page_url, src))
++            if target.scheme not in {"http", "https"} or not target.hostname or target.username or target.password:
++                continue
++            if (target.scheme, target.hostname, target.port) != (origin.scheme, origin.hostname, origin.port):
++                continue
++            if PurePosixPath(unquote(target.path)).suffix.lower() not in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
++                continue
++            if any(str(img.get(key) or "").isdigit() and int(img[key]) < 32 for key in ("width", "height")):
++                continue
++        except ValueError:
++            continue
++        url = target.geturl()
++        if url not in urls:
++            urls.append(url)
++    return urls
++
++
++def detail_plain_text(node: Tag, page_url: str) -> str:
++    copy = BeautifulSoup(str(node), "html.parser")
++    allowed = set(body_image_urls(node, page_url))
++    seen: set[str] = set()
++    for img in copy.select("img[src]"):
++        url = urljoin(page_url, str(img["src"]).strip())
++        if url in allowed and url not in seen:
++            img.replace_with(url)
++            seen.add(url)
++        else:
++            img.decompose()
++    return normalize_whitespace(copy.get_text("\n", strip=True))
++
++
+ def parse_list_html(html: str, page_url: str, section: str | None = None) -> list[NoticeCandidate]:
+     soup = BeautifulSoup(html, "html.parser")
+     validate_html_page(soup)
+@@ -118,13 +234,13 @@
+     anchors: list[Tag] = []
+     for selector in LIST_SELECTORS:
+         selected = [a for a in soup.select(selector) if usable_link(a, page_url)
+-                    and _looks_like_article(a, normalize_whitespace(a.get("title") or a.get_text(" ", strip=True)))]
++                    and _looks_like_article(a, _list_title(a))]
+         if selected:
+             anchors = selected
+             if any("info/" in str(a.get("href", "")) for a in selected):
+                 break
+     for anchor in anchors:
+-        title = normalize_whitespace(anchor.get("title") or anchor.get_text(" ", strip=True))
++        title = _list_title(anchor)
+         href = str(anchor.get("href") or "").strip()
+         if not _looks_like_article(anchor, title):
+             continue
+@@ -135,23 +251,16 @@
+         # VSB templates may put the date next to a title div inside the same
+         # list/table row, not inside the anchor's immediate parent.
+         row = anchor.find_parent(["li", "tr"]) or anchor.parent
+-        parent_text = row.get_text(" ", strip=True) if row else ""
+-        date_match = DATE_TEXT_PATTERN.search(parent_text)
+-        published = parse_date(date_match.group(0)) if date_match else None
++        published = _list_publish_date(row)
+         results.append(NoticeCandidate(title=title, url=url, publish_date=published, section=section))
+     return results
+ 
+ 
+ def _select_content(soup: BeautifulSoup) -> Tag:
+-    first_known: Tag | None = None
+     for selector in CONTENT_SELECTORS:
+         node = soup.select_one(selector)
+         if isinstance(node, Tag):
+-            first_known = first_known or node
+-            if len(node.get_text(strip=True)) >= 20:
+-                return node
+-    if first_known is not None:
+-        return first_known
++            return node
+     raise HTMLParseError("HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector")
+ 
+ 
+@@ -179,24 +288,14 @@
+ def parse_detail_html(html: str, page_url: str, fallback: NoticeCandidate) -> NoticeCandidate:
+     soup = BeautifulSoup(html, "html.parser")
+     validate_html_page(soup)
+-    title_node = soup.select_one("h1") or soup.select_one(".article-title") or soup.select_one(".title")
+-    title = normalize_whitespace(title_node.get_text(" ", strip=True)) if title_node else fallback.title
++    title = _detail_title(soup, fallback)
+     content_node = _select_content(soup)
+     for unwanted in content_node.select("script, style, noscript"):
+         unwanted.decompose()
+-    validate_detail_container(soup, content_node)
+-    content = normalize_whitespace(content_node.get_text("\n", strip=True))
++    validate_detail_container(soup, content_node, page_url=page_url)
++    content = detail_plain_text(content_node, page_url)
+     page_text = normalize_whitespace(soup.get_text(" ", strip=True))
+-    publish_date = fallback.publish_date
+-    for pattern in (
+-        r"发布日期[：:]?\s*(20\d{2}[-/.年]\s*\d{1,2}[-/.月]\s*\d{1,2}日?)",
+-        r"发布时间[：:]?\s*(20\d{2}[-/.年]\s*\d{1,2}[-/.月]\s*\d{1,2}日?)",
+-        r"(20\d{2}[-/.年]\s*\d{1,2}[-/.月]\s*\d{1,2}日?)",
+-    ):
+-        match = re.search(pattern, page_text)
+-        if match:
+-            publish_date = parse_date(match.group(1)) or publish_date
+-            break
++    publish_date = _detail_publish_date(soup, content_node, fallback.publish_date)
+     publisher_match = re.search(r"(?:来源|发布人|作者)[：:]?\s*([^\s]{2,30})", page_text)
+     publisher = publisher_match.group(1) if publisher_match else fallback.publisher
+     if publisher and any(marker in publisher for marker in ("发布日期", "发布时间", "点击")):
+--- b1/backend/app/sources/generic.py
++++ b2/backend/app/sources/generic.py
+@@ -16,7 +16,7 @@
+ from app.config import get_settings, load_yaml
+ from app.paths import get_cache_dir
+ from app.parsers import parse_detail_html, parse_list_html
+-from app.parsers.html import is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
++from app.parsers.html import detail_plain_text, is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
+ from app.schemas.notice import AttachmentData, NoticeCandidate
+ from app.services.dates import parse_date
+ from app.services.http_diagnostics import exception_summary
+@@ -425,7 +425,7 @@
+             raise SourceError("The detail content selector did not match")
+         for unwanted in node.select("script, style, noscript"):
+             unwanted.decompose()
+-        content = normalize_whitespace(node.get_text("\n", strip=True))
++        content = detail_plain_text(node, final_url)
+         attachments: list[AttachmentData] = []
+         attachment_selector = str(self.parser_config.get("attachment_selector", "")).strip()
+         if attachment_selector:
+@@ -439,7 +439,7 @@
+                     filename = normalize_whitespace(anchor.get_text(" ", strip=True)) or url.rsplit("/", 1)[-1]
+                     attachments.append(AttachmentData(filename=filename, url=url, type=filename.rsplit(".", 1)[-1].lower() if "." in filename else "file"))
+         safe_attachments = await self._safe_attachments(attachments)
+-        validate_detail_container(soup, node, has_attachments=bool(safe_attachments))
++        validate_detail_container(soup, node, has_attachments=bool(safe_attachments), page_url=final_url)
+         return notice.model_copy(update={"url": final_url, "content": content, "attachments": safe_attachments})
+ 
+     async def close(self) -> None:
+--- b1/backend/app/crawler/runner.py
++++ b2/backend/app/crawler/runner.py
+@@ -1132,14 +1132,16 @@
+                     )
+                 )
+             state = "UNCHANGED" if bootstrap else "NEW"
+-        elif existing_relation and existing_relation.content_hash != digest:
++        elif existing_relation and (existing_relation.content_hash != digest or (
++            notice.url == candidate.url and candidate.publish_date is not None and notice.publish_date != candidate.publish_date
++        )):
+             old_hash = existing_relation.content_hash
+             db.add(
+                 NoticeUpdate(
+                     notice_id=notice.id,
+                     old_hash=old_hash,
+                     new_hash=digest,
+-                    summary=f"来源 {source.code} 的正文内容发生变化",
++                    summary=f"来源 {source.code} 的" + ("正文内容发生变化" if old_hash != digest else "发布日期发生变化"),
+                 )
+             )
+             if notice.url == candidate.url:
+@@ -1148,6 +1150,8 @@
+                 notice.content = candidate.content
+                 notice.content_hash = digest
+                 notice.publisher = candidate.publisher
++                if candidate.publish_date is not None:
++                    notice.publish_date = candidate.publish_date
+                 notice.category = category
+                 notice.importance_score = score
+                 notice.registration_start = registration_start

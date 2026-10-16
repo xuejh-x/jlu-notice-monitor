@@ -1,0 +1,749 @@
+{
+  "id": "p2-7cc869e0b333",
+  "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+  "institution": "历史文化学院",
+  "column": "新闻公告",
+  "site_url": "https://hac.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/7cc869e0b3333c12.json",
+  "discovery_url": "https://hac.jlu.edu.cn/",
+  "original_snapshot": "html/68a99dd1a6ba5633a66eb13cd4044f92b4aaa646206baae5961858f1f73e840a.html",
+  "original_capture_time": "2026-10-13T13:56:50+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-7cc869e0b333",
+    "name": "历史文化学院 / 新闻公告",
+    "base_url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:34+08:00",
+  "details": [
+    {
+      "url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+      "list_title": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神",
+      "list_date": "",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+        "time": "2026-10-15T19:37:02+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c2c3d4aa185ef56e85ddc8a39c8a1a35475486ab64143d9e81230dac6f8643e7",
+        "html_path": "html/c2c3d4aa185ef56e85ddc8a39c8a1a35475486ab64143d9e81230dac6f8643e7.html",
+        "replacement_chars": 0,
+        "chars": 31680,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神",
+        "url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+        "publish_date": "2026-10-15",
+        "publisher": null,
+        "content": "10月13日上午10时，历史文化学院本科学生党支部在东荣大厦A202会议室专题学习习近平总书记致吉林大学建校80周年重要贺信精神。会议由支部书记王可佳主持，全体学生党员参加。 会议首先开展专题学习。全体党员集中观看《新闻联播》相关报道，认真收看习近平总书记致吉林大学建校 80周年重要贺信有关新闻，随后集体研读贺信原文，结合学校发展历程、历史文化学科特色，认真记录学习要点，进一步深刻认识贺信的重大意义，真切感受总书记对吉林大学的殷切关怀和深情嘱托。 https://hac.jlu.edu.cn/__local/E/94/A8/A1AD8C9794BA1DDFE35CF0272CC_A058279C_310D4.jpg 支部书记王可佳围绕贺信的重大意义、精神实质、实践要求作领学解读，系统阐释贺信的核心要义和丰富内涵，并结合学生党员实际 情况 ，引导党员深刻感悟总书记对吉林大学的殷切期望和深情嘱托，进一步坚定理想信念、明确奋斗方向，把贺信精神转化为刻苦学习、勇担使命的强大动力。 随后，学生党员结合学习科研、服务同学、成长成才等实际逐一交流发言。大家立足自身经历，畅谈学习体会，分享感悟收获，有的从实习经历出发谈知行合一，有的从学术研究出发谈创新报国，有的从学生工作出发谈服务奉献，发言内容务实深入，现场气氛热烈。全体党员一致表示，要将贺信精神内化于心、外化于行，在学习和实践中锤炼本领、担当使命。 https://hac.jlu.edu.cn/__local/B/9B/C2/B5D686775C4F3EA2BDFDC79EBAC_D4478B3B_332B5F.jpg 此次会议既是一次深刻的思想淬炼，也是一次严肃的组织生活。与会党员纷纷表示，将以此次学习为契机，持续深化贺信精神学习，把学习成果转化为实际行动，为支部建设和学院发展贡献力量。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-15 浏览次数：",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15",
+            "date": "2026-10-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 603,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神 发布时间：2026-10-15 浏览次数：",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15 浏览次数：",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15",
+            "date": "2026-10-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/info/1022/1984.htm",
+      "list_title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（十）",
+      "list_date": "",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1022/1984.htm",
+        "time": "2026-10-15T19:37:03+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1022/1984.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5f4a7e2bfc3dde8959f309f52c4bd1273f1cdb4f863f6f01ca81aba6f71f85f3",
+        "html_path": "html/5f4a7e2bfc3dde8959f309f52c4bd1273f1cdb4f863f6f01ca81aba6f71f85f3.html",
+        "replacement_chars": 0,
+        "chars": 33667,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（十）",
+        "url": "https://hac.jlu.edu.cn/info/1022/1984.htm",
+        "publish_date": "2026-10-10",
+        "publisher": null,
+        "content": "在数字化阅读冲击与城市商业空间加速重构的背景下，承载着城市文化记忆的独立书店正经历前所未有的生存考验。 为抢救散佚的地方文化史料，探寻微观阅读空间与城市精神生活的深层互动，今年暑期，吉林大学历史文化学院口述史社会实践团队赴长春，开展了以 “城市记忆场所中的独立书店：口述史与微观文化生态研究”为主题的调研活动。团队由管书合老师指导， 5 名本科生与研究生参与。 https://hac.jlu.edu.cn/__local/7/83/3A/29C75AC83BD4558C03E2E001588_2668745B_375346.jpg 独立书店不仅是图书流通的终端，更是城市公共文化空间的重要载体。改革开放以来，长春市非国有图书流通体系经历了从萌芽、繁荣到转型的复杂历程，而大量细节 ——经营者的创业抉择、读者的阅读故事、空间变迁中的城市记忆——往往未被系统记录，正随时间推移逐渐消逝。本次实践将独立书店视为“文化空间”与“记忆场所”，通过口述史方法，从微观层面还原基层阅读空间的发展脉络，为理解东北城市文化认同的建构提供鲜活视角。 筹备阶段，团队系统梳理文献、设计访谈提纲，并与目标书店进行前期联络，开展设备操作培训与口述史伦理学习。 7 月 12 日至 19 日，团队分批走访了长春市 4 家具有代表性的独立书店，涵盖经营十余年的“老字号”书店、依托高校资源的学术型书店、复合型文化空间及正面临经营困境的书店。 调研采取 “预约上门 + 驻点观察”相结合的方式，与创办者、主理人、店员及忠实读者进行深度访谈，围绕书店创办背景、经营模式演变、选址变迁、读者故事及未来展望等话题展开对话。访谈全程录音，累计采集口述录音 20 余小时，并同步收集了书店老照片、藏书章、停业通告等实物扫描件。每晚团队集中备份资料并撰写调研日志，随后对全部录音进行逐字转录与交叉校对，严格匿名化处理受访者信息。 在指导教师带领下，成员们分工撰写研究报告与访谈实录汇编，梳理独立书店与长春城市文化变迁的互动关系。 https://hac.jlu.edu.cn/__local/7/ED/B1/018EBDBBDA4AE9E2FC8CBF583FD_9738D2A8_1EDA79.jpeg https://hac.jlu.edu.cn/__local/8/1F/3A/F9C5042F1FC33689EC62338EB9D_1FC0B7A9_253146.jpeg https://hac.jlu.edu.cn/__local/B/3C/34/AF27104241CF7427462DB5FC39D_B834B13F_2B11F2.jpeg 在史料层面，团队抢救性记录了一批珍贵的口述记忆与实物资料，为长春市独立书店发展史留下了不可复制的一手文献。在学术层面，调研初步揭示了网络购书冲击、城市更新拆迁、疫情冲击等不同历史节点下独立书店的生存策略与转型路径，以及空间变化对 “公共领域”功能的影响，为城市文化史研究提供了鲜活的微观案例。 在现实层面，团队形成了关于实体书店在数字化转型、空间功能重塑及政策扶持方面的初步思考，未来将以调研报告形式向相关部门反馈，为长春市文化空间规划优化提供参考。 “走进这些书店，我们听到的不只是经营故事，更是一座城市几代人的精神生活史。”团队成员王顺在调研日志中写道。 城市在生长，空间在更迭，而那些曾在书架间驻足的人们、那些被一本书改变的人生轨迹，值得被郑重书写。这个夏天，这群年轻人用录音笔和笔记本，为长春的城市文化记忆留下了一份有温度的注脚。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-10 浏览次数：",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "发布时间：2026-10-10",
+            "date": "2026-10-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1127,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（十）"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（十） 发布时间：2026-10-10 浏览次数：",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "发布时间：2026-10-10 浏览次数：",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "发布时间：2026-10-10",
+            "date": "2026-10-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/info/1022/1976.htm",
+      "list_title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（四）",
+      "list_date": "",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1022/1976.htm",
+        "time": "2026-10-15T19:37:04+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1022/1976.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "005ef0bde95dd466a0f055e6072239ae316b452e3964982cc705f50f9881f88d",
+        "html_path": "html/005ef0bde95dd466a0f055e6072239ae316b452e3964982cc705f50f9881f88d.html",
+        "replacement_chars": 0,
+        "chars": 32220,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（四）",
+        "url": "https://hac.jlu.edu.cn/info/1022/1976.htm",
+        "publish_date": "2026-10-09",
+        "publisher": null,
+        "content": "为引导青年学子在社会课堂中受教育、长才干、作贡献， 2026年暑期，历史文化学院八名同学分赴上海、北京、辽宁等地，在电商运营、行政助理、出版校对、人力资源等岗位上开展社会实践，将专业所学融入职场实战。 行政文职岗位是锻炼学生统筹协调与文字功底的重要平台。韩佳慧、殷紫涵、张蕊三位同学分别在机械设备公司、供销社和管道工程公司担任行政助理，在公文处理、档案管理、会务保障中锤炼本领。 韩佳慧在河北格伦特公司协助梳理企业资质档案，完成电子化台账录入，并撰写产品科普文案，发挥文史专业文字优势。殷紫涵在凤阳县供销社参与惠农服务与社务行政，整理台账、校对简报，深入了解基层单位服务 “三农”的职能。张蕊在富锦市大波公司负责文书档案、后勤统筹与会务接待，在琐碎工作中培养了严谨细致的工作态度。三人纷纷表示，行政工作虽繁杂，却是提升综合能力的宝贵历练。 https://hac.jlu.edu.cn/__local/B/59/E8/C87115AB919E7B7F70074F56B63_522DD162_3A552.jpg 人力资源与电商运营岗位让学生近距离接触企业核心业务。马双燕、杨雨晴、单乙雯分别在上海私募公司、北京科技企业和体育电商部门实习，在招聘与运营中积累经验。 马双燕在洛书投资担任 HR助理，负责简历筛选、员工档案整理及社保办理，体会到历史学的耐心梳理能力在职场中的迁移应用。杨雨晴在北京易点云大厦协助开展招聘工作，熟悉了企业完整招聘流程，提升了沟通与信息整理能力。单乙雯在上海亚玛芬体育电商部参与商品素材更新、新品上架与数据整理，将史学考据思维融入电商信息核对，做到学以致用。 专业对口的实习让学生将课堂知识转化为实操技能。李诗语与杨镛堃分别在出版与环保领域实践，深化专业认知。 李诗语在辽宁音像出版社参与稿件审核校对，核查文字语病与史实错误，树立了内容出版的责任意识。杨镛堃在北京昌平污水处理厂定期测量污水沉淀、含氧量等指标，直观感受我国污水处理成就与生态保护工程的重要意义。 https://hac.jlu.edu.cn/__local/E/86/B2/235BC8EC7EEF745A576D9172E24_8D2055D1_32FC9.png 此次暑期公司类社会实践，历史文化学院学子走出校园、走进企业，在真实职场中检验所学、增长才干。学院将持续拓展实践育人平台，引导更多青年学子在实践中锤炼本领，为未来职业发展奠定坚实基础。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-09 浏览次数：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "发布时间：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 848,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（四）"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（四） 发布时间：2026-10-09 浏览次数：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "发布时间：2026-10-09 浏览次数：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "发布时间：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+        "time": "2026-10-15T19:28:17+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c4cc500de09bf196eac38b85c9e4820908be6df10654f4afeac44e3516ae5776",
+        "html_path": "html/c4cc500de09bf196eac38b85c9e4820908be6df10654f4afeac44e3516ae5776.html",
+        "replacement_chars": 0,
+        "chars": 34482,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hac.jlu.edu.cn/info/1022/1977.htm",
+        "https://hac.jlu.edu.cn/info/1022/1978.htm",
+        "https://hac.jlu.edu.cn/info/1022/1981.htm",
+        "https://hac.jlu.edu.cn/info/1022/1982.htm",
+        "https://hac.jlu.edu.cn/info/1022/1983.htm",
+        "https://hac.jlu.edu.cn/info/1022/1984.htm",
+        "https://hac.jlu.edu.cn/info/1022/1992.htm"
+      ],
+      "observed_next_urls": [
+        "https://hac.jlu.edu.cn/xwgg/xykx/23.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://hac.jlu.edu.cn/xwgg/xykx/23.htm",
+        "time": "2026-10-15T19:37:01+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/xwgg/xykx/23.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "af9bdfd2656bb102cf9a2962e163a8159813b59719c9e500c0a5f550fb9130a4",
+        "html_path": "html/af9bdfd2656bb102cf9a2962e163a8159813b59719c9e500c0a5f550fb9130a4.html",
+        "replacement_chars": 0,
+        "chars": 34924,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hac.jlu.edu.cn/info/1022/1942.htm",
+        "https://hac.jlu.edu.cn/info/1022/1951.htm",
+        "https://hac.jlu.edu.cn/info/1022/1952.htm",
+        "https://hac.jlu.edu.cn/info/1022/1973.htm",
+        "https://hac.jlu.edu.cn/info/1022/1974.htm",
+        "https://hac.jlu.edu.cn/info/1022/1975.htm",
+        "https://hac.jlu.edu.cn/info/1022/1976.htm"
+      ],
+      "observed_next_urls": [
+        "https://hac.jlu.edu.cn/xwgg/xykx/22.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+    "time": "2026-10-15T19:28:17+08:00",
+    "ok": true,
+    "final_url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c4cc500de09bf196eac38b85c9e4820908be6df10654f4afeac44e3516ae5776",
+    "html_path": "html/c4cc500de09bf196eac38b85c9e4820908be6df10654f4afeac44e3516ae5776.html",
+    "replacement_chars": 0,
+    "chars": 34482,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神",
+      "url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（十）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1984.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（九）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1983.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（八）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1982.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（七）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1981.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（六）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1978.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（五）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1977.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（四）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1976.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（三）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1975.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（二）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1974.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "循路访踪，以行悟史丨历史文化学院2026年暑期社会实践系列报道（一）",
+      "url": "https://hac.jlu.edu.cn/info/1022/1973.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "历史文化学院开展校友返校日系列活动",
+      "url": "https://hac.jlu.edu.cn/info/1022/1952.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "历史文化学院2026年大学生职业规划大赛成功举办",
+      "url": "https://hac.jlu.edu.cn/info/1022/1951.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "历史文化学院召开党委理论学习中心组（扩大）会议专题学习习近平总书记致吉林大学建校80周年重要贺信精神",
+      "url": "https://hac.jlu.edu.cn/info/1022/1942.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 14,
+  "pagination": [
+    {
+      "start_url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        },
+        {
+          "url": "https://hac.jlu.edu.cn/xwgg/xykx/23.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-7cc869e0b333",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.989991869777441e-05,
+      "detail_duration_seconds": 7.100054062902927e-06,
+      "parse_db_duration_seconds": 0.04120620002504438
+    },
+    "second_round": {
+      "source": "p2-7cc869e0b333",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.210005186498165e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-7cc869e0b333",
+    "institution": "历史文化学院",
+    "column": "新闻公告",
+    "url": "https://hac.jlu.edu.cn/xwgg/xykx.htm",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:17+08:00",
+    "review_time": "2026-10-15T20:20:34+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 14,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-7cc869e0b333.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

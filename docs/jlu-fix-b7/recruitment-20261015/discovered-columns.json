@@ -1,0 +1,114 @@
+[
+  {
+    "id": "recruitment-6d1c1bd9f0d1",
+    "url": "https://talent.jlu.edu.cn/rczp.htm",
+    "institution": "人才工作办公室、党委人才工作办公室",
+    "column": "人才招聘",
+    "site_url": "https://talent.jlu.edu.cn/",
+    "priority": "P3",
+    "discovery_url": "https://talent.jlu.edu.cn/",
+    "discovery_snapshot": "html/cd61a6e08b74e443836e346403b36dcbfb765a18f391ea916242baa353009f4e.html",
+    "capture_time": "2026-10-15T22:03:17+08:00",
+    "old_status": "新发现未验证",
+    "old_issues": "DISCOVERY_LABEL_MISSED",
+    "original_evidence": "",
+    "config": {
+      "code": "candidate-jlu-b7-6d1c1bd9f0d1",
+      "name": "人才工作办公室、党委人才工作办公室 / 人才招聘",
+      "base_url": "https://talent.jlu.edu.cn/rczp.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "recruitment-71ef1c4ae467",
+    "url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+    "institution": "经济学院",
+    "column": "人才招聘",
+    "site_url": "https://jjxy.jlu.edu.cn/",
+    "priority": "P3",
+    "discovery_url": "https://jjxy.jlu.edu.cn/",
+    "discovery_snapshot": "html/979116d3bd6bdb6a2de9e64ade44debf4d63ec58f3c1cab189524be9bddf071b.html",
+    "capture_time": "2026-10-15T22:04:07+08:00",
+    "old_status": "新发现未验证",
+    "old_issues": "DISCOVERY_LABEL_MISSED",
+    "original_evidence": "",
+    "config": {
+      "code": "candidate-jlu-b7-71ef1c4ae467",
+      "name": "经济学院 / 人才招聘",
+      "base_url": "https://jjxy.jlu.edu.cn/szdw/rczp.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "recruitment-1121e0479a35",
+    "url": "https://jt.jlu.edu.cn/szdw/rczp.htm",
+    "institution": "交通学院",
+    "column": "人才招聘",
+    "site_url": "https://jt.jlu.edu.cn/",
+    "priority": "P3",
+    "discovery_url": "https://jt.jlu.edu.cn/",
+    "discovery_snapshot": "html/aba629076641072142ba0d773c250fb1d1e1c1fafa73b6b73c68b037708d0fe2.html",
+    "capture_time": "2026-10-15T22:04:11+08:00",
+    "old_status": "新发现未验证",
+    "old_issues": "DISCOVERY_LABEL_MISSED",
+    "original_evidence": "",
+    "config": {
+      "code": "candidate-jlu-b7-1121e0479a35",
+      "name": "交通学院 / 人才招聘",
+      "base_url": "https://jt.jlu.edu.cn/szdw/rczp.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  },
+  {
+    "id": "recruitment-9beec40c661d",
+    "url": "https://press.jlu.edu.cn/lxwm/rczp.htm",
+    "institution": "吉林大学出版社有限责任公司",
+    "column": "人才招聘",
+    "site_url": "https://press.jlu.edu.cn/index.htm",
+    "priority": "P3",
+    "discovery_url": "https://press.jlu.edu.cn/lxwm/lxfs.htm",
+    "discovery_snapshot": "html/390b5261eae21706bb161bb60bcf8e553c005871da501a20a87e53ba86560096.html",
+    "capture_time": "2026-10-15T22:16:46+08:00",
+    "old_status": "新发现未验证",
+    "old_issues": "DISCOVERY_LABEL_MISSED",
+    "original_evidence": "",
+    "config": {
+      "code": "candidate-jlu-b7-9beec40c661d",
+      "name": "吉林大学出版社有限责任公司 / 人才招聘",
+      "base_url": "https://press.jlu.edu.cn/lxwm/rczp.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 2
+      }
+    }
+  }
+]

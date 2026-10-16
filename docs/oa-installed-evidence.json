@@ -1,0 +1,61 @@
+{
+  "source": {
+    "code": "oa",
+    "last_success_at": "2026-10-11 04:18:37.347550",
+    "last_error_code": "SOURCE_ERROR",
+    "last_error": "SourceError: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577 failed: ",
+    "health_state": "source_error",
+    "consecutive_errors": 15
+  },
+  "counts": {
+    "notices": 414,
+    "user_states": 414,
+    "notice_source_relations": 425
+  },
+  "installed_oa_run": {
+    "source": "oa",
+    "execution_policy": "cloud_preferred",
+    "effective_execution": "local",
+    "fallback_used": true,
+    "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+    "attempts": [
+      {
+        "execution": "cloud",
+        "status": "failure",
+        "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED",
+        "fetched": 0,
+        "detail_fetched": 0,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 0
+      },
+      {
+        "execution": "local",
+        "status": "failure",
+        "error": "SourceError: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577 failed: ",
+        "fetched": 0,
+        "detail_fetched": 0,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 0
+      }
+    ],
+    "status": "failure",
+    "fetched": 0,
+    "detail_fetched": 0,
+    "detail_skipped": 0,
+    "new_count": 0,
+    "updated_count": 0,
+    "unchanged_count": 0,
+    "errors": [
+      "cloud:SourceError: PUBLIC_FEED_NOT_CONFIGURED",
+      "SourceError: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577 failed: "
+    ],
+    "list_duration_seconds": 0.0,
+    "detail_duration_seconds": 0.0,
+    "parse_db_duration_seconds": 0.0
+  },
+  "last_run": "2026-10-13T05:39:57.631295"
+}

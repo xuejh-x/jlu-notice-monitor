@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-15T19:26:41+08:00",
+  "files": {
+    "backend/scripts/discover_jlu_b6.py": "263712767de8136b35602e8406022c5ebc2e023eab5bb3183e80d1af5f0333e3",
+    "backend/scripts/audit_jlu_sites.py": "7cc6617fedca2173c0462434c48a26a3667b949db3097f262eb357a271821460",
+    "backend/app/parsers/html.py": "6f15b20e11a40ad2bccaae6a8e34a7f31a5143c15210c3d86c066c016addbcdc",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b6/targets.json": "47ff8363c9eb36bf6ed314b28b6583ed76fe091dd67edbd488d5e200649d1a1a"
+  },
+  "scope": "164 P2 entries, one screen each; original failures also inspect exact official homepage",
+  "limits": "serial, global >=1s/origin >=1.2s, robots, 12s timeout, at most 2 transient attempts",
+  "database": "sqlite://",
+  "oa_deferred": true,
+  "downloads": 0
+}

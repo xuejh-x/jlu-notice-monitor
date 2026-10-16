@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+    "time": "2026-10-15T22:41:39+08:00",
+    "ok": true,
+    "final_url": "https://synlab.jlu.edu.cn/archive/information/events/page/2",
+    "content_type": "text/html; charset=UTF-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "b75087566258d68438e7e51dbf8058d2e991e7630aa0c20a8969e32f961e0563",
+    "html_path": "html/b75087566258d68438e7e51dbf8058d2e991e7630aa0c20a8969e32f961e0563.html",
+    "replacement_chars": 0,
+    "chars": 38057,
+    "attempts": 1
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/information/events/page/2",
+    "time": "2026-10-15T22:41:40+08:00",
+    "ok": true,
+    "final_url": "https://synlab.jlu.edu.cn/information/events/page/2",
+    "content_type": "text/html; charset=UTF-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "6c51afbcefdf460495ea1be55a3b152021c26e029d4d939791c3e7c973ed9b27",
+    "html_path": "html/6c51afbcefdf460495ea1be55a3b152021c26e029d4d939791c3e7c973ed9b27.html",
+    "replacement_chars": 0,
+    "chars": 38379,
+    "attempts": 1
+  }
+]

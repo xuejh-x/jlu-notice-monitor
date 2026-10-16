@@ -1,0 +1,25 @@
+{
+  "column_url": "http://isc.jlu.edu.cn/oaindex.htm",
+  "column": "校内通知部门索引",
+  "institution": "体育学院",
+  "site_url": "https://pe.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://pe.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:40:24+08:00",
+  "checked_at": "2026-10-13T13:59:30+08:00",
+  "status": "失败",
+  "issues": [
+    "ROBOTS_UNAVAILABLE"
+  ],
+  "details": [],
+  "list_count": null,
+  "list_items": [],
+  "generic_count": null,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/6a839d15a4049e18.json",
+  "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+  "pagination": {}
+}

@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-13T18:47:39+08:00",
+  "institution_rows": 510,
+  "distinct_institution_labels": 491,
+  "units_without_site": 305,
+  "site_seed_urls": 180,
+  "distinct_seed_hosts": 164,
+  "site_discovery_completed": 180,
+  "distinct_final_site_urls": 164,
+  "distinct_final_site_hosts": 149,
+  "site_states": {
+    "no_column_discovered": 44,
+    "unreachable": 15,
+    "reachable": 121
+  },
+  "distinct_columns": 8,
+  "columns_attempted": 8,
+  "columns_checked": 8,
+  "columns_unchecked": 0,
+  "no_adaptation_needed": 0,
+  "compatibility_states": {
+    "部分通过": 7,
+    "失败": 1
+  },
+  "issue_counts": {
+    "ATTACHMENT_ENDPOINT_FAILED": 5,
+    "PAGINATION_NOT_CONFIGURED": 7,
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED": 1,
+    "DETAIL_PARSE_ERROR": 1,
+    "ATTACHMENT_MISSING": 1,
+    "ATTACHMENTS_UNCHECKED": 1,
+    "LIST_CANDIDATE_RECALL_GAP": 1,
+    "DATE_MISMATCH": 1,
+    "OA_ATTACHMENT_POST_NOT_EXERCISED": 1,
+    "PAGINATION_PARSE_EMPTY": 1
+  },
+  "sampled_details": 16,
+  "attachment_endpoints_checked": 6,
+  "pagination_pages_checked": 7,
+  "same_url_duplicate_groups": 0,
+  "title_date_duplicate_candidates": 0,
+  "request_cache_entries": 43
+}

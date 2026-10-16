@@ -1,0 +1,721 @@
+{
+  "entries_so_far": 148,
+  "verdicts": {
+    "VERIFIED_EMPTY_COLUMN": 9,
+    "LIST_OR_PAGINATION_UNSUPPORTED": 12,
+    "LOGIN_REFERENCE_OA_DEFERRED": 1,
+    "PERMISSION_RESTRICTED": 1,
+    "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN": 41,
+    "SAMPLE_REVIEW_REQUIRED": 81,
+    "SINGLE_ARTICLE_REFERENCE": 1,
+    "ACCESS_BLOCKED": 2
+  },
+  "host_examples": {
+    "www.zrlyyy.com": {
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+      "snapshot": "html/83e886b0ded3e96db40f557c6efc412a9d6d37c77dd9de64ad3a5f2afb5de4a9.html",
+      "reason": null,
+      "comparison_issues": [
+        "BODY_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "title",
+            "st"
+          ],
+          "text": "吉林大学中日联谊医院卫健委临床药师（含紧缺人才项目）培训学员招生简章（2024年秋季）"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "liner"
+          ],
+          "text": "发布时间：2024.07.16 点击数：9194次 字体： 小 大"
+        },
+        {
+          "tag": "div",
+          "class": [
+            "l",
+            "l1"
+          ],
+          "text": "发布时间：2024.07.16"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "kgxy.jlu.edu.cn": {
+      "url": "https://kgxy.jlu.edu.cn/info/1026/5719.htm",
+      "snapshot": "html/2f7606bd39827c9cb4bde86671331956454e86b0ad40c72764e63fcdb83b3771.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "txt_title"
+          ],
+          "text": "(转)关于组织申报2026年度吉林大学“人工智能+”虚拟仿真实验教学项目的通知 作者：李龙海 时间：2026-10-13 点击数："
+        },
+        {
+          "tag": "h5",
+          "class": [],
+          "text": "(转)关于组织申报2026年度吉林大学“人工智能+”虚拟仿真实验教学项目的通知"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "txt_title"
+          ],
+          "text": "(转)关于组织申报2026年度吉林大学“人工智能+”虚拟仿真实验教学项目的通知 作者：李龙海 时间：2026-10-13 点击数："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "作者：李龙海 时间：2026-10-13 点击数："
+        },
+        {
+          "tag": "i",
+          "class": [],
+          "text": "作者：李龙海"
+        },
+        {
+          "tag": "i",
+          "class": [],
+          "text": "时间：2026-10-13"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "hac.jlu.edu.cn": {
+      "url": "https://hac.jlu.edu.cn/info/1022/1992.htm",
+      "snapshot": "html/c2c3d4aa185ef56e85ddc8a39c8a1a35475486ab64143d9e81230dac6f8643e7.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "cont_con14_4_tit"
+          ],
+          "text": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神 发布时间：2026-10-15 浏览次数："
+        },
+        {
+          "tag": "h3",
+          "class": [
+            "chg_99"
+          ],
+          "text": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "cont_con14_4_tit"
+          ],
+          "text": "历史文化学院本科学生党支部专题学习习近平总书记致吉林大学建校80周年贺信精神 发布时间：2026-10-15 浏览次数："
+        },
+        {
+          "tag": "p",
+          "class": [
+            "chg_18",
+            "chg_21"
+          ],
+          "text": "发布时间：2026-10-15 浏览次数："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布时间：2026-10-15"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "art.jlu.edu.cn": {
+      "url": "https://art.jlu.edu.cn/info/1002/5814.htm",
+      "snapshot": "html/3ed6b7e117a4f824a5646d8b8189743e81d5525ad321381ee226c3fe3840f5fc.html",
+      "reason": null,
+      "comparison_issues": [
+        "ATTACHMENTS_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": [],
+          "text": "吉林大学艺术学院郭春方教授团队联合成都许燎源教授团队设计长春2027大冬会火炬“吉翔”"
+        }
+      ],
+      "metadata": [],
+      "missing_attachments": [
+        "https://art.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901720&wbfileid=18206109"
+      ]
+    },
+    "pe.jlu.edu.cn": {
+      "url": "https://pe.jlu.edu.cn/info/1051/6885.htm",
+      "snapshot": "html/947b5edeac810905cf1eb436cc69b05575c4e60ada04a1f59050ac621e2a35b3.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "tittle"
+          ],
+          "text": "吉林大学体育学院2027年接收推荐免试攻读硕士研究生复试成绩及拟录取名单公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "pe_data"
+          ],
+          "text": "发布日期：2026-09-23"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "law.jlu.edu.cn": {
+      "url": "https://law.jlu.edu.cn/info/1195/25481.htm",
+      "snapshot": "html/5363086ca76e81cfad858ee2310bf45a5751a4c97f79c7f1ff8cd8194dd021b4.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "news_nr11"
+          ],
+          "text": "关于拟接收于志博等5名同志为中共预备党员的公示 发布者：党办 发布日期：2026年09月17日 13:38 点击数："
+        },
+        {
+          "tag": "div",
+          "class": [
+            "news_nr2"
+          ],
+          "text": "发布者：党办 发布日期：2026年09月17日 13:38 点击数："
+        }
+      ],
+      "missing_attachments": []
+    },
+    "adm.jlu.edu.cn": {
+      "url": "https://adm.jlu.edu.cn/info/1037/30411.htm",
+      "snapshot": "html/46a86375243b735b8c7351f7a15a18938bbdf5bb0b7adae206b9b847bdfed58e.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "class": [
+            "ti"
+          ],
+          "text": "吉林大学行政学院2027年推荐优秀应届本科毕业生免试攻读研究生综合排名公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "rq_djs"
+          ],
+          "text": "发布时间: 2026-09-04 点击:"
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布时间: 2026-09-04"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "sg.jlu.edu.cn": {
+      "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+      "snapshot": "html/0f4c699240283158211dd280d1d825aefd74b88fb87c7effe72803ca541ac171.html",
+      "reason": "HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification",
+      "comparison_issues": null,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": [
+            "title"
+          ],
+          "text": "中国建设银行吉林省分行2023年度校园招聘正式启动"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "sub"
+          ],
+          "text": "时间：2022-09-08 作者： 点击："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "时间：2022-09-08"
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "作者："
+        }
+      ],
+      "missing_attachments": []
+    },
+    "nasa.jlu.edu.cn": {
+      "url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+      "snapshot": "html/09932f9914c6438ad61a21edcf068c8c3a1f3b2a1b6fae7a286204c2fef9864b.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "ar_title"
+          ],
+          "text": "吉林大学东北亚学院2026年本科生招生专业介绍 日期：2026-06-06 点击数："
+        },
+        {
+          "tag": "h3",
+          "class": [],
+          "text": "吉林大学东北亚学院2026年本科生招生专业介绍"
+        },
+        {
+          "tag": "h6",
+          "class": [],
+          "text": "日期：2026-06-06 点击数："
+        }
+      ],
+      "metadata": [],
+      "missing_attachments": []
+    },
+    "sipa.jlu.edu.cn": {
+      "url": "https://sipa.jlu.edu.cn/info/1075/9034.htm",
+      "snapshot": "html/512ab3abf7927dfcbd6c74700eef80415f48d837af6286b0a42265016c61f477.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "title3"
+          ],
+          "text": "关于拟接收杨淇等同志为中共预备党员的公示 发布时间：2026-10-08 点击： 次"
+        },
+        {
+          "tag": "h3",
+          "class": [],
+          "text": "关于拟接收杨淇等同志为中共预备党员的公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "title3"
+          ],
+          "text": "关于拟接收杨淇等同志为中共预备党员的公示 发布时间：2026-10-08 点击： 次"
+        },
+        {
+          "tag": "p",
+          "class": [
+            "ac"
+          ],
+          "text": "发布时间：2026-10-08 点击： 次"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "chem.jlu.edu.cn": {
+      "url": "https://chem.jlu.edu.cn/info/1007/18588.htm",
+      "snapshot": "html/1d67ed674404c8758ab2e99b209005c75aae26faf9d6d6bd29ee7c74393059d9.html",
+      "reason": null,
+      "comparison_issues": [
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": [],
+          "text": "吉林大学举办第二届多省市区化学会前沿交叉科学研讨会"
+        }
+      ],
+      "metadata": [],
+      "missing_attachments": []
+    },
+    "mae.jlu.edu.cn": {
+      "url": "https://mae.jlu.edu.cn/info/1036/23654.htm",
+      "snapshot": "html/32e41041f90e3220771948df7b4c2b9cd740e1d26d6a87c18a10f1995529fecb.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "title"
+          ],
+          "text": "关于召开机械与航空航天工程学院处级领导班子和领导干部任期考核（集中调整考核）述职测评会议的通知"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "detail_shuxing"
+          ],
+          "text": "关于召开机械与航空航天工程学院处级领导班子和领导干部任期考核（集中调整考核）述职测评会议的通知 发布时间：2024-11-13 作者： 编辑：罗兰 审核： 浏览： 次"
+        },
+        {
+          "tag": "div",
+          "class": [
+            "shuxing"
+          ],
+          "text": "发布时间：2024-11-13 作者： 编辑：罗兰 审核： 浏览： 次"
+        },
+        {
+          "tag": "div",
+          "class": [
+            "fbsj"
+          ],
+          "text": "发布时间：2024-11-13 作者： 编辑：罗兰 审核： 浏览： 次"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "auto.jlu.edu.cn": {
+      "url": "https://auto.jlu.edu.cn/info/1568/8770.htm",
+      "snapshot": "html/02d352a1b817e4c5beadf0c3ce1b210362d6b512f950c5d07ec760b38e10e625.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [],
+      "metadata": [],
+      "missing_attachments": []
+    },
+    "cbae.jlu.edu.cn": {
+      "url": "https://cbae.jlu.edu.cn/info/1005/8681.htm",
+      "snapshot": "html/f0a42c343fbde65235afbcbde2aa81fa5b4bb6b55d938e50a0c830f46d95c4d6.html",
+      "reason": null,
+      "comparison_issues": [
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "class": [],
+          "text": "关于开展2026年度研究生学业奖学金评审工作的通知"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "zzly"
+          ],
+          "text": "时间：2026-10-15 来源： 点击量："
+        }
+      ],
+      "missing_attachments": []
+    },
+    "ee.jlu.edu.cn": {
+      "url": "https://ee.jlu.edu.cn/info/1031/9781.htm",
+      "snapshot": "html/7e04e18036cc1bd9f817d880fbad725b496114f8d14ea40efd15ebdc037a40f5.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [],
+      "metadata": [],
+      "missing_attachments": []
+    },
+    "dce.jlu.edu.cn": {
+      "url": "https://dce.jlu.edu.cn/info/1025/11433.htm",
+      "snapshot": "html/d79d9376d15d178644fb068aeeca9590438379ae2c8c0591fd7e9f00f77cb812.html",
+      "reason": null,
+      "comparison_issues": [
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": [],
+          "text": "关于公示常规推免、“国防科工”专项、“国优计划”专项、“工程硕博”专项拟推荐人选的通知"
+        },
+        {
+          "tag": "h3",
+          "class": [],
+          "text": "发布日期 ： 2026-09-09 作者 ： 点击 ："
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "h3",
+          "class": [],
+          "text": "发布日期 ： 2026-09-09 作者 ： 点击 ："
+        }
+      ],
+      "missing_attachments": []
+    },
+    "csw.jlu.edu.cn": {
+      "url": "https://csw.jlu.edu.cn/info/1166/6801.htm",
+      "snapshot": "html/b18aeefa08b73fd6dd5a6e922d35cbcbfdd59cde4978c7810a36b0d06a83a88d.html",
+      "reason": "HTML_DETAIL_EMPTY: no text or supported attachment in the notice container",
+      "comparison_issues": null,
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "detail-title"
+          ],
+          "text": "本科招生宣传"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "detail-infor"
+          ],
+          "text": "来源： 发布日期：2023/10/20 点击量："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布日期：2023/10/20"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "geo.jlu.edu.cn": {
+      "url": "https://geo.jlu.edu.cn/info/1052/16235.htm",
+      "snapshot": "html/d32c1c1a2b32e7a9d614dd259e5729872029e410b98d94052393afafdac581d6.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h3",
+          "class": [],
+          "text": "关于吉林大学地球科学学院2027年推荐免试研究生（第二批）考核成绩的公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "xiab"
+          ],
+          "text": "发布时间：2026-09-29 来源： 浏览次数： 次"
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布时间：2026-09-29"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "const.jlu.edu.cn": {
+      "url": "https://const.jlu.edu.cn/info/1026/8703.htm",
+      "snapshot": "html/e207fd7026b2e76485ccd6cce5f24bbd7e22abbedb689dac0370af7b5c19908e.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "tittle_con"
+          ],
+          "text": "关于建设工程学院2025级盘展宏同学系统建模与仿真-Flexsim应用(卓工)课程成绩更正的公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "p",
+          "class": [
+            "zz_time_ly"
+          ],
+          "text": "发布日期：2026-10-12 作者： 编辑：吕优 点击："
+        },
+        {
+          "tag": "span",
+          "class": [
+            "aa"
+          ],
+          "text": "发布日期：2026-10-12"
+        },
+        {
+          "tag": "span",
+          "class": [
+            "aa"
+          ],
+          "text": "作者："
+        }
+      ],
+      "missing_attachments": []
+    },
+    "cer.jlu.edu.cn": {
+      "url": "https://cer.jlu.edu.cn/info/1049/10064.htm",
+      "snapshot": "html/9135693016995f16809a063344f04b1f43c62b0d0a541ff183a5aefab3423248.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "title2"
+          ],
+          "text": "新能源与环境学院关于聘任2026-2027学年本科毕业论文（设计）指导教师的通知"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "xgxx"
+          ],
+          "text": "发布日期：2026-10-10 10:58:09 作者： 来源： 阅读： 次"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "ciee.jlu.edu.cn": {
+      "url": "https://ciee.jlu.edu.cn/info/1295/15613.htm",
+      "snapshot": "html/96bbf83f17df087215aa1c518a63f84513fe2373835196e22de71d13d7bc81ed.html",
+      "reason": null,
+      "comparison_issues": [
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "h2",
+          "class": [
+            "bt"
+          ],
+          "text": "吉林大学仪器科学与电气工程学院2026年本科招生专业（类）简介"
+        }
+      ],
+      "metadata": [],
+      "missing_attachments": []
+    },
+    "medicine.jlu.edu.cn": {
+      "url": "https://medicine.jlu.edu.cn/info/1060/8377.htm",
+      "snapshot": "html/f5b44c75a2d64362b87d813d9b0979cec8852e7d0074053be8e0b5757f5386e8.html",
+      "reason": null,
+      "comparison_issues": [
+        "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "tit"
+          ],
+          "text": "关于2026年吉林大学本科生“吉林大学助学金”拟推人选的公示"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "info"
+          ],
+          "text": "发布日期：2026-10-10 点击次数："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布日期：2026-10-10"
+        }
+      ],
+      "missing_attachments": []
+    },
+    "yxy.jlu.edu.cn": {
+      "url": "https://yxy.jlu.edu.cn/info/1257/3682.htm",
+      "snapshot": "html/e0ad0c287041132b951ae01bca7ae2b7a0b66e93455d062c417d819440ad411b.html",
+      "reason": null,
+      "comparison_issues": [
+        "DATE_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "headings": [
+        {
+          "tag": "div",
+          "class": [
+            "arc-tit"
+          ],
+          "text": "药学院关于调整2027年硕士研究生入学初试科目的通知 作者： 查看人次： 发布日期：2026-05-12"
+        },
+        {
+          "tag": "h1",
+          "class": [],
+          "text": "药学院关于调整2027年硕士研究生入学初试科目的通知"
+        }
+      ],
+      "metadata": [
+        {
+          "tag": "div",
+          "class": [
+            "arc-tit"
+          ],
+          "text": "药学院关于调整2027年硕士研究生入学初试科目的通知 作者： 查看人次： 发布日期：2026-05-12"
+        },
+        {
+          "tag": "div",
+          "class": [
+            "arc-info"
+          ],
+          "text": "作者： 查看人次： 发布日期：2026-05-12"
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "作者："
+        },
+        {
+          "tag": "span",
+          "class": [],
+          "text": "发布日期：2026-05-12"
+        }
+      ],
+      "missing_attachments": []
+    }
+  }
+}

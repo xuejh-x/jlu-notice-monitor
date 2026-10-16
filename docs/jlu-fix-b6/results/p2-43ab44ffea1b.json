@@ -1,0 +1,297 @@
+{
+  "id": "p2-43ab44ffea1b",
+  "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+  "institution": "基础医学院",
+  "column": "招聘公告",
+  "site_url": "https://medicine.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+  "original_evidence": "docs/jlu-audit-evidence/results/43ab44ffea1bc920.json",
+  "discovery_url": "https://medicine.jlu.edu.cn/",
+  "original_snapshot": "html/c2cfb6faca1b184ebd84ce4ed19c7bc17590cc3dac1c3e44f36cd3aa2bc461e1.html",
+  "original_capture_time": "2026-10-13T13:58:55+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-43ab44ffea1b",
+    "name": "基础医学院 / 招聘公告",
+    "base_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:45+08:00",
+  "details": [
+    {
+      "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+      "list_title": "吉林大学基础医学院2022年公开招聘教师启事 2022-05-16",
+      "list_date": "2022-05-16",
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+        "time": "2026-10-15T19:43:47+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5945a43e0105ffda368477ca8b3127c79a5ba5505ab1cebbec9c2d79d1db3d87",
+        "html_path": "html/5945a43e0105ffda368477ca8b3127c79a5ba5505ab1cebbec9c2d79d1db3d87.html",
+        "replacement_chars": 0,
+        "chars": 32130,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学基础医学院2022年公开招聘教师启事",
+        "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+        "publish_date": "2022-05-16",
+        "publisher": "。发表高质量学术论文由学院学术委员会认定，不受论文篇数限制。",
+        "content": "根据《吉林大学新聘人员聘用管理办法》 、《吉林大学新聘教师聘用管理办法（试行）》等文件的要求，结合学院实际工作需要，吉林大学基础医学院 2022 年拟面向社会公开招聘讲师 1 名，现将有关事宜公布如下： 一、招聘条件 1. 拥护中国共产党的领导，坚持正确政治方向，遵守宪法和法律。 2. 具有高尚的道德情操，恪守高校教师师德行为规范和学术道德规范，身心健康，爱岗敬业，具有奉献精神。 3. 具有相对较强的教育教学、科学研究能力和较好的发展潜力，具备取得高等学校教师资格的基本条件。 4. 聘任讲师岗位：博士研究生毕业并取得相应学位，本硕博专业为医学相关专业，同等条件下，具有临床医学、基础医学和药学相关专业背景的优先考虑。应届毕业生应于 2022 年 9 月 30 日前毕业并取得相应学位。 应聘讲师岗位原则上不超过 35 周岁（ 1987 年5月 1 日以后出生），对于取得标志性业绩成果或教学、科研、学科建设发展亟需的专门人才，可适当放宽年龄要求，但最多放宽不超过 5 岁（ 1982 年5月 1 日以后出生）。 应聘讲师岗位人员至少发表 2 篇 SCI 检索的本学科领域学术论文，且必须是第一责任作者。发表高质量学术论文由学院学术委员会认定，不受论文篇数限制。 二、聘用管理方式 1. 吉林大学新聘教师实行岗位聘用制，依据聘用岗位兑现相关待遇，确定聘用方式。新聘讲师及以上岗位教师由学校聘用，与学校签订聘用合同，一个固定聘期一般为 3 年。 2. 新聘讲师岗位教师首聘期内取得的业绩成果达到我院教师评聘教学与科研并重副教授职务的基本业绩条件，且聘期考核结果为“合格”及以上等次的，学校可以继续聘用，签订第二个固定期限聘用合同。首聘期或第二聘期内晋升为副教授及以上职务的，学校可于晋升后的下一聘期起长期聘用；第二聘期结束，未晋升为副教授及以上职务的，学校不再继续聘用。 三、应聘材料 1. 个人简历，包括个人基本信息、学习和工作经历、外语水平、获奖情况、教学情况、科研情况、专业知识水平、自我综合评价等内容。 2. 相关证明材料，包括身份证、学历学位证书、成绩单、发表的学术论文全文及检索页、授权专利和获奖证书等材料的 PDF 扫描件或复印件（原件查验时间另行通知，复印件不退还本人）。 四、相关待遇 按照吉林大学有关规定执行。 五、应聘方式 1. 符合上述招聘条件并志愿申报的应聘人员，请于 2022 年 05 月 31 日前将应聘材料以电子文档方式发送至指定邮箱，邮件及简历命名为“应聘讲师 + 姓名”，考核的具体事宜将在资格审查后另行通知。 2. 基础医学院统一进行资格审查并确定参加考核人员名单，考核时间及方式另行通知。 六、纪律与监督 1. 严格遵守《事业单位人事管理回避规定》、《吉林大学关于进一步强化工作回避制度建设的意见》等有关规定。 2. 应聘人员须如实填写和提供相关材料，如发现填报内容不属实、提供虚假材料等违规违纪违法行为的，一经查实将终止其应聘程序或解除聘用。拟聘人员如在规定的报到入职日期前未取得相应学历学位，则不能聘用。 3. 对于在招聘过程中存在弄虚作假、徇私舞弊等行为的，一经查实，学校将追究具体责任人责任，并取消聘用人员应聘资格。 七、防疫须知 应聘人员应严格执行长春市政府和吉林大学的各项防疫规定。 八、联系方式 联系人：史老师 联系电话： 0431-85619303 电子邮箱： bmc@jlu.edu.cn 办公地址：长春市新民大街 126 号基础医学院 313 室 基础医学院 2022 年 05 月 16 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-05-16",
+            "date": "2022-05-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1478,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学基础医学院2022年公开招聘教师启事"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-05-16 点击次数：",
+            "date": "2022-05-16"
+          },
+          {
+            "text": "发布日期：2022-05-16",
+            "date": "2022-05-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+        "time": "2026-10-15T19:30:32+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c9fee253d028cb5e76f3a248b83b4ed59051f590dd40ff790800ed32a73310c9",
+        "html_path": "html/c9fee253d028cb5e76f3a248b83b4ed59051f590dd40ff790800ed32a73310c9.html",
+        "replacement_chars": 0,
+        "chars": 24448,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://medicine.jlu.edu.cn/info/1042/1893.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "time": "2026-10-15T19:30:32+08:00",
+    "ok": true,
+    "final_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c9fee253d028cb5e76f3a248b83b4ed59051f590dd40ff790800ed32a73310c9",
+    "html_path": "html/c9fee253d028cb5e76f3a248b83b4ed59051f590dd40ff790800ed32a73310c9.html",
+    "replacement_chars": 0,
+    "chars": 24448,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学基础医学院2022年公开招聘教师启事 2022-05-16",
+      "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+      "publish_date": "2022-05-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p2-43ab44ffea1b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.5199999324977398e-05,
+      "detail_duration_seconds": 2.700020559132099e-06,
+      "parse_db_duration_seconds": 0.01749050000216812
+    },
+    "second_round": {
+      "source": "p2-43ab44ffea1b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.1100084520876408e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-43ab44ffea1b",
+    "institution": "基础医学院",
+    "column": "招聘公告",
+    "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:32+08:00",
+    "review_time": "2026-10-15T20:21:45+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 1,
+    "details": 1,
+    "verified_details": 1,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-43ab44ffea1b.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

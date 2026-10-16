@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-14T16:36:30+08:00",
+  "candidates": 19,
+  "checked": 19,
+  "states": {
+    "部分通过": 3,
+    "失败": 16
+  },
+  "verdicts": {
+    "CONTENT_SAMPLE_PASSED": 3,
+    "CONTENT_SAMPLE_NOT_VERIFIED": 12,
+    "LIST_UNSUPPORTED": 1,
+    "ACCESS_BLOCKED": 3
+  },
+  "details_attempted": 47,
+  "verified_details": 14,
+  "attachment_endpoints": 14,
+  "formal_sources_changed": 0
+}

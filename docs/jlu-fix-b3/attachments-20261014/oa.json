@@ -1,0 +1,8 @@
+{
+  "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?channelId=179577&id=71024221",
+  "time": "2026-10-14T16:02:19+08:00",
+  "ok": false,
+  "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+  "attempts": 1,
+  "encoder_post_exercised": false
+}

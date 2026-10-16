@@ -1,0 +1,336 @@
+{
+  "id": "p3-63ff349131e1",
+  "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+  "institution": "党委宣传部",
+  "column": "通知公告",
+  "site_url": "https://xcb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_MISSING",
+  "original_evidence": "docs/jlu-audit-evidence/results/63ff349131e1673f.json",
+  "original_capture_time": "2026-10-13T13:34:27+08:00",
+  "discovery_url": "https://xcb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-63ff349131e1",
+    "name": "党委宣传部 / 通知公告",
+    "base_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:21+08:00",
+  "details": [
+    {
+      "url": "https://xcb.jlu.edu.cn/info/1044/3212.htm",
+      "list_title": "关于继续开展吉林大学校园道路和广场名称征集活动的通知",
+      "list_date": "2022-10-06",
+      "response": {
+        "url": "https://xcb.jlu.edu.cn/info/1044/3212.htm",
+        "time": "2026-10-15T22:07:11+08:00",
+        "ok": true,
+        "final_url": "https://xcb.jlu.edu.cn/info/1044/3212.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "bccf8654b9784927788f24ad95ff4ddbd7b0e6338751e6b5bdcaf0c614036405",
+        "html_path": "html/bccf8654b9784927788f24ad95ff4ddbd7b0e6338751e6b5bdcaf0c614036405.html",
+        "replacement_chars": 0,
+        "chars": 17514,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于继续开展吉林大学校园道路和广场名称征集活动的通知",
+        "url": "https://xcb.jlu.edu.cn/info/1044/3212.htm",
+        "publish_date": "2022-10-06",
+        "publisher": "为进一步规范学校道路名称，彰显吉林大学精神和学校特色，提升校",
+        "content": "为进一步规范学校道路名称，彰显吉林大学精神和学校特色，提升校园文化底蕴和人文内涵，建设与“双一流”大学相适应的校园环境，学校将继续开展校园道路和广场的名称设计工作。现面向广大师生员工及校友征集相关道路和广场名称，具体事宜通知如下。 一、命名范围 本次校园道路和广场名称征集面向各校区，具体编号、道路起止点和广场分布见各校区平面图（附件1-5）。 二、命名原则 1.坚持文化自信。 传承中华优秀传统文化，体现丰厚文化底蕴；弘扬时代精神，富有新时代气息。寓意健康、积极向上，具有正确的价值导向，体现立德树人本质。 2.彰显学校特色 。体现学校发展定位、教育理念、大学精神、校园文化、学术氛围和学科特色等特质；深入挖掘校史，突出学校历史传承。在选取对学校发展做出重大贡献且影响深远的校史人物姓名作为命名时，要彰显人物的精神力量。 3.联系功能分区。 道路命名应注重适应性、对称性，充分考虑工作区、生活区、学习区的分类原则，辨识性强，不能与所在区域中的市政街路重名。 广场命名应符合区域形象特点，照应周边建筑、设施，将校训、校风、教风、学风等精神文明特质合理融入，体现校园文化的和谐统一。 4.规范名称格式。 校园内道路均冠名为“XX路”，广场均冠名为“XX广场”，每个名称原则上由2至5个或3至6个汉字组成，并有对应的名称释义、命名理由等文字性阐述。 三、命名要求 1.命名应言简意赅、易读易记、寓意深刻，符合语言文字规范，注重“音、形、意”相结合，避免古奥、生僻、重名、谐音、同音、歧义，避免有时代局限的名称，做到名实一致。 2.命名必须遵循国家和地方等关于命名、更名的法律法规，符合社会公德，不能带有封建色彩或不健康格调，不能侵犯他人著作权和名誉权。要遵守国家相关的法律法规规定，命名一经采用，其知识产权归学校所有。 四、征集时间 2022年9月28日—2022年10月8日 五、提交方式 请广大师生员工和校友充分结合学校发展历史和各校区特色，依据上述命名原则和要求，对感兴趣的道路和广场进行命名。 为方便查看信息，各校区平面图已将未命名的道路和广场用彩色线条标注，广大师生员工和校友可根据校区平面图信息，选择对应校区附件填写《吉林大学校园道路和广场名称征集表》（附件1-5），根据表内道路及广场的描述信息在对应处填写拟定名称、名称内涵、投稿人信息（单位、姓名、联系方式）。 填写信息后，将征集表命名为“校区+道路和广场命名”（如“中心校区 道路和广场命名”）发送至对应校区征集邮箱；如为多个校区的道路和广场命名，请分别发送。 命名一经录用，学校将为提名者发放纪念证书。 六、联系方式及邮箱地址 1.中心校区 联系方式：冯子宸 金光旭 85167488 韩钰洁 18844118590 邮箱地址：hanyj21@mails.jlu.edu.cn （中心校区相关道路和广场命名请发送至此邮箱） 2.南湖校区： 联系方式：陈雨萌 85151889 邮箱地址：chym@jlu.edu.cn （南湖校区相关道路和广场命名请发送至此邮箱） 3.南岭校区： 联系方式：刘 彤 85095770 邮箱地址：liutong777@jlu.edu.cn （南岭校区相关道路和广场命名请发送至此邮箱） 4.和平校区： 联系方式：宫新统 87836022 邮箱地址：gongxt@jlu.edu.cn （和平校区相关道路命名请发送至此邮箱） 5.朝阳校区、前卫北区 联系方式：孙 忠 13578988938 邮箱地址：sunzhong@jlu.edu.cn （朝阳校区、前卫北区相关道路和广场命名请发送至此邮箱）",
+        "attachments": [
+          {
+            "filename": "附件1：《吉林大学中心校区校园道路和广场名称征集表》 中心校区平面图.rar",
+            "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649746",
+            "type": "rar"
+          },
+          {
+            "filename": "附件2：《吉林大学南湖校区校园道路和广场名称征集表》 南湖校区平面图.rar",
+            "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649747",
+            "type": "rar"
+          },
+          {
+            "filename": "附件3：《吉林大学南岭校区校园道路和广场名称征集表》 南岭校区平面图.rar",
+            "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649748",
+            "type": "rar"
+          },
+          {
+            "filename": "附件4：《吉林大学和平校区校园道路名称征集表》 和平校区平面图.rar",
+            "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649749",
+            "type": "rar"
+          },
+          {
+            "filename": "附件5：《吉林大学朝阳校区、前卫北区校园道路和广场名称征集表》 朝阳校区、前卫北区平面图.rar",
+            "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649750",
+            "type": "rar"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于继续开展吉林大学校园道路和广场名称征集活动的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2022-10-06",
+            "date": "2022-10-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1495,
+        "reference_attachment_urls": [
+          "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649746",
+          "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649747",
+          "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649748",
+          "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649749",
+          "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=11649750"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于继续开展吉林大学校园道路和广场名称征集活动的通知",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2022-10-06 点击数： 来源:",
+            "date": "2022-10-06"
+          },
+          {
+            "text": "日期：2022-10-06",
+            "date": "2022-10-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+        "time": "2026-10-15T22:07:09+08:00",
+        "ok": true,
+        "final_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "95a12e92b10fd91882955847c5a7a654e39c56b5c985855a082edacdea1531bd",
+        "html_path": "html/95a12e92b10fd91882955847c5a7a654e39c56b5c985855a082edacdea1531bd.html",
+        "replacement_chars": 0,
+        "chars": 13151,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://xcb.jlu.edu.cn/info/1044/3212.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "time": "2026-10-15T22:07:09+08:00",
+    "ok": true,
+    "final_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "95a12e92b10fd91882955847c5a7a654e39c56b5c985855a082edacdea1531bd",
+    "html_path": "html/95a12e92b10fd91882955847c5a7a654e39c56b5c985855a082edacdea1531bd.html",
+    "replacement_chars": 0,
+    "chars": 13151,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于继续开展吉林大学校园道路和广场名称征集活动的通知",
+      "url": "https://xcb.jlu.edu.cn/info/1044/3212.htm",
+      "publish_date": "2022-10-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-63ff349131e1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.2299977242946625e-05,
+      "detail_duration_seconds": 1.9000144675374031e-06,
+      "parse_db_duration_seconds": 0.020098799956031144
+    },
+    "second_round": {
+      "source": "p3-63ff349131e1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.2199976481497288e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-63ff349131e1",
+    "institution": "党委宣传部",
+    "column": "通知公告",
+    "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_MISSING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:07:09+08:00",
+    "review_time": "2026-10-15T23:00:21+08:00",
+    "http_status": 200,
+    "final_url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 1,
+    "issues": [],
+    "discovery_url": "https://xcb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-63ff349131e1.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,4592 @@
+[
+  {
+    "institution": "党委办公室",
+    "category": "管理服务",
+    "site_url": "https://pco.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "保密工作办公室",
+    "category": "管理服务",
+    "site_url": "https://bmb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学校纪检监察机构",
+    "category": "管理服务",
+    "site_url": "https://jjw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委巡视工作办公室",
+    "category": "管理服务",
+    "site_url": "https://dwxcb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委信访工作办公室、信访工作办公室",
+    "category": "管理服务",
+    "site_url": "https://xinfang.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委组织部",
+    "category": "管理服务",
+    "site_url": "http://zzb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党校办公室（社会主义学院办公室）",
+    "category": "管理服务",
+    "site_url": "https://dxb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "机关党委",
+    "category": "管理服务",
+    "site_url": "https://jgdw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党代表联络办公室",
+    "category": "管理服务",
+    "site_url": "https://dxb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委宣传部",
+    "category": "管理服务",
+    "site_url": "https://xcb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "新闻中心",
+    "category": "管理服务",
+    "site_url": "https://news.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "电视台",
+    "category": "管理服务",
+    "site_url": "https://tv.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委统战部",
+    "category": "管理服务",
+    "site_url": "https://tzb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委学生工作部、党委武装部、学生工作处",
+    "category": "管理服务",
+    "site_url": "https://xsc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "校长办公室",
+    "category": "管理服务",
+    "site_url": "https://pro.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "发展规划处",
+    "category": "管理服务",
+    "site_url": "https://dev.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生院",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "学位办公室",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生培养办公室",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生管理办公室",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生工作部",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生综合办公室",
+    "category": "管理服务",
+    "site_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "本科生院",
+    "category": "管理服务",
+    "site_url": "https://jwc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "创新创业教育学院",
+    "category": "管理服务",
+    "site_url": "https://cxcyjyxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "科研院",
+    "category": "管理服务",
+    "site_url": "https://kjc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科技管理办公室",
+    "category": "管理服务",
+    "site_url": "https://kjc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科技开发办公室（国内合作处、国家大学科技园办公室）",
+    "category": "管理服务",
+    "site_url": "https://kjkfzx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "category": "管理服务",
+    "site_url": "https://ddy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科学技术协会秘书处办公室",
+    "category": "管理服务",
+    "site_url": "https://ast.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "社会科学研究院",
+    "category": "管理服务",
+    "site_url": "https://hssra.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "人力资源处",
+    "category": "管理服务",
+    "site_url": "https://rsgl.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委教师工作部",
+    "category": "管理服务",
+    "site_url": "http://jsgzb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "博士后工作办公室",
+    "category": "管理服务",
+    "site_url": "https://bsh.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "人才工作办公室、党委人才工作办公室",
+    "category": "管理服务",
+    "site_url": "https://talent.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国际合作与交流处",
+    "category": "管理服务",
+    "site_url": "https://oic.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "财务处",
+    "category": "管理服务",
+    "site_url": "https://cw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "审计处",
+    "category": "管理服务",
+    "site_url": "https://sjc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "资产管理处",
+    "category": "管理服务",
+    "site_url": "https://zcgl.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "实验室管理处",
+    "category": "管理服务",
+    "site_url": "https://lab.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "后勤处",
+    "category": "管理服务",
+    "site_url": "https://hqc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "保卫处、党委保卫部",
+    "category": "管理服务",
+    "site_url": "https://bwc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "离退休工作处",
+    "category": "管理服务",
+    "site_url": "https://ltxc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "政策与法规办公室",
+    "category": "管理服务",
+    "site_url": "https://zcyfg.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "基础设施建设办公室",
+    "category": "管理服务",
+    "site_url": "https://jjb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "经营性资产改革和管理办公室",
+    "category": "管理服务",
+    "site_url": "https://jgb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校友和基金工作办公室",
+    "category": "管理服务",
+    "site_url": "https://xyjj.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "附属学校管理办公室",
+    "category": "管理服务",
+    "site_url": "https://pjb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "招标与采购管理中心",
+    "category": "管理服务",
+    "site_url": "https://cgglzx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学生就业创业指导与服务中心",
+    "category": "管理服务",
+    "site_url": "https://jdjyw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "学生心理健康指导中心",
+    "category": "管理服务",
+    "site_url": "https://psy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "大数据和网络管理中心",
+    "category": "管理服务",
+    "site_url": "https://nic.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校园卡服务中心",
+    "category": "管理服务",
+    "site_url": "https://xyk.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "档案馆",
+    "category": "管理服务",
+    "site_url": "https://dag.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国际教育学院",
+    "category": "管理服务",
+    "site_url": "http://cie.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "继续教育管理办公室",
+    "category": "管理服务",
+    "site_url": "https://jjglb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "教师教学发展中心",
+    "category": "管理服务",
+    "site_url": "https://ctld.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "工会",
+    "category": "管理服务",
+    "site_url": "https://union.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "妇委会",
+    "category": "管理服务",
+    "site_url": "https://fwh.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "团委",
+    "category": "管理服务",
+    "site_url": "https://youth.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "白求恩医学部",
+    "category": "管理服务",
+    "site_url": "https://jdyxb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "医院管理处",
+    "category": "管理服务",
+    "site_url": "https://ywc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "医学学科建设与科研办公室",
+    "category": "管理服务",
+    "site_url": "http://jdyxb.jlu.edu.cn/yxbyxk",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东区事务办公室",
+    "category": "管理服务",
+    "site_url": "https://dqswb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "南湖事务办公室",
+    "category": "管理服务",
+    "site_url": "https://nhswb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "西区事务办公室",
+    "category": "管理服务",
+    "site_url": "https://hp.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "图书馆",
+    "category": "管理服务",
+    "site_url": "http://lib.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校医院",
+    "category": "管理服务",
+    "site_url": "https://xyy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "后勤服务集团",
+    "category": "管理服务",
+    "site_url": "https://hqserver.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "考古与艺术博物馆",
+    "category": "管理服务",
+    "site_url": "https://aamuseum.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "地质博物馆",
+    "category": "管理服务",
+    "site_url": "https://gmuseum.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "继续教育学院（培训学院",
+    "category": "管理服务",
+    "site_url": "http://dec.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "综合极端条件高压科学中心",
+    "category": "管理服务",
+    "site_url": "https://lvpecf.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "测试科学实验中心",
+    "category": "管理服务",
+    "site_url": "https://cszx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "长白山实验室",
+    "category": "管理服务",
+    "site_url": "https://cbslab.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "category": "管理服务",
+    "site_url": "https://nrcem.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "党委督查室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校报编辑部",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学生公寓管理与服务中心",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学生资助中心",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "行政服务中心",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学校督查室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生招生办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "综合办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "招生工作办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "人才培养办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "教学管理办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "教学运行办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "教学研究办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数字教育办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "考试工作办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "先进技术研究院",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国家（全国）重点实验室管理与服务办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "综合办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "环境保护工作办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "房产管理办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "节能办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "北区、东区、西区后勤服务办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "新民、朝阳、东区、西区、南湖保卫办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "前卫、新民、朝阳、东区、西区、南湖离退休办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校史馆",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "黄大年纪念馆",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "乡村振兴工作办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "综合办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "医学教育办公室（医学教育研究与教师发展中心）",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "医学研究生办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "北区事务办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "珠海研究院",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "自然科学学报编辑部",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "社会科学学报编辑部",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "国际仿生工程学会秘书处办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "学科交叉创新中心",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "理事会办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "大学文化建设办公室 互联网信息安全办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "本科生招生办公室、教材研究中心） 兴城教学基地 农业实验基地 教育技术与教学服务中心",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "党委机构编制委员会办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "港澳台办公室 国际汉语教育东北基地",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "经费监管办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "综合治理办公室 610办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "经营性资产管理委员会办公室",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "校友总会秘书处 教育基金会秘书处",
+    "category": "管理服务",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+    "discovery_basis": "同段已链接机构旁的未链接名称；独立官网待确认",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "哲学社会学院",
+    "category": "院系",
+    "site_url": "https://zsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "文学院",
+    "category": "院系",
+    "site_url": "https://wxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "考古学院",
+    "category": "院系",
+    "site_url": "https://kgxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "历史文化学院",
+    "category": "院系",
+    "site_url": "https://hac.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "外国语言文化学院",
+    "category": "院系",
+    "site_url": "https://sflc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "艺术学院",
+    "category": "院系",
+    "site_url": "https://art.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "体育学院",
+    "category": "院系",
+    "site_url": "https://pe.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "经济学院",
+    "category": "院系",
+    "site_url": "https://jjxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "法学院",
+    "category": "院系",
+    "site_url": "https://law.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "行政学院",
+    "category": "院系",
+    "site_url": "https://adm.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "商学与管理学院",
+    "category": "院系",
+    "site_url": "https://sg.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "马克思主义学院",
+    "category": "院系",
+    "site_url": "https://marx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "东北亚学院、东北亚研究院",
+    "category": "院系",
+    "site_url": "https://nasa.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "公共外交学院",
+    "category": "院系",
+    "site_url": "https://sipa.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "数学学院",
+    "category": "院系",
+    "site_url": "https://math.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "物理学院",
+    "category": "院系",
+    "site_url": "https://phy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "化学学院",
+    "category": "院系",
+    "site_url": "https://chem.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "生命科学学院",
+    "category": "院系",
+    "site_url": "https://life.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "机械与航空航天工程学院",
+    "category": "院系",
+    "site_url": "https://mae.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "汽车工程学院",
+    "category": "院系",
+    "site_url": "https://auto.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "工程训练中心",
+    "category": "院系",
+    "site_url": "https://gcxl.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "材料科学与工程学院",
+    "category": "院系",
+    "site_url": "https://dmse.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "交通学院",
+    "category": "院系",
+    "site_url": "https://jt.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "生物与农业工程学院、仿生科学与工程学院",
+    "category": "院系",
+    "site_url": "https://cbae.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "卓越工程师学院",
+    "category": "院系",
+    "site_url": "https://ees.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "电子科学与工程学院、集成电路学院",
+    "category": "院系",
+    "site_url": "https://ee.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "通信工程学院",
+    "category": "院系",
+    "site_url": "https://dce.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "计算机科学与技术学院",
+    "category": "院系",
+    "site_url": "https://ccst.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "软件学院",
+    "category": "院系",
+    "site_url": "https://csw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "公共计算机教学与研究中心",
+    "category": "院系",
+    "site_url": "https://ccfe.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "地球科学学院",
+    "category": "院系",
+    "site_url": "https://geo.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "地球探测科学与技术学院",
+    "category": "院系",
+    "site_url": "https://gest.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "建设工程学院",
+    "category": "院系",
+    "site_url": "https://const.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "新能源与环境学院",
+    "category": "院系",
+    "site_url": "https://cer.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "仪器科学与电气工程学院",
+    "category": "院系",
+    "site_url": "https://ciee.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "基础医学院",
+    "category": "院系",
+    "site_url": "https://medicine.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "公共卫生学院",
+    "category": "院系",
+    "site_url": "https://sph.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "药学院",
+    "category": "院系",
+    "site_url": "https://yxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "护理学院",
+    "category": "院系",
+    "site_url": "https://hlxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "白求恩第一临床医学院",
+    "category": "院系",
+    "site_url": "https://www.jdyy.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "白求恩第二临床医学院",
+    "category": "院系",
+    "site_url": "https://www.jdey.com.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "白求恩第三临床医学院",
+    "category": "院系",
+    "site_url": "https://www.zrlyyy.com/index.html",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "白求恩口腔医学院",
+    "category": "院系",
+    "site_url": "https://jdkq.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "动物医学学院",
+    "category": "院系",
+    "site_url": "https://dwyx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "植物科学学院",
+    "category": "院系",
+    "site_url": "https://zky.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "动物科学学院",
+    "category": "院系",
+    "site_url": "https://dwkx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "食品科学与工程学院",
+    "category": "院系",
+    "site_url": "https://spxy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "人工智能学院",
+    "category": "院系",
+    "site_url": "https://sai.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "预科教育学院",
+    "category": "院系",
+    "site_url": "https://ykjy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "应用技术学院",
+    "category": "院系",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "东荣学院",
+    "category": "院系",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "莱姆顿学院",
+    "category": "院系",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P2"
+  },
+  {
+    "institution": "未来科学国际合作联合实验室",
+    "category": "研究机构",
+    "site_url": "http://icfs.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北与东北亚研究院",
+    "category": "研究机构",
+    "site_url": "https://ncnas.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北民族研究中心",
+    "category": "研究机构",
+    "site_url": "https://dbmz.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚研究中心",
+    "category": "研究机构",
+    "site_url": "http://narc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "边疆考古研究中心",
+    "category": "研究机构",
+    "site_url": "http://bjkg.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数量经济研究中心",
+    "category": "研究机构",
+    "site_url": "http://jlucqe.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "理论法学研究中心",
+    "category": "研究机构",
+    "site_url": "http://www.legal-theory.org/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国国有经济研究中心",
+    "category": "研究机构",
+    "site_url": "http://ccpser.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "哲学基础理论研究中心",
+    "category": "研究机构",
+    "site_url": "http://pftheory.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "廉政研究院",
+    "category": "研究机构",
+    "site_url": "http://acre.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "协商治理研究院",
+    "category": "研究机构",
+    "site_url": "http://cppcc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "廉政研究院",
+    "category": "研究机构",
+    "site_url": "http://acre.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国家地球物理探测仪器工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "集成光电子全国重点实验室",
+    "category": "研究机构",
+    "site_url": "http://sklio.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高压与超硬材料全国重点实验室",
+    "category": "研究机构",
+    "site_url": "http://nlshm-lab.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车底盘集成与仿生全国重点实验室",
+    "category": "研究机构",
+    "site_url": "http://acib.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "无机合成与制备化学全国重点实验室",
+    "category": "研究机构",
+    "site_url": "http://synlab.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "超分子结构与材料全国重点实验室",
+    "category": "研究机构",
+    "site_url": "http://supramol.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "符号计算与知识工程教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://scke.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "分子酶学工程教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://www.mee.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "工程仿生教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://bionic.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车材料教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://aml.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "病理生物学教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://pathobiology.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "地球信息探测仪器教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "https://olagi.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "人兽共患病研究教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://ghb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "地下水资源与环境教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://klgre.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "新型电池物理与技术教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://ptab.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "器官再造与移植教育部重点实验室（筹）",
+    "category": "研究机构",
+    "site_url": "http://ort.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数控装备可靠性教育部重点实验室",
+    "category": "研究机构",
+    "site_url": "http://cncr.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "特种工程塑料教育部工程中心",
+    "category": "研究机构",
+    "site_url": "http://jusep.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚研究院",
+    "category": "研究机构",
+    "site_url": "http://nasa.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "古籍研究所",
+    "category": "研究机构",
+    "site_url": "http://gujisuo.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高等教育研究所",
+    "category": "研究机构",
+    "site_url": "http://gjs.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国际关系研究所",
+    "category": "研究机构",
+    "site_url": "http://iis.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "美国研究所",
+    "category": "研究机构",
+    "site_url": "https://jjxy.jlu.edu.cn/mgyjs",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "廉政研究院",
+    "category": "研究机构",
+    "site_url": "http://acre.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北振兴发展研究院",
+    "category": "研究机构",
+    "site_url": "http://dbzx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学国家发展与安全研究院",
+    "category": "研究机构",
+    "site_url": "http://indss.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "理论化学研究所",
+    "category": "研究机构",
+    "site_url": "http://itc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "原子与分子物理研究所",
+    "category": "研究机构",
+    "site_url": "http://iamp.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "辊锻工艺研究所",
+    "category": "研究机构",
+    "site_url": "http://gunduan.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数学研究所",
+    "category": "研究机构",
+    "site_url": "http://math.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "古生物与地层学研究中心",
+    "category": "研究机构",
+    "site_url": "http://palaeont.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "人兽共患病研究所",
+    "category": "研究机构",
+    "site_url": "http://iz.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "智能仪器与测控技术研究所",
+    "category": "研究机构",
+    "site_url": "https://iiimct.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方机构目录直接链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "哲学基础学科人才培养和科学研究基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "历史学基础学科人才培养和科学研究基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "经济学基础人才培养基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数学基础科学研究与教学人才培养基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "物理学基础科学研究与教学人才培养基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "化学基础科学研究与教学人才培养基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "生命科学与技术人才培养基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "机械基础课程教学基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "大学生文化素质教育基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "司法文明协同创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "出土文献与中国古代文明研究协同创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "体质人类学与分子考古学科研基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚区域研究协同创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚国际语言文化研究基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高校外语教育研究基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "社会公正与政府治理研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "创新管理研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中俄区域合作研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "日本侵华史研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高句丽渤海研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国人口老龄化与经济社会发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "农村发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "文化遗产保护研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国文化研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国特色社会主义理论研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚地缘政治经济研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "社会发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "残疾人事业发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "犯罪治理研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北区域现代农业发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "劳动关系研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国地方政府创新研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "创新创业研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "中国文化研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国人口老龄化与经济社会发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国与俄罗斯及周边国家合作智库",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "农村发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "残疾人事业发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北区域现代农业发展研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高句丽渤海研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "犯罪治理研究中心（立项培育）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "物质制备科学科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车工程科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高压科学与技术科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "整合生物学科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "工程仿生科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "集成光电子学科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北资源与环境科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "计算与软件科学科技创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚研究与东北振兴哲学社会科学创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "中国边疆史地哲学社会科学创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "经济分析与预测哲学社会科学创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "法律与经济全球化哲学社会科学创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "社会发展理论哲学社会科学创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "人畜共患传染病重症诊治全国重点实验室（共建）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "深部探测与成像全国重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国—新加坡肝脏病学研究“一带一路”联合实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "部级工程中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "特种工程塑料教育部工程中心（教育部）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国家863计划长春特种工程塑料研究开发中心（科技部）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车开发工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "有机聚合物光电材料教育部工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "网络技术及应用软件教育部工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "地热资源开发技术与装备教育部工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省车辆零部件先进制造技术及系统重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省工程仿生重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物识别新技术重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省道路交通创新重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省重大疾病分子与化学遗传学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省酵母表达重组蛋白质药物研发重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省分子病毒学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省水资源与水环境重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省牙发育及颌骨重塑与再生重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省应用原子分子光谱重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物医学材料重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省油页岩与共生能源矿产重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省组织修复重建与再生重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省外科转化医学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省组织工程与人类疾病动物模型重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "先进气体传感器重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省营养与功能食品重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省高压技术与功能材料工程技术中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省测控智能化仪器工程技术中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省金网络模具工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省干细胞工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省汽车材料工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省光谱分析仪器工程技术中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省智能信号识别和设备工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省通信软件产品线工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省医学影像工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省兽药工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省东北保护性耕作系统工程技术研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省特种工程塑料科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省网络通信软件科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省纳米孔材料科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省地球探测仪器装备科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省工程仿生科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省干细胞组织工程科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物纳米分子临床诊断创新平台",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物治疗科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省先进控制与自主系统科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省新药临床前药理评价科技创新中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省整车开发与底盘匹配工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省仿生工程工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物催化与生物转化工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省纳米纤维工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省汽车传动工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省有机白光照明工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省中草药道地性保护研究工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省社区人群健康护理工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省光通信用聚合物波导器件工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省基因工程药物工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省职能化农产品生产装备与技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省汽车能源与动力工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省地下空间探测工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省肿瘤组织芯片工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省糖尿病并发症工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省新能源材料与技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物药物研发与评价工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省消化内镜医学微创工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省呼吸疾病分子诊疗工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省给药系统技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省甲状腺疾病防治工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省纳米医学工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省智能化口腔治疗技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省电子商务关键支撑技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省环境岩土工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省油页岩勘探开发利用工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省移动平台探测技术与装备工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省抗肿瘤药物工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省洁净能源材料工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省个体化医学检测技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省内皮功能及基因诊断工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省肝胆胰疾病转化医学工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省肝癌早期诊断技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省内分泌代谢性疾病诊疗技术工程实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省汽车零部件制造技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省现代疫苗工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省组织修复与再生医学工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省网络技术及应用软件工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省动物生物工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省天然药物药理药效与应用开发工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省医用生物材料工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省功能食品工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省肿瘤疫苗工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省通信新技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省动物重大疫情诊断与防控中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省人参创新药物开发工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省现代检测技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省资源微生物工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省生物质资源利用工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省车辆运用装备工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省激光器驱动与控制工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省干细胞研究与应用工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省灵芝规范化种植及新产品开发工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省固体废弃物资源化利用工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省重离子放射治疗技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省兽用生物制品工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省汽车新能源与节能热利用工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省高性能计算工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省机电装备可靠性技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省模式动物工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省红外气体传感技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省金属材料及加工技术工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "省级研究机构（吉林省中医药管理局主管）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省糖尿病中医病机辩证与中药研发重点研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省心血管中药作用机制及临床观察重点研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省中医药免疫效应重点研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省中药药理重点研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "免疫疾病研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "肾病研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "药理研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "脑肿瘤疾病研究室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "耳鼻咽喉疾病二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "肝病二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "脑病二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "周围神经损伤与再生二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中药毒理二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "病理生理二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "病理二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "基因工程制药二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "病原微生物二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中药生物工程二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中药药理二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "组织与细胞化学二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "天然药物活性成分分析二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "生物药学二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中药制剂二级实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省高校重点实验室（吉林省教育厅主管）",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "应用有机化学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "生物制药工程重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "软件新技术重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "表面与界面化学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车能源与动力重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "智能化农业装备与技术重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "工程装备先进设计制造技术重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "水资源与水环境重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "动物胚胎工程重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "神经病学和神经病科学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "油页岩与共生矿产成矿及勘查开发重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "组织修复与重建重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "数量化科学计算重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "作物基因工程重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "血液病和肿瘤学重点实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省高校工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "金属矿产资源勘查技术与评价工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省转化医学国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省现代农业推广国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省工程仿生国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省空腔生物医学国际联合研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省肝胆胰外科国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省计算系统生物学国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省食源性寄生虫病研究国际科技合作基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学哲学社会科学重点研究基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "中俄区域合作研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中国特色社会主义理论体系研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "中日经济共同研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "高句丽渤海研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "链传动研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "再生医学研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "超塑性与塑性研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "实验动物中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学-佐治亚理工学院理论科学联合研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "汽车研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "水资源与环境研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "农业机械工程研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "计算机科学技术研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "吉林省地面机械仿生技术与仿生功能材料中试基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "组合化学与创新药物研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "东北亚国际地学教学与研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "综合信息矿产预测研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "麦克德尔米德实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "光谱分析研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "矿产资源研究院",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "油页岩合作创新基地",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "光谱分析仪器工程技术中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学组合化学研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学车辆检测技术研究与开发中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学前列腺疾病防治中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学理论物理中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学汽车运输工程研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学地下能源与废物处置研究所",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林省机械化保护性耕作研究中心",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学JLU-UPV多孔材料分子工程国际联合实验室",
+    "category": "研究机构",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "长春吉大附中实验学校",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属中学",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属小学",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属第一幼儿园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属实验幼儿园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属第三幼儿园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属第四幼儿园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属实验幼儿园分园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学和平校区幼儿园",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林吉大控股有限公司",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林吉大致远资产经营有限公司",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学出版社有限责任公司",
+    "category": "附属单位",
+    "site_url": "",
+    "discovery_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+    "discovery_basis": "官方目录列名但未提供独立官网链接；不推测域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学",
+    "category": "校级",
+    "site_url": "https://www.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官方主页",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P0"
+  },
+  {
+    "institution": "本科教育",
+    "category": "官网导航",
+    "site_url": "http://jwc.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "研究生教育",
+    "category": "官网导航",
+    "site_url": "http://yjsy.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "留学生教育",
+    "category": "官网导航",
+    "site_url": "http://cie.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "继续教育",
+    "category": "官网导航",
+    "site_url": "http://dec.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科研信息",
+    "category": "官网导航",
+    "site_url": "https://www.jlu.edu.cn/kxyj/kyxx1.htm",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科研项目",
+    "category": "官网导航",
+    "site_url": "https://www.jlu.edu.cn/kxyj/kyxm1.htm",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "科研成果",
+    "category": "官网导航",
+    "site_url": "https://www.jlu.edu.cn/kxyj/kycg.htm",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国内合作",
+    "category": "官网导航",
+    "site_url": "http://kjkfzx.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国际合作",
+    "category": "官网导航",
+    "site_url": "http://oic.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "国际教育学院",
+    "category": "官网导航",
+    "site_url": "http://cie.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "招生就业",
+    "category": "官网导航",
+    "site_url": "https://www.jlu.edu.cn/zsjy.htm",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "本科招生",
+    "category": "官网导航",
+    "site_url": "http://zsb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "研究生招生",
+    "category": "官网导航",
+    "site_url": "https://yzb.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "留学生招生",
+    "category": "官网导航",
+    "site_url": "http://cie.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "继续教育招生",
+    "category": "官网导航",
+    "site_url": "http://dec.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "学生就业创业",
+    "category": "官网导航",
+    "site_url": "http://jdjyw.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "通知公告 Announcement",
+    "category": "官网导航",
+    "site_url": "https://www.jlu.edu.cn/index/tzgg.htm",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "图书馆",
+    "category": "官网导航",
+    "site_url": "http://lib.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学大数据和网络管理中心",
+    "category": "官网导航",
+    "site_url": "http://nic.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/",
+    "discovery_basis": "学校官网导航明确链接",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学网络安全学院",
+    "category": "现有来源",
+    "site_url": "https://cse.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学计算机科学与技术学院",
+    "category": "现有来源",
+    "site_url": "https://ccst.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学软件学院",
+    "category": "现有来源",
+    "site_url": "https://csw.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学本科生院",
+    "category": "现有来源",
+    "site_url": "https://jwc.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "吉林大学创新创业教育学院",
+    "category": "现有来源",
+    "site_url": "https://cxcyjyxy.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "吉林大学 OA 校内通知",
+    "category": "现有来源",
+    "site_url": "https://oa.jlu.edu.cn/",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有来源回归清单",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P0"
+  },
+  {
+    "institution": "党委学生工作部（处）、党委武装部",
+    "category": "管理服务",
+    "site_url": "https://xsc.jlu.edu.cn/",
+    "discovery_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；官网通知栏目原页，首页以查看更多链接呈现",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "学生就业创业指导与服务中心",
+    "category": "管理服务",
+    "site_url": "https://jdjyw.jlu.edu.cn/",
+    "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；就业网公开列表原页",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P1"
+  },
+  {
+    "institution": "吉林大学附属中学",
+    "category": "附属单位",
+    "site_url": "https://fszx.jlu.edu.cn/",
+    "discovery_url": "https://fszx.jlu.edu.cn/",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；该官网介绍明确隶属于吉林大学",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学附属小学",
+    "category": "附属单位",
+    "site_url": "https://jdfx.jlu.edu.cn/",
+    "discovery_url": "https://jdfx.jlu.edu.cn/info/1016/2061.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；招聘原文明确该站为附属小学官网",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "长春吉大附中实验学校",
+    "category": "附属单位",
+    "site_url": "https://jdgz.jlu.edu.cn/",
+    "discovery_url": "https://jdgz.jlu.edu.cn/__local/D/CD/07/32C0645FD894CFAD967A25C5A83_73B01D70_8E2B3.pdf",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；吉大域名下该校招聘文档的实际站点，不推测其他子域名",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学信息公开网",
+    "category": "校级",
+    "site_url": "https://gongkai.jlu.edu.cn/",
+    "discovery_url": "https://gongkai.jlu.edu.cn/gksx/cw_zcjsfxx/xbqyzc__fz_gyzcbzzzdxx.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；校级信息公开原页",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P3"
+  },
+  {
+    "institution": "吉林大学",
+    "category": "校级",
+    "site_url": "https://www.jlu.edu.cn/",
+    "discovery_url": "https://www.jlu.edu.cn/index/tzgg.htm",
+    "discovery_basis": "学校官网公开通知公告列表原页",
+    "discovered_at": "2026-10-13T13:49:12+08:00",
+    "priority": "P0"
+  }
+]

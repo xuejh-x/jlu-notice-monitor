@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-14T16:16:24.901121+08:00",
+  "offline_rows": 68,
+  "list_url_sets_unchanged": 68,
+  "title_date_body_acceptance_unchanged": true,
+  "attachment_changes": [
+    {
+      "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+      "added": 6,
+      "before": 0,
+      "after": 6
+    }
+  ],
+  "removed_attachment_urls": 0,
+  "navigation_controls": 27,
+  "positive_controls": 11,
+  "snapshot_hash_checks": 145
+}

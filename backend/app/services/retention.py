@@ -76,6 +76,8 @@ def cleanup_notices(db: Session, settings: Settings | None = None, *, now: datet
     cleanup_at = now or utcnow()
     ids = candidate_notice_ids(db, configured, cleanup_at)
     if ids:
+        from app.services.detail_observation import observation_key
+        db.execute(delete(AppState).where(AppState.key.in_([observation_key(item) for item in ids])))
         if _is_local(configured):
             db.execute(delete(NotificationEvent).where(NotificationEvent.notice_id.in_(ids)))
             db.execute(delete(Favorite).where(Favorite.notice_id.in_(ids)))

@@ -11,6 +11,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.pool import StaticPool
 
 import app.crawler.runner as runner_module
+from app.config import Settings
 from app.crawler.runner import CrawlerManager
 from app.database import Base
 from app.database.migrations import run_stage17_2_migrations
@@ -31,9 +32,11 @@ def make_session() -> Session:
     return Session(engine)
 
 
-def desktop_settings() -> SimpleNamespace:
-    return SimpleNamespace(
-        effective_deployment_role="desktop",
+def desktop_settings() -> Settings:
+    return Settings(
+        _env_file=None,
+        database_url="sqlite://",
+        deployment_role="desktop",
         source_run_timeout_seconds=120,
         bootstrap_recent_days=7,
         retention_days=365,

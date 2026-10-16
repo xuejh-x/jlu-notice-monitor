@@ -1,0 +1,725 @@
+{
+  "id": "p3-057482fcf4d1",
+  "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+  "institution": "党委教师工作部",
+  "column": "通知公告",
+  "site_url": "http://jsgzb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/057482fcf4d1876b.json",
+  "original_capture_time": "2026-10-13T13:35:08+08:00",
+  "discovery_url": "http://jsgzb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-057482fcf4d1",
+    "name": "党委教师工作部 / 通知公告",
+    "base_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:51+08:00",
+  "details": [
+    {
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+      "list_title": "关于举行教职工荣休大会的通知",
+      "list_date": "2025-11-20",
+      "response": {
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+        "time": "2026-10-15T22:12:22+08:00",
+        "ok": true,
+        "final_url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "55880c29d76107890aad1427f2f03e5bd9a2a3702ca8b895c074f92cb4deb691",
+        "html_path": "html/55880c29d76107890aad1427f2f03e5bd9a2a3702ca8b895c074f92cb4deb691.html",
+        "replacement_chars": 0,
+        "chars": 9074,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于举行教职工荣休大会的通知",
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+        "publish_date": "2025-11-20",
+        "publisher": null,
+        "content": "为进一步弘扬传承尊师重教的优良传统，构建具有吉林大学特色的教职工荣誉价值体系，激发教职工的身份认同、职业荣誉和奋斗志向，学校拟举行吉林大学2024和2025年度退休教职工荣休大会，向为学校事业发展做出贡献的退休教职工表达敬意和祝福。具体通知如下： 一、活动时间 2025年11月28日（星期五）上午9：30 二、活动地点 鼎新大讲堂 三、参会人员 全体校领导，退休教职工代表，各教学科研单位党政主要负责人，党政职能部门、直属管理机构、群团组织、派出机构、直属服务机构、直属业务机构主要负责人，教师代表。 四、活动要求 退休教职工参会人员可于当日8:30到达会场，参加场外活动环节。其他参会人员请提前15分钟入场就座。 党委教师工作部 人力资源处 工会 离退休工作处 后勤服务集团 2025年11月20日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于举行教职工荣休大会的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于举行教职工荣休大会的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-11-20 15:22:53 | 点击数量:",
+            "date": "2025-11-20"
+          },
+          {
+            "text": "发布时间：2025-11-20 15:22:53",
+            "date": "2025-11-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 351,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于举行教职工荣休大会的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-11-20 15:22:53 | 点击数量:",
+            "date": "2025-11-20"
+          },
+          {
+            "text": "发布时间：2025-11-20 15:22:53",
+            "date": "2025-11-20"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+      "list_title": "吉林大学召开2025年教师节庆祝表彰大会",
+      "list_date": "2025-09-10",
+      "response": {
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+        "time": "2026-10-15T22:12:23+08:00",
+        "ok": true,
+        "final_url": "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dced29f4787c5534621e7d04f0ebf644fbf4feca18646bedffc24995fd31f3cd",
+        "html_path": "html/dced29f4787c5534621e7d04f0ebf644fbf4feca18646bedffc24995fd31f3cd.html",
+        "replacement_chars": 0,
+        "chars": 18927,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学召开2025年教师节庆祝表彰大会",
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+        "publish_date": "2025-09-10",
+        "publisher": null,
+        "content": "【文字/饶明月 图片/徐立华 王元辰】9月10日上午，在第41个教师节到来之际，吉林大学2025年教师节庆祝表彰大会在鼎新大讲堂举行。校党委书记田辉，校长张希，哲学社会科学资深教授孙正聿，校学术委员会主任、中国工程院院士林君，校教学委员会主任张汉壮，校教育教学督导委员会主任周光辉参加大会。大会由校党委常委、常务副校长蔡立东主持。 http://jsgzb.jlu.edu.cn/__local/E/D5/F4/3FE58AEFFD0BA3AB71BB6285A43_E822B499_AE06E.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/5/D6/B6/FCA54B2FF951744FB93FCD8AF60_B3BCE146_C3390.jpg?e=.jpg 上午9时，大会在庄严的国歌声中正式开始。 http://jsgzb.jlu.edu.cn/__local/A/2E/AD/18D10BD389D58A09F594AE5F3E4_AD947EBE_B9700.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/D/8A/4C/9FBBC69EB2FB7D262196E55414F_0277CCBA_BB0D9.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/C/5A/53/4D7D602610503E981804849DA82_D1AD51F1_B0CDC.jpg?e=.jpg 田辉为2024年全国教育系统先进集体获奖代表和第四批“全国高校黄大年式教师团队”代表献花。张希为近五年“特别遴选－教学渠道”唐匡学者入选者颁发聘书。 http://jsgzb.jlu.edu.cn/__local/5/7A/24/545DE217B41899468C945C77F51_F27ACF81_4E7C8.jpg?e=.jpg 张希在讲话中代表学校和田辉书记向全校教师致以节日祝贺。他指出，习近平总书记说：“一个人遇到好老师是人生的幸运，一个学校拥有好老师是学校的光荣，一个民族源源不断涌现出一批又一批好老师则是民族的希望。”回望吉大近八十年的辉煌历史，我们就是一所源源不断涌现好老师的大学，成就了许多教书育人的佳话。张希以吉大物理学科奠基人之一朱光亚先生与其培养的学生陈佳洱为例，强调其以深厚的授课功底和严谨的育人风范，生动诠释了学校“厚基础、重实践、严要求”的育人传统。 张希强调，老师的主要责任是价值塑造、知识传授和能力培养。随着人工智能的崛起，教师在知识储备方面的优势正在减弱，为适应新时代的需求，人才培养应该从以知识传授为主向以能力培养、价值塑造为主转变。在能力培养方面，大学教育需要更加注重实践，学生的很多能力只有在不断的实践过程中才能真正地养成和提升；在价值塑造方面，应通过言教和身教相结合，让学生对学术产生兴趣，有发现问题的慧眼、解决问题的本事、探索创新创造的勇气。 张希指出，通过传授经典的知识，给学生以思想的启迪，让他们掌握创造知识的方法，这是大学教育教学的重要组成。同时还应注重将公认的重要新成果及时纳入课程，把学生带到科学社会的最前沿。他以主编的教育部101计划《高分子化学与物理》教材为例，要求各相关学院要及时更新教材，老师们也应及时更新教学内容，以满足为国家和社会培养面向未来人才的重要需求。 张希强调，一所大学不做研究就不是研究型大学，但如果教学是失败的，就不能称为大学。学校正系统研究教师发展生态的改革，希望通过构建教学成长支持体系，完善以教学实效和贡献为核心的评价体系，不断强化教学在教师职业发展中的核心地位。他强调，师道的发展既要传承也要创新，归根结底需要师德的支撑。教育是以德育德的事业，希望老师们能从以德施教中感受到喜悦，这本身也是一种幸福。 http://jsgzb.jlu.edu.cn/__local/9/0D/14/CAE8C08480B87BC11E4FC7442D2_24CC84D6_BE90F.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/E/BF/14/7EB42170B47BA550FB36469E13C_F6D44F1D_8ADE4.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/C/48/F6/90ED447D9E4B9E8F7556BEE4FAB_8F3C3DD4_D069E.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/C/05/74/39F2B0BC72FBB03316B3EE0E260_FD551B76_D1B81.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/B/E5/7A/102FA6C76B54B257C795458224E_1D3BC493_CBF25.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/2/CB/CD/EB9C1EDAC516D389227E756F42C_E2D28C8B_AF59B.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/E/62/E9/16C8B4BC4ED7FF0D71ECAFCE8F0_AECD43F0_BCF98.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/4/1D/F4/F4D029C8187A6DB457565172C09_92D2A202_AFD26.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/9/25/29/B8990008066235F7F687D32227F_3B88E9EB_C4C8B.jpg?e=.jpg 会上，党委常委、副校长张然宣读《关于向受到各级组织表彰奖励教师学习的决定》。校领导边铁、胡漫、韩喜平、张国兴、张然、丁世海，党委常委、组织部部长姚毓春向获得表彰奖励的集体和教师代表颁奖、献花。 http://jsgzb.jlu.edu.cn/__local/D/95/81/2C6CE04753132BED83DC639845B_35F3AA31_AAC2F.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/5/0F/68/3CA93734B6629B4A8021BD0E946_F6F9B643_B5892.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/E/93/AF/6497A157C2D3070FCBAB45856A5_CCB2FC75_DDE3A.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/E/8B/5B/884CD22FB1B754751B985B5B0D9_DBB95A39_ADB82.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/C/E7/9E/3D7D4C7CA47A25EB72945F0167E_F3B037CD_ACC02.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/2/3B/24/4F594CD949164DAECDFB3056ECF_6DFC26F3_B3A22.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/2/85/F1/5D83B32062DD34867B6045291A7_C47B69C2_B0DC2.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/0/FB/3D/507709CE071E336534048F46351_0F7BA29A_E1848.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/8/B8/80/22C2E372DBDEC6468441A7B8DFD_E3ABBDB9_D3F4F.jpg?e=.jpg http://jsgzb.jlu.edu.cn/__local/A/00/0A/5620EF598E4942C186B2080BB84_486E953F_B49BF.jpg?e=.jpg “经世明德，弘毅致公，培育国之栋梁；笨想笃行，新证穷理，续写强国梦想。”新入职教师庄严宣誓并齐声诵读《吉林大学教师赋》，将吉大的精神力量内化于心、外化于行。田辉、张希、林君、张汉壮、周光辉分别为新入职教师、从教10年、20年、30年、40年教师代表颁发从教荣誉徽章。 http://jsgzb.jlu.edu.cn/__local/A/5E/8D/1C4D89D2EEF89D4642195EE0061_71E63D52_48640.jpg?e=.jpg 在教师代表发言环节，一线教师代表、机械与航空航天工程学院王聪慧以“尊重、热爱、勤奋”为关键词，分享了28年教学实践中的育人感悟。第十八届中国青年科技奖获得者、动物医学学院王化磊回顾了自己从青年教师到团队带头人的成长历程，介绍了在立德树人和强农使命引领下取得的科研与育人成果。新入职教师代表、化学学院吴雨辰阐述了他以好奇心驱动科研、传承师者精神的理念与决心。 大会在激昂的吉林大学校歌声中圆满结束。 各教学科研单位党政主要负责人、分管教学和科研工作负责人，部分管理、服务机构负责人，受表彰教师、教龄教师代表、新入职教师和其他教师代表参加大会。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学召开2025年教师节庆祝表彰大会"
+          },
+          {
+            "selector": "h1.title",
+            "title": "吉林大学召开2025年教师节庆祝表彰大会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-09-10 10:18:08 | 点击数量:",
+            "date": "2025-09-10"
+          },
+          {
+            "text": "发布时间：2025-09-10 10:18:08",
+            "date": "2025-09-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1541,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学召开2025年教师节庆祝表彰大会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-09-10 10:18:08 | 点击数量:",
+            "date": "2025-09-10"
+          },
+          {
+            "text": "发布时间：2025-09-10 10:18:08",
+            "date": "2025-09-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+      "list_title": "关于领取从教荣誉徽章的通知",
+      "list_date": "2025-09-10",
+      "response": {
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+        "time": "2026-10-15T22:12:24+08:00",
+        "ok": true,
+        "final_url": "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9e44fd524a220d414d12503a013453df651032320248af45b72a1bc07f675356",
+        "html_path": "html/9e44fd524a220d414d12503a013453df651032320248af45b72a1bc07f675356.html",
+        "replacement_chars": 0,
+        "chars": 9304,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于领取从教荣誉徽章的通知",
+        "url": "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+        "publish_date": "2025-09-10",
+        "publisher": null,
+        "content": "各教学科研单位： 为持续构建具有吉林大学特色的教师荣誉体系，进一步增强我校教师职业认同，学校计划于教师节期间继续颁发教师从教荣誉徽章，请各学院党委统计2025年12月31日前从教时间满整10年、20年、30年、40年教师名单，填写《xxx学院-2025年从教荣誉徽章领取单》，电子版请于9月12日下班前发送至jsgzb@jlu.edu.cn，纸质版于领取当日提交至党委教师工作部（鼎新楼A741办公室）。本通知所统计的从教时间仅用于学校为教师颁发从教荣誉徽章，不作其它用途。 联 系 人：欧阳若川 联系电话：85168569 党委教师工作部 2025年9月10日",
+        "attachments": [
+          {
+            "filename": "×××学院-2025年从教荣誉徽章领取单.xlsx",
+            "url": "http://jsgzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1856020240&wbfileid=16657075",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于领取从教荣誉徽章的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于领取从教荣誉徽章的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-09-10 10:13:10 | 点击数量:",
+            "date": "2025-09-10"
+          },
+          {
+            "text": "发布时间：2025-09-10 10:13:10",
+            "date": "2025-09-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 281,
+        "reference_attachment_urls": [
+          "http://jsgzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1856020240&wbfileid=16657075"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于领取从教荣誉徽章的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-09-10 10:13:10 | 点击数量:",
+            "date": "2025-09-10"
+          },
+          {
+            "text": "发布时间：2025-09-10 10:13:10",
+            "date": "2025-09-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:12:20+08:00",
+        "ok": true,
+        "final_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "19f1c91c55c568d96d8bccac5f3d24a9667aec8f094253f7efd234a6f27485df",
+        "html_path": "html/19f1c91c55c568d96d8bccac5f3d24a9667aec8f094253f7efd234a6f27485df.html",
+        "replacement_chars": 0,
+        "chars": 10235,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://jsgzb.jlu.edu.cn/info/1033/1349.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1351.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1352.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1356.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1357.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1531.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1535.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1561.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1645.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1648.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1664.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:12:20+08:00",
+    "ok": true,
+    "final_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "19f1c91c55c568d96d8bccac5f3d24a9667aec8f094253f7efd234a6f27485df",
+    "html_path": "html/19f1c91c55c568d96d8bccac5f3d24a9667aec8f094253f7efd234a6f27485df.html",
+    "replacement_chars": 0,
+    "chars": 10235,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举行教职工荣休大会的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+      "publish_date": "2025-11-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学召开2025年教师节庆祝表彰大会",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+      "publish_date": "2025-09-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于领取从教荣誉徽章的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+      "publish_date": "2025-09-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2024年度师德考核工作的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1648.htm",
+      "publish_date": "2024-12-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于领取从教荣誉徽章的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1645.htm",
+      "publish_date": "2024-09-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2023年度师德考核工作的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1561.htm",
+      "publish_date": "2023-12-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于领取从教荣誉徽章的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1531.htm",
+      "publish_date": "2023-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于召开“吉林大学2023年教师节庆祝表彰大会”的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1535.htm",
+      "publish_date": "2023-09-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2022年度师德考核工作的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1349.htm",
+      "publish_date": "2022-12-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学教职工师德失范行为处理办法》的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1351.htm",
+      "publish_date": "2022-06-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学师德考核实施办法（试行）》的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1352.htm",
+      "publish_date": "2022-06-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学加强新时代师德建设工作实施意见》的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1356.htm",
+      "publish_date": "2019-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于学习贯彻中共中央 国务院关于全面深化新时代教师队伍建设改革意见的通知",
+      "url": "http://jsgzb.jlu.edu.cn/info/1033/1357.htm",
+      "publish_date": "2018-06-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 13,
+  "pagination": [
+    {
+      "start_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 13,
+          "added_items": 13
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-057482fcf4d1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.180004958063364e-05,
+      "detail_duration_seconds": 1.0899966582655907e-05,
+      "parse_db_duration_seconds": 0.03455580002628267
+    },
+    "second_round": {
+      "source": "p3-057482fcf4d1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.9200029782950878e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-057482fcf4d1",
+    "institution": "党委教师工作部",
+    "column": "通知公告",
+    "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:12:20+08:00",
+    "review_time": "2026-10-15T23:00:51+08:00",
+    "http_status": 200,
+    "final_url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 13,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://jsgzb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-057482fcf4d1.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

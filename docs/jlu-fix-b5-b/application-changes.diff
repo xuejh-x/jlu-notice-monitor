@@ -1,0 +1,58 @@
+--- B5-B baseline/backend/app/parsers/html.py
++++ B5-B final/backend/app/parsers/html.py
+@@ -121,6 +121,17 @@
+     return normalize_whitespace((node or anchor).get_text(" ", strip=True))
+ 
+ 
++def list_publication_date(value: str, *, label_text: str = "") -> date | None:
++    """Preserve bare list dates, but never treat explicit update labels as publication."""
++    labelled = label_text or value
++    published = re.search(r"(?<![\u4e00-\u9fff])(?:发布日期|发布时间|发表时间)[：:\s]*(" + DATE_TEXT_PATTERN.pattern + ")", labelled)
++    if published:
++        return parse_date(published[1])
++    if re.search(r"(?:更新时间|更新日期|修改时间|最后修改时间|最后更新时间)[：:\s]", labelled):
++        return None
++    return parse_date(value)
++
++
+ def _list_publish_date(row: Tag | None) -> date | None:
+     if row is None:
+         return None
+@@ -132,7 +143,7 @@
+         split = re.fullmatch(r"(\d{1,2})\s+(20\d{2})[-/.](\d{1,2})", value)
+         if split:
+             return parse_date(f"{split[2]}-{split[3]}-{split[1]}")
+-        return parse_date(value)  # Explicit invalid dates must not fall into prose.
++        return list_publication_date(value, label_text=node.get_text(" ", strip=True))  # Do not hide labels behind datetime attributes.
+     for node in row.select(":scope > span, :scope > a > span"):
+         value = normalize_whitespace(node.get_text(" ", strip=True))
+         if DATE_TEXT_PATTERN.fullmatch(value):
+@@ -140,7 +151,7 @@
+     copy = BeautifulSoup(str(row), "html.parser")
+     for node in copy.select("a, .summary, .abstract, .info, .con"):
+         node.decompose()
+-    return parse_date(copy.get_text(" ", strip=True))
++    return list_publication_date(copy.get_text(" ", strip=True))
+ 
+ 
+ def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag | None = None) -> str:
+--- B5-B baseline/backend/app/sources/generic.py
++++ B5-B final/backend/app/sources/generic.py
+@@ -16,7 +16,7 @@
+ from app.config import get_settings, load_yaml
+ from app.paths import get_cache_dir
+ from app.parsers import parse_detail_html, parse_list_html
+-from app.parsers.html import detail_plain_text, is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
++from app.parsers.html import detail_plain_text, is_empty_notice_list, list_publication_date, usable_link, validate_detail_container, validate_html_page
+ from app.schemas.notice import AttachmentData, NoticeCandidate
+ from app.services.dates import parse_date
+ from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+@@ -220,7 +220,7 @@
+         title = normalize_whitespace(str(title_node.get("title") or title_node.get_text(" ", strip=True)))
+         href = str(link_node.get("href") or "").strip()
+         if title and href and usable_link(link_node, page_url):
+-            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=parse_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))
++            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=list_publication_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))
+     if not results:
+         raise SourceError("The configured selectors did not find any notices")
+     return results

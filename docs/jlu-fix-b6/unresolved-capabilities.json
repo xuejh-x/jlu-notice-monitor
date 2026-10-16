@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p2-2ec9326c9cde",
+    "institution": "法学院",
+    "column": "通知公告",
+    "url": "https://law.jlu.edu.cn/djgz/tzgg.htm",
+    "reason": "HTML_PERMISSION_REQUIRED: response denies access to this page or column",
+    "evidence": "docs/jlu-fix-b6/results/p2-2ec9326c9cde.json"
+  },
+  {
+    "id": "p2-5231cd19a622",
+    "institution": "商学与管理学院",
+    "column": "招聘通知",
+    "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "reason": "HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification",
+    "evidence": "docs/jlu-fix-b6/results/p2-5231cd19a622.json"
+  },
+  {
+    "id": "p2-e6225fdb065b",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/tzgg.htm",
+    "reason": "HTML_PERMISSION_REQUIRED: response denies access to this page or column",
+    "evidence": "docs/jlu-fix-b6/results/p2-e6225fdb065b.json"
+  },
+  {
+    "id": "p2-05b686fcce16",
+    "institution": "生物与农业工程学院、仿生科学与工程学院",
+    "column": "就业信息",
+    "url": "https://cbae.jlu.edu.cn/jyxx.htm",
+    "reason": "DATE_NOT_INDEPENDENTLY_VERIFIED",
+    "evidence": "docs/jlu-fix-b6/results/p2-05b686fcce16.json"
+  },
+  {
+    "id": "p2-545799ceadc0",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "科研通知",
+    "url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+    "reason": "Same-title publication/identity candidate requires manual review; no production merge",
+    "evidence": "docs/jlu-fix-b6/results/p2-545799ceadc0.json"
+  },
+  {
+    "id": "p2-cbc532d0ce0d",
+    "institution": "软件学院 / 吉林大学软件学院",
+    "column": "招生信息",
+    "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "reason": "HTML_DETAIL_EMPTY: no text or supported attachment in the notice container",
+    "evidence": "docs/jlu-fix-b6/results/p2-cbc532d0ce0d.json"
+  }
+]

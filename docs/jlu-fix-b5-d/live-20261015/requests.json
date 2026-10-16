@@ -1,0 +1,117 @@
+{
+  "https://cse.jlu.edu.cn/robots.txt": {
+    "url": "https://cse.jlu.edu.cn/robots.txt",
+    "time": "2026-10-15T19:04:20+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://cse.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://cse.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "b3-prefix:https://cse.jlu.edu.cn/__local/4/B0/98/35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf": {
+    "url": "https://cse.jlu.edu.cn/__local/4/B0/98/35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf",
+    "time": "2026-10-15T19:04:20+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "pdf",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-15T19:04:22+08:00",
+        "status": 206,
+        "category": "FILE_PREFIX_VERIFIED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://cse.jlu.edu.cn/__local/4/B0/98/35780EA2DE6B0C003CE421427D1_F68DF10B_3B53D6.pdf",
+    "content_type": "application/pdf",
+    "disposition": "",
+    "prefix_path": "prefix/481477aa3a7290d9eea54cfdf9f71f803f3022864bf899ba35fee69733d95287.bin",
+    "prefix_sha256": "481477aa3a7290d9eea54cfdf9f71f803f3022864bf899ba35fee69733d95287",
+    "category": "FILE_PREFIX_VERIFIED",
+    "file_prefix_verified": true,
+    "read_bytes": 4096,
+    "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+    "detected_family": [
+      "pdf"
+    ],
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-range": "bytes 0-4095/3888086",
+      "content-length": "4096"
+    }
+  },
+  "https://csw.jlu.edu.cn/robots.txt": {
+    "url": "https://csw.jlu.edu.cn/robots.txt",
+    "time": "2026-10-15T19:04:22+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://csw.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://csw.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331",
+    "time": "2026-10-15T19:04:22+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "pdf",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-15T19:04:24+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/bfb22c2cd036b143a42f6ec04633759079e882cd19a695ef296b7a47af19da7e.bin",
+    "prefix_sha256": "bfb22c2cd036b143a42f6ec04633759079e882cd19a695ef296b7a47af19da7e",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass",
+    "response_headers": {
+      "content-type": "text/html;charset=UTF-8",
+      "content-range": "bytes 0-1347/1348",
+      "content-length": "1348"
+    }
+  },
+  "https://jwc.jlu.edu.cn/robots.txt": {
+    "url": "https://jwc.jlu.edu.cn/robots.txt",
+    "time": "2026-10-15T19:04:24+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://jwc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://jwc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://jwc.jlu.edu.cn/info/1503/12612.htm": {
+    "url": "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+    "time": "2026-10-15T19:04:24+08:00",
+    "ok": true,
+    "final_url": "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "b0b1d1024100366b51d9f93bdb7e98280f131cb14db0baa56d66736a3c028610",
+    "html_path": "html/b0b1d1024100366b51d9f93bdb7e98280f131cb14db0baa56d66736a3c028610.html",
+    "replacement_chars": 0,
+    "chars": 40304,
+    "attempts": 1
+  },
+  "https://jwc.jlu.edu.cn/info/1503/12607.htm": {
+    "url": "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+    "time": "2026-10-15T19:04:26+08:00",
+    "ok": true,
+    "final_url": "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "092dd8ea5e005ad4bdf201bd314248230a09bba6f50f85b85bb131ee190216e1",
+    "html_path": "html/092dd8ea5e005ad4bdf201bd314248230a09bba6f50f85b85bb131ee190216e1.html",
+    "replacement_chars": 0,
+    "chars": 43703,
+    "attempts": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-14T16:16:24.923693+08:00",
+  "status": "passed",
+  "baseline_tests": "300 passed, 1 skipped",
+  "final_tests": "350 passed, 1 skipped",
+  "application_matches_final_test_manifest": true,
+  "sources_unchanged": true,
+  "report_links_exist": true,
+  "offline_rows_preserved": 68,
+  "prefixes_hash_verified": 11,
+  "fresh_html_snapshot_hash_checks": 33,
+  "limited_file_prefixes": 2,
+  "captcha_pages": 9,
+  "complete_downloads": 0,
+  "files": {
+    "backend/app/parsers/html.py": "fa3a49afac511a5d028358b0858cb8ed5ff78b84a499968fd4b732931eddf4bf",
+    "backend/app/sources/base.py": "9e5b1af14e6e4fef8d1b926f2c1b3b196a46b8ee2477a92f36ee73c3f01eddb4",
+    "backend/app/sources/generic.py": "020f0ca4ee4cc2e7ab6304ee3d848c5bd1eb075a1b07893dca0c070e0321ed45",
+    "backend/app/sources/oa_public.py": "8aaf5971497c24cacdd647216647316371140a6361cc51886e08a8868c596ea4",
+    "backend/app/services/attachment_validation.py": "cfa4033e358bed44d69b8966a01f00bc0a014542960f807eb4ba8ea95ca47cc8",
+    "docs/JLU_SITE_FIX_B3_REPORT.md": "5229c2af45c3140b3f0e048f04b6d5fb3e82f79c6a44371bdfbff5cd2f1cec79"
+  }
+}

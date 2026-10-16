@@ -1,0 +1,102 @@
+[
+  {
+    "canonical": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "alias": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "reason": "同一 URL 的合法路径字符与百分号编码重复"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "alias": "http://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/bksjy/tzgg.htm",
+    "alias": "http://nasa.jlu.edu.cn/bksjy/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "alias": "http://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+    "alias": "http://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "alias": "http://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+    "alias": "http://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+    "alias": "http://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/gjjl/tzgg.htm",
+    "alias": "http://nasa.jlu.edu.cn/gjjl/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "alias": "http://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+    "alias": "http://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nasa.jlu.edu.cn/tzgg.htm",
+    "alias": "http://nasa.jlu.edu.cn/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://math.jlu.edu.cn/zsjy/bkszs/zsx.htm",
+    "alias": "http://math.jlu.edu.cn/zsjy/bkszs/zsx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+    "alias": "http://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "alias": "http://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "alias": "http://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "alias": "http://yjsy.jlu.edu.cn/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "alias": "http://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+    "alias": "http://oic.jlu.edu.cn/zytg1/tzgg.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  },
+  {
+    "canonical": "https://nic.jlu.edu.cn/tzkx.htm",
+    "alias": "http://nic.jlu.edu.cn/tzkx.htm",
+    "reason": "观察到相同最终URL/HTML哈希的HTTP与HTTPS别名"
+  }
+]

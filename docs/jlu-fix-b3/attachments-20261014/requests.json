@@ -1,0 +1,329 @@
+{
+  "https://csw.jlu.edu.cn/robots.txt": {
+    "url": "https://csw.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T16:01:59+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://csw.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://csw.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://csw.jlu.edu.cn/info/1095/8548.htm": {
+    "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+    "time": "2026-10-14T16:01:59+08:00",
+    "ok": true,
+    "final_url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889",
+    "html_path": "html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+    "replacement_chars": 0,
+    "chars": 17157,
+    "attempts": 1
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+    "time": "2026-10-14T16:02:00+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:01+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/768708ebebf4fab4552e11d63865eed00ac490b8e1425ba7260e63896d8ab764.bin",
+    "prefix_sha256": "768708ebebf4fab4552e11d63865eed00ac490b8e1425ba7260e63896d8ab764",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742",
+    "time": "2026-10-14T16:02:01+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:03+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/b2dac3309bcbc51dacef7432adc3ee64f52f44708dee2908e6129258ac88d2fa.bin",
+    "prefix_sha256": "b2dac3309bcbc51dacef7432adc3ee64f52f44708dee2908e6129258ac88d2fa",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739",
+    "time": "2026-10-14T16:02:03+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:04+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/309aa3972dde285644d0af663eabf6d829a5b5ec31ffbfb4bed1973190fd688f.bin",
+    "prefix_sha256": "309aa3972dde285644d0af663eabf6d829a5b5ec31ffbfb4bed1973190fd688f",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738",
+    "time": "2026-10-14T16:02:04+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:05+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/d74f98dbb5f5c6e0e7d502430aaf05fa403ea0135448951fa1eee70432393576.bin",
+    "prefix_sha256": "d74f98dbb5f5c6e0e7d502430aaf05fa403ea0135448951fa1eee70432393576",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741",
+    "time": "2026-10-14T16:02:05+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:07+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/9e7b48c4d7b026458611f12849ef89b11c4d059382435797e86038a3b78ec1f0.bin",
+    "prefix_sha256": "9e7b48c4d7b026458611f12849ef89b11c4d059382435797e86038a3b78ec1f0",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "b3-prefix:https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740": {
+    "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740",
+    "time": "2026-10-14T16:02:07+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "jpg",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:08+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/355d56697029c0ff8eec52b76559cc45fe9671a9f9d915ab524e2a62a503dc77.bin",
+    "prefix_sha256": "355d56697029c0ff8eec52b76559cc45fe9671a9f9d915ab524e2a62a503dc77",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "https://ccst.jlu.edu.cn/robots.txt": {
+    "url": "https://ccst.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T16:02:08+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://ccst.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://ccst.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://ccst.jlu.edu.cn/info/1056/21217.htm": {
+    "url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+    "time": "2026-10-14T16:02:08+08:00",
+    "ok": true,
+    "final_url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "097bbe25827908c4028841a07e67f6d4165499ea494f9488df2dd13b25b40b56",
+    "html_path": "html/097bbe25827908c4028841a07e67f6d4165499ea494f9488df2dd13b25b40b56.html",
+    "replacement_chars": 0,
+    "chars": 11256,
+    "attempts": 1
+  },
+  "b3-prefix:https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182": {
+    "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+    "time": "2026-10-14T16:02:10+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "docx",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:11+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/93646cb4d355123e9d52f403cc8d26b249cfe19b4d6b5a469f95e6c41ad021a6.bin",
+    "prefix_sha256": "93646cb4d355123e9d52f403cc8d26b249cfe19b4d6b5a469f95e6c41ad021a6",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "https://jwc.jlu.edu.cn/robots.txt": {
+    "url": "https://jwc.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T16:02:11+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://jwc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://jwc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://jwc.jlu.edu.cn/info/1050/12677.htm": {
+    "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+    "time": "2026-10-14T16:02:11+08:00",
+    "ok": true,
+    "final_url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc",
+    "html_path": "html/1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc.html",
+    "replacement_chars": 0,
+    "chars": 34305,
+    "attempts": 1
+  },
+  "b3-prefix:https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628": {
+    "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+    "time": "2026-10-14T16:02:14+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "xls",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:14+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/2bd448f6de4dc283c43280295b96767c99c664171fb0ab6babdfe77925bf9727.bin",
+    "prefix_sha256": "2bd448f6de4dc283c43280295b96767c99c664171fb0ab6babdfe77925bf9727",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "https://cxcyjyxy.jlu.edu.cn/robots.txt": {
+    "url": "https://cxcyjyxy.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T16:02:14+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://cxcyjyxy.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://cxcyjyxy.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm": {
+    "url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+    "time": "2026-10-14T16:02:14+08:00",
+    "ok": true,
+    "final_url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd",
+    "html_path": "html/66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd.html",
+    "replacement_chars": 0,
+    "chars": 11465,
+    "attempts": 1
+  },
+  "b3-prefix:https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449": {
+    "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+    "time": "2026-10-14T16:02:17+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "pdf",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:02:19+08:00",
+        "status": 206,
+        "category": "CAPTCHA_REQUIRED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+    "content_type": "text/html;charset=UTF-8",
+    "disposition": "",
+    "prefix_path": "prefix/01f2675ea2494e85a3c164c56f979691a655df6ac32c74e39e6a7ae572e10886.bin",
+    "prefix_sha256": "01f2675ea2494e85a3c164c56f979691a655df6ac32c74e39e6a7ae572e10886",
+    "category": "CAPTCHA_REQUIRED",
+    "file_prefix_verified": false,
+    "read_bytes": 3805,
+    "reason": "Verification page; no captcha submission or bypass"
+  },
+  "https://oa.jlu.edu.cn/robots.txt": {
+    "url": "https://oa.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T16:02:19+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+    "attempts": 1
+  },
+  "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?channelId=179577&id=71024221": {
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?channelId=179577&id=71024221",
+    "time": "2026-10-14T16:02:19+08:00",
+    "ok": false,
+    "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+    "attempts": 1
+  }
+}

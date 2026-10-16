@@ -1,0 +1,889 @@
+{
+  "id": "p3-26ed334f996e",
+  "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+  "institution": "后勤处",
+  "column": "通知公告",
+  "site_url": "https://hqc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/26ed334f996e1fea.json",
+  "original_capture_time": "2026-10-13T14:06:47+08:00",
+  "discovery_url": "https://hqc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-26ed334f996e",
+    "name": "后勤处 / 通知公告",
+    "base_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:28+08:00",
+  "details": [
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1067/5841.htm",
+      "list_title": "关于确定王观竹、许耘嘉同志为2026年计划发展对象的公示",
+      "list_date": "2025-12-26",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1067/5841.htm",
+        "time": "2026-10-15T22:08:21+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1067/5841.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6814e001d4de12cfe16ce778a79f7a0aef5a88a98886c2217b8dae2172795268",
+        "html_path": "html/6814e001d4de12cfe16ce778a79f7a0aef5a88a98886c2217b8dae2172795268.html",
+        "replacement_chars": 0,
+        "chars": 14546,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于确定王观竹、许耘嘉同志为2026年计划发展对象的公示",
+        "url": "https://hqc.jlu.edu.cn/info/1067/5841.htm",
+        "publish_date": "2025-12-26",
+        "publisher": null,
+        "content": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将王观竹、许耘嘉同志列为 202 6 年计划发展对象的有关情况进行公示。 公示时间为 202 5 年 12 月 26 日至 2026 年 1 月 4 日（ 5 个工作日）。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。党支部将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 联系电话： 85166542 联系邮箱： houqc@jlu.edu.cn 附： 202 6 年计划发展对象一览表 后勤处党支部 202 5 年 12 月 26 日",
+        "attachments": [
+          {
+            "filename": "附件：计划发展对象一览表.xlsx",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=16682362",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于确定王观竹、许耘嘉同志为2026年计划发展对象的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-12-26 点击量：",
+            "date": "2025-12-26"
+          },
+          {
+            "text": "发布时间：2025-12-26",
+            "date": "2025-12-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 355,
+        "reference_attachment_urls": [
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=16682362"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于确定王观竹、许耘嘉同志为2026年计划发展对象的公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-12-26 点击量：",
+            "date": "2025-12-26"
+          },
+          {
+            "text": "发布时间：2025-12-26",
+            "date": "2025-12-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+      "list_title": "关于和谐家园周转房面向全校出租的通知",
+      "list_date": "2025-05-21",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+        "time": "2026-10-15T22:08:22+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a77ac40051f5d71b21e06eb455f8033a49187069d4d400045b7501cfd9d1de04",
+        "html_path": "html/a77ac40051f5d71b21e06eb455f8033a49187069d4d400045b7501cfd9d1de04.html",
+        "replacement_chars": 0,
+        "chars": 14313,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于和谐家园周转房面向全校出租的通知",
+        "url": "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+        "publish_date": "2025-05-21",
+        "publisher": null,
+        "content": "校内各单位及全体工作人员： 为服务保障学校引进人才、统招计划内博士后、青年教职工和在校工作的各类工作人员周转住房需求，使大家 “安居乐业”，根据《吉林大学公有周转住房管理办法（ 2025 年修订）》相关规定，我校和谐家园小区周转房，即日起面向全校符合办法申请资格条件的在校工作人员出租。 在学校领导支持及学校相关职能部门共同努力下，经政府主管部门同意，我校和谐家园周转房属公共租赁住房的，仅要求家庭在长春市无房，不再限制学历和编制类别，租金继续享受校内人员优惠价格；属保障性租赁住房的，将允许全校未享受过政策福利住房的工作人员申请，同时不再限制学历和编制类别，租金继续享受校内人员优惠价格。 受客观因素影响，目前和谐家园周转房设施条件还存在诸多不足，我们将积极协调校内外资源投入，改善周转房内外环境。 为方便大家了解、申请周转房，我们制作了《吉林大学和谐家园周转房在校人员申请指南》，后勤处房产管理办公室随时受理大家入住申请。同时，如用人单位或个人在 6 月 30 日之前有入住需求的，请在本月底前向后勤处提出用房意向申请，以便我们协调楼宇间房源调配。 欢迎大家咨询、申请入住！ 预约看房电话： 18943955916 和谐家园星旗物业电话： 80660160 后勤处房产管理办公室电话： 85166543 后勤处 2025 年 5 月 20 日",
+        "attachments": [
+          {
+            "filename": "吉林大学和谐家园周转房在校人员申请指南.pdf",
+            "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=16560868",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于和谐家园周转房面向全校出租的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-05-21 点击量：",
+            "date": "2025-05-21"
+          },
+          {
+            "text": "发布时间：2025-05-21",
+            "date": "2025-05-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 573,
+        "reference_attachment_urls": [
+          "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=16560868"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于和谐家园周转房面向全校出租的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2025-05-21 点击量：",
+            "date": "2025-05-21"
+          },
+          {
+            "text": "发布时间：2025-05-21",
+            "date": "2025-05-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hqc.jlu.edu.cn/info/1067/5358.htm",
+      "list_title": "关于蔡印等职务任免的通知",
+      "list_date": "2023-05-05",
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/info/1067/5358.htm",
+        "time": "2026-10-15T22:08:23+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/info/1067/5358.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f40adbe0d470ec32aee0bec5030866f526ae0bcad99884cb7b7888dcb978b122",
+        "html_path": "html/f40adbe0d470ec32aee0bec5030866f526ae0bcad99884cb7b7888dcb978b122.html",
+        "replacement_chars": 0,
+        "chars": 12100,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于蔡印等职务任免的通知",
+        "url": "https://hqc.jlu.edu.cn/info/1067/5358.htm",
+        "publish_date": "2023-05-05",
+        "publisher": null,
+        "content": "校人字〔 2023 〕 49 号 校内各单位： 根据《吉林大学科级干部选拔任用实施办法》有关规定，经学校研究决定， 聘任： 蔡印为教务处实践教学科科长，免去其教务处创新教育与实践教学科科长职务，任免职时间为 2022 年 11 月 21 日。 聘任： 聂文博为实验室管理处仪器设备共享管理科科长，任职时间为 2022 年 11 月 24 日。 聘任： 赵南洋为后勤处住宅管理科副科长； 赵金铭为后勤处副科级秘书； 王观竹为后勤处工程管理科副科长； 许耘嘉为后勤处信息管理科副科长。 以上人员任职时间为 2022 年 12 月 12 日。 聘任： 宇鹏飞为物理学院科研与学科建设办公室主任（正科级），任职时间为 2023 年 1 月 10 日。 聘任： 曾媛为教务处教学运行科科长，聘任时间为 2023 年 2 月 24 日。 人力资源处 2023 年 3 月 10 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于蔡印等职务任免的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2023-05-05 点击量：",
+            "date": "2023-05-05"
+          },
+          {
+            "text": "发布时间：2023-05-05",
+            "date": "2023-05-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 384,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于蔡印等职务任免的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2023-05-05 点击量：",
+            "date": "2023-05-05"
+          },
+          {
+            "text": "发布时间：2023-05-05",
+            "date": "2023-05-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:08:17+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "124f605761b24c1cecc5c72f1ea152ab458019fccbc44222be160fb1c04080a0",
+        "html_path": "html/124f605761b24c1cecc5c72f1ea152ab458019fccbc44222be160fb1c04080a0.html",
+        "replacement_chars": 0,
+        "chars": 17357,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hqc.jlu.edu.cn/info/1067/5373.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5387.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5391.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5392.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5402.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5491.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5561.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5711.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5841.htm"
+      ],
+      "observed_next_urls": [
+        "https://hqc.jlu.edu.cn/tzgg/22.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://hqc.jlu.edu.cn/tzgg/22.htm",
+        "time": "2026-10-15T22:08:20+08:00",
+        "ok": true,
+        "final_url": "https://hqc.jlu.edu.cn/tzgg/22.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "1e550e7eaebbacd4adb30fee9fc015920a2b05c6a0041d2ee936088139d2fdca",
+        "html_path": "html/1e550e7eaebbacd4adb30fee9fc015920a2b05c6a0041d2ee936088139d2fdca.html",
+        "replacement_chars": 0,
+        "chars": 17665,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hqc.jlu.edu.cn/info/1067/4571.htm",
+        "https://hqc.jlu.edu.cn/info/1067/4630.htm",
+        "https://hqc.jlu.edu.cn/info/1067/4690.htm",
+        "https://hqc.jlu.edu.cn/info/1067/4760.htm",
+        "https://hqc.jlu.edu.cn/info/1067/4841.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5031.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5111.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5153.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5356.htm",
+        "https://hqc.jlu.edu.cn/info/1067/5358.htm"
+      ],
+      "observed_next_urls": [
+        "https://hqc.jlu.edu.cn/tzgg/21.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:08:17+08:00",
+    "ok": true,
+    "final_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "124f605761b24c1cecc5c72f1ea152ab458019fccbc44222be160fb1c04080a0",
+    "html_path": "html/124f605761b24c1cecc5c72f1ea152ab458019fccbc44222be160fb1c04080a0.html",
+    "replacement_chars": 0,
+    "chars": 17357,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定王观竹、许耘嘉同志为2026年计划发展对象的公示",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5841.htm",
+      "publish_date": "2025-12-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于和谐家园周转房面向全校出租的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5763.htm",
+      "publish_date": "2025-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将程勃同志转为中共正式党员的公示",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5711.htm",
+      "publish_date": "2024-12-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于后勤处面向处内民主推荐正科级干部的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5561.htm",
+      "publish_date": "2023-12-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于张伟等职务任免的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5491.htm",
+      "publish_date": "2023-09-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于后勤处新聘教职工固定聘期满考核及试用期满考核结果的公示",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5402.htm",
+      "publish_date": "2023-06-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于南湖校区围墙施工封闭相关道路的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5392.htm",
+      "publish_date": "2023-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于中心校区生命科学楼维修项目施工封闭周边道路的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5391.htm",
+      "publish_date": "2023-06-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于田进等职务任免的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5387.htm",
+      "publish_date": "2023-06-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于黄河等职务任免的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5373.htm",
+      "publish_date": "2023-05-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于蔡印等职务任免的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5358.htm",
+      "publish_date": "2023-05-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于刘长有等职务任免的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5356.htm",
+      "publish_date": "2023-05-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于后勤处副科级干部拟聘人选的公示",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5153.htm",
+      "publish_date": "2023-02-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定程勃同志为2023年计划发展对象的公示",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5111.htm",
+      "publish_date": "2022-12-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于中心校区鼎新楼西北侧停车场启用的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/5031.htm",
+      "publish_date": "2022-11-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于校园封闭管理期间快递收取的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/4841.htm",
+      "publish_date": "2022-10-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于校园封闭期间快递收发工作的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/4760.htm",
+      "publish_date": "2022-09-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于征求飞跃路修建天桥意见的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/4690.htm",
+      "publish_date": "2022-08-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学修缮工程实施细则》的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/4630.htm",
+      "publish_date": "2022-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学建筑安全隐患专项排查整治工作方案》的通知",
+      "url": "https://hqc.jlu.edu.cn/info/1067/4571.htm",
+      "publish_date": "2022-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://hqc.jlu.edu.cn/tzgg/22.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-26ed334f996e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.41999514400959e-05,
+      "detail_duration_seconds": 9.500072337687016e-06,
+      "parse_db_duration_seconds": 0.030597800039686263
+    },
+    "second_round": {
+      "source": "p3-26ed334f996e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.850002445280552e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-26ed334f996e",
+    "institution": "后勤处",
+    "column": "通知公告",
+    "url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:08:17+08:00",
+    "review_time": "2026-10-15T23:00:28+08:00",
+    "http_status": 200,
+    "final_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://hqc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-26ed334f996e.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

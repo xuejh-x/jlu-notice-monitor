@@ -1,0 +1,490 @@
+{
+  "id": "p3-208e2a8cdba2",
+  "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+  "institution": "原子与分子物理研究所",
+  "column": "教学信息",
+  "site_url": "http://iamp.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | LIST_DETAIL_DATE_DIFFERENCE",
+  "original_evidence": "docs/jlu-audit-evidence/results/208e2a8cdba2de03.json",
+  "original_capture_time": "2026-10-13T14:02:56+08:00",
+  "discovery_url": "http://iamp.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-208e2a8cdba2",
+    "name": "原子与分子物理研究所 / 教学信息",
+    "base_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:12+08:00",
+  "details": [
+    {
+      "url": "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+      "list_title": "01 2026.08 吉林大学原子与分子物理研究所开展2025-2026学年第二学期期末巡考工作 为强化研究生考试全过程管理，严肃考风考纪，保障期末考试公平、公正、有序开展，2026年7月2日，原子与分子物理研究所开展2025-2026学年第二学期研究生期末巡考工作。本学期巡考工作由研究所党委书记张光宇、所长王春成、副所长郭静带队，深入研究生专业必修课程“势散射理论”期末考试现场，开展实地巡考检查。巡考小组重点检查了考试组织、考场秩序、试卷命题质量及监考教师履职情况，并就试题内容、难易程度以及学生答题状态...",
+      "list_date": "2026-08-01",
+      "response": {
+        "url": "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+        "time": "2026-10-15T22:15:35+08:00",
+        "ok": true,
+        "final_url": "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "234c4a6541a02e2404f4bbd7d4654fd342a237552449110dc7941c80ea43fc0d",
+        "html_path": "html/234c4a6541a02e2404f4bbd7d4654fd342a237552449110dc7941c80ea43fc0d.html",
+        "replacement_chars": 0,
+        "chars": 24146,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学原子与分子物理研究所开展2025-2026学年第二学期期末巡考工作",
+        "url": "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+        "publish_date": "2026-08-01",
+        "publisher": null,
+        "content": "为强化研究生考试全过程管理，严肃考风考纪，保障期末考试公平、公正、有序开展， 2026年7月2日，原子与分子物理研究所开展2025-2026学年第二学期研究生期末巡考工作。 http://iamp.jlu.edu.cn/__local/0/EB/75/84F31F70B00297179194EDB9DBD_ABBF4D5B_6515C.jpg 本学期巡考工作由研究所党委书记张光宇、所长王春成、副所长郭静带队，深入研究生专业必修课程 “势散射理论”期末考试现场，开展实地巡考检查。巡考小组重点检查了考试组织、考场秩序、试卷命题质量及监考教师履职情况，并就试题内容、难易程度以及学生答题状态等，与监考教师进行了细致交流。 巡考过程中，考场秩序井然，监考教师认真履职、严格监考，学生自觉遵守考试纪律、诚信作答，充分展现了研究所师生严谨求实的教风学风与良好的考试风貌。 研究生期末巡考工作是研究所教学质量监控体系的重要环节，也是加强研究生培养过程管理、促进教育公平公正的重要举措。未来，研究所将继续落实巡考工作常态化机制，持续强化考风考纪建设，以严考风促优学风，积极营造风清气正、严谨求实的育人环境。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": ""
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一篇： 聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二）"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 412,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h3",
+            "classes": [],
+            "text": "吉林大学原子与分子物理研究所开展2025-2026学年第二学期期末巡考工作"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "时间：2026-08-01",
+            "date": "2026-08-01"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+      "list_title": "01 2026.08 聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二） 为扎实推进研究生教育教学质量建设，持续加强教风学风建设，切实保障研究生课堂教学质量。2026年6月27日，研究所党委书记张光宇、副所长郭静、教学督导组专家及相关教师一行深入研究生课堂，开展了本学期第二轮集中听课与教学巡查。本轮听课聚焦研究所专业核心课程《势散射理论》，该课程由研究所骨干教师闫冰教授主讲。课堂上，闫冰教授教学内容设计合理，注重将前沿散射理论与学科特色深度融贯，通过案例分析与互动研讨，引导...",
+      "list_date": "2026-08-01",
+      "response": {
+        "url": "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+        "time": "2026-10-15T22:15:36+08:00",
+        "ok": true,
+        "final_url": "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b180fa8900b3aed5b89f28e42c650f77ad1ab80b1bd0c16beb476d20d85f9ea4",
+        "html_path": "html/b180fa8900b3aed5b89f28e42c650f77ad1ab80b1bd0c16beb476d20d85f9ea4.html",
+        "replacement_chars": 0,
+        "chars": 25887,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二）",
+        "url": "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+        "publish_date": "2026-08-01",
+        "publisher": null,
+        "content": "为 扎实推进研究生教育教学质量建设 ， 持续加强教风学风建设，切实保障研究生课堂教学质量 。 2026 年 6 月 27 日 ，研究所党委书记张光宇、副所长郭静、教学督导组专家及相关 教师 一行深入研究生课堂，开展了本学期第二轮集中听课与教学巡查。 http://iamp.jlu.edu.cn/__local/6/AC/8B/62FC343BAE19F1CF9722642C255_D4FB6F5A_2E68A.jpg 本轮听课聚焦研究所 专业核心课程 《 势散射理论 》 ， 该课程由研究所骨干教师 闫冰教授 主讲 。 课堂上，闫冰教授教学内容设计合理，注重将前沿 散射理论 与学科特色 深度融贯 ，通过案例分析与互动研讨，引导学生深入理解 专业知识 。课后，听课小组与任课教师进行了深入交流，就教学内容的前沿性、教学方法的启发性以及课程思政元素的有机融入等方面给予了充分肯定。课堂整体教学秩序井然，学生听课专注、互动积极，展现了研究所师生良好的教风学风与严谨求实的治学态度。 http://iamp.jlu.edu.cn/__local/E/29/AF/4602BE0F32F56936E7B7DA96442_EEA1FE7E_2F13A.jpg 研究所领导班子坚持定期深入教学一线，通过常态化听课巡查，及时发现并解决教学运行中的实际问题，持续推动研究生课程体系优化与教学模式创新。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一篇： 吉林大学原子与分子物理研究所开展2025-2026学年第二学期期末巡考工作"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一篇： 吉林大学原子与分子物理研究所举办量子信息物理基础系列学术讲座"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 422,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h3",
+            "classes": [],
+            "text": "聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二）"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "时间：2026-08-01",
+            "date": "2026-08-01"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://iamp.jlu.edu.cn/info/1030/9301.htm",
+      "list_title": "18 2024.11 吉林大学原子与分子物理研究所举办量子信息物理基础系列学术讲座 近日，原子与分子物理研究所邀请我校物理学院长期从事量子力学、高等量子力学和量子信息科学教学工作及相关理论研究的曾国模教授为我所师生举办“量子信息物理基础”系列学术讲座。此讲座自2024年10月18日开始，持续六周。内容上涵盖经典计算、量子力学引论、量子计算和量子通信四部分。曾国模教授首先扼要介绍了量子信息科学的主要内容，接下来概述经典计算和量子力学的基础理论，进而过渡到量子计算和量子信息原理的核心部分...",
+      "list_date": "2024-11-18",
+      "response": {
+        "url": "http://iamp.jlu.edu.cn/info/1030/9301.htm",
+        "time": "2026-10-15T22:15:37+08:00",
+        "ok": true,
+        "final_url": "http://iamp.jlu.edu.cn/info/1030/9301.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8b22f4bc389af3c6caf67dbb93fde92f9e30a999323108f39caf85878f12f270",
+        "html_path": "html/8b22f4bc389af3c6caf67dbb93fde92f9e30a999323108f39caf85878f12f270.html",
+        "replacement_chars": 0,
+        "chars": 24145,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学原子与分子物理研究所举办量子信息物理基础系列学术讲座",
+        "url": "http://iamp.jlu.edu.cn/info/1030/9301.htm",
+        "publish_date": "2024-11-18",
+        "publisher": null,
+        "content": "近日，原子与分子物理研究所邀请我校物理学院长期从事量子力学、高等量子力学和量子信息科学教学工作及相关理论研究的曾国模教授为我所师生举办“量子信息物理基础”系列学术讲座。此讲座自2024年10月18日开始，持续六周。内容上涵盖经典计算、量子力学引论、量子计算和量子通信四部分。 http://iamp.jlu.edu.cn/__local/2/89/58/6CC0F39B8C29432A2677D1EF2A6_082F6742_50F69.jpg 曾国模教授首先扼要介绍了量子信息科学的主要内容，接下来概述经典计算和量子力学的基础理论，进而过渡到量子计算和量子信息原理的核心部分，并与师生们深入交流了量子计算、量子通信以及量子精密测量等量子信息科技的最新研究进展和未来应用前景。曾老师的讲座图文并茂、资料详实、讲解细致，吸引了研究所众多教师和学生前来学习。师生们纷纷表示收获颇丰，对未来的科研方向有了更明确的规划和认识。 此次系列学术讲座不仅加深了研究所师生对量子信息科学的理解，进一步夯实了研究所在量子信息领域的研究基础，也极大地激发了师生们对量子信息科技的研究热情。 http://iamp.jlu.edu.cn/__local/5/50/4D/44E87E49E1E689C0AD4E85E904A_EA36402B_3CE25.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一篇： 聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二）"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": ""
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 399,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "h3",
+            "classes": [],
+            "text": "吉林大学原子与分子物理研究所举办量子信息物理基础系列学术讲座"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "时间：2024-11-18",
+            "date": "2024-11-18"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+        "time": "2026-10-15T22:15:33+08:00",
+        "ok": true,
+        "final_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "59e0454cec40c94a8442a9596dd1c5ae01f906a3d5407458c41df791856358b4",
+        "html_path": "html/59e0454cec40c94a8442a9596dd1c5ae01f906a3d5407458c41df791856358b4.html",
+        "replacement_chars": 0,
+        "chars": 21582,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+        "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+        "http://iamp.jlu.edu.cn/info/1030/9301.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "time": "2026-10-15T22:15:33+08:00",
+    "ok": true,
+    "final_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "59e0454cec40c94a8442a9596dd1c5ae01f906a3d5407458c41df791856358b4",
+    "html_path": "html/59e0454cec40c94a8442a9596dd1c5ae01f906a3d5407458c41df791856358b4.html",
+    "replacement_chars": 0,
+    "chars": 21582,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "01 2026.08 吉林大学原子与分子物理研究所开展2025-2026学年第二学期期末巡考工作 为强化研究生考试全过程管理，严肃考风考纪，保障期末考试公平、公正、有序开展，2026年7月2日，原子与分子物理研究所开展2025-2026学年第二学期研究生期末巡考工作。本学期巡考工作由研究所党委书记张光宇、所长王春成、副所长郭静带队，深入研究生专业必修课程“势散射理论”期末考试现场，开展实地巡考检查。巡考小组重点检查了考试组织、考场秩序、试卷命题质量及监考教师履职情况，并就试题内容、难易程度以及学生答题状态...",
+      "url": "http://iamp.jlu.edu.cn/info/1030/10012.htm",
+      "publish_date": "2026-08-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "01 2026.08 聚焦课堂主阵地，严把教学质量关——吉林大学原子与分子物理研究所开展2026年春季学期系列听课工作（二） 为扎实推进研究生教育教学质量建设，持续加强教风学风建设，切实保障研究生课堂教学质量。2026年6月27日，研究所党委书记张光宇、副所长郭静、教学督导组专家及相关教师一行深入研究生课堂，开展了本学期第二轮集中听课与教学巡查。本轮听课聚焦研究所专业核心课程《势散射理论》，该课程由研究所骨干教师闫冰教授主讲。课堂上，闫冰教授教学内容设计合理，注重将前沿散射理论与学科特色深度融贯，通过案例分析与互动研讨，引导...",
+      "url": "http://iamp.jlu.edu.cn/info/1030/10013.htm",
+      "publish_date": "2026-08-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "18 2024.11 吉林大学原子与分子物理研究所举办量子信息物理基础系列学术讲座 近日，原子与分子物理研究所邀请我校物理学院长期从事量子力学、高等量子力学和量子信息科学教学工作及相关理论研究的曾国模教授为我所师生举办“量子信息物理基础”系列学术讲座。此讲座自2024年10月18日开始，持续六周。内容上涵盖经典计算、量子力学引论、量子计算和量子通信四部分。曾国模教授首先扼要介绍了量子信息科学的主要内容，接下来概述经典计算和量子力学的基础理论，进而过渡到量子计算和量子信息原理的核心部分...",
+      "url": "http://iamp.jlu.edu.cn/info/1030/9301.htm",
+      "publish_date": "2024-11-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 3,
+  "pagination": [
+    {
+      "start_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+          "parsed_items": 3,
+          "added_items": 3
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-208e2a8cdba2",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.5400076992809772e-05,
+      "detail_duration_seconds": 1.4900113455951214e-05,
+      "parse_db_duration_seconds": 0.030396100017242134
+    },
+    "second_round": {
+      "source": "p3-208e2a8cdba2",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6200006939470768e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-208e2a8cdba2",
+    "institution": "原子与分子物理研究所",
+    "column": "教学信息",
+    "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | LIST_DETAIL_DATE_DIFFERENCE",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:15:33+08:00",
+    "review_time": "2026-10-15T23:01:12+08:00",
+    "http_status": 200,
+    "final_url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "list_pages": 1,
+    "list_items": 3,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://iamp.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-208e2a8cdba2.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,162 @@
+{
+  "column_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+  "column": "相关公示",
+  "institution": "国际合作与交流处",
+  "site_url": "https://oic.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P3",
+  "discovery_url": "https://oic.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:35:14+08:00",
+  "checked_at": "2026-10-13T14:07:56+08:00",
+  "status": "部分通过",
+  "issues": [
+    "TITLE_NOT_IN_DETAIL_HEADING",
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED"
+  ],
+  "details": [
+    {
+      "url": "http://rsgl.jlu.edu.cn/info/1028/2854.htm",
+      "list_title": "Dingxin Scholar Program",
+      "parsed_title": "Dingxin Scholar Program",
+      "document_title": "Global Recruitment of 2020 Jilin University “Dingxin Scholar” Program-吉林大学人力资源处",
+      "heading_texts": [],
+      "title_verified": false,
+      "list_date": "",
+      "parsed_date": "2020-05-29",
+      "reference_date": "2020-05-29",
+      "body_selector": ".v_news_content",
+      "content_chars": 4119,
+      "content_preview": "Jilin University (hereinafter referred to as “JLU”) “Dingxin Scholar” Program is launched to recruit outstanding young scholars from home and abroad so as to nurture their huge development potential, strong self-motivation and vigorous innovation by supporting their academic exploration in innovative research. JLU sincerely welcomes outstanding young talents with a vision of innovation and dedicat",
+      "content_sha256": "88f0658d3bb49aa880108ea2e1e8ae46ed4919fd91a77b562d0251e16998bc0c",
+      "raw_attachments": [
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+          "filename": "Contact Information of the Schools(Departments）of Jilin univercity.xlsx"
+        },
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530518",
+          "filename": "Application Form of Jilin University “Dingxin Scholar” Program.docx"
+        },
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530519",
+          "filename": "Letter of Recommendation.doc"
+        },
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+          "filename": "Contact Information of the Schools(Departments）of Jilin univercity.xlsx"
+        },
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530518",
+          "filename": "Application Form of Jilin University “Dingxin Scholar” Program.docx"
+        },
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530519",
+          "filename": "Letter of Recommendation.doc"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "Contact Information of the Schools(Departments）of Jilin univercity.xlsx",
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+          "type": "xlsx"
+        },
+        {
+          "filename": "Application Form of Jilin University “Dingxin Scholar” Program.docx",
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530518",
+          "type": "docx"
+        },
+        {
+          "filename": "Letter of Recommendation.doc",
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530519",
+          "type": "doc"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T14:04:53+08:00",
+      "sha256": "10213d76c5406cc4f26178f0973750fcf15570a83dcb9b5f1c0e289885a39e55",
+      "snapshot": "html/10213d76c5406cc4f26178f0973750fcf15570a83dcb9b5f1c0e289885a39e55.html",
+      "attachment_probes": [
+        {
+          "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+          "time": "2026-10-13T14:04:55+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Dingxin Scholar Program",
+      "url": "http://rsgl.jlu.edu.cn/info/1028/2854.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告",
+      "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+      "publish_date": "2026-01-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/79dae7a36e3058b0.json",
+  "reason": "TITLE_NOT_IN_DETAIL_HEADING; ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+  "list_sha256": "8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444",
+  "list_snapshot": "html/8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 2,
+  "unparsed_reference_links": []
+}

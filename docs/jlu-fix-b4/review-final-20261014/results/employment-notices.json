@@ -1,0 +1,464 @@
+{
+  "id": "employment-notices",
+  "institution": "学生就业创业指导与服务中心",
+  "column": "通知公告",
+  "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+  "captured_at": "2026-10-14T16:34:00+08:00",
+  "validated_at": "2026-10-14T16:47:27+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_SAMPLE_PASSED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=6cb04fca748746789073c7698b204628",
+      "list_title": "【吉林大学邀请函】东北五校2027届毕业生秋季双选会吉林大学专场",
+      "list_date": "2026-09-20",
+      "captured_at": "2026-10-14T16:34:17+08:00",
+      "snapshot": "html/c2c677405a26400a7d1541418ff994ee1394686582ea4ac9bb83ca5379281280.html",
+      "sha256": "c2c677405a26400a7d1541418ff994ee1394686582ea4ac9bb83ca5379281280",
+      "title": "【吉林大学邀请函】东北五校2027届毕业生秋季双选会吉林大学专场",
+      "date": "2026-09-20",
+      "content_chars": 1924,
+      "content_sha256": "ac6d640c44c8bbc9f4d3522d8fc55d557421f7bd177be512d3cf7a20c6daede9",
+      "content_preview": "尊敬的用人单位： 东北五校毕业生就业工作协作体衷心感谢贵单位多年来对 吉林大学 、 大连理工大学、哈尔滨工业大学、 东北大学、哈尔滨工程大学的 重视、信任 与支持。 为全面落实党中央、国务院对高校毕业生就业创业工作的决策部署，为用人单位和毕业生搭建供需精准对接平台，为区域经济振兴和人才储备提供持续动力，东北五校将联合举办2027届毕业生秋季双选会 。 吉林大学2027届毕业生秋季双选会定于2026年10月21日 （ 星期三 ） 召开，诚挚邀请贵单位莅临参加。 https://jdjyw.jlu.edu.cn/profile/ueditor/upload/image/20260920/17898",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": ".m-detail-container__title",
+          "title": "【吉林大学邀请函】东北五校2027届毕业生秋季双选会吉林大学专场"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布：刘子祯 创建时间：2026-09-20 15:22:01 点击量：",
+          "date": "2026-09-20"
+        },
+        {
+          "text": "创建时间：2026-09-20 15:22:01",
+          "date": "2026-09-20"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 1489,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+      "list_title": "吉林大学2027届毕业生秋季校园招聘邀请函",
+      "list_date": "2026-07-20",
+      "captured_at": "2026-10-14T16:34:18+08:00",
+      "snapshot": "html/2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1.html",
+      "sha256": "2b80a35043b2ed51367d442a02b4c19f74e448408630e54982a3e684c51088f1",
+      "title": "吉林大学2027届毕业生秋季校园招聘邀请函",
+      "date": "2026-07-20",
+      "content_chars": 1322,
+      "content_sha256": "1f02372cc41f7c1e8051882c9e16a65308bc713483d44194503f07aa3917f603",
+      "content_preview": "尊敬的用人单位： 衷心感谢贵单位多年来对我校学生就业工作的关心和支持。吉林大学 202 7 届毕业生秋季线下校园招聘活动定 于 202 6 年 9 月 7日（星期 一 ）开始 ，诚邀贵单位来我校开展招聘活动。现将相关安排说明如下： 一、日程安排 2027届毕业生秋季校园招聘会自2026年9月2日正式开放申请 ，用人单位 可 通过 “吉林大学就业网” （ jdjyw.jlu.edu.cn）提出申请，拟定举办线下校园招聘会的首日为 2026年9 月 7日（星期 一 ），请各用人单位提前做好时间安排。 二、校园招聘 用人单位可通过吉林大学就业网 “ 校园招聘 ”栏发布相关招聘信息。审批通过后，毕业生",
+      "attachments": [
+        {
+          "filename": "1. 吉林大学2027届毕业生资源信息手册.pdf",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+          "type": "pdf"
+        },
+        {
+          "filename": "2.吉林大学各校区简介及分布图 .pdf",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=6de5088b81594c2f8e2fb632050d2224",
+          "type": "pdf"
+        },
+        {
+          "filename": "3.学生就业创业指导与服务中心区位图.pdf",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d1adc5fd948142aba5fc1a760aa8843e",
+          "type": "pdf"
+        },
+        {
+          "filename": "4.线下招聘系统申请操作指南.pdf",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=19372459505d40feaffc1539af619bb5",
+          "type": "pdf"
+        },
+        {
+          "filename": "5.入校申请指南.pdf",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=8672f21193594802b2b93fbae300fdd1",
+          "type": "pdf"
+        },
+        {
+          "filename": "6.吉林大学公众平台发布及申请指南.docx",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=250a79390ada42f980b8c12db657b818",
+          "type": "docx"
+        },
+        {
+          "filename": "7.吉林大学校园招聘宣讲活动行为规范.docx",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=224174761ed84d1d843dad5a9d94b775",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": ".m-detail-container__title",
+          "title": "吉林大学2027届毕业生秋季校园招聘邀请函"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布：孙小惠 创建时间：2026-07-20 16:23:58 点击量：",
+          "date": "2026-07-20"
+        },
+        {
+          "text": "创建时间：2026-07-20 16:23:58",
+          "date": "2026-07-20"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 1235,
+      "reference_attachment_urls": [
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=19372459505d40feaffc1539af619bb5",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=224174761ed84d1d843dad5a9d94b775",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=250a79390ada42f980b8c12db657b818",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=6de5088b81594c2f8e2fb632050d2224",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=8672f21193594802b2b93fbae300fdd1",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d1adc5fd948142aba5fc1a760aa8843e",
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=04d3060cf4b748b181d4fefe40c6d3bf",
+      "list_title": "关于组织参加“泉城百校共未来・百名硕博人才泉城行”活动的通知",
+      "list_date": "2026-09-03",
+      "captured_at": "2026-10-14T16:34:19+08:00",
+      "snapshot": "html/876c07b1a7afae0f7222dbe189936056ad3d3f49d9ea18c622601b7f8449b214.html",
+      "sha256": "876c07b1a7afae0f7222dbe189936056ad3d3f49d9ea18c622601b7f8449b214",
+      "title": "关于组织参加“泉城百校共未来・百名硕博人才泉城行”活动的通知",
+      "date": "2026-09-03",
+      "content_chars": 703,
+      "content_sha256": "981937cf6d01d657d55c5a95ee8f23e12cd5b82b041b74deb132be58cf6ad790",
+      "content_preview": "为拓宽我校毕业生就业发展渠道，深化校地企产学研合作，搭建就业洽谈对接平台，推介优质产业平台与人才扶持政策，现 组织 我校 在校 硕博研究生参加 “ 泉城百校共未来・百名硕博人才泉城行 ” 活动，现将相关事项通知如下：： 一、活动时间 9月20日（星期日）至9月21日（星期一），共2天。 二 、报名条件 1.主要面向我校电子信息、装备制造、先进材料、食品 制造 、医药健康等 相关 专业 全日制在读硕博研究生， 2027届毕业生优先。 2. 政治素质较好，学习成绩优良，诚实守信正直。 3. 具有中共党员、获得校级及以上表彰奖励、担任主要学生干部、有相关科研成果或产业实习经历等条件之一的学生优先。 ",
+      "attachments": [
+        {
+          "filename": "吉林大学百名硕博人才泉城行活动报名表.docx",
+          "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=7338c5c668d04574a4370e374551fda6",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": ".m-detail-container__title",
+          "title": "关于组织参加“泉城百校共未来・百名硕博人才泉城行”活动的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布：石雪菲 创建时间：2026-09-03 14:48:47 点击量：",
+          "date": "2026-09-03"
+        },
+        {
+          "text": "创建时间：2026-09-03 14:48:47",
+          "date": "2026-09-03"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 703,
+      "reference_attachment_urls": [
+        "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=7338c5c668d04574a4370e374551fda6"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+      "time": "2026-10-14T16:34:20+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "pdf",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:34:22+08:00",
+          "status": 200,
+          "category": "FILE_PREFIX_VERIFIED"
+        }
+      ],
+      "status": 200,
+      "final_url": "https://jdjyw.jlu.edu.cn/portal/common/downloadFile?id=d4ac9ac8086b4f4d918b7f87a4a2ad9d",
+      "content_type": "multipart/form-data;charset=utf-8",
+      "disposition": "attachment;filename*=UTF-8''1.+%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62027%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E8%B5%84%E6%BA%90%E4%BF%A1%E6%81%AF%E6%89%8B%E5%86%8C.pdf",
+      "prefix_path": "prefix/a4f56a82f20712e0d827b321567ad30fdd6b1da802633ab0eb7a3be690dcbf0c.bin",
+      "prefix_sha256": "a4f56a82f20712e0d827b321567ad30fdd6b1da802633ab0eb7a3be690dcbf0c",
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "read_bytes": 4096,
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "pdf"
+      ],
+      "filename": "1. 吉林大学2027届毕业生资源信息手册.pdf",
+      "type": "pdf"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+  "reason": "REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED",
+  "final_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+  "list_snapshot": "html/66390b93483788ed4848049b93b380b50ccc0420471016c6af358b38c6564e01.html",
+  "list_sha256": "66390b93483788ed4848049b93b380b50ccc0420471016c6af358b38c6564e01",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【吉林大学邀请函】东北五校2027届毕业生秋季双选会吉林大学专场",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=6cb04fca748746789073c7698b204628",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2027届毕业生秋季校园招聘邀请函",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=68323d13461144df9d6e101775d24078",
+      "publish_date": "2026-07-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织参加“泉城百校共未来・百名硕博人才泉城行”活动的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=04d3060cf4b748b181d4fefe40c6d3bf",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于选拔吉林大学第二十四届就业服务志愿者的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=f1c48e92cace4a8fb181d26169647b6d",
+      "publish_date": "2026-08-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于转发青岛市人力资源和社会保障局《关于开展博士人才需求对接的函》的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=830cc6bbf11b4b8e9561edaf9efab10e",
+      "publish_date": "2026-07-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于动员参加芜湖紫云英人才城市体验专场活动的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=9ff797a1a31c44a3a0f209af6be23606",
+      "publish_date": "2026-07-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【活动延期，具体时间另行通知】关于动员参加“情系天府 才聚四川” 2026北方高校博士（后）四川行活动的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=1a5e6be355ea42f3a3973f30181801ee",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织参加“发现无锡 爱上梁溪” 2026青年工程师产业训练营的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=c3f6a569dfac420188216ea3ac283f65",
+      "publish_date": "2026-07-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于转发《“选择济南共赢未来”2026年优秀大学生就业创业“泉城行”训练营活动邀请函》的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=9e74027cd804434fbf614e567d06b298",
+      "publish_date": "2026-06-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年吉林大学暑假大学生政务实习（河北省石家庄市）的通知",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=e3f930b8454a4b12921f85df9cdf425d",
+      "publish_date": "2026-06-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "扬帆起航 筑梦青春——未就业青年人社政策服务指南 梅河口市人力资源和社会保障局 2026年6月23日 17:09 吉林",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=0c67cb9666194958b3f9ac32c1496f6c",
+      "publish_date": "2026-06-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "安徽省2026年度面向吉林大学定向招录选调生拟录用人选公示",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/details?id=f2b51dc7b7c84ac799e2f35fe611f2ff",
+      "publish_date": "2026-06-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 12,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 3,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/employment-notices.json"
+}

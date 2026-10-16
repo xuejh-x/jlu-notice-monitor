@@ -1,0 +1,17 @@
+<!-- Sanitized from B5-C live employment list, 2026-10-14; only public pagination markup. -->
+<form name="searchForm" id="searchForm" action="/portal/jyzp/article/list" method="get">
+  <input type="hidden" name="cid" value="jyzp_tzgg">
+  <input id="pageNo" name="pageNo" type="hidden" value="1">
+  <input id="pageSize" name="pageSize" type="hidden" value="12">
+  <input type="text" name="keyword" value="">
+  <input type="submit" name="btn_submit" value="查询">
+</form>
+<ul class="pagination"><li class="page-item"><a class="page-link" href="javascript:" onclick="page(2,12,'');">下一页 »</a></li></ul>
+<script>
+function page(n,s){
+  $("#pageNo").val(n);
+  $("#pageSize").val(s);
+  $("#searchForm").submit();
+  return false;
+}
+</script>

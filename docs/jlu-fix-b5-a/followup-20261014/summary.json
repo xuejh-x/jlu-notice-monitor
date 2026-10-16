@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-14T22:02:18+08:00",
+  "cases": 8,
+  "categories": {
+    "TLS_EOF": 1,
+    "TIMEOUT": 1,
+    "REDIRECT_LIMIT": 2,
+    "PERMISSION_RESTRICTED": 1,
+    "ROBOTS_UNAVAILABLE": 1,
+    "LOGIN_REFERENCE_NOT_FETCHED": 1,
+    "DEFERRED_TO_B7_NOT_FETCHED": 1
+  },
+  "home_pages_attempted": 4,
+  "observed_alternatives_attempted": 2,
+  "http_attempts": 2,
+  "http_responses_this_session": 2,
+  "details_attempted": 0,
+  "formal_sources_changed": 0,
+  "complete_downloads": 0,
+  "database_imported": true,
+  "database_url": "sqlite://",
+  "database_connection_attempts": 0,
+  "mode": "mixed saved requests + uncached live URLs",
+  "reuse_input_dir": "docs/jlu-fix-b5-a/live-20261014"
+}

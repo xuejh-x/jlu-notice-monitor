@@ -1,0 +1,190 @@
+{
+  "observed_at": "2026-10-15T19:03:32.864109+08:00",
+  "mode": "read-only prior installed-client cache; not a new execution of repaired code",
+  "cache_sha256": "a50382b363b3a564442923fe00bbea9609aabc00bd6567972f470a70e3fa2fcb",
+  "recorded_last_run_utc": "2026-10-15 10:18:56.996245",
+  "overall_status": "success",
+  "formal_database_access": false,
+  "source_results": [
+    {
+      "source": "cse",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 11,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ]
+    },
+    {
+      "source": "ccst",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 10,
+          "detail_fetched": 0,
+          "detail_skipped": 10,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 10
+        }
+      ]
+    },
+    {
+      "source": "csw",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 30,
+          "detail_fetched": 0,
+          "detail_skipped": 17,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 17
+        }
+      ]
+    },
+    {
+      "source": "jwc",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 15,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ]
+    },
+    {
+      "source": "innovation",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 15,
+          "detail_fetched": 0,
+          "detail_skipped": 4,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 4
+        }
+      ]
+    },
+    {
+      "source": "oa",
+      "status": "success",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "fetched": 30,
+          "detail_fetched": 26,
+          "detail_skipped": 4,
+          "new_count": 25,
+          "updated_count": 0,
+          "unchanged_count": 5
+        }
+      ]
+    }
+  ]
+}

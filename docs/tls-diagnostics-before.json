@@ -1,0 +1,293 @@
+{
+  "utc_time": "2026-10-11T04:56:04.388830+00:00",
+  "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "openssl": "OpenSSL 3.0.19 27 Jan 2026",
+  "httpx": "0.28.1",
+  "certifi": "2026.07.22",
+  "certifi_exists": true,
+  "default_verify_paths": {
+    "cafile": null,
+    "capath": null,
+    "openssl_cafile_env": "SSL_CERT_FILE",
+    "openssl_cafile": "C:\\Program Files\\Common Files\\SSL/cert.pem",
+    "openssl_capath_env": "SSL_CERT_DIR",
+    "openssl_capath": "C:\\Program Files\\Common Files\\SSL/certs"
+  },
+  "truststore": "pip-vendored diagnostic only",
+  "environment": {
+    "SSL_CERT_FILE": null,
+    "SSL_CERT_DIR": null,
+    "REQUESTS_CA_BUNDLE": null,
+    "CURL_CA_BUNDLE": null,
+    "HTTPS_PROXY": null,
+    "HTTP_PROXY": null,
+    "ALL_PROXY": null,
+    "NO_PROXY": null
+  },
+  "targets": [
+    {
+      "source": "cse",
+      "url": "https://cse.jlu.edu.cn/xytz.htm",
+      "requests": {
+        "httpx_default": {
+          "status": 200,
+          "bytes": 19017,
+          "redirects": [],
+          "final_url": "https://cse.jlu.edu.cn/xytz.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "status": 200,
+          "bytes": 19017,
+          "redirects": [],
+          "final_url": "https://cse.jlu.edu.cn/xytz.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 19017,
+          "redirects": [],
+          "final_url": "https://cse.jlu.edu.cn/xytz.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.83"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.83\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "ccst",
+      "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+      "requests": {
+        "httpx_default": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "status": 200,
+          "bytes": 15935,
+          "redirects": [],
+          "final_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 15935,
+          "redirects": [],
+          "final_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+          "date": "Sun, 11 Oct 2026 04:53:26 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.82"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.82\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "csw",
+      "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+      "requests": {
+        "httpx_default": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "status": 200,
+          "bytes": 18852,
+          "redirects": [],
+          "final_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 18852,
+          "redirects": [],
+          "final_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+          "date": "Sun, 11 Oct 2026 04:56:15 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.84"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.84\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "jwc",
+      "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+      "requests": {
+        "httpx_default": {
+          "status": 200,
+          "bytes": 35128,
+          "redirects": [],
+          "final_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "date": "Sun, 11 Oct 2026 04:56:16 GMT"
+        },
+        "certifi_direct": {
+          "status": 200,
+          "bytes": 35128,
+          "redirects": [],
+          "final_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "date": "Sun, 11 Oct 2026 04:56:16 GMT"
+        },
+        "stdlib_system": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 35128,
+          "redirects": [],
+          "final_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "date": "Sun, 11 Oct 2026 04:56:16 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.85"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.85\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "innovation",
+      "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+      "requests": {
+        "httpx_default": {
+          "status": 200,
+          "bytes": 17168,
+          "redirects": [],
+          "final_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+          "date": "Sun, 11 Oct 2026 04:56:10 GMT"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 17168,
+          "redirects": [],
+          "final_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+          "date": "Sun, 11 Oct 2026 04:56:10 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.86"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.86\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "oa",
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "requests": {
+        "httpx_default": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "status": 200,
+          "bytes": 39025,
+          "redirects": [],
+          "final_url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+          "date": "Sun, 11 Oct 2026 04:53:29 GMT"
+        },
+        "native_system": {
+          "status": 200,
+          "bytes": 39025,
+          "redirects": [],
+          "final_url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+          "date": "Sun, 11 Oct 2026 04:53:31 GMT"
+        }
+      },
+      "dns": [
+        "198.18.0.87"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [
+          "subject=CN=*.jlu.edu.cn\nissuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1\nnotBefore=Jul  7 00:00:00 2026 GMT\nnotAfter=Jan 21 23:59:59 2027 GMT\nsha256 Fingerprint=1F:F3:45:E1:8B:5F:B1:59:76:4D:1D:F1:35:DD:61:1C:E8:50:A2:02:8E:51:09:24:D2:3E:42:BD:DB:60:01:17\nX509v3 Subject Alternative Name: \n    DNS:*.jlu.edu.cn, DNS:jlu.edu.cn\nAuthority Information Access: \n    OCSP - URI:http://status.rapidssl.com\n    CA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt"
+        ],
+        "verification": "Connecting to 198.18.0.87\ndepth=0 CN=*.jlu.edu.cn\nverify error:num=20:unable to get local issuer certificate\n100000000A000000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:ssl/statem/statem_clnt.c:2124:"
+      }
+    },
+    {
+      "source": "reported_innovation_spelling",
+      "url": "https://cxcjyxy.jlu.edu.cn/index/tzgg.htm",
+      "requests": {
+        "httpx_default": {
+          "error": "ConnectError",
+          "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)"
+        },
+        "certifi_direct": {
+          "error": "ConnectError",
+          "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)"
+        },
+        "stdlib_system": {
+          "error": "ConnectError",
+          "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)"
+        },
+        "native_system": {
+          "error": "ConnectError",
+          "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)"
+        }
+      },
+      "dns": [
+        "198.18.0.107"
+      ],
+      "openssl": {
+        "exit_code": 1,
+        "sent_chain": [],
+        "verification": "Connecting to 198.18.0.107\n100000000A000000:error:0A000126:SSL routines::unexpected eof while reading:ssl/record/rec_layer_s3.c:698:"
+      }
+    }
+  ]
+}

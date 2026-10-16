@@ -1,0 +1,470 @@
+{
+  "id": "p2-e22350c38fae",
+  "url": "https://pe.jlu.edu.cn/jxxx.htm",
+  "institution": "体育学院",
+  "column": "教学信息",
+  "site_url": "https://pe.jlu.edu.cn/",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/e22350c38fae9788.json",
+  "discovery_url": "https://pe.jlu.edu.cn/",
+  "original_snapshot": "html/9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff.html",
+  "original_capture_time": "2026-10-13T13:59:36+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-e22350c38fae",
+    "name": "体育学院 / 教学信息",
+    "base_url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:42+08:00",
+  "details": [
+    {
+      "url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+      "list_title": "吉林大学体育学院开展教学实习调研工作",
+      "list_date": "2020-10-27",
+      "response": {
+        "url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+        "time": "2026-10-15T19:37:43+08:00",
+        "ok": true,
+        "final_url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2cdd14d0d4002961accf7ca19f72b4b5399df6f31ba56200e0aa4d1c5616fc86",
+        "html_path": "html/2cdd14d0d4002961accf7ca19f72b4b5399df6f31ba56200e0aa4d1c5616fc86.html",
+        "replacement_chars": 0,
+        "chars": 17719,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学体育学院开展教学实习调研工作",
+        "url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+        "publish_date": "2020-10-27",
+        "publisher": null,
+        "content": "根据《吉林大学本科实习教学管理办法（试行）》要求，为进一步提高体育学院人才培养质量，加强学生实践能力，提升本科生实习教学质量，2020年10月19日上午，体育学院院长裘鹏教授与主管本科生教学的副院长佟强教授分别带队前往2017级本科生实习单位进行调研。 本次调研，裘鹏院长带队先后前往长春现代商务职业技术学校、长春市十一高中、Hi-Five儿童体育俱乐部。 佟强副院长带队先后前往吉林大学南岭校区、长春市九十中学、长春健康职业学院。 学院领导分别询问了学生的实习时间、实习内容、实习要求、日常表现等，并现场观摩实习学生的带操情况。各实习单位相关负责人纷纷表示，本届实习生能够严格遵守学校的实习及防疫要求，充分做好课前准备、认真完成实习中的教学任务；同时配合实习单位认真做好学生体质监测、运动会等相关工作，展现出良好的精神面貌以及较好的实践能力。 学院领导特别强调，由于正处疫情期间，学生应服从实习单位的疫情防控要求，严格控制外出活动，做好安全防护工作。带队老师应切实掌握学生的健康状况、安全防护等情况，认真落实疫情防控相关要求。 本科生实习教学是人才培养中不可缺少的重要组成部分，是培养学生实践能力的主要手段，是培养学生理论联系实际的重要途径。学院将继续加强本科实习教学的管理工作，做到领导投入、教师投入、学生投入相融合，形成实践教学的良好氛围。 https://pe.jlu.edu.cn/__local/F/5F/D4/CEBC4189A9A108FAAB43838A174_9F6F4423_52D17.png https://pe.jlu.edu.cn/__local/C/20/62/F383931570F7024D5AE2459F794_1C3298EB_4356D.png https://pe.jlu.edu.cn/__local/B/09/39/0F020D3599BE5B503166DB4DD13_EC8A21DE_4D50A.png https://pe.jlu.edu.cn/__local/4/EF/F9/563C683B7CA177DF94531A7E0D2_79005A3B_4B127.png https://pe.jlu.edu.cn/__local/1/78/25/5BEFA43C117C05E60B423400798_E92C4D6E_4C875.png https://pe.jlu.edu.cn/__local/A/64/8A/1B86DD858E11783ECBA184911D0_D4E3F664_39769.png https://pe.jlu.edu.cn/__local/4/35/32/4541A277C331DFBCB8D763FB6CE_C454B202_C13EF.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 573,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学体育学院开展教学实习调研工作"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2020-10-27",
+            "date": "2020-10-27"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/info/1159/4061.htm",
+      "list_title": "体育学院举办2020年课程思政专项教学督导汇报会",
+      "list_date": "2020-10-23",
+      "response": {
+        "url": "https://pe.jlu.edu.cn/info/1159/4061.htm",
+        "time": "2026-10-15T19:37:43+08:00",
+        "ok": true,
+        "final_url": "https://pe.jlu.edu.cn/info/1159/4061.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9b1e8c7dd1078512b38007de3fc2b4db6d111339e269ca59f766632c12f3867d",
+        "html_path": "html/9b1e8c7dd1078512b38007de3fc2b4db6d111339e269ca59f766632c12f3867d.html",
+        "replacement_chars": 0,
+        "chars": 17304,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "体育学院举办2020年课程思政专项教学督导汇报会",
+        "url": "https://pe.jlu.edu.cn/info/1159/4061.htm",
+        "publish_date": "2020-10-23",
+        "publisher": null,
+        "content": "按照学校教学工作安排，教务处于近期开展专项教学督导工作，检查各学院课程思政实施情况，跟踪督导思政课教学改进情况，调研新生研讨课开设情况，检查督导大学英语教学质量。 2020 年 10 月 22 日下午，人文社科教学督导董丁戈教授、迟化教授、于惠春教授来到体育学院，对学院的课程思政实施情况进行了解和指导。学院副院长佟强教授在会上汇报讲话。 会上，佟强副院长就学院专业课课程思政情况进行汇报。佟院长从专业课的课程思政工作目标、课程思政的措施与成效、课程思政现存问题与改进措施三个方面，进行了详细讲解和说明。 之后，督导组根据体育学院课程思政实施情况，提出建议和意见。督导组指出，要在课程思政建设中融入体育特色，适当借鉴其他学科的经验，鼓励教研结合，加强课程思政引导，进一步提高学院的课程思政教学效果和教学质量。 本次课程思政专项教学督导汇报活动，加深了体育学院对于课程思政的认识与理解，为学院下一步的课程思政建设工作提供了指导方向，有助于提升学院的整体课程思政水平，进而促进人才培养质量的提高。 https://pe.jlu.edu.cn/__local/E/DD/3A/C0E68963187DF332C0D612D2216_0BBEA168_1AF9D.jpg https://pe.jlu.edu.cn/__local/9/E0/DB/E22223A7784AA82AD7D937EF4F9_06595754_1835C.jpg https://pe.jlu.edu.cn/__local/1/7E/D3/7B022C55A07A4D0E58DAA73AD30_22B5A856_1C431.jpg https://pe.jlu.edu.cn/__local/5/9D/6C/E6EFEDEA1EB9043B937EBC30BED_05BF02F4_18739.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 446,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "体育学院举办2020年课程思政专项教学督导汇报会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2020-10-23",
+            "date": "2020-10-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/info/1159/3831.htm",
+      "list_title": "体育学院本科毕业论文线上答辩工作顺利完成",
+      "list_date": "2020-07-03",
+      "response": {
+        "url": "https://pe.jlu.edu.cn/info/1159/3831.htm",
+        "time": "2026-10-15T19:37:45+08:00",
+        "ok": true,
+        "final_url": "https://pe.jlu.edu.cn/info/1159/3831.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c56fc877b1a71bb4537813f188189a2fced0bd0e35d0ea90e4ea530172a02306",
+        "html_path": "html/c56fc877b1a71bb4537813f188189a2fced0bd0e35d0ea90e4ea530172a02306.html",
+        "replacement_chars": 0,
+        "chars": 16274,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "体育学院本科毕业论文线上答辩工作顺利完成",
+        "url": "https://pe.jlu.edu.cn/info/1159/3831.htm",
+        "publish_date": "2020-07-03",
+        "publisher": null,
+        "content": "为 确保学院 2020 届本科毕业论文（设计）工作的有序推进，加强疫情期间对本科生毕业论文（设计）的教学管理，体育学院 按照 《关于做好 2020 届本科生毕业论文（设计）工作的通知》《吉林大学本科毕业论文（设计）工作管理办法 ( 试行 ) 》的要求，积极策划答辩方案，历经多方筹备，于 2020 年 6 月 9 日至 6 月 10 日期间，顺利完成本科毕业论文线上答辩工作。 体育学院 2020 届本科生毕业答辩分为 6 个答辩小组进行， 101 位同学参加线上答辩并顺利通过。答辩通过腾讯会议平台，在体育馆三间会议室内同时进行。答辩过程中，学生按照答辩顺序，结合 PPT 展示，对论文的选题内容、选题背景、框架结构、研究过程、研究结果等进行 10 分钟自述，答辩组专家评委认真听取学生陈述，从选题、结构、研究方法、文字表述等方面，对论文进行客观评判，并进行针对性提问，指出修改意见，为论文的完善提供了相关建议。 在疫情防控特殊时期，在教务处的指导下，体育学院积极筹划准备，从安排上和技术上保证了线上答辩的顺利进行。在筹备阶段，学院参照往年本科毕业论文答辩的经验，结合线上远程答辩的新形式，充分考虑细节问题，拟定合理的答辩方案；提前购置线上答辩所需的技术设备，做到了体育馆内三间会议室同时进行答辩，使整体答辩能够在两天内完成；每个答辩组增设一名技术人员，专门负责答辩过程中的线上操作，事先调试网络设备，最大限度保障答辩的网络畅通；事先将电子版论文发送到答辩组专家手中，统一组织毕业论文和相关材料的印刷装订，保证答辩的顺利进行。在答辩过程中， 2020 届本科毕业论文答辩委员会和答辩专家组以严谨公正的态度对待答辩，学生们积极配合学院安排，共同促成了本科毕业论文线上答辩工作的成功。 2020 届本科生毕业论文线上答辩的顺利完成，也为体育学院本科线上教学工作的进一步开展积累了相关经验，促进了本科教学质量的提升。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 806,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "体育学院本科毕业论文线上答辩工作顺利完成"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2020-07-03",
+            "date": "2020-07-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://pe.jlu.edu.cn/jxxx.htm",
+        "time": "2026-10-15T19:28:29+08:00",
+        "ok": true,
+        "final_url": "https://pe.jlu.edu.cn/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff",
+        "html_path": "html/9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff.html",
+        "replacement_chars": 0,
+        "chars": 16536,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://pe.jlu.edu.cn/info/1159/2748.htm",
+        "https://pe.jlu.edu.cn/info/1159/3831.htm",
+        "https://pe.jlu.edu.cn/info/1159/4061.htm",
+        "https://pe.jlu.edu.cn/info/1159/4081.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "time": "2026-10-15T19:28:29+08:00",
+    "ok": true,
+    "final_url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff",
+    "html_path": "html/9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff.html",
+    "replacement_chars": 0,
+    "chars": 16536,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学体育学院开展教学实习调研工作",
+      "url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+      "publish_date": "2020-10-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "体育学院举办2020年课程思政专项教学督导汇报会",
+      "url": "https://pe.jlu.edu.cn/info/1159/4061.htm",
+      "publish_date": "2020-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "体育学院本科毕业论文线上答辩工作顺利完成",
+      "url": "https://pe.jlu.edu.cn/info/1159/3831.htm",
+      "publish_date": "2020-07-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "体育学院成立本科教学检查工作小组",
+      "url": "https://pe.jlu.edu.cn/info/1159/2748.htm",
+      "publish_date": "2019-08-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 4,
+  "pagination": [
+    {
+      "start_url": "https://pe.jlu.edu.cn/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://pe.jlu.edu.cn/jxxx.htm",
+          "parsed_items": 4,
+          "added_items": 4
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-e22350c38fae",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5199999324977398e-05,
+      "detail_duration_seconds": 8.100061677396297e-06,
+      "parse_db_duration_seconds": 0.03979629999957979
+    },
+    "second_round": {
+      "source": "p2-e22350c38fae",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4999997802078724e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-e22350c38fae",
+    "institution": "体育学院",
+    "column": "教学信息",
+    "url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:29+08:00",
+    "review_time": "2026-10-15T20:20:42+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 4,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-e22350c38fae.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

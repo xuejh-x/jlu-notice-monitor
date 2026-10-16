@@ -1,0 +1,43 @@
+diff --git a/frontend/src/pages/SourcesPage.test.tsx b/frontend/src/pages/SourcesPage.test.tsx
+index fd46eeb..e2c0ae4 100644
+--- a/frontend/src/pages/SourcesPage.test.tsx
++++ b/frontend/src/pages/SourcesPage.test.tsx
+@@ -351,6 +351,38 @@ describe('SourcesPage', () => {
+     expect(screen.queryByText('云端尚未配置')).not.toBeInTheDocument()
+   })
+ 
++  it.each([
++    ['failure', '本地回退失败'],
++    ['partial_failure', '本地抓取部分失败'],
++    ['running', '正在本地抓取'],
++  ])('does not call local fallback successful when its result is %s', async (status, label) => {
++    const failure = 'SourceError: SSLEOFError: UNEXPECTED_EOF_WHILE_READING <- SourceError: PUBLIC_FEED_NOT_CONFIGURED'
++    vi.mocked(getSourceConfiguration).mockResolvedValue([{
++      ...oaOfficial, health_state: 'source_error', last_error_code: 'SOURCE_ERROR', last_error: failure,
++    }])
++    vi.mocked(getCrawlerStatus).mockResolvedValue({
++      running: status === 'running', status, current_started_at: null,
++      last_run: '2026-10-14T15:29:58', last_duration: 2, new_count: 0, updated_count: 0,
++      source_results: [{ source: 'oa', status, execution_policy: 'cloud_preferred', effective_execution: 'local',
++        fallback_used: true, fallback_reason: 'PUBLIC_FEED_NOT_CONFIGURED', fetched: 0, new_count: 0, updated_count: 0, unchanged_count: 0,
++        errors: [failure], attempts: [{ execution: 'local', status, error: failure, fetched: 0, detail_fetched: 0, detail_skipped: 0, new_count: 0, updated_count: 0, unchanged_count: 0 }] }],
++    })
++    renderPage()
++    expect(await screen.findByText(label)).toBeInTheDocument()
++    expect(screen.queryByText('本地回退生效')).not.toBeInTheDocument()
++    expect(screen.queryByText('云端运行')).not.toBeInTheDocument()
++    expect(screen.queryByText('云端尚未配置')).not.toBeInTheDocument()
++    if (status === 'failure') expect(screen.getByText('本地抓取失败：与来源网站的安全连接中断，请稍后重试。')).toBeInTheDocument()
++  })
++
++  it('does not claim cloud execution before any source run is available', async () => {
++    vi.mocked(getSourceConfiguration).mockResolvedValue([official])
++    renderPage()
++    await screen.findByText('网络安全学院')
++    expect(screen.queryByText('云端运行')).not.toBeInTheDocument()
++    expect(screen.queryByText('本地回退生效')).not.toBeInTheDocument()
++  })
++
+   it('keeps all creation entry points available when no sources exist', async () => {
+     vi.mocked(getSourceConfiguration).mockResolvedValue([])
+     renderPage()

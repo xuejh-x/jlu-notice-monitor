@@ -1,0 +1,26 @@
+{
+  "column_url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+  "column": "中心通知",
+  "institution": "数量经济研究中心",
+  "site_url": "http://jlucqe.jlu.edu.cn/",
+  "category": "研究机构",
+  "priority": "P3",
+  "discovery_url": "http://jlucqe.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:45:22+08:00",
+  "checked_at": "2026-10-13T14:03:36+08:00",
+  "status": "失败",
+  "issues": [
+    "HTTP_ERROR"
+  ],
+  "details": [],
+  "list_count": null,
+  "list_items": [],
+  "generic_count": null,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/86da28c024119c6b.json",
+  "reason": "SourceError: Source request failed: Client error '404 Not Found' for url 'http://jlucqe.jlu.edu.cn/list.php?SID=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+  "pagination": {},
+  "http_status": 404
+}

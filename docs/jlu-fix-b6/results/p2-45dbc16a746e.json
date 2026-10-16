@@ -1,0 +1,635 @@
+{
+  "id": "p2-45dbc16a746e",
+  "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+  "institution": "哲学社会学院",
+  "column": "就业信息",
+  "site_url": "https://zsy.jlu.edu.cn/",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/45dbc16a746edb39.json",
+  "discovery_url": "https://zsy.jlu.edu.cn/",
+  "original_snapshot": "html/32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280.html",
+  "original_capture_time": "2026-10-13T14:02:20+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-45dbc16a746e",
+    "name": "哲学社会学院 / 就业信息",
+    "base_url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:17+08:00",
+  "details": [
+    {
+      "url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+      "list_title": "和昌集团2018“昌想家”校园招聘宣讲会",
+      "list_date": "2017-10-21",
+      "response": {
+        "url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+        "time": "2026-10-15T19:35:42+08:00",
+        "ok": true,
+        "final_url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c75faf33cc47a1b3e74f5b4496d942c14838e9f39be87140f22193069f26b210",
+        "html_path": "html/c75faf33cc47a1b3e74f5b4496d942c14838e9f39be87140f22193069f26b210.html",
+        "replacement_chars": 0,
+        "chars": 32935,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "和昌集团2018“昌想家”校园招聘宣讲会",
+        "url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+        "publish_date": "2017-10-21",
+        "publisher": "和昌集团",
+        "content": "和昌集团 2018 “昌想家”校园招聘宣讲会 时间： 2017-10-25 15:30 地点：南区逸夫楼四阶 公司分类 : 国企 / 三资 / 民营 昌想家 和你一起，昌想未来 昌 和昌，意为昌盛。 想 理想，愿年轻人加盟和昌，是践行理想之路。 家 是创造生活建筑家，是口号，也是追求。 【 关于和昌 】 和昌集团创建于 2007 年，总部位于北京，是一家集房地产开发、资本金融服务和物业服务等为一体的综合性房地产企业，下辖六大产业：和昌地产、和昌资本、和昌物业、和昌商管、中天高科、天蓝幕墙。 2009 年开始全国化布局，通过十年的稳健发展，完成华北、华中、华东和华南四大区域的战略布局，进驻郑州、武汉、南京、合肥、扬州、苏州、济南、杭州、洛阳、广州等十余个城市，倾力打造 40 余座人居大城。同时，在进一步完善原有区域布局的基础上，持续深耕新进入的城市，重点关注快速发展的二线城市，择机进入一线城市。 和昌以优质的产品和服务赢得了客户、合作伙伴和业界同行的尊重和赞誉。 2016 年和昌集团销售面积与金额荣登房企百强，销售面积 183.4 万方位列 67 名，销售金额 164.5 亿元位列 96 名。 2017 年初接连获得《新京报》颁发的 “ 北京房地产行业标杆品牌企业奖 ” ，网易颁发的 “ 匠心房企大奖 ” 。并一举夺得房地产中的奥斯卡 —— 由中房协颁发的 “ 中国房地产开发企业第 81 名 ” 以及 “ 中国房地产开发企业运营效率 10 强 ” 双项殊荣。 【关于昌想家】 和昌集团自 2009 年起从国内知名 985 及建筑老八校为主的高校招聘优秀应届毕业生。 2015 年开始，和昌集团正式确立 “ 昌想家 ” 校招品牌。集团始终坚信 “ 人才是第一生产力 ” ，并坚定不移的培养一批具有务实、忧患、勤勉、进取行为准则的专业技术人才和管理人才，昌想家已经成为和昌人才的重要组成部分。他们活跃于一线公司，或任职于集团总部，无论身处何处，始终有梦想、有担当、有激情。 【岗位类别】 https://zsy.jlu.edu.cn/__local/D/02/8F/46EF8BBE90723F89F800820FCCB_F88D92BA_16D47.png https://zsy.jlu.edu.cn/__local/0/C2/DC/D0957C77E02BC5A7079EA5A6ABC_AAF322BC_16FF9.png https://zsy.jlu.edu.cn/__local/E/F9/88/F6576B4CACAAB910EB8F0518220_1D9BF817_12A8F.png https://zsy.jlu.edu.cn/__local/1/13/6A/521A797A65004CA1E455790CAA0_B418810E_41A7.png https://zsy.jlu.edu.cn/__local/B/44/1E/8A2B7AB6DAA4FFC416DF77AAC94_8CF7F9B6_1020C.png 【 Q&A 】 Q ：你们和昌能给毕业生什么待遇？ 各位同学，下面就是你们关注的最重点了， 请注意！请注意！请注意！重要的事情说三遍！ A ：在和昌，每一位优秀员工都是公司最宝贵的财富， “ 昌想家 ” 更是如此！ “ 昌想家 ” 一经录用试用期薪资 100% 发放，本科同学年度收入 13-18 万 元，研究生同学年度收入 14-18 万 元。更有拿到手软的季度奖金、年终奖金！还在等什么呢？ Q ：除了工资收入、奖金收入，你们和昌的福利怎么样啊？ A ：在和昌，我们提供给每一个员工全面的薪酬，不仅仅包含工资和奖金收入，更有完善的福利保障，诸如 第一年免费单间宿舍 、餐补、话补、五险一金、各种节日礼金、员工优惠购房、电脑补贴、结婚生子礼金、年度福利体检、员工健康计划、父母赡养补助、大病 / 重大灾害援助、下午茶、各种团建活动等等。我们相信，最优秀的你值得拥有最丰厚的待遇！ Q ：你们和昌对毕业生有什么培养方案？ A ：人才发展是企业发展的核心动力，如果把 “ 昌想家 ” 比作是 “ 树苗 ” ，那么和昌的最重要的使命就是将一颗颗 “ 小树苗 ” 培养成参天大树，加盟和昌，成长是第一要务！我们有完善的培养体系，充满挑战的昌想家训练营、工作导师制、完善的交流制度、各阶段的训练营、富有挑战性的工作任务，还能通过与公司高管、资深员工面对面，系统地帮助 “ 昌想家 ” 们初步完成从 “ 学生 ” 到 “ 和昌人 ” 的转变，并培养 “ 昌想家 ” 能够能够不断的超越和成长！ Q ：毕业生在和昌的职业发展通道是什么样子的？ A ：加入和昌，就驶入了职业发展的高速公路，你负责马力全开，和昌负责架桥修路。我们有专业序列和管理序列两条晋升通道，综合能力的提升，既可以让你得到专业职级的晋升，也可以让你有机会成一名管理者。当然， “ 昌想家 ” 们需要通过自己的努力，学习如何成为一名优秀的驾驶员，为自己开启新的航程，在专业技能和管理能力上都能够得到快速成长，收获更多的成功。和昌的目标就是 3 到 5 年内把 “ 昌想家 ” 们培养成能够独挡一面的专业人才或者是部门 Leader ！ Q ：我们还没毕业，能到和昌去实习么？ A ：和昌是一家开放性的公司，我们非常欢迎优秀的同学到公司去参观、实习，去感受职场、感受我们的氛围和文化，获得锻炼，和昌和学生之间没有壁垒。目前，已经有天津大学、浙江大学、重庆大学、东南大学四所全国著名的高校分别在和昌设立了实践基地，未来，这样的校企合作会越来越多，同学们实践的机会也会越来越多。 【应聘方式】 1 、参加见面会现场投递简历。 ☞ 注意事项 ： ◆ 请勿在各渠道重复投递简历； ◆ 简历筛选结果将会通过短信及邮件的方式通知本人并安排面试； ◆ 应聘流程：简历投递 - 初试 - 复试 - 在线笔试 - 终面 -OPEN DAY ； ◆ 集团官网： http://www.hechangre.com/",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "和昌集团2018“昌想家”校园招聘宣讲会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2073,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "和昌集团2018“昌想家”校园招聘宣讲会",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2017-10-21 点击数： 来源:",
+            "date": "2017-10-21"
+          },
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+      "list_title": "合肥美菱2018届毕业生校园招聘",
+      "list_date": "2017-10-21",
+      "response": {
+        "url": "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+        "time": "2026-10-15T19:35:42+08:00",
+        "ok": true,
+        "final_url": "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a14c234b755dae4095ee0a1738fbd1c720883a0b406d01ea28a504aa068aa170",
+        "html_path": "html/a14c234b755dae4095ee0a1738fbd1c720883a0b406d01ea28a504aa068aa170.html",
+        "replacement_chars": 0,
+        "chars": 36462,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "合肥美菱2018届毕业生校园招聘",
+        "url": "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+        "publish_date": "2017-10-21",
+        "publisher": "创享美好，就来菱",
+        "content": "创享美好，就来菱 ——合肥美菱 2018 届毕业生校园招聘 时间：2017-10-23 18:30 地点：南校 逸夫四阶 公司分类: 国企/三资/民营 合肥美菱股份有限公司是中国家电行业著名的上市公司之一，经营范围主要为电冰箱（柜）的生产和销售，具有年产 500 万台电冰箱（柜）及深冷冰箱的生产能力，年销售收入百亿元，并以年均近 20% 的速度增长。现位于合肥市经开区的长虹美菱工业园已经成为亚洲单体最大的冰箱研发制造基地。为实现“中国领先、世界一流、受人尊重的家用电器企业”的企业愿景，合肥美菱股份有限公司现诚邀 2018 年应届毕业生加盟： 序号 类别 需求岗位 专业 招聘要求 需求总数 学历 工作地点 1 营销类 海外营销经理 理工类、营销类专业 本科 合肥 12 2 国内营销经理 理工类、管理类专业 本科 全国 87 3 产品经理 营销类、管理类专业 本科 全国 41 4 培训专员 营销类、管理类专业 本科 合肥 2 5 售后物流经理 物流管理 本科 全国 7 6 技术类 结构工程师 机械设计制造及其自动化 本科 合肥 14 7 工艺工程师 理工类专业 本科 合肥 13 8 电控工程师 电气类、自动化 本科 合肥 4 9 制冷工程师 能源与动力工程 本科 合肥 4 10 软件工程师 计算机类专业 本科 合肥 3 11 采购经理 理工类专业 本科 合肥 2 12 管理类 会计 会计学 本科 全国 11 13 审计员 审计学 本科 合肥 1 14 诉讼法务员 法学 本科 合肥 1 15 管理培训生 人力资源、企业管理类 本科 合肥 2 在这里，我们有凝聚人才的环境，有完善的培训机会，优厚的薪酬福利，激励人才的机制，更有充满着机遇与挑战，造就人才的事业。 美菱，专业制冷，民族品牌，热忱欢迎各位优秀大学毕业生加盟！ 注意事项： 1 、 欢迎宣讲会现场投递纸质版简历！ 2 、 网申地址： http://campus.51job.com/meiling2018 3 、 经过筛选，我们将尽快组织大家进行面试，请等待通知。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "合肥美菱2018届毕业生校园招聘"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 870,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "合肥美菱2018届毕业生校园招聘",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2017-10-21 点击数： 来源:",
+            "date": "2017-10-21"
+          },
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+      "list_title": "广东壹号食品股份有限公司2018届高校招聘简章",
+      "list_date": "2017-10-21",
+      "response": {
+        "url": "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+        "time": "2026-10-15T19:35:44+08:00",
+        "ok": true,
+        "final_url": "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "66d9d28382f2307e62bf0ba422e1070de783146ea6cef550246e3db2e78fdd3a",
+        "html_path": "html/66d9d28382f2307e62bf0ba422e1070de783146ea6cef550246e3db2e78fdd3a.html",
+        "replacement_chars": 0,
+        "chars": 46480,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "广东壹号食品股份有限公司2018届高校招聘简章",
+        "url": "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+        "publish_date": "2017-10-21",
+        "publisher": "公司简介",
+        "content": "公司简介 广东壹号食品股份有限公司成立于 2004 年，注册资本 2.5 亿元人民币， 是一家集育种研发、养殖生产、连锁经营于一体的国内知名大型食品企业。目前全国连锁店超 1800 家，在职员工超 5000 人，年销售额高达 18 亿元人民币。 公司秉承无工业污染、无激素残留、无违禁药的无公害养殖理念，倡导绿色健康生活，在大健康产业领域精细耕耘十余载，运用生物工程技术培育和打造了极具市场竞争力和前景的包括肉品、蛋品、深加工产品等健康安全、优质美味的食材，征服了全国千万消费者的胃口，保障百姓餐桌上的食品安全。 大健康产业代表未来，餐桌上的安全才是真正的食品安全，身家百亿的北大老板陈生，邀您共享万亿级市场的饕餮盛宴！ 一、招聘岗位信息 岗位 要求 学历 人数 试用期待遇 营销管理培训生 营销类、管理类、食品类、理工类专业优先 大专及以上 100 名 4120 元 / 月 创业储备店长 专业不限 大专及以上 100 名 行政文员 行政文秘专业或相关专业 本科 2 名 面议 人力资源专员 人力资源相关专业 本科 2 名 证券事业部 法律相关专业 本科 1 名 财务中心 财务相关专业 本科 5 名 信息中心 IT 相关专业 本科 2 名 项目发展部 环保相关专业 本科 2 名 采购审计 专业不限 本科 2 名 培训部 人力资源相关专业 本科 2 名 执行助理 动医、动科 大专及以上 2 名 技术储备干部 动医、动科 本科 5 名 人力资源专员 人力资源、动医、动科相关专业，或有农牧行业经验 本科 1 名 统计储备干部 统计 本科 1 名 二、福利待遇 ●带薪培训 ●年终奖 ●优秀员工年度旅游 ●办事处季度团建 ● 带薪年假 ●按国家规定购买社保 ● 节假日奖金与福利 ●工龄工资、高温补贴等 ● 小区商品房宿舍 ●宿舍集体做饭用餐 以上岗位工作地点：广东、海南、上海、无锡、宁波、常州、嘉兴、绍兴、武汉、厦门、福州、大连、沈阳、青岛、济南、杭州、苏州、南京、北京、天津、成都、重庆等经济发达城市及地区。（自主选择） 招聘联系人：邓兰香 13763030055 ，伍子岚 135900009545, 办公固话： 0759-2863485 公司总部联系电话： 020-38105666-8113 公司网址： http ： //www.gdyhsp.com 接收简历邮箱： hryx@gdyhsp.com( 请注明姓名 + 学校 + 专业 + 应聘岗位 ) 公司地址：广州市天河区体育西路 103 号维多利广场 A 塔 30 楼全层（总部）",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "广东壹号食品股份有限公司2018届高校招聘简章"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1074,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "广东壹号食品股份有限公司2018届高校招聘简章",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2017-10-21 点击数： 来源:",
+            "date": "2017-10-21"
+          },
+          {
+            "text": "日期：2017-10-21",
+            "date": "2017-10-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+        "time": "2026-10-15T19:27:53+08:00",
+        "ok": true,
+        "final_url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280",
+        "html_path": "html/32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280.html",
+        "replacement_chars": 0,
+        "chars": 18637,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://zsy.jlu.edu.cn/info/1065/7580.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7581.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7582.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7583.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7584.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7585.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7586.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7589.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "time": "2026-10-15T19:27:53+08:00",
+    "ok": true,
+    "final_url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280",
+    "html_path": "html/32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280.html",
+    "replacement_chars": 0,
+    "chars": 18637,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "和昌集团2018“昌想家”校园招聘宣讲会",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "合肥美菱2018届毕业生校园招聘",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "广东壹号食品股份有限公司2018届高校招聘简章",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "广东腾龙人力资源咨询有限公司",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7586.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "聚你为谷，川流不息 ——谷川联行2018校园招聘简章",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7585.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "承德避暑山庄企业集团股份有限公司招聘",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7584.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "vivo吉林2018届校园招聘",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7583.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“看见你的光芒” —2018年北京中原地产校园招聘",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7582.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2018碧桂园营销中心校园招聘",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7581.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2017跨境电商有棵树秋季校园招聘简章",
+      "url": "https://zsy.jlu.edu.cn/info/1065/7580.htm",
+      "publish_date": "2017-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "pagination": [
+    {
+      "start_url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-45dbc16a746e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.2399937734007835e-05,
+      "detail_duration_seconds": 1.100008375942707e-05,
+      "parse_db_duration_seconds": 0.044078400009311736
+    },
+    "second_round": {
+      "source": "p2-45dbc16a746e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.2699940018355846e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-45dbc16a746e",
+    "institution": "哲学社会学院",
+    "column": "就业信息",
+    "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:27:53+08:00",
+    "review_time": "2026-10-15T20:20:17+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 10,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-45dbc16a746e.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

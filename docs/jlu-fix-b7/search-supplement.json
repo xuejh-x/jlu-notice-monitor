@@ -1,0 +1,29 @@
+{
+  "searched_at": "2026-10-15T22:07:00+08:00",
+  "time_precision": "minute approximation; page fetch times recorded separately",
+  "query_count": 8,
+  "queries": [
+    "site:jlu.edu.cn 东荣学院 官网",
+    "site:jlu.edu.cn 莱姆顿学院 官网",
+    "site:jlu.edu.cn 应用技术学院 官网",
+    "site:jlu.edu.cn 出版社 http",
+    "吉林大学国家地球物理探测仪器工程技术研究中心 官网",
+    "吉林吉大控股有限公司 官网",
+    "吉林吉大致远资产经营有限公司 官网",
+    "吉林大学应用技术学院 网站"
+  ],
+  "seeds": [
+    {"institution": "吉林大学出版社有限责任公司", "url": "https://press.jlu.edu.cn/lxwm/lxfs.htm", "basis": "Official JLU-domain publisher contact page search result identifies official website; verify target page before admission", "kind": "site_identity"},
+    {"institution": "国家地球物理探测仪器工程技术研究中心", "url": "https://nercgei.jlu.edu.cn/zxgk.htm", "basis": "Official centre profile explicitly states Jilin University as supporting institution; directory currently links back to directory", "kind": "site_identity"},
+    {"institution": "东荣学院", "url": "https://pco.jlu.edu.cn/info/1018/3374.htm", "basis": "Official university office news mentions institution; no independent site established", "kind": "associated_news_only"},
+    {"institution": "莱姆顿学院", "url": "https://www.jlu.edu.cn/info/1111/34679.htm", "basis": "Official university historical news; does not establish a current standalone website", "kind": "associated_news_only"},
+    {"institution": "应用技术学院", "url": "https://news.jlu.edu.cn/info/1126/24996.htm", "basis": "Official university historical news; does not establish a current standalone website", "kind": "associated_news_only"},
+    {"institution": "吉林吉大控股有限公司", "url": "https://gongkai.jlu.edu.cn/gksx/cw_zcjsfxx/xbqyzc__fz_gyzcbzzzdxx.htm", "basis": "Official university information disclosure is an existing independently audited column, not company homepage", "kind": "associated_column_only"},
+    {"institution": "吉林吉大致远资产经营有限公司", "url": "https://jgb.jlu.edu.cn/info/1013/3353.htm", "basis": "University asset office news confirms company association, not independent company website", "kind": "associated_news_only"}
+  ],
+  "excluded": [
+    {"url": "https://www.sjxkj.com/", "reason": "Search result mixes gambling branding with copied university material; not official evidence, not fetched"},
+    {"reason": "Encyclopaedias, company aggregators and unrelated publishers rejected; no inferred subdomains or external historical exam-centre sites fetched"}
+  ],
+  "limits": "8 targeted searches; only primary official HTML accepted for bounded follow-up; all other unknown institutions retain directory-based uncertainty"
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "kind": "vsb-empty",
+    "file": "p2-b4ad9576f8de.empty.html",
+    "url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+    "captured_at": "2026-10-15T19:26:41+08:00",
+    "source_sha256": "f5b26cb43e68299a50bb6b67c8142925cc38ae3d5786c70b7856c3986bcad4e8",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\f5b26cb43e68299a50bb6b67c8142925cc38ae3d5786c70b7856c3986bcad4e8.html",
+    "fixture_sha256": "1c70b8bded5bbad9e2e540ff508d2452b6c0a9b0ee8def78f92713fc2cb15b13"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-10b02b68c1e9.empty.html",
+    "url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+    "captured_at": "2026-10-15T19:26:43+08:00",
+    "source_sha256": "b091d2c2404d471ac2dda7e231d14facdd42acf8a26a546b716c715da3c61da3",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\b091d2c2404d471ac2dda7e231d14facdd42acf8a26a546b716c715da3c61da3.html",
+    "fixture_sha256": "7fa449c814c5d818ce43462c7cdd66fc45f08cb8f0facbe0e4c928b100f58c6b"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-00df1137578a.empty.html",
+    "url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+    "captured_at": "2026-10-15T19:26:47+08:00",
+    "source_sha256": "221838996eddb6a0549a1acb881dabd132e422154fa42de5e53c7dd123201825",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\221838996eddb6a0549a1acb881dabd132e422154fa42de5e53c7dd123201825.html",
+    "fixture_sha256": "7fa449c814c5d818ce43462c7cdd66fc45f08cb8f0facbe0e4c928b100f58c6b"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-746d87b2613e.empty.html",
+    "url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+    "captured_at": "2026-10-15T19:26:48+08:00",
+    "source_sha256": "bd2d85388a5df7b67d19d80e78b39633573200dc599577299b309c3f486c9b0d",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\bd2d85388a5df7b67d19d80e78b39633573200dc599577299b309c3f486c9b0d.html",
+    "fixture_sha256": "7fa449c814c5d818ce43462c7cdd66fc45f08cb8f0facbe0e4c928b100f58c6b"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-0f03bd864044.empty.html",
+    "url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+    "captured_at": "2026-10-15T19:26:49+08:00",
+    "source_sha256": "b4f9c0e3c0a8b25af3a182623d14cbf99816c7ea81b212e8ed021bb03cb609b6",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\b4f9c0e3c0a8b25af3a182623d14cbf99816c7ea81b212e8ed021bb03cb609b6.html",
+    "fixture_sha256": "1d5607fa97ad4978dbb3383643867b09c0bfaa323e37dac2c30d08186fee9876"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-4bfc23b0fadd.empty.html",
+    "url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+    "captured_at": "2026-10-15T19:26:53+08:00",
+    "source_sha256": "523d6f16f62ceec2cfadaf79d4d56288c069a25fa2252ed5f6d54f1b0c88cb60",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\523d6f16f62ceec2cfadaf79d4d56288c069a25fa2252ed5f6d54f1b0c88cb60.html",
+    "fixture_sha256": "1d5607fa97ad4978dbb3383643867b09c0bfaa323e37dac2c30d08186fee9876"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-1ce2bf7487f4.empty.html",
+    "url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+    "captured_at": "2026-10-15T19:26:54+08:00",
+    "source_sha256": "cf8284154d211ddc66c4aa79a3bce63230e6ef3c0417cf4335eaaa1bc44aff5a",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\cf8284154d211ddc66c4aa79a3bce63230e6ef3c0417cf4335eaaa1bc44aff5a.html",
+    "fixture_sha256": "4eec9ef6ec943e487e5bf2172d01e242278705aafe0f736cc76366ed6c6006a0"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-bdfdf1b77340.empty.html",
+    "url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+    "captured_at": "2026-10-15T19:26:57+08:00",
+    "source_sha256": "7aba08bc36c9db8fff1d11900cc0ccd8f15e43f2b5df3ee0ad6405061269fbc0",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\7aba08bc36c9db8fff1d11900cc0ccd8f15e43f2b5df3ee0ad6405061269fbc0.html",
+    "fixture_sha256": "4eec9ef6ec943e487e5bf2172d01e242278705aafe0f736cc76366ed6c6006a0"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-3e37d545072d.empty.html",
+    "url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+    "captured_at": "2026-10-15T19:26:59+08:00",
+    "source_sha256": "9434d9c1d952c61c7c7f62334e1018140b1d95d1e668f80f9bad9698312c6b2c",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\9434d9c1d952c61c7c7f62334e1018140b1d95d1e668f80f9bad9698312c6b2c.html",
+    "fixture_sha256": "4eec9ef6ec943e487e5bf2172d01e242278705aafe0f736cc76366ed6c6006a0"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-5a4d3e884db0.empty.html",
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+    "captured_at": "2026-10-15T19:27:07+08:00",
+    "source_sha256": "2e1ef118848f4cadcd4967c07913aa69d70cfc3492ae83da5364a4d35b8f32ac",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\2e1ef118848f4cadcd4967c07913aa69d70cfc3492ae83da5364a4d35b8f32ac.html",
+    "fixture_sha256": "0d5be4324cf59a5a465673974c802e0b68850fbbd34f2dfe90d1019d27c9b3a6"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-4e030ec36a90.empty.html",
+    "url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+    "captured_at": "2026-10-15T19:27:10+08:00",
+    "source_sha256": "eb0bec3178ee2da8506f8d6647192a2d968042e1bdfb8b599ddb9fecc7e93248",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\eb0bec3178ee2da8506f8d6647192a2d968042e1bdfb8b599ddb9fecc7e93248.html",
+    "fixture_sha256": "64a066b89b1dd1c9a72c499ee2d68752a8296d9c8c201a6af4fa77876e692231"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-8cc2288150cd.empty.html",
+    "url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+    "captured_at": "2026-10-15T19:27:17+08:00",
+    "source_sha256": "149bac2f719b079c2a6eb9f8b04c3c13fcbc65fccd7d38fdf7496f80ac387081",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\149bac2f719b079c2a6eb9f8b04c3c13fcbc65fccd7d38fdf7496f80ac387081.html",
+    "fixture_sha256": "47fd915f959a529f3c912d8be834ff87957012b8f0f77a9a93032a27cfb3bc92"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-4adc4212e4ac.empty.html",
+    "url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+    "captured_at": "2026-10-15T19:27:25+08:00",
+    "source_sha256": "8aefdebb6f16f48a3475db0efafa26021753cb5c0ef89857ae3df33123dc66c6",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\8aefdebb6f16f48a3475db0efafa26021753cb5c0ef89857ae3df33123dc66c6.html",
+    "fixture_sha256": "ccff47fa0bd511ff1325030c3553170bea3e62052bd20135a329327f128640d6"
+  },
+  {
+    "kind": "hospital-list",
+    "file": "hospital.list.html",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_59.html",
+    "captured_at": "2026-10-15T19:27:33+08:00",
+    "source_sha256": "1d91f1786f7a1e8d62309c9e7a2ffbc8d62dcd8ccce358ff579b86474e4e4d0f",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\1d91f1786f7a1e8d62309c9e7a2ffbc8d62dcd8ccce358ff579b86474e4e4d0f.html",
+    "fixture_sha256": "8844a64c7e090282fa301d410dcf7fdd505f6139daeb540ab0e4f0a704ad4c76"
+  },
+  {
+    "kind": "hospital-empty",
+    "file": "hospital.empty.html",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_864.html",
+    "captured_at": "2026-10-15T19:27:41+08:00",
+    "source_sha256": "72218d4e143992fd213b2e7c170a57913e094e0b7963fd97aa77a890db6787a7",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\72218d4e143992fd213b2e7c170a57913e094e0b7963fd97aa77a890db6787a7.html",
+    "fixture_sha256": "02e21d3821b53173e138fdb8914a6a25a4f110cb02b6c029f81a5f8eec25682d"
+  },
+  {
+    "kind": "hospital-detail",
+    "file": "hospital.detail.html",
+    "url": "https://www.zrlyyy.com/wujia_detail_g7yU_62/177728.html",
+    "captured_at": "2026-10-15T19:27:42+08:00",
+    "source_sha256": "dd9abeceeb9561ee66ef3ed2d3d34cab6d9f9e2d5660bc30f4892eeadbe1dffc",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\dd9abeceeb9561ee66ef3ed2d3d34cab6d9f9e2d5660bc30f4892eeadbe1dffc.html",
+    "fixture_sha256": "9adc77eee9616969dd1b29840fd392cd5aaa1b19803f16c5f435502c5f2be97c"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-0ca7e7c9518e.empty.html",
+    "url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+    "captured_at": "2026-10-15T19:27:44+08:00",
+    "source_sha256": "2db395ec2aff335889aa84e660031de9145bc88fcb9523488a7383eac29b4879",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\2db395ec2aff335889aa84e660031de9145bc88fcb9523488a7383eac29b4879.html",
+    "fixture_sha256": "c063841288dddc55818a450d9ee1047d97662d0b095dab2ae93dcba6346c1fd6"
+  },
+  {
+    "kind": "vsb-empty",
+    "file": "p2-8882a3f2c642.empty.html",
+    "url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+    "captured_at": "2026-10-15T19:27:47+08:00",
+    "source_sha256": "d0cc3bc397ea21bf2041752e9ac5a116ec32f5ccbb0099b580ccd725e4f4a491",
+    "source_snapshot": "docs\\jlu-fix-b6\\discovery-20261015\\html\\d0cc3bc397ea21bf2041752e9ac5a116ec32f5ccbb0099b580ccd725e4f4a491.html",
+    "fixture_sha256": "c063841288dddc55818a450d9ee1047d97662d0b095dab2ae93dcba6346c1fd6"
+  }
+]

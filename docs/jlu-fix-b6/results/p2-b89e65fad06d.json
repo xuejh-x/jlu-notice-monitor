@@ -1,0 +1,1152 @@
+{
+  "id": "p2-b89e65fad06d",
+  "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+  "institution": "东北亚学院、东北亚研究院",
+  "column": "通知公告",
+  "site_url": "https://nasa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/b89e65fad06d41c2.json",
+  "discovery_url": "https://nasa.jlu.edu.cn/",
+  "original_snapshot": "html/988744e85a1488920a9b609883c9d2da2330e467eb43358365ab21e8a9d87725.html",
+  "original_capture_time": "2026-10-13T13:41:09+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-b89e65fad06d",
+    "name": "东北亚学院、东北亚研究院 / 通知公告",
+    "base_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:03+08:00",
+  "details": [
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1054/6550.htm",
+      "list_title": "关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2026-07-13",
+      "list_date": "2026-07-13",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1054/6550.htm",
+        "time": "2026-10-15T19:39:24+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1054/6550.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5f1c8fd1c3f7dea3528f8929ebcc9db1121a047d03d1069b1ab555485d8c1073",
+        "html_path": "html/5f1c8fd1c3f7dea3528f8929ebcc9db1121a047d03d1069b1ab555485d8c1073.html",
+        "replacement_chars": 0,
+        "chars": 27088,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1054/6550.htm",
+        "publish_date": "2026-07-13",
+        "publisher": null,
+        "content": "根据《吉林大学研究生学术业绩奖学金评定办法（试行）》（校发〔2021〕72号）要求 以及《关于开展 2025 年度吉林大学研究生学术业绩奖学金评定工作的通知》的规定，现将《东北亚学院 2025 年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院 2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》予以公示。 公示期： 2026年7月13 日 -15日。 如有异议，请于公示期内向学院研究生办公室反映。 联系人：张老师 联系电话： 0431-85166390 东北亚学院研究生工作办公室 2026年7月13日",
+        "attachments": [
+          {
+            "filename": "附件1：东北亚学院2025年度研究生学术业绩奖学金评定实施细则.pdf",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183237",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件2：“中国研究生创新实践系列大赛”主题赛事.xlsx",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183215",
+            "type": "xlsx"
+          },
+          {
+            "filename": "附件3：东北亚学院2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单.pdf",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183228",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件4：学术业绩奖学金系统使用说明.pdf",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183229",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2024年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-07-13",
+            "date": "2026-07-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 267,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183215",
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183228",
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183229",
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183237"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示",
+          "",
+          "日期：2026-07-13 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示 日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          },
+          {
+            "text": "日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          },
+          {
+            "text": "日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          },
+          {
+            "text": "日期：2026-07-13",
+            "date": "2026-07-13"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+      "list_title": "关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2025-09-11",
+      "list_date": "2025-09-11",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+        "time": "2026-10-15T19:39:25+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a8bdd4f4c13048c116faf44d903214d568a7fa4c67e2c1580c48275c4829a141",
+        "html_path": "html/a8bdd4f4c13048c116faf44d903214d568a7fa4c67e2c1580c48275c4829a141.html",
+        "replacement_chars": 0,
+        "chars": 30398,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2024年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+        "publish_date": "2025-09-11",
+        "publisher": null,
+        "content": "根据《吉林大学研究生学术业绩奖学金评定办法（试行）》（校发〔 2021〕72号）要求 以及《关于开展 202 4 年度吉林大学研究生学术业绩奖学金评定工作的通知》的规定，现将《东北亚学院 202 4 年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院 202 4 年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》予以公示。 公示期： 202 5 年 9 月 11 日 - 13 日。 如有异议，请于公示期内向学院研究生办公室反映。 联系人： 张 老师 联系电话： 0431-851663 90 东北亚学院研究生工作办公室 202 5 年 9 月 11 日",
+        "attachments": [
+          {
+            "filename": "附件2：东北亚学院2024年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单.docx",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16645178",
+            "type": "docx"
+          },
+          {
+            "filename": "附件1：东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则.docx",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16645179",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2025年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 吉林大学东北亚学院“2025年校园学术活动开放日”通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-09-11",
+            "date": "2025-09-11"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 288,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16645178",
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16645179"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2024年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示",
+          "",
+          "日期：2025-09-11 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学院2024年度研究生学术业绩奖学金评定工作委员会及评定监督委员会成员名单》的公示 日期：2025-09-11 点击数：",
+            "date": "2025-09-11"
+          },
+          {
+            "text": "日期：2025-09-11 点击数：",
+            "date": "2025-09-11"
+          },
+          {
+            "text": "日期：2025-09-11 点击数：",
+            "date": "2025-09-11"
+          },
+          {
+            "text": "日期：2025-09-11",
+            "date": "2025-09-11"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+      "list_title": "中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生简章 2023-04-28",
+      "list_date": "2023-04-28",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+        "time": "2026-10-15T19:39:27+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "69d705658296d9e6ba1d22fdd57e9f0841348250d97b87ee4df4a144bae204dc",
+        "html_path": "html/69d705658296d9e6ba1d22fdd57e9f0841348250d97b87ee4df4a144bae204dc.html",
+        "replacement_chars": 0,
+        "chars": 41849,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生简章",
+        "url": "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+        "publish_date": "2023-04-28",
+        "publisher": null,
+        "content": "中国人口老龄化与经济社会发展研究中心是由吉林大学与国家卫生健康委员会合作设立，旨在为国家卫生健康系统培养高层次复合型人才，加强卫生健康系统干部在职学习和深造，为我国综合解决人口问题和应对人口老龄化提供高素质人才支撑。 一、招生方式 2023年中国人口老龄化与经济社会发展研究中心博士研究生招生实行“申请考核制”。 二、考生申请条件 （一）基本要求 1.中华人民共和国公民。 2.拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为社会主义现代化建设服务，遵纪守法，品行端正。 3.考生必须符合下列学历条件之一： （ 1）应届硕士毕业生（最迟须在入学前取得硕士学位）； （ 2）已获硕士或博士学位的人员。 4.身体和心理健康状况符合规定的体检标准。 5.有至少两名所报考学科专业领域内的教授（或相当专业技术职称的专家）的书面推荐意见。 6.考生在网上报名之前必须经过国家卫健委人事司进行资格审查和推荐，并报送吉林大学东北亚学院审核备案。 （二）外语水平须符合以下任意一项： 1.全国大学英语四级或六级考试成绩达到425分及以上。 2.托福（TOEFL）考试成绩达到90分及以上。 3.雅思（IELTS）考试成绩达到6分及以上。 4.GRE成绩达到300分及以上（新）。 5.英语专业四级或八级考试成绩60分及以上。 6.WSK（PETS-5）考试成绩60分及以上。 7.通过俄语专业四级考试或全国大学俄语四级（CRT4）或俄罗斯联邦对外俄语等级考试ТРКИ的B1及以上。 8.通过日语专业四级考试或全国大学日语四级（CJT4）或日语能力测试（JLPT）N2及以上。 9.在英语、日语、俄语国家或地区获得硕士或博士学位。 10.在国外有1年以上（含1年）全日制学习经历（报考英语、日语、俄语语种为当地主要日用语言和授课语言）的人员，该部分人员需提供学习经历的证明和成绩单。 三、报考类别、学习形式及学制 报考类别：定向就业 学习形式：非全日制 学制：博士研究生基础学制为三年，具体要求按培养方案执行；在校最长学习年限为六年。 四、组织机构 1.依托东北亚学院成立中国人口老龄化与经济社会发展研究中心2023年博士研究生招生工作领导小组，负责制定“申请考核制”招生简章及专业目录，组织实施本次招生考核录取工作。 2.成立报名资格审查小组，负责对考生的报名资格进行审查。 3.各专业联合培养单位成立各专业资格审查小组，负责确定各专业资格审查标准及进入综合考核的考生名单。 4.各专业联合培养单位成立各专业综合考核专家组，负责对通过资格审查的考生进行综合考核。 5.成立监督检查小组，对本单位考核录取的工作程序、保密规定、信息公开公示和工作人员的廉洁廉政等进行监督检查。 五、考生报名程序 （一）网上报名和缴费 报考中国人口老龄化与经济社会发展研究中心 2023年博士研究生的所有考生请登录吉林大学招生网进行网上报名（网址： http://zsb.jlu.edu.cn/ ）。网上缴纳报名费人民币 200元，报名费一经缴纳，均不办理退还。网报时间截止前未成功缴纳报名费的视为报名信息无效。网上报名和缴费时间为2023年5月10日至5月15日。 所有考生在报名期限内均应对本人网上报名信息进行认真核对并确认，报名结束后一律不得修改。 （二）提交申请材料 考生请将下述材料按序装订成册，邮寄或送至吉林大学前卫南区东荣大厦 A411室，同时彩色扫描电子版合成一个PDF文件，按“报考专业+考生姓名+报考导师”的格式命名，发送至邮箱wangdijlu@jlu.edu.cn。材料必须真实有效，如有伪造，一经发现，立即取消其报名、考核、录取资格。提交材料时间为2023年5月10日—2023年5月18日，纸质版材料需于2023年5月18日前邮出，以邮戳时间为准，逾期不予补报；电子版材料需于2023年5月18日前发送至邮箱。 邮寄地址为：吉林省长春市前进大街 2699号吉林大学前卫南区东荣大厦A411室，东北亚学院研究生工作办公室收，联系电话0431-85166390，邮编130012。请务必使用EMS邮寄，因使用其他快递邮寄材料而耽误报名的考生后果自负。 提交材料顺序为： 【第 1部分】《吉林大学博士研究生报名信息简表》一份（吉林大学博士研究生报名系统下载并打印，“本人自述”栏及承诺人签名均由考生本人手写）。报考其他联合培养单位的考生材料由东北亚学院研究生工作办公室转递，请考生报名时务必认真填写报考导师姓名。 【第 2部分】两名报考学科专业领域内的教授（或相当专业技术职称的专家）“专家推荐书”。 【第 3部分】拟攻读博士学位期间本人的研究计划书，要求不少于5000字，需明确研究方向、相关文献和资料准备情况、拟研究框架等。 【第 4部分】考生（含军人）本人二代居民身份证件扫描件。 【第 5部分】本科毕业证书、学位证书扫描件。 【第 6部分】已获硕士学位人员硕士毕业证书、学位证书扫描件（应届硕士毕业生提交研究生证扫描件或所在学校研究生学籍管理部门出具的在学证明）。 【第 7部分】在国内获得硕士学位者，须提交由教育部学位与研究生教育发展中心（http://www.cdgdc.edu.cn/）出具的学位认证报告扫描件。 【第 8部分】在国（境）外获得硕士学位者，须提交由教育部留学服务中心（http://www.cscse.edu.cn/publish/portal0/）出具的学位认证报告扫描件。 【第 9部分】外语水平证明材料扫描件。 【第 10部分】获奖证书、发表论文、获得授权专利及其他原创性研究成果的证明材料。其中，发表论文请按如下格式提供：已发表的提供期刊封面、目录、全文扫描件，拟发表的提供已按期刊发表格式排好版的扫描件。 【第 11部分】研究生阶段成绩单。由考生所在学校研究生管理部门提供，并加盖公章；非应届毕业生可由考生档案所在人事部门或毕业学校档案管理部门提供，并加盖公章。 【第 12部分】硕士学位论文（应届硕士毕业生可提供硕士论文概要）。 【第 13部分】定向就业的硕士研究生报考时，必须出具原定向单位人事部门同意该生攻读博士学位研究生的公函扫描件。 考生应对所提交材料的真实性负责，无论何时，一经发现存在伪造、提交虚假信息等违纪行为，将根据有关规定严肃处理，相关后果由考生本人承担。 六、考核选拔程序 （一）资格审查（ 2023年5月19日－5月21日） 各专业联合培养单位资格审查小组根据资格审核标准和进入综合考核的比例，对考生提交的申请材料进行评估，根据考生的外语水平、学习成绩、硕士论文、参与科研、发表论文以及获奖等情况，按百分制给出成绩。按照不超过每位导师招生计划 1:2的比例，择优确定进入综合考核的考生名单。考生成绩在60分以下的为不合格，不予进入下一阶段的综合考核。 （二）综合考核 各专业联合培养单位综合考核专家组对通过资格审查的考生进行综合考核。具体考核方式、内容由各专业联合培养单位自主确定，详见各专业联合培养单位网站公布的 “申请考核制”综合考核办法，考核时间及方式另行通知。思想政治素质和品德考核不计入综合考核成绩，但不合格者不予录取。综合考核成绩按百分制计算，根据综合考核成绩择优确定拟录取名单。各专业综合考核成绩将在各专业联合培养单位网站公示，公示期为3天。 请报考人口、资源与环境经济学和人口学专业的考生关注东北亚学院官网： http://nasa.jlu.edu.cn/yjsjy/zsxx.htm 请报考流行病与卫生统计学和社会医学与卫生事业管理专业的考生关注公共卫生学院官网： http://sph.jlu.edu.cn/ （三）拟录取 在招生计划额度内，招生工作领导小组根据各专业综合考核小组提供的综合考核成绩确定拟录取名单并向考生公示，公示期为 3天，公示结束后上报学校研究生招生办公室进行审核。拟录取名单审核通过后在吉林大学招生网站公示，公示期为十个工作日。 中国人口老龄化与经济社会发展研究中心博士研究生的录取类别为定向就业。定向就业博士生毕业后回定向培养单位就业。招生单位、用人单位、拟录取为定向培养的考生之间，必须在考生录取前，分别签订合同。定向就业博士研究生不需调取人事档案。 七、学费 按照国家规定，我校全面实行研究生教育收费制度。学术型博士研究生学制内学费每年 10000元。 八、体检 体检在新生入学报到后统一进行，具体时间、地点另行通知。 九、咨询与监督电话 东北亚学院咨询电话： 0431-85166390 公共卫生学院咨询电话： 0431-85619445 学校研究生招生办公室咨询电话： 0431-85166371 十、其他事项 （一）凡在报考时采用不正当手段、弄虚作假者，在招生工作中的任何阶段一经发现，一律取消其报名、考试或录取资格。 （二）我校不举办任何形式的考前辅导班，不提供往年考试试题，不出售或办理邮购书籍业务。 （三）凡与吉林大学教职员工为夫妻关系、直系血亲关系、三代以内旁系血亲关系以及近姻亲关系的考生，必须在报名表 “本人自述”中填写清楚，并承诺内容真实准确。与考生有以上关系的人员在相关工作中应主动提出并全程回避。 （四）考生与所在工作单位因博士报考产生的问题由考生与所在工作单位自行协商解决；若因此而造成考生不能被录取的后果，招生单位不承担责任。 （五）请考生及时登录吉林大学招生网（ http://zsb.jlu.edu.cn），以获取我校博士研究生招生最新信息。 十一、本简章及未尽事宜由吉林大学东北亚学院负责解释。 附件 1：中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生专业目录 附件 2：吉林大学2023年报考攻读博士学位研究生专家推荐书 中国人口老龄化与经济社会发展研究中心 2023年4月2 8 日",
+        "attachments": [
+          {
+            "filename": "附件1：吉林大学中国人口老龄化与经济社会发展中心2023年招收攻读博士研究生招生专业目录.pdf",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=12062306",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件2：吉林大学2023年报考攻读博士学位研究生专家推荐书.docx",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=12062305",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 吉林大学长吉图开发开放研究中心2023年招收攻读博士学位研究生招生简章"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 东北亚学院2023年博士研究生“申请考核制”招生实施细则补充通知（省属高校教师系列）"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2023-04-28",
+            "date": "2023-04-28"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 4026,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=12062305",
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=12062306"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生简章",
+          "",
+          "日期：2023-04-28 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生简章 日期：2023-04-28 点击数：",
+            "date": "2023-04-28"
+          },
+          {
+            "text": "日期：2023-04-28 点击数：",
+            "date": "2023-04-28"
+          },
+          {
+            "text": "日期：2023-04-28 点击数：",
+            "date": "2023-04-28"
+          },
+          {
+            "text": "日期：2023-04-28",
+            "date": "2023-04-28"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+        "time": "2026-10-15T19:29:04+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "988744e85a1488920a9b609883c9d2da2330e467eb43358365ab21e8a9d87725",
+        "html_path": "html/988744e85a1488920a9b609883c9d2da2330e467eb43358365ab21e8a9d87725.html",
+        "replacement_chars": 0,
+        "chars": 23936,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1054/5141.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5161.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5208.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5209.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5321.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5359.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5371.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5576.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5817.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5928.htm",
+        "https://nasa.jlu.edu.cn/info/1054/6184.htm",
+        "https://nasa.jlu.edu.cn/info/1054/6185.htm",
+        "https://nasa.jlu.edu.cn/info/1054/6205.htm",
+        "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+        "https://nasa.jlu.edu.cn/info/1054/6550.htm"
+      ],
+      "observed_next_urls": [
+        "https://nasa.jlu.edu.cn/yjsjy/tzgg/33.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg/33.htm",
+        "time": "2026-10-15T19:39:24+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg/33.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e67505b0424781740afa68ada47e8911a040df720c6619b8ac09a70d565d0c51",
+        "html_path": "html/e67505b0424781740afa68ada47e8911a040df720c6619b8ac09a70d565d0c51.html",
+        "replacement_chars": 0,
+        "chars": 24290,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1054/4530.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4531.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4539.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4540.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4549.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4550.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4559.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4569.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4722.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4729.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4799.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4889.htm",
+        "https://nasa.jlu.edu.cn/info/1054/4909.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+        "https://nasa.jlu.edu.cn/info/1054/5842.htm"
+      ],
+      "observed_next_urls": [
+        "https://nasa.jlu.edu.cn/yjsjy/tzgg/32.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "time": "2026-10-15T19:29:04+08:00",
+    "ok": true,
+    "final_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "988744e85a1488920a9b609883c9d2da2330e467eb43358365ab21e8a9d87725",
+    "html_path": "html/988744e85a1488920a9b609883c9d2da2330e467eb43358365ab21e8a9d87725.html",
+    "replacement_chars": 0,
+    "chars": 23936,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于对《东北亚学院2025年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2026-07-13",
+      "url": "https://nasa.jlu.edu.cn/info/1054/6550.htm",
+      "publish_date": "2026-07-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于对《东北亚学院2024年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2025-09-11",
+      "url": "https://nasa.jlu.edu.cn/info/1054/6253.htm",
+      "publish_date": "2025-09-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学东北亚学院“2025年校园学术活动开放日”通知 2025-06-19",
+      "url": "https://nasa.jlu.edu.cn/info/1054/6205.htm",
+      "publish_date": "2025-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院关于公示吉林大学2025年度十佳研究生拟推荐人选的通知 2025-05-20",
+      "url": "https://nasa.jlu.edu.cn/info/1054/6185.htm",
+      "publish_date": "2025-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2025年博士研究生“申请考核制”招生实施细则补充通知（中华优秀传统文... 2025-05-16",
+      "url": "https://nasa.jlu.edu.cn/info/1054/6184.htm",
+      "publish_date": "2025-05-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示东北亚学院2025年度研究生招生资格审核通过人员名单的通知 2024-07-09",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5928.htm",
+      "publish_date": "2024-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于对《东北亚学院2023年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2024-04-23",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5576.htm",
+      "publish_date": "2024-04-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023年学业奖学金评审细则 2023-10-19",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5371.htm",
+      "publish_date": "2023-10-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023年度研究生国家奖学金评审细则 2023-10-13",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5359.htm",
+      "publish_date": "2023-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023级研究生团学组织成员公示 2023-10-11",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5817.htm",
+      "publish_date": "2023-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2024年推免生复试成绩、拟录取名单（含优秀营员）公示及拟录取工作安排 2023-09-26",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5321.htm",
+      "publish_date": "2023-09-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院关于2022年度研究生学术业绩奖学金获奖者的公示 2023-06-19",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5209.htm",
+      "publish_date": "2023-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于东北亚学院2022年度研究生学术业绩奖学金申请者成果的公示 2023-06-09",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5208.htm",
+      "publish_date": "2023-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于对《东北亚学院2022年度研究生学术业绩奖学金评定工作实施细则》及《东北亚学... 2023-05-12",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5161.htm",
+      "publish_date": "2023-05-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学长吉图开发开放研究中心2023年招收攻读博士学位研究生招生简章 2023-04-28",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5141.htm",
+      "publish_date": "2023-04-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国人口老龄化与经济社会发展研究中心2023年招收攻读博士学位研究生招生简章 2023-04-28",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5139.htm",
+      "publish_date": "2023-04-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023年博士研究生“申请考核制”招生实施细则补充通知（省属高校教师系... 2023-03-14",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4909.htm",
+      "publish_date": "2023-03-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023年博士研究生“申请考核制”第二批招生通知 2023-03-13",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4889.htm",
+      "publish_date": "2023-03-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2023年博士研究生“申请考核制”招生实施细则（全日制） 2022-12-23",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4799.htm",
+      "publish_date": "2022-12-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院研究生“精英杯”学术成果大奖赛—研究生调研之星拟推荐候选人公示 2022-11-30",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4729.htm",
+      "publish_date": "2022-11-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022年度“金胜猷奖学金”评选结果公示 2022-11-30",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4722.htm",
+      "publish_date": "2022-11-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022级研究生团学组织成员公示 2022-10-31",
+      "url": "https://nasa.jlu.edu.cn/info/1054/5842.htm",
+      "publish_date": "2022-10-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022年学业奖学金获得者拟推荐人选公示 2022-10-28",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4569.htm",
+      "publish_date": "2022-10-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2021-2022学年研究生评奖评优拟推荐人选（第二批）公示 2022-10-25",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4559.htm",
+      "publish_date": "2022-10-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022年度获得“求实”奖学金推荐人选 2022-10-21",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4550.htm",
+      "publish_date": "2022-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022年度获得国家奖学金推荐人选名单公示 2022-10-21",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4549.htm",
+      "publish_date": "2022-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2021-2022学年研究生评奖评优拟推荐人选公示 2022-10-20",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4540.htm",
+      "publish_date": "2022-10-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院2022年学业奖学金评审细则 2022-10-19",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4539.htm",
+      "publish_date": "2022-10-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学东北亚学院2021年度研究生学术业绩奖学金获奖者公示的通知 2022-10-16",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4531.htm",
+      "publish_date": "2022-10-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "东北亚学院关于开展2021－2022学年研究生优秀奖学金、优秀研究生、优秀研究生干部... 2022-10-15",
+      "url": "https://nasa.jlu.edu.cn/info/1054/4530.htm",
+      "publish_date": "2022-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 30,
+  "pagination": [
+    {
+      "start_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg/33.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-b89e65fad06d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.010003663599491e-05,
+      "detail_duration_seconds": 1.009996049106121e-05,
+      "parse_db_duration_seconds": 0.041409699828363955
+    },
+    "second_round": {
+      "source": "p2-b89e65fad06d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.010003663599491e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-b89e65fad06d",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "通知公告",
+    "url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:04+08:00",
+    "review_time": "2026-10-15T20:21:03+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 30,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-b89e65fad06d.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

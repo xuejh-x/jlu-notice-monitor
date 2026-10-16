@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-15T19:46:30+08:00",
+  "files": {
+    "backend/scripts/validate_jlu_b6.py": "76183888ff25884d3dd2ff80f45db49867425f5c0b1c52866f0b8046bfbe0462",
+    "backend/scripts/validate_jlu_b5_c.py": "6f4c003c2790926fa42e115d6dc6d60ded9717644ab25d19c466969297635922",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/scripts/audit_jlu_sites.py": "e75fcbadcf836040dfc483afcae3741c15de188bc6989f6f87abcc0bb446cae6",
+    "backend/app/parsers/html.py": "1d3cb3c96a4d72f42678b7fde68b75ad39a719862b97bfa60e6fbe52d6d904ea",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/app/services/list_pagination.py": "2408a067ac8e95e281b30b1213b766f6f68f0ccfdaa2a3bd87e67f1f2b16cff8",
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/services/deduplication.py": "f552b8dd6740a00827617190ee103c8e085b0c8f6b0e4397f9ce2974b6ed1ee4",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b6/targets.json": "47ff8363c9eb36bf6ed314b28b6583ed76fe091dd67edbd488d5e200649d1a1a",
+    "input/requests.json": "dd21a5f81d54656b678cf8e60152e398ee1049c6de3e1fae13729fc9b7dc880e",
+    "input/code-manifest.json": "3da00ae9ad1fabaa991e82f677aeb1853ecf50d80215fa47884604d6665c8606"
+  },
+  "offline": true,
+  "input_dir": "docs\\jlu-fix-b6\\live-20261015",
+  "limits": "164 entries, <=2 pages and <=3 details each; serial robots/rate limits; no attachments downloaded",
+  "database": "application engine connections forbidden; independent sample replay uses sqlite://"
+}

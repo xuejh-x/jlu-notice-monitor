@@ -1,0 +1,38 @@
+{
+  "column_url": "http://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+  "column": "教学公示",
+  "institution": "本科教育",
+  "site_url": "http://jwc.jlu.edu.cn/",
+  "category": "官网导航",
+  "priority": "P3",
+  "discovery_url": "http://jwc.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:48:12+08:00",
+  "checked_at": "2026-10-13T14:03:47+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/bcc9b4a2139f8754.json",
+  "reason": "EMPTY_LIST",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "http://jwc.jlu.edu.cn/system/resource/code/auth/ipauth.htm",
+  "list_sha256": "809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066",
+  "list_snapshot": "html/809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

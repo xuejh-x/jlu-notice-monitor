@@ -32,6 +32,8 @@ def is_public_feed_not_configured(last_error_code: str | None, last_error: str |
 class CloudFeedSource(NoticeSource):
     """Read-only official feed adapter used only by Desktop deployments."""
 
+    list_contains_details = True
+
     def __init__(self, config: dict[str, Any]) -> None:
         super().__init__(config)
         feed_url = str(config.get("public_feed_url") or get_settings().public_feed_url or "").strip()
@@ -108,6 +110,7 @@ class CloudFeedSource(NoticeSource):
                         publisher=item.get("publisher"),
                         content=item.get("content") or "",
                         attachments=[AttachmentData(**attachment) for attachment in item.get("attachments", [])],
+                        attachments_complete="attachments" in item,
                         category=item.get("category"),
                         registration_start=item.get("registration_start"),
                         registration_deadline=item.get("registration_deadline"),

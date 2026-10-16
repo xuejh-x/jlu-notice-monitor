@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-14T15:42:51.957174+08:00",
+  "mode": "review of saved public HTML; automated results preserved",
+  "decisions": [
+    {
+      "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+      "time": "2026-10-14T15:37:20+08:00",
+      "snapshot": "html/496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40.html",
+      "classification": "audit_false_positive",
+      "flag": "BODY_CONTAINER_FALLBACK",
+      "reason": "Actual .v_news_content exists and contains the original image; old audit chooses containers using a 20-text-character threshold. Parser output is original absolute image URL, not body fallback."
+    },
+    {
+      "url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+      "time": "2026-10-14T15:38:01+08:00",
+      "snapshot": "html/0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c.html",
+      "classification": "audit_false_positive",
+      "flags": [
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH"
+      ],
+      "reason": "Full article title is in .nr_title, with metadata below br/span. Parsed title matches this title. Old audit ignores .nr_title and treats trailing list ellipsis as literal title text."
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-14T15:37:52+08:00",
+      "classification": "access_blocked",
+      "reason": "Current robots request failed with TLS EOF. No detail or production Cloud success claimed; no bypass or retries beyond audit policy."
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+      "time": "2026-10-14T15:38:53+08:00",
+      "classification": "replacement_already_in_response",
+      "reason": "Response bytes strictly decode as UTF-8 and contain three literal EF BF BD sequences. No alternative decoding can recover the lost characters; leave anomaly reported."
+    }
+  ]
+}

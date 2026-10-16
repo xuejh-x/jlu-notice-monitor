@@ -1,0 +1,1343 @@
+[
+  {
+    "site_url": "https://pco.jlu.edu.cn/",
+    "institutions": [
+      "党委办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:33:51+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://pco.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://bmb.jlu.edu.cn/",
+    "institutions": [
+      "保密工作办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:33:53+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://jjw.jlu.edu.cn/",
+    "institutions": [
+      "学校纪检监察机构"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:33:59+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://xinfang.jlu.edu.cn/",
+    "institutions": [
+      "党委信访工作办公室、信访工作办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:07+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "http://zzb.jlu.edu.cn/",
+    "institutions": [
+      "党委组织部"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:49:12+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": [],
+    "alternate_url": "https://zzb.jlu.edu.cn/",
+    "initial_http_error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response."
+  },
+  {
+    "site_url": "https://dxb.jlu.edu.cn/",
+    "institutions": [
+      "党校办公室（社会主义学院办公室）",
+      "党代表联络办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:18+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://dxb.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://jgdw.jlu.edu.cn/",
+    "institutions": [
+      "机关党委"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:20+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://news.jlu.edu.cn/",
+    "institutions": [
+      "新闻中心"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:28+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://news.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://tv.jlu.edu.cn/",
+    "institutions": [
+      "电视台"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:30+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://tv.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://tzb.jlu.edu.cn/",
+    "institutions": [
+      "党委统战部"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:33+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://tzb.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://xsc.jlu.edu.cn/",
+    "institutions": [
+      "党委学生工作部、党委武装部、学生工作处"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:35+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://xsc.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://pro.jlu.edu.cn/",
+    "institutions": [
+      "校长办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:37+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://pro.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://cxcyjyxy.jlu.edu.cn/",
+    "institutions": [
+      "创新创业教育学院",
+      "吉林大学创新创业教育学院"
+    ],
+    "categories": [
+      "管理服务",
+      "现有来源"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+      "backend/config/sources.yaml"
+    ],
+    "checked_at": "2026-10-13T13:34:47+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://cxcyjyxy.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://kjkfzx.jlu.edu.cn/",
+    "institutions": [
+      "科技开发办公室（国内合作处、国家大学科技园办公室）"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:53+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://kjkfzx.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://ast.jlu.edu.cn/",
+    "institutions": [
+      "科学技术协会秘书处办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:34:58+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://ast.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://talent.jlu.edu.cn/",
+    "institutions": [
+      "人才工作办公室、党委人才工作办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:35:12+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://talent.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://cw.jlu.edu.cn/",
+    "institutions": [
+      "财务处"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:35:16+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://sjc.jlu.edu.cn/",
+    "institutions": [
+      "审计处"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:35:22+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://lab.jlu.edu.cn/",
+    "institutions": [
+      "实验室管理处"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:37:23+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://xyjj.jlu.edu.cn/",
+    "institutions": [
+      "校友和基金工作办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:37:44+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://xyjj.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://cgglzx.jlu.edu.cn/",
+    "institutions": [
+      "招标与采购管理中心"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:37:50+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://cgglzx.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://jdjyw.jlu.edu.cn/",
+    "institutions": [
+      "学生就业创业指导与服务中心"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:37:52+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://jdjyw.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzd",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://xyk.jlu.edu.cn/",
+    "institutions": [
+      "校园卡服务中心"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:38:01+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://union.jlu.edu.cn/",
+    "institutions": [
+      "工会"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:38:17+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://union.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://jdyxb.jlu.edu.cn/yxbyxk",
+    "institutions": [
+      "医学学科建设与科研办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:38:40+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://jdyxb.jlu.edu.cn/yxbyxk/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://jdyxb.jlu.edu.cn/yxbyxk/kxyj1/kyxx.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://nhswb.jlu.edu.cn/",
+    "institutions": [
+      "南湖事务办公室"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:38:47+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://nhswb.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://lib.jlu.edu.cn/",
+    "institutions": [
+      "图书馆"
+    ],
+    "categories": [
+      "管理服务",
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:49:18+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_DISALLOWED: https://lib.jlu.edu.cn/",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": [],
+    "alternate_url": "https://lib.jlu.edu.cn/",
+    "initial_http_error": "RuntimeError: ROBOTS_DISALLOWED: http://lib.jlu.edu.cn/"
+  },
+  {
+    "site_url": "https://xyy.jlu.edu.cn/",
+    "institutions": [
+      "校医院"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:38:53+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://xyy.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://gmuseum.jlu.edu.cn/",
+    "institutions": [
+      "地质博物馆"
+    ],
+    "categories": [
+      "管理服务"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:39:03+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://gmuseum.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://jjxy.jlu.edu.cn/",
+    "institutions": [
+      "经济学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:40:32+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://jjxy.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://jjxy.jlu.edu.cn/rcpy1.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://jjxy.jlu.edu.cn/xsgz1.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://jt.jlu.edu.cn/",
+    "institutions": [
+      "交通学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:42:09+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://jt.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://jt.jlu.edu.cn/rcpy/bkspy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://jt.jlu.edu.cn/kxyj/kyjg.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://jt.jlu.edu.cn/xsgz/bksgl/xtzz.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://sph.jlu.edu.cn/",
+    "institutions": [
+      "公共卫生学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:43:38+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://sph.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://sph.jlu.edu.cn/bksjy1/gzzd.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://sph.jlu.edu.cn/yjsjy1/xkjj.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://sph.jlu.edu.cn/zsjy/bkszs.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://sph.jlu.edu.cn/xsgz.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://www.jdyy.cn/",
+    "institutions": [
+      "白求恩第一临床医学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:44:05+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://www.jdey.com.cn/",
+    "institutions": [
+      "白求恩第二临床医学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:44:06+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jdey.com.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://ykjy.jlu.edu.cn/",
+    "institutions": [
+      "预科教育学院"
+    ],
+    "categories": [
+      "院系"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yxsz.htm"
+    ],
+    "checked_at": "2026-10-13T13:45:01+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://ykjy.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://ykjy.jlu.edu.cn/jxgz.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://narc.jlu.edu.cn/",
+    "institutions": [
+      "东北亚研究中心"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:45:14+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://narc.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://www.legal-theory.org/",
+    "institutions": [
+      "理论法学研究中心"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:49:20+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": [],
+    "alternate_url": "https://www.legal-theory.org/",
+    "initial_http_error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: "
+  },
+  {
+    "site_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "institutions": [
+      "国家地球物理探测仪器工程技术研究中心"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:32:24+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://www.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/zsjy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://supramol.jlu.edu.cn/",
+    "institutions": [
+      "超分子结构与材料全国重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:46:19+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://supramol.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://supramol.jlu.edu.cn/rcpy1/yjs.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://bionic.jlu.edu.cn/",
+    "institutions": [
+      "工程仿生教育部重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:46:30+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://bionic.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://bionic.jlu.edu.cn/rcpy/dsjs.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://aml.jlu.edu.cn/",
+    "institutions": [
+      "汽车材料教育部重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:46:34+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://aml.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://aml.jlu.edu.cn/kxyj1/yjfx.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "http://aml.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://olagi.jlu.edu.cn/",
+    "institutions": [
+      "地球信息探测仪器教育部重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:46:44+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://olagi.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://olagi.jlu.edu.cn/rcpy2.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://ptab.jlu.edu.cn/",
+    "institutions": [
+      "新型电池物理与技术教育部重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:46:54+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://ptab.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://ptab.jlu.edu.cn/kxyj/kydt.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "http://ptab.jlu.edu.cn/rcpy/bysqx.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://cncr.jlu.edu.cn/",
+    "institutions": [
+      "数控装备可靠性教育部重点实验室"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:47:02+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://cncr.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://cncr.jlu.edu.cn/rcpy/dsjs.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://gujisuo.jlu.edu.cn/",
+    "institutions": [
+      "古籍研究所"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:47:18+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://gujisuo.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://gujisuo.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://iis.jlu.edu.cn/",
+    "institutions": [
+      "国际关系研究所"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:47:24+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://iis.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://jjxy.jlu.edu.cn/mgyjs",
+    "institutions": [
+      "美国研究所"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:47:27+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://jjxy.jlu.edu.cn/mgyjs/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://gunduan.jlu.edu.cn/",
+    "institutions": [
+      "辊锻工艺研究所"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:47:50+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://gunduan.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://gunduan.jlu.edu.cn/jxsz/yjsjx.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "http://gunduan.jlu.edu.cn/kxyj/yjfx.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "http://gunduan.jlu.edu.cn/rcpy/ybyyjs.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://palaeont.jlu.edu.cn/",
+    "institutions": [
+      "古生物与地层学研究中心"
+    ],
+    "categories": [
+      "研究机构"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/jgsz/yjjg.htm"
+    ],
+    "checked_at": "2026-10-13T13:48:01+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://palaeont.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "http://palaeont.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://www.jlu.edu.cn/kxyj/kyxx1.htm",
+    "institutions": [
+      "科研信息"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:48:17+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jlu.edu.cn/kxyj/kyxx1.htm",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://www.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/zsjy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://www.jlu.edu.cn/kxyj/kyxm1.htm",
+    "institutions": [
+      "科研项目"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:48:19+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jlu.edu.cn/kxyj/kyxm1.htm",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://www.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/zsjy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://www.jlu.edu.cn/kxyj/kycg.htm",
+    "institutions": [
+      "科研成果"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:48:20+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jlu.edu.cn/kxyj/kycg.htm",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://www.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/zsjy.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://kjkfzx.jlu.edu.cn/",
+    "institutions": [
+      "国内合作"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:48:21+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "http://kjkfzx.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://www.jlu.edu.cn/zsjy.htm",
+    "institutions": [
+      "招生就业"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:45:56+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://www.jlu.edu.cn/zsjy.htm",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://www.jlu.edu.cn/rcpy.htm",
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "url": "https://www.jlu.edu.cn/kxyj.htm",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "http://zsb.jlu.edu.cn/",
+    "institutions": [
+      "本科招生"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:49:34+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: RuntimeError: ACCESS_RESTRICTED_HTTP_403: https://zsb.jlu.edu.cn/robots.txt",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": [],
+    "alternate_url": "https://zsb.jlu.edu.cn/",
+    "initial_http_error": "RuntimeError: ROBOTS_UNAVAILABLE: RuntimeError: ACCESS_RESTRICTED_HTTP_403: http://zsb.jlu.edu.cn/robots.txt"
+  },
+  {
+    "site_url": "http://jdjyw.jlu.edu.cn/",
+    "institutions": [
+      "学生就业创业"
+    ],
+    "categories": [
+      "官网导航"
+    ],
+    "discovery_urls": [
+      "https://www.jlu.edu.cn/"
+    ],
+    "checked_at": "2026-10-13T13:48:30+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://jdjyw.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [
+      {
+        "url": "https://jdjyw.jlu.edu.cn/portal/jyzd",
+        "ok": true,
+        "reason": ""
+      }
+    ],
+    "hub_limit_omitted": []
+  },
+  {
+    "site_url": "https://oa.jlu.edu.cn/",
+    "institutions": [
+      "吉林大学 OA 校内通知"
+    ],
+    "categories": [
+      "现有来源"
+    ],
+    "discovery_urls": [
+      "backend/config/sources.yaml"
+    ],
+    "checked_at": "2026-10-13T13:48:46+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://jdgz.jlu.edu.cn/",
+    "institutions": [
+      "长春吉大附中实验学校"
+    ],
+    "categories": [
+      "附属单位"
+    ],
+    "discovery_urls": [
+      "https://jdgz.jlu.edu.cn/__local/D/CD/07/32C0645FD894CFAD967A25C5A83_73B01D70_8E2B3.pdf"
+    ],
+    "checked_at": "2026-10-13T13:49:41+08:00",
+    "status": "unreachable",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: TLS_CERTIFICATE_VERIFY_FAILED: GET https://jdgz.jlu.edu.cn/robots.txt: ('根据当前系统时钟或签名文件中的时间戳验证时要求的证书不在有效期内。',) <- ConnectError: ('根据当前系统时钟或签名文件中的时间戳验证时要求的证书不在有效期内。',) <- ConnectError: ('根据当前系统时钟或签名文件中的时间戳验证时要求的证书不在有效期内。',) <- SSLCertVerificationError: ('根据当前系统时钟或签名文件中的时间戳验证时要求的证书不在有效期内。',) <- SSLCertVerificationError: ('根据当前系统时钟或签名文件中的时间戳验证时要求的证书不在有效期内。',)",
+    "final_url": "",
+    "columns": [],
+    "hub_pages": []
+  },
+  {
+    "site_url": "https://gongkai.jlu.edu.cn/",
+    "institutions": [
+      "吉林大学信息公开网"
+    ],
+    "categories": [
+      "校级"
+    ],
+    "discovery_urls": [
+      "https://gongkai.jlu.edu.cn/gksx/cw_zcjsfxx/xbqyzc__fz_gyzcbzzzdxx.htm"
+    ],
+    "checked_at": "2026-10-13T13:49:43+08:00",
+    "status": "no_column_discovered",
+    "reason": "首页和至多六个一级相关入口未发现通知栏目；不等于站点无通知",
+    "final_url": "https://gongkai.jlu.edu.cn/",
+    "columns": [],
+    "hub_pages": [],
+    "hub_limit_omitted": []
+  }
+]

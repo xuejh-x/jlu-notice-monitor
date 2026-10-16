@@ -1,0 +1,13 @@
+{
+  "requests": 20,
+  "status_counts": {
+    "200": 20
+  },
+  "method_counts": {
+    "GET": 6,
+    "POST": 14
+  },
+  "list_requests": 3,
+  "detail_requests": 3,
+  "attachment_encoder_requests": 14
+}

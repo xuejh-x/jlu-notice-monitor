@@ -1,0 +1,537 @@
+{
+  "id": "p3-075bd0471b07",
+  "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+  "institution": "人兽共患病研究教育部重点实验室",
+  "column": "招聘信息",
+  "site_url": "http://ghb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING",
+  "original_evidence": "docs/jlu-audit-evidence/results/075bd0471b07d75f.json",
+  "original_capture_time": "2026-10-13T14:02:44+08:00",
+  "discovery_url": "http://ghb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-075bd0471b07",
+    "name": "人兽共患病研究教育部重点实验室 / 招聘信息",
+    "base_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:05+08:00",
+  "details": [
+    {
+      "url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+      "list_title": "15 2022-09 吉林大学人兽共患病研究所2022年公开招聘专业教师启事",
+      "list_date": "2022-09-15",
+      "response": {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+        "time": "2026-10-15T22:14:34+08:00",
+        "ok": true,
+        "final_url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fa527acae07e2b870266e43f05eafaacf0f6573c546e2586814ed84fce2bf392",
+        "html_path": "html/fa527acae07e2b870266e43f05eafaacf0f6573c546e2586814ed84fce2bf392.html",
+        "replacement_chars": 0,
+        "chars": 32084,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学人兽共患病研究所2022年公开招聘专业教师启事",
+        "url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+        "publish_date": "2022-09-15",
+        "publisher": "发表",
+        "content": "根据《吉林大学新聘人员聘用管理办法》《吉林大学新聘教师聘用管理办法（试行）》以及《关于下达 2022 年人员补充计划的通知》要求，结合人兽共患病研究所实际工作需要，我所 2022 年拟公开招聘教师 2 名。现将有关事宜公布如下： 一、招聘岗位 人与动物共有医学专业教师 2 名。 二、招聘条件 1. 拥护中国共产党的领导，坚持正确政治方向，遵守宪法和法律。 2. 具有高尚的道德情操，恪守高校教师师德行为规范和学术道德规范，身心健康，爱岗敬业，具有奉献精神。 3. 具有较强的 科研 潜力，包括良好的语言表达能力、文字综合能力和外语水平。能从事人与动物共有医学专业相关科学研究。 4. 博士研究生毕业并取得相应学位，并具有人与动物共有医学、兽医学、生命科学专业背景，应届毕业生应于 2022 年 12 月 31 日前取得毕业证和学位证。 5. 应聘人年龄原则上不超过 35 周岁（ 1987 年 3 月 1 日以后出生）。对于科研成果突出的申请者，年龄可以适当放宽，但是不能超过 40 周岁（ 1982 年 1 月 1 日以后出生）。 6. 应聘人须满足以下要求：第一责任作者发表 1 篇被 SCI 检索的学术论文，并以第一责任人身份满足下列条件之一： （ 1 ）获部省级以上科技奖不少于 1 项（国家奖的前 3 名、部省级一等奖的前 2 名、部省级二等奖的第 1 名），或相当数量的其他成果。 （ 2 ）获国家级发明专利不少于 2 项，或相当数量的其他成果。 （ 3 ）主持制定标准不少于 2 项，或未转让新药证书或动植物新品种等不少于 1 项。 （ 4 ）再发表不少于 2 篇被 SCI 检索的学术论文，或相当数量被 EI 、 MEDL 检索的学术论文。 三、聘用管理方式 1. 吉林大学新聘教师实行岗位聘用制，依据聘用岗位兑现相关待遇，确定聘用方式。新聘 教 师岗位教师由学校聘用，与学校签订聘用合同，一个固定聘期一般为 3 年。 2. 新聘 教 师岗位教师首聘期内取得的业绩成果达到我所教师评聘科研为主型副教授职务的基本业绩条件，且聘期考核结果为 “ 合格 ” 及以上等次的，学校可以继续聘用，签订第二个固定期限聘用合同。首聘期或第二聘期内晋升为副教授及以上职务的，学校可于晋升后的下一聘期起长期聘用；第二聘期结束，未晋升为副教授及以上职务的，学校不再继续聘用。 四、应聘材料 1. 个人简历：包括应聘者基本信息、学习和工作经历、获奖情况、外语水平、参加科研情况； 2. 发表的论文全文、检索页（或提供证明材料）； 3. 相关证明：包括身份证、学历（学位）证书原件和复印件。 五、报名方式及时间安排： 符合上述报名资格与条件并志愿申报的应聘人员，请于 2022 年 11 月 30 日前持应聘材料到人兽共患病研究所报名，或将应聘材料 PDF 版本发送到指定邮箱，邮件及简历命名为 “ 毕业学校 + 专业 + 学历 + 姓名 ” ，考核的具体事宜将在资格审查后另行通知。 六、纪律与监督 1. 根据《事业单位人事管理回避规定》、《吉林大学关于进一步强化工作回避制度建设的意见》等要求，严格执行回避制度。 2. 应聘人员须如实填写和提供相关材料，如发现填报内容不属实、提供虚假材料等违规违纪违法行为的，一经查实将终止其应聘程序或解除聘用。拟聘人员如在规定的报到入职日期前未取得相应学历学位，则不能聘用。 3. 对于在招聘过程中存在弄虚作假、徇私舞弊等行为的，一经查实，学校将追究具体责任人责任，并取消聘用人员应聘资格。 七、应聘人防疫须知 应聘人应严格执行长春市政府和吉林大学的各项防疫规定。 八、联系方式 联系人：刘老师 联系电话： 0431-87836710 电子邮箱： l_chang@jlu.edu.cn 办公地点：吉林省长春市西安大路 5333 号，人兽共患病研究所 321 室 人兽共患病研究所 2022 年 9 月 15 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学人兽共患病研究所2022年公开招聘专业教师启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2022-09-15 浏览量：",
+            "date": "2022-09-15"
+          },
+          {
+            "text": "时间：2022-09-15",
+            "date": "2022-09-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1621,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学人兽共患病研究所2022年公开招聘专业教师启事"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+      "list_title": "21 2017-12 吉林大学人兽共患病研究所2017年招聘教师启事",
+      "list_date": "2017-12-21",
+      "response": {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+        "time": "2026-10-15T22:14:35+08:00",
+        "ok": true,
+        "final_url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a76ea51d2b5359603b9ba4a5d1262807b03ff30d103643f7ab116d1c26891db2",
+        "html_path": "html/a76ea51d2b5359603b9ba4a5d1262807b03ff30d103643f7ab116d1c26891db2.html",
+        "replacement_chars": 0,
+        "chars": 20274,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学人兽共患病研究所2017年招聘教师启事",
+        "url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+        "publish_date": "2017-12-21",
+        "publisher": null,
+        "content": "根据工作需要，并经学校人社处批准，2017年人兽共患病研究所拟招聘教师3人，其中海外博士2人，国内博士1人。现将有关事宜通知如下： 一、聘用条件 聘用人员的资格严格按照《吉林大学新聘人员聘用管理暂行办法（修订）》中的相关规定执行,其中博士毕业生应以“师资预留博士后”身份进入吉林大学博士后流动站，出站考核达到研究所相应标准的，正式办理入职手续。根据实际工作需要，2017年补充人员的资格要求为： 1.具有较高的思想道德修养，有较强的责任心、事业心，热爱教育事业，身心健康； 2.原则上应为部属高校博士毕业并获得博士学位，且初始学历为部属高校普通高等教育招生计划内（不含独立学院）本科毕业并获学士学位； 3.优先考虑“中外联合培养博士”和“出国攻读博士学位”获得者； 4.具有医学背景、兽医学或生命科学专业背景。 二、应聘材料 1、求职简历（包括个人基本信息、学习和工作经历、外语水平、专业知识水平、参加教学和科研情况、获奖情况、自我综合评价） 2、相关证书、外语成绩、成绩单、发表论文等材料原件及复印件（原件验证后退还本人，复印件不退还本人）。 三、相关待遇 按吉林大学有关规定执行。 四、时间安排 应聘人员于2017年12月28日前将求职简历及相关证明材料报人兽共患病研究所综合办公室，考核具体事宜另行通知。欢迎广大有识之士及应届毕业生咨询应聘。 五、联系方式 通讯地址：长春市西安大路5333号吉林大学人兽共患病研究所综合办公室 邮政编码：130062 联系人：刘畅 电话：0431-87836710 E-mail：l_chang_jlu@126.com",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学人兽共患病研究所2017年招聘教师启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2017-12-21 浏览量：",
+            "date": "2017-12-21"
+          },
+          {
+            "text": "时间：2017-12-21",
+            "date": "2017-12-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 679,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学人兽共患病研究所2017年招聘教师启事"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+      "list_title": "20 2017-12 吉林大学人兽共患病研究所2017年招聘教师启事",
+      "list_date": "2017-12-20",
+      "response": {
+        "url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+        "time": "2026-10-15T22:14:37+08:00",
+        "ok": true,
+        "final_url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "1f9eefe71797d10f46433727a13cc142bb74862fac1572a4ee64e0efdc470318",
+        "html_path": "html/1f9eefe71797d10f46433727a13cc142bb74862fac1572a4ee64e0efdc470318.html",
+        "replacement_chars": 0,
+        "chars": 26096,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学人兽共患病研究所2017年招聘教师启事",
+        "url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+        "publish_date": "2017-12-20",
+        "publisher": null,
+        "content": "根据工作需要，并经学校人社处批准， 2017 年人兽共患病研究所拟招聘教师 3 人，其中海外博士 2 人，国内博士 1 人。现将有关事宜通知如下： 一、聘用条件 聘用人员的资格严格按照《吉林大学新聘人员聘用管理暂行办法（修订）》中的相关规定执行。根据实际工作需要， 2017 年补充人员的资格要求为： 1. 具有较高的思想道德修养，有较强的责任心、事业心，热爱教育事业，身心健康； 2. 原则上应为部属高校博士毕业并获得博士学位，且初始学历为部属高校普通高等教育招生计划内（不含独立学院）本科毕业并获学士学位； 3. 优先考虑“中外联合培养博士”和“出国攻读博士学位”获得者； 4. 具有医学背景、兽医学或生命科学专业背景。 二、应聘材料 1 、求职简历（包括个人基本信息、学习和工作经历、外语水平、专业知识水平、参加教学和科研情况、获奖情况、自我综合评价） 2 、相关证书、外语成绩、成绩单、发表论文等材料原件及复印件（原件验证后退还本人，复印件不退还本人）。 三、相关待遇 按吉林大学有关规定执行。 四、时间安排 应聘人员于 2017 年 12 月 30 日前将求职简历及相关证明材料报人兽共患病研究所综合办公室，考核具体事宜另行通知。欢迎广大有识之士及应届毕业生咨询应聘。 五、联系方式 通讯地址：长春市西安大路 5333 号吉林大学人兽共患病研究所综合办公室 邮政编码： 130062 联系人：刘畅 电话： 0431-87836710 E-mail ： l_chang_jlu@126.com 人兽共患病研究所 二〇一七年十二月二十日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学人兽共患病研究所2017年招聘教师启事"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2017-12-20 浏览量：",
+            "date": "2017-12-20"
+          },
+          {
+            "text": "时间：2017-12-20",
+            "date": "2017-12-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 671,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学人兽共患病研究所2017年招聘教师启事"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+        "time": "2026-10-15T22:14:32+08:00",
+        "ok": true,
+        "final_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "da6c621f0f8ac5e35ea08baaa7aad1d492fb330a4b6f6f8e7f04ef296559ee6a",
+        "html_path": "html/da6c621f0f8ac5e35ea08baaa7aad1d492fb330a4b6f6f8e7f04ef296559ee6a.html",
+        "replacement_chars": 0,
+        "chars": 21038,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://ghb.jlu.edu.cn/info/1025/1144.htm",
+        "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+        "http://ghb.jlu.edu.cn/info/1025/1146.htm",
+        "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+        "http://ghb.jlu.edu.cn/info/1025/1330.htm",
+        "http://ghb.jlu.edu.cn/info/1025/1331.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "time": "2026-10-15T22:14:32+08:00",
+    "ok": true,
+    "final_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "da6c621f0f8ac5e35ea08baaa7aad1d492fb330a4b6f6f8e7f04ef296559ee6a",
+    "html_path": "html/da6c621f0f8ac5e35ea08baaa7aad1d492fb330a4b6f6f8e7f04ef296559ee6a.html",
+    "replacement_chars": 0,
+    "chars": 21038,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "15 2022-09 吉林大学人兽共患病研究所2022年公开招聘专业教师启事",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1147.htm",
+      "publish_date": "2022-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "21 2017-12 吉林大学人兽共患病研究所2017年招聘教师启事",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1331.htm",
+      "publish_date": "2017-12-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "20 2017-12 吉林大学人兽共患病研究所2017年招聘教师启事",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1145.htm",
+      "publish_date": "2017-12-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "15 2017-10 人兽共患病研究教育部重点实验室人才招聘启事",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1330.htm",
+      "publish_date": "2017-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "20 2012-08 吉林大学人兽共患病研究所2012年招聘教师启事",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1146.htm",
+      "publish_date": "2012-08-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "10 2010-06 人兽共患病研究教育部重点实验室招聘启事 ——诚聘业务副所长、学术带头人、学术骨干及教师系列人员",
+      "url": "http://ghb.jlu.edu.cn/info/1025/1144.htm",
+      "publish_date": "2010-06-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-075bd0471b07",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.680001150816679e-05,
+      "detail_duration_seconds": 6.900052540004253e-06,
+      "parse_db_duration_seconds": 0.029446500004269183
+    },
+    "second_round": {
+      "source": "p3-075bd0471b07",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 1,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 1,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6400008462369442e-05,
+      "detail_duration_seconds": 1.9000144675374031e-06,
+      "parse_db_duration_seconds": 0.00650740007404238
+    },
+    "notice_count": 2,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": true,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-075bd0471b07",
+    "institution": "人兽共患病研究教育部重点实验室",
+    "column": "招聘信息",
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "SAME_TITLE_PUBLICATIONS_REQUIRE_IDENTITY_REVIEW",
+    "capture_time": "2026-10-15T22:14:32+08:00",
+    "review_time": "2026-10-15T23:01:05+08:00",
+    "http_status": 200,
+    "final_url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "list_pages": 1,
+    "list_items": 6,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [
+      "SAME_TITLE_PUBLICATIONS_REQUIRE_IDENTITY_REVIEW"
+    ],
+    "discovery_url": "http://ghb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-075bd0471b07.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

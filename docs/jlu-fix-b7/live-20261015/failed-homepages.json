@@ -1,0 +1,263 @@
+[
+  {
+    "url": "https://bsh.jlu.edu.cn/",
+    "response": {
+      "url": "https://bsh.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:13+08:00",
+      "ok": true,
+      "final_url": "https://bsh.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "2e7c73670ede6717a630e1c858b5f7b78f16934f579b4c01b90cd2613164b6da",
+      "html_path": "html/2e7c73670ede6717a630e1c858b5f7b78f16934f579b4c01b90cd2613164b6da.html",
+      "replacement_chars": 0,
+      "chars": 23304,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://bsh.jlu.edu.cn/zpxx.htm",
+        "column": "招聘信息"
+      }
+    ]
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/",
+    "response": {
+      "url": "https://hqserver.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:16+08:00",
+      "ok": true,
+      "final_url": "https://hqserver.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "09dea06a1ef1c909d72acbc38c49737fb8957d84ec5e57c4e343c61759bcd3a0",
+      "html_path": "html/09dea06a1ef1c909d72acbc38c49737fb8957d84ec5e57c4e343c61759bcd3a0.html",
+      "replacement_chars": 0,
+      "chars": 40141,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://hqserver.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023",
+        "column": "通知公告"
+      }
+    ]
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/",
+    "response": {
+      "url": "https://cszx.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:18+08:00",
+      "ok": true,
+      "final_url": "https://cszx.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "7fdfeee1b0b79f5c738d0c2b8ccc6e98d60dd772639042fa5865b2974d1d4f8b",
+      "html_path": "html/7fdfeee1b0b79f5c738d0c2b8ccc6e98d60dd772639042fa5865b2974d1d4f8b.html",
+      "replacement_chars": 0,
+      "chars": 37306,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://cszx.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008",
+        "column": "通知公告"
+      }
+    ]
+  },
+  {
+    "url": "https://iiimct.jlu.edu.cn/",
+    "response": {
+      "url": "https://iiimct.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:20+08:00",
+      "ok": true,
+      "final_url": "https://iiimct.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "fb43107c0c6247629696bef3b4d57cc5c8b5fbb2a4ce21c25d86309802024840",
+      "html_path": "html/fb43107c0c6247629696bef3b4d57cc5c8b5fbb2a4ce21c25d86309802024840.html",
+      "replacement_chars": 0,
+      "chars": 52007,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+        "column": "通知公告"
+      }
+    ]
+  },
+  {
+    "url": "https://fszx.jlu.edu.cn/",
+    "response": {
+      "url": "https://fszx.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:23+08:00",
+      "ok": true,
+      "final_url": "https://fszx.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "70bf3613725f7390ea19facea14017ca4eb7506278de8eba3e07d0df496f3bde",
+      "html_path": "html/70bf3613725f7390ea19facea14017ca4eb7506278de8eba3e07d0df496f3bde.html",
+      "replacement_chars": 0,
+      "chars": 85328,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+        "column": "通知公告"
+      }
+    ]
+  },
+  {
+    "url": "https://jdyxb.jlu.edu.cn/",
+    "response": {
+      "url": "https://jdyxb.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:25+08:00",
+      "ok": true,
+      "final_url": "https://jdyxb.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "249959d6fe5b22d073f1f8e8e28623b63b10cf587f2fb2f5c8fb3cf0a0162079",
+      "html_path": "html/249959d6fe5b22d073f1f8e8e28623b63b10cf587f2fb2f5c8fb3cf0a0162079.html",
+      "replacement_chars": 0,
+      "chars": 28756,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+        "column": "通知公告"
+      }
+    ]
+  },
+  {
+    "url": "http://bjkg.jlu.edu.cn/",
+    "response": {
+      "url": "http://bjkg.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:27+08:00",
+      "ok": true,
+      "final_url": "http://bjkg.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "31dbbc14c4fa3ddb82610e82c884443f8a92e0ecdcf5ceaacb4b2c1afadc0c71",
+      "html_path": "html/31dbbc14c4fa3ddb82610e82c884443f8a92e0ecdcf5ceaacb4b2c1afadc0c71.html",
+      "replacement_chars": 0,
+      "chars": 31726,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+        "column": "通知公告 READ"
+      }
+    ]
+  },
+  {
+    "url": "http://jlucqe.jlu.edu.cn/",
+    "response": {
+      "url": "http://jlucqe.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:29+08:00",
+      "ok": true,
+      "final_url": "http://jlucqe.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "d8db186e09baa9858cbfbd945381a485e3d0a3d676de5f5b4c1d9bc5b81397fc",
+      "html_path": "html/d8db186e09baa9858cbfbd945381a485e3d0a3d676de5f5b4c1d9bc5b81397fc.html",
+      "replacement_chars": 0,
+      "chars": 32484,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+        "column": "中心通知"
+      },
+      {
+        "url": "http://jlucqe.jlu.edu.cn/xgxw1/zxtz.htm",
+        "column": "中心通知"
+      }
+    ]
+  },
+  {
+    "url": "http://pftheory.jlu.edu.cn/",
+    "response": {
+      "url": "http://pftheory.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:31+08:00",
+      "ok": true,
+      "final_url": "http://pftheory.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "85a761038127a5c0b6f0526cfe736ac0ee464598324cb41fe85a5968324bcc1f",
+      "html_path": "html/85a761038127a5c0b6f0526cfe736ac0ee464598324cb41fe85a5968324bcc1f.html",
+      "replacement_chars": 0,
+      "chars": 30006,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+        "column": "中心通知"
+      }
+    ]
+  },
+  {
+    "url": "http://gjs.jlu.edu.cn/",
+    "response": {
+      "url": "http://gjs.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:33+08:00",
+      "ok": true,
+      "final_url": "http://gjs.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "0a590ac41b893bb576bb9ae6fc81e602537e5fd155952b24495a1ebb01aac1ba",
+      "html_path": "html/0a590ac41b893bb576bb9ae6fc81e602537e5fd155952b24495a1ebb01aac1ba.html",
+      "replacement_chars": 0,
+      "chars": 64830,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+        "column": "招生信息"
+      }
+    ]
+  },
+  {
+    "url": "http://indss.jlu.edu.cn/",
+    "response": {
+      "url": "http://indss.jlu.edu.cn/",
+      "time": "2026-10-15T22:06:36+08:00",
+      "ok": true,
+      "final_url": "http://indss.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "2cc4df0fa835326f3069ecd4d9c682def5101e66687e4ef44fc1a4d45d2e74fd",
+      "html_path": "html/2cc4df0fa835326f3069ecd4d9c682def5101e66687e4ef44fc1a4d45d2e74fd.html",
+      "replacement_chars": 0,
+      "chars": 27357,
+      "attempts": 1
+    },
+    "columns": [
+      {
+        "url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+        "column": "通知公告"
+      },
+      {
+        "url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+        "column": "通知"
+      }
+    ]
+  }
+]

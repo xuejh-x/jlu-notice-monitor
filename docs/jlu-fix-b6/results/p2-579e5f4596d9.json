@@ -1,0 +1,796 @@
+{
+  "id": "p2-579e5f4596d9",
+  "url": "https://sg.jlu.edu.cn/tzgg.htm",
+  "institution": "商学与管理学院",
+  "column": "通知公告",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/579e5f4596d97ca9.json",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "original_snapshot": "html/11312eb4f15aa37aab606dfb2169d7152dede48a10c4eeedc7f1b078552315a7.html",
+  "original_capture_time": "2026-10-13T14:00:28+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-579e5f4596d9",
+    "name": "商学与管理学院 / 通知公告",
+    "base_url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:57+08:00",
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1081/22487.htm",
+      "list_title": "2026-2027学年秋季学期研究生教材选用结果的公示",
+      "list_date": "2026-10-13",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1081/22487.htm",
+        "time": "2026-10-15T19:38:59+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1081/22487.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fa35608bb997c43dd97b55fadaa903932802f636153881ecab516c3b1eb0854c",
+        "html_path": "html/fa35608bb997c43dd97b55fadaa903932802f636153881ecab516c3b1eb0854c.html",
+        "replacement_chars": 0,
+        "chars": 22343,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2026-2027学年秋季学期研究生教材选用结果的公示",
+        "url": "https://sg.jlu.edu.cn/info/1081/22487.htm",
+        "publish_date": "2026-10-13",
+        "publisher": null,
+        "content": "按照我校《关于开展2026-2027学年秋季学期研究生教材选用工作的通知》的相关要求，现将我院教材选用结果进行公示，公示期为3个工作日。如有异议请与研究生培养办公室联系。 联系电话： 85095604 商学与管理学院研究生培养办公室",
+        "attachments": [
+          {
+            "filename": "商学与管理学院2026-2027秋季学期研究生教材选用汇总表.xlsx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208128",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "2026-2027学年秋季学期研究生教材选用结果的公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "2026-2027学年秋季学期研究生教材选用结果的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-13 作者： 点击：",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "时间：2026-10-13",
+            "date": "2026-10-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 116,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208128"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2026-2027学年秋季学期研究生教材选用结果的公示"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1081/22486.htm",
+      "list_title": "关于2026年下半年高等教育自学考试申请学士学位缴费的通知",
+      "list_date": "2026-10-13",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1081/22486.htm",
+        "time": "2026-10-15T19:39:00+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1081/22486.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fea90cfa19401fbf1096930e04807ae4a35acf41680d9903d25a32fb8e67b418",
+        "html_path": "html/fea90cfa19401fbf1096930e04807ae4a35acf41680d9903d25a32fb8e67b418.html",
+        "replacement_chars": 0,
+        "chars": 31330,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于2026年下半年高等教育自学考试申请学士学位缴费的通知",
+        "url": "https://sg.jlu.edu.cn/info/1081/22486.htm",
+        "publish_date": "2026-10-13",
+        "publisher": null,
+        "content": "根据学校有关规定，高等教育自学考试申请学士学位的费用需通过吉林大学缴费平台完成 一、缴费日期 202 6 年 10 月 15 日 —202 6 年 10 月 20 日 逾期未缴费的，视为放弃本次报名，学院不再另行通知。 二、缴费方式 1.网上缴费的时间：网上缴费系统开放期间均可（22:00-0:00不能缴费）。 2.登录缴费系统方法： 可以采用以下方式 直接访问网址： https://cwsf.jlu.edu.cn/WF_PAYMENT/ 进入缴费平台。 3.打开缴费平台首页后，输入用户名、密码和附加码后单击“登录”。 4.登录进入系统后，系统将显示应缴费清单，请通过单击费用名称前的复选框来选中缴费项目。确认无误后单击“支付”按钮。 5.选择本次缴费项后，需要对缴费订单进行确认，订单确认后将不能修改。 6.选择支付途径后，系统将引导您到相应的网上支付平台进行支付 。 7.系统出现“银行扣款成功”的页面后，说明缴费操作基本完成。一般情况下5分钟之内可以看到相关费用项的已缴纳情况。 8.点击“缴费历史查询”可以查询到相关缴费信息，在应缴费清单下会列出您所生成的订单信息及其费用项情况。 三、用户名及密码 序号 用户编号 用户姓名 密码 1 271529 张雪 sg#271529 2 714263 马宏斌 sg#714263 3 044518 丛乾 sg#044518 4 056733 王宇翔 sg#056733 联系人：吕老师 电话： 0431-85095603 吉林大学商学与管理学院 202 6 年 10 月 13 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于2026年下半年高等教育自学考试申请学士学位缴费的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于2026年下半年高等教育自学考试申请学士学位缴费的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-13 作者： 点击：",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "时间：2026-10-13",
+            "date": "2026-10-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 668,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于2026年下半年高等教育自学考试申请学士学位缴费的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1081/22416.htm",
+      "list_title": "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知",
+      "list_date": "2026-09-14",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1081/22416.htm",
+        "time": "2026-10-15T19:39:02+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1081/22416.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a9d27a95776f37b847859f01dc8548f554ea1b8b36e751d3101c616c535d6442",
+        "html_path": "html/a9d27a95776f37b847859f01dc8548f554ea1b8b36e751d3101c616c535d6442.html",
+        "replacement_chars": 0,
+        "chars": 23366,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知",
+        "url": "https://sg.jlu.edu.cn/info/1081/22416.htm",
+        "publish_date": "2026-09-14",
+        "publisher": null,
+        "content": "为了确保我院2027年接收推荐免试攻读研究生（以下简称“推免生”）的复试录取工作规范有序，现开展我院2027年推免生预报名工作。 一、申请条件 （一）硕士生 1.拥护中国共产党领导，遵纪守法，品德良好。 2.具有所在学校推免生资格的优秀应届本科毕业生。 3.学术研究兴趣浓厚，有较好的专业素养，有较强的创新意识和创新能力，有较高的培养潜质。 4.不存在考试作弊和学术不端行为。 5.身体和心理状况符合国家和招生单位规定的体检要求。 （二）直博生 1.拥护中国共产党领导，遵纪守法，品德良好。 2.具有所在学校推免生资格的优秀应届本科毕业生。 3.学习成绩优秀，对学术研究有浓厚兴趣，有较好的专业素养，有较强的创新意识和创新能力，有较高的培养潜质。 4.不存在考试作弊和学术不端行为。 5.身体和心理健康状况符合国家和招生单位规定。 6.有至少两名所报考学科专业领域内的教授(或相当专业技术职称的专家)的书面推荐意见。 二、招生计划 （一）硕士生 招生计划详见《吉林大学2027年接收推荐免试硕士研究生招生专业目录》（https://yzb.jlu.edu.cn/info/1047/3637.htm） （二）直博生 具体招生专业、招生导师情况参见《吉林大学2027年接收推荐免试直博生招生专业目录》（https://yzb.jlu.edu.cn/info/1047/3637.htm） 注：直博生报考前需和导师联系，征得导师同意后，再报名。 三、申请程序（含直博生） 1.从即日起至 2026年9月16日晚上20点前 ，申请人登录 吉林大学研招网推免生预报名系统 （网址为https://yzb.jlu.edu.cn/）进行报名， 仅招收第一志愿申请者报名 ，逾期不予补报。 2.提交材料 （1）《吉林大学2027年接收推荐免试研究生申请表》扫描件（见附件1），须签字盖章。 （2）加盖所在学校教务部门公章的本科期间成绩单扫描件。 （3）长期有效第二代居民身份证扫描件（正反面扫描在同一页面上）、学生证扫描件（有学校盖章的个人信息页面和注册章页面）、外语水平考试证书、在校期间发表的论文、获得专利的证书、研究成果证明、获奖证书等材料的扫描件。 （4）申请直博生须提交两名报考学科专业领域内的教授（或相当专业技术职称的专家）的书面推荐意见扫描件（见附件2）。 申请人须将以上材料合并成一个PDF文件， 文件以“报考专业名称+姓名+推免生/直博生”命名 ，发送至各专业指定邮箱： jdsgxy2026a@163.com（金融学） jdsgxy2026b@163.com（数量经济学） jdsgxy2026c@163.com（管理科学与工程） jdsgxy2026d@163.com（会计学） asg85166139@163.com（企业管理） bsg85166139@163.com（技术经济及管理） csg85166139@163.com（信息资源管理） dsg85166139@163.com（图书情报） esg85166139@163.com（直博生） 邮件接收截止时间为2026年9月16日晚上20点前，逾期不予补报。 申请人须承诺申请材料的真实性和准确性。不符合条件者将被取消复试资格。未进行资格审查或资格审查未通过的考生一律不予录取。对弄虚作假者，取消其复试、录取资格。 注： 参加我院“2026年校园学术活动开放日”，且考核成绩合格，具备推荐免试硕士研究生资格者，无须再提交材料，可认定考核成绩。 四、相关事项 学院将在审核材料后，确定复试名单，并在学院官网公示。复试采用线上面试方式，具体实施细则另行通知，请申请者关注学院网站通知。 五、联系方式 联系人：付老师 联系电话：0431-85166139 研究生培养办公室 2026年9月14日",
+        "attachments": [
+          {
+            "filename": "附件1 吉林大学2027年接收推荐免试研究生申请表.docx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18197287",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2 吉林大学2027年接收优秀应届本科毕业生直接攻读博士研究生专家推荐书.docx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18197288",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-09-14 作者： 点击：",
+            "date": "2026-09-14"
+          },
+          {
+            "text": "时间：2026-09-14",
+            "date": "2026-09-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1576,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18197287",
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18197288"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T19:28:55+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e7e8b2c803a02db48a0eca5019c04b2a364ca35bb8797d85b9e71f0c7fa53da2",
+        "html_path": "html/e7e8b2c803a02db48a0eca5019c04b2a364ca35bb8797d85b9e71f0c7fa53da2.html",
+        "replacement_chars": 0,
+        "chars": 24005,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1081/22418.htm",
+        "https://sg.jlu.edu.cn/info/1081/22421.htm",
+        "https://sg.jlu.edu.cn/info/1081/22431.htm",
+        "https://sg.jlu.edu.cn/info/1081/22445.htm",
+        "https://sg.jlu.edu.cn/info/1081/22476.htm",
+        "https://sg.jlu.edu.cn/info/1081/22483.htm",
+        "https://sg.jlu.edu.cn/info/1081/22486.htm",
+        "https://sg.jlu.edu.cn/info/1081/22487.htm"
+      ],
+      "observed_next_urls": [
+        "https://sg.jlu.edu.cn/tzgg/304.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/tzgg/304.htm",
+        "time": "2026-10-15T19:38:58+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/tzgg/304.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "aea9a3c09f7837944fd175b92d1487e78d4eb96f325ed3347515efbcbfaac791",
+        "html_path": "html/aea9a3c09f7837944fd175b92d1487e78d4eb96f325ed3347515efbcbfaac791.html",
+        "replacement_chars": 0,
+        "chars": 24440,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1081/22363.htm",
+        "https://sg.jlu.edu.cn/info/1081/22378.htm",
+        "https://sg.jlu.edu.cn/info/1081/22393.htm",
+        "https://sg.jlu.edu.cn/info/1081/22398.htm",
+        "https://sg.jlu.edu.cn/info/1081/22399.htm",
+        "https://sg.jlu.edu.cn/info/1081/22403.htm",
+        "https://sg.jlu.edu.cn/info/1081/22410.htm",
+        "https://sg.jlu.edu.cn/info/1081/22416.htm"
+      ],
+      "observed_next_urls": [
+        "https://sg.jlu.edu.cn/tzgg/303.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T19:28:55+08:00",
+    "ok": true,
+    "final_url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "e7e8b2c803a02db48a0eca5019c04b2a364ca35bb8797d85b9e71f0c7fa53da2",
+    "html_path": "html/e7e8b2c803a02db48a0eca5019c04b2a364ca35bb8797d85b9e71f0c7fa53da2.html",
+    "replacement_chars": 0,
+    "chars": 24005,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026-2027学年秋季学期研究生教材选用结果的公示",
+      "url": "https://sg.jlu.edu.cn/info/1081/22487.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年下半年高等教育自学考试申请学士学位缴费的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22486.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于开展2026年秋季学期研究生外国语通过性考试工作的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22483.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2027年接收推荐免试攻读研究生拟录取名单公示的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22476.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学商学与管理学院2027年推荐免试研究生复试成绩的公示",
+      "url": "https://sg.jlu.edu.cn/info/1081/22445.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2027年推荐免试攻读研究生招生录取实施细则及复试名单的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22431.htm",
+      "publish_date": "2026-09-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办英国布里斯托大学3+1AMD本硕连读项目宣讲会的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22421.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申办2026年下半年高等教育自学考试学位证的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22418.htm",
+      "publish_date": "2026-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2027年接收推荐免试攻读研究生预报名的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22416.htm",
+      "publish_date": "2026-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于2026年秋季学期研究生公共外国语分级考试工作安排的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22410.htm",
+      "publish_date": "2026-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于开展2026年9月批次研究生结业工作的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22403.htm",
+      "publish_date": "2026-09-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于2026年秋季学期研究生教学培养相关工作安排的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22399.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于2026年12月份博士、硕士学位答辩工作安排的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22398.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于《商学与管理学院2025年度研究生学术业绩奖学金评定工作实施细则》的公示",
+      "url": "https://sg.jlu.edu.cn/info/1081/22393.htm",
+      "publish_date": "2026-08-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学商学与管理学院2026年校园学术活动开放日考核总成绩的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22378.htm",
+      "publish_date": "2026-07-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转发】关于开展2025年度吉林大学研究生学术业绩奖学金评定工作的通知",
+      "url": "https://sg.jlu.edu.cn/info/1081/22363.htm",
+      "publish_date": "2026-07-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://sg.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sg.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://sg.jlu.edu.cn/tzgg/304.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-579e5f4596d9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.0000035874545574e-05,
+      "detail_duration_seconds": 7.6000578701496124e-06,
+      "parse_db_duration_seconds": 0.0432747999439016
+    },
+    "second_round": {
+      "source": "p2-579e5f4596d9",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.0200037397444248e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-579e5f4596d9",
+    "institution": "商学与管理学院",
+    "column": "通知公告",
+    "url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:55+08:00",
+    "review_time": "2026-10-15T20:20:57+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 16,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-579e5f4596d9.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

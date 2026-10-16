@@ -1,0 +1,122 @@
+{
+  "column_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+  "column": "项目公示",
+  "institution": "继续教育管理办公室",
+  "site_url": "https://jjglb.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P3",
+  "discovery_url": "https://jjglb.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:38:10+08:00",
+  "checked_at": "2026-10-13T14:07:19+08:00",
+  "status": "部分通过",
+  "issues": [
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED"
+  ],
+  "details": [
+    {
+      "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+      "list_title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+      "parsed_title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+      "document_title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示-吉林大学继续教育管理办公室",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2026-07-08",
+      "parsed_date": "2026-07-08",
+      "reference_date": "2026-07-08",
+      "body_selector": ".v_news_content",
+      "content_chars": 97,
+      "content_preview": "按照工作要求，现将吉林大学 2025年下半年及2026年上半年非学历教育面向社会招生项目予以公示。公示项目共计 44 个 ， 具体信息详见附件。 继续教育管理办公室 202 6 年 7月 8 日",
+      "content_sha256": "fb35bb295f16017e574724963579e0c9933c043082d3361528ac689d6bca5191",
+      "raw_attachments": [
+        {
+          "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+          "filename": "2025年下半年非学历教育社招项目公示表.xls"
+        },
+        {
+          "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176972",
+          "filename": "2026年上半年非学历教育社招项目公示表.xls"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "2025年下半年非学历教育社招项目公示表.xls",
+          "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+          "type": "xls"
+        },
+        {
+          "filename": "2026年上半年非学历教育社招项目公示表.xls",
+          "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176972",
+          "type": "xls"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T14:07:20+08:00",
+      "sha256": "86e1b62ef3fd820cbd8b4c8984e8715a517a9d1861de2bcedf7c04c2f83c34c4",
+      "snapshot": "html/86e1b62ef3fd820cbd8b4c8984e8715a517a9d1861de2bcedf7c04c2f83c34c4.html",
+      "attachment_probes": [
+        {
+          "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+          "time": "2026-10-13T14:07:21+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+      "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+      "publish_date": "2026-07-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/6081a6077fa87de2.json",
+  "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+  "list_sha256": "45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9",
+  "list_snapshot": "html/45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

@@ -1,0 +1,44 @@
+{
+  "time": "2026-10-14T22:09:00.755110+08:00",
+  "status": "passed",
+  "tests": {
+    "baseline": "365 passed, 1 skipped",
+    "regression-before": "20 failed, 210 passed",
+    "targeted": "231 passed",
+    "final": "399 passed, 1 skipped"
+  },
+  "changed_application_files": [
+    "backend/app/parsers/html.py",
+    "backend/app/services/http_diagnostics.py",
+    "backend/app/sources/base.py",
+    "backend/app/sources/generic.py"
+  ],
+  "original_audit_files_unchanged": 1449,
+  "previous_reports_unchanged": 4,
+  "sources_unchanged": true,
+  "formal_admissions": 0,
+  "html_hash_checks": 6,
+  "corrected_disabled_candidates": 2,
+  "live_case_categories": {
+    "TLS_EOF": 1,
+    "TIMEOUT": 1,
+    "REDIRECT_LIMIT": 2,
+    "PERMISSION_RESTRICTED": 1,
+    "ROBOTS_UNAVAILABLE": 1,
+    "LOGIN_REFERENCE_NOT_FETCHED": 1,
+    "DEFERRED_TO_B7_NOT_FETCHED": 1
+  },
+  "database_connection_attempts_followup": 0,
+  "network_requests_in_acceptance": 0,
+  "report_links_exist": true,
+  "files": {
+    "backend/app/parsers/html.py": "4f2122e63c840ca979d32075f20a4e63bc74f15b8f873d0f578f255e14e793b9",
+    "backend/app/services/http_diagnostics.py": "c1632b41af099dbca9019cc770bcbb0d9ad05bbb9192aaf2447568487a9b19fc",
+    "backend/app/sources/base.py": "d00505e6bb9ea852be8c07e8d32e526aeb44d3df77e2d91f6269964db906a21c",
+    "backend/app/sources/generic.py": "cc87e4a3c69938c49ed9890e2ac2079f8bbb4fb67a0602cf0417a96e97586abc",
+    "backend/scripts/audit_jlu_sites.py": "7cc6617fedca2173c0462434c48a26a3667b949db3097f262eb357a271821460",
+    "backend/scripts/probe_jlu_b5_a.py": "0964b7994087d2f100ec7b7d0b32b22b96a38c0178e42394acf15d3870a2e076",
+    "backend/tests/test_jlu_b5_a.py": "72095fcc9ab8039724453fc20a7c8dcc78b544715104630646089f644b1882aa",
+    "docs/JLU_SITE_FIX_B5_A_REPORT.md": "0f3df0c379bccabfbc223bb9061247e0fc6c6d42963129022eaad317825bf71a"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "p2-5231cd19a622",
+  "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+  "institution": "商学与管理学院",
+  "column": "招聘通知",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT",
+  "original_evidence": "docs/jlu-audit-evidence/results/5231cd19a62207dd.json",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "original_snapshot": "html/4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a.html",
+  "original_capture_time": "2026-10-13T14:00:47+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-5231cd19a622",
+    "name": "商学与管理学院 / 招聘通知",
+    "base_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:56+08:00",
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+      "list_title": "中国建设银行吉林省分行2023年度校园招聘正式启动",
+      "list_date": "2022-09-08",
+      "reason": "HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification",
+      "verified": false,
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+        "time": "2026-10-15T19:38:56+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0f4c699240283158211dd280d1d825aefd74b88fb87c7effe72803ca541ac171",
+        "html_path": "html/0f4c699240283158211dd280d1d825aefd74b88fb87c7effe72803ca541ac171.html",
+        "replacement_chars": 0,
+        "chars": 20698,
+        "attempts": 1
+      }
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+        "time": "2026-10-15T19:28:53+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a",
+        "html_path": "html/4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a.html",
+        "replacement_chars": 0,
+        "chars": 19562,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1408/18066.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "time": "2026-10-15T19:28:53+08:00",
+    "ok": true,
+    "final_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a",
+    "html_path": "html/4cf93a4f88a9ec16cd1018a8129310cc089e4c81eb69b4e945ff0f56e076f67a.html",
+    "replacement_chars": 0,
+    "chars": 19562,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国建设银行吉林省分行2023年度校园招聘正式启动",
+      "url": "https://sg.jlu.edu.cn/info/1408/18066.htm",
+      "publish_date": "2022-09-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "summary": {
+    "id": "p2-5231cd19a622",
+    "institution": "商学与管理学院",
+    "column": "招聘通知",
+    "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "capture_time": "2026-10-15T19:28:53+08:00",
+    "review_time": "2026-10-15T20:20:56+08:00",
+    "reason": "HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification",
+    "list_pages": 1,
+    "list_count": 1,
+    "details": 1,
+    "verified_details": 0,
+    "listing_replacement_characters": 0,
+    "publication": "not confirmed / not applicable",
+    "windows_public_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "NOT_EXERCISED",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-5231cd19a622.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

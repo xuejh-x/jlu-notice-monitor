@@ -1,0 +1,317 @@
+[
+  {
+    "id": "xsc",
+    "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "captured_at": "2026-10-14T16:33:54+08:00",
+    "reviewed_at": "2026-10-14T16:47:26+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/xsc.json"
+  },
+  {
+    "id": "employment-notices",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "captured_at": "2026-10-14T16:34:00+08:00",
+    "reviewed_at": "2026-10-14T16:47:27+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/employment-notices.json"
+  },
+  {
+    "id": "employment-publicity",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+    "captured_at": "2026-10-14T16:34:22+08:00",
+    "reviewed_at": "2026-10-14T16:47:27+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/employment-publicity.json"
+  },
+  {
+    "id": "jwc-teaching-publicity",
+    "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+    "captured_at": "2026-10-14T16:34:28+08:00",
+    "reviewed_at": "2026-10-14T16:47:28+08:00",
+    "status": "需认证",
+    "content_verdict": "PERMISSION_RESTRICTED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Resolve documented access restriction before parser admission",
+    "remaining_issues": [
+      "COLUMN_PERMISSION_REQUIRED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/jwc-teaching-publicity.json"
+  },
+  {
+    "id": "jwc-certificates",
+    "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "captured_at": "2026-10-14T16:34:32+08:00",
+    "reviewed_at": "2026-10-14T16:47:28+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "NO_ATTACHMENT_IN_BOUNDED_SAMPLE"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/jwc-certificates.json"
+  },
+  {
+    "id": "yzb-notices",
+    "url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+    "captured_at": "2026-10-14T16:34:39+08:00",
+    "reviewed_at": "2026-10-14T16:47:29+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-notices.json"
+  },
+  {
+    "id": "yzb-publicity",
+    "url": "https://yzb.jlu.edu.cn/index/lqgs.htm",
+    "captured_at": "2026-10-14T16:34:45+08:00",
+    "reviewed_at": "2026-10-14T16:47:29+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-publicity.json"
+  },
+  {
+    "id": "yzb-doctor-notices",
+    "url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+    "captured_at": "2026-10-14T16:34:51+08:00",
+    "reviewed_at": "2026-10-14T16:47:30+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-doctor-notices.json"
+  },
+  {
+    "id": "yzb-doctor-publicity",
+    "url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+    "captured_at": "2026-10-14T16:34:57+08:00",
+    "reviewed_at": "2026-10-14T16:47:31+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-doctor-publicity.json"
+  },
+  {
+    "id": "yzb-master-notices",
+    "url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+    "captured_at": "2026-10-14T16:35:04+08:00",
+    "reviewed_at": "2026-10-14T16:47:31+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "ATTACHMENT_ROBOTS_BLOCKED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-master-notices.json"
+  },
+  {
+    "id": "yzb-master-publicity",
+    "url": "https://yzb.jlu.edu.cn/sszs/lqgs.htm",
+    "captured_at": "2026-10-14T16:35:10+08:00",
+    "reviewed_at": "2026-10-14T16:47:33+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Confirm publication date semantics before admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED",
+      "SITE_DATE_IS_UPDATE_TIME"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/yzb-master-publicity.json"
+  },
+  {
+    "id": "kjc",
+    "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+    "captured_at": "2026-10-14T16:35:15+08:00",
+    "reviewed_at": "2026-10-14T16:47:33+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/kjc.json"
+  },
+  {
+    "id": "hssra",
+    "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+    "captured_at": "2026-10-14T16:35:22+08:00",
+    "reviewed_at": "2026-10-14T16:47:34+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/hssra.json"
+  },
+  {
+    "id": "graduate-school",
+    "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "captured_at": "2026-10-14T16:35:29+08:00",
+    "reviewed_at": "2026-10-14T16:47:35+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/graduate-school.json"
+  },
+  {
+    "id": "youth",
+    "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+    "captured_at": "2026-10-14T16:35:36+08:00",
+    "reviewed_at": "2026-10-14T16:47:35+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "ATTACHMENT_CAPTCHA_REQUIRED",
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/youth.json"
+  },
+  {
+    "id": "international",
+    "url": "http://cie.jlu.edu.cn/ggtz.htm",
+    "captured_at": "2026-10-14T16:35:43+08:00",
+    "reviewed_at": "2026-10-14T16:47:36+08:00",
+    "status": "部分通过",
+    "content_verdict": "CONTENT_SAMPLE_PASSED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "B5 bounded pagination and runtime admission",
+    "remaining_issues": [
+      "HISTORY_AND_CLOUD_NOT_VERIFIED",
+      "REMAINING_ATTACHMENTS_UNCHECKED"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/international.json"
+  },
+  {
+    "id": "defense-conditional",
+    "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "captured_at": "2026-10-14T16:35:50+08:00",
+    "reviewed_at": "2026-10-14T16:47:37+08:00",
+    "status": "失败",
+    "content_verdict": "ACCESS_BLOCKED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Resolve documented access restriction before parser admission",
+    "remaining_issues": [
+      "ROBOTS_UNAVAILABLE"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/defense-conditional.json"
+  },
+  {
+    "id": "continuing-conditional",
+    "url": "https://dec.jlu.edu.cn/html/tzgg1",
+    "captured_at": "2026-10-14T16:36:19+08:00",
+    "reviewed_at": "2026-10-14T16:47:37+08:00",
+    "status": "失败",
+    "content_verdict": "ACCESS_BLOCKED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Resolve documented access restriction before parser admission",
+    "remaining_issues": [
+      "NETWORK_ERROR"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/continuing-conditional.json"
+  },
+  {
+    "id": "continuing-academic-conditional",
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+    "captured_at": "2026-10-14T16:36:26+08:00",
+    "reviewed_at": "2026-10-14T16:47:37+08:00",
+    "status": "失败",
+    "content_verdict": "ACCESS_BLOCKED",
+    "enabled": false,
+    "formal_admission": false,
+    "next_action": "Resolve documented access restriction before parser admission",
+    "remaining_issues": [
+      "NETWORK_ERROR"
+    ],
+    "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/continuing-academic-conditional.json"
+  }
+]

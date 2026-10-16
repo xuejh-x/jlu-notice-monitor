@@ -16,9 +16,10 @@ import httpx
 from app.config import get_settings, load_yaml
 from app.paths import get_cache_dir
 from app.parsers import parse_detail_html, parse_list_html
-from app.parsers.html import detail_plain_text, is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
+from app.parsers.html import detail_plain_text, is_empty_notice_list, list_publication_date, usable_link, validate_detail_container, validate_html_page
 from app.schemas.notice import AttachmentData, NoticeCandidate
 from app.services.dates import parse_date
+from app.services.list_pagination import ListPagination
 from app.services.http_diagnostics import exception_summary, is_retryable_http_error
 from app.logging_config import log_event
 from app.services.normalization import normalize_whitespace
@@ -220,7 +221,9 @@ def parse_configured_html(text: str, page_url: str, config: dict[str, Any]) -> l
         title = normalize_whitespace(str(title_node.get("title") or title_node.get_text(" ", strip=True)))
         href = str(link_node.get("href") or "").strip()
         if title and href and usable_link(link_node, page_url):
-            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=parse_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))
+            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=list_publication_date(
+                str(date_node.get("datetime") or date_node.get_text(" ", strip=True)), label_text=date_node.get_text(" ", strip=True)
+            ) if isinstance(date_node, Tag) else None))
     if not results:
         raise SourceError("The configured selectors did not find any notices")
     return results
@@ -348,14 +351,13 @@ class GenericPublicSource(NoticeSource):
             return await self._safe_items(parsed_feed)
         self.detected_type = "generic_html"
         validate_html_page(BeautifulSoup(text, "html.parser"))
-        results: list[NoticeCandidate] = []
-        seen_urls: set[str] = set()
+        pager = ListPagination(final_url, self.parser_config, max_pages=get_settings().source_max_pages,
+                               items_per_section=get_settings().max_items_per_section)
+        self.pagination_report = [pager.report]
         page_text, page_url = text, final_url
-        limit = min(
-            int(self.parser_config.get("pagination_limit", 1)),
-            get_settings().source_max_pages,
-        )
-        for _ in range(limit):
+        for _ in range(pager.limit):
+            if pager.report["pages"] and not pager.within_column(page_url):
+                raise SourceError("PAGINATION_REDIRECT_OUTSIDE_COLUMN")
             try:
                 parsed = parse_configured_html(page_text, page_url, self.parser_config)
             except SourceError:
@@ -363,30 +365,22 @@ class GenericPublicSource(NoticeSource):
                     raise
                 page_text, page_url = await self._render_configured_html(page_url)
                 parsed = parse_configured_html(page_text, page_url, self.parser_config)
-            for item in parsed:
-                if item.url not in seen_urls:
-                    seen_urls.add(item.url)
-                    category = str(self.parser_config.get("default_category") or "").strip() or None
-                    results.append(item.model_copy(update={"category": category}) if category else item)
-            next_selector = str(self.parser_config.get("next_page_selector", "")).strip()
-            if not next_selector:
-                break
-            soup = BeautifulSoup(page_text, "html.parser")
+            category = str(self.parser_config.get("default_category") or "").strip() or None
+            if category:
+                parsed = [item.model_copy(update={"category": category}) for item in parsed]
             try:
-                next_node = soup.select_one(next_selector)
-            except Exception as exc:
-                raise SourceError("The next-page selector is invalid") from exc
-            if not isinstance(next_node, Tag) or not next_node.get("href"):
-                break
-            next_url = urljoin(page_url, str(next_node.get("href")))
-            if next_url == page_url:
+                next_url = pager.consume(page_text, page_url, parsed)
+            except ValueError as exc:
+                raise SourceError(str(exc)) from exc
+            if not next_url:
                 break
             page_text, _, page_url = await self.fetcher.get(next_url)
+        results = pager.items
         if not results:
             if is_empty_notice_list(text):
                 raise SourceError("HTML_LIST_EMPTY: valid notice column currently has no notices")
             raise SourceError("This page is unsupported or needs advanced selector configuration")
-        return await self._safe_items(results[: get_settings().max_items_per_section])
+        return await self._safe_items(results)
 
     async def _safe_items(self, items: list[NoticeCandidate]) -> list[NoticeCandidate]:
         safe: list[NoticeCandidate] = []
@@ -424,7 +418,8 @@ class GenericPublicSource(NoticeSource):
             attachments = await self._safe_attachments(parsed.attachments)
             if not parsed.content and not attachments:
                 raise SourceError("HTML_DETAIL_EMPTY: no content or permitted attachment remains")
-            return parsed.model_copy(update={"attachments": attachments})
+            return parsed.model_copy(update={"attachments": attachments,
+                                             "attachments_complete": parsed.attachments_complete and len(attachments) == len({a.url for a in parsed.attachments})})
         soup = BeautifulSoup(text, "html.parser")
         try:
             node = soup.select_one(configured)
@@ -449,7 +444,9 @@ class GenericPublicSource(NoticeSource):
                     attachments.append(AttachmentData(filename=filename, url=url, type=filename.rsplit(".", 1)[-1].lower() if "." in filename else "file"))
         safe_attachments = await self._safe_attachments(attachments)
         validate_detail_container(soup, node, has_attachments=bool(safe_attachments), page_url=final_url)
-        return notice.model_copy(update={"url": final_url, "content": content, "attachments": safe_attachments})
+        # Arbitrary selectors do not prove absence of unselected attachments.
+        return notice.model_copy(update={"url": final_url, "content": content, "attachments": safe_attachments,
+                                         "attachments_complete": False})
 
     async def close(self) -> None:
         if self.render_browser is not None:

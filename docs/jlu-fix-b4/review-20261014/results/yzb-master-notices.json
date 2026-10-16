@@ -1,0 +1,387 @@
+{
+  "id": "yzb-master-notices",
+  "institution": "研究生招生",
+  "column": "招生公告",
+  "url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+  "captured_at": "2026-10-14T16:35:04+08:00",
+  "validated_at": "2026-10-14T16:43:46+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1046/2913.htm",
+      "list_title": "吉林大学2027年硕士研究生招生部分专业自命题变更通知（陆续更新）",
+      "list_date": "2026-05-19",
+      "captured_at": "2026-10-14T16:35:05+08:00",
+      "snapshot": "html/43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1.html",
+      "sha256": "43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1",
+      "title": "吉林大学2027年硕士研究生招生部分专业自命题变更通知（陆续更新）",
+      "date": "2026-05-19",
+      "content_chars": 1362,
+      "content_sha256": "c2d31c90508af88ce88fb66d801f5093f7e1d387a8ebb33878e84992d0da78ef",
+      "content_preview": "吉林大学 2027 年硕士研究生招生部分专业自命题变更通知 为更好的服务考生，方便考生备考，我校2027年对部分专业自命题考试科目进行调整，请考生及时关注学校及学院网站通知。变更信息如下： 学院名称 专业代码 专业名称 学院变更通知 通信工程学院 081000 信息与通信工程 关于通信工程学院硕士研究生招生考试科目变更的通知 081100 控制科学与工程 085402 通信工程（含宽带网络、移动通信等） 085406 控制工程 地球科学学院 120405 土地资源管理 关于地球科学学院硕士研究生入学考试初试科目变更的通知 数学学院 025200 应用统计 数学学院关于调整硕士研究生招生考试自命",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "吉林大学2027年硕士研究生招生部分专业自命题变更通知（陆续更新）"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2026-05-19"
+      ],
+      "body_reference_chars": 1362,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1046/2914.htm",
+      "list_title": "吉林大学2026年各研究生招生单位硕士复试录取工作办法（陆续更新）",
+      "list_date": "2026-04-24",
+      "captured_at": "2026-10-14T16:35:06+08:00",
+      "snapshot": "html/4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402.html",
+      "sha256": "4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402",
+      "title": "吉林大学2026年各研究生招生单位硕士复试录取工作办法（陆续更新）",
+      "date": "2026-04-24",
+      "content_chars": 4150,
+      "content_sha256": "c46f591a869ae3cdc1c233352e051f44739509b25f34b93765ed8c30b2d0f05c",
+      "content_preview": "学院（所）名称 复试工作办法（链接） 哲学社会学院 吉林大学哲学社会学院关于公布 2026年硕士研究生复试名单的通知 哲学社会学院2026年硕士研究生复试录取工作细则 吉林大学哲学社会学院2026年硕士研究生复试安排 文学院 吉林大学文学院 2026年硕士研究生招生考试考生进入复试的初试成绩基本要求及复试名单 吉林大学文学院 2026年硕士研究生招生复试录取工作细则 艺术学院 吉林大学艺术学院2026年招收硕士研究生复试录取工作实施细则 关于公布吉林大学艺术学院2026年招收硕士研究生复试分数线及复试考生名单的通知 体育学院 吉林大学体育学院2026年硕士研究生招生复试录取实施细则 吉林大学体",
+      "attachments": [
+        {
+          "filename": "吉林大学白求恩第一临床医学院、白求恩医学转化与创新研究院 2026年硕士研究生复试工作细则",
+          "url": "https://www.jdyy.cn/uploads/soft/20260319/11-2603191ARY13.pdf",
+          "type": "pdf"
+        },
+        {
+          "filename": "吉林大学白求恩第二临床医院 2 026年 硕士研究生招生复试录取工作实施细则",
+          "url": "https://www.jdey.com.cn/upload/main/pdf/2026/03/20/%E9%99%84%E4%BB%B62%EF%BC%9A%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6%E7%99%BD%E6%B1%82%E6%81%A9%E7%AC%AC%E4%BA%8C%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6%E9%99%A22026%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E5%BD%95%E5%8F%96%E5%B7%A5%E4%BD%9C%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99.pdf?t=1774000006888",
+          "type": "pdf"
+        },
+        {
+          "filename": "吉林大学白求恩第三临床医学院 2026 年硕士研究生复试录取工作实施细则",
+          "url": "https://www.zrlyyy.com/Uploads/Picture/2026/03/20/u69bd1f0e09415.pdf",
+          "type": "pdf"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "吉林大学2026年各研究生招生单位硕士复试录取工作办法（陆续更新）"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2026-04-24"
+      ],
+      "body_reference_chars": 4150,
+      "reference_attachment_urls": [
+        "https://www.jdey.com.cn/upload/main/pdf/2026/03/20/%E9%99%84%E4%BB%B62%EF%BC%9A%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A6%E7%99%BD%E6%B1%82%E6%81%A9%E7%AC%AC%E4%BA%8C%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6%E9%99%A22026%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E5%BD%95%E5%8F%96%E5%B7%A5%E4%BD%9C%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99.pdf?t=1774000006888",
+        "https://www.jdyy.cn/uploads/soft/20260319/11-2603191ARY13.pdf",
+        "https://www.zrlyyy.com/Uploads/Picture/2026/03/20/u69bd1f0e09415.pdf"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1046/2915.htm",
+      "list_title": "吉林大学2026年硕士研究生招生考试初试成绩查询及复核公告",
+      "list_date": "2026-02-26",
+      "captured_at": "2026-10-14T16:35:08+08:00",
+      "snapshot": "html/9220ac3f9898e2a84a0af51482e2055dc8f3594b3b5983625be46fbd4783c88b.html",
+      "sha256": "9220ac3f9898e2a84a0af51482e2055dc8f3594b3b5983625be46fbd4783c88b",
+      "title": "吉林大学2026年硕士研究生招生考试初试成绩查询及复核公告",
+      "date": "2026-02-26",
+      "content_chars": 990,
+      "content_sha256": "1cbcf5fc21e167c0ef92e6cc4b741b10ffd8b2ad4be9fd6e12cc134098bc1315",
+      "content_preview": "根据教育部及吉林省教育考试院相关文件要求，现将我校 2026年硕士研究生招生考试初试成绩查询及复核相关事宜公告如下： 一、关于成绩查询 我校 2026年硕士研究生招生考试初试成绩预计于2026年2月2 8 日 8 :00开通查询，考生可通过中国研究生招生信息网（http://yz.chsi.com.cn/）进行成绩和排名查询。 排名为初试总成绩（不含各类加分）排名，区分院系、专业及学习方式，不区分研究方向，不包含推免及各类专项计划考生；排名仅供参考，不作为是否进入复试的依据；各类专项计划考生不提供排名查询； 请广大考生静待我校公布复试基本分数线要求。 二、关于成绩复核 我校 2026年硕士研究",
+      "attachments": [
+        {
+          "filename": "成绩复核承诺书.docx",
+          "url": "https://yzb.jlu.edu.cn/__local/6/F8/E5/9822D5747E92D017AB41F24A9A6_AF1508CE_41CC0.docx?e=.docx",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": false,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "吉林大学2026年硕士研究生招生考试初试成绩查询及复核公告"
+        }
+      ],
+      "reference_dates": [],
+      "issues": [
+        "SITE_DATE_IS_UPDATE_TIME"
+      ],
+      "date_semantics": "UPDATE_TIME_ONLY_PUBLICATION_UNCONFIRMED",
+      "reference_update_times": [
+        "2026-02-26"
+      ],
+      "body_reference_chars": 899,
+      "reference_attachment_urls": [
+        "https://yzb.jlu.edu.cn/__local/6/F8/E5/9822D5747E92D017AB41F24A9A6_AF1508CE_41CC0.docx?e=.docx"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "ATTACHMENT_ROBOTS_BLOCKED",
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://www.jdyy.cn/uploads/soft/20260319/11-2603191ARY13.pdf",
+      "time": "2026-10-14T16:35:09+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "pdf",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:35:10+08:00",
+          "status": 0,
+          "category": "ROBOTS_BLOCKED"
+        }
+      ],
+      "status": 0,
+      "category": "ROBOTS_BLOCKED",
+      "file_prefix_verified": false,
+      "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response.",
+      "filename": "吉林大学白求恩第一临床医学院、白求恩医学转化与创新研究院 2026年硕士研究生复试工作细则",
+      "type": "pdf"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://yzb.jlu.edu.cn/",
+  "reason": "ATTACHMENT_ROBOTS_BLOCKED; REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED; SITE_DATE_IS_UPDATE_TIME",
+  "final_url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+  "list_snapshot": "html/b9b86f59cd0781075dec6c91b98936d42be3cb5157d89c83dd38ac8717487f46.html",
+  "list_sha256": "b9b86f59cd0781075dec6c91b98936d42be3cb5157d89c83dd38ac8717487f46",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2027年硕士研究生招生部分专业自命题变更通知（陆续更新）",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2913.htm",
+      "publish_date": "2026-05-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年各研究生招生单位硕士复试录取工作办法（陆续更新）",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2914.htm",
+      "publish_date": "2026-04-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年硕士研究生招生考试初试成绩查询及复核公告",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2915.htm",
+      "publish_date": "2026-02-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年硕士研究生招生考试初试自命题科目答题纸条形码粘贴说明",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2916.htm",
+      "publish_date": "2025-12-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学关于研究生招生工作的郑重声明",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2917.htm",
+      "publish_date": "2025-11-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于更正吉林大学考试科目621区域国别研究基础理论参考书目的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2918.htm",
+      "publish_date": "2025-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于变更考试科目生物化学原理（科目代码：651）名称及科目代码的通知",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2919.htm",
+      "publish_date": "2025-09-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025级研究生新生入学须知",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2921.htm",
+      "publish_date": "2025-07-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年硕士研究生招生部分专业自命题变更通知",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2922.htm",
+      "publish_date": "2025-06-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年南疆高校教师专项硕士研究生调剂通知",
+      "url": "https://yzb.jlu.edu.cn/info/1046/2923.htm",
+      "publish_date": "2025-04-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "https://yzb.jlu.edu.cn/sszs/zsgg/15.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 0,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-20261014/results/yzb-master-notices.json"
+}

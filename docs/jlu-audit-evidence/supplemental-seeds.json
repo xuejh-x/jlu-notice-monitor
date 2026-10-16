@@ -1,0 +1,61 @@
+[
+  {
+    "institution": "党委学生工作部（处）、党委武装部",
+    "site_url": "https://xsc.jlu.edu.cn/",
+    "category": "管理服务",
+    "priority": "P1",
+    "discovery_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；官网通知栏目原页，首页以查看更多链接呈现",
+    "columns": [{"name": "通知公告", "url": "https://xsc.jlu.edu.cn/index/tzgg.htm"}]
+  },
+  {
+    "institution": "学生就业创业指导与服务中心",
+    "site_url": "https://jdjyw.jlu.edu.cn/",
+    "category": "管理服务",
+    "priority": "P1",
+    "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；就业网公开列表原页",
+    "columns": [
+      {"name": "通知公告", "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg"},
+      {"name": "公示", "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs"}
+    ]
+  },
+  {
+    "institution": "吉林大学附属中学",
+    "site_url": "https://fszx.jlu.edu.cn/",
+    "category": "附属单位",
+    "discovery_url": "https://fszx.jlu.edu.cn/",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；该官网介绍明确隶属于吉林大学"
+  },
+  {
+    "institution": "吉林大学附属小学",
+    "site_url": "https://jdfx.jlu.edu.cn/",
+    "category": "附属单位",
+    "discovery_url": "https://jdfx.jlu.edu.cn/info/1016/2061.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；招聘原文明确该站为附属小学官网"
+  },
+  {
+    "institution": "长春吉大附中实验学校",
+    "site_url": "https://jdgz.jlu.edu.cn/",
+    "category": "附属单位",
+    "discovery_url": "https://jdgz.jlu.edu.cn/__local/D/CD/07/32C0645FD894CFAD967A25C5A83_73B01D70_8E2B3.pdf",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；吉大域名下该校招聘文档的实际站点，不推测其他子域名"
+  },
+  {
+    "institution": "吉林大学信息公开网",
+    "site_url": "https://gongkai.jlu.edu.cn/",
+    "category": "校级",
+    "priority": "P0",
+    "discovery_url": "https://gongkai.jlu.edu.cn/gksx/cw_zcjsfxx/xbqyzc__fz_gyzcbzzzdxx.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；校级信息公开原页"
+  },
+  {
+    "institution": "吉林大学",
+    "site_url": "https://www.jlu.edu.cn/",
+    "category": "校级",
+    "priority": "P0",
+    "discovery_url": "https://www.jlu.edu.cn/index/tzgg.htm",
+    "discovery_basis": "学校官网公开通知公告列表原页",
+    "columns": [{"name": "通知公告", "url": "https://www.jlu.edu.cn/index/tzgg.htm"}]
+  }
+]

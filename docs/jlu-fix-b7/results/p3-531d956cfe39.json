@@ -1,0 +1,287 @@
+{
+  "id": "p3-531d956cfe39",
+  "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+  "institution": "集成光电子全国重点实验室",
+  "column": "招生信息",
+  "site_url": "http://sklio.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/531d956cfe3983e7.json",
+  "original_capture_time": "2026-10-13T14:05:14+08:00",
+  "discovery_url": "http://sklio.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-531d956cfe39",
+    "name": "集成光电子全国重点实验室 / 招生信息",
+    "base_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:59+08:00",
+  "details": [
+    {
+      "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+      "list_title": "2014年硕士研究生招生专业目录",
+      "list_date": "",
+      "response": {
+        "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+        "time": "2026-10-15T22:13:30+08:00",
+        "ok": true,
+        "final_url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b53b80e69bec5f29774953a8e34d18a24ddd7bb3f99a711174563853133be251",
+        "html_path": "html/b53b80e69bec5f29774953a8e34d18a24ddd7bb3f99a711174563853133be251.html",
+        "replacement_chars": 0,
+        "chars": 11728,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2014年硕士研究生招生专业目录",
+        "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+        "publish_date": null,
+        "publisher": null,
+        "content": "专业代码、名称及研究方向 人 数 考试科目 备 注 501电子科学与工程学院（学制3年） （联系电话：0431-85168416 联系人：吕清华） 42 / / 080901物理电子学 01纳米光电子学 02光波导器件 03光波导理论与光电子器件CAD 04光子晶体与光纤器件 05超快光电转换 06微纳器件与系统 10 ①101思想政治理论 ②201英语一 ③301数学一 ④893光学或894半导体物理与器件 复试科目：电磁学或半导体器件；招收跨学科考生，不加试。 080903微电子学与固体电子学 01半导体物理 02半导体光电子学 03半导体器件物理 04微电子学 05电子功能材料及元器件 06先进传感技术 07高速光电子学 26 ①101思想政治理论 ②201英语一或202俄语或203日语 ③301数学一 ④894半导体物理与器件或896半导体物理与材料 复试科目：半导体器件或电子功能材料 083100生物医学工程 01纳米生物光电子学 02生物医学光子学 03生物医学信息检测与处理 04生物医学成像和图像处理 6 ①101思想政治理论 ②201英语一 ③301数学一 ④898生物医学电子学与医学仪器或899基础物理与化学 复试科目：电路分析基础或普通物理；招收跨学科考生，不加试。 参考书目： 080901物理电子学： 《光学》赵凯华、钟锡华编，北京大学出版社，1982年版； 《半导体物理》孟宪章，康昌鹤，吉林大学出版社； 《半导体器件》孟庆巨编，科学出版社； 《电磁学》（上、下册）赵凯华编，高等教育出版社，1986年版。 080903微电子与固体电子学： 《半导体物理》 孟宪章，康昌鹤，吉林大学出版社； 《半导体器件》 孟庆巨，科学出版社； 《半导体材料》 杨树人，科学出版社； 《电子功能材料》 全宝富，吉林大学出版社。 083100生物医学工程： 《生物医学电子学》蔡建新，张唯真，北京大学出版社； 《医学仪器》（上下）齐颂扬，高教出版社； 《普通物理学》（第五版）程守洙，高教出版社； 《新大学化学》曲保中，科学出版社。 复试：《电路分析基础》（上中下）（第四版）李瀚荪，高教出版社。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": false,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "body_reference_chars": 910,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2014年硕士研究生招生专业目录"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": false
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+        "time": "2026-10-15T22:13:28+08:00",
+        "ok": true,
+        "final_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845",
+        "html_path": "html/1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845.html",
+        "replacement_chars": 0,
+        "chars": 11953,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://sklio.jlu.edu.cn/info/1042/1039.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "time": "2026-10-15T22:13:28+08:00",
+    "ok": true,
+    "final_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845",
+    "html_path": "html/1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845.html",
+    "replacement_chars": 0,
+    "chars": 11953,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2014年硕士研究生招生专业目录",
+      "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-531d956cfe39",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.4699995517730713e-05,
+      "detail_duration_seconds": 4.700035788118839e-06,
+      "parse_db_duration_seconds": 0.016184099949896336
+    },
+    "second_round": {
+      "source": "p3-531d956cfe39",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.109996810555458e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-531d956cfe39",
+    "institution": "集成光电子全国重点实验室",
+    "column": "招生信息",
+    "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "DATE_NOT_INDEPENDENTLY_VERIFIED",
+    "capture_time": "2026-10-15T22:13:28+08:00",
+    "review_time": "2026-10-15T23:00:59+08:00",
+    "http_status": 200,
+    "final_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 0,
+    "issues": [
+      "DATE_NOT_INDEPENDENTLY_VERIFIED"
+    ],
+    "discovery_url": "http://sklio.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-531d956cfe39.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

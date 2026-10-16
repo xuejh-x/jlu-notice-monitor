@@ -1,0 +1,878 @@
+{
+  "id": "p2-a5fb3c6473c1",
+  "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+  "institution": "商学与管理学院",
+  "column": "通知公告",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/a5fb3c6473c13696.json",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "original_snapshot": "html/44d716bf6f37d2ef5dc25072ebc12d72b654ebc2ae530a01df130bdd02064a64.html",
+  "original_capture_time": "2026-10-13T13:40:57+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-a5fb3c6473c1",
+    "name": "商学与管理学院 / 通知公告",
+    "base_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:55+08:00",
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1403/22477.htm",
+      "list_title": "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示",
+      "list_date": "2026-10-10",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1403/22477.htm",
+        "time": "2026-10-15T19:38:52+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1403/22477.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5f8ba2189157a8a365f56b33ca9ea4d1424270919a8f834d7ec2e3d4a7a8b84f",
+        "html_path": "html/5f8ba2189157a8a365f56b33ca9ea4d1424270919a8f834d7ec2e3d4a7a8b84f.html",
+        "replacement_chars": 0,
+        "chars": 22799,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示",
+        "url": "https://sg.jlu.edu.cn/info/1403/22477.htm",
+        "publish_date": "2026-10-10",
+        "publisher": null,
+        "content": "根据商学与管理学院研究生评奖评优评选细则要求，经过研究生个人申报，学院研究生管理办公室对所有参评学生资料的审核，确定以下研究生为吉林大学2025－2026学年研究生优秀奖学金一等、研究生优秀奖学金二等、优秀研究生、优秀研究生干部获得者候选人，现予以公示，详见附件。 公示时间为2026年10月10日至10月13日，公示期间如有异议，请与研究生管理办公室联系。 联系人：甄宓 联系电话：0431-85166891",
+        "attachments": [
+          {
+            "filename": "2025-2026学年优秀研究生汇总表 商管更新.xlsx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208004",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-10 作者： 点击：",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "时间：2026-10-10",
+            "date": "2026-10-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 205,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208004"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1403/22493.htm",
+      "list_title": "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知",
+      "list_date": "2026-10-09",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1403/22493.htm",
+        "time": "2026-10-15T19:38:53+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1403/22493.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "09482e26dcf4eb105b964ed794ee91d3abf434498a39e9aca592d27b703a9a04",
+        "html_path": "html/09482e26dcf4eb105b964ed794ee91d3abf434498a39e9aca592d27b703a9a04.html",
+        "replacement_chars": 0,
+        "chars": 55372,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知",
+        "url": "https://sg.jlu.edu.cn/info/1403/22493.htm",
+        "publish_date": "2026-10-09",
+        "publisher": null,
+        "content": "各研究生培养单位： 根据《关于下达 2 025 年中央高校国家奖助学金名额的通知》（教助中心〔 202 5 〕 18号）、《关于调整高等教育阶段和高中阶段国家奖助学金政策的通知》（财教〔2024〕181号）、《学生资助资金管理办法》（财教 〔 2021〕310号 ）、《关于开展清理 “唯论文、唯帽子、唯职称、唯学历、唯奖项”专项行动的通知》（教技厅函〔20 18 〕 110 号）、《普通高等学校研究生国家奖学金评审办法》（教财〔 2014〕1号）和《吉林大学研究生国家奖学金评审办法》（校发〔20 18 〕 22 号）等文件精神和要求，为做好 2025年度吉林大学研究生国家奖学金评审工作，现将有关事宜通知如下。 一、评选范围 凡具有中华人民共和国国籍且纳入全国研究生招生计划的基础学制内的全日制（全脱产学习）研究生均有资格申请。 “高层次人才强军计划”和“少数民族高层次骨干人才计划”等专项计划研究生按照国家相关文件执行。 （本）硕博贯通式培养研究生及硕博连读研究生在注册为博士研究生之前，按照硕士研究生身份申请；已注册为博士研究生的，按照博士研究生身份申请。 二、 奖励标准及名额 博士研究生： 2 48 人，奖励标准： 3万元/人；硕士研究生：4 85 人，奖励标准： 2万元/人。 名额根据基础学制内在籍的全日制研究生（全脱产学习）人数、学科发展、培养质量、往年执行情况等，向 “双一流”学科（专业）及基础学科给予倾斜的原则下进行分配，各培养单位具体分配名额详见《吉林大学2025年度研究生国家奖学金推荐名额分配表》（附件 1 ）。 三、评选标准 1. 热爱社会主义祖国，拥护中国共产党的领导； 2. 遵守宪法和法律，遵守高等学校规章制度； 3. 诚实守信，道德品质优良； 4. 学习成绩优异，科研能力显著，发展潜力突出。 在参评学年有以下情况者，不具备参评资格： 1.违反国家法律、校纪校规受到纪律处分； 2.有抄袭剽窃、弄虚作假等学术不端行为经查证属实的； 3.参评学年学籍状态处于休学、保留学籍的； 4.在学校规定的时间内未按要求注册或学期考核不合格的； 5.其他经学校认定不具备参评资格的情形。 四、评选流程 1.培养单位评审准备阶段 各培养单位根据《吉林大学研究生国家奖学金评审办法》（附件 2）文件要求，须成立本单位研究生国家奖学金评审委员会（以下简称“评审委员会”），负责本单位研究生国家奖学金评审的指标体系制定、申请组织和初步评审工作。评审委员数量为9人及以上的单数，其中设主任委员1名，副主任委员1名。由培养单位主要领导任主任委员，主管研究生的副书记或副院长任副主任委员，研究生导师、研究生辅导员（研究生秘书）、研究生代表任委员。评审委员会的组成须经本单位党政联席会议讨论通过。 各培养单位须严格按照学校要求，制定和修订本单位国家奖学金评审工作实施细则、指标体系，经评审委员会审定后，需在本单位范围内进行不少于 3个工作日的公示，同时将评审 工作实施 细则报党委研究生工作部备案。 2.个人申请阶段 由研究生本人如实填写《研究生国家奖学金申请审批表》（附件 3），向培养单位提出申请，并提供相关证明材料。 3.培养单位初评阶段 评审委员会 需召开评审会议 对申请国家奖学金的研究生进行初评，会议应有 2/3及以上委员出席方可举行。如需通过投票方式做出决定时，须以记名方式进行投票，赞成票数须不低于出席会议人数的2/3，并超过全体委员数的1/2时，方可通过。 初评推荐人选名单和评审材料应进行不少于 5个工作日的公示。经本单位党政联席会议通过且无异议后，将评审结果报送党委研究生工作部。 4.审核公示阶段 学校研究生奖学金评定工作领导小组办公室对初评结果审核确定后，在全校范围内进行不少于 5个工作日的公示。 5.申诉处理 如 申请人 对评审结果有异议，可在培养单位公示阶段向评审委员会提出申诉，如 申请人 对评审委员会决定的答复仍存在异议，可 及时 向 党委研究生工作部 提请裁决。 6.表彰奖励 对获奖研究生进行表彰，颁发获奖证书 并发放 奖金。 五、材料报送 请各培养单位于 202 5 年 10月24日 （ 星期 五） 16 : 30前 报送 以下材料 ，其中 纸质版材料 如下 ： 1.《XXXX学院研究生国家奖学金评审工作报告》（附件4）； 2.《XXXX学院评审委员会名单》； 3.《XXXX学院研究生国家奖学金评审细则》。 电子版材料 如下 ： 1.《博士研究生国家奖学金获奖学生汇总表》（附件5），EXCEL版； 2.《硕士研究生国家奖学金获奖学生汇总表》（附件6），EXCEL版。 六、相关 要求 1. 各培养单位须高度重视研究生国家奖学金工作，在制定评审细则时务必体现对研究生人才培养的学术引领和价值引导，并将有关精神传达到每位研究生及研究生导师。对于学术型研究生，评审标准应偏重考察其科研创新能力，同时必须具有体现创新能力的科研成果；对于专业学位研究生，评审标准应偏重考察其专业实践能力且须具有体现实践能力的科研或应用成果。对学术成果的评价要打破简单量化评价方式，破除 “五唯”评价的相关要求，以质量、贡献、影响为导向，完善优化评价体系，成果要以质量为先，兼顾数量，成果截止时间为2025年 9 月 30 日。当前学历期间已获得过研究生国家奖学金及吉林大学博士研究生 “求实”奖学金的研究生如再次申请研究生国家奖学金，其成果不可重复申报使用。 2 . 评审委员会要坚持公开、公平、公正、择优的原则，严把评审标准。严格落实评委会负责制，做到评审工作透明，评委投票实名，会议记录详实，严格执行有关规定，严格规范评审程序，严格审核成果材料，对于弄虚作假人员，根据相关规定予以处理。 3 . 为保证获奖学生质量，扩大研究生国家奖学金的影响力，评定工作原则上采取公开答辩方式进行。 4 . 评审委员会在对一年级研究生的考察中，除研究生招生考试相关成绩及考核评价情况，还要兼顾其在上一学历阶段取得的突出成绩，确保符合条件的新入学研究生获得研究生国家奖学金。 5 . 评审委员会在对二、三年级研究生的考察中，要充分考虑课题组、导师和同学的意见，严格考察研究生在思想意识、道德品质、行为规范方面以及在学术道德、科研态度、团队意识、科研实践方面的日常表现，并将其德育方面的表现作为评审的重要参考依据，所占比重不得低于考核全部分数的 30%。 6 . 各培养单位应充分发挥研究生国家奖学金对研究生的激励作用，广泛宣传获奖学生成长成才的典型事例，激发广大在读研究生勤奋学习、专心科研、积极向上的热情。 联系人：姜鹏 办公电话： 0431-85166995 办公邮箱： jpeng@jlu.edu.cn 办公地点：鼎新楼 A445办公室 党委研究生工作部 2025年 10 月 11 日",
+        "attachments": [
+          {
+            "filename": "4号文件-吉林大学商学与管理学院研究生国家奖学金评审工作实施细则.pdf",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208693",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-09 作者： 点击：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "时间：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2807,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18208693"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1403/22206.htm",
+      "list_title": "商学与管理学院2026年度“奋发有为”系列评审名单公示",
+      "list_date": "2026-05-20",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1403/22206.htm",
+        "time": "2026-10-15T19:38:54+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1403/22206.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ccd1e0b405cb291ec174f8610d18a15bce60a55bf7da51e739118b2443dedc78",
+        "html_path": "html/ccd1e0b405cb291ec174f8610d18a15bce60a55bf7da51e739118b2443dedc78.html",
+        "replacement_chars": 0,
+        "chars": 21386,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "商学与管理学院2026年度“奋发有为”系列评审名单公示",
+        "url": "https://sg.jlu.edu.cn/info/1403/22206.htm",
+        "publish_date": "2026-05-20",
+        "publisher": null,
+        "content": "商学与管理学院2026年度“奋发有为”系列评审名单公示",
+        "attachments": [
+          {
+            "filename": "商学与管理学院“奋发有为”系列评审申报汇总表.xlsx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18128493",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "商学与管理学院2026年度“奋发有为”系列评审名单公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "商学与管理学院2026年度“奋发有为”系列评审名单公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-05-20 作者： 点击：",
+            "date": "2026-05-20"
+          },
+          {
+            "text": "时间：2026-05-20",
+            "date": "2026-05-20"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 27,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18128493"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "商学与管理学院2026年度“奋发有为”系列评审名单公示"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+        "time": "2026-10-15T19:28:52+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "95140be79330a609799de55a223bdf2dccd3dd928f8496dbc1218ccadbd41437",
+        "html_path": "html/95140be79330a609799de55a223bdf2dccd3dd928f8496dbc1218ccadbd41437.html",
+        "replacement_chars": 0,
+        "chars": 23846,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1403/22238.htm",
+        "https://sg.jlu.edu.cn/info/1403/22267.htm",
+        "https://sg.jlu.edu.cn/info/1403/22298.htm",
+        "https://sg.jlu.edu.cn/info/1403/22349.htm",
+        "https://sg.jlu.edu.cn/info/1403/22422.htm",
+        "https://sg.jlu.edu.cn/info/1403/22423.htm",
+        "https://sg.jlu.edu.cn/info/1403/22450.htm",
+        "https://sg.jlu.edu.cn/info/1403/22466.htm",
+        "https://sg.jlu.edu.cn/info/1403/22477.htm",
+        "https://sg.jlu.edu.cn/info/1403/22493.htm"
+      ],
+      "observed_next_urls": [
+        "https://sg.jlu.edu.cn/xsfz/yjs/tzgg/16.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg/16.htm",
+        "time": "2026-10-15T19:38:51+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg/16.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0e52d1646b268cc876fe6732534e40b9de073c35e1735dd12f166762b70c1d39",
+        "html_path": "html/0e52d1646b268cc876fe6732534e40b9de073c35e1735dd12f166762b70c1d39.html",
+        "replacement_chars": 0,
+        "chars": 24411,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1403/21952.htm",
+        "https://sg.jlu.edu.cn/info/1403/21955.htm",
+        "https://sg.jlu.edu.cn/info/1403/21956.htm",
+        "https://sg.jlu.edu.cn/info/1403/21986.htm",
+        "https://sg.jlu.edu.cn/info/1403/21987.htm",
+        "https://sg.jlu.edu.cn/info/1403/22030.htm",
+        "https://sg.jlu.edu.cn/info/1403/22113.htm",
+        "https://sg.jlu.edu.cn/info/1403/22191.htm",
+        "https://sg.jlu.edu.cn/info/1403/22206.htm",
+        "https://sg.jlu.edu.cn/info/1403/22212.htm"
+      ],
+      "observed_next_urls": [
+        "https://sg.jlu.edu.cn/xsfz/yjs/tzgg/15.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "time": "2026-10-15T19:28:52+08:00",
+    "ok": true,
+    "final_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "95140be79330a609799de55a223bdf2dccd3dd928f8496dbc1218ccadbd41437",
+    "html_path": "html/95140be79330a609799de55a223bdf2dccd3dd928f8496dbc1218ccadbd41437.html",
+    "replacement_chars": 0,
+    "chars": 23846,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院研究生2025-2026学年评奖评优结果的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22477.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转：关于开展2026年度吉林大学研究生国家奖学金评审工作的通知",
+      "url": "https://sg.jlu.edu.cn/info/1403/22493.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2026-2027年度研究生会、团委及新媒体工作站换届名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22450.htm",
+      "publish_date": "2026-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2025-2026学年研究生评奖评优工作的通知",
+      "url": "https://sg.jlu.edu.cn/info/1403/22466.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院2026级研究生班级干部竞选情况公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22423.htm",
+      "publish_date": "2026-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定王欣等29名同志为发展对象的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22422.htm",
+      "publish_date": "2026-09-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将陈韦燃等52位同志转为中共正式党员的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22349.htm",
+      "publish_date": "2026-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收杨智等38名同志为中共预备党员的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22298.htm",
+      "publish_date": "2026-06-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学2026年度十佳研究生推荐人选名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22267.htm",
+      "publish_date": "2026-06-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2026年度研究生导师立德树人职责考核结果的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22238.htm",
+      "publish_date": "2026-05-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院2026年度“奋发有为”系列评审名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22206.htm",
+      "publish_date": "2026-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于商学与管理学院2026届优秀毕业研究生评选的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22212.htm",
+      "publish_date": "2026-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于推荐我院研究生参加吉林大学第四十届研究生“精英杯”学术成果大奖赛的名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22191.htm",
+      "publish_date": "2026-05-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院研究生2025年度“优秀团干部、优秀团员”名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22113.htm",
+      "publish_date": "2026-03-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院研究生2026年计划发展对象公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/22030.htm",
+      "publish_date": "2026-01-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收朴津叶、林嵩淇2名同志为中共预备党员的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/21986.htm",
+      "publish_date": "2025-12-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收曹哲、刘美含2名同志为中共预备党员的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/21987.htm",
+      "publish_date": "2025-12-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将叶雨薇等15位同志转为中共正式党员的公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/21952.htm",
+      "publish_date": "2025-12-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年度吉林大学“小米奖学金”（研究生）商学与管理学院拟推荐人员名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/21956.htm",
+      "publish_date": "2025-12-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年度吉林大学“浪潮奖学金”（研究生）商学与管理学院拟推荐人员名单公示",
+      "url": "https://sg.jlu.edu.cn/info/1403/21955.htm",
+      "publish_date": "2025-12-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg/16.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-a5fb3c6473c1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6799895092844963e-05,
+      "detail_duration_seconds": 7.70005863159895e-06,
+      "parse_db_duration_seconds": 0.034003499895334244
+    },
+    "second_round": {
+      "source": "p2-a5fb3c6473c1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4299992471933365e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-a5fb3c6473c1",
+    "institution": "商学与管理学院",
+    "column": "通知公告",
+    "url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:52+08:00",
+    "review_time": "2026-10-15T20:20:55+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-a5fb3c6473c1.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

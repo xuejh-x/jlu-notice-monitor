@@ -1,0 +1,122 @@
+{
+  "column_url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+  "column": "出访公示",
+  "institution": "考古学院",
+  "site_url": "https://kgxy.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://kgxy.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:39:54+08:00",
+  "checked_at": "2026-10-13T13:57:20+08:00",
+  "status": "部分通过",
+  "issues": [
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED"
+  ],
+  "details": [
+    {
+      "url": "https://kgxy.jlu.edu.cn/info/1035/3144.htm",
+      "list_title": "关于杨建华等4人因公临时出访俄罗斯相关情况的公示",
+      "parsed_title": "关于杨建华等4人因公临时出访俄罗斯相关情况的公示",
+      "document_title": "关于杨建华等4人因公临时出访俄罗斯相关情况的公示-吉林大学考古学院",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2018-09-17",
+      "parsed_date": "2018-09-17",
+      "reference_date": "2018-09-17",
+      "body_selector": ".v_news_content",
+      "content_chars": 1338,
+      "content_preview": "杨建华、邵会秋、林雪川、权乾坤等 4 人拟于 2018 年 11 月 21 日至 2018 年 12 月 5 日出访俄罗斯，现予以公示。 公示期内有异议者可通过来信、来电、来访等形式向学校反映。 反映公示对象的情况和问题要坚持实事求是的原则，以个人名义反映情况和问题要求签署或自报本人真实姓名，以单位名义反映情况的应加盖单位公章。公示具体内容如下： 团组人员的姓名、单位及职务： 杨建华 吉林大学考古学院 教授 邵会秋 吉林大学考古学院 副教授 林雪川 吉林大学考古学院 副研究馆员 权乾坤 吉林大学考古学院 讲师 出访国家及任务： 出访俄罗斯，赴俄罗斯克拉斯诺亚尔斯克州米努辛斯克地区地方志博物馆进行青铜器整理合作研究。 邀请单位简介： 俄罗斯克拉斯诺亚尔斯克州米努辛斯克博物馆，米努辛斯克博物馆是西伯利亚最古老的博物馆之一，原叶尼塞省第一个博物馆，由俄国著名学者尼古拉 · 米哈伊洛维奇 · 马勒",
+      "content_sha256": "1c1a587d89557d231cc83e52be85311a6fc6489a842251c383ca43c83e1698af",
+      "raw_attachments": [
+        {
+          "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129043",
+          "filename": "邀请函中文.docx"
+        },
+        {
+          "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129044",
+          "filename": "邀请函俄文.docx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "邀请函中文.docx",
+          "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129043",
+          "type": "docx"
+        },
+        {
+          "filename": "邀请函俄文.docx",
+          "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129044",
+          "type": "docx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T13:57:21+08:00",
+      "sha256": "afbdf18e409123256b73f80ff11545fa5ffb2ecb571219e7835fa1f108e1e883",
+      "snapshot": "html/afbdf18e409123256b73f80ff11545fa5ffb2ecb571219e7835fa1f108e1e883.html",
+      "attachment_probes": [
+        {
+          "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129043",
+          "time": "2026-10-13T13:57:22+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129043",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于杨建华等4人因公临时出访俄罗斯相关情况的公示",
+      "url": "https://kgxy.jlu.edu.cn/info/1035/3144.htm",
+      "publish_date": "2018-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/12e3b12c34c90087.json",
+  "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+  "list_sha256": "2e9293f47bf0c249f886a5af86f5d14b3ae27939a8d77723ad96648359c24eff",
+  "list_snapshot": "html/2e9293f47bf0c249f886a5af86f5d14b3ae27939a8d77723ad96648359c24eff.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

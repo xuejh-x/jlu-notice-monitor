@@ -1,0 +1,17 @@
+{
+  "utc_time": "2026-10-13T05:48:25.449857+00:00",
+  "cloud": {
+    "status": "failure",
+    "request_sent": false,
+    "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED"
+  },
+  "local": [
+    {
+      "mode": "default",
+      "tls_verification": "CERT_REQUIRED + hostname + original SNI",
+      "status": "failure",
+      "error": "SourceError: GET https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577 failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "seconds": 5.017
+    }
+  ]
+}

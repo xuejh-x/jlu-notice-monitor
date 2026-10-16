@@ -1,0 +1,98 @@
+[
+  {
+    "column_url": "https://cse.jlu.edu.cn/xytz.htm",
+    "column": "学院通知",
+    "institution": "吉林大学网络安全学院",
+    "site_url": "https://cse.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "cse",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "column": "本科教学通知",
+    "institution": "吉林大学网络安全学院",
+    "site_url": "https://cse.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "cse",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "column": "教学通知",
+    "institution": "吉林大学计算机科学与技术学院",
+    "site_url": "https://ccst.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "ccst",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "column": "学院通知",
+    "institution": "吉林大学软件学院",
+    "site_url": "https://csw.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "csw",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "column": "教办通知",
+    "institution": "吉林大学软件学院",
+    "site_url": "https://csw.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "csw",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "column": "通知公告",
+    "institution": "吉林大学本科生院",
+    "site_url": "https://jwc.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "jwc",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "column": "通知公告",
+    "institution": "吉林大学创新创业教育学院",
+    "site_url": "https://cxcyjyxy.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "innovation",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  },
+  {
+    "column_url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "column": "校内通知",
+    "institution": "吉林大学 OA 校内通知",
+    "site_url": "https://oa.jlu.edu.cn/",
+    "category": "现有来源",
+    "priority": "P0",
+    "discovery_url": "backend/config/sources.yaml",
+    "discovery_basis": "现有正式配置",
+    "configured_source": "oa",
+    "discovered_at": "2026-10-13T13:49:12+08:00"
+  }
+]

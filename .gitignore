@@ -47,6 +47,8 @@ backend/auth-profiles/
 *.dpapi
 *.pem
 *.pfx
+*.p12
+*.key
 **/AppData/
 **/appdata/
 **/logs/

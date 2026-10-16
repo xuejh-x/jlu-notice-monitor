@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-15T23:01:15+08:00",
+  "entries": 116,
+  "verdicts": {
+    "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN": 80,
+    "SAMPLE_REVIEW_REQUIRED": 10,
+    "PERMISSION_RESTRICTED": 2,
+    "SINGLE_ARTICLE_REFERENCE": 11,
+    "ACCESS_BLOCKED": 3,
+    "EXTERNAL_PLATFORM_REFERENCES": 1,
+    "VERIFIED_EMPTY_COLUMN": 2,
+    "HOMEPAGE_SCOPE_REVIEW": 3,
+    "LIST_OR_PAGINATION_UNSUPPORTED": 1,
+    "STATIC_RECRUITMENT_INFORMATION_PAGE": 3
+  },
+  "details": 253,
+  "verified_details": 236,
+  "list_pages": 153,
+  "list_items": 1773,
+  "isolated_replays": 90,
+  "http_attempts": 0,
+  "application_db_connections": 0,
+  "downloads": 0,
+  "oa_requests": 0
+}

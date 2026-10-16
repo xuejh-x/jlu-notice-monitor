@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-13T18:57:46.428729+08:00",
+  "status": "passed",
+  "application_files_match_final_tests": true,
+  "sources_unchanged": true,
+  "report_links_exist": true,
+  "original_html_sha256_verified": 1187,
+  "positive_controls": 11,
+  "navigation_controls": 27,
+  "final_tests": "269 passed, 1 skipped",
+  "baseline_tests": "238 passed, 1 skipped",
+  "files": {
+    "backend/app/parsers/html.py": "6c2f4aa886f8493fcac1380322364efbc7a5c584e515e00247162fcdfb07d88d",
+    "backend/app/sources/base.py": "04d21e5661bbe2ef51617702d89887136befbb852dc105013e5c9b0cd1941fc6",
+    "backend/app/sources/generic.py": "c3d4407337a03948c36fd0c7a61e723988841bf4482513167eecf8f5069c67c6",
+    "backend/scripts/audit_jlu_sites.py": "649e37b23d487435d63535860a270d9a834219b6b258665c895d56b8e8993fe6",
+    "backend/scripts/replay_jlu_b1.py": "c2ea62e8cf09deeee971c3718874fcc15a3b99e06c33b162c2b7d944a73bf135",
+    "backend/scripts/verify_jlu_audit_isolation.py": "93b879f7383560022dba0ff123a32c64931d697f89f64e6484c67c597c40eda7",
+    "docs/JLU_SITE_FIX_B0_B1_REPORT.md": "162956ff4df63c02d758266a27dd19b195ce4c58af3550b062c8b9112d9d8755"
+  }
+}

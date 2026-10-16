@@ -1,0 +1,118 @@
+{
+  "column_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+  "column": "招生信息",
+  "institution": "理论化学研究所",
+  "site_url": "http://itc.jlu.edu.cn/",
+  "category": "研究机构",
+  "priority": "P3",
+  "discovery_url": "http://itc.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:47:38+08:00",
+  "checked_at": "2026-10-13T14:03:25+08:00",
+  "status": "部分通过",
+  "issues": [
+    "TITLE_NOT_IN_DETAIL_HEADING",
+    "BODY_TOO_SHORT",
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+      "list_title": "招生宣传册 2019/09/24",
+      "parsed_title": "招生宣传册 2019/09/24",
+      "document_title": "招生宣传册-吉林大学理论化学研究所",
+      "heading_texts": [],
+      "title_verified": false,
+      "list_date": "2019-09-24",
+      "parsed_date": "2019-09-24",
+      "reference_date": "2019-09-24",
+      "body_selector": ".v_news_content",
+      "content_chars": 33,
+      "content_preview": "招生相关信息请参考附件中的招生宣传册 招生宣传册-2019.pdf",
+      "content_sha256": "647afbaaff8bb0a34cdd31f7231411c4c89b562188a84f5b287bf68bf45d0e53",
+      "raw_attachments": [
+        {
+          "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+          "filename": "招生宣传册-2019.pdf"
+        },
+        {
+          "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+          "filename": "招生宣传册-2019.pdf"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "招生宣传册-2019.pdf",
+          "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+          "type": "pdf"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_TOO_SHORT",
+        "ATTACHMENT_ENDPOINT_FAILED"
+      ],
+      "time": "2026-10-13T14:03:27+08:00",
+      "sha256": "8d976d82250ff1fa2c1c5b10dd555b2ab8e2026308a942ffd4bbc76eff612e2a",
+      "snapshot": "html/8d976d82250ff1fa2c1c5b10dd555b2ab8e2026308a942ffd4bbc76eff612e2a.html",
+      "attachment_probes": [
+        {
+          "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+          "time": "2026-10-13T14:03:28+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "招生宣传册 2019/09/24",
+      "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+      "publish_date": "2019-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/06d121ac0e9b6c27.json",
+  "reason": "TITLE_NOT_IN_DETAIL_HEADING; BODY_TOO_SHORT; ATTACHMENT_ENDPOINT_FAILED; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+  "list_sha256": "9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952",
+  "list_snapshot": "html/9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

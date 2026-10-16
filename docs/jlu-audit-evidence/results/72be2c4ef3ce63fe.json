@@ -1,0 +1,25 @@
+{
+  "column_url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+  "column": "答辩公告",
+  "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室",
+  "site_url": "https://yjsy.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P1",
+  "discovery_url": "https://yjsy.jlu.edu.cn/",
+  "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:34:41+08:00",
+  "checked_at": "2026-10-13T13:52:22+08:00",
+  "status": "失败",
+  "issues": [
+    "ROBOTS_UNAVAILABLE"
+  ],
+  "details": [],
+  "list_count": null,
+  "list_items": [],
+  "generic_count": null,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/72be2c4ef3ce63fe.json",
+  "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+  "pagination": {}
+}

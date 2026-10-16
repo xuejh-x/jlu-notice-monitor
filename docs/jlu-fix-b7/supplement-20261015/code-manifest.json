@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-15T22:16:45+08:00",
+  "files": {
+    "backend/scripts/supplement_jlu_b7.py": "82152cf47b5dd34a50f15d95f73898be48835e8c9495e5a448c812b8012f3b7b",
+    "backend/scripts/run_jlu_b7.py": "24e649cc7999988c25d17c875275afa14847b87b1937edb4bce2a0fe25c1d4fb",
+    "backend/scripts/validate_jlu_b6.py": "6b94bdb2652d9db1adf450626341549ef8e0ae2bbeaaf6a0e3e2023b499cff1b",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "2d3ba686e3edeef1069f4885c44b82480d512c2a1c3de0faa77e4f8539f22613",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/services/deduplication.py": "3aefc1d1868a95f506e2551669340bd88b4bcb07409e46b9ca4fa32cd10b42f4",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b7/search-supplement.json": "245aa437fcaeb6277118f9ff330d8c8cd7f1084ff2260627db76323ed43b2e4e",
+    "input/requests.json": "3087c1202a216feddf0787de834ff2adfae1b2135dfde9dac8d4e0c169b1f78b"
+  },
+  "limits": "7 primary evidence URLs, <=2 literal same-site home links, <=8 new columns, <=2 pages/3 samples; shared serial audit limiter/robots",
+  "input_dir": "docs\\jlu-fix-b7\\live-20261015",
+  "database": "sqlite://; application connections forbidden",
+  "downloads": 0
+}

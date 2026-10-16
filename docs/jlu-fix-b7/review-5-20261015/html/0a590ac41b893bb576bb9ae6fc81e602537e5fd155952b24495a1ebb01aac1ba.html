@@ -1,0 +1,1109 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+.content｛color：#000000｝
+
+
+  div.school {
+    font-size:12px;
+    margin-top:10px;
+    text-align:center;}
+  #floater0 {
+  position: absolute;
+  left: 500;
+  top: 146;
+  visibility: visible;
+  z-index: 1;
+  background:red;
+  border:blue solid 0px;}
+</style>
+<link href="dfiles/9784/gjs/front/style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript">
+  function CleanWord(oNode)
+{
+    var html = oNode ;
+
+    html = html.replace(/<o:p>\s*<\/o:p>/g, '') ;
+    html = html.replace(/<o:p>[\s\S]*?<\/o:p>/g, '&nbsp;') ;
+
+    // Remove mso-xxx styles.
+    html = html.replace( /\s*mso-[^:]+:[^;"]+;?/gi, '' ) ;
+
+    // Remove margin styles.
+    html = html.replace( /\s*MARGIN: 0cm 0cm 0pt\s*;/gi, '' ) ;
+    html = html.replace( /\s*MARGIN: 0cm 0cm 0pt\s*"/gi, "\"" ) ;
+
+    html = html.replace( /\s*TEXT-INDENT: 0cm\s*;/gi, '' ) ;
+    html = html.replace( /\s*TEXT-INDENT: 0cm\s*"/gi, "\"" ) ;
+
+    html = html.replace( /\s*TEXT-ALIGN: [^\s;]+;?"/gi, "\"" ) ;
+
+    html = html.replace( /\s*PAGE-BREAK-BEFORE: [^\s;]+;?"/gi, "\"" ) ;
+
+    html = html.replace( /\s*FONT-VARIANT: [^\s;]+;?"/gi, "\"" ) ;
+
+    html = html.replace( /\s*tab-stops:[^;"]*;?/gi, '' ) ;
+    html = html.replace( /\s*tab-stops:[^"]*/gi, '' ) ;
+
+    // Remove FONT face attributes.
+    html = html.replace( /\s*face="[^"]*"/gi, '' ) ;
+    html = html.replace( /\s*face=[^ >]*/gi, '' ) ;
+
+    html = html.replace( /\s*FONT-FAMILY:[^;"]*;?/gi, '' ) ;
+    
+    // Remove Class attributes
+    html = html.replace(/<(\w[^>]*) class=([^ |>]*)([^>]*)/gi, "<$1$3") ;
+
+    // Remove styles.
+    html = html.replace( /<(\w[^>]*) style="([^\"]*)"([^>]*)/gi, "<$1$3" ) ;
+
+    // Remove style, meta and link tags
+    html = html.replace( /<STYLE[^>]*>[\s\S]*?<\/STYLE[^>]*>/gi, '' ) ;
+    html = html.replace( /<(?:META|LINK)[^>]*>\s*/gi, '' ) ;
+
+    // Remove empty styles.
+    html =  html.replace( /\s*style="\s*"/gi, '' ) ;
+
+    html = html.replace( /<SPAN\s*[^>]*>\s*&nbsp;\s*<\/SPAN>/gi, '&nbsp;' ) ;
+
+    html = html.replace( /<SPAN\s*[^>]*><\/SPAN>/gi, '' ) ;
+
+    // Remove Lang attributes
+    html = html.replace(/<(\w[^>]*) lang=([^ |>]*)([^>]*)/gi, "<$1$3") ;
+
+    html = html.replace( /<SPAN\s*>([\s\S]*?)<\/SPAN>/gi, '$1' ) ;
+
+    html = html.replace( /<FONT\s*>([\s\S]*?)<\/FONT>/gi, '$1' ) ;
+
+    // Remove XML elements and declarations
+    html = html.replace(/<\\?\?xml[^>]*>/gi, '' ) ;
+
+    // Remove w: tags with contents.
+    html = html.replace( /<w:[^>]*>[\s\S]*?<\/w:[^>]*>/gi, '' ) ;
+
+    // Remove Tags with XML namespace declarations: <o:p><\/o:p>
+    html = html.replace(/<\/?\w+:[^>]*>/gi, '' ) ;
+
+    // Remove comments [SF BUG-1481861].
+    html = html.replace(/<\!--[\s\S]*?-->/g, '' ) ;
+
+    html = html.replace( /<(U|I|STRIKE)>&nbsp;<\/\1>/g, '&nbsp;' ) ;
+
+    html = html.replace( /<H\d>\s*<\/H\d>/gi, '' ) ;
+
+    // Remove "display:none" tags.
+    html = html.replace( /<(\w+)[^>]*\sstyle="[^"]*DISPLAY\s?:\s?none[\s\S]*?<\/\1>/ig, '' ) ;
+
+    // Remove language tags
+    html = html.replace( /<(\w[^>]*) language=([^ |>]*)([^>]*)/gi, "<$1$3") ;
+
+    // Remove onmouseover and onmouseout events (from MS Word comments effect)
+    html = html.replace( /<(\w[^>]*) onmouseover="([^\"]*)"([^>]*)/gi, "<$1$3") ;
+    html = html.replace( /<(\w[^>]*) onmouseout="([^\"]*)"([^>]*)/gi, "<$1$3") ;
+
+    //if ( FCKConfig.CleanWordKeepsStructure )
+    //{
+        // The original <Hn> tag send from Word is something like this: <Hn style="margin-top:0px;margin-bottom:0px">
+        html = html.replace( /<H(\d)([^>]*)>/gi, '<h$1>' ) ;
+
+        // Word likes to insert extra <font> tags, when using MSIE. (Wierd).
+        html = html.replace( /<(H\d)><FONT[^>]*>([\s\S]*?)<\/FONT><\/\1>/gi, '<$1>$2<\/$1>' );
+        html = html.replace( /<(H\d)><EM>([\s\S]*?)<\/EM><\/\1>/gi, '<$1>$2<\/$1>' );
+//  }
+    //else
+    //{
+    //  html = html.replace( /<H1([^>]*)>/gi, '<div$1><b><font size="6">' ) ;
+    //  html = html.replace( /<H2([^>]*)>/gi, '<div$1><b><font size="5">' ) ;
+    //  html = html.replace( /<H3([^>]*)>/gi, '<div$1><b><font size="4">' ) ;
+    //  html = html.replace( /<H4([^>]*)>/gi, '<div$1><b><font size="3">' ) ;
+    //  html = html.replace( /<H5([^>]*)>/gi, '<div$1><b><font size="2">' ) ;
+    //  html = html.replace( /<H6([^>]*)>/gi, '<div$1><b><font size="1">' ) ;
+//
+    //  html = html.replace( /<\/H\d>/gi, '<\/font><\/b><\/div>' ) ;
+
+        // Transform <P> to <DIV>
+    //  var re = new RegExp( '(<P)([^>]*>[\\s\\S]*?)(<\/P>)', 'gi' ) ;  // Different because of a IE 5.0 error
+    //  html = html.replace( re, '<div$2<\/div>' ) ;
+
+        // Remove empty tags (three times, just to be sure).
+        // This also removes any empty anchor
+    //  html = html.replace( /<([^\s>]+)(\s[^>]*)?>\s*<\/\1>/g, '' ) ;
+    //  html = html.replace( /<([^\s>]+)(\s[^>]*)?>\s*<\/\1>/g, '' ) ;
+    //  html = html.replace( /<([^\s>]+)(\s[^>]*)?>\s*<\/\1>/g, '' ) ;
+    //}
+
+    return html ;
+}
+</script>
+
+<title>高等教育研究所</title><META Name="keywords" Content="高等教育研究所" />
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323076684654525b574200010005445c -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1010,'/index.jsp',-1,1399982074)</script>
+</head>
+<body onload="pc1=setTimeout('change_pc1()',10);">
+<div id="floater0"> </div>
+ 
+      <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script>
+    var mark;
+    var pc1;
+    var pc2;
+    var x = 50,y = 60;
+    var xin = true, yin = true; 
+    var step = 1 ;
+    var delay = 10;
+    var obj=document.getElementById("floater0"); 
+ 
+
+    function floatAD() {
+      var L=T=0;
+      var R= document.body.clientWidth-obj.offsetWidth;
+      var B= document.body.clientHeight-obj.offsetHeight;
+ 
+      x = x + step*(xin?1:-1);
+      if (x < L) { xin = true; x = L;}
+      if (x > R) { xin = false; x = R;} 
+      y = y + step*(yin?1:-1); 
+      if (y < T) { yin = true; y = T; }
+      if (y > B) { yin = false; y = B; }
+ 
+    obj.style.left = x + document.body.scrollLeft; 
+    obj.style.top = y + document.body.scrollTop;
+    }
+ 
+    var itl= setInterval('floatAD()', delay); 
+    obj.onmouseover=function(){clearInterval(itl);clearTimeout(pc1);clearTimeout(pc2);};
+    obj.onmouseout=function(){itl=setInterval('floatAD()', delay);if(mark==1){pc2=setTimeout('change_pc2()',1000);}else{pc1=setTimeout('change_pc1()',1000);}}; 
+  </script>
+
+
+  <style type="text/css">
+ul{-webkit-padding-start: 0!important;}
+.navigation0 { 
+    margin:0px;width:130px;}
+.navigation1 { 
+    margin:0px;}
+.navigation1 a{padding:0 20px;}
+.navigation2 a{padding:0;}
+.navigation3 a{padding:0;}
+.navigation2 {
+    list-style-type:none;
+    display:none; 
+    position:absolute;
+    left:100px;
+    top:6px;
+    margin:0px;
+    font-weight:normal;} 
+.navigation3 { 
+    display:none; 
+    position:absolute; 
+    top:0px;
+    left:95px;
+    margin:0px;}
+
+.navigation0 li{
+    list-style-type:none;
+    float:center; 
+    position:relative;
+    display:block; 
+    text-decoration:none;
+    font-size:16px;
+    font-family: "黑体";
+    width:120px; 
+    height:10px; 
+    line-height:25px; 
+    border:1px solid red; 
+    border-width:0px 0px 0px 0;
+    background:#ffffff;}
+
+.navigation1 li{
+    list-style-type:none;
+    float:center; 
+    position:relative;
+    display:block; 
+    text-decoration:none;
+    font-size:16px;
+    font-family: "黑体";
+    width:120px; 
+    min-height:10px; 
+    line-height:25px; 
+    border:1px solid red; 
+    border-width:0px 0px 0px 0;}
+
+.navigation2 li{ 
+    display:block; 
+    text-decoration:none;
+    font-size:12px;
+    font-family: "宋体";
+    width:100px; 
+    height:25px; 
+    line-height:25px;
+    background:#CCCCCC;}
+.navigation3 li{ 
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-size:12px;
+    font-family: "宋体";
+    width:100px; 
+    height:25px; 
+    line-height:25px;
+    background:#CCCCCC;}
+
+.navigation0 li a:link { 
+    text-decoration:none;
+    color:#4169E1;}
+.navigation0 li a:visited {
+    text-decoration:none;
+    color:#4169E1;}
+.navigation0 li a:hover {
+    text-decoration:none;
+    color:#FF0000;}
+
+.navigation1 li a:link { 
+    text-decoration:none;
+    color:#3C3CFF;}
+.navigation1 li a:visited {
+    text-decoration:none;
+    color:#3C3CFF;}
+.navigation1 li a:hover {
+    text-decoration:none;
+    color:#FF0000;}
+
+.navigation2 li a:link { 
+    text-decoration:none;
+    color:#003366;}
+.navigation2 li a:visited {
+    text-decoration:none;
+    color:#003366;}
+.navigation2 li a:hover {
+    text-decoration:none;
+    color:#FF0000; 
+    background-color:#f0f0f0;
+    background-image:url(dfiles/9784/gjs/images/dh-baidi.jpg);}
+
+.navigation3 li a:link { 
+    text-decoration:none;
+    color:#003366;}
+.navigation3 li a:visited {
+    text-decoration:none;
+    color:#003366;}
+.navigation3 li a:hover {
+    text-decoration:none;
+    color:#FF0000; 
+    background-color:#f0f0f0; 
+    background-image:url(dfiles/9784/gjs/images/dh-baidi.jpg);}
+</style>
+<script type="text/javascript"> 
+    function displaySubMenu(li) { 
+        var subMenu = li.getElementsByTagName("ul")[0]; 
+            subMenu.style.display = "block"; 
+    } 
+    function hideSubMenu(li) { 
+        var subMenu = li.getElementsByTagName("ul")[0]; 
+            subMenu.style.display = "none"; 
+    } 
+</script>    <!---------------------------------------------------------------------------------------------------总表格开始---------------------------------------------------------------------------------->
+  <table align="center" height="800" width="1030" border="0" bordercolor="red" cellpadding="0" cellspacing="0">
+  <!---------------------------------------------------------------------------------------总表格第一行开始----显示头部图片------------------------------------------------------------------------>
+    <tr>        
+        <td colspan="1"> 
+            <table align="center" border="0" cellpadding="0" cellspacing="0" bordercolor="yellow" background="images/head.png" width="1030" height="162">
+    <tr>
+        <td>
+        </td>
+    </tr>
+</table>
+        </td>
+    </tr>
+<!---------------------------------------------------------------------------------------总表格第一行结束----显示头部图片------------------------------------------------------------------------>
+
+<!---------------------------------------------------------------------------------------总表格第二行开始----显示主体内容------------------------------------------------------------------------>
+    <tr>
+        <td>
+            <!----------------------------------------------------------------------------------绿色表格开始--------------------------------------------------------------------------------->
+            <table width="1030" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="green" background="dfiles/9784/gjs/images/content.jpg">
+            <!---------------------------------------------------------------------绿色表格第一行开始-----显示导航条和棕色表格信息----------------------------------------------------------->
+                <tr>
+                    <td rowspan="2" align="center" width="154" valign="top">
+                        <!----------------------------------------------白色表格开始-----显示导航条和超级链接--------------------------------->
+                        <table width="100%" border="0" bordercolor="#000000" height="100%">
+                        <!----------------------------------------------白色表格第一行开始-----显示导航条------------------------------------->
+                            <tr>
+                                <td>
+                                    <table width="146" border="0" bordercolor="#00FF66" height="444" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="100">
+        </td>
+    </tr>
+        <tr>
+
+<td align="center" height="40" background="dfiles/9784/gjs/images/dh.gif">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="index.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">首页</a>   
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="yjsgk.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">研究所概况</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="yjsgk/gjsjj.htm">高教所简介</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="yjsgk/jgsz.htm">机构设置</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="yjsgk/lrld.htm">历任领导</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="yjsgk/xrld.htm">现任领导</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="xkjs.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">学科建设</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xkjs/gdjyx.htm">高等教育学</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xkjs/jyjsx.htm">教育技术学</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xkjs/kcyjxl.htm">课程与教学论</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="szdw.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">师资队伍</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/gdjyx.htm">高等教育学</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/jyjsx.htm">教育技术学</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/kcyjxl.htm">课程与教学论</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/bgs.htm">办公室</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/bjb.htm">编辑部</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="szdw/zls.htm">资料室</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="jxky.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">教学科研</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="jxky/jx.htm">教学</a> 
+ <ul class="navigation3">
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="jxky/jx/gdjyx.htm" target="_parent">高等教育学</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="jxky/jx/jyjsx.htm" target="_parent">教育技术学</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="jxky/jx/kcyjxl.htm" target="_parent">课程与教学论</a>
+                                </li>
+                            </ul> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="jxky/ky.htm">科研</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="dqgz.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">党群工作</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="dqgz/zbjs.htm">支部建设</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="dqgz/ghgz.htm">工会工作</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="dqgz/fngz.htm">妇女工作</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="dqgz/qt.htm">其他</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="xzfc.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">学子风采</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xzfc/xshd.htm">学术活动</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xzfc/shsj.htm">社会实践</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xzfc/yjshj.htm">研究生获奖</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xzfc/xyxx.htm">校友信息</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xzfc/qt.htm">其他</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="xsqk.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">学术期刊</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xsqk/_gjyjysj_.htm">《高教研究与实践》</a> 
+ <ul class="navigation3">
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/jj.htm" target="_parent">简介</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/bjwyh.htm" target="_parent">编辑委员会</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/gy.htm" target="_parent">稿约</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/tgxz.htm" target="_parent">投稿须知</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/lxfs.htm" target="_parent">联系方式</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjysj_/qk.htm" target="_parent">期刊</a>
+                                </li>
+                            </ul> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="xsqk/_gjyjxx_.htm">《高教研究信息》</a> 
+ <ul class="navigation3">
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjxx_/jj.htm" target="_parent">简介</a>
+                                </li>
+
+                                <li style="border:1px solid #bbb;border-width:1px 1px 1px 1px;">
+                                    <a href="xsqk/_gjyjxx_/qk.htm" target="_parent">期刊</a>
+                                </li>
+                            </ul> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="zsjy.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">招生就业</a>   
+<ul class="navigation2"> 
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="zsjy/zsjz.htm">招生简章</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="zsjy/zsxx.htm">招生信息</a> 
+                        </li>
+
+                        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" style="border:1px solid #bbb;border-width:1px 1px 1px 1px;"> 
+                            <a href="http://jdjyw.jlu.edu.cn/">就业指导</a> 
+                        </li>
+                    </ul> 
+
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+    <tr>
+
+<td align="center" height="40">
+
+            <ul class="navigation1">    
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+                    <a href="zxfw.htm" style="a{poorflish:expression(this.onclick=function(){return false})}">咨询服务</a>   
+                    
+                </li> 
+            </ul>
+            
+        </td>
+    </tr>
+
+</table>                                </td>
+                            </tr>
+                        <!----------------------------------------------白色表格第一行结束-----显示导航条------------------------------------->
+                        <!----------------------------------------------白色表格第二行开始-----显示超级链接----------------------------------->
+                            <tr>
+                                <td valign="top">
+                                    <!----------------------------------------------绿色表格2开始显示超级链接------------------------------------->
+                                    <table width="120" border="0" bordercolor="#00FF66" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td height="5" align="left" valign="top">
+                                                <hr color="blue" width="134" />
+                                            
+                                                <div class="school">常用链接</div>
+                                                
+                                                <div class="school">校内友情链接</div>
+                                                <script language="javascript" src="/system/resource/js/openlink.js"></script><select id="1" size="1" onchange="javascript:window.open(this.value)" style="width:134px; font-size:12px; color:blue">
+                                                    <option></option>
+                                                    <option value="http://www.jlu.edu.cn/">吉大首页</option>
+                                                    <option value="http://gim.jlu.edu.cn/yjsy/new/">研究生院</option>
+                                                    <option value="http://lib.jlu.edu.cn/">图书馆</option>
+                                                    <option value="http://oa.jlu.edu.cn/">校内办公网</option>
+                                                    <option value="http://bbs.jlu.edu.cn/newindex/">牡丹园</option>
+                                                </select>
+                                            
+                                                <div class="school">国外著名大学</div>
+                                                <select id="1" size="1" onchange="javascript:window.open(this.value)" style="width:134px; font-size:12px; color:blue">
+                                                    <option></option>
+                                                    <option value="http://www.gse.harvard.edu/">哈佛大学教育学院</option>
+                                                    <option value="http://www.educ.cam.ac.uk">剑桥大学教育学系</option>
+                                                    <option value="http://ed.stanford.edu/">斯坦福大学教育学院</option>
+                                                    <option value="http://www.educ.kyoto-u.ac.jp/">京都大学教育学部</option>
+                                                    <option value="http://www.p.u-tokyo.ac.jp/">东京大学教育学部</option>
+                                                </select>
+                                         
+                                                <div class="school">国内著名大学</div>
+                                                <select id="1" size="1" onchange="javascript:window.open(this.value)" style="width:134px; font-size:12px; color:blue">
+                                                    <option></option>
+                                                    <option value="http://ihe.xmu.edu.cn/">厦门大学教育研究院</option>
+                                                    <option value="http://web5.pku.edu.cn/jyxy/">北京大学教育学院</option>
+                                                    <option value="http://www.ced.zju.edu.cn/chinese/">浙江大学教育学院</option>
+                                                    <option value="http://www2.hust.edu.cn/jky/">华中科技教育科学研究院</option>
+                                                    <option value="http://gse.sjtu.edu.cn/">上海交大高等教育研究院</option>
+                                                    <option value="http://fe.bnu.edu.cn/index.htm;jsessionid=EE1EF946233C3917BCA65E0D52658AB2">北京师范教育学部</option>
+                                                    <option value="http://www.ses.ecnu.edu.cn/">华东师范教育科学学院</option>
+                                                    <option value="http://edu.nenu.edu.cn/">东北师范教育科学学院</option>
+                                                    <option value="http://jky.njnu.edu.cn/">南京师范教育科学学院</option>
+                                                    <option value="http://jky.scnu.edu.cn/index.asp">华南师范教育科学学院</option>
+                                                </select>
+                                            
+                                                <div class="school">著名教育网站</div>
+                                                <select id="1" size="1" onchange="javascript:window.open(this.value)" style="width:134px; font-size:12px; color:blue">
+                                                    <option></option>
+                                                    <option value="http://www.moe.edu.cn/edoas/website18/">教育部网站</option>
+                                                    <option value="http://www.chinaedu.edu.cn/">中国教育信息网</option>
+                                                    <option value="http://www.edunews.net.cn/">教育新闻网</option>
+                                                    <option value="http://www.cbe21.com/index.php">中国基础教育网</option>
+                                                    <option value="http://link.cbe21.com/hitout.asp?id=516">新华网教育</option>
+                                                    <option value="http://www.ceaie.edu.cn/">中国教育国际交流协会</option>
+                                                    <option value="http://link.cbe21.com/hitout.asp?id=2016">北京教育网</option>
+                                                    <option value="http://www.edurc.cn/">中国教育人才招聘网</option>
+                                                    <option value="http://www.cse.edu.cn/edoas2/website18/index.jsp">中国教育学会</option>
+                                                    <option value="http://jyjl.qikan.com/">中国教研交流</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!----------------------------------------------绿色表格2结束显示超级链接------------------------------------->
+                                </td>
+                            </tr>
+                        <!----------------------------------------------白色表格第二行结束-----显示超级链接----------------------------------->
+                        </table>
+                        <!----------------------------------------------白色表格结束-----显示导航条和超级链接--------------------------------->
+                    </td>
+                    <td valign="bottom"> 
+                                                <!---------------------------------------------棕色表格开始-------------------------------------------------------------------------------->
+                        <table width="98%" border="0" bordercolor="brow" cellpadding="0" cellspacing="0">
+                        <!-----------------------------------------棕色表格第一行开始，布局使用-------------------------------------------------------------------->
+                            <tr>
+                                <td colspan="2" height="1">
+                                    <!----布局使用---->
+                                </td>
+                            </tr>
+                        <!---------------------------------------------棕色表格第一行结束，布局使用---------------------------------------------------------------->
+                        <!---------------------------------------------棕色表格第二行开始，显示最近动态和所长寄语-------------------------------------------------->
+                            <tr>
+                                <td width="50%" valign="top">
+                                    <!----------------------------------------蓝色表格开始------------------------------------------------------------>
+                                    <table align="left" height="350" width="100%" border="0" bordercolor="blue" cellpadding="2" cellspacing="0">
+                                    <!-----------------------------------------蓝色表格中的第1行开始----显示最新动态---------------------------------->
+                                        <tr>                            
+                                            <td align="left" class="listcontent" valign="bottom" colspan="2">        
+                                                <img width="80" height="30" src="dfiles/9784/gjs/images/zxdt.png"><strong><!--最新动态--><a href="zxdt.htm" class="more" target="">MORE>></a></strong><br />
+                                                <hr color="#CCCCCC" width="99%" />
+                                            </td>
+                                        </tr>
+                                    <!-----------------------------------------蓝色表格中的第1行结束----显示最新动态---------------------------------->
+                                    <!---------------------------------------蓝色表格中的第2行开始----显示图片和第一条新闻标题和部分新闻内容---------->
+                                        <tr>
+                                            <td valign="top">                                           
+                                                        <p>    
+                    <a target="_blank" href="dfiles/9784/userfiles/image/2010-09-01-02big.jpg"><img alt="" width="180" height="120" src="dfiles/9784/userfiles/image/2010-09-01-02big.jpg" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" /></a>
+           </p>                        </td>
+                                            <td width="64%">
+                                                <script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><table align="left" border="0" width="100%" height="98%" bordercolor="red" cellpadding="0" cellspacing="0">
+                                                    <tr height="30%">
+                                                        <td valign="top">
+                                                         <img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所学术论坛(2025年第三期）" href="info/1048/2522.htm" class="index_import_title">高等教育研究所学术论坛(2025年第三期）</a>
+                                                        </td>                                
+                                                        <td align="right" width="35%" valign="top" class="pubtime">
+                                                            [2025-11-13]
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" style="font-family:宋体;font-size:12px;line-height:20px">                                                           
+                                                         &nbsp;&nbsp;&nbsp;&nbsp; 为深入服务国家教育强国战略部署，聚焦新时期高等教育改革发展的核心议题与创新实践，吉林大学高等教育...
+                                                                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table><script>_showDynClickBatch(['dynclicks_u7_2522'],[2522],"wbnews", 1399982074)</script>
+
+                                            </td>
+                                        </tr>
+                                    <!-----------------------------------------蓝色表格中的第2行结束----显示图片和第一条新闻标题和部分新闻内容-------->
+                                    <!---------------------------------------蓝色表格中的第3行开始----显示新闻列表------------------------------------>
+                                        <tr>
+                                            <td height="50%" colspan="2" valign="middle">
+                                                <table align="left" border="0" width="100%" height="100%" cellspacing="0" cellpadding="0" bordercolor="black">
+                                                                                                    
+<tr style="display:none"></tr>
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所学术论坛(2025年第二期）" href="info/1048/2513.htm" class="index_titles">高等教育研究所学术论坛(2025年第二期）</a>
+</td>
+<td align="right" class="pubtime">[2025-11-04]
+</td>
+</tr> 
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所学术论坛" href="info/1048/2512.htm" class="index_titles">高等教育研究所学术论坛</a>
+</td>
+<td align="right" class="pubtime">[2025-10-31]
+</td>
+</tr> 
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所心理团辅互动 “心相遇，共启航”            ——高等教育研究所25级研究生开展心理团辅互动" href="info/1048/2502.htm" class="index_titles">高等教育研究所心理团辅互动 “心相遇，共启航”  ...</a>
+</td>
+<td align="right" class="pubtime">[2025-09-19]
+</td>
+</tr> 
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="2025年高等教育研究所高等教育学专业硕士研究生拟录取名单" href="info/1048/2495.htm" class="index_titles">2025年高等教育研究所高等教育学专业硕士研究生拟...</a>
+</td>
+<td align="right" class="pubtime">[2025-03-28]
+</td>
+</tr> 
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="2025年高等教育研究所招收硕士研究生复试成绩" href="info/1048/2494.htm" class="index_titles">2025年高等教育研究所招收硕士研究生复试成绩</a>
+</td>
+<td align="right" class="pubtime">[2025-03-25]
+</td>
+</tr> 
+
+<tr>
+<td align="left">
+<img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所2025年硕士研究生复试录取实施细则" href="info/1048/2493.htm" class="index_titles">高等教育研究所2025年硕士研究生复试录取实施细则</a>
+</td>
+<td align="right" class="pubtime">[2025-03-14]
+</td>
+</tr> 
+<script>_showDynClickBatch(['dynclicks_u8_2522','dynclicks_u8_2513','dynclicks_u8_2512','dynclicks_u8_2502','dynclicks_u8_2495','dynclicks_u8_2494','dynclicks_u8_2493'],[2522,2513,2512,2502,2495,2494,2493],"wbnews", 1399982074)</script>
+               
+                                                                                                </table>    
+                                            </td>
+                                        </tr>
+                                    <!-----------------------------------------蓝色表格中的第3行结束----显示新闻列表---------------------------------->
+                                    </table>
+                                    <!--------------------------------------------------------蓝色表格结束-------------------------------------------->
+                                </td>
+                                <td>
+                                    <!--------------------棕色表格第二行第二列中的黑色表格开始，用于显示所长寄语和照片------->
+                                    <table border="0" width="100%" height="90%" cellspacing="0" cellpadding="2" bordercolor="black">
+                                        <tr>
+                                            <td height="6px">
+                                             <!--布局-->
+                                            </td>
+                                        </tr>
+                                    <!-------------------------黑色表格第二行开始，用于显示所长寄语-------------------------->
+                                        <tr>
+                                            <td align="center">
+<strong style="font-size:18px"><a href="info/1049/1053.htm">&nbsp;所长寄语:</a></strong><br>
+<a href="info/1049/1053.htm">“莫视眼前新芽小 凌云更有百尺竹”</a>                                           
+
+<script>_showDynClickBatch(['dynclicks_u9_1053'],[1053],"wbnews", 1399982074)</script>
+</td>
+                                        </tr>
+                                    <!-------------------------黑色表格第二行结束，用于显示所长寄语-------------------------->
+                                    <!-------------------------黑色表格第三行开始，用于显示所长照片-------------------------->
+                                        <tr>
+                                            <td align="center">
+                                                <!--显示照片-->
+                                                <p>        
+                <a target="_blank" href="dfiles/9784/userfiles/image/allteachers.jpg"><img alt="" width="180" height="120" src="dfiles/9784/userfiles/image/allteachers.jpg" style="width: 371px; height: 272px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none;" /></a>
+<span lang="EN-US" style="font-family: 宋体; font-size: 14pt; mso-hansi-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><v:shapetype id="_x0000_t75" stroked="f" filled="f" path="m@4@5l@4@11@9@11@9@5xe" o:preferrelative="t" o:spt="75" coordsize="21600,21600">&nbsp;<v:stroke joinstyle="miter"></v:stroke><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"></v:f><v:f eqn="sum @0 1 0"></v:f><v:f eqn="sum 0 0 @1"></v:f><v:f eqn="prod @2 1 2"></v:f><v:f eqn="prod @3 21600 pixelWidth"></v:f><v:f eqn="prod @3 21600 pixelHeight"></v:f><v:f eqn="sum @0 0 1"></v:f><v:f eqn="prod @6 1 2"></v:f><v:f eqn="prod @7 21600 pixelWidth"></v:f><v:f eqn="sum @8 21600 0"></v:f><v:f eqn="prod @7 21600 pixelHeight"></v:f><v:f eqn="sum @10 21600 0"></v:f></v:formulas><v:path o:connecttype="rect" gradientshapeok="t" o:extrusionok="f"></v:path><o:lock aspectratio="t" v:ext="edit"></o:lock></v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style="width: 276pt; height: 183.75pt"><v:imagedata o:title="" src="dfiles/0/c:/docume~1/admini~1/locals~1/temp/msohtml1/01/clip_image001.jpg"></v:imagedata></v:shape></span></p>                                           </td>
+                                        </tr>
+                                    <!-------------------------黑色表格第三行结束，用于显示所长照片-------------------------->
+                                    </table>
+                                    <!--------------------棕色表格第二行第二列中的黑色表格结束，用于显示所长寄语和照片------->
+                                </td>
+                            </tr>
+                        <!---------------------------------------------棕色表格第二行结束，显示最近动态和所长寄语-------------------------------------------------->
+                        </table>
+                        <!---------------------------------------------棕色表格开始-------------------------------------------------------------------------------->
+                    </td>
+                </tr>
+            <!---------------------------------------------------------------------绿色表格第一行结束-----显示导航条和棕色表格信息----------------------------------------------------------->
+            <!----------------------------------------------------------------绿色表格第二行开始-----包含黄色表格（黑色表格、所内通知、学术活动）-------------------------------------------->
+                <tr>
+                    <td valign="top">
+                        <!-----------------------------------------黄色表格开始--------------------------------------------------------->
+                        <table border="0" width="98%" height="320" cellspacing="0" cellpadding="0" bordercolor="yellow">
+                        <!----------------------------黄色表格第一行开始----包含（2个黑色表格、所内通知、学术活动）--------------------->
+                            <tr>
+                                <td width="50%">
+                                                            <!-----------------------------------黑色表格1开始--显示所内通知-------------------------------->
+                                    <table border="0" width="100%" height="100%" cellspacing="0" cellpadding="5" bordercolor="black">
+                                    <!-------------------------------黑色表格1第一行开始--显示所内通知标题-------------------------->
+                                        <tr>
+                                            <td align="left" colspan="2" valign="top">
+                                                <img width="80" height="30" src="dfiles/9784/gjs/images/sntz.png"><strong><!--所内通知--><a href="sntz.htm" class="more" target="">MORE>></a></strong><br />
+                                                <hr color="#CCCCCC" width="99%" />
+                                            </td>
+                                        </tr>
+                                    <!-------------------------------黑色表格1第一行结束--显示所内通知标题-------------------------->
+                                    <!---------------------黑色表格1第二行开始--显示图片和第一条信息的标题以及部分信息-------------->
+                                        <tr>
+                                            <td valign="top">                                               
+                                                <p>    
+                    <a target="_blank" href="dfiles/9784/userfiles/image/suontz.jpg"><img alt="" width="180" height="120" src="dfiles/9784/userfiles/image/suontz.jpg" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" /></a>
+</p>                                           </td>
+                                            <td valign="top" width="64%">
+                                                <table align="left" border="0" width="100%" height="98%" bordercolor="red" cellpadding="0" cellspacing="0">
+                                                    <tr height="30%">
+                                                        <td valign="top">
+                                                         <img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="关于转发《关于公布吉林省高等教育学会 2017年度高教科研课题立项名单的通知》的通知" href="info/1050/1015.htm" class="index_import_title">关于转发《关于公布吉林省高等教育学会 ...</a>
+                                                        </td>                                
+                                                        <td align="right" width="35%" valign="top" class="pubtime">
+                                                            [2017-05-27]
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" style="font-family:宋体;font-size:12px;line-height:20px">                                                           
+                                                          各高校:
+根据《吉林省高等教育学会高教科研项目管理办法》和《关于申报吉林省高等教育学会2017年度高教...
+                                                                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table><script>_showDynClickBatch(['dynclicks_u12_1015'],[1015],"wbnews", 1399982074)</script>
+
+                                            </td>
+                                        </tr>
+                                    <!---------------------黑色表格1第二行结束--显示图片和第一条信息的标题以及部分信息-------------->
+                                    <!--------------------------------黑色表格1第三行开始--显示新闻列表----------------------------->
+                                        <tr>
+                                            <td valign="top" colspan="2" height="50%">
+                                                <table align="left" border="0" width="100%" height="100%" cellspacing="0" cellpadding="0" bordercolor="black">
+                                                                                                    <tr style="display:none"></tr>
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所“十二•五”发展规划" href="info/1050/1014.htm" class="index_titles">高等教育研究所“十二•五”发展规划</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2013-03-18] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所召开2012级研究生入学教育会议" href="info/1050/1013.htm" class="index_titles">高等教育研究所召开2012级研究生入学教育会议</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2012-08-31] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所举行2012级研究生开学典礼" href="info/1050/1012.htm" class="index_titles">高等教育研究所举行2012级研究生开学典礼</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2012-08-31] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="吉林省高教学会第十二届优秀高教科研成果评奖名单" href="info/1050/1011.htm" class="index_titles">吉林省高教学会第十二届优秀高教科研成果评奖名单</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2012-08-30] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="关于开展吉林省高等教育学会第十二届优秀高教科研成果评奖活动的通知" href="info/1050/1010.htm" class="index_titles">关于开展吉林省高等教育学会第十二届优秀高教科研...</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2012-06-06] </td>
+</tr>               
+<script>_showDynClickBatch(['dynclicks_u13_1015','dynclicks_u13_1014','dynclicks_u13_1013','dynclicks_u13_1012','dynclicks_u13_1011','dynclicks_u13_1010'],[1015,1014,1013,1012,1011,1010],"wbnews", 1399982074)</script>
+        
+                                                                                                </table>
+                                            </td>
+                                        </tr>
+                                    <!--------------------------------黑色表格1第三行结束--显示新闻列表----------------------------->
+                                    </table>
+                                    <!-----------------------------------黑色表格1结束--显示所内通知-------------------------------->
+                                </td>
+                                <td>
+                                                            <!-----------------------------------黑色表格2开始--显示学术活动-------------------------------->
+                                    <table border="0" width="100%" height="100%" cellspacing="0" cellpadding="5" bordercolor="black">
+                                    <!-----------------------------黑色表格2第一行开始--显示学术活动标题---------------------------->
+                                        <tr>
+                                            <td align="left" colspan="2" valign="bottom">
+                                            <img width="80" height="30" src="dfiles/9784/gjs/images/xshd.png"><strong><!--学术活动--><a href="xshd.htm" class="more" target="">MORE>></a></strong><br />
+                                                <hr color="#CCCCCC" width="99%" />
+                                            </td>
+                                        </tr>
+                                    <!-----------------------------黑色表格2第一行结束--显示学术活动标题---------------------------->
+                                    <!---------------------黑色表格2第二行开始--显示图片和第一条信息的标题以及部分信息-------------->
+                                        <tr>
+                                            <td valign="top">                                               
+                                                <p>    
+                    <a target="_blank" href="dfiles/9784/userfiles/image/2010-09-01-02big.jpg"><img alt="" width="180" height="120" src="dfiles/9784/userfiles/image/2010-09-01-02big.jpg" style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" /></a>
+</p>                                           </td>
+                                            <td width="64%">
+                                                <table align="left" border="0" width="100%" height="98%" bordercolor="red" cellpadding="0" cellspacing="0">
+                                                    <tr height="30%">
+                                                        <td valign="top">
+                                                         <img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所“学术活动月”暨“关注学生成长年”系列活动之二——研究生跨学科论坛" href="info/1030/1127.htm" class="index_import_title">高等教育研究所“学术活动月”暨“关注...</a>
+                                                        </td>                                
+                                                        <td align="right" width="35%" valign="top" class="pubtime">
+                                                            [2010-05-24]
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" style="font-family:宋体;font-size:12px;line-height:20px">                                                           
+                                                          为纪念吉林大学合校十周年并落实高教所&amp;ldquo;关注学生成长年&amp;rdquo;实施方案，2010年5月21日下午，高等...
+                                                                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table><script>_showDynClickBatch(['dynclicks_u15_1127'],[1127],"wbnews", 1399982074)</script>
+
+                                            </td>
+                                        </tr>
+                                    <!---------------------黑色表格2第二行结束--显示图片和第一条信息的标题以及部分信息-------------->
+                                    <!--------------------------------黑色表格2第三行开始--显示新闻列表----------------------------->
+                                        <tr>
+                                            <td valign="top" colspan="2" height="50%">
+                                                <table border="0" width="100%" height="100%" cellspacing="0" cellpadding="0" bordercolor="black">
+                                                                                                    <tr style="display:none"></tr>
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="高等教育研究所举办第一期线上学术论坛" href="info/1051/2293.htm" class="index_titles">高等教育研究所举办第一期线上学术论坛</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2022-10-11] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="吉林大学高等教育研究所成功举办第二场学术论坛" href="info/1051/2063.htm" class="index_titles">吉林大学高等教育研究所成功举办第二场学术论坛</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2020-10-15] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="吉林大学高等教育研究所成功举办学术论坛" href="info/1051/2043.htm" class="index_titles">吉林大学高等教育研究所成功举办学术论坛</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2020-09-17] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="美国整体性教育传人柯罗杰先生应邀在高教所做学术报告" href="info/1051/1140.htm" class="index_titles">美国整体性教育传人柯罗杰先生应邀在高教所做学术报告</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2016-12-20] </td>
+</tr>               
+<tr>
+                                                        <td align="left"><img src="dfiles/9784/gjs/images/biaoshi.gif" />&nbsp;<a title="西南大学副校长靳玉乐教授来校做学术报告" href="info/1051/1141.htm" class="index_titles">西南大学副校长靳玉乐教授来校做学术报告</a>                                                        </td>
+                                                        <td align="left" class="pubtime">
+                                                            [2016-12-19] </td>
+</tr>               
+<script>_showDynClickBatch(['dynclicks_u16_1811','dynclicks_u16_2293','dynclicks_u16_2063','dynclicks_u16_2043','dynclicks_u16_1140','dynclicks_u16_1141'],[1811,2293,2063,2043,1140,1141],"wbnews", 1399982074)</script>
+              
+                                                                                                </table>        
+                                            </td>
+                                        </tr>
+                                    <!--------------------------------黑色表格2第三行结束--显示新闻列表----------------------------->
+                                    </table>
+                                    <!-----------------------------------黑色表格2结束--显示学术活动-------------------------------->
+                                </td>
+                            </tr>
+                        <!----------------------------黄色表格第一行结束----包含（2个黑色表格、所内通知、学术活动）--------------------->
+                        </table>
+                        <!-----------------------------------------黄色表格结束--------------------------------------------------------->
+                    </td>
+                </tr>
+            <!----------------------------------------------------------------绿色表格第二行结束-----包含黄色表格（黑色表格、所内通知、学术活动）-------------------------------------------->
+            </table>
+            <!----------------------------------------------------------------------------------绿色表格结束--------------------------------------------------------------------------------->
+        </td>
+    </tr>
+<!---------------------------------------------------------------------------------------总表格第二行结束----显示主体内容------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------总表格第三行开始----显示尾部图片------------------------------------------------------------------------>
+    <tr>
+        <td colspan="2">
+            <table align="center" background="dfiles/9784/gjs/images/foot.gif" border="0" bordercolor="#66FF00" height="40" width="1030" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="600"><table border="0" bordercolor="#FF66FF" cellpadding="0" cellspacing="0" align="center">
+		   		<tr>
+					<td align="center" class="footer">
+					    吉林大学高等教育研究所&nbsp;&nbsp;版权所有
+					</td>
+				</tr>
+				<tr>
+					<td class="footer">
+					    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:长春市前进大街2699号&nbsp;&nbsp;&nbsp;&nbsp;电话:(0431)85168784
+					</td>
+				</tr>
+		   </table></td>
+       
+    </tr>   
+</table>
+<table align="center" background="dfiles/9784/gjs/images/foot.gif" border="0" bordercolor="#66FF00" height="40" width="1030" cellpadding="0" cellspacing="0">
+<td align="center" class="footer"><div>访问统计：<script language="javascript" src="_dwr/engine.js"></script><script language="javascript" src="_dwr/util.js"></script><script language="javascript" src="_dwr/interface/PageCounterDWR.js"></script><span id="a191988" name="a191988"></span>   
+
+<script>
+function getvisittimea191988()
+{       
+    PageCounterDWR.getVisittime('1399982074','1010','TOTAL_COUNTER','133979','7',callbackdataa191988)
+}
+function callbackdataa191988(data)
+{
+    document.getElementById("a191988").innerHTML = data; 
+}
+getvisittimea191988();
+</script></div>
+    </td>
+</table>
+
+        </td>
+    </tr>
+<!---------------------------------------------------------------------------------------总表格第三行结束----显示尾部图片------------------------------------------------------------------------>
+</table>
+<!---------------------------------------------------------------------------------------------------总表格结束---------------------------------------------------------------------------------->
+
+</body>
+</html>

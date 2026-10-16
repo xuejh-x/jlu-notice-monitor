@@ -1,0 +1,526 @@
+{
+  "id": "p3-9279a878c7d7",
+  "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+  "institution": "分子酶学工程教育部重点实验室",
+  "column": "室内通知/ Indoor notification",
+  "site_url": "http://www.mee.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_MISMATCH",
+  "original_evidence": "docs/jlu-audit-evidence/results/9279a878c7d71155.json",
+  "original_capture_time": "2026-10-13T14:05:34+08:00",
+  "discovery_url": "http://www.mee.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-9279a878c7d7",
+    "name": "分子酶学工程教育部重点实验室 / 室内通知/ Indoor notification",
+    "base_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:04+08:00",
+  "details": [
+    {
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1169.htm",
+      "list_title": "生命科学学院召开学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会",
+      "list_date": "2023-09-26",
+      "response": {
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1169.htm",
+        "time": "2026-10-15T22:14:22+08:00",
+        "ok": true,
+        "final_url": "http://www.mee.jlu.edu.cn/info/1047/1169.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "581b56232ea6e2934a19039893e0f73a28e00e47b8514d9e56fb571c59140c7d",
+        "html_path": "html/581b56232ea6e2934a19039893e0f73a28e00e47b8514d9e56fb571c59140c7d.html",
+        "replacement_chars": 0,
+        "chars": 21074,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "生命科学学院召开学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会",
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1169.htm",
+        "publish_date": "2023-09-26",
+        "publisher": "来源：",
+        "content": "为贯彻落实学校党委关于主题教育的安排部署，让主题教育的成果转化为促进推动学院事业发展的动力，走好新时代赶考之路，9月15日，生命科学学院学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会在生命科学楼335室召开。学校主题教育第十巡回指导组组长方东红、副组长王德国、联络员李兆阳出席会议，会议由学院党委书记、主题教育领导小组组长白宇主持。 http://www.mee.jlu.edu.cn/__local/4/89/A8/E6BAA6C7EA21AF615B48BAE1223_1D893F2F_852968.jpeg?e=.jpeg 会上，党委副书记兼副院长、纪委书记刘柏岩通报学院主题教育专题民主生活会情况。 http://www.mee.jlu.edu.cn/__local/5/2C/C4/82E5ACA2B8B798340549AF450F3_E5C07003_473193.jpeg?e=.jpeg 白宇对学院主题教育开展情况进行了总结，从理论学习、调查研究、推动发展、检视整改、建章立制等五方面介绍了学院的具体做法和取得的成效，分析了存在的问题，提出了巩固深化主题教育成果的举措。他表示，“总结”不是“终结”，要把经验传承好、把整改落实好、把制度建立好。行百里者半九十，主题教育不可能一劳永逸，践行使命不可能一蹴而就，需要善作善成、久久为功，把总结的过程作为深化和提升的过程，驰而不息巩固和拓展主题教育成果。 http://www.mee.jlu.edu.cn/__local/9/33/A3/C7181CDE26B5DD5EDC04453B7B4_3D064910_753659.jpeg?e=.jpeg 方东红对学院主题教育工作开展给予了充分肯定，并对推动学院高质量发展提出四点要求：一是进一步加强理论武装，坚持不懈用习近平新时代中国特色社会主义思想凝心铸魂；二是进一步提高政治站位，坚定不移把党中央决策部署落实到学院各项事业发展的具体实践；三是进一步聚焦教育强国建设，坚实扛起新时代高校肩负的历史使命；四是巩固教育成果，做好主题教育后半篇文章。 http://www.mee.jlu.edu.cn/__local/F/B8/2D/51FDACC994774EC57C344F76FE5_E8679D06_5A47A2.jpg?e=.jpg 学校主题教育第十巡回指导组全体成员，生命科学学院领导班子成员，学院党委委员、纪委委员，学院学术委员会、学位评定分委员会、教学委员会主要负责人，党支部书记，各系主任、各科室负责人代表，教职工代表等参加会议。 http://www.mee.jlu.edu.cn/__local/B/59/31/E8ACAE2312BD1B2474ABF158A10_FF32BC1A_61CF99.jpg?e=.jpg http://www.mee.jlu.edu.cn/__local/2/D0/41/62C8870EE132E476D9C1A5DE275_DA2CC249_5F42FA.jpg?e=.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "生命科学学院召开学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 691,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "生命科学学院召开学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2023年09月26日 13:50 作者： 来源： 点击：",
+            "date": "2023-09-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+      "list_title": "生命科学学院推荐2022年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+      "list_date": "2021-08-27",
+      "response": {
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+        "time": "2026-10-15T22:14:22+08:00",
+        "ok": true,
+        "final_url": "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f251358191e482e43cc7f64099709ac4e1b86fb971aab718a931998d6e16ae5e",
+        "html_path": "html/f251358191e482e43cc7f64099709ac4e1b86fb971aab718a931998d6e16ae5e.html",
+        "replacement_chars": 0,
+        "chars": 18777,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "生命科学学院推荐2022年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+        "publish_date": "2021-08-27",
+        "publisher": "来源：",
+        "content": "为做好推荐 2022 年推荐优秀应届本科毕业生免试攻读硕士学位研究生工作（以下简称推免工作），根据《吉林大学推荐优秀应届本科毕业生免试攻读研究生工作管理办法》（校发〔 2021 〕 307 号 ) 文件（附件 1 ）和《吉林大学关于做好 2022 年推荐优秀应届本科毕业生免试攻读研究生准备工作的通知》的要求，结合我院实际，特制定本工作实施细则。 1 、学院成立推免工作小组（简称工作小组）和推免工作监督小组（简称监督小组）。工作小组负责学院推免工作实施细则的制定和组织实施。监督小组负责监督学院推免工作程序，受理学院推免工作中的异议和申诉。监督小组组长列席工作小组会议。 推免工作小组 组长：于湘晖 副组长：滕利荣、陈妍 成员：于湘晖、滕利荣、陈妍、刘柏岩、林相友、马俊锋、高仁钧 秘书：刘成柏、杨意 推免工作监督小组 组长：白宇 成员：白宇、崔帅、单亚明、吕绍武、文雨枫（学生） 2 、学院教务办协同学工办具体负责推免工作的日常组织协调、咨询解答、材料提交和问题反映。联系人：刘成柏，联系电话： 85168250 ，电子邮箱： liuchengbai@jlu.edu.cn 3 、学院制定推免工作实施细则和素质类项目加分标准，于 8 月 20 日前提交教务处审核，经学校审核通过后进行公布。 4 、根据学校下达的推免名额以及名额构成，学院在各专业内进行推免名额分配，并进行公布。人数出现小数的情况按照四舍五入的原则取整数。按学校要求，专项名额，专项使用。 5 、根据各专业培养方案确认参与综合排名的前三学年的必修和限选课程，计算学业成绩绩点并公布排名。其中，大学英语课程中仅英语 II 、 III 、 IV 计入排名，体育、军事教育、新生研讨课、独立实践教学环节不计入排名（不包括唐班）。 6 、素质类项目加分按照学院素质类项目加分标准（附件 2 ）进行计算，加入学业成绩绩点中，计算综合排名（不包括唐班）。对于学生提供证明材料不充分或特殊情况，学院成立专家审核小组，进行审核认定，或组织相关学生在学院范围内进行公开答辩，排除抄袭、造假、冒名及有名无实等情况。 7 、根据“常规推荐”、“直博生”推荐、“研究生支教团”推荐等推荐类型的遴选条件，按照学校推免工作进度安排，符合各项推荐条件的学生向学院及相关部门提出申请，并提交相关证明材料，学院组织审核。推荐资格严格按照学校文件中（附件 1 ）各推免类型对应的要求，人数出现小数的情况按照四舍五入的原则取整数。 8 、依据学校下达推荐名额的 120%-150% 比例确定推荐考核人选，以学生的思想品德和本科阶段综合排名作为遴选指标，学院组织专家择优确定最终推荐人选名单上报教务处，同时进行公示。 9 、规定时限前上报学院推免生数据并进行系统校验，完成修改错误信息等工作。 10 、已被招生单位接收的推免生，不得再报名参加当年硕士研究生考试招生，否则取消其推免录取资格。 11 、本工作细则解释权在吉林大学生命科学学院推免工作小组。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "生命科学学院推荐2022年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1241,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "生命科学学院推荐2022年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2021年08月27日 09:00 作者： 来源： 点击：",
+            "date": "2021-08-27"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+      "list_title": "关于加强入校人员信息管理的通知",
+      "list_date": "2021-08-16",
+      "response": {
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+        "time": "2026-10-15T22:14:24+08:00",
+        "ok": true,
+        "final_url": "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "7d7b683398e780af6232addec151b2128aa643357ce016716751c5c0adacc170",
+        "html_path": "html/7d7b683398e780af6232addec151b2128aa643357ce016716751c5c0adacc170.html",
+        "replacement_chars": 0,
+        "chars": 14612,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于加强入校人员信息管理的通知",
+        "url": "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+        "publish_date": "2021-08-16",
+        "publisher": "来源：",
+        "content": "根据学校“疫情防控工作专题会议”和《关于进一步加强疫情防控工作的通知》部署要求，为强化校园门禁系统管理和校内外人员门禁信息数据库建设，严控校外人员入校，校长办公室拟于近期对现有门禁信息数据库进行梳理，现就将有关事宜通知如下： 一、请各单位在短期入校人员审批时，以“非必要不入校”为原则，对校外人员进入校园严格审核把关。各单位应动态掌握本单位审批同意人员的入校任务及健康情况，严禁不符合防疫要求和未经审查人员进入校园。 二、请党委学生工作部、研究生工作部、国际教育学院、人力资源处、离退休工作处、疫情防控办公室等相关部门，梳理更新本科生、研究生、留学生、教职工、离退休教职工和其他因工作等需要长期出入校园人员信息，并于 8 月 23 日前填写“附件 1 ”，以邮件形式发送至 zhanghanyu@jlu.edu.cn ，由校长办公室统一更新至校园门禁系统。 各单位要确保本次上报更新人员信息准确无误，校长办公室拟于 24 日 22 时对数据进行全面更新，此时间以后的短期入校需各单位重新在网上办事大厅系统内审批。 联系人：张瀚予 王超 电 话： 85166339 附件：《入校人员信息表》",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于加强入校人员信息管理的通知"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 494,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于加强入校人员信息管理的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2021年08月16日 14:01 作者： 来源： 点击：",
+            "date": "2021-08-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+        "time": "2026-10-15T22:14:19+08:00",
+        "ok": true,
+        "final_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8c4938ba4b9841d85230371adbf347f2d646fcc4faf52b6de618b43f3bff4c3e",
+        "html_path": "html/8c4938ba4b9841d85230371adbf347f2d646fcc4faf52b6de618b43f3bff4c3e.html",
+        "replacement_chars": 0,
+        "chars": 12725,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+        "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+        "http://www.mee.jlu.edu.cn/info/1047/1152.htm",
+        "http://www.mee.jlu.edu.cn/info/1047/1153.htm",
+        "http://www.mee.jlu.edu.cn/info/1047/1154.htm",
+        "http://www.mee.jlu.edu.cn/info/1047/1169.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "time": "2026-10-15T22:14:19+08:00",
+    "ok": true,
+    "final_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "8c4938ba4b9841d85230371adbf347f2d646fcc4faf52b6de618b43f3bff4c3e",
+    "html_path": "html/8c4938ba4b9841d85230371adbf347f2d646fcc4faf52b6de618b43f3bff4c3e.html",
+    "replacement_chars": 0,
+    "chars": 12725,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "生命科学学院召开学习贯彻习近平新时代中国特色社会主义思想主题教育总结大会",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1169.htm",
+      "publish_date": "2023-09-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "生命科学学院推荐2022年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1150.htm",
+      "publish_date": "2021-08-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强入校人员信息管理的通知",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1151.htm",
+      "publish_date": "2021-08-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发国家自然科学基金委员会《关于发布生命科学部与医学科学部2021年度专项项目指南的通告》",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1152.htm",
+      "publish_date": "2021-08-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发学校《关于进一步加强疫情防控工作的通知》",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1153.htm",
+      "publish_date": "2021-08-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发长春市科技局《长春市科技发展计划 2021 年度项目指南》的通知",
+      "url": "http://www.mee.jlu.edu.cn/info/1047/1154.htm",
+      "publish_date": "2021-07-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-9279a878c7d7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.880002673715353e-05,
+      "detail_duration_seconds": 9.199953638017178e-06,
+      "parse_db_duration_seconds": 0.031342700007371604
+    },
+    "second_round": {
+      "source": "p3-9279a878c7d7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8900027498602867e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-9279a878c7d7",
+    "institution": "分子酶学工程教育部重点实验室",
+    "column": "室内通知/ Indoor notification",
+    "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_MISMATCH",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:14:19+08:00",
+    "review_time": "2026-10-15T23:01:04+08:00",
+    "http_status": 200,
+    "final_url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "list_pages": 1,
+    "list_items": 6,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://www.mee.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-9279a878c7d7.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,600 @@
+{
+  "id": "p2-3dae5f264b11",
+  "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+  "institution": "工程训练中心",
+  "column": "通知公告",
+  "site_url": "https://gcxl.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED",
+  "original_evidence": "docs/jlu-audit-evidence/results/3dae5f264b1145f7.json",
+  "discovery_url": "https://gcxl.jlu.edu.cn/",
+  "original_snapshot": "html/a24ca0cca669b553351581c9395740cd5507f33fca6416f6a9a7ba5d598497fa.html",
+  "original_capture_time": "2026-10-13T13:42:00+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-3dae5f264b11",
+    "name": "工程训练中心 / 通知公告",
+    "base_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:19+08:00",
+  "details": [
+    {
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1366.htm",
+      "list_title": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单",
+      "list_date": "2026-09-02",
+      "response": {
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1366.htm",
+        "time": "2026-10-15T19:41:03+08:00",
+        "ok": true,
+        "final_url": "https://gcxl.jlu.edu.cn/info/1022/1366.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "453b1291ea2da36dbab1005193460fcf2f92a414a9583fb1844a88306495ddc5",
+        "html_path": "html/453b1291ea2da36dbab1005193460fcf2f92a414a9583fb1844a88306495ddc5.html",
+        "replacement_chars": 0,
+        "chars": 20379,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单",
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1366.htm",
+        "publish_date": "2026-09-02",
+        "publisher": null,
+        "content": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单",
+        "attachments": [
+          {
+            "filename": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单 -0831(1).pdf",
+            "url": "https://gcxl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2040318553&wbfileid=18191259",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-09-02",
+            "date": "2026-09-02"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 30,
+        "reference_attachment_urls": [
+          "https://gcxl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2040318553&wbfileid=18191259"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-09-02 点击量：",
+            "date": "2026-09-02"
+          },
+          {
+            "text": "发布日期：2026-09-02",
+            "date": "2026-09-02"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+      "list_title": "关于举办第18届全国三维数字化创新设计大赛“华教&德荟杯”增减材复合制造及数字孪生技术创新应用专项赛吉林赛区选拔赛的通知",
+      "list_date": "2025-06-21",
+      "response": {
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+        "time": "2026-10-15T19:41:03+08:00",
+        "ok": true,
+        "final_url": "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "eabaf91fffd49a03a677b96d9ee552278437792f86929ae50dd12b8fe12d4777",
+        "html_path": "html/eabaf91fffd49a03a677b96d9ee552278437792f86929ae50dd12b8fe12d4777.html",
+        "replacement_chars": 0,
+        "chars": 22140,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于举办第18届全国三维数字化创新设计大赛“华教&德荟杯”增减材复合制造及数字孪生技术创新应用专项赛吉林赛区选拔赛的通知",
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+        "publish_date": "2025-06-21",
+        "publisher": null,
+        "content": "https://gcxl.jlu.edu.cn/__local/3/EB/BC/8A99BCDBF15E6FBE12EBE5476B0_DAFEA999_7566A.png https://gcxl.jlu.edu.cn/__local/D/79/3A/3CA09081A459D85E9AF5316C70F_9EC6F4C1_14489.png https://gcxl.jlu.edu.cn/__local/8/0A/C3/6CACDB41B367D1AA2B6A17BA74A_EE697942_13EDB.png https://gcxl.jlu.edu.cn/__local/C/76/89/23AAAA6F91B1CED444AD4073ECF_3D410ED6_1559F.png https://gcxl.jlu.edu.cn/__local/5/40/8A/15A1FFA5A1E0E4CE361103B46E6_642C9B59_F337C.png https://gcxl.jlu.edu.cn/__local/C/3F/59/6D977A348DD4F0F804AE8E9021F_2603C68B_B532.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于举办第18届全国三维数字化创新设计大赛“华教&德荟杯”增减材复合制造及数字孪生技术创新应用专项赛吉林赛区选拔赛的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-06-21",
+            "date": "2025-06-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于举办第18届全国三维数字化创新设计大赛“华教&德荟杯”增减材复合制造及数字孪生技术创新应用专项赛吉林赛区选拔赛的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-06-21 点击量：",
+            "date": "2025-06-21"
+          },
+          {
+            "text": "发布日期：2025-06-21",
+            "date": "2025-06-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+      "list_title": "关于举办2025年中国大学生工程实践与创新能力大赛 吉林大学校内选拔赛的通知",
+      "list_date": "2024-12-09",
+      "response": {
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+        "time": "2026-10-15T19:41:04+08:00",
+        "ok": true,
+        "final_url": "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c444a77f3841899f7e561e76c4e7ad69bb36493e5af96c2a81a9cee978042375",
+        "html_path": "html/c444a77f3841899f7e561e76c4e7ad69bb36493e5af96c2a81a9cee978042375.html",
+        "replacement_chars": 0,
+        "chars": 32316,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于举办2025年中国大学生工程实践与创新能力大赛 吉林大学校内选拔赛的通知",
+        "url": "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+        "publish_date": "2024-12-09",
+        "publisher": null,
+        "content": "中国大学生工程实践与创新能力大赛是教育部高等学校工程训练教学指导委员会组织的全国性大学生科技创新实践竞赛活动，在吉林大学本科生竞赛体系里为 A类竞赛 （编号 A9） 。为深化实践教学改革，提升大学生工程实践能力、创新能力和团队合作精神，结合教育部工程训练教学指导委员会 发布的相关 文件要求（见附件 1），我校高度重视本次大赛，预计在202 5 年 2月26日 举办 “ 2025 中国大学生工程实践和创新能力大赛吉林大学校 内选拔 赛 ”，本次校园选拔赛由创新创业教育学院主办，机械与航空航天工程学院、工程训练中心承办。本次校赛将推荐优秀 队伍 参加 “20 25 年中国大学生工程实践与创新能力大赛吉林赛区竞赛 ”现将比赛有关事项通知如下： 一、 校赛时间及地点 时间： 2025年2月26日（星期三）； 地点：南岭校区工程训练中心。 二、 校赛赛道和赛项设置 赛道名称 新能源赛道 智能 +赛道 虚拟仿真赛道 赛项名称 太阳能电动车 温差能电动车 智能物流搬运 生活垃圾分类 智能 救援 工程场景数字化 企业运营与仿真 飞行器设计与仿真 智能网联汽车设计 校赛方式 学校统一组织，时间地点同上 按照官网文件（附件 4-3和附件4-4）执行 三、 校赛命题与运行 校赛 竞赛命题及运行 和评分标准 与国赛命题一致（见附件 2、附件3和附件4 ），具体细节请关注 “中国大学生工程实践与创新能力大赛”官方网站（http://www.gcxl.edu.cn/） 的赛事资讯 。 四、 校赛报名要求 各赛项参赛队每队由 3～4名学生和1～2名指导教师组成（赛项不同具体要求不同，请仔细阅读命题文件）。参赛学生应为吉林大学具有正式学籍的全日制在校本科生（大二、大三学生为宜），鼓励多学科、跨学院组队申报，同一学生仅限参加一个赛项的比赛。 五、 校赛报名方式 各参赛队请于 12月30日前在“中国大学生工程实践与创新能力大赛”官网（http://www.gcxl.edu.cn/）首页“竞赛报名”系统报名，具体方法见附件5。报名成功的队伍请加入QQ群1078147581（群内会发布赛事资讯及答疑），没报名的队伍将无参赛资格。为便于评奖评优，报名成功的队伍须在吉林大学创新创业系统内同步信息。 六、 联系方式 王 老师 电话： 85095294 创新创业教育学院 机械与航空航天工程学院 工程训练中心 2024年12月9日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于举办2025年中国大学生工程实践与创新能力大赛 吉林大学校内选拔赛的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-12-09",
+            "date": "2024-12-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1008,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于举办2025年中国大学生工程实践与创新能力大赛 吉林大学校内选拔赛的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2024-12-09 点击量：",
+            "date": "2024-12-09"
+          },
+          {
+            "text": "发布日期：2024-12-09",
+            "date": "2024-12-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+        "time": "2026-10-15T19:29:31+08:00",
+        "ok": true,
+        "final_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a24ca0cca669b553351581c9395740cd5507f33fca6416f6a9a7ba5d598497fa",
+        "html_path": "html/a24ca0cca669b553351581c9395740cd5507f33fca6416f6a9a7ba5d598497fa.html",
+        "replacement_chars": 0,
+        "chars": 21697,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://gcxl.jlu.edu.cn/info/1022/1069.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1070.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1071.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1072.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1073.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+        "https://gcxl.jlu.edu.cn/info/1022/1366.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-15T19:29:31+08:00",
+    "ok": true,
+    "final_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "a24ca0cca669b553351581c9395740cd5507f33fca6416f6a9a7ba5d598497fa",
+    "html_path": "html/a24ca0cca669b553351581c9395740cd5507f33fca6416f6a9a7ba5d598497fa.html",
+    "replacement_chars": 0,
+    "chars": 21697,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年第19届 3D大赛增减材赛项吉林赛区选拔赛获奖名单",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1366.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办第18届全国三维数字化创新设计大赛“华教&德荟杯”增减材复合制造及数字孪生技术创新应用专项赛吉林赛区选拔赛的通知",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1247.htm",
+      "publish_date": "2025-06-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办2025年中国大学生工程实践与创新能力大赛 吉林大学校内选拔赛的通知",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1144.htm",
+      "publish_date": "2024-12-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "工程训练中心召开创新训练部教学研讨会",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1071.htm",
+      "publish_date": "2022-11-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“砥砺前行 工创未来”—吉林大学工程训练中心六十余载风雨征程",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1072.htm",
+      "publish_date": "2022-10-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "工程训练中心材料成型部开展综合训练课程",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1073.htm",
+      "publish_date": "2022-10-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展工程类实验室安全宣教与演练-工程训练实验操作安全竞赛的通知",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1069.htm",
+      "publish_date": "2021-11-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "工程训练中心召开2022版工程训练课程教学大纲筹备研讨会",
+      "url": "https://gcxl.jlu.edu.cn/info/1022/1070.htm",
+      "publish_date": "2021-10-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 8,
+  "pagination": [
+    {
+      "start_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-3dae5f264b11",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6300007700920105e-05,
+      "detail_duration_seconds": 6.4999330788850784e-06,
+      "parse_db_duration_seconds": 0.029903499991632998
+    },
+    "second_round": {
+      "source": "p2-3dae5f264b11",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3699987903237343e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-3dae5f264b11",
+    "institution": "工程训练中心",
+    "column": "通知公告",
+    "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:31+08:00",
+    "review_time": "2026-10-15T20:21:19+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 8,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-3dae5f264b11.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

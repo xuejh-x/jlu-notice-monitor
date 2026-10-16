@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-14T16:02:09+08:00",
+  "phase": "validate",
+  "output": "E:\\jlu-notice-monitor\\docs\\jlu-fix-b3\\live-existing-20261014",
+  "discovery_input": "docs/jlu-audit-evidence",
+  "column_urls": [
+    "https://cse.jlu.edu.cn/xytz.htm",
+    "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577"
+  ],
+  "mode": "fresh HTTP run with same-run resume; no imported request cache"
+}

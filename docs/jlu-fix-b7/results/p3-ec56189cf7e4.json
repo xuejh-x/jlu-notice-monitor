@@ -1,0 +1,380 @@
+{
+  "id": "p3-ec56189cf7e4",
+  "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+  "institution": "离退休工作处",
+  "column": "教学信息",
+  "site_url": "https://ltxc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/ec56189cf7e4928d.json",
+  "original_capture_time": "2026-10-13T14:07:28+08:00",
+  "discovery_url": "https://ltxc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-ec56189cf7e4",
+    "name": "离退休工作处 / 教学信息",
+    "base_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:30+08:00",
+  "details": [
+    {
+      "url": "https://ltxc.jlu.edu.cn/info/1048/1039.htm",
+      "list_title": "2016年3月第一节课",
+      "list_date": "2016-03-09",
+      "response": {
+        "url": "https://ltxc.jlu.edu.cn/info/1048/1039.htm",
+        "time": "2026-10-15T22:08:40+08:00",
+        "ok": true,
+        "final_url": "https://ltxc.jlu.edu.cn/info/1048/1039.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "20283983473ba4432e86a5c7365da88c5ca8ac0d322892a512ae1004dfbc7b63",
+        "html_path": "html/20283983473ba4432e86a5c7365da88c5ca8ac0d322892a512ae1004dfbc7b63.html",
+        "replacement_chars": 0,
+        "chars": 9227,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2016年3月第一节课",
+        "url": "https://ltxc.jlu.edu.cn/info/1048/1039.htm",
+        "publish_date": "2016-03-09",
+        "publisher": "离退休处管理员",
+        "content": "https://ltxc.jlu.edu.cn/__local/1/91/14/37435383B4A19A3BCFED4DB42CC_914D60BE_6F07.jpg?e=.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2016-03-09 [ 动态浏览次数： 次 | 发布人：离退休处管理员 ]",
+            "date": "2016-03-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2016年3月第一节课"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2016-03-09 [ 动态浏览次数： 次 | 发布人：离退休处管理员 ]",
+            "date": "2016-03-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+      "list_title": "吉林大学大学生爱心助老圆梦基地揭牌仪式圆满完成",
+      "list_date": "2016-03-09",
+      "response": {
+        "url": "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+        "time": "2026-10-15T22:08:41+08:00",
+        "ok": true,
+        "final_url": "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "cf09f7aac0fd92ddee383d5e407094f851648df68025ff161ed547594caaa77d",
+        "html_path": "html/cf09f7aac0fd92ddee383d5e407094f851648df68025ff161ed547594caaa77d.html",
+        "replacement_chars": 0,
+        "chars": 9669,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学大学生爱心助老圆梦基地揭牌仪式圆满完成",
+        "url": "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+        "publish_date": "2016-03-09",
+        "publisher": "离退休处管理员",
+        "content": "9月7日上午，吉林大学大学生爱心助老圆梦基地揭牌仪式在我校老年大学隆重举行，校党委副书记兼纪委书记刘晓民、艺术学院党委书记高鹏、电子科学与工程学院党委书记迟宪良、离退休工作处处长孟凡志、离退休党委书记高军、学院分管学生工作的副书记江宇航、齐晓亮和离退休处班子成员及老年大学全体工作人员等70余人参加了揭牌仪式，仪式由离退休处副处长刘效森主持。 首先，孟凡志处长介绍了我校老年大学的发展情况及大学生爱心助老圆梦基地建立的目的和意义，并感谢首批签约学院对学校老年大学和老年工作的支持。接着，高鹏书记代表首批签约的两个学院致辞，希望大学生志愿者们共同传播正能量，“知行相资以为用”，要求志愿者们提高认识，发挥专业优势，不断在服务中提升自身能力。随后，高军书记与高鹏书记、迟宪良书记现场交换共建协议书。 最后，刘晓民书记为“吉林大学大学生助老圆梦基地”成立揭牌。 此基地的成立，不仅为离退休老同志的再学习带来了活力和快乐，也为广大在校大学生奉献爱心、尊老、助老提供了平台。既是离退休工作处与学院开展教学合作的新开端，也是在我校建立起老年人与大学生们彼此沟通交流的新的桥梁和纽带，更是我校离退休工作的一种创新和尝试。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2016-03-09 [ 动态浏览次数： 次 | 发布人：离退休处管理员 ]",
+            "date": "2016-03-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 503,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学大学生爱心助老圆梦基地揭牌仪式圆满完成"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2016-03-09 [ 动态浏览次数： 次 | 发布人：离退休处管理员 ]",
+            "date": "2016-03-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+        "time": "2026-10-15T22:08:38+08:00",
+        "ok": true,
+        "final_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "51f600e89871896aad46e53dd9be69ffedf52bd1ed0a484bedaca8013bdda0c1",
+        "html_path": "html/51f600e89871896aad46e53dd9be69ffedf52bd1ed0a484bedaca8013bdda0c1.html",
+        "replacement_chars": 0,
+        "chars": 14494,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+        "https://ltxc.jlu.edu.cn/info/1048/1039.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "time": "2026-10-15T22:08:38+08:00",
+    "ok": true,
+    "final_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "51f600e89871896aad46e53dd9be69ffedf52bd1ed0a484bedaca8013bdda0c1",
+    "html_path": "html/51f600e89871896aad46e53dd9be69ffedf52bd1ed0a484bedaca8013bdda0c1.html",
+    "replacement_chars": 0,
+    "chars": 14494,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2016年3月第一节课",
+      "url": "https://ltxc.jlu.edu.cn/info/1048/1039.htm",
+      "publish_date": "2016-03-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学大学生爱心助老圆梦基地揭牌仪式圆满完成",
+      "url": "https://ltxc.jlu.edu.cn/info/1048/1038.htm",
+      "publish_date": "2016-03-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p3-ec56189cf7e4",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.6400008462369442e-05,
+      "detail_duration_seconds": 5.599926225841045e-06,
+      "parse_db_duration_seconds": 0.02372629987075925
+    },
+    "second_round": {
+      "source": "p3-ec56189cf7e4",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 3.7100049667060375e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-ec56189cf7e4",
+    "institution": "离退休工作处",
+    "column": "教学信息",
+    "url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:08:38+08:00",
+    "review_time": "2026-10-15T23:00:30+08:00",
+    "http_status": 200,
+    "final_url": "https://ltxc.jlu.edu.cn/lndx/jxxx.htm",
+    "list_pages": 1,
+    "list_items": 2,
+    "details": 2,
+    "verified_details": 2,
+    "issues": [],
+    "discovery_url": "https://ltxc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-ec56189cf7e4.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

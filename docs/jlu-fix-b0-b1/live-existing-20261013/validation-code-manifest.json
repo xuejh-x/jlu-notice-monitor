@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-13T18:46:46+08:00",
+  "files": {
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "backend/config/settings.yaml": "11426a849c52285f9ea375f6e193daaf848b88f219164e99b6fd692fa3ff6e17",
+    "backend/app/sources/base.py": "04d21e5661bbe2ef51617702d89887136befbb852dc105013e5c9b0cd1941fc6",
+    "backend/app/sources/generic.py": "1e8c3790e1344f2e3f9f84a8cb4f464f5148445dc440eda6b5daf2210ed95d13",
+    "backend/app/sources/oa_public.py": "99cd5c62f3d9b2a417fde03b928e4278a29787a06559aa25a3896591ae4ff222",
+    "backend/app/parsers/html.py": "ea4e65bfe451a5a4284fb0073bb3ae1104917def56711545a2775297dbff0e31",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/crawler/runner.py": "4a2d7995d90f8d726301e5f3be51bae5f543256993ebc96af3b672a380580784"
+  },
+  "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "database": "sqlite://",
+  "deployment_tested": "local anonymous parser audit only"
+}

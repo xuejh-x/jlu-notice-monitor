@@ -1,0 +1,21 @@
+{
+  "id": "continuing-academic-conditional",
+  "institution": "继续教育学院（培训学院 / 继续教育 / 继续教育招生",
+  "column": "通知公告",
+  "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+  "captured_at": "2026-10-14T16:36:26+08:00",
+  "validated_at": "2026-10-14T16:43:49+08:00",
+  "status": "失败",
+  "verdict": "ACCESS_BLOCKED",
+  "enabled": false,
+  "details": [],
+  "issues": [
+    "NETWORK_ERROR"
+  ],
+  "attachment_probes": [],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://dec.jlu.edu.cn",
+  "reason": "SourceError: Source request failed: SourceError: Source exceeded the redirect limit <- SourceError: Source exceeded the redirect limit",
+  "evidence_file": "docs/jlu-fix-b4/review-20261014/results/continuing-academic-conditional.json"
+}

@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-14T15:42:27.062329+08:00",
+  "changed_existing_files": [
+    "backend/app/crawler/runner.py",
+    "backend/app/parsers/html.py",
+    "backend/app/sources/generic.py",
+    "backend/tests/test_jlu_b1.py",
+    "backend/scripts/replay_jlu_b1.py"
+  ],
+  "original_audit_files_unchanged": 1449,
+  "b1_report_unchanged": true,
+  "sources_yaml_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d"
+}

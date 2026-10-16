@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-15T19:14:52.919642+08:00",
+  "changed_application_files": [
+    "backend/app/services/attachment_validation.py"
+  ],
+  "original_audit_files_unchanged": 1449,
+  "prior_reports_unchanged": {
+    "docs/JLU_SITE_FIX_B0_B1_REPORT.md": "162956ff4df63c02d758266a27dd19b195ce4c58af3550b062c8b9112d9d8755",
+    "docs/JLU_SITE_FIX_B2_REPORT.md": "6bb3740031a6fd02b07d4e2edd5b5be41c45132a8b67c973fd199677ef48be38",
+    "docs/JLU_SITE_FIX_B3_REPORT.md": "5229c2af45c3140b3f0e048f04b6d5fb3e82f79c6a44371bdfbff5cd2f1cec79",
+    "docs/JLU_SITE_FIX_B4_REPORT.md": "8e4eb8e065f0183fe4979f89d5e3a18e5b35681c9cdaee9d35900dd1a164d371",
+    "docs/JLU_SITE_FIX_B5_A_REPORT.md": "0f3df0c379bccabfbc223bb9061247e0fc6c6d42963129022eaad317825bf71a",
+    "docs/JLU_SITE_FIX_B5_B_REPORT.md": "ce4cb0d7096718054df9c3f1bb96d0025f6b9c59ca3a25e084038a659ddc6d8f",
+    "docs/JLU_SITE_FIX_B5_C_REPORT.md": "6fbc882ce74b4540ef5a2be49f291677fca6208a2c68540b37ec310992720e95"
+  },
+  "sources_yaml_unchanged": true,
+  "frontend_unchanged": true,
+  "oa_status_and_api_code_unchanged_from_baseline": true,
+  "production_database_connections_by_this_batch": 0,
+  "system_network_changes": 0,
+  "formal_admissions": 0
+}

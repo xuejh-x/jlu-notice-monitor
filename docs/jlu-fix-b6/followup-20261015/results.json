@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+    "time": "2026-10-15T20:00:21+08:00",
+    "ok": true,
+    "final_url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "e903ece7b0f8a97bce5bdd550554d952b94b208180d4638c1945e65b767deb74",
+    "html_path": "html/e903ece7b0f8a97bce5bdd550554d952b94b208180d4638c1945e65b767deb74.html",
+    "replacement_chars": 0,
+    "chars": 21282,
+    "attempts": 1
+  },
+  {
+    "url": "https://law.jlu.edu.cn/info/1087/25543.htm",
+    "time": "2026-10-15T20:00:22+08:00",
+    "ok": true,
+    "final_url": "https://law.jlu.edu.cn/info/1087/25543.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "3595aa21a824b76d295c76d50724ee03c99b9dd4ce92518a1219dcd4cb3e4459",
+    "html_path": "html/3595aa21a824b76d295c76d50724ee03c99b9dd4ce92518a1219dcd4cb3e4459.html",
+    "replacement_chars": 0,
+    "chars": 22799,
+    "attempts": 1
+  },
+  {
+    "url": "https://law.jlu.edu.cn/info/1166/15195.htm",
+    "time": "2026-10-15T20:00:23+08:00",
+    "ok": true,
+    "final_url": "https://law.jlu.edu.cn/info/1166/15195.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "4607d3aaf8f40c569074b473cac8d7da7060d4b07a7471192f30682418440a27",
+    "html_path": "html/4607d3aaf8f40c569074b473cac8d7da7060d4b07a7471192f30682418440a27.html",
+    "replacement_chars": 0,
+    "chars": 24959,
+    "attempts": 1
+  },
+  {
+    "url": "https://law.jlu.edu.cn/info/1186/24632.htm",
+    "time": "2026-10-15T20:00:24+08:00",
+    "ok": true,
+    "final_url": "https://law.jlu.edu.cn/info/1186/24632.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "6e2c10ade0f4aabf1d2ebe1a1acf9a5e36bb68e14a8868759600ea3ba4535694",
+    "html_path": "html/6e2c10ade0f4aabf1d2ebe1a1acf9a5e36bb68e14a8868759600ea3ba4535694.html",
+    "replacement_chars": 0,
+    "chars": 16876,
+    "attempts": 1
+  },
+  {
+    "url": "https://law.jlu.edu.cn/info/1195/25468.htm",
+    "time": "2026-10-15T20:00:25+08:00",
+    "ok": true,
+    "final_url": "https://law.jlu.edu.cn/info/1195/25468.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "9ad220058734026ad4d97eefc262f55aaa994174bd33ecfb3aaf7ff4b905e56d",
+    "html_path": "html/9ad220058734026ad4d97eefc262f55aaa994174bd33ecfb3aaf7ff4b905e56d.html",
+    "replacement_chars": 0,
+    "chars": 14458,
+    "attempts": 1
+  }
+]

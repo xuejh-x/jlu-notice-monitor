@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-15T22:02:17+08:00",
+  "files": {
+    "backend/scripts/run_jlu_b7.py": "24e649cc7999988c25d17c875275afa14847b87b1937edb4bce2a0fe25c1d4fb",
+    "backend/scripts/validate_jlu_b6.py": "6b94bdb2652d9db1adf450626341549ef8e0ae2bbeaaf6a0e3e2023b499cff1b",
+    "backend/scripts/validate_jlu_b5_c.py": "440f448a4d2448bd2753d3358b474c82dd4c685c68636faced2f07f9017582c2",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "2d3ba686e3edeef1069f4885c44b82480d512c2a1c3de0faa77e4f8539f22613",
+    "backend/app/services/deduplication.py": "3aefc1d1868a95f506e2551669340bd88b4bcb07409e46b9ca4fa32cd10b42f4",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b7/targets.json": "9834f1d23c67667da3467a3ab425d825f78844b0d9e268a03b96e2ef8a4d35d5",
+    "docs/jlu-fix-b7/discovery-targets.json": "d09a1e9c7509a394d5dea359a42f58749437c90e5d7b504a6e9840201196a37e"
+  },
+  "database": "sqlite:// independent replay only",
+  "limits": "serial >=1s global >=1.2s origin/robots; 12s timeout, <=2 transient attempts; 59 sites <=3 hubs each, 112 P3 + <=40 new columns <=2pages/3details",
+  "oa_deferred": true,
+  "downloads": 0,
+  "formal_admission": false
+}

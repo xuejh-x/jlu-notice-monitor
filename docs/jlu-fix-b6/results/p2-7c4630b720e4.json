@@ -1,0 +1,834 @@
+{
+  "id": "p2-7c4630b720e4",
+  "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+  "institution": "药学院",
+  "column": "通知公告",
+  "site_url": "https://yxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/7c4630b720e4697e.json",
+  "discovery_url": "https://yxy.jlu.edu.cn/",
+  "original_snapshot": "html/21b266626dad45a4199e5bce16e360d28f4710452beb6d27f1284540d51886bf.html",
+  "original_capture_time": "2026-10-13T14:01:55+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-7c4630b720e4",
+    "name": "药学院 / 通知公告",
+    "base_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:47+08:00",
+  "details": [
+    {
+      "url": "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+      "list_title": "药学院关于调整2027年硕士研究生入学初试科目的通知",
+      "list_date": "",
+      "response": {
+        "url": "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+        "time": "2026-10-15T19:43:54+08:00",
+        "ok": true,
+        "final_url": "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "67885897d1c0a0d0cd780393457931fc8eb4c57beab1ee9b53e658a33a48a7c8",
+        "html_path": "html/67885897d1c0a0d0cd780393457931fc8eb4c57beab1ee9b53e658a33a48a7c8.html",
+        "replacement_chars": 0,
+        "chars": 24923,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "药学院关于调整2027年硕士研究生入学初试科目的通知",
+        "url": "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+        "publish_date": "2026-05-12",
+        "publisher": "查看人次：",
+        "content": "全日制学术学位（ 学制3年 ） 100700 药学 01药物化学 02药剂学 03生药学 04药物分析学 05微生物与生化药学 06药理学 07 生物药学 08临床药学 09 再生医学 ①101思想政治理论 ②201英语（一） ③349药学综合 全日制专业学位（ 学制3年 ） 105500 药学 ①101思想政治理论 ②204英语（二） ③349药学综合 参考书目 349 药学综合： 1.《药物化学》（第9版），徐云根主编，人民卫生出版社，2023年7月出版。2.《药理学》（第9版），陈忠、杜俊蓉主编，人民卫生出版社，2022年7月出版。3.《生物化学与分子生物学》（第10版），高国全、汤其群主编，人民卫生出版社，2024年5月出版。 药学综合（349）的考查内容同步进行调整，详细分数构成及考查要点参见考试大纲（附件）。 说明：原学术学位硕士一级学科生物医学工程（代码107200） 停止招生，上述学科导师 调整至药学（代码100700）再生医学方向招生。",
+        "attachments": [
+          {
+            "filename": "附件：吉林大学药学院硕士研究生招生考试《药学综合》（科目代码：349）考试大纲.pdf",
+            "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18127313",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "药学院关于调整2027年硕士研究生入学初试科目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-05-12",
+            "date": "2026-05-12"
+          },
+          {
+            "text": "发布日期：2026-05-12",
+            "date": "2026-05-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 433,
+        "reference_attachment_urls": [
+          "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18127313"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "药学院关于调整2027年硕士研究生入学初试科目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "药学院关于调整2027年硕士研究生入学初试科目的通知 作者： 查看人次： 发布日期：2026-05-12",
+            "date": "2026-05-12"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-05-12",
+            "date": "2026-05-12"
+          },
+          {
+            "text": "发布日期：2026-05-12",
+            "date": "2026-05-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://yxy.jlu.edu.cn/info/1059/3896.htm",
+      "list_title": "关于拟接收陈清远等同志为中共预备党员的公示",
+      "list_date": "",
+      "response": {
+        "url": "https://yxy.jlu.edu.cn/info/1059/3896.htm",
+        "time": "2026-10-15T19:43:55+08:00",
+        "ok": true,
+        "final_url": "https://yxy.jlu.edu.cn/info/1059/3896.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "65a508e10a501ede1a7a7d414a34706adae9f49d7c49868e1547a08ffe014f37",
+        "html_path": "html/65a508e10a501ede1a7a7d414a34706adae9f49d7c49868e1547a08ffe014f37.html",
+        "replacement_chars": 0,
+        "chars": 29876,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于拟接收陈清远等同志为中共预备党员的公示",
+        "url": "https://yxy.jlu.edu.cn/info/1059/3896.htm",
+        "publish_date": "2026-10-12",
+        "publisher": "查看人次：",
+        "content": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将陈清远等13名发展对象的有关情况进行公示。 公示时间为 202 6 年10月12日至10月16日（公示时间为 5 个工作日）。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。党支部将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 如无意见，将按照规定程序提交支部大会讨论决定，履行入党手续。 联系电话：85619713 联系邮箱：yangbofei @jlu.edu.cn 附：发展党员有关情况一览表（本科生） 中共吉林大学药学院党委 202 6 年10月12日",
+        "attachments": [
+          {
+            "filename": "附件：发展对象有关情况一览表（本科生）.docx",
+            "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18207460",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于拟接收陈清远等同志为中共预备党员的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布日期：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 367,
+        "reference_attachment_urls": [
+          "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18207460"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于拟接收陈清远等同志为中共预备党员的公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于拟接收陈清远等同志为中共预备党员的公示 作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-12",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布日期：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://yxy.jlu.edu.cn/info/1059/3877.htm",
+      "list_title": "吉林大学药学院2026年度研究生国家奖学金评审细则",
+      "list_date": "",
+      "response": {
+        "url": "https://yxy.jlu.edu.cn/info/1059/3877.htm",
+        "time": "2026-10-15T19:43:56+08:00",
+        "ok": true,
+        "final_url": "https://yxy.jlu.edu.cn/info/1059/3877.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "557f54e461c04f24c5c9e2a798d03329d73f3c184c40aaeb60f56f95406ad137",
+        "html_path": "html/557f54e461c04f24c5c9e2a798d03329d73f3c184c40aaeb60f56f95406ad137.html",
+        "replacement_chars": 0,
+        "chars": 26885,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学药学院2026年度研究生国家奖学金评审细则",
+        "url": "https://yxy.jlu.edu.cn/info/1059/3877.htm",
+        "publish_date": "2026-10-08",
+        "publisher": "查看人次：",
+        "content": "研究生国家奖学金是研究生教育阶段国家设立的最高荣誉奖项，旨在鼓励研究生勤奋学习，潜心钻研，有助于提高研究生培养质量，有利于吸引高素质和发展潜力强的优质生源，激发研究生教育的活力。根据国家、学校相关文件精神，结合学院实际情况，特制定本评审细则。 一、研究生国家奖学金奖励人数及额度 类别 额度(元/生) 奖励人数 博士研究生 30,000 2 硕士研究生 20,000 5 二、评审委员会（按姓氏拼音排序） 主任委员：项金宝 副主任委员：冯舒 王毅 委员：曹霞 高海成 高诗珠 耿智慧 管清香 刘金平 秦鹏华 宿晓云 王帅 徐国兴 徐华丽 郑清川 三、评选对象 1．凡具有中华人民共和国国籍且纳入全国研究生招生计划的基础学制内的全日制（全脱产学习）研究生均有资格申请。“高层次人才强军计划”和“少数民族高层次骨干人才计划”等专项计划研究生按照国家相关文件执行。 2．（本）硕博贯通式培养研究生及硕博连读研究生在注册成为博士研究生之前，按照硕士研究生身份申请；注册成为博士研究生后，按照博士研究生身份申请。 3．当前学历期间已获得过研究生国家奖学金的研究生如本次为再次申请国家奖学金，其成果不可重复申报使用，成果截止时间为2026年9月30日。贯通式培养研究生的成果可以通用。 4．在评奖学年有以下情况的不具备参评资格：违反国家法律、校纪校规受到纪律处分；有抄袭剽窃、弄虚作假等学术不端行为经查证属实的；参评学年学籍状态处于休学、保留学籍的；在学校规定的时间内未按要求注册或学期考核不合格的；其他经学校认定不具备参评资格的情形。 四、基本条件 1．热爱社会主义祖国，拥护中国共产党的领导； 2．遵守宪法和法律，遵守高等学校规章制度； 3．诚实守信，道德品质优良； 4．学习成绩优异，科研能力显著，发展潜力突出。 五、评选方法及评选程序 研究生国家奖学金的评定工作按照“个人自主申请、导师推荐、培养单位研究生国家奖学金评审委员会初评推荐、学校研究生国家奖学金评定领导小组审核确定”的程序进行。药学院研究生国家奖学金的评定主要考虑以下两个方面：学术科研、学期德育考核。其中学术科研占70%，学期德育考核占30%（其中学院考核宣讲20%，导师考核5%，同学考核5%）。所有小分以该项最高分折合成满分为基准，其余同学按比例依次折算即得此项得分。 在学院考核宣讲前，从各系选派专家组成宣讲评审组，选出的专家名下应没有学生申报当年的国奖评选，并采取现场实名打分进行考核，宣讲考核重点参看《国奖宣讲评分细则》（附表一）。 国家奖学金的评定工作，坚持公正、公开、公平、宁缺毋滥、保证质量的原则。 六、成果认定 1．所有参评学术论文（不包含综述、会议论文以及会议摘要）必须为全文，以正式见刊为准。成果认定时间截止到2026年9月30日。所有成果原则上第一完成单位必须是吉林大学药学院。 2．SCI会议论文以及会议摘要不按SCI论文加分。 3．科研成果有效排名为： 论文：博士研究生须为论文第一作者（含共同一作）；硕士研究生原则上为第一作者（含共同一作）方可参评且不考虑二作三作成果，在申报人数少于研究生院分配的奖励人数情况下，可考虑二作成果参评。 授权的国家发明专利：须为除导师外第一完成人； 4．发表学术论文的中科院分区，按论文发表前1年、当年及后1年，三年中所属最高分区认定。 5．研究生作为项目负责人承担的科研项目以项目立项时间为准进行成果认定，其中承担A类科研项目可直接获评国家奖学金，A类科研项目是指学校牵头承担的下列科研项目： （1）国家自然科学基金研究类、人才类、环境条件类项目（不含一年期项目）和国防科研基金类项目。 （2）项目负责人可支配经费90万元以上（含90万元）的纵向科研项目。 七、《国家奖学金学术成果加分细则》，见附表二。 八、最终通过召开评审委员会进行决议，给出初评推荐名单。 九、在评选过程中一旦发现作弊行为即取消所有参评资格。 十、本办法由吉林大学药学院研究生国家奖学金评审委员会负责解释。 十一、本办法如与研究生院最新文件有相左之处，以研究生院最新文件为准并执行。 十二、本办法从发布之日起执行。 吉林大学药学院 二〇二六年十月",
+        "attachments": [
+          {
+            "filename": "附表一 国家奖学金宣讲评分细则.docx",
+            "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18206293",
+            "type": "docx"
+          },
+          {
+            "filename": "附表二 国家奖学金科研成果加分细则.docx",
+            "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18206292",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林大学药学院2026年度研究生国家奖学金评审细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "发布日期：2026-10-08",
+            "date": "2026-10-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1721,
+        "reference_attachment_urls": [
+          "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18206292",
+          "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18206293"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学药学院2026年度研究生国家奖学金评审细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学药学院2026年度研究生国家奖学金评审细则 作者： 查看人次： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "作者： 查看人次： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "发布日期：2026-10-08",
+            "date": "2026-10-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+        "time": "2026-10-15T19:30:33+08:00",
+        "ok": true,
+        "final_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "21b266626dad45a4199e5bce16e360d28f4710452beb6d27f1284540d51886bf",
+        "html_path": "html/21b266626dad45a4199e5bce16e360d28f4710452beb6d27f1284540d51886bf.html",
+        "replacement_chars": 0,
+        "chars": 26092,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3887.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3888.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3889.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3890.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3894.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3895.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3896.htm"
+      ],
+      "observed_next_urls": [
+        "https://yxy.jlu.edu.cn/index/tzgg/123.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://yxy.jlu.edu.cn/index/tzgg/123.htm",
+        "time": "2026-10-15T19:43:53+08:00",
+        "ok": true,
+        "final_url": "https://yxy.jlu.edu.cn/index/tzgg/123.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "69d218631e3c23e9d3d461108af7c2040d7d92096bcf6d58f3cc70368ff64a6e",
+        "html_path": "html/69d218631e3c23e9d3d461108af7c2040d7d92096bcf6d58f3cc70368ff64a6e.html",
+        "replacement_chars": 0,
+        "chars": 26496,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://yxy.jlu.edu.cn/info/1059/3858.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3859.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3860.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3861.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3862.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3875.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3876.htm",
+        "https://yxy.jlu.edu.cn/info/1059/3877.htm"
+      ],
+      "observed_next_urls": [
+        "https://yxy.jlu.edu.cn/index/tzgg/122.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-15T19:30:33+08:00",
+    "ok": true,
+    "final_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "21b266626dad45a4199e5bce16e360d28f4710452beb6d27f1284540d51886bf",
+    "html_path": "html/21b266626dad45a4199e5bce16e360d28f4710452beb6d27f1284540d51886bf.html",
+    "replacement_chars": 0,
+    "chars": 26092,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "药学院关于调整2027年硕士研究生入学初试科目的通知",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3683.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收陈清远等同志为中共预备党员的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3896.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将高源等同志转为中共正式党员的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3895.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2026-2027学年本科学生学费全额减免初评名单的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3894.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2025-2026学年本科生国家励志奖学金初评结果的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3890.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2025-2026学年本科生学年奖学金、单项奖学金、优秀学生和优秀学生干部拟获奖名单的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3889.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2026年本科生“吉林大学助学金”初评结果的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3888.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2026年本科生国家助学金初评结果的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3887.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学药学院2026年度研究生国家奖学金评审细则",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3877.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025-2026学年研究生评奖评优的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3876.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2025-2026学年吉林大学本科生国家奖学金初评结果的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3875.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年12月申请答辩的博士研究生学术成果的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3862.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于药学院2025年度“喜来健奖学金”候选人名单的公示",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3861.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "药学院研究生学业奖学金评定细则（研二、研三年级）（试行）",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3860.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "药学院2026年研究生学业奖学金评定细则（研一年级）",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3859.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "药学院研究生评奖评优工作细则（试行）",
+      "url": "https://yxy.jlu.edu.cn/info/1059/3858.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://yxy.jlu.edu.cn/index/tzgg/123.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-7c4630b720e4",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6200006939470768e-05,
+      "detail_duration_seconds": 8.899951353669167e-06,
+      "parse_db_duration_seconds": 0.03861390007659793
+    },
+    "second_round": {
+      "source": "p2-7c4630b720e4",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8300022929906845e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-7c4630b720e4",
+    "institution": "药学院",
+    "column": "通知公告",
+    "url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:33+08:00",
+    "review_time": "2026-10-15T20:21:47+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 16,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-7c4630b720e4.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

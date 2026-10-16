@@ -1,0 +1,734 @@
+{
+  "id": "p2-52c296000d49",
+  "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+  "institution": "植物科学学院",
+  "column": "教学信息",
+  "site_url": "https://zky.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH",
+  "original_evidence": "docs/jlu-audit-evidence/results/52c296000d496b93.json",
+  "discovery_url": "https://zky.jlu.edu.cn/",
+  "original_snapshot": "html/5910a7be2765b40982428630d29c02ee79ab32689cd923607cf9adebe4aad543.html",
+  "original_capture_time": "2026-10-13T14:02:11+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-52c296000d49",
+    "name": "植物科学学院 / 教学信息",
+    "base_url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:52+08:00",
+  "details": [
+    {
+      "url": "https://zky.jlu.edu.cn/info/1023/5917.htm",
+      "list_title": "植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采 2026-04-08",
+      "list_date": "2026-04-08",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1023/5917.htm",
+        "time": "2026-10-15T19:44:25+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1023/5917.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "abcf118c85a2454e3fd1646cc444d9f83ac450745c4b0550e01805ed713e3aed",
+        "html_path": "html/abcf118c85a2454e3fd1646cc444d9f83ac450745c4b0550e01805ed713e3aed.html",
+        "replacement_chars": 0,
+        "chars": 29949,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采",
+        "url": "https://zky.jlu.edu.cn/info/1023/5917.htm",
+        "publish_date": "2026-04-08",
+        "publisher": "2026年4月7日上午，植物科学学院青年教师教学水平大赛在科",
+        "content": "2026年4月7日上午，植物科学学院青年教师教学水平大赛在科学讲堂308教室圆满落幕。本次大赛是学院落实学校教学工作部署、强化青年教师教学基本功的重要举措，以“以赛代练、查找不足、共同提升”为目标，为学院本科教育教学高质量发展注入青春动能。学院领导、教学督导、专家评委及部分任课教师莅临现场，全程观摩指导。 大赛由学院副院长吴涛主持，他在开幕词中强调，青年教师是学院教学队伍的中坚力量，其教学能力直接关系人才培养质量，希望参赛教师以赛为媒、切磋技艺、锤炼本领。随后，吴涛副院长介绍了评审组成员及评分标准。本次评审组由王永军、田进、都兴林、潘洪玉、席景会等13位教学经验丰富的专家组成，评委们严格依据学校教学评分细则，从教案设计、课堂教学等方面对参赛教师客观公正打分。 赛后，王永军院长、潘洪玉教授分别对大赛进行点评。评委们既肯定了参赛教师的亮点与进步，也结合教学经验，针对教案打磨、教学节奏把控等方面提出改进建议，为青年教师教学能力提升指明方向。 本次大赛最终评出一等奖2名、二等奖2名、三等奖3名。其中，闫帆、缪伊玲获一等奖，李钊、胡兰娟获二等奖，崔馨云、钟钰、黄双占获三等奖。 此次比赛为青年教师搭建了交流提升的平台，激发了青年教师深耕教学、潜心育人的积极性，夯实了学院教学基本功，对推动学院教学质量提升、助力人才培养提质增效具有重要意义。 https://zky.jlu.edu.cn/__local/0/82/90/43853B43B6C11949F44A608351A_2E1F6FE4_1EB83.jpg https://zky.jlu.edu.cn/__local/D/AB/90/B94884BAD29274955CDF49471D0_5F7784CA_156B7.jpg https://zky.jlu.edu.cn/__local/4/1D/47/1D1DFD0EE8884F1A8519E97997D_E2BF93FB_5E0EC.jpg https://zky.jlu.edu.cn/__local/2/6A/AD/938CCEE70AE834BACA413CE05FE_AD787240_1CF2A.jpg https://zky.jlu.edu.cn/__local/7/0F/08/4BF03616C0C16B5CB2FAC8FB58E_4C6FAAC9_39AB1.jpg https://zky.jlu.edu.cn/__local/4/3B/3E/B5DBDFD369DF57CDD60DAD0BCEA_2109994F_19654.jpg https://zky.jlu.edu.cn/__local/4/1A/FA/BABEC456B34E9422E77C5F12C86_BDB94901_1AF17.jpg https://zky.jlu.edu.cn/__local/0/5C/4C/E52AC0A216E32CED13126752500_BE999356_1D462.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 教务管理系统"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 植物科学学院召开2025年秋季学期督导专项工作会束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-04-08",
+            "date": "2026-04-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 572,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采",
+          "",
+          "日期：2026-04-08 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采 日期：2026-04-08 点击数： 来源:",
+            "date": "2026-04-08"
+          },
+          {
+            "text": "日期：2026-04-08 点击数： 来源:",
+            "date": "2026-04-08"
+          },
+          {
+            "text": "日期：2026-04-08 点击数： 来源:",
+            "date": "2026-04-08"
+          },
+          {
+            "text": "日期：2026-04-08",
+            "date": "2026-04-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/info/1023/5839.htm",
+      "list_title": "植物科学学院召开2025年秋季学期督导专项工作会 2026-01-06",
+      "list_date": "2026-01-06",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1023/5839.htm",
+        "time": "2026-10-15T19:44:26+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1023/5839.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f8203d6835dafa3facc466172ffd98e6ff15defd6e68ee28e2191a6a0e0bc3e4",
+        "html_path": "html/f8203d6835dafa3facc466172ffd98e6ff15defd6e68ee28e2191a6a0e0bc3e4.html",
+        "replacement_chars": 0,
+        "chars": 28773,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "植物科学学院召开2025年秋季学期督导专项工作会",
+        "url": "https://zky.jlu.edu.cn/info/1023/5839.htm",
+        "publish_date": "2026-01-06",
+        "publisher": "为落实立德树人根本任务，切实保障课堂教学质量，植物科学学院于",
+        "content": "为落实立德树人根本任务，切实保障课堂教学质量，植物科学学院于 2026年1月4日组织召开2025年秋季学期教学督导专项工作会议。学院教学督导组组长 席 景会、原亚萍，以及督导组与教学委员会全体成员出席会议。会议由教学副院长吴涛主持。 吴涛首先汇报了 2025年秋季学期教学督导工作的总体情况，强调督导工作始终秉持“以学生为中心”理念，聚焦“教、学、管”三个维度，通过线上线下听课、教学检查、座谈交流等多种形式，实现了全院课程督导全覆盖。随后，督导组专家与教学委员会成员结合具体听课案例逐一发言，对教学中存在的问题进行了精准反馈。 整体看来，当前课堂教学存在三大突出问题：一是部分教师授课过度依赖 PPT，内容呈现文字堆砌、重点不突出，影响了知识传递效果；二是课堂设计缺乏巧思，部分课堂仍沿用“灌输式”教学，互动不足且形式单一，难以激发学生主动思考；三是数智工具应用不足，未能与教学内容实现深度融合。与此同时，部分课堂后排学生低头使用手机、注意力不集中等现象较为普遍，反映出课堂吸引力不强、学习目标引导不足以及课堂管理尚待优化等问题。 针对上述问题，与会人员积极提出改进建议。在教学方法方面，倡导教师优化 PPT设计，增加可视化元素，强化板书与PPT的互补配合；丰富课堂互动形式，融入科研案例与行业前沿内容，推动科教融合；加强课堂管理，着力提升学生“抬头率”；通过“以老带新”机制加强课程团队建设，助力青年教师准确把握教学重难点。在学生培养方面，应推动课堂管理理念从“约束行为”向“服务成长”转变；将课堂表现纳入平时成绩考核，以评价机制激发学生学习动力；结合学生年级与专业特点灵活调整教学策略，积极推行小班教学，增强课程实用性与吸引力，并有机融入课程 思政元素，提升学生的专业认同感。 吴涛在总结中强调，教学质量是学院发展的生命线，督导所反映的问题直指育人关键环节。下一学年，学院将持续开展 “听课磨课”活动，加强青年教师培训与新任教师考核，强化实践教学督导，鼓励探索 AI辅助教学等创新模式，推动课堂教学从“知识传授”向“能力培养”转型。 本次会议为学院教学工作进行了精准 “画像”，为实现靶向“施策”提供了重要依据。学院将以此为契机，进一步完善教学质量监控体系，全面提升课堂教学实效，筑牢高素质人才培养的教学根基。 https://zky.jlu.edu.cn/__local/0/37/8E/EA3060CBDCD06335D27A917A0C1_8217BEFE_141930.png https://zky.jlu.edu.cn/__local/B/92/89/2E4238E92FBBA01CAABAF19F18B_D1792D22_F553B.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-01-06",
+            "date": "2026-01-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 958,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "植物科学学院召开2025年秋季学期督导专项工作会",
+          "",
+          "日期：2026-01-06 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "植物科学学院召开2025年秋季学期督导专项工作会 日期：2026-01-06 点击数： 来源:",
+            "date": "2026-01-06"
+          },
+          {
+            "text": "日期：2026-01-06 点击数： 来源:",
+            "date": "2026-01-06"
+          },
+          {
+            "text": "日期：2026-01-06 点击数： 来源:",
+            "date": "2026-01-06"
+          },
+          {
+            "text": "日期：2026-01-06",
+            "date": "2026-01-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/info/1023/5801.htm",
+      "list_title": "以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作 2025-12-15",
+      "list_date": "2025-12-15",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1023/5801.htm",
+        "time": "2026-10-15T19:44:27+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1023/5801.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "413035053e5cf1392bede3efda081d69d4e787eb7c6218b14ec8ba057f51f20d",
+        "html_path": "html/413035053e5cf1392bede3efda081d69d4e787eb7c6218b14ec8ba057f51f20d.html",
+        "replacement_chars": 0,
+        "chars": 27364,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作",
+        "url": "https://zky.jlu.edu.cn/info/1023/5801.htm",
+        "publish_date": "2025-12-15",
+        "publisher": "为持续提升实践教学质量，夯实育人基础，植物科学学院近日圆满完",
+        "content": "为持续提升实践教学质量，夯实育人基础，植物科学学院近日圆满完成了本科实践教学专项检查工作。本次检查以“以查促建、提质增效”为主线，全面梳理了学院实践教学环节，并在学校专家组的现场督导中获得积极评价。 学院高度重视此次专项检查，依据学校相关管理办法，成立专项小组，对2021年以来的实践教学情况开展了全面自评与整改。工作重点覆盖制度建设、课程大纲、场所管理、设备利用及教学过程材料等方面，尤其强化了安全管理制度与应急预案的健全与落实，确保实践教学运行规范、安全有序。 12月15日，学校专家组进行现场督查。副院长吴涛汇报了学院实践教学运行情况及自查整改成果。专家组随堂观摩《农业植物病理学A》实验课，并细致查阅相关教学材料。专家组一致认为，学院实践教学管理制度完善、执行到位，教学大纲设计合理，场所管理规范，设备使用效益显著，教学过程材料齐全、规范，尤其在安全管理方面体系健全、措施扎实，有效保障了实践教学稳定开展。 学院将以此次专项检查为契机，进一步巩固整改成果，持续推动实践育人水平提升。未来，学院将继续完善制度建设、优化课程体系、加强实践场所与设备管理，并积极应对实践教学资源紧张的挑战，积极探索保障实践教学质效的有效路径。学院也将加强与学校部门的协同，共同促进学校实践教学工作高质量发展。 植物科学学院全体师生将继续秉持“厚基础、重实践、严要求”的育人传统，深化教育教学改革，凝聚育人合力，致力于培养更多“一懂两爱”的新时代农业领军人才。 https://zky.jlu.edu.cn/__local/8/A2/00/252F7F1902D075576DC0E19D9C1_EE460199_134D4E.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 植物科学学院召开2025年秋季学期督导专项工作会"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 吉大植科陕西招生行：播撒科学种子，衔接育才桥梁束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-12-15",
+            "date": "2025-12-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 622,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作",
+          "",
+          "日期：2025-12-15 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作 日期：2025-12-15 点击数： 来源:",
+            "date": "2025-12-15"
+          },
+          {
+            "text": "日期：2025-12-15 点击数： 来源:",
+            "date": "2025-12-15"
+          },
+          {
+            "text": "日期：2025-12-15 点击数： 来源:",
+            "date": "2025-12-15"
+          },
+          {
+            "text": "日期：2025-12-15",
+            "date": "2025-12-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+        "time": "2026-10-15T19:30:46+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5910a7be2765b40982428630d29c02ee79ab32689cd923607cf9adebe4aad543",
+        "html_path": "html/5910a7be2765b40982428630d29c02ee79ab32689cd923607cf9adebe4aad543.html",
+        "replacement_chars": 0,
+        "chars": 26635,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://zky.jlu.edu.cn/info/1023/3207.htm",
+        "https://zky.jlu.edu.cn/info/1023/5109.htm",
+        "https://zky.jlu.edu.cn/info/1023/5229.htm",
+        "https://zky.jlu.edu.cn/info/1023/5314.htm",
+        "https://zky.jlu.edu.cn/info/1023/5381.htm",
+        "https://zky.jlu.edu.cn/info/1023/5393.htm",
+        "https://zky.jlu.edu.cn/info/1023/5399.htm",
+        "https://zky.jlu.edu.cn/info/1023/5412.htm",
+        "https://zky.jlu.edu.cn/info/1023/5718.htm",
+        "https://zky.jlu.edu.cn/info/1023/5795.htm",
+        "https://zky.jlu.edu.cn/info/1023/5801.htm",
+        "https://zky.jlu.edu.cn/info/1023/5839.htm",
+        "https://zky.jlu.edu.cn/info/1023/5917.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "time": "2026-10-15T19:30:46+08:00",
+    "ok": true,
+    "final_url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "5910a7be2765b40982428630d29c02ee79ab32689cd923607cf9adebe4aad543",
+    "html_path": "html/5910a7be2765b40982428630d29c02ee79ab32689cd923607cf9adebe4aad543.html",
+    "replacement_chars": 0,
+    "chars": 26635,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院2026年青年教师教学水平大赛圆满落幕—以赛促教强本领 青年教师展风采 2026-04-08",
+      "url": "https://zky.jlu.edu.cn/info/1023/5917.htm",
+      "publish_date": "2026-04-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开2025年秋季学期督导专项工作会 2026-01-06",
+      "url": "https://zky.jlu.edu.cn/info/1023/5839.htm",
+      "publish_date": "2026-01-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "以查促建 提质增效—植物科学学院圆满完成本科实践教学专项检查工作 2025-12-15",
+      "url": "https://zky.jlu.edu.cn/info/1023/5801.htm",
+      "publish_date": "2025-12-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉大植科陕西招生行：播撒科学种子，衔接育才桥梁 2025-12-02",
+      "url": "https://zky.jlu.edu.cn/info/1023/5795.htm",
+      "publish_date": "2025-12-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "问过往 找不足 守初心 谋发展——植物科学学院教育教学督导组与青年教师座谈 2025-09-24",
+      "url": "https://zky.jlu.edu.cn/info/1023/5718.htm",
+      "publish_date": "2025-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院开展“本科教育教学高质量发展”教师系列专场研讨会 2024-10-23",
+      "url": "https://zky.jlu.edu.cn/info/1023/5412.htm",
+      "publish_date": "2024-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开“本科教育教学高质量发展—科研平台”专题讨论会 2024-10-16",
+      "url": "https://zky.jlu.edu.cn/info/1023/5399.htm",
+      "publish_date": "2024-10-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开“本科教育教学高质量发展”系列专题讨论会 2024-10-12",
+      "url": "https://zky.jlu.edu.cn/info/1023/5393.htm",
+      "publish_date": "2024-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开全面迎接教育部本科教育教学审核评估考察工作推进会 2024-10-09",
+      "url": "https://zky.jlu.edu.cn/info/1023/5381.htm",
+      "publish_date": "2024-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开本科教育教学审核评估迎评工作动员布置会 2024-09-14",
+      "url": "https://zky.jlu.edu.cn/info/1023/5314.htm",
+      "publish_date": "2024-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院举办青年教师教学水平大赛暨青年教师双语教学大赛 2024-06-14",
+      "url": "https://zky.jlu.edu.cn/info/1023/5229.htm",
+      "publish_date": "2024-06-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院召开期末考试工作会议 2023-12-26",
+      "url": "https://zky.jlu.edu.cn/info/1023/5109.htm",
+      "publish_date": "2023-12-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "学校本科实验教学中心评估专家组到植物科学学院开展评估工作 2021-12-15",
+      "url": "https://zky.jlu.edu.cn/info/1023/3207.htm",
+      "publish_date": "2021-12-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 13,
+  "pagination": [
+    {
+      "start_url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+          "parsed_items": 13,
+          "added_items": 13
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-52c296000d49",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.2699940018355846e-05,
+      "detail_duration_seconds": 5.400041118264198e-06,
+      "parse_db_duration_seconds": 0.03148610005155206
+    },
+    "second_round": {
+      "source": "p2-52c296000d49",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6000005416572094e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-52c296000d49",
+    "institution": "植物科学学院",
+    "column": "教学信息",
+    "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:46+08:00",
+    "review_time": "2026-10-15T20:21:52+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 13,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-52c296000d49.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

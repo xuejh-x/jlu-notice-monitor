@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://synlab.jlu.edu.cn/2025/05/5128.html",
+    "time": "2026-10-15T22:45:08+08:00",
+    "ok": true,
+    "final_url": "https://synlab.jlu.edu.cn/2025/05/5128.html",
+    "content_type": "text/html; charset=UTF-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "baf2809f3bfe636d2505b03dd8e0472b593bea890563e4ee03842828fb0fdf8f",
+    "html_path": "html/baf2809f3bfe636d2505b03dd8e0472b593bea890563e4ee03842828fb0fdf8f.html",
+    "replacement_chars": 0,
+    "chars": 33423,
+    "attempts": 1
+  }
+]

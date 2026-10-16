@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-14T22:59:44.672818+08:00",
+  "changed_application_files": [
+    "backend/app/parsers/html.py",
+    "backend/app/sources/generic.py"
+  ],
+  "original_audit_files_unchanged": 1449,
+  "prior_reports_unchanged": {
+    "docs/JLU_SITE_FIX_B0_B1_REPORT.md": "162956ff4df63c02d758266a27dd19b195ce4c58af3550b062c8b9112d9d8755",
+    "docs/JLU_SITE_FIX_B2_REPORT.md": "6bb3740031a6fd02b07d4e2edd5b5be41c45132a8b67c973fd199677ef48be38",
+    "docs/JLU_SITE_FIX_B3_REPORT.md": "5229c2af45c3140b3f0e048f04b6d5fb3e82f79c6a44371bdfbff5cd2f1cec79",
+    "docs/JLU_SITE_FIX_B4_REPORT.md": "8e4eb8e065f0183fe4979f89d5e3a18e5b35681c9cdaee9d35900dd1a164d371",
+    "docs/JLU_SITE_FIX_B5_A_REPORT.md": "0f3df0c379bccabfbc223bb9061247e0fc6c6d42963129022eaad317825bf71a"
+  },
+  "sources_yaml_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+  "database": "isolated tests only; live/replay engine connection forbidden",
+  "production_db_migrations": 0,
+  "formal_admissions": 0
+}

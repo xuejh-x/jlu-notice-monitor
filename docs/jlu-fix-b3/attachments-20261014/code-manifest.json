@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-14T16:01:59+08:00",
+  "files": {
+    "backend/app/parsers/html.py": "fa3a49afac511a5d028358b0858cb8ed5ff78b84a499968fd4b732931eddf4bf",
+    "backend/app/sources/base.py": "9e5b1af14e6e4fef8d1b926f2c1b3b196a46b8ee2477a92f36ee73c3f01eddb4",
+    "backend/app/sources/generic.py": "020f0ca4ee4cc2e7ab6304ee3d848c5bd1eb075a1b07893dca0c070e0321ed45",
+    "backend/app/sources/oa_public.py": "8aaf5971497c24cacdd647216647316371140a6361cc51886e08a8868c596ea4",
+    "backend/app/services/attachment_validation.py": "afdcef71b78d21c48c868792c5d1c5e5d31a934cb57a7b365fd560fde9567ee4",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/scripts/audit_jlu_sites.py": "f00ec3fbe22e90b8fce3aac3d77ee7112614b9844755c2a8acfb495e69b4bc65",
+    "backend/scripts/probe_jlu_b3.py": "3e88d5b2ff2334a8d3d2d7bf9c96bcc79ebeec2534eac3feab90789e0148dce1"
+  },
+  "database": "sqlite://",
+  "mode": "serial public prefix checks, no auth/captcha bypass"
+}

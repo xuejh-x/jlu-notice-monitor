@@ -1,0 +1,4380 @@
+{
+  "summary": {
+    "time": "2026-10-14T23:28:29+08:00",
+    "mode": "offline reconstruction of original audit; no HTTP or DB",
+    "original_counts_reproduced": true,
+    "same_url_groups": 113,
+    "title_date_candidates": 48,
+    "same_url_categories": {
+      "SAME_URL_COLUMN_REFERENCE": 113
+    },
+    "title_date_categories": {
+      "CROSS_SITE_REPRINT_CANDIDATE": 5,
+      "SAME_SITE_DISTINCT_URL_CANDIDATE": 29,
+      "PROTOCOL_ALIAS_CANDIDATE": 14
+    },
+    "saved_body_verdicts": {
+      "INSUFFICIENT_SAVED_BODY_EVIDENCE": 47,
+      "MATCHING_SAVED_TEXT_REPRINT_EVIDENCE": 1
+    },
+    "formal_merges": 0,
+    "global_similarity_threshold_changed": false
+  },
+  "input_hashes": {
+    "docs/jlu-audit-evidence/duplicates.json": "65451ba858d85ccd14f186102f16bd57ae13d0e485ff60cee36bdda5b9e77e46",
+    "docs/jlu-audit-evidence/results.json": "82181882d3e344b05fb9a7f31c6e763fc62fca1aa9d92f9b609afcf92911d27b"
+  },
+  "same_url_groups": [
+    {
+      "group_url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+          "title": "关于2026-2027学年第一学期部分课程停开的通知",
+          "date": "2026-09-15"
+        },
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+          "title": "15 2026-09 关于2026-2027学年第一学期部分课程停开的通知",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://jwc.jlu.edu.cn/info/1050/12677.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+          "title": "本科生院关于面向院内民主推荐正科级干部的通知",
+          "date": "2026-05-25"
+        },
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+          "title": "25 2026-05 本科生院关于面向院内民主推荐正科级干部的通知",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://jwc.jlu.edu.cn/info/1050/12635.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://jwc.jlu.edu.cn/info/1050/12507.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12507.htm",
+          "title": "关于2025-2026学年第二学期部分校公选课停开的通知",
+          "date": "2026-01-08"
+        },
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12507.htm",
+          "title": "08 2026-01 关于2025-2026学年第二学期部分校公选课停开的通知",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://jwc.jlu.edu.cn/info/1050/12507.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://jwc.jlu.edu.cn/info/1050/12405.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12405.htm",
+          "title": "关于2025-2026学年第一学期部分校公选课停开的通知",
+          "date": "2025-09-12"
+        },
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1050/12405.htm",
+          "title": "12 2025-09 关于2025-2026学年第一学期部分校公选课停开的通知",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://jwc.jlu.edu.cn/info/1050/12405.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11416.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11416.htm",
+          "title": "1 关于吉林大学通信工程学院胡云峰教授团队博士后录取人员公示的通知",
+          "date": "2026-07-31"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11416.htm",
+          "title": "1 关于吉林大学通信工程学院胡云峰教授团队博士后录取人员公示的通知",
+          "date": "2026-07-31"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11416.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11415.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11415.htm",
+          "title": "2 吉林大学通信工程学院胡云峰教授团队博士后招聘启事",
+          "date": "2026-07-29"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11415.htm",
+          "title": "2 吉林大学通信工程学院胡云峰教授团队博士后招聘启事",
+          "date": "2026-07-29"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11415.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11412.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11412.htm",
+          "title": "3 关于通信工程学院2024-2025年教师中期考核和2023-2025年教师任期考核初步考核结果...",
+          "date": "2026-07-15"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11412.htm",
+          "title": "3 关于通信工程学院2024-2025年教师中期考核和2023-2025年教师任期考核初步考核结果...",
+          "date": "2026-07-15"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11412.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11395.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11395.htm",
+          "title": "4 关于通信工程学院2026年专业技术职务聘任推荐人选公示的通知",
+          "date": "2026-06-17"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11395.htm",
+          "title": "4 关于通信工程学院2026年专业技术职务聘任推荐人选公示的通知",
+          "date": "2026-06-17"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11395.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11352.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11352.htm",
+          "title": "5 关于开展通信工程学院2024-2025年度教师中期考核和2023-2025年度教师任期考核工作...",
+          "date": "2026-05-26"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11352.htm",
+          "title": "5 关于开展通信工程学院2024-2025年度教师中期考核和2023-2025年度教师任期考核工作...",
+          "date": "2026-05-26"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11352.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11351.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11351.htm",
+          "title": "6 关于通信工程学院2026年度研究生导师立德树人职责考核结果公示的通知",
+          "date": "2026-05-25"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11351.htm",
+          "title": "6 关于通信工程学院2026年度研究生导师立德树人职责考核结果公示的通知",
+          "date": "2026-05-25"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11351.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11282.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11282.htm",
+          "title": "7 关于通信工程学院2026年3月教职工固定聘期考核人选初步考核结果公示的通知",
+          "date": "2026-03-30"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11282.htm",
+          "title": "7 关于通信工程学院2026年3月教职工固定聘期考核人选初步考核结果公示的通知",
+          "date": "2026-03-30"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11282.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11225.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11225.htm",
+          "title": "8 关于吉林大学通信工程学院王萍教授团队博士后录取人员公示的通知",
+          "date": "2026-01-21"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11225.htm",
+          "title": "8 关于吉林大学通信工程学院王萍教授团队博士后录取人员公示的通知",
+          "date": "2026-01-21"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11225.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11216.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11216.htm",
+          "title": "9 关于赵琳琳等职务任免的通知",
+          "date": "2026-01-13"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11216.htm",
+          "title": "9 关于赵琳琳等职务任免的通知",
+          "date": "2026-01-13"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11216.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11214.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11214.htm",
+          "title": "10 吉林大学通信工程学院王萍教授团队博士后招聘启事",
+          "date": "2026-01-09"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11214.htm",
+          "title": "10 吉林大学通信工程学院王萍教授团队博士后招聘启事",
+          "date": "2026-01-09"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11214.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11213.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11213.htm",
+          "title": "11 通信工程学院各系（中心）主任、副主任拟聘人选公示",
+          "date": "2026-01-06"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11213.htm",
+          "title": "11 通信工程学院各系（中心）主任、副主任拟聘人选公示",
+          "date": "2026-01-06"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11213.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11181.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11181.htm",
+          "title": "12 关于开展通信工程学院2025年度考核工作的通知",
+          "date": "2025-12-19"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11181.htm",
+          "title": "12 关于开展通信工程学院2025年度考核工作的通知",
+          "date": "2025-12-19"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11181.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11180.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11180.htm",
+          "title": "13 关于开展通信工程学院2025年度师德考核工作的通知",
+          "date": "2025-12-19"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11180.htm",
+          "title": "13 关于开展通信工程学院2025年度师德考核工作的通知",
+          "date": "2025-12-19"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11180.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11169.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11169.htm",
+          "title": "14 通信工程学院关于开展2025年系（中心）主任换届调整的通知",
+          "date": "2025-12-17"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11169.htm",
+          "title": "14 通信工程学院关于开展2025年系（中心）主任换届调整的通知",
+          "date": "2025-12-17"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11169.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://dce.jlu.edu.cn/info/1051/11109.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11109.htm",
+          "title": "15 关于通信工程学院周淼磊校外兼职情况公示的通知",
+          "date": "2025-10-16"
+        },
+        {
+          "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+          "url": "https://dce.jlu.edu.cn/info/1051/11109.htm",
+          "title": "15 关于通信工程学院周淼磊校外兼职情况公示的通知",
+          "date": "2025-10-16"
+        }
+      ],
+      "canonical_urls": [
+        "https://dce.jlu.edu.cn/info/1051/11109.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1026/5699.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1026/5699.htm",
+          "title": "(转)关于做好2026年秋季学期开放性创新实验教学工作的通知",
+          "date": "2026-10-08"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1026/5699.htm",
+          "title": "(转)关于做好2026年秋季学期开放性创新实验教学工作的通知",
+          "date": "2026-10-08"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1026/5699.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1026/5696.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1026/5696.htm",
+          "title": "关于考古学院2026-2027学年本科生班主任拟聘人选的公示",
+          "date": "2026-09-29"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1026/5696.htm",
+          "title": "关于考古学院2026-2027学年本科生班主任拟聘人选的公示",
+          "date": "2026-09-29"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1026/5696.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1059/5718.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5718.htm",
+          "title": "关于公示吉林大学考古学院团学组织工作人员的通知",
+          "date": "2026-10-12"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5718.htm",
+          "title": "关于公示吉林大学考古学院团学组织工作人员的通知",
+          "date": "2026-10-12"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1059/5718.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1040/5711.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5711.htm",
+          "title": "关于2026年度考古学院研究生国家奖学金评审工作实施细则的公示",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5711.htm",
+          "title": "关于2026年度考古学院研究生国家奖学金评审工作实施细则的公示",
+          "date": "2026-10-10"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1040/5711.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1040/5698.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5698.htm",
+          "title": "关于2025-2026学年考古学院研究生评奖评优名单的公示",
+          "date": "2026-10-08"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5698.htm",
+          "title": "关于2025-2026学年考古学院研究生评奖评优名单的公示",
+          "date": "2026-10-08"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1040/5698.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1059/5695.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5695.htm",
+          "title": "【团学活动】打破标签，探寻真我｜MBTI性格探索活动",
+          "date": "2026-09-29"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5695.htm",
+          "title": "【团学活动】打破标签，探寻真我｜MBTI性格探索活动",
+          "date": "2026-09-29"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1059/5695.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1040/5693.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5693.htm",
+          "title": "关于考古学院2026-2027学年秋季学期研究生教材选用的公示",
+          "date": "2026-09-24"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1040/5693.htm",
+          "title": "关于考古学院2026-2027学年秋季学期研究生教材选用的公示",
+          "date": "2026-09-24"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1040/5693.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://kgxy.jlu.edu.cn/info/1059/5691.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5691.htm",
+          "title": "关于公开选拔吉林大学考古学院团学组织工作人员的通知",
+          "date": "2026-09-23"
+        },
+        {
+          "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5691.htm",
+          "title": "关于公开选拔吉林大学考古学院团学组织工作人员的通知",
+          "date": "2026-09-23"
+        }
+      ],
+      "canonical_urls": [
+        "https://kgxy.jlu.edu.cn/info/1059/5691.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25547.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25547.htm",
+          "title": "关于法学院2025级赖星云同学中国近现代史纲要课程成绩更正的公示",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25547.htm",
+          "title": "关于法学院2025级赖星云同学中国近现代史纲要课程成绩更正的公示",
+          "date": "2026-10-10"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25547.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25543.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25543.htm",
+          "title": "关于法学院2024级陈琪同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25543.htm",
+          "title": "关于法学院2024级陈琪同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-10-09"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25543.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25530.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25530.htm",
+          "title": "关于法学院2025级孙宇星同学形势与政策Ⅱ课程成绩更正的公示",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25530.htm",
+          "title": "关于法学院2025级孙宇星同学形势与政策Ⅱ课程成绩更正的公示",
+          "date": "2026-09-28"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25530.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25528.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25528.htm",
+          "title": "关于法学院2024级宫书睿同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25528.htm",
+          "title": "关于法学院2024级宫书睿同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-09-28"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25528.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25527.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25527.htm",
+          "title": "关于法学院2024级刘涵同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25527.htm",
+          "title": "关于法学院2024级刘涵同学思想政治理论课实践教学课程成绩更正的公示",
+          "date": "2026-09-28"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25527.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25456.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25456.htm",
+          "title": "关于公示法学院2027年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知",
+          "date": "2026-09-08"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25456.htm",
+          "title": "关于公示法学院2027年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知",
+          "date": "2026-09-08"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25456.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25437.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25437.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知",
+          "date": "2026-09-04"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25437.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知",
+          "date": "2026-09-04"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25437.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25432.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25432.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知",
+          "date": "2026-09-02"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25432.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知",
+          "date": "2026-09-02"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25432.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25426.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25426.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知",
+          "date": "2026-08-31"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25426.htm",
+          "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知",
+          "date": "2026-08-31"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25426.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25425.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25425.htm",
+          "title": "关于公示法学院2023级本科生推免成绩中限定选修课程的通知",
+          "date": "2026-08-31"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25425.htm",
+          "title": "关于公示法学院2023级本科生推免成绩中限定选修课程的通知",
+          "date": "2026-08-31"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25425.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25424.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25424.htm",
+          "title": "法学院2027年推荐优秀应届本科毕业生免试攻读研究生工作实施细则及素质类项目加分标准",
+          "date": "2026-08-31"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25424.htm",
+          "title": "法学院2027年推荐优秀应届本科毕业生免试攻读研究生工作实施细则及素质类项目加分标准",
+          "date": "2026-08-31"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25424.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25218.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25218.htm",
+          "title": "关于公示法学院2026年度“大学生创新创业训练计划”拟立项名单的通知",
+          "date": "2026-05-14"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25218.htm",
+          "title": "关于公示法学院2026年度“大学生创新创业训练计划”拟立项名单的通知",
+          "date": "2026-05-14"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25218.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25202.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25202.htm",
+          "title": "关于法学院2024级杨皓凯同学刑法学II课程成绩更正的公示",
+          "date": "2026-05-06"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25202.htm",
+          "title": "关于法学院2024级杨皓凯同学刑法学II课程成绩更正的公示",
+          "date": "2026-05-06"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25202.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25201.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25201.htm",
+          "title": "关于法学院2023级戴智舟同学国际公法专题I课程成绩更正的公示",
+          "date": "2026-05-06"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25201.htm",
+          "title": "关于法学院2023级戴智舟同学国际公法专题I课程成绩更正的公示",
+          "date": "2026-05-06"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25201.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25199.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25199.htm",
+          "title": "关于法学院2026届本科生毕业论文答辩工作的通知",
+          "date": "2026-04-30"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25199.htm",
+          "title": "关于法学院2026届本科生毕业论文答辩工作的通知",
+          "date": "2026-04-30"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25199.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://law.jlu.edu.cn/info/1087/25178.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25178.htm",
+          "title": "关于法学院2024级王文轩同学习近平新时代中国特色社会主义思想概论课程成绩更正的公示",
+          "date": "2026-04-15"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1087/25178.htm",
+          "title": "关于法学院2024级王文轩同学习近平新时代中国特色社会主义思想概论课程成绩更正的公示",
+          "date": "2026-04-15"
+        }
+      ],
+      "canonical_urls": [
+        "https://law.jlu.edu.cn/info/1087/25178.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21367.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21367.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（四）",
+          "date": "2026-09-21"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21367.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（四）",
+          "date": "2026-09-21"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21367.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21362.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21362.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（三）",
+          "date": "2026-09-20"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21362.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（三）",
+          "date": "2026-09-20"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21362.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21357.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21357.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（二）",
+          "date": "2026-09-20"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21357.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（二）",
+          "date": "2026-09-20"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21357.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21356.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21356.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（一）",
+          "date": "2026-09-19"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21356.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（一）",
+          "date": "2026-09-19"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21356.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21348.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21348.htm",
+          "title": "关于李天阳同学更改推免研究生招生报考类型的公告",
+          "date": "2026-09-17"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21348.htm",
+          "title": "关于李天阳同学更改推免研究生招生报考类型的公告",
+          "date": "2026-09-17"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21348.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://wxy.jlu.edu.cn/info/1347/21344.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21344.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生复试名单公示",
+          "date": "2026-09-16"
+        },
+        {
+          "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+          "url": "https://wxy.jlu.edu.cn/info/1347/21344.htm",
+          "title": "文学院2027年接收推荐免试攻读研究生复试名单公示",
+          "date": "2026-09-16"
+        }
+      ],
+      "canonical_urls": [
+        "https://wxy.jlu.edu.cn/info/1347/21344.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+          "title": "仪器共享平台用户违规行为处罚管理办法（试行）",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2026/09/5291.html",
+          "title": "仪器共享平台用户违规行为处罚管理办法（试行）",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2026/09/5291.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+          "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2025/09/5200.html",
+          "title": "关于正式启用无机合成与制备化学全国重点实验室仪器共享平台的通知",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2025/09/5200.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+          "title": "实验室2025年度公开招聘专业技术人员 拟聘人选公示",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+          "title": "实验室2025年度公开招聘专业技术人员 拟聘人选公示",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2025/09/5203.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2024/10/5089.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2024/10/5089.html",
+          "title": "第四届凝聚态化学研讨会-凝聚态化学的核心-凝聚态结构化学的建设",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2024/10/5089.html",
+          "title": "第四届凝聚态化学研讨会-凝聚态化学的核心-凝聚态结构化学的建设",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2024/10/5089.html",
+          "title": "第四届凝聚态化学研讨会-凝聚态化学的核心-凝聚态结构化学的建设",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2024/10/5089.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2024/07/5027.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2024/07/5027.html",
+          "title": "首届多省市区化学会前沿交叉科学峰会会议",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2024/07/5027.html",
+          "title": "首届多省市区化学会前沿交叉科学峰会会议",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2024/07/5027.html",
+          "title": "首届多省市区化学会前沿交叉科学峰会会议",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2024/07/5027.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2026/10/5314.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2026/10/5314.html",
+          "title": "有机二维晶体中的激发态动力学",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2026/10/5314.html",
+          "title": "有机二维晶体中的激发态动力学",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2026/10/5314.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2026/07/5285.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2026/07/5285.html",
+          "title": "单原子催化",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2026/07/5285.html",
+          "title": "单原子催化",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2026/07/5285.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2025/12/5221.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2025/12/5221.html",
+          "title": "电解质水溶液电化学",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2025/12/5221.html",
+          "title": "电解质水溶液电化学",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2025/12/5221.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2014/05/2874.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2014/05/2874.html",
+          "title": "新生指南服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2014/05/2874.html",
+          "title": "新生指南服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2014/05/2874.html",
+          "title": "新生指南服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2014/05/2874.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/09/246.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/246.html",
+          "title": "仪器预约服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/09/246.html",
+          "title": "仪器预约服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/246.html",
+          "title": "仪器预约服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/09/246.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/09/242.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/242.html",
+          "title": "数据存储服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/09/242.html",
+          "title": "数据存储服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/242.html",
+          "title": "数据存储服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/09/242.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/09/238.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/238.html",
+          "title": "帐号服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/09/238.html",
+          "title": "帐号服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/238.html",
+          "title": "帐号服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/09/238.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/09/858.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/858.html",
+          "title": "数据库服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/09/858.html",
+          "title": "数据库服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/858.html",
+          "title": "数据库服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/09/858.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/09/854.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/854.html",
+          "title": "帮助服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/09/854.html",
+          "title": "帮助服务",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/09/854.html",
+          "title": "帮助服务",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/09/854.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1684.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1684.html",
+          "title": "无机超分子实验楼",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1684.html",
+          "title": "无机超分子实验楼",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1684.html",
+          "title": "无机超分子实验楼",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1684.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1668.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1668.html",
+          "title": "会议中心",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1668.html",
+          "title": "会议中心",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1668.html",
+          "title": "会议中心",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1668.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1672.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1672.html",
+          "title": "美丽东湖",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1672.html",
+          "title": "美丽东湖",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1672.html",
+          "title": "美丽东湖",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1672.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1680.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1680.html",
+          "title": "实验楼大厅",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1680.html",
+          "title": "实验楼大厅",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1680.html",
+          "title": "实验楼大厅",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1680.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1676.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1676.html",
+          "title": "实验室工作环境",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1676.html",
+          "title": "实验室工作环境",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1676.html",
+          "title": "实验室工作环境",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1676.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1664.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1664.html",
+          "title": "实验室小会议室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1664.html",
+          "title": "实验室小会议室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1664.html",
+          "title": "实验室小会议室",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1664.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1660.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1660.html",
+          "title": "学生自习室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1660.html",
+          "title": "学生自习室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1660.html",
+          "title": "学生自习室",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1660.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1656.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1656.html",
+          "title": "实验室展览馆",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1656.html",
+          "title": "实验室展览馆",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1656.html",
+          "title": "实验室展览馆",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1656.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2015/04/3165.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2015/04/3165.html",
+          "title": "2015年国务院总理李克强访问实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2015/04/3165.html",
+          "title": "2015年国务院总理李克强访问实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2015/04/3165.html",
+          "title": "2015年国务院总理李克强访问实验室",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2015/04/3165.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1632.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1632.html",
+          "title": "2012年实验室面向中学生开放",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1632.html",
+          "title": "2012年实验室面向中学生开放",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1632.html",
+          "title": "2012年实验室面向中学生开放",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1632.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1626.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1626.html",
+          "title": "2011年学术委员会研讨会",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1626.html",
+          "title": "2011年学术委员会研讨会",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1626.html",
+          "title": "2011年学术委员会研讨会",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1626.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1636.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1636.html",
+          "title": "2010年人大常委会委员长吴邦国参观实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1636.html",
+          "title": "2010年人大常委会委员长吴邦国参观实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1636.html",
+          "title": "2010年人大常委会委员长吴邦国参观实验室",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1636.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1620.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1620.html",
+          "title": "2009年重点实验室评估委员会参观实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1620.html",
+          "title": "2009年重点实验室评估委员会参观实验室",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1620.html",
+          "title": "2009年重点实验室评估委员会参观实验室",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1620.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1616.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1616.html",
+          "title": "2009年重点实验室评估会议",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1616.html",
+          "title": "2009年重点实验室评估会议",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1616.html",
+          "title": "2009年重点实验室评估会议",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1616.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1608.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1608.html",
+          "title": "2007年第十五届国际分子筛大会",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1608.html",
+          "title": "2007年第十五届国际分子筛大会",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1608.html",
+          "title": "2007年第十五届国际分子筛大会",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1608.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://synlab.jlu.edu.cn/2013/11/1602.html",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1602.html",
+          "title": "2004年无机超分子大楼建成",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1602.html",
+          "title": "2004年无机超分子大楼建成",
+          "date": null
+        },
+        {
+          "column_url": "https://synlab.jlu.edu.cn/information/events",
+          "url": "https://synlab.jlu.edu.cn/2013/11/1602.html",
+          "title": "2004年无机超分子大楼建成",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "https://synlab.jlu.edu.cn/2013/11/1602.html"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+          "title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+          "date": "2026-09-07"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+          "title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+          "date": "2026-09-07"
+        }
+      ],
+      "canonical_urls": [
+        "https://ddy.jlu.edu.cn/info/1009/1613.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03"
+        }
+      ],
+      "canonical_urls": [
+        "https://ddy.jlu.edu.cn/info/1009/1611.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+          "title": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知",
+          "date": "2025-10-11"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+          "title": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知",
+          "date": "2025-10-11"
+        }
+      ],
+      "canonical_urls": [
+        "https://ddy.jlu.edu.cn/info/1009/1571.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://rsgl.jlu.edu.cn/info/1028/2854.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+          "url": "http://rsgl.jlu.edu.cn/info/1028/2854.htm",
+          "title": "Dingxin Scholar Program",
+          "date": null
+        },
+        {
+          "column_url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+          "url": "http://rsgl.jlu.edu.cn/info/1028/2854.htm",
+          "title": "Dingxin Scholar Program",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "http://rsgl.jlu.edu.cn/info/1028/2854.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://pjb.jlu.edu.cn/info/1015/3551.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3551.htm",
+          "title": "关于公示吉林大学附属学校2026年吉林省某人才计划拟推荐人选的通知",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3551.htm",
+          "title": "关于公示吉林大学附属学校2026年吉林省某人才计划拟推荐人选的通知",
+          "date": "2026-10-10"
+        }
+      ],
+      "canonical_urls": [
+        "https://pjb.jlu.edu.cn/info/1015/3551.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://pjb.jlu.edu.cn/info/1015/3543.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3543.htm",
+          "title": "关于开展第二批吉林省某人才计划教育教学领军人才（教育领域）推荐申报...",
+          "date": "2026-09-22"
+        },
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3543.htm",
+          "title": "关于开展第二批吉林省某人才计划教育教学领军人才（教育领域）推荐申报...",
+          "date": "2026-09-22"
+        }
+      ],
+      "canonical_urls": [
+        "https://pjb.jlu.edu.cn/info/1015/3543.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://pjb.jlu.edu.cn/info/1015/3531.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3531.htm",
+          "title": "关于鄂禹含同志固定聘期考核结果的公示",
+          "date": "2026-07-13"
+        },
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3531.htm",
+          "title": "关于鄂禹含同志固定聘期考核结果的公示",
+          "date": "2026-07-13"
+        }
+      ],
+      "canonical_urls": [
+        "https://pjb.jlu.edu.cn/info/1015/3531.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://pjb.jlu.edu.cn/info/1015/3512.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3512.htm",
+          "title": "2026年中小学幼儿园省级骨干教师重新认定和培养对象拟推荐对象公示",
+          "date": "2026-06-01"
+        },
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3512.htm",
+          "title": "2026年中小学幼儿园省级骨干教师重新认定和培养对象拟推荐对象公示",
+          "date": "2026-06-01"
+        }
+      ],
+      "canonical_urls": [
+        "https://pjb.jlu.edu.cn/info/1015/3512.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "https://pjb.jlu.edu.cn/info/1015/3472.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3472.htm",
+          "title": "2026年吉林省教学成果奖评选表彰拟推荐对象公示",
+          "date": "2026-03-24"
+        },
+        {
+          "column_url": "https://pjb.jlu.edu.cn/tzzx/gztz.htm",
+          "url": "https://pjb.jlu.edu.cn/info/1015/3472.htm",
+          "title": "2026年吉林省教学成果奖评选表彰拟推荐对象公示",
+          "date": "2026-03-24"
+        }
+      ],
+      "canonical_urls": [
+        "https://pjb.jlu.edu.cn/info/1015/3472.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+          "title": "国际合作",
+          "date": null
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/jrwm/zpxx.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+          "title": "国际合作",
+          "date": null
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+          "title": "国际合作",
+          "date": null
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+          "title": "国际合作",
+          "date": null
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1026/2416.htm",
+          "title": "国际合作",
+          "date": null
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1026/2416.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3746.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3746.htm",
+          "title": "先进结构材料与薄膜技术团队在陶瓷室温塑形机理探究方面取得进展",
+          "date": "2026-09-30"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3746.htm",
+          "title": "先进结构材料与薄膜技术团队在陶瓷室温塑形机理探究方面取得进展",
+          "date": "2026-09-30"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3746.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3738.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3738.htm",
+          "title": "高压科学与技术团队在脉冲电势驱动铜表面非平衡重构模拟方面取得进展",
+          "date": "2026-09-11"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3738.htm",
+          "title": "高压科学与技术团队在脉冲电势驱动铜表面非平衡重构模拟方面取得进展",
+          "date": "2026-09-11"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3738.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3734.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3734.htm",
+          "title": "先进能源与环境材料团队在三维骨架拓扑定向转变构筑超大孔分子筛方面取得重要进展",
+          "date": "2026-09-09"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3734.htm",
+          "title": "先进能源与环境材料团队在三维骨架拓扑定向转变构筑超大孔分子筛方面取得重要进展",
+          "date": "2026-09-09"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3734.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3736.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3736.htm",
+          "title": "新概念材料团队在用于高精度光斑检测的CsSnI₃光电探测器方面取得进展",
+          "date": "2026-09-08"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3736.htm",
+          "title": "新概念材料团队在用于高精度光斑检测的CsSnI₃光电探测器方面取得进展",
+          "date": "2026-09-08"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3736.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3731.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3731.htm",
+          "title": "先进能源与环境材料团队在分子筛限域有机分子实现长寿命余辉发射方面取得重要进展",
+          "date": "2026-08-18"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3731.htm",
+          "title": "先进能源与环境材料团队在分子筛限域有机分子实现长寿命余辉发射方面取得重要进展",
+          "date": "2026-08-18"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3731.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3728.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3728.htm",
+          "title": "新概念材料团队在水系锌离子电池方面取得进展",
+          "date": "2026-08-15"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3728.htm",
+          "title": "新概念材料团队在水系锌离子电池方面取得进展",
+          "date": "2026-08-15"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3728.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3711.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3711.htm",
+          "title": "先进能源与环境材料团队在二维到三维拓扑缩合构筑三维大孔分子筛方面取得重要进展",
+          "date": "2026-07-21"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3711.htm",
+          "title": "先进能源与环境材料团队在二维到三维拓扑缩合构筑三维大孔分子筛方面取得重要进展",
+          "date": "2026-07-21"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3711.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1007/3701.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3701.htm",
+          "title": "先进能源与环境材料团队在无定形导向策略可控制备MFI纳米片及其高效催化甲醇制丙烯方面取得新进展",
+          "date": "2026-07-06"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1007/3701.htm",
+          "title": "先进能源与环境材料团队在无定形导向策略可控制备MFI纳米片及其高效催化甲醇制丙烯方面取得新进展",
+          "date": "2026-07-06"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1007/3701.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3446.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3446.htm",
+          "title": "实验室会议室预约和使用规范",
+          "date": "2025-06-26"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3446.htm",
+          "title": "实验室会议室预约和使用规范",
+          "date": "2025-06-26"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3446.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3748.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3748.htm",
+          "title": "未来科学交叉研究分会场口头报告报名通知",
+          "date": "2026-10-07"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3748.htm",
+          "title": "未来科学交叉研究分会场口头报告报名通知",
+          "date": "2026-10-07"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3748.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3741.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3741.htm",
+          "title": "论坛预告 | 中白电磁场与光电子学前沿论坛",
+          "date": "2026-09-15"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3741.htm",
+          "title": "论坛预告 | 中白电磁场与光电子学前沿论坛",
+          "date": "2026-09-15"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3741.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3740.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3740.htm",
+          "title": "论坛预告 | AI+新概念材料与技术中白创新论坛",
+          "date": "2026-09-15"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3740.htm",
+          "title": "论坛预告 | AI+新概念材料与技术中白创新论坛",
+          "date": "2026-09-15"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3740.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3732.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3732.htm",
+          "title": "关于2026年创新型人才国际合作培养项目(第三批次)拟推荐人选的公示",
+          "date": "2026-08-31"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3732.htm",
+          "title": "关于2026年创新型人才国际合作培养项目(第三批次)拟推荐人选的公示",
+          "date": "2026-08-31"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3732.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3707.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3707.htm",
+          "title": "学术报告通知 | 低剂量电子显微在化学中的应用",
+          "date": "2026-07-13"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3707.htm",
+          "title": "学术报告通知 | 低剂量电子显微在化学中的应用",
+          "date": "2026-07-13"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3707.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3705.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3705.htm",
+          "title": "会议预告 | 吉林大学-昆士兰大学未来材料双边研讨会",
+          "date": "2026-07-09"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3705.htm",
+          "title": "会议预告 | 吉林大学-昆士兰大学未来材料双边研讨会",
+          "date": "2026-07-09"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3705.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://icfs.jlu.edu.cn/info/1008/3694.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/index.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3694.htm",
+          "title": "实验室2027年招收优秀应届本科毕业生直接攻读博士学位研究生校内预选合格学生名单公示",
+          "date": "2026-07-03"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3694.htm",
+          "title": "实验室2027年招收优秀应届本科毕业生直接攻读博士学位研究生校内预选合格学生名单公示",
+          "date": "2026-07-03"
+        }
+      ],
+      "canonical_urls": [
+        "http://icfs.jlu.edu.cn/info/1008/3694.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3102.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3102.htm",
+          "title": "关于公示吉林大学国家发展与安全研究院2026年度研究生国家奖学金评审工作细则、国家奖学金评审委员会名单的通知",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3102.htm",
+          "title": "关于公示吉林大学国家发展与安全研究院2026年度研究生国家奖学金评审工作细则、国家奖学金评审委员会名单的通知",
+          "date": "2026-10-10"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3102.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3097.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3097.htm",
+          "title": "国家发展与安全研究院2026年度研究生学业奖学金评审工作实施细则",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3097.htm",
+          "title": "国家发展与安全研究院2026年度研究生学业奖学金评审工作实施细则",
+          "date": "2026-10-09"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3097.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3096.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3096.htm",
+          "title": "国家发展与安全研究院2025-2026学年研究生评奖评优结果公示",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3096.htm",
+          "title": "国家发展与安全研究院2025-2026学年研究生评奖评优结果公示",
+          "date": "2026-09-28"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3096.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3094.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3094.htm",
+          "title": "国家发展与安全研究院2026年12月份博士学位申请者学术成果公示",
+          "date": "2026-09-23"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3094.htm",
+          "title": "国家发展与安全研究院2026年12月份博士学位申请者学术成果公示",
+          "date": "2026-09-23"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3094.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3093.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3093.htm",
+          "title": "吉林大学国家发展与安全研究院2027年接收推荐免试攻读硕士研究生拟录取名单公示",
+          "date": "2026-09-22"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3093.htm",
+          "title": "吉林大学国家发展与安全研究院2027年接收推荐免试攻读硕士研究生拟录取名单公示",
+          "date": "2026-09-22"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3093.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3092.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3092.htm",
+          "title": "国家发展与安全研究院2025－2026学年研究生优秀奖学金、优秀研究生、优秀研究生干部评选工作实施细则",
+          "date": "2026-09-21"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3092.htm",
+          "title": "国家发展与安全研究院2025－2026学年研究生优秀奖学金、优秀研究生、优秀研究生干部评选工作实施细则",
+          "date": "2026-09-21"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3092.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+          "title": "关于公示2026-2027学年秋季学期研究生教材选用信息的通知",
+          "date": "2026-09-17"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+          "title": "关于公示2026-2027学年秋季学期研究生教材选用信息的通知",
+          "date": "2026-09-17"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3085.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    },
+    {
+      "group_url": "http://indss.jlu.edu.cn/info/1370/3084.htm",
+      "category": "SAME_URL_COLUMN_REFERENCE",
+      "records": [
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3084.htm",
+          "title": "吉林大学国家发展与安全研究院2027年推荐免试攻读硕士研究生招生录取工作实施细则",
+          "date": "2026-09-16"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3084.htm",
+          "title": "吉林大学国家发展与安全研究院2027年推荐免试攻读硕士研究生招生录取工作实施细则",
+          "date": "2026-09-16"
+        }
+      ],
+      "canonical_urls": [
+        "http://indss.jlu.edu.cn/info/1370/3084.htm"
+      ],
+      "database_duplicate_proven": false,
+      "action": "Reuse canonical identity and retain source relations; no production merge or deletion"
+    }
+  ],
+  "title_date_candidates": [
+    {
+      "index": 1,
+      "category": "CROSS_SITE_REPRINT_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://cse.jlu.edu.cn/xytz.htm",
+          "url": "https://cse.jlu.edu.cn/info/1003/1488.htm",
+          "title": "关于申报2025年“开源安全奖励计划”的通知",
+          "date": "2025-10-13"
+        },
+        {
+          "column_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+          "url": "https://csw.jlu.edu.cn/info/1009/8027.htm",
+          "title": "关于申报2025年“开源安全奖励计划”的通知",
+          "date": "2025-10-13"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://cse.jlu.edu.cn/info/1003/1488.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/info/1009/8027.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 2,
+      "category": "CROSS_SITE_REPRINT_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://www.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://www.jlu.edu.cn/info/1095/57360.htm",
+          "title": "吉林大学2026年辅导员招聘补充公告",
+          "date": "2026-04-23"
+        },
+        {
+          "column_url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+          "url": "https://rsgl.jlu.edu.cn/info/1028/4401.htm",
+          "title": "吉林大学2026年辅导员招聘补充公告",
+          "date": "2026-04-23"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://rsgl.jlu.edu.cn/info/1028/4401.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://www.jlu.edu.cn/info/1095/57360.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 3,
+      "category": "CROSS_SITE_REPRINT_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://www.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://www.jlu.edu.cn/info/1095/57300.htm",
+          "title": "吉林大学2026年辅导员招聘公告",
+          "date": "2026-04-17"
+        },
+        {
+          "column_url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+          "url": "https://rsgl.jlu.edu.cn/info/1028/4400.htm",
+          "title": "吉林大学2026年辅导员招聘公告",
+          "date": "2026-04-17"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://rsgl.jlu.edu.cn/info/1028/4400.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://www.jlu.edu.cn/info/1095/57300.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 4,
+      "category": "CROSS_SITE_REPRINT_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://kjc.jlu.edu.cn/tzgg.htm",
+          "url": "https://kjc.jlu.edu.cn/info/1118/6237.htm",
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://kjc.jlu.edu.cn/info/1118/6237.htm",
+          "captured_at": "2026-10-13T14:07:27+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/ee10048c8f826e16be6a3baff1dc60febdf9186f3d43508a8320f468236fb422.html",
+          "sha256": "ee10048c8f826e16be6a3baff1dc60febdf9186f3d43508a8320f468236fb422",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 1537,
+          "text_sha256": "4c7856ef3fc9d0ef63644123d8ff7cfd3984f28137773a88a778d11e33ee3acf"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 5,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+          "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+          "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+          "date": "2026-08-06"
+        },
+        {
+          "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+          "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+          "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+          "date": "2026-08-06"
+        },
+        {
+          "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+          "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+          "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+          "date": "2026-08-06"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm",
+          "captured_at": "2026-10-13T13:54:23+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/9192658f9ec2687391ccbeaf995763ea651a37b2688ca7e436a8c3295fa81052.html",
+          "sha256": "9192658f9ec2687391ccbeaf995763ea651a37b2688ca7e436a8c3295fa81052",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 1062,
+          "text_sha256": "a79e2e2083a9bec76e0be734e93e571af7a3049aa1bba99e56c90ec8d6ac7018"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 6,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+          "url": "https://ccst.jlu.edu.cn/info/1261/20844.htm",
+          "title": "关于2026年度国家自然科学基金申请与结题工作安排的通知",
+          "date": "2026-01-15"
+        },
+        {
+          "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+          "url": "https://ccst.jlu.edu.cn/info/1091/20845.htm",
+          "title": "关于2026年度国家自然科学基金申请与结题工作安排的通知",
+          "date": "2026-01-15"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1091/20845.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1261/20844.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 7,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1049/11857.htm",
+          "title": "吉林大学王湘浩试验班（人工智能）2024年面向高考招生",
+          "date": "2024-03-28"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1049/11857.htm",
+          "title": "吉林大学王湘浩试验班（人工智能）2024年面向高考招生",
+          "date": "2024-03-28"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1049/11857.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1049/11857.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 8,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1049/11851.htm",
+          "title": "吉林大学王湘浩试验班（网络空间安全）2024年面向高考招生",
+          "date": "2024-03-27"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1049/11851.htm",
+          "title": "吉林大学王湘浩试验班（网络空间安全）2024年面向高考招生",
+          "date": "2024-03-27"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1049/11851.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1049/11851.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 9,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1049/11689.htm",
+          "title": "经济学院丁一兵院长参加教育部经济学“101计划”年度工作推进会",
+          "date": "2023-12-12"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1049/11689.htm",
+          "title": "经济学院丁一兵院长参加教育部经济学“101计划”年度工作推进会",
+          "date": "2023-12-12"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1049/11689.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1049/11689.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 10,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1049/11688.htm",
+          "title": "吉林省“优秀大学生”周家旭： 在奋斗中成就出彩人生",
+          "date": "2023-12-10"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1049/11688.htm",
+          "title": "吉林省“优秀大学生”周家旭： 在奋斗中成就出彩人生",
+          "date": "2023-12-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1049/11688.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1049/11688.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 11,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12658.htm",
+          "title": "关于2025—2026学年第二学期本科生公共物理《大学物理BII》单独重修班考试的通知",
+          "date": "2026-06-03"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12658.htm",
+          "title": "关于2025—2026学年第二学期本科生公共物理《大学物理BII》单独重修班考试的通知",
+          "date": "2026-06-03"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12658.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12658.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 12,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12655.htm",
+          "title": "关于2025—2026学年第二学期本科生公共数学重修班考试的通知",
+          "date": "2026-06-03"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12655.htm",
+          "title": "关于2025—2026学年第二学期本科生公共数学重修班考试的通知",
+          "date": "2026-06-03"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12655.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12655.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 13,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12611.htm",
+          "title": "关于2025-2026学年第二学期《军事理论》课程考试工作安排的通知",
+          "date": "2026-05-07"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12611.htm",
+          "title": "关于2025-2026学年第二学期《军事理论》课程考试工作安排的通知",
+          "date": "2026-05-07"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12611.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12611.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 14,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12492.htm",
+          "title": "中心校区关于2025—2026学年第一学期《有机化学实验》课程考试工作的通知",
+          "date": "2025-12-15"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12492.htm",
+          "title": "中心校区关于2025—2026学年第一学期《有机化学实验》课程考试工作的通知",
+          "date": "2025-12-15"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12492.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12492.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 15,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12491.htm",
+          "title": "关于2025-2026学年第一学期本科生公共数学 《概率论与数理统计A》 单独重修班考试的通知",
+          "date": "2025-12-15"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12491.htm",
+          "title": "关于2025-2026学年第一学期本科生公共数学 《概率论与数理统计A》 单独重修班考试的通知",
+          "date": "2025-12-15"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12491.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12491.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 16,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12490.htm",
+          "title": "关于2025-2026学年第一学期《工程制图B》（含重修）考试通知",
+          "date": "2025-12-11"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12490.htm",
+          "title": "关于2025-2026学年第一学期《工程制图B》（含重修）考试通知",
+          "date": "2025-12-11"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12490.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12490.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 17,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12488.htm",
+          "title": "关于2025—2026学年第一学期《思想道德与法治》（含重修）期末考试的通知",
+          "date": "2025-12-10"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12488.htm",
+          "title": "关于2025—2026学年第一学期《思想道德与法治》（含重修）期末考试的通知",
+          "date": "2025-12-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12488.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12488.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 18,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12487.htm",
+          "title": "关于2025-2026学年第一学期本科生公共数学《线性代数B、C》单独重修班考试的通知",
+          "date": "2025-12-10"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12487.htm",
+          "title": "关于2025-2026学年第一学期本科生公共数学《线性代数B、C》单独重修班考试的通知",
+          "date": "2025-12-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12487.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12487.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 19,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12468.htm",
+          "title": "中心校区关于2025—2026学年第一学期《无机化学实验C\\D\\E》课程考试工作的通知",
+          "date": "2025-11-13"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12468.htm",
+          "title": "中心校区关于2025—2026学年第一学期《无机化学实验C\\D\\E》课程考试工作的通知",
+          "date": "2025-11-13"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12468.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12468.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 20,
+      "category": "PROTOCOL_ALIAS_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://jwc.jlu.edu.cn/",
+          "url": "https://jwc.jlu.edu.cn/info/1403/12467.htm",
+          "title": "关于2025—2026学年第一学期本科生公共物理《大学物理BI》单独重修班考试的通知",
+          "date": "2025-11-12"
+        },
+        {
+          "column_url": "http://jwc.jlu.edu.cn/index.htm",
+          "url": "http://jwc.jlu.edu.cn/info/1403/12467.htm",
+          "title": "关于2025—2026学年第一学期本科生公共物理《大学物理BI》单独重修班考试的通知",
+          "date": "2025-11-12"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://jwc.jlu.edu.cn/info/1403/12467.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1403/12467.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 21,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+          "url": "https://dwkx.jlu.edu.cn/info/1045/1320.htm",
+          "title": "就业信息就业信息",
+          "date": "2013-07-05"
+        },
+        {
+          "column_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+          "url": "https://dwkx.jlu.edu.cn/info/1045/1316.htm",
+          "title": "就业信息就业信息",
+          "date": "2013-07-05"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://dwkx.jlu.edu.cn/info/1045/1316.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://dwkx.jlu.edu.cn/info/1045/1320.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 22,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://geo.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://geo.jlu.edu.cn/info/1094/16206.htm",
+          "title": "2025-2026学年优秀奖学金、优秀研究生干部和优秀研究生评选报名通知",
+          "date": "2026-09-21"
+        },
+        {
+          "column_url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+          "url": "https://geo.jlu.edu.cn/info/1611/16207.htm",
+          "title": "2025-2026学年优秀奖学金、优秀研究生干部和优秀研究生评选报名通知",
+          "date": "2026-09-21"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://geo.jlu.edu.cn/info/1094/16206.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://geo.jlu.edu.cn/info/1611/16207.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 23,
+      "category": "CROSS_SITE_REPRINT_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://hlxy.jlu.edu.cn/info/1004/3111.htm",
+          "title": "关于公示2026‑2027学年秋季学期研究生教材选用信息的通知",
+          "date": "2026-09-17"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/index.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+          "title": "关于公示2026-2027学年秋季学期研究生教材选用信息的通知",
+          "date": "2026-09-17"
+        },
+        {
+          "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+          "title": "关于公示2026-2027学年秋季学期研究生教材选用信息的通知",
+          "date": "2026-09-17"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://indss.jlu.edu.cn/info/1370/3085.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://hlxy.jlu.edu.cn/info/1004/3111.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 24,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1186/24269.htm",
+          "title": "第九届联合国际法师生论坛 预 通 知",
+          "date": "2025-01-05"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1081/24268.htm",
+          "title": "第九届联合国际法师生论坛 预 通 知",
+          "date": "2025-01-05"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://law.jlu.edu.cn/info/1081/24268.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://law.jlu.edu.cn/info/1186/24269.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 25,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1186/23860.htm",
+          "title": "第四届君道论坛暨“法典化时代劳动法理论与制度创新发展”高峰论坛正式通知",
+          "date": "2024-08-22"
+        },
+        {
+          "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+          "url": "https://law.jlu.edu.cn/info/1081/23859.htm",
+          "title": "第四届君道论坛暨“法典化时代劳动法理论与制度创新发展”高峰论坛正式通知",
+          "date": "2024-08-22"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://law.jlu.edu.cn/info/1081/23859.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://law.jlu.edu.cn/info/1186/23860.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 26,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1082/6585.htm",
+          "title": "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取（第二批）工作通知 2026-09-28",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1056/6584.htm",
+          "title": "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取（第二批）工作通知 2026-09-28",
+          "date": "2026-09-28"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1056/6584.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1082/6585.htm",
+          "captured_at": "2026-10-13T13:59:17+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/3270a18a1735dca2136cedf33b4a7ada76628c82eb9c87831193d5e85421f146.html",
+          "sha256": "3270a18a1735dca2136cedf33b4a7ada76628c82eb9c87831193d5e85421f146",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 1358,
+          "text_sha256": "9f60397fc037fff151ae608debb93536b126e799f86613ff07bf93cd0680c423"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 27,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1082/6563.htm",
+          "title": "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取工作实施细则 2026-09-16",
+          "date": "2026-09-16"
+        },
+        {
+          "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1056/6561.htm",
+          "title": "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取工作实施细则 2026-09-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1056/6561.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1082/6563.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 28,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1082/6523.htm",
+          "title": "吉林大学东北亚学院“2026年校园学术活动开放日”通知 2026-06-18",
+          "date": "2026-06-18"
+        },
+        {
+          "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1056/6522.htm",
+          "title": "吉林大学东北亚学院“2026年校园学术活动开放日”通知 2026-06-18",
+          "date": "2026-06-18"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1056/6522.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1082/6523.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 29,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1082/6209.htm",
+          "title": "吉林大学东北亚学院“2025年校园学术活动开放日”通知 2025-06-19",
+          "date": "2025-06-19"
+        },
+        {
+          "column_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+          "url": "https://nasa.jlu.edu.cn/info/1054/6205.htm",
+          "title": "吉林大学东北亚学院“2025年校园学术活动开放日”通知 2025-06-19",
+          "date": "2025-06-19"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1054/6205.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/info/1082/6209.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 30,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9057.htm",
+          "title": "关于公示吉林大学公共外交学院研究生国家奖学金评审工作细则、国家奖学金评审委员会名单的通知",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9056.htm",
+          "title": "关于公示吉林大学公共外交学院研究生国家奖学金评审工作细则、国家奖学金评审委员会名单的通知",
+          "date": "2026-10-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9057.htm",
+          "captured_at": "2026-10-13T14:00:57+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/eb155183d642807973726c56218d24fa76d06702483d2769cfe346682016be6b.html",
+          "sha256": "eb155183d642807973726c56218d24fa76d06702483d2769cfe346682016be6b",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 281,
+          "text_sha256": "4cd8bdae184ccedbf581c0892704bf494c996746b22cbdeeb2062fb3d18e63e5"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9056.htm",
+          "captured_at": "2026-10-13T14:01:06+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/69ff2782269d98ebc0f4aa201ce1d96cc4a3edc1e5821bf594436c5c1bc461f1.html",
+          "sha256": "69ff2782269d98ebc0f4aa201ce1d96cc4a3edc1e5821bf594436c5c1bc461f1",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 281,
+          "text_sha256": "4cd8bdae184ccedbf581c0892704bf494c996746b22cbdeeb2062fb3d18e63e5"
+        }
+      ],
+      "body_verdict": "MATCHING_SAVED_TEXT_REPRINT_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 31,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9055.htm",
+          "title": "公共外交学院2026年暑期社会实践评比结果公示",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9054.htm",
+          "title": "公共外交学院2026年暑期社会实践评比结果公示",
+          "date": "2026-10-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9055.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9054.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 32,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9053.htm",
+          "title": "公共外交学院2025-2026学年奖学金、优秀学生和优秀学生干部名单公示",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9052.htm",
+          "title": "公共外交学院2025-2026学年奖学金、优秀学生和优秀学生干部名单公示",
+          "date": "2026-10-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9053.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9052.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 33,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9051.htm",
+          "title": "公共外交学院2025-2026学年国家励志奖学金推荐名单公示",
+          "date": "2026-10-10"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9050.htm",
+          "title": "公共外交学院2025-2026学年国家励志奖学金推荐名单公示",
+          "date": "2026-10-10"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9051.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9050.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 34,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9042.htm",
+          "title": "公共外交学院2026年度研究生学业奖学金评审工作实施细则",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9041.htm",
+          "title": "公共外交学院2026年度研究生学业奖学金评审工作实施细则",
+          "date": "2026-10-09"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9042.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9041.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 35,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9040.htm",
+          "title": "公共外交学院2026年国家助学金推荐名单公示",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9039.htm",
+          "title": "公共外交学院2026年国家助学金推荐名单公示",
+          "date": "2026-10-09"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9040.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9039.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 36,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9038.htm",
+          "title": "公共外交学院2026年“吉林大学助学金”推荐名单公示",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9037.htm",
+          "title": "公共外交学院2026年“吉林大学助学金”推荐名单公示",
+          "date": "2026-10-09"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9038.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9037.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 37,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9036.htm",
+          "title": "公共外交学院2025-2026学年国家奖学金推荐名单公示",
+          "date": "2026-10-09"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9035.htm",
+          "title": "公共外交学院2025-2026学年国家奖学金推荐名单公示",
+          "date": "2026-10-09"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9036.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9035.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 38,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9033.htm",
+          "title": "关于公示公共外交学院2026级本科生班委名单的通知",
+          "date": "2026-10-08"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9032.htm",
+          "title": "关于公示公共外交学院2026级本科生班委名单的通知",
+          "date": "2026-10-08"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9033.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9032.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 39,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9029.htm",
+          "title": "关于公共外交学院2026年秋季学期第一轮本科生学生公寓卫生安全检查工作的通报",
+          "date": "2026-09-30"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9028.htm",
+          "title": "关于公共外交学院2026年秋季学期第一轮本科生学生公寓卫生安全检查工作的通报",
+          "date": "2026-09-30"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9029.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9028.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 40,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9027.htm",
+          "title": "公共外交学院2025-2026学年研究生评奖评优结果公示",
+          "date": "2026-09-28"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9026.htm",
+          "title": "公共外交学院2025-2026学年研究生评奖评优结果公示",
+          "date": "2026-09-28"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9027.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9026.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 41,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9021.htm",
+          "title": "公共外交学院2026年度宝钢优秀学生奖学金推荐名单公示",
+          "date": "2026-09-23"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9020.htm",
+          "title": "公共外交学院2026年度宝钢优秀学生奖学金推荐名单公示",
+          "date": "2026-09-23"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9021.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9020.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 42,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1044/9017.htm",
+          "title": "公共外交学院关于2026下半年申请答辩博士研究生学术成果的公示",
+          "date": "2026-09-22"
+        },
+        {
+          "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+          "url": "https://sipa.jlu.edu.cn/info/1310/9016.htm",
+          "title": "公共外交学院关于2026下半年申请答辩博士研究生学术成果的公示",
+          "date": "2026-09-22"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1044/9017.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/info/1310/9016.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 43,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1008/1601.htm",
+          "title": "边铁副校长率队赴中国地质调查局沈阳地质调查中心推进交流合作",
+          "date": "2026-05-19"
+        },
+        {
+          "column_url": "https://ddy.jlu.edu.cn/tzkx.htm",
+          "url": "https://ddy.jlu.edu.cn/info/1004/1602.htm",
+          "title": "边铁副校长率队赴中国地质调查局沈阳地质调查中心推进交流合作",
+          "date": "2026-05-19"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://ddy.jlu.edu.cn/info/1004/1602.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://ddy.jlu.edu.cn/info/1008/1601.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 44,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "https://rsgl.jlu.edu.cn/gggs.htm",
+          "url": "https://rsgl.jlu.edu.cn/info/1029/4382.htm",
+          "title": "关于2026年仪器科学与电气工程学院副研究员职务拟聘人选公示的通知",
+          "date": "2026-03-19"
+        },
+        {
+          "column_url": "https://rsgl.jlu.edu.cn/tzdt.htm",
+          "url": "https://rsgl.jlu.edu.cn/info/1026/4390.htm",
+          "title": "关于2026年仪器科学与电气工程学院副研究员职务拟聘人选公示的通知",
+          "date": "2026-03-19"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "https://rsgl.jlu.edu.cn/info/1026/4390.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "https://rsgl.jlu.edu.cn/info/1029/4382.htm",
+          "captured_at": "2026-10-13T14:08:12+08:00",
+          "snapshot": "docs/jlu-audit-evidence/html/81c23eb6fbebab0ef79ba61c1100ee4a6fb571b311271973c83c050323262260.html",
+          "sha256": "81c23eb6fbebab0ef79ba61c1100ee4a6fb571b311271973c83c050323262260",
+          "status": "SCOPED_TEXT_AVAILABLE",
+          "chars": 352,
+          "text_sha256": "e05031ae5797ec8b871214496a7b01c6d45f58aaecb86ee4edc2fe54035477be"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 45,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1034/9842.htm",
+          "title": "11 2026.04 吉林大学原子与分子物理研究所2026年硕士研究生调剂复试拟录取名单公示 根据学校相关要求，现将吉林大学原子与分子物理研究所2026年硕士研究生调剂复试拟录取名单予以公示（见附件），公示时间为2026年4月12日至2026年4月14日（公示时间为3日）。请拟录取考生务必仔细核对考生编号、姓名等，如有异议，请在公示期内具实名以书面形式向原子与分子物理研究所反映。 联系人：姜老师 电话：0431-85168817 邮箱：jiangpanpan@jlu.edu.cn吉林大学原子与分子物理研究所2026年4月11",
+          "date": "2026-04-12"
+        },
+        {
+          "column_url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1029/9843.htm",
+          "title": "11 2026.04 吉林大学原子与分子物理研究所2026年硕士研究生调剂复试拟录取名单公示 根据学校相关要求，现将吉林大学原子与分子物理研究所2026年硕士研究生调剂复试拟录取名单予以公示（见附件），公示时间为2026年4月12日至2026年4月14日（公示时间为3日）。请拟录取考生务必仔细核对考生编号、姓名等，如有异议，请在公示期内具实名以书面形式向原子与分子物理研究所反映。 联系人：姜老师 电话：0431-85168817 邮箱：jiangpanpan@jlu.edu.cn吉林大学原子与分子物理研究所2026年4月11",
+          "date": "2026-04-12"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1029/9843.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1034/9842.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 46,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1034/9838.htm",
+          "title": "09 2026.04 吉林大学原子与分子物理研究所2026年硕士研究生调剂复试名单 经考生报名、研究所组织审核，现公布吉林大学原子与分子物理研究所2026年硕士研究生招生调剂复试名单(见附件)。吉林大学原子与分子物理研究所2026年4月9",
+          "date": "2026-04-09"
+        },
+        {
+          "column_url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1029/9839.htm",
+          "title": "09 2026.04 吉林大学原子与分子物理研究所2026年硕士研究生调剂复试名单 经考生报名、研究所组织审核，现公布吉林大学原子与分子物理研究所2026年硕士研究生招生调剂复试名单(见附件)。吉林大学原子与分子物理研究所2026年4月9",
+          "date": "2026-04-09"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1029/9839.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1034/9838.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 47,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1034/9823.htm",
+          "title": "27 2026.03 吉林大学原子与分子物理研究所2026年统考硕士研究生拟录取名单公示 根据《吉林大学2026年硕士研究生招生复试录取工作办法》及学校相关要求，现将吉林大学原子与分子物理研究所2026年统考硕士研究生拟录取名单予以公示（见附件），公示时间为2026年3月28日至2026年3月30日（公示时间为3日）。请拟录取考生务必仔细核对考生编号、姓名等，如有异议，请在公示期内具实名以书面形式向原子与分子物理研究所反映。 联系人：姜老师电话：0431-85168817邮箱：jiangpanpan@jlu.edu.cn吉林大学原子与分...",
+          "date": "2026-03-28"
+        },
+        {
+          "column_url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+          "url": "http://iamp.jlu.edu.cn/info/1029/9822.htm",
+          "title": "27 2026.03 吉林大学原子与分子物理研究所2026年统考硕士研究生拟录取名单公示 根据《吉林大学2026年硕士研究生招生复试录取工作办法》及学校相关要求，现将吉林大学原子与分子物理研究所2026年统考硕士研究生拟录取名单予以公示（见附件），公示时间为2026年3月28日至2026年3月30日（公示时间为3日）。请拟录取考生务必仔细核对考生编号、姓名等，如有异议，请在公示期内具实名以书面形式向原子与分子物理研究所反映。 联系人：姜老师电话：0431-85168817邮箱：jiangpanpan@jlu.edu.cn吉林大学原子与分...",
+          "date": "2026-03-28"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1029/9822.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "http://iamp.jlu.edu.cn/info/1034/9823.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    },
+    {
+      "index": 48,
+      "category": "SAME_SITE_DISTINCT_URL_CANDIDATE",
+      "records": [
+        {
+          "column_url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1018/3661.htm",
+          "title": "关于实验室2024级硕士研究生硕博连读推荐选拔结果的通知（二）",
+          "date": "2026-05-11"
+        },
+        {
+          "column_url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+          "url": "http://icfs.jlu.edu.cn/info/1008/3660.htm",
+          "title": "关于实验室2024级硕士研究生硕博连读推荐选拔结果的通知（二）",
+          "date": "2026-05-11"
+        }
+      ],
+      "body_evidence": [
+        {
+          "url": "http://icfs.jlu.edu.cn/info/1008/3660.htm",
+          "status": "NO_SAVED_DETAIL"
+        },
+        {
+          "url": "http://icfs.jlu.edu.cn/info/1018/3661.htm",
+          "status": "NO_SAVED_DETAIL"
+        }
+      ],
+      "body_verdict": "INSUFFICIENT_SAVED_BODY_EVIDENCE",
+      "database_duplicate_proven": false,
+      "automatic_merge_authorized": false,
+      "action": "Keep source-scoped identity; matching heading/date alone does not justify cross-source merge"
+    }
+  ]
+}

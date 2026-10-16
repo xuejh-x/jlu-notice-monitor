@@ -1,0 +1,805 @@
+{
+  "id": "p3-b944229a171b",
+  "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+  "institution": "医院管理处",
+  "column": "通知公告",
+  "site_url": "https://ywc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/b944229a171be375.json",
+  "original_capture_time": "2026-10-13T13:38:37+08:00",
+  "discovery_url": "https://ywc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-b944229a171b",
+    "name": "医院管理处 / 通知公告",
+    "base_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:41+08:00",
+  "details": [
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1046/1887.htm",
+      "list_title": "关于申报2023年吉林大学临床医务人员继续医学教育项目的通知",
+      "list_date": "2022-09-22",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1046/1887.htm",
+        "time": "2026-10-15T22:10:36+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1046/1887.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4e3c3352b70c252ead1ff056c2133088455da966e12239b92e1329e4b456b8b3",
+        "html_path": "html/4e3c3352b70c252ead1ff056c2133088455da966e12239b92e1329e4b456b8b3.html",
+        "replacement_chars": 0,
+        "chars": 10203,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报2023年吉林大学临床医务人员继续医学教育项目的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1046/1887.htm",
+        "publish_date": "2022-09-22",
+        "publisher": null,
+        "content": "校医字 [ 2022 ] 3 号 校内各医院： 为扎实推进我校继续医学教育工作可持续发展，更好地满足卫生专业技术人员对优质培训资源的需求，不断提高业务素质和能力水平，现将2023年吉林大学临床医务人员继续医学教育项目申报工作通知如下： 一、申报时间 2022年9月25日-11月20日 二、申报学科专业 申报2023年吉林大学继续医学教育项目的学科专业包括：临床内科学、临床外科学（含麻醉及皮肤病与性病学科）、妇产科学、儿科学、眼科学、耳鼻咽喉科学、口腔医学、影像医学、急诊学、医学检验、药学、护理学、医学教育与卫生管理学、康复医学、全科医学等。 三、申报项目 （一） 项目内容 申报项目要体现“四新、三性”，即新理论、新知识、新方法和新技术以及先进性、针对性和实用性。 （二）项目负责人及授课教师必须满足以下要求： 1.医、药、技系列项目负责人必须具有副高级及以上专业技术职务，授课教师须为中级及以上职称专业技术人员。 2.护理学科项目负责人必须具有主管护师及以上专业技术职务，护理项目的授课教师职级可放宽至初级职称，但须担任为科室护士长或副护士长职务。 （三）申报要求 1.2023年校级继续医学教育项目申报，面授教学和网络教学项目均实行网上申报（网址：jidacme.wsglw.net），纸质申报表经医院专家组初审后报送给医院管理处。 2.网络教学项目申报，优先向影像医学学科、医学检验、公共卫生与预防医学、基础形态、传染病防治等医、技学科倾斜。每个网络项目最多只限3人申报，每个项目的一个课题学时填报为1学时（视频时间为30-40分钟），授予0.5分。网络项目录制完成后存至硬盘，与面授项目一同报送至医院管理处。 3.近二年内被批准立项但在当年未举办完成的项目，不得再次申报。 4.相似授课内容的项目，国家级、省级和校级不可同时申报，只能申报其一。 5.举办时间要填写准确（立项后的项目原则上不允许变更举办时间，特殊情况允许变更一次，且项目负责人提交项目举办变更时间申请报告，批准后可改期）。 6.项目举办方式：网络教学与学术讲座、学术会议、专题讨论会、研讨班、学习班等面授教学相结合。 7.教学时数为实际授课时数，不包括报到及与教学无关的时间。 8.教学对象须为本学科相关专业人员 9.学分计算方式：面授教学项目3学时授予0.5学分，网络项目1学时授予0.5分。 10.每个项目负责人只能申报1项。 11.网络教学的项目负责人享有著作权，但学校有权在业务范围内使用。 四、有关要求 （一）各医院要高度重视，认真组织申报，申报表须按要求填报，逐级审核，保证项目的质量。严禁往年已批准立项的项目重复申报。 （二）医院须将申报材料纸质版进行汇总并填写《吉林大学继续医学教育项目申报一览表》（见附件2），同时上报《吉林大学继续医学教育项目申报表》。所报材料须经本医院临床医务人员继续医学教育工作领导小组审核盖章。 五、此通知及附件可在吉林大学网站的白求恩医学部（网址： http://jdyxb.jlu.edu.cn ）或医院管理处（网址： http://yyglc.jlu.edu.cn ）网上下载，附件可复印。 联系人： 刘剑秋 赵丽勇 办公电话：0431—85619675 附件：1.《吉林大学继续医学教育项目申报表》 2.《吉林大学继续医学教育项目申报一览表》 医院管理处 2022年9月21日",
+        "attachments": [
+          {
+            "filename": "附件2.吉林大学继续医学教育申报一览表.xls",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458400",
+            "type": "xls"
+          },
+          {
+            "filename": "附件1.吉林大学继续医学教育项目申报表.doc",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458399",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于申报2023年吉林大学临床医务人员继续医学教育项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2022-09-22",
+            "date": "2022-09-22"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1403,
+        "reference_attachment_urls": [
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458399",
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458400"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报2023年吉林大学临床医务人员继续医学教育项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2022-09-22",
+            "date": "2022-09-22"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+      "list_title": "关于做好2022年度吉林大学初级卫生技术人员岗位培训考核工作的通知",
+      "list_date": "2022-09-22",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+        "time": "2026-10-15T22:10:37+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d41a2cd05fcd34a0db305a6955cf965b8e90fd4c09216d937a4f22b6c2d0da7a",
+        "html_path": "html/d41a2cd05fcd34a0db305a6955cf965b8e90fd4c09216d937a4f22b6c2d0da7a.html",
+        "replacement_chars": 0,
+        "chars": 9134,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于做好2022年度吉林大学初级卫生技术人员岗位培训考核工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+        "publish_date": "2022-09-22",
+        "publisher": "（抗疫专项）”称号的人员，学校可视为完成当年继续医学教育学分",
+        "content": "校医字[2022] 2号 校内各医院： 根据《关于印发〈吉林大学初级卫生技术人员岗位培训管理办法〉的通知》（校医字［2018］22号）文件精神，学校决定组织开展2022年度初级卫生技术人员岗位培训考核工作，现将有关事宜通知如下： 一、考核对象 校内医、药、护、技系列初级卫生技术人员。 二、报名条件 本年度参加医院组织的培训不少于12学时，技能培训不少于1周。 三、考核内容 考试以“三基”（基础知识、基本技能、基本理论）内容为主，按二级学科进行考试。 四、考核方式 考试主要采取手机APP考试形式，其中： 1.医疗系列人员按照二级学科进行考试； 2.护理系列人员分护士和护师两个层次进行考试； 3.考试地点在考核对象所在的医院进行； 4.年龄在50岁（包括50岁）以上的初级卫生技术人员，可选择二种考试方式：一是参加学校组织的手机APP考试；二是参加学校组织的纸制试卷考试。 五、考核时间 本年度考核拟定于2022年10月30日前完成，具体考试时间另行通知。 六、组织管理 医院管理处负责考试的组织工作，各医院相关管理部门负责本单位考试的具体工作。 七、工作要求 1.各医院要认真做好考试的准备工作，考试应符合疫情管控要求；同时认真进行考生的资格审核，确保参考人员符合考试要求。 2.各医院要在9月30日前将考试人员名单电子版报送医院管理处。 3.参加疫情防治的一线医务人员，根据《关于表彰2022年度医师节评优获得者的决定》校发[2022]156号文件，获得“优秀医务工作者（抗疫专项）”称号的人员，学校可视为完成当年继续医学教育学分。 4.参加学历教育的人员，由单位职能部门出具相应证明，可视为完成当年继续医学教育学分。 5.本次考试合格线为60分，不合格人员及缓考者给予一次补考机会，无故缺考者不予补考，违纪人员及成绩未通过者视为当年继续医学教育不合格。 联系人：刘剑秋 办公电话：0431—85619675 附件：2022年初级卫生技术人员岗位培训考试报名表 医院管理处 2022年9月21日",
+        "attachments": [
+          {
+            "filename": "2022年初级卫生技术人员考试报名表.docx",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458383",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于做好2022年度吉林大学初级卫生技术人员岗位培训考核工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2022-09-22",
+            "date": "2022-09-22"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 851,
+        "reference_attachment_urls": [
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458383"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于做好2022年度吉林大学初级卫生技术人员岗位培训考核工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2022-09-22",
+            "date": "2022-09-22"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+      "list_title": "关于申报2021年吉林大学临床医务人员继续医学教育项目的通知",
+      "list_date": "2020-09-24",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+        "time": "2026-10-15T22:10:39+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "cd9ee4d20e55a0041ffb4dd0796acaf7d87c336d59c0530353467f961f29a708",
+        "html_path": "html/cd9ee4d20e55a0041ffb4dd0796acaf7d87c336d59c0530353467f961f29a708.html",
+        "replacement_chars": 0,
+        "chars": 11866,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报2021年吉林大学临床医务人员继续医学教育项目的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+        "publish_date": "2020-09-24",
+        "publisher": null,
+        "content": "校医部字〔2020〕12号 校内各医院： 为进一步推进我校继续医学教育工作可持续发展，更好地满足卫生专业技术人员对优质培训资源的需求，不断提高业务素质和能力水平，现将2021年吉林大学临床医务人员继续医学教育申报工作通知如下： 一、申报时间：2020年9月24日-10月30日 二、申报学科专业 申报2021年吉林大学继续医学教育项目的学科专业包括：临床内科学（含传染病学科和精神卫生学科）、临床外科学（含麻醉及皮肤、性病学科）、妇产科、儿科、眼科、耳鼻喉科、口腔医学、影像医学、急诊学、医学检验、全科医学、康复医学、公共卫生与预防医学、药学、护理学、医疗卫生事业管理（含医疗服务管理、医院资产财务管理、医院信息管理等）。 三、申报项目 （一）项目内容 申报项目要体现“四新、三性”，即新理论、新知识、新方法和新技术以及先进性、针对性和实用性。 （二）项目负责人及授课教师必须满足以下要求： 1.临床和医技学科项目负责人必须具有副高级以上专业技术职务，授课教师须为中级以上职称专业技术人员。 2.护理学科项目负责人必须具有主管护师以上专业技术职务，护理项目的授课教师职级可放宽至初级职称，但须为科室护士长或副护士长。 （三）申报要求 1.2021年校级继续医学教育项目申报，面授教学项目实行网上申报（网址：jidacme.wsglw.net），网络教学项目申报直接在《吉林大学继续医学教育项目申报表》上填写，请各单位将纸质申报表1份报送给医院管理处培训管理科，逾期不予受理。 2.近二年内被批准立项但在当年未举办完成的项目，不得再次申报。 3.相似授课内容的项目，国家级、省级和校级不可同时申报，只能申报其一。 4.督导检查不合格的项目，其负责人不得申报2021年的项目。 5.举办时间要填写准确（立项后的项目原则上不允许变更举办时间，特殊情况允许变更一次，且项目负责人提交项目举办变更时间申请报告，批准后可改期）。 6.项目举办方式：网络教学与学术讲座、学术会议、专题讨论会、研讨班、学习班等面授教学相结合。 7.教学时数为实际授课时数，不包括报到及与教学无关的时间。 8.教学对象须为本学科相关专业人员 9.学分计算方式：校级的网络教学项目学分授予每学时0.5学分，一个项目最多不超过3学时，面授教学项目按照《关于印发<吉林大学临床医务人员继续医学教育实施细则>的通知》（校发﹝2008﹞182号）执行。 10.每个项目负责人只能申报1项，同等情况下申报网络教学的项目优先立项。 11.网络教学的项目负责人享有著作权，但学校有权在业务范围内使用。 四、有关要求 （一）各医院要高度重视，认真组织申报，申报表须按要求填报，逐级审核，保证项目的质量。严禁往年已批准立项的项目重复申报。 （二）医院须将申报材料纸质版进行汇总并填写《吉林大学继续医学教育项目申报一览表》（见附件2），同时上报《吉林大学继续医学教育项目申报表》。所报材料须经本医院临床医务人员继续医学教育工作领导小组审核盖章。 五、此通知及附件可在吉林大学网站的白求恩医学部（网址： http://jdyxb.jlu.edu.cn ）或医院管理处（网址： http://yyglc.jlu.edu.cn ）网上下载，附件可复印。 附件：1.《吉林大学继续医学教育项目申报表》 2.《吉林大学继续医学教育项目申报一览表》 联系人：刘剑秋 赵丽勇 办公电话：0431—85619674 白求恩医学部 2020年9月23日",
+        "attachments": [
+          {
+            "filename": "附件2.吉林大学继续医学教育申报一览表.xls",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11322674",
+            "type": "xls"
+          },
+          {
+            "filename": "附件1.吉林大学继续医学教育项目申报表.doc",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11322675",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于申报2021年吉林大学临床医务人员继续医学教育项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2020-09-24",
+            "date": "2020-09-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1439,
+        "reference_attachment_urls": [
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11322674",
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11322675"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报2021年吉林大学临床医务人员继续医学教育项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2020-09-24",
+            "date": "2020-09-24"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+        "time": "2026-10-15T22:10:34+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "217887cfa46bbd7cbfe91c97b13b951f65dfe37236a50fa30d9a89b01cb2d7f0",
+        "html_path": "html/217887cfa46bbd7cbfe91c97b13b951f65dfe37236a50fa30d9a89b01cb2d7f0.html",
+        "replacement_chars": 0,
+        "chars": 9024,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1046/1742.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1853.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1855.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1858.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1859.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1862.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1887.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/jxyxjy1/tzgg/4.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg/4.htm",
+        "time": "2026-10-15T22:10:35+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg/4.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6220baf464d7a35d160e33d34be80ae2ee24ade7b1d7824b19e23eb03e98bf01",
+        "html_path": "html/6220baf464d7a35d160e33d34be80ae2ee24ade7b1d7824b19e23eb03e98bf01.html",
+        "replacement_chars": 0,
+        "chars": 9211,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1046/1735.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1736.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1739.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1740.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1741.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1744.htm",
+        "https://ywc.jlu.edu.cn/info/1046/1745.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/jxyxjy1/tzgg/3.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "time": "2026-10-15T22:10:34+08:00",
+    "ok": true,
+    "final_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "217887cfa46bbd7cbfe91c97b13b951f65dfe37236a50fa30d9a89b01cb2d7f0",
+    "html_path": "html/217887cfa46bbd7cbfe91c97b13b951f65dfe37236a50fa30d9a89b01cb2d7f0.html",
+    "replacement_chars": 0,
+    "chars": 9024,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2023年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1887.htm",
+      "publish_date": "2022-09-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2022年度吉林大学初级卫生技术人员岗位培训考核工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1885.htm",
+      "publish_date": "2022-09-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2021年度临床医务人员继续医学教育学分审验工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1862.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2022年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1859.htm",
+      "publish_date": "2022-01-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2022年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1858.htm",
+      "publish_date": "2021-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2021年度吉林大学初级卫生技术人员岗位培训考核工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1855.htm",
+      "publish_date": "2021-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2021年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1853.htm",
+      "publish_date": "2020-12-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2020年度吉林大学初级卫生技术人员岗位培训考核工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1742.htm",
+      "publish_date": "2020-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2021年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1743.htm",
+      "publish_date": "2020-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好新冠肺炎疫情防控期间吉林大学医务人员继续医学教育项目执行工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1744.htm",
+      "publish_date": "2020-09-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2020年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1740.htm",
+      "publish_date": "2019-12-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2019年度临床医务人员继续医学教育学分审验工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1739.htm",
+      "publish_date": "2019-12-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2018年吉林大学临床医务人员继续医学教育网络培训项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1745.htm",
+      "publish_date": "2018-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学初级卫生技术人员岗位培训管理办法》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1736.htm",
+      "publish_date": "2018-09-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2019年吉林大学临床医务人员继续医学教育项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1735.htm",
+      "publish_date": "2018-09-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发关于公布2018年第二批国家级继续医学教育项目和国家级继续医学教育基地项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1046/1741.htm",
+      "publish_date": "2018-04-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg/4.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-b944229a171b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5900004655122757e-05,
+      "detail_duration_seconds": 9.600073099136353e-06,
+      "parse_db_duration_seconds": 0.03458019997924566
+    },
+    "second_round": {
+      "source": "p3-b944229a171b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.750001683831215e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-b944229a171b",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:10:34+08:00",
+    "review_time": "2026-10-15T23:00:41+08:00",
+    "http_status": 200,
+    "final_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 16,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-b944229a171b.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

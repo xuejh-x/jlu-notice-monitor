@@ -1,0 +1,38 @@
+{
+  "column_url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+  "column": "关于电子显微镜中心寒假期间运行通知",
+  "institution": "测试科学实验中心",
+  "site_url": "https://cszx.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P3",
+  "discovery_url": "https://cszx.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:39:23+08:00",
+  "checked_at": "2026-10-13T14:06:06+08:00",
+  "status": "无需适配",
+  "issues": [
+    "OUT_OF_SCOPE_REFERENCE"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/9031f1a975a22c71.json",
+  "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://cszx.jlu.edu.cn/system/resource/code/auth/ipauth.htm",
+  "list_sha256": "809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066",
+  "list_snapshot": "html/809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

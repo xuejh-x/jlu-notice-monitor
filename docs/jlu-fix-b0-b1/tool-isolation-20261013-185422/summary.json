@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-10-13T18:54:24+08:00",
+  "institution_rows": 510,
+  "distinct_institution_labels": 491,
+  "units_without_site": 305,
+  "site_seed_urls": 180,
+  "distinct_seed_hosts": 164,
+  "site_discovery_completed": 180,
+  "distinct_final_site_urls": 164,
+  "distinct_final_site_hosts": 149,
+  "site_states": {
+    "no_column_discovered": 44,
+    "unreachable": 15,
+    "reachable": 121
+  },
+  "distinct_columns": 1,
+  "columns_attempted": 0,
+  "columns_checked": 0,
+  "columns_unchecked": 1,
+  "no_adaptation_needed": 0,
+  "compatibility_states": {},
+  "issue_counts": {},
+  "sampled_details": 0,
+  "attachment_endpoints_checked": 0,
+  "pagination_pages_checked": 0,
+  "same_url_duplicate_groups": 0,
+  "title_date_duplicate_candidates": 0,
+  "request_cache_entries": 0
+}

@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-13T18:54:27+08:00",
+  "phase": "validate",
+  "output": "E:\\jlu-notice-monitor\\docs\\jlu-fix-b0-b1\\tool-isolation-20261013-185422",
+  "discovery_input": null,
+  "column_urls": [],
+  "mode": "fresh HTTP run with same-run resume; no imported request cache"
+}

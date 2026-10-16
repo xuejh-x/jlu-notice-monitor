@@ -1,0 +1,495 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>通知公告-边疆考古研究中心</title><META Name="keywords" Content="边疆考古研究中心,通知公告" />
+
+<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+<LINK rel="stylesheet" href="assets/css/reset.css">
+<script type="text/javascript" src="assets/js/bdtxk.min.js"></script>
+<script src="assets/js/ScrollPic.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/bdtxk.hoverIntent.minified.js"></script> 
+<script type="text/javascript">
+    $(document).ready(function() {
+
+
+        function megaHoverOver(){
+            $(this).find(".sub").stop().fadeTo('fast', 1).show();
+
+            //Calculate width of all ul's
+            (function($) {
+                jQuery.fn.calcSubWidth = function() {
+                    rowWidth = 0;
+                    //Calculate row
+                    $(this).find("ul").each(function() {
+                        rowWidth += $(this).width();
+                    });
+                };
+            })(jQuery);
+
+            if ( $(this).find(".row").length > 0 ) { //If row exists...
+                var biggestRow = 0;
+                //Calculate each row
+                $(this).find(".row").each(function() {
+                    $(this).calcSubWidth();
+                    //Find biggest row
+                    if(rowWidth > biggestRow) {
+                        biggestRow = rowWidth;
+                    }
+                });
+                //Set width
+                $(this).find(".sub").css({'width' :biggestRow});
+                $(this).find(".row:last").css({'margin':'0'});
+
+            } else { //If row does not exist...
+
+                $(this).calcSubWidth();
+                //Set Width
+                $(this).find(".sub").css({'width' : rowWidth});
+
+            }
+        }
+
+        function megaHoverOut(){
+            $(this).find(".sub").stop().fadeTo('fast', 0, function() {
+                $(this).hide();
+            });
+        }
+
+
+        var config = {
+            sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)
+            interval: 100, // number = milliseconds for onMouseOver polling interval
+            over: megaHoverOver, // function = onMouseOver callback (REQUIRED)
+            timeout: 500, // number = milliseconds delay before onMouseOut
+            out: megaHoverOut // function = onMouseOut callback (REQUIRED)
+        };
+
+        $("ul#topnav li .sub").css({'opacity':'0'});
+        $("ul#topnav li").hoverIntent(config);
+
+
+
+    });
+
+</script> 
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323076684654525b574200010005445c -->
+<link rel="stylesheet" type="text/css" href="list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1046,'/list.jsp',-1,1690738227)</script>
+</head>
+<body class="containerWrap">
+<!--顶部开始-->
+
+<div class="wrap1">
+  <div class="w">
+    <div class="toubu"> 
+      
+      <!--logo开始-->
+      <div class="fl" style="padding-top:40px">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="边疆考古研究中心中文20"><img src="images/indexlogo.png" width="507" height="79" border="0" alt="边疆考古研究中心中文20" title="边疆考古研究中心中文20"></a></div>
+      <!--logo结束-->
+      
+      <div class="fl" style="margin-left:260px"></div>
+      
+      <div class="search fr"> 
+        
+        <!--设为首页/加入收藏开始-->
+        <div class="top_right_top mb30">
+          
+<script language="javascript">
+function dosuba1011813a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa1011813a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa1011813a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea1011813a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+<ul class="fr">
+        <li><A href="javascript:setHomepagea1011813a()" style="TEXT-DECORATION: none;">
+                设为首页
+            </A></li>
+            <li><A onclick="javascript:dosuba1011813a();" href="#" style="TEXT-DECORATION: none;">
+                加入收藏
+            </A></li>
+           <li class="active"><A href="http://bjkg.jlu.edu.cn/en">
+               English
+            </A></li>
+
+</ul>
+        </div>
+        <div class="clearfix"></div>
+        <!--设为首页/加入收藏结束--> 
+        
+        <!--搜索开始-->
+        <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1011812').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1011812").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1011812").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1011812").value = base64.encode(document.getElementById("lucenenewssearchkey1011812").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1011812"));
+        return true;
+    } 
+</script>
+<form action="ssjgy.jsp?wbtreeid=1046" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey1011812" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1011812" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1011812" name="searchScope" value="0">
+
+<div class="search_box">
+          <input type="image" src="assets/images/anniu.png" class="fr" />
+          <input type="text" name="showkeycode" id="showkeycode1011812" class="fr search_box_text" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){this.value='请输入关键字'}" style="color:#666666;font-family: 'Microsoft YaHei', serif;outline: none" />
+        </div>
+
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+        <!--搜索结束--> 
+        
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+<!--顶部结束--> 
+
+<!--导航开始-->
+
+<div class="wrap">
+  <div class=" Navigation">
+  <div class="w">
+    <ul id="topnav">
+
+<li> 
+<a href="index.htm" title="首页">首页</a>
+      </li>
+
+
+<li> 
+<a href="zxgk/zxjj.htm" title="中心概况">中心概况</a>
+<div class="sub" style="z-index:10000">
+    <dl>
+        <dd><a href="zxgk/zxjj.htm" title="中心简介">中心简介</a></dd>
+        <dd><a href="zxgk/zxld.htm" title="中心领导">中心领导</a></dd>
+        <dd><a href="zxgk/xswyh.htm" title="学术委员会">学术委员会</a></dd>
+        <dd><a href="zxgk/zzyjy.htm" title="专职研究员">专职研究员</a></dd>
+        <dd><a href="zxgk/jzyjy.htm" title="兼职研究员">兼职研究员</a></dd>
+        <dd><a href="zxgk/kzyjy.htm" title="客座研究员">客座研究员</a></dd>
+        <dd><a href="zxgk/bgs.htm" title="办公室">办公室</a></dd>
+    </dl>
+</div>
+      </li>
+
+
+<li> 
+<a href="zxxw.htm" title="中心新闻">中心新闻</a>
+      </li>
+
+
+<li> 
+<a href="<span style='color:red;font-size:9pt'>转换链接错误</span>" title="中心科研">中心科研</a>
+<div class="sub" style="z-index:10000">
+    <dl>
+        <dd><a href="zxky/zxxm.htm" title="中心项目">中心项目</a></dd>
+        <dd><a href="zxky/zxlw.htm" title="中心论文">中心论文</a></dd>
+        <dd><a href="zxky/zxzz.htm" title="中心著作">中心著作</a></dd>
+        <dd><a href="zxky/zxbg.htm" title="咨询报告">咨询报告</a></dd>
+        <dd><a href="zxky/hjcg.htm" title="获奖成果">获奖成果</a></dd>
+        <dd><a href="zxky/sjk.htm" title="数据库">数据库</a></dd>
+    </dl>
+</div>
+      </li>
+
+
+<li> 
+<a href="zxkw.htm" title="中心刊物">中心刊物</a>
+<div class="sub" style="z-index:10000">
+    <dl>
+        <dd><a href="zxkw/_bjkgyj_bjwyh.htm" title="《边疆考古研究》编辑委员会">《边疆考古研究》编辑委员会</a></dd>
+        <dd><a href="https://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&pykm=BJKG&Year=&Issue=&Entry=&uid=WEEvREcwSlJHSldRa1Fhb09jMjVzYjkzQnlGTkRkVn" title="边疆考古研究">边疆考古研究</a></dd>
+        <dd><a href="https://www.springer.com/journal/41826 " title="Asian Archaeology">Asian Archaeology</a></dd>
+    </dl>
+</div>
+      </li>
+
+
+<li> 
+<a href="xsjl/xshy.htm" title="学术交流">学术交流</a>
+<div class="sub" style="z-index:10000">
+    <dl>
+        <dd><a href="xsjl/xshy.htm" title="学术会议">学术会议</a></dd>
+        <dd><a href="xsjl/jlhz.htm" title="交流合作">交流合作</a></dd>
+        <dd><a href="xsjl/hzjg.htm" title="合作机构">合作机构</a></dd>
+    </dl>
+</div>
+      </li>
+
+
+<li> 
+<a href="tzgg.htm" class="active" title="通知公告">通知公告</a>
+      </li>
+
+
+<li> 
+<a href="rcpy/bs.htm" title="人才培养">人才培养</a>
+<div class="sub" style="z-index:10000">
+    <dl>
+        <dd><a href="rcpy/bs.htm" title="博士">博士</a></dd>
+        <dd><a href="rcpy/ss.htm" title="硕士">硕士</a></dd>
+        <dd><a href="rcpy/rcgl.htm" title="人才管理">人才管理</a></dd>
+        <dd><a href="rcpy/xstd.htm" title="学生天地">学生天地</a></dd>
+    </dl>
+</div>
+      </li>
+
+
+<li> 
+<a href="xjdt.htm" title="学界动态">学界动态</a>
+      </li>
+
+</ul>
+   </div>
+  </div>
+</div>
+
+<!--导航结束--> 
+<div class="clearfix"></div>
+
+<!--banner-->
+<div class="inner_banner"><img src="assets/images/subbanner.jpg" /></div>
+<!--banner-->
+<div class="clearfix"></div>
+<div class="w">
+    
+
+    <div class="container_left fl mr20">
+        
+        <div class="menu mt20">
+
+
+
+通知公告</div>
+        <div class="menu_content">  
+            <ul></ul>
+        </div>
+        
+    </div>
+    
+    
+    <div class="container_right fr">
+        <div class="container_right_title"><h3 style="float:left;font-weight:normal;">
+
+
+
+通知公告</h3>
+<div class="fr current"><ul>
+                        <li><a href="index.htm">首页</a> &nbsp;&nbsp;&gt;&nbsp;&nbsp;</li>
+                <li><a href="tzgg.htm" class="active">通知公告</a></li>
+</ul></div>
+</div>
+        
+        <div class="clearfix"></div>
+        
+        
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="new_list3 mt10">
+<dl>
+    	<dd id="line_u9_0">
+	    <a href="info/1046/2465.htm" title="大数据中心工作提示" class="fl">大数据中心工作提示</a>
+	    <span class="fr gray">2026-09-17</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_1">
+	    <a href="info/1046/2463.htm" title="中心主办刊物《边疆考古研究》入选“2026年度高影响力学术辑刊”" class="fl">中心主办刊物《边疆考古研究》入选“2026年度高影响力学术辑刊”</a>
+	    <span class="fr gray">2026-08-31</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_2">
+	    <a href="info/1046/2461.htm" title="中心主办“红山文化社会复杂化进程与中华文明起源模式” 学术研讨会顺利召开" class="fl">中心主办“红山文化社会复杂化进程与中华文明起源模式” 学术研讨会顺利召开</a>
+	    <span class="fr gray">2026-08-04</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_3">
+	    <a href="info/1046/2436.htm" title="全面系统总结工作 科学谋划发展蓝图——边疆考古研究中心召开2025年度工作会议" class="fl">全面系统总结工作 科学谋划发展蓝图——边疆考古研究中心召开2025年度工作会议</a>
+	    <span class="fr gray">2025-04-22</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_4">
+	    <a href="info/1046/2437.htm" title="考古学院召开干部教师大会宣布学校关于赵宾福同志的聘任决定" class="fl">考古学院召开干部教师大会宣布学校关于赵宾福同志的聘任决定</a>
+	    <span class="fr gray">2025-04-18</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_5">
+	    <a href="info/1046/2416.htm" title="学术讲座通知（第一〇六场）" class="fl">学术讲座通知（第一〇六场）</a>
+	    <span class="fr gray">2024-06-24</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_6">
+	    <a href="info/1046/2406.htm" title="学术讲座通知（第一〇五场）" class="fl">学术讲座通知（第一〇五场）</a>
+	    <span class="fr gray">2024-05-20</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_7">
+	    <a href="info/1046/2396.htm" title="学术讲座通知（第一〇四场）" class="fl">学术讲座通知（第一〇四场）</a>
+	    <span class="fr gray">2024-04-03</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_8">
+	    <a href="info/1046/2386.htm" title="学术讲座通知（第一〇三场）" class="fl">学术讲座通知（第一〇三场）</a>
+	    <span class="fr gray">2024-02-29</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_9">
+	    <a href="info/1046/2377.htm" title="学术讲座通知（第一〇二场）" class="fl">学术讲座通知（第一〇二场）</a>
+	    <span class="fr gray">2023-11-30</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_10">
+	    <a href="info/1046/2369.htm" title="《边疆考古研究》持续入选CSSCI收录集刊" class="fl">《边疆考古研究》持续入选CSSCI收录集刊</a>
+	    <span class="fr gray">2023-09-19</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_11">
+	    <a href="info/1046/2376.htm" title="学术讲座通知（第一〇一场）" class="fl">学术讲座通知（第一〇一场）</a>
+	    <span class="fr gray">2023-08-29</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_12">
+	    <a href="info/1046/2346.htm" title="学术讲座通知（第一〇〇场）" class="fl">学术讲座通知（第一〇〇场）</a>
+	    <span class="fr gray">2023-06-16</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_13">
+	    <a href="info/1046/2336.htm" title="学术讲座通知（第九十九）" class="fl">学术讲座通知（第九十九）</a>
+	    <span class="fr gray">2023-05-19</span>
+	    <div class="clearfix"></div>
+	</dd>
+	<dd id="line_u9_14">
+	    <a href="info/1046/2327.htm" title="学术讲座通知（第九十八）" class="fl">学术讲座通知（第九十八）</a>
+	    <span class="fr gray">2023-04-21</span>
+	    <div class="clearfix"></div>
+	</dd>
+    </dl></div>
+<div class="clearfix"></div>
+<div class="mt20 fr ">    <div align="center"><INPUT TYPE="hidden" NAME="actiontype" VALUE=""><input type="hidden" name="_scode_" value="1789700602455"><input type="hidden" name="urltype" value="tree.TreeTempUrl"><input type="hidden" name="wbtreeid" value="1046"><input type="hidden" name="outFlag" value="false">
+<style type="text/css">
+.headStyle1760yi1qwt, .headStyle1760yi1qwt td, .headStyle1760yi1qwt div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1760yi1qwt a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1760yi1qwt a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1760yi1qwt .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1760yi1qwt .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}
+.headStyle1760yi1qwt .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1760yi1qwt .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1760yi1qwt .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1760yi1qwt .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1760yi1qwt .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1760yi1qwt a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1760yi1qwt a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1760yi1qwt a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+</style><script language="javascript" src="/system/resource/js/gotopage.js"></script><script type="text/javascript">function a204387_gopage_fun(){_simple_list_gotopage_fun(9,'a204387GOPAGE',2)}</script><table cellspacing="0" cellpadding="0" border="0"><TR><td colspan="0"><table cellspacing="0" class="headStyle1760yi1qwt" width="100%" cellpadding="1"><tr valign="middle"><TD nowrap align="left" width="1%" id="fanye204387">共122条&nbsp;&nbsp;1/9&nbsp;</td><td nowrap align="left"><div><span class="PrevDisabled">首页</span><span class="PrevDisabled">上页</span><a href="tzgg/8.htm" class="Next">下页</a><a href="tzgg/1.htm" class="Next">尾页</a>&nbsp;&nbsp;<input align="absmiddle" type="button" class="defaultButtonStyle" id="gotopagebut" name="a204387Find" value="转到" onclick="javascript:a204387_gopage_fun()"><INPUT size="2" align="absmiddle" class="defaultInputStyle" NAME="a204387GOPAGE" id="a204387GOPAGE" VALUE="" style="margin-left:1px;margin-right:1px">页</div></td></tr></table></table></div></div><script>_showDynClickBatch(['dynclicks_u9_2465','dynclicks_u9_2463','dynclicks_u9_2461','dynclicks_u9_2436','dynclicks_u9_2437','dynclicks_u9_2416','dynclicks_u9_2406','dynclicks_u9_2396','dynclicks_u9_2386','dynclicks_u9_2377','dynclicks_u9_2369','dynclicks_u9_2376','dynclicks_u9_2346','dynclicks_u9_2336','dynclicks_u9_2327'],[2465,2463,2461,2436,2437,2416,2406,2396,2386,2377,2369,2376,2346,2336,2327],"wbnews", 1690738227)</script>
+        
+        
+    </div>
+    
+</div>
+
+<div class="clearfix"></div>
+<div class="wrap mt30">
+  <div class="footer" style="background: #3b7cc0;padding:20px 0;">
+<DIV style="margin: 0px auto; width: 1200px">
+    <div class="al fl">
+      <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 吉林大学边疆考古研究中心 版权所有</p><p>地址：中国·吉林省长春市前进大街2699号　联系电话：0431-85166321</p></div>
+    <DIV class="ar">    <img src="images/ewm.jpg" border="0" width="80" height="80">
+</DIV>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

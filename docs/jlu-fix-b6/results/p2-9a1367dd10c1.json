@@ -1,0 +1,1122 @@
+{
+  "id": "p2-9a1367dd10c1",
+  "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+  "institution": "东北亚学院、东北亚研究院",
+  "column": "党办通知",
+  "site_url": "https://nasa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/9a1367dd10c1c89c.json",
+  "discovery_url": "https://nasa.jlu.edu.cn/",
+  "original_snapshot": "html/b190cc4cd723af35c7aad0f0d96192f330f0661261898374cb813a73551c69f9.html",
+  "original_capture_time": "2026-10-13T13:59:04+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-9a1367dd10c1",
+    "name": "东北亚学院、东北亚研究院 / 党办通知",
+    "base_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:06+08:00",
+  "details": [
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1008/6583.htm",
+      "list_title": "关于拟接收祝滇君等同志为中共预备党员的公示 2026-09-23",
+      "list_date": "2026-09-23",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1008/6583.htm",
+        "time": "2026-10-15T19:39:39+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1008/6583.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ee1cf6681f657926c268d4a6c02faf80f13ec780b959265f0f2eef8a5d85f800",
+        "html_path": "html/ee1cf6681f657926c268d4a6c02faf80f13ec780b959265f0f2eef8a5d85f800.html",
+        "replacement_chars": 0,
+        "chars": 26698,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于拟接收祝滇君等同志为中共预备党员的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1008/6583.htm",
+        "publish_date": "2026-09-23",
+        "publisher": null,
+        "content": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将 祝滇君 等 9 名发展对象的有关情况进行公示。 公示时间为 2026 年 9 月 23 日至 9 月 30 日（公示时间为 5个工作日）。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。党支部将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 如无意见，将按照规定程序提交支部大会讨论决定，履行入党手续。 联系电话： 0431-85166390 联系邮箱： dbyyjs@jlu.edu.cn 附：发展对象有关情况一览表 中共吉林大学东北亚学院委员会 2026 年 9 月 23 日",
+        "attachments": [
+          {
+            "filename": "【202609公示】发展对象有关情况一览表.doc",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18203648",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于确定张晏辄等同志为发展对象的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 377,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18203648"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于拟接收祝滇君等同志为中共预备党员的公示",
+          "",
+          "日期：2026-09-23 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于拟接收祝滇君等同志为中共预备党员的公示 日期：2026-09-23 点击数：",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "日期：2026-09-23 点击数：",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "日期：2026-09-23 点击数：",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+      "list_title": "关于确定张晏辄等同志为发展对象的公示 2026-09-09",
+      "list_date": "2026-09-09",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+        "time": "2026-10-15T19:39:40+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6721f10f2b0a6b90fbdd8866438598f832b1cad598d059f4450885d45f691ea4",
+        "html_path": "html/6721f10f2b0a6b90fbdd8866438598f832b1cad598d059f4450885d45f691ea4.html",
+        "replacement_chars": 0,
+        "chars": 30408,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于确定张晏辄等同志为发展对象的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+        "publish_date": "2026-09-09",
+        "publisher": null,
+        "content": "张晏辄等 2名入党积极分子经过一年以上培养教育和考察，基本具备党员条件，拟列为发展对象。为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将二人有关情况进行公示。 公示时间为 2026 年 9 月 9 日至 9 月 15 日（公示时间为 5个工作日）。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。党支部将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 联系电话： 0431-85167801 联系邮箱： huxiaolin@jlu.edu.cn 附： 2026年下半年教师 发展对象一览表 中共吉林大学东北亚学院委员会 2026 年 9 月 9 日",
+        "attachments": [
+          {
+            "filename": "附件 2026年下半年教师发展对象一览表（教职工）.pdf",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18195545",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于拟接收祝滇君等同志为中共预备党员的公示"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于拟将李珺涵等同志转为中共正式党员的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-09-09",
+            "date": "2026-09-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 386,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18195545"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于确定张晏辄等同志为发展对象的公示",
+          "",
+          "日期：2026-09-09 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于确定张晏辄等同志为发展对象的公示 日期：2026-09-09 点击数：",
+            "date": "2026-09-09"
+          },
+          {
+            "text": "日期：2026-09-09 点击数：",
+            "date": "2026-09-09"
+          },
+          {
+            "text": "日期：2026-09-09 点击数：",
+            "date": "2026-09-09"
+          },
+          {
+            "text": "日期：2026-09-09",
+            "date": "2026-09-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+      "list_title": "关于拟接收刘丁瑞等同志为中共预备党员的公示 2025-09-25",
+      "list_date": "2025-09-25",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+        "time": "2026-10-15T19:39:41+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a7891d18789ff47c73febca9cfb4e91d8501b74c1798336208503b45ed6b9af0",
+        "html_path": "html/a7891d18789ff47c73febca9cfb4e91d8501b74c1798336208503b45ed6b9af0.html",
+        "replacement_chars": 0,
+        "chars": 26761,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于拟接收刘丁瑞等同志为中共预备党员的公示",
+        "url": "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+        "publish_date": "2025-09-25",
+        "publisher": null,
+        "content": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将 刘丁瑞 等 6 名发展对象的有关情况进行公示。 公示时间为 2025 年 9 月 25 日至 9 月 30 日（公示时间为 5个工作日）。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。党支部将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 如无意见，将按照规定程序提交支部大会讨论决定，履行入党手续。 联系电话： 0431-85166390 联系邮箱： dbyyjs@jlu.edu.cn 附：发展对象有关情况一览表 中共吉林大学东北亚学院委员会 2025 年 9 月 25 日",
+        "attachments": [
+          {
+            "filename": "【202509公示】发展对象有关情况一览表.doc",
+            "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16650722",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于拟接收刘语萱同志为中共预备党员的公示"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于确定汪芮石同志为2025年计划发展对象的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-09-25",
+            "date": "2025-09-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 377,
+        "reference_attachment_urls": [
+          "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=16650722"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于拟接收刘丁瑞等同志为中共预备党员的公示",
+          "",
+          "日期：2025-09-25 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于拟接收刘丁瑞等同志为中共预备党员的公示 日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25 点击数：",
+            "date": "2025-09-25"
+          },
+          {
+            "text": "日期：2025-09-25",
+            "date": "2025-09-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+        "time": "2026-10-15T19:29:07+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b190cc4cd723af35c7aad0f0d96192f330f0661261898374cb813a73551c69f9",
+        "html_path": "html/b190cc4cd723af35c7aad0f0d96192f330f0661261898374cb813a73551c69f9.html",
+        "replacement_chars": 0,
+        "chars": 23593,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1008/6276.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6290.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6296.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6302.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6307.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6315.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6339.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6375.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6378.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6512.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6521.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6525.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6530.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6583.htm"
+      ],
+      "observed_next_urls": [
+        "https://nasa.jlu.edu.cn/dwgz/dbtz/5.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/dwgz/dbtz/5.htm",
+        "time": "2026-10-15T19:39:38+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/dwgz/dbtz/5.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e95f5a7bd5d6811023526648dcf697a4cec1626891cc1657217b05edf8d86624",
+        "html_path": "html/e95f5a7bd5d6811023526648dcf697a4cec1626891cc1657217b05edf8d86624.html",
+        "replacement_chars": 0,
+        "chars": 23995,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1008/5889.htm",
+        "https://nasa.jlu.edu.cn/info/1008/5899.htm",
+        "https://nasa.jlu.edu.cn/info/1008/5982.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6018.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6096.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6097.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6109.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6111.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6190.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6200.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6201.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6206.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6208.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+        "https://nasa.jlu.edu.cn/info/1008/6340.htm"
+      ],
+      "observed_next_urls": [
+        "https://nasa.jlu.edu.cn/dwgz/dbtz/4.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "time": "2026-10-15T19:29:07+08:00",
+    "ok": true,
+    "final_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "b190cc4cd723af35c7aad0f0d96192f330f0661261898374cb813a73551c69f9",
+    "html_path": "html/b190cc4cd723af35c7aad0f0d96192f330f0661261898374cb813a73551c69f9.html",
+    "replacement_chars": 0,
+    "chars": 23593,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收祝滇君等同志为中共预备党员的公示 2026-09-23",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6583.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定张晏辄等同志为发展对象的公示 2026-09-09",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6559.htm",
+      "publish_date": "2026-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将李珺涵等同志转为中共正式党员的公示 2026-07-02",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6530.htm",
+      "publish_date": "2026-07-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将李泽宜等同志转为中共正式党员的公示 2026-06-23",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6525.htm",
+      "publish_date": "2026-06-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将高伯华等同志转为中共正式党员的公示 2026-06-16",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6521.htm",
+      "publish_date": "2026-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收王一安等同志为中共预备党员的公示 2026-06-09",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6512.htm",
+      "publish_date": "2026-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定张晏辄等同志为2026年计划发展对象的公示 2025-12-30",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6375.htm",
+      "publish_date": "2025-12-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将申昱同志转为中共正式党员的公示 2025-12-29",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6378.htm",
+      "publish_date": "2025-12-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将王雨杨同志转为中共正式党员的公示 2025-12-29",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6315.htm",
+      "publish_date": "2025-12-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收刘永瑜等同志为中共预备党员的公示 2025-12-17",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6339.htm",
+      "publish_date": "2025-12-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将刘禹伯同志转为中共正式党员的公示 2025-12-15",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6307.htm",
+      "publish_date": "2025-12-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将董超凡同志转为中共正式党员的公示 2025-12-10",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6302.htm",
+      "publish_date": "2025-12-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将尤英杰同志转为中共正式党员的公示 2025-11-28",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6296.htm",
+      "publish_date": "2025-11-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将陈思羽同志转为中共正式党员的公示 2025-11-12",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6290.htm",
+      "publish_date": "2025-11-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收刘语萱同志为中共预备党员的公示 2025-10-13",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6276.htm",
+      "publish_date": "2025-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收刘丁瑞等同志为中共预备党员的公示 2025-09-25",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6261.htm",
+      "publish_date": "2025-09-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定汪芮石同志为2025年计划发展对象的公示 2025-09-17",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6340.htm",
+      "publish_date": "2025-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收谢文帅同志为中共预备党员的公示 2025-06-17",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6206.htm",
+      "publish_date": "2025-06-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收蔡百松等同志为中共预备党员的公示 2025-06-16",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6201.htm",
+      "publish_date": "2025-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将韩沅刚等同志转为中共正式党员的公示 2025-06-16",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6200.htm",
+      "publish_date": "2025-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收吴滟聪等同志为中共预备党员的公示 2025-06-16",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6208.htm",
+      "publish_date": "2025-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定谢文帅等同志为2025年计划发展对象的公示 2024-12-24",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6109.htm",
+      "publish_date": "2024-12-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将刘俊麟等同志转为中共正式党员的公示 2024-12-24",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6190.htm",
+      "publish_date": "2024-12-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收王雨杨等同志为中共预备党员的公示 2024-12-16",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6111.htm",
+      "publish_date": "2024-12-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将柴文乐等同志转为中共正式党员的公示 2024-12-12",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6097.htm",
+      "publish_date": "2024-12-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收刘禹伯同志为中共预备党员的公示 2024-12-11",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6096.htm",
+      "publish_date": "2024-12-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收朱方圆等同志为中共预备党员的公示 2024-10-08",
+      "url": "https://nasa.jlu.edu.cn/info/1008/6018.htm",
+      "publish_date": "2024-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收张瀛月等同志为中共预备党员的公示 2024-09-18",
+      "url": "https://nasa.jlu.edu.cn/info/1008/5982.htm",
+      "publish_date": "2024-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟将高青安等同志转为中共正式党员的公示 2024-06-14",
+      "url": "https://nasa.jlu.edu.cn/info/1008/5899.htm",
+      "publish_date": "2024-06-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟接收韩沅刚等同志为中共预备党员的公示 2024-06-06",
+      "url": "https://nasa.jlu.edu.cn/info/1008/5889.htm",
+      "publish_date": "2024-06-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 30,
+  "pagination": [
+    {
+      "start_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://nasa.jlu.edu.cn/dwgz/dbtz/5.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-9a1367dd10c1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.1900050342082977e-05,
+      "detail_duration_seconds": 6.300047971308231e-06,
+      "parse_db_duration_seconds": 0.029657599865458906
+    },
+    "second_round": {
+      "source": "p2-9a1367dd10c1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.2899981811642647e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-9a1367dd10c1",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "党办通知",
+    "url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:07+08:00",
+    "review_time": "2026-10-15T20:21:06+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 30,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-9a1367dd10c1.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

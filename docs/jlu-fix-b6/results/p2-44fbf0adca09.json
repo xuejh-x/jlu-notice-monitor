@@ -1,0 +1,300 @@
+{
+  "id": "p2-44fbf0adca09",
+  "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+  "institution": "商学与管理学院",
+  "column": "活动通知",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING",
+  "original_evidence": "docs/jlu-audit-evidence/results/44fbf0adca090c7b.json",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "original_snapshot": "html/99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a.html",
+  "original_capture_time": "2026-10-13T14:00:46+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-44fbf0adca09",
+    "name": "商学与管理学院 / 活动通知",
+    "base_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:56+08:00",
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+      "list_title": "商学与管理学院校友信息征集函",
+      "list_date": "2022-11-03",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+        "time": "2026-10-15T19:38:57+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "bd54ebbff7c2945f32ae7c88d01f5aa021bdc496040ccd7c3ccdf69fa5736d1d",
+        "html_path": "html/bd54ebbff7c2945f32ae7c88d01f5aa021bdc496040ccd7c3ccdf69fa5736d1d.html",
+        "replacement_chars": 0,
+        "chars": 26492,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "商学与管理学院校友信息征集函",
+        "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+        "publish_date": "2022-11-03",
+        "publisher": null,
+        "content": "亲爱的商学与管理学院校友： 为搭建校友之间及校友与学院之间联系与沟通的信息平台，联络校友感情，凝聚校友力量，学院现面向各位校友征集信息。 一、征集范围 1. 在吉林大学商学与管理学院及其前身（商学院、管理学院）学习过的各种学历层次的毕业生、进修生、留学生等，以及其他形式在校学习过的学生。 2. 曾在我院工作的教职员工。 二、征集信息内容 个人基本信息，姓名、性别、出生年月；在校信息，如毕业年份、专业、学历类别、指导教师等；工作情况，如现工作所在地、工作单位、职务 / 职称；联系方式，如移动电话、电子邮箱等。 希望广大校友积极响应，踊跃参与，后续会有丰富的校友活动信息和优厚的校友福利发送给您！谢谢支持！ 说明：校友信息仅供学院统计使用，对外保密。 联系电话： 0431—85166131 登陆学院官网了解最新资讯 https://sg.jlu.edu.cn",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "商学与管理学院校友信息征集函"
+          },
+          {
+            "selector": "h1.title",
+            "title": "商学与管理学院校友信息征集函"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2022-11-03 作者： 点击：",
+            "date": "2022-11-03"
+          },
+          {
+            "text": "时间：2022-11-03",
+            "date": "2022-11-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 381,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "商学与管理学院校友信息征集函"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+        "time": "2026-10-15T19:28:54+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a",
+        "html_path": "html/99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a.html",
+        "replacement_chars": 0,
+        "chars": 19211,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1415/18590.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "time": "2026-10-15T19:28:54+08:00",
+    "ok": true,
+    "final_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a",
+    "html_path": "html/99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a.html",
+    "replacement_chars": 0,
+    "chars": 19211,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院校友信息征集函",
+      "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+      "publish_date": "2022-11-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p2-44fbf0adca09",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.2499978765845299e-05,
+      "detail_duration_seconds": 2.300017513334751e-06,
+      "parse_db_duration_seconds": 0.020337600028142333
+    },
+    "second_round": {
+      "source": "p2-44fbf0adca09",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.109996810555458e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-44fbf0adca09",
+    "institution": "商学与管理学院",
+    "column": "活动通知",
+    "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:54+08:00",
+    "review_time": "2026-10-15T20:20:56+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 1,
+    "details": 1,
+    "verified_details": 1,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-44fbf0adca09.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

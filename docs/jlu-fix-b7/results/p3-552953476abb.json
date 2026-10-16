@@ -1,0 +1,889 @@
+{
+  "id": "p3-552953476abb",
+  "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+  "institution": "白求恩医学部",
+  "column": "通知公告",
+  "site_url": "https://jdyxb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/552953476abb8018.json",
+  "original_capture_time": "2026-10-13T14:07:05+08:00",
+  "discovery_url": "https://jdyxb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-552953476abb",
+    "name": "白求恩医学部 / 通知公告",
+    "base_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:39+08:00",
+  "details": [
+    {
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25769.htm",
+      "list_title": "关于开展2026年医学研究生创新实验设计大赛的通知",
+      "list_date": "2026-10-12",
+      "response": {
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25769.htm",
+        "time": "2026-10-15T22:10:17+08:00",
+        "ok": true,
+        "final_url": "https://jdyxb.jlu.edu.cn/info/1182/25769.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9af8fd0b8086e2e7bca0ea3aed683ce315f70c322f9e068c5cbef3f2093347ae",
+        "html_path": "html/9af8fd0b8086e2e7bca0ea3aed683ce315f70c322f9e068c5cbef3f2093347ae.html",
+        "replacement_chars": 0,
+        "chars": 36018,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展2026年医学研究生创新实验设计大赛的通知",
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25769.htm",
+        "publish_date": "2026-10-12",
+        "publisher": null,
+        "content": "医学部各研究生培养单位： 为 贯彻 落实吉林大学医学教育创新发展 专项 会议精神，推进实施 “ 白求恩医学拔尖创新人才培养工程 ” 和 “ 医学研究生培养质量提升工程 ” ，强化科教协同育人，推动 医学 研究生早 开 题、早 科研 、早 实践 ，提升医学研究生创新精神和科研能力，白求恩医学部组织开展 2026年医学 研究生创新实验设计大赛工作。现将有关事项通知如下： 一、活动时间 202 6 年 10月-11月 二、参赛人员范围 医学部各研究生培养单位 202 5 级、 202 6 级在籍博士研究生和硕士研究生。 注：在往届医学研究生实验设计大赛中获得一、二、三等奖的研究生，不得重复参赛。 三、参赛组别与名额分配 比赛设博士研究生、学术型硕士研究生、专业型硕士研究生三个组别。参赛名额根据各培养单位研究生数量按比例确定。 注：各组别参赛名额不得调配，如名额未报满，视为放弃。 四 、参赛作品要求 实验设计作品应为与本人课题研究方向相关的科学研究实验设计，要求具有创新性、科学性、可行性和应用性。要求学生本人独立完成或在导师指导下独立完成。 作品要自主选题、自主设计、自主撰写 ， 不得抄袭或借用指导教师各类基金项目的内容，可在各基金项目的拓展方向上选题。 参赛作品不得与全国生命科学（创新创业）类、挑战杯、 “互联网+”及全国大学生基础医学创新研究暨实验设计论坛等国家级和省级、校级赛事作品重复。 五 、评比程序 本项目以作品展示、专家评审方式进行，分为博士研究生和硕士研究生（学硕、专硕）组分别评比，分初赛和复赛两阶段。 第一阶段 ：初赛阶段， 20 26 年 10 月 13 日至 202 6 年 11 月 6 日。由医学部各研究生培养单位组织实施，各研究生培养单位按分配名额（单独发至各院）推荐参加复赛。 第二阶段： 复赛阶段， 202 6 年 11 月 16 日至 202 6 年 11 月 27 日。由医学部医学研究生办公室组织实施，以线下答辩形式 （ PPT汇报）进行评审，答辩要求见附件1，专家评审确定奖项，颁发获奖证书并给予奖励。 六 、奖项设置及数量 奖项设置博士研究生、学术型硕士研究生和专业型硕士研究生三 个组别分别设置 一、二、三等奖 ，并予以奖励，对组织工作完成较好的培养单位颁发优秀组织奖。 七 、相关要求 请各单位研究生秘书于 202 6 年 11 月 9 日前将本单位参加复 赛名单汇总表（见附件 2）、个人作品摘要（见附件3）、原创性声明（签字后扫描为PDF版，附件4）报送至医学部医学研究生办公室邮箱（所有材料均为电子版）。逾期申报及个人申报不予受理。相关内容解释权归白求恩医学部医学研究生办公室。 联 系 人：肖阅 联系电话： 0431-85619505、13578890329 电子邮箱： xiaoyue@jlu.edu.cn 附件 1：医学研究生实验设计大赛答辩要求 附件 2：参加复赛名单汇总表 附件 3：医学研究生实验设计大赛摘要格式要求 附件 4：医学研究生实验设计大赛作品原创性声明 吉林大学 白求恩医学部 202 6 年 10 月 12 日",
+        "attachments": [
+          {
+            "filename": "附件1：医学研究生实验设计大赛答辩要求.docx",
+            "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207564",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2：参加复赛名单汇总表.docx",
+            "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207565",
+            "type": "docx"
+          },
+          {
+            "filename": "附件3：医学研究生实验设计大赛作品格式要求.docx",
+            "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207566",
+            "type": "docx"
+          },
+          {
+            "filename": "附件4：医学研究生实验设计大赛作品原创性声明.docx",
+            "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207567",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于开展2026年医学研究生创新实验设计大赛的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于开展2026年医学研究生创新实验设计大赛的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-12 点击：",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "时间：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1300,
+        "reference_attachment_urls": [
+          "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207564",
+          "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207565",
+          "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207566",
+          "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207567"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于开展2026年医学研究生创新实验设计大赛的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+      "list_title": "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知",
+      "list_date": "2026-10-09",
+      "response": {
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+        "time": "2026-10-15T22:10:18+08:00",
+        "ok": true,
+        "final_url": "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b27cd75408957685049c5ae3d0bf645f4df2e1a930f909d14cd3a26007a80aef",
+        "html_path": "html/b27cd75408957685049c5ae3d0bf645f4df2e1a930f909d14cd3a26007a80aef.html",
+        "replacement_chars": 0,
+        "chars": 15409,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知",
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+        "publish_date": "2026-10-09",
+        "publisher": null,
+        "content": "校医部字〔 2026 〕 26 号 医学部各单位： 《吉林大学临床医学专业毕业实习管理细则》经白求恩医学部党政联席会审议通过，现予以印发，望遵照执行。 附件：吉林大学临床医学专业毕业实习管理细则 白求恩医学部 2026 年 9 月 29 日",
+        "attachments": [
+          {
+            "filename": "吉林大学临床医学专业毕业实习管理细则.pdf",
+            "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18206610",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-09 点击：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "时间：2026-10-09",
+            "date": "2026-10-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 120,
+        "reference_attachment_urls": [
+          "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18206610"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25680.htm",
+      "list_title": "关于2025级医学研究生《临床思维与临床能力提升》考试的通知",
+      "list_date": "2026-05-26",
+      "response": {
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25680.htm",
+        "time": "2026-10-15T22:10:19+08:00",
+        "ok": true,
+        "final_url": "https://jdyxb.jlu.edu.cn/info/1182/25680.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a30a1d710ed29eb353dc75f40a52ab194a7c7c69ffc591af8da69eb3ef16809c",
+        "html_path": "html/a30a1d710ed29eb353dc75f40a52ab194a7c7c69ffc591af8da69eb3ef16809c.html",
+        "replacement_chars": 0,
+        "chars": 14809,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于2025级医学研究生《临床思维与临床能力提升》考试的通知",
+        "url": "https://jdyxb.jlu.edu.cn/info/1182/25680.htm",
+        "publish_date": "2026-05-26",
+        "publisher": null,
+        "content": "各研究生培养单位、相关研究生： 2025级医学研究生（含学硕、专硕、直博）专业选修课《临床思维与临床能力提升》考试相关信息如下： A1023705038学术型硕士课程、A1043705038专业型硕士课程、A1053705038直博生课程考试时间为2026年6月2日（星期二）18:00-19:30，考试方式为线上“学习通”考试。 请2025级选课研究生按时参加考试。 白求恩医学部医学研究生办公室 2026年5月26日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于2025级医学研究生《临床思维与临床能力提升》考试的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于2025级医学研究生《临床思维与临床能力提升》考试的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-05-26 点击：",
+            "date": "2026-05-26"
+          },
+          {
+            "text": "时间：2026-05-26",
+            "date": "2026-05-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 210,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于2025级医学研究生《临床思维与临床能力提升》考试的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:10:15+08:00",
+        "ok": true,
+        "final_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "64a95bd48da411919c1647bc56b7a996c52329ee757e76e256d92017e1c72901",
+        "html_path": "html/64a95bd48da411919c1647bc56b7a996c52329ee757e76e256d92017e1c72901.html",
+        "replacement_chars": 0,
+        "chars": 18210,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jdyxb.jlu.edu.cn/info/1182/25698.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25707.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25710.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25728.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25738.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25739.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25751.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25752.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25769.htm"
+      ],
+      "observed_next_urls": [
+        "https://jdyxb.jlu.edu.cn/tzgg/219.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://jdyxb.jlu.edu.cn/tzgg/219.htm",
+        "time": "2026-10-15T22:10:16+08:00",
+        "ok": true,
+        "final_url": "https://jdyxb.jlu.edu.cn/tzgg/219.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e54a885bbbb5d5133f73141605a542ecf91371a4b5088eacc528be542ae05f6b",
+        "html_path": "html/e54a885bbbb5d5133f73141605a542ecf91371a4b5088eacc528be542ae05f6b.html",
+        "replacement_chars": 0,
+        "chars": 18363,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jdyxb.jlu.edu.cn/info/1182/25632.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25634.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25637.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25638.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25652.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25658.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25668.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25670.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25671.htm",
+        "https://jdyxb.jlu.edu.cn/info/1182/25680.htm"
+      ],
+      "observed_next_urls": [
+        "https://jdyxb.jlu.edu.cn/tzgg/218.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:10:15+08:00",
+    "ok": true,
+    "final_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "64a95bd48da411919c1647bc56b7a996c52329ee757e76e256d92017e1c72901",
+    "html_path": "html/64a95bd48da411919c1647bc56b7a996c52329ee757e76e256d92017e1c72901.html",
+    "replacement_chars": 0,
+    "chars": 18210,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年医学研究生创新实验设计大赛的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25769.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学临床医学专业毕业实习管理细则》的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25762.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展临床医学专业认证校内专家专项指导工作的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25752.htm",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于临床医学专业认证迎评准备工作的提示",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25751.htm",
+      "publish_date": "2026-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办第二届白求恩医学创新转化大赛决赛暨白求恩医学创新转化成果展的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25739.htm",
+      "publish_date": "2026-09-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布《白求恩医学部2026-2027学年第一学期研究生医学公共课课表》的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25738.htm",
+      "publish_date": "2026-09-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰第二届“白求恩医学部医学教育题库命题创新大赛”获奖团队的决定",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25728.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办第二届白求恩医学创新转化大赛-知识产权专题讲座的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25710.htm",
+      "publish_date": "2026-06-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林省卫生健康科技能力提升计划2026年度公开竞争性项目拟推荐项目的公示",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25707.htm",
+      "publish_date": "2026-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025级医学研究生《实验动物学》考试的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25698.htm",
+      "publish_date": "2026-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025级医学研究生《临床思维与临床能力提升》考试的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25680.htm",
+      "publish_date": "2026-05-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025级医学研究生《临床思维方法与决策》考试的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25671.htm",
+      "publish_date": "2026-05-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于医学部做好2026年秋季学期本科生 排课、选课工作的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25670.htm",
+      "publish_date": "2026-05-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办白求恩医学部第四届大学生形态学绘图比赛的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25668.htm",
+      "publish_date": "2026-05-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2021级临床医学专业毕业实习理论考核安排的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25658.htm",
+      "publish_date": "2026-05-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025级医学研究生《实验室安全与防护》考试的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25652.htm",
+      "publish_date": "2026-05-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办白求恩医学人文大讲堂（2026年第2期） —— 我的医路历程（十七）的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25638.htm",
+      "publish_date": "2026-04-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好2022级临床医学专业5+3和五年制学生毕业实习管理安排有关问题的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25637.htm",
+      "publish_date": "2026-04-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025级医学研究生《生物电镜技术》考试的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25634.htm",
+      "publish_date": "2026-04-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办白求恩医学人文大讲堂（2026年第1期） — 学业导航（九）的通知",
+      "url": "https://jdyxb.jlu.edu.cn/info/1182/25632.htm",
+      "publish_date": "2026-04-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://jdyxb.jlu.edu.cn/tzgg/219.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-552953476abb",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.220005262643099e-05,
+      "detail_duration_seconds": 7.79994297772646e-06,
+      "parse_db_duration_seconds": 0.03237480006646365
+    },
+    "second_round": {
+      "source": "p3-552953476abb",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8099904991686344e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-552953476abb",
+    "institution": "白求恩医学部",
+    "column": "通知公告",
+    "url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | TITLE_MISMATCH | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:10:15+08:00",
+    "review_time": "2026-10-15T23:00:39+08:00",
+    "http_status": 200,
+    "final_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://jdyxb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-552953476abb.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

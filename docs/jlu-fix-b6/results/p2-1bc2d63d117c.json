@@ -1,0 +1,576 @@
+{
+  "id": "p2-1bc2d63d117c",
+  "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+  "institution": "动物医学学院",
+  "column": "就业信息",
+  "site_url": "https://dwyx.jlu.edu.cn/",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/1bc2d63d117c5d8d.json",
+  "discovery_url": "https://dwyx.jlu.edu.cn/",
+  "original_snapshot": "html/810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778.html",
+  "original_capture_time": "2026-10-13T13:56:00+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-1bc2d63d117c",
+    "name": "动物医学学院 / 就业信息",
+    "base_url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:50+08:00",
+  "details": [
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+      "list_title": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会",
+      "list_date": "2025-04-25",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+        "time": "2026-10-15T19:44:12+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b9ac49b5510a2aeaa793ae1bad5d66f554d14f1ed7f8bb564b8bfeea63670910",
+        "html_path": "html/b9ac49b5510a2aeaa793ae1bad5d66f554d14f1ed7f8bb564b8bfeea63670910.html",
+        "replacement_chars": 0,
+        "chars": 19905,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会",
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+        "publish_date": "2025-04-25",
+        "publisher": null,
+        "content": "为加强学生对畜牧行业发展趋势的认识，更好地指导我院学生进行生涯规划与职业选择。近日，双胞胎股份有限公司在和平校区科学讲堂207教室举办了“赢从当下，领跑未来”校园招聘宣讲会，本宣讲会特邀双胞胎股份有限公司招聘调配部校招主任邓国会作专题分享。 https://dwyx.jlu.edu.cn/__local/7/5C/FE/F54D9B32BA03EAC81B388E710F9_27806DFD_8FF09.jpg 宣讲会现场照片 宣讲会伊始，邓国会主任向同学们全方位展示了双胞胎集团的发展历程、企业文化、业务布局以及科研成果。从艰苦创业到行业领航，集团一步一个脚印的成长故事深深吸引着现场同学，让大家对集团的发展脉络和雄厚实力有了清晰认知。 https://dwyx.jlu.edu.cn/__local/B/B2/26/46D723200ED50C3DCB70FD562E9_DCE5292E_83A4B.jpg 宣讲会现场照片 随后，邓主任深入解读畜牧行业发展趋势。在消费升级和科技变革的大背景下，智能化养殖、绿色环保饲料研发等领域成为行业新增长点。双胞胎集团始终紧跟趋势，持续加大科研投入，建立了多个科研创新平台，与多所知名高校和科研院所开展产学研合作，在技术创新上不断突破，引领行业发展潮流，让同学们看到集团广阔的发展前景。 https://dwyx.jlu.edu.cn/__local/8/72/3B/4BF874815B15440155E0F960210_0754BF06_2BD454.jpg 宣讲会现场照片 邓主任着重介绍完善的人才培养体系和多元职业晋升路径。新员工入职后将接受系统培训，通过“导师带徒”等机制迅速融入工作。无论是技术研发、生产运营，还是市场营销等岗位，员工都能在集团找到适合自己的发展方向，获得充分的成长空间。 最后的互动环节中，同学们积极提问，围绕薪资福利、工作环境、培训机会等方面踊跃发言。集团招聘团队认真倾听每一个问题，并给予详细解答，现场交流氛围活跃。 https://dwyx.jlu.edu.cn/__local/D/59/79/95628C541B92BF9008E0FA5DE5C_DBAFDD8E_8DE06.jpg 宣讲会现场照片 通过本次宣讲会，同学们对于中国畜牧行业的现状与发展趋势有了更清晰的认识，对于未来的职业生涯有了更明确的认知，希望同学们加强专业学习，做好生涯规划，毕业后为行业发展贡献智慧和力量。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2025-04-25",
+            "date": "2025-04-25"
+          },
+          {
+            "text": "发布日期：2025-04-25",
+            "date": "2025-04-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 685,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会 信息来源： 发布日期：2025-04-25",
+            "date": "2025-04-25"
+          },
+          {
+            "text": "信息来源： 发布日期：2025-04-25",
+            "date": "2025-04-25"
+          },
+          {
+            "text": "发布日期：2025-04-25",
+            "date": "2025-04-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+      "list_title": "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会",
+      "list_date": "2025-04-15",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+        "time": "2026-10-15T19:44:13+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3ac14a6024d0132a94686d2fd5c1e39a309585471116090d2cacc120fc5489a8",
+        "html_path": "html/3ac14a6024d0132a94686d2fd5c1e39a309585471116090d2cacc120fc5489a8.html",
+        "replacement_chars": 0,
+        "chars": 23128,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会",
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+        "publish_date": "2025-04-15",
+        "publisher": null,
+        "content": "2025年4月15日， 吉林大学动物医学学院邀请 塔里木大学 动物科学学院 在和平校区全重楼 7楼会议室 组织了一场 博士 生 人才专场招聘宣讲会 。 此次招聘宣讲以 “扎根边疆育英才，共谱丝路新篇章” 为主题，旨在 邀请吉林大学动物医学学院优秀博士生 投身西部高等教育事业 ，共同谱写服务 \"一带一路\"建设的时代华章。 https://dwyx.jlu.edu.cn/__local/4/D5/23/EF17F8A1FA35CE7C54F70EA5C29_B3EB6F1B_620FC.png 活动现场 会议伊始，塔里木大学的老师 播放了宣传纪录片 ，展示了塔里木大学所在地区的优美风光 ，以及 塔里木大学的悠久历史 和 文化底蕴 ： 塔里木盆地的辽阔与壮丽，山川与沙漠交相辉映，令人陶醉 。 塔里木大学在长期的发展过程中，积淀了深厚的学术传统和教学资源，学校不仅在教学上不断创新，也在科研领域取得了显著的成就。 https://dwyx.jlu.edu.cn/__local/6/9F/8C/17E7428AB8D29308BE5890F1261_3E084432_6834B.png 视频介绍塔里木 接下来，塔里木大学的老师详细介绍了学校近年来实施的 “胡杨计划”以及与之相关的招聘政策。“胡杨计划”以塔里木地区特有的胡杨树为象征，意在鼓励青年学 子 扎根这片充满活力和希望的土地，就像胡杨树一样，在严酷的环境中顽强生长，茁壮成才。通过这一计划，塔里木大学希望能够吸引更多有志之士投身于教育事业，吸引和培养更多高素质的学术人才，推动学校在科研、教学等方面的全面发展 ， 助力学校在未来的发展中取得更大突破。 https://dwyx.jlu.edu.cn/__local/E/8C/2C/B8F29D2E85FA944BC8B753F5A87_9A71EC6F_6FC33.png 介绍 “胡杨计划” 此外，学校还特别强调了其招聘政策的开放性与包容性，致力于为各类优秀人才提供公平的机会。学校的招聘政策涵盖了从教师到科研人员等各类岗位，力求为应聘者提供一个积极向上的工作环境，并提供充足的职业发展空间和晋升机会。同时，塔里木大学还在人才引进过程中注重地方特色与社会需求的结合，推动区域经济与教育的双向发展。 https://dwyx.jlu.edu.cn/__local/4/28/1D/D71335F4367B59D777AEB340114_EF25BF28_7B4FB.png 介绍招聘政策 最后，在会议的互动环节中，塔里木大学的老师们积极回答了与会者提出的相关问题，进一步加深了大家对学校及其发展计划的理解。通过这些详细的回答，让与会者 了解了该 学校在引才、培养、学科建设以及国际合作方面的全面规划和卓越成绩， 以及 未来发展广阔前景 。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2025-04-15",
+            "date": "2025-04-15"
+          },
+          {
+            "text": "发布日期：2025-04-15",
+            "date": "2025-04-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 828,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会 信息来源： 发布日期：2025-04-15",
+            "date": "2025-04-15"
+          },
+          {
+            "text": "信息来源： 发布日期：2025-04-15",
+            "date": "2025-04-15"
+          },
+          {
+            "text": "发布日期：2025-04-15",
+            "date": "2025-04-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+      "list_title": "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径",
+      "list_date": "2024-04-27",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+        "time": "2026-10-15T19:44:14+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "810ac2634cbc41b2cc22ec88eb5e7d0423191cb06a367027a4588b5c5023df97",
+        "html_path": "html/810ac2634cbc41b2cc22ec88eb5e7d0423191cb06a367027a4588b5c5023df97.html",
+        "replacement_chars": 0,
+        "chars": 19901,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径",
+        "url": "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+        "publish_date": "2024-04-27",
+        "publisher": null,
+        "content": "强农兴农，逐梦启航。为进一步拓宽我院学生的职业生涯规划视野，帮助同学们对海关兽医官的职业需求、工作内容和发展前景有更多的了解，动物医学学院于 2024 年 4 月 26 日上午 9 ： 00 在吉林大学和平校区科学讲堂 300 举办了以“强农兴农，逐梦启航”为主题的职业生涯规划讲座。本次会议由秦明副书记主持，特别邀请长春海关技术中心动物检疫实验室主任、海关总署国家禽与经济动物疫病检测重点实验室主任、我校 2005 级兽医学博士宋战昀研究员 作 分享。研究生辅导员王慧丽老师出席报告， 200 余名动物医学学院研究生参加报告。 https://dwyx.jlu.edu.cn/__local/0/DF/18/2E8D6882C147C7063D9C3E2DBB7_578A9C3D_5880E.png 宋战昀研究员介绍海关系统架构 首先，宋战昀研究员为我们详细阐述了海关系统的组织架构，不仅解析了公务员编制和事业单位编制两大体系的内部运作机制，而且对它们的具体职责、晋升路径以及未来前景进行了深入剖析。其次，宋战昀研究员以其丰富的专业知识和实践经验，向我们生动地阐释了海关兽医官在进出境动物和动物产品检疫检验方面的重要职责，展现了其高超的业务水平和卓越的专业素养。最后，宋战昀研究员针对同学们关于职业发展的诸多疑问进行了详尽解答，充分展示了他对行业知识的广泛掌握，也体现出他对母校学子职业发展的深切关怀和对学院学科建设的深沉期待。 https://dwyx.jlu.edu.cn/__local/8/AB/F4/381C74540DDF48C542698B8775D_DED71789_59772.png 宋战昀研究员分享职业发展规划 https://dwyx.jlu.edu.cn/__local/6/7B/69/FF3BC0416D05D2D202FC35619CC_845A1CFB_684A8.png 宋战昀研究员为学生答疑解惑 此次讲座干货满满，不仅让同学们深入了解了从兽医研究生到海关兽医官的职业成长路径，更拓展了同学们的视野，为他们成为海关兽医官或其他官方兽医职务提供了全面的准备指导。讲座不仅强调了职业生涯规划的重要性，鼓励同学们根据个人兴趣和专业优势明确职业方向，还着重强调了强农兴农的责任感和使命感。通过此次讲座，希望同学们能够清晰地认识自己的职业发展道路，积极投身于兽医相关领域，以推动兽医学科和农业的持续健康发展为己任，为实现强农兴农的目标贡献自己的力量。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2024-04-27",
+            "date": "2024-04-27"
+          },
+          {
+            "text": "发布日期：2024-04-27",
+            "date": "2024-04-27"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 780,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径 信息来源： 发布日期：2024-04-27",
+            "date": "2024-04-27"
+          },
+          {
+            "text": "信息来源： 发布日期：2024-04-27",
+            "date": "2024-04-27"
+          },
+          {
+            "text": "发布日期：2024-04-27",
+            "date": "2024-04-27"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+        "time": "2026-10-15T19:30:41+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778",
+        "html_path": "html/810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778.html",
+        "replacement_chars": 0,
+        "chars": 15622,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwyx.jlu.edu.cn/info/1029/3320.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+        "https://dwyx.jlu.edu.cn/info/1076/2630.htm",
+        "https://dwyx.jlu.edu.cn/info/1076/2631.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "time": "2026-10-15T19:30:41+08:00",
+    "ok": true,
+    "final_url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778",
+    "html_path": "html/810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778.html",
+    "replacement_chars": 0,
+    "chars": 15622,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会",
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+      "publish_date": "2025-04-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“扎根边疆育英才，共谱丝路新篇章”——塔里木大学于我院召开2025年博士人才招聘宣讲会",
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+      "publish_date": "2025-04-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "强农兴农，逐梦启航——官方兽医系列报告 从兽医研究生到海关兽医官的成长路径",
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+      "publish_date": "2024-04-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "山东信得科技股份有限公司在吉林大学举办招聘宣讲会",
+      "url": "https://dwyx.jlu.edu.cn/info/1029/3320.htm",
+      "publish_date": "2024-03-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院-2017年春季学期创新创业训练项目立项答辩评分汇总表",
+      "url": "https://dwyx.jlu.edu.cn/info/1076/2631.htm",
+      "publish_date": "2017-05-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2017年春季动物医学学院“大学生创新创业计划”项目结题答辩评审结果",
+      "url": "https://dwyx.jlu.edu.cn/info/1076/2630.htm",
+      "publish_date": "2017-05-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 6,
+  "pagination": [
+    {
+      "start_url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+          "parsed_items": 6,
+          "added_items": 6
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-1bc2d63d117c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4199991710484028e-05,
+      "detail_duration_seconds": 6.9998204708099365e-06,
+      "parse_db_duration_seconds": 0.02894450002349913
+    },
+    "second_round": {
+      "source": "p2-1bc2d63d117c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6000005416572094e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-1bc2d63d117c",
+    "institution": "动物医学学院",
+    "column": "就业信息",
+    "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:41+08:00",
+    "review_time": "2026-10-15T20:21:50+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 6,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-1bc2d63d117c.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-15T19:03:32.864109+08:00",
+  "files": {
+    "docs/jlu-fix-b3/attachment-matrix.json": "37037ea515214ca8291c7e877eebd6cb5d48934c2614c8addde19c6d9a0cad9e",
+    "docs/jlu-fix-b4/review-final-20261014/results.json": "dd1d1563f587d210e76c37ac50cbd9def15fc1081dac7a64d599fccb356c3ff5",
+    "docs/jlu-fix-b5-c/replay-final-20261014/results.json": "b06afc08d4a9ae76419d079ed9e929655a34a5f98136902485315237816ac14c",
+    "docs/jlu-audit-evidence/results.json": "82181882d3e344b05fb9a7f31c6e763fc62fca1aa9d92f9b609afcf92911d27b"
+  },
+  "network_requests": 0,
+  "formal_database_access": false,
+  "prior_probes": 25,
+  "planned_columns": 17,
+  "possible_fresh_prefix_probes": 2,
+  "extra_detail_previews_max": 2
+}

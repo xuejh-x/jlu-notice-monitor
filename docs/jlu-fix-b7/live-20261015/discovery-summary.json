@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-15T22:06:40+08:00",
+  "sites": 59,
+  "directories": 5,
+  "verdicts": {
+    "NO_COLUMN_FOUND_WITHIN_BOUND": 43,
+    "ROBOTS_UNAVAILABLE_OTHER": 10,
+    "COLUMN_LINKS_FOUND_NEED_VALIDATION": 2,
+    "SERVER_DISCONNECTED": 1,
+    "TIMEOUT": 1,
+    "DEFERRED_OA_BY_USER": 1,
+    "TLS_CERTIFICATE_VERIFY_FAILED": 1
+  },
+  "discovered_columns": 2,
+  "observed_anchors": 7260,
+  "http_attempts_process": 168,
+  "oa_requests": 0,
+  "application_db_connections": 0,
+  "downloads": 0
+}

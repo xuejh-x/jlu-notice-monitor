@@ -1,0 +1,109 @@
+{
+  "id": "p3-5c626cbfdf19",
+  "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+  "institution": "东北振兴发展研究院",
+  "column": "通知公告",
+  "site_url": "http://dbzx.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/5c626cbfdf1917c2.json",
+  "original_capture_time": "2026-10-13T14:02:41+08:00",
+  "discovery_url": "http://dbzx.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-5c626cbfdf19",
+    "name": "东北振兴发展研究院 / 通知公告",
+    "base_url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:09+08:00",
+  "details": [],
+  "pages": [],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+  "reason": "This page is unsupported or needs advanced selector configuration",
+  "response": {
+    "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "time": "2026-10-15T22:15:03+08:00",
+    "ok": true,
+    "final_url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "a1bec4e56281c04cee5d5213d718617b4299aa1d9221b8dfa2fb03411c2f0ebb",
+    "html_path": "html/a1bec4e56281c04cee5d5213d718617b4299aa1d9221b8dfa2fb03411c2f0ebb.html",
+    "replacement_chars": 0,
+    "chars": 16595,
+    "attempts": 1
+  },
+  "pagination": [
+    {
+      "start_url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+          "parsed_items": 0,
+          "added_items": 0
+        },
+        {
+          "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt/1.htm",
+          "parsed_items": 0,
+          "added_items": 0
+        }
+      ],
+      "stop_reason": "EMPTY_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "summary": {
+    "id": "p3-5c626cbfdf19",
+    "institution": "东北振兴发展研究院",
+    "column": "通知公告",
+    "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "待修复或证据不足",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "MALFORMED_HEADER_ANCESTOR_CONTAINS_NOTICE_LIST",
+    "capture_time": "2026-10-15T22:15:03+08:00",
+    "review_time": "2026-10-15T23:01:09+08:00",
+    "http_status": 200,
+    "final_url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "list_pages": 0,
+    "list_items": 0,
+    "details": 0,
+    "verified_details": 0,
+    "issues": [
+      "MALFORMED_HEADER_ANCESTOR_CONTAINS_NOTICE_LIST"
+    ],
+    "discovery_url": "http://dbzx.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-5c626cbfdf19.json",
+    "windows_preview": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "NOT_EXERCISED",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

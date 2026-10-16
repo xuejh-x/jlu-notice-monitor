@@ -1,0 +1,1465 @@
+{
+  "time": "2026-10-15T20:27:22.476537+08:00",
+  "scope": "bounded list occurrences; not production database duplicates",
+  "same_url_cross_column_groups": 92,
+  "same_title_date_different_url_groups": 53,
+  "same_url": {
+    "https://wxy.jlu.edu.cn/info/1347/21367.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（四）"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（四）"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21362.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（三）"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（三）"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21357.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（二）"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（二）"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21356.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（一）"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示（一）"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21348.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "关于李天阳同学更改推免研究生招生报考类型的公告"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "关于李天阳同学更改推免研究生招生报考类型的公告"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21344.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生复试名单公示"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生复试名单公示"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21336.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试录取实施细则"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "文学院2027年接收推荐免试攻读研究生（含直博生）复试录取实施细则"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21288.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "吉林大学文学院2027年招收优秀应届本科毕业生直接攻读博士学位研究生预选合格学生名单"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "吉林大学文学院2027年招收优秀应届本科毕业生直接攻读博士学位研究生预选合格学生名单"
+      }
+    ],
+    "https://wxy.jlu.edu.cn/info/1347/21268.htm": [
+      {
+        "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+        "title": "吉林大学文学院2026年“中华优秀传统文化专项计划”博士招生拟录取名单公示"
+      },
+      {
+        "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+        "title": "吉林大学文学院2026年“中华优秀传统文化专项计划”博士招生拟录取名单公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5719.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "(转)关于组织申报2026年度吉林大学“人工智能+”虚拟仿真实验教学项目的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "(转)关于组织申报2026年度吉林大学“人工智能+”虚拟仿真实验教学项目的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5699.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "(转)关于做好2026年秋季学期开放性创新实验教学工作的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "(转)关于做好2026年秋季学期开放性创新实验教学工作的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5696.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "关于考古学院2026-2027学年本科生班主任拟聘人选的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于考古学院2026-2027学年本科生班主任拟聘人选的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5685.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "（转）关于开展2025-2026学年本科生班主任考核工作及2026-2027学年本科生班主任选聘工作的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "（转）关于开展2025-2026学年本科生班主任考核工作及2026-2027学年本科生班主任选聘工作的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5676.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "（转）吉林大学2026-2027学年本科课堂教学质量“卓越奖”预申报通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "（转）吉林大学2026-2027学年本科课堂教学质量“卓越奖”预申报通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1026/5675.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+        "title": "(转)关于开展2026年吉林大学本科生科研训练计划项目中期考核工作的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "(转)关于开展2026年吉林大学本科生科研训练计划项目中期考核工作的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5721.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "2026年度考古学院研究生学业奖学金评审工作实施细则"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "2026年度考古学院研究生学业奖学金评审工作实施细则"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5711.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "关于2026年度考古学院研究生国家奖学金评审工作实施细则的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于2026年度考古学院研究生国家奖学金评审工作实施细则的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5698.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "关于2025-2026学年考古学院研究生评奖评优名单的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于2025-2026学年考古学院研究生评奖评优名单的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5693.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "关于考古学院2026-2027学年秋季学期研究生教材选用的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于考古学院2026-2027学年秋季学期研究生教材选用的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5688.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "吉林大学考古学院关于2027年接收推荐免试攻读硕士学位研究生复试成绩的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "吉林大学考古学院关于2027年接收推荐免试攻读硕士学位研究生复试成绩的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5678.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "吉林大学考古学院2027年接收推荐免试攻读硕士学位研究生复试录取工作办法"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "吉林大学考古学院2027年接收推荐免试攻读硕士学位研究生复试录取工作办法"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1040/5677.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+        "title": "关于开展超期研究生学籍清理工作的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于开展超期研究生学籍清理工作的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1044/5687.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+        "title": "（转）关于申报2026年度吉林省社会科学基金部门合作项目的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "（转）关于申报2026年度吉林省社会科学基金部门合作项目的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1044/5683.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+        "title": "（转）关于开展哲学社会科学横向项目2026年结项清理工作的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "（转）关于开展哲学社会科学横向项目2026年结项清理工作的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5718.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "关于公示吉林大学考古学院团学组织工作人员的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于公示吉林大学考古学院团学组织工作人员的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5695.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "【团学活动】打破标签，探寻真我｜MBTI性格探索活动"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "【团学活动】打破标签，探寻真我｜MBTI性格探索活动"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5691.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "关于公开选拔吉林大学考古学院团学组织工作人员的通知"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于公开选拔吉林大学考古学院团学组织工作人员的通知"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5690.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "关于2025年度“喜来健奖学金”拟推荐候选人名单的公示"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "关于2025年度“喜来健奖学金”拟推荐候选人名单的公示"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5674.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "【团学活动】赛事预告|考古学院vs计算机科学与技术学院迎新辩论表演赛"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "【团学活动】赛事预告|考古学院vs计算机科学与技术学院迎新辩论表演赛"
+      }
+    ],
+    "https://kgxy.jlu.edu.cn/info/1059/5669.htm": [
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+        "title": "【团学活动】青苗计划｜考古小白课堂：从“小白”启程，探索考古之路"
+      },
+      {
+        "column_url": "https://kgxy.jlu.edu.cn/tzgg.htm",
+        "title": "【团学活动】青苗计划｜考古小白课堂：从“小白”启程，探索考古之路"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25547.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2025级赖星云同学中国近现代史纲要课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2025级赖星云同学中国近现代史纲要课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25543.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级陈琪同学思想政治理论课实践教学课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级陈琪同学思想政治理论课实践教学课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25530.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2025级孙宇星同学形势与政策Ⅱ课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2025级孙宇星同学形势与政策Ⅱ课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25528.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级宫书睿同学思想政治理论课实践教学课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级宫书睿同学思想政治理论课实践教学课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25527.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级刘涵同学思想政治理论课实践教学课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级刘涵同学思想政治理论课实践教学课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25456.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2027年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2027年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25437.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25432.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25426.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2027年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25425.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2023级本科生推免成绩中限定选修课程的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2023级本科生推免成绩中限定选修课程的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25424.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "法学院2027年推荐优秀应届本科毕业生免试攻读研究生工作实施细则及素质类项目加分标准"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "法学院2027年推荐优秀应届本科毕业生免试攻读研究生工作实施细则及素质类项目加分标准"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25218.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年度“大学生创新创业训练计划”拟立项名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年度“大学生创新创业训练计划”拟立项名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25202.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级杨皓凯同学刑法学II课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级杨皓凯同学刑法学II课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25201.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2023级戴智舟同学国际公法专题I课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2023级戴智舟同学国际公法专题I课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25199.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2026届本科生毕业论文答辩工作的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2026届本科生毕业论文答辩工作的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25178.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级王文轩同学习近平新时代中国特色社会主义思想概论课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级王文轩同学习近平新时代中国特色社会主义思想概论课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25177.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2024级梅盛媛同学形势与政策Ⅲ课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2024级梅盛媛同学形势与政策Ⅲ课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25137.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年本科生集中考核转专业拟录取名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年本科生集中考核转专业拟录取名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25127.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2026年本科生集中考核转专业面试安排的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2026年本科生集中考核转专业面试安排的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25119.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年本科生集中考核转专业笔试成绩的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年本科生集中考核转专业笔试成绩的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25098.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2026年本科生集中考核转专业考核相关安排的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2026年本科生集中考核转专业考核相关安排的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25075.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院本科生2026年转专业成绩排名的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院本科生2026年转专业成绩排名的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25059.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "法学院2026年本科生集中考核转专业工作实施细则"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "法学院2026年本科生集中考核转专业工作实施细则"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/25038.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于2022级本科生毕业论文工作的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于2022级本科生毕业论文工作的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24889.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于开设2025-2026学年新生研讨课的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于开设2025-2026学年新生研讨课的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24831.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2023级本科生学年论文工作的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2023级本科生学年论文工作的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24703.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于法学院2022级符雅茜同学商法学II课程成绩更正的公示"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于法学院2022级符雅茜同学商法学II课程成绩更正的公示"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24698.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年拟推荐优秀应届本科毕业生免试攻读研究生名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24679.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生综合排名的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24678.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生素质类项目加分名单的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24672.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2026年推荐优秀应届本科毕业生免试攻读研究生学业成绩排名的通知"
+      }
+    ],
+    "https://law.jlu.edu.cn/info/1087/24668.htm": [
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/tzgg.htm",
+        "title": "关于公示法学院2022级本科生推免成绩中限定选修课程的通知"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/rcpy/bksjy/tzgg.htm",
+        "title": "关于公示法学院2022级本科生推免成绩中限定选修课程的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11416.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "1 关于吉林大学通信工程学院胡云峰教授团队博士后录取人员公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "1 关于吉林大学通信工程学院胡云峰教授团队博士后录取人员公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11415.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "2 吉林大学通信工程学院胡云峰教授团队博士后招聘启事"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "2 吉林大学通信工程学院胡云峰教授团队博士后招聘启事"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11412.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "3 关于通信工程学院2024-2025年教师中期考核和2023-2025年教师任期考核初步考核结果..."
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "3 关于通信工程学院2024-2025年教师中期考核和2023-2025年教师任期考核初步考核结果..."
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11395.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "4 关于通信工程学院2026年专业技术职务聘任推荐人选公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "4 关于通信工程学院2026年专业技术职务聘任推荐人选公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11352.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "5 关于开展通信工程学院2024-2025年度教师中期考核和2023-2025年度教师任期考核工作..."
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "5 关于开展通信工程学院2024-2025年度教师中期考核和2023-2025年度教师任期考核工作..."
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11351.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "6 关于通信工程学院2026年度研究生导师立德树人职责考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "6 关于通信工程学院2026年度研究生导师立德树人职责考核结果公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11282.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "7 关于通信工程学院2026年3月教职工固定聘期考核人选初步考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "7 关于通信工程学院2026年3月教职工固定聘期考核人选初步考核结果公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11225.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "8 关于吉林大学通信工程学院王萍教授团队博士后录取人员公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "8 关于吉林大学通信工程学院王萍教授团队博士后录取人员公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11216.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "9 关于赵琳琳等职务任免的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "9 关于赵琳琳等职务任免的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11214.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "10 吉林大学通信工程学院王萍教授团队博士后招聘启事"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "10 吉林大学通信工程学院王萍教授团队博士后招聘启事"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11213.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "11 通信工程学院各系（中心）主任、副主任拟聘人选公示"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "11 通信工程学院各系（中心）主任、副主任拟聘人选公示"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11181.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "12 关于开展通信工程学院2025年度考核工作的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "12 关于开展通信工程学院2025年度考核工作的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11180.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "13 关于开展通信工程学院2025年度师德考核工作的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "13 关于开展通信工程学院2025年度师德考核工作的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11169.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "14 通信工程学院关于开展2025年系（中心）主任换届调整的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "14 通信工程学院关于开展2025年系（中心）主任换届调整的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11109.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "15 关于通信工程学院周淼磊校外兼职情况公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "15 关于通信工程学院周淼磊校外兼职情况公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11057.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "1 关于通信工程学院2025年度吉林大学——中国一汽奖教金推荐人选公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "1 关于通信工程学院2025年度吉林大学——中国一汽奖教金推荐人选公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11036.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "2 关于公布吉林大学通信工程学院胡云峰教授团队博士后录取人员的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "2 关于公布吉林大学通信工程学院胡云峰教授团队博士后录取人员的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11034.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "3 关于通信工程学院2025年专业技术职务聘任推荐人选公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "3 关于通信工程学院2025年专业技术职务聘任推荐人选公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11033.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "4 吉林大学通信工程学院胡云峰教授团队博士后招聘启事"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "4 吉林大学通信工程学院胡云峰教授团队博士后招聘启事"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/11023.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "5 关于通信工程学院康冰校外兼职情况公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "5 关于通信工程学院康冰校外兼职情况公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10984.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "6 关于通信工程学院2025年度唐敖庆学者申报人审核结果和推荐情况公示的通知（二）"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "6 关于通信工程学院2025年度唐敖庆学者申报人审核结果和推荐情况公示的通知（二）"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10982.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "7 关于通信工程学院2025年度通过特别渠道聘任教授职务推荐人选公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "7 关于通信工程学院2025年度通过特别渠道聘任教授职务推荐人选公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10975.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "8 关于通信工程学院2025年度唐敖庆学者申报人审核结果和推荐情况公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "8 关于通信工程学院2025年度唐敖庆学者申报人审核结果和推荐情况公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10969.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "9 关于通信工程学院校外兼职情况公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "9 关于通信工程学院校外兼职情况公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10960.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "10 关于通信工程学院2025年度研究生导师立德树人职责考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "10 关于通信工程学院2025年度研究生导师立德树人职责考核结果公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10872.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "11 关于通信工程学院2024年下半年教职工固定聘期考核人选初步考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "11 关于通信工程学院2024年下半年教职工固定聘期考核人选初步考核结果公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10871.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "12 关于通信工程学院2024年度考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "12 关于通信工程学院2024年度考核结果公示的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10862.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "13 关于开展通信工程学院2024年度考核工作的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "13 关于开展通信工程学院2024年度考核工作的通知"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10861.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "14 关于通信工程学院颜廷若前往香港城市大学公派出国的公示"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "14 关于通信工程学院颜廷若前往香港城市大学公派出国的公示"
+      }
+    ],
+    "https://dce.jlu.edu.cn/info/1051/10864.htm": [
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg.htm",
+        "title": "15 关于通信工程学院2024年度师德考核结果公示的通知"
+      },
+      {
+        "column_url": "https://dce.jlu.edu.cn/tzgg/yngg.htm",
+        "title": "15 关于通信工程学院2024年度师德考核结果公示的通知"
+      }
+    ]
+  },
+  "same_title_date": {
+    "吉林大学中日联谊医院设备维修成交结果公示 / 2026-10-08": [
+      {
+        "column_url": "https://www.zrlyyy.com/wujiaquery_g7yU_61.html",
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_61/223326.html"
+      },
+      {
+        "column_url": "https://www.zrlyyy.com/wujiaquery_g7yU_61.html",
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_61/223325.html"
+      }
+    ],
+    "关于爱智求真—高清海优秀师生奖获奖者的公示 / 2025-03-03": [
+      {
+        "column_url": "https://zsy.jlu.edu.cn/tzgg.htm",
+        "url": "https://zsy.jlu.edu.cn/info/1017/12782.htm"
+      },
+      {
+        "column_url": "https://zsy.jlu.edu.cn/tzgg.htm",
+        "url": "https://zsy.jlu.edu.cn/info/1017/12781.htm"
+      }
+    ],
+    "第九届联合国际法师生论坛 预 通 知 / 2025-01-05": [
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1186/24269.htm"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1081/24268.htm"
+      }
+    ],
+    "第四届君道论坛暨“法典化时代劳动法理论与制度创新发展”高峰论坛正式通知 / 2024-08-22": [
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1186/23860.htm"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1081/23859.htm"
+      }
+    ],
+    "中国土地法制与乡村振兴战略会议联盟第九届学术研讨会 “《民法典》实施与乡村振兴战略下农地法制深化改革”会议预通知 / 2022-03-11": [
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1081/20643.htm"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1186/20641.htm"
+      }
+    ],
+    "关于吉林大学法学院2021年度青年培英科研项目的立项公示 / 2021-09-01": [
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1186/19717.htm"
+      },
+      {
+        "column_url": "https://law.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://law.jlu.edu.cn/info/1081/19725.htm"
+      }
+    ],
+    "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知 / 2022-11-17": [
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1366/18792.htm"
+      },
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1375/18793.htm"
+      }
+    ],
+    "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知 / 2022-09-14": [
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1366/18104.htm"
+      },
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1375/18107.htm"
+      }
+    ],
+    "【转】关于印发《吉林大学研究生教学管理规定》的通知 / 2022-09-14": [
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1366/18103.htm"
+      },
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1375/18108.htm"
+      }
+    ],
+    "【转】关于印发《吉林大学研究生学位论文评审工作实施办法》的通知 / 2022-09-14": [
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1366/18102.htm"
+      },
+      {
+        "column_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+        "url": "https://sg.jlu.edu.cn/info/1375/18109.htm"
+      }
+    ],
+    "关于报送吉林省委宣传部重点调研课题申报意向的通知 2005-05-19 / 2005-05-19": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1023/2901.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/kxyj1/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1023/2905.htm"
+      }
+    ],
+    "吉林大学东北亚学院“2025年校园学术活动开放日”通知 2025-06-19 / 2025-06-19": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1054/6205.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6209.htm"
+      }
+    ],
+    "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取（第二批）工作通知 2026-09-28 / 2026-09-28": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1056/6584.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6585.htm"
+      }
+    ],
+    "吉林大学东北亚学院2027年推荐免试攻读研究生招生录取工作实施细则 2026-09-16 / 2026-09-16": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1056/6561.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6563.htm"
+      }
+    ],
+    "吉林大学东北亚学院“2026年校园学术活动开放日”通知 2026-06-18 / 2026-06-18": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1056/6522.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6523.htm"
+      }
+    ],
+    "吉林大学东北亚学院2026年硕士研究生招生复试录取工作实施细则 2026-03-23 / 2026-03-23": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/yjsjy/zsxx.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1056/6410.htm"
+      },
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6413.htm"
+      }
+    ],
+    "关于《吉林大学本科教育教学审核评估自评报告》的公示 2024-10-14 / 2024-10-14": [
+      {
+        "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+        "url": "https://nasa.jlu.edu.cn/info/1082/6029.htm"
+      },
+      {
+        "column_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+        "url": "https://zky.jlu.edu.cn/info/1022/5395.htm"
+      }
+    ],
+    "关于公共外交学院2026级研究生班长名单的公示 / 2026-10-13": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9059.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9060.htm"
+      }
+    ],
+    "关于公示吉林大学公共外交学院研究生国家奖学金评审工作细则、国家奖学金评审委员会名单的通知 / 2026-10-10": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9056.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9057.htm"
+      }
+    ],
+    "公共外交学院2026年暑期社会实践评比结果公示 / 2026-10-10": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9054.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9055.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年奖学金、优秀学生和优秀学生干部名单公示 / 2026-10-10": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9052.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9053.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年国家励志奖学金推荐名单公示 / 2026-10-10": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9050.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9051.htm"
+      }
+    ],
+    "公共外交学院2026年度研究生学业奖学金评审工作实施细则 / 2026-10-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9041.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9042.htm"
+      }
+    ],
+    "公共外交学院2026年国家助学金推荐名单公示 / 2026-10-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9039.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9040.htm"
+      }
+    ],
+    "公共外交学院2026年“吉林大学助学金”推荐名单公示 / 2026-10-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9037.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9038.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年国家奖学金推荐名单公示 / 2026-10-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9035.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9036.htm"
+      }
+    ],
+    "关于公示公共外交学院2026级本科生班委名单的通知 / 2026-10-08": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9032.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9033.htm"
+      }
+    ],
+    "关于公共外交学院2026年秋季学期第一轮本科生学生公寓卫生安全检查工作的通报 / 2026-09-30": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9028.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9029.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年研究生评奖评优结果公示 / 2026-09-28": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9026.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9027.htm"
+      }
+    ],
+    "公共外交学院2026年度宝钢优秀学生奖学金推荐名单公示 / 2026-09-23": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9020.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9021.htm"
+      }
+    ],
+    "公共外交学院关于2026下半年申请答辩博士研究生学术成果的公示 / 2026-09-22": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9016.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9017.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年学生奖助工作小组成员名单 / 2026-09-22": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9008.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9009.htm"
+      }
+    ],
+    "关于公共外交学院第九届研究生会以及主要学生干部名单的公示 / 2026-09-21": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9006.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9007.htm"
+      }
+    ],
+    "公共外交学院2025－2026学年研究生优秀奖学金、优秀研究生、优秀研究生干部评选工作实施细则 / 2026-09-21": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9004.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9005.htm"
+      }
+    ],
+    "公共外交学院关于开展2025-2026学年奖学金、优秀学生和优秀学生干部评选工作的通知 / 2026-09-20": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9002.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9003.htm"
+      }
+    ],
+    "公共外交学院2025-2026学年学生资助、奖助工作领导小组成员名单 / 2026-09-20": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/9000.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/9001.htm"
+      }
+    ],
+    "关于公共外交学院2026-2027学年本科生经济关注对象名单的公示 / 2026-09-17": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8996.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8997.htm"
+      }
+    ],
+    "关于公示2026-2027学年秋季学期研究生教材选用信息的通知 / 2026-09-17": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8992.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8993.htm"
+      }
+    ],
+    "吉林大学公共外交学院2027年推荐免试攻读硕士研究生招生录取工作实施细则 / 2026-09-16": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8990.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8989.htm"
+      }
+    ],
+    "关于公共外交学院本科学生学业指导助理拟聘人选的公示 / 2026-09-16": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8985.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8986.htm"
+      }
+    ],
+    "关于公共外交学院“蒲公英计划”(第四期）学员院内选拔结果的公示 / 2026-09-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8961.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8962.htm"
+      }
+    ],
+    "关于公共外交学院2026-2027学年新生辅导员助理选聘人员名单公示的通知 / 2026-09-09": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8959.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8960.htm"
+      }
+    ],
+    "公共外交学院关于推荐2027年优秀应届本科毕业生免试攻读研究生人选名单的公示 / 2026-09-07": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8956.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8957.htm"
+      }
+    ],
+    "关于2026-2027学年本科生经济关注对象认定评议小组成员名单的公示 / 2026-09-07": [
+      {
+        "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1310/8954.htm"
+      },
+      {
+        "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://sipa.jlu.edu.cn/info/1044/8955.htm"
+      }
+    ],
+    "转自学校：关于举办吉林大学国际合作平台建设计划交流座谈会的通知 / 2024-04-10": [
+      {
+        "column_url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+        "url": "https://dmse.jlu.edu.cn/info/1050/6179.htm"
+      },
+      {
+        "column_url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+        "url": "https://dmse.jlu.edu.cn/info/1050/6198.htm"
+      }
+    ],
+    "关于申报吉林省科技发展计划2027年度项目的通知 / 2026-08-06": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/21150.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/21149.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm"
+      }
+    ],
+    "关于2026年度国家自然科学基金申请与结题工作安排的通知 / 2026-01-15": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20844.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20845.htm"
+      }
+    ],
+    "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知 / 2025-11-07": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20716.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20717.htm"
+      }
+    ],
+    "关于申报新一代人工智能国家科技重大专项2025年度第一批项目的通知 / 2025-10-30": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20702.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20703.htm"
+      }
+    ],
+    "关于申报2025年中国高校产学研创新基金－联合专项（七期）申请指南 / 2025-10-30": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20700.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20701.htm"
+      }
+    ],
+    "关于申报2025年中国高校产学研创新基金－人工智能与数字安全专项的通知 / 2025-10-30": [
+      {
+        "column_url": "https://ccst.jlu.edu.cn/kxyj/kytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1261/20698.htm"
+      },
+      {
+        "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20699.htm"
+      }
+    ],
+    "2025-2026学年优秀奖学金、优秀研究生干部和优秀研究生评选报名通知 / 2026-09-21": [
+      {
+        "column_url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+        "url": "https://geo.jlu.edu.cn/info/1611/16207.htm"
+      },
+      {
+        "column_url": "https://geo.jlu.edu.cn/index/tzgg.htm",
+        "url": "https://geo.jlu.edu.cn/info/1094/16206.htm"
+      }
+    ],
+    "就业信息就业信息 / 2013-07-05": [
+      {
+        "column_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1320.htm"
+      },
+      {
+        "column_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1316.htm"
+      }
+    ]
+  },
+  "production_merges": 0
+}

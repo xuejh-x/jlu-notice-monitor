@@ -1,0 +1,89 @@
+--- B4 baseline/backend/app/parsers/html.py
++++ B4 final/backend/app/parsers/html.py
+@@ -23,6 +23,7 @@
+     "ul li a",
+ )
+ CONTENT_SELECTORS = (
++    ".m-detail-content__container",
+     ".v_news_content",
+     "#vsb_content",
+     ".article-content",
+@@ -140,12 +141,13 @@
+     return parse_date(copy.get_text(" ", strip=True))
+ 
+ 
+-def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate) -> str:
+-    selectors = (".nr_title", ".art-tit h3", ".detail-title", ".detail-tit h4",
++def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag | None = None) -> str:
++    selectors = (".m-detail-container__title", ".detail_head1", "form[name='_newscontent_fromname'] h2.tit",
++                 "form[name='_newscontent_fromname'] h2[align='center']", ".nr_title", ".art-tit h3", ".detail-title", ".detail-tit h4",
+                  "form[name='_newscontent_fromname'] > .bt", ".article-title", ".article_title", "h1", ".title")
+     for selector in selectors:
+         for node in soup.select(selector):
+-            if in_navigation(node):
++            if in_navigation(node) or node is content or (content is not None and content in node.parents):
+                 continue
+             copy = BeautifulSoup(str(node), "html.parser")
+             for child in list(copy.select("script, style, .meta, .article-meta")):
+@@ -167,8 +169,9 @@
+ def _detail_publish_date(soup: BeautifulSoup, content: Tag, fallback: date | None) -> date | None:
+     # Only article metadata can override a list date. Body event/deadline dates
+     # and a site's current-date clock cannot establish publication metadata.
+-    selectors = (".meta", ".article-meta", ".article-info", ".news-info", ".sub", ".xiab",
+-                 ".detail-infor", ".detail-tit p", ".art-tit p", ".nr_title span", ".xq", ".conttime", ".title11 p", "time[datetime]",
++    selectors = (".m-detail-container__info", ".meta", ".article-meta", ".article-info", ".news-info", ".sub", ".xiab",
++                 ".detail-infor", ".detail-tit p", ".art-tit p", ".nr_title span", ".xq", ".conttime", ".title11 p",
++                 ".content-bt-xia", ".title3 > p.ac", "time[datetime]",
+                  "meta[property='article:published_time']", "meta[name='pubdate']")
+     for selector in selectors:
+         for node in soup.select(selector):
+@@ -178,7 +181,8 @@
+             if selector.startswith(("time", "meta[")):
+                 published = parse_date(value)
+             else:
+-                match = re.search(r"(?<![\u4e00-\u9fff])(?:发布日期|发布时间|发表时间|日期|时间)[：:\s]*?(" + DATE_TEXT_PATTERN.pattern + ")", value)
++                labels = r"创建时间" if selector == ".m-detail-container__info" else r"发布日期|发布时间|发表时间|日期|时间"
++                match = re.search(r"(?<![\u4e00-\u9fff])(?:" + labels + r")[：:\s]*?(" + DATE_TEXT_PATTERN.pattern + ")", value)
+                 published = parse_date(match[1]) if match else None
+             if published is not None:
+                 return published
+@@ -271,7 +275,7 @@
+     href = str(anchor.get("href") or "")
+     if re.search(r"/system/_content/download\.jsp\?", href, re.I) and "news.DownloadAttachUrl" in href:
+         return True
+-    if anchor.find_parent(class_=re.compile(r"^(?:attachments?|attach|news_aboutFile)$", re.I)):
++    if anchor.find_parent(class_=re.compile(r"^(?:attachments?|attach|news_aboutFile|m-detail-container__file)$", re.I)):
+         return True
+     row = anchor.find_parent("li")
+     return bool(row and re.match(r"^附件\s*[【\[:：]", row.get_text(" ", strip=True)))
+@@ -291,6 +295,9 @@
+         path = unquote(urlsplit(url).path)
+         suffix = PurePosixPath(path).suffix.lower()
+         text = normalize_whitespace(anchor.get_text(" ", strip=True))
++        if anchor.find_parent(class_="m-detail-container__file"):
++            # This CMS appends a display-only file size to the actual filename.
++            text = re.sub(r"\s+-\s*\(\d+(?:\.\d+)?\s*[kmg]?B\)\s*$", "", text, flags=re.I)
+         extensions = EXPLICIT_ATTACHMENT_EXTENSIONS if explicit else ARTICLE_EXTENSIONS
+         filename_hint = str(anchor.get("download") or "") or text
+         match = re.search(r"\.([a-z0-9]+)(?:[）)】\]\s]*$)", filename_hint, re.IGNORECASE)
+@@ -326,8 +333,8 @@
+ def parse_detail_html(html: str, page_url: str, fallback: NoticeCandidate) -> NoticeCandidate:
+     soup = BeautifulSoup(html, "html.parser")
+     validate_html_page(soup)
+-    title = _detail_title(soup, fallback)
+     content_node = _select_content(soup)
++    title = _detail_title(soup, fallback, content_node)
+     for unwanted in content_node.select("script, style, noscript"):
+         unwanted.decompose()
+     attachments = detail_attachments(soup, content_node, page_url)
+--- B4 baseline/backend/app/sources/generic.py
++++ B4 final/backend/app/sources/generic.py
+@@ -215,7 +215,7 @@
+             raise SourceError("One or more advanced selectors are invalid") from exc
+         if not isinstance(title_node, Tag) or not isinstance(link_node, Tag):
+             continue
+-        title = normalize_whitespace(title_node.get_text(" ", strip=True))
++        title = normalize_whitespace(str(title_node.get("title") or title_node.get_text(" ", strip=True)))
+         href = str(link_node.get("href") or "").strip()
+         if title and href and usable_link(link_node, page_url):
+             results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=parse_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))

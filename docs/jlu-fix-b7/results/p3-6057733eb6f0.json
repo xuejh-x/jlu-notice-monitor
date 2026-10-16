@@ -1,0 +1,612 @@
+{
+  "id": "p3-6057733eb6f0",
+  "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+  "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+  "column": "通知公告",
+  "site_url": "https://nrcem.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED",
+  "original_evidence": "docs/jlu-audit-evidence/results/6057733eb6f04b2f.json",
+  "original_capture_time": "2026-10-13T13:39:34+08:00",
+  "discovery_url": "https://nrcem.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-6057733eb6f0",
+    "name": "国家教材建设重点研究基地（高等学校理学教材研究） / 通知公告",
+    "base_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:45+08:00",
+  "details": [
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1292.htm",
+      "list_title": "关于国家教材建设重点研究基地 （高等学校理学教材研究） 研究课题中期检查的通知",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1292.htm",
+        "time": "2026-10-15T22:11:43+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1452/1292.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "706781762f544140c042808cce3d4f7dee48eaa4716b6d7e95fb99590e113057",
+        "html_path": "html/706781762f544140c042808cce3d4f7dee48eaa4716b6d7e95fb99590e113057.html",
+        "replacement_chars": 0,
+        "chars": 14193,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于国家教材建设重点研究基地 （高等学校理学教材研究） 研究课题中期检查的通知",
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1292.htm",
+        "publish_date": "2026-07-13",
+        "publisher": null,
+        "content": "本科生院、教师教学发展中心、图书馆、数学学院、物理学院、化学学院、生命科学学院、商学与管理学院： 为规范基地课题全过程管理，依据《国家教材建设重点研究基地（高等学校理学教材研究）课题管理办法（试行）》，基地现组织开展2025年度立项研究课题中期检查工作，现将有关事项通知如下： 一、检查范围 2025年度经国家教材建设重点研究基地（高等学校理学教材研究）准予立项的全部17个研究课题。 二、检查内容 重点核查课题前期实施推进情况，主要包含三方面：一是项目整体研究开展进度；二是现阶段已产出的阶段性研究成果；三是课题推进过程中存在的难点、堵点及待解决问题。 三、检查方式 本次检查采用线上检查的方式，各课题负责人需在2026年7月13日—2026年7月17日16点前登录基地课题管理平台（网址：https://jckt.jlu.edu.cn/）完成申报书信息核对，并上传已签字盖章的项目申报书（PDF版）；2026年7月18日—2026年7月26日16点前在线填报中期检查相关材料。 四、其他要求 1.坚持实事求是原则。各课题负责人须客观、完整填报课题真实进展，严禁瞒报、漏报、虚报、弄虚作假等行为。 2.严格遵守报送时限。逾期未提交中期检查材料、课题研究停滞或无法持续推进的项目，基地将视实际情况作出立项调整或撤销立项处理。 3.压实主体工作责任。各课题负责人须高度重视本次中期检查工作，对照立项申报书既定研究计划有序推进各项研究任务。 4.如已完成课题研究内容，本次可直接申请课题结题并提交相关成果。 5.在检查工作中如有疑问，请及时与基地相关工作人员联系。 联系人：曲信儒 电话：85167018 18646415846 国家教材建设重点研究基地 （高等学校理学教材研究） 2026年7月13日",
+        "attachments": [
+          {
+            "filename": "国家教材建设重点研究基地系统操作手册-教师版(1).docx",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=18183150",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于国家教材建设重点研究基地 （高等学校理学教材研究） 研究课题中期检查的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 749,
+        "reference_attachment_urls": [
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=18183150"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于国家教材建设重点研究基地 （高等学校理学教材研究） 研究课题中期检查的通知",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          },
+          {
+            "text": "日期：2026-07-13 点击数：",
+            "date": "2026-07-13"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+      "list_title": "关于国家教材建设重点研究基地（高等学校理学教材研究）研究课题立项的通知",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+        "time": "2026-10-15T22:11:44+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ae80eac989e22bedb257a7821282fdac5f0e6c4c79ffc757f78b37b298b14e99",
+        "html_path": "html/ae80eac989e22bedb257a7821282fdac5f0e6c4c79ffc757f78b37b298b14e99.html",
+        "replacement_chars": 0,
+        "chars": 20027,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）研究课题立项的通知",
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+        "publish_date": "2026-01-16",
+        "publisher": null,
+        "content": "本科生院、教师教学发展中心、数学学院、物理学院、化学学院、生命科学学院、商学与管理学院： 为深入贯彻党的二十大和二十届二中、三中全会精神， 全面 落实习近平总书记在全国教育大会上的重要讲话 精神与 关于教材工作的重要指示 要求 ，落实《教育强国建设规划纲要（ 2024—2035年）》部署要求，依据《国家教材建设重点研究基地（高等学校理学教材研究）课题管理办法（试行）》，国家教材建设重点研究基地（高等学校理学教材研究） 开展了 2025年规划课题申报工作 。 经教师个人自主申报、所在学院审核推荐、校外专家严格评审等流程，现正式确定 国家教材建设重点研究基地（高等学校理学教材研究） 2025年研究课题立项结果并予以公布，具体立项名单详见附件。 为保障课题研究规范有序推进、产出高质量研究成果，评审专家意见已通过邮件形式反馈至各项目负责人，请务必及时查收查阅。请各项目负责人按照《国家教材建设重点研究基地（高等学校理学教材研究）课题管理办法（试行）》要求及个人立项申请书，系统规划研究进程，开展深入探索与系统总结，着力形成一批具有特色亮点、学术价值与实践意义的教材研究成果，持续深化理学教材研究领域的创新发展，为构建高质量教材研究体系筑牢基础。 联系人：曲信儒 电话： 0431-85167018 国家教材建设重点研究基地 （高等学校理学教材研究） 2026年1月16日",
+        "attachments": [
+          {
+            "filename": "国家教材建设重点研究基（高等理学教材研究）2025年课题立项通知附件.xlsx",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=17923007",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）研究课题立项的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-01-16 点击数：",
+            "date": "2026-01-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 586,
+        "reference_attachment_urls": [
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=17923007"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于国家教材建设重点研究基地（高等学校理学教材研究）研究课题立项的通知",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2026-01-16 点击数：",
+            "date": "2026-01-16"
+          },
+          {
+            "text": "日期：2026-01-16 点击数：",
+            "date": "2026-01-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+      "list_title": "关于国家教材建设重点研究基地（高等学校理学教材研究）规划课题发布的通知",
+      "list_date": "",
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+        "time": "2026-10-15T22:11:45+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c060394d3de2bdfc207213b6f2d9f8b8743b12254296351ebbe5b7392a5452c7",
+        "html_path": "html/c060394d3de2bdfc207213b6f2d9f8b8743b12254296351ebbe5b7392a5452c7.html",
+        "replacement_chars": 0,
+        "chars": 15130,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）规划课题发布的通知",
+        "url": "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+        "publish_date": "2025-10-24",
+        "publisher": null,
+        "content": "本科生院、教师教学发展中心、数学学院、物理学院、化学学院、生命科学学院、商学与管理学院： 为深入贯彻党的二十大和二十届二中、三中全会精神，贯彻落实习近平总书记在全国教育大会上的重要讲话和关于教材工作的重要指示精神，落实《教育强国建设规划纲要（2024—2035年）》部署要求，依据《国家教材建设重点研究基地（高等学校理学教材研究）课题管理办法（试行）》，现启动国家教材建设重点研究基地（高等学校理学教材研究）2025年规划课题申报工作。有关事项通知如下： 一、课题研究方向 本次教材研究规划课题重点围绕以下研究方向开展，申报者可结合所在学科专业特点，在对应方向下自主拟定具体课题名称。 研究方向：教材数字化转型与智能化应用研究、高水平教材建设队伍培养、教材研究队伍建设、教材研究人才培养、教材建设的激励机制等。 二、申报要求 1. 申报人须遵守中华人民共和国宪法和法律，具有独立开展研究和组织开展研究的能力，能够承担实质性研究工作，品行端正、学风严谨优良。 2. 申报人须具有副高级（含）以上专业技术职称（职务）。 3. 同一人员作为项目组成员同年度最多可参与2个教材研究项目的申报。项目组成员参与须征得本人同意。 4. 项目申报人须依托所在单位申报。基地不直接受理个人申报。 5. 数学学院、物理学院、化学学院、生命科学学院限报4项，本科生院、教师教学发展中心、商学与管理学院限报2项。 三、申报流程及时间安排 1. 自本通知发布之日起，各单位可通过基地网站（https://nrcem.jlu.edu.cn）下载《XXX单位-教材基地2025年规划课题汇总表汇总表》、《XXX（单位）-XXX（项目负责人）-教材基地2025年规划课题申报书》。 2. 材料提交截至时间为2025年11月5日16点，纸质材料请报送至国家教材建设重点研究基地（高等学校理学教材研究）办公室（鼎新图书馆9楼），电子版材料（《汇总表》、《申报表》须为盖章扫描件与可编辑文档）请发送至 quxr@jlu.edu.cn ，邮件主题请注明“【教材基地2025规划课题申报】XX单位”，逾期不予受理。 3. 国家教材建设重点研究基地（高等学校理学教材研究）将组织教材领域专家进行评审，确定立项名单及资助等级。 4. 评审结果将在基地网站（https://nrcem.jlu.edu.cn）公示5个工作日，无异议后发布立项通知。 附件：1.《XXX（单位）-教材基地2025年规划课题汇总表》 2.《XXX（单位）-XXX（项目负责人）-教材基地2025年规划课题申报书》",
+        "attachments": [
+          {
+            "filename": "国家教材建设重点研究基地（高等学校理学教材研究）课题管理办法（试行）.pdf",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16667803",
+            "type": "pdf"
+          },
+          {
+            "filename": "XXX（单位）-XXX（项目负责人）-教材基地2025年.docx",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663519",
+            "type": "docx"
+          },
+          {
+            "filename": "XXX(单位）-国家教材建设重点研究基地（高等.xlsx",
+            "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663518",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）规划课题发布的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1071,
+        "reference_attachment_urls": [
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663518",
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16663519",
+          "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16667803"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于国家教材建设重点研究基地（高等学校理学教材研究）规划课题发布的通知",
+          ""
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          },
+          {
+            "text": "日期：2025-10-24 点击数：",
+            "date": "2025-10-24"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+        "time": "2026-10-15T22:11:42+08:00",
+        "ok": true,
+        "final_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "80fbd3c3888fb97c9db7144aca14b95ff9c8183bc354cce5b4d6ac405e179412",
+        "html_path": "html/80fbd3c3888fb97c9db7144aca14b95ff9c8183bc354cce5b4d6ac405e179412.html",
+        "replacement_chars": 0,
+        "chars": 15010,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nrcem.jlu.edu.cn/info/1452/1110.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1112.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1125.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1142.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+        "https://nrcem.jlu.edu.cn/info/1452/1292.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "time": "2026-10-15T22:11:42+08:00",
+    "ok": true,
+    "final_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "80fbd3c3888fb97c9db7144aca14b95ff9c8183bc354cce5b4d6ac405e179412",
+    "html_path": "html/80fbd3c3888fb97c9db7144aca14b95ff9c8183bc354cce5b4d6ac405e179412.html",
+    "replacement_chars": 0,
+    "chars": 15010,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于国家教材建设重点研究基地 （高等学校理学教材研究） 研究课题中期检查的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1292.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）研究课题立项的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1226.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于国家教材建设重点研究基地（高等学校理学教材研究）规划课题发布的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1155.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于修改“十四五”相关学科(专业)领域课程教材建设报告的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1125.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于规范使用国家教材建设重点研究基地名称和标志的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1112.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于更新国家教材建设重点研究基地成员名单的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1110.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "教育部关于 2024年度国家教材建设重点研究基地认定结果的通知",
+      "url": "https://nrcem.jlu.edu.cn/info/1452/1142.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 7,
+  "pagination": [
+    {
+      "start_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-6057733eb6f0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.750001683831215e-05,
+      "detail_duration_seconds": 8.600065484642982e-06,
+      "parse_db_duration_seconds": 0.035468399873934686
+    },
+    "second_round": {
+      "source": "p3-6057733eb6f0",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8600025214254856e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-6057733eb6f0",
+    "institution": "国家教材建设重点研究基地（高等学校理学教材研究）",
+    "column": "通知公告",
+    "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:11:42+08:00",
+    "review_time": "2026-10-15T23:00:45+08:00",
+    "http_status": 200,
+    "final_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 7,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://nrcem.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-6057733eb6f0.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

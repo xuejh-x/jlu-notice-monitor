@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-14T23:35:45.748550+08:00",
+  "initial_run_serialization": "See first-run-finalization-error.json; requests retained",
+  "first_validation_selector_misses": [
+    "existing-csw-0",
+    "existing-csw-1",
+    "existing-innovation-0",
+    "international"
+  ],
+  "resolution": "Use observed old-style a.Next markup and reject acceptance when an observed next URL is missed by the selector",
+  "dedup_before_after": {
+    "sample": "CSE summer training notices (one)/(two)",
+    "candidate_count": 3,
+    "before_notices": 2,
+    "after_notices": 3
+  },
+  "duplicate_reconstruction_input": "Reviewed original results.json, same input used by original export; per-column snapshots retain earlier observations"
+}

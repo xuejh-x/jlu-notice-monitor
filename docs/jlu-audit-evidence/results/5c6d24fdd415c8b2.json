@@ -1,0 +1,26 @@
+{
+  "column_url": "https://dec.jlu.edu.cn/html/tzgg1",
+  "column": "通知公告",
+  "institution": "继续教育学院（培训学院 / 继续教育 / 继续教育招生",
+  "site_url": "http://dec.jlu.edu.cn/",
+  "category": "管理服务 / 官网导航",
+  "priority": "P1",
+  "discovery_url": "http://dec.jlu.edu.cn/",
+  "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:39:05+08:00",
+  "checked_at": "2026-10-13T13:51:54+08:00",
+  "status": "失败",
+  "issues": [
+    "NETWORK_ERROR"
+  ],
+  "details": [],
+  "list_count": null,
+  "list_items": [],
+  "generic_count": null,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/5c6d24fdd415c8b2.json",
+  "reason": "SourceError: Source request failed: Source exceeded the redirect limit",
+  "pagination": {},
+  "http_status": 308
+}

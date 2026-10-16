@@ -1,0 +1,19 @@
+{
+  "time": "2026-10-14T15:47:29.370730+08:00",
+  "status": "passed",
+  "final_application_matches_test_manifest": true,
+  "final_tests": "300 passed, 1 skipped",
+  "baseline_tests": "269 passed, 1 skipped",
+  "fresh_snapshot_hash_checks": 41,
+  "spot_final_replays": 3,
+  "offline_columns_preserved": 68,
+  "positive_metadata_controls": 11,
+  "navigation_controls": 27,
+  "sources_unchanged": true,
+  "files": {
+    "backend/app/parsers/html.py": "a0fad390013d421f846a29575c08bc4a3df7d6edb9614857aefa71d493427066",
+    "backend/app/sources/generic.py": "1120d060584383f4ed7163b92630c9743d57d38ee9a52b53c3ca94295c50210c",
+    "backend/app/crawler/runner.py": "e81104a5ccd9c4dce4f0e0befb121ef483f41e68e6cab629cb0e2f4984022b41",
+    "docs/JLU_SITE_FIX_B2_REPORT.md": "6bb3740031a6fd02b07d4e2edd5b5be41c45132a8b67c973fd199677ef48be38"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "run": "docs/jlu-fix-b5-c/live-20261014",
+  "phase": "first column result JSON serialization, after network capture and isolated sample replay",
+  "error": "TypeError: Object of type SourceAttemptResult is not JSON serializable",
+  "cause": "SourceRunResult.__dict__ retains nested dataclasses",
+  "resolution": "Serialize with dataclasses.asdict; new fingerprint/run directory, retain captured requests and their original times",
+  "production_database_access": false
+}

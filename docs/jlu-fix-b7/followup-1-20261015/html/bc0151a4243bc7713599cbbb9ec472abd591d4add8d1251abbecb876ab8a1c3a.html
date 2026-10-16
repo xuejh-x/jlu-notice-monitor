@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/static/jlu-favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/portal/v2/style/reset.css" />
+    <link rel="stylesheet" href="/static/portal/v2/style/iconfont.css" />
+    <link rel="stylesheet" href="/static/portal/v2/style/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/static/portal/v2/style/all-new.css?version=20230301" />
+    <link rel="stylesheet" href="/static/portal/v2/style/jyzp_index_calendar.css" />
+    <title>就业指导 - 吉林大学就业网</title>
+    <style>
+      .m_show_list {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin:16px 0;
+      }
+      
+      .m_show_list li{
+        display: flex;
+        width: 33.333%;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .m_show_list li img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+
+      .m_show_list li > a{
+        position: relative;
+        color: var(--color-grey-1);
+        text-decoration: none;
+        width: 90%;
+        height: 240px;
+        border-radius: 3px;
+        overflow: hidden;
+      }
+
+      .m_show_list li > a span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.75));
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+      }
+      
+      .m_show_list li > a:hover {
+        color: var(--color-warning);
+      }
+
+      
+
+      .m-list-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.75));
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+      }
+
+      .m-list-title img {}
+
+      .m-list-title span {
+        font-size: 12px;
+        color: #fff;
+        margin: 0 2px;
+      }
+
+      .m-list-play {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: salmon; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: all .35s ease;
+      }
+
+      .m-list-play > img {
+        width: 48px;
+        height: 48px;
+      }
+
+      .m-jyzd-micro_list li > a:hover div.m-list-play {
+        opacity: 1;
+      }
+
+      .m-mooc-play {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: salmon; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .m-mooc-play > img {
+        width: 32px;
+        height: 32px;
+        transition: all .35s ease;
+      }
+
+      .m-mooc-play:hover > img {
+        transform: scale(1.2);
+      }
+
+    </style>
+    <script type="text/javascript">var ctx = '/portal', ctxStatic='/static';</script>
+  </head>
+  <body>
+    <!-- 首页头部 -->
+	<!-- 首页头部 -->
+    <div class="m-header-sub">
+      <section>
+        <div>
+          <h1><a href="/"><img src="/static/portal/v2/image/logo-main.png" alt="" /></a></h1>
+          <h3>就业指导</h3>
+        </div>
+        <ul>
+          <li><a href="/portal/jyzd" class="f-menu-active">首页</a></li>
+          <li><a href="/portal/jyzd/article/list?cid=c3575791a5454b6a9f24a9409be5c52d" >就业指导活动</a></li>
+          <li><a href="/portal/jyzd/jywk" >就业微课</a></li>
+          <li><a href="/portal/jyzd/mooc" >就业慕课</a></li>
+          <li><a href="/portal/jyzd/article/list?cid=e37fc2be59bd415fbaf01beff5325187" >风采展示</a></li>
+          <li><a href="/portal/jyzd/showVoteEvent" >风采评选</a></li>
+          <li><a href="/portal/jyzd/article/list?cid=a67ce7d7573f4c6f8a22bbfebef9df61" >指导手册</a></li>
+          <li><a href="/portal/jyzd/article/list?cid=92dc2cf082b147bb850db4505fce3167" >教师资格证</a></li>          
+          <li><a href="/portal/jyzd/cjwtjxz" >常见问题及下载</a></li>
+        </ul>
+      </section>
+    </div><!-- Swiper -->
+    <div class="m-swiper-container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          	<a href="https://jdjyw.jlu.edu.cn/portal/jyzd/article/details?id=1caf8014ef6f45e69a7d51126acd669c">
+              <img src="/profile/upload/2025/04/24/891da3a5-ca39-477d-ae6f-7616b7f8f2f7.jpg">
+              <section>我校学生在第二届全国大学生职业规划大赛中荣获金奖</section>
+            </a>
+          	</div>
+          </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- 就业指导活动 -->
+    <div class="m-common-container s-jyzd-bg">
+      <div class="m-common-top">
+        <section class="m-common-title">
+          <h4>就业指导活动</h4>
+        </section>
+        <section class="m-public-more">
+          <a href="/portal/jyzd/article/list?cid=c3575791a5454b6a9f24a9409be5c52d">More...</a>
+        </section>
+      </div>
+      <ul class="m-jyzp-list">
+        <li>
+          <a href="/portal/jyzd/article/details?id=78deec05cfb04d4b94829f959b0d165c">
+            关于开展&ldquo;供需对接就业工作专题谈&rdquo;第七期活动的通知</a>
+          <span>2026/05/20</span>
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=36686923a9db46eb9ba22880107042f3">
+            关于开展2026年&ldquo;协同指导促就业&rdquo;系列指导活动第八讲(总第43讲)的通知</a>
+          <span>2026/04/29</span>
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=f9efee9eb4f744e5919f0844754cde7c">
+            关于组织参加吉林省2026年吉林省高校毕业生&ldquo;学电商促就业&rdquo;专题培训的通知</a>
+          <span>2026/04/29</span>
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=52c0a5d209ea42b3b374553e1fd4a2e0">
+            关于开展2026年&ldquo;启航计划&rdquo;公务员、选调生考试公益培训第二讲（总第98讲）的通知</a>
+          <span>2026/04/29</span>
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=21443aabc9154389b778e8b1b716d44b">
+            关于开展&ldquo;就业征程 伴你同行&rdquo;非师范类中小学教师资格证考试面试经验分享指导活动的通知</a>
+          <span>2026/04/29</span>
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=db671c59fc864e88bec79cbf51597ac6">
+            关于开展吉林大学第六届&ldquo;出彩就业创业人物&rdquo;评选工作的通知</a>
+          <span>2026/04/29</span>
+        </li>
+        </ul>
+    </div>
+    <!-- 就业微课 -->
+    <div class="m-jyzd-micro_container">
+      <div class="m-common-top">
+        <section class="m-common-title">
+          <h4>就业微课</h4>
+        </section>
+        <section class="m-public-more">
+          <a href="/portal/jyzd/jywk">More...</a>
+        </section>
+      </div>
+      <ul class="m-jyzd-micro_list">
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=5d4574ca18ae4a9e985650e21981fe7f">
+            <img src="/profile/upload/2024/09/23/d4d3c66b-5e97-422b-bb25-c91dcc2150f8.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:07:51</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>6519</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=5d4574ca18ae4a9e985650e21981fe7f">彭德杰：华为消费者管培生求职&ldquo;宝典&rdquo;</a></h3>
+          <!-- <div>
+            <span>时长：00:07:51</span>
+            <span>点击数：6519</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=3f2d47aea6124a3faba2c19ea3977431">
+            <img src="/profile/upload/2024/09/20/0553807a-4c54-43ad-ba15-87cad4756e51.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:05:16</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>6391</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=3f2d47aea6124a3faba2c19ea3977431">赵天源：我的保研心路历程</a></h3>
+          <!-- <div>
+            <span>时长：00:05:16</span>
+            <span>点击数：6391</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=1cc957e833f448cc854da39c4ea61947">
+            <img src="/profile/upload/2024/09/20/e17b66f8-a507-4f8b-a39d-b943b370c32b.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:06:54</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5286</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=1cc957e833f448cc854da39c4ea61947">张蓬铎：保研边缘？何不尝试出国</a></h3>
+          <!-- <div>
+            <span>时长：00:06:54</span>
+            <span>点击数：5286</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=d18456441e03490ab62aa428531a1e26">
+            <img src="/profile/upload/2024/09/20/d1a6256a-1237-4719-8b90-990ff17d1e43.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:06:01</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5486</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=d18456441e03490ab62aa428531a1e26">尹万桀：考研、考公、就业，究竟谁是你的&ldquo;真命天子&rdquo;？</a></h3>
+          <!-- <div>
+            <span>时长：00:06:01</span>
+            <span>点击数：5486</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=28f18b2d9ab74fce9a8f47b4ccdaba7d">
+            <img src="/profile/upload/2024/09/20/600e9de7-49dc-45a9-802a-0efc89cc44fc.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:04:34</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5343</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=28f18b2d9ab74fce9a8f47b4ccdaba7d">邢雪：通向选调的每一步都算数</a></h3>
+          <!-- <div>
+            <span>时长：00:04:34</span>
+            <span>点击数：5343</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=26aa5ff7f5fb4e449d25b4d728e68976">
+            <img src="/profile/upload/2024/09/20/6cc67b85-cd53-43f6-a06f-3b1697483d69.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:16:04</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5877</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=26aa5ff7f5fb4e449d25b4d728e68976">王卫：首届全国大学生职业规划大赛获奖选手风采展示</a></h3>
+          <!-- <div>
+            <span>时长：00:16:04</span>
+            <span>点击数：5877</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=51a50d4930b547e3b6da04a277246fc6">
+            <img src="/profile/upload/2024/09/20/595e1c12-8e31-4dd7-a3d3-49e8df93ca04.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:09:27</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5764</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=51a50d4930b547e3b6da04a277246fc6">孙涌钊：首届全国大学生职业规划大赛获奖选手风采展示</a></h3>
+          <!-- <div>
+            <span>时长：00:09:27</span>
+            <span>点击数：5764</span>
+          </div> -->
+        </li>
+        <li>
+        	<a href="/portal/jyzd/jywk/details?id=184de3a1530a4ee48c0e9b4df94a9823">
+            <img src="/profile/upload/2024/09/20/5af7e50d-8248-495e-b5fd-f6ecfa6452b6.png" />
+            <!--  -->
+            <div class="m-list-title">
+              <img src="/static/portal/v2/image/icon/movie-line.svg" alt="">
+              <span>00:11:41</span>
+              <img src="/static/portal/v2/image/icon/eye-2-line.svg" alt="" style="margin-left:8px;">
+              <span>5542</span>
+            </div>
+            <!--  -->
+            <div class="m-list-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <h3><a href="/portal/jyzd/jywk/details?id=184de3a1530a4ee48c0e9b4df94a9823">吕孝阳：首届全国大学生职业规划大赛获奖选手风采展示</a></h3>
+          <!-- <div>
+            <span>时长：00:11:41</span>
+            <span>点击数：5542</span>
+          </div> -->
+        </li>
+        </ul>
+    </div>
+    <!-- 就业慕课 -->
+    <div class="m-jyzd-mooc_container">
+      <div class="m-common-top">
+        <section class="m-common-title">
+          <h4>就业慕课 </h4>
+        </section>
+        <section class="m-public-more">
+          <a href="/portal/jyzd/mooc">More...</a>
+        </section>
+      </div>
+      <ul class="m-jyzd-mooc_list">
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=20a36c9deac4458282aa0928d672640c" target="_blank">
+            <img src="/profile/upload/2023/02/24/0d9a9462-4c85-4987-b9c4-b9e59a4f1747.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=20a36c9deac4458282aa0928d672640c" target="_blank">创业！JUST DO IT!</a></h5>
+            <span>点击次数：21688</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=16093b30ff39402db692c7c07b8447d0" target="_blank">
+            <img src="/profile/upload/2023/02/24/fd861087-c448-4754-a2be-cc1f1336b66a.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=16093b30ff39402db692c7c07b8447d0" target="_blank">创业相关机构与政策</a></h5>
+            <span>点击次数：16563</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=5700f6eff30f4ee8b1272fe00e01815c" target="_blank">
+            <img src="/profile/upload/2023/02/24/c3079b66-0af4-47c8-b579-04a5e200e05a.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=5700f6eff30f4ee8b1272fe00e01815c" target="_blank">巾帼不让须眉</a></h5>
+            <span>点击次数：18446</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=6bd65475f8c8459cadf36d0fc0834c39" target="_blank">
+            <img src="/profile/upload/2023/02/24/bb93545a-c76c-4c92-9b7f-6f99bf48ee2d.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=6bd65475f8c8459cadf36d0fc0834c39" target="_blank">谁说女子不如男</a></h5>
+            <span>点击次数：17801</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=eba8e9a81dbe441baf47e638ec3e14ff" target="_blank">
+            <img src="/profile/upload/2023/02/24/9c6e3d96-d225-4f80-9c2e-0c0949f3f369.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=eba8e9a81dbe441baf47e638ec3e14ff" target="_blank">女性创业与创业者</a></h5>
+            <span>点击次数：16105</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        <li>
+          <a href="/portal/jyzd/mooc/details?id=dbf73712aacd498f948754381a54f509" target="_blank">
+            <img src="/profile/upload/2023/02/24/9f13704c-a0bd-44b2-828d-f9aaf398c964.png" />
+              <!-- <img src="https://img2.baidu.com/it/u=1432262024,1630143250&fm=253&fmt=auto&app=138&f=JPEG?w=328&h=196" /> -->
+            <!--  -->
+            <div class="m-mooc-play">
+              <img src="/static/portal/v2/image/icon/icon-play.svg" alt="">
+            </div>
+          </a>
+          <section>
+            <h5><a href="/portal/jyzd/mooc/details?id=dbf73712aacd498f948754381a54f509" target="_blank">平台模式设计的关键</a></h5>
+            <span>点击次数：16191</span>
+            <span>时间：2023-02-24</span>
+          </section>
+        </li>
+        </ul>
+    </div>
+    
+    <!-- 风采展示 -->
+    <div class="m-jyzd-show_container">
+      <div class="m-common-top">
+        <section class="m-common-title">
+          <h4>风采展示</h4>
+        </section>
+        <section class="m-public-more">
+          <a href="/portal/jyzd/article/list?cid=e37fc2be59bd415fbaf01beff5325187">More...</a>
+        </section>
+      </div>
+      <ul class="m_show_list">
+        <li>
+          <a href="/portal/jyzd/article/details?id=240243c181f94c0a86553edc4c772b9d">
+            <img src="/profile/upload/2026/01/07/eec9d42c-658e-44a8-86cd-429c63c9b6e3.jpg" />
+            <span>我的就业选择（2025届）-中心校区</span>
+          </a>
+          <!-- <a href="/portal/jyzd/article/details?id=240243c181f94c0a86553edc4c772b9d"></a> -->
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=ad28fac5da364929ab1a32208fc69e18">
+            <img src="/profile/upload/2026/01/07/63d54367-b378-4943-b2cf-2933f3579c58.jpg" />
+            <span>我的就业选择（2025届）-新民校区</span>
+          </a>
+          <!-- <a href="/portal/jyzd/article/details?id=ad28fac5da364929ab1a32208fc69e18"></a> -->
+        </li>
+        <li>
+          <a href="/portal/jyzd/article/details?id=f7a7b084c7db415e9f889e22e6a9641e">
+            <img src="/profile/upload/2026/01/07/0b88600a-5638-4abc-85b5-bfcbf4e9367e.jpg" />
+            <span>我的就业选择（2025届）-南岭校区</span>
+          </a>
+          <!-- <a href="/portal/jyzd/article/details?id=f7a7b084c7db415e9f889e22e6a9641e"></a> -->
+        </li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="m-footer-container">
+      <div class="m-footer-main">
+        <section class="m-footer-left">
+          <img src="/static/portal/v2/image/logo-footer.png" alt="" />
+          <span>Copyright &copy; 2026 吉林大学学生就业创业指导与服务中心</span>
+          <span>技术支持：长春佳希科技有限公司</span>
+        </section>
+        <ul class="m-footer-center">
+          <li>
+            <img src="/static/portal/images/ewm.jpg" alt="" />
+            <span>吉大就业官方公众号</span>
+          </li>
+          <li>
+            <img src="/static/portal/v2/image/https___jdjyw.jlu.edu.cn_rf.png" alt="" />
+            <span>校就业创业服务平台</span>
+          </li>
+        </ul>
+        <ul class="m-footer-right">
+          <li>
+            <a href="https://jlu.edu.cn/">吉大主页</a> |
+            <a href="/portal/lxwm">联系我们</a>
+          </li>
+          <li>地址：吉林省长春市前进大街2699号</li>
+          <li>邮编：130012</li>
+          <li>邮箱：jdjy85167001@163.com</li>
+        </ul>
+      </div>
+    </div><!-- Script -->
+    <script src="/static/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/static/portal/v2/js/swiper-bundle.min.js"></script>
+
+    <script>
+      // Swiper
+      new Swiper('.swiper', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+        // 分页器
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        // 前进后退按钮
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      $(function(){
+
+      });
+
+    </script>
+  </body>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f3a1f3ff8d120912a12ab2de0a25b16a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></html>

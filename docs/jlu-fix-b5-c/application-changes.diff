@@ -1,0 +1,422 @@
+--- B5-C baseline/backend/app/crawler/runner.py
++++ B5-C final/backend/app/crawler/runner.py
+@@ -1077,6 +1077,7 @@
+                 db, normalized, canonical, candidate.publish_date,
+                 source_id=None if dedup_across_sources else source.id,
+                 public_id=candidate.public_id,
++                title=candidate.title,
+             )
+         if notice:
+             old_deadline = notice.registration_deadline
+--- B5-C baseline/backend/app/parsers/html.py
++++ B5-C final/backend/app/parsers/html.py
+@@ -329,12 +329,42 @@
+     return results
+ 
+ 
++def _embedded_pdf_attachments(content: Tag, page_url: str) -> list[AttachmentData]:
++    """Retain literal same-origin VSB PDF references; never execute scripts."""
++    origin = urlsplit(page_url)
++    attachments = []
++    for script in content.select("script:not([src])"):
++        for match in re.finditer(r"(?:^|[;\s])showVsbpdfIframe\(\s*['\"]([^'\"\\\r\n]+)['\"]\s*,", script.get_text()):
++            href = match[1]
++            if re.search(r"[<>\x00-\x20]", href):
++                continue
++            try:
++                target = urlsplit(urljoin(page_url, href))
++                if target.scheme not in {"http", "https"} or target.username or target.password:
++                    continue
++                if (target.scheme, target.hostname, target.port) != (origin.scheme, origin.hostname, origin.port):
++                    continue
++                path = PurePosixPath(unquote(target.path))
++                if path.suffix.lower() != ".pdf":
++                    continue
++            except ValueError:
++                continue
++            attachments.append(AttachmentData(filename=path.name, url=target.geturl(), type="pdf"))
++            if len(attachments) == 50:
++                return attachments
++    return attachments
++
++
+ def detail_attachments(soup: BeautifulSoup, content: Tag, page_url: str) -> list[AttachmentData]:
+     # Plain file links inside the article retain their existing behavior. Extra
+     # types and links outside its body require explicit attachment evidence.
+     scope = content.find_parent("form", attrs={"name": "_newscontent_fromname"}) or content.find_parent("article") or content.parent
+     files = _extract_attachments(content, page_url)
+     seen = {a.url for a in files}
++    for attachment in _embedded_pdf_attachments(content, page_url):
++        if attachment.url not in seen:
++            files.append(attachment)
++            seen.add(attachment.url)
+     if isinstance(scope, Tag):
+         for attachment in _extract_attachments(scope, page_url, explicit_only=True):
+             if attachment.url not in seen:
+@@ -348,9 +378,9 @@
+     validate_html_page(soup)
+     content_node = _select_content(soup)
+     title = _detail_title(soup, fallback, content_node)
++    attachments = detail_attachments(soup, content_node, page_url)
+     for unwanted in content_node.select("script, style, noscript"):
+         unwanted.decompose()
+-    attachments = detail_attachments(soup, content_node, page_url)
+     validate_detail_container(soup, content_node, has_attachments=bool(attachments), page_url=page_url)
+     content = detail_plain_text(content_node, page_url)
+     page_text = normalize_whitespace(soup.get_text(" ", strip=True))
+--- B5-C baseline/backend/app/services/deduplication.py
++++ B5-C final/backend/app/services/deduplication.py
+@@ -2,6 +2,7 @@
+ 
+ from datetime import date
+ from difflib import SequenceMatcher
++import re
+ 
+ from sqlalchemy import select
+ from sqlalchemy.orm import Session
+@@ -13,6 +14,14 @@
+     return SequenceMatcher(None, left, right).ratio()
+ 
+ 
++def _different_explicit_series(left: str, right: str) -> bool:
++    # Similar headings may describe distinct rounds/editions. URL/native
++    # identity still wins; this guard applies only to title-based matching.
++    pattern = r"[（(]\s*([一二三四五六七八九十百零〇两\d]+)\s*[）)]|第\s*([一二三四五六七八九十百零〇两\d]+)\s*(期|批|届|次|轮|场)"
++    first, second = re.findall(pattern, left), re.findall(pattern, right)
++    return bool(first and second and first != second)
++
++
+ def find_duplicate(
+     db: Session,
+     normalized_title: str,
+@@ -20,6 +29,7 @@
+     publish_date: date | None,
+     source_id: int | None = None,
+     public_id: str | None = None,
++    title: str | None = None,
+ ) -> Notice | None:
+     if public_id:
+         remote = db.scalar(select(Notice).where(Notice.public_id == public_id))
+@@ -36,6 +46,8 @@
+             )
+         exact_matches = db.scalars(exact_query).all()
+         for exact in exact_matches:
++            if title and _different_explicit_series(title, exact.title):
++                continue
+             if publish_date and exact.publish_date:
+                 if abs((publish_date - exact.publish_date).days) <= 14:
+                     return exact
+@@ -48,6 +60,8 @@
+         )
+     candidates = db.scalars(candidate_query.order_by(Notice.id.desc()).limit(300)).all()
+     for candidate in candidates:
++        if title and _different_explicit_series(title, candidate.title):
++            continue
+         if publish_date and candidate.publish_date:
+             if abs((publish_date - candidate.publish_date).days) > 14:
+                 continue
+--- B5-C baseline/backend/app/services/list_pagination.py
++++ B5-C final/backend/app/services/list_pagination.py
+@@ -0,0 +1,152 @@
++"""Opt-in list bounds for observed links and a verified public GET-form template."""
++from pathlib import PurePosixPath
++import posixpath
++import re
++from urllib.parse import parse_qsl, unquote, urlencode, urljoin, urlsplit, urlunsplit
++
++from bs4 import BeautifulSoup, Tag
++
++from app.services.normalization import canonicalize_url
++
++PAGE_PARAMS = {"page", "p", "pageno", "pagenum", "pageindex", "page_no", "page_num", "page_index", "pagesize", "page_size", "offset", "start", "current"}
++
++
++def _page_key(url):
++    parsed = urlsplit(url)
++    return urlunsplit(parsed._replace(query=urlencode(sorted(parse_qsl(parsed.query, keep_blank_values=True))), fragment=""))
++
++
++def _origin(parsed):
++    return parsed.scheme.lower(), parsed.hostname, parsed.port or (443 if parsed.scheme == "https" else 80)
++
++
++def _observed_get_form(soup, node, page_url):
++    """Recognize one observed public CMS template without executing JavaScript."""
++    call = re.fullmatch(r"page\(\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*['\"]['\"]\s*)?\);?", str(node.get("onclick") or "").strip())
++    if not call or not (1 <= int(call[1]) <= 100000 and 1 <= int(call[2]) <= 100):
++        return None
++    code = re.sub(r"\s+", "", "\n".join(n.get_text() for n in soup.select("script:not([src])"))).replace("'", '"')
++    known = 'functionpage(n,s){$("#pageNo").val(n);$("#pageSize").val(s);$("#searchForm").submit();returnfalse;}'
++    if known not in code or code.count("functionpage(") != 1:
++        return None
++    forms = soup.select("form#searchForm")
++    if len(forms) != 1 or str(forms[0].get("method", "get")).casefold() != "get":
++        return None
++    form = forms[0]
++    if form.select("input[type=password],input[type=file],textarea,select"):
++        return None
++    fields = []
++    for control in form.select("input[name]"):
++        kind = str(control.get("type", "text")).casefold()
++        if control.has_attr("disabled") or kind in {"button", "submit", "reset"}:
++            continue
++        if kind not in {"hidden", "text", "search"}:
++            return None
++        name = str(control["name"])
++        if name not in {"cid", "pageNo", "pageSize", "keyword"}:
++            return None
++        value = str(control.get("value") or "")
++        if name in {"pageNo", "pageSize"}:
++            if control.get("id") != name or kind != "hidden":
++                return None
++            value = call[1] if name == "pageNo" else call[2]
++        fields.append((name, value))
++    if any(sum(k == field for k, _ in fields) != 1 for field in ["cid", "pageNo", "pageSize"]):
++        return None
++    target = urlsplit(urljoin(page_url, str(form.get("action") or page_url)))
++    return urlunsplit(target._replace(query=urlencode(parse_qsl(target.query, keep_blank_values=True) + fields), fragment=""))
++
++
++class ListPagination:
++    def __init__(self, start_url, config, *, max_pages, items_per_section):
++        self.start_url = start_url
++        self.selector = str(config.get("next_page_selector") or "").strip()
++        self.limit = max(1, min(3, int(config.get("pagination_limit", 1)), max_pages)) if self.selector else 1
++        self.item_limit = max(1, items_per_section) * self.limit
++        self.items, self.seen_items, self.seen_pages = [], set(), set()
++        self.report = {"start_url": start_url, "page_limit": self.limit, "item_limit": self.item_limit,
++                       "pages": [], "stop_reason": None, "truncated_items": 0}
++
++    def within_column(self, url):
++        try:
++            start, target = urlsplit(self.start_url), urlsplit(url)
++            if target.scheme not in {"http", "https"} or target.username or target.password or _origin(start) != _origin(target):
++                return False
++            path = posixpath.normpath(unquote(target.path))
++            initial = posixpath.normpath(unquote(start.path))
++            stem = str(PurePosixPath(initial).with_suffix("")) if PurePosixPath(initial).suffix.lower() in {".htm", ".html", ".shtml"} else initial
++            if path != initial and not (stem != initial and path.startswith(stem + "/")):
++                return False
++            stable = lambda parsed: sorted((k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True) if v and k.casefold() not in PAGE_PARAMS)
++            return stable(start) == stable(target)
++        except ValueError:
++            return False
++
++    def consume(self, html, page_url, parsed):
++        """Append one observed page and return its allowed, unvisited next link."""
++        if self.report["pages"] and not self.within_column(page_url):
++            self.report["stop_reason"] = "REDIRECT_OUTSIDE_COLUMN"
++            raise ValueError("PAGINATION_REDIRECT_OUTSIDE_COLUMN")
++        key = _page_key(page_url)
++        if key in self.seen_pages:
++            self.report["stop_reason"] = "PAGE_CYCLE"
++            return None
++        self.seen_pages.add(key)
++        added = 0
++        for item in parsed:
++            identity = canonicalize_url(item.url)
++            if identity in self.seen_items:
++                continue
++            self.seen_items.add(identity)
++            if len(self.items) < self.item_limit:
++                self.items.append(item)
++                added += 1
++            else:
++                self.report["truncated_items"] += 1
++        self.report["pages"].append({"url": page_url, "parsed_items": len(parsed), "added_items": added})
++        if not added and len(self.report["pages"]) > 1:
++            self.report["stop_reason"] = "REPEATED_PAGE" if parsed else "EMPTY_PAGE"
++            return None
++        if len(self.items) >= self.item_limit:
++            self.report["stop_reason"] = "ITEM_LIMIT"
++            return None
++        if len(self.report["pages"]) >= self.limit:
++            self.report["stop_reason"] = "PAGE_LIMIT"
++            return None
++        if not self.selector:
++            self.report["stop_reason"] = "NO_NEXT_SELECTOR"
++            return None
++        try:
++            soup = BeautifulSoup(html, "html.parser")
++            node = soup.select_one(self.selector)
++        except Exception as exc:
++            raise ValueError("The next-page selector is invalid") from exc
++        if not isinstance(node, Tag):
++            self.report["stop_reason"] = "NO_NEXT_PAGE"
++            return None
++        for parent in (node, *node.parents):
++            if not isinstance(parent, Tag):
++                continue
++            if parent.has_attr("disabled") or str(parent.get("aria-disabled", "")).casefold() == "true" or "disabled" in parent.get("class", []):
++                self.report["stop_reason"] = "DISABLED_NEXT_PAGE"
++                return None
++        href = str(node.get("href") or "").strip()
++        if not href:
++            self.report["stop_reason"] = "NO_NEXT_PAGE"
++            return None
++        target = None
++        if href.casefold() in {"javascript:", "javascript:;"}:
++            target = _observed_get_form(soup, node, page_url)
++            if target:
++                self.report["pages"][-1]["next_link_kind"] = "OBSERVED_PUBLIC_GET_FORM"
++        if target is None and (href.startswith("#") or re.search(r"[<>\x00-\x20]", href) or urlsplit(urljoin(page_url, href)).scheme not in {"http", "https"}):
++            self.report["stop_reason"] = "INVALID_NEXT_LINK"
++            return None
++        target = target or urljoin(page_url, href)
++        if not self.within_column(target):
++            self.report["stop_reason"] = "NEXT_PAGE_OUTSIDE_COLUMN"
++            return None
++        if _page_key(target) in self.seen_pages:
++            self.report["stop_reason"] = "PAGE_CYCLE"
++            return None
++        return target
+--- B5-C baseline/backend/app/sources/base.py
++++ B5-C final/backend/app/sources/base.py
+@@ -14,6 +14,7 @@
+ from app.parsers.html import is_empty_notice_list
+ from app.schemas.notice import NoticeCandidate
+ from app.services.http_diagnostics import exception_summary, is_retryable_http_error
++from app.services.list_pagination import ListPagination
+ from app.services.source_security import UnsafeSourceUrl, validate_local_source_url
+ from app.services.tls import is_certificate_verification_error, source_ssl_context
+ 
+@@ -58,6 +59,7 @@
+         settings = get_settings()
+         crawler_config = load_yaml("settings.yaml").get("crawler", {})
+         self.max_items = settings.max_items_per_section
++        self.list_fetcher = None
+         self.retries = int(crawler_config.get("retries", 2))
+         self.backoff = float(crawler_config.get("retry_backoff_seconds", 1.0))
+         self.client = httpx.AsyncClient(
+@@ -113,8 +115,33 @@
+     async def fetch_list(self) -> list[NoticeCandidate]:
+         notices: list[NoticeCandidate] = []
+         seen: set[str] = set()
++        self.pagination_report = []
+         for section in self.config.get("sections", []):
+             url = str(section["url"])
++            parser_config = section.get("parser_config") or self.config.get("parser_config") or {}
++            if parser_config.get("next_page_selector"):
++                pager = ListPagination(url, parser_config, max_pages=get_settings().source_max_pages,
++                                       items_per_section=self.max_items)
++                self.pagination_report.append(pager.report)
++                for _ in range(pager.limit):
++                    html, final_url = await self._get_list_page(url)
++                    if pager.report["pages"] and not pager.within_column(final_url):
++                        raise SourceError("PAGINATION_REDIRECT_OUTSIDE_COLUMN")
++                    parsed = self.parse_list(html, final_url, str(section.get("name", "")))
++                    if not parsed and not is_empty_notice_list(html):
++                        raise SourceError("HTML_LIST_UNSUPPORTED: no verified article links; configure a list selector")
++                    try:
++                        next_url = pager.consume(html, final_url, parsed)
++                    except ValueError as exc:
++                        raise SourceError(str(exc)) from exc
++                    if not next_url:
++                        break
++                    url = next_url
++                for item in pager.items:
++                    if item.url not in seen:
++                        seen.add(item.url)
++                        notices.append(item)
++                continue
+             html = await self._get(url)
+             parsed = self.parse_list(html, url, str(section.get("name", "")))
+             if not parsed and not is_empty_notice_list(html):
+@@ -124,6 +151,16 @@
+                     seen.add(item.url)
+                     notices.append(item)
+         return notices
++
++    async def _get_list_page(self, url: str) -> tuple[str, str]:
++        # Only explicitly configured pagination uses this guarded request path.
++        # Lazy import avoids the GenericPublicSource -> base import cycle.
++        from app.sources.generic import SafeFetcher
++        if self.list_fetcher is None:
++            self.list_fetcher = SafeFetcher(allow_private_network=bool(self.config.get("allow_private_network", False)),
++                                            validation_scope=str(self.config.get("validation_scope", "local")), source_code=self.code)
++        text, _, final_url = await self.list_fetcher.get(url)
++        return text, final_url
+ 
+     def parse_list(self, html: str, page_url: str, section: str) -> list[NoticeCandidate]:
+         return parse_list_html(html, page_url, section)
+@@ -146,6 +183,8 @@
+         return parse_detail_html(html, notice.url, notice)
+ 
+     async def close(self) -> None:
++        if self.list_fetcher is not None:
++            await self.list_fetcher.close()
+         await self.client.aclose()
+ 
+ 
+--- B5-C baseline/backend/app/sources/generic.py
++++ B5-C final/backend/app/sources/generic.py
+@@ -19,6 +19,7 @@
+ from app.parsers.html import detail_plain_text, is_empty_notice_list, list_publication_date, usable_link, validate_detail_container, validate_html_page
+ from app.schemas.notice import AttachmentData, NoticeCandidate
+ from app.services.dates import parse_date
++from app.services.list_pagination import ListPagination
+ from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+ from app.logging_config import log_event
+ from app.services.normalization import normalize_whitespace
+@@ -348,14 +349,13 @@
+             return await self._safe_items(parsed_feed)
+         self.detected_type = "generic_html"
+         validate_html_page(BeautifulSoup(text, "html.parser"))
+-        results: list[NoticeCandidate] = []
+-        seen_urls: set[str] = set()
++        pager = ListPagination(final_url, self.parser_config, max_pages=get_settings().source_max_pages,
++                               items_per_section=get_settings().max_items_per_section)
++        self.pagination_report = [pager.report]
+         page_text, page_url = text, final_url
+-        limit = min(
+-            int(self.parser_config.get("pagination_limit", 1)),
+-            get_settings().source_max_pages,
+-        )
+-        for _ in range(limit):
++        for _ in range(pager.limit):
++            if pager.report["pages"] and not pager.within_column(page_url):
++                raise SourceError("PAGINATION_REDIRECT_OUTSIDE_COLUMN")
+             try:
+                 parsed = parse_configured_html(page_text, page_url, self.parser_config)
+             except SourceError:
+@@ -363,30 +363,22 @@
+                     raise
+                 page_text, page_url = await self._render_configured_html(page_url)
+                 parsed = parse_configured_html(page_text, page_url, self.parser_config)
+-            for item in parsed:
+-                if item.url not in seen_urls:
+-                    seen_urls.add(item.url)
+-                    category = str(self.parser_config.get("default_category") or "").strip() or None
+-                    results.append(item.model_copy(update={"category": category}) if category else item)
+-            next_selector = str(self.parser_config.get("next_page_selector", "")).strip()
+-            if not next_selector:
+-                break
+-            soup = BeautifulSoup(page_text, "html.parser")
+-            try:
+-                next_node = soup.select_one(next_selector)
+-            except Exception as exc:
+-                raise SourceError("The next-page selector is invalid") from exc
+-            if not isinstance(next_node, Tag) or not next_node.get("href"):
+-                break
+-            next_url = urljoin(page_url, str(next_node.get("href")))
+-            if next_url == page_url:
++            category = str(self.parser_config.get("default_category") or "").strip() or None
++            if category:
++                parsed = [item.model_copy(update={"category": category}) for item in parsed]
++            try:
++                next_url = pager.consume(page_text, page_url, parsed)
++            except ValueError as exc:
++                raise SourceError(str(exc)) from exc
++            if not next_url:
+                 break
+             page_text, _, page_url = await self.fetcher.get(next_url)
++        results = pager.items
+         if not results:
+             if is_empty_notice_list(text):
+                 raise SourceError("HTML_LIST_EMPTY: valid notice column currently has no notices")
+             raise SourceError("This page is unsupported or needs advanced selector configuration")
+-        return await self._safe_items(results[: get_settings().max_items_per_section])
++        return await self._safe_items(results)
+ 
+     async def _safe_items(self, items: list[NoticeCandidate]) -> list[NoticeCandidate]:
+         safe: list[NoticeCandidate] = []

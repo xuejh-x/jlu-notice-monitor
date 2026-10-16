@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+    "time": "2026-10-14T16:05:40+08:00",
+    "ok": true,
+    "final_url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7",
+    "html_path": "html/55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7.html",
+    "replacement_chars": 0,
+    "chars": 15360,
+    "attempts": 1,
+    "institution": "研究生招生公开 PDF",
+    "attachments": [
+      {
+        "filename": "吉林大学2025年博士研究生拟录取名单公示（不含直博生）.pdf",
+        "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+        "type": "pdf"
+      }
+    ]
+  },
+  {
+    "url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+    "time": "2026-10-14T16:05:42+08:00",
+    "ok": true,
+    "final_url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "03a78e993dafe0de6bdfdc21a706600147de7c1acb481276898eefbd296c171c",
+    "html_path": "html/03a78e993dafe0de6bdfdc21a706600147de7c1acb481276898eefbd296c171c.html",
+    "replacement_chars": 0,
+    "chars": 28048,
+    "attempts": 1,
+    "institution": "植物科学公开表格",
+    "attachments": [
+      {
+        "filename": "附件： 2026年植物保护能力大赛 获奖学生名单",
+        "url": "https://zky.jlu.edu.cn/20261010004.xlsx",
+        "type": "xlsx"
+      }
+    ]
+  }
+]

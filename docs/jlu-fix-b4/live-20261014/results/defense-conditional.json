@@ -1,0 +1,21 @@
+{
+  "id": "defense-conditional",
+  "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室",
+  "column": "答辩公告",
+  "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+  "captured_at": "2026-10-14T16:35:50+08:00",
+  "validated_at": "2026-10-14T16:36:19+08:00",
+  "status": "失败",
+  "verdict": "ACCESS_BLOCKED",
+  "enabled": false,
+  "details": [],
+  "issues": [
+    "ROBOTS_UNAVAILABLE"
+  ],
+  "attachment_probes": [],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://yjsy.jlu.edu.cn/",
+  "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectTimeout('') <- ConnectTimeout(TimeoutError()) <- CancelledError: Cancelled via cancel scope 20d21144b90; reason: deadline exceeded <- SSLWantReadError: The operation did not complete (read) (_ssl.c:1032) <- ConnectTimeout: ConnectTimeout('') <- ConnectTimeout: ConnectTimeout(TimeoutError()) <- TimeoutError: TimeoutError() <- CancelledError: Cancelled via cancel scope 20d21144b90; reason: deadline exceeded <- SSLWantReadError: The operation did not complete (read) (_ssl.c:1032)",
+  "evidence_file": "docs/jlu-fix-b4/live-20261014/results/defense-conditional.json"
+}

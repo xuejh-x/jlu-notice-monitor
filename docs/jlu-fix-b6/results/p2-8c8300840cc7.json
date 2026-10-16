@@ -1,0 +1,307 @@
+{
+  "id": "p2-8c8300840cc7",
+  "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+  "institution": "东北亚学院、东北亚研究院",
+  "column": "招生信息",
+  "site_url": "https://nasa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+  "original_evidence": "docs/jlu-audit-evidence/results/8c8300840cc7bbd9.json",
+  "discovery_url": "https://nasa.jlu.edu.cn/",
+  "original_snapshot": "html/12fbd5999572cb4be9ce5f44b8deea28dc2e4cc03f59dd28b92c6e4824f37e5e.html",
+  "original_capture_time": "2026-10-13T13:59:02+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-8c8300840cc7",
+    "name": "东北亚学院、东北亚研究院 / 招生信息",
+    "base_url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:03+08:00",
+  "details": [
+    {
+      "url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+      "list_title": "吉林大学东北亚学院2026年本科生招生专业介绍 2026-06-06",
+      "list_date": "2026-06-06",
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+        "time": "2026-10-15T19:39:22+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "09932f9914c6438ad61a21edcf068c8c3a1f3b2a1b6fae7a286204c2fef9864b",
+        "html_path": "html/09932f9914c6438ad61a21edcf068c8c3a1f3b2a1b6fae7a286204c2fef9864b.html",
+        "replacement_chars": 0,
+        "chars": 30672,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学东北亚学院2026年本科生招生专业介绍",
+        "url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+        "publish_date": "2026-06-06",
+        "publisher": null,
+        "content": "吉林大学东北亚学院 2026 年本科生招生专业介绍 招收专业名称： 经济学（国别与区域经济） 招收人数：60人 选考科目：不限 联系电话：0431-85166101 https://nasa.jlu.edu.cn/__local/B/9A/20/F08B149DEE799EFDD7AE56A4964_03497BA7_7B474.png https://nasa.jlu.edu.cn/__local/E/16/AB/39FABF3993036D4DEC3D31EBD94_AE936BA7_48F2.png 学院 招收人数 招生专业 （类）名称 包含专业 选考科目 专业优势及前沿研究方向 人才培养特色及学科实力 东北亚学院 60 经济学（国别与区域经济） 经济学（国别与区域经济） 不限 本专业是按照新文科建设的思路和要求设立的本科专业，以经济学、区域国别学为主干学科，依托世界经济、区域经济学、人口 ·资源与环境经济学、国际政治、历史学、社会学等专业基础，秉持“学科交叉融合、厚基础、宽专业、重实践”的办学理念，夯实经济学理论基础，注重思维方法、创新能力、实践能力训练，突出德智体美劳全面发展，拓展东北亚国别与区域历史文化、国际关系、国际政治等领域的知识面，实行“专业+外语”双优培养，坚持开放办学和人才培养国际化，坚持以科学的课程体系、一流的师资队伍、标准规范的教学服务，致力于培养掌握多学科基础理论和专业知识，具有较高外语水平和跨文化交流能力，熟悉东北亚国别与区域经济社会发展实际，适应社会主义现代化建设和改革开放新要求的高素质复合型经济学人才。 吉林大学在东北亚研究方面具有较长的历史。 1964 年，吉林大学成立日本问题研究室和朝 鲜问题研究室。 1994 年 4 月，吉林大学将日本研究所、朝鲜韩国研究所、俄罗斯研究所、人口研究所、图 们江国际开发研究所、区域经济研究所合并，成立东北亚研究院。 2021 年 3 月 23 日，吉林大学党委常委会批准成立东北亚学院，是进一步提升吉林大学东北亚研究和人才培养方面优势地位的关键之举。2022 年 6 月，吉林大学东北亚与东北亚研究院入选国家高端智库培育单位。 2024 年，经党中央批准，吉林大学东北亚研究院又入选了“国家区域国别研究中心”国家级研究机构。 学院现有教职工 97人，专职科研人员65人，其中教授33人，副教授24人，讲师8人，博士生导师29人；有哲学社会科学资深教授1人，教育部社会科学委员会委员1人，教育部跨世纪优秀人才1人，吉林省拔尖创新人才5人，吉林省有突出贡献的中青年专业技术人才 3 人，吉林大学匡亚明学者11人。目前已经形成了结构合理、实力雄厚的研究梯队和教师队伍。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "日期：2026-06-06",
+            "date": "2026-06-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 957,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学东北亚学院2026年本科生招生专业介绍",
+          "",
+          "日期：2026-06-06 点击数："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学东北亚学院2026年本科生招生专业介绍 日期：2026-06-06 点击数：",
+            "date": "2026-06-06"
+          },
+          {
+            "text": "日期：2026-06-06 点击数：",
+            "date": "2026-06-06"
+          },
+          {
+            "text": "日期：2026-06-06 点击数：",
+            "date": "2026-06-06"
+          },
+          {
+            "text": "日期：2026-06-06",
+            "date": "2026-06-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+        "time": "2026-10-15T19:29:02+08:00",
+        "ok": true,
+        "final_url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "12fbd5999572cb4be9ce5f44b8deea28dc2e4cc03f59dd28b92c6e4824f37e5e",
+        "html_path": "html/12fbd5999572cb4be9ce5f44b8deea28dc2e4cc03f59dd28b92c6e4824f37e5e.html",
+        "replacement_chars": 0,
+        "chars": 21190,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://nasa.jlu.edu.cn/info/1047/6509.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "time": "2026-10-15T19:29:02+08:00",
+    "ok": true,
+    "final_url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "12fbd5999572cb4be9ce5f44b8deea28dc2e4cc03f59dd28b92c6e4824f37e5e",
+    "html_path": "html/12fbd5999572cb4be9ce5f44b8deea28dc2e4cc03f59dd28b92c6e4824f37e5e.html",
+    "replacement_chars": 0,
+    "chars": 21190,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学东北亚学院2026年本科生招生专业介绍 2026-06-06",
+      "url": "https://nasa.jlu.edu.cn/info/1047/6509.htm",
+      "publish_date": "2026-06-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p2-8c8300840cc7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.2699980288743973e-05,
+      "detail_duration_seconds": 3.200024366378784e-06,
+      "parse_db_duration_seconds": 0.01690819999203086
+    },
+    "second_round": {
+      "source": "p2-8c8300840cc7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.0900082997977734e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-8c8300840cc7",
+    "institution": "东北亚学院、东北亚研究院",
+    "column": "招生信息",
+    "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:02+08:00",
+    "review_time": "2026-10-15T20:21:03+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 1,
+    "details": 1,
+    "verified_details": 1,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-8c8300840cc7.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

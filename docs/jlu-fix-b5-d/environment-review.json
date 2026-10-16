@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-15T19:04:20+08:00",
+  "current_process_role": "standalone",
+  "public_feed_url_configured": false,
+  "cloud_admin_url_configured": true,
+  "actual_linux_cloud_crawl": "NOT_VERIFIED_NO_APPROVED_RUNTIME",
+  "actual_cloud_feed": "NOT_CONFIGURED",
+  "desktop_execution": "prior installed-client cache + isolated controlled regression; not a fresh installed-client crawl",
+  "system_network_modified": false,
+  "reviewed_at": "2026-10-15T19:14:52.919642+08:00",
+  "configured_admin_is_loopback": true,
+  "actual_remote_cloud_endpoint_provided": false,
+  "cloud_feed_traffic_exercised": false,
+  "cloud_control_tests_are_simulated": true,
+  "installed_desktop_evidence": "installed-desktop-observation.json; historical cache only"
+}

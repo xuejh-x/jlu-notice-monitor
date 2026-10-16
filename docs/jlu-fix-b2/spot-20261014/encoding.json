@@ -1,0 +1,17 @@
+{
+  "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+  "time": "2026-10-14T15:38:53+08:00",
+  "ok": true,
+  "status": 200,
+  "content_type": "text/html",
+  "response_encoding": "utf-8",
+  "meta": [
+    "<meta charset=\"UTF-8\">"
+  ],
+  "sha256": "1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42",
+  "raw_path": "raw/1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42.bin",
+  "bytes": 35470,
+  "literal_utf8_replacement_sequences": 3,
+  "strict_utf8_ok": true,
+  "replacement_characters": 3
+}

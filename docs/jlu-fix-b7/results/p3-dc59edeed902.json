@@ -1,0 +1,364 @@
+{
+  "id": "p3-dc59edeed902",
+  "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+  "institution": "集成光电子全国重点实验室",
+  "column": "招聘信息",
+  "site_url": "http://sklio.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DETAIL_DATE_DIFFERENCE | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/dc59edeed902ec2c.json",
+  "original_capture_time": "2026-10-13T14:05:17+08:00",
+  "discovery_url": "http://sklio.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-dc59edeed902",
+    "name": "集成光电子全国重点实验室 / 招聘信息",
+    "base_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:59+08:00",
+  "details": [
+    {
+      "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+      "list_title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+      "list_date": "",
+      "response": {
+        "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+        "time": "2026-10-15T22:13:33+08:00",
+        "ok": true,
+        "final_url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "365e0198d132fe84aff1f7c95ad9a1b39af9b4096a97970cc3e8ecaf7da11c80",
+        "html_path": "html/365e0198d132fe84aff1f7c95ad9a1b39af9b4096a97970cc3e8ecaf7da11c80.html",
+        "replacement_chars": 0,
+        "chars": 8981,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+        "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+        "publish_date": null,
+        "publisher": null,
+        "content": "校内外相关单位和人员： 根据工作需要，经学校人社处批准，集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员2人。有关事宜通知如下： 一、招聘条件 1.具有较高的政治素质，愿意从事实验技术岗位工作，爱岗敬业，勤奋踏实，吃苦耐劳，动手能力强，身心健康，有强烈的事业心和责任感，有良好的团结协作精神和奉献精神； 2.2014年应届电子科学与技术及相关专业硕士或博士毕业生，同时初始学历为普通高等教育招生计划内（不含独立学院）本科毕业并获学士学位； 3.不超过30周岁（1984年及以后出生）； 4.能够胜任电子科学与技术相关专业仪器设备的自动化管理、研制开发、实验教学等工作以及实验室指定的日常事务。 岗位一：熟悉电路电子系统设计、制作以及材料生长和表征工艺，从事蒸发、溅射、CVD、XRD等材料生长和表征、光电电子测试等大中型设备的功能开发与升级改造； 岗位二：熟悉电子显微镜的工作原理与操作，从事扫描、透射等电子显微镜的运行、维护和功能开发，以及电子束曝光装置的改造 二、应聘材料 1.求职简历（包括个人基本信息、学习和工作经历、外语及计算机水平、专业知识水平、参加教学及科研情况、获奖情况和自我综合评价、联系方式等）；同时应注明应聘岗位一亦或岗位二。 2.相关证书、成绩单、相关外语成绩、发表的科研论文原件及复印件（原件验证后退还本人，复印件不退还本人）。 三、待遇 按吉林大学有关规定执行。 四、报名方式及时间安排 符合招聘条件的应聘人员于2014年10月25日前将应聘材料电子版发送到jinglin@jlu.edu.cn。 其余事宜另行通知。 联系人：张景林，电话：0431-85168269 集成光电子学国家重点联合实验室吉林大学实验区 2014年10月15日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": false,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "body_reference_chars": 740,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": false
+    },
+    {
+      "url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+      "list_title": "招聘信息测试",
+      "list_date": "",
+      "response": {
+        "url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+        "time": "2026-10-15T22:13:34+08:00",
+        "ok": true,
+        "final_url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2ab7199eff789047d5e25e1ee91e29767a3e38b60ee6ee5917bceedcee67946f",
+        "html_path": "html/2ab7199eff789047d5e25e1ee91e29767a3e38b60ee6ee5917bceedcee67946f.html",
+        "replacement_chars": 0,
+        "chars": 8140,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "招聘信息测试",
+        "url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+        "publish_date": null,
+        "publisher": null,
+        "content": "招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试招聘信息测试",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": false,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "body_reference_chars": 96,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "招聘信息测试"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": false
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+        "time": "2026-10-15T22:13:31+08:00",
+        "ok": true,
+        "final_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0",
+        "html_path": "html/60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0.html",
+        "replacement_chars": 0,
+        "chars": 11763,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+        "http://sklio.jlu.edu.cn/info/1051/1059.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "time": "2026-10-15T22:13:31+08:00",
+    "ok": true,
+    "final_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0",
+    "html_path": "html/60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0.html",
+    "replacement_chars": 0,
+    "chars": 11763,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+      "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "招聘信息测试",
+      "url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p3-dc59edeed902",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.5400000847876072e-05,
+      "detail_duration_seconds": 5.100038833916187e-06,
+      "parse_db_duration_seconds": 0.02192159998230636
+    },
+    "second_round": {
+      "source": "p3-dc59edeed902",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.7000013031065464e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-dc59edeed902",
+    "institution": "集成光电子全国重点实验室",
+    "column": "招聘信息",
+    "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DETAIL_DATE_DIFFERENCE | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "DATE_NOT_INDEPENDENTLY_VERIFIED",
+    "capture_time": "2026-10-15T22:13:31+08:00",
+    "review_time": "2026-10-15T23:00:59+08:00",
+    "http_status": 200,
+    "final_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "list_pages": 1,
+    "list_items": 2,
+    "details": 2,
+    "verified_details": 0,
+    "issues": [
+      "DATE_NOT_INDEPENDENTLY_VERIFIED"
+    ],
+    "discovery_url": "http://sklio.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-dc59edeed902.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

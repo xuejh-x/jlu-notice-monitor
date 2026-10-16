@@ -1,0 +1,125 @@
+[
+  {
+    "id": "oa",
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "captured_at": "2026-10-14T21:58:34+08:00",
+    "category": "TLS_EOF",
+    "response": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-14T21:58:34+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "attempts": 1
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "defense-conditional",
+    "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "captured_at": "2026-10-14T21:58:34+08:00",
+    "category": "TIMEOUT",
+    "response": {
+      "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+      "time": "2026-10-14T21:58:34+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectTimeout('') <- ConnectTimeout(TimeoutError()) <- CancelledError: Cancelled via cancel scope 13b55310f50; reason: deadline exceeded <- SSLWantReadError: The operation did not complete (read) (_ssl.c:1032) <- ConnectTimeout: ConnectTimeout('') <- ConnectTimeout: ConnectTimeout(TimeoutError()) <- TimeoutError: TimeoutError() <- CancelledError: Cancelled via cancel scope 13b55310f50; reason: deadline exceeded <- SSLWantReadError: The operation did not complete (read) (_ssl.c:1032)",
+      "attempts": 2
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "continuing-conditional",
+    "url": "https://dec.jlu.edu.cn/html/tzgg1",
+    "captured_at": "2026-10-14T21:59:03+08:00",
+    "category": "REDIRECT_LIMIT",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/tzgg1",
+      "time": "2026-10-14T21:59:03+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: SourceError: Source exceeded the redirect limit <- SourceError: Source exceeded the redirect limit",
+      "status": 308,
+      "attempts": 1
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "continuing-academic-conditional",
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+    "captured_at": "2026-10-14T21:59:08+08:00",
+    "category": "REDIRECT_LIMIT",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+      "time": "2026-10-14T21:59:08+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: SourceError: Source exceeded the redirect limit <- SourceError: Source exceeded the redirect limit",
+      "status": 308,
+      "attempts": 1
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "jwc-teaching-publicity",
+    "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+    "captured_at": "2026-10-14T21:59:12+08:00",
+    "category": "PERMISSION_RESTRICTED",
+    "response": {
+      "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+      "time": "2026-10-14T21:59:12+08:00",
+      "ok": true,
+      "final_url": "https://jwc.jlu.edu.cn/system/resource/code/auth/ipauth.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066",
+      "html_path": "html/809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066.html",
+      "replacement_chars": 0,
+      "chars": 848,
+      "attempts": 1
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "sports-oa-index",
+    "url": "http://isc.jlu.edu.cn/oaindex.htm",
+    "captured_at": "2026-10-14T21:59:15+08:00",
+    "category": "ROBOTS_UNAVAILABLE",
+    "response": {
+      "url": "http://isc.jlu.edu.cn/oaindex.htm",
+      "time": "2026-10-14T21:59:15+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "details": [],
+    "formal_admission": false,
+    "cloud_production_verified": false
+  },
+  {
+    "id": "sports-login-reference",
+    "url": "https://oa.jlu.edu.cn/defaultroot/login.jsp",
+    "category": "LOGIN_REFERENCE_NOT_FETCHED",
+    "captured_at": null,
+    "recorded_at": "2026-10-14T21:59:15+08:00",
+    "reason": "Known login reference; no login request or notice admission",
+    "details": []
+  },
+  {
+    "id": "quantity-old-link",
+    "url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+    "category": "DEFERRED_TO_B7_NOT_FETCHED",
+    "captured_at": null,
+    "recorded_at": "2026-10-14T21:59:16+08:00",
+    "reason": "Original 404 only; planned B7 official-entry review",
+    "details": []
+  }
+]

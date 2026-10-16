@@ -1,0 +1,499 @@
+{
+  "column_url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+  "column": "教办通知",
+  "institution": "吉林大学软件学院",
+  "site_url": "https://csw.jlu.edu.cn/",
+  "category": "现有来源",
+  "priority": "P0",
+  "discovery_url": "backend/config/sources.yaml",
+  "discovery_basis": "现有正式配置",
+  "configured_source": "csw",
+  "discovered_at": "2026-10-13T13:49:12+08:00",
+  "checked_at": "2026-10-14T16:02:25+08:00",
+  "status": "部分通过",
+  "issues": [
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [
+    {
+      "url": "https://csw.jlu.edu.cn/info/1095/8553.htm",
+      "list_title": "软件学院程序设计类竞赛获奖学生申请课程免修工作通知",
+      "parsed_title": "软件学院程序设计类竞赛获奖学生申请课程免修工作通知",
+      "document_title": "软件学院程序设计类竞赛获奖学生申请课程免修工作通知-吉林大学软件学院",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2026-10-10",
+      "parsed_date": "2026-10-10",
+      "reference_date": "2026-10-10",
+      "body_selector": ".v_news_content",
+      "content_chars": 669,
+      "content_preview": "根据《计算机学院软件学院关于进一步鼓励程序设计类竞赛学生参赛积极性的办法》。现学院开展 2 026-2027 学年第一学期程序设计类竞赛获奖学生课程免修申请工作。 一、 申请条件： 1、高中竞赛特长学生：高中阶段获得信息学奥林匹克竞赛全国竞赛（NOI）的金银铜选手及达到金银铜分数线的夏令营选手。 2、 大学竞赛特长学生：代表吉林大学，在国际大学生程序设计竞赛（ ICPC）、中国大学生程序设计竞赛（CCPC）、中国高校计算机大赛 -团体程序设计天梯赛 （天梯赛）、大学生计算机系统与程序设计竞赛（ CCSP）的全国赛中获得银牌或二等奖以上的学生，以及在计算机软件能力认证（CSP）获得3 4 0分以上的学生。 注：达到以上申请条件不等于已确认免修，所有免修申请需经过学院竞赛指导教师会议通过，经学院教学委员会批准后，由学院通知任课教师，学生方可免修课程。 二、免修课程 1、高中竞赛特长学生：可以申",
+      "content_sha256": "47002406fd48e8a6b864ce6acc97a847a89b3c80a48a56bb675587febf449531",
+      "raw_attachments": [
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+          "filename": "程序设计类竞赛学生课程免修申请表20261010.docx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "程序设计类竞赛学生课程免修申请表20261010.docx",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+          "type": "docx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED"
+      ],
+      "time": "2026-10-14T16:02:28+08:00",
+      "sha256": "7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43",
+      "snapshot": "html/7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43.html",
+      "attachment_probes": [
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+          "time": "2026-10-14T16:02:28+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "classification": {
+            "category": "CAPTCHA_REQUIRED",
+            "file_prefix_verified": false,
+            "complete_download_verified": false,
+            "read_bytes": 1024,
+            "expected_type": "",
+            "reason": "Verification page; no captcha submission or bypass"
+          },
+          "error": "CAPTCHA_REQUIRED: Verification page; no captcha submission or bypass"
+        }
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+      "list_title": "关于软件学院2025级陈旭同学中国近现代史纲要课程成绩更正的公示",
+      "parsed_title": "关于软件学院2025级陈旭同学中国近现代史纲要课程成绩更正的公示",
+      "document_title": "关于软件学院2025级陈旭同学中国近现代史纲要课程成绩更正的公示-吉林大学软件学院",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2026-10-09",
+      "parsed_date": "2026-10-09",
+      "reference_date": "2026-10-09",
+      "body_selector": ".v_news_content",
+      "content_chars": 397,
+      "content_preview": "根据《关于进一步明确本科生课程考核等有关问题的通知》（校教字[2018]47号）文件有关精神，现对以下课程成绩更正进行公示： 开课学期 2025-2026学年第2学期 课程名称 中国近现代史纲要 课程号 ae22391002 课序号 12 开课单位 马克思主义学院 任课教师 杜娟,朱翠微,杜娟,吕航,吕航,朱翠微 联系电话 13578918396 变更理由及 学生基本信息 变更理由：客观题分数录入串行 软件学院软件工程2025级陈旭55250221 总成绩:74.6 修改为 90.2 公示日期: 2026年_10月_9日至2026年_10月_14日如有异议请于公示期内向本科生院教学运行科反映。 联系人: 邹老师 联系电话: 0431-85168962 相关材料详见附件: 1.吉林大学考核成绩复查、修改登记表 2.学院情况说明（学院教学委员会讨论通过、签字盖章） 3.试卷等相关佐证材料",
+      "content_sha256": "759cda34409be60e584da39e402b454d3fec9b136397752611869656575f2d66",
+      "raw_attachments": [
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+          "filename": "ddf24a8325bda1f59f473281f52900c6.jpg"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742",
+          "filename": "5cccf4e596d733b60216144dacf48452.jpg"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739",
+          "filename": "bc5dd0e93bd9255d4cc4ba4293643483.jpg"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738",
+          "filename": "751da56fc5d10632b944a166f61c54ce.jpg"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741",
+          "filename": "3b1e10229ae339ec3016c42eb18ec153.jpg"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740",
+          "filename": "b62d2c48924942d6fe5107657136599e.jpg"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "ddf24a8325bda1f59f473281f52900c6.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+          "type": "jpg"
+        },
+        {
+          "filename": "5cccf4e596d733b60216144dacf48452.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206742",
+          "type": "jpg"
+        },
+        {
+          "filename": "bc5dd0e93bd9255d4cc4ba4293643483.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206739",
+          "type": "jpg"
+        },
+        {
+          "filename": "751da56fc5d10632b944a166f61c54ce.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206738",
+          "type": "jpg"
+        },
+        {
+          "filename": "3b1e10229ae339ec3016c42eb18ec153.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206741",
+          "type": "jpg"
+        },
+        {
+          "filename": "b62d2c48924942d6fe5107657136599e.jpg",
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206740",
+          "type": "jpg"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-14T16:02:29+08:00",
+      "sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889",
+      "snapshot": "html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+      "attachment_probes": [
+        {
+          "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+          "time": "2026-10-14T16:02:31+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18206737",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "classification": {
+            "category": "CAPTCHA_REQUIRED",
+            "file_prefix_verified": false,
+            "complete_download_verified": false,
+            "read_bytes": 1024,
+            "expected_type": "",
+            "reason": "Verification page; no captcha submission or bypass"
+          },
+          "error": "CAPTCHA_REQUIRED: Verification page; no captcha submission or bypass"
+        }
+      ]
+    }
+  ],
+  "list_count": 15,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "软件学院程序设计类竞赛获奖学生申请课程免修工作通知",
+      "url": "https://csw.jlu.edu.cn/info/1095/8553.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级陈旭同学中国近现代史纲要课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级魏辰坤同学体育Ⅱ课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8529.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2023级韩淼同学分布式存储课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8523.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级董海天同学面向对象程序设计A课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8522.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级刘泰毅同学面向对象程序设计A课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8521.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级金奕宏同学中国近现代史纲要课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8520.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2025级胡佳慧同学军事理论课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8516.htm",
+      "publish_date": "2026-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "软件学院2027年本科生推免综合成绩排名的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8484.htm",
+      "publish_date": "2026-09-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "软件学院2027年本科生推免素质类项目加分结果公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8483.htm",
+      "publish_date": "2026-09-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "软件学院2027年本科生推免学业成绩排名的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8482.htm",
+      "publish_date": "2026-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于软件学院2023级杨靖婷同学智能算法综合实践课程成绩更正的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8481.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "软件学院25262学期成绩复查的通知",
+      "url": "https://csw.jlu.edu.cn/info/1095/8479.htm",
+      "publish_date": "2026-09-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于《软件学院推荐2027年优秀应届本科毕业生免试攻读研究生实施细则》等文件的公示",
+      "url": "https://csw.jlu.edu.cn/info/1095/8478.htm",
+      "publish_date": "2026-09-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2023级《企业实习》选课及时间规定的通知",
+      "url": "https://csw.jlu.edu.cn/info/1095/8451.htm",
+      "publish_date": "2026-06-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": "教办通知",
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 15,
+  "attachments_checked": 2,
+  "evidence_file": "docs/jlu-fix-b3/live-existing-20261014/results/1e705b1f23e7eeb0.json",
+  "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://csw.jlu.edu.cn/index/jbtz/47.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://csw.jlu.edu.cn/index/jbtz/47.htm",
+    "time": "2026-10-14T16:02:33+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 15,
+    "new_urls": 15,
+    "snapshot": "html/2c962f45488f6a486a2c3826ad6d4059135fc7eae4fb682aa3ebd1c5f05a51de.html"
+  },
+  "final_url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+  "list_sha256": "4e82c2b118f0a49059cc327c487516cb96a9244c9979e84dc6466b7fa0ada8e2",
+  "list_snapshot": "html/4e82c2b118f0a49059cc327c487516cb96a9244c9979e84dc6466b7fa0ada8e2.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "csw",
+  "reference_article_count": 15,
+  "unparsed_reference_links": []
+}

@@ -1,0 +1,413 @@
+{
+  "id": "p2-4ef17320b90f",
+  "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+  "institution": "公共外交学院",
+  "column": "通知公告",
+  "site_url": "https://sipa.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_CANDIDATE_RECALL_GAP | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/4ef17320b90fd74d.json",
+  "discovery_url": "https://sipa.jlu.edu.cn/",
+  "original_snapshot": "html/1323fc3492e2e0ec4636ae4f6c990b6b4863e8d157f5c3c1f98d76c996443581.html",
+  "original_capture_time": "2026-10-13T13:41:16+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-4ef17320b90f",
+    "name": "公共外交学院 / 通知公告",
+    "base_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:08+08:00",
+  "details": [
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+      "list_title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知",
+      "list_date": "2020-03-27",
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+        "time": "2026-10-15T19:39:52+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "227ccd71a84db4fa1c5c132ecee10829d19c4cfbf40c0a395ac0ed6dc3489e56",
+        "html_path": "html/227ccd71a84db4fa1c5c132ecee10829d19c4cfbf40c0a395ac0ed6dc3489e56.html",
+        "replacement_chars": 0,
+        "chars": 26859,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知",
+        "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+        "publish_date": "2020-03-27",
+        "publisher": null,
+        "content": "校内各有关单位： 为进一步提高我校国家发展与安全相关问题方向的研究能力，发挥我校综合性大学学科齐全的优势，吸引更多科研力量向国家发展与国家安全相关研究领域汇聚，形成一批具有理论性和方法性、政策性和现实性、战略性和前瞻性的高质量、高水平研究成果，为国家发展与安全决策和政策实施提供支持参考，现面向全校开展2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报工作。相关事宜通知如下： 一、指导思想 高举中国特色社会主义伟大旗帜，以马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观、习近平新时代中国特色社会主义思想为指导，深入贯彻落实党的十九大和十九届二中、三中、四中全会精神，认真贯彻落实习近平总书记关于防控新冠肺炎疫情的一系列重要讲话精神和在中央全面深化改革委员会第十二次会议上关于全面提高生物安全治理能力、把生物安全纳入国家安全体系的重要指示精神，紧紧围绕国家生物安全领域决策和政策的重大理论与现实问题组织开展多学科交叉研究，充分发挥高校思想库、智囊团作用，为推动国家生物安全治理体系和治理能力现代化提供理论支撑、贡献智力支持。 二、项目类别 本专项研究课题分为重点课题和一般课题两类，重点课题的研究期限一般为1年，一般课题的研究期限一般为3个月。 三、立项数量 重点课题拟立5项，每项资助经费3万元。 一般课题拟立10项，每项资助经费1.5万元。 四、选题范围 结合防控新冠肺炎疫情的新形势和新趋势，聚焦国家生物安全决策和政策的重大理论与现实问题，以基础理论、法律法规、制度体系、体制机制、国际合作、战略前瞻等问题为重点研究领域，申请人依据或结合《2020年度吉林大学国家发展与安全（生物安全）专项研究课题选题方向》具体拟定题目申报。 五、申报条件和要求 1、申报人应为我校在编在岗教师，应坚持正确的政治方向、价值取向和研究导向，恪守学术规范，严格学风要求，能够独立开展科学研究工作。 2、申报选题要跨两个及两个以上一级学科，应开展多学科交叉融合研究。 3、申报人同年度只能主持本专项研究一个课题，且不能作为课题组成员参与其他项目的申报。 六、项目评审与管理 由吉林大学国家发展与安全研究院组织专家委员会，对申报项目材料进行评审，并最终确定立项名单。立项评审包括通讯评审和会议评审两个环节。根据新冠肺炎疫情形势变化，科学安排立项评审工作。 经社会科学处同意，本项目作为校级课题立项，并遵照吉林大学哲学社会科学基本科研业务费项目管理。申报人应按照《吉林大学基本科研业务费管理办法（修订）》的要求，根据实际需要科学合理编制项目经费预算。 七、成果形式与结项要求 1、成果形式：公开发表的学术论文或政策性研究报告。 2、结项成果应符合《吉林大学哲学社会科学学术刊物等级目录》《吉林大学哲学社会科学报告类成果实施细则》的要求，重点课题在结项时应有不少于1篇社科处认定的C类及以上成果或2篇D类成果，一般项目在结项时应提交查重率不高于10%、字数不少于3万字的综合研究报告。 3、所有成果应标注“吉林大学国家发展与安全（生物安全）专项研究课题（课题名称，编号：XX）”，未标注的成果不予承认。 4、严禁剽窃、抄袭、作假等现象发生。对存在学术不端行为的课题负责人及其团队，将纳入本研究计划的“学术失信名单”，5年内不得申报本专项任何课题，并将相关情况通报所在单位。 八、研究成果用途 课题研究成果将以内参、信息或工作建议等形式报送中央有关部门和吉林省委省政府，为中央和地方决策提供重要参考，或根据需要纳入《吉林大学国家发展与安全研究报告简报》《吉林大学国家发展与安全研究报告汇编》《吉林大学国家发展与安全研究系列丛书》等研究类成果的内部或公开出版物。 九、申报办法和材料报送要求 1、申报人填写《立项申请书》《活页》电子版。 2、请各单位科研秘书于2020年4月15日（星期三）下班前，将本单位申报材料和《申报汇总表》电子版报送吉林大学国家发展与安全研究院的指定电子邮箱。要求每位申报人一个文件夹且以申报人姓名（如“XXX”）命名，文件夹内的文件应按照“XXX申报书”“XXX活页”的方式命名，PDF格式和WORD格式各1份。个人申报和逾期申报，不予受理。 联系人：郑广超 联系电话：85166795 13944927553 电子邮箱： zhenggc@jlu.edu.cn 地址：吉林大学中心校区行政楼211室 附件：1、2020年度吉林大学国家发展与安全（生物安全）专项研究课题选题方向 2、吉林大学国家发展与安全（生物安全）专项研究课题申请书 3、吉林大学国家发展与安全（生物安全）专项研究课题论证活页 4、2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报汇总表 吉林大学国家发展与安全研究院 2020年3月27日",
+        "attachments": [
+          {
+            "filename": "附件1：2020年度吉林大学国家发展与安全（生物安全）专项研究课题选题方向.docx",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2：吉林大学国家发展与安全（生物安全）专项研究课题申请书.doc",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511716",
+            "type": "doc"
+          },
+          {
+            "filename": "附件3：吉林大学国家发展与安全（生物安全）专项研究课题论证活页.doc",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511717",
+            "type": "doc"
+          },
+          {
+            "filename": "附件4：2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报汇总表.xls",
+            "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511718",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2020-03-27 点击： 次",
+            "date": "2020-03-27"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1979,
+        "reference_attachment_urls": [
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511716",
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511717",
+          "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511718"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知 发布时间：2020-03-27 点击： 次",
+            "date": "2020-03-27"
+          },
+          {
+            "text": "发布时间：2020-03-27 点击： 次",
+            "date": "2020-03-27"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+      "list_title": "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知",
+      "list_date": "2019-09-04",
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+        "time": "2026-10-15T19:39:53+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6f61a32d1ed3af1364ade7f80998cceb46d69d6d0216c558156f46120a978b42",
+        "html_path": "html/6f61a32d1ed3af1364ade7f80998cceb46d69d6d0216c558156f46120a978b42.html",
+        "replacement_chars": 0,
+        "chars": 25565,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知",
+        "url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+        "publish_date": "2019-09-04",
+        "publisher": "经费”栏。",
+        "content": "校内各有关单位： 按照教育部社会科学司《 2020 年度教育部人文社会科学研究一般项目申报工作的通知》（教社科司函〔 2019 〕 130 号）要求，现将申报工作有关事宜通知如下： 一、指导思想 高举中国特色社会主义伟大旗帜，深入学习研究宣传阐释习近平新时代中国特色社会主义思想，认真落实中共中央印发的《关于加快构建中国特色哲学社会科学的意见》要求，以重大理论与现实问题为主攻方向，坚持基础研究和应用研究并重，推动高校加快构建中国特色哲学社会科学，为党和国家事业发展服务。 二、项目类别及资助额度 2020 年度一般项目分为：（ 1 ）规划基金项目，资助经费不超过 10 万元；（ 2 ）青年基金项目，资助经费不超过 8 万元；（ 3 ）自筹经费项目，经费由申请者从校外有关部门或企事业单位自筹，自筹经费不低于 8 万元。 本次项目申报不设申报指南，申请者根据自身的研究基础和学术特长，认真凝练、自行拟定研究课题。研究课题名称应表述规范、准确、简洁。申请者要认真学习领会习近平新时代中国特色社会主义思想，申报课题要体现鲜明的时代特征、问题导向和创新意识；基础研究要密切跟踪国内外学术研究前沿和学科建设需要，体现具有原创性、开拓性的学术创新价值；应用研究要立足党和国家事业发展需求，聚焦全局性、战略性和前瞻性的重大理论与现实问题，体现具有针对性、实效性的决策参考价值。 申请者应认真阅研《教育部人文社会科学研究项目管理办法》及以往立项情况，提高申报质量，避免重复申报。 三、项目申报的学科范围 根据原国家质量技术监督局 2009 年公布的《学科分类与代码》和高校的实际情况，本次项目申报的学科范围包括：（ 1 ）马克思主义 / 思想政治教育；（ 2 ）哲学；（ 3 ）逻辑学；（ 4 ）宗教学；（ 5 ）语言学；（ 6 ）中国文学；（ 7 ）外国文学；（ 8 ）艺术学；（ 9 ）历史学；（ 10 ）考古学；（ 11 ）经济学；（ 12 ）管理学；（ 13 ）政治学；（ 14 ）法学；（ 15 ）社会学；（ 16 ）民族学与文化学；（ 17 ）新闻学与传播学；（ 18 ）图书馆、情报与文献学；（ 19 ）教育学；（ 20 ）心理学；（ 21 ）体育学；（ 22 ）统计学；（ 23 ）港澳台问题研究；（ 24 ）国际问题研究；（ 25 ）交叉学科 / 综合研究。 四、申报条件 1 ．申请者应为我校在编在岗教师。 2 ．申请者必须能够实际从事研究工作并真正承担和负责组织项目的实施；每个申请者限报 1 项，所列课题组成员必须征得本人同意，否则视为违规申报。 3. 申请者除符合《教育部人文社会科学研究项目管理办法》的相关规定外，还必须符合下列条件： （ 1 ）规划基金项目申请者，应具有高级职称（含副高）。 （ 2 ）青年基金项目申请者，应具有博士学位或中级以上（含中级）职称，年龄不超过 40 周岁（ 1979 年 7 月 1 日以后出生）。 （ 3 ）自筹经费项目申请者，须在《教育部人文社会科学研究一般项目申请评审书》（以下简称《申请评审书》）后附上学校财务处提供的委托研究单位经费到账凭证或银行回单等证明材料复印件（电子版提交扫描件），同时填写《申请评审书》中的“其他来源经费”栏。 4 ．有以下情况之一者不得申报本次项目： （ 1 ）在研的教育部人文社会科学研究项目（含重大攻关项目、基地重大项目、后期资助项目、一般项目等）负责人。 （ 2 ）所主持的教育部人文社会科学研究项目自 2016 年（含）以来因各种原因被撤销者。 （ 3 ）在研的国家社科基金项目（含重大招标项目、重点项目、一般项目、青年项目、后期资助项目、西部项目和单列学科项目等）、国家自然科学基金各类项目负责人，以上项目若已结项需附相关证明。 （ 4 ） 2018 、 2019 年连续 2 年申请一般项目（含专项任务项目）未获资助的申请人，暂停 2020 年一般项目申请资格。 五、申报办法和申报程序 1. 本次项目采取网上申报方式。《申请评审书》启用 2020 年新版本，以前版本无效。 2 ．中国高校人文社会科学信息网（ www.sinoss.net ）（以下简称社科网）“教育部人文社会科学研究管理平台项目申报系统”（以下简称“申报系统”）为本次申报的唯一网络平台（包含：申请书下载地址、系统演示、常见问题释疑等）。网络申报办法及流程以该系统为准。 3 ．申请者可登录申报系统下载《申请评审书》，按申报系统提示说明及《申请评审书》填表要求用计算机填写、打印，注册个人用户账号或通过既有的个人用户账号登录申报系统上传《申请评审书》的电子文档。 4 ．请各单位科研秘书对本单位申报材料初审后于 2019 年 9 月 20 日前将《申请评审书》（纸质初稿、一式 1 份）汇总报社会科学处复审。复审通过后，申报教师通过申报系统上传《申请评审书》，上传时间截至 9 月 23 日，请科研秘书在此截止时间前将汇总表（附件 2 ）上报社会科学处，社会科学处网上统一审核通过。本年度申报最终无需报送纸质申报材料。待立项公布后，已立项项目按要求提交 1 份带有负责人及成员签名、责任单位盖章的纸质申报材料。请各申报单位提前筹划、合理安排、严格按照上述时间完成申报工作，逾期不予受理。 六、其他要求 1. 项目经费按照《高等学校哲学社会科学繁荣计划专项资金管理办法》（财教〔 2016 〕 317 号），实行严格规范的预决算管理。项目申请者应在研究期限内，根据实际需求准确测算总经费预算，合理分配分年度经费预算。经费预算合理性作为评审的重要内容，不切实际的经费预算将影响专家评审结果。 2 ．各申报单位网上提交的《申请评审书》和《汇总表》数量与内容要确保一致，否则不予受理。 3 ．本次项目评审采取匿名方式。为保证评审的公平公正，《申请评审书》 B 表中不得出现申请者姓名、所在学校等有关信息，否则按作废处理。 4 ．申请者应如实填报材料，确保无知识产权争议。凡存在弄虚作假、抄袭剽窃等行为的，一经查实即取消三年申报资格。 5 ．请各有关单位高度重视、精心组织本次申报工作，组织单位学术委员会召开申报评审会进行院内初评指导。 6 ．请各申报单位切实落实意识形态工作责任制，加强对申报材料的审核把关，确保填报信息的准确、真实，切实提高项目申报质量。严格把关，确保填报信息的准确、真实，提高项目申报质量。科研秘书参照 “ 2020 年度教育部人文社会科学研究一般项目《申请评审书》审核要点”（附件 1 ）进行初审，如违规申报，将予以通报批评。 联 系 人：马 赫 联系电话： 85155451 电子邮箱： hma@jlu.edu.cn",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2019-09-04 点击： 次",
+            "date": "2019-09-04"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2749,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知 发布时间：2019-09-04 点击： 次",
+            "date": "2019-09-04"
+          },
+          {
+            "text": "发布时间：2019-09-04 点击： 次",
+            "date": "2019-09-04"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+        "time": "2026-10-15T19:29:11+08:00",
+        "ok": true,
+        "final_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f8c288cf36e48f8f1d576b8bb10c26c0aef06e38664d043dfa9d41ec02d8ae9b",
+        "html_path": "html/f8c288cf36e48f8f1d576b8bb10c26c0aef06e38664d043dfa9d41ec02d8ae9b.html",
+        "replacement_chars": 0,
+        "chars": 19444,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+        "https://sipa.jlu.edu.cn/info/1080/3483.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "time": "2026-10-15T19:29:11+08:00",
+    "ok": true,
+    "final_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "f8c288cf36e48f8f1d576b8bb10c26c0aef06e38664d043dfa9d41ec02d8ae9b",
+    "html_path": "html/f8c288cf36e48f8f1d576b8bb10c26c0aef06e38664d043dfa9d41ec02d8ae9b.html",
+    "replacement_chars": 0,
+    "chars": 19444,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+      "publish_date": "2020-03-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+      "publish_date": "2019-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p2-4ef17320b90f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.7200014553964138e-05,
+      "detail_duration_seconds": 6.2998151406645775e-06,
+      "parse_db_duration_seconds": 0.02617860003374517
+    },
+    "second_round": {
+      "source": "p2-4ef17320b90f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.2399978004395962e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-4ef17320b90f",
+    "institution": "公共外交学院",
+    "column": "通知公告",
+    "url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_CANDIDATE_RECALL_GAP | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:11+08:00",
+    "review_time": "2026-10-15T20:21:08+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 2,
+    "details": 2,
+    "verified_details": 2,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-4ef17320b90f.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

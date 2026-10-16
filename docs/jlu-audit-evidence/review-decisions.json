@@ -1,0 +1,1217 @@
+[
+  {
+    "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://www.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_NOT_CONFIGURED",
+      "TITLE_TRUNCATED"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; PAGINATION_NOT_CONFIGURED; TITLE_TRUNCATED"
+  },
+  {
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202609281485.html",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "ROBOTS_UNAVAILABLE"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://yz.chsi.com.cn/",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "COLUMN_IS_HOMEPAGE_NEEDS_SCOPE_REVIEW",
+      "LIST_DATES_MISSING",
+      "TITLE_MISMATCH"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISSING"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; BODY_CONTAINER_FALLBACK; DATE_MISSING; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT"
+    ],
+    "reason": "BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT"
+  },
+  {
+    "url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+    "time": "2026-10-13T14:49:39+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISMATCH"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; DATE_MISMATCH; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://ees.jlu.edu.cn/zsxx/gcss.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DETAIL_DATE_DIFFERENCE",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DETAIL_DATE_DIFFERENCE"
+    ],
+    "reason": "LIST_DETAIL_DATE_DIFFERENCE"
+  },
+  {
+    "url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "BODY_TOO_SHORT",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "BODY_TOO_SHORT",
+      "ATTACHMENT_ENDPOINT_FAILED"
+    ],
+    "reason": "BODY_TOO_SHORT; ATTACHMENT_ENDPOINT_FAILED"
+  },
+  {
+    "url": "https://gest.jlu.edu.cn/yjsjy/tztg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_NOT_CONFIGURED",
+      "TITLE_TRUNCATED"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; PAGINATION_NOT_CONFIGURED; TITLE_TRUNCATED"
+  },
+  {
+    "url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED"
+  },
+  {
+    "url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://nasa.jlu.edu.cn/bksjy/zsxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://pe.jlu.edu.cn/jxxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISMATCH"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; DATE_MISMATCH; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://phy.jlu.edu.cn/rczp/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "https://sai.jlu.edu.cn/xsgz/zpxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING"
+    ],
+    "reason": "LIST_DATES_MISSING"
+  },
+  {
+    "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED"
+  },
+  {
+    "url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; BODY_CONTAINER_FALLBACK; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; BODY_CONTAINER_FALLBACK; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED"
+  },
+  {
+    "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED"
+  },
+  {
+    "url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING"
+    ],
+    "reason": "LIST_DATES_MISSING"
+  },
+  {
+    "url": "https://sg.jlu.edu.cn/zyfz/zptz.htm",
+    "time": "2026-10-13T14:49:40+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT"
+    ],
+    "reason": "LIST_DATES_MISSING; BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT"
+  },
+  {
+    "url": "https://spxy.jlu.edu.cn/bksjy/zsxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "https://zky.jlu.edu.cn/bksj/jxxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH"
+  },
+  {
+    "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "DATE_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "BODY_CONTAINER_FALLBACK",
+      "ATTACHMENT_ENDPOINT_FAILED"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://cbslab.jlu.edu.cn/xwzx/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED"
+    ],
+    "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED"
+  },
+  {
+    "url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "DATE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "DATE_MISMATCH"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; DATE_MISMATCH; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "DATE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "DATE_MISMATCH"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; DATE_MISMATCH; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1093&wbtreeid=1008",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1101&wbtreeid=1008",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1166&wbtreeid=1008",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1179&wbtreeid=1008",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11902&wbtreeid=1023",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11909&wbtreeid=1023",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11922&wbtreeid=1023",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "EMPTY_LIST"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "DATE_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "DATE_MISSING"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; DATE_MISSING; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "ATTACHMENTS_UNCHECKED"
+    ],
+    "reason": "ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED"
+  },
+  {
+    "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reason": "PAGINATION_NOT_CONFIGURED"
+  },
+  {
+    "url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "ATTACHMENT_ENDPOINT_FAILED"
+    ],
+    "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED"
+  },
+  {
+    "url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_TOO_SHORT",
+      "ATTACHMENT_ENDPOINT_FAILED"
+    ],
+    "reason": "LIST_DATES_MISSING; BODY_CONTAINER_FALLBACK; BODY_TOO_SHORT; ATTACHMENT_ENDPOINT_FAILED"
+  },
+  {
+    "url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "ATTACHMENT_ENDPOINT_FAILED",
+      "PAGINATION_NOT_CONFIGURED",
+      "TITLE_TRUNCATED"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; ATTACHMENT_ENDPOINT_FAILED; PAGINATION_NOT_CONFIGURED; TITLE_TRUNCATED"
+  },
+  {
+    "url": "https://xcb.jlu.edu.cn/whjs/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "ATTACHMENT_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "ATTACHMENT_MISSING"
+    ],
+    "reason": "ATTACHMENT_MISSING"
+  },
+  {
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING"
+    ],
+    "reason": "LIST_DATES_MISSING"
+  },
+  {
+    "url": "http://isc.jlu.edu.cn/oaindex.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "ROBOTS_UNAVAILABLE"
+    ],
+    "reviewed_status": "无需适配",
+    "reviewed_issues": [
+      "OUT_OF_SCOPE_REFERENCE"
+    ],
+    "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目"
+  },
+  {
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING"
+    ],
+    "reason": "LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING"
+  },
+  {
+    "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "time": "2026-10-13T14:49:41+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "LIST_DETAIL_DATE_DIFFERENCE",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "LIST_DETAIL_DATE_DIFFERENCE"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; LIST_DETAIL_DATE_DIFFERENCE"
+  },
+  {
+    "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "完全通过",
+    "reviewed_issues": [],
+    "reason": "本次样本标题、日期、正文、可见附件与单页状态检查无发现；非历史全量或Cloud认证"
+  },
+  {
+    "url": "http://ort.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH"
+  },
+  {
+    "url": "http://pathobiology.jlu.edu.cn/ggtz.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_NOT_CONFIGURED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "TITLE_MISMATCH",
+      "PAGINATION_NOT_CONFIGURED",
+      "TITLE_TRUNCATED"
+    ],
+    "reason": "TITLE_NOT_IN_DETAIL_HEADING; TITLE_MISMATCH; PAGINATION_NOT_CONFIGURED; TITLE_TRUNCATED"
+  },
+  {
+    "url": "http://www.mee.jlu.edu.cn/index/sntz.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "部分通过",
+    "original_issues": [
+      "TITLE_MISMATCH",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "部分通过",
+    "reviewed_issues": [
+      "TITLE_MISMATCH"
+    ],
+    "reason": "TITLE_MISMATCH"
+  },
+  {
+    "url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/yjsjy/yjsytz.htm",
+    "time": "2026-10-13T14:49:42+08:00",
+    "original_status": "失败",
+    "original_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION",
+      "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+    ],
+    "reviewed_status": "失败",
+    "reviewed_issues": [
+      "POSSIBLE_NAVIGATION_CAPTURE",
+      "LIST_DATES_MISSING",
+      "TITLE_NOT_IN_DETAIL_HEADING",
+      "BODY_CONTAINER_FALLBACK",
+      "BODY_NAVIGATION_CONTAMINATION"
+    ],
+    "reason": "POSSIBLE_NAVIGATION_CAPTURE; LIST_DATES_MISSING; TITLE_NOT_IN_DETAIL_HEADING; BODY_CONTAINER_FALLBACK; BODY_NAVIGATION_CONTAMINATION; PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  },
+  {
+    "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+    "time": "2026-10-13T14:52:18+08:00",
+    "reason": "修正范围判断：吉大域下官方页面即使不在目录种子主机表也必须保留，恢复原始访问检查证据",
+    "original_status": "无需适配",
+    "reviewed_status": "失败"
+  },
+  {
+    "url": "http://isc.jlu.edu.cn/oaindex.htm",
+    "time": "2026-10-13T14:52:20+08:00",
+    "reason": "修正范围判断：吉大域下官方页面即使不在目录种子主机表也必须保留，恢复原始访问检查证据",
+    "original_status": "无需适配",
+    "reviewed_status": "失败"
+  }
+]

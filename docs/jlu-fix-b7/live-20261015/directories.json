@@ -1,0 +1,87 @@
+[
+  {
+    "category": "管理服务",
+    "response": {
+      "url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+      "time": "2026-10-15T22:02:17+08:00",
+      "ok": true,
+      "final_url": "https://www.jlu.edu.cn/jgsz/gl_fwyywjg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "60a38bda0828d6cbc18635dc76180bd42c1c4fd68506f231db484e73e841639e",
+      "html_path": "html/60a38bda0828d6cbc18635dc76180bd42c1c4fd68506f231db484e73e841639e.html",
+      "replacement_chars": 0,
+      "chars": 39683,
+      "attempts": 1
+    }
+  },
+  {
+    "category": "院系",
+    "response": {
+      "url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+      "time": "2026-10-15T22:02:19+08:00",
+      "ok": true,
+      "final_url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "7918d1992a9510df1d8ffe57e514215edb34a83350c7a4273afd8e5100fd8080",
+      "html_path": "html/7918d1992a9510df1d8ffe57e514215edb34a83350c7a4273afd8e5100fd8080.html",
+      "replacement_chars": 0,
+      "chars": 38808,
+      "attempts": 1
+    }
+  },
+  {
+    "category": "研究机构",
+    "response": {
+      "url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+      "time": "2026-10-15T22:02:20+08:00",
+      "ok": true,
+      "final_url": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "af83526c51c9316976a3c3b043a4b7d1bbb894d75251f77f3b0be56d8b6afcf3",
+      "html_path": "html/af83526c51c9316976a3c3b043a4b7d1bbb894d75251f77f3b0be56d8b6afcf3.html",
+      "replacement_chars": 0,
+      "chars": 81735,
+      "attempts": 1
+    }
+  },
+  {
+    "category": "附属单位",
+    "response": {
+      "url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+      "time": "2026-10-15T22:02:21+08:00",
+      "ok": true,
+      "final_url": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "1541fe25e12de6b66a6a63fa1499f5f54491e5c4c0b307b6e7b8ed4b4efe3f22",
+      "html_path": "html/1541fe25e12de6b66a6a63fa1499f5f54491e5c4c0b307b6e7b8ed4b4efe3f22.html",
+      "replacement_chars": 0,
+      "chars": 18435,
+      "attempts": 1
+    }
+  },
+  {
+    "category": "校级主页",
+    "response": {
+      "url": "https://www.jlu.edu.cn/",
+      "time": "2026-10-15T22:02:22+08:00",
+      "ok": true,
+      "final_url": "https://www.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "cfcd9fd2d6bddb1dd11cecacad9c4355d7e76121f708085ab989776a1565a22e",
+      "html_path": "html/cfcd9fd2d6bddb1dd11cecacad9c4355d7e76121f708085ab989776a1565a22e.html",
+      "replacement_chars": 0,
+      "chars": 41165,
+      "attempts": 1
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-14T16:03:00+08:00",
+  "institution_rows": 510,
+  "distinct_institution_labels": 491,
+  "units_without_site": 305,
+  "site_seed_urls": 180,
+  "distinct_seed_hosts": 164,
+  "site_discovery_completed": 180,
+  "distinct_final_site_urls": 164,
+  "distinct_final_site_hosts": 149,
+  "site_states": {
+    "no_column_discovered": 44,
+    "unreachable": 15,
+    "reachable": 121
+  },
+  "distinct_columns": 8,
+  "columns_attempted": 8,
+  "columns_checked": 8,
+  "columns_unchecked": 0,
+  "no_adaptation_needed": 0,
+  "compatibility_states": {
+    "部分通过": 7,
+    "失败": 1
+  },
+  "issue_counts": {
+    "ATTACHMENT_ENDPOINT_FAILED": 5,
+    "PAGINATION_NOT_CONFIGURED": 6,
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED": 1,
+    "BODY_CONTAINER_FALLBACK": 1,
+    "ATTACHMENTS_UNCHECKED": 2,
+    "ROBOTS_UNAVAILABLE": 1
+  },
+  "sampled_details": 14,
+  "attachment_endpoints_checked": 7,
+  "pagination_pages_checked": 6,
+  "same_url_duplicate_groups": 0,
+  "title_date_duplicate_candidates": 1,
+  "request_cache_entries": 41
+}

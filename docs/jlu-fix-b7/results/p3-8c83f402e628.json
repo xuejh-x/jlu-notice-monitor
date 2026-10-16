@@ -1,0 +1,499 @@
+{
+  "id": "p3-8c83f402e628",
+  "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+  "institution": "特种工程塑料教育部工程中心",
+  "column": "通知",
+  "site_url": "http://jusep.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_MISSING",
+  "original_evidence": "docs/jlu-audit-evidence/results/8c83f402e628e973.json",
+  "original_capture_time": "2026-10-13T14:03:42+08:00",
+  "discovery_url": "http://jusep.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-8c83f402e628",
+    "name": "特种工程塑料教育部工程中心 / 通知",
+    "base_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:08+08:00",
+  "details": [
+    {
+      "url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+      "list_title": "Carbazole Functionalized Poly(phenyl isocyanide)s: Synergistic Electrochromic Behaviors in the Visible Light Near-Infrared Region",
+      "list_date": "2021-06-21",
+      "response": {
+        "url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+        "time": "2026-10-15T22:14:59+08:00",
+        "ok": true,
+        "final_url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "bee88b5b71211d685c85e3861b4343d457082e90a2c34ff9d9606bcfd2e812f3",
+        "html_path": "html/bee88b5b71211d685c85e3861b4343d457082e90a2c34ff9d9606bcfd2e812f3.html",
+        "replacement_chars": 0,
+        "chars": 19302,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "Carbazole Functionalized Poly(phenyl isocyanide)s: Synergistic Electrochromic Behaviors in the Visible Light Near-Infrared Region",
+        "url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+        "publish_date": "2021-06-21",
+        "publisher": "Yuehui",
+        "content": "刊物： Macromolecules 出处： June 8, 2021Volume 54, Issue 11Pages 4945-5286 作者： Yuehui Zhai Yan Wang Xuanbo Zhu Zhen Xing Shiying Qi Shiwei Wang Yuntao Han* and Zheng Chen* 摘要： Since the discovery of the fact that the electrochromic (EC) behavior of polyisocyanides (PICs) can be achieved without the restriction of EC groups in 2018, a new chapter of electrochromic PICs has been opened. However, the synergistic electrochromic behaviors of both PICs and EC groups have not been reported until now. Herein, a series of novel EC poly(phenyl isocyanide) helix cross-conjugated polymers (PICz) containing a strong donor (carbazole)–weak acceptor (phenyl isocyanide) structure feature are synthesized through living polymerization. As a p-type electrochromic polymer, PICz polymer films exhibit good electrochromic abilities, such as easily observed color changes (from orange-yellow to light gray), low onset potentials (0.78–0.80 V), fast switching time ((2.1–2.4)/(1.0–1.1) s for the electrochromic process), and high coloration efficiency (165.54–431.52 cm2 C–1). It is worth noting that besides the EC behavior from carbazole groups, the strong absorption in the near-infrared region (780–1800) is attributed to the EC behavior of the electrochemically doped PIC structures, which is beneficial to its further application in many military and civilian uses. In addition, PICz polymers can achieve higher switching cycling stability in solution (over 100 cycles) than that in a solid-state thin film (1 cycle), due to the remarkable switching of the polymer structure from the neutral state to the doped state, which is a unique feature compared with the other EC polymers.",
+        "attachments": [
+          {
+            "filename": "5d1eb479e991324fb4cc45dc723307f.png",
+            "url": "http://jusep.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1598672350&wbfileid=7576237",
+            "type": "png"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1668,
+        "reference_attachment_urls": [
+          "http://jusep.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1598672350&wbfileid=7576237"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "Carbazole Functionalized Poly(phenyl isocyanide)s: Synergistic Electrochromic Behaviors in the Visible Light Near-Infrared Region"
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2021/06/21",
+            "date": "2021-06-21"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+      "list_title": "Blue Energy: Polymeric Nano‐Blue‐Energy Generator Based on Anion‐Selective Ionomers with 3D Pores and pH‐Driving Gating",
+      "list_date": "2021-03-30",
+      "response": {
+        "url": "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+        "time": "2026-10-15T22:15:00+08:00",
+        "ok": true,
+        "final_url": "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "24fcd466a8964225ec5532f0409a47ff80aee927c88e6b05215a020533326d76",
+        "html_path": "html/24fcd466a8964225ec5532f0409a47ff80aee927c88e6b05215a020533326d76.html",
+        "replacement_chars": 0,
+        "chars": 17707,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "Blue Energy: Polymeric Nano‐Blue‐Energy Generator Based on Anion‐Selective Ionomers with 3D Pores and pH‐Driving Gating",
+        "url": "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+        "publish_date": "2021-03-30",
+        "publisher": "Xuanbo",
+        "content": "刊物：Advanced Energy Materials 出处：Adv. Energy Mater. 44/2020 作者： Xuanbo Zhu, Jundong Zhong , Junran Hao , Yuzhang Wang , Jiajia Zhou, Jingwen Liao , Yujie Dong, Jinhui Pang, Haibo Zhang , Zizhun Wang, Wei Zhang, Weitao Zheng , Zhenhua Jiang , Yahong Zhou, Lei Jiang 摘要：In article 2001552 by Yahong Zhou and co‐workers fabricate a series of 3D porous membranes based on an amphiphilic ionomer that is composed of both hydrophobic side chains and hydrophilic main chain structures. The controllable adjustment of the pore structure can be realized by designing the polymer molecular structure. The membranes show excellent ionic transmembrane properties and can work as nano‐blue energy generators.",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 694,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "Blue Energy: Polymeric Nano‐Blue‐Energy Generator Based on Anion‐Selective Ionomers with 3D Pores and pH‐Driving Gating"
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2021/03/30",
+            "date": "2021-03-30"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+      "list_title": "Synthesis and characterization of block and random POSS/fluorinated PAES tricopolymers",
+      "list_date": "2019-11-28",
+      "response": {
+        "url": "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+        "time": "2026-10-15T22:15:01+08:00",
+        "ok": true,
+        "final_url": "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2b3f622da5d97e52ba080b03f440d4907b8f21e7d2a3eeb019251880319f296a",
+        "html_path": "html/2b3f622da5d97e52ba080b03f440d4907b8f21e7d2a3eeb019251880319f296a.html",
+        "replacement_chars": 0,
+        "chars": 18078,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "Synthesis and characterization of block and random POSS/fluorinated PAES tricopolymers",
+        "url": "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+        "publish_date": "2019-11-28",
+        "publisher": "Qiyang",
+        "content": "刊物名称：Polymers for Advanced Technologies 出处：Polymers for Advanced Technologies 2017 Vol.28 No.6 P658-664 1099-1581 作者：Qiyang Jiang, Jinmeng Hao, Yanfeng Wei and Jianxin Mu* 摘要： Block and random polyhedral oligomeric silsesquioxane (POSS)/fluorinated poly aryl ether sulfone tricopolymers were synthesized using different synthetic strategies to investigate the effect of sequence distribution on their thermal, dielectric, and surface properties. Analyses indicated that all block and random copolymers showed similar growth tendency of water contact angles and T g values, downward tendency of k values with increased content of POSS. The block copolymer displayed higher T g values up to 187°C than random copolymers (173°C) under the same POSS molar percentage, which were highly related to their different sequence distribution. The dielectric constants of the tricopolymers were drastically reduced because of the presence of POSS and fluorine, and the dielectric constant could achieve as low as 2.71 (1 MHz). Besides, sequence distribution has no obvious influence on its surface properties and properties. Meanwhile, the yields of degradation residues of the tricopolymers were significantly improved by the ceramic formation from POSS moieties during thermal decomposition.",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1281,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "Synthesis and characterization of block and random POSS/fluorinated PAES tricopolymers"
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2019/11/28",
+            "date": "2019-11-28"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+        "time": "2026-10-15T22:14:57+08:00",
+        "ok": true,
+        "final_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c3f13f3dea1f35c7b025953070e3925251c60d6ad05a701207a8d41b690746c8",
+        "html_path": "html/c3f13f3dea1f35c7b025953070e3925251c60d6ad05a701207a8d41b690746c8.html",
+        "replacement_chars": 0,
+        "chars": 16314,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://jusep.jlu.edu.cn/info/1020/1142.htm",
+        "http://jusep.jlu.edu.cn/info/1020/1143.htm",
+        "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+        "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+        "http://jusep.jlu.edu.cn/info/1020/1231.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "time": "2026-10-15T22:14:57+08:00",
+    "ok": true,
+    "final_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c3f13f3dea1f35c7b025953070e3925251c60d6ad05a701207a8d41b690746c8",
+    "html_path": "html/c3f13f3dea1f35c7b025953070e3925251c60d6ad05a701207a8d41b690746c8.html",
+    "replacement_chars": 0,
+    "chars": 16314,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Carbazole Functionalized Poly(phenyl isocyanide)s: Synergistic Electrochromic Behaviors in the Visible Light Near-Infrared Region",
+      "url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+      "publish_date": "2021-06-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Blue Energy: Polymeric Nano‐Blue‐Energy Generator Based on Anion‐Selective Ionomers with 3D Pores and pH‐Driving Gating",
+      "url": "http://jusep.jlu.edu.cn/info/1020/1211.htm",
+      "publish_date": "2021-03-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Synthesis and characterization of block and random POSS/fluorinated PAES tricopolymers",
+      "url": "http://jusep.jlu.edu.cn/info/1020/1144.htm",
+      "publish_date": "2019-11-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Synthesis and characterization of poly(arylene ether ketone)s with 3,6-diphenyl-9H-carbazole pendants using C-N coupling reaction",
+      "url": "http://jusep.jlu.edu.cn/info/1020/1143.htm",
+      "publish_date": "2019-11-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "Influence of selective solvents on self-assembly behaviors of amphiphilic hyperbranched poly(aryl ether ketone)-graft-poly(ethylene glycol) rod-coil copolymer",
+      "url": "http://jusep.jlu.edu.cn/info/1020/1142.htm",
+      "publish_date": "2019-11-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 5,
+  "pagination": [
+    {
+      "start_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+          "parsed_items": 5,
+          "added_items": 5
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-8c83f402e628",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7600017599761486e-05,
+      "detail_duration_seconds": 9.199953638017178e-06,
+      "parse_db_duration_seconds": 0.03336390003096312
+    },
+    "second_round": {
+      "source": "p3-8c83f402e628",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.9400031305849552e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-8c83f402e628",
+    "institution": "特种工程塑料教育部工程中心",
+    "column": "通知",
+    "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_MISSING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:14:57+08:00",
+    "review_time": "2026-10-15T23:01:08+08:00",
+    "http_status": 200,
+    "final_url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "list_pages": 1,
+    "list_items": 5,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://jusep.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-8c83f402e628.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

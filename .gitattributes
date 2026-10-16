@@ -1,0 +1,6 @@
+# Preserve captured evidence and parser fixtures byte-for-byte. Their recorded
+# SHA-256 values must survive Git checkout on Windows and Linux.
+docs/jlu-*/** -text
+docs/jlu-*.csv -text
+docs/jlu-*.json -text
+backend/tests/fixtures/** -text

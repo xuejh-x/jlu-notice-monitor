@@ -1,0 +1,943 @@
+{
+  "id": "p2-7e3638201f82",
+  "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+  "institution": "机械与航空航天工程学院",
+  "column": "通知公告",
+  "site_url": "https://mae.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/7e3638201f82cf49.json",
+  "discovery_url": "https://mae.jlu.edu.cn/",
+  "original_snapshot": "html/6bc6f17a8c72028cb0d0037f93f705ca5e73073b76ef12b2fda1057a443aea2a.html",
+  "original_capture_time": "2026-10-13T13:58:36+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-7e3638201f82",
+    "name": "机械与航空航天工程学院 / 通知公告",
+    "base_url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:17+08:00",
+  "details": [
+    {
+      "url": "https://mae.jlu.edu.cn/info/1010/25549.htm",
+      "list_title": "吉林大学参与完成2026年度辽宁省科学技术奖项目公示",
+      "list_date": "2026-10-15",
+      "response": {
+        "url": "https://mae.jlu.edu.cn/info/1010/25549.htm",
+        "time": "2026-10-15T19:40:49+08:00",
+        "ok": true,
+        "final_url": "https://mae.jlu.edu.cn/info/1010/25549.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e3cfeaf6b8fd152d6567bd93e30b02b7e66ac6ff87081b40710c882a09e2fa62",
+        "html_path": "html/e3cfeaf6b8fd152d6567bd93e30b02b7e66ac6ff87081b40710c882a09e2fa62.html",
+        "replacement_chars": 0,
+        "chars": 15516,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学参与完成2026年度辽宁省科学技术奖项目公示",
+        "url": "https://mae.jlu.edu.cn/info/1010/25549.htm",
+        "publish_date": "2026-10-15",
+        "publisher": "编辑：贾继伟",
+        "content": "",
+        "attachments": [
+          {
+            "filename": "71FEBA92DE1F047A0CC37642045_8F9EA13E_29DB15.pdf",
+            "url": "https://mae.jlu.edu.cn/__local/3/59/72/71FEBA92DE1F047A0CC37642045_8F9EA13E_29DB15.pdf",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "embedded_pdf_reference_urls": [
+          "https://mae.jlu.edu.cn/__local/3/59/72/71FEBA92DE1F047A0CC37642045_8F9EA13E_29DB15.pdf"
+        ],
+        "embedded_pdf_references_verified": true,
+        "body_kind": "EMBEDDED_PDF_ATTACHMENT_REFERENCE_ONLY",
+        "body_text_verified": false,
+        "attachment_file_verified": false,
+        "additional_scoped_heading_evidence": [
+          "吉林大学参与完成2026年度辽宁省科学技术奖项目公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学参与完成2026年度辽宁省科学技术奖项目公示 发布时间：2026-10-15 作者： 编辑：贾继伟 审核： 浏览： 次",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15 作者： 编辑：贾继伟 审核： 浏览： 次",
+            "date": "2026-10-15"
+          },
+          {
+            "text": "发布时间：2026-10-15 作者： 编辑：贾继伟 审核： 浏览： 次",
+            "date": "2026-10-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://mae.jlu.edu.cn/info/1010/25548.htm",
+      "list_title": "关于评选吉林大学机械与航空航天工程学院2026年度优秀学生和集体的通知",
+      "list_date": "2026-10-14",
+      "response": {
+        "url": "https://mae.jlu.edu.cn/info/1010/25548.htm",
+        "time": "2026-10-15T19:40:50+08:00",
+        "ok": true,
+        "final_url": "https://mae.jlu.edu.cn/info/1010/25548.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "670e0061503ff7c9b9fded82a3294a5c75bfa95558b95430f2cf407caa72d131",
+        "html_path": "html/670e0061503ff7c9b9fded82a3294a5c75bfa95558b95430f2cf407caa72d131.html",
+        "replacement_chars": 0,
+        "chars": 20141,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于评选吉林大学机械与航空航天工程学院2026年度优秀学生和集体的通知",
+        "url": "https://mae.jlu.edu.cn/info/1010/25548.htm",
+        "publish_date": "2026-10-14",
+        "publisher": "编辑：张健",
+        "content": "为全面贯彻党的教育方针，落实立德树人根本任务，鼓励和促进学生在学业上积极进取，奋发图强，德智体美劳全面发展，树立我院优秀典范，营造创先争优、勤奋向上的氛围，机械与航空航天工程学院拟开展2026年度优秀学生和集体评选及表彰工作。现将评选工作相关事宜通知如下： 一、评选类别及名额 （一）个人奖项 “领航者”十佳大学生10人 “砺刃”大学生自强之星10人 “聚力”优秀学生干部10人 “启智”新锐之星6人 “拓航”科创菁英6人 “风华”文体菁英6人 “薪航”奉献先锋8人 （二）集体奖项 “卓越”领航班集体8个 “凝心”优秀学习小组8个 “润心”文明寝室8个 “知行”社会实践优秀团队2个 二、评选条件 具体评选条件见机械与航空航天工程学院2026年度优秀学生和集体评选细则（附件1） 三、评选流程 1.个人申请。请有意向申请奖项的个人和集体于10月16日下午16:30前将对应的电子版申请表发送至1018671584@qq.com，纸质版材料交至机械馆510办公室。 2.资格审查。学院学生工作办公室对学生的申报信息进行逐一审核，确认是否符合申报条件、申报信息是否符合填写要求、申报材料是否真实、完整。 3.组织评选。学院奖助学金评审小组对符合评选资格的申报个人及集体进行评选。获奖名单将在全院公示3个工作日。 机械与航空航天工程学院 2026年10月14日",
+        "attachments": [
+          {
+            "filename": "附件1：吉林大学机械与航空航天工程学院2026年度优秀学生和集体评选细则.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208421",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2：机械与航空航天工程学院“领航者”十佳大学生申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208422",
+            "type": "docx"
+          },
+          {
+            "filename": "附件3：机械与航空航天工程学院“砺刃”大学生自强之星申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208423",
+            "type": "docx"
+          },
+          {
+            "filename": "附件5：机械与航空航天工程学院“启智”新锐之星申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208424",
+            "type": "docx"
+          },
+          {
+            "filename": "附件4：机械与航空航天工程学院“聚力”优秀学生干部申请表 .docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208425",
+            "type": "docx"
+          },
+          {
+            "filename": "附件6：机械与航空航天工程学院“拓航”科创菁英申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208426",
+            "type": "docx"
+          },
+          {
+            "filename": "附件8：机械与航空航天工程学院“薪航”奉献先锋申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208427",
+            "type": "docx"
+          },
+          {
+            "filename": "附件7：机械与航空航天工程学院“风华”文体菁英申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208428",
+            "type": "docx"
+          },
+          {
+            "filename": "附件9：机械与航空航天工程学院“凝心”优秀学习小组申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208429",
+            "type": "docx"
+          },
+          {
+            "filename": "附件10：机械与航空航天工程学院“卓越”领航班集体申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208430",
+            "type": "docx"
+          },
+          {
+            "filename": "附件11：机械与航空航天工程学院“润心”文明寝室申请表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208431",
+            "type": "docx"
+          },
+          {
+            "filename": "附件12：机械与航空航天工程学院“知行”社会实践优秀团队申报表.docx",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208432",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 578,
+        "reference_attachment_urls": [
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208421",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208422",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208423",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208424",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208425",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208426",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208427",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208428",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208429",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208430",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208431",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18208432"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于评选吉林大学机械与航空航天工程学院2026年度优秀学生和集体的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于评选吉林大学机械与航空航天工程学院2026年度优秀学生和集体的通知 发布时间：2026-10-14 作者： 编辑：张健 审核： 浏览： 次",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布时间：2026-10-14 作者： 编辑：张健 审核： 浏览： 次",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布时间：2026-10-14 作者： 编辑：张健 审核： 浏览： 次",
+            "date": "2026-10-14"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://mae.jlu.edu.cn/info/1010/25529.htm",
+      "list_title": "关于公示《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》及评审委员会名单的通知",
+      "list_date": "2026-10-10",
+      "response": {
+        "url": "https://mae.jlu.edu.cn/info/1010/25529.htm",
+        "time": "2026-10-15T19:40:52+08:00",
+        "ok": true,
+        "final_url": "https://mae.jlu.edu.cn/info/1010/25529.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3a871ec0dd7f2bfb0cb561619d70653967a86042bf1d013a153a1f60c2e354d7",
+        "html_path": "html/3a871ec0dd7f2bfb0cb561619d70653967a86042bf1d013a153a1f60c2e354d7.html",
+        "replacement_chars": 0,
+        "chars": 16565,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公示《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》及评审委员会名单的通知",
+        "url": "https://mae.jlu.edu.cn/info/1010/25529.htm",
+        "publish_date": "2026-10-10",
+        "publisher": "编辑：张瑛",
+        "content": "根据学校研究生院相关工作要求，学院制定并通过了《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》，确定了本年度研究生国家奖学金评审委员会名单。 现进行公示，公示期为2026年10月10日-2026年10月13日。如对所公示内容有任何疑问或异议，务必在公示期内联系学院研究生管理办公室。 联系人：张老师 联系电话：85094640 机械与航空航天工程学院研究生管理办公室 2026年10月10日",
+        "attachments": [
+          {
+            "filename": "附件1：吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则.pdf",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18207307",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件2：吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审委员会名单.pdf",
+            "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18207306",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 210,
+        "reference_attachment_urls": [
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18207306",
+          "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18207307"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公示《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》及评审委员会名单的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公示《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》及评审委员会名单的通知 发布时间：2026-10-10 作者： 编辑：张瑛 审核： 浏览： 次",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "发布时间：2026-10-10 作者： 编辑：张瑛 审核： 浏览： 次",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "发布时间：2026-10-10 作者： 编辑：张瑛 审核： 浏览： 次",
+            "date": "2026-10-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+        "time": "2026-10-15T19:29:28+08:00",
+        "ok": true,
+        "final_url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "59bb78997f6bdc684e45ddbefa9f01c06bfbfc99f13dbdd1ee77f9c5a34d5d21",
+        "html_path": "html/59bb78997f6bdc684e45ddbefa9f01c06bfbfc99f13dbdd1ee77f9c5a34d5d21.html",
+        "replacement_chars": 0,
+        "chars": 18634,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://mae.jlu.edu.cn/info/1010/25530.htm",
+        "https://mae.jlu.edu.cn/info/1010/25532.htm",
+        "https://mae.jlu.edu.cn/info/1010/25535.htm",
+        "https://mae.jlu.edu.cn/info/1010/25538.htm",
+        "https://mae.jlu.edu.cn/info/1010/25540.htm",
+        "https://mae.jlu.edu.cn/info/1010/25543.htm",
+        "https://mae.jlu.edu.cn/info/1010/25544.htm",
+        "https://mae.jlu.edu.cn/info/1010/25545.htm",
+        "https://mae.jlu.edu.cn/info/1010/25548.htm",
+        "https://mae.jlu.edu.cn/info/1010/25549.htm"
+      ],
+      "observed_next_urls": [
+        "https://mae.jlu.edu.cn/index/tzgg/300.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://mae.jlu.edu.cn/index/tzgg/300.htm",
+        "time": "2026-10-15T19:40:48+08:00",
+        "ok": true,
+        "final_url": "https://mae.jlu.edu.cn/index/tzgg/300.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "10c1ad92f1f488112b002f1ea77ab19f20c36a336f5060722fe55131793a1cb3",
+        "html_path": "html/10c1ad92f1f488112b002f1ea77ab19f20c36a336f5060722fe55131793a1cb3.html",
+        "replacement_chars": 0,
+        "chars": 19026,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://mae.jlu.edu.cn/info/1010/25500.htm",
+        "https://mae.jlu.edu.cn/info/1010/25502.htm",
+        "https://mae.jlu.edu.cn/info/1010/25504.htm",
+        "https://mae.jlu.edu.cn/info/1010/25508.htm",
+        "https://mae.jlu.edu.cn/info/1010/25509.htm",
+        "https://mae.jlu.edu.cn/info/1010/25511.htm",
+        "https://mae.jlu.edu.cn/info/1010/25517.htm",
+        "https://mae.jlu.edu.cn/info/1010/25518.htm",
+        "https://mae.jlu.edu.cn/info/1010/25527.htm",
+        "https://mae.jlu.edu.cn/info/1010/25529.htm"
+      ],
+      "observed_next_urls": [
+        "https://mae.jlu.edu.cn/index/tzgg/299.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-15T19:29:28+08:00",
+    "ok": true,
+    "final_url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "59bb78997f6bdc684e45ddbefa9f01c06bfbfc99f13dbdd1ee77f9c5a34d5d21",
+    "html_path": "html/59bb78997f6bdc684e45ddbefa9f01c06bfbfc99f13dbdd1ee77f9c5a34d5d21.html",
+    "replacement_chars": 0,
+    "chars": 18634,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学参与完成2026年度辽宁省科学技术奖项目公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25549.htm",
+      "publish_date": "2026-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于评选吉林大学机械与航空航天工程学院2026年度优秀学生和集体的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25548.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年度研究生国家奖学金评审工作的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25545.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展吉林大学第五届博士研究生“求实”奖学金评选工作的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25544.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年度研究生学业奖学金评定工作的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25543.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展科级干部轮岗交流工作的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25540.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年度研究生“高凯奖学金”拟推荐人员公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25538.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年度吉林大学“比亚迪奖教金”拟推荐人员公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25535.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示《吉林大学机械与航空航天工程学院研究生新生院长奖学金评定工作办法》的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25532.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示《吉林大学机械与航空航天工程学院2026年度研究生学业奖学金评审工作实施细则》及评审委员会名单的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25530.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示《吉林大学机械与航空航天工程学院2026年度研究生国家奖学金评审工作实施细则》及评审委员会名单的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25529.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025-2026学年本科生奖学金、优秀学生、优秀学生干部、单项奖学金获奖名单公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25527.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "机械与航空航天工程学院2026-2027学年学费全额减免初评对象名单公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25517.htm",
+      "publish_date": "2026-10-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于机械与航空航天工程学院2025-2026学年本科生国家助学金名单的公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25511.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年本科生吉林大学助学金名单公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25518.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025-2026学年本科生国家励志奖学金拟获奖人员公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25509.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025-2026学年本科生国家奖学金拟获奖人员公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25508.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "机械学院2025-2026学年研究生优秀奖学金、优秀研究生、优秀研究生干部评选结果公示",
+      "url": "https://mae.jlu.edu.cn/info/1010/25502.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "机械学院关于公示2025年度研究生学术业绩奖学金成果审查合格名单的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25500.htm",
+      "publish_date": "2026-09-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布机械与航空航天工程学院本科生2025-2026学年国家奖学金、国家励志奖学金名额分配的通知",
+      "url": "https://mae.jlu.edu.cn/info/1010/25504.htm",
+      "publish_date": "2026-09-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://mae.jlu.edu.cn/index/tzgg/300.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-7e3638201f82",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.71000137925148e-05,
+      "detail_duration_seconds": 7.6000578701496124e-06,
+      "parse_db_duration_seconds": 0.03316540003288537
+    },
+    "second_round": {
+      "source": "p2-7e3638201f82",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5099998563528061e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-7e3638201f82",
+    "institution": "机械与航空航天工程学院",
+    "column": "通知公告",
+    "url": "https://mae.jlu.edu.cn/index/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:28+08:00",
+    "review_time": "2026-10-15T20:21:17+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-7e3638201f82.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

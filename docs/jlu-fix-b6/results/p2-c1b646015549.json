@@ -1,0 +1,813 @@
+{
+  "id": "p2-c1b646015549",
+  "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+  "institution": "历史文化学院",
+  "column": "招生信息",
+  "site_url": "https://hac.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/c1b6460155497a26.json",
+  "discovery_url": "https://hac.jlu.edu.cn/",
+  "original_snapshot": "html/2d06e8d84f00247c65dafa724c678bfdc463d1ff59c14aec2e7c0b898c7c312d.html",
+  "original_capture_time": "2026-10-13T13:56:55+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-c1b646015549",
+    "name": "历史文化学院 / 招生信息",
+    "base_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:35+08:00",
+  "details": [
+    {
+      "url": "https://hac.jlu.edu.cn/info/1054/1947.htm",
+      "list_title": "历史文化学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示",
+      "list_date": "2026-09-21",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1054/1947.htm",
+        "time": "2026-10-15T19:37:07+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1054/1947.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a2403c17e4bcd8fb00cee5cc5b8d50a1fb0570ec4ead350a4433596fb72ca9f1",
+        "html_path": "html/a2403c17e4bcd8fb00cee5cc5b8d50a1fb0570ec4ead350a4433596fb72ca9f1.html",
+        "replacement_chars": 0,
+        "chars": 30860,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "历史文化学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示",
+        "url": "https://hac.jlu.edu.cn/info/1054/1947.htm",
+        "publish_date": "2026-09-21",
+        "publisher": null,
+        "content": "吉林大学 历史文化 学院 2027年接收推荐免试攻读硕士研究生（含直博生）复试成绩及拟录取名 单 详见附件。如对复试成绩有异议，请于三个工作日内实名向 历史文化 学院研究生办公室反映。联系方式： 齐 老师 0431-8516 6998 。 学校将在 9月22日发送“复试通知”，9月24日发送“待录取通知”。拟录取考生务必在规定时间内完成网上填报志愿，请随时关注报名系统和短信提醒，及时点击确认“参加复试”和点击“确认录取”，完成最终录取工作，逾期则视为自动放弃。",
+        "attachments": [
+          {
+            "filename": "吉林大学历史文化学院2027年推免复试成绩及拟录取名单.xlsx",
+            "url": "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18200861",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-21 浏览次数：",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "发布时间：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 232,
+        "reference_attachment_urls": [
+          "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18200861"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "历史文化学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "历史文化学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示 发布时间：2026-09-21 浏览次数：",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "发布时间：2026-09-21 浏览次数：",
+            "date": "2026-09-21"
+          },
+          {
+            "text": "发布时间：2026-09-21",
+            "date": "2026-09-21"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/info/1054/1933.htm",
+      "list_title": "吉林大学历史文化学院2027年推免进入复试名单公示",
+      "list_date": "2026-09-17",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1054/1933.htm",
+        "time": "2026-10-15T19:37:08+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1054/1933.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9a8a32827cc5082761298c07212195b0711f701ef1370bd0660daa7944deb684",
+        "html_path": "html/9a8a32827cc5082761298c07212195b0711f701ef1370bd0660daa7944deb684.html",
+        "replacement_chars": 0,
+        "chars": 33739,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学历史文化学院2027年推免进入复试名单公示",
+        "url": "https://hac.jlu.edu.cn/info/1054/1933.htm",
+        "publish_date": "2026-09-17",
+        "publisher": null,
+        "content": "一、根据学校推免招生工作相关规定，经考生个人申报、各专业材料审核，学院研究生招生工作领导小组审核，现将我院 2027 年接收推荐免试攻读研究生（含直博生）进入复试名单予以公示，详见附件。排名不分先后。 二、复试日程安排： 专业 地点 时间：9月21日 中国史 东荣大厦A202 上午8:30——12: 00 下午13:30——17:30 世界史 东荣大厦B303-3 上午10:00——12:00 三、参加复试考生须扫码进群，第一外国语非英语考生请于9月18日12:00前在群内报备。 四、复试考生须携带所有“申请材料”纸质材料（原件 + 复印件）到考场。原件用于现场查验，复印件提交考务秘书留存。 五、复试要求： 1.考生须在复试开考前 15 分钟到考场完成报到，配合考务秘书进行资格核验。未按时报到者，视为自动放弃复试资格。 2.复试顺序由现场考务秘书随机抽签决定。 3.考生不得携带手机、智能手表等通讯电子设备、纸质资料、文具进入面试考场。进入考场后服从面试专家组及考务人员安排，面试过程中不得擅自离场。面试结束后应立即离开考场，不得逗留，不得与未复试考生交流面试题目、复试相关内容。 4. 外语面试与专业面试同时进行。 5. 复试全程录像，违反上述安排的视为违纪，成绩无效。 6.其他未尽事宜，按照《吉林大学历史文化学院2027年推荐免试攻读研究生（含直博生）复试录取工作细则》执行。 https://hac.jlu.edu.cn/__local/6/B1/36/6BF8442EC88FB37C51F669C92AF_5F02ADFD_3D2AB.jpg",
+        "attachments": [
+          {
+            "filename": "历史文化学院2027年推免进入复试名单(1).xlsx",
+            "url": "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18198796",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-17 浏览次数：",
+            "date": "2026-09-17"
+          },
+          {
+            "text": "发布时间：2026-09-17",
+            "date": "2026-09-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 596,
+        "reference_attachment_urls": [
+          "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18198796"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学历史文化学院2027年推免进入复试名单公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学历史文化学院2027年推免进入复试名单公示 发布时间：2026-09-17 浏览次数：",
+            "date": "2026-09-17"
+          },
+          {
+            "text": "发布时间：2026-09-17 浏览次数：",
+            "date": "2026-09-17"
+          },
+          {
+            "text": "发布时间：2026-09-17",
+            "date": "2026-09-17"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/info/1054/1737.htm",
+      "list_title": "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”硕士研究生招生报名通知",
+      "list_date": "2026-03-31",
+      "response": {
+        "url": "https://hac.jlu.edu.cn/info/1054/1737.htm",
+        "time": "2026-10-15T19:37:09+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/info/1054/1737.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a89cc244fc3878f27997314fd33ebe6eb4f4304a8192505ee7b5f878bb56f206",
+        "html_path": "html/a89cc244fc3878f27997314fd33ebe6eb4f4304a8192505ee7b5f878bb56f206.html",
+        "replacement_chars": 0,
+        "chars": 33898,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”硕士研究生招生报名通知",
+        "url": "https://hac.jlu.edu.cn/info/1054/1737.htm",
+        "publish_date": "2026-03-31",
+        "publisher": "期刊《史学集刊》、CSSCI辑刊《华夏文化论坛》等高水平学术",
+        "content": "根据学校相关要求，现将吉林大学历史文化学院2026年硕士研究生招生“中华优秀传统文化专项计划”招生信息公布如下： 一、招生专业及人数 中国史：7人 二、招生条件 初试成绩达到招生专业所划定的学院复试线且复试成绩达到及格线的上述专业考生，可报名中华优秀传统文化专项计划。本专项计划不接受跨专业报名。 三、报名时间：3月31日至4月1日 报名考生须于4月1日下午15:00前将《吉林大学历史文化学院2026年中华优秀传统文化专项计划硕士研究生报名表》电子版发送至qixm@jlu.edu.cn，邮件主题命名：中华优秀传统文化专项-姓名。逾期不再受理。 四、录取原则 1.根据招生计划按招生考试总成绩排序由高向低依次录取，录满为止。若出现分数相同，则按初试专业课成绩（如果是两门专业课，使用两门专业课成绩之和）从高到低排序；若初试专业课成绩仍然相同，则按复试“专业笔试”和“综合素质能力”分数之和从高到低排序，择优录取。 2.中华优秀传统文化专项计划报名结束后，若普通计划有缺额，将根据招生考试总成绩顺位递补的原则进行补录，拟录取名单将一同公示。 中华优秀传统文化 专项简介 为深入贯彻落实习近平总书记关于传承弘扬中华优秀传统文化的重要讲话精神，增强中华文明传播力、影响力，提高中华文化的文化自觉与文化自信， 2020年11月26日，尼山世界儒学中心联合研究生院在山东曲阜尼山正式揭牌成立，研究生院院长由尼山世界儒学中心理事会理事长靳诺同志担任。在2023年8月17日召开的联合研究生院院务委员会专题会议上，尼山世界儒学中心联合研究生院更名为“尼山中华优秀传统文化联合研究生院”。 联合研究生院由尼山世界中华优秀传统文化中心联合中共中央党校（国家行政学院）、中国社会科学院大学、北京大学、清华大学、中国人民大学、北京师范大学、复旦大学、山东大学、四川大学、武汉大学、中山大学、吉林大学、南开大学、南京大学、浙江大学、兰州大学等 16所一流院校，以共建共享方式开展硕士、博士 研究生教育，发挥山东传统文化资源优势，汇聚全国顶尖研究力量，培养中华优秀传统文化领域的高端专业人才。 作为 16所共建院校之一，吉林大学充分发挥综合性大学的学科资源优势，于2025年12月25日经第二十四次校长办公会议研究决定，成立“吉林大学中华优秀传统文化研究院”，依托历史文化学院运行。 吉林大学中华优秀传统文化研究院以服务国家文化强国战略为使命，致力于打造集人才培养、科学研究、教育教学、师资交流、学科建设、咨政服务 “六位一体”的跨学科深度合作平台。研究院由韩喜平教授担任院长，整合历史文化学院、哲学社会学院、文学院、马克思主义学院、考古学院等10个学院的优质资源，汇聚了一批在中华优秀传统文化研究领域具有深厚造诣的学术领军人才。研究院的成立，标志着我校中华优秀传统文化传承发展与人才培养工作迈入系统化、建制化的新阶段。 吉林大学深度参与尼山中华优秀传统文化联合研究生院建设，聚焦特色学科方向，系统打造专题共同课与精品课程体系。学校积极组织专项研究生赴山东开展研修活动，定期举办专项研究生学术论坛，持续完善教学培养机制。依托 CSSCI来源期刊《史学集刊》、CSSCI辑刊《华夏文化论坛》等高水平学术平台，吉林大学中华优秀传统文化研究院将与联合研究生院及其他共建院校协同发力，力争到2026年将联合研究生院建设成为中华优秀传统文化创造性转化、创新性发展人才培养的国际性高地。 吉林大学 历史文化学院 2026 年 3 月 3 1 日",
+        "attachments": [
+          {
+            "filename": "2026历史硕士专项报名表.docx",
+            "url": "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18092377",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-03-31 浏览次数：",
+            "date": "2026-03-31"
+          },
+          {
+            "text": "发布时间：2026-03-31",
+            "date": "2026-03-31"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1454,
+        "reference_attachment_urls": [
+          "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18092377"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”硕士研究生招生报名通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”硕士研究生招生报名通知 发布时间：2026-03-31 浏览次数：",
+            "date": "2026-03-31"
+          },
+          {
+            "text": "发布时间：2026-03-31 浏览次数：",
+            "date": "2026-03-31"
+          },
+          {
+            "text": "发布时间：2026-03-31",
+            "date": "2026-03-31"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+        "time": "2026-10-15T19:28:19+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2d06e8d84f00247c65dafa724c678bfdc463d1ff59c14aec2e7c0b898c7c312d",
+        "html_path": "html/2d06e8d84f00247c65dafa724c678bfdc463d1ff59c14aec2e7c0b898c7c312d.html",
+        "replacement_chars": 0,
+        "chars": 33308,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hac.jlu.edu.cn/info/1054/1740.htm",
+        "https://hac.jlu.edu.cn/info/1054/1812.htm",
+        "https://hac.jlu.edu.cn/info/1054/1844.htm",
+        "https://hac.jlu.edu.cn/info/1054/1862.htm",
+        "https://hac.jlu.edu.cn/info/1054/1867.htm",
+        "https://hac.jlu.edu.cn/info/1054/1927.htm",
+        "https://hac.jlu.edu.cn/info/1054/1933.htm",
+        "https://hac.jlu.edu.cn/info/1054/1947.htm"
+      ],
+      "observed_next_urls": [
+        "https://hac.jlu.edu.cn/zsyjy/zsxx/3.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://hac.jlu.edu.cn/zsyjy/zsxx/3.htm",
+        "time": "2026-10-15T19:37:06+08:00",
+        "ok": true,
+        "final_url": "https://hac.jlu.edu.cn/zsyjy/zsxx/3.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8096db4ef11183473196cd7d94c3c144c0c98f0b818922c1fa3e25efafa30f4b",
+        "html_path": "html/8096db4ef11183473196cd7d94c3c144c0c98f0b818922c1fa3e25efafa30f4b.html",
+        "replacement_chars": 0,
+        "chars": 33587,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hac.jlu.edu.cn/info/1054/1607.htm",
+        "https://hac.jlu.edu.cn/info/1054/1641.htm",
+        "https://hac.jlu.edu.cn/info/1054/1652.htm",
+        "https://hac.jlu.edu.cn/info/1054/1671.htm",
+        "https://hac.jlu.edu.cn/info/1054/1711.htm",
+        "https://hac.jlu.edu.cn/info/1054/1713.htm",
+        "https://hac.jlu.edu.cn/info/1054/1732.htm",
+        "https://hac.jlu.edu.cn/info/1054/1737.htm"
+      ],
+      "observed_next_urls": [
+        "https://hac.jlu.edu.cn/zsyjy/zsxx/2.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "time": "2026-10-15T19:28:19+08:00",
+    "ok": true,
+    "final_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "2d06e8d84f00247c65dafa724c678bfdc463d1ff59c14aec2e7c0b898c7c312d",
+    "html_path": "html/2d06e8d84f00247c65dafa724c678bfdc463d1ff59c14aec2e7c0b898c7c312d.html",
+    "replacement_chars": 0,
+    "chars": 33308,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "历史文化学院2027年接收推荐免试攻读研究生（含直博生）复试成绩及拟录取名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1947.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2027年推免进入复试名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1933.htm",
+      "publish_date": "2026-09-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2027年 推荐免试攻读研究生（含直博生）复试录取工作细则",
+      "url": "https://hac.jlu.edu.cn/info/1054/1927.htm",
+      "publish_date": "2026-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“中华优秀传统文化”招生复试成绩及拟录取公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1867.htm",
+      "publish_date": "2026-06-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年本科招生专业（类）培养简介一览表",
+      "url": "https://hac.jlu.edu.cn/info/1054/1862.htm",
+      "publish_date": "2026-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”招生复试安排及进入复试人员名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1844.htm",
+      "publish_date": "2026-06-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年 “中华优秀传统文化专项计划”博士研究生招生通知",
+      "url": "https://hac.jlu.edu.cn/info/1054/1812.htm",
+      "publish_date": "2026-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年硕士研究生招生拟录取名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1740.htm",
+      "publish_date": "2026-04-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“中华优秀传统文化专项计划”硕士研究生招生报名通知",
+      "url": "https://hac.jlu.edu.cn/info/1054/1737.htm",
+      "publish_date": "2026-03-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年硕士研究生招生复试成绩公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1732.htm",
+      "publish_date": "2026-03-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年硕士研究生招生复试录取工作细则",
+      "url": "https://hac.jlu.edu.cn/info/1054/1713.htm",
+      "publish_date": "2026-03-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年硕士研究生招生考试复试分数线及进入复试考生名单",
+      "url": "https://hac.jlu.edu.cn/info/1054/1711.htm",
+      "publish_date": "2026-03-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“申请考核制”博士招生拟录取名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1671.htm",
+      "publish_date": "2025-12-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“申请考核制”博士招生复试成绩公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1652.htm",
+      "publish_date": "2025-12-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年“申请考核制”博士招生复试安排及进入复试人员名单公示",
+      "url": "https://hac.jlu.edu.cn/info/1054/1641.htm",
+      "publish_date": "2025-12-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学历史文化学院2026年博士研究生 “申请考核制”招生实施细则",
+      "url": "https://hac.jlu.edu.cn/info/1054/1607.htm",
+      "publish_date": "2025-11-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://hac.jlu.edu.cn/zsyjy/zsxx/3.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-c1b646015549",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.810002140700817e-05,
+      "detail_duration_seconds": 8.299946784973145e-06,
+      "parse_db_duration_seconds": 0.039592300076037645
+    },
+    "second_round": {
+      "source": "p2-c1b646015549",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.329994458705187e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-c1b646015549",
+    "institution": "历史文化学院",
+    "column": "招生信息",
+    "url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:19+08:00",
+    "review_time": "2026-10-15T20:20:35+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 16,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-c1b646015549.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

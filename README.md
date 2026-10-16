@@ -4,15 +4,15 @@ English | [中文](README_zh-CN.md)
 
 > A Windows desktop app that aggregates, deduplicates, filters, and delivers notices from official campus sources.
 
-## Current stable release: v0.7.4
+## Current stable release: v0.7.5
 
-- [Release notes and downloads](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.4)
-- [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.4/JLU.Notice.Monitor_0.7.4_x64-setup.exe)
-- [Release changes and verification](docs/RELEASE_NOTES_v0.7.4.md)
+- [Release notes and downloads](https://github.com/xuejh-x/jlu-notice-monitor/releases/tag/v0.7.5)
+- [Windows x64 installer](https://github.com/xuejh-x/jlu-notice-monitor/releases/download/v0.7.5/JLU.Notice.Monitor_0.7.5_x64-setup.exe)
+- [Release changes and verification](docs/RELEASE_NOTES_v0.7.5.md)
 
 The currently distributed desktop package is for Windows x64.
 
-v0.7.4 includes public-notice parsing and attachment fixes, verified Windows TLS contexts, bounded HTTP retry handling, and search/list selection synchronization. Existing retention rules still apply: notices older than the configured retention period may be removed, including unread and favorite notices. Back up local data before upgrading. New audited source candidates remain disabled; this release does not claim full-campus or production Cloud coverage.
+v0.7.5 includes bounded detail rechecks, source-aware attachment revisions, pagination and CMS parsing fixes, and the latest campus-site audit reports. Existing retention rules still apply: notices older than the configured retention period may be removed, including unread and favorite notices. Back up local data before upgrading. New audited source candidates remain disabled; this release does not claim full-campus or production Cloud coverage. Local TLS/network failures affecting OA or the Lanqiao page may remain unresolved.
 
 JLU Notice Monitor helps students follow important announcements without repeatedly checking separate university and department websites. It currently ships with Jilin University sources, while its source-adapter model is designed to support other public organizations and campuses.
 

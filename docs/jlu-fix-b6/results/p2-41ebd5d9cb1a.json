@@ -1,0 +1,884 @@
+{
+  "id": "p2-41ebd5d9cb1a",
+  "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+  "institution": "公共计算机教学与研究中心",
+  "column": "中心通知 College notice",
+  "site_url": "https://ccfe.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/41ebd5d9cb1aa1c9.json",
+  "discovery_url": "https://ccfe.jlu.edu.cn/",
+  "original_snapshot": "html/7aeb08b6e1fa64626ea4164cdb09fafb4fbba9dbbcefc739453436b502b2fe9d.html",
+  "original_capture_time": "2026-10-13T13:54:16+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-41ebd5d9cb1a",
+    "name": "公共计算机教学与研究中心 / 中心通知 College notice",
+    "base_url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:29+08:00",
+  "details": [
+    {
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+      "list_title": "致吉大计算机学科全体教职工的一封信",
+      "list_date": "2022-03-17",
+      "response": {
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+        "time": "2026-10-15T19:42:09+08:00",
+        "ok": true,
+        "final_url": "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "04ce70cb2b72026782f15d30b1c8b14c492507db5fa4c0a304010b98440d1808",
+        "html_path": "html/04ce70cb2b72026782f15d30b1c8b14c492507db5fa4c0a304010b98440d1808.html",
+        "replacement_chars": 0,
+        "chars": 13439,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "致吉大计算机学科全体教职工的一封信",
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+        "publish_date": "2022-03-17",
+        "publisher": null,
+        "content": "致吉 大计算机学科全体教职工的一封信 尊敬的全体教职工： 当前，吉林省疫情防控形势到了前所未有的严峻时刻，学校疫情防控工作也进入了最关键阶段！学校已进入全封闭管理状态第五天，我们所面临的严峻形势、复杂工作程度对于我们都是巨大的挑战。计算机学院和软件学院分别有 2630 名和 1668 名同学生活在封闭的校园里，学校相关部门、学院领导和教职工、以及一大批优秀的学生志愿者正在不分昼夜、全力以赴地确保同学们的正常学习和生活，全国各地的校友也在以各种方式传递着对母校的款款深情。在这样一个全民抗疫的非常时期，更需要我们上下团结起来，共克时艰。两院和中心认真贯彻落实校党委书记姜治莹同志在 3 月 7 日全校疫情防控工作专题视频会精神，把抓好疫情防控工作作为落实党和国家战略部署的实际行动，作为体现学校治理水平、确保学校有序运转的关键环节，作为锤炼党性修养、彰显担当精神的重要举措。校长张希同志强调，要坚持以学生为本，强化协同育人，相关部门要高度重视学生诉求，解决学生关切，提供优质服务。辅导员、班主任、心理健康教师要加强协同，密切关注学生身心健康，注意保护个人隐私，让学生安心、家长放心。 在此，计算机学院、软件学院和公共计算机中心倡议： 请广大教师坚守居家课堂，善用信息技术，带着“为党育人，为国育才”的责任，认真上好每一堂课。既要上好专业课，同时也要在课堂上真正实践课程思政，传播正能量。在大学的殿堂里，老师不仅是学生的专业导师，更是人生导师，尤其在学生面对人生考验的时候更要给他们关怀和鼓励，引导学生们调整心态，静下心来，潜心学习，思考人生，立志成才。 请各位研究生导师、班主任老师积极发挥协同育人作用，通过本科生线上班会、研究生线上组会等各种方式，加强线上教学指导，加强学生心理健康关怀，主动问需，积极回应学生诉求，努力提供优质服务，广泛收集学生建议，畅通信息渠道，及时高效的把学生的诉求反馈给我们，共同协调解决。 请全体行政管理人员知其责、尽其力，全力做好疫情防控任务的落实工作，科学做好物资储备，不断提升应急能力，根据工作分工及时做好各种信息统计和报送工作，要把学校防疫的相关要求通知落实到每一个人，充分做到关口前移、抓小抓早，把疫情防控的主动权掌握在自己手中，将师生的安全感和满意度作为检验疫情防控工作成效的重要标准。 请全体教职工严格按照学校和所在社区的相关要求，从我做起，有效落实责任。严格遵守疫情期间学校管理规定，严格执行每日健康打卡，严格落实健康监测，配合做好全员核酸检测；勤洗手、常通风，避免人员集中，降低疫情传播风险。 老师们、同志们，我们现在大多居家办公授课，而学生近期只能在寝室学习和生活。让我们用真诚和爱陪伴学生们走过这段艰辛的心路历程，在共克时艰中写下计算机人的情怀、能力和担当！疫情来势汹汹，就如这两日料峭的风、纷飞的雪；但我们相信在学校党委的坚强领导下，各位老师的积极配合下，我们以紧急“战时”状态统一共识、同心协力、共克时艰，保护自己、守护学院和中心，让我们的吉林大学成为最安全的校园。 风雪过后，春城已是晴空万里。我们终将战胜疫情，迎来春暖花开。愿所求皆所愿，山河无恙，岁月安康。 计算机科学与技术学院 软件学院 公共计算机教学与研究中心 2022 年 3 月 16 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "致吉大计算机学科全体教职工的一封信"
+          },
+          {
+            "selector": "h1.title",
+            "title": "致吉大计算机学科全体教职工的一封信"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-03-17 发布人： 点击量：",
+            "date": "2022-03-17"
+          },
+          {
+            "text": "发布日期：2022-03-17",
+            "date": "2022-03-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1354,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "致吉大计算机学科全体教职工的一封信"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-03-17 发布人： 点击量：",
+            "date": "2022-03-17"
+          },
+          {
+            "text": "发布日期：2022-03-17",
+            "date": "2022-03-17"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+      "list_title": "计算机科学与技术学院党委组织召开疫情防控工作专题视频会",
+      "list_date": "2022-03-16",
+      "response": {
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+        "time": "2026-10-15T19:42:10+08:00",
+        "ok": true,
+        "final_url": "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "90d9698c6656c02fe4d50f687baef5b400633414f90bb7f3be95d467621be8a9",
+        "html_path": "html/90d9698c6656c02fe4d50f687baef5b400633414f90bb7f3be95d467621be8a9.html",
+        "replacement_chars": 0,
+        "chars": 12138,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "计算机科学与技术学院党委组织召开疫情防控工作专题视频会",
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+        "publish_date": "2022-03-16",
+        "publisher": null,
+        "content": "3月16日上午，计算机科学与技术学院党委组织召开疫情防控工作专题视频会，计算机科学与技术学院、软件学院和公共计算机教学与研究中心领导班子成员参加了此次视频会。 视频会上，党委书记宫皓宇传达了3月13日学校疫情防控工作专题视频会会议精神，强调全院教职工应共同努力，做好疫情防控工作。要时刻关注学校、社区、省市和国家的疫情防控的相关通知，工作群内会第一时间传达的疫情防控的相关信息，例如《关于进一步加强校园疫情防控工作的通知》等，希望全体教职工认真落实各项防控要求和工作要求，积极配合社区核酸检测，在做好个人防护的同时完成各项本职工作。 宫皓宇向坚决服从大局的全院师生表示衷心的感谢，向心系师生安危、无惧风险挑战的防控人员表示崇高的敬意。目前学校全封闭管理期间，高战国、张达鑫、杜天宝3位党委副书记带领何江海、侯树范、于纯浩、张译心、王星阳、王天放等6名辅导员坚守在为学生教育和服务保障的校内一线岗位上。 视频会中，计算机科学与技术学院院长杨博传达了学校纪委的14项监督检查清单，与班子成员逐项讨论交流形成工作共识。杨博强调，学院全体领导班子成员要时刻做好准备，及时按照学校要求研究解决疫情防控工作中遇到的问题，安排好线上办公、教学等工作，抓好学生和教工的疫情防控工作，不能把责任全压在一线的学工同志身上，既要分担他们的压力，也要更加关心关爱他们，全院上下共同努力打好疫情攻坚战。 会议要求：一是进一步加强疫情期间宣传工作，加强新闻宣传和信息报送，加强意识形态管理和舆情推动化解。二是加强疫情期间排查流调工作，严格落实学校每日健康申报情况，全面统计掌握全体师生情况，做到不漏一人，为在校封闭的学生提供周到细致服务。三是学院开展线上教学，落实“责任到人、协同配合、维护秩序、保证质量”精神，保障疫情防控期间本科教学秩序和教学质量。四是加强总体掌握学生思想动态，做好上传下达工作，将上级和学校的有关政策文件精神传达给每一名学生，创新工作形式有针对性地进行思想引领和政治教育。五是对本单位负责的学生教学场所以及无人值守的实验室等重点部位的水、电、气、暖等设施和物品开展巡查检查。 https://ccfe.jlu.edu.cn/info/1418/spacer.gif https://ccfe.jlu.edu.cn/__local/C/B7/05/AD028F126D3CFF675428BEE1F63_6F2EA12C_22BE2.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "计算机科学与技术学院党委组织召开疫情防控工作专题视频会"
+          },
+          {
+            "selector": "h1.title",
+            "title": "计算机科学与技术学院党委组织召开疫情防控工作专题视频会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-03-16 发布人： 点击量：",
+            "date": "2022-03-16"
+          },
+          {
+            "text": "发布日期：2022-03-16",
+            "date": "2022-03-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 884,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "计算机科学与技术学院党委组织召开疫情防控工作专题视频会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-03-16 发布人： 点击量：",
+            "date": "2022-03-16"
+          },
+          {
+            "text": "发布日期：2022-03-16",
+            "date": "2022-03-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+      "list_title": "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示",
+      "list_date": "2024-10-28",
+      "response": {
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+        "time": "2026-10-15T19:42:11+08:00",
+        "ok": true,
+        "final_url": "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "117f222194ce37bf687b916aa4de313da6955be6fa4e78bd06fd460c92149f5e",
+        "html_path": "html/117f222194ce37bf687b916aa4de313da6955be6fa4e78bd06fd460c92149f5e.html",
+        "replacement_chars": 0,
+        "chars": 10297,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示",
+        "url": "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+        "publish_date": "2024-10-28",
+        "publisher": null,
+        "content": "按照学校教务处2024年10月11日发布《关于统计报送2022-2023学年本科教学工作量的通知》的要求，我单位遵照学校的标准对2022-2023学年任课教师完成本科教学工作量情况进行了统计，并填写《本科教学工作量统计表》，现对该表予以公示。 公示时间：2024.10.28-2024.11.01 公示地点：李四光教学楼503 公共计算机教学与研究中心 教务办 2024年10月28日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示"
+          },
+          {
+            "selector": "h1.title",
+            "title": "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-10-28 发布人： 点击量：",
+            "date": "2024-10-28"
+          },
+          {
+            "text": "发布日期：2024-10-28",
+            "date": "2024-10-28"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 192,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2024-10-28 发布人： 点击量：",
+            "date": "2024-10-28"
+          },
+          {
+            "text": "发布日期：2024-10-28",
+            "date": "2024-10-28"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+        "time": "2026-10-15T19:29:58+08:00",
+        "ok": true,
+        "final_url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "7aeb08b6e1fa64626ea4164cdb09fafb4fbba9dbbcefc739453436b502b2fe9d",
+        "html_path": "html/7aeb08b6e1fa64626ea4164cdb09fafb4fbba9dbbcefc739453436b502b2fe9d.html",
+        "replacement_chars": 0,
+        "chars": 10818,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccfe.jlu.edu.cn/info/1418/1056.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1099.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1311.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1312.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1332.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1333.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1341.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1352.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccfe.jlu.edu.cn/gong/zxtz/15.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ccfe.jlu.edu.cn/gong/zxtz/15.htm",
+        "time": "2026-10-15T19:42:08+08:00",
+        "ok": true,
+        "final_url": "https://ccfe.jlu.edu.cn/gong/zxtz/15.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "846feeef82f0e701984552cd32c266688bde95e8ba878b18e8126d22b101c8dd",
+        "html_path": "html/846feeef82f0e701984552cd32c266688bde95e8ba878b18e8126d22b101c8dd.html",
+        "replacement_chars": 0,
+        "chars": 11076,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1048.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1050.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1064.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1078.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1084.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1097.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1122.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1159.htm",
+        "https://ccfe.jlu.edu.cn/info/1418/1179.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccfe.jlu.edu.cn/gong/zxtz/14.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+    "time": "2026-10-15T19:29:58+08:00",
+    "ok": true,
+    "final_url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "7aeb08b6e1fa64626ea4164cdb09fafb4fbba9dbbcefc739453436b502b2fe9d",
+    "html_path": "html/7aeb08b6e1fa64626ea4164cdb09fafb4fbba9dbbcefc739453436b502b2fe9d.html",
+    "replacement_chars": 0,
+    "chars": 10818,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "致吉大计算机学科全体教职工的一封信",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1114.htm",
+      "publish_date": "2022-03-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委组织召开疫情防控工作专题视频会",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1102.htm",
+      "publish_date": "2022-03-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共计算机教学与研究中心2026-2027学年秋季学期教材选用的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1352.htm",
+      "publish_date": "2026-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026年教师和专业技术职务聘任工作学院评审通过人员名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1341.htm",
+      "publish_date": "2026-06-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2026年教师和专业技术职务聘任工作推荐人选名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1333.htm",
+      "publish_date": "2026-05-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2026年度通过本科教学渠道聘任教授、副教授职务工作推荐人选名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1332.htm",
+      "publish_date": "2026-05-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心吉林大学第十届本科教学成果评选奖励工作中心推荐名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1312.htm",
+      "publish_date": "2025-11-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共计算机教学与研究中心2023-2024学年《本科教学工作量统计表》公示",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1311.htm",
+      "publish_date": "2025-10-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2025年度通过本科教学渠道聘任教授、副教授职务工作推荐人选名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1056.htm",
+      "publish_date": "2025-05-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2025年教师和专业技术职务聘任工作推荐人选名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1099.htm",
+      "publish_date": "2025-05-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公共计算机教学与研究中心2022-2023学年《本科教学工作量统计表》公示",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1045.htm",
+      "publish_date": "2024-10-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于《吉林大学本科教育教学审核评估自评报告》的公示",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1097.htm",
+      "publish_date": "2024-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：计算机科学与技术学院、软件学院、公共计算机教学与研究中心召开本科教育教学审核评估迎评工作专题辅导报告",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1122.htm",
+      "publish_date": "2024-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：计算机科学与技术学院、软件学院、公共计算机教学与研究中心召开本科教育教学审核评估迎评工作部署动员会",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1159.htm",
+      "publish_date": "2024-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于发布《迎接教育部本科教育教学审核评估考察管理部门工作指南》的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1048.htm",
+      "publish_date": "2024-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于发布《迎接教育部本科教育教学审核评估考察学院工作指南》的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1084.htm",
+      "publish_date": "2024-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2024年教师和专业技术职务聘任工作推荐人选名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1179.htm",
+      "publish_date": "2024-07-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于深入学习《本科教育教学审核评估应知应会手册》的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1064.htm",
+      "publish_date": "2024-06-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2024年通过教学渠道聘任教授、副教授职务评审推荐名单及相关材料的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1050.htm",
+      "publish_date": "2024-06-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示公共计算机教学与研究中心2024年教师和专业技术职务聘任工作评审通过人员名单的通知",
+      "url": "https://ccfe.jlu.edu.cn/info/1418/1078.htm",
+      "publish_date": "2024-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://ccfe.jlu.edu.cn/gong/zxtz/15.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-41ebd5d9cb1a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3100099749863148e-05,
+      "detail_duration_seconds": 5.399924702942371e-06,
+      "parse_db_duration_seconds": 0.030510200071148574
+    },
+    "second_round": {
+      "source": "p2-41ebd5d9cb1a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.2399978004395962e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-41ebd5d9cb1a",
+    "institution": "公共计算机教学与研究中心",
+    "column": "中心通知 College notice",
+    "url": "https://ccfe.jlu.edu.cn/gong/zxtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:58+08:00",
+    "review_time": "2026-10-15T20:21:29+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-41ebd5d9cb1a.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

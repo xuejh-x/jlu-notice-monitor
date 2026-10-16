@@ -1,0 +1,26 @@
+{
+  "binary_comparison": {
+    "python313.dll": {
+      "sha256": "6964e590037c41d631fd1215f05af154f7fa68105993c6f573a20689b473f1ac",
+      "matches_development": true
+    },
+    "_ssl.pyd": {
+      "sha256": "b8118580b461801df12ec12d3d666aa0ebc2b3750bcf92b90b92789b152bf856",
+      "matches_development": true
+    },
+    "libssl-3.dll": {
+      "sha256": "cf1a5fdcefa3daf69041f31f98ece1d7911ca4fcb8e9f1043b4d0f459ae4c936",
+      "matches_development": true
+    },
+    "libcrypto-3.dll": {
+      "sha256": "eaf6d613b95b61a39558d84c50e72630a66c99914292df88e7b54ebd60c5bd34",
+      "matches_development": true
+    }
+  },
+  "installed_httpx": "0.28.1",
+  "installed_certifi": "2026.07.22",
+  "installed_certifi_ca_sha256": "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f",
+  "installed_exe_sha256": "4bc6cf053fe85858adb944f0c33e7f672b7d0169c1c3a41a472ae828e3477f38",
+  "pyinstaller": "6.22.2",
+  "truststore": "0.10.4"
+}

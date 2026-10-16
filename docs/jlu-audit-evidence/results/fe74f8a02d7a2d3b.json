@@ -1,0 +1,38 @@
+{
+  "column_url": "https://www.zrlyyy.com/wujia_detail_g7yU_62/177728.html",
+  "column": "关于因停电暂停官网服务的通知 2026.05.08",
+  "institution": "白求恩第三临床医学院",
+  "site_url": "https://www.zrlyyy.com/index.html",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://www.zrlyyy.com/wujiaquery_g7yU_62.html",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:44:09+08:00",
+  "checked_at": "2026-10-13T14:01:20+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/fe74f8a02d7a2d3b.json",
+  "reason": "EMPTY_LIST",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://www.zrlyyy.com/wujia_detail_g7yU_62/177728.html",
+  "list_sha256": "a23969ea06852a4528b6b8a179637f218cd73f37a2e3b6b2a0f44f3984dd631c",
+  "list_snapshot": "html/a23969ea06852a4528b6b8a179637f218cd73f37a2e3b6b2a0f44f3984dd631c.html",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

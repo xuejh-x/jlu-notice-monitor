@@ -1,0 +1,59 @@
+{
+  "candidate_sources_only": [
+    {
+      "id": "continuing-academic-conditional",
+      "institution": "继续教育学院（培训学院 / 继续教育 / 继续教育招生",
+      "column": "通知公告",
+      "priority": "P1",
+      "discovery_url": "https://dec.jlu.edu.cn/",
+      "discovery_basis": "Exact trailing-slash URL observed in official home anchor and fetched unchanged",
+      "scope": "access + bounded DOM inspection only; no detail/date/attachment/pagination or Cloud admission",
+      "conditional": true,
+      "support_status": "ACCESS_ONLY_NOT_ADMITTED_DISABLED",
+      "config": {
+        "code": "candidate-jlu-continuing-academic-conditional",
+        "name": "继续教育学院（培训学院 / 继续教育 / 继续教育招生 / 通知公告",
+        "base_url": "https://dec.jlu.edu.cn/html/xljy/tzgg/",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "original_base_url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+      "captured_at": "2026-10-14T22:02:17+08:00"
+    },
+    {
+      "id": "continuing-conditional",
+      "institution": "继续教育学院（培训学院 / 继续教育 / 继续教育招生",
+      "column": "通知公告",
+      "priority": "P1",
+      "discovery_url": "https://dec.jlu.edu.cn/",
+      "discovery_basis": "Exact trailing-slash URL observed in official home anchor and fetched unchanged",
+      "scope": "access + bounded DOM inspection only; no detail/date/attachment/pagination or Cloud admission",
+      "conditional": true,
+      "support_status": "ACCESS_ONLY_NOT_ADMITTED_DISABLED",
+      "config": {
+        "code": "candidate-jlu-continuing-conditional",
+        "name": "继续教育学院（培训学院 / 继续教育 / 继续教育招生 / 通知公告",
+        "base_url": "https://dec.jlu.edu.cn/html/tzgg1/",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "original_base_url": "https://dec.jlu.edu.cn/html/tzgg1",
+      "captured_at": "2026-10-14T22:02:17+08:00"
+    }
+  ],
+  "formal_admissions": 0
+}

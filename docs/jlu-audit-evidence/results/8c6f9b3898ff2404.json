@@ -1,0 +1,39 @@
+{
+  "column_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+  "column": "公示",
+  "institution": "学生就业创业指导与服务中心",
+  "site_url": "https://jdjyw.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P1",
+  "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+  "discovery_basis": "2026-10-13 官方站限定检索补充；就业网公开列表原页",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:49:12+08:00",
+  "checked_at": "2026-10-13T13:52:05+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/8c6f9b3898ff2404.json",
+  "reason": "EMPTY_LIST; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+  "list_sha256": "ebaeb55d9f084e9e13551569551eeec0fab66f8464b9cf47434f8554792e4952",
+  "list_snapshot": "html/ebaeb55d9f084e9e13551569551eeec0fab66f8464b9cf47434f8554792e4952.html",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

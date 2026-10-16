@@ -1,0 +1,22 @@
+{
+  "time": "2026-10-14T16:47:37+08:00",
+  "mode": "offline_review",
+  "input": "docs/jlu-fix-b4/live-20261014",
+  "candidates": 19,
+  "checked": 19,
+  "states": {
+    "部分通过": 15,
+    "需认证": 1,
+    "失败": 3
+  },
+  "verdicts": {
+    "CONTENT_SAMPLE_PASSED": 9,
+    "PERMISSION_RESTRICTED": 1,
+    "CONTENT_PASSED_DATE_SEMANTICS_REVIEW_REQUIRED": 6,
+    "ACCESS_BLOCKED": 3
+  },
+  "details_attempted": 47,
+  "verified_details": 29,
+  "attachment_endpoints": 14,
+  "formal_sources_changed": 0
+}

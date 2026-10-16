@@ -1,0 +1,40 @@
+[
+  {
+    "discovery_url": "https://dec.jlu.edu.cn/",
+    "title": "通知公告",
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/",
+    "category": "REDIRECT_LIMIT",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+      "time": "2026-10-14T21:59:08+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: SourceError: Source exceeded the redirect limit <- SourceError: Source exceeded the redirect limit",
+      "status": 308,
+      "attempts": 1
+    },
+    "enabled": false,
+    "support_status": "NOT_ADMITTED"
+  },
+  {
+    "discovery_url": "https://dec.jlu.edu.cn/",
+    "title": "关于对成人教育学生开放“学在吉大”在线课程学习的通知",
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610141493.html",
+    "category": "HTTP_CONTENT_AVAILABLE_NOT_ADMITTED",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610141493.html",
+      "time": "2026-10-14T21:59:15+08:00",
+      "ok": true,
+      "final_url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610141493.html",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "47cd99f65e75dd1f0499bfcfaac9cddd3f81a0f2c3d83d498a7463139f9e4000",
+      "html_path": "html/47cd99f65e75dd1f0499bfcfaac9cddd3f81a0f2c3d83d498a7463139f9e4000.html",
+      "replacement_chars": 0,
+      "chars": 36115,
+      "attempts": 1
+    },
+    "enabled": false,
+    "support_status": "NOT_ADMITTED"
+  }
+]

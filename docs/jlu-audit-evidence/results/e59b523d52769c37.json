@@ -1,0 +1,343 @@
+{
+  "column_url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+  "column": "录取公示",
+  "institution": "研究生招生",
+  "site_url": "https://yzb.jlu.edu.cn/",
+  "category": "官网导航",
+  "priority": "P1",
+  "discovery_url": "https://yzb.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:48:27+08:00",
+  "checked_at": "2026-10-13T13:52:55+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1052/3531.htm",
+      "list_title": "吉林大学2026年博士研究生拟录取名单公示",
+      "parsed_title": "吉林大学2026年博士研究生拟录取名单公示",
+      "document_title": "吉林大学2026年博士研究生拟录取名单公示-吉林大学研究生招生信息网",
+      "heading_texts": [
+        "吉林大学2026年博士研究生拟录取名单公示"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2026-06-30",
+      "reference_date": "2026-06-30",
+      "body_selector": ".v_news_content",
+      "content_chars": 355,
+      "content_preview": "吉林大学 202 6 年博士研究生招生工作已经结束，根据教育部及《吉林大学 202 6 年博士研究生招生简章及专业目录》的相关规定，经过我校各招生单位组织专家组审查和考核，现将吉林大学 202 6 年博士研究生拟录取名单予以公示（见附件，不含直博生）。所有考生成绩以学院公示的成绩为准，学校不再另行公示。公示期为 202 6 年 7 月 1 日至 202 6 年 7 月 7 日。如有异议，请于公示期内实名向吉林大学研究生招生办公室反映。对不符合招生相关规定者，一经查实，按有关规定取消录取资格。 研究生招生办公室：吉林大学中心校区鼎新楼 A416室 电话：0431-85166371 附件：吉林大学 202 6 年博士研究生拟录取名单（不含直博生） 吉林大学研究生招生办公室 202 6 年 6 月 30 日",
+      "content_sha256": "79db3371a05d6f14af463f9330ca7ec4e754b6723605295c7b66bf8822a3e0cb",
+      "raw_attachments": [
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18167131",
+          "filename": "2026年博士研究生拟录取名单公示（不含直博生）.pdf"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "2026年博士研究生拟录取名单公示（不含直博生）.pdf",
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18167131",
+          "type": "pdf"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED"
+      ],
+      "time": "2026-10-13T13:52:56+08:00",
+      "sha256": "08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe",
+      "snapshot": "html/08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe.html",
+      "attachment_probes": [
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18167131",
+          "time": "2026-10-13T13:52:57+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18167131",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+      "list_title": "吉林大学2025年博士研究生拟录取名单公示",
+      "parsed_title": "吉林大学2025年博士研究生拟录取名单公示",
+      "document_title": "吉林大学2025年博士研究生拟录取名单公示-吉林大学研究生招生信息网",
+      "heading_texts": [
+        "吉林大学2025年博士研究生拟录取名单公示"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2025-06-27",
+      "reference_date": "2025-06-27",
+      "body_selector": ".v_news_content",
+      "content_chars": 332,
+      "content_preview": "吉林大学2025年博士研究生招生工作已经结束，根据教育部及《吉林大学2025年博士研究生招生简章及专业目录》的相关规定，经过我校各招生单位组织专家组审查和考核，现将吉林大学2025年博士研究生拟录取名单予以公示（见附件，不含直博生）。所有考生成绩以学院公示的成绩为准，学校不再另行公示。公示期为2025年6月27日至2025年7月10日。如有异议，请于公示期内实名向吉林大学研究生招生办公室反映。对不符合招生相关规定者，一经查实，按有关规定取消录取资格。 研究生招生办公室：吉林大学中心校区鼎新楼A416室 电话：0431-85166371 附件： 吉林大学2025年博士研究生拟录取名单公示（不含直博生）.pdf 吉林大学研究生招生办公室 2025 年6月27日",
+      "content_sha256": "71ca575862beec9dd5cfb5ac1af25d10c801ffa005a219eefe6b013b82e83008",
+      "raw_attachments": [
+        {
+          "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+          "filename": "吉林大学2025年博士研究生拟录取名单公示（不含直博生）.pdf"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "吉林大学2025年博士研究生拟录取名单公示（不含直博生）.pdf",
+          "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+          "type": "pdf"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [],
+      "time": "2026-10-13T13:52:58+08:00",
+      "sha256": "55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7",
+      "snapshot": "html/55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7.html",
+      "attachment_probes": [
+        {
+          "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+          "time": "2026-10-13T13:53:00+08:00",
+          "ok": true,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+          "content_type": "application/pdf",
+          "disposition": "",
+          "prefix_hex": "255044462d312e370d0a25b5b5b5b50d",
+          "read_bytes": 1024
+        }
+      ]
+    }
+  ],
+  "list_count": 10,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3531.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2024年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3349.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2023年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3351.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2022年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3352.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2022年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3353.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2022年接收推荐免试攻读研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3354.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2021年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3356.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学2020年拟录取博士研究生金夕雅更改录取类别的公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3043.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2020年博士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1052/3358.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 10,
+  "attachments_checked": 2,
+  "evidence_file": "docs/jlu-audit-evidence/results/e59b523d52769c37.json",
+  "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://yzb.jlu.edu.cn/bszs/lqgs/1.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://yzb.jlu.edu.cn/bszs/lqgs/1.htm",
+    "time": "2026-10-13T13:53:00+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 7,
+    "new_urls": 7,
+    "snapshot": "html/1dc4adb908a56ff77262358beb94d99cab1149291caf4396789da6cd92857482.html"
+  },
+  "final_url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+  "list_sha256": "dd5b9c3170abf7c389bbe9917be033cf46b1b2766034ecb6b2f2611b68eff930",
+  "list_snapshot": "html/dd5b9c3170abf7c389bbe9917be033cf46b1b2766034ecb6b2f2611b68eff930.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 10,
+  "unparsed_reference_links": []
+}

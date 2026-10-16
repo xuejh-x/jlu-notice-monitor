@@ -1,0 +1,500 @@
+[
+  {
+    "id": "existing-cse-0",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "response": {
+      "url": "https://cse.jlu.edu.cn/xytz.htm",
+      "time": "2026-10-14T23:08:14+08:00",
+      "ok": true,
+      "final_url": "https://cse.jlu.edu.cn/xytz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "7da325bac1e96e93a9521fd54540063863f3a2766d7b71a0c5a397f96a55e582",
+      "html_path": "html/7da325bac1e96e93a9521fd54540063863f3a2766d7b71a0c5a397f96a55e582.html",
+      "replacement_chars": 0,
+      "chars": 16864,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://cse.jlu.edu.cn/xytz/1.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_full pb_sys_style3\" style=\"margin-top:30px;text-align:center\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"xytz/1.htm\">2</a></span><span class=\"p_next p_fun\"><a href=\"xytz/1.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"xytz/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"xytz/1.htm\">2</a></span><span class=\"p_next p_fun\"><a href=\"xytz/1.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"xytz/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"xytz/1.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "existing-cse-1",
+    "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "response": {
+      "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+      "time": "2026-10-14T23:08:16+08:00",
+      "ok": true,
+      "final_url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "7081571c0340b4113775ddafafeeb4c4919683f88669666cc873ff96de6c78a9",
+      "html_path": "html/7081571c0340b4113775ddafafeeb4c4919683f88669666cc873ff96de6c78a9.html",
+      "replacement_chars": 0,
+      "chars": 15332,
+      "attempts": 1
+    },
+    "next_links": [],
+    "pager_markup": [
+      "<div class=\"ny-right\">\n<div class=\"position wow fadeInUp\">\n<div class=\"\">\n<div>\n<h3>本科教学通知<h3></h3></h3></div>\n<div> <span>当前您的位置：</span>\n<a href=\"index.htm\">首页</a>\n<span>&gt;</span>\n<a href=\"bkjxtz.htm\">本科教学通知</a>\n</div></div>\n</div>\n<div class=\"text-list\">\n<script language=\"javascript\" src=\"/system/resource/js/centerCutImg.js\"></script><script language=\"javascript\" src=\"/system/resource/js/ajax.js\"></script> <ul>\n<li class=\"wow fadeInUp\"><span>2024-12-03</span>\n<a href=\"info/1006/1441.htm\" target=\"_blank\" title=\"吉林大学网络安全学院寒假实训计划选拔通知（一）\">吉林大学网络安全学院寒假实训计划选拔通知（一）</a>\n</li>\n<li class=\"wow fadeInUp\"><span>2024-07-10</span>\n<a href=\"info/1006/1377.htm\" target=\"_blank\" title=\"吉林大学网络安全学院暑期实训计划选拔通知（二）\">吉林大学网络安全学院暑期实训计划选拔通知（二）</a>\n</li>\n<li class=\"wow fadeInUp\"><span>2024-07-01</span>\n<a href=\"info/1006/1369.htm\" target=\"_blank\" title=\"吉林大学网络安全学院暑期实训计划选拔通知（一）\">吉林大学网络安全学院暑期实训计划选拔通知（一）</a>\n</li>\n</ul>\n<link content-type=\"text/css\" href=\"/system/resource/css/pagedown/sys.css\" rel=\"stylesheet\"/><div class=\"pb_sys_common pb_sys_full pb_sys_style3\" style=\"margin-top:30px;text-align:center\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_next_d p_fun_d\">下页</span><span class=\"p_last_d p_fun_d\">尾页</span></span></div>\n<script>_showDynClickBatch(['dynclicks_u14_1441','dynclicks_u14_1377','dynclicks_u14_1369'],[1441,1377,1369],\"wbnews\", 1998001171)</script></div>\n</div>",
+      "<div class=\"text-list\">\n<script language=\"javascript\" src=\"/system/resource/js/centerCutImg.js\"></script><script language=\"javascript\" src=\"/system/resource/js/ajax.js\"></script> <ul>\n<li class=\"wow fadeInUp\"><span>2024-12-03</span>\n<a href=\"info/1006/1441.htm\" target=\"_blank\" title=\"吉林大学网络安全学院寒假实训计划选拔通知（一）\">吉林大学网络安全学院寒假实训计划选拔通知（一）</a>\n</li>\n<li class=\"wow fadeInUp\"><span>2024-07-10</span>\n<a href=\"info/1006/1377.htm\" target=\"_blank\" title=\"吉林大学网络安全学院暑期实训计划选拔通知（二）\">吉林大学网络安全学院暑期实训计划选拔通知（二）</a>\n</li>\n<li class=\"wow fadeInUp\"><span>2024-07-01</span>\n<a href=\"info/1006/1369.htm\" target=\"_blank\" title=\"吉林大学网络安全学院暑期实训计划选拔通知（一）\">吉林大学网络安全学院暑期实训计划选拔通知（一）</a>\n</li>\n</ul>\n<link content-type=\"text/css\" href=\"/system/resource/css/pagedown/sys.css\" rel=\"stylesheet\"/><div class=\"pb_sys_common pb_sys_full pb_sys_style3\" style=\"margin-top:30px;text-align:center\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_next_d p_fun_d\">下页</span><span class=\"p_last_d p_fun_d\">尾页</span></span></div>\n<script>_showDynClickBatch(['dynclicks_u14_1441','dynclicks_u14_1377','dynclicks_u14_1369'],[1441,1377,1369],\"wbnews\", 1998001171)</script></div>",
+      "<div class=\"pb_sys_common pb_sys_full pb_sys_style3\" style=\"margin-top:30px;text-align:center\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_next_d p_fun_d\">下页</span><span class=\"p_last_d p_fun_d\">尾页</span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_next_d p_fun_d\">下页</span><span class=\"p_last_d p_fun_d\">尾页</span></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "existing-ccst-0",
+    "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "response": {
+      "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+      "time": "2026-10-14T23:08:17+08:00",
+      "ok": true,
+      "final_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "ecc56e0d998225de359e014898e8ab4953217bd8e23b5d4bbdd6b22992afacc9",
+      "html_path": "html/ecc56e0d998225de359e014898e8ab4953217bd8e23b5d4bbdd6b22992afacc9.html",
+      "replacement_chars": 0,
+      "chars": 13234,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz/182.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:30px;text-align:center;\"><span class=\"p_t\">共1828条</span> <span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"jxtz/182.htm\">2</a></span><span class=\"p_no\"><a href=\"jxtz/181.htm\">3</a></span><span class=\"p_no\"><a href=\"jxtz/180.htm\">4</a></span><span class=\"p_no\"><a href=\"jxtz/179.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"jxtz/1.htm\">183</a></span><span class=\"p_next p_fun\"><a href=\"jxtz/182.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"jxtz/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"jxtz/182.htm\">2</a></span><span class=\"p_no\"><a href=\"jxtz/181.htm\">3</a></span><span class=\"p_no\"><a href=\"jxtz/180.htm\">4</a></span><span class=\"p_no\"><a href=\"jxtz/179.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"jxtz/1.htm\">183</a></span><span class=\"p_next p_fun\"><a href=\"jxtz/182.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"jxtz/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"jxtz/182.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "existing-csw-0",
+    "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "response": {
+      "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+      "time": "2026-10-14T23:08:20+08:00",
+      "ok": true,
+      "final_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "0cdc1aee613bbb4e3a6735c49a154fe89493044339aaa49605aa663f11cdbac5",
+      "html_path": "html/0cdc1aee613bbb4e3a6735c49a154fe89493044339aaa49605aa663f11cdbac5.html",
+      "replacement_chars": 0,
+      "chars": 16499,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://csw.jlu.edu.cn/index/xytz_/75.htm"
+    ],
+    "pager_markup": [
+      "<div align=\"center\" style=\" margin:15px 0;\"><input name=\"actiontype\" type=\"hidden\" value=\"\"/><input name=\"_scode_\" type=\"hidden\" value=\"1791964101141\"/><input name=\"urltype\" type=\"hidden\" value=\"tree.TreeTempUrl\"/><input name=\"wbtreeid\" type=\"hidden\" value=\"1009\"/><input name=\"outFlag\" type=\"hidden\" value=\"false\"/>\n<style type=\"text/css\">\r\n.headStyle1j0s6wb06a, .headStyle1j0s6wb06a td, .headStyle1j0s6wb06a div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}\r\n.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}\r\n.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}\r\n.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}\r\n.headStyle1j0s6wb06a a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle1j0s6wb06a a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}\r\n.headStyle1j0s6wb06a .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle1j0s6wb06a .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}\r\n.headStyle1j0s6wb06a .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}\r\n.headStyle1j0s6wb06a .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}\r\n.headStyle1j0s6wb06a .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle1j0s6wb06a .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}\r\n.headStyle1j0s6wb06a .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle1j0s6wb06a a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}\r\n.headStyle1j0s6wb06a a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}\r\n.headStyle1j0s6wb06a a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}\r\n</style><script language=\"javascript\" src=\"/system/resource/js/gotopage.js\"></script><script type=\"text/javascript\">function a197361_gopage_fun(){_simple_list_gotopage_fun(76,'a197361GOPAGE',2)}</script><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td colspan=\"0\"><table cellpadding=\"1\" cellspacing=\"0\" class=\"headStyle1j0s6wb06a\" width=\"100%\"><tr valign=\"middle\"><td align=\"left\" id=\"fanye197361\" nowrap=\"\" width=\"1%\">共1136条  1/76 </td><td align=\"left\" nowrap=\"\"><div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"xytz_/75.htm\">下页</a><a class=\"Next\" href=\"xytz_/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a197361Find\" onclick=\"javascript:a197361_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a197361GOPAGE\" name=\"a197361GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div></td></tr></table></td></tr></table></div>",
+      "<div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"xytz_/75.htm\">下页</a><a class=\"Next\" href=\"xytz_/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a197361Find\" onclick=\"javascript:a197361_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a197361GOPAGE\" name=\"a197361GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div>"
+    ],
+    "page_scripts": [
+      {
+        "src": "https://csw.jlu.edu.cn/system/resource/js/gotopage.js"
+      },
+      {
+        "inline": "function a197361_gopage_fun(){_simple_list_gotopage_fun(76,'a197361GOPAGE',2)}"
+      }
+    ]
+  },
+  {
+    "id": "existing-csw-1",
+    "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "response": {
+      "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+      "time": "2026-10-14T23:08:21+08:00",
+      "ok": true,
+      "final_url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "4e82c2b118f0a49059cc327c487516cb96a9244c9979e84dc6466b7fa0ada8e2",
+      "html_path": "html/4e82c2b118f0a49059cc327c487516cb96a9244c9979e84dc6466b7fa0ada8e2.html",
+      "replacement_chars": 0,
+      "chars": 16411,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://csw.jlu.edu.cn/index/jbtz/47.htm"
+    ],
+    "pager_markup": [
+      "<div align=\"center\" style=\" margin:15px 0;\"><input name=\"actiontype\" type=\"hidden\" value=\"\"/><input name=\"_scode_\" type=\"hidden\" value=\"1791964373871\"/><input name=\"urltype\" type=\"hidden\" value=\"tree.TreeTempUrl\"/><input name=\"wbtreeid\" type=\"hidden\" value=\"1095\"/><input name=\"outFlag\" type=\"hidden\" value=\"false\"/>\n<style type=\"text/css\">\r\n.headStyle3ih7il40a2, .headStyle3ih7il40a2 td, .headStyle3ih7il40a2 div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}\r\n.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}\r\n.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}\r\n.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}\r\n.headStyle3ih7il40a2 a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle3ih7il40a2 a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}\r\n.headStyle3ih7il40a2 .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle3ih7il40a2 .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}\r\n.headStyle3ih7il40a2 .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}\r\n.headStyle3ih7il40a2 .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}\r\n.headStyle3ih7il40a2 .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle3ih7il40a2 .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}\r\n.headStyle3ih7il40a2 .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle3ih7il40a2 a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}\r\n.headStyle3ih7il40a2 a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}\r\n.headStyle3ih7il40a2 a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}\r\n</style><script language=\"javascript\" src=\"/system/resource/js/gotopage.js\"></script><script type=\"text/javascript\">function a197361_gopage_fun(){_simple_list_gotopage_fun(48,'a197361GOPAGE',2)}</script><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td colspan=\"0\"><table cellpadding=\"1\" cellspacing=\"0\" class=\"headStyle3ih7il40a2\" width=\"100%\"><tr valign=\"middle\"><td align=\"left\" id=\"fanye197361\" nowrap=\"\" width=\"1%\">共719条  1/48 </td><td align=\"left\" nowrap=\"\"><div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"jbtz/47.htm\">下页</a><a class=\"Next\" href=\"jbtz/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a197361Find\" onclick=\"javascript:a197361_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a197361GOPAGE\" name=\"a197361GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div></td></tr></table></td></tr></table></div>",
+      "<div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"jbtz/47.htm\">下页</a><a class=\"Next\" href=\"jbtz/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a197361Find\" onclick=\"javascript:a197361_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a197361GOPAGE\" name=\"a197361GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div>"
+    ],
+    "page_scripts": [
+      {
+        "src": "https://csw.jlu.edu.cn/system/resource/js/gotopage.js"
+      },
+      {
+        "inline": "function a197361_gopage_fun(){_simple_list_gotopage_fun(48,'a197361GOPAGE',2)}"
+      }
+    ]
+  },
+  {
+    "id": "existing-jwc-0",
+    "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "response": {
+      "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+      "time": "2026-10-14T23:08:22+08:00",
+      "ok": true,
+      "final_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "8919dba673a545603c886cb72ce25ea9eca6a92c397fe98cac69d942ce9ba09d",
+      "html_path": "html/8919dba673a545603c886cb72ce25ea9eca6a92c397fe98cac69d942ce9ba09d.html",
+      "replacement_chars": 0,
+      "chars": 31430,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://jwc.jlu.edu.cn/zxzx/tzgg/32.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pagination\"><link content-type=\"text/css\" href=\"/system/resource/css/pagedown/sys.css\" rel=\"stylesheet\"/><div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/32.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/31.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/30.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/29.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">33</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/32.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div></div>",
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/32.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/31.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/30.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/29.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">33</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/32.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/32.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/31.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/30.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/29.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">33</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/32.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg/32.htm\">下页</a></span>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\r\nfunction dosuba1048000a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa1048000a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa1048000a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea1048000a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      },
+      {
+        "inline": "\r\nfunction dosuba1048002a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa1048002a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa1048002a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea1048002a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      }
+    ]
+  },
+  {
+    "id": "existing-innovation-0",
+    "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "response": {
+      "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-14T23:08:25+08:00",
+      "ok": true,
+      "final_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "095de24ffaff3d5ff9b6b19126760c2bd3cdcbaab2fa55fbcd870fd491a3f6ee",
+      "html_path": "html/095de24ffaff3d5ff9b6b19126760c2bd3cdcbaab2fa55fbcd870fd491a3f6ee.html",
+      "replacement_chars": 0,
+      "chars": 14641,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://cxcyjyxy.jlu.edu.cn/index/tzgg/9.htm"
+    ],
+    "pager_markup": [
+      "<div align=\"center\"><input name=\"actiontype\" type=\"hidden\" value=\"\"/><input name=\"_scode_\" type=\"hidden\" value=\"1791610436021\"/><input name=\"urltype\" type=\"hidden\" value=\"tree.TreeTempUrl\"/><input name=\"wbtreeid\" type=\"hidden\" value=\"1060\"/><input name=\"outFlag\" type=\"hidden\" value=\"false\"/>\n<style type=\"text/css\">\r\n.headStyle15jaxcb7qa, .headStyle15jaxcb7qa td, .headStyle15jaxcb7qa div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}\r\n.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}\r\n.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}\r\n.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}\r\n.headStyle15jaxcb7qa a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle15jaxcb7qa a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}\r\n.headStyle15jaxcb7qa .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle15jaxcb7qa .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}\r\n.headStyle15jaxcb7qa .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}\r\n.headStyle15jaxcb7qa .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}\r\n.headStyle15jaxcb7qa .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle15jaxcb7qa .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}\r\n.headStyle15jaxcb7qa .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle15jaxcb7qa a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}\r\n.headStyle15jaxcb7qa a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}\r\n.headStyle15jaxcb7qa a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}\r\n</style><script language=\"javascript\" src=\"/system/resource/js/gotopage.js\"></script><script type=\"text/javascript\">function a273150_gopage_fun(){_simple_list_gotopage_fun(10,'a273150GOPAGE',2)}</script><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td colspan=\"0\"><table cellpadding=\"1\" cellspacing=\"0\" class=\"headStyle15jaxcb7qa\" width=\"100%\"><tr valign=\"middle\"><td align=\"left\" id=\"fanye273150\" nowrap=\"\" width=\"1%\">共136条  1/10 </td><td align=\"left\" nowrap=\"\"><div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"tzgg/9.htm\">下页</a><a class=\"Next\" href=\"tzgg/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a273150Find\" onclick=\"javascript:a273150_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a273150GOPAGE\" name=\"a273150GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div></td></tr></table></td></tr></table></div>",
+      "<div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"tzgg/9.htm\">下页</a><a class=\"Next\" href=\"tzgg/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a273150Find\" onclick=\"javascript:a273150_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a273150GOPAGE\" name=\"a273150GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div>"
+    ],
+    "page_scripts": [
+      {
+        "src": "https://cxcyjyxy.jlu.edu.cn/system/resource/js/gotopage.js"
+      },
+      {
+        "inline": "function a273150_gopage_fun(){_simple_list_gotopage_fun(10,'a273150GOPAGE',2)}"
+      }
+    ]
+  },
+  {
+    "id": "existing-oa-0",
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "response": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-14T23:08:27+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "attempts": 1
+    },
+    "next_links": [],
+    "pager_markup": [],
+    "page_scripts": []
+  },
+  {
+    "id": "xsc",
+    "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "response": {
+      "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-14T23:08:32+08:00",
+      "ok": true,
+      "final_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "37e43c09d2b944e59b7b8e188f4617fb918a3b4f4594f545b746b2c60205c6b3",
+      "html_path": "html/37e43c09d2b944e59b7b8e188f4617fb918a3b4f4594f545b746b2c60205c6b3.html",
+      "replacement_chars": 0,
+      "chars": 17294,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://xsc.jlu.edu.cn/index/tzgg/186.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style4\" style=\"margin:30px 0px;text-align:center;\"><span class=\"p_t\">共1868条</span> <span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/186.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/185.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/184.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/183.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">187</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/186.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/186.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/185.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/184.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/183.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">187</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/186.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg/186.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "employment-notices",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "response": {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+      "time": "2026-10-14T23:08:35+08:00",
+      "ok": true,
+      "final_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+      "content_type": "text/html;charset=UTF-8",
+      "status": 200,
+      "auth": false,
+      "sha256": "95bdc33d8b6f359c01c8c8722f72c6f75adeaabff2c78cac0e873f65bd463852",
+      "html_path": "html/95bdc33d8b6f359c01c8c8722f72c6f75adeaabff2c78cac0e873f65bd463852.html",
+      "replacement_chars": 0,
+      "chars": 16213,
+      "attempts": 1
+    },
+    "next_links": [],
+    "pager_markup": [
+      "<div class=\"page\" id=\"s-portal__pagination\"><ul class=\"pagination\">\n<li class=\"disabled controls\">共 24 页, 共 288 条</li>\n<li class=\"page-item disabled\"><a class=\"page-link\" href=\"javascript:\">« 上一页</a></li>\n<li class=\"page-item active\"><a class=\"page-link\" href=\"javascript:\">1</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">2</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(3,12,'');\">3</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(4,12,'');\">4</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(5,12,'');\">5</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(6,12,'');\">6</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(7,12,'');\">7</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(8,12,'');\">8</a></li>\n<li class=\"page-item disabled\"><a class=\"page-link\" href=\"javascript:\">...</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(24,12,'');\">24</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">下一页 »</a></li>\n</ul>\n<div style=\"clear:both;\"></div></div>",
+      "<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">下一页 »</a></li>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\n    var cid = 'jyzp_tzgg';\n    //分页\n    function page(n,s){\n    \t$(\"#pageNo\").val(n);\n    \t$(\"#pageSize\").val(s);\n    \t$(\"#searchForm\").submit();\n       \treturn false;\n    }\n    \n    $(function () {\n        $('#btn_reset').click(function(){\n        \twindow.location = '/portal/jyzp/article/list?cid=' + cid;\n        });\n        \n    });\n    "
+      }
+    ]
+  },
+  {
+    "id": "employment-publicity",
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+    "response": {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+      "time": "2026-10-14T23:08:37+08:00",
+      "ok": true,
+      "final_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+      "content_type": "text/html;charset=UTF-8",
+      "status": 200,
+      "auth": false,
+      "sha256": "d917af1ea319c4b1fff7622e45edabe047cfda4129dc1d230583cfa34efd1684",
+      "html_path": "html/d917af1ea319c4b1fff7622e45edabe047cfda4129dc1d230583cfa34efd1684.html",
+      "replacement_chars": 0,
+      "chars": 15483,
+      "attempts": 1
+    },
+    "next_links": [],
+    "pager_markup": [
+      "<div class=\"page\" id=\"s-portal__pagination\"><ul class=\"pagination\">\n<li class=\"disabled controls\">共 7 页, 共 80 条</li>\n<li class=\"page-item disabled\"><a class=\"page-link\" href=\"javascript:\">« 上一页</a></li>\n<li class=\"page-item active\"><a class=\"page-link\" href=\"javascript:\">1</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">2</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(3,12,'');\">3</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(4,12,'');\">4</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(5,12,'');\">5</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(6,12,'');\">6</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(7,12,'');\">7</a></li>\n<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">下一页 »</a></li>\n</ul>\n<div style=\"clear:both;\"></div></div>",
+      "<li class=\"page-item\"><a class=\"page-link\" href=\"javascript:\" onclick=\"page(2,12,'');\">下一页 »</a></li>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\n    var cid = 'jyzp_gs';\n    //分页\n    function page(n,s){\n    \t$(\"#pageNo\").val(n);\n    \t$(\"#pageSize\").val(s);\n    \t$(\"#searchForm\").submit();\n       \treturn false;\n    }\n    \n    $(function () {\n        $('#btn_reset').click(function(){\n        \twindow.location = '/portal/jyzp/article/list?cid=' + cid;\n        });\n        \n    });\n    "
+      }
+    ]
+  },
+  {
+    "id": "jwc-certificates",
+    "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "response": {
+      "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+      "time": "2026-10-14T23:08:38+08:00",
+      "ok": true,
+      "final_url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "b3b38968033a3e83f253edacdac708e7afdb8f57ebd2cc532d7bf760477afb9b",
+      "html_path": "html/b3b38968033a3e83f253edacdac708e7afdb8f57ebd2cc532d7bf760477afb9b.html",
+      "replacement_chars": 0,
+      "chars": 38559,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs/8.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pagination\"><link content-type=\"text/css\" href=\"/system/resource/css/pagedown/sys.css\" rel=\"stylesheet\"/><div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"zmsgs/8.htm\">2</a></span><span class=\"p_no\"><a href=\"zmsgs/7.htm\">3</a></span><span class=\"p_no\"><a href=\"zmsgs/6.htm\">4</a></span><span class=\"p_no\"><a href=\"zmsgs/5.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"zmsgs/1.htm\">9</a></span><span class=\"p_next p_fun\"><a href=\"zmsgs/8.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"zmsgs/1.htm\">尾页</a></span></span></div></div>",
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"zmsgs/8.htm\">2</a></span><span class=\"p_no\"><a href=\"zmsgs/7.htm\">3</a></span><span class=\"p_no\"><a href=\"zmsgs/6.htm\">4</a></span><span class=\"p_no\"><a href=\"zmsgs/5.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"zmsgs/1.htm\">9</a></span><span class=\"p_next p_fun\"><a href=\"zmsgs/8.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"zmsgs/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"zmsgs/8.htm\">2</a></span><span class=\"p_no\"><a href=\"zmsgs/7.htm\">3</a></span><span class=\"p_no\"><a href=\"zmsgs/6.htm\">4</a></span><span class=\"p_no\"><a href=\"zmsgs/5.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"zmsgs/1.htm\">9</a></span><span class=\"p_next p_fun\"><a href=\"zmsgs/8.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"zmsgs/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"zmsgs/8.htm\">下页</a></span>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\r\nfunction dosuba1048000a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa1048000a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa1048000a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea1048000a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      },
+      {
+        "inline": "\r\nfunction dosuba1048002a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa1048002a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa1048002a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea1048002a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      }
+    ]
+  },
+  {
+    "id": "kjc",
+    "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+    "response": {
+      "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-14T23:08:39+08:00",
+      "ok": true,
+      "final_url": "https://kjc.jlu.edu.cn/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "e9420acff80f0f6921d6db52d6158567a5569c087f245d579dae9083cc9f6543",
+      "html_path": "html/e9420acff80f0f6921d6db52d6158567a5569c087f245d579dae9083cc9f6543.html",
+      "replacement_chars": 0,
+      "chars": 23084,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://kjc.jlu.edu.cn/tzgg/35.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style5\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/35.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/34.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/33.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/32.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">36</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/35.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/35.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/34.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/33.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/32.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">36</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/35.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg/35.htm\">下页</a></span>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\r\nfunction dosuba198739a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa198739a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa198739a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea198739a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      }
+    ]
+  },
+  {
+    "id": "hssra",
+    "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+    "response": {
+      "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+      "time": "2026-10-14T23:08:41+08:00",
+      "ok": true,
+      "final_url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "db4a50248a02dcefb8d3adaa4eec43e69f0d240ca70719b0dd6cc5e7e4534b93",
+      "html_path": "html/db4a50248a02dcefb8d3adaa4eec43e69f0d240ca70719b0dd6cc5e7e4534b93.html",
+      "replacement_chars": 0,
+      "chars": 38774,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://hssra.jlu.edu.cn/tzgg1/82.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style1\" style=\"margin-top:30px;text-align:center;\"> <span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg1/82.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg1/81.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg1/80.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg1/79.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg1/1.htm\">83</a></span><span class=\"p_next p_fun\"><a href=\"tzgg1/82.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg1/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg1/82.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg1/81.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg1/80.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg1/79.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg1/1.htm\">83</a></span><span class=\"p_next p_fun\"><a href=\"tzgg1/82.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg1/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg1/82.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "graduate-school",
+    "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "response": {
+      "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+      "time": "2026-10-14T23:08:44+08:00",
+      "ok": true,
+      "final_url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "11425739985656081428682a89512bd8af9073e94bb4ed157ed484f98899ded2",
+      "html_path": "html/11425739985656081428682a89512bd8af9073e94bb4ed157ed484f98899ded2.html",
+      "replacement_chars": 0,
+      "chars": 17202,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://yjsy.jlu.edu.cn/tzgg/128.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pages\" style=\"text-align: center;\"><link content-type=\"text/css\" href=\"/system/resource/css/pagedown/sys.css\" rel=\"stylesheet\"/><div class=\"pb_sys_common pb_sys_normal pb_sys_style2\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/128.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/127.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/126.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/125.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">129</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/128.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div></div>",
+      "<div class=\"pb_sys_common pb_sys_normal pb_sys_style2\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/128.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/127.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/126.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/125.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">129</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/128.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/128.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/127.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/126.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/125.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">129</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/128.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg/128.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "youth",
+    "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+    "response": {
+      "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+      "time": "2026-10-14T23:08:46+08:00",
+      "ok": true,
+      "final_url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "a3e8a474bb492ce8645e43a32eb15b4deba5022d32e5e2e70e25b5f51d3fe707",
+      "html_path": "html/a3e8a474bb492ce8645e43a32eb15b4deba5022d32e5e2e70e25b5f51d3fe707.html",
+      "replacement_chars": 0,
+      "chars": 8559,
+      "attempts": 1
+    },
+    "next_links": [
+      "https://youth.jlu.edu.cn/index/tzgg/137.htm"
+    ],
+    "pager_markup": [
+      "<div class=\"pb_sys_common pb_sys_full pb_sys_style2\" style=\"margin-top:10px;text-align:center;\"><span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/137.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/136.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/135.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/134.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">138</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/137.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span></div>",
+      "<span class=\"p_pages\"><span class=\"p_first_d p_fun_d\">首页</span><span class=\"p_prev_d p_fun_d\">上页</span><span class=\"p_no_d\">1</span><span class=\"p_no\"><a href=\"tzgg/137.htm\">2</a></span><span class=\"p_no\"><a href=\"tzgg/136.htm\">3</a></span><span class=\"p_no\"><a href=\"tzgg/135.htm\">4</a></span><span class=\"p_no\"><a href=\"tzgg/134.htm\">5</a></span><span class=\"p_dot\">...</span><span class=\"p_no\"><a href=\"tzgg/1.htm\">138</a></span><span class=\"p_next p_fun\"><a href=\"tzgg/137.htm\">下页</a></span><span class=\"p_last p_fun\"><a href=\"tzgg/1.htm\">尾页</a></span></span>",
+      "<span class=\"p_next p_fun\"><a href=\"tzgg/137.htm\">下页</a></span>"
+    ],
+    "page_scripts": []
+  },
+  {
+    "id": "international",
+    "url": "http://cie.jlu.edu.cn/ggtz.htm",
+    "response": {
+      "url": "http://cie.jlu.edu.cn/ggtz.htm",
+      "time": "2026-10-14T23:08:49+08:00",
+      "ok": true,
+      "final_url": "http://cie.jlu.edu.cn/ggtz.htm",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "95b00c18a1284d51c6b20127c07a6883b26ea043b6e1fbabf139ea32133b61ed",
+      "html_path": "html/95b00c18a1284d51c6b20127c07a6883b26ea043b6e1fbabf139ea32133b61ed.html",
+      "replacement_chars": 0,
+      "chars": 31094,
+      "attempts": 1
+    },
+    "next_links": [
+      "http://cie.jlu.edu.cn/ggtz/14.htm"
+    ],
+    "pager_markup": [
+      "<div align=\"center\" class=\"fenye11 css_btn\"><input name=\"actiontype\" type=\"hidden\" value=\"\"/><input name=\"_scode_\" type=\"hidden\" value=\"1780975356536\"/><input name=\"urltype\" type=\"hidden\" value=\"tree.TreeTempUrl\"/><input name=\"wbtreeid\" type=\"hidden\" value=\"1047\"/><input name=\"outFlag\" type=\"hidden\" value=\"false\"/>\n<style type=\"text/css\">\r\n.headStyle2czom738ou, .headStyle2czom738ou td, .headStyle2czom738ou div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}\r\n.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}\r\n.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}\r\n.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}\r\n.headStyle2czom738ou a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle2czom738ou a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}\r\n.headStyle2czom738ou .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle2czom738ou .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}\r\n.headStyle2czom738ou .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}\r\n.headStyle2czom738ou .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}\r\n.headStyle2czom738ou .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}\r\n.headStyle2czom738ou .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}\r\n.headStyle2czom738ou .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}\r\n.headStyle2czom738ou a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}\r\n.headStyle2czom738ou a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}\r\n.headStyle2czom738ou a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}\r\n</style><script language=\"javascript\" src=\"/system/resource/js/gotopage.js\"></script><script type=\"text/javascript\">function a198597_gopage_fun(){_simple_list_gotopage_fun(15,'a198597GOPAGE',2)}</script><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td colspan=\"0\"><table cellpadding=\"1\" cellspacing=\"0\" class=\"headStyle2czom738ou\" width=\"100%\"><tr valign=\"middle\"><td align=\"left\" id=\"fanye198597\" nowrap=\"\" width=\"1%\">共143条  1/15 </td><td align=\"left\" nowrap=\"\"><div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"ggtz/14.htm\">下页</a><a class=\"Next\" href=\"ggtz/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a198597Find\" onclick=\"javascript:a198597_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a198597GOPAGE\" name=\"a198597GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div></td></tr></table></td></tr></table></div>",
+      "<div><span class=\"PrevDisabled\">首页</span><span class=\"PrevDisabled\">上页</span><a class=\"Next\" href=\"ggtz/14.htm\">下页</a><a class=\"Next\" href=\"ggtz/1.htm\">尾页</a>  <input align=\"absmiddle\" class=\"defaultButtonStyle\" id=\"gotopagebut\" name=\"a198597Find\" onclick=\"javascript:a198597_gopage_fun()\" type=\"button\" value=\"转到\"/><input align=\"absmiddle\" class=\"defaultInputStyle\" id=\"a198597GOPAGE\" name=\"a198597GOPAGE\" size=\"2\" style=\"margin-left:1px;margin-right:1px\" value=\"\"/>页</div>"
+    ],
+    "page_scripts": [
+      {
+        "inline": "\r\nfunction dosuba198701a()\r\n{\r\n    try{\r\n        var ua = navigator.userAgent.toLowerCase();\r\n        if(ua.indexOf(\"msie 8\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE8\r\n        }else if(ua.toLowerCase().indexOf(\"rv:\")>-1)\r\n        {\r\n            window.external.AddToFavoritesBar(document.location.href,document.title,\"\");//IE11+\r\n        }else{\r\n            if (document.all) \r\n            {\r\n                window.external.addFavorite(document.location.href, document.title);\r\n            }else if(window.sidebar)\r\n            {\r\n                window.sidebar.addPanel( document.title, document.location.href, \"\");//firefox\r\n            }\r\n            else\r\n            {\r\n                alert(hotKeysa198701a());\r\n            }\r\n        }\r\n\r\n    }\r\n    catch (e){alert(\"无法自动添加到收藏夹，请使用 Ctrl + d 手动添加\");}\r\n}\r\nfunction hotKeysa198701a() \r\n{\r\n    var ua = navigator.userAgent.toLowerCase(); \r\n    var str = \"\";    \r\n    var isWebkit = (ua.indexOf('webkit') != - 1); \r\n    var isMac = (ua.indexOf('mac') != - 1);     \r\n    if (ua.indexOf('konqueror') != - 1) \r\n    {  \r\n        str = 'CTRL + B'; // Konqueror   \r\n    } \r\n    else if (window.home || isWebkit || isMac) \r\n    {        \r\n        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   \r\n    }\r\n    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);\r\n}\r\nfunction setHomepagea198701a()\r\n{\r\n    var url = document.location.href;\r\n    if (document.all)\r\n    {\r\n        document.body.style.behavior='url(#default#homepage)';\r\n        document.body.setHomePage(url);\r\n    }\r\n    else if (window.sidebar)\r\n    {\r\n        if(window.netscape)\r\n        {\r\n             try{\r\n                  netscape.security.PrivilegeManager.enablePrivilege(\"UniversalXPConnect\");\r\n             }catch (e){\r\n                   alert(\"该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true\");\r\n             }\r\n        }\r\n    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);\r\n    prefs.setCharPref('browser.startup.homepage',url);\r\n    }\r\n    else\r\n    {\r\n        alert(\"浏览器不支持自动设为首页，请手动设置\");\r\n    }\r\n}\r\n"
+      },
+      {
+        "src": "http://cie.jlu.edu.cn/system/resource/js/gotopage.js"
+      },
+      {
+        "inline": "function a198597_gopage_fun(){_simple_list_gotopage_fun(15,'a198597GOPAGE',2)}"
+      },
+      {
+        "inline": "\r\n    TouchSlide({ \r\n        slideCell:\"#slideBox\",\r\n        titCell:\".hd ul\", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层\r\n        mainCell:\".bd ul\", \r\n        effect:\"leftLoop\", \r\n        autoPage:true,//自动分页\r\n        autoPlay:true, //自动播放\r\n        interTime:4000,\r\n        delayTime:200,\r\n    });\r\n"
+      }
+    ]
+  }
+]

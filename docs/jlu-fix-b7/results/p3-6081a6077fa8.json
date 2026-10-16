@@ -1,0 +1,320 @@
+{
+  "id": "p3-6081a6077fa8",
+  "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+  "institution": "继续教育管理办公室",
+  "column": "项目公示",
+  "site_url": "https://jjglb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+  "original_evidence": "docs/jlu-audit-evidence/results/6081a6077fa87de2.json",
+  "original_capture_time": "2026-10-13T14:07:19+08:00",
+  "discovery_url": "https://jjglb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-6081a6077fa8",
+    "name": "继续教育管理办公室 / 项目公示",
+    "base_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:37+08:00",
+  "details": [
+    {
+      "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+      "list_title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+      "list_date": "2026-07-08",
+      "response": {
+        "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+        "time": "2026-10-15T22:09:54+08:00",
+        "ok": true,
+        "final_url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "86e1b62ef3fd820cbd8b4c8984e8715a517a9d1861de2bcedf7c04c2f83c34c4",
+        "html_path": "html/86e1b62ef3fd820cbd8b4c8984e8715a517a9d1861de2bcedf7c04c2f83c34c4.html",
+        "replacement_chars": 0,
+        "chars": 18811,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+        "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+        "publish_date": "2026-07-08",
+        "publisher": null,
+        "content": "按照工作要求，现将吉林大学 2025年下半年及2026年上半年非学历教育面向社会招生项目予以公示。公示项目共计 44 个 ， 具体信息详见附件。 继续教育管理办公室 202 6 年 7月 8 日",
+        "attachments": [
+          {
+            "filename": "2025年下半年非学历教育社招项目公示表.xls",
+            "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+            "type": "xls"
+          },
+          {
+            "filename": "2026年上半年非学历教育社招项目公示表.xls",
+            "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176972",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "作者： 发布时间：2026-07-08 浏览次数：",
+            "date": "2026-07-08"
+          },
+          {
+            "text": "发布时间：2026-07-08",
+            "date": "2026-07-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 97,
+        "reference_attachment_urls": [
+          "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+          "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176972"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示 作者： 发布时间：2026-07-08 浏览次数：",
+            "date": "2026-07-08"
+          },
+          {
+            "text": "作者： 发布时间：2026-07-08 浏览次数：",
+            "date": "2026-07-08"
+          },
+          {
+            "text": "发布时间：2026-07-08",
+            "date": "2026-07-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+        "time": "2026-10-15T22:09:51+08:00",
+        "ok": true,
+        "final_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9",
+        "html_path": "html/45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9.html",
+        "replacement_chars": 0,
+        "chars": 15667,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jjglb.jlu.edu.cn/info/1035/1186.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "time": "2026-10-15T22:09:51+08:00",
+    "ok": true,
+    "final_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9",
+    "html_path": "html/45d389cf8c42c320ea6914ecb525e6b15db1abd76807859376c178538c1e28b9.html",
+    "replacement_chars": 0,
+    "chars": 15667,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年下半年及2026年上半年非学历教育面向社会招生项目公示",
+      "url": "https://jjglb.jlu.edu.cn/info/1035/1186.htm",
+      "publish_date": "2026-07-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-6081a6077fa8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.1100084520876408e-05,
+      "detail_duration_seconds": 1.8998980522155762e-06,
+      "parse_db_duration_seconds": 0.017603600048460066
+    },
+    "second_round": {
+      "source": "p3-6081a6077fa8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.179997343569994e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-6081a6077fa8",
+    "institution": "继续教育管理办公室",
+    "column": "项目公示",
+    "url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:09:51+08:00",
+    "review_time": "2026-10-15T23:00:37+08:00",
+    "http_status": 200,
+    "final_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 1,
+    "issues": [],
+    "discovery_url": "https://jjglb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-6081a6077fa8.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

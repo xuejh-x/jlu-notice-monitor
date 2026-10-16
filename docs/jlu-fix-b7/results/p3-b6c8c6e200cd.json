@@ -1,0 +1,882 @@
+{
+  "id": "p3-b6c8c6e200cd",
+  "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+  "institution": "理论化学研究所",
+  "column": "通知公告",
+  "site_url": "http://itc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/b6c8c6e200cd29c8.json",
+  "original_capture_time": "2026-10-13T13:47:43+08:00",
+  "discovery_url": "http://itc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-b6c8c6e200cd",
+    "name": "理论化学研究所 / 通知公告",
+    "base_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:10+08:00",
+  "details": [
+    {
+      "url": "http://itc.jlu.edu.cn/info/1032/2563.htm",
+      "list_title": "关于表彰2025年度优秀党员、考核优秀人员和先进工作者的通知 2026/04/09",
+      "list_date": "",
+      "response": {
+        "url": "http://itc.jlu.edu.cn/info/1032/2563.htm",
+        "time": "2026-10-15T22:15:23+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/info/1032/2563.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "20580cbc3ee864eabeef21fd746536f9bc96a2744af2a8be224b0f0113448f44",
+        "html_path": "html/20580cbc3ee864eabeef21fd746536f9bc96a2744af2a8be224b0f0113448f44.html",
+        "replacement_chars": 0,
+        "chars": 12544,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于表彰2025年度优秀党员、考核优秀人员和先进工作者的通知",
+        "url": "http://itc.jlu.edu.cn/info/1032/2563.htm",
+        "publish_date": "2026-04-09",
+        "publisher": "的通知-吉林大学理论化学研究所",
+        "content": "理论化学研究所对2025年度优秀党员、先进工作者和考核优秀人员进行表彰，名单如下（姓氏拼音为序）： 优秀党员 ：刘慧玲、陆通、苏忠民、王春宇、王嵩、赵环宇、赵晓杰、赵增霞 考核优秀 ：白福全、郭建华、刘靖尧、陆通、吕中元、裘令瑛、孙小丽、魏臻、张继龙、周中军、朱有亮 先进工作者 ：李辉、李文、钱虎军、曲泽星、任爱民、荣红、王钦、徐抒平、张浩、邹陆一 理论化学研究所 2026年4月9日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-04-09",
+            "date": "2026-04-09"
+          },
+          {
+            "text": "发布日期：2026-04-09",
+            "date": "2026-04-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 193,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-04-09",
+            "date": "2026-04-09"
+          },
+          {
+            "text": "发布日期：2026-04-09",
+            "date": "2026-04-09"
+          }
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "biaoti"
+            ],
+            "text": "关于表彰2025年度优秀党员、考核优秀人员和先进工作者的通知"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://itc.jlu.edu.cn/info/1032/2557.htm",
+      "list_title": "吉林大学化学学院唐敖庆研究所诚邀全球英才——携手并肩，共筑辉煌 2026/04/08",
+      "list_date": "",
+      "response": {
+        "url": "http://itc.jlu.edu.cn/info/1032/2557.htm",
+        "time": "2026-10-15T22:15:24+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/info/1032/2557.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6ce3dcc4de7d7b2519ff7cacc8e8f316db653ac09d9eee12f28f6225a4d01a84",
+        "html_path": "html/6ce3dcc4de7d7b2519ff7cacc8e8f316db653ac09d9eee12f28f6225a4d01a84.html",
+        "replacement_chars": 0,
+        "chars": 23800,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学化学学院唐敖庆研究所诚邀全球英才——携手并肩，共筑辉煌",
+        "url": "http://itc.jlu.edu.cn/info/1032/2557.htm",
+        "publish_date": "2026-04-08",
+        "publisher": "的通知",
+        "content": "为深入实施“人才强校”战略，加快建设世界一流化学学科，吉林大学 唐敖庆研究所（以下简称唐敖庆所） 现面向全球诚邀杰出青年学者依托我 所 申报 2026年度优秀青年科学基金项目（海外），共赴科研前沿，共创学术辉煌！ 一、项目介绍 优秀青年科学基金项目（海外）旨在吸引和鼓励在自然科学、工程技术等方面已取得较好成绩的海外优秀青年学者（含非华裔外籍人才）回国（来华）工作，自主选择研究方向开展创新性研究，促进青年科学技术人才的快速成长，培养一批有望进入世界科技前沿的优秀学术骨干，为科技强国建设贡献力量。 二、申报条件 1．优秀青年科学基金项目（海外）的申请人应当具备以下条件： （ 1）遵守中华人民共和国法律法规，具有良好的科学道德，自觉践行新时代科学家精神； （ 2）出生日期在1986年1月1日（含）以后； （ 3）具有博士学位； （ 4）研究方向主要为自然科学、工程技术等； （ 5）在取得博士学位后至2026年6月15日前，一般应在海外知名高校、科研机构、企业研发机构等获得正式教学或者科研职位，且具有连续36个月以上工作经历；在海外取得博士学位且业绩特别突出的，可适当放宽工作年限要求（不适用于通过中外联合培养方式取得海外博士学位的情况）；在海外工作期间，同时拥有境内带薪酬职位的申请人，其境内带薪酬职位的工作年限不计入海外工作年限； （ 6）取得同行专家认可的科研或技术等成果，且具有成为该领域学术带头人或杰出人才的发展潜力； （ 7）申请人尚未回国（来华），或者2025年1月1日以后回国（来华）工作。获资助通知后须辞去海外工作并全职回国（来华）工作不少于3年。 2．限项要求 执行国家科技人才计划统筹衔接的相关要求。同层次国家科技人才计划只能承担一项，同一申报年度一人只能申请一项，不能逆层次申请。 三、支持保障 1．高起点岗位发展 （ 1） 唐敖庆所 拥有完备的科研平台、高水平的师资队伍与深厚的学术积淀，长期聚焦国际科学前沿 基础 与国家战略需求，致力于建设世界一流的研究与人才培养高地。 （ 2）入选聘至吉林大学“唐敖庆学者”领军教授A岗（在编正高级职称、教授、博导）； （ 3）进入会评阶段未入选者，将纳入吉林大学“唐敖庆学者”人才体系（在编正高级职称、教授），并提供具有竞争力的薪酬待遇。 2．高标准待遇水平 （ 1）提供具有竞争力的薪酬，同时享受学校科研成果业绩津贴与中层单位业绩津贴政策。在首聘期第一年，额外提供保障性绩效； （ 2）享受国家、学校提供的安家补贴，同时可申请吉林省人才政策3.0版C类人才安家补贴。 3．高规格科研支持 （ 1）依据学科研究的实际需求，提供具有竞争力的科研启动经费； （ 2）保障博士研究生招生指标； （ 3）优先保障办公和实验用房，满足不同学科方向发展需求； （ 4）学校“鼎新学者”（高水平博士后）招募给予政策倾斜。 4．高质量服务保障 （ 1）提供可拎包入住、交通便利周转住房； （ 2）根据实际情况，协助解决配偶工作； （ 3）提供优质教育资源，吉林大学附属幼儿园、中小学； （ 4）本人及其子女、配偶和双方父母可享受指定医院预约门诊和住院“绿色通道”诊疗服务； （ 5）本人及两名随行人员可享受省内重点旅游景区免门票服务； （ 6）本人及两名随行人员可在长春龙嘉机场、长春火车站享受“绿色通道”贵宾服务。 5．高层次人才领航 达成申报意向后，将按照申报人意愿或研究方向匹配相关领域专家进行申报指导，全链条精准服务，全方位支持保障。 四、申报方式 请有意向依托我 所 申报该项目的青年学者，将简历发送至联系邮箱，邮件主题请以 “姓名-研究方向”命名。 具有代表性科研成果并取得国内外同行认可的优秀学者，如年龄等不符合海外优青项目申报条件，也可以和我们联系申报其他国家级人才项目及申请 化学学科相关 岗位。 五、联系方式 联系人： 白福全 邮箱： baifq @jlu.edu.cn 我们热切期待与您相约北国春城， 共同发展！！！ 吉林大学 唐敖庆研究所 2026年4月",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-04-08",
+            "date": "2026-04-08"
+          },
+          {
+            "text": "发布日期：2026-04-08",
+            "date": "2026-04-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1667,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-04-08",
+            "date": "2026-04-08"
+          },
+          {
+            "text": "发布日期：2026-04-08",
+            "date": "2026-04-08"
+          }
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "biaoti"
+            ],
+            "text": "吉林大学化学学院唐敖庆研究所诚邀全球英才——携手并肩，共筑辉煌"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+      "list_title": "吉大化学70年院庆系列活动——科学与未来系列讲座：分子间振转碰... 2022/08/30",
+      "list_date": "",
+      "response": {
+        "url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+        "time": "2026-10-15T22:15:25+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "674a139ba1013cfa89f7811db1bd67b548cae4d8cf4cbb3a2bbfb4d054b5fd20",
+        "html_path": "html/674a139ba1013cfa89f7811db1bd67b548cae4d8cf4cbb3a2bbfb4d054b5fd20.html",
+        "replacement_chars": 4,
+        "chars": 15252,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉大化学70年院庆系列活动——科学与未来系列讲座：分子间振转碰撞传能的量子动力学与冷分子化学",
+        "url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+        "publish_date": "2022-08-30",
+        "publisher": "的通知",
+        "content": "报告题目： 分子间振转碰撞传能的量子动力学与冷分子化学 报告人： 谢代前 南京大学特聘教授，国家杰出青年科学基金获得者 报告时间： 2022年9月3日15：00 报告地点： 吉林大学中心校区 无机-超分子楼二楼圆形报告厅 主办单位： 吉林大学化学学院 报告人简介： 谢代前，南京大学特聘教授，国家杰出青年科学基金获得者。博士生导师，国家自然科学基金重点项目和重大课题主持者。1983年6月在四川大学获理学学士学位，1988年12月在吉林大学获理学博士学位，师从唐敖庆教授。研究领域为理论与计算化学，在高精度分子势能面的构建及量子动力学研究方面取得较好进展，揭示了若干重要反应过程的微观动力学机制，已在包括 Science (3 篇,与实验合作)、 Nature (1 篇,与实验合作)、 PNAS (4篇) 、 J. Am. Chem. Soc. (5篇)、 Nature Comm. (4篇) 在内的国际学术期刊上发表论文350余篇。曾获中国化学会青年化学家奖（1998）、教育部高校青年教师奖（2002）。 报告摘要： 分子间碰撞传能是基本的化学过程之一，在大气化学、化学激光、星际化学和燃烧过程等重要领域都有广泛的应用。本报告将介绍分子反应动力学的若干基本概念及进展。本课题组新近发展了高效的包含近邻耦合的非含时传能动力学新方法，获得了HF化学激光器中重要的H2–HF和HF–HF传能过程的速率常数等态-态动力学性质，并与统计量子模型结合研究了超冷分子反应KRb+KRb等体系的量子动力学，揭示了新的微观动力学机制。 http://itc.jlu.edu.cn/__local/E/B8/F9/6BEB969F5AB2009C2EC23DE1A10_FFE582D1_3FF1CA.jpg?e=.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-08-30",
+            "date": "2022-08-30"
+          },
+          {
+            "text": "发布日期：2022-08-30",
+            "date": "2022-08-30"
+          }
+        ],
+        "issues": [
+          "ENCODING_REPLACEMENT_IN_SOURCE"
+        ],
+        "body_reference_chars": 661,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-08-30",
+            "date": "2022-08-30"
+          },
+          {
+            "text": "发布日期：2022-08-30",
+            "date": "2022-08-30"
+          }
+        ],
+        "source_replacement_characters": 4,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "biaoti"
+            ],
+            "text": "吉大化学70年院庆系列活动——科学与未来系列讲座：分子间振转碰撞传能的量子动力学与冷分子化学"
+          }
+        ]
+      },
+      "verified": false
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+        "time": "2026-10-15T22:15:20+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "747c423f6c79fa509a77256ad65b27ccfc883983d11b7988bc3b494ced74c0aa",
+        "html_path": "html/747c423f6c79fa509a77256ad65b27ccfc883983d11b7988bc3b494ced74c0aa.html",
+        "replacement_chars": 0,
+        "chars": 18519,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://itc.jlu.edu.cn/info/1032/2143.htm",
+        "http://itc.jlu.edu.cn/info/1032/2224.htm",
+        "http://itc.jlu.edu.cn/info/1032/2313.htm",
+        "http://itc.jlu.edu.cn/info/1032/2323.htm",
+        "http://itc.jlu.edu.cn/info/1032/2335.htm",
+        "http://itc.jlu.edu.cn/info/1032/2353.htm",
+        "http://itc.jlu.edu.cn/info/1032/2468.htm",
+        "http://itc.jlu.edu.cn/info/1032/2557.htm",
+        "http://itc.jlu.edu.cn/info/1032/2563.htm",
+        "https://chem.jlu.edu.cn/info/1008/15570.htm"
+      ],
+      "observed_next_urls": [
+        "http://itc.jlu.edu.cn/dtxx/tzgg/8.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "http://itc.jlu.edu.cn/dtxx/tzgg/8.htm",
+        "time": "2026-10-15T22:15:22+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/dtxx/tzgg/8.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "308c2c16688e4fce0c7e596c31e1862127868501576935f93799376453a22948",
+        "html_path": "html/308c2c16688e4fce0c7e596c31e1862127868501576935f93799376453a22948.html",
+        "replacement_chars": 0,
+        "chars": 18884,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://itc.jlu.edu.cn/info/1032/1961.htm",
+        "http://itc.jlu.edu.cn/info/1032/2001.htm",
+        "http://itc.jlu.edu.cn/info/1032/2011.htm",
+        "http://itc.jlu.edu.cn/info/1032/2021.htm",
+        "http://itc.jlu.edu.cn/info/1032/2031.htm",
+        "http://itc.jlu.edu.cn/info/1032/2032.htm",
+        "http://itc.jlu.edu.cn/info/1032/2071.htm",
+        "http://itc.jlu.edu.cn/info/1032/2072.htm",
+        "http://itc.jlu.edu.cn/info/1032/2093.htm",
+        "http://itc.jlu.edu.cn/info/1032/2103.htm"
+      ],
+      "observed_next_urls": [
+        "http://itc.jlu.edu.cn/dtxx/tzgg/7.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "time": "2026-10-15T22:15:20+08:00",
+    "ok": true,
+    "final_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "747c423f6c79fa509a77256ad65b27ccfc883983d11b7988bc3b494ced74c0aa",
+    "html_path": "html/747c423f6c79fa509a77256ad65b27ccfc883983d11b7988bc3b494ced74c0aa.html",
+    "replacement_chars": 0,
+    "chars": 18519,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2025年度优秀党员、考核优秀人员和先进工作者的通知 2026/04/09",
+      "url": "http://itc.jlu.edu.cn/info/1032/2563.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学化学学院唐敖庆研究所诚邀全球英才——携手并肩，共筑辉煌 2026/04/08",
+      "url": "http://itc.jlu.edu.cn/info/1032/2557.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2024年度优秀党员、考核优秀人员和先进工作者的通知 2025/04/03",
+      "url": "http://itc.jlu.edu.cn/info/1032/2468.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国化学会第十五届全国理论与计算化学会议（第三轮通知） 2024/07/26",
+      "url": "https://chem.jlu.edu.cn/info/1008/15570.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "第八届亚洲分子光谱研讨会 2024/07/10",
+      "url": "http://itc.jlu.edu.cn/info/1032/2353.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国化学会第十五届全国理论与计算化学会议（第二轮通知） 2024/06/13",
+      "url": "http://itc.jlu.edu.cn/info/1032/2335.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "会议通知|中国化学会第十五届全国理论与计算化学会议（ 第一轮） 2024/04/16",
+      "url": "http://itc.jlu.edu.cn/info/1032/2323.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2023年度优秀党员、考核优秀人员和先进工作者的通知 2024/02/21",
+      "url": "http://itc.jlu.edu.cn/info/1032/2313.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2022年度优秀党员、考核优秀人员和先进工作者的通知 2023/06/29",
+      "url": "http://itc.jlu.edu.cn/info/1032/2224.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国际系列学术活动 2022/11/15",
+      "url": "http://itc.jlu.edu.cn/info/1032/2143.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉大化学70年院庆系列活动——科学与未来系列讲座：分子间振转碰... 2022/08/30",
+      "url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2021年度优秀党员、考核优秀人员和先进工作者的通知 2022/07/01",
+      "url": "http://itc.jlu.edu.cn/info/1032/2093.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于拟推荐我单位2019级研究生报考2022年青海省定向选调生的相关... 2021/12/02",
+      "url": "http://itc.jlu.edu.cn/info/1032/2072.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "理化所2020－2021学年研究生评奖评优结果公示 2021/10/31",
+      "url": "http://itc.jlu.edu.cn/info/1032/2071.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2021年下半年（12月）毕业博士研究生学位论文预答辩的通知 2021/08/30",
+      "url": "http://itc.jlu.edu.cn/info/1032/2032.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2021年下半年（12月）博士、硕士学位论文答辩工作安排通知 2021/08/30",
+      "url": "http://itc.jlu.edu.cn/info/1032/2031.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于评选2021年度宝钢优秀学生奖（研究生）的通知 2021/08/27",
+      "url": "http://itc.jlu.edu.cn/info/1032/2021.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "理化所第三十五届研究生“精英杯”学术成果大奖赛—研究生科研之... 2021/06/15",
+      "url": "http://itc.jlu.edu.cn/info/1032/2011.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "&nbsp2021年上半年申请答辩博士研究生学术成果更新公示 2021/05/31",
+      "url": "http://itc.jlu.edu.cn/info/1032/2001.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "理论化学研究所学术学位硕士“双盲”评审名单 2021/03/31",
+      "url": "http://itc.jlu.edu.cn/info/1032/1961.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "http://itc.jlu.edu.cn/dtxx/tzgg/8.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [
+    "https://chem.jlu.edu.cn/info/1008/15570.htm"
+  ],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-b6c8c6e200cd",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6400008462369442e-05,
+      "detail_duration_seconds": 7.6000578701496124e-06,
+      "parse_db_duration_seconds": 0.03358329995535314
+    },
+    "second_round": {
+      "source": "p3-b6c8c6e200cd",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6000005416572094e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-b6c8c6e200cd",
+    "institution": "理论化学研究所",
+    "column": "通知公告",
+    "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "ENCODING_REPLACEMENT_IN_SOURCE",
+    "capture_time": "2026-10-15T22:15:20+08:00",
+    "review_time": "2026-10-15T23:01:10+08:00",
+    "http_status": 200,
+    "final_url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 2,
+    "issues": [
+      "ENCODING_REPLACEMENT_IN_SOURCE"
+    ],
+    "discovery_url": "http://itc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-b6c8c6e200cd.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,771 @@
+{
+  "id": "p3-43c4bdb1d4ae",
+  "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+  "institution": "医院管理处",
+  "column": "通知公告",
+  "site_url": "https://ywc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/43c4bdb1d4ae8dba.json",
+  "original_capture_time": "2026-10-13T13:38:38+08:00",
+  "discovery_url": "https://ywc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-43c4bdb1d4ae",
+    "name": "医院管理处 / 通知公告",
+    "base_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:42+08:00",
+  "details": [
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+      "list_title": "中国医师协会关于印发住培内容与标准、基地标准（2022年版）的通知",
+      "list_date": "2022-09-13",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+        "time": "2026-10-15T22:10:42+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "76962508982deb8e5619ca528d29f6834722a781bc7449c2c28015f0195ea29b",
+        "html_path": "html/76962508982deb8e5619ca528d29f6834722a781bc7449c2c28015f0195ea29b.html",
+        "replacement_chars": 0,
+        "chars": 10094,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "中国医师协会关于印发住培内容与标准、基地标准（2022年版）的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+        "publish_date": "2022-09-13",
+        "publisher": null,
+        "content": "各住院医师规范化培训基地： 为巩固完善住院医师规范化培训制度，进一步提升培训质量，我会在总结实践经验的基础上，组织专家对《住院医师规范化培训内容与标准(试行)》和《住院医师规范化培训基地认定标准(试行)》进行修订，形成《住院医师规范化培训内容与标准(2022年版)》《住院医师规范化培训基地标准(2022年版)》。经国家卫生健康委同意，现印发给你们(预防医学科专业培训内容与标准和基地标准另行发布)，自2022年9月1日起执行。 联系人：中国医师协会住培考核评估部 薛婧婧、李鸣莉 联系电话：010—63310822、63312826 附件：1.住院医师规范化培训内容与标准(2022年版) 2.住院医师规范化培训基地标准(2022年版) 中国医师协会 2022年8月5日",
+        "attachments": [
+          {
+            "filename": "2022年版住院医师规范化培训基地标准.pdf",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11452732",
+            "type": "pdf"
+          },
+          {
+            "filename": "2022年版住院医师规范化培训内容与标准.pdf",
+            "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11452731",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "中国医师协会关于印发住培内容与标准、基地标准（2022年版）的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2022-09-13",
+            "date": "2022-09-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 336,
+        "reference_attachment_urls": [
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11452731",
+          "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11452732"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "中国医师协会关于印发住培内容与标准、基地标准（2022年版）的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2022-09-13",
+            "date": "2022-09-13"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1048/1864.htm",
+      "list_title": "关于2022年住院医师规范化/助理全科医生 培训结业考核有关事宜的通知",
+      "list_date": "2022-06-28",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1048/1864.htm",
+        "time": "2026-10-15T22:10:43+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1048/1864.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3cb8d034ae348d6b7df454441cdc7afefb3454cbbe5f84ecd9cc715224455252",
+        "html_path": "html/3cb8d034ae348d6b7df454441cdc7afefb3454cbbe5f84ecd9cc715224455252.html",
+        "replacement_chars": 0,
+        "chars": 39264,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于2022年住院医师规范化/助理全科医生 培训结业考核有关事宜的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1048/1864.htm",
+        "publish_date": "2022-06-28",
+        "publisher": null,
+        "content": "各住院医师规范化培训 基地 /助理全科医生培训基地 ， 省住院医师规范化培训指导中心： 按照国家 卫生健康委统一部署 要求， 我省拟于近期组织开展 2022年住院医师规范化培训/助理全科医生培训结业考核。 现将 有关 事宜通知如下： 一 、考核时间 和地点 专业理论 考核时间 为 2022 年 7 月 19 日 ， 考核地点以准考证为准。 临床技能考核 时间为 2022年 7 月 20 日 -22日 ，考核地点以吉林省毕业后医学教育平台公布信息为准。（不涉及助理全科医生培训对象） 平台网址： https ://gme.mvwchina.com/jl 二、 考核对象 前期已报名并审核通过的我省培训考核对象，及确因疫情无法返回原培训基地需在吉林省借考的外省培训考核对象。（此类人员由该省卫健委提供名单） 三、考核内容和方式 （一）专业理论考核采取人机对话模式，各专业理论考核 大纲可在中国卫生人才网（ https://www.21wecan.com）下载。 （二）临床实践能力考核采取 OSCE考核方式，各专业技能考核大纲可在中国卫生人才网（https://www.21wecan.com）下载。其中内科、儿科、精神科、全科、妇产科、儿外科、放射科、超声医学科、麻醉科9个专业采用2022年版考核标准。 四、准考证打印 考生通过姓名和证件编号于 2022年7月13日起登录中国卫生人才网打印专业理论考核准考证。 专业理论结业考核准考证作为参加临床实践能力结业考核凭证。补考临床实践能力结业考核的考生凭本人身份证参加考核，承担实践能力结业考核基地根据省住培指导中心提供的考生名单现场核对身份。 五、成绩查询 （一）专业理论考核成绩：考生可凭本人准考证号和证件编号在中国卫生人才网进行成绩网上查询，具体事宜可关注中国卫生人才网。 （二） 临床实践能力考核成绩 ： 省 卫生健康委 将在专业理论考核成绩公布后，在吉林 省住培管理平台 同步公布临床实践能力考核成绩。 以上 两项考核均合格者，给予颁发住院医师规范化培训合格证书，具体事宜另行通知。未通过其中 任一项者， 可就 未通过 科 目 次年 再次申请结业考核， 已通过科目 成绩三年内有效 （含第一次 参加考核当年 ） 。 六 、有关要求 （一）各培训基地 要高度重视，在做好疫情防控工作下完成本次结业考核任务。住培管理部门和研究生管理部门要及时通知 考生 按照要求 参加考核。 承担 临床实践能力 结业考核的培训基地要制定考核方案，并于 7月15日前报送省住培指导中心备案。（方案模板见附件） （二）所有考核对象务必登录 吉林省毕业后医学教育平台，详细阅读《 吉林省 2022年度住院医师规范化培训结业考核疫情防控须知 》，做好备考准备。如在备考期间疫情防控工作要求出现变化，按照变化后的相关政策执行。 （三） 因怀孕 、肢体损伤等原因 不能进行心肺复苏实践操作的考生 ， 需由培训基地统一出具纸质证明并填写《 20 22 年 住培 结业考核 未进行 心肺复苏实践操作 考核对象 汇总表》， 并 提交相应医疗诊断书， 于 7 月 25 日 前 由培训基地 报送省住培 指导 中心 。 （四） 各结业考核基地在临床实践能力考核结束后， 于 7 月 29 日 前 将考核成绩统一报送省住培指导中心 。 （五） 联系方式 。 联系人：省卫生 健康 委 科教处 王 妮 0431- 8890 6200 省住培指导中心 刘 冬 0431- 85619676 地 址： 吉林大学白求恩医学部办公楼。 （ 新民大街 828号 ） 附件： 1. 临床实践能力考核备案材料模板 2. 2022 年 住培 结业考核 加试未进行 心肺复苏 实践操作 考核对象 汇总表 吉林省卫生健康委员会 2022 年 6 月 28 日 （信息公开形式： 主动 公开 ） 附件 1 临床实践能力考核备案材料模板 一、考核管理方案相关材料 （一）考核具体时间、内容安排。 （二） 考核实施组织管理负责人、管理人员体系、工作流程。 二、考务工作相关材料 （一）考核场地及设施配备情况。（含安保设施） （二）考官培训方案、培训细则。 （三）考务实施细则。 （四）疫情防控应急预案。 附件 2 20 22 年 住培 结业考核 加试未进行 心肺复苏实践操作 考核对象 汇总表 培训基地： 序号 培训专业 姓名 身份证号 联系方式 原因",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于2022年住院医师规范化/助理全科医生 培训结业考核有关事宜的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2022-06-28",
+            "date": "2022-06-28"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1820,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于2022年住院医师规范化/助理全科医生 培训结业考核有关事宜的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2022-06-28",
+            "date": "2022-06-28"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+      "list_title": "关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知",
+      "list_date": "2017-11-17",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+        "time": "2026-10-15T22:10:45+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2fa5087d46ffe27c60cb803594e683e33c75f70e9bd498f5225d535250813156",
+        "html_path": "html/2fa5087d46ffe27c60cb803594e683e33c75f70e9bd498f5225d535250813156.html",
+        "replacement_chars": 42,
+        "chars": 8132,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+        "publish_date": "2017-11-17",
+        "publisher": null,
+        "content": "校医字〔2012〕14号 校内各医院： 为了进一步推进我校住院医师规范化培训工作，完善住院医师规范化培训制度，保证住院医师规范化培训工作的顺利进行，根据《吉林省住院医师规范化培训实施办法（试行）》和《吉林大学住院医师规范化培训工作管理办法（试行）》等有关文件，特制定《吉林大学住院医师规范化培训学员管理规定（试行）》，现印发给你们，请遵照执行。 二〇一二年十月十一日 http://ywc.jlu.edu.cn/admin/fujian/20130105 0156340.docx",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": false,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "issues": [
+          "ATTACHMENTS_NOT_INDEPENDENTLY_VERIFIED",
+          "ENCODING_REPLACEMENT_IN_SOURCE"
+        ],
+        "body_reference_chars": 240,
+        "reference_attachment_urls": [
+          "javascript:if(confirm(%27http://ywc.jlu.edu.cn/admin/fujian/20130105%200156340.docx \\n\\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ ����������δ�ҵ����ļ��� \\n\\n��Ҫ�ӷ������ϴ�����%27))window.location=%27http://ywc.jlu.edu.cn/admin/fujian/20130105%200156340.docx%27"
+        ],
+        "missing_attachment_urls": [
+          "javascript:if(confirm(%27http://ywc.jlu.edu.cn/admin/fujian/20130105%200156340.docx \\n\\n�ļ���δ�� Teleport Pro ȡ�أ���Ϊ ����������δ�ҵ����ļ��� \\n\\n��Ҫ�ӷ������ϴ�����%27))window.location=%27http://ywc.jlu.edu.cn/admin/fujian/20130105%200156340.docx%27"
+        ],
+        "additional_scoped_heading_evidence": [
+          "关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "source_replacement_characters": 42
+      },
+      "verified": false
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+        "time": "2026-10-15T22:10:40+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "abff14d17d953efe6290bbb8224b6002f0975a3610accd2adf0aa78f34cee4c4",
+        "html_path": "html/abff14d17d953efe6290bbb8224b6002f0975a3610accd2adf0aa78f34cee4c4.html",
+        "replacement_chars": 0,
+        "chars": 8863,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1048/1827.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1829.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1831.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1832.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1833.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1838.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1864.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/byhyxjy1/tzgg/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg/1.htm",
+        "time": "2026-10-15T22:10:41+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d974cde79242f8f94e659593a216c9addaf1aaa841ec142490f200643686f965",
+        "html_path": "html/d974cde79242f8f94e659593a216c9addaf1aaa841ec142490f200643686f965.html",
+        "replacement_chars": 0,
+        "chars": 8812,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1048/1826.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1830.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1834.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1835.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1836.htm",
+        "https://ywc.jlu.edu.cn/info/1048/1837.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "time": "2026-10-15T22:10:40+08:00",
+    "ok": true,
+    "final_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "abff14d17d953efe6290bbb8224b6002f0975a3610accd2adf0aa78f34cee4c4",
+    "html_path": "html/abff14d17d953efe6290bbb8224b6002f0975a3610accd2adf0aa78f34cee4c4.html",
+    "replacement_chars": 0,
+    "chars": 8863,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国医师协会关于印发住培内容与标准、基地标准（2022年版）的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1861.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2022年住院医师规范化/助理全科医生 培训结业考核有关事宜的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1864.htm",
+      "publish_date": "2022-06-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办吉林大学住院医师规范化培训带教师资培训会的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1829.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林省首届住院医师规范化培训高峰论坛征文的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1838.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林省2015年住院医师规范化培训招生工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1832.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强临床医学硕士专业学位研究生在住院医师规范化培训中过程管理的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1831.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织2014年度吉林大学初级卫生技术人员岗位培训考试工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1833.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于组织2014年度吉林大学初级卫生技术人员岗位培训考试工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1827.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学住院医师规范化培训考核管理规定（试行）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1837.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学住院医师规范化培训带教师资管理规定（试行）》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1834.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学住院医师规范化培训工作管理办法",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1835.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于进一步加强住院医师规范化培训管理的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1826.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2014年度吉林大学住院医师规范化培训优秀培训科室、优秀教师、优秀科室秘书、优秀学员评选工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1836.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发《关于开展吉林省2014年住院医师规范化培训招生工作的通知》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1048/1830.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 15,
+  "pagination": [
+    {
+      "start_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg/1.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-43c4bdb1d4ae",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7200014553964138e-05,
+      "detail_duration_seconds": 8.89983493834734e-06,
+      "parse_db_duration_seconds": 0.0321452000644058
+    },
+    "second_round": {
+      "source": "p3-43c4bdb1d4ae",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.780001912266016e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-43c4bdb1d4ae",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "ATTACHMENTS_NOT_INDEPENDENTLY_VERIFIED; ENCODING_REPLACEMENT_IN_SOURCE",
+    "capture_time": "2026-10-15T22:10:40+08:00",
+    "review_time": "2026-10-15T23:00:42+08:00",
+    "http_status": 200,
+    "final_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 15,
+    "details": 3,
+    "verified_details": 2,
+    "issues": [
+      "ATTACHMENTS_NOT_INDEPENDENTLY_VERIFIED",
+      "ENCODING_REPLACEMENT_IN_SOURCE"
+    ],
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-43c4bdb1d4ae.json",
+    "windows_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-15T22:23:57+08:00",
+  "files": {
+    "backend/scripts/review_jlu_b7.py": "f2a8232db8e01510b7ca67e2dc6dde1cfdc5a3fa6149226cad958df29b69db85",
+    "backend/scripts/validate_jlu_b6.py": "84674e46174c62a5b736084091b01bdae6ffb5956bf5bd39237af2ea1f2bcef4",
+    "backend/scripts/validate_jlu_b5_c.py": "440f448a4d2448bd2753d3358b474c82dd4c685c68636faced2f07f9017582c2",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "f8858dbbc6497696f4c9ed22fb7f4cfecaddfb17134631c5e71c09c1e04a37bf",
+    "backend/app/services/deduplication.py": "3aefc1d1868a95f506e2551669340bd88b4bcb07409e46b9ca4fa32cd10b42f4",
+    "backend/app/services/list_pagination.py": "2408a067ac8e95e281b30b1213b766f6f68f0ccfdaa2a3bd87e67f1f2b16cff8",
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "022f71893cc4177d88b35859bde4621387009edbe9d4c41e76ffaba42c79259d",
+    "input/validation-targets.json": "9834f1d23c67667da3467a3ab425d825f78844b0d9e268a03b96e2ef8a4d35d5",
+    "input/code-manifest.json": "fc74d9585b67a9773296f41a306185b87a5170a1cc021471d6133f6e7ae62cbb"
+  },
+  "offline": true,
+  "input_dir": "docs\\jlu-fix-b7\\supplement-20261015",
+  "limits": "<=2 pages/3 details; offline missing URLs fail closed; zero network, no production DB"
+}

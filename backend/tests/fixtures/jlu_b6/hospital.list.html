@@ -1,0 +1,116 @@
+<div id="datalist">
+<div class="list">
+<div class="li">
+<a href="/wujia_detail_g7yU_59/223318.html" target="_blank">
+<div class="p">吉林大学中日联谊医院关于对Zakir_Ullah入选吉林大学中日联谊医院陈芳芳教授团队项目博士后的公...</div>
+<div class="y">2026.09.29</div>
+</a>
+</div> <div class="li">
+<a href="/wujia_detail_g7yU_59/223317.html" target="_blank">
+<div class="p">吉林大学中日联谊医院关于对蓝天伟入选吉林大学中日联谊医院于倩教授团队项目博士后的公示</div>
+<div class="y">2026.09.29</div>
+</a>
+</div> <div class="li">
+<a href="/wujia_detail_g7yU_59/223316.html" target="_blank">
+<div class="p">吉林大学中日联谊医院关于对王培琳入选吉林大学中日联谊医院时景伟教授团队项目博士后的公示</div>
+<div class="y">2026.09.29</div>
+</a>
+</div> <div class="li">
+<a href="/wujia_detail_g7yU_59/221811.html" target="_blank">
+<div class="p">紧急公告：吉林大学中日联谊医院关于调整 2026 年专业技术系列招聘笔试时间的通知</div>
+<div class="y">2026.09.16</div>
+</a>
+</div> <div class="li">
+<a href="/wujia_detail_g7yU_59/221286.html" target="_blank">
+<div class="p">吉林大学中日联谊医院2026年专业技术系列招聘笔试的通知</div>
+<div class="y">2026.09.14</div>
+</a>
+</div> <div class="li">
+<a href="/wujia_detail_g7yU_59/219715.html" target="_blank">
+<div class="p">非编岗位人员招聘公告【26-8】</div>
+<div class="y">2026.09.10</div>
+</a>
+</div></div>
+<div class="paging-mod">
+<div class="paging-box">
+<a class="paging-item paging-link cur" href="javascript:void(0);">1</a>
+<a class="paging-item paging-link" href="/wujiaquery_g7yU_59/p/2.html" onclick="getPage($(this));return false;">2</a> <a class="paging-item paging-link" href="/wujiaquery_g7yU_59/p/3.html" onclick="getPage($(this));return false;">3</a> <a class="paging-item paging-link" href="/wujiaquery_g7yU_59/p/4.html" onclick="getPage($(this));return false;">4</a> <a class="paging-item paging-link" href="/wujiaquery_g7yU_59/p/5.html" onclick="getPage($(this));return false;">5</a> <span class="paging-item paging-dot">…</span>
+<a class="paging-item paging-arrow xfont xicon-right" href="/wujiaquery_g7yU_59/p/2.html" onclick="getPage($(this));return false;"></a> <div class="paging-item paging-jump">
+<div class="paging-table">
+<div class="paging-cell">
+<input class="paging-input" id="text_se" onkeyup="this.value=this.value.replace(/[^\d]/g,'');" type="text"/>
+</div>
+<div class="paging-cell">
+<button class="paging-btn" data-max="24" id="btn_new" onclick="return false;" type="submit">GO</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="paging-more">
+<a href="javascript:void(0);" id="momo22">查看更多</a>
+</div>
+<script>
+    function getPage(obj){
+        var url = obj.attr('href');
+        if(url == 'javascript:void(0);'){
+            return false;
+        }
+        $.get(url,{},function(data){
+            $('#datalist').html(data);
+            $('html,body').animate({scrollTop:parseInt($('#datalist').offset().top-250)},500);
+        })
+    }
+</script>
+<script>
+    $(function(){
+        $('#btn_new').click(function(){
+            var text_se = $('#text_se').val();
+            if(text_se == ''){
+                my_alert('请输入页码');
+                return false;
+            }else{
+                getkey(text_se);
+                return false;
+            }
+        });
+        $('#text_se').keypress(function(e){
+            var keycode = e.keyCode ? e.keyCode : e.which ;
+            if(keycode == 13){
+                var text_se = $('#text_se').val();
+                if(text_se == ''){
+                    my_alert('请输入页码');
+                    return false;
+                }else{
+                    getkey(text_se);
+                    return false;
+                }
+            }
+        });
+    })
+
+    function sel(obj){
+        var text_se = obj.value;
+        getkey(text_se);
+    }
+    function getkey( p ){
+        if( p == '' ) {
+            return false;
+        }
+        var pagesize = $('#btn_new').attr('data-max');
+        var url = window.location.pathname;
+
+        if((p*1)<=(pagesize*1)) {
+            p = p;
+        }else{
+            p = pagesize;
+        }
+        $.get(url,{p:p},function(data){
+            $('#datalist').html(data);
+            $("html,body").animate({
+                scrollTop: $("#datalist").offset().top-250
+            },200);
+        });
+    }
+</script>
+</div>

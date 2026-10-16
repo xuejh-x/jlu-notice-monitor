@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-15T20:10:55+08:00",
+  "files": {
+    "backend/scripts/validate_jlu_b6.py": "6b94bdb2652d9db1adf450626341549ef8e0ae2bbeaaf6a0e3e2023b499cff1b",
+    "backend/scripts/validate_jlu_b5_c.py": "440f448a4d2448bd2753d3358b474c82dd4c685c68636faced2f07f9017582c2",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "2f6c15611b99bffb5a036beb72eb5644d27740976bb64338794ef293a58ffdb1",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/app/services/list_pagination.py": "2408a067ac8e95e281b30b1213b766f6f68f0ccfdaa2a3bd87e67f1f2b16cff8",
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/services/deduplication.py": "3aefc1d1868a95f506e2551669340bd88b4bcb07409e46b9ca4fa32cd10b42f4",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b6/targets.json": "47ff8363c9eb36bf6ed314b28b6583ed76fe091dd67edbd488d5e200649d1a1a",
+    "input/requests.json": "95ff28aa2a43997cbd065beec8e8f943c91209cbf14a495aec4348c323a59cee",
+    "input/code-manifest.json": "280afbae8873c17388cfb16453bca784e4e33392529da422eee01283f23ea994"
+  },
+  "offline": true,
+  "input_dir": "docs\\jlu-fix-b6\\followup-jsp-20261015",
+  "limits": "164 entries, <=2 pages and <=3 details each; serial robots/rate limits; no attachments downloaded",
+  "database": "application engine connections forbidden; independent sample replay uses sqlite://"
+}

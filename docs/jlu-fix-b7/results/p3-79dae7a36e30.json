@@ -1,0 +1,295 @@
+{
+  "id": "p3-79dae7a36e30",
+  "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+  "institution": "国际合作与交流处",
+  "column": "相关公示",
+  "site_url": "https://oic.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+  "original_evidence": "docs/jlu-audit-evidence/results/79dae7a36e3058b0.json",
+  "original_capture_time": "2026-10-13T14:07:56+08:00",
+  "discovery_url": "https://oic.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-79dae7a36e30",
+    "name": "国际合作与交流处 / 相关公示",
+    "base_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:26+08:00",
+  "details": [
+    {
+      "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+      "list_title": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告",
+      "list_date": "2026-01-19",
+      "response": {
+        "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+        "time": "2026-10-15T22:07:58+08:00",
+        "ok": true,
+        "final_url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "eaa68202caa45ba20872f3ba85a2eef84983bd9275096a7768f8c4db48671769",
+        "html_path": "html/eaa68202caa45ba20872f3ba85a2eef84983bd9275096a7768f8c4db48671769.html",
+        "replacement_chars": 0,
+        "chars": 18139,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告",
+        "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+        "publish_date": "2026-01-19",
+        "publisher": null,
+        "content": "一、办学基本情况 吉林大学（简称：吉大）是国家“211工程”、“985工程”和首批“双一流”大学建设高校。吉大物理学科2017年首批入选“双一流”建设学科，2022年再次入选。俄罗斯托姆斯克理工大学（简称：托理工）位列俄国内大学排行榜TOP10，2009年被确立为国家级研究型大学，2013年被首批列入俄罗斯“5-100计划”重点建设高校，2021年入选俄罗斯“优先-2030”计划。托理工物理学科位列俄国内学科排行榜TOP10，拥有俄罗斯高校唯一的教学-科研用核反应堆，是俄“优先-2030”计划“未来能源”方向建设单位。 吉林大学与俄罗斯托姆斯克理工大学合作举办的物理学专业本科教育项目于2013年获批立项，批准书编号：MOE22RU2A20131493N。在项目框架下开设的吉林大学物理学（中外合作办学）专业，被列入国家普通高等教育招生计划，通过全国普通高等学校统一入学考试实施招生录取，学制四年。学生培养方案由两校共同制定，采用中俄双校园分段式3+1培养模式，其总体框架由中方制定，俄方参与确定核心课程和主要实践课程。学生在两校注册学籍，前3年在吉大学习，第4年在托理工学习并完成毕业论文及答辩。完成两阶段学业的学生，可获得吉大颁发的本科毕业证书、理学学士学位证书和托理工颁发的学士学位证书。 吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目是国内为数不多用俄语授课的物理学专业中俄合作办学项目，致力于培养既精通专业知识又熟练掌握俄语且具有国际化视野的高层次基础学科人才，服务国家重大战略需求。 2024年，毕业80人，招生60人，有4届238名在读学生。配备任课教师76人，其中中方32人、俄方44人。该项目参加了2023年度中外合作办学评估，评估结果为“合格”。项目延期变更获批准，招生起止年份2014年，2019年-2028年（每年1期）。 二、教育教学工作情况 吉林大学物理学（中外合作办学）专业学生培养方案由两校共同制定，设置人文社科，数学、物理、材料和俄语等方面的课程，严格落实思政课全覆盖、确保开足开齐思政课。教学计划中，共计课程53门、4146学时，其中吉大课程26门（49%）、1316学时（32%），引进课程18门（34%）、1958学时（47%），托理工课程9门（17%）、872学时（21%）。引进俄方课程和专业核心课程占全部课程和核心课程的三分之一以上，外方教师担负的专业核心课程门数和教学时数占全部课程和全部教学时数的三分之一以上，满足四个“三分之一”的要求。 双方共同组建了由76人组成的师资队伍，其中教授22人，副教授44人，讲师10人。吉大方面：公共课教师14人，专业课教师18人，从托理工引进教师9人；托理工方面：公共课教师1人，专业课教师25人，语言教师9人。以上教师中，90%以上的语言教师获得副博士学位，专业理论课教师具有副博士学位（或Ph.D.）和副教授以上职称，具有多年教学工作经验，是双方教学骨干教师。从第六学期起，托理工为学生配备毕业论文指导教师，学生着手文献阅读、定期与导师线上交流，为大四赴俄后进入导师课题组工作做准备。 我校坚持“学生中心、产出导向、持续改进、和谐共融”的质量理念，构建“学院、学校双循环”的质量保障体系。加强本科教学的自我监控和评价机制，保障教学质量，建立了由学院党委书记、院长、校级督学、院级督学、系主任和教师代表组成的督导队伍，以评查导改为主要手段，以学生和用人单位为评价指标的人才质量保障体系。俄方教学通过ISO9001:2015质量管理体系认证，曾两次荣获俄罗斯联邦政府质量奖（2006, 2016），其任课教师在教育教学过程中应遵守俄罗斯联邦国家教育标准和托姆斯克理工大学教育标准等，由校教学质量监管中心负责日常教学质量监督检查评价工作。 三、人才培养成效情况 学生培养过程中，借鉴俄方教学管理和学业考评办法，加强平时考查和课后作业管理、将学生课堂表现和平时作业计入期末成绩、夯实教学过程培养，将专业课程学习与实践应用相结合，注重培养学生解决实际问题能力和国际视野。教育教学过程中，语言课程采用小班教学，15-20人/班、16-20学时/周，主要由俄罗斯外教授课，着力提升学生的课堂参与度，从语法、听力、口语、阅读、写作等方面培养学生的俄语实践应用能力。大一、大二学年的通识教育课和学科基础课由吉大教师讲授，使学生筑牢理想信念根基、夯实基础知识。大三学年的专业课由俄方教师讲授，培养学生用俄语学习专业课的能力、适应俄罗斯教学方式。为保证教学效果，对引进俄方的部分专业课程采取俄方教师主讲，中方教师辅助的措施，中俄教师结成“1+1”授课对。 2023届和2024届共计178名毕业生中，有128人选择继续读研（博）深造，占比72%。其中：86人被免试推荐或考入北京航空航天大学、南开大学、天津大学、吉林大学、复旦大学、上海交通大学、华东师范大学、南京大学、浙江大学、中国科学技术大学、武汉大学、华中科技大学、中山大学、电子科技大学、西北工业大学、国防科技大学等国内“双一流”建设高校，以及中国科学院大学、中国科学院各研究所、中国原子能科学研究院、中国工程物理研究院等单位；42人赴国（境）外攻读学位，包括布朗大学、莱斯大学、伯明翰大学、苏黎世大学、悉尼大学、墨尔本大学、东京大学、新加坡国立大学、南洋理工大学、莫斯科国立大学、圣彼得堡彼得大帝理工大学、托姆斯克理工大学、香港理工大学、香港城市大学等知名高校。 选择就业同学的工作单位包括中国第一汽车集团有限公司、比亚迪股份有限公司、浪潮集团有限公司、东阿阿胶股份有限公司、国药集团北京华邈药业有限公司、江西铜业集团有限公司、南京户能电子科技有限公司、鹏芯微集成电路有限公司以及各地高级中学等等。 吉林大学 2025年12月31日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 2391,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "div",
+            "classes": [
+              "view-title"
+            ],
+            "text": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "发布时间：2026-01-19",
+            "date": "2026-01-19"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+        "time": "2026-10-15T22:07:55+08:00",
+        "ok": true,
+        "final_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444",
+        "html_path": "html/8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444.html",
+        "replacement_chars": 0,
+        "chars": 14348,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://oic.jlu.edu.cn/info/1623/10107.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "time": "2026-10-15T22:07:55+08:00",
+    "ok": true,
+    "final_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444",
+    "html_path": "html/8126aec8b669dfe8863871b75887e1bf73c0f23f02b0a518fd8d59efd62d7444.html",
+    "replacement_chars": 0,
+    "chars": 14348,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告",
+      "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+      "publish_date": "2026-01-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-79dae7a36e30",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.2399978004395962e-05,
+      "detail_duration_seconds": 2.100015990436077e-06,
+      "parse_db_duration_seconds": 0.016452800016850233
+    },
+    "second_round": {
+      "source": "p3-79dae7a36e30",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.4599994756281376e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-79dae7a36e30",
+    "institution": "国际合作与交流处",
+    "column": "相关公示",
+    "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:07:55+08:00",
+    "review_time": "2026-10-15T23:00:26+08:00",
+    "http_status": 200,
+    "final_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 1,
+    "issues": [],
+    "discovery_url": "https://oic.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-79dae7a36e30.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

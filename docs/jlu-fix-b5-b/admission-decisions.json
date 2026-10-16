@@ -1,0 +1,138 @@
+{
+  "time": "2026-10-14T22:59:44.672818+08:00",
+  "candidate_sources_only": [
+    {
+      "id": "yzb-notices",
+      "config": {
+        "code": "candidate-jlu-yzb-notices",
+        "name": "研究生招生 / 通知公告",
+        "base_url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    },
+    {
+      "id": "yzb-publicity",
+      "config": {
+        "code": "candidate-jlu-yzb-publicity",
+        "name": "研究生招生 / 录取公示",
+        "base_url": "https://yzb.jlu.edu.cn/index/lqgs.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    },
+    {
+      "id": "yzb-doctor-notices",
+      "config": {
+        "code": "candidate-jlu-yzb-doctor-notices",
+        "name": "研究生招生 / 招生公告",
+        "base_url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    },
+    {
+      "id": "yzb-doctor-publicity",
+      "config": {
+        "code": "candidate-jlu-yzb-doctor-publicity",
+        "name": "研究生招生 / 录取公示",
+        "base_url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    },
+    {
+      "id": "yzb-master-notices",
+      "config": {
+        "code": "candidate-jlu-yzb-master-notices",
+        "name": "研究生招生 / 招生公告",
+        "base_url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    },
+    {
+      "id": "yzb-master-publicity",
+      "config": {
+        "code": "candidate-jlu-yzb-master-publicity",
+        "name": "研究生招生 / 录取公示",
+        "base_url": "https://yzb.jlu.edu.cn/sszs/lqgs.htm",
+        "parser": "generic_html",
+        "enabled": false,
+        "auth_type": "none",
+        "allow_private_network": false,
+        "validation_scope": "local",
+        "execution_policy": "cloud_preferred",
+        "parser_config": {
+          "pagination_limit": 1
+        }
+      },
+      "enabled": false,
+      "admission": "DEFERRED_DATE_SEMANTICS_UNCONFIRMED",
+      "reason": "Bare list dates and detail update timestamps do not establish publication semantics; candidate remains disabled",
+      "date_evidence": "date-matrix.json",
+      "next_requirement": "Explicit official publication metadata or a separately reviewed missing-date policy; no automatic migration"
+    }
+  ],
+  "formal_admissions": 0
+}

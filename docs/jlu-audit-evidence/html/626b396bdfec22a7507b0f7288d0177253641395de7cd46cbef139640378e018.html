@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>附属学校管理办公室</title><META Name="keywords" Content="附属学校管理办公室" />
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><link rel="stylesheet" type="text/css" href="css/style.css"><script type="text/javascript" src="js/jquery.min.js"></script><script type="text/javascript" src="js/superslide.js"></script><script type="text/javascript">
+    $(function(){
+        var _this1=null;
+        $('.nav>ul>li').hover(function(){
+            _this1=$(this);
+            _this1.find('.second-nav').show();
+            var _this2=null;
+            _this1.find('.second-nav').find('li').hover(function(){
+                _this2=$(this);
+                _this2.find('.third-nav').show();
+                _this2.find('.third-nav').hover(function(){
+                    $(this).show();
+                },function(){
+                    $(this).hide();
+                });
+            },function(){
+                _this2.find('.third-nav').hide();
+            });
+        },function(){
+            _this1.find('.second-nav').hide();
+        });
+    });
+</script><script>  
+function displayDate(){
+var date = new Date();
+var year = date.getFullYear();
+var mouths = date.getMonth()+1;
+var day = date.getDate();
+var hours =  date.getHours();
+var minutes =  date.getMinutes();
+var seconds = date.getSeconds();
+var weekDay = new Array(7);
+weekDay[0] = "星期日";
+weekDay[1] = "星期一";
+weekDay[2] = "星期二";
+weekDay[3] = "星期三";
+weekDay[4] = "星期四"; 
+weekDay[5] = "星期五";
+weekDay[6] = "星期六";
+document.getElementById("demo").innerHTML="今天是："+year+"年"+mouths+"月"+day+"日"+hours+":"+minutes+":"+seconds+" "+weekDay[date.getDay()];
+var timeID = setTimeout(displayDate,1000);  
+}
+</script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323076684654525b574200010005445c -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1409265298)</script>
+</head>
+<body onload="displayDate()">
+<div id="header">
+<div class="top">
+<div class="w1200"><span id="demo">今天是</span>
+<script language="javascript">
+function dosuba197374a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa197374a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa197374a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea197374a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+ <A href="javascript:setHomepagea197374a()">设为首页</A> &nbsp; |  &nbsp; <A onclick="javascript:dosuba197374a();" href="#">加入收藏</A>
+
+
+
+
+
+
+
+
+<div class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm"><img src="images/logo2.png" /></a></div>
+<div class="search"><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode197372').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey197372").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey197372").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey197372").value = base64.encode(document.getElementById("lucenenewssearchkey197372").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode197372"));
+        return true;
+    } 
+</script>
+<form action="search.jsp?wbtreeid=1001" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()">
+<input type="hidden" id="lucenenewssearchkey197372" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype197372" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope197372" name="searchScope" value="0">
+
+<input name="showkeycode" id="showkeycode197372" type="text" placeholder="请输入关键词" /><input name="" type="submit" value="" />
+
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</div></div></div>
+<div class="nav">
+<ul><li><a href="index.htm" class="hover">网站首页<br><i>HOME</i></a> </li>
+
+<li><a href="bmgk.htm">部门概况<br><i>SURVEY</i></a></a>
+    <ul class="second-nav">
+    <li><a href="bmgk/bmjj.htm">部门简介</a></li>
+    <li><a href="bmgk/gzzz.htm">工作职责</a></li>
+    <li><a href="bmgk/gzzd.htm">规章制度</a></li>
+    <li><a href="bmgk/txml.htm">通讯名录</a></li>
+    </ul>
+</li>
+
+<li><a href="tzzx.htm">通知中心<br><i>NOTICE</i></a></a>
+    <ul class="second-nav">
+    <li><a href="tzzx/gztz.htm">工作通知</a></li>
+    <li><a href="tzzx/xwkx.htm">新闻快讯</a></li>
+    </ul>
+</li>
+
+<li><a href="aqgz.htm">安全工作<br><i>SAFETY</i></a></a>
+</li>
+
+<li><a href="xxgk.htm">信息公开<br><i>MESSAGE </i></a></a>
+</li>
+
+<li><a href="xxyj.htm">学习研究<br><i>STUDY</i></a></a>
+</li>
+
+<li><a href="sdsf/zdfg.htm">师德师风<br><i>TEACHING</i></a></a>
+    <ul class="second-nav">
+    <li><a href="sdsf/zdfg.htm">制度法规</a></li>
+    <li><a href="sdsf/byll.htm">榜样力量</a></li>
+    <li><a href="sdsf/jsjy.htm">警示教育</a></li>
+    </ul>
+</li>
+
+<li><a href="zyxz.htm">资源下载<br><i>DOWNLOAD</i></a></a>
+</li>
+
+<li><a href="fsdw.htm">附属单位<br><i>SUBSIDIARY UNIT</i></a></a>
+    <ul class="second-nav">
+    <li><a href="fsdw/fszxx.htm">附属中小学</a></li>
+    <li><a href="fsdw/fsyey.htm">附属幼儿园</a></li>
+    <li><a href="fsdw/hzxx.htm">合作学校</a></li>
+    <li><a href="fsdw/xzyzfc.htm">校长园长风采</a></li>
+    </ul>
+</li>
+<li class="we"><a href="fsxxdw.htm">附属学校党委<br><i>PARTY COMMITTEE</i></a>
+    <ul class="second-nav">
+    <li><a href="fsxxdw/zzjg.htm">组织机构</a></li>
+    <li><a href="fsxxdw/zdzc.htm">制度政策</a></li>
+    <li><a href="fsxxdw/tzgg.htm">通知公告</a></li>
+    <li><a href="fsxxdw/gzdt.htm">工作动态</a></li>
+    <li><a href="fsxxdw/lltj.htm">理论探究</a></li>
+    <li><a href="fsxxdw/lzjy.htm">廉政教育</a></li>
+    <li><a href="fsxxdw/qtgz.htm">群团工作</a></li>
+    </ul>
+</li>
+</ul></div></div>
+<div id="banner"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="fullSlide">
+    <div class="bd">
+        <ul>
+
+
+<li><a href="info/1051/1807.htm"><img src="/__local/F/64/55/6CE6F395D57A63A84679AE22CB7_38D101D7_AAEF9.png" width="1200" height="450" />
+            <div>
+            <h1>建设平安校园</h1>
+           
+            </div>
+            </a></li>
+
+   </ul>
+    </div>
+
+    <span class="prev"></span>
+    <span class="next"></span>
+</div><script>_showDynClickBatch(['dynclicks_u4_1807'],[1807],"wbnews", 1409265298)</script>
+<script type="text/javascript">
+    $(".fullSlide").hover(function(){
+        $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+    },
+    function(){
+        $(this).find(".prev,.next").fadeOut()
+    });
+    $(".fullSlide").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "fold",
+        autoPlay: true,
+        autoPage: true,
+        trigger: "click",
+        startFun: function(i) {
+            var curLi = jQuery(".fullSlide .bd li").eq(i);
+            if ( !! curLi.attr("_src")) {
+                curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+            }
+        }
+    });
+    </script>        
+<div class="sy_right_img">        </div></div>
+<div class="h20"></div>
+<div class="w1200">
+<div class="news">
+<div class="title"><a class="more" href="tzzx/xwkx.htm">+</a>新闻快讯</div>
+<div class="news_img">
+<ul class="hiSlider"><li data-title="附属学校党委召开巡视..." class="hiSlider-item"><img src="/__local/7/4E/83/DAEB14C3EEE0596F662F7834866_C0932B69_3B51FA.jpg" alt="附属学校党委召开巡视整改专题民主生活会"></li>
+<li data-title="赓续红色血脉 凝聚奋进..." class="hiSlider-item"><img src="/__local/4/9A/F8/DAE4436EFC03E3A1980354A62F5_900112B4_2E0F3.jpg" alt="赓续红色血脉 凝聚奋进力量——附属学校党委赴辉南开展党性教育培训"></li>
+<li data-title="附属学校党委召开党委..." class="hiSlider-item"><img src="/__local/8/89/F9/1149D36CEECA06E033A469778B8_A955420C_1962C9.jpg" alt="附属学校党委召开党委（扩大）会学习宣传贯彻习近平总书记致吉林大学建校80周年重要贺信精神"></li>
+<li data-title="中共吉林大学第十五届..." class="hiSlider-item"><img src="/__local/4/3C/0E/A70450F0C163BDB43CFE7F511F4_0C289DBF_4FEF3.jpg" alt="中共吉林大学第十五届委员会第五轮巡视第五巡视组向附属学校党委反馈巡视情况"></li>
+<li data-title="附属学校党委召开树立..." class="hiSlider-item"><img src="/__local/E/BA/01/36BBEDF496436C0FC932FC9F64C_6627C0D1_489E8.jpg" alt="附属学校党委召开树立和践行正确政绩观学习教育总结会议"></li>
+<script>_showDynClickBatch(['dynclicks_u7_3544','dynclicks_u7_3542','dynclicks_u7_3541','dynclicks_u7_3534','dynclicks_u7_3532'],[3544,3542,3541,3534,3532],"wbnews", 1409265298)</script>
+</ul><script src="js/jquery.hiSlider.min.js"></script><script>
+    $('.hiSlider').hiSlider();
+</script></div>
+<div class="one">
+<img src="/__local/7/4E/83/DAEB14C3EEE0596F662F7834866_C0932B69_3B51FA.jpg" />
+<a href="info/1016/3544.htm"><h1>附属学校党委召开巡视整改专题民主生活会</h1></a>
+<p>9月30日，附属学校党委召开巡视整改专题民主生活会。学校党委...</p>
+<script>_showDynClickBatch(['dynclicks_u8_3544'],[3544],"wbnews", 1409265298)</script>
+
+<ul class="news_ul">  <li><span>2026-10-09</span><a href="info/1016/3544.htm">附属学校党委召开巡视整改专题...</a></li>
+  <li><span>2026-09-22</span><a href="info/1016/3542.htm">赓续红色血脉 凝聚奋进力量——...</a></li>
+  <li><span>2026-09-21</span><a href="info/1016/3541.htm">附属学校党委召开党委（扩大）...</a></li>
+  <li><span>2026-09-16</span><a href="info/1016/3534.htm">中共吉林大学第十五届委员会第...</a></li>
+  <li><span>2026-09-08</span><a href="info/1016/3532.htm">附属学校党委召开树立和践行正...</a></li>
+<script>_showDynClickBatch(['dynclicks_u9_3544','dynclicks_u9_3542','dynclicks_u9_3541','dynclicks_u9_3534','dynclicks_u9_3532'],[3544,3542,3541,3534,3532],"wbnews", 1409265298)</script>
+</ul></div></div>
+<div class="gztz">
+<div class="title"><a class="more" href="tzzx/gztz.htm">+</a><i>工作通知</i></div>
+<ul>  
+
+
+<li style="clear:both"><a href="info/1015/3551.htm"><i><b>10</b>2026-10</i><h1 style="width:293px">关于公示吉林大学附属学校2026年吉...</h1></a></li>
+
+
+
+  
+
+
+<li style="clear:both"><a href="info/1015/3543.htm"><i><b>09</b>2026-09</i><h1 style="width:293px">关于开展第二批吉林省某人才计划教...</h1></a></li>
+
+
+
+  
+
+
+<li style="clear:both"><a href="info/1015/3531.htm"><i><b>07</b>2026-07</i><h1 style="width:293px">关于鄂禹含同志固定聘期考核结果的公示</h1></a></li>
+
+
+
+  
+
+
+<li style="clear:both"><a href="info/1015/3512.htm"><i><b>06</b>2026-06</i><h1 style="width:293px">2026年中小学幼儿园省级骨干教师重...</h1></a></li>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u10_3551','dynclicks_u10_3543','dynclicks_u10_3531','dynclicks_u10_3512'],[3551,3543,3531,3512],"wbnews", 1409265298)</script>
+</ul></div></div>
+<div class="h20"></div>
+<div class="w1200">
+<div class="ty">
+<div class="title"><a class="more" href="aqgz.htm">+</a>安全工作</div>
+<ul class="news_ul"> 
+  <li><span>2025-06-16</span><a href="info/1004/3371.htm">《中华人民共和国保守国家秘密法》</a></li>
+  <li><span>2024-11-08</span><a href="info/1004/3221.htm">附属第一幼儿园开展消防安全培...</a></li>
+  <li><span>2020-11-10</span><a href="info/1004/2667.htm">安全第一 生命至上—吉大三园“...</a></li>
+  <li><span>2020-11-09</span><a href="info/1004/2676.htm">关注消防   生命至上 ——吉林...</a></li>
+  <li><span>2019-11-08</span><a href="info/1004/2359.htm">关注安全 珍爱生命</a></li>
+  <li><span>2019-10-09</span><a href="info/1004/2296.htm">校第一幼儿园消防安全培训报道</a></li>
+  <li><span>2019-04-24</span><a href="info/1004/2099.htm" style="font-weight:bold;color:#1e32a6;">附属第一幼儿园“大手拉小手”...</a></li>
+<script>_showDynClickBatch(['dynclicks_u11_3371','dynclicks_u11_3221','dynclicks_u11_2667','dynclicks_u11_2676','dynclicks_u11_2359','dynclicks_u11_2296','dynclicks_u11_2099'],[3371,3221,2667,2676,2359,2296,2099],"wbnews", 1409265298)</script>
+</ul></div>
+<div class="ty ml">
+<div class="title"><a class="more" href="xxgk.htm">+</a>信息公开</div>
+<ul class="news_ul"> 
+  <li><span>2022-10-28</span><a href="info/1005/2981.htm">附属学校管理办公室岗位分工表</a></li>
+  <li><span>2020-12-16</span><a href="info/1005/2717.htm">2021年附属学校管理办公室工作...</a></li>
+  <li><span>2020-12-16</span><a href="info/1005/2716.htm">2020年附属学校管理办公室工作...</a></li>
+  <li><span>2018-05-07</span><a href="info/1005/1836.htm">关于印发《吉林省幼儿园设置标...</a></li>
+<script>_showDynClickBatch(['dynclicks_u12_2981','dynclicks_u12_2717','dynclicks_u12_2716','dynclicks_u12_1836'],[2981,2717,2716,1836],"wbnews", 1409265298)</script>
+</ul></div>
+<div class="ty ml">
+<div class="title"><a class="more" href="xxyj.htm">+</a>学习研究</div>
+<ul class="news_ul"> 
+  <li><span>2020-11-05</span><a href="info/1006/2657.htm">“凝聚共识守护校园平安 安全互...</a></li>
+  <li><span>2020-09-02</span><a href="info/1006/2606.htm">校第三幼儿园“致敬英雄”开学...</a></li>
+  <li><span>2020-08-21</span><a href="info/1006/2596.htm">长春市教育局法规处孔建处长一...</a></li>
+  <li><span>2020-07-02</span><a href="info/1006/2586.htm">样板引领  区域共行—朝阳区教...</a></li>
+  <li><span>2020-05-29</span><a href="info/1006/2578.htm">特殊的时光  别样的协作——校...</a></li>
+  <li><span>2019-12-16</span><a href="info/1006/2467.htm">传承经典 扮美童年—校第三幼儿...</a></li>
+  <li><span>2019-12-02</span><a href="info/1006/2436.htm">校第一幼儿园举办"纯真童话 精...</a></li>
+<script>_showDynClickBatch(['dynclicks_u13_2657','dynclicks_u13_2606','dynclicks_u13_2596','dynclicks_u13_2586','dynclicks_u13_2578','dynclicks_u13_2467','dynclicks_u13_2436'],[2657,2606,2596,2586,2578,2467,2436],"wbnews", 1409265298)</script>
+</ul></div></div>
+<div class="h20"></div>
+<div class="imglist">
+<div class="w1200">
+<div class="title" style="background: url(images/title_bg1.gif) no-repeat left bottom"><a class="more" href="fsdwfc.htm">+</a>附属单位风采</div>
+<div class="friend">
+<div class="mr_frbox"><img class="mr_frBtnL prev" src="images/imglist_left.gif"> 
+<div class="mr_frUl"><ul id="mr_fu">
+<li><a href="info/1041/1656.htm"><img src="/__local/9/AB/7F/E4F495E822B4725BA3E8854EC05_D390266E_965DA.jpg" /><i>吉林大学附属中学</i></a></li>
+<li><a href="info/1041/1699.htm"><img src="/__local/6/47/16/B63528EC19ACE51CCE7D2C81C19_33E95A61_155CD.png" /><i>长春吉大附中实验学校...</i></a></li>
+<li><a href="info/1041/1700.htm"><img src="/__local/8/35/B3/20E1019F0C3B95CE720AA163CFD_568C3988_2959F.jpg" /><i>吉林大学附属小学</i></a></li>
+<li><a href="info/1041/1702.htm"><img src="/__local/3/CC/6A/C2F26122F717299C55B48A28CE3_9F38BC5B_19C8F.jpg" /><i>慧谷学校</i></a></li>
+<li><a href="info/1041/1703.htm"><img src="/__local/5/E6/86/668CDF14AAFB2668928054DCE88_C3DEAAAE_114DB.jpg" /><i>英才学校</i></a></li>
+<li><a href="info/1041/1704.htm"><img src="/__local/6/03/0A/6C34DFE320A36634A0752093435_EFFFE4D2_21E8F.jpg" /><i>尚德学校</i></a></li>
+<li><a href="info/1041/1705.htm"><img src="/__local/4/4F/CE/D618600C99A33D7A793888185FC_10701509_16C65.jpg" /><i>附属第一幼儿园</i></a></li>
+<li><a href="info/1041/1706.htm"><img src="/__local/7/9F/41/C001063F5CBF2DAC0D87AB36EBB_80CF5DE6_18972.jpg" /><i>附属实验幼儿园</i></a></li>
+<li><a href="info/1041/1707.htm"><img src="/__local/D/3B/66/BD3333DFE1CE65F8E4745FE0DC9_9061A151_1C76E.jpg" /><i>附属第三幼儿园</i></a></li>
+<li><a href="info/1041/1708.htm"><img src="/__local/B/63/34/2DCBEE1F35608129151FDEBF496_61FDD437_1B897.jpg" /><i>附属第四幼儿园</i></a></li>
+<li><a href="info/1041/1709.htm"><img src="/__local/9/26/D2/88B680D5BB274496F1DE68C5ABF_C70E5A54_14519.jpg" /><i>附属实验幼儿园分园</i></a></li>
+<li><a href="info/1041/1710.htm"><img src="/__local/2/44/66/0014FB7F692DCF46384D61B0F31_821EC76A_137C8.jpg" /><i>附属和平幼儿园</i></a></li>
+</ul><script>_showDynClickBatch(['dynclicks_u14_1656','dynclicks_u14_1699','dynclicks_u14_1700','dynclicks_u14_1702','dynclicks_u14_1703','dynclicks_u14_1704','dynclicks_u14_1705','dynclicks_u14_1706','dynclicks_u14_1707','dynclicks_u14_1708','dynclicks_u14_1709','dynclicks_u14_1710'],[1656,1699,1700,1702,1703,1704,1705,1706,1707,1708,1709,1710],"wbnews", 1409265298)</script>
+</div><img class="mr_frBtnR next" src="images/imglist_right.gif"> </div></div><script type="text/javascript">
+$(document).ready(function () {
+    $(".mr_frbox").slide({
+        titCell: "",
+        mainCell: ".mr_frUl ul",
+        autoPage: true,
+        effect: "leftLoop",
+        autoPlay: true,
+        vis: 4
+    });
+});
+</script></div></div>
+<div class="h20"></div>
+<div class="w1200">
+<div class="ty" style="min-height: 185px">
+<div class="title"><a class="more" href="bmkw.htm">+</a>部门刊物</div>        
+             <a href="bmkw.htm" class="kanwu"><img src="images/201711210833571.png" /></a>  
+       
+</div>
+<div class="ty ml">
+<div class="title"><a class="more" href="hzpt.htm">+</a>合作平台</div>
+<ul class="news_ul" style="min-height: 185px"> 
+
+</ul></div>
+<div class="ty ml">
+<div class="title"><a class="more" href="dxhd.htm">+</a>大型活动</div>
+<ul class="news_ul" style="min-height: 185px"> 
+  <li><span>2017-11-28</span><a href="info/1044/1637.htm">长春市人民政府与吉林大学、东北师范大...</a></li>
+<script>_showDynClickBatch(['dynclicks_u17_1637'],[1637],"wbnews", 1409265298)</script>
+</ul></div></div>
+<div class="h20"></div>
+<div class="links">
+<div class="title" style="background: url(images/title_bg1.gif) no-repeat left bottom"><a href="#"></a>友情链接</div>
+<ul>        
+       
+    
+<a href="http://www.jlu.edu.cn/"><img src="images/20171122133940.png" height="50" /></a>            
+                   
+       
+
+       
+    
+<a href="http://jdfx.jlu.edu.cn/"><img src="images/20191108134050.png" height="50" /></a>            
+                   
+       
+
+       
+    
+<a href="http://fszx.jlu.edu.cn/"><img src="images/20180313151500.png" height="50" /></a>            
+                   
+       
+
+       
+    
+<a href="http://jdgz.jlu.edu.cn/"><img src="images/20180313150706.png" height="50" /></a>            
+                   
+       
+</ul></div>
+<div class="h20"></div>
+<div id="foot">
+<div class="w1200"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p style="text-align: center">版权所有：附属学校管理办公室 &nbsp; 地址：长春市前进大街2699号<br />邮编：130012 &nbsp; 联系电话：0431-85167418<br /></p>
+访问统计： <script language="javascript" src="_dwr/engine.js"></script><script language="javascript" src="_dwr/util.js"></script><script language="javascript" src="_dwr/interface/PageCounterDWR.js"></script><span id="a199213" name="a199213"></span>   
+
+<script>
+function getvisittimea199213()
+{       
+    PageCounterDWR.getVisittime('1409265298','1001','TOTAL_COUNTER','326','1',callbackdataa199213)
+}
+function callbackdataa199213(data)
+{
+    document.getElementById("a199213").innerHTML = data; 
+}
+getvisittimea199213();
+</script>
+<span></span></div></div>
+<div>   
+   
+   
+   
+   
+</SCRIPT></div>
+</body></html>

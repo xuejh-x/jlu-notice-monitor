@@ -1,0 +1,637 @@
+{
+  "id": "p2-a576eb1caf32",
+  "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+  "institution": "基础医学院",
+  "column": "教学信息",
+  "site_url": "https://medicine.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+  "original_evidence": "docs/jlu-audit-evidence/results/a576eb1caf328080.json",
+  "discovery_url": "https://medicine.jlu.edu.cn/rcpy/bksjy.htm",
+  "original_snapshot": "html/adb5fc0289eb41c9b130791d418e117bbcee1d1a8cd75b2742d9e3f833828428.html",
+  "original_capture_time": "2026-10-13T13:58:52+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-a576eb1caf32",
+    "name": "基础医学院 / 教学信息",
+    "base_url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:44+08:00",
+  "details": [
+    {
+      "url": "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+      "list_title": "吉林大学基础医学院2023级本科生导师双选见面交流会顺利举行 2025-12-15",
+      "list_date": "2025-12-15",
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+        "time": "2026-10-15T19:43:44+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "14dd91d710b4c2641b57e0804cbe0c457232ff866d216d28e9aa64019c47b03b",
+        "html_path": "html/14dd91d710b4c2641b57e0804cbe0c457232ff866d216d28e9aa64019c47b03b.html",
+        "replacement_chars": 0,
+        "chars": 29819,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学基础医学院2023级本科生导师双选见面交流会顺利举行",
+        "url": "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+        "publish_date": "2025-12-15",
+        "publisher": null,
+        "content": "为深化生物医学科学专业人才培养模式改革，强化本科生科研实践与创新能力培养，吉林大学基础医学院于 12 月 11 日在学院二楼学术报告厅成功举办 2023 级本科生导师双选见面交流会。学院领导、各学系导师代表及 2023 级全体本科生参加活动，会议由基础医学院副院长杨明主持。 会议伊始，杨明副院长就本科生导师制的育人意义作动员讲话。他指出，导师制是贯通本科教学与科研训练的重要纽带，通过导师的早期介入和个性化指导，引导学生夯实专业基础、激发科研兴趣、提升创新能力，为长远发展奠定坚实基础。他勉励同学们主动与导师沟通交流，脚踏实地投入学习与科研实践，从文献研读和实验训练做起，在持续积累中实现成长；同时要珍惜导师的指导机会，及时反馈学习进展与科研困惑。对导师队伍，他希望大家潜心育人，积极引导本科生参与高水平科研项目和学术研究，助力学生综合能力提升。 随后，来自病理学、免疫学、病原生物学、组织胚胎学、病理生理学、药理学、生物化学及分子生物学等多个学系的导师代表依次介绍了各自的研究方向、团队情况、在研项目及本科生培养计划。相关内容涵盖基础医学前沿热点和面向临床需求的转化研究，充分展示了学院雄厚的科研实力与多元化的人才培养平台，激发了同学们的浓厚兴趣。交流环节中，同学们围绕研究方向选择、课程学习规划和科研参与方式等问题，与导师进行了面对面沟通，导师们结合学生特点给予了针对性指导建议。 本次导师双选见面交流会为 2023 级本科生搭建了与导师深入交流的重要平台，进一步促进了师生之间的双向了解与良性互动，也为学院落实“全员育人、全过程育人、全方位育人”理念奠定了良好基础。相信在导师的悉心指导下， 2023 级本科生将不断提升科研素养与实践能力，成长为医学科学领域的优秀后备人才。 https://medicine.jlu.edu.cn/__local/4/B1/E3/00DBA42F997032B09CAC01E419B_C6CBB384_97308.png https://medicine.jlu.edu.cn/__local/6/55/1B/E334C99B3A44B24C5F8FEF5EF3F_2331CB5B_C68C3.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-12-15",
+            "date": "2025-12-15"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 741,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学基础医学院2023级本科生导师双选见面交流会顺利举行"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-12-15 点击次数：",
+            "date": "2025-12-15"
+          },
+          {
+            "text": "发布日期：2025-12-15",
+            "date": "2025-12-15"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://medicine.jlu.edu.cn/info/1014/6124.htm",
+      "list_title": "人体解剖学系慕课西行同步课堂顺利启动 2023-11-30",
+      "list_date": "2023-11-30",
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/info/1014/6124.htm",
+        "time": "2026-10-15T19:43:45+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/info/1014/6124.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "15de5a239c3e89de0a986d7cc774875227d637e8a3ebd68e5de1171b7c83fe91",
+        "html_path": "html/15de5a239c3e89de0a986d7cc774875227d637e8a3ebd68e5de1171b7c83fe91.html",
+        "replacement_chars": 0,
+        "chars": 31098,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "人体解剖学系慕课西行同步课堂顺利启动",
+        "url": "https://medicine.jlu.edu.cn/info/1014/6124.htm",
+        "publish_date": "2023-11-30",
+        "publisher": null,
+        "content": "11 月 29 日，为积极响应教育部高教司 “ 慕课西行 2.0” 行动的号召，扎实推动优质教育资源互联共享，提升吉林大学一流课程辐射力和影响力，基础医学院人体解剖学系和赤峰学院基础医学院解剖教研室以云端直播的方式开展慕课西行 —— 《系统解剖学实验》课程同步课堂活动。本次活动由智慧树负责联络及直播，直播地点在人体解剖学系第四实验室。 在白求恩医学部的指导下，吉林大学基础医学院 - 赤峰学院基础医学院开展了多次《系统解剖学实验》同步课堂线上讨论会，讨论并协商同步课堂的时间和内容，制定了课程的直播计划。 https://medicine.jlu.edu.cn/__local/B/13/BF/841E49EF777232D7A5BD66FB10D_4771F71B_24D70.png 同步课堂启动仪式由吉林大学基础医学院副院长刘海岩主持，吉林大学白求恩医学部副学部长金祥雷、赤峰学院医学部副主任张俊毅分别致辞，表示希望以本次 “ 慕课西行 ” 同步课堂为契机，共同打造和培育建设符合高等教育发展、人才培养规格的一流课程，进一步加强校际间合作与交流，创新教研形态，实现更多的优秀教学资源共建、共享。 https://medicine.jlu.edu.cn/__local/5/58/4C/F5691302861DEF4AE8428703A94_23D7BCAB_31572.png 同步课堂第一课由人体解剖学系卢岩老师讲授，她结合视频动画生动形象地讲述了中枢神经相关内容。授课过程中，她熟练运用多种信息化教学手段，引导学生们完成课堂练习，并组织同学们积极讨论，尽管直播教室相隔千里，丝毫不影响课堂热烈的氛围。学生们纷纷表示，这样的授课方式有创新、有活力、有吸引力。 https://medicine.jlu.edu.cn/__local/4/50/22/1A1D4DD240D0E8EBC3974564BA3_485D9614_30E45.png “ 慕课西行 ” 是教育部推动教育资源共享、支持西部地区高等教育均衡发展倡导的重要公益教育行动，也是学校扎实推进教育数字化转型的重要依托。今后我院将深入实施同步课堂活动，持续拓围、深化、创新，推动更多优质教学资源的共享共建，努力开拓智能化课堂建设新局面。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2023-11-30",
+            "date": "2023-11-30"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 680,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "人体解剖学系慕课西行同步课堂顺利启动"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2023-11-30 点击次数：",
+            "date": "2023-11-30"
+          },
+          {
+            "text": "发布日期：2023-11-30",
+            "date": "2023-11-30"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+      "list_title": "基础医学院关于推荐申报吉林大学2022年实验技术成果奖人选的公示 2022-05-07",
+      "list_date": "2022-05-07",
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+        "time": "2026-10-15T19:43:46+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "be260f026984b608980a385f159b266ad6c02ab880c871b5b56d79d585b59304",
+        "html_path": "html/be260f026984b608980a385f159b266ad6c02ab880c871b5b56d79d585b59304.html",
+        "replacement_chars": 0,
+        "chars": 28994,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "基础医学院关于推荐申报吉林大学2022年实验技术成果奖人选的公示",
+        "url": "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+        "publish_date": "2022-05-07",
+        "publisher": null,
+        "content": "根据学校实验室管理处《关于开展吉林大学 2022 年实验技术成果奖申报工作的通知》以及《吉林大学实验技术成果奖励办法》要求，按照学校名额分配，经老师个人申报，同行专家评议，院级组织审核同意，拟推荐于军、王秋静、张丽红三位老师申报吉林大学 2022 年实验技术成果奖，现予以公示。 公示期为 3 个工作日，如有异议，请在公示期内实名以书面或电子邮件形式向基础医学院教务办公室反映。 联系人：刘鑫 联系方式： 13578629530 电子邮箱： jcjwb@jlu.edu.cn 基础医学院 2022 年 5 月 7 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-05-07",
+            "date": "2022-05-07"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 258,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "基础医学院关于推荐申报吉林大学2022年实验技术成果奖人选的公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-05-07 点击次数：",
+            "date": "2022-05-07"
+          },
+          {
+            "text": "发布日期：2022-05-07",
+            "date": "2022-05-07"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+        "time": "2026-10-15T19:30:30+08:00",
+        "ok": true,
+        "final_url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d23391dbcd3ce1371f529abb3dc8cb8f2a818e4f3ec93e405a561db2d5243bf2",
+        "html_path": "html/d23391dbcd3ce1371f529abb3dc8cb8f2a818e4f3ec93e405a561db2d5243bf2.html",
+        "replacement_chars": 0,
+        "chars": 28623,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://medicine.jlu.edu.cn/info/1014/6113.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6114.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6116.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6117.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6118.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6119.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6122.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6123.htm",
+        "https://medicine.jlu.edu.cn/info/1014/6124.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "time": "2026-10-15T19:30:30+08:00",
+    "ok": true,
+    "final_url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "d23391dbcd3ce1371f529abb3dc8cb8f2a818e4f3ec93e405a561db2d5243bf2",
+    "html_path": "html/d23391dbcd3ce1371f529abb3dc8cb8f2a818e4f3ec93e405a561db2d5243bf2.html",
+    "replacement_chars": 0,
+    "chars": 28623,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学基础医学院2023级本科生导师双选见面交流会顺利举行 2025-12-15",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6115.htm",
+      "publish_date": "2025-12-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "人体解剖学系慕课西行同步课堂顺利启动 2023-11-30",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6124.htm",
+      "publish_date": "2023-11-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基础医学院关于推荐申报吉林大学2022年实验技术成果奖人选的公示 2022-05-07",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6121.htm",
+      "publish_date": "2022-05-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学第八届基础医学创新研究暨实验设计论坛校级比赛圆满落幕 2022-05-01",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6119.htm",
+      "publish_date": "2022-05-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学本科实验教学中心评估专家组莅临基础医学院开展评估工作 2021-12-02",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6117.htm",
+      "publish_date": "2021-12-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基础医学院举办医学微格示范教学展示活动 2021-10-22",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6118.htm",
+      "publish_date": "2021-10-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基础医学院关于2022年推荐优秀应届本科毕业生免试攻读研究生名单的公示 2021-09-18",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6113.htm",
+      "publish_date": "2021-09-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "深入课堂，提升教学质量——基础医学院领导开展听课活动 2021-04-14",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6122.htm",
+      "publish_date": "2021-04-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基础医学院组织教师参加2021年国家级实验教学示范中心可持续发展暨实验教学体制创新研讨会 2021-03-30",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6116.htm",
+      "publish_date": "2021-03-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林省首届青年教师病理学教学水平大赛成功举办 2019-03-28",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6123.htm",
+      "publish_date": "2019-03-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "基础医学院召开新形势下课程建设与医学教育改革研讨会 2018-12-24",
+      "url": "https://medicine.jlu.edu.cn/info/1014/6114.htm",
+      "publish_date": "2018-12-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 11,
+  "pagination": [
+    {
+      "start_url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+          "parsed_items": 11,
+          "added_items": 11
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-a576eb1caf32",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4699995517730713e-05,
+      "detail_duration_seconds": 5.500041879713535e-06,
+      "parse_db_duration_seconds": 0.029104999965056777
+    },
+    "second_round": {
+      "source": "p2-a576eb1caf32",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3599987141788006e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-a576eb1caf32",
+    "institution": "基础医学院",
+    "column": "教学信息",
+    "url": "https://medicine.jlu.edu.cn/rcpy/bksjy/jxxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:30+08:00",
+    "review_time": "2026-10-15T20:21:44+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 11,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-a576eb1caf32.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

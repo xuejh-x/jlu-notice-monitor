@@ -1,0 +1,102 @@
+{
+  "id": "p2-8e958c4c25bd",
+  "url": "https://auto.jlu.edu.cn/zsxx.htm",
+  "institution": "汽车工程学院",
+  "column": "招生信息",
+  "site_url": "https://auto.jlu.edu.cn/",
+  "old_status": "失败",
+  "old_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK",
+  "original_evidence": "docs/jlu-audit-evidence/results/8e958c4c25bd5b90.json",
+  "discovery_url": "https://auto.jlu.edu.cn/",
+  "original_snapshot": "html/4646cf69d2e2dbff6da4ae2e223d7ca871c02085351e2484116e28e45d6f6078.html",
+  "original_capture_time": "2026-10-13T13:54:03+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-8e958c4c25bd",
+    "name": "汽车工程学院 / 招生信息",
+    "base_url": "https://auto.jlu.edu.cn/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2
+    }
+  },
+  "checked_at": "2026-10-15T20:20:10+08:00",
+  "details": [],
+  "pages": [],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "无需作为栏目适配",
+  "verdict": "SECTION_DIRECTORY_REFERENCE",
+  "reason": "Admissions section directory links four sub-sections; it is not a notice list",
+  "response": {
+    "url": "https://auto.jlu.edu.cn/zsxx.htm",
+    "time": "2026-10-15T19:27:13+08:00",
+    "ok": true,
+    "final_url": "https://auto.jlu.edu.cn/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "4646cf69d2e2dbff6da4ae2e223d7ca871c02085351e2484116e28e45d6f6078",
+    "html_path": "html/4646cf69d2e2dbff6da4ae2e223d7ca871c02085351e2484116e28e45d6f6078.html",
+    "replacement_chars": 0,
+    "chars": 10647,
+    "attempts": 1
+  },
+  "child_sections_unverified": [
+    {
+      "title": "本科生",
+      "url": "https://auto.jlu.edu.cn/zsxx/bks.htm"
+    },
+    {
+      "title": "研究生",
+      "url": "https://auto.jlu.edu.cn/zsxx/yjs.htm"
+    },
+    {
+      "title": "工程硕士",
+      "url": "https://auto.jlu.edu.cn/zsxx/gcss.htm"
+    },
+    {
+      "title": "成人教育",
+      "url": "https://auto.jlu.edu.cn/zsxx/crjy.htm"
+    }
+  ],
+  "summary": {
+    "id": "p2-8e958c4c25bd",
+    "institution": "汽车工程学院",
+    "column": "招生信息",
+    "url": "https://auto.jlu.edu.cn/zsxx.htm",
+    "original_status": "失败",
+    "original_issues": "POSSIBLE_NAVIGATION_CAPTURE | LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | BODY_CONTAINER_FALLBACK",
+    "status": "无需作为栏目适配",
+    "verdict": "SECTION_DIRECTORY_REFERENCE",
+    "capture_time": "2026-10-15T19:27:13+08:00",
+    "review_time": "2026-10-15T20:20:10+08:00",
+    "reason": "Admissions section directory links four sub-sections; it is not a notice list",
+    "list_pages": 0,
+    "list_count": 0,
+    "details": 0,
+    "verified_details": 0,
+    "listing_replacement_characters": 0,
+    "publication": "not confirmed / not applicable",
+    "windows_public_preview": "SECTION_DIRECTORY_REFERENCE",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "NOT_EXERCISED",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-8e958c4c25bd.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

@@ -1,0 +1,885 @@
+{
+  "id": "p3-d46a55c006bd",
+  "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+  "institution": "高压与超硬材料全国重点实验室",
+  "column": "通知公告 Notice",
+  "site_url": "http://nlshm-lab.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/d46a55c006bd002a.json",
+  "original_capture_time": "2026-10-13T14:04:40+08:00",
+  "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-d46a55c006bd",
+    "name": "高压与超硬材料全国重点实验室 / 通知公告 Notice",
+    "base_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:02+08:00",
+  "details": [
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+      "list_title": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员",
+      "list_date": "2023-10-24",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+        "time": "2026-10-15T22:14:01+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "925b25de0c2c156f22504f34e4c5eaeba5b4bc78a3b454e1f31a46b680cde515",
+        "html_path": "html/925b25de0c2c156f22504f34e4c5eaeba5b4bc78a3b454e1f31a46b680cde515.html",
+        "replacement_chars": 0,
+        "chars": 43678,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+        "publish_date": "2023-10-24",
+        "publisher": null,
+        "content": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员 一、单位简介 吉林大学是教育部直属的全国重点综合性大学，坐落在吉林省长春市。学校始建于 1946 年， 1960 年被列为国家重点大学， 1984 年成为首批建立研究生院的 22 所大学之一，是国家 “211 工程 ”“985 工程 ” 和首批 “ 双一流 ” 大学建设高校。学校学科门类齐全，博士后科研流动站 44 个， 18 个学科（领域）的 ESI 排名进入全球前 1% ，其中 5 个学科排名进入全球前 1‰ 。学校师资力量雄厚， 持续实施人才强校战略，不断完善博士后制度，将博士后队伍作为专职科研队伍和后备青年师资遴选和培养的摇篮。 超硬材料国家重点实验室（简称实验室）依托吉林大学材料科学与工程、物理学科，是 “211 工程 ” 、 “985 工程 ” 和首批教育部指定的 “ 一流大学一流学科 ” 项目重点建设学科，国防科工局布局的 “ 国防特色学科 ” ， 2003-2018 年，四次以良好成绩通过国家评估。实验室是国际高压科学与超硬材料领域有重要影响的研究基地之一，是国际上最早突破百万大气压的五个实验室之一；制备出国内第一片金刚石薄膜；自主研制 CALYPSO 计算方法和软件，发表文章数在国际同类软件中排名第一；利用自主研发的高压技术和理论方法，开辟了国内高压理论研究的新领域，发现了近室温超导、超硬碳等新材料，引领了国际高压科学与超硬材料的发展；合成出系列大颗粒宝石级金刚石、片状立方氮化硼单晶，使我国成为国际上掌握该技术的少数国家之一；瞄准国家高端领域的重大需求，成果制备了英寸级高品质单晶金刚石薄膜，为解决“卡脖子”问题提供战略性技术储备；硏建出 “ 国之重器 ” 国际上最大吨位的大腔体压机，承担国家重大科技基础设施的建设任务；在高压技术与材料制备研究方向上已经与国际同步，在高压装置、超硬材料研究方向国际领先。在高压领域，获国家自然科学二等奖 3 次（独立完成）；在超硬材料应用领域，获国家技术发明二等奖 2 次（第一单位）。 为进一步加强实验室博士后队伍建设，保障人才队伍的稳定与持续发展，现面向海内外诚聘创新能力突出、科研实力优秀的博士后科研人员。实验室爱才、用才、容才、聚才，邀您加盟，共襄盛举、共创伟业！ 二、招聘方向 实验室围绕发展超高压产生、高压原位多物理量联合测量与晶体结构预测新技术；创制常规条件难以得到的高温超导、发光、超硬碳等新型功能材料；以金刚石为代表的超硬材料基础与应用研究为发展方向，招聘具有超高压、超硬材料及多功能材料、重大科学装置及国家战略领域应用等研究背景的优秀人才，解决本领域重大科学问题和技术瓶颈，满足国家重大需求。 三、申报条件 根据《吉林大学博士后招收管理实施办法》和《吉林大学博士后招收、在站管理实施细则》的工作要求： 1 、具有坚定的政治立场，身心健康，年龄 35 周岁及以下； 2 、热爱科研、坚守学术道德； 3 、具有熟练采用英语写作学术论文的能力； 4 、具有较强分析 / 解决问题的能力，优秀的团队协作意识与项目组织能力； 5 、符合吉林大学博士后申请条件；已经取得博士学位，或近期能够取得博士学位 。 6 、现吉林大学项目博士后或助理研究员可择优支持。 四、相关待遇 （一）基本工资：薪酬 20-30 万元 / 年（含五险一金），一人一议。 （二）绩效奖励：根据个人表现发放。 其他待遇： 1 、学校按照国家和地方政策依法为博士后缴纳社会保险和住房公积金； 2 、可租住学校博士后公寓； 3 、享受学校采暖补贴； 4 、享受学校教职工子女入学、入托政策； 5 、享受学校规定的健康体检； 6 、可办理教工版校园一卡通。 五、申请材料 （一）应聘材料 1 、详细个人简历，代表性科研成果清单等材料。 2 、相关证明材料，包括身份证、学历证书（毕业证）、获奖证书、博士学位论文等。 （二）应聘方式 1 、应聘人将应聘材料电子版发送至 zhihui@jlu.edu.cn 或 suiym@jlu.edu.cn ，随时报名，随时面试洽谈，聘满为止。 2 、实验室统一进行资格审核并确定参加考核人员名单，考核的相关事宜另行通知。 六、联系方式联系人： 李志慧，邮箱： zhihui@jlu.edu.cn 热忱欢迎优秀学生以及科研人才加入超硬材料国家重点实验室！",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2023-10-24 浏览次数： 次",
+            "date": "2023-10-24"
+          },
+          {
+            "text": "发布时间：2023-10-24",
+            "date": "2023-10-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1801,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员 发布时间：2023-10-24 浏览次数： 次",
+            "date": "2023-10-24"
+          },
+          {
+            "text": "发布时间：2023-10-24 浏览次数： 次",
+            "date": "2023-10-24"
+          },
+          {
+            "text": "发布时间：2023-10-24",
+            "date": "2023-10-24"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm",
+      "list_title": "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示",
+      "list_date": "2026-10-13",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm",
+        "time": "2026-10-15T22:14:03+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2e94c0e8d57cb4c1c482aaa04d329e5553d906b494ae6021249cc14877573817",
+        "html_path": "html/2e94c0e8d57cb4c1c482aaa04d329e5553d906b494ae6021249cc14877573817.html",
+        "replacement_chars": 0,
+        "chars": 25044,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm",
+        "publish_date": "2026-10-13",
+        "publisher": null,
+        "content": "按照《吉林大学博士后招收、在站管理实施细则》中的相关工作程序，经过公开发布、资格审查、合作导师考核，高压与超硬材料全国重点实验室博士后工作领导小组审核，确定项目博士后拟聘人选为： 丰丙涛 大腔体压机超高温高压极端条件产生的有限元研究 于林超 插层过渡金属二硫族化合物的压力调控研究 公示期为 2026 年 10 月 13 日至 2026 年 10 月 20 日。如有异议，请在公示期内实名以书面或电子邮件形式向实验室反映。 联系人：李志慧 联系电话： 85168276 邮箱： zhihui@jlu.edu.cn 地址：吉林大学超硬材料国家重点实验室新楼 B405 室 高压与超硬材料全国重点实验室 2026 年 10 月 13 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-13 浏览次数： 次",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "发布时间：2026-10-13",
+            "date": "2026-10-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 316,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示 发布时间：2026-10-13 浏览次数： 次",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "发布时间：2026-10-13 浏览次数： 次",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "发布时间：2026-10-13",
+            "date": "2026-10-13"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm",
+      "list_title": "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示",
+      "list_date": "2024-07-02",
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm",
+        "time": "2026-10-15T22:14:04+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5ac77d1fc146d36ab6f1e43650c26278a0695cb75be6d50c9c7b5e99f2d89b98",
+        "html_path": "html/5ac77d1fc146d36ab6f1e43650c26278a0695cb75be6d50c9c7b5e99f2d89b98.html",
+        "replacement_chars": 0,
+        "chars": 25274,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示",
+        "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm",
+        "publish_date": "2024-07-02",
+        "publisher": null,
+        "content": "按照《吉林大学博士后招收、在站管理实施细则》中的相关工作程序，经过公开发布、资格审查、合作导师考核，超硬材料国家重点实验室博士后工作领导小组审核，确定项目博士后拟聘人选为： 李晨一 高压下二维材料结构相变及超导电性调控课题组 张可为 高压下新型轻元素化合物超导体设计和制备课题组 王元元 高压富氮材料课题组 公示期为 2024 年 7 月 2 日至 2024 年 7 月6 日。如有异议，请在公示期内实名以书面或电子邮件形式向超硬材料国家重点实验室反映。 联系人：李志慧 联系电话： 85168276 邮箱： zhihui@jlu.edu.cn 地址：吉林大学超硬材料国家重点实验室新楼 B405 室 超硬材料国家重点实验室 2024 年 7 月 2 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2024-07-02 浏览次数： 次",
+            "date": "2024-07-02"
+          },
+          {
+            "text": "发布时间：2024-07-02",
+            "date": "2024-07-02"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 327,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示 发布时间：2024-07-02 浏览次数： 次",
+            "date": "2024-07-02"
+          },
+          {
+            "text": "发布时间：2024-07-02 浏览次数： 次",
+            "date": "2024-07-02"
+          },
+          {
+            "text": "发布时间：2024-07-02",
+            "date": "2024-07-02"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:13:59+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6a900fd57bd150c6ed49322fec5110968383b07374963674325fbca39d0685a3",
+        "html_path": "html/6a900fd57bd150c6ed49322fec5110968383b07374963674325fbca39d0685a3.html",
+        "replacement_chars": 0,
+        "chars": 23411,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2172.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2356.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2359.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2499.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2521.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2540.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2605.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2623.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm"
+      ],
+      "observed_next_urls": [
+        "http://nlshm-lab.jlu.edu.cn/tzgg/9.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "http://nlshm-lab.jlu.edu.cn/tzgg/9.htm",
+        "time": "2026-10-15T22:14:00+08:00",
+        "ok": true,
+        "final_url": "http://nlshm-lab.jlu.edu.cn/tzgg/9.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "35d13b370c825db6b95a16e4bc7ba5351b9b8983555762597b572e12b4c68f4c",
+        "html_path": "html/35d13b370c825db6b95a16e4bc7ba5351b9b8983555762597b572e12b4c68f4c.html",
+        "replacement_chars": 0,
+        "chars": 23750,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1983.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1984.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1985.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1986.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1988.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/1989.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2084.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2091.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2150.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm"
+      ],
+      "observed_next_urls": [
+        "http://nlshm-lab.jlu.edu.cn/tzgg/8.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:13:59+08:00",
+    "ok": true,
+    "final_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "6a900fd57bd150c6ed49322fec5110968383b07374963674325fbca39d0685a3",
+    "html_path": "html/6a900fd57bd150c6ed49322fec5110968383b07374963674325fbca39d0685a3.html",
+    "replacement_chars": 0,
+    "chars": 23411,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学超硬材料国家重点实验室面向海内外诚聘招聘博士后研究人员",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1987.htm",
+      "publish_date": "2023-10-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学高压与超硬材料全国重点实验室 项目资助博士后拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2630.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "综合极端条件高压科学中心、高压与超硬材料全国重点实验室刘冰冰教授团队项目博士后招聘启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2623.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "综合极端条件高压科学中心、高压与超硬材料全国重点实验室刘兆东教授团队项目博士后招聘启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2605.htm",
+      "publish_date": "2026-07-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学高压与超硬材料全国重点实验室招聘项目资助博士后拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2540.htm",
+      "publish_date": "2026-04-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "高压与超硬材料全国重点实验室刘冰冰教授团队项目博士后招聘启事",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2521.htm",
+      "publish_date": "2026-03-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "高压与超硬材料全国重点实验室2025年度公开招聘专业技术人员拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2499.htm",
+      "publish_date": "2025-12-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于高压与超硬材料全国重点实验室、国家重大科技基础设施综合极端条件实验装置吉林分部联合举办“科技活动周”活动的通知",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2359.htm",
+      "publish_date": "2025-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025表面分析技术之飞行时间二次离子质谱研讨会",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2356.htm",
+      "publish_date": "2025-05-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "第 16 届中国金刚石相关材料及应用学术研讨会第二轮通知",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2172.htm",
+      "publish_date": "2024-07-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学超硬材料国家重点实验室项目资助博士后拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2160.htm",
+      "publish_date": "2024-07-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "第16届中国金刚石相关材料及应用学术研讨会-第一轮通知",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2150.htm",
+      "publish_date": "2024-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2024年硕士研究生复试录取实施细则",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2091.htm",
+      "publish_date": "2024-03-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学超硬材料国家重点实验室氮化硼功能材料课题组项目资助博士后拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/2084.htm",
+      "publish_date": "2024-03-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2022-2023学年研究生优秀奖学金、优秀研究生、优秀研究生干部评选结果公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1986.htm",
+      "publish_date": "2023-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室关于第二届博士研究生“求实”奖学金拟推荐人选的公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1985.htm",
+      "publish_date": "2023-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室关于2023年度研究生国家奖学金拟推荐人选的公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1984.htm",
+      "publish_date": "2023-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2023年度硕/博士研究生学业奖学金评选结果公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1988.htm",
+      "publish_date": "2023-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1989.htm",
+      "publish_date": "2023-09-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "实验室2022年度学术业绩奖学金评定结果公示",
+      "url": "http://nlshm-lab.jlu.edu.cn/info/1050/1983.htm",
+      "publish_date": "2023-07-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "http://nlshm-lab.jlu.edu.cn/tzgg/9.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-d46a55c006bd",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7400016076862812e-05,
+      "detail_duration_seconds": 7.400056347250938e-06,
+      "parse_db_duration_seconds": 0.031688000075519085
+    },
+    "second_round": {
+      "source": "p3-d46a55c006bd",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.810002140700817e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-d46a55c006bd",
+    "institution": "高压与超硬材料全国重点实验室",
+    "column": "通知公告 Notice",
+    "url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:13:59+08:00",
+    "review_time": "2026-10-15T23:01:02+08:00",
+    "http_status": 200,
+    "final_url": "http://nlshm-lab.jlu.edu.cn/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "http://nlshm-lab.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-d46a55c006bd.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

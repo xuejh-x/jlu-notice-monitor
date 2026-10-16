@@ -1,0 +1,623 @@
+{
+  "id": "p3-3e3193ebc99c",
+  "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+  "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+  "column": "通知公告",
+  "site_url": "https://ddy.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_MISMATCH | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/3e3193ebc99c86be.json",
+  "original_capture_time": "2026-10-13T13:34:57+08:00",
+  "discovery_url": "https://ddy.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-3e3193ebc99c",
+    "name": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院） / 通知公告",
+    "base_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:23+08:00",
+  "details": [
+    {
+      "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+      "list_title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+      "list_date": "2026-09-07",
+      "response": {
+        "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+        "time": "2026-10-15T22:07:30+08:00",
+        "ok": true,
+        "final_url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ce8360696f24714fa6d6d1835251a9f4803c9790e74b13dff922101336eacc26",
+        "html_path": "html/ce8360696f24714fa6d6d1835251a9f4803c9790e74b13dff922101336eacc26.html",
+        "replacement_chars": 0,
+        "chars": 13245,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+        "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+        "publish_date": "2026-09-07",
+        "publisher": null,
+        "content": "各相关单位： 根据上级部门通知精神，为全面规范合同（协议）认定登记工作，现开展地质调查项目合同（协议）成交额自查工作，对于超范围认定、以旧充新、虚构合同等方式虚增合同成交额，要严格进行自查，如发现上述问题，应及时进行整改。 请各单位科研秘书及时通知项目负责人，对 2020 年 1 月 1 日至今在科研管理平台认定登记的合同（协议）进行自查是否存在上述情况并上报本单位。请各单位于 2026 年 9 月 21 日之前汇总后形成本单位自查报告（未发现上述问题也需要提交自查报告），自查报告由各单位主管领导签字盖章后交至地质调查项目管理办公室。 联 系 人：苟静平 联系电话： 0431-88502036 办公地点：鸽子楼 323-2 室 科研院地质调查项目管理办公室 2026 年 9 月 7 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 347,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "ti"
+            ],
+            "text": "关于开展地质调查项目合同（协议）成交额自查工作的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2026-09-07",
+            "date": "2026-09-07"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+      "list_title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+      "list_date": "2026-09-03",
+      "response": {
+        "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+        "time": "2026-10-15T22:07:31+08:00",
+        "ok": true,
+        "final_url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "003ceef20c51e5f4931cdf6aa502c2b1e405ef817ba71f0adf4527a0dcb22e78",
+        "html_path": "html/003ceef20c51e5f4931cdf6aa502c2b1e405ef817ba71f0adf4527a0dcb22e78.html",
+        "replacement_chars": 0,
+        "chars": 22790,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+        "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+        "publish_date": "2026-09-03",
+        "publisher": "。推荐自然资源青年科技奖需填报",
+        "content": "校内各相关单位： 202 6 年度自然资源科学技术奖推荐工作已开启，有关事项通知如下： 一、推荐条件 自然资源科学技术奖下设两个奖项，分别为自然资源科技进步奖和自然资源青年科技奖。 （一）自然资源科技进步奖 推荐自然资源科技进步奖的成果应符合《章程》规定的奖励范围，在自然资源领域取得重大理论、技术、方法创新，获得广泛应用且具有显著经济社会效益的成果。 1.推荐成果在2023年12月31日前完成评审或验收等。技术发展迭代较迅速领域的成果，可放宽到2024年12月31日前完成。 2.同一人在同一年度只能作为一项被推荐成果的完成人。 3.已获得国家科学技术奖的成果不用推荐。 4.推荐成果应在奖励申报之前完成科技成果登记。 5.成果完成人中，除科研院所外， 其他单位中对成果确有创新贡献但担任厅局级及以上领导职务的人员，排名不得进入前 3位 。 6.为支持新一轮找矿突破战略行动实施，自然资源科学技术奖针对具有显著地质效果、经济效益和社会效益，并取得重大理论、认识创新和找矿技术进步的国内找矿勘查成果设立了“找矿奖”。申报“找矿奖”的，请在奖励申报系统内选择“中国地质学会”后，在“是否申报找矿奖”下拉框中选择“是”。 7.为支持自然资源标准和科普工作，鼓励标准类和科普类成果申报。标准类成果应为自然资源领域发布实施2年以上的国家标准和行业标准（含系列标准），或由我国主导起草，国际标准化组织（ISO）、国际电工委员会（IEC）、国际电信联盟（ITU）或其他公认的国际组织发布实施2年以上的国际标准。 8.不得推荐涉密成果。 （二）自然资源青年科技奖 自然资源青年科技奖授予在自然资源相关学科领域取得创新性、代表性成果的 45周岁以下（ 1980年12月31日之 后出生）的青年科技工作者。推荐自然资源青年科技奖需填报 1项代表性成果，代表性成果的要求同自然资源科技进步奖。 二、推荐方式 单位推荐及院士推荐两种渠道，我校具有单位推荐资格，限额推荐。其他单位推荐及院士推荐要求见各学会通知（附件 1）。 拟推荐的成果及科技工作者，应在推荐单位和完成单位公示 5个工作日。科技进步奖的公示内容应包括，成果基本情况、推荐意见、成果简介、客观评价和主要知识产权目录等。青年科技奖的公示内容应包括，被推荐人基本信息、代表性成果基本情况、推荐意见、成果简介、客观评价和主要知识产权目录等。公示无异议的成果和科技工作者方可推荐。 有意申报教师请填写附件 2-申请表，于 9 月 1 0 日 16：00之前发送至kjckx@jlu.edu.cn，逾期不予受理，科研院根据申报情况，择优推荐。拟通过其他渠道申报教师也请填表发送，以便跟踪申报进度。确认推荐的成果或科技工作者，请于 9 月 15 日 16：00前，将公示材料发送至kjckx@jlu.edu.cn。 三、推荐材料 推荐材料是自然资源科学技术奖评审的基本依据，必须严格按要求填写。 自然资源科学技术奖推荐书和附件材料，须通过自然资源部门户网站 “服务”（网址：https://www.mnr.gov.cn/fw/） 中的 “科技”版块， 登录 “自然资源科学技术奖申报系统”，按照“《自然资源科学技术奖推荐书》及填写说明”（附件2 ）在线填报，并从申报系统中导出、打印推荐书，完成盖章、签字后，扫描上传至系统中，不用报送纸质材料。 四、推荐时间 自然资源科学技术奖申报系统于 9月23日17:00关闭）。 五、联系方式 联 系 人：李红旭 刘晟池 李文艳 联系电话： 85168632 邮 箱： kjckx@jlu.edu.cn 科研院 202 6 年 8 月 31 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 1508,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "ti"
+            ],
+            "text": "关于开展2026年度自然资源科学技术奖推荐工作的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2026-09-03",
+            "date": "2026-09-03"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+      "list_title": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知",
+      "list_date": "2025-10-11",
+      "response": {
+        "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+        "time": "2026-10-15T22:07:35+08:00",
+        "ok": true,
+        "final_url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "12ec34ac15ea2bbe7c31a1c889496a3b61a10126a633ff71952b065412cd7def",
+        "html_path": "html/12ec34ac15ea2bbe7c31a1c889496a3b61a10126a633ff71952b065412cd7def.html",
+        "replacement_chars": 0,
+        "chars": 13987,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知",
+        "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+        "publish_date": "2025-10-11",
+        "publisher": null,
+        "content": "校内各相关单位： 按照吉林省新一轮找矿突破战略行动部署，结合吉林省“十五五”基础地质调查和找矿突破重点项目研究谋划成果。为充分发挥吉林大学地学领域的专业优势，积极响应吉林省自然资源厅和吉林省地质勘查基金管理中心关于《吉林省 2026 年度地质勘查资金项目立项指南》申报的号召，促进我省新一轮找矿突破工作取得一进步成效。现转发立项指南，请据此编报《立项建议书》。 请申报项目的单位、团队及个人，于 2025 年 10 月 19 日前，将相关材料报送至吉林大学地质调查研究院（地址：长春市建设街 2199 号吉大鸽子楼 324-2 ） 附件： 1. 吉林省 2026 年度地质勘查资金项目立项指南 2. 立项建议书编写提纲 联系人：地调院 孙晓静 0431-88502483 徐盛侠 0431-88502483 基金中心 张富胤 0431-88539855 吉林大学地质调查研究院 2025 年 10 月 11 日",
+        "attachments": [
+          {
+            "filename": "附件一：2026年地质勘查资金项目立项指南.pdf",
+            "url": "https://ddy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553230600&wbfileid=16658708",
+            "type": "pdf"
+          },
+          {
+            "filename": "附件二：立项建议书编写提纲.pdf",
+            "url": "https://ddy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553230600&wbfileid=16658707",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 405,
+        "reference_attachment_urls": [
+          "https://ddy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553230600&wbfileid=16658707",
+          "https://ddy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1553230600&wbfileid=16658708"
+        ],
+        "missing_attachment_urls": [],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "ti"
+            ],
+            "text": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知"
+          }
+        ],
+        "independent_b7_publication_metadata": [
+          {
+            "text": "2025-10-11",
+            "date": "2025-10-11"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+        "time": "2026-10-15T22:07:33+08:00",
+        "ok": true,
+        "final_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c5d6cd55ac466584d0fd665911080727aaf16217bc19c0b04948561ab3b5b142",
+        "html_path": "html/c5d6cd55ac466584d0fd665911080727aaf16217bc19c0b04948561ab3b5b142.html",
+        "replacement_chars": 0,
+        "chars": 14709,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ddy.jlu.edu.cn/info/1009/1385.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1386.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1387.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1412.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1497.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1498.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1499.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+        "https://ddy.jlu.edu.cn/info/1009/1613.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "time": "2026-10-15T22:07:33+08:00",
+    "ok": true,
+    "final_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c5d6cd55ac466584d0fd665911080727aaf16217bc19c0b04948561ab3b5b142",
+    "html_path": "html/c5d6cd55ac466584d0fd665911080727aaf16217bc19c0b04948561ab3b5b142.html",
+    "replacement_chars": 0,
+    "chars": 14709,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+      "publish_date": "2026-09-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1611.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报《吉林省2026年度地质勘查资金项目立项指南》的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1571.htm",
+      "publish_date": "2025-10-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于征集“梦想”号大洋钻探船使用需求的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1499.htm",
+      "publish_date": "2025-04-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于第十九次李四光地质科学奖申报工作的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1498.htm",
+      "publish_date": "2025-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2024年度自然资源科学技术奖推荐工作的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1497.htm",
+      "publish_date": "2025-04-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学与山东省第六地质矿产勘查院举行产学研用合作座谈会",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1412.htm",
+      "publish_date": "2022-07-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于上交2015年地质矿产调查项目技术报告（年报）的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1385.htm",
+      "publish_date": "2015-12-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于填报《地质调查项目统计报表》全年预计统计报表的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1386.htm",
+      "publish_date": "2015-11-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于填报2014年地质调查项目津贴的通知",
+      "url": "https://ddy.jlu.edu.cn/info/1009/1387.htm",
+      "publish_date": "2015-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "pagination": [
+    {
+      "start_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-3e3193ebc99c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.71000137925148e-05,
+      "detail_duration_seconds": 7.400056347250938e-06,
+      "parse_db_duration_seconds": 0.0307294997619465
+    },
+    "second_round": {
+      "source": "p3-3e3193ebc99c",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8000020645558834e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-3e3193ebc99c",
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "column": "通知公告",
+    "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_MISMATCH | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:07:33+08:00",
+    "review_time": "2026-10-15T23:00:23+08:00",
+    "http_status": 200,
+    "final_url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "list_pages": 1,
+    "list_items": 10,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://ddy.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-3e3193ebc99c.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

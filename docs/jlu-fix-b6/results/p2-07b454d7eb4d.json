@@ -1,0 +1,653 @@
+{
+  "id": "p2-07b454d7eb4d",
+  "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+  "institution": "通信工程学院",
+  "column": "公示信息",
+  "site_url": "https://dce.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | ATTACHMENT_MISSING | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/07b454d7eb4d329c.json",
+  "discovery_url": "https://dce.jlu.edu.cn/",
+  "original_snapshot": "html/8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684.html",
+  "original_capture_time": "2026-10-13T13:55:21+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-07b454d7eb4d",
+    "name": "通信工程学院 / 公示信息",
+    "base_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:25+08:00",
+  "details": [
+    {
+      "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+      "list_title": "1 转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概...",
+      "list_date": "2026-10-10",
+      "response": {
+        "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+        "time": "2026-10-15T19:41:37+08:00",
+        "ok": true,
+        "final_url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b28fa17fbbf412200c5b59d43c6bdbb5e57f2d1b5e55f62041c17b2b6e25e3b0",
+        "html_path": "html/b28fa17fbbf412200c5b59d43c6bdbb5e57f2d1b5e55f62041c17b2b6e25e3b0.html",
+        "replacement_chars": 0,
+        "chars": 24349,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示",
+        "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+        "publish_date": "2026-10-10",
+        "publisher": null,
+        "content": "根据《关于进一步明确本科生课程考核等有关问题的通知》（校教字[2018]47号）文件有关精神，现对以下课程成绩更正进行公示： 开课学期 2025-2026学年第2学期 课程名称 毛泽东思想和中国特色社会主义理论体系概论 课程号 ae22391004 课序号 71 开课单位 马克思主义学院 任课教师 刘薇,何况,刘薇 联系电话 13843131840 变更理由及 学生基本信息 变更理由：因主观题核算出现错误 通信工程学院通信工程2025级尹翌童24240315 总成绩:83.8 修改为 89.8 公示日期: 2026年_10月_10日至2026年_10月_15日如有异议请于公示期内向本科生院教学运行科反映。 联系人: 邹老师 联系电话: 0431-85168962 相关材料详见附件: 1.吉林大学考核成绩复查、修改登记表 2.学院情况说明（学院教学委员会讨论通过、签字盖章） 3.试卷等相关佐证材料",
+        "attachments": [
+          {
+            "filename": "微信图片_20260928135900_20_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206923",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928074110_2_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206924",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928135901_21_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206921",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928074109_1_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206929",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928074110_2_5 (1).jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206928",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260930101853_4_137.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206927",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928074111_3_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206926",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928074112_4_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206925",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260928135902_22_5.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206922",
+            "type": "jpg"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 403,
+        "reference_attachment_urls": [
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206921",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206922",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206923",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206924",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206925",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206926",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206927",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206928",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18206929"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概论课程成绩更正的公示",
+          "",
+          "发布日期 ： 2026-10-10 作者 ： 点击 ："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期 ： 2026-10-10 作者 ： 点击 ：",
+            "date": "2026-10-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+      "list_title": "2 转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示",
+      "list_date": "2026-09-28",
+      "response": {
+        "url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+        "time": "2026-10-15T19:41:38+08:00",
+        "ok": true,
+        "final_url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c9b6b471f93ae7f80ab58a44bba4fbe36825f1b7c0ffccbe64951c10478fcbc7",
+        "html_path": "html/c9b6b471f93ae7f80ab58a44bba4fbe36825f1b7c0ffccbe64951c10478fcbc7.html",
+        "replacement_chars": 0,
+        "chars": 24805,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示",
+        "url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+        "publish_date": "2026-09-28",
+        "publisher": null,
+        "content": "根据《关于进一步明确本科生课程考核等有关问题的通知》（校教字[2018]47号）文件有关精神，现对以下课程成绩更正进行公示： 开课学期 2025-2026学年第2学期 课程名称 中国近现代史纲要 课程号 ae22391002 课序号 02 开课单位 马克思主义学院 任课教师 邱丽敏,邱丽敏 联系电话 13596160527 变更理由及 学生基本信息 变更理由：2026年春季学科授课结束，老师在登录成绩时遗漏了李厚豫同学的一部分平时成绩。 通信工程学院通信工程2025级李厚豫20251325 总成绩:77.8 修改为 90.8 公示日期: 2026年_9月_28日至2026年_10月_9日如有异议请于公示期内向本科生院教学运行科反映。 联系人: 邹老师 联系电话: 0431-85168962 相关材料详见附件: 1.吉林大学考核成绩复查、修改登记表 2.学院情况说明（学院教学委员会讨论通过、签字盖章） 3.试卷等相关佐证材料",
+        "attachments": [
+          {
+            "filename": "微信图片_20260923161914_11_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204762",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161850_9_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204765",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161841_8_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204766",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161815_5_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204768",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161825_6_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204767",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161903_10_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204760",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161734_2_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204772",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161805_4_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204771",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161718_1_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204770",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161754_3_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204769",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161923_12_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204764",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161832_7_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204763",
+            "type": "jpg"
+          },
+          {
+            "filename": "微信图片_20260923161956_13_9.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204761",
+            "type": "jpg"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 417,
+        "reference_attachment_urls": [
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204760",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204761",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204762",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204763",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204764",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204765",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204766",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204767",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204768",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204769",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204770",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204771",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18204772"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示",
+          "",
+          "发布日期 ： 2026-09-28 作者 ： 点击 ："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期 ： 2026-09-28 作者 ： 点击 ：",
+            "date": "2026-09-28"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+      "list_title": "3 转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示",
+      "list_date": "2026-09-03",
+      "response": {
+        "url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+        "time": "2026-10-15T19:41:39+08:00",
+        "ok": true,
+        "final_url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5f48c47cdd5f507e9fd663cbb216b05f262b4e8cb307acbc2d30b7c4b49bd00c",
+        "html_path": "html/5f48c47cdd5f507e9fd663cbb216b05f262b4e8cb307acbc2d30b7c4b49bd00c.html",
+        "replacement_chars": 0,
+        "chars": 22665,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示",
+        "url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+        "publish_date": "2026-09-03",
+        "publisher": null,
+        "content": "根据《关于进一步明确本科生课程考核等有关问题的通知》（校教字[2018]47号）文件有关精神，现对以下课程成绩更正进行公示： 开课学期 2025-2026学年第2学期 课程名称 光通信原理 课程号 ae22202133 课序号 02 开课单位 通信工程学院 任课教师 张美玲,张美玲,张美玲 联系电话 13596062460 变更理由及 学生基本信息 变更理由：期末考试成绩录入错误 通信工程学院通信工程2023级王廷哲20232114 总成绩:72.0 修改为 79.0 公示日期: 2026年_9月_3日至2026年_9月_9日如有异议请于公示期内向本科生院教学运行科反映。 联系人: 邹老师 联系电话: 0431-85168962 相关材料详见附件: 1.吉林大学考核成绩复查、修改登记表 2.学院情况说明（学院教学委员会讨论通过、签字盖章） 3.试卷等相关佐证材料",
+        "attachments": [
+          {
+            "filename": "教学委员会说明.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191723",
+            "type": "jpg"
+          },
+          {
+            "filename": "吉林大学考核成绩复查、修改登记表 (1).jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191725",
+            "type": "jpg"
+          },
+          {
+            "filename": "试卷及相关材料.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191724",
+            "type": "jpg"
+          },
+          {
+            "filename": "另附说明.jpg",
+            "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191722",
+            "type": "jpg"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示"
+          }
+        ],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 386,
+        "reference_attachment_urls": [
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191722",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191723",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191724",
+          "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18191725"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示",
+          "",
+          "发布日期 ： 2026-09-03 作者 ： 点击 ："
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期 ： 2026-09-03 作者 ： 点击 ：",
+            "date": "2026-09-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+        "time": "2026-10-15T19:29:46+08:00",
+        "ok": true,
+        "final_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684",
+        "html_path": "html/8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684.html",
+        "replacement_chars": 0,
+        "chars": 16214,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dce.jlu.edu.cn/info/1031/11423.htm",
+        "https://dce.jlu.edu.cn/info/1031/11425.htm",
+        "https://dce.jlu.edu.cn/info/1031/11448.htm",
+        "https://dce.jlu.edu.cn/info/1031/11460.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+    "time": "2026-10-15T19:29:46+08:00",
+    "ok": true,
+    "final_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684",
+    "html_path": "html/8996621f422ca910eb46787380a8a4a7be8272887096891b2ec2cd9789cc6684.html",
+    "replacement_chars": 0,
+    "chars": 16214,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "1 转发：关于通信工程学院2024级尹翌童同学毛泽东思想和中国特色社会主义理论体系概...",
+      "url": "https://dce.jlu.edu.cn/info/1031/11460.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2 转发：关于通信工程学院2025级李厚豫同学中国近现代史纲要课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11448.htm",
+      "publish_date": "2026-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "3 转发：关于通信工程学院2023级王廷哲同学光通信原理课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11425.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "4 转发：关于通信工程学院2023级曹郡哲同学无线通信原理课程成绩更正的公示",
+      "url": "https://dce.jlu.edu.cn/info/1031/11423.htm",
+      "publish_date": "2026-09-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 4,
+  "pagination": [
+    {
+      "start_url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+          "parsed_items": 4,
+          "added_items": 4
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-07b454d7eb4d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.5600002370774746e-05,
+      "detail_duration_seconds": 1.0499847121536732e-05,
+      "parse_db_duration_seconds": 0.04498449992388487
+    },
+    "second_round": {
+      "source": "p2-07b454d7eb4d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.189993392676115e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-07b454d7eb4d",
+    "institution": "通信工程学院",
+    "column": "公示信息",
+    "url": "https://dce.jlu.edu.cn/bkjy/gsxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | ATTACHMENT_MISSING | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:46+08:00",
+    "review_time": "2026-10-15T20:21:25+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 4,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-07b454d7eb4d.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

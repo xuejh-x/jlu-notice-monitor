@@ -1,0 +1,138 @@
+[
+  {
+    "url": "https://oa.jlu.edu.cn/",
+    "captured_at": "2026-10-14T21:58:24+08:00",
+    "category": "TLS_EOF",
+    "response": {
+      "url": "https://oa.jlu.edu.cn/",
+      "time": "2026-10-14T21:58:24+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "attempts": 1
+    },
+    "links": []
+  },
+  {
+    "url": "https://dec.jlu.edu.cn/",
+    "captured_at": "2026-10-14T21:58:29+08:00",
+    "category": "HTTP_CONTENT_AVAILABLE_NOT_ADMITTED",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/",
+      "time": "2026-10-14T21:58:29+08:00",
+      "ok": true,
+      "final_url": "https://dec.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "0c90b4e272ad1164cdcda32c14e81c9786ee4b18d2bee337754a8456aaadf320",
+      "html_path": "html/0c90b4e272ad1164cdcda32c14e81c9786ee4b18d2bee337754a8456aaadf320.html",
+      "replacement_chars": 0,
+      "chars": 145410,
+      "attempts": 1
+    },
+    "links": [
+      {
+        "title": "通知公告",
+        "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/"
+      },
+      {
+        "title": "关于对成人教育学生开放“学在吉大”在线课程学习的通知",
+        "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610141493.html"
+      },
+      {
+        "title": "关于发布2026-2027学年第一学期形成性考核方案的通知",
+        "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610131492.html"
+      },
+      {
+        "title": "关于开展2026-2027学年第一学期成人教育实践类课程考核的通知",
+        "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610131491.html"
+      },
+      {
+        "title": "关于2026-2027学年第一学期平时成绩录入的通知",
+        "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610131490.html"
+      }
+    ]
+  },
+  {
+    "url": "https://jwc.jlu.edu.cn/",
+    "captured_at": "2026-10-14T21:58:31+08:00",
+    "category": "HTTP_CONTENT_AVAILABLE_NOT_ADMITTED",
+    "response": {
+      "url": "https://jwc.jlu.edu.cn/",
+      "time": "2026-10-14T21:58:31+08:00",
+      "ok": true,
+      "final_url": "https://jwc.jlu.edu.cn/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "1e11b05c58be168c3cddba4b3b08f92edab54f6fa17034b62003b68fb46a71ab",
+      "html_path": "html/1e11b05c58be168c3cddba4b3b08f92edab54f6fa17034b62003b68fb46a71ab.html",
+      "replacement_chars": 0,
+      "chars": 42246,
+      "attempts": 1
+    },
+    "links": [
+      {
+        "title": "教学公示",
+        "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402"
+      },
+      {
+        "title": "证明书公示",
+        "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm"
+      },
+      {
+        "title": "15 2026-09 关于2026-2027学年第一学期部分课程停开的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm"
+      },
+      {
+        "title": "25 2026-05 本科生院关于面向院内民主推荐正科级干部的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1050/12635.htm"
+      },
+      {
+        "title": "08 2026-01 关于2025-2026学年第二学期部分校公选课停开的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1050/12507.htm"
+      },
+      {
+        "title": "12 2025-09 关于2025-2026学年第一学期部分校公选课停开的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1050/12405.htm"
+      },
+      {
+        "title": "关于2025—2026学年第二学期本科生公共物理《大学物理BII》单独重修班考试的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12658.htm"
+      },
+      {
+        "title": "关于2025—2026学年第二学期本科生公共数学重修班考试的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12655.htm"
+      },
+      {
+        "title": "关于2025-2026学年第二学期《军事理论》课程考试工作安排的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12611.htm"
+      },
+      {
+        "title": "中心校区关于2025—2026学年第一学期《有机化学实验》课程考试工作的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12492.htm"
+      },
+      {
+        "title": "关于2025-2026学年第一学期本科生公共数学 《概率论与数理统计A》 单独重修班考试的通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12491.htm"
+      },
+      {
+        "title": "关于2025-2026学年第一学期《工程制图B》（含重修）考试通知",
+        "url": "https://jwc.jlu.edu.cn/info/1403/12490.htm"
+      }
+    ]
+  },
+  {
+    "url": "http://isc.jlu.edu.cn/",
+    "captured_at": "2026-10-14T21:58:33+08:00",
+    "category": "ROBOTS_UNAVAILABLE",
+    "response": {
+      "url": "http://isc.jlu.edu.cn/",
+      "time": "2026-10-14T21:58:33+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response. <- RemoteProtocolError: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "links": []
+  }
+]

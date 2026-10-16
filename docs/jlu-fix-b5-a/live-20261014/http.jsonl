@@ -1,0 +1,17 @@
+{"url": "https://dec.jlu.edu.cn/robots.txt", "time": "2026-10-14T21:58:30+08:00", "status": 404, "content_type": "text/html", "location": ""}
+{"url": "https://dec.jlu.edu.cn/", "time": "2026-10-14T21:58:31+08:00", "status": 200, "content_type": "text/html", "location": ""}
+{"url": "https://jwc.jlu.edu.cn/robots.txt", "time": "2026-10-14T21:58:32+08:00", "status": 404, "content_type": "text/html", "location": ""}
+{"url": "https://jwc.jlu.edu.cn/", "time": "2026-10-14T21:58:33+08:00", "status": 200, "content_type": "text/html", "location": ""}
+{"url": "https://dec.jlu.edu.cn/html/tzgg1", "time": "2026-10-14T21:59:03+08:00", "status": 301, "content_type": "text/html", "location": "http://dec.jlu.edu.cn/html/tzgg1/"}
+{"url": "http://dec.jlu.edu.cn/robots.txt", "time": "2026-10-14T21:59:04+08:00", "status": 308, "content_type": "text/html", "location": "https://dec.jlu.edu.cn/robots.txt"}
+{"url": "https://dec.jlu.edu.cn/robots.txt", "time": "2026-10-14T21:59:05+08:00", "status": 404, "content_type": "text/html", "location": ""}
+{"url": "http://dec.jlu.edu.cn/html/tzgg1/", "time": "2026-10-14T21:59:06+08:00", "status": 308, "content_type": "text/html", "location": "https://dec.jlu.edu.cn/html/tzgg1"}
+{"url": "https://dec.jlu.edu.cn/html/tzgg1", "time": "2026-10-14T21:59:07+08:00", "status": 301, "content_type": "text/html", "location": "http://dec.jlu.edu.cn/html/tzgg1/"}
+{"url": "http://dec.jlu.edu.cn/html/tzgg1/", "time": "2026-10-14T21:59:08+08:00", "status": 308, "content_type": "text/html", "location": "https://dec.jlu.edu.cn/html/tzgg1"}
+{"url": "https://dec.jlu.edu.cn/html/xljy/tzgg", "time": "2026-10-14T21:59:09+08:00", "status": 301, "content_type": "text/html", "location": "http://dec.jlu.edu.cn/html/xljy/tzgg/"}
+{"url": "http://dec.jlu.edu.cn/html/xljy/tzgg/", "time": "2026-10-14T21:59:10+08:00", "status": 308, "content_type": "text/html", "location": "https://dec.jlu.edu.cn/html/xljy/tzgg"}
+{"url": "https://dec.jlu.edu.cn/html/xljy/tzgg", "time": "2026-10-14T21:59:11+08:00", "status": 301, "content_type": "text/html", "location": "http://dec.jlu.edu.cn/html/xljy/tzgg/"}
+{"url": "http://dec.jlu.edu.cn/html/xljy/tzgg/", "time": "2026-10-14T21:59:12+08:00", "status": 308, "content_type": "text/html", "location": "https://dec.jlu.edu.cn/html/xljy/tzgg"}
+{"url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402", "time": "2026-10-14T21:59:13+08:00", "status": 302, "content_type": "text/html;charset=UTF-8", "location": "/system/resource/code/auth/ipauth.htm"}
+{"url": "https://jwc.jlu.edu.cn/system/resource/code/auth/ipauth.htm", "time": "2026-10-14T21:59:15+08:00", "status": 200, "content_type": "text/html", "location": ""}
+{"url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202610141493.html", "time": "2026-10-14T21:59:15+08:00", "status": 200, "content_type": "text/html", "location": ""}

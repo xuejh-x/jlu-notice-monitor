@@ -1,0 +1,596 @@
+{
+  "id": "p2-d18f7a59a9bc",
+  "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+  "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+  "column": "通知报道",
+  "site_url": "https://ccst.jlu.edu.cn/",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/d18f7a59a9bcf378.json",
+  "discovery_url": "https://ccst.jlu.edu.cn/",
+  "original_snapshot": "html/09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77.html",
+  "original_capture_time": "2026-10-13T13:54:19+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-d18f7a59a9bc",
+    "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 通知报道",
+    "base_url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:28+08:00",
+  "details": [
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+      "list_title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告",
+      "list_date": "2025-06-10",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+        "time": "2026-10-15T19:41:56+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e2cd2bbdb8a85d008198bbc9be8eddd972280af78efc4d3aa76097322144e1fc",
+        "html_path": "html/e2cd2bbdb8a85d008198bbc9be8eddd972280af78efc4d3aa76097322144e1fc.html",
+        "replacement_chars": 0,
+        "chars": 13186,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告",
+        "url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+        "publish_date": "2025-06-10",
+        "publisher": null,
+        "content": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告 按照《关于深入贯彻中央八项规定精神学习教育的实施方案》（院党 发 〔 2025〕 3 号），为做好开门教育，设立深入贯彻中央八项规定精神学习教育网络意见箱，面向广大师生征求意见和建议。 一、 征求内容 该网络意见箱主要用于收集广大师生员工对学院党委及领导班子成员、各党支部和党员干部在贯彻落实中央八项规定精神方面的意见和建议，包括但不限于形式主义、官僚主义问题，违反廉洁自律规定的行为，以及改进工作作风、提升工作效能等方面的意见和建议。 二、征求渠道 电子邮箱： changyue@jlu.edu.cn 三、 意见处理 对收到的意见和建议，我们将认真梳理、分析、研究，作为加强和改进工作作风的重要依据，切实推动中央八项规定精神在学校落地见效。同时，我们将严格保护反馈人的个人信息和隐私。 感谢您的关心和支持！ 特此公告！ 计算机科学与技术学院党委 2025年6月10 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-06-10 发布人： 点击量：",
+            "date": "2025-06-10"
+          },
+          {
+            "text": "发布日期：2025-06-10",
+            "date": "2025-06-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 414,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-06-10 发布人： 点击量：",
+            "date": "2025-06-10"
+          },
+          {
+            "text": "发布日期：2025-06-10",
+            "date": "2025-06-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+      "list_title": "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会",
+      "list_date": "2024-07-09",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+        "time": "2026-10-15T19:41:57+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "409cbeb6b61363a0e8727a73cb891d94754e0ce6b94b2a751d84c0159f882e3a",
+        "html_path": "html/409cbeb6b61363a0e8727a73cb891d94754e0ce6b94b2a751d84c0159f882e3a.html",
+        "replacement_chars": 0,
+        "chars": 17978,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会",
+        "url": "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+        "publish_date": "2024-07-09",
+        "publisher": null,
+        "content": "为庆祝中国共产党成立 103周年，充分展示学院党委基层党 支部 和党员在各项工作中取得的丰硕成果和精神风范，大力弘扬信念坚定、对党忠诚、勇于担当、无私奉献的崇高品格， 7 月 1 日， 计算机科学与技术学院 党委 在王湘浩楼 B108报告厅 召开 “两优一先”表彰大会，对优秀党员、优秀党务工作者和先进基层党 支部 进行表彰，学院全体领导班子成员、党委委员、纪委委员、党支部书记、支部委员、受表彰人员和师生党员代表 130余 人参加了本次表彰大会。会议由 院长杨博 同志主持。大会在雄壮的国歌声中拉开帷幕。 首先，党委副书记 杜天宝 同志带领与会全体党员面向鲜红党旗，重温入党誓词，用铿锵有力的誓言，表达对党的庄严承诺和为党为人民服务的坚定信念。随后，党委副书记 高战国 同志宣读了《中共吉林大学计算机科学与技术学院委员会关于表彰优秀共产党员、优秀党务工作者和先进基层党支部的决定》 ， 与会领导为获奖 支部 和个人颁发了荣誉证书。 优秀党员代表 刘宇舟、侯星宇 ， 优秀党务工作者代表 刘小华 、先进基层党 支部代表许志军 分别上台发言，分享了他们 和 他们所在集体永葆初心使命、坚守责任担当，发扬党的优良作风和光荣传统，发挥基层 党支部 战斗堡垒作用和共产党员先锋模范作用的先进事迹和宝贵经验。 学院党委书记 宫皓宇 向受表彰的集体和个人表示衷心祝贺，并指出：近年来， 学院党委坚持 以党建为引领，团结依靠全院各 党支部 、全体党员和广大师生员工，埋头苦干，奋进拼搏，在学科建设、人才培养、科学研究等方面取得了骄人的成绩。成绩的取得是广大师生团结奋斗的结果，凝结着党员同志的心血和汗水。受到表彰的优秀共产党员、优秀党务工作者和先进基层党 支部 是近年来在加强党的建设、推动学院中心工作中涌现出来的先进集体和优秀个人，他们紧密围绕高校立德树人根本任务，踔厉奋发、务实奋进，努力发扬党的优良作风和光荣传统，在推进 学院 高质量发展进程中发挥了积极的作用。 宫皓宇 强调：希望受到表彰的党组织和共产党员珍惜荣誉，再接再厉，继续发挥共产党员的先锋模范作用 ：一是坚定理想信念，不忘初心使命；二是加强党的建设，提高党组织的凝聚力和战斗力；三是发挥党建文化培育作用，持续将红色基因的传承深度融入立德树人全过程。历史昭示未来，沧桑成就正道，计算机科学与技术学院全体党员必将以最坚定、最忠诚、最实在的行动向党的生日献礼！ 大会在庄严的《国际歌》中圆满结束。 https://ccst.jlu.edu.cn/__local/B/14/29/A1B09704C8A9C99A5C12A33991C_6C05F494_556459.jpg https://ccst.jlu.edu.cn/__local/8/B0/22/2BD4B29A14DD1DA832B6A5C06E6_153C578E_345A2.jpg https://ccst.jlu.edu.cn/__local/1/73/B1/FE1296D6DC7DEF51E6021010CED_1328C698_6E0D35.jpg https://ccst.jlu.edu.cn/__local/6/8A/6A/6D6AA93032FE2A982BEDEB21154_C761A8CD_A428C.jpg https://ccst.jlu.edu.cn/__local/D/45/94/D291A9DE2C586928211790BDFD2_EDCC6281_44AE3.jpg https://ccst.jlu.edu.cn/__local/B/33/FD/2BB1136FA1A49F108E6078A2372_67067428_29932.jpg https://ccst.jlu.edu.cn/__local/7/7E/7A/F3B44B8DB5BEDA91E15D26F303F_5BD1D2A8_20592.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会"
+          },
+          {
+            "selector": "h1.title",
+            "title": "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-07-09 发布人： 点击量：",
+            "date": "2024-07-09"
+          },
+          {
+            "text": "发布日期：2024-07-09",
+            "date": "2024-07-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1022,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2024-07-09 发布人： 点击量：",
+            "date": "2024-07-09"
+          },
+          {
+            "text": "发布日期：2024-07-09",
+            "date": "2024-07-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+      "list_title": "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”",
+      "list_date": "2024-07-09",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+        "time": "2026-10-15T19:41:58+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "21aac73380c71bf4781445be15570be442acad50fab44d02c14be267a7503974",
+        "html_path": "html/21aac73380c71bf4781445be15570be442acad50fab44d02c14be267a7503974.html",
+        "replacement_chars": 0,
+        "chars": 13855,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”",
+        "url": "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+        "publish_date": "2024-07-09",
+        "publisher": null,
+        "content": "为扎实推进党纪学习教育，进一步强化毕业生党员教育，激励毕业生党员争做有理想、敢担当、能吃苦、肯奋斗的新时代好青年，在毕业生群体中充分发挥模范带头作用， 6月 20 日 下午 ， 计算机科学与技术学院、软件学院 2024届毕业生党员“最后一 次党 课 ”在 王湘浩楼 A108报告厅 成功举办。学院党委 书记宫皓宇、党委副书记张达鑫 、 毕业生辅导员、 各学生支部书记以及全体 2024届毕业生党员参加了本次活动。活动由 党委副书记侯晓宇 主持。 会议伊始，宫皓宇 以 “ 严守党纪践初心 ·奋发有为担使命 ” 为主题，为毕业生党员送上了一堂内容丰富的党课。他 从党纪学习教育整体部署安排、党纪学习教育需明晰的几个方面、 “条例”制定和修订过程、修订重点和意义、党的纪律建设历程、示例等方面，结合当前国家发展大局和青年成长成才的需求，勉励毕业生党员以“五要”加强终身教育：一要坚定共产党人理想信念；二要牢固树立党的意识、党员意识；三要强化党的宗旨意识；四要积极践行社会主义核心价值观；五要始终做到心中有戒。在授课的最后，宫皓宇同志祝福各位毕业生党员发展越来越好，以实际行动和更加优异的成绩为党旗和母校增辉！ 最后，计算机科学与技术学院毕业生党员代表郭泽阳同志带领全体党员面向党旗庄严宣誓，在铮铮誓言中重温入党初心，坚定理想信念，牢记职责使命。 https://ccst.jlu.edu.cn/__local/3/8B/25/F5C11F71391AF58AA946DF5FD2B_1086D162_4FE6C4.jpg https://ccst.jlu.edu.cn/__local/0/6F/32/214F1B000AE5DF2A3CEF89D7ACF_1E91B13A_482CAF.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”"
+          },
+          {
+            "selector": "h1.title",
+            "title": "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2024-07-09 发布人： 点击量：",
+            "date": "2024-07-09"
+          },
+          {
+            "text": "发布日期：2024-07-09",
+            "date": "2024-07-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 570,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2024-07-09 发布人： 点击量：",
+            "date": "2024-07-09"
+          },
+          {
+            "text": "发布日期：2024-07-09",
+            "date": "2024-07-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+        "time": "2026-10-15T19:29:53+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77",
+        "html_path": "html/09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77.html",
+        "replacement_chars": 0,
+        "chars": 11745,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccst.jlu.edu.cn/info/1077/19342.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19375.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19384.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19711.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+        "https://ccst.jlu.edu.cn/info/1077/20442.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "time": "2026-10-15T19:29:53+08:00",
+    "ok": true,
+    "final_url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77",
+    "html_path": "html/09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77.html",
+    "replacement_chars": 0,
+    "chars": 11745,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告",
+      "url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+      "publish_date": "2025-06-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委隆重举行庆祝中国共产党成立103周年暨“两优一先” 表彰大会",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+      "publish_date": "2024-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委书记宫皓宇为2024届毕业生讲授“最后一次党课”",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+      "publish_date": "2024-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委组织师生观看重大革命历史题材电影《周恩来与乌兰牧骑》",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19711.htm",
+      "publish_date": "2024-07-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委召开统一战线工作领导小组专题会议",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19384.htm",
+      "publish_date": "2024-05-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委召开党委理论学习中心组（扩大）集体学习会议暨党纪学习教育读书班开班仪式",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19375.htm",
+      "publish_date": "2024-05-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "计算机科学与技术学院党委召开2024年全面从严治党工作会议暨警示教育大会",
+      "url": "https://ccst.jlu.edu.cn/info/1077/19342.htm",
+      "publish_date": "2024-05-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 7,
+  "pagination": [
+    {
+      "start_url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+          "parsed_items": 7,
+          "added_items": 7
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-d18f7a59a9bc",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3699987903237343e-05,
+      "detail_duration_seconds": 5.900044925510883e-06,
+      "parse_db_duration_seconds": 0.028691799961961806
+    },
+    "second_round": {
+      "source": "p2-d18f7a59a9bc",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.2899981811642647e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-d18f7a59a9bc",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "通知报道",
+    "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:53+08:00",
+    "review_time": "2026-10-15T20:21:28+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 7,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-d18f7a59a9bc.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

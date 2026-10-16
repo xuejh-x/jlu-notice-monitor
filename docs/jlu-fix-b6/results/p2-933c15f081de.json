@@ -1,0 +1,876 @@
+{
+  "id": "p2-933c15f081de",
+  "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+  "institution": "物理学院",
+  "column": "教学通知",
+  "site_url": "https://phy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/933c15f081de2de3.json",
+  "discovery_url": "https://phy.jlu.edu.cn/rcpy/bksjy/BKZX.htm",
+  "original_snapshot": "html/5619821b5952d2feaf733a06946e9226116ce9d638bfc30d164fec7501d1c5c5.html",
+  "original_capture_time": "2026-10-13T13:41:31+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-933c15f081de",
+    "name": "物理学院 / 教学通知",
+    "base_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:12+08:00",
+  "details": [
+    {
+      "url": "https://phy.jlu.edu.cn/info/1033/7278.htm",
+      "list_title": "13 / 2026-10 吉林大学物理学院2027年推免生拟录取名单公示（第二批）",
+      "list_date": "",
+      "response": {
+        "url": "https://phy.jlu.edu.cn/info/1033/7278.htm",
+        "time": "2026-10-15T19:40:16+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/info/1033/7278.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8cf9c3afdac397ac78a36263fefe3cfe01db983e3bd7829d6f7006693f221115",
+        "html_path": "html/8cf9c3afdac397ac78a36263fefe3cfe01db983e3bd7829d6f7006693f221115.html",
+        "replacement_chars": 0,
+        "chars": 26547,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学物理学院2027年推免生拟录取名单公示（第二批）",
+        "url": "https://phy.jlu.edu.cn/info/1033/7278.htm",
+        "publish_date": "2026-10-13",
+        "publisher": null,
+        "content": "我院2027年推免生复试（第二批）工作已经结束，现将吉林大学物理学院2027年推免生拟录取名单（第二批）予以公示，详见附件。 公示期为：2026年10月13日-10月15日。 如有异议，可向学院反映。 联系人：宇老师 联系电话：0431-85167955 联系邮箱：yupengfei@jlu.edu.cn 吉林大学物理学院 2026年10月13日",
+        "attachments": [
+          {
+            "filename": "吉林大学物理学院2027年推免生拟录取名单（第二批）.pdf",
+            "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18208006",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学物理学院2027年推免生拟录取名单公示（第二批）"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-13 14:37:14 点击：",
+            "date": "2026-10-13"
+          },
+          {
+            "text": "时间：2026-10-13 14:37:14",
+            "date": "2026-10-13"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 174,
+        "reference_attachment_urls": [
+          "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18208006"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学物理学院2027年推免生拟录取名单公示（第二批）"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/info/1033/7262.htm",
+      "list_title": "09 / 2026-10 物理学院2026年度研究生学业奖学金评审委员会名单及评审细则公示",
+      "list_date": "",
+      "response": {
+        "url": "https://phy.jlu.edu.cn/info/1033/7262.htm",
+        "time": "2026-10-15T19:40:17+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/info/1033/7262.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "aa7ed4b2b292e979ba98748bf627b10ca2330ec0ba323fb51a254739380d01d8",
+        "html_path": "html/aa7ed4b2b292e979ba98748bf627b10ca2330ec0ba323fb51a254739380d01d8.html",
+        "replacement_chars": 0,
+        "chars": 25787,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "物理学院2026年度研究生学业奖学金评审委员会名单及评审细则公示",
+        "url": "https://phy.jlu.edu.cn/info/1033/7262.htm",
+        "publish_date": "2026-10-09",
+        "publisher": null,
+        "content": "根据《吉林大学研究生学业奖学金评审办法》（校发〔2025〕301号）文件精神 及学校研究生学业奖学金评审工作相关要求 ，现将《物理学院2026年度研究生学业奖学金评审委员会名单》和《物理学院研究生学业奖学金评定细则（2026年7月修订）》予以公示，详见附件。 公示时间：2026年10月9日—2026年10月12日。如有异议，请在公示期内实名以书面形式向学院反映。 联系人：曹老师 邮箱：caopeng35@jlu.edu.cn 联系电话：0431-85167955 吉林大学物理学院 2026年10月9日",
+        "attachments": [
+          {
+            "filename": "物理学院研究生评奖德育表现评分标准（2026年7月修订）.pdf",
+            "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206668",
+            "type": "pdf"
+          },
+          {
+            "filename": "物理学院研究生评奖学术成果评分标准（2026年7月修订）.pdf",
+            "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206669",
+            "type": "pdf"
+          },
+          {
+            "filename": "物理学院研究生学业奖学金评定细则（2026年7月修订）.pdf",
+            "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206670",
+            "type": "pdf"
+          },
+          {
+            "filename": "物理学院2026年度研究生学业奖学金评审委员会名单.pdf",
+            "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206667",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "物理学院2026年度研究生学业奖学金评审委员会名单及评审细则公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-10-09 15:16:29 点击：",
+            "date": "2026-10-09"
+          },
+          {
+            "text": "时间：2026-10-09 15:16:29",
+            "date": "2026-10-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 253,
+        "reference_attachment_urls": [
+          "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206667",
+          "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206668",
+          "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206669",
+          "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206670"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "物理学院2026年度研究生学业奖学金评审委员会名单及评审细则公示"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/info/1033/7236.htm",
+      "list_title": "24 / 2026-09 关于物理学院2026-2027学年第一学期研究生课程教材选用情况的公示",
+      "list_date": "",
+      "response": {
+        "url": "https://phy.jlu.edu.cn/info/1033/7236.htm",
+        "time": "2026-10-15T19:40:18+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/info/1033/7236.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8c8a01c9631f4a3154086cbe6a9ec3ecdea8309618e8086a0506bc4a7014ecfb",
+        "html_path": "html/8c8a01c9631f4a3154086cbe6a9ec3ecdea8309618e8086a0506bc4a7014ecfb.html",
+        "replacement_chars": 0,
+        "chars": 31031,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于物理学院2026-2027学年第一学期研究生课程教材选用情况的公示",
+        "url": "https://phy.jlu.edu.cn/info/1033/7236.htm",
+        "publish_date": "2026-09-24",
+        "publisher": null,
+        "content": "现对物理学院 2026-2027 学年第一学期研究生课程教材选用情况予以公示。 公示地点：物理楼 445 研究生办公室 公示期： 2026 年 9 月 24 日 -2026年9 月 29 日 如有疑问，请联系物理学院研究生办公室 电话： 0431-85167955 联系人：于老师。 吉林大学物理学院 2026 年 9 月 24 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于物理学院2026-2027学年第一学期研究生课程教材选用情况的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2026-09-24 15:08:03 点击：",
+            "date": "2026-09-24"
+          },
+          {
+            "text": "时间：2026-09-24 15:08:03",
+            "date": "2026-09-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 166,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于物理学院2026-2027学年第一学期研究生课程教材选用情况的公示"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+        "time": "2026-10-15T19:29:18+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c5d444e84858dc8dd88c621b90a2d8c434a5333e4aa0f7d30fe388c000d50904",
+        "html_path": "html/c5d444e84858dc8dd88c621b90a2d8c434a5333e4aa0f7d30fe388c000d50904.html",
+        "replacement_chars": 0,
+        "chars": 26779,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://phy.jlu.edu.cn/info/1033/7237.htm",
+        "https://phy.jlu.edu.cn/info/1033/7238.htm",
+        "https://phy.jlu.edu.cn/info/1033/7241.htm",
+        "https://phy.jlu.edu.cn/info/1033/7249.htm",
+        "https://phy.jlu.edu.cn/info/1033/7252.htm",
+        "https://phy.jlu.edu.cn/info/1033/7258.htm",
+        "https://phy.jlu.edu.cn/info/1033/7260.htm",
+        "https://phy.jlu.edu.cn/info/1033/7261.htm",
+        "https://phy.jlu.edu.cn/info/1033/7262.htm",
+        "https://phy.jlu.edu.cn/info/1033/7278.htm"
+      ],
+      "observed_next_urls": [
+        "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz/29.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz/29.htm",
+        "time": "2026-10-15T19:40:15+08:00",
+        "ok": true,
+        "final_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz/29.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "99a564ef07e5f7915d6eee64260fb96f1012dc507e960ce4c1097b3c37638441",
+        "html_path": "html/99a564ef07e5f7915d6eee64260fb96f1012dc507e960ce4c1097b3c37638441.html",
+        "replacement_chars": 0,
+        "chars": 27212,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://phy.jlu.edu.cn/info/1033/7111.htm",
+        "https://phy.jlu.edu.cn/info/1033/7181.htm",
+        "https://phy.jlu.edu.cn/info/1033/7193.htm",
+        "https://phy.jlu.edu.cn/info/1033/7199.htm",
+        "https://phy.jlu.edu.cn/info/1033/7218.htm",
+        "https://phy.jlu.edu.cn/info/1033/7223.htm",
+        "https://phy.jlu.edu.cn/info/1033/7225.htm",
+        "https://phy.jlu.edu.cn/info/1033/7228.htm",
+        "https://phy.jlu.edu.cn/info/1033/7232.htm",
+        "https://phy.jlu.edu.cn/info/1033/7236.htm"
+      ],
+      "observed_next_urls": [
+        "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz/28.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "time": "2026-10-15T19:29:18+08:00",
+    "ok": true,
+    "final_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c5d444e84858dc8dd88c621b90a2d8c434a5333e4aa0f7d30fe388c000d50904",
+    "html_path": "html/c5d444e84858dc8dd88c621b90a2d8c434a5333e4aa0f7d30fe388c000d50904.html",
+    "replacement_chars": 0,
+    "chars": 26779,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "13 / 2026-10 吉林大学物理学院2027年推免生拟录取名单公示（第二批）",
+      "url": "https://phy.jlu.edu.cn/info/1033/7278.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "09 / 2026-10 物理学院2026年度研究生学业奖学金评审委员会名单及评审细则公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7262.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "09 / 2026-10 物理学院2026年度研究生国家奖学金评审委员会名单及评审细则公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7261.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "09 / 2026-10 凝聚育人思想共识，夯实研究生思政工作 —— 物理学院召开研究生评奖评优工作务虚会",
+      "url": "https://phy.jlu.edu.cn/info/1033/7260.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "09 / 2026-10 关于公布吉林大学物理学院2027年接收推荐免试攻读研究生复试名单（第二批）的通知",
+      "url": "https://phy.jlu.edu.cn/info/1033/7258.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "30 / 2026-09 物理学院2026年“国家优秀中小学教师培养计划”研究生遴选结果公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7252.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "29 / 2026-09 吉林大学第十九届博士生国际学术论坛——物理分论坛征稿通知",
+      "url": "https://phy.jlu.edu.cn/info/1033/7249.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "25 / 2026-09 吉林大学物理学院物理学专业（专业代码070200）2027年接收推荐免试攻读研究生招生录取工作通知（第二批...",
+      "url": "https://phy.jlu.edu.cn/info/1033/7241.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "24 / 2026-09 物理学院2025-2026学年研究生评奖评优评审委员会名单及评审细则公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7238.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "24 / 2026-09 关于物理学院陶硕老师2027年度补充研究生招生资格审核通过的公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7237.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "24 / 2026-09 关于物理学院2026-2027学年第一学期研究生课程教材选用情况的公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7236.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "23 / 2026-09 吉林大学物理学院2027年推免生拟录取名单公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7232.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "21 / 2026-09 物理学院2026级研究生“科研第一课”：邹勃院长讲授科学道德与文化自信",
+      "url": "https://phy.jlu.edu.cn/info/1033/7228.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "21 / 2026-09 物理学院举办2026级研究生新生见面会",
+      "url": "https://phy.jlu.edu.cn/info/1033/7225.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "21 / 2026-09 物理学院开展2026级研究生新生系列入学教育",
+      "url": "https://phy.jlu.edu.cn/info/1033/7223.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "19 / 2026-09 关于公布吉林大学物理学院2027年接收推荐免试攻读研究生复试名单的通知",
+      "url": "https://phy.jlu.edu.cn/info/1033/7218.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "17 / 2026-09 物理学院关于评选2026年度宝钢优秀学生奖（研究生）拟推荐人选的公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7199.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "14 / 2026-09 吉林大学物理学院物理学专业（专业代码070200）2027年接收推荐免试攻读研究生招生录取工作通知",
+      "url": "https://phy.jlu.edu.cn/info/1033/7193.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "09 / 2026-09 吉林大学物理学院2027年国家优秀中小学教师培养计划专项推免生拟录取名单公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7181.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "13 / 2026-07 物理学院2025年度研究生学术业绩奖学金评定工作委员会、监督委员会名单及评定细则公示",
+      "url": "https://phy.jlu.edu.cn/info/1033/7111.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz/29.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-933c15f081de",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3199984095990658e-05,
+      "detail_duration_seconds": 6.8999361246824265e-06,
+      "parse_db_duration_seconds": 0.029879100038670003
+    },
+    "second_round": {
+      "source": "p2-933c15f081de",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.279998105019331e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-933c15f081de",
+    "institution": "物理学院",
+    "column": "教学通知",
+    "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:18+08:00",
+    "review_time": "2026-10-15T20:21:12+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-933c15f081de.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

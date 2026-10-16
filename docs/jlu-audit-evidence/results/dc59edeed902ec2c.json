@@ -1,0 +1,106 @@
+{
+  "column_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+  "column": "招聘信息",
+  "institution": "集成光电子全国重点实验室",
+  "site_url": "http://sklio.jlu.edu.cn/",
+  "category": "研究机构",
+  "priority": "P3",
+  "discovery_url": "http://sklio.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:45:57+08:00",
+  "checked_at": "2026-10-13T14:05:17+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DETAIL_DATE_DIFFERENCE",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+      "list_title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+      "parsed_title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+      "document_title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事-集成光电子全国重点实验室",
+      "heading_texts": [
+        "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事"
+      ],
+      "title_verified": true,
+      "list_date": "2015-01-04",
+      "parsed_date": "2014-10-25",
+      "reference_date": "",
+      "body_selector": ".v_news_content",
+      "content_chars": 740,
+      "content_preview": "校内外相关单位和人员： 根据工作需要，经学校人社处批准，集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员2人。有关事宜通知如下： 一、招聘条件 1.具有较高的政治素质，愿意从事实验技术岗位工作，爱岗敬业，勤奋踏实，吃苦耐劳，动手能力强，身心健康，有强烈的事业心和责任感，有良好的团结协作精神和奉献精神； 2.2014年应届电子科学与技术及相关专业硕士或博士毕业生，同时初始学历为普通高等教育招生计划内（不含独立学院）本科毕业并获学士学位； 3.不超过30周岁（1984年及以后出生）； 4.能够胜任电子科学与技术相关专业仪器设备的自动化管理、研制开发、实验教学等工作以及实验室指定的日常事务。 岗位一：熟悉电路电子系统设计、制作以及材料生长和表征工艺，从事蒸发、溅射、CVD、XRD等材料生长和表征、光电电子测试等大中型设备的功能开发与升级改造； 岗位二：熟悉电子显微镜的工作原理与操",
+      "content_sha256": "210150308baedd1c947e33b6d134393ef857e395374df6704d83be051d457c0a",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "LIST_DETAIL_DATE_DIFFERENCE"
+      ],
+      "time": "2026-10-13T14:05:18+08:00",
+      "sha256": "365e0198d132fe84aff1f7c95ad9a1b39af9b4096a97970cc3e8ecaf7da11c80",
+      "snapshot": "html/365e0198d132fe84aff1f7c95ad9a1b39af9b4096a97970cc3e8ecaf7da11c80.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "集成光电子学国家重点联合实验室吉林大学实验区公开招聘实验技术人员启事",
+      "url": "http://sklio.jlu.edu.cn/info/1051/1059.htm",
+      "publish_date": "2015-01-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "招聘信息测试",
+      "url": "http://sklio.jlu.edu.cn/info/1051/1058.htm",
+      "publish_date": "2014-01-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/dc59edeed902ec2c.json",
+  "reason": "LIST_DETAIL_DATE_DIFFERENCE; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+  "list_sha256": "60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0",
+  "list_snapshot": "html/60830b06b67ed1d4fb8f1bfe8b9381bf7df350a68fa6436ef1c31292a9c53ef0.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 2,
+  "unparsed_reference_links": []
+}

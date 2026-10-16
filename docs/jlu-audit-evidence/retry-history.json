@@ -1,0 +1,580 @@
+[
+  {
+    "previous": {
+      "url": "http://isc.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:59:30+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://isc.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:24+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "http://www.legal-theory.org/robots.txt",
+      "time": "2026-10-13T13:45:24+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://www.legal-theory.org/robots.txt",
+      "time": "2026-10-13T14:09:24+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "http://zzb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:34:13+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://zzb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:37+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://bmb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:33:53+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://bmb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:42+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://cw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:35:16+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://cw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:47+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://jgdw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:34:20+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://jgdw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:52+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://jjw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:33:59+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://jjw.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:09:57+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://lab.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:37:23+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://lab.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:02+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://oa.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:48:46+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://oa.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:07+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://sjc.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:35:22+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://sjc.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:12+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://www.jdyy.cn/robots.txt",
+      "time": "2026-10-13T13:44:05+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://www.jdyy.cn/robots.txt",
+      "time": "2026-10-13T14:10:17+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://www.legal-theory.org/robots.txt",
+      "time": "2026-10-13T13:49:20+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://www.legal-theory.org/robots.txt",
+      "time": "2026-10-13T14:10:18+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://xinfang.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:34:07+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://xinfang.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:32+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://xyk.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:38:01+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://xyk.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:37+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://yjs.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:52:22+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://yjs.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:42+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://zzb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T13:49:12+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://zzb.jlu.edu.cn/robots.txt",
+      "time": "2026-10-13T14:10:54+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "http://isc.jlu.edu.cn/oaindex.htm",
+      "time": "2026-10-13T13:59:30+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://isc.jlu.edu.cn/oaindex.htm",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "http://www.legal-theory.org/",
+      "time": "2026-10-13T13:45:24+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://www.legal-theory.org/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "http://zzb.jlu.edu.cn/",
+      "time": "2026-10-13T13:34:13+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "http://zzb.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://bmb.jlu.edu.cn/",
+      "time": "2026-10-13T13:33:53+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://bmb.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://cw.jlu.edu.cn/",
+      "time": "2026-10-13T13:35:16+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://cw.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://jdkq.jlu.edu.cn/%3Cspan%20style%3D%27color:red%3Bfont-size:9pt%27%3E%E8%BD%AC%E6%8D%A2%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF%3C/span%3E",
+      "time": "2026-10-13T13:44:20+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Client error '400 Bad Request' for url 'https://jdkq.jlu.edu.cn/%3Cspan%20style%3D%27color:red%3Bfont-size:9pt%27%3E%E8%BD%AC%E6%8D%A2%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF%3C/span%3E'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "status": 400,
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://jdkq.jlu.edu.cn/%3Cspan%20style%3D%27color:red%3Bfont-size:9pt%27%3E%E8%BD%AC%E6%8D%A2%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF%3C/span%3E",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "SourceError: Source request failed: Client error '400 Bad Request' for url 'https://jdkq.jlu.edu.cn/%3Cspan%20style%3D%27color:red%3Bfont-size:9pt%27%3E%E8%BD%AC%E6%8D%A2%E9%93%BE%E6%8E%A5%E9%94%99%E8%AF%AF%3C/span%3E'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "status": 400,
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://jgdw.jlu.edu.cn/",
+      "time": "2026-10-13T13:34:20+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://jgdw.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://jjw.jlu.edu.cn/",
+      "time": "2026-10-13T13:33:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://jjw.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://lab.jlu.edu.cn/",
+      "time": "2026-10-13T13:37:23+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://lab.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://oa.jlu.edu.cn/",
+      "time": "2026-10-13T13:48:46+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://oa.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-13T13:51:44+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/login.jsp",
+      "time": "2026-10-13T13:59:33+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://oa.jlu.edu.cn/defaultroot/login.jsp",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://sjc.jlu.edu.cn/",
+      "time": "2026-10-13T13:35:22+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://sjc.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://www.jdyy.cn/",
+      "time": "2026-10-13T13:44:05+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://www.jdyy.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://www.legal-theory.org/",
+      "time": "2026-10-13T13:49:20+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://www.legal-theory.org/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://xinfang.jlu.edu.cn/",
+      "time": "2026-10-13T13:34:07+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://xinfang.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://xyk.jlu.edu.cn/",
+      "time": "2026-10-13T13:38:01+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://xyk.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+      "time": "2026-10-13T13:52:22+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://zsb.jlu.edu.cn/",
+      "time": "2026-10-13T13:49:34+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: RuntimeError: ACCESS_RESTRICTED_HTTP_403: https://zsb.jlu.edu.cn/robots.txt",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://zsb.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: RuntimeError: ACCESS_RESTRICTED_HTTP_403: https://zsb.jlu.edu.cn/robots.txt",
+      "attempts": 2
+    }
+  },
+  {
+    "previous": {
+      "url": "https://zzb.jlu.edu.cn/",
+      "time": "2026-10-13T13:49:12+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 1
+    },
+    "rechecked": {
+      "url": "https://zzb.jlu.edu.cn/",
+      "time": "2026-10-13T14:10:59+08:00",
+      "ok": false,
+      "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ",
+      "attempts": 2
+    }
+  }
+]

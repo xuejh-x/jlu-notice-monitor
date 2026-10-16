@@ -1,0 +1,84 @@
+{
+  "column_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+  "column": "招生信息",
+  "institution": "集成光电子全国重点实验室",
+  "site_url": "http://sklio.jlu.edu.cn/",
+  "category": "研究机构",
+  "priority": "P3",
+  "discovery_url": "http://sklio.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:45:57+08:00",
+  "checked_at": "2026-10-13T14:05:14+08:00",
+  "status": "部分通过",
+  "issues": [
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+      "list_title": "2014年硕士研究生招生专业目录",
+      "parsed_title": "2014年硕士研究生招生专业目录",
+      "document_title": "2014年硕士研究生招生专业目录-集成光电子全国重点实验室",
+      "heading_texts": [
+        "2014年硕士研究生招生专业目录"
+      ],
+      "title_verified": true,
+      "list_date": "2014-11-20",
+      "parsed_date": "2014-11-20",
+      "reference_date": "",
+      "body_selector": ".v_news_content",
+      "content_chars": 910,
+      "content_preview": "专业代码、名称及研究方向 人 数 考试科目 备 注 501电子科学与工程学院（学制3年） （联系电话：0431-85168416 联系人：吕清华） 42 / / 080901物理电子学 01纳米光电子学 02光波导器件 03光波导理论与光电子器件CAD 04光子晶体与光纤器件 05超快光电转换 06微纳器件与系统 10 ①101思想政治理论 ②201英语一 ③301数学一 ④893光学或894半导体物理与器件 复试科目：电磁学或半导体器件；招收跨学科考生，不加试。 080903微电子学与固体电子学 01半导体物理 02半导体光电子学 03半导体器件物理 04微电子学 05电子功能材料及元器件 06先进传感技术 07高速光电子学 26 ①101思想政治理论 ②201英语一或202俄语或203日语 ③301数学一 ④894半导体物理与器件或896半导体物理与材料 复试科目：半导体器件或电子功能",
+      "content_sha256": "97903c38b20dde856d75c9eefb54580ca614c75db8c1247d14a3079764f88a1b",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [],
+      "time": "2026-10-13T14:05:16+08:00",
+      "sha256": "b53b80e69bec5f29774953a8e34d18a24ddd7bb3f99a711174563853133be251",
+      "snapshot": "html/b53b80e69bec5f29774953a8e34d18a24ddd7bb3f99a711174563853133be251.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2014年硕士研究生招生专业目录",
+      "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+      "publish_date": "2014-11-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/531d956cfe3983e7.json",
+  "reason": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+  "list_sha256": "1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845",
+  "list_snapshot": "html/1f82692eae79557ec4c36666b0177352bf9120fe58dc401e2f32c2bdb887a845.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

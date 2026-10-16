@@ -1,0 +1,592 @@
+{
+  "id": "p2-b7cdb55d51ad",
+  "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+  "institution": "动物科学学院",
+  "column": "就业信息",
+  "site_url": "https://dwkx.jlu.edu.cn/",
+  "old_status": "完全通过",
+  "old_issues": "",
+  "original_evidence": "docs/jlu-audit-evidence/results/b7cdb55d51adb84c.json",
+  "discovery_url": "https://dwkx.jlu.edu.cn/",
+  "original_snapshot": "html/66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577.html",
+  "original_capture_time": "2026-10-13T13:55:51+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-b7cdb55d51ad",
+    "name": "动物科学学院 / 就业信息",
+    "base_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:54+08:00",
+  "details": [
+    {
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+      "list_title": "宁波科瑞特动物药业有限公司招聘简章",
+      "list_date": "2016-10-18",
+      "response": {
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+        "time": "2026-10-15T19:44:38+08:00",
+        "ok": true,
+        "final_url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "7c8245b07444d4edf0f810bf2da6e010201580e7ea217f50a3c168fa69966643",
+        "html_path": "html/7c8245b07444d4edf0f810bf2da6e010201580e7ea217f50a3c168fa69966643.html",
+        "replacement_chars": 0,
+        "chars": 12532,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "宁波科瑞特动物药业有限公司招聘简章",
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+        "publish_date": "2016-10-18",
+        "publisher": null,
+        "content": "宁波科瑞特动物药业有限公司是一家专业从事动物药品、饲料添加剂等研发、生产、推广及服务的股份制高新技术企业。 地址位置：宁波.宁海 浙江省 经济中心 副省级市 、计划单列市（属中央直接管辖） 中国海滨城市 中国大陆综合竞争力前15强城市 现代化国际港口城市 国家历史文化名城 连续四次蝉联全国文明城市 中国著名的院士之乡 招聘岗位： https://dwkx.jlu.edu.cn/__local/E/20/87/A9668FC2B829700F75E33555C5C_87FE3E0C_D2B0.png?e=.png 三、 工资福利待遇： 1 、薪资待遇：依个人能力和潜力 2、 用餐住宿 ：公司提供食宿。 3、 社会保险 ：所有员工均办理宁波市相应的社会保险。 4、 其它福利 ：传统节日发放相应的福利礼品，员工生日发放纪念品。 四、工作和生活环境： 1、宿舍离公司近，基本设施齐全。最远的宿舍区仅10分钟行程。 五、发展平台和企业文化 业余活动丰富，才艺展示舞台大。（1）每月的小型文化活动：演讲比赛、征文比赛、歌唱等才艺比赛等；（2）每年大型的年度表彰联欢会、国内或国外游。 2、沟通渠道畅通，内部设有总经理信箱、企业宣传栏。 3、激励制度全，发展平台宽，表现优秀者可成为公司合伙人。 联系方式： 联系人： 阮女士 联系电话：13958202027 微信号：shengyueFR",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h2[align='center']",
+            "title": "宁波科瑞特动物药业有限公司招聘简章"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 499,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "宁波科瑞特动物药业有限公司招聘简章"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2016-10-18 作者： 点击：",
+            "date": "2016-10-18"
+          },
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+      "list_title": "辽宁辉山乳业集团有限公司招聘简章",
+      "list_date": "2016-10-18",
+      "response": {
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+        "time": "2026-10-15T19:44:39+08:00",
+        "ok": true,
+        "final_url": "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2c2f22328c616eefcba11a220f959170fee22ef381c032a05401ec91d170f902",
+        "html_path": "html/2c2f22328c616eefcba11a220f959170fee22ef381c032a05401ec91d170f902.html",
+        "replacement_chars": 0,
+        "chars": 13398,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "辽宁辉山乳业集团有限公司招聘简章",
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+        "publish_date": "2016-10-18",
+        "publisher": null,
+        "content": "https://dwkx.jlu.edu.cn/__local/6/C0/CD/6D107FC5499DB16DD9DBA2C9086_7C660CC2_D488.jpg?e=.jpg 辽宁辉山乳业集团有限公司企业简介 辉山品牌的历史可以追溯到1951年，长期以来辉山乳业秉承“打造中国最值得信赖的乳品品牌”的企业理念，致力于中国乳品行业全产业链发展模式的探索，从源头解决乳品安全的核心问题，是国内唯一一家实现奶源全部来自于规模化自营牧场的大型乳制品企业。 辉山先后在辽宁沈阳、锦州、阜新、抚顺、铁岭等地投资建设了良种奶牛繁育及乳品加工产业集群项目。经过多年布局，企业逐步形成以牧草种植、精饲料加工、良种奶牛饲养繁育、全品类乳制品加工、乳品研发和质量管控等为一体的全产业链发展模式。目前，辉山已拥有近50万亩苜蓿草及辅助饲料种植基地、年产50万吨奶牛专用精饲料加工厂、超过18万头纯种进口奶牛、70座规模化自营牧场以及4座现代化乳品生产加工厂。辉山乳业拥有中国最多的规模化自营牧场、中国最大的娟姗牛种群繁育基地和中国最集中的苜蓿草种植基地。同时，在原有全产业链建设的基础上，我们将不断创新，有望进一步延伸至太阳能发电、沼气、有机肥、肉牛养殖、屠宰加工和烘焙餐饮等相关产业。 依托自营牧场和全产业链发展模式，辉山产品矩阵涵盖婴幼儿配方奶粉、液态奶等多个产品品类。完善的生产管理系统和先进的技术支持，使得辉山的产品有更高的品质突破和质量保障。同时，辉山也是国内第一家具备脱盐乳清粉商业化生产资格的企业。 2013年9月，辉山乳业在港交所正式挂牌上市，全球发行额13亿美元，跻身有史以来全球消费品公司首次发行前十名，上市首日市值近400亿港元，跻身中国乳业境外上市公司市值前三甲。 品质如山，辉山乳业。 招聘职位描述及岗位要求 岗位名称 1 ．畜牧技术员 岗位要求: 2017年本科及以上学历应届毕业生，动物科学、动物医学、动物检疫等畜牧类相关专业，专业知识掌握扎实，热爱养殖行业。 职位描述： 负责牛群饲养工作，保证饲料质量；根据奶牛所处犊牛、泌乳牛等所处的不同阶段，对其进行针对性的饲料搭配及管理； 2. 繁育技术员 岗位要求： 2017年本科应届毕业生，动物科学、动物医学等相关专业，能吃苦耐劳，工作细致认真，热爱养殖行业。 职位描述： 奶牛的发情鉴定、人工授精、妊检、繁殖疾病的治疗工作； 3. 兽医 岗位要求： 2017年本科及以上应届毕业生，动物科学、动物医学、动物药学等相关专业，具备较强的责任心，乐于专研，热爱养殖行业。 职位描述： 观察牛群，牛群保健及疾病预防，做到判断准确，用药及时，记录及时、完整； * 以上岗位工作地点为 --- 辽宁，公司均提供免费食宿，五险一金；广阔的发展平台及提升空间，欢迎同学们踊跃加入！ 加入我们 专场宣讲： 2016 年 10 月 13 日 吉林大学 9:00AM 科学讲堂 603 教室 * 请有意向的同学携带个人简历及就业协议到现场参加面试 联系人：杨女士13609825136 邮 箱:yangdongmei@huishandairy.com 企业网址：www.huishandairy.com",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h2[align='center']",
+            "title": "辽宁辉山乳业集团有限公司招聘简章"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1230,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "辽宁辉山乳业集团有限公司招聘简章"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2016-10-18 作者： 点击：",
+            "date": "2016-10-18"
+          },
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+      "list_title": "正大集团山东区猪事业招聘简章",
+      "list_date": "2016-10-18",
+      "response": {
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+        "time": "2026-10-15T19:44:40+08:00",
+        "ok": true,
+        "final_url": "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "441eb6781f8ad53cf8e78891cd1e4d13042d619676379d3c52c19d6751185a4e",
+        "html_path": "html/441eb6781f8ad53cf8e78891cd1e4d13042d619676379d3c52c19d6751185a4e.html",
+        "replacement_chars": 0,
+        "chars": 13144,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "正大集团山东区猪事业招聘简章",
+        "url": "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+        "publish_date": "2016-10-18",
+        "publisher": null,
+        "content": "总部设在泰国曼谷的正大集团（Charoen Pokphand Group）始创于1921年，目前是亚洲领先的综合性企业集团之一。集团及其下属公司涉及农牧、食品、零售、电信、地产、机车、制药、传媒、金融等行业，业务遍及中国、东南亚、东北亚、欧洲、美国等个国家和地区。 正大集团山东区猪事业有四家公司，分别在青岛即墨、潍坊高密、聊城东昌府、东营垦利县四地。分别有东营4800头种猪场1个，即墨3100头种猪场1个、即墨2400头种猪场1个、高密3100头种猪场1个、聊城1200头种猪场1个及其配套育肥场近二十个（另有多个在建猪场），养殖场采用现代化管理，先进的自动化设备，降低了人工工作量，采用自动喂料、自动喂水、自动温控湿控等。同时公司为所有员工提供优良的食宿条件，宿舍为标准两人间，宿舍内配有有线电视、空调、暖气、网络、橱柜、洗刷洗浴间、洗衣机等等。员工宿舍区配有休息室、棋牌室、篮球场等等，为员工提供良好的娱乐设施。提供免费三餐，饭菜质量好、品种多。员工福利好，收入稳定，当月发放工资。 一 、 招聘岗位 https://dwkx.jlu.edu.cn/__local/D/BB/32/3A625FE5E42C105982EFB6BF457_E9694B75_1A161.png?e=.png 二 、 薪资福利 1、丰厚的薪酬待遇：工资收入=固定工资+绩效奖金 2、完善的福利保障：一经录用，签订劳动合同，缴纳六险一金；享有过节费、年终奖（双薪或三薪）、年度加薪、带薪休假等； 3、良好的培训机会：入职培训、在职培训、外派学习、网络学院、企业大学、境外学习等。 三、 简历投递及联系方式 网申平台： http://cpgroup.zhiye.com 简历投递邮箱 ： zhengdasdyz@163.com 请将邮件主题和简历名称格式统一写为：应聘职位+姓名+学校+专业 联系方式 养殖事业：0532-58712186/18266487819 食品事业：0532-83228667/13658681738 饲料事业：青岛0532-83228036/ 18661429802 潍坊0536-3270527/13173114157 正大集团山东区热忱欢迎您的加入！加盟正大您将获得专业的培训，全方位的个人技术辅导以及跨公司、跨地区的个人发展平台。 了解更多职位信息，请登陆： http://cpgroup.zhiye.com https://dwkx.jlu.edu.cn/__local/6/22/AC/9604C6BFA8B0E81EB721B02F1A9_50FC0CFC_BE07.png?e=.png 请关注微信公共平台： zhengdasdyz",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h2[align='center']",
+            "title": "正大集团山东区猪事业招聘简章"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 941,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "正大集团山东区猪事业招聘简章"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2016-10-18 作者： 点击：",
+            "date": "2016-10-18"
+          },
+          {
+            "text": "发布日期：2016-10-18",
+            "date": "2016-10-18"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+        "time": "2026-10-15T19:30:50+08:00",
+        "ok": true,
+        "final_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577",
+        "html_path": "html/66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577.html",
+        "replacement_chars": 0,
+        "chars": 14463,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwkx.jlu.edu.cn/info/1045/1316.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1320.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1323.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1327.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1331.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1349.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "time": "2026-10-15T19:30:50+08:00",
+    "ok": true,
+    "final_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577",
+    "html_path": "html/66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577.html",
+    "replacement_chars": 0,
+    "chars": 14463,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "宁波科瑞特动物药业有限公司招聘简章",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+      "publish_date": "2016-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "辽宁辉山乳业集团有限公司招聘简章",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+      "publish_date": "2016-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "正大集团山东区猪事业招聘简章",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+      "publish_date": "2016-10-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "学而思2015届校园招聘",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1331.htm",
+      "publish_date": "2015-03-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "辉山乳业集团招聘通知",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1327.htm",
+      "publish_date": "2013-10-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "农标普瑞纳（吉林）饲料有限公司招聘通知",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1323.htm",
+      "publish_date": "2013-10-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "就业信息就业信息",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1320.htm",
+      "publish_date": "2013-07-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "就业信息就业信息",
+      "url": "https://dwkx.jlu.edu.cn/info/1045/1316.htm",
+      "publish_date": "2013-07-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 8,
+  "pagination": [
+    {
+      "start_url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-b7cdb55d51ad",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.7499900422990322e-05,
+      "detail_duration_seconds": 8.500064723193645e-06,
+      "parse_db_duration_seconds": 0.03188659995794296
+    },
+    "second_round": {
+      "source": "p2-b7cdb55d51ad",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4899997040629387e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-b7cdb55d51ad",
+    "institution": "动物科学学院",
+    "column": "就业信息",
+    "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+    "original_status": "完全通过",
+    "original_issues": "",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:50+08:00",
+    "review_time": "2026-10-15T20:21:54+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 8,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-b7cdb55d51ad.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

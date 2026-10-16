@@ -1,0 +1,650 @@
+{
+  "id": "p2-4082d5740334",
+  "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+  "institution": "外国语言文化学院",
+  "column": "通知公告",
+  "site_url": "https://sflc.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+  "original_evidence": "docs/jlu-audit-evidence/results/4082d5740334b52d.json",
+  "discovery_url": "https://sflc.jlu.edu.cn/",
+  "original_snapshot": "html/3b3a9a9ece72ba887047990eaca146dde4330d53ef57191545e8d255131d45a7.html",
+  "original_capture_time": "2026-10-13T13:40:15+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-4082d5740334",
+    "name": "外国语言文化学院 / 通知公告",
+    "base_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:36+08:00",
+  "details": [
+    {
+      "url": "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+      "list_title": "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知",
+      "list_date": "2026-02-05",
+      "response": {
+        "url": "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+        "time": "2026-10-15T19:37:10+08:00",
+        "ok": true,
+        "final_url": "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6c9c1775d6b90e9757823f4989aa366d0096918eded2fb174883042e16e06db3",
+        "html_path": "html/6c9c1775d6b90e9757823f4989aa366d0096918eded2fb174883042e16e06db3.html",
+        "replacement_chars": 0,
+        "chars": 34032,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知",
+        "url": "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+        "publish_date": "2026-02-05",
+        "publisher": null,
+        "content": "根据《吉林大学本科学生转专业工作管理办法》（校发〔2024〕201号）和《关于开展2026年本科生集中考核转专业工作的通知》要求，现将外国语言文化学院2024级和2025级相关专业本科生集中考核转专业成绩排名进行公示。 公示期：2026年2月5日-2月9日。如有异议，请于公示期间以书面形式向学院反映。 联系人：李老师 周老师 联系电话：0431-85168049 联系邮箱：616799124@qq.com",
+        "attachments": [
+          {
+            "filename": "2024级转专业成绩排名.pdf",
+            "url": "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18045781",
+            "type": "pdf"
+          },
+          {
+            "filename": "2025级转专业成绩排名.pdf",
+            "url": "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18045780",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-02-05 浏览次数： 次",
+            "date": "2026-02-05"
+          },
+          {
+            "text": "发布时间：2026-02-05",
+            "date": "2026-02-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 204,
+        "reference_attachment_urls": [
+          "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18045780",
+          "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18045781"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知 发布时间：2026-02-05 浏览次数： 次",
+            "date": "2026-02-05"
+          },
+          {
+            "text": "发布时间：2026-02-05 浏览次数： 次",
+            "date": "2026-02-05"
+          },
+          {
+            "text": "发布时间：2026-02-05",
+            "date": "2026-02-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+      "list_title": "外国语言文化学院2026年本科生集中考核转专业工作实施细则",
+      "list_date": "2025-12-30",
+      "response": {
+        "url": "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+        "time": "2026-10-15T19:37:12+08:00",
+        "ok": true,
+        "final_url": "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c9e59180e3bdd5b4a478a0be3feb7a90149046f08f77747759c2e560db14e8a4",
+        "html_path": "html/c9e59180e3bdd5b4a478a0be3feb7a90149046f08f77747759c2e560db14e8a4.html",
+        "replacement_chars": 0,
+        "chars": 43850,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "外国语言文化学院2026年本科生集中考核转专业工作实施细则",
+        "url": "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+        "publish_date": "2025-12-30",
+        "publisher": null,
+        "content": "为满足学生的专业兴趣，促进人才的个性化发展，依据《吉林大学本科学生转专业工作管理办法》（校发〔 2024 〕 201 号）的有关精神及《关于开展 2026 年本科生集中考核转专业工作的通知》的相关要求，特制订外国语言文化学院 2026 年本科生集中考核转专业工作实施细则： 一、组织领导 1. 学院成立 2026 年本科生转专业工作小组： 组长：潘海英 组员：房颖、陈慧羲、孙明丽、李丽、金晶、张蕊 2. 学院成立 2026 年本科生转专业监督小组： 组长：张国兴 组员：王英娜、刘垣菲、宋婷、张宁宁、金明艳、李晨溪（ 2023 级学生） 二、 接收计划 根据学校文件规定及学院实际情况， 2025 级普通专业拟接收人数不低于 2025 级招生人数的 20% ，双学位专业拟接收人数不低于 2025 级招生人数的 30% ， 2024 级各专业拟接收人数不低于 2025 级招生人数的 10% ，具体如下: https://sflc.jlu.edu.cn/__local/0/A3/A3/F971CB2A1F8CB62C391AEC1DB4F_E6882BA6_5B18.png 三、 报名条件及要求 学院对拟申请转出的学生不设置转出比例及资格限制，但应满足《吉林大学本科学生转专业工作管理办法》第三章的转专业基本条件。 申请转入我院各专业的学生除需符合《吉林大学本科学生转专业工作管理办法》规定的基本条件外，还需符合以下条件： 1. 身体条件符合转入专业高考录取体检的有关要求； 2. 大学外语水平需达到 C 级及以上（包括免修级）； 3. 自学生入学至转专业前，所有学期的必修课及限选课课程考核成绩全部合格；成绩排名在学生原专业前 70% 。成绩排名以第一次考试成绩为准，重修、加分的成绩不参与排名计算。经本科生院批准的缓考、补考成绩，按第一次考试成绩计算排名。 如学生在全国大学英语四、六级考试中取得600分及以上或在《吉林大学本科学生学科竞赛体系》外语类竞赛中获得国家级三等奖及以上，不要求专业排名。有以上成果的学生，可于3月4日-3月11日，将成果扫描件及排名证明发送至外国语言文化学院教学办邮箱616799124@qq.com。 5. 不曾受过学业预警 ； 对申请转入的学生的转入年级做如下要求： （ 1 ） 2025 级申报转入英语专业的学生，原则上平级转入，或根据学生本人意愿降级就读。 2024 级原则上转入新专业后应降级至 2025 级。 （ 2 ） 2025 级申报转入俄语、日语、西班牙语、朝鲜语、俄语 + 国际经济与贸易、日语 + 国际经济与贸易、朝鲜语 + 国际经济与贸易专业的学生，有相应语言基础的非零起点学生，可申请平级转入，或根据学生本人意愿降级就读。 2024 级原则上转入新专业后应降级至 2025 级。 （ 3 ） 2025 级申报转入俄语、日语、西班牙语、朝鲜语专业、俄语 + 国际经济与贸易、日语 + 国际经济与贸易、朝鲜语 + 国际经济与贸易的学生，无相应语言基础的零起点学生，转入后需降至 2026 级就读。 四、考核及录取 学院对申请转入的学生进行资格审核，所有通过资格审核的学生 均需参加由外国语言文化学院组织的转专业考核。考核分为笔试和面试两个部分。具体要求如下： 1. 申报英语专业：英语专业笔试科目为英语和中文作文，每门考试总分均为 100 分，各占转专业总成绩的 30% ；面试总分为 100 分，占转专业总成绩的 40% 。以上三门考试成绩都必须在 60 分以上（含 60 分），单科不及格者不予录取。 2. 申报俄语、日语、西班牙语、朝鲜语、俄语 + 国际经济与贸易、日语 + 国际经济与贸易、朝鲜语 + 国际经济与贸易专业： 有相应语言基础和相关知识（非零起点）的学生 ，笔试科目为申报专业语种外语和中文作文，每门考试总分均为 100 分，各占转专业总成绩的 30% ；面试总分为 100 分，占转专业总成绩的 40% 。以上三门考试成绩都必须在 60 分以上（含 60 分），单科不及格者不予录取。 3. 申报俄语、日语、西班牙语、朝鲜语、俄语 + 国际经济与贸易、日语 + 国际经济与贸易、朝鲜语 + 国际经济与贸易专业： 无相应语言基础（零起点）的学生， 笔试科目为英语和中文作文，每门考试总分均为 100 分，各占转专业总成绩的 30% ；面试总分为 100 分，占转专业总成绩的 40% 。 以上三门考试成绩都必须在 60 分以上（含 60 分），单科不及格者不予录取 。 各专业均按转专业考核总成绩由高到低进行排名，并分别按 2025 级、 2024 级确定名单报本科生院汇总投档。具体如下 ： https://sflc.jlu.edu.cn/__local/9/FE/64/AB78D75AAAC95AD70CA15559C16_BA0FA380_7418.png 学院在录取时如出现考核成绩同分的情况，则按照以下原则优先录取： 1. 志愿优先。一志愿者成绩按 100% 计入，二志愿者成绩按 90% 计入，三志愿者成绩按 80% 计入。 2.GPA 排名有先。考核成绩同分、志愿顺序一致时，有先录取 GPA 排名靠前者。 3. 与志愿专业相关的竞赛获奖或学术成果，由转专业小组认定后，可根据成果类型及等级按一定比例加分，加分幅度不超过转专业考核成绩的 3% 。 五、日程安排 外国语言文化学院按照 《关于开展 2026 年本科生集中考核转专业工作的通知》开展各阶段工作，具体时间另行通知。 六、其他 其他未尽事宜按照《吉林大学本科学生转专业工作管理办法》（校发〔 2024 〕 201 号）有关规定执行。 联 系 人：李欣霜 周书夷 联系电话： 0431-85168049 电子邮箱： 616799124@qq.com 办公地点：外语楼 207 室 监 督 人：徐杰 监督电话： 0431-85168717 学院网站： https://sflc.jlu.edu.cn/ 外国语言文化学院 2025 年 12 月 30 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "外国语言文化学院2026年本科生集中考核转专业工作实施细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-12-30 浏览次数： 次",
+            "date": "2025-12-30"
+          },
+          {
+            "text": "发布时间：2025-12-30",
+            "date": "2025-12-30"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2329,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "外国语言文化学院2026年本科生集中考核转专业工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "外国语言文化学院2026年本科生集中考核转专业工作实施细则 发布时间：2025-12-30 浏览次数： 次",
+            "date": "2025-12-30"
+          },
+          {
+            "text": "发布时间：2025-12-30 浏览次数： 次",
+            "date": "2025-12-30"
+          },
+          {
+            "text": "发布时间：2025-12-30",
+            "date": "2025-12-30"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/info/1090/9920.htm",
+      "list_title": "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示",
+      "list_date": "2025-11-05",
+      "response": {
+        "url": "https://sflc.jlu.edu.cn/info/1090/9920.htm",
+        "time": "2026-10-15T19:37:12+08:00",
+        "ok": true,
+        "final_url": "https://sflc.jlu.edu.cn/info/1090/9920.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0aa049579a41c276cf8c9fd1d28ff743e0259a211b63b5205c139de4bc4191f5",
+        "html_path": "html/0aa049579a41c276cf8c9fd1d28ff743e0259a211b63b5205c139de4bc4191f5.html",
+        "replacement_chars": 0,
+        "chars": 32569,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示",
+        "url": "https://sflc.jlu.edu.cn/info/1090/9920.htm",
+        "publish_date": "2025-11-05",
+        "publisher": null,
+        "content": "根据本科生院关于开展 2024-2025 学年本科生班主任考核工作及 2025-2026 学年本科生班主任选品工作的通知要求，现将学院拟聘班主任名单进行公示。 英语系：张玫玫 刘桂玲 薛亚红 唐 颖 王英娜 朱荣兰 孙 壮 张 存 孙可一 乔 冲 胡贝克 日语系：房 颖 曾婷婷 于海霞 柳晓东 孙菁菁 解 放 刘 博 俄语系：刘佐艳 田 君 李牧群 万冬梅 刘桓菲 毕筠茹 陈 昊 朝语系：孟 刚 金明艳 王艳丽 金晶银 李文娇 吴野迪 西班系：王治家 刘 洋 代萍萍 卢春博 胡 敬 公示期为 2025 年 11 月 5 日 --11 日 公示期联系电话： 85168049 李老师 周老师。 外国语言文化学院 2025 年 11 月 5 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2025-11-05 浏览次数： 次",
+            "date": "2025-11-05"
+          },
+          {
+            "text": "发布时间：2025-11-05",
+            "date": "2025-11-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 323,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示 发布时间：2025-11-05 浏览次数： 次",
+            "date": "2025-11-05"
+          },
+          {
+            "text": "发布时间：2025-11-05 浏览次数： 次",
+            "date": "2025-11-05"
+          },
+          {
+            "text": "发布时间：2025-11-05",
+            "date": "2025-11-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+        "time": "2026-10-15T19:28:20+08:00",
+        "ok": true,
+        "final_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "237ca90bf87a0cf0af6bed898fe8a6c256f69a57e7a647efd83f8c63c0883dd4",
+        "html_path": "html/237ca90bf87a0cf0af6bed898fe8a6c256f69a57e7a647efd83f8c63c0883dd4.html",
+        "replacement_chars": 0,
+        "chars": 30647,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+        "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9463.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9471.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9481.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9485.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9487.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9488.htm",
+        "https://sflc.jlu.edu.cn/info/1090/9920.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "time": "2026-10-15T19:28:20+08:00",
+    "ok": true,
+    "final_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "237ca90bf87a0cf0af6bed898fe8a6c256f69a57e7a647efd83f8c63c0883dd4",
+    "html_path": "html/237ca90bf87a0cf0af6bed898fe8a6c256f69a57e7a647efd83f8c63c0883dd4.html",
+    "replacement_chars": 0,
+    "chars": 30647,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示外国语言文化学院2026年本科生集中考核转专业成绩排名的通知",
+      "url": "https://sflc.jlu.edu.cn/info/1090/10071.htm",
+      "publish_date": "2026-02-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "外国语言文化学院2026年本科生集中考核转专业工作实施细则",
+      "url": "https://sflc.jlu.edu.cn/info/1090/10041.htm",
+      "publish_date": "2025-12-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于外国语言文化学院2025-2026学年班主任拟聘人选的公示",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9920.htm",
+      "publish_date": "2025-11-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "外国语言文化学院与数学学院召开2025年本科生招生宣传联席会议",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9488.htm",
+      "publish_date": "2025-03-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于外国语学院2024级熊子衡同学形势与政策Ⅰ课程成绩更正的公示",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9487.htm",
+      "publish_date": "2025-03-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示外国语言文化学院2025年本科生集中考核转专业拟录取名单的通知",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9485.htm",
+      "publish_date": "2025-03-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于外国语言文化学院2025年本科生集中考核转专业笔试面试时间地点的通知",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9481.htm",
+      "publish_date": "2025-03-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示外国语言文化学院2025年本科生集中考核转专业成绩排名的通知",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9471.htm",
+      "publish_date": "2025-02-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示外国语言文化学院2025年本科生集中考核转专业工作实施细则的通知",
+      "url": "https://sflc.jlu.edu.cn/info/1090/9463.htm",
+      "publish_date": "2025-01-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 9,
+  "pagination": [
+    {
+      "start_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+          "parsed_items": 9,
+          "added_items": 9
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-4082d5740334",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.989991869777441e-05,
+      "detail_duration_seconds": 1.3200100511312485e-05,
+      "parse_db_duration_seconds": 0.043208900024183095
+    },
+    "second_round": {
+      "source": "p2-4082d5740334",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.129992935806513e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-4082d5740334",
+    "institution": "外国语言文化学院",
+    "column": "通知公告",
+    "url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:20+08:00",
+    "review_time": "2026-10-15T20:20:36+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 9,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-4082d5740334.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

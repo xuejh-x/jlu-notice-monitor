@@ -1,0 +1,38 @@
+{
+  "column_url": "https://www.zrlyyy.com/tongzhiy_g7yU_91.html",
+  "column": "通知公告",
+  "institution": "白求恩第三临床医学院",
+  "site_url": "https://www.zrlyyy.com/index.html",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://www.zrlyyy.com/xuesheng.html",
+  "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:44:11+08:00",
+  "checked_at": "2026-10-13T14:01:18+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/fd4944826664c69d.json",
+  "reason": "EMPTY_LIST",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://www.zrlyyy.com/tongzhiy_g7yU_91.html",
+  "list_sha256": "f3c835ee3493ab6cb7a5814338d66934d3c88c53f33be32a1ee90baea1751110",
+  "list_snapshot": "html/f3c835ee3493ab6cb7a5814338d66934d3c88c53f33be32a1ee90baea1751110.html",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

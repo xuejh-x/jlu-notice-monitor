@@ -53,7 +53,7 @@ DIRECTORIES = {
     "研究机构": "https://www.jlu.edu.cn/jgsz/yjjg.htm",
     "附属单位": "https://www.jlu.edu.cn/jgsz/fsdwjxgqy.htm",
 }
-NOTICE = re.compile(r"通知|公告|公示|教学信息|就业信息|招聘信息|招聘公告|竞赛信息|竞赛通知|招生信息|招标信息")
+NOTICE = re.compile(r"通知|公告|公示|教学信息|就业信息|人才招聘|招聘信息|招聘公告|竞赛信息|竞赛通知|招生信息|招标信息")
 HUB = re.compile(r"^(本科生教育|本科教学|本科生教学|研究生教育|研究生教学|人才培养|学生工作|学生天地|招生就业|就业指导|教育教学|教学工作|创新创业|科学研究|科研工作|学生管理|通知公告|信息公开)$")
 AUTH = re.compile(r"统一身份认证|统一身份验证|用户登录|身份认证平台|登录统一认证|请输入验证码|安全验证")
 
@@ -290,9 +290,9 @@ def column_links(html, base):
             continue
         url = urljoin(base, href)
         p = urlsplit(url)
-        if p.scheme not in {"http", "https"} or re.search(r"/info/|getInformation\.action|\.(pdf|docx?|xlsx?|zip)$", p.path, re.I):
+        if p.scheme not in {"http", "https"} or re.search(r"/info/|getInformation\.action|/(?:wujia_detail_g7yU_\d+|tongzhiy/detail_g7yU_\d+)/\d+\.html$|\.(pdf|docx?|xlsx?|zip)$", p.path, re.I):
             continue
-        if re.search(r"(?:^|[?&])(id|articleId)=", p.query, re.I):
+        if re.search(r"(?:^|[?&])(id|articleId)=", p.query, re.I) or "urltype=news.NewsContentUrl" in p.query:
             continue
         found[norm(url)] = label
     return found

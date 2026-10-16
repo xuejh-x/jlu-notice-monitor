@@ -1,0 +1,25 @@
+{
+  "id": "jwc-teaching-publicity",
+  "institution": "本科生院 / 吉林大学本科生院",
+  "column": "教学公示",
+  "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+  "captured_at": "2026-10-14T16:34:28+08:00",
+  "validated_at": "2026-10-14T16:47:28+08:00",
+  "status": "需认证",
+  "verdict": "PERMISSION_RESTRICTED",
+  "enabled": false,
+  "details": [],
+  "issues": [
+    "COLUMN_PERMISSION_REQUIRED"
+  ],
+  "attachment_probes": [],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://jwc.jlu.edu.cn/",
+  "reason": "Page explicitly denies column permission; login requirements not confirmed, no bypass attempted",
+  "final_url": "https://jwc.jlu.edu.cn/system/resource/code/auth/ipauth.htm",
+  "list_snapshot": "html/809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066.html",
+  "list_sha256": "809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066",
+  "http_status": 200,
+  "evidence_file": "docs/jlu-fix-b4/review-final-20261014/results/jwc-teaching-publicity.json"
+}

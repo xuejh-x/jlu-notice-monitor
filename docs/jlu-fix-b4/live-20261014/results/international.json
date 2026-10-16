@@ -1,0 +1,413 @@
+{
+  "id": "international",
+  "institution": "国际教育学院 / 留学生教育 / 留学生招生",
+  "column": "公告通知 / NOTICE",
+  "url": "http://cie.jlu.edu.cn/ggtz.htm",
+  "captured_at": "2026-10-14T16:35:43+08:00",
+  "validated_at": "2026-10-14T16:35:46+08:00",
+  "status": "失败",
+  "verdict": "CONTENT_SAMPLE_NOT_VERIFIED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+      "list_title": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB）",
+      "list_date": "",
+      "captured_at": "2026-10-14T16:35:46+08:00",
+      "snapshot": "html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+      "sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e",
+      "title": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB）",
+      "date": "2025-10-22",
+      "content_chars": 2515,
+      "content_sha256": "7228243f1959c8c99adc2461770409005c701ce13afc986b58574e80102b7cb1",
+      "content_preview": "吉林大学始建于 1946 年，是教育部直属全国重点综合性大学，国家首批 “985 工程 ”“211 工程 ” 重点建设高校。 2017 年首批入选 “ 双一流 ” 建设 A 类高校。 2022 年第二轮 “ 双一流 ” 建设高校及建设学科名单中，学校 6 个学科入选。 学校学科门类齐全，涵盖哲学、经济学、法学、教育学、文学、历史学、理学、工学、农学、医学、管理学、艺术学、交叉学科等 13 大学科门类，拥有学士 — 硕士 — 博士完整的高水平人才培养体系，在校学生人数 7 万余人。学校聚焦 “ 双一流 ” 建设目标，全球合作网络不断优化，与 4 3 个国家和地区的 31 3 所高校和科研机构建立",
+      "attachments": [
+        {
+          "filename": "zhuanyemulu.pdf",
+          "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+          "type": "pdf"
+        },
+        {
+          "filename": "中国政府奖学金申请材料清单",
+          "url": "http://cie.jlu.edu.cn/zhongguozhengfujiangxuejinshenqingcailiaoqingdan.pdf",
+          "type": "pdf"
+        },
+        {
+          "filename": "附件1：吉林大学中国政府奖学金“高水平研究生”项目招生专业目录.pdf",
+          "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662694",
+          "type": "pdf"
+        },
+        {
+          "filename": "附件2：中国政府奖学金申请材料清单.pdf",
+          "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662693",
+          "type": "pdf"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": false,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB）"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB） 发布时间：2025/10/22 13:33 浏览次数：",
+          "date": "2025-10-22"
+        },
+        {
+          "text": "发布时间：2025/10/22 13:33 浏览次数：",
+          "date": "2025-10-22"
+        }
+      ],
+      "issues": [
+        "BODY_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "body_reference_chars": 2442,
+      "reference_attachment_urls": [
+        "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662693",
+        "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=16662694",
+        "http://cie.jlu.edu.cn/zhongguozhengfujiangxuejinshenqingcailiaoqingdan.pdf",
+        "http://cie.jlu.edu.cn/zhuanyemulu.pdf"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "http://cie.jlu.edu.cn/info/1047/3734.htm",
+      "list_title": "关于公示2026届优秀国际学生毕业生评选结果的通知",
+      "list_date": "",
+      "captured_at": "2026-10-14T16:35:47+08:00",
+      "snapshot": "html/fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764.html",
+      "sha256": "fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764",
+      "title": "关于公示2026届优秀国际学生毕业生评选结果的通知",
+      "date": "2026-06-05",
+      "content_chars": 393,
+      "content_sha256": "0286a2c48538622ce4e3f92ef294708318cbe54848c1c40a1f6fd1ec99e297a6",
+      "content_preview": "根据学校 《吉林大学优秀本科毕业生评选办法》 （ 校发〔 2019 〕 385 号 ）和 《吉林大学优秀毕业研究生评选办法》（校研院字〔 2021 〕 110 号） ，经国际学生个人提出申请、培养单位推荐和国际教育学院审核，现将我校 吉林大学 2026 届优秀国际学生毕业生推荐名单 予以公示（详见附件，排名无先后顺序）。公示时间： 202 6 年 6 月 5 日至 11 日 。公示期间，如有异议，请与国际教育学院联系。 联系人： 郝 老师， 0431-85167163 。 邮箱： cie_affairs@jlu.edu.cn http://cie.jlu.edu.cn/system/resou",
+      "attachments": [
+        {
+          "filename": "附件1：吉林大学2026届优秀国际学生毕业生推荐名单.xlsx",
+          "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=18140579",
+          "type": "xlsx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": false,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "关于公示2026届优秀国际学生毕业生评选结果的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "关于公示2026届优秀国际学生毕业生评选结果的通知 发布时间：2026/06/05 14:14 浏览次数：",
+          "date": "2026-06-05"
+        },
+        {
+          "text": "发布时间：2026/06/05 14:14 浏览次数：",
+          "date": "2026-06-05"
+        }
+      ],
+      "issues": [
+        "BODY_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "body_reference_chars": 320,
+      "reference_attachment_urls": [
+        "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=18140579"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "http://cie.jlu.edu.cn/info/1047/3684.htm",
+      "list_title": "关于2026年中国政府奖学金年度评审结果的公示",
+      "list_date": "",
+      "captured_at": "2026-10-14T16:35:48+08:00",
+      "snapshot": "html/7b2ea4cb62d9ab3b340447a813722d5df6dcbc8b4296e931e04bfbb5d0528ba8.html",
+      "sha256": "7b2ea4cb62d9ab3b340447a813722d5df6dcbc8b4296e931e04bfbb5d0528ba8",
+      "title": "关于2026年中国政府奖学金年度评审结果的公示",
+      "date": "2026-05-13",
+      "content_chars": 402,
+      "content_sha256": "26ec3094361afc4846b4c8b81b0a53012c25b0f62eea9f69290f87ce7f1bb368",
+      "content_preview": "根据《中国政府奖学金管理办法》及《 2026 年吉林大学中国政府奖学金年度评审工作实施办法》有关要求，本次奖学金评审采取学生登录系统进行自评，各培养单位对学生道德品行、学习成绩、学习 / 科研态度、活动表现进行 定量打分和定性评价 ，国际教育学院汇总审核后代各培养单位将考评结果导入系统。经 5 月 13 日吉林大学 2026 年中国政府奖学金年度评审会议审核，现将本年度中国政府奖学金年度评审结果公示如下： 本年度共有 160 名学生（含申请延长奖学金资助期限博士生 14 名）参加此次奖学金年度评审。经评审， 1 名学生（ CSC 编号： 2024GBJ001578 ）因无故不参评，取消其奖学金",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h1",
+          "title": "关于2026年中国政府奖学金年度评审结果的公示"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "关于2026年中国政府奖学金年度评审结果的公示 发布时间：2026/05/13 16:20 浏览次数：",
+          "date": "2026-05-13"
+        },
+        {
+          "text": "发布时间：2026/05/13 16:20 浏览次数：",
+          "date": "2026-05-13"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 402,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+      "time": "2026-10-14T16:35:49+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "pdf",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:35:50+08:00",
+          "status": 206,
+          "category": "FILE_PREFIX_VERIFIED"
+        }
+      ],
+      "status": 206,
+      "final_url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+      "content_type": "application/pdf",
+      "disposition": "",
+      "prefix_path": "prefix/b894e7f4f996085fbe74a075a1477e1c96ca8e767915fdf74cdd9bc783dd02b0.bin",
+      "prefix_sha256": "b894e7f4f996085fbe74a075a1477e1c96ca8e767915fdf74cdd9bc783dd02b0",
+      "category": "FILE_PREFIX_VERIFIED",
+      "file_prefix_verified": true,
+      "read_bytes": 4096,
+      "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+      "detected_family": [
+        "pdf"
+      ],
+      "filename": "zhuanyemulu.pdf",
+      "type": "pdf"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "http://cie.jlu.edu.cn/",
+  "reason": "REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED; BODY_NOT_INDEPENDENTLY_VERIFIED",
+  "final_url": "http://cie.jlu.edu.cn/ggtz.htm",
+  "list_snapshot": "html/95b00c18a1284d51c6b20127c07a6883b26ea043b6e1fbabf139ea32133b61ed.html",
+  "list_sha256": "95b00c18a1284d51c6b20127c07a6883b26ea043b6e1fbabf139ea32133b61ed",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB）",
+      "url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026届优秀国际学生毕业生评选结果的通知",
+      "url": "http://cie.jlu.edu.cn/info/1047/3734.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年中国政府奖学金年度评审结果的公示",
+      "url": "http://cie.jlu.edu.cn/info/1047/3684.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年吉林大学国际中文教师奖学金申请办法",
+      "url": "http://cie.jlu.edu.cn/info/1047/3663.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026-2027学年国际学生（研究生）招生简章",
+      "url": "http://cie.jlu.edu.cn/info/1047/3654.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026-2027学年国际学生（本科生）招生简章",
+      "url": "http://cie.jlu.edu.cn/info/1047/3653.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年国际学生汉语与中国文化进修项目招生简章",
+      "url": "http://cie.jlu.edu.cn/info/1047/3625.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026/2027学年吉林大学中国政府来华留学卓越奖学金 见“微”知著—微生物学卓越人才培养项目招生简章",
+      "url": "http://cie.jlu.edu.cn/info/1047/3613.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026/2027学年吉林大学中国政府来华留学卓越奖学金 “一带一路”沿线国家药理学卓越人才培养项目招生简...",
+      "url": "http://cie.jlu.edu.cn/info/1047/3609.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026/2027学年吉林大学中国政府来华留学卓越奖学金东北亚法治卓越人才培养项目招生简章",
+      "url": "http://cie.jlu.edu.cn/info/1047/3605.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "http://cie.jlu.edu.cn/ggtz/14.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 1,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/live-20261014/results/international.json"
+}

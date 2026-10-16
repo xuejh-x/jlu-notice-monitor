@@ -1,0 +1,33 @@
+{
+  "utc_time": "2026-10-13T06:52:58.967234+00:00",
+  "cloud": {
+    "status": "failure",
+    "request_sent": false,
+    "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED"
+  },
+  "local": [
+    {
+      "mode": "default",
+      "tls_verification": "CERT_REQUIRED + hostname + original SNI",
+      "http_responses": [
+        {
+          "method": "GET",
+          "path": "/defaultroot/PortalInformation!jldxList.action",
+          "status": 200,
+          "bytes": 38687
+        },
+        {
+          "method": "GET",
+          "path": "/defaultroot/PortalInformation!getInformation.action",
+          "status": 200,
+          "bytes": 39844
+        }
+      ],
+      "list_items": 30,
+      "status": "success",
+      "content_length": 551,
+      "attachments": 0,
+      "seconds": 3.376
+    }
+  ]
+}

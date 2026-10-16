@@ -1,0 +1,76 @@
+{
+  "https://www.jlu.edu.cn/robots.txt": {
+    "url": "https://www.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T15:38:47+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://www.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://www.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://www.jlu.edu.cn/info/1095/58176.htm": {
+    "url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+    "time": "2026-10-14T15:38:47+08:00",
+    "ok": true,
+    "final_url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c",
+    "html_path": "html/0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c.html",
+    "replacement_chars": 0,
+    "chars": 16593,
+    "attempts": 1
+  },
+  "https://xsc.jlu.edu.cn/robots.txt": {
+    "url": "https://xsc.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T15:38:49+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://xsc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://xsc.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://xsc.jlu.edu.cn/info/1048/5941.htm": {
+    "url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+    "time": "2026-10-14T15:38:49+08:00",
+    "ok": true,
+    "final_url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024",
+    "html_path": "html/36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024.html",
+    "replacement_chars": 0,
+    "chars": 13756,
+    "attempts": 1
+  },
+  "https://cse.jlu.edu.cn/robots.txt": {
+    "url": "https://cse.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T15:38:51+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://cse.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://cse.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  },
+  "https://cse.jlu.edu.cn/info/1003/1381.htm": {
+    "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+    "time": "2026-10-14T15:38:51+08:00",
+    "ok": true,
+    "final_url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40",
+    "html_path": "html/496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40.html",
+    "replacement_chars": 0,
+    "chars": 14726,
+    "attempts": 1
+  },
+  "https://spxy.jlu.edu.cn/robots.txt": {
+    "url": "https://spxy.jlu.edu.cn/robots.txt",
+    "time": "2026-10-14T15:38:53+08:00",
+    "ok": false,
+    "error": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'https://spxy.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'https://spxy.jlu.edu.cn/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "status": 404,
+    "attempts": 1
+  }
+}

@@ -4,6 +4,18 @@ from __future__ import annotations
 import re
 from typing import Mapping
 
+MIME_FAMILIES = {
+    "application/pdf": {"pdf"}, "image/jpeg": {"jpg", "jpeg"}, "image/png": {"png"},
+    "image/gif": {"gif"}, "image/webp": {"webp"},
+    "application/zip": {"zip", "docx", "xlsx", "pptx"},
+    "application/x-zip-compressed": {"zip", "docx", "xlsx", "pptx"},
+    "application/msword": {"doc"}, "application/vnd.ms-excel": {"xls"}, "application/vnd.ms-powerpoint": {"ppt"},
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {"docx"},
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {"xlsx"},
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation": {"pptx"},
+    "application/x-rar-compressed": {"rar"}, "application/vnd.rar": {"rar"}, "application/x-7z-compressed": {"7z"},
+}
+
 
 def classify_attachment_prefix(status: int, headers: Mapping[str, str], prefix: bytes, expected_type: str = "") -> dict:
     result = {"category": "UNVERIFIED", "file_prefix_verified": False, "complete_download_verified": False,
@@ -39,10 +51,18 @@ def classify_attachment_prefix(status: int, headers: Mapping[str, str], prefix: 
     elif prefix.startswith(b"7z\xbc\xaf\x27\x1c"):
         families = ["7z"]
     if families:
-        if content_type in {"text/html", "application/xhtml+xml", "application/json"}:
+        content_range = next((value for key, value in headers.items() if key.lower() == "content-range"), "")
+        if status == 206 and content_range:
+            match = re.fullmatch(r"bytes\s+(\d+)-(\d+)/(\d+|\*)", content_range.strip(), re.I)
+            if not match or int(match[1]) != 0 or int(match[2]) < int(match[1]) or len(prefix) > int(match[2]) + 1 or (match[3] != "*" and int(match[2]) >= int(match[3])):
+                return verdict("RANGE_RESPONSE_MISMATCH", "Response range does not establish a valid file prefix starting at byte zero")
+        mime_family = MIME_FAMILIES.get(content_type)
+        if content_type.startswith("text/") or content_type in {"application/xhtml+xml", "application/json"} or (mime_family is not None and not mime_family.intersection(families)):
             return verdict("HEADER_BODY_MISMATCH", "Binary signature conflicts with response content type", detected_family=families)
         if result["expected_type"] and result["expected_type"] not in families:
             return verdict("FILE_TYPE_MISMATCH", "Binary signature conflicts with link filename/type", detected_family=families)
+        if result["expected_type"] and mime_family is not None and result["expected_type"] not in mime_family:
+            return verdict("FILE_TYPE_MISMATCH", "Specific response MIME type conflicts with link filename/type", detected_family=families)
         return verdict("FILE_PREFIX_VERIFIED", "Recognized file/container prefix only; whole file and archive contents not checked",
                        file_prefix_verified=True, detected_family=families)
     try:

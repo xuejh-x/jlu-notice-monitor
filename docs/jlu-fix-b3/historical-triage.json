@@ -1,0 +1,1678 @@
+[
+  {
+    "column_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "checked_at": "2026-10-13T13:42:40+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/1cd1acce79f072ab.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18207182",
+        "time": "2026-10-13T13:51:07+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "checked_at": "2026-10-13T13:51:18+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/1e705b1f23e7eeb0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=18207190",
+        "time": "2026-10-13T13:51:21+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "checked_at": "2026-10-13T13:51:24+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/164eccdf38fd0d67.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://csw.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282651&wbfileid=16678331",
+        "time": "2026-10-13T13:51:27+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:51:30+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/792363a55457d183.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://cxcyjyxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687627483&wbfileid=18130449",
+        "time": "2026-10-13T13:51:33+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "checked_at": "2026-10-13T13:51:36+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/dc5149df919d48b0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18197628",
+        "time": "2026-10-13T13:51:38+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://jwc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1815024614&wbfileid=18129787",
+        "time": "2026-10-13T13:51:41+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+    "checked_at": "2026-10-13T13:35:03+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/58c810b690013f45.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+        "time": "2026-10-13T13:52:00+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200662",
+        "time": "2026-10-13T13:52:03+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:52:15+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/9f22c29483a2c1a8.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18207758",
+        "time": "2026-10-13T13:52:17+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18207779",
+        "time": "2026-10-13T13:52:20+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T13:52:35+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/057b9df64b35f2ba.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195071",
+        "time": "2026-10-13T13:52:36+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://yjsy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901829&wbfileid=18195237",
+        "time": "2026-10-13T13:52:39+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:38:24+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/19da6ac0690c2834.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18205398",
+        "time": "2026-10-13T13:52:42+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://youth.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1496501353&wbfileid=18200535",
+        "time": "2026-10-13T13:52:45+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+    "checked_at": "2026-10-13T13:52:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e59b523d52769c37.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18167131",
+        "time": "2026-10-13T13:52:57+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+        "time": "2026-10-13T13:53:00+08:00",
+        "old_status": 206,
+        "old_reason": null,
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yzb.jlu.edu.cn/index/lqgs.htm",
+    "checked_at": "2026-10-13T13:53:07+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/24982ab068c529bb.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205591",
+        "time": "2026-10-13T13:53:09+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:48:29+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b581a67f8ec644e0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153801",
+        "time": "2026-10-13T13:53:14+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "https://yzb.jlu.edu.cn/__local/8/B3/CF/3E9DB2DA9F237295FD76E84E1E3_0D662C32_FDCA.pdf?e=.pdf",
+        "time": "2026-10-13T13:53:17+08:00",
+        "old_status": 206,
+        "old_reason": null,
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+    "checked_at": "2026-10-13T13:53:25+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/76f52825fb74aee6.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://www.jdyy.cn/uploads/soft/20260319/11-2603191ARY13.pdf",
+        "time": "2026-10-13T13:53:28+08:00",
+        "old_status": null,
+        "old_reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: Server disconnected without sending a response.",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://adm.jlu.edu.cn/rcpy/bksjy/tz.htm",
+    "checked_at": "2026-10-13T13:40:49+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/545133af289a3be3.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=18192360",
+        "time": "2026-10-13T13:53:37+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "checked_at": "2026-10-13T13:53:41+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/7b6909acddc83554.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951472",
+        "time": "2026-10-13T13:53:44+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+    "checked_at": "2026-10-13T13:40:51+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/bda41fb09c1feff0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=18206613",
+        "time": "2026-10-13T13:53:47+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://auto.jlu.edu.cn/bkjx/jxtz.htm",
+    "checked_at": "2026-10-13T13:53:53+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/1486b1ea162090da.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://auto.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1507312696&wbfileid=18192233",
+        "time": "2026-10-13T13:53:56+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://auto.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T13:53:58+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/fb307a415310cb88.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://auto.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1507312696&wbfileid=18207568",
+        "time": "2026-10-13T13:54:00+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://cbae.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T13:54:09+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/36bcdbbfe876373d.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://cbae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2112462590&wbfileid=18207808",
+        "time": "2026-10-13T13:54:11+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "checked_at": "2026-10-13T13:54:25+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/27f40bc0ad61be3c.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198227",
+        "time": "2026-10-13T13:54:28+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://cer.jlu.edu.cn/djgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:43:16+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e95ff7261809ebc1.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://cer.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1690873584&wbfileid=18196370",
+        "time": "2026-10-13T13:54:33+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://cer.jlu.edu.cn/xsgz/bks/tzgg.htm",
+    "checked_at": "2026-10-13T13:54:41+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/15b4759d56ad6370.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://cer.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1690873584&wbfileid=18206962",
+        "time": "2026-10-13T13:54:43+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ciee.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:54:59+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/a6f694fbc0903025.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ciee.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082332196&wbfileid=18206493",
+        "time": "2026-10-13T13:55:01+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dce.jlu.edu.cn/yjsjy/tzgg.htm",
+    "checked_at": "2026-10-13T13:42:32+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/a9a59c73b5f0b8b5.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dce.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281823&wbfileid=18207141",
+        "time": "2026-10-13T13:55:36+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dmse.jlu.edu.cn/gjjl/tzgg.htm",
+    "checked_at": "2026-10-13T13:42:05+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/07281bc1ad5c6495.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dmse.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1989128652&wbfileid=18046589",
+        "time": "2026-10-13T13:55:40+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dmse.jlu.edu.cn/ynbg/xytz.htm",
+    "checked_at": "2026-10-13T13:55:43+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/74d47ee2d271f2ce.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dmse.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1989128652&wbfileid=18207323",
+        "time": "2026-10-13T13:55:45+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dwyx.jlu.edu.cn/zsjy/zsxx.htm",
+    "checked_at": "2026-10-13T13:44:29+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/f6853e4ca3897975.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=18206512",
+        "time": "2026-10-13T13:56:04+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ee.jlu.edu.cn/bkjy/jwgg.htm",
+    "checked_at": "2026-10-13T13:56:06+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/df5d17d1f011de7f.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ee.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1402736124&wbfileid=18207697",
+        "time": "2026-10-13T13:56:08+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "checked_at": "2026-10-13T13:42:19+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/2f0e67009e776418.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18204987",
+        "time": "2026-10-13T13:56:14+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://gcxl.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:42:00+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3dae5f264b1145f7.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://gcxl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2040318553&wbfileid=18191259",
+        "time": "2026-10-13T13:56:21+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://geo.jlu.edu.cn/xsgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:42:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/8a9f6de572b0bf69.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://geo.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1690739871&wbfileid=18206783",
+        "time": "2026-10-13T13:56:28+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://gest.jlu.edu.cn/yjsjy/zsxx.htm",
+    "checked_at": "2026-10-13T13:56:41+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/2b144cc250d662d6.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://gest.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1755880211&wbfileid=18200808",
+        "time": "2026-10-13T13:56:43+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hac.jlu.edu.cn/xwgg/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:05+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/0d317a4fdd0edbc7.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18200861",
+        "time": "2026-10-13T13:56:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hac.jlu.edu.cn/zsyjy/zsxx.htm",
+    "checked_at": "2026-10-13T13:56:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/c1b6460155497a26.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hac.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2088636399&wbfileid=18200861",
+        "time": "2026-10-13T13:56:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hlxy.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T13:44:03+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/1975211e16b0c784.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hlxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2072536518&wbfileid=18207576",
+        "time": "2026-10-13T13:57:00+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/bksjx/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:56+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/c0d59780b1f19452.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=18206065",
+        "time": "2026-10-13T13:57:06+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/dwgz/dbtz.htm",
+    "checked_at": "2026-10-13T13:57:08+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/256d0f3a664ce8b0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=18127275",
+        "time": "2026-10-13T13:57:10+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/kygl/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:59+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/6a1f946f528fdc61.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=18203800",
+        "time": "2026-10-13T13:57:14+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/wsgz/cfgs.htm",
+    "checked_at": "2026-10-13T13:57:20+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/12e3b12c34c90087.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15129043",
+        "time": "2026-10-13T13:57:22+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/wsgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:57+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e7d9e35321bba3bd.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=18046678",
+        "time": "2026-10-13T13:57:25+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/xzgz/ybtz.htm",
+    "checked_at": "2026-10-13T13:57:28+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/9f8ab3d896895ec0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=15126649",
+        "time": "2026-10-13T13:57:30+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://kgxy.jlu.edu.cn/yjsjy/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:58+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/7fa2f86e7984d136.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://kgxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037216080&wbfileid=18206864",
+        "time": "2026-10-13T13:57:33+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://law.jlu.edu.cn/djgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:40+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/2ec9326c9cdeece6.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://law.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1467622662&wbfileid=18198669",
+        "time": "2026-10-13T13:57:37+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://law.jlu.edu.cn/hzjl/tzgg.htm",
+    "checked_at": "2026-10-13T13:57:45+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/953dcf6ca7775abc.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://law.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1467622662&wbfileid=4511370",
+        "time": "2026-10-13T13:57:53+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://life.jlu.edu.cn/xsgz/bksgl/tzgg.htm",
+    "checked_at": "2026-10-13T13:58:21+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/caf1c43b6637e0fc.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://life.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1774901551&wbfileid=16118104",
+        "time": "2026-10-13T13:58:23+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://mae.jlu.edu.cn/djgz1/gsl.htm",
+    "checked_at": "2026-10-13T13:58:28+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/d15dab673d436b11.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://mae.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101113&wbfileid=18207704",
+        "time": "2026-10-13T13:58:30+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://marx.jlu.edu.cn/rcpy/zsgz.htm",
+    "checked_at": "2026-10-13T13:58:40+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3a297f3e8e8a6e2b.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://marx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2070939931&wbfileid=18200765",
+        "time": "2026-10-13T13:58:42+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://nasa.jlu.edu.cn/dwgz/dbtz.htm",
+    "checked_at": "2026-10-13T13:59:04+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/9a1367dd10c1c89c.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18203648",
+        "time": "2026-10-13T13:59:07+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://nasa.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T13:59:15+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e6225fdb065b37ea.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18204434",
+        "time": "2026-10-13T13:59:18+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://nasa.jlu.edu.cn/yjsjy/tzgg.htm",
+    "checked_at": "2026-10-13T13:41:09+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b89e65fad06d41c2.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://nasa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1749753472&wbfileid=18183237",
+        "time": "2026-10-13T13:59:24+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://pe.jlu.edu.cn/djgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:29+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/7d7c829428ef0361.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://pe.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1559974766&wbfileid=18147384",
+        "time": "2026-10-13T13:59:33+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://pe.jlu.edu.cn/zsgz1/zsxx.htm",
+    "checked_at": "2026-10-13T13:59:42+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b391dd8251668fa6.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://pe.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1559974766&wbfileid=18203639",
+        "time": "2026-10-13T13:59:44+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jxtz.htm",
+    "checked_at": "2026-10-13T13:41:31+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/933c15f081de2de3.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://phy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1935974547&wbfileid=18206668",
+        "time": "2026-10-13T13:59:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sai.jlu.edu.cn/zytz/xytz.htm",
+    "checked_at": "2026-10-13T13:59:58+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b4d0f3f83bb4b3eb.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sai.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1828851623&wbfileid=15758811",
+        "time": "2026-10-13T14:00:01+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sflc.jlu.edu.cn/bksjx/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:15+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/4082d5740334b52d.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18206001",
+        "time": "2026-10-13T14:00:04+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sflc.jlu.edu.cn/xtgz/xttzgg.htm",
+    "checked_at": "2026-10-13T14:00:09+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/eee2c71f35ed2302.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18207820",
+        "time": "2026-10-13T14:00:11+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sflc.jlu.edu.cn/yjsgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:16+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/7caf92be4c577f25.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sflc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2058959432&wbfileid=18207293",
+        "time": "2026-10-13T14:00:15+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/jxxm/bk/jxtz.htm",
+    "checked_at": "2026-10-13T14:00:18+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/bc7612ad15b66e78.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18085740",
+        "time": "2026-10-13T14:00:20+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/jxxm/bs/jxtz.htm",
+    "checked_at": "2026-10-13T14:00:22+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/d9746a56822d872b.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842675",
+        "time": "2026-10-13T14:00:24+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "checked_at": "2026-10-13T14:00:26+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/6f487871816f63b1.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842675",
+        "time": "2026-10-13T14:00:24+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:00:28+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/579e5f4596d97ca9.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18207626",
+        "time": "2026-10-13T14:00:30+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/xsfz/bk/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:56+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e249e1b50f11f85b.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18207993",
+        "time": "2026-10-13T14:00:34+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sg.jlu.edu.cn/xsfz/yjs/tzgg.htm",
+    "checked_at": "2026-10-13T13:40:57+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/a5fb3c6473c13696.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=18207636",
+        "time": "2026-10-13T14:00:39+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sipa.jlu.edu.cn/dqgz/tzgg.htm",
+    "checked_at": "2026-10-13T13:41:14+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/0880df73e82d6226.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=18206174",
+        "time": "2026-10-13T14:00:51+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sipa.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T14:00:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/29e857a4ad62531a.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=18207145",
+        "time": "2026-10-13T14:00:58+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+    "checked_at": "2026-10-13T13:41:16+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/4ef17320b90fd74d.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+        "time": "2026-10-13T14:01:01+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://sipa.jlu.edu.cn/rcpy1/tzgg.htm",
+    "checked_at": "2026-10-13T14:01:05+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/d0ce0fbe0f9c097d.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=18207145",
+        "time": "2026-10-13T14:00:58+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "checked_at": "2026-10-13T13:44:50+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/1e4fe50bfee71d6c.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192489",
+        "time": "2026-10-13T14:01:10+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/gjjl/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:52+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/2d2311f9137d70e1.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=11303142",
+        "time": "2026-10-13T14:01:26+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/xshz/bks/tzgg.htm",
+    "checked_at": "2026-10-13T14:01:29+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/75a936f67e7b085d.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=18206959",
+        "time": "2026-10-13T14:01:31+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/xshz/yjs/tzgg.htm",
+    "checked_at": "2026-10-13T14:01:34+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/8227e0600236a5bc.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=18207250",
+        "time": "2026-10-13T14:01:36+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/xwgg/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:48+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/fceee4bcc6a55991.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=18186141",
+        "time": "2026-10-13T14:01:39+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "checked_at": "2026-10-13T14:01:46+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3f1970ccb9a10b6a.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=16672083",
+        "time": "2026-10-13T14:01:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://wxy.jlu.edu.cn/zsyjy/zsxx.htm",
+    "checked_at": "2026-10-13T14:01:51+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/4cdaecdcbdc0e9e1.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=18200527",
+        "time": "2026-10-13T14:01:53+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yxy.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T14:01:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/7c4630b720e4697e.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18127313",
+        "time": "2026-10-13T14:01:57+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://yxy.jlu.edu.cn/zszp/zsxx.htm",
+    "checked_at": "2026-10-13T14:02:03+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/f9c1c909137f340b.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://yxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2132392857&wbfileid=18127313",
+        "time": "2026-10-13T14:01:57+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://synlab.jlu.edu.cn/information/events",
+    "checked_at": "2026-10-13T14:05:32+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/0669ddf8868968f0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://synlab.jlu.edu.cn/attachment/2024/10/handbook08.pdf",
+        "time": "2026-10-13T14:05:34+08:00",
+        "old_status": null,
+        "old_reason": "RuntimeError: ROBOTS_DISALLOWED: https://synlab.jlu.edu.cn/attachment/2024/10/handbook08.pdf",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://cbslab.jlu.edu.cn/xwzx/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:28+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/fc6bb7747414e949.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://cbslab.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130584716&wbfileid=18117830",
+        "time": "2026-10-13T14:05:52+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dag.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T14:06:13+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/07989e4e3e51cd80.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dag.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409281652&wbfileid=18179874",
+        "time": "2026-10-13T14:06:15+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://dev.jlu.edu.cn/ggdt/tzgg.htm",
+    "checked_at": "2026-10-13T14:06:23+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/d7ea2bd5b29a0689.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://dev.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1844405998&wbfileid=18195355",
+        "time": "2026-10-13T14:06:25+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hqc.jlu.edu.cn/cggsycgjggg.htm",
+    "checked_at": "2026-10-13T14:06:42+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/717cb1dd0cc9f952.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=18201608",
+        "time": "2026-10-13T14:06:44+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://hqc.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:06:47+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/26ed334f996e1fea.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://hqc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1770699016&wbfileid=16682362",
+        "time": "2026-10-13T14:06:49+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jdyxb.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:07:05+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/552953476abb8018.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jdyxb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1793049042&wbfileid=18207564",
+        "time": "2026-10-13T14:07:07+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "checked_at": "2026-10-13T14:07:10+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b5a06a58053ecaad.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+        "time": "2026-10-13T14:07:12+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jgb.jlu.edu.cn/ygtz.htm",
+    "checked_at": "2026-10-13T14:07:13+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/92fc799ee2388b45.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=18200410",
+        "time": "2026-10-13T14:07:16+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jjglb.jlu.edu.cn/fxljy/xmgs.htm",
+    "checked_at": "2026-10-13T14:07:19+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/6081a6077fa87de2.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18176971",
+        "time": "2026-10-13T14:07:21+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://jjglb.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T13:38:13+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/fe70747cb90d3d64.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://jjglb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067211637&wbfileid=18197673",
+        "time": "2026-10-13T14:07:24+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://lvpecf.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T14:07:34+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b77c23b62583dac7.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://lvpecf.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2053810924&wbfileid=18130072",
+        "time": "2026-10-13T14:07:36+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ncnas.jlu.edu.cn/xwdt/tzgg.htm",
+    "checked_at": "2026-10-13T14:07:39+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3d34c2ae440cc869.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ncnas.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1969154031&wbfileid=18128339",
+        "time": "2026-10-13T14:07:41+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://nrcem.jlu.edu.cn/xwtz/tzgg.htm",
+    "checked_at": "2026-10-13T13:39:34+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/6057733eb6f04b2f.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=18183150",
+        "time": "2026-10-13T14:07:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://nrcem.jlu.edu.cn/xzzq/hytz.htm",
+    "checked_at": "2026-10-13T14:07:53+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/a93aafad1fe06e10.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://nrcem.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2141515452&wbfileid=16649264",
+        "time": "2026-10-13T14:07:55+08:00",
+        "old_status": 200,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "checked_at": "2026-10-13T14:07:56+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/79dae7a36e3058b0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+        "time": "2026-10-13T14:04:55+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+    "checked_at": "2026-10-13T14:07:58+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/be94a971ce81b143.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=4530517",
+        "time": "2026-10-13T14:04:55+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://rsgl.jlu.edu.cn/zpxx.htm",
+    "checked_at": "2026-10-13T14:08:17+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b4bf49021cd7a222.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://rsgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1454644498&wbfileid=18125288",
+        "time": "2026-10-13T14:08:20+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://xcb.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:08:22+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/2d092f512c10a4c7.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://xcb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1850573196&wbfileid=12997612",
+        "time": "2026-10-13T14:08:24+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "checked_at": "2026-10-13T13:38:38+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/43c4bdb1d4ae8dba.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11452732",
+        "time": "2026-10-13T14:08:29+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://ywc.jlu.edu.cn/jxyxjy1/tzgg.htm",
+    "checked_at": "2026-10-13T13:38:37+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b944229a171be375.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://ywc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840202787&wbfileid=11458400",
+        "time": "2026-10-13T14:08:33+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://zcgl.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:08:41+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/81ced94833acd4e3.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://zcgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1694439661&wbfileid=18200942",
+        "time": "2026-10-13T14:08:43+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "https://zcgl.jlu.edu.cn/zxcgxmgg.htm",
+    "checked_at": "2026-10-13T14:08:46+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/f973305063fd0fee.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "https://zcgl.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1694439661&wbfileid=18206021",
+        "time": "2026-10-13T14:08:48+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://cie.jlu.edu.cn/ggtz.htm",
+    "checked_at": "2026-10-13T13:51:47+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/88e2ce025b951ccb.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://cie.jlu.edu.cn/zhuanyemulu.pdf",
+        "time": "2026-10-13T13:51:49+08:00",
+        "old_status": 206,
+        "old_reason": null,
+        "classification": "not reclassified from old 16-byte hex alone"
+      },
+      {
+        "url": "http://cie.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1407748499&wbfileid=18140579",
+        "time": "2026-10-13T13:51:52+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://ghb.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:02:46+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/b9081fc300d91652.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://ghb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037215488&wbfileid=16668680",
+        "time": "2026-10-13T14:02:49+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+    "checked_at": "2026-10-13T14:02:58+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/276d57c8bed1a4f0.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://iamp.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037215816&wbfileid=18207939",
+        "time": "2026-10-13T14:03:01+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+    "checked_at": "2026-10-13T14:03:19+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/e088fc12870c917f.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://indss.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1690739580&wbfileid=18207177",
+        "time": "2026-10-13T14:03:21+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "checked_at": "2026-10-13T14:03:25+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/06d121ac0e9b6c27.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+        "time": "2026-10-13T14:03:28+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://iz.jlu.edu.cn/index/tzgg.htm",
+    "checked_at": "2026-10-13T14:03:29+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3230ff7620b1e6a8.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://iz.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1554639417&wbfileid=16668669",
+        "time": "2026-10-13T14:03:31+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://klgre.jlu.edu.cn/tzgg.htm",
+    "checked_at": "2026-10-13T14:03:55+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/43985ce4fe1b2003.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://klgre.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1555858249&wbfileid=18114294",
+        "time": "2026-10-13T14:03:57+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://nlshm-lab.jlu.edu.cn/yjsjy/tzgg.htm",
+    "checked_at": "2026-10-13T13:46:06+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/bda802ae708bf466.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://nlshm-lab.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1972272839&wbfileid=18206098",
+        "time": "2026-10-13T14:04:44+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  },
+  {
+    "column_url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+    "checked_at": "2026-10-13T14:04:47+08:00",
+    "evidence_file": "docs/jlu-audit-evidence/results/3a9be451148bc364.json",
+    "status": "historical; not fully revalidated",
+    "probes": [
+      {
+        "url": "http://nlshm-lab.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1972272839&wbfileid=18203103",
+        "time": "2026-10-13T14:04:49+08:00",
+        "old_status": 206,
+        "old_reason": "附件端点返回空响应或 HTML，不能认定下载成功",
+        "classification": "not reclassified from old 16-byte hex alone"
+      }
+    ]
+  }
+]

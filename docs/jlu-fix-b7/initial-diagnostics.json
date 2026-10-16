@@ -1,0 +1,724 @@
+[
+  {
+    "url": "https://hqserver.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "智能仪器与测控技术研究所",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+    "institution": "吉林大学附属中学",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+    "institution": "边疆考古研究中心",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://jlucqe.jlu.edu.cn/list.php?SID=1",
+    "institution": "数量经济研究中心",
+    "verdict": "ACCESS_BLOCKED",
+    "reason": "SourceError: Source request failed: HTTPStatusError: Client error '404 Not Found' for url 'http://jlucqe.jlu.edu.cn/list.php?SID=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 <- HTTPStatusError: Client error '404 Not Found' for url 'http://jlucqe.jlu.edu.cn/list.php?SID=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+    "institution": "哲学基础理论研究中心",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+    "institution": "高等教育研究所",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://dwxcb.jlu.edu.cn/tzgg.htm",
+    "institution": "党委巡视工作办公室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://dwxcb.jlu.edu.cn/info/1046/2926.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/bef24037fd7502e869a11968d515dc9485094aa85d23b43e562e22112a5bb341.html",
+        "frame": "<body>\n<!-- header 头部开始 -->\n<div class=\"header\">\n<!-- top开始 -->\n<div class=\"top\">\n<div class=\"width\">\n<div class=\"logo fadeInLeft wow fl\" data-wow-delay=\".26s\">\n<!-- 网站logo图片地址请在本组件\"内容配置-网站logo\"处填写 -->\n<a href=\"../../index.htm\" title=\"党委巡视工作办公室\"><img src=\"../../images/logo.png\"/></a></div>\n<div class=\"dang-logo fadeInRight wow fl\" data-wow-delay=\".26s\">\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tr>\n<td><a href=\"../../index.htm\" onclick=\"_addDynClicks('wbimage',1751030224,63872)\" target=\"_blank\"><img border=\"0\" src=\"../../images/logo-right.png\"/></a></td>\n</tr>\n</table> </div>\n<div class=\"clear\"></div>\n</div>\n<div style=\"float: right;margin-right: 30px;border: solid 2px #fff;\">\n<form action=\"../../search.jsp?wbtreeid=1046\" id=\"au2a\" method=\"post\" name=\"au2a\" onsubmit=\"return _nl_ys_check()\" style=\"display: inline\">\n<input id=\"lucenenewssearchkey1096428\" name=\"lucenenewssearchkey\" type=\"hidden\" value=\"\"/><input id=\"_lucenesearchtype1096428\" name=\"_lucenesearchtype\" type=\"hidden\" value=\"1\"/><input id=\"searchScope1096428\" name=\"searchScope\" type=\"hidden\" value=\"0\"/>\n<div style=\"padding:3px;margin:0px;display:inline;font-family:宋体;font-size:16px;\">\n<input id=\"showkeycode1096428\" name=\"showkeycode\" onblur=\"if (value ==''){value='请输入关键字'}\" onfocus=\"if (value =='请输入关键字'){value =''}\" style=\"width:225px;height:29px;line-height:29px;margin-left:5px;border:0;background:none;margin-top:3px;color:#fff;\" value=\"请输入关键字\"/>\n<input align=\"absmiddle\" src=\"../../images/search.png\" style=\"cursor:pointer;\" type=\"image\"/>\n</div>\n</form>\n</div>\n</div>\n<!-- top结束 -->\n<!-- 导航开始 -->\n<div class=\"nav fadeInDown wow\" data-wow-delay=\".26s\"> <ul id=\"navul\">\n<li><a href=\"../../index.htm\">首页</a>\n</li>\n<li><a href=\"../../jgjs/bmzn.htm\">组织机构</a>\n<ul>\n<li><a href=\"../../jgjs/bmzn.htm\">部门职能</a></li>\n<li><a href=\"../../jgjs/ldfg.htm\">领导分工</a></li>\n<li><a href=\"../../jgjs/ksgwjzz.htm\">科室岗位及职责</a></li>\n</ul>\n</li>\n<li><a href=\"../../gzdt/sjdt.htm\">工作动态</a>\n<ul>\n<li><a href=\"../../gzdt/sjdt.htm\">上级动态</a></li>\n<li><a href=\"../../gzdt/xndt.htm\">校内动态</a></li>\n</ul>\n</li>\n<li><a href=\"../../tzgg.htm"
+      }
+    ]
+  },
+  {
+    "url": "https://ddy.jlu.edu.cn/tzkx.htm",
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/ce8360696f24714fa6d6d1835251a9f4803c9790e74b13dff922101336eacc26.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div class=\"t\">\n<p class=\"ti\">关于开展地质调查项目合同（协议）成交额自查工作的通知</p>\n<p class=\"author\"><span>2026-09-07</span><span>\n</span></p>\n</div>\n<div class=\"co\">\n<div id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div></div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "https://ddy.jlu.edu.cn/tzkx/tzgg.htm",
+    "institution": "地质调查项目管理办公室（地质调查研究院、矿产资源研究院）",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://oic.jlu.edu.cn/hzbx2/xggs.htm",
+    "institution": "国际合作与交流处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/eaa68202caa45ba20872f3ba85a2eef84983bd9275096a7768f8c4db48671769.html",
+        "frame": "<div class=\"right-nr\">\n<div class=\"view-title\">\n    吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告\n</div>\n<div class=\"view-info\">\n    发布时间：2026-01-19\n</div>\n<div class=\"view-cnt\">\n<div class=\"v_news_content\">[BODY OMITTED]</div>\n</div>\n</div>"
+      }
+    ]
+  },
+  {
+    "url": "https://oic.jlu.edu.cn/zytg1/tzgg.htm",
+    "institution": "国际合作与交流处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://zcgl.jlu.edu.cn/tzgg.htm",
+    "institution": "资产管理处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [
+      "https://zcgl.jlu.edu.cn/info/1082/1614.htm",
+      "https://zcgl.jlu.edu.cn/info/1082/1615.htm",
+      "https://zcgl.jlu.edu.cn/info/1082/1616.htm"
+    ],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://zcgl.jlu.edu.cn/zxcgxmgg.htm",
+    "institution": "资产管理处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [
+      "https://zcgl.jlu.edu.cn/info/1082/1614.htm",
+      "https://zcgl.jlu.edu.cn/info/1082/1615.htm",
+      "https://zcgl.jlu.edu.cn/info/1082/1616.htm"
+    ],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://zcyfg.jlu.edu.cn/sylm/tzgg.htm",
+    "institution": "政策与法规办公室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://zcyfg.jlu.edu.cn/info/1048/1675.htm",
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/0ac45e7b11ad030cd2917b7da51547609af3c37883dfa81050e6108a7b31cda8.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<h2 align=\"center\">政策与法规办公室召开2026年工作务虚会</h2>\n<div class=\"wzxxys\">作者：    时间：2026-03-06    点击数：</div>\n<div class=\"sub_about\" id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n<div class=\"sytxyt\">\n<p></p>\n<p>下一条：<a href=\"1573.htm\">关于举办“明法笃行”依法治校系列讲座暨吉林大学法治工作联络员专题业...</a></p>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "institution": "经营性资产改革和管理办公室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div class=\"read\">\n<div class=\"readtitle\">关于确定周永东同志为2020年党员计划发展对象的公示</div>\n<div class=\"readcontent\">\n<div class=\"infotime\"><a href=\"#\"></a> 发布时间：2019-12-12 15:03   点击：</div>\n<div id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n<p>\n<ul style=\"list-style-type:none;\">\n<li>附件【<a href=\"/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1397115706&amp;wbfileid=4489124\" target=\"_blank\">附件：2020年计划发展对象一览表（教职工）.xlsx</a>】已下载<span id=\"nattach4489124\"></span>次</li>\n</ul>\n</p>\n</div>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "https://jgb.jlu.edu.cn/ygtz.htm",
+    "institution": "经营性资产改革和管理办公室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://ywc.jlu.edu.cn/byhyxjy1/tzgg.htm",
+    "institution": "医院管理处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "https://ywc.jlu.edu.cn/info/1048/1828.htm",
+        "issues": [
+          "ATTACHMENTS_NOT_INDEPENDENTLY_VERIFIED",
+          "ENCODING_REPLACEMENT_IN_SOURCE"
+        ],
+        "reason": null,
+        "snapshot": "html/2fa5087d46ffe27c60cb803594e683e33c75f70e9bd498f5225d535250813156.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<h1 align=\"center\">关于印发《吉林大学住院医师规范化培训学员管理规定（试行）》的通知</h1>\n<div class=\"xiab\">发布时间：2017-11-17</div>\n<div class=\"nrynr\" id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n<div class=\"sxp\">\n<p>\n        上一篇：<a href=\"1827.htm\">关于组织2014年度吉林大学初级卫生技术人员岗位培训考试工作的通知</a>\n</p>\n<p>\n        下一篇：<a href=\"1837.htm\">关于印发《吉林大学住院医师规范化培训考核管理规定（试行）》的通知</a>\n</p>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "https://ywc.jlu.edu.cn/xyggwsgl1/tzgg.htm",
+    "institution": "医院管理处",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11922&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11909&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://hqserver.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=11902&wbtreeid=1023",
+    "institution": "后勤服务集团",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://aamuseum.jlu.edu.cn/tzkx/tz.htm",
+    "institution": "考古与艺术博物馆",
+    "verdict": "ACCESS_BLOCKED",
+    "reason": "SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://lvpecf.jlu.edu.cn/index/tzgg.htm",
+    "institution": "综合极端条件高压科学中心",
+    "verdict": "ACCESS_BLOCKED",
+    "reason": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: ConnectError('') <- ConnectError(EndOfStream()) <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032) <- ConnectError: ConnectError('') <- ConnectError: ConnectError(EndOfStream()) <- EndOfStream: EndOfStream() <- SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1166&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1093&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1179&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1197&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://cszx.jlu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=1101&wbtreeid=1008",
+    "institution": "测试科学实验中心",
+    "verdict": "PERMISSION_RESTRICTED",
+    "reason": "Explicit column permission denial; no login/bypass attempted",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/information/events",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/archive/information/events",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/archive/information/events/instrument-announcement",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2025/09/5203.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "https://synlab.jlu.edu.cn/2024/06/5016.html",
+    "institution": "无机合成与制备化学全国重点实验室",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://icfs.jlu.edu.cn/xwtz/xw.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://icfs.jlu.edu.cn/info/1007/3746.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/7bca7c50d2e80c8d27832fdc9d0ef287e1594c2344c94c8e29f1062d3aa35088.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<ul>\n<div class=\"item_biaoti\">先进结构材料与薄膜技术团队在陶瓷室温塑形机理探究方面取得进展</div>\n<div class=\"liulancishu\">发布日期： 2026-09-30  浏览：</div>\n<li><span class=\"J_WenZhang\"><div id=\"vsb_content_1002\"><div class=\"v_news_content\">[BODY OMITTED]</div></div></span></li><div id=\"div_vote_id\"></div>\n</ul>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://icfs.jlu.edu.cn/xwtz/tz.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://icfs.jlu.edu.cn/rcpy/tzgg.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://icfs.jlu.edu.cn/jrwm/zpxx.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://icfs.jlu.edu.cn/index.htm",
+    "institution": "未来科学国际合作联合实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [
+      "http://icfs.jlu.edu.cn/info/1483/3603.htm",
+      "https://icfs.jlu.edu.cn/info/1347/3708.htm",
+      "https://icfs.jlu.edu.cn/info/1483/3512.htm"
+    ],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://acre.jlu.edu.cn/xwdt/tzgg1.htm",
+    "institution": "廉政研究院",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://acre.jlu.edu.cn/info/1129/2472.htm",
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/4b71b5fb239f163e941d7362951930273eb0d74b816212095882f66b4a69da7f.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div class=\"c-content_szdw\">\n<h1 align=\"center\" class=\"c-title\">第四届研究生清晏廉政论坛暨“廉政建设理论与实践优秀论文奖”征文启事</h1>\n<h3 style=\"    text-align: center;    padding-top: 20px;\">点击量：</h3>\n<div class=\"nr-info_szdw\" id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://sklio.jlu.edu.cn/rcpy/zsxx.htm",
+    "institution": "集成光电子全国重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://sklio.jlu.edu.cn/info/1042/1039.htm",
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/b53b80e69bec5f29774953a8e34d18a24ddd7bb3f99a711174563853133be251.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div>\n<h2>2014年硕士研究生招生专业目录</h2>\n<p><div id=\"vsb_content\">[BODY OMITTED]</div></p>\n<p align=\"right\">【<a href=\"javascript:window.opener=null;window.open('','_self');window.close();\">关闭</a>】</p>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://sklio.jlu.edu.cn/zxns/zpxx.htm",
+    "institution": "集成光电子全国重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://sklio.jlu.edu.cn/index/tzgg.htm",
+    "institution": "集成光电子全国重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://nlshm-lab.jlu.edu.cn/yjsjy/zsxx.htm",
+    "institution": "高压与超硬材料全国重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://acib.jlu.edu.cn/xxgg.htm",
+    "institution": "汽车底盘集成与仿生全国重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://acib.jlu.edu.cn/info/1041/1643.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/28acef5493aae16260704b08e8987033bade70a1277266705b6f0d186bc28384.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div class=\"abouttitle\">\n<p>2026年度开放基金申请指南</p>\n<div class=\"span00\"><span>上传时间:2026-03-13 14:33:11 被浏览<span class=\"span\"></span>次</span> </div>\n<div class=\"clear\"></div></div>\n<div class=\"aboutrq\">\n<div id=\"vsb_content\">[BODY OMITTED]</div>\n</div>\n<div class=\"pag\">\n<p>上一页：暂无记录</p>\n<span>下一页：\n\n<a href=\"1633.htm\" title=\"全国重点实验室实验技术人员公开招聘拟聘人选公示\">全国重点实验室实验技术人员公开招聘拟聘人选公示</a>\n</span>\n</div>\n<div class=\"fh\"><a href=\"javascript:void(0);\" onclick=\"window.history.go(-1);return false;\" title=\"返回\"><img alt=\"返回\" src=\"../../dfiles/17734/images/fh.jpg\"/></a></div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://ghb.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "人兽共患病研究教育部重点实验室",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://jusep.jlu.edu.cn/xwzx/tz.htm",
+    "institution": "特种工程塑料教育部工程中心",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://jusep.jlu.edu.cn/info/1020/1231.htm",
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/bee88b5b71211d685c85e3861b4343d457082e90a2c34ff9d9606bcfd2e812f3.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div class=\"nry\">\n<h3>Carbazole Functionalized Poly(phenyl isocyanide)s: Synergistic Electrochromic Behaviors in the Visible Light Near-Infrared Region</h3>\n<div class=\"xiab\"><span class=\"xb1\">2021/06/21</span><span class=\"xb2\"></span><span class=\"xb3\">\n</span><span class=\"xb4\">浏览数:</span></div>\n<div class=\"nrynr\" id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n<p>\n<ul style=\"list-style-type:none;\">\n<li>附件【<a href=\"/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1598672350&amp;wbfileid=7576237\" target=\"_blank\">5d1eb479e991324fb4cc45dc723307f.png</a>】已下载<span id=\"nattach7576237\"></span>次</li>\n</ul>\n</p>\n<div class=\"sxp\">\n<p>下一篇：<a href=\"1211.htm\">Blue Energy: Polymeric Nano‐Blue‐Energy Generator Based on Anion‐Selective Ionomers with 3D Pores and pH‐Driving Gating </a></p>\n</div>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://dbzx.jlu.edu.cn/xwdt/yjydt.htm",
+    "institution": "东北振兴发展研究院",
+    "verdict": "LIST_OR_PAGINATION_UNSUPPORTED",
+    "reason": "This page is unsupported or needs advanced selector configuration",
+    "missing_refs": null,
+    "unexpected": null,
+    "details": []
+  },
+  {
+    "url": "http://indss.jlu.edu.cn/index.htm",
+    "institution": "吉林大学国家发展与安全研究院",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [
+      "http://indss.jlu.edu.cn/info/1369/1125.htm",
+      "http://indss.jlu.edu.cn/info/1369/1892.htm",
+      "http://indss.jlu.edu.cn/info/1369/2564.htm"
+    ],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://indss.jlu.edu.cn/info/1369/3072.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/e0f6e910a38f3da771da3b56b19a2c92d4839cdd96e40e279e9167470c425504.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<ul>\n<div class=\"item_biaoti\">吉林大学国家发展与安全研究院与吉林出入境边防检查总站签订合作协议</div>\n<div class=\"liulancishu\">发布日期： 2026-07-06  浏览：</div>\n<li><span class=\"J_WenZhang\"><div id=\"vsb_content\">[BODY OMITTED]</div></span></li><div id=\"div_vote_id\"></div>\n</ul>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://indss.jlu.edu.cn/xwtz/tz.htm",
+    "institution": "吉林大学国家发展与安全研究院",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "institution": "理论化学研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/8d976d82250ff1fa2c1c5b10dd555b2ab8e2026308a942ffd4bbc76eff612e2a.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<p class=\"biaoti\">招生宣传册</p>\n<p class=\"shijian\"><span></span>    <span>发布日期：2019-09-24</span></p>\n<div id=\"vsb_content\" style=\"pading:15px; margin-top:20px\">[BODY OMITTED]</div>\n<p>\n<ul style=\"list-style-type:none;\">\n<li>附件【<a href=\"/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1409282311&amp;wbfileid=4398326\" target=\"_blank\">招生宣传册-2019.pdf</a>】已下载<span id=\"nattach4398326\"></span>次</li>\n</ul>\n</p>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://itc.jlu.edu.cn/dtxx/tzgg.htm",
+    "institution": "理论化学研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://itc.jlu.edu.cn/info/1032/2103.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+          "ENCODING_REPLACEMENT_IN_SOURCE"
+        ],
+        "reason": null,
+        "snapshot": "html/674a139ba1013cfa89f7811db1bd67b548cae4d8cf4cbb3a2bbfb4d054b5fd20.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<p class=\"biaoti\">吉大化学70年院庆系列活动——科学与未来系列讲座：分子间振转碰撞传能的量子动力学与冷分子化学</p>\n<p class=\"shijian\"><span></span>    <span>发布日期：2022-08-30</span></p>\n<div id=\"vsb_content\" style=\"pading:15px; margin-top:20px\">[BODY OMITTED]</div>\n<div style=\"min-height: 40px;    clear: both;    padding-top: 20px;\">\n    上一篇 ：<a href=\"2143.htm\">国际系列学术活动</a>\n    下一篇 ：<a href=\"2093.htm\">关于表彰2021年度优秀党员、考核优秀人员和先进工作者的通知</a>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://iamp.jlu.edu.cn/rcpy/zsxx.htm",
+    "institution": "原子与分子物理研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://iamp.jlu.edu.cn/info/1029/10063.htm",
+        "issues": [
+          "TITLE_NOT_INDEPENDENTLY_VERIFIED",
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/e0e8e0f2e68f0cb9fa803a2fd216f0dbebc99222c7a88fbc80064e9881b933e9.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<div>\n<div class=\"nav01\">\n<h3>吉林大学原子与分子物理研究所2027年推免生拟录取名单公示</h3>\n<h6>\n<div class=\"ll\">\n<span>时间：2026-10-13</span>\n<span>点击数：</span>\n</div>\n</h6>\n</div>\n<div class=\"arc-con\" id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div>\n<p>\n<ul style=\"list-style-type:none;\">\n<li style=\"height: 34px;\">附件【<a href=\"/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=2037215816&amp;wbfileid=18207939\" target=\"_blank\">吉林大学原子与分子物理研究所2027年推免生拟录取名单.pdf</a>】已下载<span id=\"nattach18207939\"></span>次</li>\n</ul>\n</p>\n<section id=\"ar_fot\">\n<div class=\"ll\">\n<h1 class=\"highlight prev\"> </h1>\n<h1 class=\"highlight next\"><a href=\"10061.htm\"><span>下一篇：</span>吉林大学原子与分子物理研究所2027年推免生拟录取名单公示（第二批）</a></h1>\n</div>\n</section>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://iamp.jlu.edu.cn/rcpy/jxxx.htm",
+    "institution": "原子与分子物理研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://iamp.jlu.edu.cn/dtxx/tzgg.htm",
+    "institution": "原子与分子物理研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://iamp.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "原子与分子物理研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  },
+  {
+    "url": "http://iz.jlu.edu.cn/rczp/zpxx.htm",
+    "institution": "人兽共患病研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": [
+      {
+        "url": "http://iz.jlu.edu.cn/info/1124/1135.htm",
+        "issues": [
+          "DATE_NOT_INDEPENDENTLY_VERIFIED"
+        ],
+        "reason": null,
+        "snapshot": "html/6b440c382d03efa03697b3420a36b8e9559edb0ad3f4652b9027565ba1b9a654.html",
+        "frame": "<form name=\"_newscontent_fromname\">\n<h2>吉林大学人兽共患病研究所2017年招聘教师启事</h2>\n<h3><span>作者：</span><span>时间：2017-12-21</span><span>点击数：</span></h3>\n<div class=\"con_con\"><p>\n<div id=\"vsb_content\">[BODY OMITTED]</div><div id=\"div_vote_id\"></div></p>\n</div>\n<div class=\"sx cleafix\">\n<span class=\"bo-le\"></span>\n<span class=\"bo-le fl\">下一条：<a href=\"1134.htm\">人兽共患病研究教育部重点实验室人才招聘启事</a></span>\n</div>\n</form>"
+      }
+    ]
+  },
+  {
+    "url": "http://iz.jlu.edu.cn/index/tzgg.htm",
+    "institution": "人兽共患病研究所",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "reason": "See per-page/detail comparisons; candidate remains disabled",
+    "missing_refs": [],
+    "unexpected": [],
+    "details": []
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "column_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+  "column": "活动通知",
+  "institution": "商学与管理学院",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:40:52+08:00",
+  "checked_at": "2026-10-13T14:00:46+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING"
+  ],
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+      "list_title": "商学与管理学院校友信息征集函",
+      "parsed_title": "商学与管理学院校友信息征集函",
+      "document_title": "商学与管理学院校友信息征集函-吉林大学商学与管理学院",
+      "heading_texts": [
+        "商学与管理学院校友信息征集函"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2022-11-03",
+      "reference_date": "2022-11-03",
+      "body_selector": ".v_news_content",
+      "content_chars": 381,
+      "content_preview": "亲爱的商学与管理学院校友： 为搭建校友之间及校友与学院之间联系与沟通的信息平台，联络校友感情，凝聚校友力量，学院现面向各位校友征集信息。 一、征集范围 1. 在吉林大学商学与管理学院及其前身（商学院、管理学院）学习过的各种学历层次的毕业生、进修生、留学生等，以及其他形式在校学习过的学生。 2. 曾在我院工作的教职员工。 二、征集信息内容 个人基本信息，姓名、性别、出生年月；在校信息，如毕业年份、专业、学历类别、指导教师等；工作情况，如现工作所在地、工作单位、职务 / 职称；联系方式，如移动电话、电子邮箱等。 希望广大校友积极响应，踊跃参与，后续会有丰富的校友活动信息和优厚的校友福利发送给您！谢谢支持！ 说明：校友信息仅供学院统计使用，对外保密。 联系电话： 0431—85166131 登陆学院官网了解最新资讯 https://sg.jlu.edu.cn",
+      "content_sha256": "366472d24286fc1ce7071387b2d86a7f57f146805e7a8624c362e505c2315348",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [],
+      "time": "2026-10-13T14:00:46+08:00",
+      "sha256": "bd54ebbff7c2945f32ae7c88d01f5aa021bdc496040ccd7c3ccdf69fa5736d1d",
+      "snapshot": "html/bd54ebbff7c2945f32ae7c88d01f5aa021bdc496040ccd7c3ccdf69fa5736d1d.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "商学与管理学院校友信息征集函",
+      "url": "https://sg.jlu.edu.cn/info/1415/18590.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/44fbf0adca090c7b.json",
+  "reason": "LIST_DATES_MISSING",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://sg.jlu.edu.cn/xy/hdtz.htm",
+  "list_sha256": "99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a",
+  "list_snapshot": "html/99f521613b255e074031e54b5c5e3f5fa6becf7622fb0c33d4807fdd3aa87f3a.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

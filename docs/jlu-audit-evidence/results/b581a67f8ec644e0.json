@@ -1,0 +1,354 @@
+{
+  "column_url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+  "column": "通知公告",
+  "institution": "研究生招生",
+  "site_url": "https://yzb.jlu.edu.cn/",
+  "category": "官网导航",
+  "priority": "P1",
+  "discovery_url": "https://yzb.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:48:27+08:00",
+  "checked_at": "2026-10-13T13:48:29+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_DATES_MISSING",
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+      "list_title": "吉林大学2026级研究生新生入学须知",
+      "parsed_title": "吉林大学2026级研究生新生入学须知",
+      "document_title": "吉林大学2026级研究生新生入学须知-吉林大学研究生招生信息网",
+      "heading_texts": [
+        "吉林大学2026级研究生新生入学须知"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2026-06-25",
+      "reference_date": "2026-06-25",
+      "body_selector": ".v_news_content",
+      "content_chars": 2002,
+      "content_preview": "亲爱的2026级研究生同学： 欢迎来到吉林大学继续深造，为确保同学们顺利办理入学手续，现将报到相关事宜通知如下： 一、请持新生入学报到证、毕业证书、学位证书和有效身份证原件于 202 6 年 9 月 5 、 6 日来校报到 （卓越工程师学院（全日制）、卓越工程师学院（珠海）、珠海研究院及学科交叉创新中心研究生到校本部各相应培养单位报到，卓越工程师学院（非全日制）研究生到卓越工程师学院报到）。因故不能按期入学，请事先向研究生培养单位（以下简称培养单位）研究生办公室提出书面申请，延期入学时间最长为两周。若未请假或请假逾期两周不报到，除不可抗力等正当事由外，将被视为自动放弃入学资格。 二、根据国家规定，新生可自愿迁移户口（定向培养的新生不迁户口）。如若迁移户口，户口迁移证上的内容不得涂改，户口迁移证上的姓名、性别、身份证号码必须与录取通知书和考生本人档案一致。户口迁入的地址各专业一律填写“吉林省",
+      "content_sha256": "ccb000b868bc5d9b46e60864e6e898eacc2b4b191dfd4b41f06e6da5298b293f",
+      "raw_attachments": [
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153801",
+          "filename": "附件1.docx"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153802",
+          "filename": "附件2.docx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "附件1.docx",
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153801",
+          "type": "docx"
+        },
+        {
+          "filename": "附件2.docx",
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153802",
+          "type": "docx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T13:53:13+08:00",
+      "sha256": "246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd",
+      "snapshot": "html/246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd.html",
+      "attachment_probes": [
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153801",
+          "time": "2026-10-13T13:53:14+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18153801",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1005/2335.htm",
+      "list_title": "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+      "parsed_title": "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+      "document_title": "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求-吉林大学研究生招生信息网",
+      "heading_texts": [
+        "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求"
+      ],
+      "title_verified": true,
+      "list_date": "",
+      "parsed_date": "2026-05-07",
+      "reference_date": "2026-05-07",
+      "body_selector": ".v_news_content",
+      "content_chars": 331,
+      "content_preview": "按照教育部、吉林省教育考试院和吉林大学关于面向香港、澳门、台湾地区招收硕士研究生考试招生工作部署， 2026年 吉林大学面向香港、澳门、台湾地区招收硕士研究生 招生考试考生进入复试的初试成绩基本要求如下： 学科门类 (专业)名称 统考总分满分 进入复试的初试成绩基本要求 文学[05] 150 总分6 5分，单科不限 历史学[06] 150 总分6 5分，单科不限 理学[07] 150 总分6 5分，单科不限 临床医学[1051] 150 总分6 5分，单科不限 口腔医学[1052] 150 总分6 5分，单科不限 附件： 2026年吉林大学面向香港、澳门、台湾地区招收硕士研究生招生考试进入复试考生名单.pdf 吉林大学研究生招生办公室 2026年5月7日",
+      "content_sha256": "fbf9b2b467f613c26599f926f90ceca77319cf792f2c27f19098e19be10fdb86",
+      "raw_attachments": [
+        {
+          "url": "https://yzb.jlu.edu.cn/__local/8/B3/CF/3E9DB2DA9F237295FD76E84E1E3_0D662C32_FDCA.pdf?e=.pdf",
+          "filename": "2026年吉林大学面向香港、澳门、台湾地区招收硕士研究生招生考试进入复试考生名单.pdf"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "2026年吉林大学面向香港、澳门、台湾地区招收硕士研究生招生考试进入复试考生名单.pdf",
+          "url": "https://yzb.jlu.edu.cn/__local/8/B3/CF/3E9DB2DA9F237295FD76E84E1E3_0D662C32_FDCA.pdf?e=.pdf",
+          "type": "pdf"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [],
+      "time": "2026-10-13T13:53:16+08:00",
+      "sha256": "faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e",
+      "snapshot": "html/faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e.html",
+      "attachment_probes": [
+        {
+          "url": "https://yzb.jlu.edu.cn/__local/8/B3/CF/3E9DB2DA9F237295FD76E84E1E3_0D662C32_FDCA.pdf?e=.pdf",
+          "time": "2026-10-13T13:53:17+08:00",
+          "ok": true,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://yzb.jlu.edu.cn/__local/8/B3/CF/3E9DB2DA9F237295FD76E84E1E3_0D662C32_FDCA.pdf?e=.pdf",
+          "content_type": "application/pdf",
+          "disposition": "",
+          "prefix_hex": "255044462d312e370a25c2b3c7d80d0a",
+          "read_bytes": 1024
+        }
+      ]
+    }
+  ],
+  "list_count": 10,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026级研究生新生入学须知",
+      "url": "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2335.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年港澳台研究生招生考试初试成绩查询及复查的公告",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2333.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2026年面向香港、澳门、台湾地区招收研究生招生简章",
+      "url": "https://yzb.jlu.edu.cn/info/1005/1001.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年港澳台硕士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2077.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2076.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年港澳台研究生招生考试初试成绩查询及复查的公告",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2075.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025年面向香港、澳门、台湾地区招收研究生招生简章",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2074.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2024年港澳台硕士研究生拟录取名单公示",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2073.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2024年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+      "url": "https://yzb.jlu.edu.cn/info/1005/2072.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 10,
+  "attachments_checked": 2,
+  "evidence_file": "docs/jlu-audit-evidence/results/b581a67f8ec644e0.json",
+  "reason": "LIST_DATES_MISSING; ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://yzb.jlu.edu.cn/index/tzgg/2.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://yzb.jlu.edu.cn/index/tzgg/2.htm",
+    "time": "2026-10-13T13:53:17+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 10,
+    "new_urls": 10,
+    "snapshot": "html/52a87a122e3f32d101b6a67791f7dc3516a5de0774629166cddcb50ab3913d18.html"
+  },
+  "final_url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+  "list_sha256": "a2a166e16b4266871c0d3e295b662640f17404a9dd1899d7f25f64c5b18aa316",
+  "list_snapshot": "html/a2a166e16b4266871c0d3e295b662640f17404a9dd1899d7f25f64c5b18aa316.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 10,
+  "unparsed_reference_links": []
+}

@@ -1,0 +1,398 @@
+{
+  "id": "p3-b5a06a58053e",
+  "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+  "institution": "经营性资产改革和管理办公室",
+  "column": "通知",
+  "site_url": "https://jgb.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/b5a06a58053ecaad.json",
+  "original_capture_time": "2026-10-13T14:07:10+08:00",
+  "discovery_url": "https://jgb.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-b5a06a58053e",
+    "name": "经营性资产改革和管理办公室 / 通知",
+    "base_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:33+08:00",
+  "details": [
+    {
+      "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+      "list_title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+      "list_date": "2019-12-12",
+      "response": {
+        "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+        "time": "2026-10-15T22:09:04+08:00",
+        "ok": true,
+        "final_url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f",
+        "html_path": "html/4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f.html",
+        "replacement_chars": 0,
+        "chars": 11713,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+        "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+        "publish_date": "2019-12-12",
+        "publisher": null,
+        "content": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将周永东同志被列为 2020年党员计划发展对象的有关情况进行公示。 公示时间为 2019年12月12日至12月18日。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。产业党委将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 联系电话： 85167916 联系邮箱： zhangfeng@jlu.edu.cn 附： 2020年计划发展对象一览表 产业党委 2019年12月12日",
+        "attachments": [
+          {
+            "filename": "附件：2020年计划发展对象一览表（教职工）.xlsx",
+            "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 323,
+        "reference_attachment_urls": [
+          "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124"
+        ],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2019-12-12 15:03 点击：",
+            "date": "2019-12-12"
+          }
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "div",
+            "classes": [
+              "readtitle"
+            ],
+            "text": "关于确定周永东同志为2020年党员计划发展对象的公示"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+      "list_title": "关于做好“学习强国”学习平台使用工作的通知",
+      "list_date": "2019-03-04",
+      "response": {
+        "url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+        "time": "2026-10-15T22:09:05+08:00",
+        "ok": true,
+        "final_url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "89b88a952edb72daa60e93dec6ba62757b4fc74f560b048ec72c9cf31045cda7",
+        "html_path": "html/89b88a952edb72daa60e93dec6ba62757b4fc74f560b048ec72c9cf31045cda7.html",
+        "replacement_chars": 0,
+        "chars": 13381,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于做好“学习强国”学习平台使用工作的通知",
+        "url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+        "publish_date": "2019-03-04",
+        "publisher": null,
+        "content": "各基层党组织： 根据学校党委宣传部《关于做好 “学习强国”学习平台使用工作的通知》要求，为了全面推进“学习强国”学习平台在产业党委所属基层党组织“每个党支部、每个党员”中迅速推广使用，倡导鼓励产业党委所属党员通过学习平台开展学习，现就相关事项通知如下： 一、组织下载。 “学习强国”学习平台PC端用户可登录网址www.xuexi.cn或通过搜索引擎搜索浏览，手机用户可通过各手机应用商店免费下载安装APP，也可通过平台PC端登录网址 www.xuexi.cn ，在此网页右侧有下载学习强国 app的二维码，通过扫描二维码下载手机客户端，按照提示安装即可。产业党委所属基层党组织要按照学校统一部署迅速动员、积极组织推动，确保在要求时限内“每个党支部、每个党员”全部下载安装、学习使用。 二、搭建学习组织架构。各基层党组织要尽快建立学习组织。 “学习强国”学习平台学习组织依托基层党组织关系建立。各基层党组织都须明确专门的基层学习管理员，创建独立的基层学习组织。基层学习组织管理员一般由党支部书记担任。非中共党员暂不列入党组织的学习组织架构中。 三、相关要求。产业党委所属各基层党组织要提高政治站位、增强政治自觉，明确领导责任和工作责任，迅速部署推动，把做好学习强国学习平台推广使用工作，作为推动习近平新时代中国特色社会主义思想学习宣传贯彻不断深入的重要举措，广泛组织动员党员干部群众积极使用学习平台，确保横向到边、纵向到底、覆盖全体党员。 各基层党组织请于 3月6日（星期三）16时前，将《产业党委“学习强国”学习平台基层管理员信息统计表》（附件1）报送至产业党委，3月10日完成所有党员的注册和使用工作。联系人：张峰，联系电话：85167916。 附件 1：《产业党委“学习强国”学习平台基层管理员信息统计表》 产业党委 2019年3月4日",
+        "attachments": [
+          {
+            "filename": "产业党委“学习强国”学习平台基层管理员信息统计表.doc",
+            "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=3160398",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 770,
+        "reference_attachment_urls": [
+          "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=3160398"
+        ],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2019-03-04 13:18 点击：",
+            "date": "2019-03-04"
+          }
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "div",
+            "classes": [
+              "readtitle"
+            ],
+            "text": "关于做好“学习强国”学习平台使用工作的通知"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+        "time": "2026-10-15T22:09:02+08:00",
+        "ok": true,
+        "final_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae",
+        "html_path": "html/c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae.html",
+        "replacement_chars": 0,
+        "chars": 12897,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+        "https://jgb.jlu.edu.cn/info/1003/1722.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "time": "2026-10-15T22:09:02+08:00",
+    "ok": true,
+    "final_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae",
+    "html_path": "html/c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae.html",
+    "replacement_chars": 0,
+    "chars": 12897,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+      "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+      "publish_date": "2019-12-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好“学习强国”学习平台使用工作的通知",
+      "url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+      "publish_date": "2019-03-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p3-b5a06a58053e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.5400000847876072e-05,
+      "detail_duration_seconds": 4.900037311017513e-06,
+      "parse_db_duration_seconds": 0.025260500144213438
+    },
+    "second_round": {
+      "source": "p3-b5a06a58053e",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.8600025214254856e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-b5a06a58053e",
+    "institution": "经营性资产改革和管理办公室",
+    "column": "通知",
+    "url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:09:02+08:00",
+    "review_time": "2026-10-15T23:00:33+08:00",
+    "http_status": 200,
+    "final_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+    "list_pages": 1,
+    "list_items": 2,
+    "details": 2,
+    "verified_details": 2,
+    "issues": [],
+    "discovery_url": "https://jgb.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-b5a06a58053e.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

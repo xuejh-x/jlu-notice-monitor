@@ -1,0 +1,137 @@
+{
+  "utc_time": "2026-10-13T10:26:19.582015+00:00",
+  "status": "PASS",
+  "database": "in-memory SQLite",
+  "default_domain_path": true,
+  "notice_count": 3,
+  "read_unread_favorite_and_timestamps_preserved": true,
+  "notice_ids_and_relation_keys_preserved": true,
+  "runs": [
+    {
+      "source": "oa",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.786,
+      "detail_duration_seconds": 3.258,
+      "parse_db_duration_seconds": 0.04
+    },
+    {
+      "source": "oa",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.752,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    {
+      "source": "oa",
+      "execution_policy": "cloud_preferred",
+      "effective_execution": "local",
+      "fallback_used": true,
+      "fallback_reason": "PUBLIC_FEED_NOT_CONFIGURED",
+      "attempts": [
+        {
+          "execution": "cloud",
+          "status": "failure",
+          "error": "SourceError: PUBLIC_FEED_NOT_CONFIGURED",
+          "fetched": 0,
+          "detail_fetched": 0,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 0
+        },
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.79,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    }
+  ]
+}

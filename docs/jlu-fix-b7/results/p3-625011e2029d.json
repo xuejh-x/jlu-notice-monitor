@@ -1,0 +1,769 @@
+{
+  "id": "p3-625011e2029d",
+  "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+  "institution": "医院管理处",
+  "column": "通知公告",
+  "site_url": "https://ywc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/625011e2029d2fcc.json",
+  "original_capture_time": "2026-10-13T13:38:36+08:00",
+  "discovery_url": "https://ywc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-625011e2029d",
+    "name": "医院管理处 / 通知公告",
+    "base_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:41+08:00",
+  "details": [
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1044/2101.htm",
+      "list_title": "关于进一步加强附属医院行风建设工作的通知",
+      "list_date": "2024-04-30",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1044/2101.htm",
+        "time": "2026-10-15T22:10:30+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1044/2101.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9f2a72b80f8e6d4f4a936286053c7c79fa2c6ee9f9fa6aee8012635c3c289f05",
+        "html_path": "html/9f2a72b80f8e6d4f4a936286053c7c79fa2c6ee9f9fa6aee8012635c3c289f05.html",
+        "replacement_chars": 0,
+        "chars": 12783,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于进一步加强附属医院行风建设工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1044/2101.htm",
+        "publish_date": "2024-04-30",
+        "publisher": null,
+        "content": "校内各附属医院： 为进一步贯彻落实国家和吉林省加强卫生行业作风建设的有关要求，增强各附属医院工作人员的责任感、使命感、荣誉感，规范执业行为，弘扬新时代医疗卫生人员职业精神，引导形成风清气正的行业环境，保障医疗卫生事业高质量发展，建立健全行风建设长效工作机制，现就加强我校各附属医院行风建设工作提出要求，请各医院结合实际，认真贯彻落实，具体内容如下： 一、高度重视，提高站位 各附属医院要深刻认识到做好行风建设工作是坚定拥护 “两个确立”、坚决做到“两个维护”的具体行动，是净化医疗行业生态、保障医疗服务事业健康发展的重要抓手，也是我校附属医院高质量发展的必然要求。各附属医院要增强行风建设工作的责任感和紧迫感，按照“谁主管、谁负责”和“管行业必须管行风”的原则，认真贯彻执行“九项准则”等卫生系统行业纪律和作风建设要求。 二、端正作风，落实责任 各附属医院要担当行风建设的主体责任和监督责任，要树立 “抓好行风是本职、不抓行风是失职、抓不好行风是不称职、行风出问题是渎职”的理念，克服“抓行风太虚、抓业务才实”的想法，切实做到聚精会神抓行风。要牢固树立行风建设永远在路上的思想，以等不起的紧迫感、慢不得的责任感、坐不住的危机感立即行动起来，一个节点接着一个节点坚持抓下去。 三、加强教育，对标对表 各附属医院要结合公立医院高质量发展新要求，根据《医疗机构工作人员廉洁从业九项准则》相关规定制定或修订本单位实施细则，并将其纳入岗前教育、业务培训等各级各类执业培训教育内容，实现工作人员全覆盖。完善医德考评制度，建立健全行风建设体系，将医院各部门、科室行风建设情况纳入年度目标管理任务书，严格落实考核。坚持正面倡导、反面警示并行，教育引导医疗机构工作人员学榜样、树红线、明底线、守纪律，提升本单位工作人员法律意识、道德修养、职业精神，营造良好的行业氛围。 四、以案促改，纠建并举 结合医药领域腐败问题集中整治工作，重点对商业提成、欺诈骗保、过度诊疗、违规接受捐赠、泄露患者隐私、利用职务之便非法牟利、破坏就医公平、收受患者 “红包”、收取回扣等突出问题组织开展自查自纠，对发现的问题及违反“九项准则”的行为立即整改，涉及违纪违法的及时处理或移送相关部门查处。将行业治理、作风整治、铲除腐败相结合，坚持把点与面、当下改与长久立结合起来。健全规章制度、完善治理机制，做实以案促改、以案促治，建立负面清单及持续整改方案，着力构建正风肃纪长效机制，真正实现标本兼治。 五、强化监督，畅通渠道 各附属医院行风管理部门要继续保持纠正医药购销和医疗服务中不正之风的高压态势，扎实推进医院廉政风险防控工作，完善监督措施，加大监督管理力度。加强与医保等有关部门的协调配合，及时发现、严肃查处违反 “九项准则”的行为，依法依纪处理，决不姑息迁就。构建监督平台，畅通投诉举报渠道，积极发挥社会监督力量，建立健全投诉举报收集、核实、查办、反馈工作机制，开展常态化监督，做到有诉必查、违规必究。 六、健全体系，定期督导 建立健全行风建设考核体系，全方位、多层次、多渠道对医院行风建设情况进行考核，形成合力，整体推进，不断增强附属医院工作人员的自律自觉意识，确保医院行风建设各项工作落到实处。学校和医院采取定期和不定期明查暗访、问卷调查、开展座谈、跟踪回访等形式的常态化督导考核，督查各项行风建设规章制度及廉洁自律执行情况等。对行风督查中发现的问题及时反馈，深入分析原因，制订切实可行的整改措施，限期落实整改，促进行风建设各项制度的落实。 七、表扬先进，树立典型 各附属医院要对行风建设工作中的好经验、好做法进行及时总结和推广，本着坚持职业道德教育与规范医疗服务行为相结合的原则，通过广泛的宣传教育、表扬先进、树立典型，促进医疗服务质量的不断提高，使人民群众看病就医感受明显改善，医患关系更加和谐。号召本单位广大医务人员向我校 “白求恩名医”“医德医风标兵”等先进典型学习，大力弘扬白求恩精神，形成我校附属医院医疗行业风清气正的良好氛围。 吉林大学 2024年4月29日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于进一步加强附属医院行风建设工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2024-04-30",
+            "date": "2024-04-30"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1669,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于进一步加强附属医院行风建设工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2024-04-30",
+            "date": "2024-04-30"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+      "list_title": "关于表彰2023年度医师节评优获得者的决定",
+      "list_date": "2023-07-08",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+        "time": "2026-10-15T22:10:31+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d9c14ad3b87ecd3eb9ea0e152d32056170703b71ada003b68ab94023eabfe06e",
+        "html_path": "html/d9c14ad3b87ecd3eb9ea0e152d32056170703b71ada003b68ab94023eabfe06e.html",
+        "replacement_chars": 0,
+        "chars": 12534,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于表彰2023年度医师节评优获得者的决定",
+        "url": "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+        "publish_date": "2023-07-08",
+        "publisher": "以受表彰的同志为榜样，不忘初心、牢记使命，为推动我校医学事业",
+        "content": "校发〔 2023 〕 169 号 校内各有关单位： 为庆祝“中国医师节”，大力弘扬白求恩精神，根据《关于开展 2023 年度医师节评优活动的通知》（校医部字〔 2023 〕 18 号），学校开展了医师节评优活动。经本人申报、各医院推荐、医学部评选工作办公室资格审核、评选工作领导小组审议、医学部党政联席会讨论等评选程序，学校决定王广义等 10 人获得“优秀资深医师”称号、王林等 16 人获得“优秀青年医师”称号、王清等 11 人获得“医德医风标兵”称号。 学校希望受表彰的同志们大力弘扬白求恩精神，为保障人民群众健康做出新贡献。同时，希望全校广大医务工作者以受表彰的同志为榜样，不忘初心、牢记使命，为推动我校医学事业高质量发展做出贡献，在新的历史起点上切实担负起推动健康中国建设、增进人民健康福祉的光荣使命。 附件： 1. “优秀资深医师”获得者名单 （以姓氏笔画为序） 王广义 王育珊 王荣有 苏冠方 李东复 张秀和 郑 杨 赵树华 韩成敏 韩振国 2. “优秀青年医师”获得者名单 （以姓氏笔画为序） 王 林 朴虎林 刚晓坤 祁宝昌 孙 欢 纪铁凤 张 强 张大奇 张承巍 周珊珊 莽 靖 晋学飞 徐 影 黄 萨 康治臣 程凯亮 3. “医德医风标兵” 获得者名单 （以姓氏笔画为序） 王 清 王金成 左建林 许天敏 李珊山 杨 薇 谷欣权 张志民 崔 俐 彭丽萍 董春梅 吉 林 大 学 2023 年 7 月 6 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于表彰2023年度医师节评优获得者的决定"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2023-07-08",
+            "date": "2023-07-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 612,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于表彰2023年度医师节评优获得者的决定"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2023-07-08",
+            "date": "2023-07-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+      "list_title": "关于开展2015年度吉林大学医院管理研究项目结题验收工作的通知",
+      "list_date": "2017-11-17",
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+        "time": "2026-10-15T22:10:33+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5fa8749782e5921522fa3017bbdc5c6bbd88279a8297ae56da8596d52689aa6c",
+        "html_path": "html/5fa8749782e5921522fa3017bbdc5c6bbd88279a8297ae56da8596d52689aa6c.html",
+        "replacement_chars": 0,
+        "chars": 8883,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展2015年度吉林大学医院管理研究项目结题验收工作的通知",
+        "url": "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+        "publish_date": "2017-11-17",
+        "publisher": null,
+        "content": "校医部字[2016]23号 各附属医院： 根据《白求恩医学部医院管理研究项目管理暂行规定》(校医部字〔2014〕20号)要求，白求恩医学部将对2015年度医院管理研究项目开展结题验收工作，现将结题验收有关事宜通知如下： 一、验收方式 验收工作采用会议答辩方式。邀请相关专家组成评委会，对项目成果予以审核和指导，并提出审核意见。 二、验收程序 1.项目负责人填写并报送《2015年度吉林大学医院管理研究项目结题验收审批书》（详见附件）4份及课题研究成果佐证材料1份。 2．医学部组织召开项目结题验收答辩会，答辩会程序包括：项目负责人以PPT形式进行汇报、专家提问、专家组评议；汇报内容包括：研究内容、研究方法、项目执行情况及研究成果。 3.通过结题验收的项目，经专家委员会讨论通过后予以结项，并下发结项通知书。 三、相关要求 1.课题研究成果包括著作、论文、研究报告等，正式发表的成果提供原件，即将发表的成果提供录用通知。 2.请于2017年3月1日前将结题验收材料纸质版报送白求恩医学部办公楼403室，电子版发送至 wangtuo@jlu.edu.cn 。 3.答辩会具体时间及地点另行通知。 联 系 人：王 托 姜 波 联系电话：85619676 https://ywc.jlu.edu.cn/__local/1/0A/23/2A409B944D3103E9A51A6153935_B4C05160_61.gif?e=.gif 附件：2015年吉林大学医院管理研究项目结题验收审批书.rar 白求恩医学部 2016年12月29日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于开展2015年度吉林大学医院管理研究项目结题验收工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 575,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于开展2015年度吉林大学医院管理研究项目结题验收工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2017-11-17",
+            "date": "2017-11-17"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+        "time": "2026-10-15T22:10:28+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "a4f2d89872fba945cf5cda8678ca490c972a7f5480754a2fff09a4d885b5f389",
+        "html_path": "html/a4f2d89872fba945cf5cda8678ca490c972a7f5480754a2fff09a4d885b5f389.html",
+        "replacement_chars": 0,
+        "chars": 8906,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1044/1623.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1626.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1865.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1871.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1872.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1873.htm",
+        "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+        "https://ywc.jlu.edu.cn/info/1044/2101.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/ylxzgl1/tzgg/4.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg/4.htm",
+        "time": "2026-10-15T22:10:29+08:00",
+        "ok": true,
+        "final_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg/4.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0dab0e86a768e63387efa919b238f93b5db8e9febc377dbed799c2fccb2cf64d",
+        "html_path": "html/0dab0e86a768e63387efa919b238f93b5db8e9febc377dbed799c2fccb2cf64d.html",
+        "replacement_chars": 0,
+        "chars": 9077,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ywc.jlu.edu.cn/info/1044/1615.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1628.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1630.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1634.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1643.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1644.htm",
+        "https://ywc.jlu.edu.cn/info/1044/1645.htm"
+      ],
+      "observed_next_urls": [
+        "https://ywc.jlu.edu.cn/ylxzgl1/tzgg/3.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "time": "2026-10-15T22:10:28+08:00",
+    "ok": true,
+    "final_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "a4f2d89872fba945cf5cda8678ca490c972a7f5480754a2fff09a4d885b5f389",
+    "html_path": "html/a4f2d89872fba945cf5cda8678ca490c972a7f5480754a2fff09a4d885b5f389.html",
+    "replacement_chars": 0,
+    "chars": 8906,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于进一步加强附属医院行风建设工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/2101.htm",
+      "publish_date": "2024-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2023年度医师节评优获得者的决定",
+      "url": "https://ywc.jlu.edu.cn/info/1044/2011.htm",
+      "publish_date": "2023-07-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰第六届吉林大学“白求恩名医”获得者的决定",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1865.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于表彰2022年度医师节评优获得者的决定",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1871.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学医师外出会诊管理暂行规定》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1873.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《吉林大学医师多点执业管理暂行规定》的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1872.htm",
+      "publish_date": "2022-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2015年度医院管理研究项目招标立项工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1623.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2015年度医院管理研究项目拟立项课题名单的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1626.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2015年度吉林大学医院管理研究项目结题验收工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1627.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于加强春节期间医疗安全工作的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1645.htm",
+      "publish_date": "2019-01-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "医学部组织召开2019年第一次医疗管理工作例会",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1644.htm",
+      "publish_date": "2019-01-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "医学部组织开展春节前附属医院急诊夜诊医疗安全检查工作",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1643.htm",
+      "publish_date": "2019-01-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2018年度医院管理研究项目的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1630.htm",
+      "publish_date": "2018-11-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林大学第五届医院管理论坛征文的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1615.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学第五届医院管理论坛优秀论文名单的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1634.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2014年度校级临床重点专科及临床重点培育专科名单的通知",
+      "url": "https://ywc.jlu.edu.cn/info/1044/1628.htm",
+      "publish_date": "2017-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        },
+        {
+          "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg/4.htm",
+          "parsed_items": 8,
+          "added_items": 8
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-625011e2029d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.71000137925148e-05,
+      "detail_duration_seconds": 7.800059393048286e-06,
+      "parse_db_duration_seconds": 0.029323999886400998
+    },
+    "second_round": {
+      "source": "p3-625011e2029d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6900012269616127e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-625011e2029d",
+    "institution": "医院管理处",
+    "column": "通知公告",
+    "url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:10:28+08:00",
+    "review_time": "2026-10-15T23:00:41+08:00",
+    "http_status": 200,
+    "final_url": "https://ywc.jlu.edu.cn/ylxzgl1/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 16,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://ywc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-625011e2029d.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

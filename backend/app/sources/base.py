@@ -14,6 +14,7 @@ from app.parsers import parse_detail_html, parse_list_html
 from app.parsers.html import is_empty_notice_list
 from app.schemas.notice import NoticeCandidate
 from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+from app.services.list_pagination import ListPagination
 from app.services.source_security import UnsafeSourceUrl, validate_local_source_url
 from app.services.tls import is_certificate_verification_error, source_ssl_context
 
@@ -58,6 +59,7 @@ class StaticHTMLSource(NoticeSource):
         settings = get_settings()
         crawler_config = load_yaml("settings.yaml").get("crawler", {})
         self.max_items = settings.max_items_per_section
+        self.list_fetcher = None
         self.retries = int(crawler_config.get("retries", 2))
         self.backoff = float(crawler_config.get("retry_backoff_seconds", 1.0))
         self.client = httpx.AsyncClient(
@@ -113,8 +115,33 @@ class StaticHTMLSource(NoticeSource):
     async def fetch_list(self) -> list[NoticeCandidate]:
         notices: list[NoticeCandidate] = []
         seen: set[str] = set()
+        self.pagination_report = []
         for section in self.config.get("sections", []):
             url = str(section["url"])
+            parser_config = section.get("parser_config") or self.config.get("parser_config") or {}
+            if parser_config.get("next_page_selector"):
+                pager = ListPagination(url, parser_config, max_pages=get_settings().source_max_pages,
+                                       items_per_section=self.max_items)
+                self.pagination_report.append(pager.report)
+                for _ in range(pager.limit):
+                    html, final_url = await self._get_list_page(url)
+                    if pager.report["pages"] and not pager.within_column(final_url):
+                        raise SourceError("PAGINATION_REDIRECT_OUTSIDE_COLUMN")
+                    parsed = self.parse_list(html, final_url, str(section.get("name", "")))
+                    if not parsed and not is_empty_notice_list(html):
+                        raise SourceError("HTML_LIST_UNSUPPORTED: no verified article links; configure a list selector")
+                    try:
+                        next_url = pager.consume(html, final_url, parsed)
+                    except ValueError as exc:
+                        raise SourceError(str(exc)) from exc
+                    if not next_url:
+                        break
+                    url = next_url
+                for item in pager.items:
+                    if item.url not in seen:
+                        seen.add(item.url)
+                        notices.append(item)
+                continue
             html = await self._get(url)
             parsed = self.parse_list(html, url, str(section.get("name", "")))
             if not parsed and not is_empty_notice_list(html):
@@ -124,6 +151,16 @@ class StaticHTMLSource(NoticeSource):
                     seen.add(item.url)
                     notices.append(item)
         return notices
+
+    async def _get_list_page(self, url: str) -> tuple[str, str]:
+        # Only explicitly configured pagination uses this guarded request path.
+        # Lazy import avoids the GenericPublicSource -> base import cycle.
+        from app.sources.generic import SafeFetcher
+        if self.list_fetcher is None:
+            self.list_fetcher = SafeFetcher(allow_private_network=bool(self.config.get("allow_private_network", False)),
+                                            validation_scope=str(self.config.get("validation_scope", "local")), source_code=self.code)
+        text, _, final_url = await self.list_fetcher.get(url)
+        return text, final_url
 
     def parse_list(self, html: str, page_url: str, section: str) -> list[NoticeCandidate]:
         return parse_list_html(html, page_url, section)
@@ -140,12 +177,15 @@ class StaticHTMLSource(NoticeSource):
             attachments.append(attachment)
         if not parsed.content and not attachments:
             raise SourceError("HTML_DETAIL_EMPTY: no content or permitted attachment remains")
-        return parsed.model_copy(update={"attachments": attachments})
+        return parsed.model_copy(update={"attachments": attachments,
+                                         "attachments_complete": parsed.attachments_complete and len(attachments) == len(parsed.attachments)})
 
     def parse_detail(self, html: str, notice: NoticeCandidate) -> NoticeCandidate:
         return parse_detail_html(html, notice.url, notice)
 
     async def close(self) -> None:
+        if self.list_fetcher is not None:
+            await self.list_fetcher.close()
         await self.client.aclose()
 
 

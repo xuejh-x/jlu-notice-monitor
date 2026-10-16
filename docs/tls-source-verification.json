@@ -1,0 +1,87 @@
+{
+  "utc_time": "2026-10-11T05:21:33.802587+00:00",
+  "results": [
+    {
+      "source": "lqb",
+      "list_items": 0,
+      "status": "PASS"
+    },
+    {
+      "source": "cse",
+      "list_items": 11,
+      "details": [
+        {
+          "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+          "content_length": 0,
+          "attachments": 0
+        },
+        {
+          "url": "https://cse.jlu.edu.cn/info/1003/1517.htm",
+          "content_length": 1600,
+          "attachments": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source": "ccst",
+      "list_items": 10,
+      "details": [
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+          "content_length": 716,
+          "attachments": 1
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source": "csw",
+      "list_items": 30,
+      "details": [
+        {
+          "url": "https://csw.jlu.edu.cn/info/1009/8158.htm",
+          "content_length": 1409,
+          "attachments": 2
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source": "jwc",
+      "list_items": 15,
+      "details": [
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+          "content_length": 200,
+          "attachments": 1
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source": "innovation",
+      "list_items": 15,
+      "details": [
+        {
+          "url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+          "content_length": 154,
+          "attachments": 1
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source": "oa",
+      "list_items": 30,
+      "details": [
+        {
+          "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=71065225&channelId=179577",
+          "content_length": 559,
+          "attachments": 0
+        }
+      ],
+      "status": "PASS"
+    }
+  ]
+}

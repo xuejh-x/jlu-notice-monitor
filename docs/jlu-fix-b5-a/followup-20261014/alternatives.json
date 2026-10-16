@@ -1,0 +1,46 @@
+[
+  {
+    "discovery_url": "https://dec.jlu.edu.cn/",
+    "title": "通知公告",
+    "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/",
+    "category": "HTTP_CONTENT_AVAILABLE_NOT_ADMITTED",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/",
+      "time": "2026-10-14T22:02:17+08:00",
+      "ok": true,
+      "final_url": "https://dec.jlu.edu.cn/html/xljy/tzgg/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "b6ba80846d7d5215163dd1ec1ecaaeb5a3dba298bffb3df5fd4e68c040d35556",
+      "html_path": "html/b6ba80846d7d5215163dd1ec1ecaaeb5a3dba298bffb3df5fd4e68c040d35556.html",
+      "replacement_chars": 0,
+      "chars": 45892,
+      "attempts": 1
+    },
+    "enabled": false,
+    "support_status": "NOT_ADMITTED"
+  },
+  {
+    "discovery_url": "https://dec.jlu.edu.cn/",
+    "title": "查看更多",
+    "url": "https://dec.jlu.edu.cn/html/tzgg1/",
+    "category": "HTTP_CONTENT_AVAILABLE_NOT_ADMITTED",
+    "response": {
+      "url": "https://dec.jlu.edu.cn/html/tzgg1/",
+      "time": "2026-10-14T22:02:17+08:00",
+      "ok": true,
+      "final_url": "https://dec.jlu.edu.cn/html/tzgg1/",
+      "content_type": "text/html",
+      "status": 200,
+      "auth": false,
+      "sha256": "ffca697301c0f236f0955139b1ab46f03efbd2b0705991195056a24d01092d72",
+      "html_path": "html/ffca697301c0f236f0955139b1ab46f03efbd2b0705991195056a24d01092d72.html",
+      "replacement_chars": 0,
+      "chars": 64129,
+      "attempts": 1
+    },
+    "enabled": false,
+    "support_status": "NOT_ADMITTED"
+  }
+]

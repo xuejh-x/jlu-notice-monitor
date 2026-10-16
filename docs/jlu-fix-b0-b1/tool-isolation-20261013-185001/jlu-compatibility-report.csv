@@ -1,0 +1,2 @@
+﻿institution,category,site_url,column,column_url,priority,configured_source,parser,status,checked_at,http_status,final_url,list_count,generic_count,details_checked,attachments_checked,pagination_checked,issues,reason,verification_scope,support_status,evidence_file,discovery_url
+汽车工程学院,院系,https://auto.jlu.edu.cn/,招生信息,https://auto.jlu.edu.cn/zsxx.htm,P2,,,未检测,,,,,,0,0,False,,尚未检测,本机公开匿名访问；Cloud 生产执行未验证,未登记支持；仅审计结果,,https://auto.jlu.edu.cn/

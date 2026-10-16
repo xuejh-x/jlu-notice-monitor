@@ -1,0 +1,44 @@
+{
+  "time": "2026-10-14T17:00:45.864611+08:00",
+  "status": "passed",
+  "tests": {
+    "baseline": "350 passed, 1 skipped",
+    "targeted": "197 passed",
+    "final": "365 passed, 1 skipped"
+  },
+  "states": {
+    "部分通过": 15,
+    "需认证": 1,
+    "失败": 3
+  },
+  "candidate_count": 19,
+  "formal_admissions": 0,
+  "detail_attempts": 47,
+  "strictly_verified_details": 29,
+  "structurally_verified_details": 47,
+  "prefix_categories": {
+    "CAPTCHA_REQUIRED": 8,
+    "FILE_PREFIX_VERIFIED": 5,
+    "ROBOTS_BLOCKED": 1
+  },
+  "html_hash_checks": 63,
+  "prefix_hash_checks": 13,
+  "historical_rows_checked": 68,
+  "historical_rows_unchanged": 67,
+  "external_title_corrections": 1,
+  "protected_files_unchanged": 1449,
+  "csv_json_consistent": true,
+  "report_links_exist": true,
+  "sources_unchanged": true,
+  "complete_downloads": 0,
+  "network_requests_in_acceptance": 0,
+  "files": {
+    "backend/app/parsers/html.py": "d9348cd08f5295fe3d7e9bbf422f1bca1982e889a3b4d32f40ffb97a9bb80395",
+    "backend/app/sources/generic.py": "a7acb2c788303389f7ed7bb446b15415ec26828c909bce77bda46aba40f2aa18",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "backend/scripts/finalize_jlu_b4.py": "47305282be69360a46337d2f3d654e9859de30a6164f31dc37258d70b8564886",
+    "docs/JLU_SITE_FIX_B4_REPORT.md": "8e4eb8e065f0183fe4979f89d5e3a18e5b35681c9cdaee9d35900dd1a164d371",
+    "docs/jlu-fix-b4/review-final-20261014/results.json": "dd1d1563f587d210e76c37ac50cbd9def15fc1081dac7a64d599fccb356c3ff5",
+    "docs/jlu-fix-b4/review-final-20261014/compatibility-report.csv": "581b78935ffc24d442e303306df93a7b31f30a0aca7cbd28ac7780d4020eb775"
+  }
+}

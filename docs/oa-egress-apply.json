@@ -1,0 +1,17 @@
+{
+  "status": "applied",
+  "backup_directory": "C:\\Users\\zc\\AppData\\Roaming\\io.github.clash-verge-rev.clash-verge-rev\\oa-egress-backups\\20261013T070100Z",
+  "active_profile": "RpIRs7CcKZuo",
+  "proxy": {
+    "name": "JLU-OA-Ethernet",
+    "type": "direct",
+    "interface-name": "以太网",
+    "ip-version": "ipv4"
+  },
+  "first_rule": "DOMAIN,oa.jlu.edu.cn,JLU-OA-Ethernet",
+  "other_runtime_fields_unchanged": true,
+  "persistent_editors": [
+    "C:\\Users\\zc\\AppData\\Roaming\\io.github.clash-verge-rev.clash-verge-rev\\profiles\\psCZg6GnsBnf.yaml",
+    "C:\\Users\\zc\\AppData\\Roaming\\io.github.clash-verge-rev.clash-verge-rev\\profiles\\rqCj4eNe8BZa.yaml"
+  ]
+}

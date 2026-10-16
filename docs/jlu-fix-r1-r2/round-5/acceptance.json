@@ -1,0 +1,875 @@
+{
+  "verified_at": "2026-10-16T14:33:59.004308+00:00",
+  "isolated_backend": "E:\\jlu-notice-monitor\\backend\\build\\jlu-r1-r2-final-20261016-223233\\backend",
+  "database": "sqlite://",
+  "method": "independent memory databases, fake adapters, denied HTTP and application DB connections",
+  "http_requests": 0,
+  "production_db_connections": 0,
+  "passed": 5,
+  "scenarios": [
+    {
+      "scenario": "body-only",
+      "url": "https://test.invalid/info/1/body-only.htm",
+      "verified_at": "2026-10-16T14:33:59.069144+00:00",
+      "result": "passed",
+      "reason": "unchanged list rechecked after TTL; one revision; identity and read/favorite/source preserved",
+      "simulated_time": "2026-10-17T14:33:59.004308",
+      "first_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.5400000847876072e-05,
+        "detail_duration_seconds": 2.00001522898674e-06,
+        "parse_db_duration_seconds": 0.028333100024610758
+      },
+      "recent_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.1499971151351929e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "failure_run": null,
+      "final_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 1,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 1,
+        "unchanged_count": 0,
+        "errors": [],
+        "list_duration_seconds": 6.9999368861317635e-06,
+        "detail_duration_seconds": 1.7998972907662392e-06,
+        "parse_db_duration_seconds": 0.008489900035783648
+      },
+      "repeat_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.0300078429281712e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "detail_calls": 2,
+      "body_before": "原通知正文",
+      "body_after": "原通知正文；补充新的报名要求",
+      "attachments_before": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "attachments_after": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "notice_id": 1,
+      "public_id": "fixture:stable-id",
+      "version": 2,
+      "identity_preserved": true,
+      "read_and_favorite_preserved": true,
+      "source_relations": 1,
+      "success_checkpoint_before": "2026-10-16T14:33:59.004308",
+      "success_checkpoint_after": "2026-10-17T14:33:59.004308",
+      "updates": [
+        {
+          "old_hash": "b903bd547233e87e340963ae2a262bc873c832ae36006759a3304d9215994bc3",
+          "new_hash": "f85c41852d7397801e3b2084669e4bacd4b2c129d861d1400795fae5c56ac136",
+          "summary": "来源 fixture 的正文内容发生变化"
+        }
+      ]
+    },
+    {
+      "scenario": "attachment-add",
+      "url": "https://test.invalid/info/1/attachment-add.htm",
+      "verified_at": "2026-10-16T14:33:59.106363+00:00",
+      "result": "passed",
+      "reason": "unchanged list rechecked after TTL; one revision; identity and read/favorite/source preserved",
+      "simulated_time": "2026-10-17T14:33:59.004308",
+      "first_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 8.600065484642982e-06,
+        "detail_duration_seconds": 1.400010660290718e-06,
+        "parse_db_duration_seconds": 0.01620000007096678
+      },
+      "recent_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.0499963536858559e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "failure_run": null,
+      "final_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 1,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 1,
+        "unchanged_count": 0,
+        "errors": [],
+        "list_duration_seconds": 7.6000578701496124e-06,
+        "detail_duration_seconds": 1.500011421740055e-06,
+        "parse_db_duration_seconds": 0.006706200074404478
+      },
+      "repeat_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 7.6000578701496124e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "detail_calls": 2,
+      "body_before": "原通知正文",
+      "body_after": "原通知正文",
+      "attachments_before": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "attachments_after": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        },
+        {
+          "filename": "new.pdf",
+          "url": "https://test.invalid/new.pdf",
+          "type": "pdf"
+        }
+      ],
+      "notice_id": 1,
+      "public_id": "fixture:stable-id",
+      "version": 2,
+      "identity_preserved": true,
+      "read_and_favorite_preserved": true,
+      "source_relations": 1,
+      "success_checkpoint_before": "2026-10-16T14:33:59.004308",
+      "success_checkpoint_after": "2026-10-17T14:33:59.004308",
+      "updates": [
+        {
+          "old_hash": "956e1cf0283d81dd65b853dadc8554f5057a2bc4164bec31da67d5e42c96ab5d",
+          "new_hash": "6101a075aa5d3fc0bb18f256b9466cf98df2e518799a250364b49739b05ef34f",
+          "summary": "来源 fixture 的附件引用发生变化"
+        }
+      ]
+    },
+    {
+      "scenario": "attachment-replace",
+      "url": "https://test.invalid/info/1/attachment-replace.htm",
+      "verified_at": "2026-10-16T14:33:59.143343+00:00",
+      "result": "passed",
+      "reason": "unchanged list rechecked after TTL; one revision; identity and read/favorite/source preserved",
+      "simulated_time": "2026-10-17T14:33:59.004308",
+      "first_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 7.4999406933784485e-06,
+        "detail_duration_seconds": 2.100015990436077e-06,
+        "parse_db_duration_seconds": 0.016022600000724196
+      },
+      "recent_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 9.500072337687016e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "failure_run": null,
+      "final_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 1,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 1,
+        "unchanged_count": 0,
+        "errors": [],
+        "list_duration_seconds": 7.200054824352264e-06,
+        "detail_duration_seconds": 1.300009898841381e-06,
+        "parse_db_duration_seconds": 0.007372400024905801
+      },
+      "repeat_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 8.900067768990993e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "detail_calls": 2,
+      "body_before": "原通知正文",
+      "body_after": "原通知正文",
+      "attachments_before": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "attachments_after": [
+        {
+          "filename": "new.pdf",
+          "url": "https://test.invalid/new.pdf",
+          "type": "pdf"
+        }
+      ],
+      "notice_id": 1,
+      "public_id": "fixture:stable-id",
+      "version": 2,
+      "identity_preserved": true,
+      "read_and_favorite_preserved": true,
+      "source_relations": 1,
+      "success_checkpoint_before": "2026-10-16T14:33:59.004308",
+      "success_checkpoint_after": "2026-10-17T14:33:59.004308",
+      "updates": [
+        {
+          "old_hash": "956e1cf0283d81dd65b853dadc8554f5057a2bc4164bec31da67d5e42c96ab5d",
+          "new_hash": "96ea6af499ac34c75b9ea7f73ec282785b4a285b59a9284c5245ef94cfbb9a67",
+          "summary": "来源 fixture 的附件引用发生变化"
+        }
+      ]
+    },
+    {
+      "scenario": "attachment-remove",
+      "url": "https://test.invalid/info/1/attachment-remove.htm",
+      "verified_at": "2026-10-16T14:33:59.180520+00:00",
+      "result": "passed",
+      "reason": "unchanged list rechecked after TTL; one revision; identity and read/favorite/source preserved",
+      "simulated_time": "2026-10-17T14:33:59.004308",
+      "first_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 7.400056347250938e-06,
+        "detail_duration_seconds": 1.9000144675374031e-06,
+        "parse_db_duration_seconds": 0.016612099949270487
+      },
+      "recent_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 9.70007386058569e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "failure_run": null,
+      "final_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 1,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 1,
+        "unchanged_count": 0,
+        "errors": [],
+        "list_duration_seconds": 6.100046448409557e-06,
+        "detail_duration_seconds": 1.300009898841381e-06,
+        "parse_db_duration_seconds": 0.007155600003898144
+      },
+      "repeat_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 9.899958968162537e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "detail_calls": 2,
+      "body_before": "原通知正文",
+      "body_after": "原通知正文",
+      "attachments_before": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "attachments_after": [],
+      "notice_id": 1,
+      "public_id": "fixture:stable-id",
+      "version": 2,
+      "identity_preserved": true,
+      "read_and_favorite_preserved": true,
+      "source_relations": 1,
+      "success_checkpoint_before": "2026-10-16T14:33:59.004308",
+      "success_checkpoint_after": "2026-10-17T14:33:59.004308",
+      "updates": [
+        {
+          "old_hash": "956e1cf0283d81dd65b853dadc8554f5057a2bc4164bec31da67d5e42c96ab5d",
+          "new_hash": "a4c6f9dcf152b025c2638350d63530e3ae726319bcf040eb10470d03cd4ad687",
+          "summary": "来源 fixture 的附件引用发生变化"
+        }
+      ]
+    },
+    {
+      "scenario": "failure-recovery",
+      "url": "https://test.invalid/info/1/failure-recovery.htm",
+      "verified_at": "2026-10-16T14:33:59.223707+00:00",
+      "result": "passed",
+      "reason": "unchanged list rechecked after TTL; one revision; identity and read/favorite/source preserved",
+      "simulated_time": "2026-10-17T14:33:59.004308",
+      "first_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 6.200047209858894e-06,
+        "detail_duration_seconds": 1.400010660290718e-06,
+        "parse_db_duration_seconds": 0.020224499981850386
+      },
+      "recent_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.6300007700920105e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "failure_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "partial_failure",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "partial_failure",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 0,
+        "errors": [
+          "https://test.invalid/info/1/failure-recovery.htm: RuntimeError: FIXTURE_DETAIL_UNAVAILABLE"
+        ],
+        "list_duration_seconds": 7.999944500625134e-06,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "final_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 1,
+            "detail_skipped": 0,
+            "new_count": 0,
+            "updated_count": 1,
+            "unchanged_count": 0
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 1,
+        "detail_skipped": 0,
+        "new_count": 0,
+        "updated_count": 1,
+        "unchanged_count": 0,
+        "errors": [],
+        "list_duration_seconds": 6.900052540004253e-06,
+        "detail_duration_seconds": 1.500011421740055e-06,
+        "parse_db_duration_seconds": 0.00800059991888702
+      },
+      "repeat_run": {
+        "source": "fixture",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.3699987903237343e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "detail_calls": 3,
+      "body_before": "原通知正文",
+      "body_after": "恢复后新正文",
+      "attachments_before": [
+        {
+          "filename": "old.pdf",
+          "url": "https://test.invalid/old.pdf",
+          "type": "pdf"
+        }
+      ],
+      "attachments_after": [
+        {
+          "filename": "new.pdf",
+          "url": "https://test.invalid/new.pdf",
+          "type": "pdf"
+        }
+      ],
+      "notice_id": 1,
+      "public_id": "fixture:stable-id",
+      "version": 2,
+      "identity_preserved": true,
+      "read_and_favorite_preserved": true,
+      "source_relations": 1,
+      "success_checkpoint_before": "2026-10-16T14:33:59.004308",
+      "success_checkpoint_after": "2026-10-17T14:33:59.004308",
+      "updates": [
+        {
+          "old_hash": "956e1cf0283d81dd65b853dadc8554f5057a2bc4164bec31da67d5e42c96ab5d",
+          "new_hash": "54cf72cce9c7a96fd11a3a4883b34563a044c78de3ddc1e7c40999d90bc8347c",
+          "summary": "来源 fixture 的正文内容、附件引用发生变化"
+        }
+      ]
+    }
+  ],
+  "code_sha256": {
+    "app/crawler/runner.py": "79651bb6443064633869cca4db14dc36201ae079480be88fac54544c798a4080",
+    "app/services/detail_observation.py": "3945f34b03e0fbd3073f2f47593eaa08189aec70ff95223fe6f773a97265175f",
+    "app/parsers/html.py": "782f5c47e646c3b1cdeedf82ddc85d56aa0d9e1ec72fb84e7ece2d2bc254a4a9",
+    "app/schemas/notice.py": "0524e4d2f4437b6df17faa47a8877d8b38735615b93104c64efca592c587aeff",
+    "scripts/verify_jlu_detail_updates.py": "d6803add35b83da677b34ff5531a09d15067525c0d3ea504973c55440134c2ea"
+  },
+  "limits": "Synthetic offline acceptance; not a live website, Cloud deployment, feed service or installed client validation. Legacy unattributed references remain protected."
+}

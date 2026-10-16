@@ -1,0 +1,204 @@
+--- B7 baseline/backend/app/parsers/html.py
++++ B7 final/backend/app/parsers/html.py
+@@ -30,6 +30,7 @@
+     ".article-content",
+     ".article_content",
+     ".news_content",
++    "article.type-post > .entry-content",
+     ".content",
+ )
+ 
+@@ -200,9 +201,40 @@
+     return list_publication_date(copy.get_text(" ", strip=True))
+ 
+ 
++def _article_metadata_allowed(node: Tag, content: Tag | None) -> bool:
++    if not in_navigation(node):
++        return True
++    # One observed VSB article template calls its heading block "nav01".
++    # Keep ordinary navigation excluded; recognize only this inert, scoped
++    # heading + publication layout before the same article's body.
++    if content is None:
++        return False
++    article = content.find_parent("article", class_="type-post")
++    if article is not None and content.parent is article:
++        header = article.select_one(":scope > header.entry-header")
++        if header is not None and (node is header or header in node.parents) and id(node) in {id(n) for n in content.previous_elements}:
++            # An article header is semantic metadata, unlike the site's header.
++            if (node.name == "h1" and "entry-title" in node.get("class", [])) or (node.name == "time" and node.has_attr("datetime")):
++                return True
++    frame = content.find_parent("form", attrs={"name": "_newscontent_fromname"})
++    if frame is None:
++        return False
++    header = next((p for p in (node, *node.parents) if isinstance(p, Tag) and p.get("class") == ["nav01"]), None)
++    return bool(header is not None and frame in header.parents and id(header) in {id(n) for n in content.previous_elements}
++                and header.select_one(":scope > h3") and header.select_one(":scope > h6 .ll > span")
++                and not header.select("a[href], nav, header, footer, [role='navigation']")
++                and not any(isinstance(p, Tag) and (p.name in {"nav", "header", "footer"} or p.get("role") == "navigation") for p in header.parents))
++
++
+ def _detail_title(soup: BeautifulSoup, fallback: NoticeCandidate, content: Tag | None = None) -> str:
+     before_body = {id(n) for n in content.previous_elements} if content is not None else None
+-    selectors = (".m-detail-container__title", ".article_details1 .cont > .title", "form[name='_newscontent_fromname'] .txt_title > h5",
++    selectors = ("article.type-post > header.entry-header > h1.entry-title",
++                 "form[name='_newscontent_fromname'] .content-bt", "form[name='_newscontent_fromname'] .t > p.ti",
++                 "form[name='_newscontent_fromname'] .read > .readtitle", "form[name='_newscontent_fromname'] .content > #Title", "form[name='_newscontent_fromname'] .item_biaoti",
++                 "form[name='_newscontent_fromname'] > p.biaoti", "form[name='_newscontent_fromname'] .nav01 > h3",
++                 "form[name='_newscontent_fromname'] > .abouttitle > p",
++                 ".right-nr:has(> .view-cnt > .v_news_content) > .view-title",
++                 ".m-detail-container__title", ".article_details1 .cont > .title", "form[name='_newscontent_fromname'] .txt_title > h5",
+                  "form[name='_newscontent_fromname'] .cont_con14_4_tit > h3", "form[name='_newscontent_fromname'] > .tittle",
+                  "form[name='_newscontent_fromname'] .news_nr1", "form[name='_newscontent_fromname'] .tittle_con",
+                  "form[name='_newscontent_fromname'] .title2", "form[name='_newscontent_fromname'] .tit", "form[name='_newscontent_fromname'] .cont_title",
+@@ -211,7 +243,7 @@
+                  "form[name='_newscontent_fromname'] > .bt", ".article-title", ".article_title", "h1", ".title")
+     for selector in selectors:
+         for node in soup.select(selector):
+-            if in_navigation(node) or node is content or (content is not None and (content in node.parents or content in node.descendants or id(node) not in before_body)):
++            if not _article_metadata_allowed(node, content) or node is content or (content is not None and (content in node.parents or content in node.descendants or id(node) not in before_body)):
+                 continue
+             copy = BeautifulSoup(str(node), "html.parser")
+             for child in list(copy.select("script, style, .meta, .article-meta")):
+@@ -240,7 +272,7 @@
+         document_title = normalize_whitespace(soup.title.get_text(" ", strip=True)) if soup.title else ""
+         prefix = fallback.title.rstrip(".… ")
+         for node in frame.select("h1,h2,h3,h4,h5,h6"):
+-            if id(node) not in before or in_navigation(node) or content in node.parents or content in node.descendants:
++            if id(node) not in before or not _article_metadata_allowed(node, content) or content in node.parents or content in node.descendants:
+                 continue
+             title = normalize_whitespace(node.get_text(" ", strip=True))
+             if title and ((prefix and title.startswith(prefix)) or document_title.startswith(title)):
+@@ -251,7 +283,12 @@
+ def _detail_publish_date(soup: BeautifulSoup, content: Tag, fallback: date | None) -> date | None:
+     # Only article metadata can override a list date. Body event/deadline dates
+     # and a site's current-date clock cannot establish publication metadata.
+-    selectors = (".m-detail-container__info", ".article_details1 .liner", "form[name='_newscontent_fromname'] .cont_con14_4_tit > p",
++    selectors = ("form[name='_newscontent_fromname'] > div > h1 + div[align='center']",
++                 "table:has(> tr > td.content > #vsb_content) > tr > td.pubtime_publisher",
++                 "article.type-post > header.entry-header time.entry-date[datetime]",
++                 "form[name='_newscontent_fromname'] > .wzxxys", "form[name='_newscontent_fromname'] .nav01 > h6 .ll > span",
++                 "form[name='_newscontent_fromname'] > h3 > span", ".right-nr:has(> .view-cnt > .v_news_content) > .view-info",
++                 ".m-detail-container__info", ".article_details1 .liner", "form[name='_newscontent_fromname'] .cont_con14_4_tit > p",
+                  "form[name='_newscontent_fromname'] > .pe_data", "form[name='_newscontent_fromname'] .txt_title > span",
+                  "form[name='_newscontent_fromname'] .zzly", "form[name='_newscontent_fromname'] .info",
+                  "div:has(> #vsb_content) > h3.info",
+@@ -259,12 +296,13 @@
+                  ".detail-infor", ".detail-tit p", ".art-tit p", ".nr_title span", ".xq", ".conttime", ".title11 p",
+                  ".content-bt-xia", ".title3 > p.ac", "time[datetime]",
+                  "meta[property='article:published_time']", "meta[name='pubdate']")
++    before_body = {id(n) for n in content.previous_elements}
+     for selector in selectors:
+         for node in soup.select(selector):
+-            if in_navigation(node) or node is content or content in node.parents or content in node.descendants:
++            if not _article_metadata_allowed(node, content) or node is content or content in node.parents or content in node.descendants or (selector in selectors[:7] and id(node) not in before_body):
+                 continue
+             value = str(node.get("datetime") or node.get("content") or node.get_text(" ", strip=True))
+-            if selector.startswith(("time", "meta[")):
++            if (node.name == "time" and node.has_attr("datetime")) or selector.startswith("meta["):
+                 published = parse_date(value)
+             else:
+                 labels = r"创建时间" if selector == ".m-detail-container__info" else r"发布日期|发布时间|发表时间|日期|时间"
+@@ -272,6 +310,20 @@
+                 published = parse_date(match[1]) if match else None
+             if published is not None:
+                 return published
++    # These two observed metadata cells use a bare date. Require an exact
++    # date-only value before the body and reject conflicting header dates.
++    before_body = {id(n) for n in content.previous_elements}
++    bare_dates = set()
++    for node in soup.select("form[name='_newscontent_fromname'] > .t > .author > span, form[name='_newscontent_fromname'] .xiab > .xb1"):
++        if id(node) not in before_body or not _article_metadata_allowed(node, content):
++            continue
++        value = normalize_whitespace(node.get_text(" ", strip=True))
++        if DATE_TEXT_PATTERN.fullmatch(value):
++            parsed = parse_date(value)
++            if parsed:
++                bare_dates.add(parsed)
++    if len(bare_dates) == 1:
++        return next(iter(bare_dates))
+     # A VSB article header may have no stable metadata class. Read only short
+     # labelled nodes before the body inside the article frame, never prose or
+     # the page clock. Conflicting dates remain unconfirmed.
+@@ -454,6 +506,20 @@
+     scope = content.find_parent("form", attrs={"name": "_newscontent_fromname"}) or content.find_parent("article") or content.parent
+     files = _extract_attachments(content, page_url)
+     seen = {a.url for a in files}
++    article = content.find_parent("article", class_="type-post")
++    if article is not None and content.parent is article:
++        for footer in article.select(":scope > footer"):
++            heading = footer.select_one(":scope > h4")
++            listing = footer.select_one(":scope > ul:not(.tag-list)")
++            if heading is None or listing is None or not re.fullmatch(r"相关附件[：:]\s*\d+", normalize_whitespace(heading.get_text(" ", strip=True))):
++                continue
++            # Only the labelled article attachment list is a file scope. Site
++            # footers and tag/category links remain excluded by usable_link.
++            copy = BeautifulSoup(str(listing), "html.parser")
++            for attachment in _extract_attachments(copy, page_url):
++                if attachment.url not in seen:
++                    files.append(attachment)
++                    seen.add(attachment.url)
+     for attachment in _embedded_pdf_attachments(content, page_url):
+         if attachment.url not in seen:
+             files.append(attachment)
+--- B7 baseline/backend/app/services/deduplication.py
++++ B7 final/backend/app/services/deduplication.py
+@@ -19,7 +19,15 @@
+     # identity still wins; this guard applies only to title-based matching.
+     pattern = r"[（(]\s*([一二三四五六七八九十百零〇两\d]+)\s*[）)]|第\s*([一二三四五六七八九十百零〇两\d]+)\s*(期|批|届|次|轮|场)"
+     first, second = re.findall(pattern, left), re.findall(pattern, right)
+-    return bool(first and second and first != second)
++    return bool((first or second) and first != second)
++
++
++def _different_explicit_admission_stage(left: str, right: str) -> bool:
++    # Interview eligibility and provisional admission are distinct notices,
++    # even when a long shared institution/program prefix dominates similarity.
++    first = set(re.findall(r"复试名单|拟录取名单", left))
++    second = set(re.findall(r"复试名单|拟录取名单", right))
++    return bool(first and second and first.isdisjoint(second))
+ 
+ 
+ def _different_explicit_award(left: str, right: str) -> bool:
+@@ -54,7 +62,7 @@
+             )
+         exact_matches = db.scalars(exact_query).all()
+         for exact in exact_matches:
+-            if title and (_different_explicit_series(title, exact.title) or _different_explicit_award(title, exact.title)):
++            if title and (_different_explicit_series(title, exact.title) or _different_explicit_award(title, exact.title) or _different_explicit_admission_stage(title, exact.title)):
+                 continue
+             if publish_date and exact.publish_date:
+                 if abs((publish_date - exact.publish_date).days) <= 14:
+@@ -68,7 +76,7 @@
+         )
+     candidates = db.scalars(candidate_query.order_by(Notice.id.desc()).limit(300)).all()
+     for candidate in candidates:
+-        if title and (_different_explicit_series(title, candidate.title) or _different_explicit_award(title, candidate.title)):
++        if title and (_different_explicit_series(title, candidate.title) or _different_explicit_award(title, candidate.title) or _different_explicit_admission_stage(title, candidate.title)):
+             continue
+         if publish_date and candidate.publish_date:
+             if abs((publish_date - candidate.publish_date).days) > 14:
+--- B7 baseline/backend/app/services/list_pagination.py
++++ B7 final/backend/app/services/list_pagination.py
+@@ -75,7 +75,8 @@
+             path = posixpath.normpath(unquote(target.path))
+             initial = posixpath.normpath(unquote(start.path))
+             stem = str(PurePosixPath(initial).with_suffix("")) if PurePosixPath(initial).suffix.lower() in {".htm", ".html", ".shtml"} else initial
+-            if path != initial and not (stem != initial and path.startswith(stem + "/")):
++            wordpress_page = not PurePosixPath(initial).suffix and bool(re.fullmatch(re.escape(initial.rstrip("/")) + r"/page/[1-9]\d*", path))
++            if path != initial and not (stem != initial and path.startswith(stem + "/")) and not wordpress_page:
+                 return False
+             stable = lambda parsed: sorted((k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True) if v and k.casefold() not in PAGE_PARAMS)
+             return stable(start) == stable(target)
+--- B7 baseline/backend/app/sources/generic.py
++++ B7 final/backend/app/sources/generic.py
+@@ -221,7 +221,9 @@
+         title = normalize_whitespace(str(title_node.get("title") or title_node.get_text(" ", strip=True)))
+         href = str(link_node.get("href") or "").strip()
+         if title and href and usable_link(link_node, page_url):
+-            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=list_publication_date(date_node.get_text(" ", strip=True)) if isinstance(date_node, Tag) else None))
++            results.append(NoticeCandidate(title=title, url=urljoin(page_url, href), publish_date=list_publication_date(
++                str(date_node.get("datetime") or date_node.get_text(" ", strip=True)), label_text=date_node.get_text(" ", strip=True)
++            ) if isinstance(date_node, Tag) else None))
+     if not results:
+         raise SourceError("The configured selectors did not find any notices")
+     return results

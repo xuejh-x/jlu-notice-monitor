@@ -1,0 +1,369 @@
+{
+  "id": "p2-c83c01ef7cc3",
+  "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+  "institution": "新能源与环境学院",
+  "column": "通知公告",
+  "site_url": "https://cer.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT",
+  "original_evidence": "docs/jlu-audit-evidence/results/c83c01ef7cc337a4.json",
+  "discovery_url": "https://cer.jlu.edu.cn/",
+  "original_snapshot": "html/5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b.html",
+  "original_capture_time": "2026-10-13T13:43:19+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-c83c01ef7cc3",
+    "name": "新能源与环境学院 / 通知公告",
+    "base_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:37+08:00",
+  "details": [
+    {
+      "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+      "list_title": "新能源与环境学院1955年-2026年毕业生名册",
+      "list_date": "2026-09-23",
+      "response": {
+        "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+        "time": "2026-10-15T19:43:05+08:00",
+        "ok": true,
+        "final_url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "99cea3c79e1095d6cb81176f3ded6ef55f027ac25bfe673584daf081e431b7c5",
+        "html_path": "html/99cea3c79e1095d6cb81176f3ded6ef55f027ac25bfe673584daf081e431b7c5.html",
+        "replacement_chars": 0,
+        "chars": 34231,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "新能源与环境学院1955年-2026年毕业生名册",
+        "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+        "publish_date": "2026-09-23",
+        "publisher": "来源：",
+        "content": "https://cer.jlu.edu.cn/__local/7/0E/46/C1BB1BF7C84289E1DC0C35E5EB9_E6B9C1E7_4AF289.jpg https://cer.jlu.edu.cn/__local/E/77/22/D92A1FE75264A1355FDDBEA458F_4781BC2D_49AB5D.jpg https://cer.jlu.edu.cn/__local/C/9D/4D/DD4748A8891959B2E27683DA50A_50475E26_5716A9.jpg https://cer.jlu.edu.cn/__local/8/09/A5/C8FE21E9CB40DE3242BF171AE03_9F512EFC_5A5FDB.jpg https://cer.jlu.edu.cn/__local/C/0B/00/BD2BB00E6F7F29AF86ED422F2AA_96654072_49AFC4.jpg https://cer.jlu.edu.cn/__local/8/51/0A/A1610E00EC337EEF6A7B5081794_22F75CAC_4EBD64.jpg https://cer.jlu.edu.cn/__local/4/95/79/B87259E1E5BC77CA58DC513B59C_29D84DE7_34EC37.jpg https://cer.jlu.edu.cn/__local/B/ED/EA/884434D1DD7050B96D79AFD0633_10235402_517FB8.jpg https://cer.jlu.edu.cn/__local/4/41/72/C5B70FE6C0808A9450BF5FC7587_7C6E24B1_490FA8.jpg https://cer.jlu.edu.cn/__local/B/EE/F4/5C7F1D0EFD8B07F7E29ECC9E2A8_8EC670C3_504890.jpg https://cer.jlu.edu.cn/__local/5/64/A0/1531235E103F9F32F3BD67CBD24_2BF6EAFF_4F9060.jpg https://cer.jlu.edu.cn/__local/E/FA/96/B805E7E14C43F2A7FD24AD64F62_9433815E_4EA30C.jpg https://cer.jlu.edu.cn/__local/D/A3/EE/8B278FAB5B33EF5DAC2F2295054_99C0A537_601C47.jpg https://cer.jlu.edu.cn/__local/F/D9/88/4D4CCD960BEA50ED4FAEC53C5CA_A5603C66_6425BA.jpg https://cer.jlu.edu.cn/__local/C/22/5B/178EA1B4B434881189FF0575168_585741F8_495279.jpg https://cer.jlu.edu.cn/__local/0/75/53/367EB604047F00E5548C208C982_52B15B54_3F6F31.jpg https://cer.jlu.edu.cn/__local/A/57/6C/7593846F3CA8383BEB2167D1B4B_08A4E234_520B40.jpg https://cer.jlu.edu.cn/__local/3/24/DF/87D2B7A32D4513F1A7EA824679F_EB4456D5_578273.jpg https://cer.jlu.edu.cn/__local/C/C9/85/0F068DCA5506F3CC00D9C589E61_499C6F84_5572EE.jpg https://cer.jlu.edu.cn/__local/9/C3/59/2CFA00103330917E2AB725D31F9_E198BF46_4F2E4A.jpg https://cer.jlu.edu.cn/__local/7/FE/38/FD1812A948EB5217D5651BE639C_E3B4E8DC_583B9E.jpg https://cer.jlu.edu.cn/__local/B/57/B9/78EC36FF8C12E1B2DDEA5AFF212_E08B1220_58FFE2.jpg https://cer.jlu.edu.cn/__local/D/2A/76/B5FAF1BA6BF914540B55B7E98A4_19B03904_580332.jpg https://cer.jlu.edu.cn/__local/B/34/AD/9975EB625F68586D935D9AC856E_1D05585D_4A4D9F.jpg https://cer.jlu.edu.cn/__local/A/8A/03/C7654B8F4780946C62CA0670F39_9B067268_4B7429.jpg https://cer.jlu.edu.cn/__local/4/69/AC/E070786978BA87013358109AC0E_313B217A_51F9F3.jpg https://cer.jlu.edu.cn/__local/4/79/34/02F24E32F4B61A4C7E305633683_E6B56ADE_6850A3.jpg https://cer.jlu.edu.cn/__local/D/7E/2D/982044C3322836CFD1316078033_2A75626F_61AF45.jpg https://cer.jlu.edu.cn/__local/7/C2/54/5B432B20212FE0B54B0EBE22E44_1347B518_614160.jpg https://cer.jlu.edu.cn/__local/2/54/EB/50DC90B357872383D49C5E594D2_B0685B64_657E81.jpg https://cer.jlu.edu.cn/__local/7/69/33/C42C1A25CFEFAB040F82FB358D3_A93EED16_5D3330.jpg https://cer.jlu.edu.cn/__local/E/75/E6/6BDA6AFF4960BC46A4A2BC36428_28F94C54_5CEC3A.jpg https://cer.jlu.edu.cn/__local/A/63/E0/3C054F83CEC8759794C185801D0_3350D0E4_52D5A7.jpg https://cer.jlu.edu.cn/__local/2/30/7A/9910F9079A17A31F07E2CC69DB0_B218E2DA_59333E.jpg https://cer.jlu.edu.cn/__local/C/D8/22/8050BAE91520F9108087117EF39_C5C7E471_6A928F.jpg https://cer.jlu.edu.cn/__local/4/AF/98/E428B007D69CDDDFE97D20C5FDD_7C60634C_65492A.jpg https://cer.jlu.edu.cn/__local/5/D7/DA/03C11C72C781FD72578937108A3_BED711B8_61F36D.jpg https://cer.jlu.edu.cn/__local/D/5E/19/A8976E7ECF77130424895F9EA29_51E30345_5F58EC.jpg https://cer.jlu.edu.cn/__local/1/92/C7/4897AE7C35980BE2C273D34F98F_06564440_4D14CE.jpg https://cer.jlu.edu.cn/__local/C/98/FB/EC6FCA1E5F70010B33D9F8A5137_E87D77B4_51A4CA.jpg https://cer.jlu.edu.cn/__local/D/43/65/B23AEAED6C05148ED860A2E3C65_AFD929B1_5041F3.jpg https://cer.jlu.edu.cn/__local/A/BA/59/7EBB3CB5BA25DEC26BD6EABD2A1_9B5B1E19_5A2D78.jpg https://cer.jlu.edu.cn/__local/5/FA/83/9871DA271381F34CF9B75DA6E1E_7FA0AEA2_5E27A7.jpg https://cer.jlu.edu.cn/__local/8/47/C2/DCA19EB68BFC699C7274B1DF203_ADA95538_5E1F52.jpg https://cer.jlu.edu.cn/__local/C/14/6D/B14BF2DAC49DACE9F35EA778E51_B17272A2_64011F.jpg https://cer.jlu.edu.cn/__local/C/0D/81/67B82DF897475AB927231FE4089_542D3A72_61D1DD.jpg https://cer.jlu.edu.cn/__local/1/A8/72/D68AB262066481EF2B132922FAC_871FE4C2_613F7D.jpg https://cer.jlu.edu.cn/__local/2/39/3B/7819BC2490F6C1CAAA32C6FEDC0_4D9F96E6_641F69.jpg https://cer.jlu.edu.cn/__local/E/81/B3/69E60AFBB1EAFE2D42725CB6695_0389AA8D_573C2D.jpg https://cer.jlu.edu.cn/__local/6/1E/26/80100237EC46A2FEF2239B0D9FC_9FD65BB1_49A1B8.jpg https://cer.jlu.edu.cn/__local/F/E3/AD/435B7379CF36185E87A730FAE58_BB0406B8_49A21E.jpg https://cer.jlu.edu.cn/__local/1/13/4F/E99E8AD08290D0CDC816B9FA246_BC9EA2A9_4F8652.jpg https://cer.jlu.edu.cn/__local/3/83/2F/6752A131BB9023CC8868D08BD1E_CB6E5746_349BB5.png https://cer.jlu.edu.cn/__local/C/9F/FC/048EC02E80123E81F5DF21176F2_40CE4E7A_385DE9.png https://cer.jlu.edu.cn/__local/6/07/A5/F33796584486EF03FF50D1B48B4_B6BE0524_249E58.png https://cer.jlu.edu.cn/__local/4/CC/ED/7CB2B5AB7EA2BFE6D40A66BC6FE_974E7DE3_235500.png https://cer.jlu.edu.cn/__local/F/32/4F/0DD07BDD74B57E4F3EF2589DF11_EDEA2B79_2F2279.png https://cer.jlu.edu.cn/__local/2/BB/91/DBCEBDE9A0517C3D2FBB14FE3FB_241E4BA2_27BD77.png",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "新能源与环境学院1955年-2026年毕业生名册"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-09-23 15:32:48 作者： 来源： 阅读： 次",
+            "date": "2026-09-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+      "list_title": "吉林大学校友会章程",
+      "list_date": "2020-11-25",
+      "response": {
+        "url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+        "time": "2026-10-15T19:43:07+08:00",
+        "ok": true,
+        "final_url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "645c059f5fa91d40ef30aad116042ecf27f00df4a0111aa86376f845a6b2f347",
+        "html_path": "html/645c059f5fa91d40ef30aad116042ecf27f00df4a0111aa86376f845a6b2f347.html",
+        "replacement_chars": 0,
+        "chars": 40875,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学校友会章程",
+        "url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+        "publish_date": "2020-11-25",
+        "publisher": "来源：",
+        "content": "吉林大学校友会章程 （经 2009 年 9 月 26 日吉林大学校友代表大会暨校友会第一届理事会第一次会议通过） 2016-06-26 第一章 总则 第一条 本团体名称为吉林大学校友会，其英译名称为 Jilin University Alumni Association 。 第二条 本团体是由吉林大学校友自愿组成的联合性、非营利性的具有法人资格的社会团体。 第三条 本团体的宗旨是：遵守国家宪法、法律、法规和国家政策，遵守社会道德风尚；广泛联络和凝聚校友，加强母校与海内外校友之间以及校友之间的联系，服务社会、服务学校、服务广大校友；发扬 “ 吉大精神 ” ，为吉林大学的发展、为建设社会主义和谐社会作贡献。 第四条 本团体接受业务主管单位中华人民共和国教育部和社团登记管理机关中华人民共和国民政部的业务指导和监督管理。 第五条 本团体地址设在中华人民共和国吉林省长春市吉林大学内。 第二章 业务范围 第六条 本团体的业务范围包括： （一） 促进海内外校友之间、校友与母校之间的联系与交流； （二） 促进学校与地方、校友之间教育、科研和文化等方面的协作与交流； （三） 协助学校征集校友以及社会各界对学校改革与发展的建议； （四） 协助学校拓展办学资源和毕业生就业渠道； （五） 编辑出版校友刊物；建设吉林大学校友会网站； （六） 筹集和管理吉林大学校友基金。 第三章 会员 第七条 本团体的会员种类为单位会员和个人会员。 第八条 申请加入本团体的会员，必须具备下列条件： （一）拥护本团体章程； （二）有加入本团体的意愿； （三）个人会员应当是在吉林大学（包括原吉林工业大学、白求恩医科大学、长春科技大学、长春邮电学院、中国人民解放军军需大学）学习和任职任教过的人员（含授予名誉学位者和吉林大学聘请的兼职教授）；单位会员为具有法人资格的相关业务的企事业单位和社团组织，并以单位名义加入本团体的。 第九条 会员入会的程序是： （一）提交《入会申请登记表》； （二）经理事会或常务理事会讨论通过； （三）由理事会授权的机构发给会员证。 第十条 会员享有下列权利： （一） 本团体内的选举权、被选举权和表决权； （二） 参加本团体组织的活动； （三） 获得本团体服务的优先权； （四）对本团体工作的批评、建议和监督权； （五）入会自愿、退会自由。 第十一条 会员履行下列义务： （一） 执行本团体的决议； （二） 维护本团体合法权益； （三） 完成本团体交办的工作； （四） 按规定缴纳会费； （五） 向本团体反映情况，提供有关资料。 第十二条 会员退会应书面通知本团体，并交回会员证。会员如果 1 年不交纳会费或不参加本团体活动的，视为自动退会。 第十三条 会员如有严重违反本章程的行为，经理事会或常务理事会表决通过，予以除名。 第四章 组织机构和负责人产生、罢免 第十四条 本团体最高权力机构是会员代表大会，会员代表大会的职权是： （一）制定和修改章程； （二）选举和罢免理事； （三）审议理事会的工作报告和财务报告； （四）制定和修改会费标准； （五）决定终止事宜； （六）决定其他重大事项。 第十五条 会员代表大会须有 2/3 以上的会员代表出席方能召开，会员代表大会之决议须经到会会员代表半数以上表决通过方能生效。 第十六条 会员代表大会每届 4 年。因特殊情况需提前或延期换届的，须由理事会表决通过，报中华人民共和国教育部审查并经中华人民共和国民政部批准同意。但延期换届最长不超过 1 年。 第十七条 理事会是会员代表大会的执行机构，在闭会期间领导本团体开展日常工作，对会员代表大会负责。 第十八条 理事会的职权是： （一）执行会员代表大会的决议； （二）选举和罢免会长、副会长、秘书长、常务理事； （三）筹备召开会员代表大会； （四）向会员代表大会报告工作和财务状况； （五）决定会员的吸收或除名； （六）决定设立办事机构、分支机构、代表机构和实体机构； （七）决定顾问、副秘书长、各机构主要负责人的聘任； （八）领导本团体各机构开展工作； （九）制定内部管理制度； （十）决定其他重大事项。 第十九条 理事会须有 2/3 以上理事出席方能召开，理事会之决议须经到会理事 2/3 以上表决通过方能生效。 第二十条 理事会每年至少召开一次会议。情况特殊的也可采用通讯形式召开。 第二十一条 本团体设立常务理事会。常务理事会由理事会选举产生，常务理事人数不超过理事人数的 1/3 ，在理事会闭会期间行使第十八条第一、三、五、六、七、八、九项的职权，对理事会负责。 第二十二条 常务理事会须有 2/3 以上常务理事出席方能召开，常务理事会之决议须经到会常务理事 2/3 以上表决通过方能生效。 第二十三条 常务理事会至少半年召开一次会议。情况特殊的也可采用通讯形式召开。 第二十四条 本团体设会长 1 人、副会长若干人、秘书长 1 人，聘任顾问若干人、副秘书长若干人。 第二十五条 本团体的会长、副会长、秘书长必须具备下列条件： （一）坚持党的路线、方针、政策，政治素质好； （二）在本团体业务领域内有较大影响； （三）会长、副会长、秘书长最高任职年龄不超过 70 周岁，秘书长为专职； （四）身体健康，能坚持正常工作； （五）未受过剥夺政治权利的刑事处罚； （六）具有完全民事行为能力。 第二十六条 本团体会长、副会长、秘书长如超过最高任职年龄的，须经理事会表决通过，报中华人民共和国教育部审查并经中华人民共和国民政部批准同意后，方可任职。 第二十七条 本团体会长、副会长、秘书长任期四年，任期最长不得超过两届。因特殊情况需延长任期的，须经会员代表大会 2/3 以上会员表决通过，报中华人民共和国教育部审查并经中华人民共和国民政部批准同意后，方可任职。 第二十八条 本团体会长为本团体法定代表人。法定代表人代表本团体签署有关重要文件。如因特殊情况可由副会长或秘书长担任法定代表人。本团体法定代表人不得兼任其他团体的法定代表人。 第二十九条 本团体会长行使下列职权： （一）召集和主持理事会或常务理事会； （二）检查会员代表大会、理事会和常务理事会决议的落实情况； 第三十条 本团体秘书长行使下列职权： （一）主持办事机构开展日常工作，组织实施年度工作计划； （二）协调各分支机构、代表机构、实体机构开展工作； （三）提名副秘书长以及各办事机构、分支机构、代表机构和实体机构主要负责人，交理事会或常务理事会决定； （四）决定办事机构、代表机构、实体机构专职工作人员的聘用； （五）处理其他日常事务。 第五章 资产管理、使用原则 第三十一条 本团体经费来源： （一）会费； （二）捐赠； （三）吉林大学或政府资助； （四）在核准的业务范围内开展活动或服务的收入； （五）利息； （六）其他合法收入。 第三十二条 本团体按照国家有关规定收取会员会费。 第三十三条 本团体经费必须用于本章程规定的业务范围和事业的发展，不得在会员中分配。 第三十四条 本团体建立严格的财务管理制度，保证会计资料合法、真实、准确、完整。 第三十五条 本团体配备具有专业资格的会计人员。会计不得兼任出纳。会计人员必须进行会计核算，实行会计监督。会计人员调动工作或离职时，必须与接管人员办清交接手续。 第三十六条 本团体的资产管理必须执行国家规定的财务管理制度，接受会员代表大会和财政部门的监督。资产来源属于国家拨款或者社会捐助、资助的，必须接受审计机关的监督，并将有关情况以适当方式向社会公布。 第三十七条 本团体换届或更换法定代表人之前必须接受中华人民共和国民政部和中华人民共和国教育部组织的财务审计。 第三十八条 本团体的资产，任何单位、个人不得侵占、私分和挪用。 第三十九条 本团体专职工作人员的工资和保险、福利待遇，参照国家对事业单位的有关规定执行。 第六章 章程的修改程序 第四十条 对本团体章程的修改，须经理事会表决通过后报会员代表大会审议。 第四十一条 本团体修改的章程，须在会员代表大会通过后 15 日内，经中华人民共和国教育部审查同意，并报中华人民共和国民政部核准后生效。 第七章 终止程序及终止后的财产处理 第四十二条 本团体因各种原因需要注销时，由理事会或常务理事会提出终止动议。 第四十三条 本团体终止动议须经会员代表大会表决通过，并报中华人民共和国教育部审查同意。 第四十四条 本团体终止前，须在中华人民共和国教育部及有关机关指导下成立清算组织，清理债权债务，处理善后事宜。清算期间，不开展清算以外的活动。 第四十五条 本团体经中华人民共和国民政部办理注销登记手续后即为终止。 第四十六条 本团体终止后的剩余财产，在中华人民共和国教育部和中华人民共和国民政部的监督下，按照国家有关规定，用于发展与本团体宗旨相关的事业。 第八章 附则 第四十七条 本章程经 2009 年 9 月 26 日吉林大学校友代表大会暨校友会第一届理事会第一次会议通过。 第四十八条 本章程的解释权属本团体的理事会。 第四十九条 本章程自中华人民共和国民政部核准之日起生效。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [],
+        "issues": [],
+        "body_reference_chars": 3725,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学校友会章程"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2020-11-25 10:21:18 作者： 来源： 阅读： 次",
+            "date": "2020-11-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+        "time": "2026-10-15T19:30:16+08:00",
+        "ok": true,
+        "final_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b",
+        "html_path": "html/5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b.html",
+        "replacement_chars": 0,
+        "chars": 14460,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://cer.jlu.edu.cn/info/1091/3183.htm",
+        "https://cer.jlu.edu.cn/info/1091/7067.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "time": "2026-10-15T19:30:16+08:00",
+    "ok": true,
+    "final_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b",
+    "html_path": "html/5e287af850966f3f6096973be746ca97f9636db2eb0830b50404e4a2275dcc1b.html",
+    "replacement_chars": 0,
+    "chars": 14460,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "新能源与环境学院1955年-2026年毕业生名册",
+      "url": "https://cer.jlu.edu.cn/info/1091/7067.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学校友会章程",
+      "url": "https://cer.jlu.edu.cn/info/1091/3183.htm",
+      "publish_date": "2020-11-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 2,
+  "pagination": [
+    {
+      "start_url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 2,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p2-c83c01ef7cc3",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.3899989426136017e-05,
+      "detail_duration_seconds": 6.3999323174357414e-06,
+      "parse_db_duration_seconds": 0.031484599923714995
+    },
+    "second_round": {
+      "source": "p2-c83c01ef7cc3",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.9600032828748226e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-c83c01ef7cc3",
+    "institution": "新能源与环境学院",
+    "column": "通知公告",
+    "url": "https://cer.jlu.edu.cn/jyxx/tzg.htm",
+    "original_status": "部分通过",
+    "original_issues": "BODY_CONTAINER_FALLBACK | BODY_TOO_SHORT",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:16+08:00",
+    "review_time": "2026-10-15T20:21:37+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 2,
+    "details": 2,
+    "verified_details": 2,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-c83c01ef7cc3.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

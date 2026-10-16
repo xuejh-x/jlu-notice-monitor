@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-13T18:46:20+08:00",
+  "phase": "check",
+  "output": "E:\\jlu-notice-monitor\\docs\\jlu-fix-b0-b1\\tool-self-check",
+  "discovery_input": null,
+  "column_urls": [],
+  "mode": "fresh HTTP run with same-run resume; no imported request cache"
+}

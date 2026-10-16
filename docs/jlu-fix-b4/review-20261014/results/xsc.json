@@ -1,0 +1,378 @@
+{
+  "id": "xsc",
+  "institution": "党委学生工作部（处）、党委武装部",
+  "column": "通知公告",
+  "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+  "captured_at": "2026-10-14T16:33:54+08:00",
+  "validated_at": "2026-10-14T16:43:42+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_SAMPLE_PASSED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://xsc.jlu.edu.cn/info/1048/5944.htm",
+      "list_title": "关于补发两名同学2026-2027学年退役士兵国家助学金公示的通知",
+      "list_date": "2026-10-14",
+      "captured_at": "2026-10-14T16:33:56+08:00",
+      "snapshot": "html/04bac2e599e11109d179bcde07c79b92e365f1f85bcbf4f72dfeaeab21cd167b.html",
+      "sha256": "04bac2e599e11109d179bcde07c79b92e365f1f85bcbf4f72dfeaeab21cd167b",
+      "title": "关于补发两名同学2026-2027学年退役士兵国家助学金公示的通知",
+      "date": "2026-10-14",
+      "content_chars": 410,
+      "content_sha256": "5118e258973b7b81af5396e9011d5e2577a285b1bb1ea70cc281759e091fe1aa",
+      "content_preview": "各相关学院： 根据《财政部 教育部 人力资源社会保障部 退役军人部 中央军委国防动员部关于印发〈学生资助资金管理办法〉的通知》（财教〔 2021 〕 310 号）、教育部全国学生资助管理中心《关于做好 2026 年服兵役高等学校国家教育资助等信息录入审核工作的通知》（教助中心〔 2026 〕 27 号）等文件精神和要求，经个人申报、学院初审、党委学生工作部审核，拟确定文学院暨新闻与传播学院王 珺 琦等 2 名同学为 2026-2027 学年退役士兵学生享受国家助学金拟资助人员（名单及资助金额见附件）。 公示期为 2026 年 10 月 14 日至 10 月 20 日。如对公示名单有异议，请在公",
+      "attachments": [
+        {
+          "filename": "附件：2026-2027学年退役士兵学生享受国家助学金公示名单（补发两名同学）(1).xlsx",
+          "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+          "type": "xlsx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] > .bt",
+          "title": "关于补发两名同学2026-2027学年退役士兵国家助学金公示的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-10-14",
+          "date": "2026-10-14"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 410,
+      "reference_attachment_urls": [
+        "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://xsc.jlu.edu.cn/info/1048/5943.htm",
+      "list_title": "关于举办2026年第9期（总第112期）“红色园丁”学生工作主题沙龙的通知",
+      "list_date": "2026-10-14",
+      "captured_at": "2026-10-14T16:33:57+08:00",
+      "snapshot": "html/9fcf4cfcba61b7d4c0d1e627228257cd926ffb5103ba0cae85c4e426df7758ec.html",
+      "sha256": "9fcf4cfcba61b7d4c0d1e627228257cd926ffb5103ba0cae85c4e426df7758ec",
+      "title": "关于举办2026年第9期（总第112期）“红色园丁”学生工作主题沙龙的通知",
+      "date": "2026-10-14",
+      "content_chars": 364,
+      "content_sha256": "aa81a3b3dc22787d9dec48c898f6f385582db8ff4831b0ba40d6cdd150cd354e",
+      "content_preview": "各学院： 为全面贯彻落实《吉林大学“红色园丁”工作论坛（沙龙）试行办法》，着力增强辅导员的素质能力和业务本领，推动辅导员队伍专业化、职业化建设。根据工作安排，将举办 2026 年第 9 期（总第 112 期）“红色园丁”学生工作主题沙龙，具体事宜通知如下。 一、时 间 2026 年 10 月 16 日（星期五） 9:30 二、地 点 吉林大学中心校区鼎新图书馆 8 楼会议室 三、活动主题 辅导员谈心谈话工作方法交流 四、主要发言人 李芊满 文学院暨新闻与传播学院 程思阳 马克思主义学院 王新欣 食品科学与工程学院 五、参加人员 2025 年、 2026 年新聘本科生专职辅导员和“ 2+3 ”专",
+      "attachments": [],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] > .bt",
+          "title": "关于举办2026年第9期（总第112期）“红色园丁”学生工作主题沙龙的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-10-14",
+          "date": "2026-10-14"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 364,
+      "reference_attachment_urls": [],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://xsc.jlu.edu.cn/info/1048/5942.htm",
+      "list_title": "关于开展“健康校园行，轻身不‘负重’”公益服务活动暨“一站式”学生社区“健康成长学堂”启动仪式的通知",
+      "list_date": "2026-10-13",
+      "captured_at": "2026-10-14T16:33:58+08:00",
+      "snapshot": "html/277c93dd21d9e668d1860b0558fd6f16ace1f46ba1f51b87ce965c1b14e491b9.html",
+      "sha256": "277c93dd21d9e668d1860b0558fd6f16ace1f46ba1f51b87ce965c1b14e491b9",
+      "title": "关于开展“健康校园行，轻身不‘负重’”公益服务活动暨“一站式”学生社区“健康成长学堂”启动仪式的通知",
+      "date": "2026-10-13",
+      "content_chars": 1015,
+      "content_sha256": "c4b5ee3640f0aed7acea660ddef8d2672a179ee379c7d136b307b10bcfd21ec2",
+      "content_preview": "各学院： 为深入贯彻落实立德树人根本任务，积极弘扬白求恩精神，发挥“一站式”学生社区育人功能，充分发挥学科专业优势及育人特色，推动优质临床资源与健康服务精准下沉学生社区，以学科专业实践赋能师生成长，引导师生树立正确的健康饮食和科学减重观念，党委学生工作部、白求恩第三临床医学院将在新民校区“一站式”学生社区开展“健康校园行，轻身不‘负重’”公益服务活动暨“一站式”学生社区“健康成长学堂”启动仪式。 一、时间 2026 年 10 月 17 日（星期六） 9:00-13:00 二、地点 新民校区 “一站式”学生社区 三、主题 “健康校园行，轻身不‘负重’” 四、活动内容 1 、“一站式”学生社区“健",
+      "attachments": [
+        {
+          "filename": "预约指南.pdf",
+          "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208008",
+          "type": "pdf"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] > .bt",
+          "title": "关于开展“健康校园行，轻身不‘负重’”公益服务活动暨“一站式”学生社区“健康成长学堂”启动仪式的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "发布日期：2026-10-13",
+          "date": "2026-10-13"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 929,
+      "reference_attachment_urls": [
+        "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208008"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "ATTACHMENT_CAPTCHA_REQUIRED",
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+      "time": "2026-10-14T16:33:59+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "xlsx",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:34:00+08:00",
+          "status": 206,
+          "category": "CAPTCHA_REQUIRED"
+        }
+      ],
+      "status": 206,
+      "final_url": "https://xsc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2082331089&wbfileid=18208242",
+      "content_type": "text/html;charset=UTF-8",
+      "disposition": "",
+      "prefix_path": "prefix/aba9508fc477338c962b33925c8f98a03c1eef9c474336c658e4949bf5a97b24.bin",
+      "prefix_sha256": "aba9508fc477338c962b33925c8f98a03c1eef9c474336c658e4949bf5a97b24",
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "read_bytes": 3805,
+      "reason": "Verification page; no captcha submission or bypass",
+      "filename": "附件：2026-2027学年退役士兵学生享受国家助学金公示名单（补发两名同学）(1).xlsx",
+      "type": "xlsx"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+  "reason": "ATTACHMENT_CAPTCHA_REQUIRED; REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED",
+  "final_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+  "list_snapshot": "html/37e43c09d2b944e59b7b8e188f4617fb918a3b4f4594f545b746b2c60205c6b3.html",
+  "list_sha256": "37e43c09d2b944e59b7b8e188f4617fb918a3b4f4594f545b746b2c60205c6b3",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于补发两名同学2026-2027学年退役士兵国家助学金公示的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5944.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办2026年第9期（总第112期）“红色园丁”学生工作主题沙龙的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5943.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展“健康校园行，轻身不‘负重’”公益服务活动暨“一站式”学生社区“健康成长学堂”启动仪式的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5942.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于在本科生中评选2026年度吉林大学“小米奖（助）学金”的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5940.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026年度本科生“宝钢优秀学生奖学金”拟获奖人员名单的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+      "publish_date": "2026-10-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展“一站式”学生社区“琢育计划”（第十四期）活动的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5937.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于在本科生中评选2026年度吉林大学“李四光地学奖学金”、“富德地学奖学金”的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5936.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2025年度吉林大学“喜来健奖学金”拟获奖人员名单的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5935.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2026年“追寻红色记忆 传承家乡精神”家门口红色故事分享活动获奖项目的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5934.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展吉林大学 “星火燎原 领航青春”新生入党积极分子培养项目(第八期)学员遴选工作的通知",
+      "url": "https://xsc.jlu.edu.cn/info/1048/5933.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 10,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "https://xsc.jlu.edu.cn/index/tzgg/186.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 3,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-20261014/results/xsc.json"
+}

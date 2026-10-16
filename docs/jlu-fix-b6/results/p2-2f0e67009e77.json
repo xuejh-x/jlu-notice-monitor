@@ -1,0 +1,982 @@
+{
+  "id": "p2-2f0e67009e77",
+  "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+  "institution": "卓越工程师学院",
+  "column": "通知公告",
+  "site_url": "https://ees.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/2f0e67009e776418.json",
+  "discovery_url": "https://ees.jlu.edu.cn/",
+  "original_snapshot": "html/673bef7ae288234145d8f04982d1fae0db80abbb54f0b347355ab87b07531eae.html",
+  "original_capture_time": "2026-10-13T13:42:19+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-2f0e67009e77",
+    "name": "卓越工程师学院 / 通知公告",
+    "base_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:22+08:00",
+  "details": [
+    {
+      "url": "https://ees.jlu.edu.cn/info/1004/1313.htm",
+      "list_title": "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知",
+      "list_date": "2026-10-14",
+      "response": {
+        "url": "https://ees.jlu.edu.cn/info/1004/1313.htm",
+        "time": "2026-10-15T19:41:24+08:00",
+        "ok": true,
+        "final_url": "https://ees.jlu.edu.cn/info/1004/1313.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d8807a093a53ee341de3be9c4ca270fd04268b85afcc1a68fdb7e376e3220e7d",
+        "html_path": "html/d8807a093a53ee341de3be9c4ca270fd04268b85afcc1a68fdb7e376e3220e7d.html",
+        "replacement_chars": 0,
+        "chars": 26054,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知",
+        "url": "https://ees.jlu.edu.cn/info/1004/1313.htm",
+        "publish_date": "2026-10-14",
+        "publisher": null,
+        "content": "关于申报 国家卓越工程师学院 2027年度专业学位博士指导教师 资格名单及佐证材料公示的通知 经导师本人申请，学院 初审 ，现将 初审合格的教师名单及相关佐证材料进行公示，公示期 2026年10月14日-2026年10月16日 。 如有异议请于公示期内实名将内容反馈至邮箱： yuanshuo1989@jlu.edu.cn 国家卓越工程师学院 2026年10月14日",
+        "attachments": [
+          {
+            "filename": "王永志 佐证材料.rar",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208351",
+            "type": "rar"
+          },
+          {
+            "filename": "许中杰 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208312",
+            "type": "zip"
+          },
+          {
+            "filename": "高金武 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208341",
+            "type": "zip"
+          },
+          {
+            "filename": "赵红然 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208336",
+            "type": "zip"
+          },
+          {
+            "filename": "张宇 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208335",
+            "type": "zip"
+          },
+          {
+            "filename": "张彤 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208334",
+            "type": "zip"
+          },
+          {
+            "filename": "袁宝 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208333",
+            "type": "zip"
+          },
+          {
+            "filename": "武振楠 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208332",
+            "type": "zip"
+          },
+          {
+            "filename": "刘兆东 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208331",
+            "type": "zip"
+          },
+          {
+            "filename": "陆敏 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208330",
+            "type": "zip"
+          },
+          {
+            "filename": "刘文彬 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208329",
+            "type": "zip"
+          },
+          {
+            "filename": "白雪 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208328",
+            "type": "zip"
+          },
+          {
+            "filename": "刘怀湜 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208327",
+            "type": "zip"
+          },
+          {
+            "filename": "崔佳旭 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208326",
+            "type": "zip"
+          },
+          {
+            "filename": "单玄龙 佐证材料.zip",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208293",
+            "type": "zip"
+          },
+          {
+            "filename": "附件1 申报国家卓越工程师学院2027年度专业学位博士指导教师基本情况汇总表.xls",
+            "url": "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208265",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-14 点击：",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布时间：2026-10-14",
+            "date": "2026-10-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 183,
+        "reference_attachment_urls": [
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208265",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208293",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208312",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208326",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208327",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208328",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208329",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208330",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208331",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208332",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208333",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208334",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208335",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208336",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208341",
+          "https://ees.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2119904582&wbfileid=18208351"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知 发布时间：2026-10-14 点击：",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布时间：2026-10-14 点击：",
+            "date": "2026-10-14"
+          },
+          {
+            "text": "发布时间：2026-10-14",
+            "date": "2026-10-14"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ees.jlu.edu.cn/info/1004/1314.htm",
+      "list_title": "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知",
+      "list_date": "2026-10-12",
+      "response": {
+        "url": "https://ees.jlu.edu.cn/info/1004/1314.htm",
+        "time": "2026-10-15T19:41:25+08:00",
+        "ok": true,
+        "final_url": "https://ees.jlu.edu.cn/info/1004/1314.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f93d4e10e9f23c5d862f8553c274fe6dff97770bbc4fe3301b375be77da76aaa",
+        "html_path": "html/f93d4e10e9f23c5d862f8553c274fe6dff97770bbc4fe3301b375be77da76aaa.html",
+        "replacement_chars": 0,
+        "chars": 19479,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知",
+        "url": "https://ees.jlu.edu.cn/info/1004/1314.htm",
+        "publish_date": "2026-10-12",
+        "publisher": null,
+        "content": "根据长春市人社局相关文件要求及《关于开展长春市卓越工程师培养对象遴选工作的通知》，经个人申报、中层单位初审、国家卓越工程师学院复审，拟在新材料领域遴选培养对象3名、新能源领域遴选培养对象2名。现将拟遴选名单予以公示。 公示期： 2026 年 10 月 12 日至 10 月 14 日，公示地点：国家卓越工程师学院 6 楼 623 室。如对公示人选有异议，请在公示期内实名以书面或邮件形式向国家卓越工程师学院反映。 联系人：王老师 电子邮箱： jluees@jlu.edu.cn 国家卓越工程师学院 2026 年 10 月 12 日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-10-12 点击：",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布时间：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 265,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知 发布时间：2026-10-12 点击：",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布时间：2026-10-12 点击：",
+            "date": "2026-10-12"
+          },
+          {
+            "text": "发布时间：2026-10-12",
+            "date": "2026-10-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+      "list_title": "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批）",
+      "list_date": "2026-06-08",
+      "response": {
+        "url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+        "time": "2026-10-15T20:00:21+08:00",
+        "ok": true,
+        "final_url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e903ece7b0f8a97bce5bdd550554d952b94b208180d4638c1945e65b767deb74",
+        "html_path": "html/e903ece7b0f8a97bce5bdd550554d952b94b208180d4638c1945e65b767deb74.html",
+        "replacement_chars": 0,
+        "chars": 21282,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批）",
+        "url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+        "publish_date": "2026-06-08",
+        "publisher": null,
+        "content": "https://ees.jlu.edu.cn/__local/C/5D/8F/07F28079836A5099819DE2588CD_7773681B_11A18.png 公示期为 6 月 8 日至 6 月 11 日，咨询电话： 0431-85 168206 。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批）"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-06-08 点击：",
+            "date": "2026-06-08"
+          },
+          {
+            "text": "发布时间：2026-06-08",
+            "date": "2026-06-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 45,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批）"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批） 发布时间：2026-06-08 点击：",
+            "date": "2026-06-08"
+          },
+          {
+            "text": "发布时间：2026-06-08 点击：",
+            "date": "2026-06-08"
+          },
+          {
+            "text": "发布时间：2026-06-08",
+            "date": "2026-06-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+        "time": "2026-10-15T19:29:41+08:00",
+        "ok": true,
+        "final_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "44df6fde45c64d885f9d2b770a2cb042114236dcf707003b1a5b33786ebd655f",
+        "html_path": "html/44df6fde45c64d885f9d2b770a2cb042114236dcf707003b1a5b33786ebd655f.html",
+        "replacement_chars": 0,
+        "chars": 19167,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ees.jlu.edu.cn/info/1004/1275.htm",
+        "https://ees.jlu.edu.cn/info/1004/1276.htm",
+        "https://ees.jlu.edu.cn/info/1004/1278.htm",
+        "https://ees.jlu.edu.cn/info/1004/1279.htm",
+        "https://ees.jlu.edu.cn/info/1004/1280.htm",
+        "https://ees.jlu.edu.cn/info/1004/1281.htm",
+        "https://ees.jlu.edu.cn/info/1004/1305.htm",
+        "https://ees.jlu.edu.cn/info/1004/1307.htm",
+        "https://ees.jlu.edu.cn/info/1004/1313.htm",
+        "https://ees.jlu.edu.cn/info/1004/1314.htm"
+      ],
+      "observed_next_urls": [
+        "https://ees.jlu.edu.cn/xwdt/tzgg/3.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ees.jlu.edu.cn/xwdt/tzgg/3.htm",
+        "time": "2026-10-15T19:41:22+08:00",
+        "ok": true,
+        "final_url": "https://ees.jlu.edu.cn/xwdt/tzgg/3.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "892c67d7d4582094c2ee5a43205846332d5d1df8dca02fc295a5a7469bb3e413",
+        "html_path": "html/892c67d7d4582094c2ee5a43205846332d5d1df8dca02fc295a5a7469bb3e413.html",
+        "replacement_chars": 0,
+        "chars": 19437,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ees.jlu.edu.cn/info/1004/1201.htm",
+        "https://ees.jlu.edu.cn/info/1004/1205.htm",
+        "https://ees.jlu.edu.cn/info/1004/1216.htm",
+        "https://ees.jlu.edu.cn/info/1004/1219.htm",
+        "https://ees.jlu.edu.cn/info/1004/1231.htm",
+        "https://ees.jlu.edu.cn/info/1004/1232.htm",
+        "https://ees.jlu.edu.cn/info/1004/1241.htm",
+        "https://ees.jlu.edu.cn/info/1004/1251.htm",
+        "https://ees.jlu.edu.cn/info/1004/1271.htm",
+        "https://ees.jlu.edu.cn/info/1004/1274.htm"
+      ],
+      "observed_next_urls": [
+        "https://ees.jlu.edu.cn/xwdt/tzgg/2.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "time": "2026-10-15T19:29:41+08:00",
+    "ok": true,
+    "final_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "44df6fde45c64d885f9d2b770a2cb042114236dcf707003b1a5b33786ebd655f",
+    "html_path": "html/44df6fde45c64d885f9d2b770a2cb042114236dcf707003b1a5b33786ebd655f.html",
+    "replacement_chars": 0,
+    "chars": 19167,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报国家卓越工程师学院2027年度专业学位博士指导教师资格名单及佐证材料公示的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1313.htm",
+      "publish_date": "2026-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示国家卓越工程师学院“长春市卓越工程师培养工程”培养对象遴选名单的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1314.htm",
+      "publish_date": "2026-10-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展长春市卓越工程师培养对象遴选工作的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1307.htm",
+      "publish_date": "2026-09-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2027年度吉林大学专业学位研究生卓越工程师培养项目申报工作的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1305.htm",
+      "publish_date": "2026-09-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2027年吉林大学国家卓越工程师学院“大飞机班”直博生招生考试成绩及拟录取名单的通...",
+      "url": "https://ees.jlu.edu.cn/info/1004/1281.htm",
+      "publish_date": "2026-07-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院“大飞机班”直博生 招生公告",
+      "url": "https://ees.jlu.edu.cn/info/1004/1280.htm",
+      "publish_date": "2026-06-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示国家卓越工程师学院2026年全日制博士招生考试成绩及拟录取名单的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1279.htm",
+      "publish_date": "2026-06-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院2026年实施企业在职骨干人员攻读专业学位博士研究生“三年一万人...",
+      "url": "https://ees.jlu.edu.cn/info/1004/1278.htm",
+      "publish_date": "2026-06-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示吉林大学国家卓越工程师学院学位评定分委员会拟聘委员名单的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1276.htm",
+      "publish_date": "2026-06-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示国家卓越工程师学院2026年博士招生考试（第四批）成绩及拟录取名单的通知",
+      "url": "https://ees.jlu.edu.cn/info/1004/1275.htm",
+      "publish_date": "2026-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院2026年博士研究生拟录取公示（第三批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1274.htm",
+      "publish_date": "2026-06-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布国家卓越工程师学院2026年博士研究生招生资格审核合格名单（第四批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1271.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院2026年博士研究生复试成绩公示（第三批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1251.htm",
+      "publish_date": "2026-05-29",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学卓越工程师学院2026年博士研究生“申请考核制”实施细则（第四批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1241.htm",
+      "publish_date": "2026-05-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院2026年博士研究生（部分）复试安排",
+      "url": "https://ees.jlu.edu.cn/info/1004/1232.htm",
+      "publish_date": "2026-05-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学卓越工程师学院2026年博士研究生“申请考核制”实施细则（第三批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1231.htm",
+      "publish_date": "2026-05-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学卓越工程师学院2026年博士研究生“申请考核制”实施细则（第二批）",
+      "url": "https://ees.jlu.edu.cn/info/1004/1219.htm",
+      "publish_date": "2026-04-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "国家卓越工程师学院（408）2026年硕士研究生拟录取名单公示",
+      "url": "https://ees.jlu.edu.cn/info/1004/1216.htm",
+      "publish_date": "2026-04-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学国家卓越工程师学院2026年硕士研究生招生复试录取实施细则",
+      "url": "https://ees.jlu.edu.cn/info/1004/1205.htm",
+      "publish_date": "2026-03-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于推荐首届吉林大学研究生教学成果奖申报项目的公示",
+      "url": "https://ees.jlu.edu.cn/info/1004/1201.htm",
+      "publish_date": "2026-03-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://ees.jlu.edu.cn/xwdt/tzgg/3.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-2f0e67009e77",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.2500054910779e-05,
+      "detail_duration_seconds": 1.100008375942707e-05,
+      "parse_db_duration_seconds": 0.04279240011237562
+    },
+    "second_round": {
+      "source": "p2-2f0e67009e77",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6600009985268116e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-2f0e67009e77",
+    "institution": "卓越工程师学院",
+    "column": "通知公告",
+    "url": "https://ees.jlu.edu.cn/xwdt/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:41+08:00",
+    "review_time": "2026-10-15T20:21:22+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-2f0e67009e77.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

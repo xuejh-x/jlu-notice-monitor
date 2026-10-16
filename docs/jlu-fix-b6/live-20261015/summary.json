@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-15T19:45:05+08:00",
+  "entries": 164,
+  "verdicts": {
+    "VERIFIED_EMPTY_COLUMN": 9,
+    "LIST_OR_PAGINATION_UNSUPPORTED": 12,
+    "LOGIN_REFERENCE_OA_DEFERRED": 1,
+    "PERMISSION_RESTRICTED": 1,
+    "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN": 56,
+    "SAMPLE_REVIEW_REQUIRED": 82,
+    "SINGLE_ARTICLE_REFERENCE": 1,
+    "ACCESS_BLOCKED": 2
+  },
+  "statuses": {
+    "当前空栏目": 9,
+    "待修复或证据不足": 94,
+    "无需作为公开栏目适配": 1,
+    "权限受限": 1,
+    "部分通过": 56,
+    "无需作为栏目适配": 1,
+    "受阻": 2
+  },
+  "details": 394,
+  "verified_details": 193,
+  "list_pages": 247,
+  "list_items": 2988,
+  "isolated_replays": 136,
+  "http_attempts_this_session": 494,
+  "requests_cached": 719,
+  "application_db_connections": 0,
+  "cloud_production_verified": false,
+  "complete_downloads": 0,
+  "oa_requests": 0
+}

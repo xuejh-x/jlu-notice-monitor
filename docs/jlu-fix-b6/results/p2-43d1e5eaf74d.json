@@ -1,0 +1,892 @@
+{
+  "id": "p2-43d1e5eaf74d",
+  "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+  "institution": "动物医学学院",
+  "column": "通知公告",
+  "site_url": "https://dwyx.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/43d1e5eaf74dc716.json",
+  "discovery_url": "https://dwyx.jlu.edu.cn/",
+  "original_snapshot": "html/e32f8e2bb5ed16fdc9d03775f96887dfb31704dcd4e54c5e56cd276e7f79815b.html",
+  "original_capture_time": "2026-10-13T13:55:57+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-43d1e5eaf74d",
+    "name": "动物医学学院 / 通知公告",
+    "base_url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:50+08:00",
+  "details": [
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4285.htm",
+      "list_title": "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示",
+      "list_date": "2026-10-08",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4285.htm",
+        "time": "2026-10-15T19:44:16+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1031/4285.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2888d0835df8158ab6cce0d1a4c8aa6d88cb5d81255004a99b03004fae224240",
+        "html_path": "html/2888d0835df8158ab6cce0d1a4c8aa6d88cb5d81255004a99b03004fae224240.html",
+        "replacement_chars": 0,
+        "chars": 25356,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示",
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4285.htm",
+        "publish_date": "2026-10-08",
+        "publisher": null,
+        "content": "根据黑龙江省科学技术奖励工作办公室《关于开展2025年度黑龙江省科学技术奖提名工作的通知》要求，现将黑龙江八一农垦大学付世新教授主持，我院李心慰教授参与申报黑龙江省科学技术奖的项目予以公示。 自本公示之日起5日内，如对公示项目持有异议，可以书面提出，并提供必要的证明文件。为便于核实、查证，确保公正地处理异议，提出异议的单位或者个人应当表明真实身份，并提供联系方式。个人提出异议的，需在书面异议材料上签署真实姓名；以单位名义提出异议的，需加盖本单位公章。凡匿名异议和超出期限的异议不予受理。 联系电话：0431-87836405 联系人：李赫 联系地址：吉林大学动物医学学院 公示时间：2026.10.8 附件：我院参与申报2025年度黑龙江省科学技术奖项目公示内容 吉林大学动物医学学院 2026年10月8日 我院参与申报2025年度黑龙江省科学技术奖项目公示内容 项目名称： 寒区高产奶牛重要繁殖障碍性疾病综合防治关键技术示范与应用 二、提名者： 黑龙江省农业农村厅 三、主要完成人： 付世新、杨威、鲁文赓、陈媛媛、罗春海、李心慰、孙旭东、刘春海、夏成、李井春、钱伟东 四、主要完成单位： 黑龙江八一农垦大学、吉林大学、内蒙古亚禾生物技术有限责任公司 五、主要知识产权和标准规范等目录 序号 授权项目名称 知识产权（标准规范）类型 授权国家（地区） 授权号(标准 编号) 权利人（标准规范起草单位） 发明人（标准规范起草人） 附件号 1 一种固定化除氨菌系的改性沸石 发明专利 中国 ZL201510512347.9 黑龙江八一农垦大学 付世新；罗春海；王伟东；沈冰蕾；许启有；刘瑶 1-1 2 一种用于奶牛产后疾病防治和增强免疫力的中药组合物及其制备方法 发明专利 中国 ZL202210102925.1 黑龙江八一农垦大学 鲁文赓；许美花；原冬伟；钱伟东；范钊 1-2 3 一种预防和/或治疗奶牛胎衣不下的生物活性组合物及其应用与一种散剂以及片剂 发明专利 中国 ZL202210560519.X 黑龙江八一农垦大学 鲁文赓；原冬伟；许美花；孙宏亮；金吉东 1-3 4 一种预防奶牛胎衣不下的组合物及其制备方法 发明专利 中国 ZL202310168492.4 黑龙江八一农垦大学 罗春海；白云龙；王铮；付世新；夏成；鲁文庚；孙旭东；钱伟东；杨威 1-4 5 过瘤胃谷胱甘肽的应用及其影响奶牛酮病和乳房炎的评估方法 发明专利 中国 ZL 202411034441.3 内蒙古亚禾生物技术有限责任公司 白云龙；夏成；刘春海； 陈腾 ； 李伟 ； 任晚霞 ； 浩宇 ； 宋玉锡 ； 杨威 ； 许秋实 ； 麻芯茹 ； 杨明茂 ； 肖鑫焕 ； 王致杰 1-5 6 一种利用血液生化指标预测奶牛酮病脂肪肝综合征的系统及应用 发明专利 中国 ZL202211325812.4 黑龙江八一农垦大学 杨威；徐闯；高畅鸿；夏成；张冰冰 1-6 7 线粒体DNA检测试剂在诊断奶牛脂肪肝的应用 发明专利 中国 ZL201710871825.4 吉林大学 李心慰；刘国文；杜希良 1-7 8 防治围产期酮病奶牛肝损伤的保健粉剂 发明专利 中国 ZL202010891952.2 吉林大学 刘国文；李心慰；白洪旭;杜希良；范明赫；陈喜莹；房志愿；王哲；李小兵；宋玉祥 1-8 9 一种改善动物繁殖性能的复合制剂及应用 发明专利 中国 ZL202211618840.5 黑龙江八一农垦大学 崔卫国；李井春；尹国安；赵帅；郭景茹；郭庆；王赫川 1-9 10 一种对动物血液生化指标进行优选的方法 发明专利 中国 ZL202010901287.0 黑龙江八一农垦大学 徐闯；张弘弢；陈媛媛；陈起良；李福华；吴倩；高颖；梁宝金；孙德洲；杨欣 1-10 11 一种奶牛呼吸给药装置及方法 发明专利 中国 ZL202010122630.1 黑龙江八一农垦大学 徐闯；张弘弢；陈媛媛；陈起良；李福华；吴倩；高颖；武广博；黄江；杨欣 1-11 12 miRNA数据驱动奶牛胎衣预警系统V1.0 软件著作权 中国 2025SR2286642 黑龙江八一农垦大学 付世新；钱伟东；罗春海；贾红豆；刘佳金；王薇 1-12 13 奶牛子宫内膜炎防控管理平台V1.0 软件著作权 中国 2025SR1446737 黑龙江八一农垦大学 鲁文赓；钱伟东 1-13 14 奶牛胎衣不下miRNA分析预测平台V1.0 软件著作权 中国 2025SR2286647 黑龙江八一农垦大学 黑龙江八一农垦大学 1-14 15 奶牛酮病预警管理系统（V1.0） 软件著作权 中国 2019SR1020632 黑龙江八一农垦大学 黑龙江八一农垦大学 1-15 授权发明专利总计（项） 11 授权的其他知识产权总计（项） 4",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "发布日期：2026-10-08",
+            "date": "2026-10-08"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1981,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示 信息来源： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-10-08",
+            "date": "2026-10-08"
+          },
+          {
+            "text": "发布日期：2026-10-08",
+            "date": "2026-10-08"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+      "list_title": "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示",
+      "list_date": "2026-09-23",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+        "time": "2026-10-15T19:44:17+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "50ee473210cf56a8213c268aba4d3a4c437725bc3cf3596f19d857af01f8eecb",
+        "html_path": "html/50ee473210cf56a8213c268aba4d3a4c437725bc3cf3596f19d857af01f8eecb.html",
+        "replacement_chars": 0,
+        "chars": 16820,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示",
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+        "publish_date": "2026-09-23",
+        "publisher": null,
+        "content": "经学生自主申报、学院审核，动物医学学院研究生招生考核小组对符合条件的考生进行考核，现将考核成绩及拟录取结果（含直博生）进行公示，内容详见附件，公示期为 3天，如有异议请与研究生工作办公室联系。 联系人 :李老师 联系电话 : 0431—87836405手机并联 动物医学学院 2026年9月23日",
+        "attachments": [
+          {
+            "filename": "动物医学学院2027年推免生招生录取及开放日考核成绩公示（最终）.xlsx",
+            "url": "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=18203572",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "发布日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 148,
+        "reference_attachment_urls": [
+          "https://dwyx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1943800996&wbfileid=18203572"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示 信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "发布日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4043.htm",
+      "list_title": "关于我院2025年度师德考核结果的相关公示",
+      "list_date": "2026-01-05",
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4043.htm",
+        "time": "2026-10-15T19:44:19+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/info/1031/4043.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8c375daf4aa247b3bbf3955b50dee59086dd30d40c7cc237dda554b078c494b4",
+        "html_path": "html/8c375daf4aa247b3bbf3955b50dee59086dd30d40c7cc237dda554b078c494b4.html",
+        "replacement_chars": 0,
+        "chars": 14818,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于我院2025年度师德考核结果的相关公示",
+        "url": "https://dwyx.jlu.edu.cn/info/1031/4043.htm",
+        "publish_date": "2026-01-05",
+        "publisher": null,
+        "content": "根据学校《关于开展2025年度师德考核工作的通知》和《吉林大学师德考核实施办法（试行）》（校党发〔2022〕33号）的相关要求和内容，我院组织各系、中心、医院等单位进行教职工师德考核，现将师德考核结果予以公示。 公示时间：2025年1月5日-1月9日（5个工作日） 公示地点：兽医楼320室 联 系 人：解老师 联系电话：0431-87836160",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "关于我院2025年度师德考核结果的相关公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-01-05",
+            "date": "2026-01-05"
+          },
+          {
+            "text": "发布日期：2026-01-05",
+            "date": "2026-01-05"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 174,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于我院2025年度师德考核结果的相关公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于我院2025年度师德考核结果的相关公示 信息来源： 发布日期：2026-01-05",
+            "date": "2026-01-05"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-01-05",
+            "date": "2026-01-05"
+          },
+          {
+            "text": "发布日期：2026-01-05",
+            "date": "2026-01-05"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T19:30:42+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e32f8e2bb5ed16fdc9d03775f96887dfb31704dcd4e54c5e56cd276e7f79815b",
+        "html_path": "html/e32f8e2bb5ed16fdc9d03775f96887dfb31704dcd4e54c5e56cd276e7f79815b.html",
+        "replacement_chars": 0,
+        "chars": 15635,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwyx.jlu.edu.cn/info/1031/4052.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4058.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4128.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4150.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4185.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4188.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4239.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4243.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4285.htm"
+      ],
+      "observed_next_urls": [
+        "https://dwyx.jlu.edu.cn/tzgg/19.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://dwyx.jlu.edu.cn/tzgg/19.htm",
+        "time": "2026-10-15T19:44:15+08:00",
+        "ok": true,
+        "final_url": "https://dwyx.jlu.edu.cn/tzgg/19.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "414bdd33c26ec5ab1ba5a6dff2cb42cf1c750cef7614d0ccd9ecbd3811fe5524",
+        "html_path": "html/414bdd33c26ec5ab1ba5a6dff2cb42cf1c750cef7614d0ccd9ecbd3811fe5524.html",
+        "replacement_chars": 0,
+        "chars": 15918,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://dwyx.jlu.edu.cn/info/1031/3833.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3834.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3870.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3880.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3888.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3890.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3923.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/3993.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4042.htm",
+        "https://dwyx.jlu.edu.cn/info/1031/4043.htm"
+      ],
+      "observed_next_urls": [
+        "https://dwyx.jlu.edu.cn/tzgg/18.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T19:30:42+08:00",
+    "ok": true,
+    "final_url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "e32f8e2bb5ed16fdc9d03775f96887dfb31704dcd4e54c5e56cd276e7f79815b",
+    "html_path": "html/e32f8e2bb5ed16fdc9d03775f96887dfb31704dcd4e54c5e56cd276e7f79815b.html",
+    "replacement_chars": 0,
+    "chars": 15635,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我院参与申报2025年度黑龙江省科学技术奖项目的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4285.htm",
+      "publish_date": "2026-10-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院2027年接收推免生（含直博生）考核成绩及拟录取结果公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4273.htm",
+      "publish_date": "2026-09-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "动物医学学院思想政治志愿服务骨干拟加分推荐人选公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4239.htm",
+      "publish_date": "2026-08-31",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我院教师参与申报2026年度内蒙古自治区科学技术奖提名项目的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4243.htm",
+      "publish_date": "2026-08-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学动物医学学院2027年招收优秀应届本科毕业生直接攻读博士学位研究生预选考核结果公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4188.htm",
+      "publish_date": "2026-07-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我单位李心慰同志参与2026年度河北省科学技术奖的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4185.htm",
+      "publish_date": "2026-06-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我院教师校外兼职的情况公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4150.htm",
+      "publish_date": "2026-05-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我单位邱家章参与申报2025年度福建省科学技术奖提名项目的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4128.htm",
+      "publish_date": "2026-04-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示动物医学学院2024级、2025级本科生转专业排名的通知",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4058.htm",
+      "publish_date": "2026-02-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年度吉林省高层次人才（人才分类定级）管理期考核的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4052.htm",
+      "publish_date": "2026-01-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我院2025年度师德考核结果的相关公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4043.htm",
+      "publish_date": "2026-01-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我院2025年教职工年度考核结果的相关公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/4042.htm",
+      "publish_date": "2026-01-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "人畜共患传染病重症诊治全国重点实验室灵活用工招聘启事",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3993.htm",
+      "publish_date": "2025-11-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《动物医学学院举办学术报告、讲座、论坛、研讨会、形势报告会、读书会、文化沙龙等活动的管理办法》的通知",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3923.htm",
+      "publish_date": "2025-09-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我单位王建锋同志申报广西科学技术进步奖的相关公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3890.htm",
+      "publish_date": "2025-08-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于我单位付守鹏同志申报全国农牧渔业丰收成果奖的相关公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3888.htm",
+      "publish_date": "2025-08-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于吉林省优秀教师推荐人选的公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3880.htm",
+      "publish_date": "2025-08-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年职称评审拟推荐人员名单公示",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3870.htm",
+      "publish_date": "2025-07-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中共吉林大学第十五届委员会第三轮巡视第一巡视组巡视动物医学学院党委动员会召开",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3834.htm",
+      "publish_date": "2025-06-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于印发《动物医学学院信息发布管理办法（试行）》的通知",
+      "url": "https://dwyx.jlu.edu.cn/info/1031/3833.htm",
+      "publish_date": "2025-06-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://dwyx.jlu.edu.cn/tzgg/19.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-43d1e5eaf74d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.479999627918005e-05,
+      "detail_duration_seconds": 6.300047971308231e-06,
+      "parse_db_duration_seconds": 0.029570099897682667
+    },
+    "second_round": {
+      "source": "p2-43d1e5eaf74d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.2599979527294636e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-43d1e5eaf74d",
+    "institution": "动物医学学院",
+    "column": "通知公告",
+    "url": "https://dwyx.jlu.edu.cn/tzgg.htm",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:42+08:00",
+    "review_time": "2026-10-15T20:21:50+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-43d1e5eaf74d.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

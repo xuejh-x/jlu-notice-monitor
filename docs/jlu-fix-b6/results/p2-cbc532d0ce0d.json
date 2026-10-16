@@ -1,0 +1,440 @@
+{
+  "id": "p2-cbc532d0ce0d",
+  "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+  "institution": "软件学院 / 吉林大学软件学院",
+  "column": "招生信息",
+  "site_url": "https://csw.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/cbc532d0ce0dc5fb.json",
+  "discovery_url": "https://csw.jlu.edu.cn/",
+  "original_snapshot": "html/fe80103ef6adf41b60c252d42516b936af459dfc843a7b61d16d8f4824025dea.html",
+  "original_capture_time": "2026-10-13T13:55:19+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-cbc532d0ce0d",
+    "name": "软件学院 / 吉林大学软件学院 / 招生信息",
+    "base_url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:29+08:00",
+  "details": [
+    {
+      "url": "https://csw.jlu.edu.cn/info/1166/8421.htm",
+      "list_title": "吉林大学软件学院2026年本科招生专业培养简介",
+      "list_date": "2026-06-06",
+      "response": {
+        "url": "https://csw.jlu.edu.cn/info/1166/8421.htm",
+        "time": "2026-10-15T19:42:04+08:00",
+        "ok": true,
+        "final_url": "https://csw.jlu.edu.cn/info/1166/8421.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8e1e0e7a7e38a7c620136085d9ac6c61e0c3db4388d4f7bb638bed84f4d32bdb",
+        "html_path": "html/8e1e0e7a7e38a7c620136085d9ac6c61e0c3db4388d4f7bb638bed84f4d32bdb.html",
+        "replacement_chars": 0,
+        "chars": 17012,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学软件学院2026年本科招生专业培养简介",
+        "url": "https://csw.jlu.edu.cn/info/1166/8421.htm",
+        "publish_date": "2026-06-06",
+        "publisher": null,
+        "content": "本科招生专业： 软件工程、数据科学与大数据技术 本科招生咨询电话： 0431-85167032 https://csw.jlu.edu.cn/__local/1/6A/74/A3AF5D4E29924971BC6DD35FB93_9DE99B93_2E3294.png 学 院 序 号 招生专业 名 称 包含专业 选考科目 专业优势及前沿研究方向 人才培养特色及学科实力 软件学院 1 软件工程 软件工程 物理 专业学科门类为工学类，国家级一流本科专业建设点、吉林省特色专业、吉林省品牌专业，全国首个通过工程教育专业认证的软件工程专业，国家卓越工程师教育培养计划专业；软件工程学科是国家首批一级学科博士学位授予权点和吉林省优势重点学科；国家级一流本科课程 7门，国家级实验教学中心2个，国家级教学团队1个，主编国家级规划教材12部、“101计划”教材2部，牵头斩获4项国家教学成果二等奖；研究方向聚焦“智能软件”特色方向，在智能制造、卫星遥感、生物制药、医疗健康、新兴材料等国家战略性新兴产业中应用，打造了“AI+软件+X”拔尖创新人才培养新范式；核心特色课程涵盖数据结构、离散数学、程序设计基础、操作系统、数据库系统原理、人工智能引论等；与悉尼科技大学 开展 3+2人才联合培养 项目。 吉林大学软件学院 2001年入选首批国家示范性软件学院，2021年入选首批特色化示范性软件学院，始终位于软件领域科研与人才培养第一梯队，具备坚实的专业基础；专业以产教融合创新与关键技术突破为导向，秉持“厚基础、重实践、严要求”的育人传统，培养兼具复杂工程问题解决能力、核心技术驾驭能力、产业发展引领能力，以及国际化视野与独立创新素养的软件工程师、算法工程师和研究型人才，构建支撑国产软件产业可持续发展的多层次人才生态体系；学院师资实力雄厚，现有教职工103人，其中教师88人，包括中科院外籍院士1人、欧洲科学院院士2人，万人教学名师等国家级人才8人，国务院特殊津贴专家、教育部新世纪优秀人才等各类人才29人；聘请30名中国一汽、中国电信、中科方德、长光卫星等企业总裁或总师担任企业导师，核心团队稳定且兼具前沿技术研发与教育教学经验；专业依托国内最早开展人工智能与软件理论教学科研的学科基础，汇聚丰富且与产业发展高度匹配的教学、科研、产业资源，有2个教育部重点实验室和1个工程研究中心，获省部级科研一等奖10余项，承担多项国家科技重大专项和重点研发计划等项目，形成“理论攻关-技术创新-行业应用”的智能软件研发布局；本科生中约30%左右的同学被保送或考取到北京大学、清华大学、中国科学院等院校研究生，部分同学就职于百度、腾讯、华为等著名IT企业工作，毕业生一次就业率达到90%以上，受到了用人单位的普遍好评。 软件学院 2 数据科学与大数据技术 数据科学与大数据技术 物理 该专业学科门类为理学类，是吉林省一流本科专业建设点，是响应国家大数据产业发展需求而建设的新专业，该专业具有新工科专业的引领性前沿、交融性学科、创新性属性、跨界性产业和发展性动态特征，专业建设坚持 “学生中心、成果导向、持续改进”工程教育认证的引领性前沿理念，夯实数据科学与大数据技术人才的数学基础，创新的建构数据思维和智能算法知识体系，紧跟产业发展动态，注重实践解决复杂工程问题能力，培养熟悉智能算法，掌握数据分析与处理技术，具备跨界学习能力，面向未来产业发展的工程人才和领军人物；依托计算机科学与技术和软件工程两个一级学科建设，有国家级一流本科课程7门，国家级实验教学中心2个，国家级教学团队1个，主编国家级规划教材12部、“101计划”教材2部，牵头斩获4项国家教学成果二等奖；研究方向聚焦“数据+智能”特色方向；核心特色课程涵盖数据结构、统计计算、并行与分布式计算、人工智能引论、机器学习、分布式存储等；与悉尼科技大学 开展 3+2人才联合培养 项目。 吉林大学软件学院 2001年入选首批国家示范性软件学院，2021年入选首批特色化示范性软件学院，始终位于软件领域科研与人才培养第一梯队，具备坚实的专业基础；专业依托计算机科学与技术和软件工程两个一级学科建设，是国内最早开展人工智能等数据驱动研究型的教学与科研单位，专业秉持“厚基础、重实践、严要求”的育人传统，培养具备扎实的数据科学知识和理论基础，掌握大数据分析与处理技术，具备运用专业知识解决复杂工程问题能力的大数据高级复合型人才；学院师资实力雄厚，现有教职工103人，其中教师88人，包括中科院外籍院士1人、欧洲科学院院士2人，万人教学名师等国家级人才8人，国务院特殊津贴专家、教育部新世纪优秀人才等各类人才29人；聘请30名中国一汽、中国电信、中科方德、长光卫星等企业总裁或总师担任企业导师，核心团队稳定且兼具前沿技术研发与教育教学经验；专业依托学科有2个教育部重点实验室和1个工程研究中心，获省部级科研一等奖10余项，承担多项国家科技重大专项和重点研发计划等项目，形成“数据驱动-理论创新-行业应用”的数据科学研发布局；本科生中约30%左右的同学被保送或考取到北京大学、清华大学、中国科学院等院校研究生，部分同学就职于百度、腾讯、华为等著名IT企业工作，毕业生一次就业率达到90%以上，受到了用人单位的普遍好评。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".detail-title",
+            "title": "吉林大学软件学院2026年本科招生专业培养简介"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "来源： 发布日期：2026/06/06 点击量：",
+            "date": "2026-06-06"
+          },
+          {
+            "text": "发布日期：2026/06/06",
+            "date": "2026-06-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2084,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "来源： 发布日期：2026/06/06 点击量：",
+            "date": "2026-06-06"
+          },
+          {
+            "text": "发布日期：2026/06/06",
+            "date": "2026-06-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/info/1166/6801.htm",
+      "list_title": "本科招生宣传",
+      "list_date": "2023-10-20",
+      "reason": "HTML_DETAIL_EMPTY: no text or supported attachment in the notice container",
+      "verified": false,
+      "response": {
+        "url": "https://csw.jlu.edu.cn/info/1166/6801.htm",
+        "time": "2026-10-15T19:42:05+08:00",
+        "ok": true,
+        "final_url": "https://csw.jlu.edu.cn/info/1166/6801.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b18aeefa08b73fd6dd5a6e922d35cbcbfdd59cde4978c7810a36b0d06a83a88d",
+        "html_path": "html/b18aeefa08b73fd6dd5a6e922d35cbcbfdd59cde4978c7810a36b0d06a83a88d.html",
+        "replacement_chars": 0,
+        "chars": 7511,
+        "attempts": 1
+      }
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/info/1166/3774.htm",
+      "list_title": "本科招生专业（类）介绍",
+      "list_date": "2020-06-09",
+      "response": {
+        "url": "https://csw.jlu.edu.cn/info/1166/3774.htm",
+        "time": "2026-10-15T19:42:06+08:00",
+        "ok": true,
+        "final_url": "https://csw.jlu.edu.cn/info/1166/3774.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5328661350162a2fd5edb181dd89afe6634b92a53e9e5bc63f1d64abbb359806",
+        "html_path": "html/5328661350162a2fd5edb181dd89afe6634b92a53e9e5bc63f1d64abbb359806.html",
+        "replacement_chars": 0,
+        "chars": 33316,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "本科招生专业（类）介绍",
+        "url": "https://csw.jlu.edu.cn/info/1166/3774.htm",
+        "publish_date": "2020-06-09",
+        "publisher": "教务办",
+        "content": "吉林大学软件学院 College of Software, Jilin University 吉林大学软件学院是教育部和国家计委于 2001 年 12 月联合批准的 35 所“国家级示范性软件学院”之一。于 2003 年、 2006 年分别通过教育部组织的中期评估和示范性软件学院验收。学院设有“软件工程”，“数据科学与大数据技术”本科专业和“软件工程”硕士专业，现在校本科生 1445 人，在校研究生 317 人， 2011 年首批获软件工程一级学科博士学位授予权， 2013 年入选教育部“卓越工程师教育培养计划”， 2015 年作为全国第一所软件学院通过了教育部工程教育专业认证， 2018 年通过第二轮教育部工程教育专业认证 , 学院拥有完整的软件工程专业本科、硕士和博士培养体系。其中吉林大学软件工程专业于 2007 年获批吉林省特色专业，于 2014 年获批吉林省高等学校本科品牌专业。 吉林大学软件软件学院以计算机科学与技术国家一级学科、数学国家一级学科和 12 个省部级重点实验室 / 工程中心为依托建设，共享计算机科学与技术学院、数学学院等各类教育资源。学院拥有 1 万平方米的办公和实验用房及功能齐全的现代化教学设施；专业任课教师 88 人，其中教授 25 人，副教授 37 人，讲师 26 人；具有博士学位的老师总计 70 人，占总教师人数学的 80.0% 。 在教学方面采取聘请校内学术水平高、工程背景强、教学效果好的教师承担基础课程和专业课程的授课工作，部分实践课程聘请国外著名软件公司专家授课，新技术课程聘请国外大学教授授课的方式开展；在教学合作方面，学院已与美国、英国、澳大利亚、加拿大、爱尔兰、日本和印度等多所大学，以及 IBM 、微软、 Intel 、 ORACLE 、中软、 H3C 等著名 IT 公司建立了合作关系，包括联合建立校内外实习实践基地、引进软件课程、聘请教师来院授课、交换学生、软件开发合作，以及选派本校教师到国外大学或著名软件公司进修、培训等；在学生培养方面，学院强调软件开发的工程性，使学生在掌握信息技术知识和技能的基础上熟练掌握从事软件需求分析、软件设计、软件测试、软件维护和软件项目管理等工作所必需的基础知识、基本方法和基本技能，突出对学生专业知识和专业技能的培养，培养能够从事软件开发、测试、维护和软件项目管理的高级专门人才。 荣誉培养计划是国际一流高校普遍采取的创新型人才培养做法，其核心内容是通过设置多轨道、挑战性、开放式的荣誉课程和荣誉实践环节，实现各类教育资源的主动开放，由学生根据自身发展需要，自主选择学习方式和内容的个性化培养模式。荣誉培养计划是开展“因材施教”和“个性化学习”的重要举措，对于推进学校和学院的本科教学改革，实现分类教学、分类指导具有重要的理论和现实意义。按照吉林大学荣誉培养计划指导意见，结合软件学院卓越工程师计划的实际情况，软件学院从 2018 级开始试行荣誉培养计划。 本专业拥有国家级精品课程 3 门、国家精品资源共享课程 3 门、教育部微软精品课程 1 门、教育部 IBM 精品课程 1 门、省级精品课程 2 门、 校级精品课程 1 门，吉林大学精品慕课 9 门；出版教材 3 部；获批吉林大学本科生开放性创新实验项目 8 项；建成课程中心网络课程 40 门。近 3 年，本专业教师获国家教学成果奖二等奖 2 项，校级教学成果一等奖 2 项；吉林省教育教学改革重点项目 2 项、吉林大学教育教学改革项目 14 项；在核心期刊上发表教学研究论文 12 篇；获吉林大学教学大赛奖 2 人次。 吉林大学软件学院不仅重视学生的课堂教学，还鼓励学生参加各种课外科研实践活动。近几年来，有 93 人次获得“国际 ACM 大学生程序设计竞赛亚洲赛区”金奖、银奖和铜奖；有 59 人次获得大学生数学建模竞赛（美赛和国赛）一等奖、二等奖和三等奖。每年有 40% 左右学生参加大学生创新创业计划。学院还开展社会实践活动，党团活动，和各种文体活动以实现培养适应社会主义现代化建设和未来社会与科技发展需要的，德智体美全面和谐发展与健康个性相统一，富有良知和社会责任感，具有创新精神、实践能力和国际视野，具备数学与自然科学知识基础，掌握软件工程相关的基本理论、基本知识、基本技能和基本方法，具备解决复杂软件工程问题的综合专业能力和终身学习意识的高级软件人才的目标。 学院重视学生素质教育，针对软件工程专业特点，开展了科技竞赛、文体比赛、创新创业等系列文化活动。创立“项目申报”的活动管理模式和“分合分合”的工作机制，即“分头设想、共同商议；分工实施、共同完成的工作方法”，激发学生组织活动的自主性和积极性。建设社会实践基地，打造志愿服务品牌。每年开展看望自闭症儿童、春苗支教、善行一百等活动 100 余次。活动内容丰富，覆盖思想教育、理论学习、文体活动、科技创新等。活动方式贴近学生，走公寓、下课堂、进校园，设置学生专有活动室。活动富有针对性，迎新季，开展新生入学教育系列活动，毕业季，开展校园主题文化展。通过开展科技竞赛、文体比赛、创新创业学科前沿讲座等丰富多彩的文体活动等，营造勤奋好学、诚信守纪、创先争优的优良风气，助力青年学生全面成长成才。 目前软件工程已成为本科毕业生就业率最高的专业，学院在 2015 年、 2016 年、 2017 年和 2018 年毕业生一次就业率分别达到 97.7% 、 96.8% 、 96.8% 和 98.15% ，三分之一以上学生保送、考取硕士研究生，就读学校包括清华、北大、中科院等高校和科研院所。其他大部分毕业生进入沿海发达城市的互联网软件等 IT 企业，从事软件开发、测试、项目管理等白领工作，包括华为、腾讯、百度、阿里巴巴等知名公司，部分同学出国深造。 2015 届 -2017 届本专业应届毕业生从业领域的统计如图所示。 人才计划 中科院双聘院士 董韫美 国家百千万人才入选者 胡亮 教育部新世纪优秀人才 欧阳丹彤，胡亮，魏晓辉，杨博 国务院特殊津贴专家 刘大有，梁艳春，刘淑芬，胡亮，刘衍珩 中科院百人计划获得者 周丰丰 长白山学者 胡亮，刘军，魏晓辉 宝钢教育奖优秀教师 刘磊，左万利，胡亮，刘衍珩，刘大有，杨永健，魏晓辉 国外专家 杨宏戟，吴晓东 吉林省教学名师 刘磊，胡亮，魏晓辉 知名校友 陈李江，阿凡题创始人，吉林大学软件学院 2003 级本科生，北京大学及耶鲁大学计算机科学与技术专业联合培养博士，曾主持开发新一代云平台国际标准研究和大规模内容分发网络原型系统，并在 IETF 国际标准化会议发表演讲。曾就职于惠普中国研究院，从事大数据处理系统，数据挖掘和情景感知的内容分析研究，成功领导团队开发出“情景感知的优惠券推荐系统”，已获得国际专利 3 个，发表论文 10 余篇。 李明博，吉林大学软件学院 2007 级本科生，小邻小里科技（北京）有限公司创始人、 CEO ，小美到家创始人。曾在腾讯工作。 吉林大学王湘浩奖学金 为纪念我校数学学科和计算机科学与技术学科的创始人王湘浩院士在教学、科学研究、人才培养和学科建设等方面做出的卓越贡献，弘扬和传承他严谨求实、富于创新的治学精神，激励学生拼搏向上、勤奋学习、勇攀科学研究高峰，德智体全面发展，立志成才，在数学学院、计算机科学与技术学院和软件学院设立王湘浩奖学金基金。 奖学金面向三个学院的全日制本科生、硕士生和博士生。每年评选 11 名获奖者，奖学金的额度为：本科生每人 5000 元，硕士生每人 7500 元，博士生每人 10000 元。 软件工程专业 Software Engineering 专业简介 吉林大学软件工程专业培养适应社会主义现代化建设和未来社会与科技发展需要的，德智体美全面和谐发展与健康个性相统一，富有良知和社会责任感，具有创新精神、实践能力和国际视野，具备数学与自然科学知识基础，掌握软件工程相关的基本理论、基本知识、基本技能和基本方法，具备解决复杂软件工程问题的综合专业能力和终身学习意识的高级软件人才。学生毕业后可在相关学科领域继续深造，或在相关行业从事大中型软件项目开发、维护、管理、市场经营以及软件工程理论研究、新方法和新技术研发等工作。本专业毕业生在软件工程相关专业领域经过五年的实践锻炼，能够具备软件全生命周期相关知识、具有创新解决大型复杂软件工程问题的能力和科学及工程素养，预期能够胜任软件工程教学科研、高级软件工程师、系统构架师等业务岗位工作。 主干课程 离散数学、计算方法、 C ＋＋、数据结构与算法、数据库原理、 JAVA 面向对象程序设计、 C# 程序设计、编译原理、实用操作系统、计算机网络、软件工程、软件系统结构、软件系统分析与设计、软件开发过程质量控制、软件项目管理、软件评价与测试、软件认证等。 毕业去向 学生毕业后获得工学学士学位，适合在 IT 领域、软件公司与企业、政府机关、科研单位和高等院校等，也可以继续攻读软件工程及相关专业的硕士和博士研究生。 （咨询电话： 85166058 ） 收费标准 详见附件。 数据科学与大数据技术 Data Science and Big Data Engineering 专业简介 数据科学与大数据技术专业培养适应社会主义现代化建设和未来社会与科技发展需要的，德智体美全面和谐发展与健康个性相统一，富有良知和社会责任感，具有创新精神、实践能力和国际视野，具备扎实数据科学的数学、统计、人工智能理论知识基础，掌握大数据分析与处理技术，具备运用专业知识分析和解决复杂工程问题，并依据工程需要自发学习和优化自身理论知识体系等一系列综合能力的高层次、复合型人才。学生毕业后可在相关学科领域继续深造，或在信息技术相关领域胜任大数据工程师、系统工程师等软件开发工作，以及大数据相关理论研究、新方法和新技术研发等探索性工作。本专业设置四个培养方向，面向各领域针对性地培养掌握大数据技术的专门人才 , 包括大数据与人工智能、生命大数据、金融大数据、互联网大数 据。 主干课程 数学分析、数值计算方法、统计计算、离散数学、计算机原理与系统结构、操作系统原理、数据库系统原理、程序设计基础、数据结构、计算机网络、分布式计算、大数据技术、机器学习。 毕业去向 学生 毕业后获得理学学士学位， 毕业生在信息技术相关专业领域经过五年的实践锻炼，能够初步具备大数据分析挖掘、大数据系统开发能力，具有较强国际竞争和创新能力，预期能够从事数据科学研发、大数据系统分析、大数据系统架构、大数据系统管理、人工智能算法设计等工作。 （咨询电话： 85166058 ） 收费标准 详见附件。 工科试验班（卓越工程师班） Pilot Program in Engineering(Software Engineering) 专业介绍 立足于培养高层次、国际化的软件工程人才。既培养学生有扎实的理论基础、合理的知识结构、科技创新和工程攻关的能力，同时也注重培养学生具有软件设计与开发能力、工程组织与管理能力，良好的外语交流和国际竞争能力。实施以能力提升为核心的培养体系和课程改革，加强与国外一流大学和国内外知名企业联合培养卓越工程技术人才，重点提高软件工程专业学生的国际视野、团队沟通与协作能力、创新与工程实践能力。力求打破单纯的学科式教育，以产业需求为导向，培养出我国产业急需的优秀的软件架构师、精明的项目管理员及技术高超的软件工程师，培养熟知国际规范、掌握软件大生产关键要素，能参与全球软件业激烈竞争的优秀人才。 培养模式 院内选拔优秀的学生，单独组建“工科试验班（卓越工程师班）”，班级人数 30 人，采取动态进出机制。实行小班授课，单独的教室，优秀的授课教师和专业班主任等优质的教学资源。按照荣誉培养计划模式进行培养，使用和软件工程专业平行的培养方案，在有荣誉课的情况下，卓越工程师班学生均应选择荣誉课学习，在毕业时应满足荣誉学生学位条件。试验班实行导师制。学生在学习期间可以得到学院资深教授的全程指导，在本科阶段参与导师的科研工作中。导师对学生进行思想品德、学习内容及方法、选课、科研等全方位的指导。 主干课程 与软件工程专业课程类似，在授课内容和方法上区别，采取荣誉课程的授课方式，在在深化教学内容的同时，更加注重实践能力和国际交流能力。 毕业去向 学生毕业后获得工学学士学位，大部分学生可以保送攻读硕士研究生，主要作为计算机学科硕士和博士研究生的高质量生源，也可在大型 IT 企业单位从事系统分析、软件架构设计、行业高水平创新研发等工作。 （咨询电话： 85166058 ） 附件 ：吉林大学软件学院 2020 级本科生学费标准一览表 学院 专业 学制 收费标准 备注 软件学院 软件工程 四年 4700 （ 1 、 2 学年）、 14000 （ 3 、 4 学年） 软件学院 数据科学与大数据技术 四年 5170",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".detail-title",
+            "title": "本科招生专业（类）介绍"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "来源：教务办 发布日期：2020/06/09 点击量：",
+            "date": "2020-06-09"
+          },
+          {
+            "text": "发布日期：2020/06/09",
+            "date": "2020-06-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 5283,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "来源：教务办 发布日期：2020/06/09 点击量：",
+            "date": "2020-06-09"
+          },
+          {
+            "text": "发布日期：2020/06/09",
+            "date": "2020-06-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+        "time": "2026-10-15T19:29:55+08:00",
+        "ok": true,
+        "final_url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "fe80103ef6adf41b60c252d42516b936af459dfc843a7b61d16d8f4824025dea",
+        "html_path": "html/fe80103ef6adf41b60c252d42516b936af459dfc843a7b61d16d8f4824025dea.html",
+        "replacement_chars": 0,
+        "chars": 10849,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://csw.jlu.edu.cn/info/1166/3774.htm",
+        "https://csw.jlu.edu.cn/info/1166/6801.htm",
+        "https://csw.jlu.edu.cn/info/1166/8421.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "待修复或证据不足",
+  "verdict": "SAMPLE_REVIEW_REQUIRED",
+  "reason": "See per-page/detail comparisons; candidate remains disabled",
+  "response": {
+    "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "time": "2026-10-15T19:29:55+08:00",
+    "ok": true,
+    "final_url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "fe80103ef6adf41b60c252d42516b936af459dfc843a7b61d16d8f4824025dea",
+    "html_path": "html/fe80103ef6adf41b60c252d42516b936af459dfc843a7b61d16d8f4824025dea.html",
+    "replacement_chars": 0,
+    "chars": 10849,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学软件学院2026年本科招生专业培养简介",
+      "url": "https://csw.jlu.edu.cn/info/1166/8421.htm",
+      "publish_date": "2026-06-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "本科招生宣传",
+      "url": "https://csw.jlu.edu.cn/info/1166/6801.htm",
+      "publish_date": "2023-10-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "本科招生专业（类）介绍",
+      "url": "https://csw.jlu.edu.cn/info/1166/3774.htm",
+      "publish_date": "2020-06-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 3,
+  "pagination": [
+    {
+      "start_url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+          "parsed_items": 3,
+          "added_items": 3
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 2,
+    "first_round": {
+      "source": "p2-cbc532d0ce0d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 2,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 2,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.2899981811642647e-05,
+      "detail_duration_seconds": 4.200031980872154e-06,
+      "parse_db_duration_seconds": 0.024487800081260502
+    },
+    "second_round": {
+      "source": "p2-cbc532d0ce0d",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 2,
+          "detail_fetched": 0,
+          "detail_skipped": 2,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 2
+        }
+      ],
+      "status": "success",
+      "fetched": 2,
+      "detail_fetched": 0,
+      "detail_skipped": 2,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 2,
+      "errors": [],
+      "list_duration_seconds": 1.1399970389902592e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 2,
+    "relation_count": 2,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-cbc532d0ce0d",
+    "institution": "软件学院 / 吉林大学软件学院",
+    "column": "招生信息",
+    "url": "https://csw.jlu.edu.cn/zsxx/bkzs.htm",
+    "original_status": "部分通过",
+    "original_issues": "PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "待修复或证据不足",
+    "verdict": "SAMPLE_REVIEW_REQUIRED",
+    "capture_time": "2026-10-15T19:29:55+08:00",
+    "review_time": "2026-10-15T20:21:29+08:00",
+    "reason": "HTML_DETAIL_EMPTY: no text or supported attachment in the notice container",
+    "list_pages": 1,
+    "list_count": 3,
+    "details": 3,
+    "verified_details": 2,
+    "listing_replacement_characters": 0,
+    "publication": "not confirmed / not applicable",
+    "windows_public_preview": "SAMPLE_REVIEW_REQUIRED",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-cbc532d0ce0d.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

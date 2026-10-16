@@ -1,0 +1,69 @@
+[
+  {
+    "url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+    "time": "2026-10-14T16:05:41+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "pdf",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:05:42+08:00",
+        "status": 206,
+        "category": "FILE_PREFIX_VERIFIED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://yzb.jlu.edu.cn/__local/A/09/33/9DC64F62A68E713A6888E4B749E_7635C303_2A6043.pdf?e=.pdf",
+    "content_type": "application/pdf",
+    "disposition": "",
+    "prefix_path": "prefix/4c492dccfe27058965cbe4606459e417b247b2a109a34cc888f72162657680ce.bin",
+    "prefix_sha256": "4c492dccfe27058965cbe4606459e417b247b2a109a34cc888f72162657680ce",
+    "category": "FILE_PREFIX_VERIFIED",
+    "file_prefix_verified": true,
+    "read_bytes": 4096,
+    "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+    "detected_family": [
+      "pdf"
+    ],
+    "institution": "研究生招生公开 PDF",
+    "article_url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+    "filename": "吉林大学2025年博士研究生拟录取名单公示（不含直博生）.pdf",
+    "type": "pdf"
+  },
+  {
+    "url": "https://zky.jlu.edu.cn/20261010004.xlsx",
+    "time": "2026-10-14T16:05:45+08:00",
+    "method": "GET Range bytes=0-4095",
+    "expected_type": "xlsx",
+    "complete_download_verified": false,
+    "attempts": [
+      {
+        "number": 1,
+        "time": "2026-10-14T16:05:46+08:00",
+        "status": 206,
+        "category": "FILE_PREFIX_VERIFIED"
+      }
+    ],
+    "status": 206,
+    "final_url": "https://zky.jlu.edu.cn/20261010004.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "disposition": "",
+    "prefix_path": "prefix/0516d11f3bcd2073a3198b897be213a07a6643e09d2f2bff7de86d621cd4ad5e.bin",
+    "prefix_sha256": "0516d11f3bcd2073a3198b897be213a07a6643e09d2f2bff7de86d621cd4ad5e",
+    "category": "FILE_PREFIX_VERIFIED",
+    "file_prefix_verified": true,
+    "read_bytes": 4096,
+    "reason": "Recognized file/container prefix only; whole file and archive contents not checked",
+    "detected_family": [
+      "zip",
+      "docx",
+      "xlsx",
+      "pptx"
+    ],
+    "institution": "植物科学公开表格",
+    "article_url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+    "filename": "附件： 2026年植物保护能力大赛 获奖学生名单",
+    "type": "xlsx"
+  }
+]

@@ -1,0 +1,1134 @@
+{
+  "id": "p2-f1a3d4567458",
+  "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+  "institution": "植物科学学院",
+  "column": "教学通知",
+  "site_url": "https://zky.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/f1a3d4567458e9e8.json",
+  "discovery_url": "https://zky.jlu.edu.cn/",
+  "original_snapshot": "html/e9c70a58ebff12ed208b2c3043bcf354a5182c99ea288e63d2c47c9f61945ad1.html",
+  "original_capture_time": "2026-10-13T14:02:06+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-f1a3d4567458",
+    "name": "植物科学学院 / 教学通知",
+    "base_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:51+08:00",
+  "details": [
+    {
+      "url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+      "list_title": "关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知 2026-10-10",
+      "list_date": "2026-10-10",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+        "time": "2026-10-15T19:44:21+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "03a78e993dafe0de6bdfdc21a706600147de7c1acb481276898eefbd296c171c",
+        "html_path": "html/03a78e993dafe0de6bdfdc21a706600147de7c1acb481276898eefbd296c171c.html",
+        "replacement_chars": 0,
+        "chars": 28048,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知",
+        "url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+        "publish_date": "2026-10-10",
+        "publisher": "经学生本人申报，",
+        "content": "经学生本人申报， 初 赛评选，现将第 六 届全国植物保护专业能力大赛 吉林大学选拔赛结果 予以 公布 ，具体 获奖 名单及奖项详见附件。 附件： 2026年植物保护能力大赛 获奖学生名单 植物科学学院植物保护专业能力大赛组委会 2026年10月10日",
+        "attachments": [
+          {
+            "filename": "附件： 2026年植物保护能力大赛 获奖学生名单",
+            "url": "https://zky.jlu.edu.cn/20261010004.xlsx",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-10-10",
+            "date": "2026-10-10"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 125,
+        "reference_attachment_urls": [
+          "https://zky.jlu.edu.cn/20261010004.xlsx"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知",
+          "",
+          "日期：2026-10-10 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知 日期：2026-10-10 点击数： 来源:",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "日期：2026-10-10 点击数： 来源:",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "日期：2026-10-10 点击数： 来源:",
+            "date": "2026-10-10"
+          },
+          {
+            "text": "日期：2026-10-10",
+            "date": "2026-10-10"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/info/1022/6058.htm",
+      "list_title": "关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知 2026-08-25",
+      "list_date": "2026-08-25",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1022/6058.htm",
+        "time": "2026-10-15T19:44:22+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1022/6058.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "bdea3c99534ff921a7afa9ef07a9cc0aed2798898b836b4c3d100236412c5a67",
+        "html_path": "html/bdea3c99534ff921a7afa9ef07a9cc0aed2798898b836b4c3d100236412c5a67.html",
+        "replacement_chars": 0,
+        "chars": 28691,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知",
+        "url": "https://zky.jlu.edu.cn/info/1022/6058.htm",
+        "publish_date": "2026-08-25",
+        "publisher": "各专业：",
+        "content": "各专业： 为保证我院2027年推荐优秀应届本科毕业生免试攻读研究生工作的顺利进行，根据《吉林大学推荐优秀应届本科毕业生免试攻读硕士学位研究生工作管理办法》《关于开展2027年推荐优秀应届本科毕业生免试攻读研究生学业成绩核对和综合排名工作的通知》、学院推免保研细则、学生实际情况，组织本院全体2023级学生自愿提交本人相关素质类项目成果材料，各相关专业对符合要求的学生进行了考评，学院在2026年8月25日前完成了素质类项目加分审核认定、综合排名等工作。现将2026年推免工作实施细则、推免生素质类项目加分及综合排名的有关结果予以公示。 公示期：2026年8月25日至 2026年 9月1日 教学办电话： 0431- 87836280 邮箱：414450619@qq.com 如 对2023级综合绩点排名有意见和建议，请在公示期内具实名以书面形式向学院教学办公室反映。 附件1 ： 植物科学学院关于推荐2027年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则 附件2 ： 植物科学学院本科生素质类项目推免加分指标体系 附件3 ： 植物科学学院2023级推免成绩排名",
+        "attachments": [
+          {
+            "filename": "附件1 ： 植物科学学院关于推荐2027年优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+            "url": "https://zky.jlu.edu.cn/20260907001.doc",
+            "type": "doc"
+          },
+          {
+            "filename": "附件2 ： 植物科学学院本科生素质类项目推免加分指标体系",
+            "url": "https://zky.jlu.edu.cn/20260825002.docx",
+            "type": "docx"
+          },
+          {
+            "filename": "附件3 ： 植物科学学院2023级推免成绩排名",
+            "url": "https://zky.jlu.edu.cn/20260907002.xlsx",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 关于植物科学学院2025级大类分流学生名单的公示束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2026-08-25",
+            "date": "2026-08-25"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 484,
+        "reference_attachment_urls": [
+          "https://zky.jlu.edu.cn/20260825002.docx",
+          "https://zky.jlu.edu.cn/20260907001.doc",
+          "https://zky.jlu.edu.cn/20260907002.xlsx"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知",
+          "",
+          "日期：2026-08-25 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知 日期：2026-08-25 点击数： 来源:",
+            "date": "2026-08-25"
+          },
+          {
+            "text": "日期：2026-08-25 点击数： 来源:",
+            "date": "2026-08-25"
+          },
+          {
+            "text": "日期：2026-08-25 点击数： 来源:",
+            "date": "2026-08-25"
+          },
+          {
+            "text": "日期：2026-08-25",
+            "date": "2026-08-25"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://zky.jlu.edu.cn/info/1022/5561.htm",
+      "list_title": "关于2025年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示 2025-04-16",
+      "list_date": "2025-04-16",
+      "response": {
+        "url": "https://zky.jlu.edu.cn/info/1022/5561.htm",
+        "time": "2026-10-15T19:44:23+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/info/1022/5561.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c83e0f31abfca5c7e33445cbde3965725f385744b1d55f9a7de66b17853790c9",
+        "html_path": "html/c83e0f31abfca5c7e33445cbde3965725f385744b1d55f9a7de66b17853790c9.html",
+        "replacement_chars": 0,
+        "chars": 28335,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于2025年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示",
+        "url": "https://zky.jlu.edu.cn/info/1022/5561.htm",
+        "publish_date": "2025-04-16",
+        "publisher": "根据《吉林大学大学生创新创业训练计划管理办法》（校发〔",
+        "content": "根据《吉林大学大学生创新创业训练计划管理办法》（校发〔 2022 〕 94 号）与《关于开展 2025 年春季学期吉林大学“大学生创新创业训练计划”之“创新训练”项目结题工作的通知》要求，经学院工作组对29项创新创业训练项目进行结题鉴定，并按评分结果推荐2项优秀结题候选项目（国家级1项、省级1项），现予公示，公示期为 2025 年 4 月16日 -2024 年 4 月19日。 公示期间，如有异议，请实名以电子邮件形式向学院工作组反映。 联系人：王老师 联系电话：87836280 邮箱地址： 513953492@qq.com 附件1：植物科学学院学院2025年春季大学生创新创业训练项目结题名单汇总",
+        "attachments": [
+          {
+            "filename": "附件1：植物科学学院学院2025年春季大学生创新创业训练项目结题名单汇总",
+            "url": "https://zky.jlu.edu.cn/20250417001.xls",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "上一条： 2024级智慧园艺特色班录取名单公示"
+          },
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "下一条： 植物科学学院大类招生专业2024级分流实施细则公示束"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "日期：2025-04-16",
+            "date": "2025-04-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 301,
+        "reference_attachment_urls": [
+          "https://zky.jlu.edu.cn/20250417001.xls"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于2025年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示",
+          "",
+          "日期：2025-04-16 点击数： 来源:"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "关于2025年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示 日期：2025-04-16 点击数： 来源:",
+            "date": "2025-04-16"
+          },
+          {
+            "text": "日期：2025-04-16 点击数： 来源:",
+            "date": "2025-04-16"
+          },
+          {
+            "text": "日期：2025-04-16 点击数： 来源:",
+            "date": "2025-04-16"
+          },
+          {
+            "text": "日期：2025-04-16",
+            "date": "2025-04-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+        "time": "2026-10-15T19:30:43+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "e9c70a58ebff12ed208b2c3043bcf354a5182c99ea288e63d2c47c9f61945ad1",
+        "html_path": "html/e9c70a58ebff12ed208b2c3043bcf354a5182c99ea288e63d2c47c9f61945ad1.html",
+        "replacement_chars": 0,
+        "chars": 26970,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://zky.jlu.edu.cn/info/1022/5568.htm",
+        "https://zky.jlu.edu.cn/info/1022/5573.htm",
+        "https://zky.jlu.edu.cn/info/1022/5582.htm",
+        "https://zky.jlu.edu.cn/info/1022/5682.htm",
+        "https://zky.jlu.edu.cn/info/1022/5684.htm",
+        "https://zky.jlu.edu.cn/info/1022/5691.htm",
+        "https://zky.jlu.edu.cn/info/1022/5840.htm",
+        "https://zky.jlu.edu.cn/info/1022/5846.htm",
+        "https://zky.jlu.edu.cn/info/1022/5862.htm",
+        "https://zky.jlu.edu.cn/info/1022/5909.htm",
+        "https://zky.jlu.edu.cn/info/1022/5922.htm",
+        "https://zky.jlu.edu.cn/info/1022/5923.htm",
+        "https://zky.jlu.edu.cn/info/1022/5926.htm",
+        "https://zky.jlu.edu.cn/info/1022/6058.htm",
+        "https://zky.jlu.edu.cn/info/1022/6178.htm"
+      ],
+      "observed_next_urls": [
+        "https://zky.jlu.edu.cn/bksj/jxtz/2.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://zky.jlu.edu.cn/bksj/jxtz/2.htm",
+        "time": "2026-10-15T19:44:20+08:00",
+        "ok": true,
+        "final_url": "https://zky.jlu.edu.cn/bksj/jxtz/2.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "dbf6c13fe84f5ae2496a15cb3d32ae485a76be71df9285330d752442ec252040",
+        "html_path": "html/dbf6c13fe84f5ae2496a15cb3d32ae485a76be71df9285330d752442ec252040.html",
+        "replacement_chars": 0,
+        "chars": 27356,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://zky.jlu.edu.cn/info/1022/4779.htm",
+        "https://zky.jlu.edu.cn/info/1022/4854.htm",
+        "https://zky.jlu.edu.cn/info/1022/5172.htm",
+        "https://zky.jlu.edu.cn/info/1022/5195.htm",
+        "https://zky.jlu.edu.cn/info/1022/5225.htm",
+        "https://zky.jlu.edu.cn/info/1022/5230.htm",
+        "https://zky.jlu.edu.cn/info/1022/5294.htm",
+        "https://zky.jlu.edu.cn/info/1022/5313.htm",
+        "https://zky.jlu.edu.cn/info/1022/5395.htm",
+        "https://zky.jlu.edu.cn/info/1022/5495.htm",
+        "https://zky.jlu.edu.cn/info/1022/5514.htm",
+        "https://zky.jlu.edu.cn/info/1022/5524.htm",
+        "https://zky.jlu.edu.cn/info/1022/5540.htm",
+        "https://zky.jlu.edu.cn/info/1022/5560.htm",
+        "https://zky.jlu.edu.cn/info/1022/5561.htm"
+      ],
+      "observed_next_urls": [
+        "https://zky.jlu.edu.cn/bksj/jxtz/1.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+    "time": "2026-10-15T19:30:43+08:00",
+    "ok": true,
+    "final_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "e9c70a58ebff12ed208b2c3043bcf354a5182c99ea288e63d2c47c9f61945ad1",
+    "html_path": "html/e9c70a58ebff12ed208b2c3043bcf354a5182c99ea288e63d2c47c9f61945ad1.html",
+    "replacement_chars": 0,
+    "chars": 26970,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布第六届全国植物保护专业能力大赛吉林大学选拔赛获奖学生名单的通知 2026-10-10",
+      "url": "https://zky.jlu.edu.cn/info/1022/6178.htm",
+      "publish_date": "2026-10-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2027年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知 2026-08-25",
+      "url": "https://zky.jlu.edu.cn/info/1022/6058.htm",
+      "publish_date": "2026-08-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2025级大类分流学生名单的公示 2026-04-21",
+      "url": "https://zky.jlu.edu.cn/info/1022/5926.htm",
+      "publish_date": "2026-04-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院2025级本科生专业分流实施细则 2026-04-16",
+      "url": "https://zky.jlu.edu.cn/info/1022/5923.htm",
+      "publish_date": "2026-04-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示 2026-04-15",
+      "url": "https://zky.jlu.edu.cn/info/1022/5922.htm",
+      "publish_date": "2026-04-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2026年植物科学学院本科生集中考核转专业拟录取结果公示 2026-04-02",
+      "url": "https://zky.jlu.edu.cn/info/1022/5909.htm",
+      "publish_date": "2026-04-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布植物科学学院2026年本科生转专业考核安排的通知 2026-03-11",
+      "url": "https://zky.jlu.edu.cn/info/1022/5862.htm",
+      "publish_date": "2026-03-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示植物科学学院2024级、2025级本科生转专业排名的通知 2026-01-27",
+      "url": "https://zky.jlu.edu.cn/info/1022/5846.htm",
+      "publish_date": "2026-01-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布《植物科学学院2026年本科生集中考核转专业工作实施细则》的通知 2025-12-30",
+      "url": "https://zky.jlu.edu.cn/info/1022/5840.htm",
+      "publish_date": "2025-12-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布植物科学学院2026年优秀应届本科毕业生免试攻读研究生推荐名单的通知 2025-09-09",
+      "url": "https://zky.jlu.edu.cn/info/1022/5691.htm",
+      "publish_date": "2025-09-09",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2022级推免综合绩点排名公示的通知 2025-09-01",
+      "url": "https://zky.jlu.edu.cn/info/1022/5684.htm",
+      "publish_date": "2025-09-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2026年推免工作实施细则、素质类项目加分标准、推免成绩排名公示的通知 2025-08-28",
+      "url": "https://zky.jlu.edu.cn/info/1022/5682.htm",
+      "publish_date": "2025-08-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发关于发布《吉林大学全日制本科生学籍学历管理高频事项速查“一本通”》的通知 2025-05-06",
+      "url": "https://zky.jlu.edu.cn/info/1022/5582.htm",
+      "publish_date": "2025-05-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2024级大类分流学生名单的公示 2025-04-22",
+      "url": "https://zky.jlu.edu.cn/info/1022/5573.htm",
+      "publish_date": "2025-04-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2024级智慧园艺特色班录取名单公示 2025-04-19",
+      "url": "https://zky.jlu.edu.cn/info/1022/5568.htm",
+      "publish_date": "2025-04-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2025年春季学期植物科学学院“大学生创新创业训练计划”项目结题名单公示 2025-04-16",
+      "url": "https://zky.jlu.edu.cn/info/1022/5561.htm",
+      "publish_date": "2025-04-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院大类招生专业2024级分流实施细则公示 2025-04-15",
+      "url": "https://zky.jlu.edu.cn/info/1022/5560.htm",
+      "publish_date": "2025-04-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院2025年植物生产类专业转专业面试结果公示 2025-03-25",
+      "url": "https://zky.jlu.edu.cn/info/1022/5540.htm",
+      "publish_date": "2025-03-25",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布植物科学学院2025年本科生转专业考核安排的通知 2025-02-28",
+      "url": "https://zky.jlu.edu.cn/info/1022/5524.htm",
+      "publish_date": "2025-02-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示植物科学学院2024级、2023级本科生转专业排名的通知 2025-02-12",
+      "url": "https://zky.jlu.edu.cn/info/1022/5514.htm",
+      "publish_date": "2025-02-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于《植物科学学院2025年本科生集中考核转专业工作实施细则》 2025-01-06",
+      "url": "https://zky.jlu.edu.cn/info/1022/5495.htm",
+      "publish_date": "2025-01-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于《吉林大学本科教育教学审核评估自评报告》的公示 2024-10-14",
+      "url": "https://zky.jlu.edu.cn/info/1022/5395.htm",
+      "publish_date": "2024-10-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布植物科学学院2025年推荐优秀应届本科毕业生免试攻读研究生名单的通知 2024-09-13",
+      "url": "https://zky.jlu.edu.cn/info/1022/5313.htm",
+      "publish_date": "2024-09-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2021级推免综合绩点排名公示的通知 2024-08-30",
+      "url": "https://zky.jlu.edu.cn/info/1022/5294.htm",
+      "publish_date": "2024-08-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院2025年招收优秀应届本科毕业生直接攻读博士学位研究生预选名单公示 2024-06-14",
+      "url": "https://zky.jlu.edu.cn/info/1022/5230.htm",
+      "publish_date": "2024-06-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布2024年度大学生创新训练和创业训练项目推荐名单的通知 2024-05-30",
+      "url": "https://zky.jlu.edu.cn/info/1022/5225.htm",
+      "publish_date": "2024-05-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2023级大类分流学生名单的公示 2024-04-30",
+      "url": "https://zky.jlu.edu.cn/info/1022/5195.htm",
+      "publish_date": "2024-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院大类招生专业2023级分流实施细则(试行) 2024-04-11",
+      "url": "https://zky.jlu.edu.cn/info/1022/5172.htm",
+      "publish_date": "2024-04-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于植物科学学院2020级推免综合绩点排名公示的通知 2023-09-06",
+      "url": "https://zky.jlu.edu.cn/info/1022/4854.htm",
+      "publish_date": "2023-09-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "植物科学学院关于2024年直博生预选名单公示的通知 2023-06-20",
+      "url": "https://zky.jlu.edu.cn/info/1022/4779.htm",
+      "publish_date": "2023-06-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 30,
+  "pagination": [
+    {
+      "start_url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://zky.jlu.edu.cn/bksj/jxtz/2.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-f1a3d4567458",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.3999990187585354e-05,
+      "detail_duration_seconds": 7.5999414548277855e-06,
+      "parse_db_duration_seconds": 0.030752699938602746
+    },
+    "second_round": {
+      "source": "p2-f1a3d4567458",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6000005416572094e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-f1a3d4567458",
+    "institution": "植物科学学院",
+    "column": "教学通知",
+    "url": "https://zky.jlu.edu.cn/bksj/jxtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | TITLE_MISMATCH | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:43+08:00",
+    "review_time": "2026-10-15T20:21:51+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 30,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-f1a3d4567458.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

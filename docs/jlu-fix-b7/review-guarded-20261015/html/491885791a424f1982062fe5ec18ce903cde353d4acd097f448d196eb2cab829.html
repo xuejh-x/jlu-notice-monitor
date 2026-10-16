@@ -1,0 +1,751 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>国家地球物理探测仪器工程技术研究中心</title><META Name="keywords" Content="国家地球物理探测仪器工程技术研究中心" />
+
+<link href="dfiles/16014/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function e(p,ele) {return p.getElementsByTagName(ele)};
+function el(id) {return document.getElementById(id)};
+function t(o,e,f) {o.addEventListener?o.addEventListener(e,f,false):o.attachEvent('on'+e,f)};
+var ss = {};
+ss.slider = function() {
+var arg, move = function() {};
+move.prototype.init = function(opt) {
+arg = this.set(opt);
+var wrap = el(opt.gallery),
+ctl = el(opt.control),
+obj = this.obj = e(wrap,'ul')[0],
+$this = this;
+this.u = e(obj,'li');
+this.cu = e(ctl,'li');
+this.uW = this.u[0].offsetWidth;
+this.uH = this.u[0].offsetHeight;
+this.len = this.u.length;
+this.old = this.cur = arg.index;
+wrap.style.cssText = 'width:' + this.uW + 'px;' + 'height:' + this.uH + 'px;' + 'overflow: hidden;';
+obj.style.cssText = 'height:' + this.uH + 'px;' + 'width:' + (arg.dir ? this.uW + 'px;' : this.len * this.uW + 'px;') + (arg.dir ? 'top:' + -1 * this.cur * this.uH + 'px;' : 'left:' + -1 * this.cur * this.uW + 'px;');
+this.cu[this.cur].className = 'current';
+this.event(arg.type);
+setTimeout(function() {$this.auto()},arg.interval);
+};
+move.prototype.set = function(opt) {
+org = {
+gallery: 'gal-wrap',
+control: "gal-panel",
+dir: false,
+index: 0,
+speed: 16,
+interval: 3000,
+type: 'click'
+};
+for(var p in opt) {
+org[p] = opt[p]
+}
+return org;
+};
+move.prototype.timeMgr = function() {
+var $this = this;
+this.m = setTimeout(function() {$this.auto(); $this.indexMgr()},arg.interval);
+};
+move.prototype.auto = function() {
+var $this = this;
+if(this.a != undefined) clearInterval(this.a);
+this.a = setInterval(function() {$this.pos()},arg.speed);
+};
+// Downloads By http://www.veryhuo.com/down
+move.prototype.pos = function() {
+var dir = arg.dir ? parseInt(this.obj.style.top) : parseInt(this.obj.style.left),
+area = arg.dir ? this.uH : this.uW,
+dis = (area * this.cur + dir) * .1,
+step = dis >= 0 ? Math.ceil(dis) : Math.floor(dis);
+arg.dir ? this.obj.style.top = dir - step + 'px' : this.obj.style.left = dir - step + 'px';
+this.stop(dir,area);
+};
+move.prototype.stop = function(dir,area) {
+if(Math.abs(dir) == area * this.cur) {
+clearInterval(this.a);
+this.cur == this.len - 1 ? this.cur = 0 : this.cur++;
+this.timeMgr();
+}
+};
+move.prototype.indexMgr = function() {
+this.cu[this.cur].className = 'current';
+if(this.old != this.cur) {
+this.cu[this.old].className = '';
+this.old = this.cur;
+}
+};
+move.prototype.event = function(e) {
+for(var i = 0; i < this.cu.length; i++) {
+var $this = this;
+t(this.cu[i],e,num(i,$this));
+}
+function num(n,$this) {
+return function() {
+clearInterval($this.a);
+clearTimeout($this.m);
+$this.cu[n].className = 'current';
+if($this.old != n) {
+$this.cu[$this.old].className = '';
+$this.old = $this.cur = n;
+}
+$this.c = 0;
+$this.auto();
+}
+}
+};
+return move;
+}();
+</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323076684654525b574200010005445c -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1396858164)</script>
+</head>
+
+<body>
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><script language="javascript">
+function showpic(x)
+{
+if(x == 0)
+{
+    var focus_width=1000;
+    var focus_height=319;
+    var text_height=0;
+    var swf_height = focus_height+text_height;
+    var pics="/__local/7/BE/93/518181B36816CB5B1C7243728F6_671ABFC2_197EA.jpg|/__local/7/BE/93/518181B36816CB5B1C7243728F6_671ABFC2_197EA.jpg";
+    var links="";
+    var texts="";
+    }
+
+
+
+if(window.XMLHttpRequest) {
+document.write('<embed src="dfiles/16014/images/flash.swf" FlashVars="pics=' + pics + '&links=' + links + '&texts=' + texts + '&borderwidth=' +focus_width + '&borderheight=' + focus_height + '&text_align=center&interval_time=2&textheight=' + text_height + '" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="' + focus_width + '" height="' + swf_height + '" wmode="transparent" allowScriptAccess="always"></embed>');
+}
+else if (window.ActiveXObject) {
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="dfiles/16014/images/flash.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+document.write('</object>');
+}
+}
+</script><script>_showDynClickBatch(['dynclicks_u0_1048','dynclicks_u0_1047'],[1048,1047],"wbnews", 1396858164)</script>
+
+
+<!--[if lte IE 6]>
+<style type="text/css">
+
+</style>
+<![endif]-->
+<!--top start-->
+<div id="top">
+<div class="banner">
+<div class="today">
+<div class="search" style=" position:relative">
+<table border="0" cellpadding="0" cellspacing="0" class="ccc"><tr><td><span class="sethome">
+<script language="javascript">
+function dosuba191538a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa191538a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa191538a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea191538a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+ 
+       
+            <A class="ddd" href="javascript:setHomepagea191538a()">
+                设为首页 </A>|<A class="ddd" onclick="javascript:dosuba191538a();" href="#">
+                加入收藏 </A>|<A class="ddd" href="lxwm.htm">
+                联系我们 
+            </A>       </span></td><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode191545').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey191545").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey191545").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey191545").value = base64.encode(document.getElementById("lucenenewssearchkey191545").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode191545"));
+        return true;
+    } 
+</script>
+<form action="search.jsp?wbtreeid=1001" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()">
+<input type="hidden" id="lucenenewssearchkey191545" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype191545" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope191545" name="searchScope" value="0">
+<td><input type="text" name="showkeycode" id="showkeycode191545" size="18" class="search_ipt" /></td>
+
+<td width="22" align="right"><input type="image" src="dfiles/16014/images/search_but.gif" style="cursor: hand" /></td>
+
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</tr></table>
+</div>
+今天是<span id="localtime"></span>
+<script type="text/javascript">
+function showLocale(objD)
+{
+    var str,colorhead,colorfoot;
+    var yy = objD.getYear();
+    if(yy<1900) yy = yy+1900;
+    var MM = objD.getMonth()+1;
+    if(MM<10) MM = '0' + MM;
+    var dd = objD.getDate();
+    if(dd<10) dd = '0' + dd;
+    var hh = objD.getHours();
+    if(hh<10) hh = '0' + hh;
+    var mm = objD.getMinutes();
+    if(mm<10) mm = '0' + mm;
+    var ss = objD.getSeconds();
+    if(ss<10) ss = '0' + ss;
+    var ww = objD.getDay();
+    if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+    if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#ffffff\">";
+    if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+    if  (ww==0)  ww="星期日";
+    if  (ww==1)  ww="星期一";
+    if  (ww==2)  ww="星期二";
+    if  (ww==3)  ww="星期三";
+    if  (ww==4)  ww="星期四";
+    if  (ww==5)  ww="星期五";
+    if  (ww==6)  ww="星期六";
+    colorfoot="</font>"
+    str = colorhead + yy + "年" + MM + "月" + dd + "日  " + ww + colorfoot;
+    return(str);
+}
+function tick()
+{
+    var today;
+    today = new Date();
+    document.getElementById("localtime").innerHTML = showLocale(today);
+    window.setTimeout("tick()", 1000);
+}
+tick();
+</script></div>
+
+</div>
+<div class="nav">
+
+
+
+
+
+
+
+	<a href="index.htm">首&nbsp;页</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="zxgk.htm">中心概况</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="xwzx.htm">新闻资讯</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="yqyz.htm">仪器研制</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="rcpy.htm">人才培养</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="gcfw.htm">工程服务</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="hzjl.htm">合作交流</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<a href="lxwm.htm">联系我们</a><img src="dfiles/16014/images/nav_split.jpg" align="absmiddle" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<!--end top--><div id="main">
+<div class="middle_banner"><script language="javascript">showpic(0);</script></div>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mt5">
+    <tr>
+      <td align="center" valign="top" width="270">
+      <div class="zxgk_top"><span class="more"><a href="zxgk.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+      <div class="zxgk">    
+          
+               
+                   
+                     
+                  
+               <img src="dfiles/16014/css/zxgk_icon.jpg" />
+        
+
+    <script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p>国家地球物理探测仪器工程技术研究中心（简称“工程中心”）的前身是20世纪50年代的原地矿部302研究室，在此基础上组建了长春地质学院仪器系， 是我国高校中最早创办的仪器专业。2009年11月，“工程中心”经科技部批准组建，依托单位是吉林大学，是吉林大学目前唯一的一个国家级工程技术研究中心。</p> 
+<p>从上世纪50年代就开始研制航空地球物理探测仪器，期间承揽了多项国家重大科研项目，取得了多项的地球物理仪器科研成果和技术专利，多次获得国家、中科院和省部级各种奖项，为我国地球物理探测仪器研发和高层次人才培养做出了重要贡献。目前，“工程中心”建立了完善的地球物理探测仪器研制、开发、生产、工程服务体系，实现……</p>
+      </div></td>
+      <td></td>
+      <td align="center" valign="top" width="715">
+      <div class="xwzx_top"><span class="more"><a href="xwzx.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+      <td width="259">
+
+      <div id="gal-wrap">
+<ul id="gallery">
+
+
+
+
+<li><p><img src="/__local/3/59/CC/EFC3883E7AE54FCA04B3D969A36_83B9C150_796.jpg" /></p></li>
+
+
+
+
+
+<li><p><img src="/__local/2/EB/68/52F05519C4B3283F6DF87D3EE14_E22D9880_423D0.jpg?e=.jpg" /></p></li>
+
+
+
+
+
+<li><p><img src="/__local/7/10/AA/0BA93D10C6188F2B0326CD99E79_0EBA37CC_23371.jpg?e=.jpg" /></p></li>
+
+
+<script>_showDynClickBatch(['dynclicks_u6_1052','dynclicks_u6_1051','dynclicks_u6_1050'],[1052,1051,1050],"wbnews", 1396858164)</script>
+
+</ul>
+</div>
+<div id="gal-panel">
+<ul id="gallery-panel">
+<li style=" display:none">1</li>
+<li style=" display:none">2</li>
+<li style=" display:none">3</li>
+</ul>
+</div>
+<script type="text/javascript">
+var tt = new ss.slider();
+tt.init({
+gallery: 'gal-wrap',
+control: "gal-panel",
+dir: false,
+index: 0,
+speed: 20,
+interval: 1000,
+type: 'mouseover'
+});
+</script>
+
+      
+      
+      
+      
+      </td>
+      <td align="center" valign="top">
+      <div class="xwzx info">
+      <ul>
+
+
+<li><span class="info_time">2024-02-07</span><a href="info/1003/1215.htm" title="吉林省政协党组书记、主席朱国贤来校看望慰问林君院士">吉林省政协党组书记、主席朱国贤来校看望慰问林君院士</a></li>
+
+
+
+
+<li><span class="info_time">2024-02-07</span><a href="info/1003/1214.htm" title="国家工程中心主办“新疆维吾尔自治区地质局业务培训班”取得圆满成功">国家工程中心主办“新疆维吾尔自治区地质局业务培训…</a></li>
+
+
+
+
+<li><span class="info_time">2024-01-10</span><a href="info/1003/1205.htm" title="林君院士当选吉林省高等学校实验室工作研究会理事长">林君院士当选吉林省高等学校实验室工作研究会理事长</a></li>
+
+
+
+
+<li><span class="info_time">2023-12-01</span><a href="info/1003/1194.htm" title="“吉林大学一号”卫星整装待“发”！">“吉林大学一号”卫星整装待“发”！</a></li>
+
+
+
+
+<li><span class="info_time">2023-11-13</span><a href="info/1003/1186.htm" title="吉林大学科研院科技开发办公室刘岩峰处长一行前来调研">吉林大学科研院科技开发办公室刘岩峰处长一行前来调研</a></li>
+
+
+
+
+<li><span class="info_time">2023-05-17</span><a href="info/1003/1174.htm" title="吉林省教育厅厅长张洪彬一行到工程中心调研">吉林省教育厅厅长张洪彬一行到工程中心调研</a></li>
+
+
+
+
+<li><span class="info_time">2023-05-12</span><a href="info/1003/1164.htm" title="吉林大学技术转移中心前来工程中心参观座谈">吉林大学技术转移中心前来工程中心参观座谈</a></li>
+
+
+</ul><script>_showDynClickBatch(['dynclicks_u7_1215','dynclicks_u7_1214','dynclicks_u7_1205','dynclicks_u7_1194','dynclicks_u7_1186','dynclicks_u7_1174','dynclicks_u7_1164'],[1215,1214,1205,1194,1186,1174,1164],"wbnews", 1396858164)</script>
+
+      </div>
+      </td>
+      </tr>
+      </table>
+      <div class="jstd_top"><span class="more"><a href="gcfw.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+      <div class="jstd info">
+      <ul>
+  
+<li><span class="info_time">2016-06-21</span><a href="info/1006/1013.htm" title="吉林省西部抗旱找水">吉林省西部抗旱找水</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1012.htm" title="JLMRS 系列地面核磁共振找水系统">JLMRS 系列地面核磁共振找水系统</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1011.htm" title="TEM-MRS 联合地下水探测系统">TEM-MRS 联合地下水探测系统</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1010.htm" title="ATEM 系列瞬变电磁系统">ATEM 系列瞬变电磁系统</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1009.htm" title="大深度分布式电磁探测系统JLEM">大深度分布式电磁探测系统JLEM</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1008.htm" title="无缆自定位地震仪">无缆自定位地震仪</a></li>
+
+
+  
+<li><span class="info_time">2014-07-15</span><a href="info/1006/1007.htm" title="油井压裂微震地震系统">油井压裂微震地震系统</a></li>
+
+
+</ul><script>_showDynClickBatch(['dynclicks_u8_1013','dynclicks_u8_1012','dynclicks_u8_1011','dynclicks_u8_1010','dynclicks_u8_1009','dynclicks_u8_1008','dynclicks_u8_1007'],[1013,1012,1011,1010,1009,1008,1007],"wbnews", 1396858164)</script>
+
+      </div>
+      </td>
+    </tr>
+  </table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mt5">
+<tr>
+<td align="center" valign="top" width="385">
+<div class="hzjl_top"><span class="more"><a href="hzjl.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+<div class="hzjl info">
+        
+        
+                
+          <img src="images/hzjl_icon.jpg" /> 
+
+                
+      
+
+<ul>
+</ul>
+</div>
+</td>
+<td></td>
+<td align="center" valign="top" width="387">
+<div class="yqyz_top"><span class="more"><a href="yqyz.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+<div class="yqyz info">
+          
+               
+              <img src="images/yqyz_icon.jpg" />
+
+        
+
+<ul>
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1022.htm" title="JLMRS 系列地面核磁共振找水系统">JLMRS 系列地面核磁共振找水系统</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1021.htm" title="TEM-MRS 联合地下水探测系统">TEM-MRS 联合地下水探测系统</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1020.htm" title="ATEM 系列瞬变电磁系统">ATEM 系列瞬变电磁系统</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1019.htm" title="大深度分布式电磁探测系统JLEM">大深度分布式电磁探测系统JLEM</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1018.htm" title="无缆自定位地震仪">无缆自定位地震仪</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1017.htm" title="油井压裂微震地震系统">油井压裂微震地震系统</a></li>
+
+ 
+   
+<li><span class="info_time">2014-07-15</span><a href="info/1004/1016.htm" title="GEIST-438有线遥测地震仪">GEIST-438有线遥测地震仪</a></li>
+
+ 
+</ul><script>_showDynClickBatch(['dynclicks_u11_1022','dynclicks_u11_1021','dynclicks_u11_1020','dynclicks_u11_1019','dynclicks_u11_1018','dynclicks_u11_1017','dynclicks_u11_1016'],[1022,1021,1020,1019,1018,1017,1016],"wbnews", 1396858164)</script>
+
+</div>
+</td>
+<td></td>
+<td align="center" valign="top" width="202">
+<div class="rcpy_top"><span class="more"><a href="rcpy.htm"><img src="dfiles/16014/images/more.gif" /></a></span></div>
+<div class="rcpy">
+<script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+<li><a href="#" title="">人才理念</a></li>
+
+
+
+
+    
+<li><a href="#" title="">硕、博研究生</a></li>
+
+
+
+
+    
+<li><a href="#" title="">博士后工作站</a></li>
+
+
+
+
+    
+<li><a href="#" title="">进修生</a></li>
+
+
+
+
+    
+<li><a href="#" title="">技能培训</a></li>
+
+
+
+
+    
+<li><a href="#" title="">人才动态</a></li>
+
+
+
+
+    
+</UL>
+<div class="clear"></div>
+</div>
+<div class="rcpy_icon">
+     
+            
+                 
+                 <a href="wjxz.htm"><img src="images/icon_wjxz.jpg" /></a>
+
+                       
+         
+        
+                 
+ <a href="#"><img src="images/icon_zxly.jpg" style="margin-top:12px" /></a>
+
+                       
+         
+
+</div>
+</td>
+</tr>
+</table>
+
+<div class="link">
+
+
+<a href="http://kjc.jlu.edu.cn/" target="_blank">吉大科技处</a>   
+<span style="margin:0px -7px;">|</span>
+
+<a href="http://kjt.jl.gov.cn/" target="_blank">省科技厅</a>   
+<span style="margin:0px -7px;">|</span>
+
+<a href="http://www.cnerc.gov.cn/" target="_blank">国家工程中心</a>   
+<span style="margin:0px -7px;">|</span>
+
+<a href="http://ciee.jlu.edu.cn/" target="_blank">仪器电气工程学院</a>   
+<span style="margin:0px -7px;">|</span>
+
+<a href="http://gest.jlu.edu.cn/" target="_blank">地球探测科学与技术学院</a>   
+<span style="margin:0px -7px;">|</span>
+
+<a href="http://const.jlu.edu.cn/" target="_blank">建设工程学院</a>   
+
+</div>
+</div>
+
+<!--bottom start-->
+<div id="bottom">
+<div class="bottom_txt">
+<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>版权所有：国家地球物理探测仪器工程技术研究中心<a onclick="this.href=&#39;?admin=admin&#39;" target="_blank"> 2017</a> ©</p><p>电话：0431-81058686&nbsp;E-mail:<a onclick="this.href=&#39;mailto:seven&#39;+&#39;@&#39;+&#39;jlu.edu.cn&#39;" href="javascript:void(0);">seven@jlu.edu.cn</a></p><p>地址：吉林省长春市绿园区泰来街585号 邮编：130026</p>
+</div>
+</div>
+<!--end bottom-->
+</body>
+
+</html> 

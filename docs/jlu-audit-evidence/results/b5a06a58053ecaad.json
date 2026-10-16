@@ -1,0 +1,129 @@
+{
+  "column_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+  "column": "通知",
+  "institution": "经营性资产改革和管理办公室",
+  "site_url": "https://jgb.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P3",
+  "discovery_url": "https://jgb.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:37:42+08:00",
+  "checked_at": "2026-10-13T14:07:10+08:00",
+  "status": "部分通过",
+  "issues": [
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+      "list_title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+      "parsed_title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+      "document_title": "关于确定周永东同志为2020年党员计划发展对象的公示-吉林大学经营性资产改革和管理办公室",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2019-12-12",
+      "parsed_date": "2019-12-12",
+      "reference_date": "2019-12-12",
+      "body_selector": ".v_news_content",
+      "content_chars": 323,
+      "content_preview": "为了加强对发展党员工作的民主监督，确保发展新党员的质量，现将周永东同志被列为 2020年党员计划发展对象的有关情况进行公示。 公示时间为 2019年12月12日至12月18日。 公示期间，党员和群众可通过电话和电子邮件等方式，反映发展对象在理想信念、政治立场、思想作风、工作表现、群众观念、廉洁自律等方面的情况和问题。反映问题应实事求是、客观公正。以个人名义反映问题的，要签署本人真实姓名。产业党委将对反映人和反映问题严格保密，对反映问题进行调查核实，弄清事实真相，并以适当方式向反映人反馈。 联系电话： 85167916 联系邮箱： zhangfeng@jlu.edu.cn 附： 2020年计划发展对象一览表 产业党委 2019年12月12日",
+      "content_sha256": "709d02582f094c5f6ab3ecab167a69461f920553ca8358c2db6c4b7898dd7090",
+      "raw_attachments": [
+        {
+          "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+          "filename": "附件：2020年计划发展对象一览表（教职工）.xlsx"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "附件：2020年计划发展对象一览表（教职工）.xlsx",
+          "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+          "type": "xlsx"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED"
+      ],
+      "time": "2026-10-13T14:07:11+08:00",
+      "sha256": "4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f",
+      "snapshot": "html/4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f.html",
+      "attachment_probes": [
+        {
+          "url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+          "time": "2026-10-13T14:07:12+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://jgb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1397115706&wbfileid=4489124",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+      "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+      "publish_date": "2019-12-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于做好“学习强国”学习平台使用工作的通知",
+      "url": "https://jgb.jlu.edu.cn/info/1003/1482.htm",
+      "publish_date": "2019-03-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/b5a06a58053ecaad.json",
+  "reason": "ATTACHMENT_ENDPOINT_FAILED; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://jgb.jlu.edu.cn/dwgz/tz.htm",
+  "list_sha256": "c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae",
+  "list_snapshot": "html/c6c4ed088e9a9fdaa97f6bdf6921a5c45f9370323ae3d00534270232f6a3f9ae.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 2,
+  "unparsed_reference_links": []
+}

@@ -1,0 +1,791 @@
+{
+  "id": "p2-7b6909acddc8",
+  "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+  "institution": "行政学院",
+  "column": "就业信息",
+  "site_url": "https://adm.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/7b6909acddc83554.json",
+  "discovery_url": "https://adm.jlu.edu.cn/xsgz/tz.htm",
+  "original_snapshot": "html/6b63df998396804cb37c5c3a45854335c8eefca3963414cc336e140ab679f59b.html",
+  "original_capture_time": "2026-10-13T13:53:41+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-7b6909acddc8",
+    "name": "行政学院 / 就业信息",
+    "base_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:49+08:00",
+  "details": [
+    {
+      "url": "https://adm.jlu.edu.cn/info/1088/27546.htm",
+      "list_title": "哈尔滨理工大学专职就业指导教师、辅导员招聘",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1088/27546.htm",
+        "time": "2026-10-15T19:38:26+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1088/27546.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8edbc073a50c7b5e2c851423d7b903c41d4bca0d92fea9620f2b489db5d419b5",
+        "html_path": "html/8edbc073a50c7b5e2c851423d7b903c41d4bca0d92fea9620f2b489db5d419b5.html",
+        "replacement_chars": 0,
+        "chars": 81544,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "哈尔滨理工大学专职就业指导教师、辅导员招聘",
+        "url": "https://adm.jlu.edu.cn/info/1088/27546.htm",
+        "publish_date": "2024-06-12",
+        "publisher": null,
+        "content": "一、学校简介 学校简介详见哈尔滨理工大学主页（www.hrbust.edu.cn）。 二、招聘原则 公开招聘工作实行岗位公开、平等竞争、择优录取的原则。 三、招聘计划 本次计划招聘专职辅导员12名、少数民族专职辅导员3名、心理健康教师4名、军事课教师5名、就业指导教师5名。具体招聘岗位、人数、条件等详见《哈尔滨理工大学2024年（第一批）公开招聘专职辅导员、少数民族专职辅导员、心理健康教师、军事课教师、就业指导教师岗位计划表》（附件1，以下简称《计划表》）。 四、人员待遇 落实事业单位编制 ，享受国家和黑龙江省规定的事业单位工作人员的相应待遇。 五、招聘条件 报考人员须具备以下条件： （一）具有中华人民共和国国籍，拥护中国共产党领导，遵守宪法和法律，具备高校工作人员所需要的业务素质和职业能力。 （二）具有良好的品行和职业道德。热爱教育事业，服从组织安排，有团结协作精神和创新精神，乐于为哈尔滨理工大学的建设与发展做出贡献。身心健康，有奉献精神，具有正常履行岗位职责的身体条件，能承受一定的工作压力和工作强度。 （三）报考人员须为国内外高校、科研院所毕业并取得相应学位。港澳地区和国外院校毕业的报考人员须有教育部留学服务中心出具的《国外学历学位认证书》。 （四）报考人员年龄计算截止时间为2024年5月28日。同时具备招聘岗位所要求的其他条件（详见附件1）。 硕士研究生年龄为18周岁以上、27周岁以下（1996年5月29日至2006年5月28日期间出生），博士研究生年龄为18周岁以上、35周岁以下（1988年5月29日至2006年5月28日期间出生）。其中少数民族专职辅导员学历为全日制大学本科的年龄为18周岁以上、27周岁以下（1996年5月29日至2006年5月28日期间出生），学历为硕士研究生的年龄为18周岁以上、30周岁以下（1993年5月29日至2006年5月28日期间出生）。 （五）在2024年8月31日前获得报名岗位所要求的学历和学位并办理报到手续。报考人员如不能按时取得相应学历和学位办理报到手续，则取消聘用资格，按自动放弃处理。 （六）下列人员不得报考： 1.在读的全日制普通高校非应届毕业生。 2.现役军人。 3.因犯罪受过刑事处罚的人员和被开除公职的人员。 4.被依法列为失信联合惩戒对象的人员。 5.以往在公务员考录、事业单位公开招聘中被认定有严重舞弊行为被记入诚信档案且在记录期的人员。 6.报考岗位聘用后构成《事业单位人事管理回避规定》（人社部规〔2019〕1号）第六条所列情形的人员。 7.法律法规规定不得报考或聘用为事业单位工作人员的其他人员。 六、招聘程序 本次招聘采取网上报名、资格审查、笔试、面试、体检、考察、公示、聘用的流程进行。 （一）发布公告 招聘公告在黑龙江省事业单位公开招聘服务平台（网址：http://gkzp.renshenet.org.cn/）、哈尔滨理工大学网站（网址：http://news.hrbust.edu.cn/rczp.htm ）发布。 （二）报名和资格审查 1.网上报名。 报考人员可于2024年5月29日9:00至2024年6月21日17:00进行报名，逾期不再接受报名。报考人员登录报名系统进行注册、填写个人基本信息、上传照片、报名、查询资格审核结果。报考人员须使用本人有效居民身份证进行报名，并确保真实、准确、完整提供个人信息和相关材料。 网上报名注意事项： （1）报名流程：详见报名网站流程图提示。 （2）报名网站：https://lgdx2024js.ibaoming.net （3）报考人员限报一个岗位，网上资格审核通过后，不能改报其他岗位。 （4）网上报名上传的正面免冠彩色电子照片，须为近期证件照，照片文件大小限制在1M字节以内，照片格式为*.jpg。 （5）网上报名时，报考人员要详细阅读《诚信承诺书》，信守承诺，如实填写提交有关信息和材料，凡填报信息与《招聘计划表》要求不一致或弄虚作假不守承诺的，在招聘过程中的任何环节，一经查实，将取消考试资格或聘用资格，责任由考生自负。 符合条件的“三支一扶”“西部计划”“特岗教师”等服务基层项目高校毕业生、城乡基层公益性岗位高校毕业生、普通高等学校毕业入伍退役大学生士兵（含毕业当年上半年入伍且符合毕业条件人员）、优秀村（社区）党组织书记等享受笔试政策性加分人员，应在报名填报信息时如实填写加分项，否则视为自动放弃，同时符合多项加分条件的，只取其中一个最高加分项，不累计加分。政策性加分计算时限截至2024年5月29日（含）。 2.资格审查。 学校将于2024年5月29日起对报考人员材料进行网上审查。报考人员应及时查看资格审查结果，已经通过资格审查的，不能改报其他岗位；报名申请未通过资格审查的，报名截止时间前可以改报其他岗位。 资格审查通过人数与岗位计划招聘人数之比应不低于3:1。达不到这一比例的，按规定缩减或取消该岗位的招聘计划。 3.打印准考证。 报考人员应于2024年6月26日9:00至6月28日17:00期间登录报名网站，下载、打印准考证，并仔细核对准考证上的相关信息。如有问题，须及时与报名系统技术人员联系。 （三）考试 考试采取笔试与面试相结合的方式。笔试、面试总成绩分别占考试总成绩的50%，即考试总成绩=笔试总成绩（卷面成绩+政策性加分）×50%+面试成绩×50%，其中笔试卷面成绩、面试成绩均为100分。 1.笔试。笔试时间、地点及注意事项详见准考证。笔试为闭卷，主要考察招聘岗位所必需的政治素质、职业素质、专业知识和业务能力。笔试采取100分制计分方式，笔试成绩保留小数点后两位（四舍五入）。根据笔试成绩分数由高到低按3:1比例确定进入面试人选。笔试成绩低于60分者不能进入面试。 考生可登录报名网站查询本人成绩等信息。对缺考、违纪和零分三种情形有异议的考生，可在发布笔试成绩次日起3个工作日内，持本人准考证、身份证，到哈尔滨理工大学申请复核；其他情形，不受理复核申请。 2.面试。根据同一岗位笔试总成绩从高分到低分的顺序，按照进入面试人数与岗位计划招聘人数3:1的比例确定拟进入面试人选。面试资格人员达不到3:1比例的岗位，将取消或缩减该岗位招聘计划，末位出现并列的，可相应增加进入面试人数。 （1）现场资格复审。拟进入面试人员须在指定时间、地点接受现场资格复审，未按时参加现场资格复审的，视为主动放弃面试资格；现场资格复审不合格的，取消面试资格。现场资格复审时间、地点等事宜在哈尔滨理工大学网站另行通知。 参加资格复审人员须提供以下材料的原件及复印件： ①现场资格复审提供的材料需与报名提交材料一致。 ②《报名信息表》（报名网站下载）。 ③有效居民身份证。 ④现场资格复审后，报考人员的各类证件、证书等原件返还报考人员。《报名信息表》、《哈尔滨理工大学公开招聘人员思想政治鉴定表》（附件2）、《应届毕业生在读证明》、《学生干部证明》原件和提交材料的复印件存档备查，不予退还。 未按要求提供材料、提供材料主要信息不实或与招聘岗位要求不一致的，均视为现场资格确认不合格，取消其面试资格。因主动放弃、现场资格确认不合格出现的空额，可根据报考同一岗位考生笔试总成绩从高分到低分的顺序依次等额递补。拟进入面试人员名单，将在哈尔滨理工大学网站公示3个工作日。 现场资格审核确认后，对进入面试人数与岗位计划招聘人数不足3:1比例的岗位，按规定缩减或取消岗位计划。 （2）面试。面试采取百分制计分方式，采取结构化面试进行考核，重点测试报考人员的综合素质、业务能力、岗位匹配度等。面试满分为100分。面试成绩保留小数点后两位（四舍五入）。面试成绩低于60分者为不合格，不予聘用。面试时间、地点在哈尔滨理工大学网站进行通知。 面试后,按照各岗位考试总成绩从高分到低分的顺序和计划招聘人数1:1的比例确定体检、考察对象。当考试总成绩出现并列时，以面试成绩高者优先；若仍然并列，则进行加试，加试方案另行公布。有关人员名单及考试成绩将于面试结束后7个工作日内在哈尔滨理工大学网站公布。 （四）体检、考察 1.体检。体检参照《公务员录用体检通用标准（试行）》进行。体检在三级甲等综合性医院进行，体检费用由考生自行承担。体检不合格者，不予聘用。 2.考察。体检合格者方可参加考察。考察工作采取个别谈话或同本人面谈等方法，了解考察人选政治素质、道德品质、能力素质、心理素质、学习和工作表现、遵纪守法、廉洁自律情况，以及是否具有应当回避的情形，身心健康状况，与招聘岗位的匹配度等情况。对考察不合格人员，不作为拟聘用人选，并书面通知本人。 因体检或考察不合格出现的岗位空额，从报考同一岗位且面试成绩在合格线上考生中，按考试总成绩从高分到低分等额递补。 （五）公示及聘用 根据体检和考察结果，经学校研究确定拟聘人员后，在哈尔滨理工大学网站“人才引进栏目”公示7个工作日。公示结果不影响聘用的，签订事业单位聘用合同，办理相关聘用、落编手续，按规定享受事业单位工作人员相应待遇。新聘用人员实行试用期制度，试用期6个月（应届毕业生12个月）。试用期满考核合格的，予以正式聘用；不合格的，解除聘用合同。 七、注意事项 （一）本次招聘过程信息通过哈尔滨理工大学网站和报名网站发布。报考人员应及时关注网站发布的公告和有关信息，了解招聘进程，保持电话畅通。因个人未及时查看等原因造成错过考试任何环节，考生自行承担相应后果。 （二）凡在规定时间内未按照有关通知要求参加报名、现场资格复审、笔试、面试、体检、考察、报到等，均视为自动放弃报考或聘用资格。 （三）资格审查贯穿公开招聘全过程，任何环节发现报考人员不符合资格条件的，均取消报考或聘用资格。 （四）违纪违规行为按《事业单位公开招聘违纪违规行为处理规定》（人力资源和社会保障部令第35号）及有关规定处理。 八、联系方式 人事处联系人：吴老师，联系电话：0451-86390189 学工部联系人：张老师，联系电话：0451-86390888 监督举报电话：0451-86390112 报名系统技术电话：400-1629-400转1380",
+        "attachments": [
+          {
+            "filename": "1：哈尔滨理工大学2024年（第一批）辅导员、心理健康教师、军事课教师、就业指导教师岗位计划表0604-1.xls",
+            "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951472",
+            "type": "xls"
+          },
+          {
+            "filename": "2：哈尔滨理工大学公开招聘人员思想政治鉴定表.doc",
+            "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951473",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2024-06-12",
+            "date": "2024-06-12"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 4157,
+        "reference_attachment_urls": [
+          "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951472",
+          "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951473"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "哈尔滨理工大学专职就业指导教师、辅导员招聘"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2024-06-12 点击:",
+            "date": "2024-06-12"
+          },
+          {
+            "text": "发布时间: 2024-06-12",
+            "date": "2024-06-12"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/info/1088/27547.htm",
+      "list_title": "2024年济南幼儿师范高等专科学校引进急需紧缺专业人才公告",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1088/27547.htm",
+        "time": "2026-10-15T19:38:27+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1088/27547.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b32791d2e27ebf69f2b477eb1a7482043ac739e41b922238a844c3350bd59509",
+        "html_path": "html/b32791d2e27ebf69f2b477eb1a7482043ac739e41b922238a844c3350bd59509.html",
+        "replacement_chars": 0,
+        "chars": 43112,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "2024年济南幼儿师范高等专科学校引进急需紧缺专业人才公告",
+        "url": "https://adm.jlu.edu.cn/info/1088/27547.htm",
+        "publish_date": "2024-05-17",
+        "publisher": null,
+        "content": "一、引才计划 济南幼儿师范高等专科学校计划引进急需紧缺专业人才60人，具体岗位要求详见《2024年济南幼儿师范高等专科学校引进急需紧缺专业人才岗位表》（附件1）。 二、资格条件 1. 具有中华人民共和国国籍，无国（境）外永久居留权; 2.政治立场坚定，拥护党的领导，遵守国家法律法规，自觉践行社会主义核心价值观，品行端正，具有良好的团队协作精神和较强的组织、实践能力; 3.适应岗位需要，具备所需要的较高的综合素质、专业水平，能够服从引才单位工作安排; 4.身心健康，在校期间综合表现优秀，有较好的语言表达能力和心理素质，符合录用体检标准; 5.2024年硕士研究生及以上学历应届毕业生； 6.博士研究生35周岁以下（1988年7月31日以后出生），硕士研究生30周岁以下（1993年7月31日以后出生）。大学学制5年及以上的毕业生，以学制4年为基数，学制每增加1年相应放宽1岁； 7.博士研究生取得毕业证书、学位证书及相关证书的时间须在2024年12月31日前。硕士研究生取得毕业证书、学位证书及相关证书的时间须在2024年7月31日前； 8.现役军人，在读的非应届毕业生，因犯罪受过刑事处罚的人员，被开除党籍的人员，被开除公职的人员，被依法列为失信联合惩戒对象的人员，以及法律法规规定不得聘用的其他情形人员不得应聘； 9.符合岗位要求的其他资格条件。 三、引才程序 1. 发布信息。通过济南幼儿师范高等专科学校网站（ https://www.jnpec.edu.cn/ ）发布公告及相关信息。 2.报名。采取现场报名的方式进行，具体时间、地点待确定后在济南幼儿师范高等专科学校网站面向社会公布，请及时登录查询。报名及人才引进有关问题可在工作时间拨打联系电话咨询（见附件1）。 现场报名时，需提交以下材料： （1）《2024年济南幼儿师范高等专科学校引进急需紧缺专业人才报名登记表》（附件2），登记表须含近期免冠证件照，本人手写签名； （2）有效期内的二代居民身份证； （3）学历、专业相关证明材料（如教育部学籍在线验证报告或《毕业生就业推荐表》等）； （4）报名表中所填写的学业成绩、获得科研成果及表彰奖励的证明材料； （5）引才岗位要求的其他有关材料。 以上材料需提供原件及复印件。 3.报名注意事项 （1）参考《事业单位人事管理回避规定》（人社部规〔2019〕1号），报考人员不得报考聘用后构成回避关系的引才岗位； （2）报考人员提供的联系电话应准确无误并确保通讯畅通，若因提供联系信息错误或无法及时联系的，后果由报考人员自行承担。 4.资格审核。引才单位指定专人对报考人员提交的信息资料进行审核。报考人员须诚信报名，本人亲自参加面谈、面试。 资格审核贯穿引才工作全过程，在引才各环节发现报考者不符合报考资格条件的，或提供的材料信息不实的，取消报考者报考资格或者聘用资格。对伪造、变造有关证件、材料、信息，骗取考试资格的，将按照有关规定予以处理。涉嫌犯罪的，移送司法机关处理。 5.面谈。组织通过资格审核的报考人员进行面谈，按照计划引进人数与资格审核通过人数1:3的比例确定面试人选。 6.面试。面试采取结构化面试的方式进行，主要测试报考人员仪容仪表、专业素养、分析判断、计划决策、逻辑思维、组织协调、学习创新、语言表达、应变控制等方面能力。具体时间地点另行通知。 面试成绩以百分制计分，成绩按四舍五入保留小数点后两位。面试设定最低合格分数线，最低合格分数线为80分，低于80分的不列为考察对象。面试结束后，按照引才岗位计划1：2的比例由高分到低分确定考察体检范围人选。成绩在全场考试结束后公布。如同一岗位进入考察体检范围人选考试成绩相同的，须现场进行加试。 7.签订意向协议。引才单位按照岗位计划等额与进入考察体检范围人选签订意向协议书。报考人员须在指定时间内签订意向协议，未签的视为自动放弃聘用资格。因自动放弃聘用资格造成的空缺，从参加面试达到合格分数线的人选中，按照面试成绩由高到低依次递补。 8.考察体检。考察根据岗位条件要求采取多种方式进行，主要考察思想政治表现、道德品行、能力素质、学习和工作表现、遵纪守法、廉洁自律情况，以及是否具有应当回避的情形、与招聘岗位的匹配度等情况，并对报考人员是否符合规定的岗位资格条件、提供的相关信息材料是否真实准确等进行复审。按照干部档案管理有关要求，加强对考察人选档案的审核。 体检在县级以上综合性医院进行，体检标准和项目参照公务员录用体检标准及操作手册执行，国家另有规定的从其规定。对按规定需要复检的，不得在原体检医院进行，复检只能进行1次，结果以复检结论为准。 对放弃考察、体检，或考察、体检不合格造成的空缺，从进入同一岗位考察体检范围的人员中依次等额递补。 9.公示聘用。根据考试、考察、体检等情况，确定拟引进人选，在发布公告的网站进行公示，公示期为7个工作日。对公示期满没有异议的或者反映问题不影响聘用的，办理聘用手续。引进人才在签约后未能按照规定时间取得学历、学位及相关资格证书，或因违纪等受到学校处分或行政处罚的，视为违约，用人单位有权终止协议，造成的岗位空缺不再递补。引进人才按照规定实行试用期制度，期满合格的正式聘用，不合格的解除聘用合同。引进人才在济南市服务年限不少于3年，因工作需要可在济南市范围内有序流动。 四、管理使用 引进人才与引才单位办理聘用手续后，使用控制总量，纳入编制实名制管理。 五、政策措施 1. 政策待遇。引进人才聘任到专业技术岗位，可按照职称评聘有关规定，优先评聘到相应的专业技术岗位。 2.生活补贴。引进人才可在毕业一年内申请办理“泉城人才交通卡”，3年内在济免费乘公交地铁。符合条件的新引进的全日制博士研究生，可申领每月1500元的生活和租房补贴，最高连续发放36个月。 3.购房补贴。符合条件的新引进全日制博士研究生，享受一次性购房补贴15万元。 六、其他 2024 年济南幼儿师范高等专科学校引进急需紧缺专业人才考试不指定考试教材和辅导用书，不举办也不授权或委托任何机构举办考试辅导培训班。 本次引才发布的公告、岗位等信息中的“以上”“以下”“以前”均包含本级别、本基数。 报名咨询电话：0531-87207736,87207911",
+        "attachments": [
+          {
+            "filename": "附件1：2024年济南幼儿师范高等专科学校引进急需紧缺专业人才岗位表.xls",
+            "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951485",
+            "type": "xls"
+          },
+          {
+            "filename": "附件2：2024年济南幼儿师范高等专科学校引进急需紧缺专业人才报名登记表.doc",
+            "url": "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951486",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2024-05-17",
+            "date": "2024-05-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2567,
+        "reference_attachment_urls": [
+          "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951485",
+          "https://adm.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1680101460&wbfileid=14951486"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "2024年济南幼儿师范高等专科学校引进急需紧缺专业人才公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2024-05-17 点击:",
+            "date": "2024-05-17"
+          },
+          {
+            "text": "发布时间: 2024-05-17",
+            "date": "2024-05-17"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://adm.jlu.edu.cn/info/1088/9855.htm",
+      "list_title": "吉大就业网链接",
+      "list_date": "",
+      "response": {
+        "url": "https://adm.jlu.edu.cn/info/1088/9855.htm",
+        "time": "2026-10-15T19:38:28+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/info/1088/9855.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "25a2d8e9dd3782790f7a994843e9b219cd02439f3424edd94440c1def6c93753",
+        "html_path": "html/25a2d8e9dd3782790f7a994843e9b219cd02439f3424edd94440c1def6c93753.html",
+        "replacement_chars": 0,
+        "chars": 6140,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉大就业网链接",
+        "url": "https://adm.jlu.edu.cn/info/1088/9855.htm",
+        "publish_date": "2013-05-31",
+        "publisher": null,
+        "content": "吉大就业网链接：http://jdjyw.jlu.edu.cn/ 2013年5月31日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布时间: 2013-05-31",
+            "date": "2013-05-31"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 43,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉大就业网链接"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间: 2013-05-31 点击:",
+            "date": "2013-05-31"
+          },
+          {
+            "text": "发布时间: 2013-05-31",
+            "date": "2013-05-31"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+        "time": "2026-10-15T19:28:43+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "6b63df998396804cb37c5c3a45854335c8eefca3963414cc336e140ab679f59b",
+        "html_path": "html/6b63df998396804cb37c5c3a45854335c8eefca3963414cc336e140ab679f59b.html",
+        "replacement_chars": 0,
+        "chars": 11604,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://adm.jlu.edu.cn/info/1088/27342.htm",
+        "https://adm.jlu.edu.cn/info/1088/27343.htm",
+        "https://adm.jlu.edu.cn/info/1088/27345.htm",
+        "https://adm.jlu.edu.cn/info/1088/27546.htm",
+        "https://adm.jlu.edu.cn/info/1088/27547.htm",
+        "https://adm.jlu.edu.cn/info/1088/27548.htm",
+        "https://adm.jlu.edu.cn/info/1088/27549.htm",
+        "https://adm.jlu.edu.cn/info/1088/9858.htm",
+        "https://adm.jlu.edu.cn/info/1088/9859.htm",
+        "https://adm.jlu.edu.cn/info/1088/9869.htm",
+        "https://adm.jlu.edu.cn/info/1088/9870.htm",
+        "https://adm.jlu.edu.cn/info/1088/9871.htm",
+        "https://adm.jlu.edu.cn/info/1088/9872.htm",
+        "https://adm.jlu.edu.cn/info/1088/9873.htm",
+        "https://adm.jlu.edu.cn/info/1088/9874.htm"
+      ],
+      "observed_next_urls": [
+        "https://adm.jlu.edu.cn/xsgz/jyxx/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://adm.jlu.edu.cn/xsgz/jyxx/1.htm",
+        "time": "2026-10-15T19:38:25+08:00",
+        "ok": true,
+        "final_url": "https://adm.jlu.edu.cn/xsgz/jyxx/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "67dcc1150776da91229422805a7de0ff64852d47136453f873c05dde4a373f4a",
+        "html_path": "html/67dcc1150776da91229422805a7de0ff64852d47136453f873c05dde4a373f4a.html",
+        "replacement_chars": 0,
+        "chars": 9069,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://adm.jlu.edu.cn/info/1088/9855.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "time": "2026-10-15T19:28:43+08:00",
+    "ok": true,
+    "final_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "6b63df998396804cb37c5c3a45854335c8eefca3963414cc336e140ab679f59b",
+    "html_path": "html/6b63df998396804cb37c5c3a45854335c8eefca3963414cc336e140ab679f59b.html",
+    "replacement_chars": 0,
+    "chars": 11604,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "哈尔滨理工大学专职就业指导教师、辅导员招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/27546.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2024年济南幼儿师范高等专科学校引进急需紧缺专业人才公告",
+      "url": "https://adm.jlu.edu.cn/info/1088/27547.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "滁州市“千企百校行”校园招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/27345.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2024青岛市“招才引智名校行”双选会 吉林大学站",
+      "url": "https://adm.jlu.edu.cn/info/1088/27548.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "通辽市2024年第一批次人才引进公告",
+      "url": "https://adm.jlu.edu.cn/info/1088/27549.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中建四局建设发展有限公司总承包公司校园招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/27343.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "呼和浩特市第二中学校园招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/27342.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "百胜餐饮2015校园招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/9874.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "陕西理工学院2014年博士招聘启事",
+      "url": "https://adm.jlu.edu.cn/info/1088/9873.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "深圳航空2013公费飞行学员招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/9872.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "天音通信2014年校园招聘简章",
+      "url": "https://adm.jlu.edu.cn/info/1088/9871.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "碧桂园物业公司2014校园招聘",
+      "url": "https://adm.jlu.edu.cn/info/1088/9870.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "链家地产2014年校园招聘简章",
+      "url": "https://adm.jlu.edu.cn/info/1088/9869.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "宇龙酷派2014年校园招聘简章",
+      "url": "https://adm.jlu.edu.cn/info/1088/9859.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "红星美凯龙2013校园招聘简章",
+      "url": "https://adm.jlu.edu.cn/info/1088/9858.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉大就业网链接",
+      "url": "https://adm.jlu.edu.cn/info/1088/9855.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 16,
+  "pagination": [
+    {
+      "start_url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+          "parsed_items": 15,
+          "added_items": 15
+        },
+        {
+          "url": "https://adm.jlu.edu.cn/xsgz/jyxx/1.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-7b6909acddc8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.810002140700817e-05,
+      "detail_duration_seconds": 7.500057108700275e-06,
+      "parse_db_duration_seconds": 0.04643420013599098
+    },
+    "second_round": {
+      "source": "p2-7b6909acddc8",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.0900042727589607e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-7b6909acddc8",
+    "institution": "行政学院",
+    "column": "就业信息",
+    "url": "https://adm.jlu.edu.cn/xsgz/jyxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:43+08:00",
+    "review_time": "2026-10-15T20:20:49+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 16,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-7b6909acddc8.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

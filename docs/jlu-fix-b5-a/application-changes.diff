@@ -1,0 +1,89 @@
+--- B5-A baseline/backend/app/parsers/html.py
++++ B5-A final/backend/app/parsers/html.py
+@@ -72,6 +72,8 @@
+         raise HTMLParseError("HTML_AUTH_REQUIRED: response contains a login form")
+     for node in soup.select("title, h1"):
+         label = normalize_whitespace(node.get_text(" ", strip=True))
++        if label in {"系统提示", "权限提示", "访问受限"} and re.search(r"没有访问当前栏目的权限|无权访问当前栏目", soup.get_text(" ", strip=True)):
++            raise HTMLParseError("HTML_PERMISSION_REQUIRED: response denies access to this column")
+         if re.fullmatch(r"(?:40[034](?:\s*[-:：]?\s*(?:Not Found|Forbidden|错误|页面不存在))?|Not Found|Forbidden|Access Denied|用户登录|统一身份认证|统一身份认证平台|安全验证|访问验证|系统错误|出错了)", label, re.I):
+             raise HTMLParseError("HTML_INTERSTITIAL: response is a login, error or verification page")
+ 
+--- B5-A baseline/backend/app/services/http_diagnostics.py
++++ B5-A final/backend/app/services/http_diagnostics.py
+@@ -1,5 +1,18 @@
+ """Keep useful HTTP/SSL causes even when the outer exception has no message."""
+ from __future__ import annotations
++
++import httpx
++
++from app.services.tls import is_certificate_verification_error
++
++
++def is_retryable_http_error(error: BaseException) -> bool:
++    """Only retry transient transport/status failures within the caller's budget."""
++    if is_certificate_verification_error(error):
++        return False
++    if isinstance(error, httpx.HTTPStatusError):
++        return error.response.status_code in {502, 503, 504}
++    return isinstance(error, (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError))
+ 
+ 
+ def exception_summary(error: BaseException | None) -> str:
+--- B5-A baseline/backend/app/sources/base.py
++++ B5-A final/backend/app/sources/base.py
+@@ -13,7 +13,7 @@
+ from app.parsers import parse_detail_html, parse_list_html
+ from app.parsers.html import is_empty_notice_list
+ from app.schemas.notice import NoticeCandidate
+-from app.services.http_diagnostics import exception_summary
++from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+ from app.services.source_security import UnsafeSourceUrl, validate_local_source_url
+ from app.services.tls import is_certificate_verification_error, source_ssl_context
+ 
+@@ -84,8 +84,10 @@
+                 if is_certificate_verification_error(exc):
+                     raise SourceError(f"TLS_CERTIFICATE_VERIFY_FAILED: GET {url}: {exception_summary(exc)}") from exc
+                 last_error = exc
+-                if attempt < self.retries:
++                if attempt < self.retries and is_retryable_http_error(exc):
+                     await asyncio.sleep(self.backoff * (attempt + 1))
++                else:
++                    break
+         raise SourceError(f"GET {url} failed: {exception_summary(last_error)}") from last_error
+ 
+     def _log_http_result(
+--- B5-A baseline/backend/app/sources/generic.py
++++ B5-A final/backend/app/sources/generic.py
+@@ -19,7 +19,7 @@
+ from app.parsers.html import detail_plain_text, is_empty_notice_list, usable_link, validate_detail_container, validate_html_page
+ from app.schemas.notice import AttachmentData, NoticeCandidate
+ from app.services.dates import parse_date
+-from app.services.http_diagnostics import exception_summary
++from app.services.http_diagnostics import exception_summary, is_retryable_http_error
+ from app.logging_config import log_event
+ from app.services.normalization import normalize_whitespace
+ from app.services.source_security import UnsafeSourceUrl, validate_peer_address, validate_source_url
+@@ -59,9 +59,9 @@
+         self.source_code = source_code
+ 
+     async def get(self, url: str) -> tuple[str, str, str]:
+-        current = url
+         last_error: Exception | None = None
+         for attempt in range(self.retries + 1):
++            current = url
+             started = time.perf_counter()
+             response: httpx.Response | None = None
+             try:
+@@ -116,8 +116,10 @@
+                 if is_certificate_verification_error(exc):
+                     raise SourceError(f"TLS_CERTIFICATE_VERIFY_FAILED: GET {current}: {exception_summary(exc)}") from exc
+                 last_error = exc
+-                if attempt < self.retries:
++                if attempt < self.retries and is_retryable_http_error(exc):
+                     await asyncio.sleep(self.backoff * (attempt + 1))
++                else:
++                    break
+         raise SourceError(f"Source request failed: {exception_summary(last_error)}") from last_error
+ 
+     def _log_http_result(self, url: str, attempt: int, started: float, *,

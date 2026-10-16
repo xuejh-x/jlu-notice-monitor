@@ -1,0 +1,85 @@
+{
+  "time": "2026-10-14T23:35:45.748550+08:00",
+  "status": "bounded_B5_C_complete_with_OA_blocked_and_no_formal_admissions",
+  "tests": {
+    "baseline": "415 passed, 1 skipped",
+    "regression-before": "20 failed, 266 passed",
+    "form-regression-before": "1 failed, 299 passed",
+    "identity-regression-before": "3 failed, 300 passed",
+    "pdf-regression-before": "5 failed, 304 passed",
+    "targeted": "310 passed",
+    "final": "465 passed, 1 skipped"
+  },
+  "new_test_cases": 50,
+  "columns_attempted": 17,
+  "bounded_sample_passed": 16,
+  "access_blocked": 1,
+  "pages_checked": 45,
+  "list_occurrences": 575,
+  "details_verified": 48,
+  "isolated_two_round_source_replays": 16,
+  "same_url_groups_reproduced": 113,
+  "title_date_candidates_reproduced": 48,
+  "formal_merges": 0,
+  "old_audit_files_preserved": 1449,
+  "prior_reports_preserved": 6,
+  "snapshot_copy_hash_checks": 315,
+  "capture_time_range": [
+    "2026-10-14T23:08:14+08:00",
+    "2026-10-14T23:23:50+08:00"
+  ],
+  "network_stages": [
+    {
+      "stage": "discovery-20261014",
+      "http_attempts": 29,
+      "http_responses": 28
+    },
+    {
+      "stage": "live-20261014",
+      "http_attempts": 4,
+      "http_responses": 4
+    },
+    {
+      "stage": "followup-20261014",
+      "http_attempts": 65,
+      "http_responses": 65
+    },
+    {
+      "stage": "final-live-20261014",
+      "http_attempts": 12,
+      "http_responses": 12
+    },
+    {
+      "stage": "replay-final-20261014",
+      "http_attempts": 0,
+      "http_responses": 0
+    }
+  ],
+  "http_attempts_total": 110,
+  "http_responses_total": 109,
+  "network_in_acceptance": 0,
+  "formal_sources_changed": 0,
+  "formal_admissions": 0,
+  "production_database_connections": 0,
+  "cloud_production_verified": false,
+  "attachment_file_downloads": 0,
+  "report_links_exist": true,
+  "files": {
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/parsers/html.py": "6f15b20e11a40ad2bccaae6a8e34a7f31a5143c15210c3d86c066c016addbcdc",
+    "backend/app/services/deduplication.py": "f552b8dd6740a00827617190ee103c8e085b0c8f6b0e4397f9ce2974b6ed1ee4",
+    "backend/app/services/list_pagination.py": "2408a067ac8e95e281b30b1213b766f6f68f0ccfdaa2a3bd87e67f1f2b16cff8",
+    "backend/app/sources/base.py": "e79f88baa8ade63d277a021676600a893c4002acfa35343c04bc1394f24611c3",
+    "backend/app/sources/generic.py": "1f8ae20c66ed2435cd0a945668d86979f38416508400185b26fb10ebe0b07013",
+    "backend/scripts/verify_jlu_b1.py": "abdc3c3f2ee3b1b57bbd028fc261e03919fd476be120d43744c39163a5a2d941",
+    "backend/tests/test_jlu_b5_c.py": "b97d899cffbba637cc4f6a8e313166a502727b3a1994e2d4bc9010cc695e0992",
+    "backend/tests/fixtures/jlu_b5_c/employment-pagination.html": "b85ff3089383c4d692888ae41b67eacb3bc5df2668de6afa4c6b15e347dafa00",
+    "backend/scripts/discover_jlu_b5_c.py": "04840e40423764135787eabccec278122ceceb56028d67a5ef270b126d99f67a",
+    "backend/scripts/validate_jlu_b5_c.py": "6f4c003c2790926fa42e115d6dc6d60ded9717644ab25d19c466969297635922",
+    "backend/scripts/classify_jlu_b5_c_duplicates.py": "d5892732d18b5b00b93e012255e6af53f23b6dc5bd8d5fc8587cabf969c84482",
+    "backend/scripts/finalize_jlu_b5_c.py": "93f88b5d1e847954d44e2fddad6f6bbe81ad3ece0bacf0622361146a68566b11",
+    "docs/JLU_SITE_FIX_B5_C_REPORT.md": "6fbc882ce74b4540ef5a2be49f291677fca6208a2c68540b37ec310992720e95",
+    "docs/JLU_FAILURE_REMEDIATION_PLAN.md": "6165e53a33bdba959422e2fa4b453b8a0f2dd733b35b56b16fc90f9b93da5c59",
+    "docs/JLU_SITE_FIX_PLAN.md": "cde5f25553458a94b7c77a6590823bd5da57791dcffc4d1a355d4292c8ce6df9"
+  }
+}

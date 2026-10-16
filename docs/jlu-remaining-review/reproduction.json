@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-10-15T15:13:57.090280+00:00",
+  "code_sha256": {
+    "backend/app/crawler/runner.py": "f9821134c000e027838a1bb13210902b5fd7ab41ba703708e7804f46324e795d",
+    "backend/app/services/normalization.py": "b241e26fc24be205e059712e5e031fc67779feccd35f55757a6a0c134e4d9078",
+    "backend/scripts/review_jlu_remaining.py": "223602af8d92967f65db008bf3d7420dfa1cccf5c5da1fd657165da00dd4b6a2"
+  },
+  "method": "two fake-adapter runs + attachment-only direct persistence; sqlite:// independent memory engine",
+  "http_requests": 0,
+  "production_db_connections": 0,
+  "fixture_host": "test.invalid",
+  "findings": {
+    "unchanged_list_hides_detail_updates": {
+      "detail_calls_first_two_runs": 1,
+      "second_run": {
+        "source": "remaining-review",
+        "execution_policy": "local_only",
+        "effective_execution": "local",
+        "fallback_used": false,
+        "fallback_reason": null,
+        "attempts": [
+          {
+            "execution": "local",
+            "status": "success",
+            "error": null,
+            "fetched": 1,
+            "detail_fetched": 0,
+            "detail_skipped": 1,
+            "new_count": 0,
+            "updated_count": 0,
+            "unchanged_count": 1
+          }
+        ],
+        "status": "success",
+        "fetched": 1,
+        "detail_fetched": 0,
+        "detail_skipped": 1,
+        "new_count": 0,
+        "updated_count": 0,
+        "unchanged_count": 1,
+        "errors": [],
+        "list_duration_seconds": 1.1699972674250603e-05,
+        "detail_duration_seconds": 0.0,
+        "parse_db_duration_seconds": 0.0
+      },
+      "body_seen": "原通知正文",
+      "attachment_urls": [
+        "https://test.invalid/old.pdf"
+      ],
+      "new_body_detected": false,
+      "new_attachment_detected": false
+    },
+    "attachment_only_change_not_versioned_and_old_reference_retained": {
+      "return_state": "UNCHANGED",
+      "version_before": 1,
+      "version_after": 1,
+      "attachment_urls_after_replacement_snapshot": [
+        "https://test.invalid/old.pdf",
+        "https://test.invalid/new.pdf"
+      ],
+      "old_attachment_still_present": true,
+      "same_notice_id": true,
+      "read_and_favorite_preserved": true,
+      "favorites": 1
+    }
+  },
+  "scope_limit": "Reproduces code behavior only; does not establish any real user notice has been missed; source-aware removal semantics need design"
+}

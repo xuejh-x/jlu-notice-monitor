@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-14T17:00:45.864611+08:00",
+  "rows_checked": 68,
+  "rows_unchanged": 67,
+  "reviewed_changes": [
+    {
+      "column_url": "https://yz.chsi.com.cn/",
+      "detail_url": "https://gradadmission.zstu.edu.cn/info/1011/3395.htm",
+      "field": "title",
+      "before": "一、招生类型 及学制",
+      "after": "浙江理工大学2027年硕士研究生招生简章",
+      "reason": "Body subsection is no longer promoted to article title; use original list fallback",
+      "scope": "external reference, not a JLU source admission"
+    }
+  ],
+  "snapshot_hash_checks_each": 145,
+  "all_list_fields_equal": true,
+  "dates_bodies_attachments_and_acceptance_equal": true,
+  "network_requests": 0,
+  "database_imported": false
+}

@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-14T21:58:24+08:00",
+  "files": {
+    "backend/app/sources/generic.py": "cc87e4a3c69938c49ed9890e2ac2079f8bbb4fb67a0602cf0417a96e97586abc",
+    "backend/app/sources/base.py": "d00505e6bb9ea852be8c07e8d32e526aeb44d3df77e2d91f6269964db906a21c",
+    "backend/app/parsers/html.py": "4f2122e63c840ca979d32075f20a4e63bc74f15b8f873d0f578f255e14e793b9",
+    "backend/app/services/http_diagnostics.py": "c1632b41af099dbca9019cc770bcbb0d9ad05bbb9192aaf2447568487a9b19fc",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/sources/oa_public.py": "8aaf5971497c24cacdd647216647316371140a6361cc51886e08a8868c596ea4",
+    "backend/scripts/audit_jlu_sites.py": "ae3a2bc79da4012acde8776735c147308f77871d6bbfe581fc177423eae86f35",
+    "backend/scripts/probe_jlu_b5_a.py": "10070a436acadede44298b4b417b4bdc5bd903bb278517b91863f8851da8aac2",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "docs/jlu-fix-b4/source-candidates.json": "d95c25c0a9f2ba1236b7ca40dc14fb8bd178da2f1ca051553996d592ff7d2893"
+  },
+  "mode": "live serial read-only default local network path",
+  "database": "sqlite://",
+  "auth": "none",
+  "network_changes": false,
+  "cloud_production_verified": false
+}

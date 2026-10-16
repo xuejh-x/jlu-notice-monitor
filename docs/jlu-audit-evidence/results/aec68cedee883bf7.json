@@ -1,0 +1,130 @@
+{
+  "column_url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+  "column": "通知公告",
+  "institution": "吉林大学附属中学",
+  "site_url": "https://fszx.jlu.edu.cn/",
+  "category": "附属单位",
+  "priority": "P3",
+  "discovery_url": "https://fszx.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:49:35+08:00",
+  "checked_at": "2026-10-13T13:49:38+08:00",
+  "status": "失败",
+  "issues": [
+    "EMPTY_LIST",
+    "PAGINATION_PARSE_EMPTY",
+    "PAGINATION_NOT_CONFIGURED"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/aec68cedee883bf7.json",
+  "reason": "EMPTY_LIST; PAGINATION_PARSE_EMPTY; PAGINATION_NOT_CONFIGURED",
+  "pagination": {
+    "next_links": [
+      "https://fszx.jlu.edu.cn/xwzx/tzgg/2.htm"
+    ],
+    "production_follows_next": false,
+    "checked": true,
+    "url": "https://fszx.jlu.edu.cn/xwzx/tzgg/2.htm",
+    "time": "2026-10-13T14:06:32+08:00",
+    "ok": true,
+    "reason": "",
+    "list_count": 0,
+    "new_urls": 0,
+    "snapshot": "html/c8bec34765290f6b1b9e81e142897adf962d24c5dced2f8120f51ec099ebe2f7.html"
+  },
+  "final_url": "https://fszx.jlu.edu.cn/xwzx/tzgg.htm",
+  "list_sha256": "97d807da2dc4cf8caec7d78a8f96666ed706203ad36869a184edc766f2f18e0f",
+  "list_snapshot": "html/97d807da2dc4cf8caec7d78a8f96666ed706203ad36869a184edc766f2f18e0f.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 20,
+  "unparsed_reference_links": [
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3696.htm",
+      "title": "吉林大学附属中学2026年报刊订阅项目实行单一来源采购方式的公示"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3694.htm",
+      "title": "吉林大学附属中学2025-2027年度校服采购项目中标结果公示（中标公告）"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3684.htm",
+      "title": "吉林大学附属中学2025-2027年度校服采购项目公开招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3685.htm",
+      "title": "吉林大学附属中学关于委托第三方机构开展校园招标工作的公示"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3640.htm",
+      "title": "吉林大学附属中学电梯项目招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3609.htm",
+      "title": "吉林大学附属中学互联网专线400M招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3669.htm",
+      "title": "吉林大学附属中学舞台灯光音响LED屏租赁服务招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3672.htm",
+      "title": "吉林大学附属中学油墨、版纸招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3671.htm",
+      "title": "吉林大学附属中学宣传板等定制招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3668.htm",
+      "title": "吉林大学附属中学速印机招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3583.htm",
+      "title": "吉林大学附属中学2025年面向社会公开招聘编制外合同制（劳务派遣）教师资格审核初审合格人员名单公示"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3670.htm",
+      "title": "吉林大学附属中学新闻纸招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3667.htm",
+      "title": "吉林大学附属中学汽车租赁服务招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3576.htm",
+      "title": "吉林大学附属中学面向社会公开招聘编制外合同制（劳务派遣）教师公告"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3544.htm",
+      "title": "吉林大学附属中学2025年面向社会公开招聘编制外合同制（劳务派遣）教师资格审核初审合格人员名单公示"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3534.htm",
+      "title": "​吉林大学附属中学2025年面向社会公开招聘编制外合同制（劳务派遣）教师公告"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3673.htm",
+      "title": "吉林大学附属中学直饮机招标"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3358.htm",
+      "title": "平台（网站）公约——吉林大学"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3357.htm",
+      "title": "关于2024年中秋节放假的通知"
+    },
+    {
+      "url": "https://fszx.jlu.edu.cn/info/1018/3164.htm",
+      "title": "吉林大学附属中学第十二届“滋兰杯”教学展示活动"
+    }
+  ]
+}

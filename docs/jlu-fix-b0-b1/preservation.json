@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-13T18:52:42.473103+08:00",
+  "changed_existing_files_since_baseline": [
+    "backend/app/parsers/html.py",
+    "backend/app/sources/base.py",
+    "backend/app/sources/generic.py",
+    "backend/scripts/audit_jlu_sites.py"
+  ],
+  "sources_yaml_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+  "only_application_changes": [
+    "backend/app/parsers/html.py",
+    "backend/app/sources/base.py",
+    "backend/app/sources/generic.py"
+  ]
+}

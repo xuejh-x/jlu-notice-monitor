@@ -1,0 +1,66 @@
+[
+  {
+    "source": "cse",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "time": "2026-10-13T14:12:20+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": true,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "final_url": "https://cse.jlu.edu.cn/xytz.htm",
+    "chars": 16864,
+    "content_type": "text/html"
+  },
+  {
+    "source": "ccst",
+    "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "time": "2026-10-13T14:12:20+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": true,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "final_url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "chars": 13262,
+    "content_type": "text/html"
+  },
+  {
+    "source": "csw",
+    "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "time": "2026-10-13T14:12:22+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": true,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "final_url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "chars": 16499,
+    "content_type": "text/html"
+  },
+  {
+    "source": "jwc",
+    "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "time": "2026-10-13T14:12:23+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": true,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "final_url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "chars": 31430,
+    "content_type": "text/html"
+  },
+  {
+    "source": "innovation",
+    "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "time": "2026-10-13T14:12:24+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": true,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "final_url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "chars": 14641,
+    "content_type": "text/html"
+  },
+  {
+    "source": "oa",
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "time": "2026-10-13T14:12:25+08:00",
+    "scope": "本机 certifi-only TLS 对照；非实际 Cloud",
+    "ok": false,
+    "cloud_dns_policy": "UnsafeSourceUrl: Local and private network addresses are not allowed for this source",
+    "error": "RuntimeError: ROBOTS_UNAVAILABLE: SourceError: Source request failed: "
+  }
+]

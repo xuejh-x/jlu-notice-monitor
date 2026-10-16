@@ -1,0 +1,88 @@
+{
+  "column_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+  "column": "招聘公告",
+  "institution": "基础医学院",
+  "site_url": "https://medicine.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://medicine.jlu.edu.cn/",
+  "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:43:30+08:00",
+  "checked_at": "2026-10-13T13:58:55+08:00",
+  "status": "部分通过",
+  "issues": [
+    "TITLE_NOT_IN_DETAIL_HEADING"
+  ],
+  "details": [
+    {
+      "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+      "list_title": "吉林大学基础医学院2022年公开招聘教师启事 2022-05-16",
+      "parsed_title": "吉林大学基础医学院2022年公开招聘教师启事 2022-05-16",
+      "document_title": "吉林大学基础医学院2022年公开招聘教师启事-吉林大学-基础医学院",
+      "heading_texts": [
+        "吉林大学基础医学院2022年公开招聘教师启事"
+      ],
+      "title_verified": false,
+      "list_date": "2022-05-16",
+      "parsed_date": "2022-05-16",
+      "reference_date": "2022-05-16",
+      "body_selector": ".v_news_content",
+      "content_chars": 1478,
+      "content_preview": "根据《吉林大学新聘人员聘用管理办法》 、《吉林大学新聘教师聘用管理办法（试行）》等文件的要求，结合学院实际工作需要，吉林大学基础医学院 2022 年拟面向社会公开招聘讲师 1 名，现将有关事宜公布如下： 一、招聘条件 1. 拥护中国共产党的领导，坚持正确政治方向，遵守宪法和法律。 2. 具有高尚的道德情操，恪守高校教师师德行为规范和学术道德规范，身心健康，爱岗敬业，具有奉献精神。 3. 具有相对较强的教育教学、科学研究能力和较好的发展潜力，具备取得高等学校教师资格的基本条件。 4. 聘任讲师岗位：博士研究生毕业并取得相应学位，本硕博专业为医学相关专业，同等条件下，具有临床医学、基础医学和药学相关专业背景的优先考虑。应届毕业生应于 2022 年 9 月 30 日前毕业并取得相应学位。 应聘讲师岗位原则上不超过 35 周岁（ 1987 年5月 1 日以后出生），对于取得标志性业绩成果或教学、科",
+      "content_sha256": "a12ddcfddd0065b4873c1caf6fde33cbb54fe782c755073534dd76b9047e370d",
+      "raw_attachments": [],
+      "missing_attachments": [],
+      "parsed_attachments": [],
+      "oa_attachment_references": [],
+      "issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING"
+      ],
+      "time": "2026-10-13T13:58:56+08:00",
+      "sha256": "651dbf6f09bb50a64abdaf47e0d53e81f45369ea022d7fb091dcd83e8c53ed17",
+      "snapshot": "html/651dbf6f09bb50a64abdaf47e0d53e81f45369ea022d7fb091dcd83e8c53ed17.html",
+      "attachment_probes": []
+    }
+  ],
+  "list_count": 1,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学基础医学院2022年公开招聘教师启事 2022-05-16",
+      "url": "https://medicine.jlu.edu.cn/info/1042/1893.htm",
+      "publish_date": "2022-05-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 1,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/43ab44ffea1bc920.json",
+  "reason": "TITLE_NOT_IN_DETAIL_HEADING",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false,
+    "verified_single_page": true,
+    "review_basis": "VSB 当前第1页，翻页按钮禁用且无其他页码链接"
+  },
+  "final_url": "https://medicine.jlu.edu.cn/zszp/rssz.htm",
+  "list_sha256": "c2cfb6faca1b184ebd84ce4ed19c7bc17590cc3dac1c3e44f36cd3aa2bc461e1",
+  "list_snapshot": "html/c2cfb6faca1b184ebd84ce4ed19c7bc17590cc3dac1c3e44f36cd3aa2bc461e1.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 1,
+  "unparsed_reference_links": []
+}

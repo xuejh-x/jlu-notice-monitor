@@ -1,0 +1,168 @@
+{
+  "column_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+  "column": "通知公告",
+  "institution": "公共外交学院",
+  "site_url": "https://sipa.jlu.edu.cn/",
+  "category": "院系",
+  "priority": "P2",
+  "discovery_url": "https://sipa.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:41:11+08:00",
+  "checked_at": "2026-10-13T13:41:16+08:00",
+  "status": "部分通过",
+  "issues": [
+    "LIST_CANDIDATE_RECALL_GAP",
+    "ATTACHMENT_ENDPOINT_FAILED",
+    "ATTACHMENTS_UNCHECKED",
+    "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+  ],
+  "details": [
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+      "list_title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知",
+      "parsed_title": "",
+      "document_title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知-吉林大学公共外交学院",
+      "heading_texts": [],
+      "title_verified": true,
+      "list_date": "2020-03-27",
+      "parsed_date": "2020-03-27",
+      "reference_date": "2020-03-27",
+      "body_selector": ".v_news_content",
+      "content_chars": 1979,
+      "content_preview": "校内各有关单位： 为进一步提高我校国家发展与安全相关问题方向的研究能力，发挥我校综合性大学学科齐全的优势，吸引更多科研力量向国家发展与国家安全相关研究领域汇聚，形成一批具有理论性和方法性、政策性和现实性、战略性和前瞻性的高质量、高水平研究成果，为国家发展与安全决策和政策实施提供支持参考，现面向全校开展2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报工作。相关事宜通知如下： 一、指导思想 高举中国特色社会主义伟大旗帜，以马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观、习近平新时代中国特色社会主义思想为指导，深入贯彻落实党的十九大和十九届二中、三中、四中全会精神，认真贯彻落实习近平总书记关于防控新冠肺炎疫情的一系列重要讲话精神和在中央全面深化改革委员会第十二次会议上关于全面提高生物安全治理能力、把生物安全纳入国家安全体系的重要指示精神，紧紧围绕国家生物安",
+      "content_sha256": "dc87c67a502e7c9c8344df9ade9853335e40c2094228699d0d0509426c9a1498",
+      "raw_attachments": [
+        {
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+          "filename": "附件1：2020年度吉林大学国家发展与安全（生物安全）专项研究课题选题方向.docx"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511716",
+          "filename": "附件2：吉林大学国家发展与安全（生物安全）专项研究课题申请书.doc"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511717",
+          "filename": "附件3：吉林大学国家发展与安全（生物安全）专项研究课题论证活页.doc"
+        },
+        {
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511718",
+          "filename": "附件4：2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报汇总表.xls"
+        }
+      ],
+      "missing_attachments": [],
+      "parsed_attachments": [
+        {
+          "filename": "附件1：2020年度吉林大学国家发展与安全（生物安全）专项研究课题选题方向.docx",
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+          "type": "docx"
+        },
+        {
+          "filename": "附件2：吉林大学国家发展与安全（生物安全）专项研究课题申请书.doc",
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511716",
+          "type": "doc"
+        },
+        {
+          "filename": "附件3：吉林大学国家发展与安全（生物安全）专项研究课题论证活页.doc",
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511717",
+          "type": "doc"
+        },
+        {
+          "filename": "附件4：2020年度吉林大学国家发展与安全（生物安全）专项研究课题申报汇总表.xls",
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511718",
+          "type": "xls"
+        }
+      ],
+      "oa_attachment_references": [],
+      "issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED"
+      ],
+      "time": "2026-10-13T14:01:01+08:00",
+      "sha256": "227ccd71a84db4fa1c5c132ecee10829d19c4cfbf40c0a395ac0ed6dc3489e56",
+      "snapshot": "html/227ccd71a84db4fa1c5c132ecee10829d19c4cfbf40c0a395ac0ed6dc3489e56.html",
+      "attachment_probes": [
+        {
+          "url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+          "time": "2026-10-13T14:01:01+08:00",
+          "ok": false,
+          "method": "GET Range bytes=0-1023",
+          "status": 206,
+          "final_url": "https://sipa.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1550411868&wbfileid=4511715",
+          "content_type": "text/html;charset=UTF-8",
+          "disposition": "",
+          "prefix_hex": "3c21444f43545950452068746d6c3e0d",
+          "read_bytes": 1024,
+          "error": "附件端点返回空响应或 HTML，不能认定下载成功"
+        }
+      ]
+    }
+  ],
+  "list_count": 2,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2020年度吉林大学国家发展与安全（生物安全）专项研究课题的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1080/3483.htm",
+      "publish_date": "2020-03-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发：关于申报2020年度教育部人文社会科学研究一般项目的通知",
+      "url": "https://sipa.jlu.edu.cn/info/1080/2664.htm",
+      "publish_date": "2019-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "generic_count": 2,
+  "attachments_checked": 1,
+  "evidence_file": "docs/jlu-audit-evidence/results/4ef17320b90fd74d.json",
+  "reason": "LIST_CANDIDATE_RECALL_GAP; ATTACHMENT_ENDPOINT_FAILED; ATTACHMENTS_UNCHECKED; PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://sipa.jlu.edu.cn/kxyj/tzgg.htm",
+  "list_sha256": "1323fc3492e2e0ec4636ae4f6c990b6b4863e8d157f5c3c1f98d76c996443581",
+  "list_snapshot": "html/1323fc3492e2e0ec4636ae4f6c990b6b4863e8d157f5c3c1f98d76c996443581.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "parser": "auto",
+  "reference_article_count": 4,
+  "unparsed_reference_links": [
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1163/1821.htm",
+      "title": "院长信箱"
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/info/1163/1820.htm",
+      "title": "书记信箱"
+    }
+  ]
+}

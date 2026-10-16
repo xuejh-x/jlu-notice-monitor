@@ -1,0 +1,29 @@
+{
+  "time": "2026-10-15T19:04:27+08:00",
+  "columns": 17,
+  "verdicts": {
+    "PREFIX_EVIDENCE_ONLY": 4,
+    "NO_ATTACHMENT_IN_BOUNDED_SAMPLE": 2,
+    "ATTACHMENT_CAPABILITY_LIMITED": 10,
+    "DEFERRED_OA_AT_USER_REQUEST": 1
+  },
+  "selected_unique_endpoints": 14,
+  "selected_categories": {
+    "FILE_PREFIX_VERIFIED": 4,
+    "CAPTCHA_REQUIRED": 10
+  },
+  "fresh_unique_endpoints": 2,
+  "fresh_categories": {
+    "FILE_PREFIX_VERIFIED": 1,
+    "CAPTCHA_REQUIRED": 1
+  },
+  "historical_selected_endpoints_reused": 12,
+  "extra_detail_previews": 2,
+  "http_attempts_this_session": 7,
+  "app_database_connections": 0,
+  "oa_network_requests": 0,
+  "complete_downloads": 0,
+  "formal_admissions": 0,
+  "formal_sources_changed": 0,
+  "cloud_production_verified": false
+}

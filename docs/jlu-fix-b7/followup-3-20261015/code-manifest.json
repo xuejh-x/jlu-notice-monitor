@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-15T22:45:08+08:00",
+  "files": {
+    "backend/scripts/followup_jlu_b7.py": "8a177c4f95bb03579e21d330e371b8021379e2e23807ea528c20fd46a2580d48",
+    "backend/scripts/audit_jlu_sites.py": "912a79412160d44b7f2088316da369b81d93c428f86d40be7bfbb4e4dab8532f",
+    "backend/app/parsers/html.py": "a736c3a8a4f07761e0cd9fa121b8c85e1cb3eaad083537794c9976c5d6118b5a",
+    "backend/app/services/deduplication.py": "2646a4d01f3f6e8ee1c6e8b861b6335f93c2fee115af5424f89026b026d730eb",
+    "backend/app/sources/generic.py": "523ebe7705ae22047e99015e8a675e44e7d11d03a8ea95c106de559863da91dd",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/config/sources.yaml": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+    "input/requests.json": "9cd85a446c692cea21570cd0068e3c44c8833b2a88ce42a870dc97d0fa0cc158",
+    "input/validation-targets.json": "9834f1d23c67667da3467a3ab425d825f78844b0d9e268a03b96e2ef8a4d35d5",
+    "input/code-manifest.json": "a71c76e44001ef82ebdf015530c53de3661d59d0adbac49137e4269223344784",
+    "review/results.json": "699c85a910fa85fbf667369d9e9892284f4e34a7f6b54c694af355eac9866d4e"
+  },
+  "urls": [
+    "https://synlab.jlu.edu.cn/2025/05/5128.html"
+  ],
+  "input_dir": "docs\\jlu-fix-b7\\followup-2-20261015",
+  "review_dir": "docs\\jlu-fix-b7\\review-5-20261015",
+  "limits": "<=32 literal-link HTML URLs; serial existing robots/rate limits; no known failure retries/OA/downloads"
+}

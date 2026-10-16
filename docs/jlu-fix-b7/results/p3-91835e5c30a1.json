@@ -1,0 +1,912 @@
+{
+  "id": "p3-91835e5c30a1",
+  "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+  "institution": "吉林大学附属小学",
+  "column": "通知公告",
+  "site_url": "https://jdfx.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/91835e5c30a10976.json",
+  "original_capture_time": "2026-10-13T14:07:00+08:00",
+  "discovery_url": "https://jdfx.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-91835e5c30a1",
+    "name": "吉林大学附属小学 / 通知公告",
+    "base_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:00:51+08:00",
+  "details": [
+    {
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2081.htm",
+      "list_title": "吉林大学附属小学招聘教师公示 2026-10-11",
+      "list_date": "",
+      "response": {
+        "url": "https://jdfx.jlu.edu.cn/info/1016/2081.htm",
+        "time": "2026-10-15T22:12:16+08:00",
+        "ok": true,
+        "final_url": "https://jdfx.jlu.edu.cn/info/1016/2081.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "203096c00b2dd0d5e254b24063737ac391c00a0935ce03db5e917d2210c6f216",
+        "html_path": "html/203096c00b2dd0d5e254b24063737ac391c00a0935ce03db5e917d2210c6f216.html",
+        "replacement_chars": 0,
+        "chars": 14483,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学附属小学招聘教师公示",
+        "url": "https://jdfx.jlu.edu.cn/info/1016/2081.htm",
+        "publish_date": "2026-10-11",
+        "publisher": null,
+        "content": "吉林大学附属小学招聘教师 公示 2026年10月，学校需要增加2位教师（以人事代理方式管理）。学校面向社会公开招聘，招聘本着公开公正的原则，严格按照招聘流程进行。 经面试、笔试考评，于鹏航、姜岩老师以综合成绩前两名的成绩入选。考核小组成员一致同意于鹏航、姜岩两位老师为拟聘人员，现进行公示。 公示时间：2026年10月11日—2026年10月16日。 如对拟聘人员有异议，请在公示期内实名拨打电话88499675，匿名反映不予受理。 公示通过后，按照流程办理体检和政审，上报吉林大学审批，审批通过后按吉林大学相关规定办理入职手续。 吉林大学附属小学 2026年10月11日",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学附属小学招聘教师公示"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-10-11",
+            "date": "2026-10-11"
+          },
+          {
+            "text": "发布日期：2026-10-11",
+            "date": "2026-10-11"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 286,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学附属小学招聘教师公示"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学附属小学招聘教师公示 信息来源： 发布日期：2026-10-11",
+            "date": "2026-10-11"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-10-11",
+            "date": "2026-10-11"
+          },
+          {
+            "text": "发布日期：2026-10-11",
+            "date": "2026-10-11"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+      "list_title": "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件 2026-09-23",
+      "list_date": "",
+      "response": {
+        "url": "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+        "time": "2026-10-15T22:12:17+08:00",
+        "ok": true,
+        "final_url": "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "955e8245b3b0796b7481b2c4428d9546362c76a99dc177f7e0b4b3770dbdea6f",
+        "html_path": "html/955e8245b3b0796b7481b2c4428d9546362c76a99dc177f7e0b4b3770dbdea6f.html",
+        "replacement_chars": 0,
+        "chars": 13467,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件",
+        "url": "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+        "publish_date": "2026-09-23",
+        "publisher": null,
+        "content": "",
+        "attachments": [
+          {
+            "filename": "DCAF0A823A36EE3F2AF40DC10EB_CA0968E8_15B8E4.pdf",
+            "url": "https://jdfx.jlu.edu.cn/__local/A/8F/E7/DCAF0A823A36EE3F2AF40DC10EB_CA0968E8_15B8E4.pdf",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "发布日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "embedded_pdf_reference_urls": [
+          "https://jdfx.jlu.edu.cn/__local/A/8F/E7/DCAF0A823A36EE3F2AF40DC10EB_CA0968E8_15B8E4.pdf"
+        ],
+        "embedded_pdf_references_verified": true,
+        "body_kind": "EMBEDDED_PDF_ATTACHMENT_REFERENCE_ONLY",
+        "body_text_verified": false,
+        "attachment_file_verified": false,
+        "additional_scoped_heading_evidence": [
+          "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件 信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-09-23",
+            "date": "2026-09-23"
+          },
+          {
+            "text": "发布日期：2026-09-23",
+            "date": "2026-09-23"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+      "list_title": "吉林大学附属小学 教师招聘公告 2026-03-09",
+      "list_date": "",
+      "response": {
+        "url": "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+        "time": "2026-10-15T22:12:19+08:00",
+        "ok": true,
+        "final_url": "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9700c19b5e71cdd055299e1c6364ae23aacff6042dbf3c02858f4a7d28d067f9",
+        "html_path": "html/9700c19b5e71cdd055299e1c6364ae23aacff6042dbf3c02858f4a7d28d067f9.html",
+        "replacement_chars": 0,
+        "chars": 41236,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学附属小学 教师招聘公告",
+        "url": "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+        "publish_date": "2026-03-09",
+        "publisher": null,
+        "content": "吉林大学附属小学 教师招聘 公告 吉林大学附属小学是一所现代化的发展型学校，也是吉林省首家开展 “英才教育”实验的小学，被列为“吉林省教科院培养拔尖创新人才研究基地”。学校着力打造“英才教育”特色，以“润育心灵，激发潜能”为教育理念，依托吉林大学、吉林省教育科学院科研资源，抓住大脑潜能开发的关键时期，潜心研究小学生的英才教育，致力于提高学生的创新精神和创造能力，构建与每个学生的特点和潜能相匹配的优质教育。学校 确立了 “ 启迪心灵、开发潜能、 超常创新、培育英才 ” 的办学目标 ， 实施以 “ 十六心 ” 为重点的心灵教育 ，全面促进学生智力因素与非智 力 因素协同发展。 根据学校发展需要，现招聘教师。新聘教师以人事代理方式进行管理。 一、招聘条件 （一）基本条件 拥护中国共产党的领导，忠诚人民教育事业，师德高尚、积极进取、业务精湛、身心健康、乐于奉献、爱岗敬业、团结合作。 （二）资格条件 1.高等师范院校或吉林大学毕业 2.本科及以上学历 3.所学专业与任教学科相符 4.年龄 4 5周岁 以下，教龄 5年以上 5.在教学大赛中荣获市级以上奖项 6.特级教师、市级以上骨干教师、省市名师评选中荣获精英或新秀称号优先考虑。 （ 三 ）有下列情形之一的人员不得报名 1 . 因犯罪受过刑事处罚的人员、被开除中国共产党党籍的人员、被开除公职的人员、被依法列为失信联合惩戒对象的人员。 2 . 在各级公职人员招考中被认定有舞弊等严重违反考试录用纪律行为的人员。 3 . 其他法律法规、政策规定不适宜报名的人员。 二 、 招聘方式 招聘采取笔试 +面试（包括试讲）的方式进行 。 三 、招聘岗位 小学 语文、数学 教师 各 1人 。 本科毕业并取得学士学位的新聘教师，见习 1年期满并考核合格聘用到初级岗位；硕士研究生毕业并取得相应学位或具有国家承认的初级专业技术资格的新聘教师，聘用到初级岗位；具有国家承认的中级及以上专业技术职务在职资格的新聘教师，聘用到中级岗位。 四 、招聘 流程 （一）发布公告 202 6 年 3 月 9 日通过 吉林大学附属小学官网 发布招聘公告。 （二）报名 1 . 报名截止时间： 20 2 6 年 3 月 23 日。 2 . 报名方式： 报名人员下载 附件 1和附件2，按照要求如实填写。 报名登记表 (见附件1)、报名汇总表（见附件2）、本人学习工作简历（简历中包含个人基本情况、教育教学水平、业务能力、工作成绩介绍等,简历中附近期免冠照片和 联系方式（手机、固定电话） 。以上材料只交电子版， 一起打包发送， 电子材料以本人姓名 +学科命名。 请将电子材料发至 Email： 2 14149631 @qq.com 3 . 报名要求： （ 1）应聘人员因错报相关信息而影响资格审查的，责任自负。 （ 2）应聘人员应如实填报，提供所需材料，存在弄虚作假、伪报瞒报等情况，取消报名资格。 （ 3）每名应聘人员只允许报考一个学科。 （ 三 ） 资格审查 吉林大学附属小学 根据岗位要求和基本条件对应聘人员提交的电子版材料进行初步审查，并电话通知初审合格 应聘 人员。 应聘人员报到时进行资格复查， 请携带与本人填报信息相一致的身份证、毕业证、学位证、教师资格证书、职称证明、普通话等级证书、荣誉证书等相关材料原件及复印 件（ 1份） 。 （ 四 ） 考核 方法 考核采用 笔试 和 面试 相结合的方式进行 。具体时间 电话 通知。 1.笔试 笔试 不设开考比例，由吉林大学附属小学统一组织实施。 笔试内容包括教育时政热点、公共基础知识、教育基础知识、学科专业知识等 。 2.面试 面试时间 1 5 分钟，面试形式为：试讲（ 10 分钟微课）加答辩（ 5 分钟），主要 考察 考生的相关基础和专业知识、综合分析、解决实际问题、组织协调和语言表达等方面的能力。 3. 总成绩计算 总成绩 =笔试成绩+面试成绩，按照总成绩由高到低的顺序，按岗位招聘人数1:1的比例确定推荐人选。 （ 五 ）体检 与 政审 1.被确定为推荐人选的考生须参加吉林大学附属小学统一组织的体检。体检在学校指定的医院进行，体检标准参照修订后的《公务员录用体检通用标准（试行）》，并结合吉林大学附属小学用人需求情况确定。 2.体检合格的考生，学校对其政治思想、道德品质、遵纪守法等情况进行政审。 3.体检、政审不合格的，取消考察人选资格。考生在体检、政审过程中弄虚作假、隐瞒重要病史或违法违纪情况等导致体检、政审结果不实的，取消聘用资格。 （ 六 ） 公示 与 聘用 对于通过体检及政审的考察人选，经吉林大学附属小学审议通过后，在吉林大学附属小学官网对考察人选进行公示。经公示无异议或虽有异议但不影响聘用的，确定为聘用人选，报吉林大学审批，审批通过后按吉林大学相关规定办理入职手续。 五 、招聘咨询 联系电话： 0431-88499675 地址 : 长春市朝阳区明德路 421号( 惠民路与立信街交汇处 ) 吉林大学附属小学 202 6年3月9日",
+        "attachments": [
+          {
+            "filename": "附件1 报名表.doc",
+            "url": "https://jdfx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1969204141&wbfileid=18047058",
+            "type": "doc"
+          },
+          {
+            "filename": "附件2 招聘教师统计表.xls",
+            "url": "https://jdfx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1969204141&wbfileid=18047057",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": ".art-tit h3",
+            "title": "吉林大学附属小学 教师招聘公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "信息来源： 发布日期：2026-03-09",
+            "date": "2026-03-09"
+          },
+          {
+            "text": "发布日期：2026-03-09",
+            "date": "2026-03-09"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 2073,
+        "reference_attachment_urls": [
+          "https://jdfx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1969204141&wbfileid=18047057",
+          "https://jdfx.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1969204141&wbfileid=18047058"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林大学附属小学 教师招聘公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "吉林大学附属小学 教师招聘公告 信息来源： 发布日期：2026-03-09",
+            "date": "2026-03-09"
+          },
+          {
+            "text": "信息来源： 发布日期：2026-03-09",
+            "date": "2026-03-09"
+          },
+          {
+            "text": "发布日期：2026-03-09",
+            "date": "2026-03-09"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+        "time": "2026-10-15T22:12:13+08:00",
+        "ok": true,
+        "final_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "639a975c1a5d71c1c0a73489fe220d086751278e822a57fc238e86b80a007bfb",
+        "html_path": "html/639a975c1a5d71c1c0a73489fe220d086751278e822a57fc238e86b80a007bfb.html",
+        "replacement_chars": 0,
+        "chars": 15749,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jdfx.jlu.edu.cn/info/1016/2001.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2051.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2052.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2056.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2061.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2071.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2072.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2074.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2081.htm"
+      ],
+      "observed_next_urls": [
+        "https://jdfx.jlu.edu.cn/tzgg/3.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://jdfx.jlu.edu.cn/tzgg/3.htm",
+        "time": "2026-10-15T22:12:16+08:00",
+        "ok": true,
+        "final_url": "https://jdfx.jlu.edu.cn/tzgg/3.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "65b6a699e11364a6e57268c80b5c336efe302f789ed4de0f9a523d919e7c10b3",
+        "html_path": "html/65b6a699e11364a6e57268c80b5c336efe302f789ed4de0f9a523d919e7c10b3.html",
+        "replacement_chars": 0,
+        "chars": 15932,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://jdfx.jlu.edu.cn/info/1016/1791.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/1811.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/1821.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/1890.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/1981.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2022.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2023.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2024.htm",
+        "https://jdfx.jlu.edu.cn/info/1016/2025.htm"
+      ],
+      "observed_next_urls": [
+        "https://jdfx.jlu.edu.cn/tzgg/2.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "time": "2026-10-15T22:12:13+08:00",
+    "ok": true,
+    "final_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "639a975c1a5d71c1c0a73489fe220d086751278e822a57fc238e86b80a007bfb",
+    "html_path": "html/639a975c1a5d71c1c0a73489fe220d086751278e822a57fc238e86b80a007bfb.html",
+    "replacement_chars": 0,
+    "chars": 15749,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学招聘教师公示 2026-10-11",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2081.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学南岭校区学生体质检测仪器设备采购需求文件 2026-09-23",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2075.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学南岭校区心理咨询室设备采购需求文件 2026-09-23",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2074.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学南岭校区学生课桌椅招标采购需求文件 2026-09-21",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2072.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学南岭校区录播教室设备采购需求文件 2026-09-21",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2071.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学 教师招聘公告 2026-09-09",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2061.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "附属小学南岭校区报告厅舞台及设备间改造工程招标 2026-06-30",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2056.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉大附小南岭校区报告厅升级改造需求 2026-06-12",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2052.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "附属小学学生课桌椅招标采购需求文件 2026-06-10",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2051.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学招聘教师公示 2026-03-30",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2001.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学 教师招聘公告 2026-03-09",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1991.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学校服采购项目招标公告 2026-01-07",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1981.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学教师招聘启事 2025-05-19",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1890.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于小学部2025年1月5日招考教师的公示 2025-01-05",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1821.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学教师招聘启事 2024-12-24",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1811.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "语数外音体美学科装备器材购置需求 2024-12-05",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2025.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "迎接督导检查科学学科装备器材购置需求 2024-12-01",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2024.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学附属小学教师招聘启事 2024-11-18",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/1791.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "附属小学A区操场铁艺围栏安装招标 2024-06-28",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2023.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "附属小学D区学术报告厅地面等部分改造工程招标 2024-04-01",
+      "url": "https://jdfx.jlu.edu.cn/info/1016/2022.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://jdfx.jlu.edu.cn/tzgg/3.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p3-91835e5c30a1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.6700010746717453e-05,
+      "detail_duration_seconds": 9.499955922365189e-06,
+      "parse_db_duration_seconds": 0.03103100007865578
+    },
+    "second_round": {
+      "source": "p3-91835e5c30a1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.910002902150154e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-91835e5c30a1",
+    "institution": "吉林大学附属小学",
+    "column": "通知公告",
+    "url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:12:13+08:00",
+    "review_time": "2026-10-15T23:00:51+08:00",
+    "http_status": 200,
+    "final_url": "https://jdfx.jlu.edu.cn/tzgg.htm",
+    "list_pages": 2,
+    "list_items": 20,
+    "details": 3,
+    "verified_details": 3,
+    "issues": [],
+    "discovery_url": "https://jdfx.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-91835e5c30a1.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}

@@ -1,0 +1,542 @@
+{
+  "id": "p2-6f487871816f",
+  "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+  "institution": "商学与管理学院",
+  "column": "教学通知",
+  "site_url": "https://sg.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+  "original_evidence": "docs/jlu-audit-evidence/results/6f487871816f63b1.json",
+  "discovery_url": "https://sg.jlu.edu.cn/",
+  "original_snapshot": "html/2e9077afa737d3493503a87945acd565fc2ebebaee7807e53d7c57070a5b58eb.html",
+  "original_capture_time": "2026-10-13T14:00:26+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-6f487871816f",
+    "name": "商学与管理学院 / 教学通知",
+    "base_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:52+08:00",
+  "details": [
+    {
+      "url": "https://sg.jlu.edu.cn/info/1366/18792.htm",
+      "list_title": "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知",
+      "list_date": "2022-11-17",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1366/18792.htm",
+        "time": "2026-10-15T19:38:39+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1366/18792.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "b7bef11a44ee203bd9cde711acc6a40a3e0c84b74a6c8b62eefe5b57d2a7644a",
+        "html_path": "html/b7bef11a44ee203bd9cde711acc6a40a3e0c84b74a6c8b62eefe5b57d2a7644a.html",
+        "replacement_chars": 0,
+        "chars": 33445,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知",
+        "url": "https://sg.jlu.edu.cn/info/1366/18792.htm",
+        "publish_date": "2022-11-17",
+        "publisher": "研究生培养办公室",
+        "content": "各研究生培养单位： 为深入落实习近平总书记关于研究生教育的重要指示，深入学习党的二十大和全国研究生教育大会精神，把思想政治教育贯穿高层次人才培养体系，全面推进研究生课程思政建设，根据《教育部关于印发 < 高等学校课程思政建设指导纲要 > 的通知》（教高〔 2020 〕 3 号）（附件 1 ）有关要求，现开展 2022 年研究生“课程思政示范课”建设项目立项工作，具体事宜通知如下： 一、指导思想 落实立德树人根本任务，明确“培养什么人、怎样培养人、为谁培养人”这一教育根本问题，将价值塑造、知识传授和能力培养三者融为一体，引导研究生塑造正确的世界观、人生观、价值观。紧紧抓住教师队伍“主力军”、课程建设“主战场”、课堂教学“主渠道”，使各类课程与思政课程同向同行，将显性教育和隐性教育相统一，形成协同效应，构建全员全程全方位“三全育人”大格局。 二、建设目标 1. 做好课程整体设计。根据学科专业特点，从教学团队、教学组织、课程内容、教学方法、效果考核等环节全面发挥示范作用，根据本次研究生培养方案的重新修订和制定，修订教学大纲，建设示范教学课件和教学资源库。 2. 深度挖掘研究生课程的“思政元素”。将社会主义核心价值观、家国情怀、法治意识、社会责任、文化自信、人文情怀、创新意识、科学素养、工匠精神等相关的德育元素，结合吉林大学“又红又专”的历史底蕴、学科综合的独特优势和爱党爱国的厚重历史，融入教学大纲的重要条目和课堂讲授的重要内容，将价值引领、知识传授和能力培养有机融合起来。 3. 创新教育教学方式方法。通过运用典型案例、开展专题教学等方式，切实合理地将“课程思政”的教学目标融入教学设计。 4. 优化课程评价方式，形成有效体现“课程思政”教学效果的考核评价方法。 三、申报条件 1. 课程负责人和课程团队成员具有良好师德师风，具有丰富的教学经验和较高的学术造诣。 2. 课程负责人一般应具有副教授以上职称，须有三年以上研究生课程教学经验。 3. 申报课程应为纳入本单位学术学位或专业学位研究生培养方案的专业课程，不含思政课程。 4. 课程负责人主讲该申报课程不少于两轮，教学改革经验丰富，教学方法得当，教学效果好。 5. 已承担吉林省及我校研究生“课程思政示范课”建设项目且尚未结项的课程及课程负责人，不得参加本次申报。 四、成果要求 1. 提供能体现“课程思政”新特点的教案。 2. 提交一份项目总结报告。报告应当包括改革目标、改革思路、改革举措、考核方法、学生反馈、典型案例等内容，应包括文字、照片等多种形式。 3. 公开发表一篇研究生课程思政相关内容的教学改革论文。文章须标注“吉林大学研究生课程思政示范课建设项目”及项目编号。 五、申报程序 1. 各研究生培养单位推荐不超过 3 门研究生课程参加评选。 2. 研究生院组织专家对申报项目进行评审，对专家评审通过的项目公示后予以立项资助。 3. 申报单位对本单位获批立项资助的项目按 1 ： 1 经费额度配套资助。 六、项目管理 1. 项目建设周期为两年，立项一年后进行中期检查，两年后进行结题验收。 2. 项目资助进经费为 1 万元（其中，学校资助 0.5 万元，所在单位资助 0.5 万元）。 3. 建设周期结束，研究生院将组织专家对项目进行结题验收，并向通过结题的项目负责人颁发结题证书。 七、材料报送 1. 项目申请人填写《吉林大学研究生“课程思政示范课”建设项目立项申报书》（附件 2 ）报送所在培养单位研究生办公室，经培养单位确认推荐名单后，由负责研究生工作的老师 11 月 25 日上午 11 点前将推荐名单汇总表 ( 附件 3) 电子版发送至 ylhao @jlu.edu.cn 。 2. 经培养单位审核并确定推荐后，请各项目申请人在“吉林大学研究生培养管理信息平台”（ https://jlupy.jlu.edu.cn/Teacher/register ）进行填报。 系统将于 11 月 22 日 10 ： 00 至 11 月 27 日 16 ： 00 之间开放，项目运行时间统一填写“ 2023 年 3 月至 2025 年 3 月”。 3. 研究生院将组织专家对项目申报材料进行评审，确定拟立项项目后在校内进行公示。 4. 项目运行周期结束，研究生院将组织专家对项目进行结题验收。 联系人：郝永亮 联系电话： 85168171 研究生院 2022 年 11 月 16 日 备注：申报教师请于 11 月 18 日 11:00 前联系研究生培养办公室候老师，联系电话： 15584499101",
+        "attachments": [
+          {
+            "filename": "附件1：高等学校课程思政建设指导纲要.docx",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842675",
+            "type": "docx"
+          },
+          {
+            "filename": "附件2：吉林大学研究生“课程思政”示范课程建设立项申报书.doc",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842676",
+            "type": "doc"
+          },
+          {
+            "filename": "附件3：吉林大学研究生课程思政示范课程建设立项汇总表.xls",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842677",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2022-11-17 作者：研究生培养办公室 点击：",
+            "date": "2022-11-17"
+          },
+          {
+            "text": "时间：2022-11-17",
+            "date": "2022-11-17"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1889,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842675",
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842676",
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11842677"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1366/18104.htm",
+      "list_title": "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知",
+      "list_date": "2022-09-14",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1366/18104.htm",
+        "time": "2026-10-15T19:38:40+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1366/18104.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "38fc7c6a87086ebfc0deded4bfe37660b8363d4c024cf7af0f2ed71f32ccc295",
+        "html_path": "html/38fc7c6a87086ebfc0deded4bfe37660b8363d4c024cf7af0f2ed71f32ccc295.html",
+        "replacement_chars": 0,
+        "chars": 23839,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知",
+        "url": "https://sg.jlu.edu.cn/info/1366/18104.htm",
+        "publish_date": "2022-09-14",
+        "publisher": "研究生培养办公室",
+        "content": "校内各研究生培养单位： 《 关于进一步规范研究生导师信息录入及更换有关事项的意见 》校研院字〔 2022 〕 6 号（修订版）经研究生院院务会议（ 2022 年第 1 次）审议通过，现予以印发，请遵照执行。",
+        "attachments": [
+          {
+            "filename": "关于进一步规范研究生导师信息录入及更换有关事项的意见.pdf",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11453184",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2022-09-14 作者：研究生培养办公室 点击：",
+            "date": "2022-09-14"
+          },
+          {
+            "text": "时间：2022-09-14",
+            "date": "2022-09-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 103,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11453184"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://sg.jlu.edu.cn/info/1366/18103.htm",
+      "list_title": "【转】关于印发《吉林大学研究生教学管理规定》的通知",
+      "list_date": "2022-09-14",
+      "response": {
+        "url": "https://sg.jlu.edu.cn/info/1366/18103.htm",
+        "time": "2026-10-15T19:38:41+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/info/1366/18103.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "0d51604381dd6bce6e1e3d1430f8603ccf559982d18c40dd7bf9fa09b6643539",
+        "html_path": "html/0d51604381dd6bce6e1e3d1430f8603ccf559982d18c40dd7bf9fa09b6643539.html",
+        "replacement_chars": 0,
+        "chars": 25819,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "【转】关于印发《吉林大学研究生教学管理规定》的通知",
+        "url": "https://sg.jlu.edu.cn/info/1366/18103.htm",
+        "publish_date": "2022-09-14",
+        "publisher": "研究生培养办公室",
+        "content": "各研究生培养单位： 《吉林大学研究生教学管理规定》（校研院字﹝ 2022 ﹞ 50 号）经 2022 年 9 月 2 日吉林大学研究生院第五次院务会审议通过，现予印发，请遵照执行。 附件：《吉林大学研究生教学管理规定》（校研院字﹝ 2022 ﹞ 50 号） 研究生院 2022 年 9 月 4 日",
+        "attachments": [
+          {
+            "filename": "《吉林大学研究生教学管理规定》（校研院字﹝2022﹞50号）.pdf",
+            "url": "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11453172",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "【转】关于印发《吉林大学研究生教学管理规定》的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "【转】关于印发《吉林大学研究生教学管理规定》的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "时间：2022-09-14 作者：研究生培养办公室 点击：",
+            "date": "2022-09-14"
+          },
+          {
+            "text": "时间：2022-09-14",
+            "date": "2022-09-14"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 148,
+        "reference_attachment_urls": [
+          "https://sg.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1812431662&wbfileid=11453172"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "【转】关于印发《吉林大学研究生教学管理规定》的通知"
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "time": "2026-10-15T19:28:49+08:00",
+        "ok": true,
+        "final_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "2e9077afa737d3493503a87945acd565fc2ebebaee7807e53d7c57070a5b58eb",
+        "html_path": "html/2e9077afa737d3493503a87945acd565fc2ebebaee7807e53d7c57070a5b58eb.html",
+        "replacement_chars": 0,
+        "chars": 22170,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://sg.jlu.edu.cn/info/1366/18102.htm",
+        "https://sg.jlu.edu.cn/info/1366/18103.htm",
+        "https://sg.jlu.edu.cn/info/1366/18104.htm",
+        "https://sg.jlu.edu.cn/info/1366/18792.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "time": "2026-10-15T19:28:49+08:00",
+    "ok": true,
+    "final_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "2e9077afa737d3493503a87945acd565fc2ebebaee7807e53d7c57070a5b58eb",
+    "html_path": "html/2e9077afa737d3493503a87945acd565fc2ebebaee7807e53d7c57070a5b58eb.html",
+    "replacement_chars": 0,
+    "chars": 22170,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转】关于开展2023年研究生“课程思政示范课”建设项目立项工作通知",
+      "url": "https://sg.jlu.edu.cn/info/1366/18792.htm",
+      "publish_date": "2022-11-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转】关于印发《关于进一步规范研究生导师信息录入及更换有关事项的意见》的通知",
+      "url": "https://sg.jlu.edu.cn/info/1366/18104.htm",
+      "publish_date": "2022-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转】关于印发《吉林大学研究生教学管理规定》的通知",
+      "url": "https://sg.jlu.edu.cn/info/1366/18103.htm",
+      "publish_date": "2022-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "【转】关于印发《吉林大学研究生学位论文评审工作实施办法》的通知",
+      "url": "https://sg.jlu.edu.cn/info/1366/18102.htm",
+      "publish_date": "2022-09-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 4,
+  "pagination": [
+    {
+      "start_url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+          "parsed_items": 4,
+          "added_items": 4
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-6f487871816f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.080004196614027e-05,
+      "detail_duration_seconds": 9.300070814788342e-06,
+      "parse_db_duration_seconds": 0.04320339998230338
+    },
+    "second_round": {
+      "source": "p2-6f487871816f",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8699909560382366e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-6f487871816f",
+    "institution": "商学与管理学院",
+    "column": "教学通知",
+    "url": "https://sg.jlu.edu.cn/jxxm/ss/jxtz.htm",
+    "original_status": "部分通过",
+    "original_issues": "LIST_DATES_MISSING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:49+08:00",
+    "review_time": "2026-10-15T20:20:52+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 1,
+    "list_count": 4,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-6f487871816f.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

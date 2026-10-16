@@ -1,0 +1,25 @@
+{
+  "column_url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+  "column": "答辩公告",
+  "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室",
+  "site_url": "https://yjsy.jlu.edu.cn/",
+  "category": "管理服务",
+  "priority": "P1",
+  "discovery_url": "https://yjsy.jlu.edu.cn/",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:34:41+08:00",
+  "checked_at": "2026-10-13T13:52:22+08:00",
+  "status": "无需适配",
+  "issues": [
+    "OUT_OF_SCOPE_REFERENCE"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/69f0ea5a1f6f7eab.json",
+  "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目",
+  "pagination": {}
+}

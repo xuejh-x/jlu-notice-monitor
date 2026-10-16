@@ -1,0 +1,8 @@
+{
+  "run": "docs/jlu-fix-b5-a/live-20261014",
+  "error": "AssertionError: expected no app.database modules imported",
+  "phase": "after all network requests; summary finalization",
+  "cause": "Source package eagerly imports registry and CloudFeedSource, which initializes an in-memory database engine",
+  "impact": "HTTP evidence retained; no crawler or DB session called; initial summary not produced",
+  "resolution": "Follow-up asserts sqlite:// and rejects any actual engine connection; cached capture times preserved"
+}

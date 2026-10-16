@@ -1,0 +1,580 @@
+{
+  "id": "p2-af1ca3ec1c4a",
+  "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+  "institution": "白求恩第三临床医学院",
+  "column": "招生信息",
+  "site_url": "https://www.zrlyyy.com/index.html",
+  "old_status": "失败",
+  "old_issues": "EMPTY_LIST",
+  "original_evidence": "docs/jlu-audit-evidence/results/af1ca3ec1c4af90d.json",
+  "discovery_url": "https://www.zrlyyy.com/index.html",
+  "original_snapshot": "html/a0c3b4fe66954ed184b2489ec9a5ad5c83a7fa9a6367afb3effceb36b65d6e1c.html",
+  "original_capture_time": "2026-10-13T14:01:22+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-af1ca3ec1c4a",
+    "name": "白求恩第三临床医学院 / 招生信息",
+    "base_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]",
+      "item_selector": ".list > .li:has(> a[href^=\"/wujia_detail_g7yU_60/\"])",
+      "title_selector": "a > .p",
+      "url_selector": "a[href^=\"/wujia_detail_g7yU_60/\"]",
+      "time_selector": "a > .y"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:12+08:00",
+  "details": [
+    {
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+      "list_title": "吉林大学中日联谊医院人工智能辅助治疗培训基地招生公告",
+      "list_date": "2025-03-10",
+      "response": {
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+        "time": "2026-10-15T19:35:20+08:00",
+        "ok": true,
+        "final_url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+        "content_type": "text/html; charset=utf-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "38e011e8b0025e755501c204418f25e8a789ae6a772cbfdbdec6859993a96913",
+        "html_path": "html/38e011e8b0025e755501c204418f25e8a789ae6a772cbfdbdec6859993a96913.html",
+        "replacement_chars": 0,
+        "chars": 39720,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学中日联谊医院人工智能辅助治疗培训基地招生公告",
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+        "publish_date": "2025-03-10",
+        "publisher": null,
+        "content": "吉林大学中日联谊医院是国家教育部直属全国重点综合性大学——吉林大学所属的、国家卫生健康委员会属（管）的集医疗、教学、科研、预防、保健、康复为一体的大型现代化综合性三级甲等医院。素来享有“吉林省外科医师摇篮”的美誉。在省内率先开展人工智能辅助治疗技术。2020年3月2日，吉林省内第一台、国家卫生健康委委（属）管医院首台第四代达芬奇手术机器人正式落户我院，装机调试并投入使用。2021年1月，医院建成吉林省首个达芬奇机器人数字化手术室。医院加强顶层设计，统筹管理，确立了“整体主抓、多部门协助、多学科共同开发应用”的技术发展理念，肝胆胰外科、甲状腺外科、泌尿外科、胸外科、胃肠结直肠外科、妇科、减重代谢外科等机器人辅助手术发展迅速并日益成熟，通过手术室、病理科、麻醉科等“多部门紧密协作组”的形式提升开台效率，并通过多科室共享设备的策略，促进该技术项目实现5个专科方向齐头并进的积极发展局面。截止目前，医院完成机器人手术破7000余例，医院在技术领域及手术管理资源协调方面均位于国内前列。 2025年度，人工智能辅助治疗技术培训基地启动招生。 一、招生条件 （一）具有临床医学专业本科及以上学历，持有执业医师资格证。 （二）从事相关外科临床工作5年以上，职称为主治医生及以上。 （三）学员参与培训期间，身份为医院进修医生，需符合我院进修人员相关条件（学员执业机构为二级及以上公立医院，来院由所在单位开具介绍信，并完成进行进修表格填写）。招生完毕由基地联系医务部统一办理进修生入科手续。 二、招生人数及培训期限 每期计划招收学员 15-20名，按不同专业背景择优录取。 培训期限为6个月。 三、报名时间与方式 （一）报名时间：自公告发布之日起至2025年3月14日，最后一日为确认录取后统一报道时间。 （二）报名方式：填写电子报名表格（见附件），发送至基地邮箱 zrlyyyai@163.com，邮件主题注明 “人工智能辅助治疗技术培训报名 - [姓名] - [单位名称]”。 四、培训费用 培训费用为每人8000元，包含教材、实践耗材等，基地为学员提供伙食补助，住宿费用自理。 医联体成员单位报名享受价格优惠。 五、联系方式 联系人：谭老师 联系电话：0431-84995282 地址：仙台大街126号中日联谊医院8号楼17楼 附件： 医药卫生人员进修申请表.docx",
+        "attachments": [
+          {
+            "filename": "医药卫生人员进修申请表.docx",
+            "url": "https://www.zrlyyy.com/Uploads/Picture/2025/03/10/u67ce3b634a839.docx",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          "吉林大学中日联谊医院人工智能辅助治疗培训基地招生公告"
+        ],
+        "reference_dates": [
+          "发布时间：2025.03.10"
+        ],
+        "issues": [],
+        "body_reference_chars": 983,
+        "reference_attachment_urls": [
+          "https://www.zrlyyy.com/Uploads/Picture/2025/03/10/u67ce3b634a839.docx"
+        ],
+        "missing_attachment_urls": [],
+        "reference_body_image_urls": [],
+        "image_downloads": 0,
+        "ocr_verified": false,
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+      "list_title": "吉林大学中日联谊医院卫健委临床药师（含紧缺人才项目）培训学员招生简章（2024年秋季）",
+      "list_date": "2024-07-16",
+      "response": {
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+        "time": "2026-10-15T19:35:21+08:00",
+        "ok": true,
+        "final_url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+        "content_type": "text/html; charset=utf-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "83e886b0ded3e96db40f557c6efc412a9d6d37c77dd9de64ad3a5f2afb5de4a9",
+        "html_path": "html/83e886b0ded3e96db40f557c6efc412a9d6d37c77dd9de64ad3a5f2afb5de4a9.html",
+        "replacement_chars": 0,
+        "chars": 42788,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林大学中日联谊医院卫健委临床药师（含紧缺人才项目）培训学员招生简章（2024年秋季）",
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+        "publish_date": "2024-07-16",
+        "publisher": null,
+        "content": "吉林大学白求恩第三医院（中日联谊医院）是国家教育部直属全国重点综合性大学——吉林大学所属的、国家卫生健康委员会属（管）的集医疗、教学、科研、预防、保健、康复为一体的大型现代化综合性三级甲等医院。成立于1949年11月，是新中国成立后党和人民军队创建的第一所医疗机构，被誉为新中国卫生事业的先行者。我院药学部是集药品采购供应、药事管理、临床药学、教学、科研为一体的多元化综合型科室。是国家卫健委临床药师培训基地，是国家卫健委紧缺人才（临床药师）培训基地，家庭药师规范化专项能力培训基地。经过多年临床实践，逐步建立了多层次多专业、经验丰富的带教团队。我院临床药师培训基地于2010年开始招生，目前已培养来自全国各地的临床药师200余名，现面向全国医疗卫生机构招收2024年秋季卫健委临床药师培训基地（含紧缺人才项目）培训学员。欢迎符合条件的药师报名参加，基地将根据个人情况进行资格审核，择优录取。现将有关事项通知如下。 一、招收条件 1、选送医院应具有开展临床药学工作的条件和计划，并能保证学员结业后作为专职临床药师开展工作。 2、年龄在45岁以下，具备与患者、医师、护师沟通交流能力，愿投身于临床药学事业，参与临床药物治疗工作。 3、自愿参加临床药师培训，遵守《吉林大学中日联谊医院临床药师管理办法》，并能按要求完成培训任务。 https://www.zrlyyy.com/Uploads/Picture/2024/07/16/u66962b3c7736b.png 二、招收专业 2024年秋季面向全国招收18名临床药师培训学员，其中： 培训专业 培训时间 招生人数 开学时间 带教药师 培训费用 呼吸内科专业 一年 3 10月 马海明 国家统筹 抗感染专业 一年 3 10月 凡炼炼 国家统筹 肠外肠内营养专业 一年 3 10月 曲若宁 国家统筹 全科专业（心血管方向） 一年 3 10月 慕佳冶 国家统筹 心血管专业 一年 3 10月 姜东莉 国家统筹 通科专业（心血管方向） 半年 3 3月、10月 李锐 3000元 三、培训目的 经过1年和半年的临床药师规范化培训，受训学员在掌握基本的处方点评、医嘱审核、抗感染药物临床应用外，应掌握所学专科常见疾病的发病机制、临床表现、诊断和药物治疗；对相关实验室检查和器械检查的报告具有初步阅读和分析能力；具有专科常见疾病临床药物治疗方案设计和评价能力，能够预防、发现和解决潜在或实际存在的用药问题；熟练掌握专科常用药品，具有药物选择、临床应用、判断药物疗效和药物不良反应的能力；具有与患者、医护交流的能力；具备在以后的工作中可持续开展临床药学工作的能力。 四、培养时间及培养模式： （一）培训时间 ： 专科培训：培训周期一年，全脱产学习。 通科培训：培训周期半年，全脱产学习。 （二）培养模式： 1.学习方式：在临床药师和临床医师指导下，以直接参与临床用药实践为主，适当课程教育为辅，紧密结合临床工作实际，培养临床药物应用型人才，提升参与临床药物治疗工作能力。 2.考核方式：考试、考核采用百分制，其中临床实践与专业理论相结合。学员在一年之内修满规定的课程，考核成绩合格，按要求完成培训，由临床药师培训基地和中国医院协会联合颁发临床药师培训结业证书。 五、报名时间与方式： 1、报名时间：截止至2024年8月31日； 2、报名方式：以下材料电子版 发送至邮箱： zihen1980@126.co m 。 （1）填写附件中的《吉林大学中日联谊医院临床药师培训基地招生学员登记表》。 附件：吉林大学中日联谊医院临床药师培训基地招生学员登记表.docx (2)并提供本人相关证件扫描件：①身份证②工作证及所在单位开具的工作年限证明③大专及以上阶段学历学位证书、毕业证书④卫生专业技术资格证书或职称证书⑤证件照电子版 六、联系方式 联系人：李忻 姜东莉（微信号13504310301） 电话：0431-84995521 Email： zihen1980@126.com 邮编：130033 地址：吉林省长春市仙台大街 126 号，吉林大学中日联谊医院7号楼 2层药学部 吉林大学中日联谊医院临床药师培训基地 2024年7月12日",
+        "attachments": [
+          {
+            "filename": "附件：吉林大学中日联谊医院临床药师培训基地招生学员登记表.docx",
+            "url": "https://www.zrlyyy.com/Uploads/Picture/2024/07/16/u66962b895680e.docx",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          "吉林大学中日联谊医院卫健委临床药师（含紧缺人才项目）培训学员招生简章（2024年秋季）"
+        ],
+        "reference_dates": [
+          "发布时间：2024.07.16"
+        ],
+        "issues": [],
+        "body_reference_chars": 1664,
+        "reference_attachment_urls": [
+          "https://www.zrlyyy.com/Uploads/Picture/2024/07/16/u66962b895680e.docx"
+        ],
+        "missing_attachment_urls": [],
+        "reference_body_image_urls": [
+          "https://www.zrlyyy.com/Uploads/Picture/2024/07/16/u66962b3c7736b.png"
+        ],
+        "image_downloads": 0,
+        "ocr_verified": false,
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html",
+      "list_title": "关于公布吉林大学白求恩第三临床医学院博士研究生“申请考核制”招生专业计划及实施细则的通知",
+      "list_date": "2024-01-17",
+      "response": {
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html",
+        "time": "2026-10-15T19:35:22+08:00",
+        "ok": true,
+        "final_url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html",
+        "content_type": "text/html; charset=utf-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "323294d2912c4d6311702b42d0e0c8c6a41698afd9baa4b7c78b72d91bb2e3da",
+        "html_path": "html/323294d2912c4d6311702b42d0e0c8c6a41698afd9baa4b7c78b72d91bb2e3da.html",
+        "replacement_chars": 0,
+        "chars": 44088,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于公布吉林大学白求恩第三临床医学院博士研究生“申请考核制”招生专业计划及实施细则的通知",
+        "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html",
+        "publish_date": "2024-01-15",
+        "publisher": "，硕士期间的导师为通讯作者或共同通讯作者，若发表文章为SCI",
+        "content": "各位考生： 吉林大学白求恩第三临床医学院现有2024年博士研究生“申请考核制”招生计划62个（含硕博连读、本硕博连读、本博连读招生计划），具有2024年申请考核制招生计划导师名单见附件1（不含专项计划）。请考生在报名及考试前，务必与报考导师取得联系，确认报考资格。 博士研究生就业方式分为定向就业和非定向就业。我校全日制学术学位专业只招收非定向就业考生（全日制博士专项计划可以招收定向就业考生，吉林大学在编教职工按学校有关规定执行）；全日制专业学位可以招收非定向或定向就业考生。考生报考时的报考类别即为录取类别，请考生报考时慎重选择。 学校将于 2024年1月16日至2024年2月28日 开通博士研究生网上报名、缴费及网上确认工作，请各位考生及时登陆吉林大学招生网进行网上报名（网址：http://zsb.jlu.edu.cn/）进行报名、缴费及网上确认 ，硕博连读考生网上报名及缴费时间另行通知，直博生不需报名 。网上交纳报名费人民币200元，报名费一经缴纳，均不办理退还 ，网报时间截止前未成功交纳报名费的视为报名信息无效。 所有考生必须进行网上报名、缴费及网上确认，且只能有唯一确认的报名号， 考试报名条件 如下： （一）基本要求 符合《吉林大学2024年度博士研究生招生简章》中要求的博士生报考条件。 （二）外语水平符合以下任意一项： 1.全国大学英语六级考试成绩达到425分及以上。 2.托福（TOEFL）考试成绩达到90分及以上。 3.雅思（IELTS）考试成绩达到6分及以上。 4.GRE成绩达到300分及以上（新）。 5.英语专业四级或八级考试成绩60分及以上。 6.WSK（PETS-5）考试成绩60分及以上。 7.在英语国家或地区获得硕士或博士学位。 8.在国外有1年以上（含1年）全日制学习经历（报考英语为当地主要日用语言和授课语言）的人员，该部分人员需提供学习经历的证明和成绩单。 （三）学术水平要求 申请人硕士研究生以来至少应有一篇已发表的核心及以上期刊论文（不含书信、摘要、会议论文）， 申请人应为第一作者，硕士期间的导师为通讯作者或共同通讯作者，若发表文章为SCI需提供检索证明（带中科院分区及发表当年对应的影响因子） 。 说明：文章要求2024年3月5日之前见刊，报考阶段可以提供刊用证明，3月5日之前提供论文原件，未能提供论文原件的报考考生取消参加考试及录取资格。核心期刊目录详见《2022年中国科技核心期刊目录（自然科学卷）》。 考生提交资格审核材料如下： 1.《吉林大学“申请考核制”博士生申请表》一份（吉林大学博士研究生报名系统下载并打印，“本人自述”栏及承诺人签名均由考生本人手写）。 2.报考学科专业领域内的两名教授或主任医师的“专家推荐书”，两位专家为非本人研究生导师。 3.拟攻读博士学位期间本人的研究计划，要求3000字左右。 4.考生（含军人）本人居民身份证原件及复印件，原件查验，复印件留存。 5.本科、硕士毕业证书、学位证书原件及复印件，原件查验，复印件留存（应届硕士毕业生提交学生证原件及复印件）。 6.在国内获得硕士学位者，须提交由教育部学位与研究生教育发展中心出具的学位认证报告。在国（境）外获得硕士学位者，须提交由教育部留学服务中心出具的学位认证报告。 7.所有报考临床医学博士的考生需提供临床医师资格证书；且报考临床医学专业学位博士研究生还须提供《住院医师规范化培训合格证书》（应届临床医学、口腔医学专业学位硕士毕业生需入学前提供《住院医师规范化培训合格证书》）或从事临床工作三年以上证明（单位人事部门公章）。 8.硕士阶段的学习成绩单（须加盖原所在学校研究生院、人事部门或档案管理部门公章）。 9.外语水平证明材料复印件。 10.硕士学位论文（应届硕士毕业生可提供硕士论文概要）。 11.硕士研究生以来已发表的一篇核心及以上期刊论文原件（文章要求2024年3月5日之前见刊），非本院报考学生同时提供硕士导师证明（须加盖原所在学校研究生院部门公章）。 12.《吉林大学2024年研究生招生考试考生诚信考试承诺书》（须由考生本人手写签字）。 说明： 1.考生应对所提交材料的真实性负责，无论何时，一经发现存在伪造、提交虚假信息等违纪行为，取消其录取资格，并将根据有关规定严肃处理，相关后果由考生本人承担。 2. 请将以上材料按照上述顺序扫描汇总成一个PDF文件，文件命名为“报考导师姓名+申请考核制考生姓名”，于2024年3月4日16点前发送至邮箱jxb5151@163.com，纸质材料邮寄地址：吉林大学中日联谊医院10号楼三楼教育教学部（吉林省长春市二道区仙台大街中日联谊医院10号楼三楼教育教学部，收件人：王月，联系电话：0431-84995169/84995151），纸质版以签收时间为准，过时不再受理。 3.请报考同学扫描《附件6.2024年报考“申请考核制”博士研究生群》进 QQ群。 附件： 1. 吉林大学白求恩第三医院2024年全日制博士研究生招生专业目录 2.吉林大学白求恩第三医院2024年博士研究生“申请考核制”招生实施方案 3.《吉林大学2024年报考攻读博士学位研究生专家推荐书》 4.《吉林大学2024年研究生招生考试考生诚信考试承诺书》 5.《2022年版中国科技核心期刊目录（自然科学卷）》 6. 2024年报考“申请考核制”博士研究生群 7.资格审查提交材料模板 8.导师证明模板 吉林大学白求恩第三临床医学院教育教学部 2024年1月15日 吉林大学白求恩第三临床医学院申请考核制博士通知附件.zip",
+        "attachments": [
+          {
+            "filename": "吉林大学白求恩第三临床医学院申请考核制博士通知附件.zip",
+            "url": "https://www.zrlyyy.com/Uploads/Picture/2024/01/15/u65a4e0dfa3853.zip",
+            "type": "zip"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          "关于公布吉林大学白求恩第三临床医学院博士研究生“申请考核制”招生专业计划及实施细则的通知"
+        ],
+        "reference_dates": [
+          "发布时间：2024.01.15"
+        ],
+        "issues": [],
+        "body_reference_chars": 2301,
+        "reference_attachment_urls": [
+          "https://www.zrlyyy.com/Uploads/Picture/2024/01/15/u65a4e0dfa3853.zip"
+        ],
+        "missing_attachment_urls": [],
+        "reference_body_image_urls": [],
+        "image_downloads": 0,
+        "ocr_verified": false,
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+        "time": "2026-10-15T19:27:37+08:00",
+        "ok": true,
+        "final_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+        "content_type": "text/html; charset=utf-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "a0c3b4fe66954ed184b2489ec9a5ad5c83a7fa9a6367afb3effceb36b65d6e1c",
+        "html_path": "html/a0c3b4fe66954ed184b2489ec9a5ad5c83a7fa9a6367afb3effceb36b65d6e1c.html",
+        "replacement_chars": 0,
+        "chars": 41872,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/2637.html",
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/2638.html",
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/2639.html",
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/2640.html",
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html"
+      ],
+      "observed_next_urls": [
+        "https://www.zrlyyy.com/wujiaquery_g7yU_60/p/2.html"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60/p/2.html",
+        "time": "2026-10-15T19:35:19+08:00",
+        "ok": true,
+        "final_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60/p/2.html",
+        "content_type": "text/html; charset=utf-8",
+        "status": 200,
+        "auth": false,
+        "sha256": "f79d72ab3226792c382fca6c1c51c05b1df11e791cecefb3fd8923699aab31b8",
+        "html_path": "html/f79d72ab3226792c382fca6c1c51c05b1df11e791cecefb3fd8923699aab31b8.html",
+        "replacement_chars": 0,
+        "chars": 40962,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+    "time": "2026-10-15T19:27:37+08:00",
+    "ok": true,
+    "final_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+    "content_type": "text/html; charset=utf-8",
+    "status": 200,
+    "auth": false,
+    "sha256": "a0c3b4fe66954ed184b2489ec9a5ad5c83a7fa9a6367afb3effceb36b65d6e1c",
+    "html_path": "html/a0c3b4fe66954ed184b2489ec9a5ad5c83a7fa9a6367afb3effceb36b65d6e1c.html",
+    "replacement_chars": 0,
+    "chars": 41872,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学中日联谊医院人工智能辅助治疗培训基地招生公告",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/131590.html",
+      "publish_date": "2025-03-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学中日联谊医院卫健委临床药师（含紧缺人才项目）培训学员招生简章（2024年秋季）",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/63975.html",
+      "publish_date": "2024-07-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学白求恩第三临床医学院2024年硕士研究生招生简章",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2640.html",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "院系纵览 | 吉林大学白求恩第三临床医学院：坚守仁心良术 播撒大医情怀",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2639.html",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "欢迎报考 | 2023年吉林大学白求恩第三临床医学院本科招生宣讲会",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2638.html",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "跨越山海，共赴医学亘古之约｜吉林大学白求恩第三临床医学院2023年本科生招生宣传片重磅发布！",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2637.html",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公布吉林大学白求恩第三临床医学院博士研究生“申请考核制”招生专业计划及实施细则的通知",
+      "url": "https://www.zrlyyy.com/wujia_detail_g7yU_60/2635.html",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 7,
+  "pagination": [
+    {
+      "start_url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+          "parsed_items": 6,
+          "added_items": 6
+        },
+        {
+          "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60/p/2.html",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-af1ca3ec1c4a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.410006709396839e-05,
+      "detail_duration_seconds": 1.3799755834043026e-05,
+      "parse_db_duration_seconds": 0.048292299965396523
+    },
+    "second_round": {
+      "source": "p2-af1ca3ec1c4a",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.4799956008791924e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-af1ca3ec1c4a",
+    "institution": "白求恩第三临床医学院",
+    "column": "招生信息",
+    "url": "https://www.zrlyyy.com/wujiaquery_g7yU_60.html",
+    "original_status": "失败",
+    "original_issues": "EMPTY_LIST",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:27:37+08:00",
+    "review_time": "2026-10-15T20:20:12+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 7,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-af1ca3ec1c4a.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

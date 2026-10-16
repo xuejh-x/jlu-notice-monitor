@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-14T16:57:04.3183913+08:00",
+  "rows": 19,
+  "status": "passed",
+  "field_comparisons": 133,
+  "enabled_false": 19,
+  "evidence_files_exist": 19,
+  "csv_sha256": "581b78935ffc24d442e303306df93a7b31f30a0aca7cbd28ac7780d4020eb775"
+}

@@ -1,0 +1,636 @@
+{
+  "id": "hssra",
+  "institution": "社会科学研究院",
+  "column": "通知公告",
+  "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+  "captured_at": "2026-10-14T16:35:22+08:00",
+  "validated_at": "2026-10-14T16:43:47+08:00",
+  "status": "部分通过",
+  "verdict": "CONTENT_SAMPLE_PASSED",
+  "enabled": false,
+  "details": [
+    {
+      "url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+      "list_title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知",
+      "list_date": "2026-09-21",
+      "captured_at": "2026-10-14T16:35:25+08:00",
+      "snapshot": "html/3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4.html",
+      "sha256": "3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4",
+      "title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知",
+      "date": "2026-09-21",
+      "content_chars": 1078,
+      "content_sha256": "205ce9081c9d786edc5398b344004eed3ec958862385e2ba4c0a071b682a5139",
+      "content_preview": "校社科字〔 2026〕72号 校内各有关单位： 为深入学习贯彻习近平党建思想，按照《中共吉林大学委员会关于深入学习贯彻习近平党建思想的通知》要求，现开展吉林大学 “研究阐释习近平党建思想”哲学社会科学研究专项项目申报工作。具体事宜通知如下： 一、申报事项 1.申报人应为我校哲学社会科学在编在岗教师或相关研究人员，具有良好的学术道德，学风严谨，应深入学习领会习近平党建思想的丰富内涵、理论品格、实践基础和理论渊源，结合自身学科、工作岗位和研究方向开展体系化研究和学理化阐释，题目自拟。 2.专项拟资助不超过10项，每项资助经费0.5 万元 -1万元，研究周期截至2027年3月30日。 3.申请人应围",
+      "attachments": [
+        {
+          "filename": "2. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申报一览表.xls",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+          "type": "xls"
+        },
+        {
+          "filename": "1. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申请书.docx",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200509",
+          "type": "docx"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h2.tit",
+          "title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "日期：2026-09-21 点击： 来源:",
+          "date": "2026-09-21"
+        },
+        {
+          "text": "日期：2026-09-21",
+          "date": "2026-09-21"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 1078,
+      "reference_attachment_urls": [
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200509"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+      "list_title": "关于申报2026年国家社会科学基金中华学术外译项目的通知",
+      "list_date": "2026-09-11",
+      "captured_at": "2026-10-14T16:35:26+08:00",
+      "snapshot": "html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+      "sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5",
+      "title": "关于申报2026年国家社会科学基金中华学术外译项目的通知",
+      "date": "2026-09-11",
+      "content_chars": 4000,
+      "content_sha256": "c3dcbb39b879f827a95e00b5cd6003c9dc1398882a69c347f77a3826c66d8b52",
+      "content_preview": "校社科字〔2026〕 70 号 校内各有关单位： 经全国哲学社会科学领导小组批准， 2026 年国家社 会 科 学 基金中华学术外译项目继续实行集中受理申报。现将有关事项公告如下： 一、项目宗旨 中华学术外译项目主要资助代表中国学术水准、体现中华文化精髓、反映中国学术前沿的学术精品，以外文形式在国外权威出版机构出版并进入国外主流发行渠道，旨在发挥国家 社会科学 基金的示范引导作用，深化中外学术交流和对话，进一步扩大中国学术的国际影响力，促进中外文明交流互鉴。 二、资助范围 中华学术外译项目主要资助我国现当代哲学社会科学优秀成果、近现代以来的名家经典以及国家 社会科学 基金项目优秀成果的翻译出版",
+      "attachments": [
+        {
+          "filename": "1. 国家社科基金中华学术外译项目（2026样表）.doc",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200662",
+          "type": "doc"
+        },
+        {
+          "filename": "2. 国家社会科学基金项目申报代码表(2026).xlsx",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200664",
+          "type": "xlsx"
+        },
+        {
+          "filename": "3. 国家社会科学基金中华学术外译项目推荐书目（2026）.pdf",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200663",
+          "type": "pdf"
+        },
+        {
+          "filename": "4. 国家社科基金中华学术外译项目国外出版机构指导目录（2026）.pdf",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200665",
+          "type": "pdf"
+        },
+        {
+          "filename": "5. 吉林大学国家社科基金中华学术外译项目申报信息汇总表(2026).xls",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200666",
+          "type": "xls"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h2.tit",
+          "title": "关于申报2026年国家社会科学基金中华学术外译项目的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "日期：2026-09-11 点击： 来源:",
+          "date": "2026-09-11"
+        },
+        {
+          "text": "日期：2026-09-11",
+          "date": "2026-09-11"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 4000,
+      "reference_attachment_urls": [
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200662",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200663",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200664",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200665",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200666"
+      ],
+      "missing_attachment_urls": []
+    },
+    {
+      "url": "https://hssra.jlu.edu.cn/info/1311/6072.htm",
+      "list_title": "关于申报2026年国家社科基金高校思想政治理论课研究专项的通知",
+      "list_date": "2026-09-04",
+      "captured_at": "2026-10-14T16:35:27+08:00",
+      "snapshot": "html/c856881c13ae1b646b654e029dc9d2c481fb7810215d611a14bfdc18d23fc684.html",
+      "sha256": "c856881c13ae1b646b654e029dc9d2c481fb7810215d611a14bfdc18d23fc684",
+      "title": "关于申报2026年国家社科基金高校思想政治理论课研究专项的通知",
+      "date": "2026-09-04",
+      "content_chars": 3567,
+      "content_sha256": "bd545c4301c090c7385ba98a69addfd2f8f0856f22b032d0bb9c8ee6edc560b0",
+      "content_preview": "校社科字〔 2026〕69号 校内各有关单位： 根据全国哲学社会科学工作办公室《 2026年国家社会科学基金高校思想政治理论课研究专项申报公告》精神，现将我校申报事宜通知如下： 一、项目宗旨 以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大和二十届历次全会精神，贯彻落实习近平文化思想和习近平总书记关于学校思政课建设的重要论述，紧扣落实立德树人根本任务，突出科研为教学服务的导向，深入研究思政课建设和教学基本规律、重大问题，守正创新推动思政课建设内涵式发展。 二、项目分类、资助额度和完成时限 专项包括重点项目和一般项目。重点项目应围绕党和国家工作大局，聚焦思政课建设发展的重大理论和实践",
+      "attachments": [
+        {
+          "filename": "1.2026年国家社会科学基金高校思想政治理论课研究专项申请书（附单位审核意见和省规划办审核意见）.doc",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200511",
+          "type": "doc"
+        },
+        {
+          "filename": "2.2026年国家社会科学基金高校思想政治理论课研究专项课题论证活页.doc",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200510",
+          "type": "doc"
+        },
+        {
+          "filename": "4.教学评价结果证明模板.doc",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200513",
+          "type": "doc"
+        },
+        {
+          "filename": "3.2026年国家社会科学基金高校思想政治理论课研究专项申报材料汇总表.xls",
+          "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200512",
+          "type": "xls"
+        }
+      ],
+      "title_verified": true,
+      "date_verified": true,
+      "body_verified": true,
+      "attachments_verified": true,
+      "reference_titles": [
+        {
+          "selector": "form[name='_newscontent_fromname'] h2.tit",
+          "title": "关于申报2026年国家社科基金高校思想政治理论课研究专项的通知"
+        }
+      ],
+      "reference_dates": [
+        {
+          "text": "日期：2026-09-04 点击： 来源:",
+          "date": "2026-09-04"
+        },
+        {
+          "text": "日期：2026-09-04",
+          "date": "2026-09-04"
+        }
+      ],
+      "issues": [],
+      "body_reference_chars": 3567,
+      "reference_attachment_urls": [
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200510",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200511",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200512",
+        "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200513"
+      ],
+      "missing_attachment_urls": []
+    }
+  ],
+  "issues": [
+    "ATTACHMENT_CAPTCHA_REQUIRED",
+    "REMAINING_ATTACHMENTS_UNCHECKED",
+    "HISTORY_AND_CLOUD_NOT_VERIFIED"
+  ],
+  "attachment_probes": [
+    {
+      "url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+      "time": "2026-10-14T16:35:28+08:00",
+      "method": "GET Range bytes=0-4095",
+      "expected_type": "xls",
+      "complete_download_verified": false,
+      "attempts": [
+        {
+          "number": 1,
+          "time": "2026-10-14T16:35:29+08:00",
+          "status": 206,
+          "category": "CAPTCHA_REQUIRED"
+        }
+      ],
+      "status": 206,
+      "final_url": "https://hssra.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2068357244&wbfileid=18200508",
+      "content_type": "text/html;charset=UTF-8",
+      "disposition": "",
+      "prefix_path": "prefix/a4fada496a3bca6e4c94173049c4dfe70f6ce574350bec041a9bcc0d59d47630.bin",
+      "prefix_sha256": "a4fada496a3bca6e4c94173049c4dfe70f6ce574350bec041a9bcc0d59d47630",
+      "category": "CAPTCHA_REQUIRED",
+      "file_prefix_verified": false,
+      "read_bytes": 3805,
+      "reason": "Verification page; no captcha submission or bypass",
+      "filename": "2. 吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目申报一览表.xls",
+      "type": "xls"
+    }
+  ],
+  "cloud_production_verified": false,
+  "history_verified": false,
+  "discovery_url": "https://hssra.jlu.edu.cn/",
+  "reason": "ATTACHMENT_CAPTCHA_REQUIRED; REMAINING_ATTACHMENTS_UNCHECKED; HISTORY_AND_CLOUD_NOT_VERIFIED",
+  "final_url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+  "list_snapshot": "html/db4a50248a02dcefb8d3adaa4eec43e69f0d240ca70719b0dd6cc5e7e4534b93.html",
+  "list_sha256": "db4a50248a02dcefb8d3adaa4eec43e69f0d240ca70719b0dd6cc5e7e4534b93",
+  "http_status": 200,
+  "list_items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+      "publish_date": "2026-09-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年国家社会科学基金中华学术外译项目的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+      "publish_date": "2026-09-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年国家社科基金高校思想政治理论课研究专项的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6072.htm",
+      "publish_date": "2026-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年国家社科基金冷门绝学研究专项的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6073.htm",
+      "publish_date": "2026-07-21",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年度国家社会科学基金后期资助暨优秀博士论文出版、优秀学术著作再版项目的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6082.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示吉林大学“党的创新理论研究阐释与中国哲学社会科学自主知识体系构建”成果培育计划拟资助计划名单的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6044.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026年度吉林大学哲学社会科学银龄著作资助计划拟资助计划名单的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6042.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026年度吉林大学哲学社会科学学术外译计划拟资助计划名单的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6040.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示2026年度吉林大学哲学社会科学鼎新成果培育计划（多卷本专项）拟资助计划名单的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6038.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年度《国家哲学社会科学成果文库》的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6036.htm",
+      "publish_date": "2026-07-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于公示吉林大学“党的创新理论研究阐释和中国哲学社会科学自主知识体系构建”哲学社会科学研究创新团队建设项目（第一批）拟立项名单的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6074.htm",
+      "publish_date": "2026-06-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年国家社科基金重大项目选题征集工作的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6075.htm",
+      "publish_date": "2026-06-05",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年国家社科基金教育学重大项目招标工作的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6077.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年全国教育科学规划年度项目申报工作的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/6076.htm",
+      "publish_date": "2026-06-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林大学“党的创新理论研究阐释与中国哲学社会科学自主知识体系构建”成果培育计划的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5970.htm",
+      "publish_date": "2026-05-18",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年度吉林大学哲学社会科学学术外译计划的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5967.htm",
+      "publish_date": "2026-05-14",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年度吉林大学哲学社会科学银龄著作资助计划的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5966.htm",
+      "publish_date": "2026-05-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2026年度吉林大学哲学社会科学鼎新成果培育计划（多卷本专项）的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5964.htm",
+      "publish_date": "2026-05-13",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展第十一期“如之何”工作坊活动的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5929.htm",
+      "publish_date": "2026-04-22",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展“吉林大学（力旺）杰出科研贡献奖”提名及评选工作的通知",
+      "url": "https://hssra.jlu.edu.cn/info/1311/5891.htm",
+      "publish_date": "2026-03-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "external_references_not_fetched": [],
+  "pagination": {
+    "observed_next_urls": [
+      "https://hssra.jlu.edu.cn/tzgg1/82.htm"
+    ],
+    "checked": false,
+    "max_pages": 1
+  },
+  "verified_details": 3,
+  "structurally_verified_details": 3,
+  "all_available_checked": false,
+  "evidence_file": "docs/jlu-fix-b4/review-20261014/results/hssra.json"
+}

@@ -1,0 +1,75 @@
+{
+  "time": "2026-10-16T14:42:58.867463+00:00",
+  "python": "3.13.13",
+  "openssl": "OpenSSL 3.0.19 27 Jan 2026",
+  "httpx": "0.28.1",
+  "environment_presence": {
+    "HTTP_PROXY": false,
+    "HTTPS_PROXY": false,
+    "ALL_PROXY": false,
+    "NO_PROXY": false,
+    "SSL_CERT_FILE": false,
+    "SSL_CERT_DIR": false
+  },
+  "attempts": [
+    {
+      "url": "https://lus-jlu.github.io/lqb.html",
+      "time": "2026-10-16T14:42:46.251620+00:00",
+      "trust_env": true,
+      "error_chain": [
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "EndOfStream",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "SSLEOFError",
+          "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+          "errno": 8
+        }
+      ],
+      "seconds": 5.409
+    },
+    {
+      "url": "https://lus-jlu.github.io/lqb.html",
+      "time": "2026-10-16T14:42:52.661743+00:00",
+      "trust_env": false,
+      "error_chain": [
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "ConnectError",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "EndOfStream",
+          "ssl_reason": null,
+          "errno": null
+        },
+        {
+          "type": "SSLEOFError",
+          "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+          "errno": 8
+        }
+      ],
+      "seconds": 5.199
+    }
+  ],
+  "database_imports": 0,
+  "network_setting_changes": 0,
+  "limits": "Two transport probes from this Python environment; not the installed client's process environment."
+}

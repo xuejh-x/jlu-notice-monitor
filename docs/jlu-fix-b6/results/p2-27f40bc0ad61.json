@@ -1,0 +1,912 @@
+{
+  "id": "p2-27f40bc0ad61",
+  "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+  "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+  "column": "公示栏",
+  "site_url": "https://ccst.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/27f40bc0ad61be3c.json",
+  "discovery_url": "https://ccst.jlu.edu.cn/",
+  "original_snapshot": "html/9d037f7c375a5b6d5dac637a95ce6543e287b8b46e29660805af224fd53bb288.html",
+  "original_capture_time": "2026-10-13T13:54:25+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-27f40bc0ad61",
+    "name": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院 / 公示栏",
+    "base_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:28+08:00",
+  "details": [
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1091/21181.htm",
+      "list_title": "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知",
+      "list_date": "2026-09-16",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1091/21181.htm",
+        "time": "2026-10-15T19:42:00+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1091/21181.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "3f9d33d954242a76864c64865e87882e53e2ebae2d621ac8779aaa3baa5adcb8",
+        "html_path": "html/3f9d33d954242a76864c64865e87882e53e2ebae2d621ac8779aaa3baa5adcb8.html",
+        "replacement_chars": 0,
+        "chars": 21501,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1091/21181.htm",
+        "publish_date": "2026-09-16",
+        "publisher": "合作交流办公室",
+        "content": "依据《吉林大学学士学位授予工作细则（暂行）》的相关规定，现将 2026 年下半年我院成人高等教育自学考试本科毕业生申请学士学位工作的有关事项通知如下： 一、申请学位条件 1. 已取得吉林大学成人高等教育（含网络教育、自学考试）本科毕业证书； 2. 参加符合申请吉林大学成人高等教育学士学位条件的外语考试，并达到符合条件的成绩，具体可参加的外语考试参见《吉林大学成人高等教育学士学位授予工作细则（暂行）》 http://dec.jlu.edu.cn/cms/wlstudentNotice/6467.htm ；（成人教育毕业生参看细则中关于外语水平规定的第 4 、 5 、 8 点） 3. 符合吉林大学成人高等教育学士学位其它授予条件 （参见《吉林大学成人高等教育学士学位授予工作细则（暂行）》）。 4. 申请成人学士学位毕业生，需提交毕业论文原文和知网查重报告。 二、申请学位方式、材料及要求 （认真阅读新要求） 1. 申请学士学位毕业生需发送、邮寄下列材料电子版、纸质版到指定邮箱和地址：毕业证书复印件、成绩单、外语合格证书、身份证复印件、附件一、附件二。 需发送电子版毕业论文和查重，毕业论文和查重命名为 论文 / 查重 + 学生姓名 + 准考证号 。 （注：以上材料纸质版，每一张纸需申请人本人在正面空白处写明：“本人 xxx ，身份证号 xxx ，承诺所提供材料真实有效，如有虚假情况，本人承担相应责任。”并按手印）。 如材料提供与上述情况不符，将不予以学位申请资格。 2. 提交学位照片电子版格式标准如下： 大小为 5K-200K ，像素：宽 110-390 、高 150-576 ，照片背景为蓝色，被拍摄人服装要求为白色或浅色系，照片为 JPG 格式，用身份证号作为文件名。 学位照片必须保证与学历照片（毕业证书照片）一致。 如因提交的电子版照片与学历照片不一致导致最终纸质学位证书与学信网数据不一致，责任自负。 3. 所有纸质版材料用 顺丰快递 邮寄报送，原件不要邮寄。 邮寄前确认是否每份材料（每张纸）均符合“要求 1 ”。 如材料缺失或不满足“要求 1 ”则无法办理学位申请。 4. 如有任何疑问，请先咨询负责教师，再发送电子版材料和邮寄纸质版材料，因材料不全、不符合上述申请学位相关规定而产生的情况，由申请人负责。 三、截止时间 以上材料报送截止时间为 2026 年 10 月 12 日 16 ： 00 前。 四、电子邮箱、邮寄地址和咨询电话 电子邮箱： liyanshen@jlu.edu.cn 邮寄地址：吉林省长春市朝阳区前进大街 2699 号吉林大学前卫校区王湘浩楼 收件人：李老师 电话： 0431-85167963 13500822447 吉林大学计算机科学与技术学院 2026 年 09 月 16 日",
+        "attachments": [
+          {
+            "filename": "1.成绩汇总表.doc",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198227",
+            "type": "doc"
+          },
+          {
+            "filename": "3.学位授予审批意见表.doc",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198229",
+            "type": "doc"
+          },
+          {
+            "filename": "2.上报数据表.xls",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198228",
+            "type": "xls"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-09-16 发布人：合作交流办公室 点击量：",
+            "date": "2026-09-16"
+          },
+          {
+            "text": "发布日期：2026-09-16",
+            "date": "2026-09-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1166,
+        "reference_attachment_urls": [
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198227",
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198228",
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18198229"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-09-16 发布人：合作交流办公室 点击量：",
+            "date": "2026-09-16"
+          },
+          {
+            "text": "发布日期：2026-09-16",
+            "date": "2026-09-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+      "list_title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "list_date": "2026-08-06",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+        "time": "2026-10-15T19:42:02+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "12f60681d032f1c26a0fffdd9655b7c033a62d28bfee1b66432e3782819ea7e8",
+        "html_path": "html/12f60681d032f1c26a0fffdd9655b7c033a62d28bfee1b66432e3782819ea7e8.html",
+        "replacement_chars": 0,
+        "chars": 15176,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+        "publish_date": "2026-08-06",
+        "publisher": null,
+        "content": "（一）申报方式 本次申报采 取“无纸化”申报方式，申报人登陆吉林省科技计划项目管理信息系统 http://www.jlkjxm.com ，在系统中按照申报类别填报申报书，并上传指南要求相关附件材料，提交至所在中层单位，并提交“吉林省科技发展计划 2027 年度项目申报汇总表”（详见附件 5 ）电子版至邮箱： jjj@jlu.edu.cn 。中层单位对本单位申报项目的负责人申报条件、申报材料等进行审核，审核无误后推荐至学校科研院。 （二）时间安排 1. 学院限额推荐的项目： 《吉林省自然科学基金 — 青年科学基金 A 、 B 、 C 类（指南 P1 页）》、《科技人才培养 --- 中青年科技创新人才（团队）培育项目（指南 P121 页）》、《科技人才培养 --- 青年科技人才培养项目（指南 P125 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名） 发送至邮箱： jjj@jlu.edu.cn ，提交截止时间为 8 月 14 日（星期五 ）。 2. 学校限项推荐的项目： 《重点研发（高新技术领域） --- 产业关键技术（指南 P58 页）》、《重点研发（现代农业领域） --- 产业关键技术（指南 P70 页）》、《重点研发（社会发展领域） --- 产业关键技术（指南 P78 页）》、《重点研发（医药健康领域） --- 产业关键技术（指南 P93 页）》，申报以上项目的老师，请把相关项目“限项申报表”电子版及申报材料电子版（申报书和相关附件材料请合并成一个 PDF ，并以申报项目类别 + 负责人姓名命名，合作协议和合作企业财务审计报告可先不提供，校内评审后补齐即可） 发送至邮箱：jjj@jlu.edu.cn ， 提交 截止时间为8 月17 日（星期一） 。 3. 申报其他项目： 请在 8 月 22 日（星期六）前完成申报书系统提交及“汇总表（附件 5 ）”电子版的提交。汇总表中的项目信息与系统中的项目信息一致，申报材料准确、真实、完整，无形式问题。 （三）申报要求及限期申报具体内容等请查看： https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=69355655&channelId=179577 （四）申报老师请扫码加入《 2027 年省科技厅项目申报群》（二维码请查看学院群或邮件）。",
+        "attachments": [
+          {
+            "filename": "附件.rar",
+            "url": "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188371",
+            "type": "rar"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于申报吉林省科技发展计划2027年度项目的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1062,
+        "reference_attachment_urls": [
+          "https://ccst.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1840203934&wbfileid=18188371"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于申报吉林省科技发展计划2027年度项目的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2026-08-06 发布人： 点击量：",
+            "date": "2026-08-06"
+          },
+          {
+            "text": "发布日期：2026-08-06",
+            "date": "2026-08-06"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/info/1091/20717.htm",
+      "list_title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知",
+      "list_date": "2025-11-07",
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/info/1091/20717.htm",
+        "time": "2026-10-15T19:42:03+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/info/1091/20717.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "c0f9eef427ed5993bd10910d4287e3cc2df4668ca7bdafdc582e514a6f539af7",
+        "html_path": "html/c0f9eef427ed5993bd10910d4287e3cc2df4668ca7bdafdc582e514a6f539af7.html",
+        "replacement_chars": 0,
+        "chars": 10655,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知",
+        "url": "https://ccst.jlu.edu.cn/info/1091/20717.htm",
+        "publish_date": "2025-11-07",
+        "publisher": null,
+        "content": "有意申报的博士生，请在 11 月 12 日下午 3 点之前把相关材料电子版（包括：《中国科协青年科技人才培育工程博士生专项计划推荐表》 word 版，《中国科协青年科技人才培育工程博士生专项计划推荐人选名单》 word 版），提交至邮箱： jjj@jlu.edu.cn ；纸质版（《中国科协青年科技人才培育工程博士生专项计划推荐表本人及导师签字的）提交至学院科研办（王湘浩楼 B426 ）。 详细通知请查看：《关于开展 2025 年中国科协青年科技人才培育工程博士生专项计划申报的通知》 https://oa.jlu.edu.cn/defaultroot/PortalInformation!getInformation.action?id=62412993&channelId=179577 。 因各学院推荐名额有限，请申报同学一定在 11 月 12 日下午3点前提交相关材料。逾期不再受理。",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-11-07 发布人： 点击量：",
+            "date": "2025-11-07"
+          },
+          {
+            "text": "发布日期：2025-11-07",
+            "date": "2025-11-07"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 397,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-11-07 发布人： 点击量：",
+            "date": "2025-11-07"
+          },
+          {
+            "text": "发布日期：2025-11-07",
+            "date": "2025-11-07"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "time": "2026-10-15T19:29:54+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9d037f7c375a5b6d5dac637a95ce6543e287b8b46e29660805af224fd53bb288",
+        "html_path": "html/9d037f7c375a5b6d5dac637a95ce6543e287b8b46e29660805af224fd53bb288.html",
+        "replacement_chars": 0,
+        "chars": 11840,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccst.jlu.edu.cn/info/1091/20778.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20845.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20846.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20870.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20935.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20936.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20938.htm",
+        "https://ccst.jlu.edu.cn/info/1091/21078.htm",
+        "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+        "https://ccst.jlu.edu.cn/info/1091/21181.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccst.jlu.edu.cn/xwzx/xytz/165.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://ccst.jlu.edu.cn/xwzx/xytz/165.htm",
+        "time": "2026-10-15T19:42:00+08:00",
+        "ok": true,
+        "final_url": "https://ccst.jlu.edu.cn/xwzx/xytz/165.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "96185cd8d537b8ad5284d874f26dca37be1c99c34c42acfe569e63ce7f8cfa34",
+        "html_path": "html/96185cd8d537b8ad5284d874f26dca37be1c99c34c42acfe569e63ce7f8cfa34.html",
+        "replacement_chars": 0,
+        "chars": 12014,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://ccst.jlu.edu.cn/info/1091/20663.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20665.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20667.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20678.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20692.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20694.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20699.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20701.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20703.htm",
+        "https://ccst.jlu.edu.cn/info/1091/20717.htm"
+      ],
+      "observed_next_urls": [
+        "https://ccst.jlu.edu.cn/xwzx/xytz/164.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "time": "2026-10-15T19:29:54+08:00",
+    "ok": true,
+    "final_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "9d037f7c375a5b6d5dac637a95ce6543e287b8b46e29660805af224fd53bb288",
+    "html_path": "html/9d037f7c375a5b6d5dac637a95ce6543e287b8b46e29660805af224fd53bb288.html",
+    "replacement_chars": 0,
+    "chars": 11840,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年下半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/21181.htm",
+      "publish_date": "2026-09-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报吉林省科技发展计划2027年度项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/21151.htm",
+      "publish_date": "2026-08-06",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年下半年高等教育自学考试实践学习和论文答辩环节的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/21078.htm",
+      "publish_date": "2026-06-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于进一步规范国（境）外人员短期来访信息填报的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20938.htm",
+      "publish_date": "2026-04-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于申请2026年度国际产学研用合作会议框架下中外导师联合培养博士研究生项目的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20936.htm",
+      "publish_date": "2026-04-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于发布韩国高校2026年暑期交流项目的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20935.htm",
+      "publish_date": "2026-04-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年上半年吉林大学计算机科学与技术学院成人高等教育本科毕业生申请学士学位工作的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20870.htm",
+      "publish_date": "2026-03-11",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于2026年德国吉森大学免费暑期线上课程项目的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20846.htm",
+      "publish_date": "2026-01-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于2026年度国家自然科学基金申请与结题工作安排的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20845.htm",
+      "publish_date": "2026-01-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2026年上半年高等教育自学考试实践学习和论文答辩环节的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20778.htm",
+      "publish_date": "2025-12-10",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于开展2025年中国科协青年科技人才培育工程博士生专项计划申报的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20717.htm",
+      "publish_date": "2025-11-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报新一代人工智能国家科技重大专项2025年度第一批项目的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20703.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2025年中国高校产学研创新基金－联合专项（七期）申请指南",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20701.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于申报2025年中国高校产学研创新基金－人工智能与数字安全专项的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20699.htm",
+      "publish_date": "2025-10-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "关于举办第 134 期方班示范班研讨厅现场课的通知",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20694.htm",
+      "publish_date": "2025-10-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于2026年寒假日本短期交流项目的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20692.htm",
+      "publish_date": "2025-10-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于举办法国高等教育留学宣讲会的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20678.htm",
+      "publish_date": "2025-10-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于举办德国亚琛工业大学2026年寒假短期交流项目宣讲会的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20667.htm",
+      "publish_date": "2025-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于举办新加坡管理大学2026年寒假学术研修项目宣讲会的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20665.htm",
+      "publish_date": "2025-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "转发“关于2026-2027学年牛津大学注册访问生项目的通知”",
+      "url": "https://ccst.jlu.edu.cn/info/1091/20663.htm",
+      "publish_date": "2025-10-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 20,
+  "pagination": [
+    {
+      "start_url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/xwzx/xytz/165.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-27f40bc0ad61",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.289994154125452e-05,
+      "detail_duration_seconds": 7.200054824352264e-06,
+      "parse_db_duration_seconds": 0.033246199949644506
+    },
+    "second_round": {
+      "source": "p2-27f40bc0ad61",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.8399907276034355e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-27f40bc0ad61",
+    "institution": "计算机科学与技术学院 / 吉林大学计算机科学与技术学院",
+    "column": "公示栏",
+    "url": "https://ccst.jlu.edu.cn/xwzx/xytz.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:29:54+08:00",
+    "review_time": "2026-10-15T20:21:28+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 20,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-27f40bc0ad61.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

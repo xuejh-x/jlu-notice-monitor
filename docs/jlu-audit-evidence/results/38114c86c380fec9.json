@@ -1,0 +1,38 @@
+{
+  "column_url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202609281485.html",
+  "column": "关于吉林大学成人教育期末考试成绩复查的通知",
+  "institution": "继续教育学院（培训学院 / 继续教育 / 继续教育招生",
+  "site_url": "http://dec.jlu.edu.cn/",
+  "category": "管理服务 / 官网导航",
+  "priority": "P1",
+  "discovery_url": "https://dec.jlu.edu.cn",
+  "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+  "configured_source": "",
+  "discovered_at": "2026-10-13T13:39:05+08:00",
+  "checked_at": "2026-10-13T13:51:58+08:00",
+  "status": "无需适配",
+  "issues": [
+    "OUT_OF_SCOPE_REFERENCE"
+  ],
+  "details": [],
+  "list_count": 0,
+  "list_items": [],
+  "generic_count": 0,
+  "attachments_checked": 0,
+  "evidence_file": "docs/jlu-audit-evidence/results/38114c86c380fec9.json",
+  "reason": "范围复核：外部全国平台引用或单篇文章链接，不是本专项的吉大通知栏目",
+  "pagination": {
+    "next_links": [],
+    "production_follows_next": false,
+    "checked": false
+  },
+  "final_url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202609281485.html",
+  "list_sha256": "9b68bd9a783785e8831427ca1e0b71546d1576e85b57bba9451b5b8dbb6b7743",
+  "list_snapshot": "html/9b68bd9a783785e8831427ca1e0b71546d1576e85b57bba9451b5b8dbb6b7743.html",
+  "http_status": 200,
+  "content_type": "text/html",
+  "generic_error": "This page is unsupported or needs advanced selector configuration",
+  "parser": "auto",
+  "reference_article_count": 0,
+  "unparsed_reference_links": []
+}

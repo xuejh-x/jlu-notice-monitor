@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-15T22:16:58+08:00",
+  "evidence_pages": 7,
+  "new_columns": 0,
+  "entries": 112,
+  "verdicts": {
+    "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN": 50,
+    "PERMISSION_RESTRICTED": 10,
+    "LIST_OR_PAGINATION_UNSUPPORTED": 12,
+    "VERIFIED_EMPTY_COLUMN": 2,
+    "ACCESS_BLOCKED": 3,
+    "SAMPLE_REVIEW_REQUIRED": 35
+  },
+  "http_attempts_process": 11,
+  "application_db_connections": 0,
+  "downloads": 0,
+  "oa_requests": 0
+}

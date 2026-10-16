@@ -1,0 +1,863 @@
+{
+  "id": "p2-3f1970ccb9a1",
+  "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+  "institution": "文学院",
+  "column": "就业信息",
+  "site_url": "https://wxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/3f1970ccb9a10b6a.json",
+  "discovery_url": "https://wxy.jlu.edu.cn/",
+  "original_snapshot": "html/5c29d0b1c8cbd1c154782e807025d724294ba9364172d9c22d7844f58312494b.html",
+  "original_capture_time": "2026-10-13T14:01:46+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-3f1970ccb9a1",
+    "name": "文学院 / 就业信息",
+    "base_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:20:22+08:00",
+  "details": [
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1300/20556.htm",
+      "list_title": "吉林省吉网数字科技有限公司及吉刻科技有限公司招聘公告",
+      "list_date": "2025-11-26",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1300/20556.htm",
+        "time": "2026-10-15T19:36:11+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1300/20556.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "20e4fc4a0638fe787987b8675bd8e5d1b8e3d1fb5800e17a4b08392d46e57593",
+        "html_path": "html/20e4fc4a0638fe787987b8675bd8e5d1b8e3d1fb5800e17a4b08392d46e57593.html",
+        "replacement_chars": 0,
+        "chars": 32407,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "吉林省吉网数字科技有限公司及吉刻科技有限公司招聘公告",
+        "url": "https://wxy.jlu.edu.cn/info/1300/20556.htm",
+        "publish_date": "2025-11-26",
+        "publisher": null,
+        "content": "根据工作需要，吉林省吉网数字科技有限公司及吉刻科技有限公司拟面向高校招聘人才，现将有关事宜公告如下： 一、公司简介 （一）吉林省吉网数字科技有限公司 吉林省吉网数字科技有限公司为吉林省互联网传媒股份有限公司（中国吉林网）全资子公司，成立于2024年2月，主要业务板块包括：全媒体新闻宣传，充分利用吉网传媒多元化的宣传产品体系及融媒体矩阵全平台，为客户量身定制全案营销策划；舆情大数据监测研判，依托先进的大数据产品与智能研判体系，为全省政企用户提供包括系统运维、舆情监测预警、风险提示及分析报告在内的专业服务；政务新媒体代运维，通过精准分析客户需求、解决核心痛点，提供7 * 24小时优质高效的管家式政务服务，助力政企客户在新媒体赛道实现突破；展会项目运营，积极承办省内 外多领域展会，重塑吉林文化新形象，扩大产业振兴影响力。 （二）吉林省吉刻科技有限公司 吉林省吉刻科技有限公司为吉林省互联网传媒股份有限公司（中国吉林网）全资子公司，成立于2024年12月，注册资本为500万元人民币。公司致力于打造“电子商务+文化科技”的创新经营模式，其主营业务涵盖技术服务、技术推广、软件开发、电子商务、微短剧制作宣发、影视创作、信息发布、新媒体代运营以及数字化应用等多个领域，通过多元化的“文化+产业”经营为客户提供全方位的科技与内容服务解决方案。 二、基本条件 1.遵守国家法律法规，拥护党的路线、方针、政策，热爱文化科技及新媒体事业，品行端正，作风正派。 2.具有符合岗位要求的工作能力。 3.具有良好的道德素质和职业素养，无刑事犯罪记录。 4.未受到过纪律处分。 5.具有良好的心理素质和正常履行岗位职责的身体条件。 三、招聘计划 吉林省吉网数字科技有限公司 （一）项目经理 1.岗位名称：项目经理 2.招聘人数：10人 3.工作地点：长春市经开区营口路956号 4.岗位要求：负责项目整体运营及相关工作。 （二）舆情分析师 1.岗位名称：舆情分析师 2.招聘人数：10人 3.工作地点：长春市经开区营口路956号 4.岗位要求：负责舆情相关工作。 吉林省吉刻科技有限公司 1.岗位名称：项目经理 2.招聘人数：10人 3.工作地点：长春市经开区营口路956号 4.岗位要求：负责项目整体运营及相关工作。 四、任职资格 本科及以上学历（舆情分析师研究生以上），男女不限；熟悉地区市场运作规则，具有丰富的行业资源；具有较强的责任心和政治敏感性，熟悉网络传播规律，善于行业运营、具备良好的逻辑思维能力、组织策划能力和市场拓展能力，适应高强度工作节奏；有大型活动的策划、执行经验，在相关领域曾有成功案例。 五、报名方式 1.报名时间：长期招聘 2.报名方式：报名须将《吉林省吉刻科技有限公司应聘报名登记表》以及相关材料扫描件的电子版生成压缩包发送至招聘邮箱（729501680@qq.com），文件名命名为“应聘岗位+姓名+联系电话”。 3.相关材料的电子版扫描件包括：身份证、职（执）业资格证书、获奖证书及其他代表个人业务能力的证书、工作业绩资料。 4.联系人：辛先生，0431-82530007 六、待遇 1.享有五险一金、餐补、通讯补贴、交通补贴、节假日福利等。 2.提供有竞争力的薪酬。 3.制定个人成长规划，享有干部晋升空间。 七、有关要求及说明 1.此次招聘不收取任何费用，也未委托任何第三方机构开展辅导培训或提供参考资料。希望应聘者周知，防范虚假信息。 2.招聘期间不向劳动者收取任何形式的抵押金、保证金。 3.不扣押劳动者身份证和其他相关证件。 4.本招聘公告最终解释权归吉林省吉网数字科技有限公司及吉林省吉刻科技有限公司。",
+        "attachments": [
+          {
+            "filename": "报名表.doc",
+            "url": "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=16672083",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "吉林省吉网数字科技有限公司及吉刻科技有限公司招聘公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-11-26 作者： 点击：",
+            "date": "2025-11-26"
+          },
+          {
+            "text": "发布日期：2025-11-26",
+            "date": "2025-11-26"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1515,
+        "reference_attachment_urls": [
+          "https://wxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1811448088&wbfileid=16672083"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "吉林省吉网数字科技有限公司及吉刻科技有限公司招聘公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-11-26 作者： 点击：",
+            "date": "2025-11-26"
+          },
+          {
+            "text": "发布日期：2025-11-26",
+            "date": "2025-11-26"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+      "list_title": "一汽大众汽车有限公司宣讲会",
+      "list_date": "2025-03-01",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+        "time": "2026-10-15T19:36:12+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "ae382b6641d8c069f9aa6bfc030a24fc77e89a031729ed100645053faf86055e",
+        "html_path": "html/ae382b6641d8c069f9aa6bfc030a24fc77e89a031729ed100645053faf86055e.html",
+        "replacement_chars": 0,
+        "chars": 17568,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "一汽大众汽车有限公司宣讲会",
+        "url": "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+        "publish_date": "2025-03-01",
+        "publisher": null,
+        "content": "https://wxy.jlu.edu.cn/__local/5/1C/CD/39B4949AE4648CB22FA37DFF579_B3EE6379_4BE01D.jpg",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "一汽大众汽车有限公司宣讲会"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2025-03-01 作者： 点击：",
+            "date": "2025-03-01"
+          },
+          {
+            "text": "发布日期：2025-03-01",
+            "date": "2025-03-01"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 0,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "一汽大众汽车有限公司宣讲会"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2025-03-01 作者： 点击：",
+            "date": "2025-03-01"
+          },
+          {
+            "text": "发布日期：2025-03-01",
+            "date": "2025-03-01"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+      "list_title": "中国电建市政建设集团有限公司集团办公室招聘公告",
+      "list_date": "2022-05-07",
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+        "time": "2026-10-15T19:36:13+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9fd321cd698087ba7aa32c5f05bf29a57563be214ab3186d4d1a956c565a41bf",
+        "html_path": "html/9fd321cd698087ba7aa32c5f05bf29a57563be214ab3186d4d1a956c565a41bf.html",
+        "replacement_chars": 0,
+        "chars": 33267,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "中国电建市政建设集团有限公司集团办公室招聘公告",
+        "url": "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+        "publish_date": "2022-05-07",
+        "publisher": null,
+        "content": "中国电建市政建设集团有限公司是世界 500强企业---中国电力建设集团有限公司旗下特级企业，是一家具备大型基础设施投资建设、工程承包与运营管理能力的央企建筑集团，注册资本金30亿元，公司总部位于天津滨海高新区华苑产业园区。 一、单位资质： 1、市政公用工程特级、水利水电工程特级； 2、公路工程施工总承包壹级 建筑工程施工总承包壹级 机电工程施工总承包壹级。 二、集团化布局： 公司在国内外设分公司、子公司、直属单位 20余个，经营区域遍及国内除港澳台外所有省、市、自治区，海外涉及亚洲、非洲、欧洲、南美，包括英、法、俄、葡、阿拉伯语五大语系地区，先后在四十多个国家开展工程承包业务，合同总额累计超过160亿美元。 目前公司打造的是集团化布局 —6+6+N的模式，即：６家骨干子企业＋６家海外分公司＋Ｎ专业公司及经营平台。 三、核心业务： 核心业务涉及市政工程，城市污水、供水工程，水环境建设工程，公路工程，水利调水、配水及泵站工程，铺轨、地铁、交通工程，粮食仓储工程，光伏电站工程，海外机场工程，工民建及城市综合体工程，当地材料坝建设工程等多个领域。 四、荣誉奖项： 国家 AAA信用企业、中国对外工程承包首批Ａ级企业、 “全国文明单位”、“中国建筑业竞争力百强企业”、“全国优秀施工企业”、“全国优秀水利企业”、“全国电力建设优秀施工企业”、“全国公路建设优秀企业”、“天津市百强企业”、“天津市诚信施工企业”等。公司承建工程先后获得“鲁班奖”“国家优质工程奖”“中国水利工程优质奖(大禹奖)”“中国土木工程詹天佑奖”“全国市政金杯示范工程”等奖项。 根据工作需要，公开招聘集团办公室行政助理两名，现将有关事项公告如下： 一、招聘岗位及人数 集团办公室 行政助理 两名。 二、岗位职责 （一）负责公司行政工作方面综合性文字材料的起草工作； （二）负责公司制发公文等重要文字材料的审核、排版工作； （三）负责搜集整理国内外政治、财经以及企业生产经营、行政管理等信息，组织编写公司大事记和信息报送相关材料，为公司领导提供必要政策信息和决策依据； （四）负责承担党委会行政议题、总经理办公会及专题会议的通知、签到、议程安排、会场布置、服务及会议记录等会务工作，做好会议纪要、简报等文字整理工作； （五）负责集团办公室文件资料等收集、整理和归档工作； （六）完成领导交办的其他工作。 三、岗位条件 （一）国家 “双一流”大学硕士研究生及以上学历，文史哲或相关专业，年龄30岁以内。 （二）具有较强的文字和语言沟通表达能力，熟悉各种类型公文写作，了解相关行政管理、法律、财经等知识；具备一定的英语及计算机应用能力，能够熟练使用各种办公软件。 （三）具有较强的服务意识，相貌端正，举止得体，文明礼貌，诚信、乐观、认真，具有良好的团队合作精神、组织协调与管理能力，具备良好的职业操守。 （四）具有良好的政治素质和道德品质，遵纪守法，品行端正，有良好的政治素养。 四、福利待遇 （一）工作地点：公司天津总部。 （二）福利待遇：六险两金、各类津补贴、双休日。 （三）天津户口。 五 、联系方式 联系人：李娜 电 话：022-58569024 邮 箱: HR@stecol.cn （简历命名： “ 面试岗位 +毕业 院校或单位 +专业+学历+姓名”） 地 址：天津市滨海高新区华苑产业园区榕苑路 2号 网 址： http://www.stecol.cn",
+        "attachments": [],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "中国电建市政建设集团有限公司集团办公室招聘公告"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布日期：2022-05-07 作者： 点击：",
+            "date": "2022-05-07"
+          },
+          {
+            "text": "发布日期：2022-05-07",
+            "date": "2022-05-07"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 1418,
+        "reference_attachment_urls": [],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "中国电建市政建设集团有限公司集团办公室招聘公告"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2022-05-07 作者： 点击：",
+            "date": "2022-05-07"
+          },
+          {
+            "text": "发布日期：2022-05-07",
+            "date": "2022-05-07"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+        "time": "2026-10-15T19:28:01+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "5c29d0b1c8cbd1c154782e807025d724294ba9364172d9c22d7844f58312494b",
+        "html_path": "html/5c29d0b1c8cbd1c154782e807025d724294ba9364172d9c22d7844f58312494b.html",
+        "replacement_chars": 0,
+        "chars": 21982,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://wxy.jlu.edu.cn/info/1300/17386.htm",
+        "https://wxy.jlu.edu.cn/info/1300/19202.htm",
+        "https://wxy.jlu.edu.cn/info/1300/19433.htm",
+        "https://wxy.jlu.edu.cn/info/1300/19455.htm",
+        "https://wxy.jlu.edu.cn/info/1300/19547.htm",
+        "https://wxy.jlu.edu.cn/info/1300/19552.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20352.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20353.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20354.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20355.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20356.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20357.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+        "https://wxy.jlu.edu.cn/info/1300/20556.htm"
+      ],
+      "observed_next_urls": [
+        "https://wxy.jlu.edu.cn/zsyjy/jyxx/3.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx/3.htm",
+        "time": "2026-10-15T19:36:11+08:00",
+        "ok": true,
+        "final_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx/3.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "84ecb2b7ccd33aa3dee730f99672877f523a45e1622c91fb0b996891d8a262df",
+        "html_path": "html/84ecb2b7ccd33aa3dee730f99672877f523a45e1622c91fb0b996891d8a262df.html",
+        "replacement_chars": 0,
+        "chars": 22527,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://hb.dzwww.com/p/p3jucPrTjG2.html",
+        "https://wxy.jlu.edu.cn/info/1300/17106.htm",
+        "https://wxy.jlu.edu.cn/info/1300/17107.htm",
+        "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+        "https://zmt-m.hljtv.com/news_details.html?from=wap&id=609267"
+      ],
+      "observed_next_urls": [
+        "https://wxy.jlu.edu.cn/zsyjy/jyxx/2.htm"
+      ]
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "time": "2026-10-15T19:28:01+08:00",
+    "ok": true,
+    "final_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "5c29d0b1c8cbd1c154782e807025d724294ba9364172d9c22d7844f58312494b",
+    "html_path": "html/5c29d0b1c8cbd1c154782e807025d724294ba9364172d9c22d7844f58312494b.html",
+    "replacement_chars": 0,
+    "chars": 21982,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林省吉网数字科技有限公司及吉刻科技有限公司招聘公告",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20556.htm",
+      "publish_date": "2025-11-26",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "一汽大众汽车有限公司宣讲会",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20358.htm",
+      "publish_date": "2025-03-01",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国一汽2025春季校园招聘",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20357.htm",
+      "publish_date": "2025-02-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国公安特警宣讲",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20356.htm",
+      "publish_date": "2024-12-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国重型汽车集团2025届校园招聘",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20355.htm",
+      "publish_date": "2024-11-02",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "华润置地2025百匠新人校园招聘",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20354.htm",
+      "publish_date": "2024-10-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2025中建三局基础设施建设投资有限公司校园招聘",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20352.htm",
+      "publish_date": "2024-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "职“砼”道合 中建八局轨道交通建设有限公司 2025届应届新砼人校园招聘",
+      "url": "https://wxy.jlu.edu.cn/info/1300/20353.htm",
+      "publish_date": "2024-08-28",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“就”在文传系列实习实践报告会第二十六场：从高流量到高质量——短剧创作行业经验与解读",
+      "url": "https://wxy.jlu.edu.cn/info/1300/19552.htm",
+      "publish_date": "2024-04-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "萨尔图区2024年度人才引进公告",
+      "url": "https://wxy.jlu.edu.cn/info/1300/19547.htm",
+      "publish_date": "2024-04-12",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“就”在文传系列实习实践报告会第二十五场——传媒及泛社科专业出国出境留学分享",
+      "url": "https://wxy.jlu.edu.cn/info/1300/19455.htm",
+      "publish_date": "2024-02-27",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林省互联网传媒股份有限公司招聘启事",
+      "url": "https://wxy.jlu.edu.cn/info/1300/19433.htm",
+      "publish_date": "2024-01-17",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中央广播电视总台 · 央广网 2024届校园招聘通知",
+      "url": "https://wxy.jlu.edu.cn/info/1300/19202.htm",
+      "publish_date": "2023-10-23",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“职”达文传——5月、6月就业信息精选推荐汇总",
+      "url": "https://wxy.jlu.edu.cn/info/1300/17386.htm",
+      "publish_date": "2022-06-19",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "中国电建市政建设集团有限公司集团办公室招聘公告",
+      "url": "https://wxy.jlu.edu.cn/info/1300/17125.htm",
+      "publish_date": "2022-05-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "黑龙江广播电视台人才招聘公告",
+      "url": "https://zmt-m.hljtv.com/news_details.html?from=wap&id=609267",
+      "publish_date": "2022-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "山东省互联网传媒集团全国招聘，19个省内外岗位招贤纳才",
+      "url": "https://hb.dzwww.com/p/p3jucPrTjG2.html",
+      "publish_date": "2022-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“职”达文传——4月就业信息精选推荐汇总",
+      "url": "https://wxy.jlu.edu.cn/info/1300/17106.htm",
+      "publish_date": "2022-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "“职”达文传——3月就业信息精选推荐汇总",
+      "url": "https://wxy.jlu.edu.cn/info/1300/17107.htm",
+      "publish_date": "2022-04-30",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 19,
+  "pagination": [
+    {
+      "start_url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+          "parsed_items": 14,
+          "added_items": 14
+        },
+        {
+          "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx/3.htm",
+          "parsed_items": 5,
+          "added_items": 5
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [
+    "https://zmt-m.hljtv.com/news_details.html?from=wap&id=609267",
+    "https://hb.dzwww.com/p/p3jucPrTjG2.html"
+  ],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-3f1970ccb9a1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.9600032828748226e-05,
+      "detail_duration_seconds": 8.999952115118504e-06,
+      "parse_db_duration_seconds": 0.04217860009521246
+    },
+    "second_round": {
+      "source": "p2-3f1970ccb9a1",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 2.1200045011937618e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-3f1970ccb9a1",
+    "institution": "文学院",
+    "column": "就业信息",
+    "url": "https://wxy.jlu.edu.cn/zsyjy/jyxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "ATTACHMENT_ENDPOINT_FAILED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:28:01+08:00",
+    "review_time": "2026-10-15T20:20:22+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 19,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 0,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-3f1970ccb9a1.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

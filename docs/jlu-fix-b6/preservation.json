@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-15T20:27:22.476537+08:00",
+  "changed_application_files": [
+    "backend/app/parsers/html.py",
+    "backend/app/services/deduplication.py"
+  ],
+  "original_audit_files_unchanged": 1449,
+  "prior_reports_unchanged": 8,
+  "sources_yaml_sha256": "d0c9f5af9f7e7477a6803d5f564904d0d9d86d75938f7a76d592da380e496c6d",
+  "settings_yaml_unchanged": true,
+  "frontend_unchanged": true,
+  "production_db_connections": 0,
+  "system_network_changes": 0,
+  "formal_admissions": 0,
+  "oa_requests": 0,
+  "full_downloads": 0,
+  "b7_executed": false
+}

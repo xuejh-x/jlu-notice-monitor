@@ -1,0 +1,122 @@
+[
+  {
+    "name": "dwxcb",
+    "file": "dwxcb.html",
+    "url": "https://dwxcb.jlu.edu.cn/info/1046/2926.htm",
+    "title": "中共吉林大学第十五届委员会第五轮巡视完成进驻",
+    "date": "2026-05-12",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:07:05+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/bef24037fd7502e869a11968d515dc9485094aa85d23b43e562e22112a5bb341.html",
+    "source_sha256": "bef24037fd7502e869a11968d515dc9485094aa85d23b43e562e22112a5bb341",
+    "fixture_sha256": "3cff20e9cb8730d5ab33df0ffa5f12aeaa717ee412ccfa144c5c310ef77d6f57"
+  },
+  {
+    "name": "ddy",
+    "file": "ddy.html",
+    "url": "https://ddy.jlu.edu.cn/info/1009/1613.htm",
+    "title": "关于开展地质调查项目合同（协议）成交额自查工作的通知",
+    "date": "2026-09-07",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:07:30+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/ce8360696f24714fa6d6d1835251a9f4803c9790e74b13dff922101336eacc26.html",
+    "source_sha256": "ce8360696f24714fa6d6d1835251a9f4803c9790e74b13dff922101336eacc26",
+    "fixture_sha256": "124c6e3eac65983e457f76c4559bfb8cf3c583d5e2cc48e9263a147a48609ce2"
+  },
+  {
+    "name": "oic",
+    "file": "oic.html",
+    "url": "https://oic.jlu.edu.cn/info/1623/10107.htm",
+    "title": "吉林大学与俄罗斯托姆斯克理工大学合作举办物理学专业本科教育项目2024年度办学报告",
+    "date": "2026-01-19",
+    "selector": ".right-nr",
+    "captured_at": "2026-10-15T22:07:58+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/eaa68202caa45ba20872f3ba85a2eef84983bd9275096a7768f8c4db48671769.html",
+    "source_sha256": "eaa68202caa45ba20872f3ba85a2eef84983bd9275096a7768f8c4db48671769",
+    "fixture_sha256": "670ee2a2736a40cff7f9f8e5096e106809562f3bdf9d55197d4134f50c10ac10"
+  },
+  {
+    "name": "jgb",
+    "file": "jgb.html",
+    "url": "https://jgb.jlu.edu.cn/info/1003/1722.htm",
+    "title": "关于确定周永东同志为2020年党员计划发展对象的公示",
+    "date": "2019-12-12",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:09:04+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f.html",
+    "source_sha256": "4d805f45e8b747d2cc15bb8bab5592fae0a560d953f9ce200026f321f1f0066f",
+    "fixture_sha256": "ddbfa72d203a9e82bd16491d8495d513383a0474b1ad21f82c16f8060bc2ffb8"
+  },
+  {
+    "name": "zcyfg",
+    "file": "zcyfg.html",
+    "url": "https://zcyfg.jlu.edu.cn/info/1048/1675.htm",
+    "title": "政策与法规办公室召开2026年工作务虚会",
+    "date": "2026-03-06",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:08:52+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/0ac45e7b11ad030cd2917b7da51547609af3c37883dfa81050e6108a7b31cda8.html",
+    "source_sha256": "0ac45e7b11ad030cd2917b7da51547609af3c37883dfa81050e6108a7b31cda8",
+    "fixture_sha256": "395059689bbc35ed0382f77fd71943311545b9f6e273dff4ca79420ea76541c0"
+  },
+  {
+    "name": "iamp",
+    "file": "iamp.html",
+    "url": "http://iamp.jlu.edu.cn/info/1029/10063.htm",
+    "title": "吉林大学原子与分子物理研究所2027年推免生拟录取名单公示",
+    "date": "2026-10-13",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:15:30+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/e0e8e0f2e68f0cb9fa803a2fd216f0dbebc99222c7a88fbc80064e9881b933e9.html",
+    "source_sha256": "e0e8e0f2e68f0cb9fa803a2fd216f0dbebc99222c7a88fbc80064e9881b933e9",
+    "fixture_sha256": "279a1cb71715c82e9044c2c5ea6a769b8202dc105d95aee71da72e90c1e87072"
+  },
+  {
+    "name": "wordpress",
+    "file": "wordpress.html",
+    "url": "https://synlab.jlu.edu.cn/2025/09/5172.html",
+    "title": "2025年申请重点实验室开放课题基金的通知",
+    "date": "2025-09-08",
+    "selector": "article.type-post",
+    "captured_at": "2026-10-15T22:12:11+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/live-20261015/html/cc34a1ccf5b17ec325ffa530728ef3c9164787c6b55b9d8c83afa08f3b069fd5.html",
+    "source_sha256": "cc34a1ccf5b17ec325ffa530728ef3c9164787c6b55b9d8c83afa08f3b069fd5",
+    "fixture_sha256": "660998eacf56b228801e48fa5b7f37bb10fba47c4bb2b0891ee359db28975fbe"
+  },
+  {
+    "name": "fszx",
+    "file": "fszx.html",
+    "url": "https://fszx.jlu.edu.cn/info/1018/3696.htm",
+    "title": "吉林大学附属中学2026年报刊订阅项目实行单一来源采购方式的公示",
+    "date": "2025-11-19",
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:36:34+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/followup-1-20261015/html/87111af4214817e630a488bad24291433201dc5e3184ed889f75388904e4d899.html",
+    "source_sha256": "87111af4214817e630a488bad24291433201dc5e3184ed889f75388904e4d899",
+    "fixture_sha256": "da6e462ceeee6e030da945e4b4eab5951dbfe6bdb8fad9045310e615b48d0586"
+  },
+  {
+    "name": "gjs",
+    "file": "gjs.html",
+    "url": "http://gjs.jlu.edu.cn/info/1046/1833.htm",
+    "title": "2018年度高等教育研究所招收硕士研究生拟录取汇总",
+    "date": "2018-04-02",
+    "selector": "table:has(> tr > td.content > #vsb_content)",
+    "captured_at": "2026-10-15T22:36:26+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/followup-1-20261015/html/9bcb90927cb2cd87dafd8855c10e87f74d5c084171c1145416e5ba3e4d892114.html",
+    "source_sha256": "9bcb90927cb2cd87dafd8855c10e87f74d5c084171c1145416e5ba3e4d892114",
+    "fixture_sha256": "5a6c9c5f277b36474457827d22d1bd8897b642b3d4776a60c0720fa562432375"
+  },
+  {
+    "name": "pftheory",
+    "file": "pftheory.html",
+    "url": "http://pftheory.jlu.edu.cn/info/1015/3926.htm",
+    "title": "第二届高清海学术基金评奖公告",
+    "date": null,
+    "selector": "form[name='_newscontent_fromname']",
+    "captured_at": "2026-10-15T22:36:29+08:00",
+    "source_snapshot": "docs/jlu-fix-b7/followup-1-20261015/html/f7701c77a0d04939fd8c895bf3aa4cd42f9fbdec2208c41fad166bb54732708a.html",
+    "source_sha256": "f7701c77a0d04939fd8c895bf3aa4cd42f9fbdec2208c41fad166bb54732708a",
+    "fixture_sha256": "bd04e301f9d022d257ba58398aa9e8c857013c9f4f03a5c7b7c01a21283454c7"
+  }
+]

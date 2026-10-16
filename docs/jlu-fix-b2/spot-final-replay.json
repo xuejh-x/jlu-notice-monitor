@@ -1,0 +1,37 @@
+{
+  "replayed_at": "2026-10-14T15:47:29.370730+08:00",
+  "mode": "final parser against saved fresh HTML; no new HTTP or DB",
+  "parser_sha256": "a0fad390013d421f846a29575c08bc4a3df7d6edb9614857aefa71d493427066",
+  "rows": [
+    {
+      "url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+      "captured_at": "2026-10-14T15:38:47+08:00",
+      "snapshot": "html/0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c.html",
+      "sha256": "0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c",
+      "title": "吉林大学附属中学2026年公开招聘教师（第三批次）笔试合格、进入面试环节人员名单公示",
+      "date": "2026-09-06",
+      "content_sha256": "db829dacc9e8c9a76eafde796a8a0f84e310c65084710a41c1d1ce301ffcaec2",
+      "same_as_live": true
+    },
+    {
+      "url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+      "captured_at": "2026-10-14T15:38:49+08:00",
+      "snapshot": "html/36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024.html",
+      "sha256": "36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024",
+      "title": "关于公示2026年度本科生“宝钢优秀学生奖学金”拟获奖人员名单的通知",
+      "date": "2026-10-13",
+      "content_sha256": "f8c73caa70c0c4a2d409f1e9481dbb81b94ab68edfdeec47edd50d9df4118eba",
+      "same_as_live": true
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+      "captured_at": "2026-10-14T15:38:51+08:00",
+      "snapshot": "html/496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40.html",
+      "sha256": "496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40",
+      "title": "吉林大学网络安全学院全职引进准聘长聘职位教师",
+      "date": "2024-07-18",
+      "content_sha256": "65c70be57588a8258674090b30a8e357eac287d8a6425eac1ab42b1ab35325fa",
+      "same_as_live": true
+    }
+  ]
+}

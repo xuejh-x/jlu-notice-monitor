@@ -1,0 +1,806 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>吉林大学东北亚研究中心</title><META Name="keywords" Content="吉林大学东北亚研究中心" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/news.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/koala.min.js"></script>
+<script type="text/javascript">
+var Speed_1 = 10; //速度(毫秒)
+var Space_1 = 20; //每次移动(px)
+var PageWidth_1 = 107 * 6; //翻页宽度
+var interval_1 = 5000; //翻页间隔时间
+var fill_1 = 0; //整体移位
+var MoveLock_1 = false;
+var MoveTimeObj_1;
+var MoveWay_1="right";
+var Comp_1 = 0;
+var AutoPlayObj_1=null;
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+AutoPlay_1()}
+function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+AutoPlay_1()}
+function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+function picrun_ini(){
+GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+AutoPlay_1();
+}
+</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323076684654525b574200010005445c -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1500336632)</script>
+</head>
+
+<body>
+<div class="box">
+
+
+<div class="headtop">
+<div class="con">
+
+<script language="javascript">
+function dosuba214814a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa214814a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa214814a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea214814a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+
+<a href="Home/HOME.htm" style="float:right; color:#fff; margin-left:10px;">English</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ss">
+
+
+<script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode214815').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey214815").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey214815").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey214815").value = base64.encode(document.getElementById("lucenenewssearchkey214815").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode214815"));
+        return true;
+    } 
+</script>
+<form action="ssjg.jsp?wbtreeid=1001" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey214815" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype214815" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope214815" name="searchScope" value="0">
+ 
+<input type="text" class="fl srk" name="showkeycode" id="showkeycode214815">
+<input type="image" src="images/sous_06.png" class="fl" style="height:23px;">
+
+
+</form>
+
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+
+
+
+
+</div>
+</div>
+
+</div>
+<div class="head">
+
+<div class="logo">
+
+
+
+<a href="index.htm">
+
+<img src="images/top_03.jpg">
+
+</a>
+
+
+
+
+</div>
+
+
+</div>
+
+<div class="menu-nav">
+<div id="menu">    
+  <ul class="l1-nav">    
+  
+   
+
+    <li class="l1-nav  on">  
+
+      <a class="l1-nav" href="index.htm">网站首页</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="zxjs.htm">中心介绍</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="xsdw.htm">学术队伍</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="xwdt.htm">新闻动态</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="xscg.htm">学术成果</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="zkjs.htm">智库建设</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="zxnk.htm">中心内刊</a>
+
+
+
+    </li>
+
+
+
+
+    <li class="l1-nav  ">  
+
+      <a class="l1-nav" href="lxwm.htm">联系我们</a>
+
+
+
+    </li>
+
+
+
+
+    
+  
+    
+  </ul>    
+</div>  
+</div>
+<div class="DivH30"></div>
+<div class="con">
+
+
+
+  <div class="fl zxdt" style="width:630px;"><!-- 代码 开始 -->
+ 
+ <h1><span class="s1">中心动态</span><span><a href="index/zxdt.htm">更多&gt;&gt;</a></span></h1>
+  
+<div id="fsD1" class="focus">  
+
+
+
+  <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script>  <div id="D1pic1" class="fPic">  
+
+
+        <div class="fcon" style="display: none;">
+            <a href="info/1033/2496.htm" target="_blank" title="“纪念《中俄睦邻友好合作条约》签署25周年与中俄新时代全面战略协作伙伴关系发展”——中俄青年学者论坛（2026）在吉林大学举行"><img src="/__local/1/EB/DD/6185F7D51EB846BB7AA0BB8E291_F4DA058A_BB1BC.jpg" style="opacity: 1"></a>
+            <span class="shadow"><a href="info/1033/2496.htm" target="_blank" title="“纪念《中俄睦邻友好合作条约》签署25周年与中俄新时代全面战略协作伙伴关系发展”——中俄青年学者论坛（2026）在吉林大学举行">“纪念《中俄睦邻友好合作条约》签署25周年与中俄新时代全面...</a></span>
+        </div>
+  
+
+
+
+        <div class="fcon" style="display: none;">
+            <a href="info/1033/2455.htm" target="_blank" title="吉林大学东北亚研究中心荣获CTTI2025高校百强A+智库与标杆案例以及2项优秀成果获奖"><img src="/__local/E/C1/6F/965DE20C5F13243F392F12DB89C_35C244F1_106C9D.png" style="opacity: 1"></a>
+            <span class="shadow"><a href="info/1033/2455.htm" target="_blank" title="吉林大学东北亚研究中心荣获CTTI2025高校百强A+智库与标杆案例以及2项优秀成果获奖">吉林大学东北亚研究中心荣获CTTI2025高校百强A+智库与标杆案...</a></span>
+        </div>
+  
+
+
+
+        <div class="fcon" style="display: none;">
+            <a href="info/1033/2447.htm" target="_blank" title="“第八届亚太区域合作暨学术期刊高质量发展论坛”在吉林大学召开"><img src="/__local/1/AB/7E/90AA89AF21FA68009E28F7DDF7D_C08A7ADB_C8379.png" style="opacity: 1"></a>
+            <span class="shadow"><a href="info/1033/2447.htm" target="_blank" title="“第八届亚太区域合作暨学术期刊高质量发展论坛”在吉林大学召开">“第八届亚太区域合作暨学术期刊高质量发展论坛”在吉林大学召开</a></span>
+        </div>
+  
+
+
+
+        <div class="fcon" style="display: none;">
+            <a href="info/1033/2448.htm" target="_blank" title="全国日本经济学会2025年年会暨国际政治经济秩序与日本经济发展——二战后80年回顾与展望学术研讨会在我校成功召开"><img src="/__local/A/0B/31/AEF721E694D44308F5022E4A85A_A2FBC91F_14899F.png" style="opacity: 1"></a>
+            <span class="shadow"><a href="info/1033/2448.htm" target="_blank" title="全国日本经济学会2025年年会暨国际政治经济秩序与日本经济发展——二战后80年回顾与展望学术研讨会在我校成功召开">全国日本经济学会2025年年会暨国际政治经济秩序与日本经济发...</a></span>
+        </div>
+  
+
+
+   
+    </div>
+    <div class="fbg">  
+    <div class="D1fBt" id="D1fBt">  
+
+
+
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>1</i></a>  
+
+
+
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>2</i></a>  
+
+
+
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>3</i></a>  
+
+
+
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>4</i></a>  
+
+
+
+    </div>  
+    </div>  <script>_showDynClickBatch(['dynclicks_u4_2496','dynclicks_u4_2455','dynclicks_u4_2447','dynclicks_u4_2448'],[2496,2455,2447,2448],"wbnews", 1500336632)</script>
+
+    
+    
+    
+    
+</div>  
+<script type="text/javascript">
+    Qfast.add('widgets', { path: "js/terminator.min.js", type: "js", requires: ['fx'] });  
+    Qfast(false, 'widgets', function () {
+        K.tabs({
+            id: 'fsD1',   //焦点图包裹id  
+            conId: "D1pic1",  //** 大图域包裹id  
+            tabId:"D1fBt",  
+            tabTn:"a",
+            conCn: '.fcon', //** 大图域配置class       
+            auto: 1,   //自动播放 1或0
+            effect: 'fade',   //效果配置
+            eType: 'click', //** 鼠标事件
+            pageBt:true,//是否有按钮切换页码
+            bns: ['.prev', '.next'],//** 前后按钮配置class                          
+            interval: 3000  //** 停顿时间  
+        }) 
+    })  
+</script>
+<!-- 代码 结束 --></div>
+
+<div class="zxhd fr">
+
+ <h1><span class="s1">新闻快讯</span><span><a href="xwdt.htm">更多&gt;&gt;</a></span></h1>
+ <div class="clear"></div>
+<div class="yfh2">
+
+<ul>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2623.htm" target="_blank" title="东北亚地区和平与发展论坛（2026）在吉林大学成功举办">东北亚地区和平与发展论坛（2026）在吉林大学成功举办</a><span style="float:right;">【2026-10-12】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2490.htm" target="_blank" title="“纪念《中俄睦邻友好合作条约》签署25周年与中俄新时代全面战略协作伙伴关系发展”——中俄青年学者论坛（2026）在吉林大学举行">“纪念《中俄睦邻友好合作条约》签署25周年与中俄新时代...</a><span style="float:right;">【2026-04-23】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2614.htm" target="_blank" title="中国朝鲜半岛研究学术年会(2026) 暨“重构与展望：变动中的朝鲜半岛局势与中国——朝鲜半岛关系学术研讨会”在我校成功召开">中国朝鲜半岛研究学术年会(2026) 暨“重构与展望：变动中...</a><span style="float:right;">【2026-09-17】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2540.htm" target="_blank" title="东北亚学院成功举办“吉林大学哲学社会科学学术讲座— 区域国别学视域下日本对外战争的历史考察">东北亚学院成功举办“吉林大学哲学社会科学学术讲座— 区...</a><span style="float:right;">【2026-07-01】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2498.htm" target="_blank" title="吉林大学东北亚研究中心专家解读中朝关系发展新内涵">吉林大学东北亚研究中心专家解读中朝关系发展新内涵</a><span style="float:right;">【2026-06-15】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2497.htm" target="_blank" title="吉林大学东北亚研究中心巴殿君教授赴蒙古国立大学作专题报告">吉林大学东北亚研究中心巴殿君教授赴蒙古国立大学作专题报告</a><span style="float:right;">【2026-06-10】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2494.htm" target="_blank" title="吉林大学中国人口老龄化与经济社会发展研究中心加入中国老年学自主知识体系联盟">吉林大学中国人口老龄化与经济社会发展研究中心加入中国...</a><span style="float:right;">【2026-05-17】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1013/2493.htm" target="_blank" title="中蒙青年学术与文化交流活动在吉林大学举行">中蒙青年学术与文化交流活动在吉林大学举行</a><span style="float:right;">【2026-05-17】</span></li>
+
+<script>_showDynClickBatch(['dynclicks_u5_2623','dynclicks_u5_2490','dynclicks_u5_2614','dynclicks_u5_2540','dynclicks_u5_2498','dynclicks_u5_2497','dynclicks_u5_2494','dynclicks_u5_2493'],[2623,2490,2614,2540,2498,2497,2494,2493],"wbnews", 1500336632)</script>
+
+
+</ul>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+<div class="DivH10 clear"></div>
+<div class="con">
+
+<div class="kyxx fl">
+ <h1><span class="s1">科研项目</span><span><a href="index/kyxm.htm">更多&gt;&gt;</a></span></h1>
+<div class="DivH10"></div>
+<div class="yfh">
+
+<ul>
+
+
+<li><img src="images/dot_19.png"><a href="info/1018/2373.htm" target="_blank" title="2024年国家社科基金重大项目——“以人口高质量发展支撑中国式现代化的理论与政策研究”">2024年国家社科基金重大项目——“以人口高质量发展支撑中国式现...</a><span>【2024/09/11】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1018/2383.htm" target="_blank" title="2024年国家社科基金社科学术社团研究项目——冷战后韩日关系的历史变迁与影响因素研究">2024年国家社科基金社科学术社团研究项目——冷战后韩日关系的历...</a><span>【2025/04/01】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1018/2365.htm" target="_blank" title="2024年国家社科基金青年项目——“中国通货膨胀的供需驱动溯源、尾部风险防范与分型治理研究”">2024年国家社科基金青年项目——“中国通货膨胀的供需驱动溯源、...</a><span>【2024/12/25】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1018/2363.htm" target="_blank" title="2024年国家社科基金青年项目——“中国参与全球治理的效能评估及提升路径研究”">2024年国家社科基金青年项目——“中国参与全球治理的效能评估及...</a><span>【2024/12/10】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1018/2151.htm" target="_blank" title="2023年国家社科基金青年项目——“数据要素市场化配置的效应评估与政策优化研究”">2023年国家社科基金青年项目——“数据要素市场化配置的效应评估...</a><span>【2023/10/09】</span></li>
+
+<script>_showDynClickBatch(['dynclicks_u6_2373','dynclicks_u6_2383','dynclicks_u6_2365','dynclicks_u6_2363','dynclicks_u6_2151'],[2373,2383,2365,2363,2151],"wbnews", 1500336632)</script>
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+<div class="cgzs fr">
+ <h1><span class="s1">成果展示</span><span><a href="xscg.htm">更多&gt;&gt;</a></span></h1>
+<div class="DivH10"></div>
+<div class="yfh">
+
+<ul>
+
+
+<li><img src="images/dot_19.png"><a href="info/1014/1126.htm" target="_blank" title="系列专著：《东北亚研究丛书》">系列专著：《东北亚研究丛书》</a><span>【2019/10/31】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1014/1131.htm" target="_blank" title="系列编著：《东北亚地区发展报告》蓝皮书">系列编著：《东北亚地区发展报告》蓝皮书</a><span>【2019/10/31】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1014/1241.htm" target="_blank" title="系列编著：《铁证如山》">系列编著：《铁证如山》</a><span>【2020/08/20】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1014/1127.htm" target="_blank" title="系列译著：《俄国史译丛》">系列译著：《俄国史译丛》</a><span>【2019/10/31】</span></li>
+
+
+<li><img src="images/dot_19.png"><a href="info/1014/1128.htm" target="_blank" title="系列专著：《金色年华读本》">系列专著：《金色年华读本》</a><span>【2019/10/31】</span></li>
+
+<script>_showDynClickBatch(['dynclicks_u7_1126','dynclicks_u7_1131','dynclicks_u7_1241','dynclicks_u7_1127','dynclicks_u7_1128'],[1126,1131,1241,1127,1128],"wbnews", 1500336632)</script>
+
+</ul>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="DivH30"></div>
+
+<div class="con1">
+
+ <h1><span class="s1">学术队伍</span><span><a href="xsdw.htm">更多&gt;&gt;</a></span></h1>
+
+
+<div id="gund_1">
+<!-- picrotate_left start  -->
+<div class="blk_18"> <a class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseup="ISL_StopUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></a>
+  <div class="pcont" id="ISL_Cont_1">
+    <div class="ScrCont">
+      <div id="List1_1">
+        <!-- piclist begin -->
+
+
+<a class="pl" href="info/1012/2293.htm" target="_blank" title="[长吉图开发开放研究中心 · 赵冬颜]"> <img src="/__local/3/13/43/6CD0B0CABB2137162A1C331FA49_1D272FC7_4A27A.png" /></a>
+
+
+<a class="pl" href="info/1012/2255.htm" target="_blank" title="[长吉图开发开放研究中心 ·王姝 ]"> <img src="https://wg.jlu.edu.cn/_vsl/7E17E34A7A68679A62CE55B5FD692B87/5C0DBAD0/7C7C89" /></a>
+
+
+<a class="pl" href="info/1012/2071.htm" target="_blank" title="[朝鲜韩国研究所 · 金慧贞]"> <img src="/__local/F/AE/A9/AF04291E6BCE83D887DE94959C7_05604FCF_156A3.png" /></a>
+
+
+<a class="pl" href="info/1012/2064.htm" target="_blank" title="[长吉图开发开放研究中心 · 王大为]"> <img src="/__local/E/43/40/F75690BB26BD6F53FD8EDF2E26C_46668583_7F47.jpg" /></a>
+
+
+<a class="pl" href="info/1012/2063.htm" target="_blank" title="[长吉图开发开放研究中心· 陆地]"> <img src="/__local/A/14/70/E789E3224CA1BDD7128D1D87195_769D3422_1E874.png" /></a>
+
+
+<a class="pl" href="info/1012/1795.htm" target="_blank" title="[俄罗斯研究所·景璟]"> <img src="/__local/3/69/BE/ABBE61557DD1141B2C283417160_F2FD212B_1DEB7.png" /></a>
+
+
+<a class="pl" href="info/1012/1774.htm" target="_blank" title="[长吉图开发开放研究中心 · 郑国强]"> <img src="/__local/2/1F/28/35B5FFD5799EB9E6A4012F89854_81F9E756_54B3D.png" /></a>
+
+
+<a class="pl" href="info/1012/1773.htm" target="_blank" title="[长吉图开发开放研究中心 · 周阔]"> <img src="/__local/C/A5/30/DEDA0C8E00D0FD4CCC5AE19765B_97F980F6_99480.png" /></a>
+
+
+<a class="pl" href="info/1012/1597.htm" target="_blank" title="[中国人口老龄化与经济社会发展研究中心 · 杨雪]"> <img src="/__local/E/78/D1/DB790F597B0C183D9FB9E7BAC1C_5BD5C0D1_31C2A.png" /></a>
+
+
+<a class="pl" href="info/1012/1596.htm" target="_blank" title="[俄罗斯研究所 · 徐博]"> <img src="/__local/4/C1/94/7085597C9016CE77B9CC009976C_CE405C0D_23ADE.png" /></a>
+
+
+<a class="pl" href="info/1012/1591.htm" target="_blank" title="[长吉图开发开放研究中心 · 陈曦]"> <img src="/__local/1/2B/31/6843DA6A69C5FAD06E8EF7B2512_660A28CA_23F36E.png" /></a>
+
+
+<a class="pl" href="info/1012/1585.htm" target="_blank" title="[俄罗斯研究所 · 许金秋]"> <img src="/__local/7/8D/8C/95F83DEF9CDA1A8FB074777FE73_AA67D9A6_27DBC.png" /></a>
+
+
+<a class="pl" href="info/1012/1584.htm" target="_blank" title="[朝鲜韩国研究所 · 王箫轲]"> <img src="/__local/D/8B/A6/9ABEFC14097370B6407714C5227_870E003F_275ED.png" /></a>
+
+
+<a class="pl" href="info/1012/1583.htm" target="_blank" title="[日本研究所 · 陈志恒]"> <img src="/__local/0/58/0A/800B08B4F6725331D7D8328C4A1_6CC9EDBA_33A5B.png" /></a>
+
+
+<a class="pl" href="info/1012/1581.htm" target="_blank" title="[日本侵华史研究中心 · 王玉强]"> <img src="/__local/5/5B/B6/C5090CD9E80235D60BDAC90134E_AE1D2F34_213E8.png" /></a>
+
+
+<a class="pl" href="info/1012/1575.htm" target="_blank" title="[长吉图开发开放研究中心 · 张晏辄]"> <img src="/__local/A/DC/66/B076D19F3D05B8F7FEF01D984E6_233412AC_116B4.png" /></a>
+
+
+<a class="pl" href="info/1012/1573.htm" target="_blank" title="[日本研究所 · 赵杨]"> <img src="/__local/7/23/28/933C09CB75590E95AFE3A9D2662_9747D850_29B8B.png" /></a>
+
+
+<a class="pl" href="info/1012/1571.htm" target="_blank" title="[长吉图开发开放研究中心 · 廉晓梅]"> <img src="/__local/1/59/93/B94D3B46609322E0E2C3F04A744_0AB0956D_2E307.png" /></a>
+
+
+<a class="pl" href="info/1012/1570.htm" target="_blank" title="[北极研究所 · 李天籽]"> <img src="/__local/5/C3/79/DAFDAC266A5EFD9DC792C515F63_E3AC309F_3600B.png" /></a>
+
+
+<a class="pl" href="info/1012/1569.htm" target="_blank" title="[日本研究所 · 李红梅]"> <img src="/__local/E/A1/14/4E3E41C357CB012AF0DA509F881_E098154A_1A23E.png" /></a>
+
+
+<a class="pl" href="info/1012/1565.htm" target="_blank" title="[北极研究所 · 李晗斌]"> <img src="/__local/3/DC/0C/CD80789480A0563F49B050C4364_A8BF30FE_38EA2.png" /></a>
+
+
+<a class="pl" href="info/1012/1564.htm" target="_blank" title="[长吉图开发开放研究中心 · 姜梅华]"> <img src="/__local/9/84/8E/6331FBC21F70B870250AEF63A11_7AF7881A_267D0.png" /></a>
+
+
+<a class="pl" href="info/1012/1563.htm" target="_blank" title="[日本研究所 · 崔健]"> <img src="/__local/C/AF/9F/FF5212B748546700EA47382B884_A091BB67_1A7110.png" /></a>
+
+
+<a class="pl" href="info/1012/1562.htm" target="_blank" title="[中国人口老龄化与经济社会发展研究中心 · 许世存]"> <img src="/__local/C/85/07/6B823470AE42EE959CAA94A940C_C8C0B974_2AFEE.png" /></a>
+
+
+<a class="pl" href="info/1012/1561.htm" target="_blank" title="[朝鲜韩国研究所 · 金香丹]"> <img src="/__local/2/59/35/11A97E766B4BFBDECB84B89AE0F_88C1CD60_1A249.png" /></a>
+
+
+<a class="pl" href="info/1012/1559.htm" target="_blank" title="[中国人口老龄化与经济社会发展研究中心 · 孙悦]"> <img src="/__local/4/E9/DE/ECB01CEF41F10D2CC19FD4136F9_A94A41EB_31714.png" /></a>
+
+
+<a class="pl" href="info/1012/1541.htm" target="_blank" title="[长吉图开发开放研究中心 · 杨东亮]"> <img src="/__local/7/76/6A/9B7BD73F7893E095DD8E633CED4_5D9BB789_1F2E9.png" /></a>
+
+
+<a class="pl" href="info/1012/1193.htm" target="_blank" title="[蒙古研究所 · 于潇]"> <img src="/__local/9/1F/68/F18039FEA636C2DF4B6D10164B6_B21B8D13_24747.png" /></a>
+
+
+<a class="pl" href="info/1012/1151.htm" target="_blank" title="[朝鲜韩国研究所 · 巴殿君]"> <img src="/__local/7/7C/07/577B7BE3D3EDBA4F6ED2ACE6AFE_4F369D43_223E2.png" /></a>
+
+
+<a class="pl" href="info/1012/1013.htm" target="_blank" title="[朝鲜韩国研究所 · 张慧智]"> <img src="/__local/E/2D/B8/C1AC97CD8F44B4F69B395773949_0055B2EB_1BDC6.png" /></a>
+
+<script>_showDynClickBatch(['dynclicks_u8_2293','dynclicks_u8_2255','dynclicks_u8_2071','dynclicks_u8_2064','dynclicks_u8_2063','dynclicks_u8_1795','dynclicks_u8_1774','dynclicks_u8_1773','dynclicks_u8_1597','dynclicks_u8_1596','dynclicks_u8_1591','dynclicks_u8_1585','dynclicks_u8_1584','dynclicks_u8_1583','dynclicks_u8_1581','dynclicks_u8_1575','dynclicks_u8_1573','dynclicks_u8_1571','dynclicks_u8_1570','dynclicks_u8_1569','dynclicks_u8_1565','dynclicks_u8_1564','dynclicks_u8_1563','dynclicks_u8_1562','dynclicks_u8_1561','dynclicks_u8_1559','dynclicks_u8_1541','dynclicks_u8_1193','dynclicks_u8_1151','dynclicks_u8_1013'],[2293,2255,2071,2064,2063,1795,1774,1773,1597,1596,1591,1585,1584,1583,1581,1575,1573,1571,1570,1569,1565,1564,1563,1562,1561,1559,1541,1193,1151,1013],"wbnews", 1500336632)</script>
+
+        <!-- piclist end -->
+      </div>
+      <div id="List2_1"></div>
+    </div>
+  </div>
+  <a class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseup="ISL_StopDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a> </div>
+<div class="c"></div>
+<script type="text/javascript">
+        <!--
+        picrun_ini()
+        //-->
+        </script>
+<!-- picrotate_left end -->
+</div>
+
+</div>
+
+
+<div class="DivH30"></div>
+
+
+<div class="link">
+<div class="con">
+
+<p>友情链接</p> 
+
+<div class="lj">
+
+
+<script language="javascript" src="/system/resource/js/openlink.js"></script><select onchange="_openSelectLink(this, 'value', 'addclicks')">
+
+<option>-----------校内链接-------------</option> 
+
+<option value="https://www.jlu.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62391)">吉林大学</option>
+
+<option value="http://nasa.jlu.edu.cn" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62398)">吉林大学东北亚研究院</option>
+
+<option value="http://59.72.0.2/business/website/mainPageIndex.do" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62392)">吉林大学社会科学处</option>
+
+<option value="http://lib.jlu.edu.cn/portal/index.aspx" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62393)">吉林大学图书馆</option>
+
+<option value="http://rsgl.jlu.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62395)">吉林大学人力资源和社会保障处</option>
+
+<option value="https://hrss.jlu.edu.cn/base/frame/login.jsp?FM_SYS_ID=jldx" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62396)">吉林大学人力资源服务管理平台</option>
+
+<option value="http://bsh.jlu.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62397)">吉林大学博士后流动站</option>
+
+</select>
+
+
+
+
+
+
+
+
+
+<select onchange="_openSelectLink(this, 'value', 'addclicks')">
+<option>-----------校外链接-------------</option> 
+
+
+
+
+<option value="https://cnki.net/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62399)">中国知网</option>   
+
+
+
+
+
+<option value="http://www.imir.tsinghua.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62403)">清华大学国际关系研究院</option>   
+
+
+
+
+
+<option value="http://www.iis.fudan.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62404)">复旦大学国际问题研究院</option>   
+
+
+
+
+
+<option value="http://cssrac.nju.edu.cn/index.html" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62400)">南京大学中国社会科学评价中心</option>   
+
+
+
+
+
+<option value="https://www.sinoss.net/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62401)">中国高校人文社会科学信息网</option>   
+
+
+
+
+
+<option value="http://www.moe.gov.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62402)">中华人民共和国教育部</option>   
+
+
+
+
+
+<option value="http://ijs.cass.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62405)">中国社科院日本研究所</option>   
+
+
+
+
+
+<option value="http://www.jsc.pku.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62406)">北京大学日本研究中心</option>   
+
+
+
+
+
+<option value="http://www.jsc.fudan.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62407)">复旦大学日本研究中心</option>   
+
+
+
+
+
+<option value="http://www.riyan.nankai.edu.cn/" title="" addclicks="_addDynClicks(&#34;wburl&#34;, 1500336632, 62408)">南开大学日本研究院</option>   
+
+
+
+
+</select>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+<div class="clear"></div>
+<div class="foot">
+<div class="con">
+
+<div class="bq">
+<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>©2019　吉林大学东北亚研究中心　版权所有</p><p>地址：中国吉林省长春市前进大街2699号吉林大学匡亚明楼</p><p>电话：0431-85166393，传真：0431-85166393　邮箱：<a href="mailto:ylying@jlu.edu.cn" style="color: #fff">ylying@jlu.edu.cn</a></p>
+
+<div style="text-align:center;color:white;">您好！您是第<img src="/system/_component/jsq/counter.jsp?wbtreeid=1001&owner=1500336632&len=8&style=2&basenum=0&countertype=TOTAL_COUNTER" style="margin-bottom:-5px;">位访问本站的人。
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

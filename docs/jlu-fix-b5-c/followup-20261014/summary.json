@@ -1,0 +1,27 @@
+{
+  "time": "2026-10-14T23:18:13+08:00",
+  "columns": 17,
+  "statuses": {
+    "失败": 3,
+    "部分通过": 14
+  },
+  "verdicts": {
+    "SAMPLE_OR_IDENTITY_REVIEW_REQUIRED": 2,
+    "BOUNDED_PAGINATION_AND_INCREMENTAL_SAMPLE_PASSED": 14,
+    "ACCESS_BLOCKED": 1
+  },
+  "list_pages": 37,
+  "list_items": 465,
+  "details": 48,
+  "verified_details": 47,
+  "database_sample_replays": 16,
+  "unexpected_merges": [
+    "existing-cse-1"
+  ],
+  "http_attempts_this_session": 65,
+  "app_database_connections": 0,
+  "formal_sources_changed": 0,
+  "formal_admissions": 0,
+  "attachment_downloads": 0,
+  "cloud_production_verified": false
+}

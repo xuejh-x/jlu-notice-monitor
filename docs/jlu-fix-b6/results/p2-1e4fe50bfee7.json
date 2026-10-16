@@ -1,0 +1,794 @@
+{
+  "id": "p2-1e4fe50bfee7",
+  "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+  "institution": "食品科学与工程学院",
+  "column": "教学信息",
+  "site_url": "https://spxy.jlu.edu.cn/",
+  "old_status": "部分通过",
+  "old_issues": "ENCODING_REPLACEMENT | TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+  "original_evidence": "docs/jlu-audit-evidence/results/1e4fe50bfee71d6c.json",
+  "discovery_url": "https://spxy.jlu.edu.cn/",
+  "original_snapshot": "html/1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42.html",
+  "original_capture_time": "2026-10-13T13:44:50+08:00",
+  "config": {
+    "code": "candidate-jlu-p2-1e4fe50bfee7",
+    "name": "食品科学与工程学院 / 教学信息",
+    "base_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T20:21:56+08:00",
+  "details": [
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+      "list_title": "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知",
+      "list_date": "2026-09-04",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+        "time": "2026-10-15T19:44:47+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "d3f083c7d741030c5715656239d817a5c7bd2cfc5b79194e779c89cc169abcbc",
+        "html_path": "html/d3f083c7d741030c5715656239d817a5c7bd2cfc5b79194e779c89cc169abcbc.html",
+        "replacement_chars": 0,
+        "chars": 24959,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知",
+        "url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+        "publish_date": "2026-09-04",
+        "publisher": null,
+        "content": "根据 《 食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则 》 要求，学院进行了素质加分个人申报、学院初审、现场答辩，根据答辩组专家意见，现将学生素质类加分分数及加分后综合成绩排名进行公示。 公示加分情况及综合成绩排名见附件 公示期为： 2026 年 9月4 日 -2026 年 9月10 日，如有异议，请实名向学院反映。 联系人：许老师 邮箱：xu_peng @jlu.edu.cn",
+        "attachments": [
+          {
+            "filename": "2023级食品科学与工程专业综合素质加分后成绩排名.xlsx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192489",
+            "type": "xlsx"
+          },
+          {
+            "filename": "食品科学与工程学院本科生推免工作2023级素质类加分学生名单.xlsx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192404",
+            "type": "xlsx"
+          },
+          {
+            "filename": "2023级食品质量与安全专业综合素质加分后成绩排名.xlsx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192392",
+            "type": "xlsx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知"
+          },
+          {
+            "selector": "h1.title",
+            "title": "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-04 浏览次数：",
+            "date": "2026-09-04"
+          },
+          {
+            "text": "发布时间：2026-09-04",
+            "date": "2026-09-04"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 206,
+        "reference_attachment_urls": [
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192392",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192404",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192489"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-09-04 浏览次数：",
+            "date": "2026-09-04"
+          },
+          {
+            "text": "发布时间：2026-09-04",
+            "date": "2026-09-04"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+      "list_title": "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则",
+      "list_date": "2026-09-03",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+        "time": "2026-10-15T19:44:48+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9c17e58d0185a93beda556560ebf84c2bf0610d70cb160fb64daa47e587de341",
+        "html_path": "html/9c17e58d0185a93beda556560ebf84c2bf0610d70cb160fb64daa47e587de341.html",
+        "replacement_chars": 0,
+        "chars": 41700,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则",
+        "url": "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+        "publish_date": "2026-09-03",
+        "publisher": null,
+        "content": "根据《吉林大学推荐优秀应届本科毕业生免试攻读研究生工作管理办法》（校发〔 2022 〕 59 号）相关要求 ，经学院研究决定，特制定我学院推荐 20 2 7 年优秀应届本科毕业生免试攻读研究生工作实施细则及食品科学与工程学院本科生素质类项目加分标准。 一、推荐原则 研究生教育是为社会主义现代化建设培养高素质、高层次专门人才的重要途径，推免生制度是硕士研究生招生制度的重要组成部分，是激励在校学生勤奋学习、积极创新、全面发展的有效措施。推免生工作应坚持公开、公正、公平，德、智、体全面衡量，择优选拔的原则。在选拔工作中，既要重视考核学生的政治思想和道德品质，又要重视考察业务水平；其中，对业务水平的考核，要以学生平时学习和科研能力为基础，突出创新精神和创新能力。 二、组织领导 （一）根据学校的要求，学院成立 推免生工作小组 ，成员 (9人）如下： 组 长：张铁华 副组长： 郭 娜 袁 媛 成 员： 李 超 张 婷 于亚莉 黄 卉 闫晓侠 时晓磊 （二）学院推免生工作办公室设在学院教务办，负责推免生日常工作，联系电话： 87836360。 （三）学院 推免生工作监督小组 组长： 梅士伟 成员： 许 鹏 王 军 刘轩廷 王君旸 郝 慧 李雨露 （学生代表） （四）学院推免生工作纪律检查办公室设在综合办公室，联系电话： 878363 50 三、推荐形式 选拔推荐方式包括普通推荐（包括推免直博生）、 “研究生支教团”推荐、“专项推免补偿计划”推荐，以普通推荐为主，其他方式为辅。 1 ．普通推荐是指按照本办法规定的遴选条件，从 全体应届本科毕业生中择优选拔优秀学生进入硕士或博士 阶段学习的推荐方式，是学校选拔推荐的主要方式。 2 ． “研究生支教团”推荐是指学校按照团中央、教育部相关文件精神，从全校优秀应届本科毕业生中选拔组建 研究生支教团，择优推荐免试攻读硕士研究生的推荐方式。 推荐名额由团中央单独下达，由校团委按照上级文件要求， 参照本办法组织实施。 3 ． “专项推免补偿计划”推荐是指由教育部下达的 专项推免计划，针对“教育部直属师范大学”“国防科工招生 单位”接收外校推免名额政策补偿的推荐方式。其推荐名额 由教育部单独下达，直接指定推荐学生的专业方向和接收学校。 四、推荐条件 （一） 基本条件 1.拥护中国共产党的领导，具有高尚的爱国主义情操和 集体主义精神，社会主义信念坚定，社会责任感强，遵纪守法，积极向上，身心健康。 2.学校纳入国家普通本科招生计划录取的全日制应届 本科毕业生（不含专升本、第二学士学位学生）。 3.勤奋学习，刻苦钻研，成绩优秀；学术研究兴趣浓厚， 有较强的科学精神、创新能力和科研潜质。 4.诚实守信、遵纪守法、学风端正，无学业、学术、品 行等方面严重失信行为。曾受过纪律处分的学生，推免工作 开始前（日期以学校发布推免通知为准）处分已解除的，申报推免不受影响。 5.具备良好的体质健康水平。 （二）成绩要求 综合成绩是由学生前三学年的学业成绩〔包括《培养方案》要求开设的全部必修课程和限选 课程（含实践教学环节）〕和素质类项目（包括学生在校期间取得科研成果、参加竞赛获奖、参军入伍服兵役、参加志愿 服务、到国际组织实习情况）加分构成 ， 要求全部成绩必须通过 ， 各类素质类成果材料截止日期为 2026年8月31日 。 1.申请普通推荐、“专项推免补偿计划”推荐的学生，要求学业成绩平均学分绩点（GPA）2.5及以上；申请“研究生支教团”推荐的学生，要求学业成绩平均学分绩点（GPA）2.3 及以上。 2.申请普通推荐、“专项推免补偿计划”推荐的学生，允许曾有1门必修课程或限选课程不及格，但必须在当年推免工作开始前重修通过。申请“研究生支教团”推荐的学生，允许曾有 2 门必修课程或限选课程不及格，但必须在当年推免工作开始前重修通过。 3.成绩排名以第一次考试成绩为准，重修、加分的成绩不参与排名计算。经教务处批准的缓考、补考成绩，按第一次考试成绩计算排名。 4.校际交流学生的推免成绩必须经教务处进行相应学分认定，且应不少于《培养方案》要求的全部必修课程和限选课程总学分的95%，其课程门数按实际修读课程门数计算。 5.具备良好的外语能力和水平，校内必修外语课程考试平均成绩达到75 分及以上或全国大学外语四级考试成绩在 425 分及以上（或托福80分及以上、雅思6.0及以上、日语 N2 及以上、俄语ТРКИ-2 及以上）；外语专业学生要求专业外语四级成绩达到 70 分以上。 （三）综合排名要求 1.综合排名由学业成绩和素质类项目加分 组成。大学英语课程中仅英语 III、IV计入学业成绩排名，军事理论、军事训练、体育不计入学业成绩排名。综 合排名相同的学生，按学业成绩高低排名。 2.学院所有应届毕业学生均须参加本专业的综合排名。食品质量与安全专业的学生综合排名以本专业前 25%的学生学业成绩为选拔线，在计算素质类项目加分后，综合成绩达到选拔线及以上的学生具备推免资格； “卓越人才教育计划”（食品科学与工程）专业学生，综合排名以本专业前30%的学生学业成绩为线，在计算素质类项目加分后， 综合成绩达到选拔线及以上的学生具备推免资格。 3.综合排名时如有不能被推荐（如违纪处分未被解除、自愿放弃等）的学生，学院不得将这部分学生剔除后重新排名，不得将未进入推荐范围的学生递补入围。 4.学院引导学生全面发展，支持学生参与科学研究和 各类竞赛、参军入伍服兵役、参加志愿服务、到国际组织实习。 五、推荐程序 学院 9 月上旬，推免工作小组制订推荐工作实施办法按照学校《吉林大学推荐优秀应届本科毕业生免试攻读研究生工作管理办法》（校发〔 2022〕59号）相关要求，制定学院2 02 7 年度推免工作实施细则及加分标准，于 9月 4 日前报教务处备案并公示。 1. 学院将确定各专业参与推免综合排名的限选课 程，指定的限定选修课程经院推免工作小组审核确定，在学院网站公示 7日 。 严格按照本办法规定在教务管理系统中审核本学院全体学生学业成绩 ， 学业成绩排名包含所有学生，明确标注各专业准确的选拔线，并在学院网站公示 7 日 。 学院和各相关职能部门会同本研究领域权威专家成立专家审核小组，按照年度推免工作实施细则及加分标准，对申请推免资格学生的素质项目进行审核鉴定，排除抄袭、造假、冒名及有名无实等情况，组织相关学生在学院范围内进行公开答辩，审核认定学生的学术专长，确定加分，加分最高不超过 0.4平均学分绩点（GPA）〔 体育竞赛体系加分最高不超过 1.0 平均学分绩点（GPA）〕，计算综合排名，在学院网站公示 7日 。 2 . 符合申请条件的学生应在规定的时间内向所在学院提出申请，提交相关证明材料，学生只能申报普通推荐、 “专项推免补偿计划”推荐其中一项，不可兼报。 3 . 学院依据学校下达推荐名额不低于 120%，不高于150%的比例，确定申报普通推荐、“专项推免补偿计 划”推荐方式的人选，由学院工作小组组织专家组择优确定最终推荐人选名单上报学校。 4 . 学校领导小组审定学院推荐人选名单，将通过审定的拟推免学生名单在网上公示 7日 。对于有异议的学生，学院及相关部门查明情况并公布处理结果。 六、管理与监督 1 . 涉及推免工作的原则、标准、方法、程序、名额和结果等重要事项须由学院推免工作小组会议讨论决定。 2 . 推免工作全过程接受全院师生和社会监督，学院 推免生工作监督小组 受理相关问题举报，对违纪违规工作人员按相关规定严肃处理。 3 . 推免工作的参与人员如有直系亲属或利益相关人员参加选拔推荐的，相关工作人员应回避当年的推免工作。 4 . 对在申请和参加选拔推荐过程中弄虚作假的学生，一经发现，即取消其推免资格；对已录取的学生取消其录取资格和学籍，按有关规定对其做出相应处理。 食品科学与工程学院",
+        "attachments": [
+          {
+            "filename": "2023级食品科学与工程专业学业成绩排名.xlsx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191854",
+            "type": "xlsx"
+          },
+          {
+            "filename": "2023级食品质量与安全专业学业成绩排名.xlsx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191855",
+            "type": "xlsx"
+          },
+          {
+            "filename": "吉林大学食品科学与工程学院素质类加分标准.docx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191848",
+            "type": "docx"
+          },
+          {
+            "filename": "食品科学与工程学院2027届本科毕业生推免研究生工作实施细则.doc",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192155",
+            "type": "doc"
+          },
+          {
+            "filename": "食品科学与工程学院确定2023级学业绩点排名限选修课程名单.docx",
+            "url": "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191852",
+            "type": "docx"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则"
+          },
+          {
+            "selector": "h1.title",
+            "title": "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2026-09-03 浏览次数：",
+            "date": "2026-09-03"
+          },
+          {
+            "text": "发布时间：2026-09-03",
+            "date": "2026-09-03"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 3243,
+        "reference_attachment_urls": [
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191848",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191852",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191854",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18191855",
+          "https://spxy.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2075631740&wbfileid=18192155"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2026-09-03 浏览次数：",
+            "date": "2026-09-03"
+          },
+          {
+            "text": "发布时间：2026-09-03",
+            "date": "2026-09-03"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    },
+    {
+      "url": "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+      "list_title": "食品科学与工程学院秋季课程表-2015",
+      "list_date": "2016-06-16",
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+        "time": "2026-10-15T19:44:50+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "eb292ad5242d6f40b94a6ff34b99fb2edbfc1382f09f6379f75e7e64fecb6df2",
+        "html_path": "html/eb292ad5242d6f40b94a6ff34b99fb2edbfc1382f09f6379f75e7e64fecb6df2.html",
+        "replacement_chars": 0,
+        "chars": 22286,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "食品科学与工程学院秋季课程表-2015",
+        "url": "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+        "publish_date": "2016-06-16",
+        "publisher": null,
+        "content": "食品科学与工程学院2012级秋季课程表-2015 食品科学与工程学院2013级秋季课程表-2015 食品科学与工程学院2014级秋季课程表-2015",
+        "attachments": [
+          {
+            "filename": "食品科学与工程学院2012级秋季课程表-2015",
+            "url": "https://spxy.jlu.edu.cn/__local/F/79/AC/1E7788E4C4A54F66590DDECD765_853D9FBF_7793.doc?e=.doc",
+            "type": "doc"
+          },
+          {
+            "filename": "食品科学与工程学院2013级秋季课程表-2015",
+            "url": "https://spxy.jlu.edu.cn/__local/1/7B/D8/73E8A800ED5BE76FD11EF994ED8_55D2D2A7_7877.doc?e=.doc",
+            "type": "doc"
+          },
+          {
+            "filename": "食品科学与工程学院2014级秋季课程表-2015",
+            "url": "https://spxy.jlu.edu.cn/__local/8/F3/4B/AFFDF7FB1F294D1C20DE6DF3A7E_6EFF774B_79F1.doc?e=.doc",
+            "type": "doc"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [
+          {
+            "selector": "form[name='_newscontent_fromname'] h1",
+            "title": "食品科学与工程学院秋季课程表-2015"
+          },
+          {
+            "selector": "h1.title",
+            "title": "食品科学与工程学院秋季课程表-2015"
+          }
+        ],
+        "reference_dates": [
+          {
+            "text": "发布时间：2016-06-16 浏览次数：",
+            "date": "2016-06-16"
+          },
+          {
+            "text": "发布时间：2016-06-16",
+            "date": "2016-06-16"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 74,
+        "reference_attachment_urls": [
+          "https://spxy.jlu.edu.cn/__local/1/7B/D8/73E8A800ED5BE76FD11EF994ED8_55D2D2A7_7877.doc?e=.doc",
+          "https://spxy.jlu.edu.cn/__local/8/F3/4B/AFFDF7FB1F294D1C20DE6DF3A7E_6EFF774B_79F1.doc?e=.doc",
+          "https://spxy.jlu.edu.cn/__local/F/79/AC/1E7788E4C4A54F66590DDECD765_853D9FBF_7793.doc?e=.doc"
+        ],
+        "missing_attachment_urls": [],
+        "additional_scoped_heading_evidence": [
+          "食品科学与工程学院秋季课程表-2015"
+        ],
+        "additional_publication_evidence": [
+          {
+            "text": "发布时间：2016-06-16 浏览次数：",
+            "date": "2016-06-16"
+          },
+          {
+            "text": "发布时间：2016-06-16",
+            "date": "2016-06-16"
+          }
+        ],
+        "source_replacement_characters": 0
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+        "time": "2026-10-15T19:30:53+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42",
+        "html_path": "html/1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42.html",
+        "replacement_chars": 3,
+        "chars": 28873,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://spxy.jlu.edu.cn/info/1028/3418.htm",
+        "https://spxy.jlu.edu.cn/info/1028/3419.htm",
+        "https://spxy.jlu.edu.cn/info/1028/3420.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4076.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4078.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4087.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4098.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4102.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+        "https://spxy.jlu.edu.cn/info/1028/4120.htm"
+      ],
+      "observed_next_urls": [
+        "https://spxy.jlu.edu.cn/bksjy/jxxx/1.htm"
+      ]
+    },
+    {
+      "response": {
+        "url": "https://spxy.jlu.edu.cn/bksjy/jxxx/1.htm",
+        "time": "2026-10-15T19:44:46+08:00",
+        "ok": true,
+        "final_url": "https://spxy.jlu.edu.cn/bksjy/jxxx/1.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "f5330aa5ebffabbd2fd1b6c957520376f9d3abd3a333a3e213e765fc9ac03133",
+        "html_path": "html/f5330aa5ebffabbd2fd1b6c957520376f9d3abd3a333a3e213e765fc9ac03133.html",
+        "replacement_chars": 0,
+        "chars": 22217,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+        "https://spxy.jlu.edu.cn/info/1028/3422.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "time": "2026-10-15T19:30:53+08:00",
+    "ok": true,
+    "final_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42",
+    "html_path": "html/1444b966adc123f458aff9a09d32b1fb3d6574aed0522229459187ec3cd2dd42.html",
+    "replacement_chars": 3,
+    "chars": 28873,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "公示食品科学与工程学院2023级本科生素质类加分分数及综合成绩排名的通知",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4120.htm",
+      "publish_date": "2026-09-04",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院推荐2027年优秀应届本科毕业生免试攻读研究生工作实施细则",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4108.htm",
+      "publish_date": "2026-09-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "喜报！吉林大学食品科学与工程学院刘轩廷教授团队荣获全国高校教师教学创新大赛三等奖",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4098.htm",
+      "publish_date": "2026-07-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "以教育家精神为引领，争做四有好老师——中国海洋大学汪东风教授莅临我院开展专题讲座",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4102.htm",
+      "publish_date": "2026-07-20",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院举办2026年度第六届青年教师教学大赛",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4087.htm",
+      "publish_date": "2026-04-08",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院召开本科教学研讨会与2026版培养方案工作布置会",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4076.htm",
+      "publish_date": "2026-01-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学2025-2026学年教学日历",
+      "url": "https://spxy.jlu.edu.cn/info/1028/4078.htm",
+      "publish_date": "2025-01-15",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学食品营养与健康微专业 —— 培养健康产业的未来领袖",
+      "url": "https://spxy.jlu.edu.cn/info/1028/3418.htm",
+      "publish_date": "2024-06-24",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "吉林大学食品科学与工程学院2020-2021-2春季学期本科生课程表",
+      "url": "https://spxy.jlu.edu.cn/info/1028/3419.htm",
+      "publish_date": "2021-05-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "2021-2022学年本科教学日历",
+      "url": "https://spxy.jlu.edu.cn/info/1028/3420.htm",
+      "publish_date": "2021-05-03",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "食品科学与工程学院秋季课程表-2015",
+      "url": "https://spxy.jlu.edu.cn/info/1028/3421.htm",
+      "publish_date": "2016-06-16",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    },
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "本科生教育",
+      "url": "https://spxy.jlu.edu.cn/info/1028/3422.htm",
+      "publish_date": "2016-04-07",
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 12,
+  "pagination": [
+    {
+      "start_url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+          "parsed_items": 10,
+          "added_items": 10
+        },
+        {
+          "url": "https://spxy.jlu.edu.cn/bksjy/jxxx/1.htm",
+          "parsed_items": 2,
+          "added_items": 2
+        }
+      ],
+      "stop_reason": "PAGE_LIMIT",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 3,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 3,
+    "first_round": {
+      "source": "p2-1e4fe50bfee7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 3,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 3,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.4599994756281376e-05,
+      "detail_duration_seconds": 6.200047209858894e-06,
+      "parse_db_duration_seconds": 0.03339590004179627
+    },
+    "second_round": {
+      "source": "p2-1e4fe50bfee7",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 3,
+          "detail_fetched": 0,
+          "detail_skipped": 3,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 3
+        }
+      ],
+      "status": "success",
+      "fetched": 3,
+      "detail_fetched": 0,
+      "detail_skipped": 3,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 3,
+      "errors": [],
+      "list_duration_seconds": 1.2900098226964474e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 3,
+    "relation_count": 3,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p2-1e4fe50bfee7",
+    "institution": "食品科学与工程学院",
+    "column": "教学信息",
+    "url": "https://spxy.jlu.edu.cn/bksjy/jxxx.htm",
+    "original_status": "部分通过",
+    "original_issues": "ENCODING_REPLACEMENT | TITLE_NOT_IN_DETAIL_HEADING | ATTACHMENT_ENDPOINT_FAILED | ATTACHMENTS_UNCHECKED | PAGINATION_NOT_CONFIGURED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "capture_time": "2026-10-15T19:30:53+08:00",
+    "review_time": "2026-10-15T20:21:56+08:00",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "list_pages": 2,
+    "list_count": 12,
+    "details": 3,
+    "verified_details": 3,
+    "listing_replacement_characters": 3,
+    "publication": "bounded sample verified",
+    "windows_public_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_CONFIGURED_AT_B5_D_NO_RETEST",
+    "desktop_installed_client": "NOT_RETESTED",
+    "incremental": "offline parsed-sample replay only",
+    "attachments": "DOM references only; no endpoint downloads in B6",
+    "full_download_verified": false,
+    "enabled": false,
+    "formal_admission": false,
+    "evidence_file": "docs/jlu-fix-b6/results/p2-1e4fe50bfee7.json"
+  },
+  "code_manifest": "docs/jlu-fix-b6/review-accepted-20261015/code-manifest.json",
+  "discovery_record": "docs/jlu-fix-b6/discovery-20261015/results.json; match same id",
+  "production_db_connections": 0
+}

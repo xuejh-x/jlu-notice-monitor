@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-14T16:47:26+08:00",
+  "files": {
+    "backend/app/parsers/html.py": "d9348cd08f5295fe3d7e9bbf422f1bca1982e889a3b4d32f40ffb97a9bb80395",
+    "backend/app/sources/generic.py": "a7acb2c788303389f7ed7bb446b15415ec26828c909bce77bda46aba40f2aa18",
+    "backend/app/sources/base.py": "9e5b1af14e6e4fef8d1b926f2c1b3b196a46b8ee2477a92f36ee73c3f01eddb4",
+    "backend/app/services/attachment_validation.py": "cfa4033e358bed44d69b8966a01f00bc0a014542960f807eb4ba8ea95ca47cc8",
+    "backend/app/services/tls.py": "2ff0dbe92be95af7dd72e46180ecadb5f9e96d41196856f084a41ec015350a52",
+    "backend/app/services/source_security.py": "e57b054c052c8de8babbac0f0a7e9b43fc6adfc87801111ba3ab099b671375c9",
+    "backend/scripts/audit_jlu_sites.py": "ae3a2bc79da4012acde8776735c147308f77871d6bbfe581fc177423eae86f35",
+    "backend/scripts/probe_jlu_b3.py": "dd9e17dfd7a4f22328ab1f48097f5941400c34e45646ead12c87042931046c57",
+    "backend/scripts/validate_jlu_b4.py": "8b53e9090cab60dfead07245611add6ca5eac4c3c499f218af7c19d6a20c669d",
+    "docs/jlu-fix-b4/source-candidates.json": "d95c25c0a9f2ba1236b7ca40dc14fb8bd178da2f1ca051553996d592ff7d2893",
+    "validation_mode": "a74f2755b4664b95ee22d1a0b0b382282701e4b21f2aba76ff1a5baa302105b3",
+    "review-input/requests.json": "be274b0590d8191c457fa1805b5277de5ef5f6c5d46f24f6ce112c434b0df146",
+    "review-input/code-manifest.json": "f9b6c42918dd892322a2cb6a3e589945b665096323f43c34ca08070220ce9f96"
+  },
+  "database": "sqlite://",
+  "mode": "offline_review",
+  "execution": "one serial process; existing GenericPublicSource preview; disabled candidates"
+}

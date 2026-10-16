@@ -1,0 +1,2457 @@
+{
+  "replayed_at": "2026-10-13T18:51:57.068622+08:00",
+  "backend": "E:\\jlu-notice-monitor\\backend",
+  "parser_sha256": "6c2f4aa886f8493fcac1380322364efbc7a5c584e515e00247162fcdfb07d88d",
+  "mode": "offline immutable snapshot replay; not fresh HTTP, attachment or Cloud validation",
+  "network_requests": 0,
+  "database_imported": false,
+  "snapshots_hash_verified": 143,
+  "rows": [
+    {
+      "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:42:40+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+          "original_checked_at": "2026-10-13T13:51:06+08:00",
+          "snapshot": "html/5f505e2ad8ca15b731da0afc2a469d2eec49e258508c9ff860a1e232410efe4f.html",
+          "snapshot_sha256": "5f505e2ad8ca15b731da0afc2a469d2eec49e258508c9ff860a1e232410efe4f",
+          "accepted": true,
+          "title": "计算机学院程序设计类竞赛获奖学生申请课程免修工作通知",
+          "date": "2026-10-10",
+          "content_chars": 716,
+          "attachments": 1,
+          "content_sha256": "cd1af9de4898fe7e86692b529d772f49b0f9f2e1d2512ae71fdecdca3bb69851"
+        },
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1056/21209.htm",
+          "original_checked_at": "2026-10-13T13:51:08+08:00",
+          "snapshot": "html/db0fe324256d8d16b5784d27905452650504d8808df532e78be399c1b4695b64.html",
+          "snapshot_sha256": "db0fe324256d8d16b5784d27905452650504d8808df532e78be399c1b4695b64",
+          "accepted": true,
+          "title": "关于计算机科学与技术学院2024级邢航毓同学数据结构课程设计课程成绩更正的公示",
+          "date": "2026-10-09",
+          "content_chars": 651,
+          "attachments": 0,
+          "content_sha256": "6340ecdcb518bfa2e0554cd7423d7cf8bf298ca46c78c9f2365c3ff0ea060341"
+        }
+      ],
+      "list_snapshot": "html/31a204b4fb7b24d1d17569c88ac70fd3010be493266a965d0b8e257297b32036.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://ccst.jlu.edu.cn/info/1056/21217.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21209.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21207.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21206.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21195.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21173.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21171.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21169.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21168.htm",
+        "https://ccst.jlu.edu.cn/info/1056/21167.htm"
+      ]
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+      "groups": [
+        "positive_sample",
+        "configured",
+        "high_value"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:51:10+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://cse.jlu.edu.cn/info/1006/1441.htm",
+          "original_checked_at": "2026-10-13T13:51:12+08:00",
+          "snapshot": "html/1a1f545e857d4d8c0474c01a946ffb19590dce06d1fda6077c6bfebb93bd7ad5.html",
+          "snapshot_sha256": "1a1f545e857d4d8c0474c01a946ffb19590dce06d1fda6077c6bfebb93bd7ad5",
+          "accepted": true,
+          "title": "吉林大学网络安全学院寒假实训计划选拔通知（一）",
+          "date": "2024-12-03",
+          "content_chars": 552,
+          "attachments": 0,
+          "content_sha256": "5a57457d4edf0545fb781a08e3da58d8d99172cb9cc6a85748283cefbf7a7a2e"
+        },
+        {
+          "url": "https://cse.jlu.edu.cn/info/1006/1377.htm",
+          "original_checked_at": "2026-10-13T13:51:12+08:00",
+          "snapshot": "html/94566791f00dc0468374604cac2ffa8cf4d167a1ff42109c4e4a0165938089f3.html",
+          "snapshot_sha256": "94566791f00dc0468374604cac2ffa8cf4d167a1ff42109c4e4a0165938089f3",
+          "accepted": true,
+          "title": "吉林大学网络安全学院暑期实训计划选拔通知（二）",
+          "date": "2024-07-10",
+          "content_chars": 733,
+          "attachments": 0,
+          "content_sha256": "e52c526ac38cddaa9b3cf32a9e44f9f45e1fe8bd5170e30777d8a969da548695"
+        }
+      ],
+      "list_snapshot": "html/7081571c0340b4113775ddafafeeb4c4919683f88669666cc873ff96de6c78a9.html",
+      "list_count": 3,
+      "list_urls": [
+        "https://cse.jlu.edu.cn/info/1006/1441.htm",
+        "https://cse.jlu.edu.cn/info/1006/1377.htm",
+        "https://cse.jlu.edu.cn/info/1006/1369.htm"
+      ]
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/xytz.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:14+08:00",
+      "original_issues": [
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_TOO_SHORT",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://cse.jlu.edu.cn/info/1003/1381.htm",
+          "original_checked_at": "2026-10-13T13:51:15+08:00",
+          "snapshot": "html/496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40.html",
+          "snapshot_sha256": "496df0c87640b9def6fd4792858ab39b0da89ddd475d98f421261da7df585e40",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_IMAGE_ONLY_UNSUPPORTED: image notice has no extractable text; image support requires verification"
+        },
+        {
+          "url": "https://cse.jlu.edu.cn/info/1003/1517.htm",
+          "original_checked_at": "2026-10-13T13:51:16+08:00",
+          "snapshot": "html/cd0869feb0b0fe82117dfa8397d8d49414d3c58af50ecadf457a66ace03e7b8d.html",
+          "snapshot_sha256": "cd0869feb0b0fe82117dfa8397d8d49414d3c58af50ecadf457a66ace03e7b8d",
+          "accepted": true,
+          "title": "“网络安全学院学生创新资助计划四期”申报通知",
+          "date": "2026-05-12",
+          "content_chars": 1600,
+          "attachments": 0,
+          "content_sha256": "910e22efb02430f513ccabd980ebb715b6122b28cb1608fb76b08e83448d4248"
+        }
+      ],
+      "list_snapshot": "html/7da325bac1e96e93a9521fd54540063863f3a2766d7b71a0c5a397f96a55e582.html",
+      "list_count": 8,
+      "list_urls": [
+        "https://cse.jlu.edu.cn/info/1003/1381.htm",
+        "https://cse.jlu.edu.cn/info/1003/1517.htm",
+        "https://cse.jlu.edu.cn/info/1003/1488.htm",
+        "https://cse.jlu.edu.cn/info/1003/1467.htm",
+        "https://cse.jlu.edu.cn/info/1003/1447.htm",
+        "https://cse.jlu.edu.cn/info/1003/1440.htm",
+        "https://cse.jlu.edu.cn/info/1003/1428.htm",
+        "https://cse.jlu.edu.cn/info/1003/1360.htm"
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:18+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENT_MISSING",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://csw.jlu.edu.cn/info/1095/8553.htm",
+          "original_checked_at": "2026-10-13T13:51:20+08:00",
+          "snapshot": "html/7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43.html",
+          "snapshot_sha256": "7c4d158d5e2aa824a31e4c8c1dd70367b3281cafc18dc704f2a67eb5579a4d43",
+          "accepted": true,
+          "title": "软件学院程序设计类竞赛获奖学生申请课程免修工作通知",
+          "date": "2026-10-10",
+          "content_chars": 669,
+          "attachments": 1,
+          "content_sha256": "47002406fd48e8a6b864ce6acc97a847a89b3c80a48a56bb675587febf449531"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/info/1095/8548.htm",
+          "original_checked_at": "2026-10-13T13:51:22+08:00",
+          "snapshot": "html/287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889.html",
+          "snapshot_sha256": "287cee9bd9badc082bd7a5ecbbbd3218dac4a52d4060bfebd660a4c18c35d889",
+          "accepted": true,
+          "title": "关于软件学院2025级陈旭同学中国近现代史纲要课程成绩更正的公示",
+          "date": "2026-10-09",
+          "content_chars": 397,
+          "attachments": 0,
+          "content_sha256": "759cda34409be60e584da39e402b454d3fec9b136397752611869656575f2d66"
+        }
+      ],
+      "list_snapshot": "html/0e93ed392c18291506a9705924d975a278d3cdbc0db68f8a98528ab332809395.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://csw.jlu.edu.cn/info/1095/8553.htm",
+        "https://csw.jlu.edu.cn/info/1095/8548.htm",
+        "https://csw.jlu.edu.cn/info/1095/8529.htm",
+        "https://csw.jlu.edu.cn/info/1095/8523.htm",
+        "https://csw.jlu.edu.cn/info/1095/8522.htm",
+        "https://csw.jlu.edu.cn/info/1095/8521.htm",
+        "https://csw.jlu.edu.cn/info/1095/8520.htm",
+        "https://csw.jlu.edu.cn/info/1095/8516.htm",
+        "https://csw.jlu.edu.cn/info/1095/8484.htm",
+        "https://csw.jlu.edu.cn/info/1095/8483.htm",
+        "https://csw.jlu.edu.cn/info/1095/8482.htm",
+        "https://csw.jlu.edu.cn/info/1095/8481.htm",
+        "https://csw.jlu.edu.cn/info/1095/8479.htm",
+        "https://csw.jlu.edu.cn/info/1095/8478.htm",
+        "https://csw.jlu.edu.cn/info/1095/8451.htm"
+      ]
+    },
+    {
+      "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:24+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://csw.jlu.edu.cn/info/1009/8158.htm",
+          "original_checked_at": "2026-10-13T13:51:26+08:00",
+          "snapshot": "html/370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f.html",
+          "snapshot_sha256": "370e21f9662e7c3f5a6c256dc53a76c6d69518648d2eb450b8db740e0d1b708f",
+          "accepted": true,
+          "title": "关于申报 2025 年 “开源贡献之星” 奖励计划的通知",
+          "date": "2025-12-01",
+          "content_chars": 1409,
+          "attachments": 2,
+          "content_sha256": "fee9516ff8d2907ea5f662b82f2cc91aedc5336a7a8b1666545c95c2c36c05b4"
+        },
+        {
+          "url": "https://csw.jlu.edu.cn/info/1009/8077.htm",
+          "original_checked_at": "2026-10-13T13:51:28+08:00",
+          "snapshot": "html/0227215adc9fbf1e94d7bb36953167ce65d78d3bb5a1e97af87e2406d37a19e7.html",
+          "snapshot_sha256": "0227215adc9fbf1e94d7bb36953167ce65d78d3bb5a1e97af87e2406d37a19e7",
+          "accepted": true,
+          "title": "第17届蓝桥杯大赛报名通知",
+          "date": "2025-10-31",
+          "content_chars": 728,
+          "attachments": 0,
+          "content_sha256": "edc46b721b9ba51fae4c14d4a98aee47b8828727c58d8d507b2c7c905cd3c311"
+        }
+      ],
+      "list_snapshot": "html/25c5b296373ae0f801c242304c25e0fc44e50cd14ab040a6fd489258200aaa25.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://csw.jlu.edu.cn/info/1009/8158.htm",
+        "https://csw.jlu.edu.cn/info/1009/8077.htm",
+        "https://csw.jlu.edu.cn/info/1009/8027.htm",
+        "https://csw.jlu.edu.cn/info/1009/7822.htm",
+        "https://csw.jlu.edu.cn/info/1009/7247.htm",
+        "https://csw.jlu.edu.cn/info/1009/7132.htm",
+        "https://csw.jlu.edu.cn/info/1009/7101.htm",
+        "https://csw.jlu.edu.cn/info/1009/6969.htm",
+        "https://csw.jlu.edu.cn/info/1009/6910.htm",
+        "https://csw.jlu.edu.cn/info/1009/6852.htm",
+        "https://csw.jlu.edu.cn/info/1009/6633.htm",
+        "https://csw.jlu.edu.cn/info/1009/6583.htm",
+        "https://csw.jlu.edu.cn/info/1009/6463.htm",
+        "https://csw.jlu.edu.cn/info/1009/6412.htm",
+        "https://csw.jlu.edu.cn/info/1009/6192.htm"
+      ]
+    },
+    {
+      "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:30+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+          "original_checked_at": "2026-10-13T13:51:32+08:00",
+          "snapshot": "html/66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd.html",
+          "snapshot_sha256": "66467509e5863256bad193c098f2ef7193421035555db3c39568aa5dce806cbd",
+          "accepted": true,
+          "title": "关于公布2026年中美青年创客大赛校赛评审结果的通知",
+          "date": "2026-05-27",
+          "content_chars": 154,
+          "attachments": 1,
+          "content_sha256": "edbecfc81fc7fd60271be5e1a007ca70d9dd8cb5380f390b9384311487ef22a2"
+        },
+        {
+          "url": "https://cxcyjyxy.jlu.edu.cn/info/1060/2341.htm",
+          "original_checked_at": "2026-10-13T13:51:34+08:00",
+          "snapshot": "html/5f87063742360e35bc5645e405274416f770b0782a62fb20416bdbf281c42bfc.html",
+          "snapshot_sha256": "5f87063742360e35bc5645e405274416f770b0782a62fb20416bdbf281c42bfc",
+          "accepted": true,
+          "title": "关于举办2026年中美青年创客大赛校赛的通知",
+          "date": "2026-04-28",
+          "content_chars": 2916,
+          "attachments": 0,
+          "content_sha256": "225e88e0a36714e08f36e6a17373a54c922008ef779d3b5ed08e8ab54e010bd1"
+        }
+      ],
+      "list_snapshot": "html/095de24ffaff3d5ff9b6b19126760c2bd3cdcbaab2fa55fbcd870fd491a3f6ee.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2351.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2341.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2331.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2321.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2311.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2303.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2301.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2292.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2271.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2269.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2261.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2241.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2221.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2243.htm",
+        "https://cxcyjyxy.jlu.edu.cn/info/1060/2212.htm"
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:36+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+          "original_checked_at": "2026-10-13T13:51:38+08:00",
+          "snapshot": "html/1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc.html",
+          "snapshot_sha256": "1c44605133f210e49dc5d085ccec65e4e27b5cc51f616d1906430dc4486a1bcc",
+          "accepted": true,
+          "title": "关于2026-2027学年第一学期部分课程停开的通知",
+          "date": "2026-09-15",
+          "content_chars": 200,
+          "attachments": 1,
+          "content_sha256": "901606dab37c86e0bc8d06e7de8843f05b49bac18560a43d4aa31d93272836db"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+          "original_checked_at": "2026-10-13T13:51:41+08:00",
+          "snapshot": "html/6a8c07dacacbe8ac74282defb73383a79032dc8625fe61e9dfabaafb69a4b1d8.html",
+          "snapshot_sha256": "6a8c07dacacbe8ac74282defb73383a79032dc8625fe61e9dfabaafb69a4b1d8",
+          "accepted": true,
+          "title": "本科生院关于面向院内民主推荐正科级干部的通知",
+          "date": "2026-05-25",
+          "content_chars": 900,
+          "attachments": 1,
+          "content_sha256": "a8d8302f93fe64c6ef006227e26ab5ff64cbbf562ac1bd91583b251767f59bc8"
+        }
+      ],
+      "list_snapshot": "html/8919dba673a545603c886cb72ce25ea9eca6a92c397fe98cac69d942ce9ba09d.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://jwc.jlu.edu.cn/info/1050/12677.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12635.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12507.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12405.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12401.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12384.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12349.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12296.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12240.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12237.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12136.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12016.htm",
+        "https://jwc.jlu.edu.cn/info/1050/12007.htm",
+        "https://jwc.jlu.edu.cn/info/1050/11774.htm",
+        "https://jwc.jlu.edu.cn/info/1050/11746.htm"
+      ]
+    },
+    {
+      "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+      "groups": [
+        "configured",
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:51:44+08:00",
+      "original_issues": [
+        "ROBOTS_UNAVAILABLE"
+      ],
+      "details": [],
+      "list_error": "NO_SNAPSHOT: original access was blocked",
+      "list_count": null
+    },
+    {
+      "url": "https://www.jlu.edu.cn/index/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:48:36+08:00",
+      "original_issues": [
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "PAGINATION_NOT_CONFIGURED",
+        "TITLE_TRUNCATED"
+      ],
+      "details": [
+        {
+          "url": "https://www.jlu.edu.cn/info/1095/58176.htm",
+          "original_checked_at": "2026-10-13T13:51:44+08:00",
+          "snapshot": "html/0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c.html",
+          "snapshot_sha256": "0d55ea7212124ea94c887d7f2b5c22e10a66fe1081dc0beaa7c0d2d1960ae27c",
+          "accepted": true,
+          "title": "吉林大学附属中学2026年公开招聘教师（第三批次）笔试合格、进入面试环节人员名单...",
+          "date": "2026-09-06",
+          "content_chars": 179,
+          "attachments": 0,
+          "content_sha256": "db829dacc9e8c9a76eafde796a8a0f84e310c65084710a41c1d1ce301ffcaec2"
+        },
+        {
+          "url": "https://www.jlu.edu.cn/info/1095/58148.htm",
+          "original_checked_at": "2026-10-13T13:51:45+08:00",
+          "snapshot": "html/7860f7743c81c5d3af9d383178bba2bd91c38806310e0af32a6a5d36d93eef18.html",
+          "snapshot_sha256": "7860f7743c81c5d3af9d383178bba2bd91c38806310e0af32a6a5d36d93eef18",
+          "accepted": true,
+          "title": "吉林大学附属中学2026年公开招聘教师（第三批次）资格审核初审合格人员名单公示",
+          "date": "2026-09-01",
+          "content_chars": 261,
+          "attachments": 0,
+          "content_sha256": "5f4ce2bdfb9ea2b190321d7c2ee6d4db8fffb4d1cb575dc5462e0e6ddc95cf0b"
+        }
+      ],
+      "list_snapshot": "html/067fdc9c5f41af74dcb306971a47875e361f0c270e999a563d6014d8a043cdc8.html",
+      "list_count": 20,
+      "list_urls": [
+        "https://www.jlu.edu.cn/info/1095/58176.htm",
+        "https://www.jlu.edu.cn/info/1095/58148.htm",
+        "https://www.jlu.edu.cn/info/1095/58121.htm",
+        "https://www.jlu.edu.cn/info/1095/58043.htm",
+        "https://www.jlu.edu.cn/info/1095/58021.htm",
+        "https://www.jlu.edu.cn/info/1095/58013.htm",
+        "https://www.jlu.edu.cn/info/1095/57944.htm",
+        "https://www.jlu.edu.cn/info/1095/57943.htm",
+        "https://www.jlu.edu.cn/info/1095/57741.htm",
+        "https://www.jlu.edu.cn/info/1095/57686.htm",
+        "https://www.jlu.edu.cn/info/1095/57663.htm",
+        "https://www.jlu.edu.cn/info/1095/57584.htm",
+        "https://www.jlu.edu.cn/info/1095/57563.htm",
+        "https://www.jlu.edu.cn/info/1095/57517.htm",
+        "https://www.jlu.edu.cn/info/1095/57472.htm",
+        "https://www.jlu.edu.cn/info/1095/57360.htm",
+        "https://www.jlu.edu.cn/info/1095/57300.htm",
+        "https://www.jlu.edu.cn/info/1095/56980.htm",
+        "https://www.jlu.edu.cn/info/1095/56798.htm",
+        "https://www.jlu.edu.cn/info/1095/56797.htm"
+      ]
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/tzgg1",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:51:54+08:00",
+      "original_issues": [
+        "NETWORK_ERROR"
+      ],
+      "details": [],
+      "list_error": "NO_SNAPSHOT: original access was blocked",
+      "list_count": null
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:39:10+08:00",
+      "original_issues": [
+        "NETWORK_ERROR"
+      ],
+      "details": [],
+      "list_error": "NO_SNAPSHOT: original access was blocked",
+      "list_count": null
+    },
+    {
+      "url": "https://dec.jlu.edu.cn/html/xljy/tzgg/tzggjwbgs/202609281485.html",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "无需适配",
+      "original_checked_at": "2026-10-13T13:51:58+08:00",
+      "original_issues": [
+        "OUT_OF_SCOPE_REFERENCE"
+      ],
+      "details": [],
+      "list_snapshot": "html/9b68bd9a783785e8831427ca1e0b71546d1576e85b57bba9451b5b8dbb6b7743.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:35:03+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+          "original_checked_at": "2026-10-13T13:51:59+08:00",
+          "snapshot": "html/3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4.html",
+          "snapshot_sha256": "3605c68be47ac7f95d81d89a0e6d19433214cb7cf7dacce28e0709e3d78475f4",
+          "accepted": true,
+          "title": "关于申报吉林大学“研究阐释习近平党建思想”哲学社会科学研究专项项目的通知",
+          "date": "2026-09-21",
+          "content_chars": 1078,
+          "attachments": 2,
+          "content_sha256": "205ce9081c9d786edc5398b344004eed3ec958862385e2ba4c0a071b682a5139"
+        },
+        {
+          "url": "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+          "original_checked_at": "2026-10-13T13:52:01+08:00",
+          "snapshot": "html/b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5.html",
+          "snapshot_sha256": "b19785ebbdb1de6ca198e01ba2bfaabe71e3ef2e669651542ef6dd4920bd8fc5",
+          "accepted": true,
+          "title": "关于申报2026年国家社会科学基金中华学术外译项目的通知",
+          "date": "2026-09-11",
+          "content_chars": 4000,
+          "attachments": 5,
+          "content_sha256": "c3dcbb39b879f827a95e00b5cd6003c9dc1398882a69c347f77a3826c66d8b52"
+        }
+      ],
+      "list_snapshot": "html/db4a50248a02dcefb8d3adaa4eec43e69f0d240ca70719b0dd6cc5e7e4534b93.html",
+      "list_count": 20,
+      "list_urls": [
+        "https://hssra.jlu.edu.cn/info/1311/6071.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6083.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6072.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6073.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6082.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6044.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6042.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6040.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6038.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6036.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6074.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6075.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6077.htm",
+        "https://hssra.jlu.edu.cn/info/1311/6076.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5970.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5967.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5966.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5964.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5929.htm",
+        "https://hssra.jlu.edu.cn/info/1311/5891.htm"
+      ]
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:52:05+08:00",
+      "original_issues": [
+        "EMPTY_LIST",
+        "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+      ],
+      "details": [],
+      "list_snapshot": "html/ebaeb55d9f084e9e13551569551eeec0fab66f8464b9cf47434f8554792e4952.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:52:08+08:00",
+      "original_issues": [
+        "EMPTY_LIST",
+        "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+      ],
+      "details": [],
+      "list_snapshot": "html/6870b82aa55b49dc95ea0aaf4ebeb5c967a17dcc7fdc287702a6685ccf14a1a3.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:52:08+08:00",
+      "original_issues": [
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1503/12659.htm",
+          "original_checked_at": "2026-10-13T13:52:09+08:00",
+          "snapshot": "html/74fc4e5dcf5ac360d552233e887149fdc597a9ca708a842809d82348804e2914.html",
+          "snapshot_sha256": "74fc4e5dcf5ac360d552233e887149fdc597a9ca708a842809d82348804e2914",
+          "accepted": true,
+          "title": "吉林大学毕业证书、学位证书遗失办理证明书人员公示（20260610）",
+          "date": "2026-06-10",
+          "content_chars": 868,
+          "attachments": 0,
+          "content_sha256": "4f2038384a6235d1dc5c32d49ac565c78c08d513d1228362d56b3a9668205b12"
+        },
+        {
+          "url": "https://jwc.jlu.edu.cn/info/1503/12625.htm",
+          "original_checked_at": "2026-10-13T13:52:10+08:00",
+          "snapshot": "html/59d18bc07955508179d543b53d5c956fe219199e02de1343b545e45a11110b99.html",
+          "snapshot_sha256": "59d18bc07955508179d543b53d5c956fe219199e02de1343b545e45a11110b99",
+          "accepted": true,
+          "title": "吉林大学毕业证书、学位证书遗失办理证明书人员公示（20260515）",
+          "date": "2026-05-15",
+          "content_chars": 632,
+          "attachments": 0,
+          "content_sha256": "73d72e0a5d122a03d2677b8ca83609348977204edee6a875d584d1db094e2659"
+        }
+      ],
+      "list_snapshot": "html/b3b38968033a3e83f253edacdac708e7afdb8f57ebd2cc532d7bf760477afb9b.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://jwc.jlu.edu.cn/info/1503/12659.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12625.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12612.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12607.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12592.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12588.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12576.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12573.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12556.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12555.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12527.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12523.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12520.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12516.htm",
+        "https://jwc.jlu.edu.cn/info/1503/12510.htm"
+      ]
+    },
+    {
+      "url": "https://jwc.jlu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1402",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:52:12+08:00",
+      "original_issues": [
+        "EMPTY_LIST"
+      ],
+      "details": [],
+      "list_snapshot": "html/809114d1ca8ad809c22c9645b12c7679bfcd34cde7033d2067bba3934aa4d066.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:52:15+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "LIST_DETAIL_DATE_DIFFERENCE",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://xsc.jlu.edu.cn/info/1048/5940.htm",
+          "original_checked_at": "2026-10-13T13:52:16+08:00",
+          "snapshot": "html/8651364ba63408e81738948fa1a472d1896d6501b1c3bf0897753acf80c8b97b.html",
+          "snapshot_sha256": "8651364ba63408e81738948fa1a472d1896d6501b1c3bf0897753acf80c8b97b",
+          "accepted": true,
+          "title": "关于在本科生中评选2026年度吉林大学“小米奖（助）学金”的通知",
+          "date": "2026-10-13",
+          "content_chars": 1063,
+          "attachments": 2,
+          "content_sha256": "72e8a04178d5d0bd73a7b2b4439bebba7f06d5768964ca027531565cfab01855"
+        },
+        {
+          "url": "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+          "original_checked_at": "2026-10-13T13:52:18+08:00",
+          "snapshot": "html/36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024.html",
+          "snapshot_sha256": "36833058a62d1438b78f3754b58c7a5f04a684ec1bbd979160f6d233c9e71024",
+          "accepted": true,
+          "title": "关于公示2026年度本科生“宝钢优秀学生奖学金”拟获奖人员名单的通知",
+          "date": "2026-10-13",
+          "content_chars": 246,
+          "attachments": 1,
+          "content_sha256": "f8c73caa70c0c4a2d409f1e9481dbb81b94ab68edfdeec47edd50d9df4118eba"
+        }
+      ],
+      "list_snapshot": "html/1103af814053ba437a379a6b061f33123801a6bf8c21d03608b78bbc61018417.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://xsc.jlu.edu.cn/info/1048/5940.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5941.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5937.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5936.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5935.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5934.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5933.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5932.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5931.htm",
+        "https://xsc.jlu.edu.cn/info/1048/5922.htm"
+      ]
+    },
+    {
+      "url": "https://yjs.jlu.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:52:22+08:00",
+      "original_issues": [
+        "ROBOTS_UNAVAILABLE"
+      ],
+      "details": [],
+      "list_error": "NO_SNAPSHOT: original access was blocked",
+      "list_count": null
+    },
+    {
+      "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:52:35+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yjsy.jlu.edu.cn/info/1060/6460.htm",
+          "original_checked_at": "2026-10-13T13:52:35+08:00",
+          "snapshot": "html/16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb.html",
+          "snapshot_sha256": "16682c3e4d5047ad9d514044d4eb8cb724581aa5869de3de5f7afc7c06b21abb",
+          "accepted": true,
+          "title": "关于2026年吉林大学研究生会纳新工作的通知",
+          "date": "2026-09-09",
+          "content_chars": 2146,
+          "attachments": 1,
+          "content_sha256": "9f497dc11a1f2d2c8e7a3f0ca6e099e6798d2136c88e9610ab48f5978645dff9"
+        },
+        {
+          "url": "https://yjsy.jlu.edu.cn/info/1060/6459.htm",
+          "original_checked_at": "2026-10-13T13:52:37+08:00",
+          "snapshot": "html/fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86.html",
+          "snapshot_sha256": "fd67c930f7d7cce5ff2c5d1093eb7efc959798784ab832096a082c1d2a0fba86",
+          "accepted": true,
+          "title": "青春有“理”，等你来讲！—— 吉林大学博士生讲师团纳新啦！",
+          "date": "2026-09-09",
+          "content_chars": 2751,
+          "attachments": 1,
+          "content_sha256": "3a3e2f54538ac26bcdfc3ad1c0c1a9413faeadbc2f62fa6549c960503b887923"
+        }
+      ],
+      "list_snapshot": "html/11425739985656081428682a89512bd8af9073e94bb4ed157ed484f98899ded2.html",
+      "list_count": 15,
+      "list_urls": [
+        "https://yjsy.jlu.edu.cn/info/1060/6460.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6459.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6394.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6361.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6117.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6107.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/6106.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5995.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5780.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5753.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5754.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5655.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5755.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5756.htm",
+        "https://yjsy.jlu.edu.cn/info/1060/5657.htm"
+      ]
+    },
+    {
+      "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:38:24+08:00",
+      "original_issues": [
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://youth.jlu.edu.cn/info/1009/4996.htm",
+          "original_checked_at": "2026-10-13T13:52:41+08:00",
+          "snapshot": "html/a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed.html",
+          "snapshot_sha256": "a05a4470ce9a88c8d9def829f2e434f5739fac88dbfded27821a9a0e4ec6eeed",
+          "accepted": true,
+          "title": "关于公开选拔吉大青年通讯社主要学生干部的通知",
+          "date": "2026-09-30",
+          "content_chars": 1170,
+          "attachments": 2,
+          "content_sha256": "89ac74d426815849a67d07c887dbbbbe5de42e121ab84a35e86ae538123050a6"
+        },
+        {
+          "url": "https://youth.jlu.edu.cn/info/1009/4995.htm",
+          "original_checked_at": "2026-10-13T13:52:43+08:00",
+          "snapshot": "html/6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06.html",
+          "snapshot_sha256": "6a3a37ee808fc095fc537d053bd5200e413f73bfda895682834385da1a258e06",
+          "accepted": true,
+          "title": "关于公开选拔吉林大学阳光志愿者协会学生干部的通知",
+          "date": "2026-09-21",
+          "content_chars": 1207,
+          "attachments": 2,
+          "content_sha256": "81f0e02fb02200533bb5b3854e664d776a5c13f815781f18140fe9752ea5e6e6"
+        }
+      ],
+      "list_snapshot": "html/a3e8a474bb492ce8645e43a32eb15b4deba5022d32e5e2e70e25b5f51d3fe707.html",
+      "list_count": 5,
+      "list_urls": [
+        "https://youth.jlu.edu.cn/info/1009/4996.htm",
+        "https://youth.jlu.edu.cn/info/1009/4995.htm",
+        "https://youth.jlu.edu.cn/info/1009/4994.htm",
+        "https://youth.jlu.edu.cn/info/1009/4989.htm",
+        "https://youth.jlu.edu.cn/info/1009/4988.htm"
+      ]
+    },
+    {
+      "url": "https://yz.chsi.com.cn/",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "无需适配",
+      "original_checked_at": "2026-10-13T13:52:47+08:00",
+      "original_issues": [
+        "OUT_OF_SCOPE_REFERENCE"
+      ],
+      "details": [
+        {
+          "url": "https://yzw.cuz.edu.cn/info/1011/9612.htm",
+          "original_checked_at": "2026-10-13T13:52:49+08:00",
+          "snapshot": "html/8bf05b4920d541b797a9482763c955fc66902bc878174bf98a50b8020480e266.html",
+          "snapshot_sha256": "8bf05b4920d541b797a9482763c955fc66902bc878174bf98a50b8020480e266",
+          "accepted": true,
+          "title": "浙江传媒学院2027年硕士研究生招生简章",
+          "date": "2026-09-30",
+          "content_chars": 5571,
+          "attachments": 1,
+          "content_sha256": "ea003c9647dc760372431ee7dd6caf26d7fa3f1f3dee2253a35fa6b6f7414df8"
+        },
+        {
+          "url": "https://gradadmission.zstu.edu.cn/info/1011/3395.htm",
+          "original_checked_at": "2026-10-13T13:52:52+08:00",
+          "snapshot": "html/cacbd1f03ee63144bacbb12cebaedb8c932e35c5c829080f151663693c3fbc71.html",
+          "snapshot_sha256": "cacbd1f03ee63144bacbb12cebaedb8c932e35c5c829080f151663693c3fbc71",
+          "accepted": true,
+          "title": "一、招生类型 及学制",
+          "date": "2026-09-29",
+          "content_chars": 8285,
+          "attachments": 0,
+          "content_sha256": "e8fe260ed9d2c8b4ba0df0bfa05f05d323fbdb43862eaa64172a99a28be72685"
+        }
+      ],
+      "list_snapshot": "html/1371d65715a7638d2307e8fd506a34838e3b6a8e6795a17dbf514dcd42d1d63f.html",
+      "list_count": 7,
+      "list_urls": [
+        "https://yzw.cuz.edu.cn/info/1011/9612.htm",
+        "https://gradadmission.zstu.edu.cn/info/1011/3395.htm",
+        "https://gradadmission.zstu.edu.cn/info/1011/3393.htm",
+        "https://www.scfai.edu.cn/zsb/info/1001/4736.htm",
+        "https://yz.gdufs.edu.cn/info/1017/3146.htm",
+        "https://yzb.xauat.edu.cn/info/1020/8157.htm",
+        "https://masters.sem.tsinghua.edu.cn/info/1291/3612.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/bszs/lqgs.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:52:55+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1052/3531.htm",
+          "original_checked_at": "2026-10-13T13:52:56+08:00",
+          "snapshot": "html/08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe.html",
+          "snapshot_sha256": "08612bd0df18b91565185dbb524dc6b0620d6ef319b469bed0c3f5e3d3f397fe",
+          "accepted": true,
+          "title": "吉林大学2026年博士研究生拟录取名单公示",
+          "date": "2026-06-30",
+          "content_chars": 355,
+          "attachments": 1,
+          "content_sha256": "79db3371a05d6f14af463f9330ca7ec4e754b6723605295c7b66bf8822a3e0cb"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+          "original_checked_at": "2026-10-13T13:52:58+08:00",
+          "snapshot": "html/55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7.html",
+          "snapshot_sha256": "55fd7a4708680122b23103a86ceb667fbcaf57d0f597919f9c16f924d8d847d7",
+          "accepted": true,
+          "title": "吉林大学2025年博士研究生拟录取名单公示",
+          "date": "2025-06-27",
+          "content_chars": 332,
+          "attachments": 1,
+          "content_sha256": "71ca575862beec9dd5cfb5ac1af25d10c801ffa005a219eefe6b013b82e83008"
+        }
+      ],
+      "list_snapshot": "html/dd5b9c3170abf7c389bbe9917be033cf46b1b2766034ecb6b2f2611b68eff930.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1052/3531.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3347.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3349.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3351.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3352.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3353.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3354.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3356.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3043.htm",
+        "https://yzb.jlu.edu.cn/info/1052/3358.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/bszs/zsgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:53:02+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1050/3283.htm",
+          "original_checked_at": "2026-10-13T13:53:03+08:00",
+          "snapshot": "html/88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0.html",
+          "snapshot_sha256": "88cbffdff84af6aa7eb5fe89d5672c2bfbe3d81c71ae922d2cf9163c636af4b0",
+          "accepted": true,
+          "title": "吉林大学各招生单位2026年全日制博士招生实施办法（细则）",
+          "date": "2025-11-20",
+          "content_chars": 2685,
+          "attachments": 0,
+          "content_sha256": "6201dff9e70a85c8627ce6a68ddb22f05449c1f0e446dff8e9cb469f9bacd88f"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1050/3284.htm",
+          "original_checked_at": "2026-10-13T13:53:04+08:00",
+          "snapshot": "html/1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870.html",
+          "snapshot_sha256": "1e5bf629b5daecea81d9b9c479d5fbbf1a6ddb1aa65447f10defc1e8a621d870",
+          "accepted": true,
+          "title": "关于公布吉林大学法律（035100）全日制专业学位博士收费标准的通知",
+          "date": "2025-11-13",
+          "content_chars": 153,
+          "attachments": 0,
+          "content_sha256": "f4389e5763c483ff76ba1ba64cf235ee8beba2c5619ab16a6eea0a4452e5604f"
+        }
+      ],
+      "list_snapshot": "html/05498be360838386a75410a5d72e650b7a19f9a5fee5e2c8dae8b347111e1893.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1050/3283.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3284.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3285.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3286.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3287.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3288.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3289.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3290.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3291.htm",
+        "https://yzb.jlu.edu.cn/info/1050/3343.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/index/lqgs.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:53:07+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1004/3677.htm",
+          "original_checked_at": "2026-10-13T13:53:08+08:00",
+          "snapshot": "html/8a9d6b29b4c2296acf0fad70d768350366e9566dc9ce0046742b53f5d72af598.html",
+          "snapshot_sha256": "8a9d6b29b4c2296acf0fad70d768350366e9566dc9ce0046742b53f5d72af598",
+          "accepted": true,
+          "title": "吉林大学2026年博士研究生拟录取名单公示",
+          "date": "2026-06-30",
+          "content_chars": 355,
+          "attachments": 1,
+          "content_sha256": "79db3371a05d6f14af463f9330ca7ec4e754b6723605295c7b66bf8822a3e0cb"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1004/2368.htm",
+          "original_checked_at": "2026-10-13T13:53:11+08:00",
+          "snapshot": "html/ce24781d3e5646f22b6469090ca8e180be1036728c8307791a4957fd3d2d2e9b.html",
+          "snapshot_sha256": "ce24781d3e5646f22b6469090ca8e180be1036728c8307791a4957fd3d2d2e9b",
+          "accepted": true,
+          "title": "关于吉林大学2026年拟录取硕士研究范桂臣更改录取类别的公示",
+          "date": "2026-05-15",
+          "content_chars": 183,
+          "attachments": 0,
+          "content_sha256": "80ef0c0cb9d053f71bae38ea25210d5c9cbcdb4706d8911ddbf072e97fa4d1ce"
+        }
+      ],
+      "list_snapshot": "html/b09c9d87c8cfff35591c1cade4efeb9bf9e22bf535c22625049d3bf1eb6bafca.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1004/3677.htm",
+        "https://yzb.jlu.edu.cn/info/1004/2368.htm",
+        "https://yzb.jlu.edu.cn/info/1004/2369.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1726.htm",
+        "https://yzb.jlu.edu.cn/info/1004/2378.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1816.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1727.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1728.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1729.htm",
+        "https://yzb.jlu.edu.cn/info/1004/1730.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/index/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:48:29+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+          "original_checked_at": "2026-10-13T13:53:13+08:00",
+          "snapshot": "html/246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd.html",
+          "snapshot_sha256": "246cf99ad605047c593950d16630cf9515ca00d8af70644fd76052ba5e1e1bbd",
+          "accepted": true,
+          "title": "吉林大学2026级研究生新生入学须知",
+          "date": "2026-06-25",
+          "content_chars": 2002,
+          "attachments": 2,
+          "content_sha256": "ccb000b868bc5d9b46e60864e6e898eacc2b4b191dfd4b41f06e6da5298b293f"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1005/2335.htm",
+          "original_checked_at": "2026-10-13T13:53:16+08:00",
+          "snapshot": "html/faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e.html",
+          "snapshot_sha256": "faabad3387b8730ce4df592b0240ad9f7b692bed25ecaa6fe3090bd34923099e",
+          "accepted": true,
+          "title": "吉林大学2026年面向香港、澳门、台湾地区招收硕士研究生招生考试考生进入复试的初试成绩基本要求",
+          "date": "2026-05-07",
+          "content_chars": 331,
+          "attachments": 1,
+          "content_sha256": "fbf9b2b467f613c26599f926f90ceca77319cf792f2c27f19098e19be10fdb86"
+        }
+      ],
+      "list_snapshot": "html/a2a166e16b4266871c0d3e295b662640f17404a9dd1899d7f25f64c5b18aa316.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1002/3520.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2335.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2333.htm",
+        "https://yzb.jlu.edu.cn/info/1005/1001.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2077.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2076.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2075.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2074.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2073.htm",
+        "https://yzb.jlu.edu.cn/info/1005/2072.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/sszs/lqgs.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:53:19+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1049/2931.htm",
+          "original_checked_at": "2026-10-13T13:53:20+08:00",
+          "snapshot": "html/2769f36e244ef127ce97d1aab575c6db7b8a5dc679f547022c763c155af4392c.html",
+          "snapshot_sha256": "2769f36e244ef127ce97d1aab575c6db7b8a5dc679f547022c763c155af4392c",
+          "accepted": true,
+          "title": "关于吉林大学2026年拟录取硕士研究范桂臣更改录取类别的公示",
+          "date": "2026-05-15",
+          "content_chars": 183,
+          "attachments": 0,
+          "content_sha256": "80ef0c0cb9d053f71bae38ea25210d5c9cbcdb4706d8911ddbf072e97fa4d1ce"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1049/2932.htm",
+          "original_checked_at": "2026-10-13T13:53:21+08:00",
+          "snapshot": "html/8a1f6ef8405d723186f14d87e14beee3852249eeb3d543a3b0fbac7c2f9bd5cb.html",
+          "snapshot_sha256": "8a1f6ef8405d723186f14d87e14beee3852249eeb3d543a3b0fbac7c2f9bd5cb",
+          "accepted": true,
+          "title": "吉林大学2026年统考硕士研究生拟录取名单公示",
+          "date": "2026-04-24",
+          "content_chars": 310,
+          "attachments": 1,
+          "content_sha256": "77a7cc5d332e411b4a5c9388f65da08c8f47a362197bd3c8224832b0fe903fbc"
+        }
+      ],
+      "list_snapshot": "html/537e3a7223cf2f7b1e886f777953a941b9683891c3aa252eb898ea1bae97af53.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1049/2931.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2932.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2933.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2934.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2935.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2936.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2938.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2939.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2954.htm",
+        "https://yzb.jlu.edu.cn/info/1049/2961.htm"
+      ]
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/sszs/zsgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:53:25+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "ATTACHMENTS_UNCHECKED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1046/2913.htm",
+          "original_checked_at": "2026-10-13T13:53:26+08:00",
+          "snapshot": "html/43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1.html",
+          "snapshot_sha256": "43c6723d72b9e6f3731aefe284d8d642f7bdae3288bd7bf202a569e5f1aa91a1",
+          "accepted": true,
+          "title": "吉林大学2027年硕士研究生招生部分专业自命题变更通知（陆续更新）",
+          "date": "2026-05-19",
+          "content_chars": 1362,
+          "attachments": 0,
+          "content_sha256": "c2d31c90508af88ce88fb66d801f5093f7e1d387a8ebb33878e84992d0da78ef"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1046/2914.htm",
+          "original_checked_at": "2026-10-13T13:53:27+08:00",
+          "snapshot": "html/4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402.html",
+          "snapshot_sha256": "4b4b643da84168753b26d45d0703a5525cae49c33f469d7f4fafc9f724ead402",
+          "accepted": true,
+          "title": "吉林大学2026年各研究生招生单位硕士复试录取工作办法（陆续更新）",
+          "date": "2026-04-24",
+          "content_chars": 4150,
+          "attachments": 3,
+          "content_sha256": "c46f591a869ae3cdc1c233352e051f44739509b25f34b93765ed8c30b2d0f05c"
+        }
+      ],
+      "list_snapshot": "html/b9b86f59cd0781075dec6c91b98936d42be3cb5157d89c83dd38ac8717487f46.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://yzb.jlu.edu.cn/info/1046/2913.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2914.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2915.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2916.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2917.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2918.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2919.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2921.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2922.htm",
+        "https://yzb.jlu.edu.cn/info/1046/2923.htm"
+      ]
+    },
+    {
+      "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:34:52+08:00",
+      "original_issues": [
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://kjc.jlu.edu.cn/info/1118/6237.htm",
+          "original_checked_at": "2026-10-13T14:07:27+08:00",
+          "snapshot": "html/ee10048c8f826e16be6a3baff1dc60febdf9186f3d43508a8320f468236fb422.html",
+          "snapshot_sha256": "ee10048c8f826e16be6a3baff1dc60febdf9186f3d43508a8320f468236fb422",
+          "accepted": true,
+          "title": "关于开展2026年度自然资源科学技术奖推荐工作的通知",
+          "date": "2026-09-03",
+          "content_chars": 1537,
+          "attachments": 0,
+          "content_sha256": "4c7856ef3fc9d0ef63644123d8ff7cfd3984f28137773a88a778d11e33ee3acf"
+        }
+      ],
+      "list_snapshot": "html/e9420acff80f0f6921d6db52d6158567a5569c087f245d579dae9083cc9f6543.html",
+      "list_count": 17,
+      "list_urls": [
+        "https://kjc.jlu.edu.cn/info/1118/6237.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6236.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6086.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6082.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6081.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6080.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6079.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6078.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6077.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6076.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6075.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6074.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6073.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6072.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6071.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6070.htm",
+        "https://kjc.jlu.edu.cn/info/1118/6069.htm"
+      ]
+    },
+    {
+      "url": "https://auto.jlu.edu.cn/zsxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:54:03+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://auto.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:54:04+08:00",
+          "snapshot": "html/c2271053988e808adad1327814db5979e0b1653b808da9446879fa9cab91f5d6.html",
+          "snapshot_sha256": "c2271053988e808adad1327814db5979e0b1653b808da9446879fa9cab91f5d6",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/4646cf69d2e2dbff6da4ae2e223d7ca871c02085351e2484116e28e45d6f6078.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://ccfe.jlu.edu.cn/djgz/tbtz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:54:14+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "BODY_CONTAINER_FALLBACK",
+        "DATE_MISSING"
+      ],
+      "details": [
+        {
+          "url": "https://ccfe.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:54:15+08:00",
+          "snapshot": "html/e87e46c2898ac6ef6562aeaf8a7fa71fae7676c3d48ffe2c0686e4b8ef08d3c5.html",
+          "snapshot_sha256": "e87e46c2898ac6ef6562aeaf8a7fa71fae7676c3d48ffe2c0686e4b8ef08d3c5",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/8aefdebb6f16f48a3475db0efafa26021753cb5c0ef89857ae3df33123dc66c6.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://ccst.jlu.edu.cn/djgz/tzbd.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:54:19+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+          "original_checked_at": "2026-10-13T13:54:21+08:00",
+          "snapshot": "html/e2cd2bbdb8a85d008198bbc9be8eddd972280af78efc4d3aa76097322144e1fc.html",
+          "snapshot_sha256": "e2cd2bbdb8a85d008198bbc9be8eddd972280af78efc4d3aa76097322144e1fc",
+          "accepted": true,
+          "title": "关于设立深入贯彻中央八项规定精神学习教育网络意见箱的公告",
+          "date": "2025-06-10",
+          "content_chars": 414,
+          "attachments": 0,
+          "content_sha256": "b98bc52d6c0d1a80e657268bbb10d9a4fc726d93af6fdeb20e5229ba83eb32ad"
+        }
+      ],
+      "list_snapshot": "html/09ae4ed5f02dc32cb16351ac778a020a7a0beee108f729766307cd415f03ae77.html",
+      "list_count": 7,
+      "list_urls": [
+        "https://ccst.jlu.edu.cn/info/1077/20442.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19713.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19712.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19711.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19384.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19375.htm",
+        "https://ccst.jlu.edu.cn/info/1077/19342.htm"
+      ]
+    },
+    {
+      "url": "https://cer.jlu.edu.cn/xsgz/yjs/tzgg.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:43:18+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://cer.jlu.edu.cn/info/1086/5539.htm",
+          "original_checked_at": "2026-10-13T13:54:46+08:00",
+          "snapshot": "html/169438a25cfbba696df4c85b8e6a87d7f0408c87ccb88af558019bc53608f09b.html",
+          "snapshot_sha256": "169438a25cfbba696df4c85b8e6a87d7f0408c87ccb88af558019bc53608f09b",
+          "accepted": true,
+          "title": "关于2022年度“李四光优秀学生奖”推荐人选的公示",
+          "date": "2022-05-18",
+          "content_chars": 331,
+          "attachments": 0,
+          "content_sha256": "e785690a30f6069a4fc9d1693029de6fe195c3991545e2d57329a55c00e8b8c7"
+        }
+      ],
+      "list_snapshot": "html/4a047b165b37b0742f8c1a80069797e38d226f06f49f1efa3ce661ff0f8ec53a.html",
+      "list_count": 14,
+      "list_urls": [
+        "https://cer.jlu.edu.cn/info/1086/5539.htm",
+        "https://cer.jlu.edu.cn/info/1086/4130.htm",
+        "https://cer.jlu.edu.cn/info/1086/4122.htm",
+        "https://cer.jlu.edu.cn/info/1086/4085.htm",
+        "https://cer.jlu.edu.cn/info/1086/4072.htm",
+        "https://cer.jlu.edu.cn/info/1086/4042.htm",
+        "https://cer.jlu.edu.cn/info/1086/4036.htm",
+        "https://cer.jlu.edu.cn/info/1086/3953.htm",
+        "https://cer.jlu.edu.cn/info/1086/3817.htm",
+        "https://cer.jlu.edu.cn/info/1086/3816.htm",
+        "https://cer.jlu.edu.cn/info/1086/3814.htm",
+        "https://cer.jlu.edu.cn/info/1086/3713.htm",
+        "https://cer.jlu.edu.cn/info/1086/3700.htm",
+        "https://cer.jlu.edu.cn/info/1086/3697.htm"
+      ]
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg/zpxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:55:32+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "DATE_MISSING"
+      ],
+      "details": [
+        {
+          "url": "https://dce.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:55:33+08:00",
+          "snapshot": "html/8e8a54ca9f8891668ad3807de876848f69357981823af7e29461d3ec48910aad.html",
+          "snapshot_sha256": "8e8a54ca9f8891668ad3807de876848f69357981823af7e29461d3ec48910aad",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/ee9043823e47486e52c79dd3028a217e98e33ee5a883bfb4a4aee6df26d509ca.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://dce.jlu.edu.cn/tzgg/zsxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:55:34+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "DATE_MISSING"
+      ],
+      "details": [
+        {
+          "url": "https://dce.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:55:33+08:00",
+          "snapshot": "html/8e8a54ca9f8891668ad3807de876848f69357981823af7e29461d3ec48910aad.html",
+          "snapshot_sha256": "8e8a54ca9f8891668ad3807de876848f69357981823af7e29461d3ec48910aad",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/a53c6eb356809a37e7eb5486738514bda832554eb26957d92ae4f894551ef8aa.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://dwkx.jlu.edu.cn/xsgz2/jyxx.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:55:51+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+          "original_checked_at": "2026-10-13T13:55:52+08:00",
+          "snapshot": "html/7c8245b07444d4edf0f810bf2da6e010201580e7ea217f50a3c168fa69966643.html",
+          "snapshot_sha256": "7c8245b07444d4edf0f810bf2da6e010201580e7ea217f50a3c168fa69966643",
+          "accepted": true,
+          "title": "宁波科瑞特动物药业有限公司招聘简章",
+          "date": "2016-10-18",
+          "content_chars": 499,
+          "attachments": 0,
+          "content_sha256": "0181320d697557a4f074ecd15704c81d09c017c3206779b66827d4a0c362ca06"
+        }
+      ],
+      "list_snapshot": "html/66996410615b471e801a2ccadaae500d7aee18fbf4b021b243dc6f94e47d1577.html",
+      "list_count": 8,
+      "list_urls": [
+        "https://dwkx.jlu.edu.cn/info/1045/1349.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1343.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1339.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1331.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1327.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1323.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1320.htm",
+        "https://dwkx.jlu.edu.cn/info/1045/1316.htm"
+      ]
+    },
+    {
+      "url": "https://dwyx.jlu.edu.cn/zsjy/jyxx.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:56:00+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+          "original_checked_at": "2026-10-13T13:56:01+08:00",
+          "snapshot": "html/b9ac49b5510a2aeaa793ae1bad5d66f554d14f1ed7f8bb564b8bfeea63670910.html",
+          "snapshot_sha256": "b9ac49b5510a2aeaa793ae1bad5d66f554d14f1ed7f8bb564b8bfeea63670910",
+          "accepted": true,
+          "title": "“赢从当下，领跑未来”——我院举办双胞胎集团校园招聘宣讲会",
+          "date": "2025-04-25",
+          "content_chars": 685,
+          "attachments": 0,
+          "content_sha256": "6a9f9dbeb5013707cc1649b489c288b14c59a4aa5b33ca2f7f9a15fa8436aaac"
+        }
+      ],
+      "list_snapshot": "html/810eed8383da08e71914fb0c38556d50fde1b925d4614054b30c33a74dd9e778.html",
+      "list_count": 6,
+      "list_urls": [
+        "https://dwyx.jlu.edu.cn/info/1029/3790.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3785.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3354.htm",
+        "https://dwyx.jlu.edu.cn/info/1029/3320.htm",
+        "https://dwyx.jlu.edu.cn/info/1076/2631.htm",
+        "https://dwyx.jlu.edu.cn/info/1076/2630.htm"
+      ]
+    },
+    {
+      "url": "https://ee.jlu.edu.cn/sys_/sysaqtzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:56:11+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "DATE_MISMATCH"
+      ],
+      "details": [
+        {
+          "url": "https://ee.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:56:12+08:00",
+          "snapshot": "html/36d1ab1a6b0be901418834d9ec2f594ea354294a4e9f2f931dbde7fec534560c.html",
+          "snapshot_sha256": "36d1ab1a6b0be901418834d9ec2f594ea354294a4e9f2f931dbde7fec534560c",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/149bac2f719b079c2a6eb9f8b04c3c13fcbc65fccd7d38fdf7496f80ac387081.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/dqgz/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:40:09+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "https://hac.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:56:46+08:00",
+          "snapshot": "html/9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3.html",
+          "snapshot_sha256": "9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/b091d2c2404d471ac2dda7e231d14facdd42acf8a26a546b716c715da3c61da3.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/gjjl/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:40:11+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "https://hac.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:56:46+08:00",
+          "snapshot": "html/9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3.html",
+          "snapshot_sha256": "9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/221838996eddb6a0549a1acb881dabd132e422154fa42de5e53c7dd123201825.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://hac.jlu.edu.cn/zsyjy/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:56:54+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "https://hac.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:56:46+08:00",
+          "snapshot": "html/9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3.html",
+          "snapshot_sha256": "9f1e8cc41665ce44f2eac26b711d329f117eb3a6a2c30511f8bf05de6f80a5f3",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/bd2d85388a5df7b67d19d80e78b39633573200dc599577299b309c3f486c9b0d.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://kgxy.jlu.edu.cn/xtgz/tzgg.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:40:01+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://kgxy.jlu.edu.cn/info/1059/5718.htm",
+          "original_checked_at": "2026-10-13T13:57:18+08:00",
+          "snapshot": "html/9dd087587a52672a9b03aa1062bf327b385d015e1b8a0625daaa5d0bfee515c3.html",
+          "snapshot_sha256": "9dd087587a52672a9b03aa1062bf327b385d015e1b8a0625daaa5d0bfee515c3",
+          "accepted": true,
+          "title": "关于公示吉林大学考古学院团学组织工作人员的通知",
+          "date": "2026-10-12",
+          "content_chars": 352,
+          "attachments": 0,
+          "content_sha256": "5db09c8f8dd50209b5b0356200637291fa9d3c82db025d0ea2f47feb70d32a66"
+        }
+      ],
+      "list_snapshot": "html/6a5c82c0fe5ff14cbf430bffed879b459c59c0b17e664227bc7b1d9355d98f42.html",
+      "list_count": 12,
+      "list_urls": [
+        "https://kgxy.jlu.edu.cn/info/1059/5718.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5695.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5691.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5690.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5674.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5669.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5657.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5281.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5264.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5238.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/5237.htm",
+        "https://kgxy.jlu.edu.cn/info/1059/1965.htm"
+      ]
+    },
+    {
+      "url": "https://life.jlu.edu.cn/xsgz/yjsgl/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:58:26+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "https://life.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:58:27+08:00",
+          "snapshot": "html/e08e0f00b4b19eea9c54786347690745da57767176fda5a2a78f64b172e2cebe.html",
+          "snapshot_sha256": "e08e0f00b4b19eea9c54786347690745da57767176fda5a2a78f64b172e2cebe",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/eb0bec3178ee2da8506f8d6647192a2d968042e1bdfb8b599ddb9fecc7e93248.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://math.jlu.edu.cn/zsjy/bkszs/zsx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:58:48+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION",
+        "DATE_MISMATCH"
+      ],
+      "details": [
+        {
+          "url": "https://math.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:58:49+08:00",
+          "snapshot": "html/d4acc988acd382d4b08006207d52af40ad441adb094e3a867166e88f607277e8.html",
+          "snapshot_sha256": "d4acc988acd382d4b08006207d52af40ad441adb094e3a867166e88f607277e8",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/ca67380c39070d3e1e7b8fbe6c8a3b205970700d0d7423dcae6776804bed49ba.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/bksjy/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:58:57+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://nasa.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:58:59+08:00",
+          "snapshot": "html/4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820.html",
+          "snapshot_sha256": "4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/cf8284154d211ddc66c4aa79a3bce63230e6ef3c0417cf4335eaaa1bc44aff5a.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/xzgz/ybtz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:59:20+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://nasa.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:58:59+08:00",
+          "snapshot": "html/4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820.html",
+          "snapshot_sha256": "4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/9434d9c1d952c61c7c7f62334e1018140b1d95d1e668f80f9bad9698312c6b2c.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://nasa.jlu.edu.cn/yjsjy/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:59:22+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://nasa.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:58:59+08:00",
+          "snapshot": "html/4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820.html",
+          "snapshot_sha256": "4b15c94366103a237b45bbd0aa3f8371281d82afaa3c5b3a8f434b80f00ef820",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/7aba08bc36c9db8fff1d11900cc0ccd8f15e43f2b5df3ee0ad6405061269fbc0.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://pe.jlu.edu.cn/jxxx.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:59:36+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://pe.jlu.edu.cn/info/1159/4081.htm",
+          "original_checked_at": "2026-10-13T13:59:37+08:00",
+          "snapshot": "html/2cdd14d0d4002961accf7ca19f72b4b5399df6f31ba56200e0aa4d1c5616fc86.html",
+          "snapshot_sha256": "2cdd14d0d4002961accf7ca19f72b4b5399df6f31ba56200e0aa4d1c5616fc86",
+          "accepted": true,
+          "title": "吉林大学体育学院开展教学实习调研工作",
+          "date": "2020-10-27",
+          "content_chars": 573,
+          "attachments": 0,
+          "content_sha256": "401f24d35fe11264313f05cd0dffe4b4c18c6a4fb44c1f0ce253a5ec7bc5b96a"
+        }
+      ],
+      "list_snapshot": "html/9091c9e75458063d6c2bb557570cef6b6ad3702cf0aa14328d6996f47fa525ff.html",
+      "list_count": 4,
+      "list_urls": [
+        "https://pe.jlu.edu.cn/info/1159/4081.htm",
+        "https://pe.jlu.edu.cn/info/1159/4061.htm",
+        "https://pe.jlu.edu.cn/info/1159/3831.htm",
+        "https://pe.jlu.edu.cn/info/1159/2748.htm"
+      ]
+    },
+    {
+      "url": "https://phy.jlu.edu.cn/rcpy/yjsjy/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:59:50+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "DATE_MISMATCH"
+      ],
+      "details": [
+        {
+          "url": "https://phy.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T13:59:51+08:00",
+          "snapshot": "html/759bb3fa58245c8673954ccb853816545fff1c38d85b6fb7f8a6cbd7fdcf0175.html",
+          "snapshot_sha256": "759bb3fa58245c8673954ccb853816545fff1c38d85b6fb7f8a6cbd7fdcf0175",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/2e1ef118848f4cadcd4967c07913aa69d70cfc3492ae83da5364a4d35b8f32ac.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/dzgz/dwgs.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:00:05+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://sflc.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:00:07+08:00",
+          "snapshot": "html/44ede0b777e230a2625938cf447a58ef37438d7d397a7a135a17421e2cf28d2e.html",
+          "snapshot_sha256": "44ede0b777e230a2625938cf447a58ef37438d7d397a7a135a17421e2cf28d2e",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/b4f9c0e3c0a8b25af3a182623d14cbf99816c7ea81b212e8ed021bb03cb609b6.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://sflc.jlu.edu.cn/xtgz/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:00:08+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "https://sflc.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:00:07+08:00",
+          "snapshot": "html/44ede0b777e230a2625938cf447a58ef37438d7d397a7a135a17421e2cf28d2e.html",
+          "snapshot_sha256": "44ede0b777e230a2625938cf447a58ef37438d7d397a7a135a17421e2cf28d2e",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/523d6f16f62ceec2cfadaf79d4d56288c069a25fa2252ed5f6d54f1b0c88cb60.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://sipa.jlu.edu.cn/hzjl/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:00:53+08:00",
+      "original_issues": [
+        "LIST_CANDIDATE_RECALL_GAP",
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "DATE_MISSING"
+      ],
+      "details": [
+        {
+          "url": "https://sipa.jlu.edu.cn/xygk/xyjj.htm",
+          "original_checked_at": "2026-10-13T14:00:54+08:00",
+          "snapshot": "html/2c6082504494d08f64f85781ac28869a6b55d53c40e49c462d2b0fcbc635d2d3.html",
+          "snapshot_sha256": "2c6082504494d08f64f85781ac28869a6b55d53c40e49c462d2b0fcbc635d2d3",
+          "accepted": true,
+          "title": "",
+          "date": "None",
+          "content_chars": 1906,
+          "attachments": 0,
+          "content_sha256": "b5019a23c242f198fb1281255e3f37d83e788a292d2a88d17081304a77570154"
+        }
+      ],
+      "list_snapshot": "html/191bd90849a26768722fd93d68eef03b04cc032823403d12b25130eaa84c0293.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/xsgz/jyxx.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T14:02:20+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+          "original_checked_at": "2026-10-13T14:02:21+08:00",
+          "snapshot": "html/c75faf33cc47a1b3e74f5b4496d942c14838e9f39be87140f22193069f26b210.html",
+          "snapshot_sha256": "c75faf33cc47a1b3e74f5b4496d942c14838e9f39be87140f22193069f26b210",
+          "accepted": true,
+          "title": "和昌集团2018“昌想家”校园招聘宣讲会",
+          "date": "2017-10-21",
+          "content_chars": 2073,
+          "attachments": 0,
+          "content_sha256": "14c6376fcd216b86415f4c2ac78badc978c1bbdb07113bbff311e3ea7a1f20b1"
+        }
+      ],
+      "list_snapshot": "html/32f285342baafa0c120aa15366a918e2cb06ef01571eaacb71654654aa463280.html",
+      "list_count": 10,
+      "list_urls": [
+        "https://zsy.jlu.edu.cn/info/1065/7589.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7588.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7587.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7586.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7585.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7584.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7583.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7582.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7581.htm",
+        "https://zsy.jlu.edu.cn/info/1065/7580.htm"
+      ]
+    },
+    {
+      "url": "https://zsy.jlu.edu.cn/yjsjy/jyxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:02:25+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "https://zsy.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:02:26+08:00",
+          "snapshot": "html/78e1a1697d7ecc729fc11533c7e99d9bf5c481b16ebdac88e2ccd09c19c5611c.html",
+          "snapshot_sha256": "78e1a1697d7ecc729fc11533c7e99d9bf5c481b16ebdac88e2ccd09c19c5611c",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/f5b26cb43e68299a50bb6b67c8142925cc38ae3d5786c70b7856c3986bcad4e8.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/bksjy/bkjxtz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:05:53+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION",
+        "DATE_MISMATCH"
+      ],
+      "details": [
+        {
+          "url": "https://cse.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:05:54+08:00",
+          "snapshot": "html/5a3350b7443513188b3e5e84b1d3fec7a826329b20b7111fc77d93585dbd4ea3.html",
+          "snapshot_sha256": "5a3350b7443513188b3e5e84b1d3fec7a826329b20b7111fc77d93585dbd4ea3",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/2db395ec2aff335889aa84e660031de9145bc88fcb9523488a7383eac29b4879.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://cse.jlu.edu.cn/yjsjy/yjstz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:05:55+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION",
+        "DATE_MISMATCH"
+      ],
+      "details": [
+        {
+          "url": "https://cse.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:05:54+08:00",
+          "snapshot": "html/5a3350b7443513188b3e5e84b1d3fec7a826329b20b7111fc77d93585dbd4ea3.html",
+          "snapshot_sha256": "5a3350b7443513188b3e5e84b1d3fec7a826329b20b7111fc77d93585dbd4ea3",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/d0cc3bc397ea21bf2041752e9ac5a116ec32f5ccbb0099b580ccd725e4f4a491.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://bsh.jlu.edu.cn/zpxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:05:43+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "https://bsh.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:05:45+08:00",
+          "snapshot": "html/2e7c73670ede6717a630e1c858b5f7b78f16934f579b4c01b90cd2613164b6da.html",
+          "snapshot_sha256": "2e7c73670ede6717a630e1c858b5f7b78f16934f579b4c01b90cd2613164b6da",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/19a76ebdbfebf8bfd465fe6684c05241ad0650a6901e6db40c9256b246fefc5c.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "https://dbmz.jlu.edu.cn/tzgg.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T14:06:18+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+          "original_checked_at": "2026-10-13T14:06:19+08:00",
+          "snapshot": "html/3ae7cf12c0736e43ff3f73c621d448344486271f0d8ec95adb13993c0e1dc527.html",
+          "snapshot_sha256": "3ae7cf12c0736e43ff3f73c621d448344486271f0d8ec95adb13993c0e1dc527",
+          "accepted": true,
+          "title": "中央党校一级教授、博士生导师韩庆祥教授到吉林大学马克思主义学院作学术讲座",
+          "date": "2024-12-31",
+          "content_chars": 916,
+          "attachments": 0,
+          "content_sha256": "39bd8b2667efe0eae945333571bc6a9fa621087208554eae23b78b097704b339"
+        }
+      ],
+      "list_snapshot": "html/f6538df135b873ec9fc1d79644ecac4d29d883e3a32ec86216dbdb119a960531.html",
+      "list_count": 8,
+      "list_urls": [
+        "https://dbmz.jlu.edu.cn/info/1026/1106.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1110.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1116.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1128.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1120.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1261.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1258.htm",
+        "https://dbmz.jlu.edu.cn/info/1026/1124.htm"
+      ]
+    },
+    {
+      "url": "https://iiimct.jlu.edu.cn/xwzx/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:48:11+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "DATE_MISSING"
+      ],
+      "details": [
+        {
+          "url": "https://iiimct.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:06:59+08:00",
+          "snapshot": "html/fb43107c0c6247629696bef3b4d57cc5c8b5fbb2a4ce21c25d86309802024840.html",
+          "snapshot_sha256": "fb43107c0c6247629696bef3b4d57cc5c8b5fbb2a4ce21c25d86309802024840",
+          "accepted": true,
+          "title": "首页",
+          "date": "None",
+          "content_chars": 347,
+          "attachments": 0,
+          "content_sha256": "7420248e02ef236031f75a889d732045685f6cd640fe8bae1578f3c5959d57c5"
+        }
+      ],
+      "list_snapshot": "html/bfdde6e7149e9e9848180db5470b3c127a8a1f949d3451f42784eb2c111c937e.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "http://cie.jlu.edu.cn/ggtz.htm",
+      "groups": [
+        "high_value"
+      ],
+      "original_status": "部分通过",
+      "original_checked_at": "2026-10-13T13:51:47+08:00",
+      "original_issues": [
+        "LIST_DATES_MISSING",
+        "ATTACHMENTS_UNCHECKED",
+        "ATTACHMENT_ENDPOINT_FAILED",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "http://cie.jlu.edu.cn/info/1047/3592.htm",
+          "original_checked_at": "2026-10-13T13:51:48+08:00",
+          "snapshot": "html/817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e.html",
+          "snapshot_sha256": "817d13c65e1ac9f3ae0e716e205d64a9f43df32869e50785c2f93749a4e22f2e",
+          "accepted": true,
+          "title": "2026/2027学年吉林大学中国政府奖学金“高水平研究生”项目招生简章（TypeB）",
+          "date": "2025-10-22",
+          "content_chars": 2442,
+          "attachments": 4,
+          "content_sha256": "aa39344a63d50a82140722356c9dc813024318a76a977596ed5acc8890776c15"
+        },
+        {
+          "url": "http://cie.jlu.edu.cn/info/1047/3734.htm",
+          "original_checked_at": "2026-10-13T13:51:50+08:00",
+          "snapshot": "html/fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764.html",
+          "snapshot_sha256": "fa9afe12be8f27ddbb8249e032dcc6f8101dfa0f23f3d08d3113db77f9f05764",
+          "accepted": true,
+          "title": "关于公示2026届优秀国际学生毕业生评选结果的通知",
+          "date": "2026-06-05",
+          "content_chars": 320,
+          "attachments": 1,
+          "content_sha256": "a986e030035cd7003929af3f8f544ae8f3888641d949b9c4d2c2ed38b7ee1399"
+        }
+      ],
+      "list_snapshot": "html/95b00c18a1284d51c6b20127c07a6883b26ea043b6e1fbabf139ea32133b61ed.html",
+      "list_count": 10,
+      "list_urls": [
+        "http://cie.jlu.edu.cn/info/1047/3592.htm",
+        "http://cie.jlu.edu.cn/info/1047/3734.htm",
+        "http://cie.jlu.edu.cn/info/1047/3684.htm",
+        "http://cie.jlu.edu.cn/info/1047/3663.htm",
+        "http://cie.jlu.edu.cn/info/1047/3654.htm",
+        "http://cie.jlu.edu.cn/info/1047/3653.htm",
+        "http://cie.jlu.edu.cn/info/1047/3625.htm",
+        "http://cie.jlu.edu.cn/info/1047/3613.htm",
+        "http://cie.jlu.edu.cn/info/1047/3609.htm",
+        "http://cie.jlu.edu.cn/info/1047/3605.htm"
+      ]
+    },
+    {
+      "url": "http://bjkg.jlu.edu.cn/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:45:18+08:00",
+      "original_issues": [
+        "LIST_CANDIDATE_RECALL_GAP",
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "TITLE_MISMATCH",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "http://bjkg.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:02:33+08:00",
+          "snapshot": "html/31dbbc14c4fa3ddb82610e82c884443f8a92e0ecdcf5ceaacb4b2c1afadc0c71.html",
+          "snapshot_sha256": "31dbbc14c4fa3ddb82610e82c884443f8a92e0ecdcf5ceaacb4b2c1afadc0c71",
+          "accepted": true,
+          "title": "快速通道",
+          "date": "2025-12-19",
+          "content_chars": 431,
+          "attachments": 0,
+          "content_sha256": "0030b2b9ec6beb5a48a7cc98b5a989a05a0674a407e9e70f9c8e59f87c3432a9"
+        }
+      ],
+      "list_snapshot": "html/80570d313a951c14957b6cbe18f4c7947d467a7bc3a51aa5cec2b8b3796da71f.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "http://gjs.jlu.edu.cn/zsjy/zsxx.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:02:51+08:00",
+      "original_issues": [
+        "LIST_CANDIDATE_RECALL_GAP",
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION",
+        "PAGINATION_DYNAMIC_OR_UNRESOLVED"
+      ],
+      "details": [
+        {
+          "url": "http://gjs.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:02:53+08:00",
+          "snapshot": "html/0a590ac41b893bb576bb9ae6fc81e602537e5fd155952b24495a1ebb01aac1ba.html",
+          "snapshot_sha256": "0a590ac41b893bb576bb9ae6fc81e602537e5fd155952b24495a1ebb01aac1ba",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/2bc6f541cbf49b57087b237ef665a0af3c4ea5c484cb627f063762aa3b0c6d14.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "http://indss.jlu.edu.cn/rcpy/tzgg.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T13:47:37+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK"
+      ],
+      "details": [
+        {
+          "url": "http://indss.jlu.edu.cn/index.htm",
+          "original_checked_at": "2026-10-13T14:03:16+08:00",
+          "snapshot": "html/2cc4df0fa835326f3069ecd4d9c682def5101e66687e4ef44fc1a4d45d2e74fd.html",
+          "snapshot_sha256": "2cc4df0fa835326f3069ecd4d9c682def5101e66687e4ef44fc1a4d45d2e74fd",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/5cfdeee45ead2849126b9b2080e846b6d5a9d1fdece44af64555e7388326dfa9.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "http://jsgzb.jlu.edu.cn/tzgg.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T13:35:08+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+          "original_checked_at": "2026-10-13T14:03:41+08:00",
+          "snapshot": "html/55880c29d76107890aad1427f2f03e5bd9a2a3702ca8b895c074f92cb4deb691.html",
+          "snapshot_sha256": "55880c29d76107890aad1427f2f03e5bd9a2a3702ca8b895c074f92cb4deb691",
+          "accepted": true,
+          "title": "关于举行教职工荣休大会的通知",
+          "date": "2025-11-20",
+          "content_chars": 351,
+          "attachments": 0,
+          "content_sha256": "cf22638d78bd28041def5d232ffb9b5be3dd11e1a0354e63126f93c5b0624cdd"
+        }
+      ],
+      "list_snapshot": "html/19f1c91c55c568d96d8bccac5f3d24a9667aec8f094253f7efd234a6f27485df.html",
+      "list_count": 13,
+      "list_urls": [
+        "http://jsgzb.jlu.edu.cn/info/1033/1664.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1646.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1643.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1648.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1645.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1561.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1531.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1535.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1349.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1351.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1352.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1356.htm",
+        "http://jsgzb.jlu.edu.cn/info/1033/1357.htm"
+      ]
+    },
+    {
+      "url": "http://nlshm-lab.jlu.edu.cn/rczp/zpxx.htm",
+      "groups": [
+        "positive_sample"
+      ],
+      "original_status": "完全通过",
+      "original_checked_at": "2026-10-13T14:04:37+08:00",
+      "original_issues": [],
+      "details": [
+        {
+          "url": "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+          "original_checked_at": "2026-10-13T14:04:39+08:00",
+          "snapshot": "html/7eda603baf9a32873204ca79f7a9531ec48749ed010487f71ec2da15be9f54d8.html",
+          "snapshot_sha256": "7eda603baf9a32873204ca79f7a9531ec48749ed010487f71ec2da15be9f54d8",
+          "accepted": true,
+          "title": "超硬材料国家重点实验室2023年度公开招聘专业技术人员拟聘人选公示",
+          "date": "2023-09-20",
+          "content_chars": 354,
+          "attachments": 0,
+          "content_sha256": "23dd35cccf95191e7808b15cb2e372e323f1537e90afbf1b33df9ad88720b85f"
+        }
+      ],
+      "list_snapshot": "html/0d01bd79f34eff8c27311a2649d63294d1d7746a00e7d07451835389523a5cea.html",
+      "list_count": 7,
+      "list_urls": [
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1154.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1153.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1152.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1151.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1157.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1156.htm",
+        "http://nlshm-lab.jlu.edu.cn/info/1029/1155.htm"
+      ]
+    },
+    {
+      "url": "http://pftheory.jlu.edu.cn/zxxw1/zxtz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:05:04+08:00",
+      "original_issues": [
+        "LIST_CANDIDATE_RECALL_GAP",
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "DATE_MISSING",
+        "PAGINATION_NOT_CONFIGURED"
+      ],
+      "details": [
+        {
+          "url": "http://pftheory.jlu.edu.cn/zxgk1/jdjj.htm",
+          "original_checked_at": "2026-10-13T14:05:05+08:00",
+          "snapshot": "html/97e4838ef0446a803035481c7de84bf836d098414465294b8038011760e30f76.html",
+          "snapshot_sha256": "97e4838ef0446a803035481c7de84bf836d098414465294b8038011760e30f76",
+          "accepted": true,
+          "title": "中心概况",
+          "date": "None",
+          "content_chars": 3223,
+          "attachments": 0,
+          "content_sha256": "13d0a2d5b772ac35367cf0ca197d9e4faf54e4faa777f37c5728e28ed3ba12ef"
+        }
+      ],
+      "list_snapshot": "html/b253476748812e050f1a59fb28e0945443cffa4e4ea2dd4bdea4604723b22e8c.html",
+      "list_count": 0,
+      "list_urls": []
+    },
+    {
+      "url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/yjsjy/yjsytz.htm",
+      "groups": [
+        "navigation_suspect"
+      ],
+      "original_status": "失败",
+      "original_checked_at": "2026-10-13T14:07:03+08:00",
+      "original_issues": [
+        "POSSIBLE_NAVIGATION_CAPTURE",
+        "LIST_DATES_MISSING",
+        "TITLE_NOT_IN_DETAIL_HEADING",
+        "BODY_CONTAINER_FALLBACK",
+        "BODY_NAVIGATION_CONTAMINATION"
+      ],
+      "details": [
+        {
+          "url": "http://jdyxb.jlu.edu.cn/bqeyjsbgs/index.htm",
+          "original_checked_at": "2026-10-13T14:07:04+08:00",
+          "snapshot": "html/e120d646bc1d726c2c305a1a00b9b2f4b97193d002ddf10788384205036993ef.html",
+          "snapshot_sha256": "e120d646bc1d726c2c305a1a00b9b2f4b97193d002ddf10788384205036993ef",
+          "accepted": false,
+          "reason": "HTMLParseError: HTML_DETAIL_UNSUPPORTED: no scoped notice content container; configure a content selector"
+        }
+      ],
+      "list_snapshot": "html/42b5ae35e7942101f04248c6c34e7e50ab58f2a5235a89a547d39e2d4255d33b.html",
+      "list_count": 0,
+      "list_urls": []
+    }
+  ],
+  "groups": {
+    "configured": 8,
+    "high_value": 30,
+    "positive_sample": 11,
+    "navigation_suspect": 27
+  }
+}

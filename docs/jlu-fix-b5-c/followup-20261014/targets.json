@@ -1,0 +1,421 @@
+[
+  {
+    "id": "existing-cse-0",
+    "url": "https://cse.jlu.edu.cn/xytz.htm",
+    "column": "学院通知",
+    "kind": "existing",
+    "config": {
+      "code": "cse",
+      "name": "吉林大学网络安全学院",
+      "base_url": "https://cse.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "cse",
+      "sections": [
+        {
+          "name": "学院通知",
+          "url": "https://cse.jlu.edu.cn/xytz.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-cse-1",
+    "url": "https://cse.jlu.edu.cn/bkjxtz.htm",
+    "column": "本科教学通知",
+    "kind": "existing",
+    "config": {
+      "code": "cse",
+      "name": "吉林大学网络安全学院",
+      "base_url": "https://cse.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "cse",
+      "sections": [
+        {
+          "name": "本科教学通知",
+          "url": "https://cse.jlu.edu.cn/bkjxtz.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-ccst-0",
+    "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm",
+    "column": "教学通知",
+    "kind": "existing",
+    "config": {
+      "code": "ccst",
+      "name": "吉林大学计算机科学与技术学院",
+      "base_url": "https://ccst.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "ccst",
+      "sections": [
+        {
+          "name": "教学通知",
+          "url": "https://ccst.jlu.edu.cn/rcpy/bksjy/jxtz.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-csw-0",
+    "url": "https://csw.jlu.edu.cn/index/xytz_.htm",
+    "column": "学院通知",
+    "kind": "existing",
+    "config": {
+      "code": "csw",
+      "name": "吉林大学软件学院",
+      "base_url": "https://csw.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "csw",
+      "sections": [
+        {
+          "name": "学院通知",
+          "url": "https://csw.jlu.edu.cn/index/xytz_.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-csw-1",
+    "url": "https://csw.jlu.edu.cn/index/jbtz.htm",
+    "column": "教办通知",
+    "kind": "existing",
+    "config": {
+      "code": "csw",
+      "name": "吉林大学软件学院",
+      "base_url": "https://csw.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "csw",
+      "sections": [
+        {
+          "name": "教办通知",
+          "url": "https://csw.jlu.edu.cn/index/jbtz.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-jwc-0",
+    "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm",
+    "column": "通知公告",
+    "kind": "existing",
+    "config": {
+      "code": "jwc",
+      "name": "吉林大学本科生院",
+      "base_url": "https://jwc.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "jwc",
+      "sections": [
+        {
+          "name": "通知公告",
+          "url": "https://jwc.jlu.edu.cn/zxzx/tzgg.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-innovation-0",
+    "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm",
+    "column": "通知公告",
+    "kind": "existing",
+    "config": {
+      "code": "innovation",
+      "name": "吉林大学创新创业教育学院",
+      "base_url": "https://cxcyjyxy.jlu.edu.cn",
+      "enabled": false,
+      "execution_policy": "cloud_preferred",
+      "parser": "innovation",
+      "sections": [
+        {
+          "name": "通知公告",
+          "url": "https://cxcyjyxy.jlu.edu.cn/index/tzgg.htm"
+        }
+      ]
+    }
+  },
+  {
+    "id": "existing-oa-0",
+    "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577",
+    "column": "校内通知",
+    "kind": "existing",
+    "config": {
+      "code": "oa",
+      "name": "吉林大学 OA 校内通知",
+      "base_url": "https://oa.jlu.edu.cn",
+      "enabled": false,
+      "parser": "oa_public",
+      "ownership": "OFFICIAL_CLOUD",
+      "source_type": "official",
+      "auth_required": false,
+      "auth_type": "none",
+      "source_scope": "official",
+      "execution": "cloud",
+      "execution_policy": "cloud_preferred",
+      "cloud_policy": "force_enabled",
+      "dedup_across_sources": true,
+      "sections": [
+        {
+          "name": "校内通知",
+          "url": "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?channelId=179577"
+        }
+      ]
+    }
+  },
+  {
+    "id": "xsc",
+    "institution": "党委学生工作部（处）、党委武装部",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；官网通知栏目原页，首页以查看更多链接呈现",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-xsc",
+      "name": "党委学生工作部（处）、党委武装部 / 通知公告",
+      "base_url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://xsc.jlu.edu.cn/index/tzgg.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "employment-notices",
+    "institution": "学生就业创业指导与服务中心",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；就业网公开列表原页",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-employment-notices",
+      "name": "学生就业创业指导与服务中心 / 通知公告",
+      "base_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1,
+        "item_selector": ".m-list-line_content",
+        "title_selector": "h3 a[title]",
+        "url_selector": "h3 a[href*='/portal/jyzp/article/details?id=']",
+        "time_selector": "span:last-child"
+      }
+    },
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "employment-publicity",
+    "institution": "学生就业创业指导与服务中心",
+    "column": "公示",
+    "priority": "P1",
+    "discovery_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_tzgg",
+    "discovery_basis": "2026-10-13 官方站限定检索补充；就业网公开列表原页",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-employment-publicity",
+      "name": "学生就业创业指导与服务中心 / 公示",
+      "base_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1,
+        "item_selector": ".m-list-line_content",
+        "title_selector": "h3 a[title]",
+        "url_selector": "h3 a[href*='/portal/jyzp/article/details?id=']",
+        "time_selector": "span:last-child"
+      }
+    },
+    "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/article/list?cid=jyzp_gs",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "jwc-certificates",
+    "institution": "本科生院 / 吉林大学本科生院",
+    "column": "证明书公示",
+    "priority": "P1",
+    "discovery_url": "https://jwc.jlu.edu.cn/",
+    "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-jwc-certificates",
+      "name": "本科生院 / 吉林大学本科生院 / 证明书公示",
+      "base_url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://jwc.jlu.edu.cn/fwzn/xy1/zmsgs.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "kjc",
+    "institution": "科研院 / 科技管理办公室",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://kjc.jlu.edu.cn/",
+    "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-kjc",
+      "name": "科研院 / 科技管理办公室 / 通知公告",
+      "base_url": "https://kjc.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://kjc.jlu.edu.cn/tzgg.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "hssra",
+    "institution": "社会科学研究院",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://hssra.jlu.edu.cn/",
+    "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-hssra",
+      "name": "社会科学研究院 / 通知公告",
+      "base_url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://hssra.jlu.edu.cn/tzgg1.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "graduate-school",
+    "institution": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://yjsy.jlu.edu.cn/",
+    "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-graduate-school",
+      "name": "研究生院 / 学位办公室 / 研究生培养办公室 / 研究生管理办公室 / 研究生工作部 / 研究生综合办公室 / 通知公告",
+      "base_url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://yjsy.jlu.edu.cn/tzgg.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "youth",
+    "institution": "团委",
+    "column": "通知公告",
+    "priority": "P1",
+    "discovery_url": "https://youth.jlu.edu.cn/",
+    "discovery_basis": "官网首页或一级教学/学生/科研入口的栏目链接",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-youth",
+      "name": "团委 / 通知公告",
+      "base_url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "https://youth.jlu.edu.cn/index/tzgg.htm",
+    "kind": "disabled_candidate"
+  },
+  {
+    "id": "international",
+    "institution": "国际教育学院 / 留学生教育 / 留学生招生",
+    "column": "公告通知 / NOTICE",
+    "priority": "P1",
+    "discovery_url": "http://cie.jlu.edu.cn/",
+    "discovery_basis": "缓存官网页面的通知标题/更多链接补充识别",
+    "scope": "only this public column; first page; no history/cloud admission",
+    "conditional": false,
+    "support_status": "DRAFT_UNVERIFIED_DISABLED",
+    "config": {
+      "code": "candidate-jlu-international",
+      "name": "国际教育学院 / 留学生教育 / 留学生招生 / 公告通知 / NOTICE",
+      "base_url": "http://cie.jlu.edu.cn/ggtz.htm",
+      "parser": "generic_html",
+      "enabled": false,
+      "auth_type": "none",
+      "allow_private_network": false,
+      "validation_scope": "local",
+      "execution_policy": "cloud_preferred",
+      "parser_config": {
+        "pagination_limit": 1
+      }
+    },
+    "url": "http://cie.jlu.edu.cn/ggtz.htm",
+    "kind": "disabled_candidate"
+  }
+]

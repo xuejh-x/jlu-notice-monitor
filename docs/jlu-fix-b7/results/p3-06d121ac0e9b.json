@@ -1,0 +1,316 @@
+{
+  "id": "p3-06d121ac0e9b",
+  "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+  "institution": "理论化学研究所",
+  "column": "招生信息",
+  "site_url": "http://itc.jlu.edu.cn/",
+  "priority": "P3",
+  "old_status": "部分通过",
+  "old_issues": "TITLE_NOT_IN_DETAIL_HEADING | BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+  "original_evidence": "docs/jlu-audit-evidence/results/06d121ac0e9b6c27.json",
+  "original_capture_time": "2026-10-13T14:03:25+08:00",
+  "discovery_url": "http://itc.jlu.edu.cn/",
+  "config": {
+    "code": "candidate-jlu-p3-06d121ac0e9b",
+    "name": "理论化学研究所 / 招生信息",
+    "base_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "parser": "generic_html",
+    "enabled": false,
+    "auth_type": "none",
+    "allow_private_network": false,
+    "validation_scope": "local",
+    "execution_policy": "cloud_preferred",
+    "parser_config": {
+      "pagination_limit": 2,
+      "next_page_selector": ".p_pages .p_next a, a.Next:-soup-contains(\"下页\"), .paging-arrow.xicon-right[href]"
+    }
+  },
+  "checked_at": "2026-10-15T23:01:10+08:00",
+  "details": [
+    {
+      "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+      "list_title": "招生宣传册 2019/09/24",
+      "list_date": "",
+      "response": {
+        "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+        "time": "2026-10-15T22:15:19+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "8d976d82250ff1fa2c1c5b10dd555b2ab8e2026308a942ffd4bbc76eff612e2a",
+        "html_path": "html/8d976d82250ff1fa2c1c5b10dd555b2ab8e2026308a942ffd4bbc76eff612e2a.html",
+        "replacement_chars": 0,
+        "chars": 11697,
+        "attempts": 1
+      },
+      "parsed": {
+        "public_id": null,
+        "origin_item_key": null,
+        "title": "招生宣传册",
+        "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+        "publish_date": "2019-09-24",
+        "publisher": null,
+        "content": "招生相关信息请参考附件中的招生宣传册 http://itc.jlu.edu.cn/system/resource/images/fileTypeImages/icon_pdf.gif 招生宣传册-2019.pdf",
+        "attachments": [
+          {
+            "filename": "招生宣传册-2019.pdf",
+            "url": "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326",
+            "type": "pdf"
+          }
+        ],
+        "section": null,
+        "category": null,
+        "registration_start": null,
+        "registration_deadline": null,
+        "event_start": null,
+        "event_end": null,
+        "target_students": null,
+        "registration_method": null,
+        "competition_level": null
+      },
+      "comparison": {
+        "title_verified": true,
+        "date_verified": true,
+        "body_verified": true,
+        "attachments_verified": true,
+        "reference_titles": [],
+        "reference_dates": [
+          {
+            "text": "发布日期：2019-09-24",
+            "date": "2019-09-24"
+          },
+          {
+            "text": "发布日期：2019-09-24",
+            "date": "2019-09-24"
+          }
+        ],
+        "issues": [],
+        "body_reference_chars": 33,
+        "reference_attachment_urls": [
+          "http://itc.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1409282311&wbfileid=4398326"
+        ],
+        "missing_attachment_urls": [],
+        "additional_publication_evidence": [
+          {
+            "text": "发布日期：2019-09-24",
+            "date": "2019-09-24"
+          },
+          {
+            "text": "发布日期：2019-09-24",
+            "date": "2019-09-24"
+          }
+        ],
+        "source_replacement_characters": 0,
+        "independent_b7_header_titles": [
+          {
+            "tag": "p",
+            "classes": [
+              "biaoti"
+            ],
+            "text": "招生宣传册"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ],
+  "pages": [
+    {
+      "response": {
+        "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+        "time": "2026-10-15T22:15:17+08:00",
+        "ok": true,
+        "final_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+        "content_type": "text/html",
+        "status": 200,
+        "auth": false,
+        "sha256": "9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952",
+        "html_path": "html/9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952.html",
+        "replacement_chars": 0,
+        "chars": 14664,
+        "attempts": 1
+      },
+      "reference_urls": [
+        "http://itc.jlu.edu.cn/info/1029/1466.htm"
+      ],
+      "observed_next_urls": []
+    }
+  ],
+  "enabled": false,
+  "formal_admission": false,
+  "cloud_production_verified": false,
+  "complete_download_verified": false,
+  "history_verified": false,
+  "status": "部分通过",
+  "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+  "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+  "response": {
+    "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "time": "2026-10-15T22:15:17+08:00",
+    "ok": true,
+    "final_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "content_type": "text/html",
+    "status": 200,
+    "auth": false,
+    "sha256": "9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952",
+    "html_path": "html/9c55d46df049c810502a936c141685a419dd496cb771ccd87675dd695aabf952.html",
+    "replacement_chars": 0,
+    "chars": 14664,
+    "attempts": 1
+  },
+  "items": [
+    {
+      "public_id": null,
+      "origin_item_key": null,
+      "title": "招生宣传册 2019/09/24",
+      "url": "http://itc.jlu.edu.cn/info/1029/1466.htm",
+      "publish_date": null,
+      "publisher": null,
+      "content": "",
+      "attachments": [],
+      "section": null,
+      "category": null,
+      "registration_start": null,
+      "registration_deadline": null,
+      "event_start": null,
+      "event_end": null,
+      "target_students": null,
+      "registration_method": null,
+      "competition_level": null
+    }
+  ],
+  "list_count": 1,
+  "pagination": [
+    {
+      "start_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+      "page_limit": 2,
+      "item_limit": 60,
+      "pages": [
+        {
+          "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+          "parsed_items": 1,
+          "added_items": 1
+        }
+      ],
+      "stop_reason": "NO_NEXT_PAGE",
+      "truncated_items": 0
+    }
+  ],
+  "missing_reference_urls": [],
+  "unexpected_urls": [],
+  "pagination_verified": true,
+  "external_references_not_fetched": [],
+  "needed_details": 1,
+  "database_replay": {
+    "mode": "offline parsed-sample replay only",
+    "database": "sqlite://",
+    "retention_days_test_only": 3650,
+    "retention_filter_disabled_for_identity_test": true,
+    "sampled_candidates": 1,
+    "first_round": {
+      "source": "p3-06d121ac0e9b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 1,
+          "detail_skipped": 0,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 1,
+      "detail_skipped": 0,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.0999967344105244e-05,
+      "detail_duration_seconds": 2.00001522898674e-06,
+      "parse_db_duration_seconds": 0.01815669995266944
+    },
+    "second_round": {
+      "source": "p3-06d121ac0e9b",
+      "execution_policy": "local_only",
+      "effective_execution": "local",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "attempts": [
+        {
+          "execution": "local",
+          "status": "success",
+          "error": null,
+          "fetched": 1,
+          "detail_fetched": 0,
+          "detail_skipped": 1,
+          "new_count": 0,
+          "updated_count": 0,
+          "unchanged_count": 1
+        }
+      ],
+      "status": "success",
+      "fetched": 1,
+      "detail_fetched": 0,
+      "detail_skipped": 1,
+      "new_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 1,
+      "errors": [],
+      "list_duration_seconds": 1.5400000847876072e-05,
+      "detail_duration_seconds": 0.0,
+      "parse_db_duration_seconds": 0.0
+    },
+    "notice_count": 1,
+    "relation_count": 1,
+    "ids_content_baseline_preserved": true,
+    "relations_preserved": true,
+    "states_preserved": true,
+    "favorites_preserved": true,
+    "unexpected_merge_requires_review": false,
+    "passed": true
+  },
+  "summary": {
+    "id": "p3-06d121ac0e9b",
+    "institution": "理论化学研究所",
+    "column": "招生信息",
+    "url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "priority": "P3",
+    "original_status": "部分通过",
+    "original_issues": "TITLE_NOT_IN_DETAIL_HEADING | BODY_TOO_SHORT | ATTACHMENT_ENDPOINT_FAILED | PAGINATION_DYNAMIC_OR_UNRESOLVED",
+    "status": "部分通过",
+    "verdict": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "reason": "Independent list/detail/date/attachment DOM checks and isolated replay passed; file download, actual Cloud and full history unverified",
+    "capture_time": "2026-10-15T22:15:17+08:00",
+    "review_time": "2026-10-15T23:01:10+08:00",
+    "http_status": 200,
+    "final_url": "http://itc.jlu.edu.cn/yjspy/zsxx.htm",
+    "list_pages": 1,
+    "list_items": 1,
+    "details": 1,
+    "verified_details": 1,
+    "issues": [],
+    "discovery_url": "http://itc.jlu.edu.cn/",
+    "evidence_file": "docs/jlu-fix-b7/results/p3-06d121ac0e9b.json",
+    "windows_preview": "BOUNDED_SAMPLE_PASSED_LIMITS_REMAIN",
+    "cloud_linux": "NOT_VERIFIED",
+    "cloud_feed": "NOT_RETESTED",
+    "installed_desktop": "NOT_RETESTED",
+    "attachment_scope": "DOM references only; no endpoint prefix/full downloads",
+    "history_verified": false,
+    "isolated_replay": "offline parsed-sample replay only",
+    "enabled": false,
+    "formal_admission": false
+  },
+  "code_manifest": "docs/jlu-fix-b7/review-guarded-20261015/code-manifest.json"
+}
